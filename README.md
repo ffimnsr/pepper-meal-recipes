@@ -70,4 +70,6 @@ Clients should:
 
 `release.json` is the only mutable bootstrap target. Recipe files and manifests are intended to be immutable once published.
 
-Recipe payloads do not embed their own file hashes. Integrity data lives in indexes and manifests so clients can verify downloaded bytes without self-referential metadata.
+Recipe payloads do not embed their own file hashes. Integrity data lives in release metadata and manifests so clients can verify downloaded bytes without self-referential metadata.
+
+The recipes browse index is intentionally lighter weight than the manifests. Per-recipe sync fields such as `file_sha256` and `recipe_path` are published in manifest `upserts`, not duplicated into `indexes/recipes.index.json`.

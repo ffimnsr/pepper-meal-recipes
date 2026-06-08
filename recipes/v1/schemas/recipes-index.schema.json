@@ -45,9 +45,7 @@
         "tag_slugs",
         "ingredient_names",
         "updated_at",
-        "revision",
-        "file_sha256",
-        "recipe_path"
+        "revision"
       ],
       "properties": {
         "id": {
@@ -188,14 +186,6 @@
         "revision": {
           "type": "integer",
           "minimum": 1
-        },
-        "file_sha256": {
-          "type": "string",
-          "pattern": "^[A-Za-z0-9:-]+$"
-        },
-        "recipe_path": {
-          "type": "string",
-          "minLength": 1
         }
       }
     }

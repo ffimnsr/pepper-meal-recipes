@@ -40,6 +40,26 @@ HEADERS = {
     "Pragma": "no-cache",
 }
 AMOUNT_TOKEN = re.compile(r"^(?:\d+(?:[./]\d+)?|\d+\s+\d+/\d+|[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]|to)$")
+FRACTION_REPLACEMENTS = {
+    "¼": "1/4",
+    "½": "1/2",
+    "¾": "3/4",
+    "⅐": "1/7",
+    "⅑": "1/9",
+    "⅒": "1/10",
+    "⅓": "1/3",
+    "⅔": "2/3",
+    "⅕": "1/5",
+    "⅖": "2/5",
+    "⅗": "3/5",
+    "⅘": "4/5",
+    "⅙": "1/6",
+    "⅚": "5/6",
+    "⅛": "1/8",
+    "⅜": "3/8",
+    "⅝": "5/8",
+    "⅞": "7/8",
+}
 TIME_LABELS = {
     "prep": "preparation_time_minutes",
     "preparation": "preparation_time_minutes",
@@ -192,6 +212,79 @@ def normalize_name(value: str) -> str:
     value = re.sub(r"[^a-z0-9\s/-]", "", value)
     value = re.sub(r"\s+", " ", value)
     return value.strip(" -/")
+
+
+def normalize_ingredient_text(value: str) -> str:
+    text = clean_text(value)
+    text = text.replace("\u2044", "/")
+    for char, replacement in FRACTION_REPLACEMENTS.items():
+        text = re.sub(rf"(\d){re.escape(char)}", rf"\1 {replacement}", text)
+        text = text.replace(char, replacement)
+    text = re.sub(r"(^|\s)/(?=\d)", r"\g<1>1/", text)
+    text = re.sub(r"(?<=\d)\s*/\s+(?=\d+/\d+\b)", " ", text)
+    text = re.sub(r"(^|\s)[~≈](?=\s*\d)", r"\1", text)
+    text = re.sub(r"[–—]", " - ", text)
+    text = re.sub(r"(?<=\d)(?=[A-Za-z])", " ", text)
+    text = re.sub(r"(?<=\d/\d)(?=[A-Za-z])", " ", text)
+    text = re.sub(r"(?<=\d)\s*-\s*(?=[A-Za-z])", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def normalize_amount_token(token: str) -> str:
+    return token.strip("()[]{}.,:;").lower()
+
+
+def is_amount_token(token: str) -> bool:
+    normalized = normalize_amount_token(token)
+    if not normalized:
+        return False
+    normalized = normalized.strip("-")
+    if AMOUNT_TOKEN.match(normalized):
+        return True
+    range_parts = [part for part in normalized.split("-") if part]
+    return len(range_parts) == 2 and all(AMOUNT_TOKEN.match(part) for part in range_parts)
+
+
+def strip_outer_parentheses(value: str) -> str:
+    text = clean_text(value)
+    while text.startswith("(") and text.endswith(")"):
+        depth = 0
+        balanced = True
+        for index, char in enumerate(text):
+            if char == "(":
+                depth += 1
+            elif char == ")":
+                depth -= 1
+                if depth == 0 and index != len(text) - 1:
+                    balanced = False
+                    break
+        if not balanced or depth != 0:
+            break
+        text = clean_text(text[1:-1])
+    return text
+
+
+def strip_leading_measurement(value: str) -> str:
+    tokens = normalize_ingredient_text(value).split()
+    while tokens and (tokens[0] == "-" or is_amount_token(tokens[0])):
+        tokens.pop(0)
+    if tokens and tokens[0].lower().rstrip(".") in KNOWN_UNITS:
+        tokens.pop(0)
+    if tokens and tokens[0].lower() == "of":
+        tokens.pop(0)
+    return clean_text(" ".join(tokens))
+
+
+def clean_ingredient_name(value: str) -> str:
+    name = clean_text(value)
+    if not name:
+        return ""
+    stripped = strip_outer_parentheses(name)
+    without_measurement = strip_leading_measurement(stripped)
+    if without_measurement:
+        return without_measurement
+    return stripped or name
 
 
 def parse_iso_duration_to_minutes(value: str | None) -> int | None:
@@ -531,17 +624,23 @@ def split_ingredient_text(text: str) -> tuple[str | None, str | None, str, str |
             preparation = clean_text(remainder)
             break
 
-    tokens = base.split()
+    base = strip_outer_parentheses(base)
+    tokens = normalize_ingredient_text(base).split()
     quantity_tokens: list[str] = []
-    while tokens and AMOUNT_TOKEN.match(tokens[0].lower()):
-        quantity_tokens.append(tokens.pop(0))
+    while tokens and (tokens[0] == "-" or is_amount_token(tokens[0])):
+        token = tokens.pop(0)
+        if token != "-":
+            quantity_tokens.append(token)
 
     quantity = " ".join(quantity_tokens) or None
     unit = None
     if tokens and tokens[0].lower().rstrip(".") in KNOWN_UNITS:
         unit = tokens.pop(0).rstrip(".")
 
-    name = clean_text(" ".join(tokens)) or original
+    if tokens and tokens[0].lower() == "of":
+        tokens.pop(0)
+
+    name = clean_ingredient_name(" ".join(tokens)) or clean_ingredient_name(original) or original
     return quantity, unit, name, preparation
 
 

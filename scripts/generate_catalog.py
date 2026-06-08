@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
+import re
 import uuid
 from collections import Counter
 from copy import deepcopy
@@ -36,6 +38,64 @@ RECIPE_NAMESPACE = uuid.uuid5(CATALOG_NAMESPACE, "recipe")
 CATEGORY_NAMESPACE = uuid.uuid5(CATALOG_NAMESPACE, "category")
 TAG_NAMESPACE = uuid.uuid5(CATALOG_NAMESPACE, "tag")
 INGREDIENT_NAMESPACE = uuid.uuid5(CATALOG_NAMESPACE, "ingredient")
+AMOUNT_TOKEN = re.compile(r"^(?:\d+(?:[./]\d+)?|\d+\s+\d+/\d+|[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞]|to)$")
+FRACTION_REPLACEMENTS = {
+    "¼": "1/4",
+    "½": "1/2",
+    "¾": "3/4",
+    "⅐": "1/7",
+    "⅑": "1/9",
+    "⅒": "1/10",
+    "⅓": "1/3",
+    "⅔": "2/3",
+    "⅕": "1/5",
+    "⅖": "2/5",
+    "⅗": "3/5",
+    "⅘": "4/5",
+    "⅙": "1/6",
+    "⅚": "5/6",
+    "⅛": "1/8",
+    "⅜": "3/8",
+    "⅝": "5/8",
+    "⅞": "7/8",
+}
+KNOWN_UNITS = {
+    "can",
+    "cans",
+    "clove",
+    "cloves",
+    "cup",
+    "cups",
+    "gram",
+    "grams",
+    "g",
+    "kg",
+    "kilogram",
+    "kilograms",
+    "lb",
+    "lbs",
+    "ounce",
+    "ounces",
+    "oz",
+    "package",
+    "packages",
+    "pack",
+    "packs",
+    "piece",
+    "pieces",
+    "pinch",
+    "pinches",
+    "pound",
+    "pounds",
+    "sprig",
+    "sprigs",
+    "tablespoon",
+    "tablespoons",
+    "tbsp",
+    "teaspoon",
+    "teaspoons",
+    "tsp",
+}
 
 
 @dataclass
@@ -84,6 +144,231 @@ def timestamp_from_unix_seconds(value: int) -> str:
 
 def stable_uuid(namespace: uuid.UUID, key: str) -> str:
     return str(uuid.uuid5(namespace, key))
+
+
+def clean_text(value: object) -> str:
+    if not value:
+        return ""
+    if isinstance(value, list):
+        value = " ".join(clean_text(item) for item in value if clean_text(item))
+    elif not isinstance(value, str):
+        value = str(value)
+    value = html.unescape(value)
+    value = value.replace("\xa0", " ")
+    value = re.sub(r"\s+", " ", value)
+    return value.strip(" \t\r\n•▢")
+
+
+def normalize_name(value: str) -> str:
+    value = clean_text(value).lower()
+    value = re.sub(r"\([^)]*\)", "", value)
+    value = re.sub(r"[^a-z0-9\s/-]", "", value)
+    value = re.sub(r"\s+", " ", value)
+    return value.strip(" -/")
+
+
+def normalize_ingredient_text(value: str) -> str:
+    text = clean_text(value)
+    text = text.replace("\u2044", "/")
+    for char, replacement in FRACTION_REPLACEMENTS.items():
+        text = re.sub(rf"(\d){re.escape(char)}", rf"\1 {replacement}", text)
+        text = text.replace(char, replacement)
+    text = re.sub(r"(^|\s)/(?=\d)", r"\g<1>1/", text)
+    text = re.sub(r"(?<=\d)\s*/\s+(?=\d+/\d+\b)", " ", text)
+    text = re.sub(r"(^|\s)[~≈](?=\s*\d)", r"\1", text)
+    text = re.sub(r"[–—]", " - ", text)
+    text = re.sub(r"(?<=\d)(?=[A-Za-z])", " ", text)
+    text = re.sub(r"(?<=\d/\d)(?=[A-Za-z])", " ", text)
+    text = re.sub(r"(?<=\d)\s*-\s*(?=[A-Za-z])", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def normalize_amount_token(token: str) -> str:
+    return token.strip("()[]{}.,:;").lower()
+
+
+def is_amount_token(token: str) -> bool:
+    normalized = normalize_amount_token(token)
+    if not normalized:
+        return False
+    normalized = normalized.strip("-")
+    if AMOUNT_TOKEN.match(normalized):
+        return True
+    range_parts = [part for part in normalized.split("-") if part]
+    return len(range_parts) == 2 and all(AMOUNT_TOKEN.match(part) for part in range_parts)
+
+
+def strip_outer_parentheses(value: str) -> str:
+    text = clean_text(value)
+    while text.startswith("(") and text.endswith(")"):
+        depth = 0
+        balanced = True
+        for index, char in enumerate(text):
+            if char == "(":
+                depth += 1
+            elif char == ")":
+                depth -= 1
+                if depth == 0 and index != len(text) - 1:
+                    balanced = False
+                    break
+        if not balanced or depth != 0:
+            break
+        text = clean_text(text[1:-1])
+    return text
+
+
+def strip_leading_measurement(value: str) -> str:
+    tokens = normalize_ingredient_text(value).split()
+    while tokens and (tokens[0] == "-" or is_amount_token(tokens[0])):
+        tokens.pop(0)
+    if tokens and tokens[0].lower().rstrip(".") in KNOWN_UNITS:
+        tokens.pop(0)
+    if tokens and tokens[0].lower() == "of":
+        tokens.pop(0)
+    return clean_text(" ".join(tokens))
+
+
+def clean_ingredient_name(value: str) -> str:
+    name = strip_note_references(clean_text(value))
+    if not name:
+        return ""
+    stripped = strip_outer_parentheses(name)
+    without_measurement = strip_leading_measurement(stripped)
+    if without_measurement:
+        return without_measurement
+    return stripped or name
+
+
+def is_section_heading(value: str) -> bool:
+    text = clean_text(value)
+    if not text or not text.startswith(">>"):
+        return False
+    content = text.lstrip(">").strip()
+    return bool(content) and content.endswith(":")
+
+
+def strip_note_references(value: str | None) -> str:
+    text = clean_text(value)
+    if not text:
+        return ""
+
+    original = text
+    pattern = re.compile(r"\([^)]*see notes?[^)]*\)\d*\)?", re.IGNORECASE)
+    previous = None
+    while text != previous:
+        previous = text
+        text = pattern.sub("", text)
+        text = re.sub(r"\s+", " ", text).strip()
+
+    if text != original:
+        text = re.sub(r"\s+\d+\)$", ")", text)
+        text = re.sub(r"\s+\d+$", "", text)
+        text = re.sub(r"(?<=\b[A-Za-z])\s+\d+(?=\)|$)", "", text)
+        text = re.sub(r"\(\s*\)", "", text)
+        text = re.sub(r"\s+", " ", text).strip()
+
+    return text
+
+
+def rebalance_parenthetical_parts(name: str, preparation: str | None) -> tuple[str, str | None]:
+    cleaned_name = clean_text(name)
+    cleaned_preparation = clean_text(preparation) or None
+    missing_closers = cleaned_name.count("(") - cleaned_name.count(")")
+
+    while missing_closers > 0 and cleaned_preparation and cleaned_preparation.endswith(")"):
+        cleaned_name = clean_text(f"{cleaned_name})")
+        cleaned_preparation = clean_text(cleaned_preparation[:-1]) or None
+        missing_closers -= 1
+
+    if missing_closers > 0:
+        cleaned_name = clean_text(f"{cleaned_name}{')' * missing_closers}")
+
+    return cleaned_name, cleaned_preparation
+
+
+def strip_unmatched_closing_parentheses(value: str | None) -> str | None:
+    text = clean_text(value) or None
+    if not text:
+        return None
+
+    excess_closers = text.count(")") - text.count("(")
+    while excess_closers > 0 and text.endswith(")"):
+        text = clean_text(text[:-1]) or None
+        excess_closers -= 1
+
+    return text
+
+
+def strip_trailing_reference_digits(value: str | None) -> str | None:
+    text = clean_text(value) or None
+    if not text:
+        return None
+
+    text = re.sub(r"\s+\d+(?=\)|$)", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text or None
+
+
+def split_ingredient_text(text: str) -> tuple[str | None, str | None, str, str | None]:
+    original = clean_text(text)
+    if not original:
+        return None, None, "", None
+
+    preparation = None
+    base = original
+    for separator in [",", " - ", " – "]:
+        if separator in base:
+            base, remainder = base.split(separator, 1)
+            preparation = clean_text(remainder)
+            break
+
+    base = strip_outer_parentheses(base)
+    tokens = normalize_ingredient_text(base).split()
+    quantity_tokens: list[str] = []
+    while tokens and (tokens[0] == "-" or is_amount_token(tokens[0])):
+        token = tokens.pop(0)
+        if token != "-":
+            quantity_tokens.append(token)
+
+    quantity = " ".join(quantity_tokens) or None
+    unit = None
+    if tokens and tokens[0].lower().rstrip(".") in KNOWN_UNITS:
+        unit = tokens.pop(0).rstrip(".")
+
+    if tokens and tokens[0].lower() == "of":
+        tokens.pop(0)
+
+    name = clean_ingredient_name(" ".join(tokens)) or clean_ingredient_name(original) or original
+    name, preparation = rebalance_parenthetical_parts(name, preparation)
+    return quantity, unit, name, preparation
+
+
+def normalize_ingredient_record(ingredient: dict) -> dict:
+    raw_parts = [ingredient.get("quantity"), ingredient.get("unit"), ingredient.get("name")]
+    raw_text = clean_text(" ".join(part for part in raw_parts if clean_text(part)))
+    quantity, unit, name, preparation = split_ingredient_text(raw_text or ingredient.get("name") or "")
+    fallback_name = clean_ingredient_name(ingredient.get("normalized_name") or "")
+    source_name = clean_text(ingredient.get("name") or "")
+    source_preparation = clean_text(ingredient.get("preparation") or "") or None
+
+    ingredient["name"] = name or clean_ingredient_name(ingredient.get("name") or "") or ingredient["name"]
+    if source_name.startswith("(") and source_name.endswith(")") and fallback_name:
+        ingredient["name"] = fallback_name
+    ingredient["name"] = strip_unmatched_closing_parentheses(ingredient.get("name")) or ingredient["name"]
+    ingredient["name"] = strip_trailing_reference_digits(ingredient.get("name")) or ingredient["name"]
+    ingredient["quantity"] = quantity if quantity is not None else ingredient.get("quantity")
+    ingredient["unit"] = unit if unit is not None else ingredient.get("unit")
+    ingredient["preparation"] = preparation if preparation is not None else source_preparation
+    ingredient["preparation"] = strip_note_references(ingredient.get("preparation")) or None
+    ingredient["preparation"] = strip_unmatched_closing_parentheses(ingredient.get("preparation"))
+    ingredient["preparation"] = strip_trailing_reference_digits(ingredient.get("preparation"))
+    ingredient["name"], ingredient["preparation"] = rebalance_parenthetical_parts(
+        ingredient["name"], ingredient.get("preparation")
+    )
+    ingredient["normalized_name"] = normalize_name(ingredient["name"]) or normalize_name(raw_text)
+    ingredient["ingredient_id"] = stable_uuid(INGREDIENT_NAMESPACE, ingredient["normalized_name"])
+    return ingredient
 
 
 def load_json(path: Path) -> dict:
@@ -165,10 +450,15 @@ def canonicalize_recipe(recipe: dict) -> dict:
     for tag in canonical.get("tags", []):
         tag["id"] = stable_uuid(TAG_NAMESPACE, tag["slug"])
 
+    normalized_ingredients: list[dict] = []
     for ingredient in canonical.get("ingredients", []):
-        ingredient_key = ingredient.get("normalized_name") or ingredient["name"].strip().lower()
-        ingredient["normalized_name"] = ingredient_key
-        ingredient["ingredient_id"] = stable_uuid(INGREDIENT_NAMESPACE, ingredient_key)
+        normalize_ingredient_record(ingredient)
+        if is_section_heading(ingredient.get("name") or ""):
+            continue
+        ingredient["position"] = len(normalized_ingredients) + 1
+        normalized_ingredients.append(ingredient)
+
+    canonical["ingredients"] = normalized_ingredients
 
     return canonical
 
@@ -315,8 +605,6 @@ def build_indexes(recipe_paths: list[Path], generated_at: str, repo_sequence: in
                 "instruction_step_count": summary.instruction_step_count,
                 "updated_at": summary.updated_at,
                 "revision": summary.revision,
-                "file_sha256": summary.file_sha256,
-                "recipe_path": summary.recipe_path,
             }
             for summary in sorted(recipe_summaries, key=lambda item: (item.name.lower(), item.slug))
         ],
