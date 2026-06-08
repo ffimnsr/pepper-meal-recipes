@@ -76,6 +76,12 @@ def utc_timestamp() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
+def timestamp_from_unix_seconds(value: int) -> str:
+    return datetime.fromtimestamp(value, tz=timezone.utc).replace(microsecond=0).isoformat().replace(
+        "+00:00", "Z"
+    )
+
+
 def stable_uuid(namespace: uuid.UUID, key: str) -> str:
     return str(uuid.uuid5(namespace, key))
 
@@ -104,6 +110,13 @@ def recipe_relative_path(recipe_id: str) -> str:
 
 def manifest_file_name(sequence: int) -> str:
     return f"{sequence:010d}.json"
+
+
+def catalog_generated_at(recipe_payloads: list[dict], fallback: str) -> str:
+    updated_values = [payload.get("updated_at") for payload in recipe_payloads if payload.get("updated_at") is not None]
+    if not updated_values:
+        return fallback
+    return timestamp_from_unix_seconds(max(updated_values))
 
 
 def parse_args() -> argparse.Namespace:
@@ -456,7 +469,7 @@ def main() -> None:
     repo_sequence = int(release.get("repo_sequence", 1))
     if args.bump_sequence:
         repo_sequence += 1
-    generated_at = utc_timestamp()
+    fallback_generated_at = release.get("generated_at") or utc_timestamp()
 
     RECIPES_DIR.mkdir(parents=True, exist_ok=True)
     INDEXES_DIR.mkdir(parents=True, exist_ok=True)
@@ -466,6 +479,11 @@ def main() -> None:
     recipe_paths = rewrite_recipe_files(canonical_recipes)
     if not recipe_paths:
         raise SystemExit("no recipe payloads found under recipes/v1/recipes/by-id")
+
+    generated_at = catalog_generated_at(
+        [canonical_recipe.payload for canonical_recipe in canonical_recipes],
+        fallback_generated_at,
+    )
 
     recipe_summaries, recipes_index, categories_index, tags_index, ingredients_index = build_indexes(
         recipe_paths,
