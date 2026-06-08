@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pmp.vastorigins.com/schemas/recipes-index.schema.json",
+  "title": "Pepper Meal Planner Recipes Index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_at",
+    "repo_sequence",
+    "recipes"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "repo_sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/recipeSummary"
+      }
+    }
+  },
+  "$defs": {
+    "recipeSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "category_slugs",
+        "tag_slugs",
+        "ingredient_names",
+        "updated_at",
+        "revision",
+        "file_sha256",
+        "recipe_path"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recipe_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cuisine": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "brief_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "image_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "difficulty": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "easy",
+            "medium",
+            "hard",
+            "expert",
+            null
+          ]
+        },
+        "servings": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "cooking_time_minutes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "preparation_time_minutes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "rest_time_minutes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "total_time_minutes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "category_slugs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tag_slugs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "dietary_labels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "allergens": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ingredient_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "instruction_step_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "updated_at": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "file_sha256": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9:-]+$"
+        },
+        "recipe_path": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

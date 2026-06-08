@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ffimnsr/mk-rs/main/docs/schema.json
+
+tasks:
+  setup:
+    commands:
+      - |
+        [ ! -d ".venv" ] && python3 -m venv .venv
+        true
+      - |
+        source .venv/bin/activate
+        python3 -m pip install -r requirements-dev.txt
+    description: Setup Python3 environment.
+  gen:
+    commands:
+      - |
+        source .venv/bin/activate
+        python3 ./scripts/generate_catalog.py
+    description: Re-generate the current catalog.
+  gen-bump:
+    commands:
+      - |
+        source .venv/bin/activate
+        python3 ./scripts/generate_catalog.py --bump-sequence
+    description: Publish new revision for clients to use.

@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pmp.vastorigins.com/schemas/manifest.schema.json",
+  "title": "Pepper Meal Planner Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "from_sequence",
+    "to_sequence",
+    "generated_at",
+    "upserts",
+    "removals"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "from_sequence": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "to_sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "upserts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/upsert"
+      }
+    },
+    "removals": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/removal"
+      }
+    }
+  },
+  "$defs": {
+    "uuid": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "hash": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9:-]+$"
+    },
+    "upsert": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "updated_at",
+        "revision",
+        "file_sha256",
+        "recipe_path"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/uuid"
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "updated_at": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "file_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "recipe_path": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "removal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "updated_at",
+        "deleted_at",
+        "revision"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/uuid"
+        },
+        "updated_at": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "deleted_at": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    }
+  }
+}

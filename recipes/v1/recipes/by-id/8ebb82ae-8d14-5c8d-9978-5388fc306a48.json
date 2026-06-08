@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8ebb82ae-8d14-5c8d-9978-5388fc306a48",
+  "slug": "tomato-soup",
+  "name": "Tomato Soup",
+  "recipe_type": "main",
+  "brief_description": "Simple tomato soup for weeknights.",
+  "cuisine": "Mediterranean",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a pot and saute the garlic until fragrant."
+    },
+    {
+      "position": 2,
+      "text": "Add the chopped tomatoes and simmer until softened."
+    },
+    {
+      "position": 3,
+      "text": "Blend the soup until smooth, then season and serve."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": 5,
+  "difficulty": "easy",
+  "image_url": "https://cdn.example.com/recipes/tomato-soup/cover.jpg",
+  "video_url": "https://cdn.example.com/recipes/tomato-soup/steps.mp4",
+  "additional_media": [
+    "https://cdn.example.com/recipes/tomato-soup/step-1.jpg",
+    "https://cdn.example.com/recipes/tomato-soup/step-2.jpg"
+  ],
+  "nutritional_information": {
+    "calories": 120,
+    "protein_g": 3,
+    "fat_g": 6,
+    "carbohydrates_g": 14
+  },
+  "dietary_labels": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [],
+  "equipment": [
+    "Large pot",
+    "Blender"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "Tomato",
+      "normalized_name": "tomato",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "roughly chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "Garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "Olive Oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tbsp",
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    }
+  ],
+  "tags": [
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": "#2E7D32"
+    },
+    {
+      "id": "f73fbc82-f5b9-54db-9301-4635097cc8c2",
+      "slug": "quick",
+      "name": "Quick",
+      "color": "#EF6C00"
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [
+    "Roast the tomatoes first for deeper flavor."
+  ],
+  "storage_notes": [
+    "Refrigerate up to 3 days."
+  ],
+  "source": {
+    "name": "Pepper Meal Planner Kitchen",
+    "url": null
+  },
+  "public": true,
+  "updated_at": 1717171717,
+  "revision": 1
+}

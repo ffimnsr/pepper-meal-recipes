@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pmp.vastorigins.com/schemas/ingredients-index.schema.json",
+  "title": "Pepper Meal Planner Ingredients Index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_at",
+    "repo_sequence",
+    "ingredients"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "repo_sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ingredientSummary"
+      }
+    }
+  },
+  "$defs": {
+    "ingredientSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "normalized_name",
+        "recipe_count"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalized_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recipe_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

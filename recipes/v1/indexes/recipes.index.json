@@ -1,0 +1,45 @@
+{
+  "$schema": "../schemas/recipes-index.schema.json",
+  "schema_version": 1,
+  "generated_at": "2026-06-08T11:33:49Z",
+  "repo_sequence": 1,
+  "recipes": [
+    {
+      "id": "8ebb82ae-8d14-5c8d-9978-5388fc306a48",
+      "slug": "tomato-soup",
+      "name": "Tomato Soup",
+      "recipe_type": "main",
+      "brief_description": "Simple tomato soup for weeknights.",
+      "cuisine": "Mediterranean",
+      "image_url": "https://cdn.example.com/recipes/tomato-soup/cover.jpg",
+      "difficulty": "easy",
+      "servings": 2,
+      "cooking_time_minutes": 20,
+      "preparation_time_minutes": 10,
+      "rest_time_minutes": 5,
+      "total_time_minutes": 35,
+      "category_slugs": [
+        "dinner"
+      ],
+      "tag_slugs": [
+        "vegetarian",
+        "quick"
+      ],
+      "dietary_labels": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "allergens": [],
+      "ingredient_names": [
+        "tomato",
+        "garlic",
+        "olive oil"
+      ],
+      "instruction_step_count": 3,
+      "updated_at": 1717171717,
+      "revision": 1,
+      "file_sha256": "f0929a3a2e03d56d1ee47834bc53b08a6608f16e65b44c3853e1ef5cfcb8ffa1",
+      "recipe_path": "recipes/by-id/8ebb82ae-8d14-5c8d-9978-5388fc306a48.json"
+    }
+  ]
+}

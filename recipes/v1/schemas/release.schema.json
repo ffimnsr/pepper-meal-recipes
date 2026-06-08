@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pmp.vastorigins.com/schemas/release.schema.json",
+  "title": "Pepper Meal Planner Release",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "catalog_version",
+    "repo_sequence",
+    "generated_at",
+    "indexes",
+    "latest_manifest"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "catalog_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repo_sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "minimum_supported_client_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "indexes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "recipes",
+        "categories",
+        "tags",
+        "ingredients"
+      ],
+      "properties": {
+        "recipes": {
+          "$ref": "#/$defs/fileRef"
+        },
+        "categories": {
+          "$ref": "#/$defs/fileRef"
+        },
+        "tags": {
+          "$ref": "#/$defs/fileRef"
+        },
+        "ingredients": {
+          "$ref": "#/$defs/fileRef"
+        }
+      }
+    },
+    "latest_manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "sequence": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9:-]+$"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "fileRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9:-]+$"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "./schemas/release.schema.json",
+  "schema_version": 1,
+  "catalog_version": "v1",
+  "repo_sequence": 1,
+  "generated_at": "2026-06-08T11:33:49Z",
+  "minimum_supported_client_version": "1.0.0",
+  "indexes": {
+    "recipes": {
+      "path": "indexes/recipes.index.json",
+      "sha256": "eec6c8931b8dc09b642bba01638462d73a411f4b638efdc0a32eb75d6f4f8de1"
+    },
+    "categories": {
+      "path": "indexes/categories.index.json",
+      "sha256": "5489f90e219c8cdeeb9727e629f0d069abfc0e79819e42cdd1a2ef8d70620e08"
+    },
+    "tags": {
+      "path": "indexes/tags.index.json",
+      "sha256": "1c6d236f4bceb91e208864d3197bf37b83991b060dd90487ad39b2b0031ceefd"
+    },
+    "ingredients": {
+      "path": "indexes/ingredients.index.json",
+      "sha256": "c6f7d818f4d9bc7f0829799b56690c5ca4c1de3b16c06cdc9653b61c05079ffa"
+    }
+  },
+  "latest_manifest": {
+    "sequence": 1,
+    "path": "manifests/0000000001.json",
+    "sha256": "e2035611782900b3e7c09080e91d4beeaad7f93f45ffca76dfd54002e593cfa3"
+  }
+}
