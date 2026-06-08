@@ -66,6 +66,18 @@
           "type": [
             "string",
             "null"
+          ],
+          "enum": [
+            "appetizer",
+            "main",
+            "side",
+            "salad",
+            "soup",
+            "dessert",
+            "breakfast",
+            "snack",
+            "drink",
+            null
           ]
         },
         "cuisine": {
