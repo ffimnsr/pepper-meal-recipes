@@ -1,0 +1,214 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b2eda43a-938c-5457-a3b3-1d56352db6e3",
+  "slug": "curry-noodles",
+  "name": "Curry Noodles",
+  "recipe_type": "main",
+  "brief_description": "A quick and comforting curry noodle dish made with Maggi Kari, tofu, vegetables, and eggs simmered together for a flavorful weeknight meal.",
+  "cuisine": "Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat cooking oil in a wok. Fry the tofu until golden then remove and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Reduce the oil and pour in the beaten eggs. Cook until firm then remove from the wok."
+    },
+    {
+      "position": 3,
+      "text": "Saut\u00e9 garlic, onion, and tomatoes until the tomatoes soften."
+    },
+    {
+      "position": 4,
+      "text": "Add fried tofu, pechay, and oyster sauce. Stir and cook for 1 minute."
+    },
+    {
+      "position": 5,
+      "text": "Pour in water and bring to a boil. Add the Maggi Kari seasoning and stir."
+    },
+    {
+      "position": 6,
+      "text": "Add the noodles and cook for about 3 minutes while stirring occasionally."
+    },
+    {
+      "position": 7,
+      "text": "Combine water and cornstarch. Pour into the wok and cook until the sauce thickens."
+    },
+    {
+      "position": 8,
+      "text": "Season with salt and ground black pepper then transfer to a serving dish."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b2eda43a-938c-5457-a3b3-1d56352db6e3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "513 kcal",
+    "carbohydrateContent": "30 g",
+    "proteinContent": "19 g",
+    "fatContent": "37 g",
+    "saturatedFatContent": "4 g",
+    "transFatContent": "0.1 g",
+    "cholesterolContent": "3 mg",
+    "sodiumContent": "963 mg",
+    "fiberContent": "6 g",
+    "sugarContent": "7 g",
+    "unsaturatedFatContent": "33 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "Wok For frying and cooking the noodles",
+    "Mixing bowl For combining the cornstarch slurry",
+    "Knife For chopping vegetables and tofu",
+    "Spatula For stirring ingredients"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "d29675d5-ab5e-5679-8d23-fd0b5012505a",
+      "name": "pack Maggi Kari",
+      "normalized_name": "pack maggi kari",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "82b8f36f-5c7c-527e-88f7-e6033d9e99e1",
+      "name": "tofu (diced and fried)",
+      "normalized_name": "tofu",
+      "quantity": "16",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2c6039db-1670-5eac-9ccc-d97c79383be0",
+      "name": "bunches pechay (chopped)",
+      "normalized_name": "bunches pechay",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs (beaten)",
+      "normalized_name": "eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes (wedged)",
+      "normalized_name": "tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (chopped)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (chopped)",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "63041ac9-6930-5398-b18d-13ee1400cb3f",
+      "name": "oyster sauce",
+      "normalized_name": "oyster sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "38197a74-9014-54df-8d01-8d00f5715290",
+      "name": "salt and ground black pepper (to taste)",
+      "normalized_name": "salt and ground black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [
+    "Let the sauce simmer longer if you want a richer consistency that coats the noodles well.",
+    "Taste the broth before adding the noodles so you can adjust the seasoning as the flavor develops.",
+    "Add a small splash of water if the noodles absorb more liquid than expected.",
+    "Use freshly chopped aromatics for deeper aroma and fuller flavor.",
+    "Add a bit of coconut milk if you want a creamier curry finish."
+  ],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/curry-noodles/"
+  },
+  "public": true,
+  "updated_at": 1764788974,
+  "revision": 1
+}

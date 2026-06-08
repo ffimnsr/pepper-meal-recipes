@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1b88037b-2f1b-5330-8758-845f453b0144",
+  "slug": "sinanglay-na-tilapia",
+  "name": "Sinanglay na Tilapia Recipe",
+  "recipe_type": "main",
+  "brief_description": "Sinanglay na Tilapia is a Filipino Recipe that involves Tilapia being cooked in coconut milk. This is best eaten with steamed rice.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a bowl, combine garlic, onion, tomatoes, and ginger then mix."
+    },
+    {
+      "position": 2,
+      "text": "Stuff the tilapia with the garlic, onion, and ginger mixture."
+    },
+    {
+      "position": 3,
+      "text": "Wrap the bok choy around the tilapia. I use 2 bok choy leaves to ensure that the entire fish is wrapped."
+    },
+    {
+      "position": 4,
+      "text": "Secure the bok choy by tying a kitchen twine around the tilapia. (this step is optional)"
+    },
+    {
+      "position": 5,
+      "text": "Arrange the wrapped tilapia in a wide cooking pan then pour-in coconut milk and water. Sprinkle salt, cover, and turn on heat."
+    },
+    {
+      "position": 6,
+      "text": "Cook the fish in medium heat for 20 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Turn off heat. Remove the cooking twine and transfer the fish to a serving plate."
+    },
+    {
+      "position": 8,
+      "text": "Serve hot. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1b88037b-2f1b-5330-8758-845f453b0144/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "4 g",
+    "calories": "183 kcal",
+    "carbohydrateContent": "6 g",
+    "proteinContent": "2 g",
+    "fatContent": "18 g",
+    "saturatedFatContent": "16 g",
+    "cholesterolContent": "1 mg",
+    "sodiumContent": "597 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "1 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3612c5d7-4545-5e0b-a284-8afb44d98042",
+      "name": "tilapia (cleaned and scales removed)",
+      "normalized_name": "tilapia",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "714e4403-f607-545f-8307-b082bd452433",
+      "name": "bok choy (or pechay leaves)",
+      "normalized_name": "bok choy",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (chopped)",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (diced)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato (diced)",
+      "normalized_name": "tomato",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "37d53842-caf8-5024-b5ed-96f1b49a4012",
+      "name": "thumb ginger (chopped)",
+      "normalized_name": "thumb ginger",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "96d063b3-2718-55ed-8bda-f26566d3ed60",
+      "name": "long green chili",
+      "normalized_name": "long green chili",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "52f89bf4-31b4-5e03-b389-e376835ca56b",
+      "name": "coconut milk",
+      "normalized_name": "coconut milk",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
+      "slug": "fish",
+      "name": "Fish"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a694fdf4-9cd6-5df8-9e70-fd05663835bd",
+      "slug": "ginataang-tilapia-recipe",
+      "name": "ginataang tilapia recipe",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/sinanglay-na-tilapia/"
+  },
+  "public": true,
+  "updated_at": 1583831220,
+  "revision": 1
+}

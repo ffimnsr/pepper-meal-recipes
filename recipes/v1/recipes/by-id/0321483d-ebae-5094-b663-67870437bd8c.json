@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0321483d-ebae-5094-b663-67870437bd8c",
+  "slug": "coke-pork-adobo",
+  "name": "Coke Pork Adobo",
+  "recipe_type": "main",
+  "brief_description": "Pinoy pork adobo cooked with Coca-Cola.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat pan. Sear pork belly until it browns and enough oil is extracted. Note: stir the pork continuosly while searing."
+    },
+    {
+      "position": 2,
+      "text": "Push the pork on one side of the pan. Add garlic on the open area. Saute garlic for 30 seconds. Mix pork and garlic together. Cook for 1 minute."
+    },
+    {
+      "position": 3,
+      "text": "Pour-in soy sauce and vinegar. Let boil. Stir. Cook for 2 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Add whole peppercorn and dry bay leaves."
+    },
+    {
+      "position": 5,
+      "text": "Add cola drink. Let it boil. Cover the pan. Continue cooking in low heat until pork gets tender. Note: add water if needed."
+    },
+    {
+      "position": 6,
+      "text": "Season with salt (optional)."
+    },
+    {
+      "position": 7,
+      "text": "Transfer to a serving bowl. Serve. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0321483d-ebae-5094-b663-67870437bd8c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1530 kcal",
+    "carbohydrateContent": "12 g",
+    "proteinContent": "28 g",
+    "fatContent": "150 g",
+    "saturatedFatContent": "55 g",
+    "cholesterolContent": "204 mg",
+    "sodiumContent": "850 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "8 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
+      "name": "pork belly (cubed)",
+      "normalized_name": "pork belly",
+      "quantity": "2 1/2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "10",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (crushed)",
+      "normalized_name": "garlic",
+      "quantity": "5",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c33dbb82-63ef-54d9-a5db-09327e596ea5",
+      "name": "cola drink",
+      "normalized_name": "cola drink",
+      "quantity": "12",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1623da78-1a96-581d-9b81-712eff987bcb",
+      "name": "whole peppercorn",
+      "normalized_name": "whole peppercorn",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
+      "name": "dried bay leaves",
+      "normalized_name": "dried bay leaves",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "Salt (optional)",
+      "normalized_name": "salt",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "Water (as needed)",
+      "normalized_name": "water",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "911bc0e5-8fd6-57ab-ac59-1c4982fd2213",
+      "slug": "adobo",
+      "name": "adobo",
+      "color": null
+    },
+    {
+      "id": "f3400bae-2333-5716-bd93-2ec01b110a19",
+      "slug": "adobong-baboy",
+      "name": "adobong baboy",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/coke-pork-adobo/"
+  },
+  "public": true,
+  "updated_at": 1593081835,
+  "revision": 1
+}

@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ec9c1526-9bd7-56d8-958c-41c1f50f52a1",
+  "slug": "cheesy-lumpia",
+  "name": "Cheesy Lumpiang Shanghai",
+  "recipe_type": "appetizer",
+  "brief_description": "Deep fried crispy lumpia stuffed with mozzarella.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine ground pork with the filling ingredients. Add Knorr Liquid seasoning. Mix everything together."
+    },
+    {
+      "position": 2,
+      "text": "Wrap the lumpia by laying a sheet of lumpia wrapper on a clean flat surface. Scoop around 1 \u00bd tablespoons of mixture and spread it on one side of the wrapper. Put the sliced string cheese over and cover it completely with the meat mixture. Fold the sides of the wrapper inward, roll it, and secure the ends. Perform this step until the entire meat mixture is consumed."
+    },
+    {
+      "position": 3,
+      "text": "Cook the lumpia by heating the remaining oil in a wok. Deep fry using medium heat setting until the lumpia turns golden brown."
+    },
+    {
+      "position": 4,
+      "text": "Arrange on a serving plate and serve with ketchup. Share and enjoy!"
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ec9c1526-9bd7-56d8-958c-41c1f50f52a1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "6987 kcal",
+    "carbohydrateContent": "110 g",
+    "proteinContent": "180 g",
+    "fatContent": "652 g",
+    "saturatedFatContent": "108 g",
+    "transFatContent": "2 g",
+    "cholesterolContent": "824 mg",
+    "sodiumContent": "2167 mg",
+    "fiberContent": "12 g",
+    "sugarContent": "21 g",
+    "unsaturatedFatContent": "518 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c7e5cda3-a248-52f1-8f2f-e148f892cea5",
+      "name": "lumpia wrapper",
+      "normalized_name": "lumpia wrapper",
+      "quantity": "30",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
+      "name": "ground pork (see note 1)",
+      "normalized_name": "ground pork",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "756b60fd-4b51-535e-b197-fb6dd9b13edb",
+      "name": "Mozzarella string cheese (see note 2)",
+      "normalized_name": "mozzarella string cheese",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (minced)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a3ca511e-6cdc-5e31-819e-966d9bec5b08",
+      "name": "Knorr Liquid Seasoning",
+      "normalized_name": "knorr liquid seasoning",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot (minced)",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch (see note 3)",
+      "normalized_name": "cornstarch",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "Ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "75bace5e-dc6f-57fe-a7e9-0c7b5f99b30b",
+      "slug": "chicken-spring-roll",
+      "name": "chicken spring roll",
+      "color": null
+    },
+    {
+      "id": "3abd0453-c4a1-5aec-93a4-8cacf7f541df",
+      "slug": "lumpia",
+      "name": "lumpia",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/cheesy-lumpia/"
+  },
+  "public": true,
+  "updated_at": 1705673211,
+  "revision": 1
+}

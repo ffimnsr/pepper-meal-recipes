@@ -1,0 +1,173 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b2e6f223-3301-56cc-9781-a6d0813a4a2d",
+  "slug": "caesar-salad",
+  "name": "Caesar Salad",
+  "recipe_type": "salad",
+  "brief_description": "Caesar Salad is a famous salad believed to be invented by a restaurateur named Cesar Cardini. This salad uses romaine lettuce tossed topped with garlic croutons, parmesan cheese, and a mixture of olive oil, raw egg yolks, and garlic.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine garlic and olive oil in a large mixing bowl then whisk. Allow to sit for 15 minutes for the garlic juices to mix well with the oil."
+    },
+    {
+      "position": 2,
+      "text": "Put-in the egg yolks and then whisk until properly distributed."
+    },
+    {
+      "position": 3,
+      "text": "Add-in the salt, pepper, Worcestershire sauce, and lemon juice then mix well."
+    },
+    {
+      "position": 4,
+      "text": "Put-in half of the parmesan cheese then whisk until the texture become smooth."
+    },
+    {
+      "position": 5,
+      "text": "Tear the lettuce leaves into bite-size pieces then place them in the large bowl with the rest of the mixture."
+    },
+    {
+      "position": 6,
+      "text": "Toss the leaves to evenly distribute the mixture."
+    },
+    {
+      "position": 7,
+      "text": "Add the croutons and the remaining parmesan cheese then toss once more."
+    },
+    {
+      "position": 8,
+      "text": "Transfer to a salad plate then pour-in your favorite salad dressing on top."
+    },
+    {
+      "position": 9,
+      "text": "Serve right away. Share and enjoy!"
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 1,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b2e6f223-3301-56cc-9781-a6d0813a4a2d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "2 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0329f8aa-ef53-569f-83b5-544740aa898d",
+      "name": "leaves romaine lettuce (cleaned and separated)",
+      "normalized_name": "leaves romaine lettuce",
+      "quantity": "8",
+      "unit": null,
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "88484198-1339-5eeb-a28d-8ad010e76991",
+      "name": "parmesan cheese (shredded or grated)",
+      "normalized_name": "parmesan cheese",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "Worcestershire sauce (optional)",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a1ff6fea-7b25-50a5-b65a-54903f36a01c",
+      "name": "Egg yolks from 2 pieces raw eggs",
+      "normalized_name": "egg yolks from 2 pieces raw eggs",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fb5516ec-698b-5475-8f57-f43e55c49fce",
+      "name": "A dash of ground black pepper",
+      "normalized_name": "a dash of ground black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "e97a7c76-e6be-5605-bd6c-1b9dea2dbe24",
+      "name": "A dash of salt",
+      "normalized_name": "a dash of salt",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "84b8e582-e631-566b-9ba0-cbc0b8e649de",
+      "name": "extra virgin olive oil (EVOO)",
+      "normalized_name": "extra virgin olive oil",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e0433422-bc3d-5689-8670-a9b05dd473e6",
+      "name": "croutons",
+      "normalized_name": "croutons",
+      "quantity": "1 \u00bd",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/caesar-salad/"
+  },
+  "public": true,
+  "updated_at": 1266515581,
+  "revision": 1
+}

@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "efc0d16e-9a42-5a39-9037-59620e0e7adc",
+  "slug": "sarciadong-manok",
+  "name": "Sarciadong Manok",
+  "recipe_type": "main",
+  "brief_description": "Chicken stewed with tomato and green peas and seasoned with fish sauce for that delicious Umami taste.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a pan. Saute onion, garlic, and tomato."
+    },
+    {
+      "position": 2,
+      "text": "Once the onion and tomato soften, add chicken pieces. Continue to cook until the color turns light brown."
+    },
+    {
+      "position": 3,
+      "text": "Add tomato paste and chicken broth. Let boil."
+    },
+    {
+      "position": 4,
+      "text": "Put-in dried bay leaves and parsley. Cover and cook between low to medium heat for 35 to 40 minutes. Note: add more water or chicken broth if needed."
+    },
+    {
+      "position": 5,
+      "text": "Add green peas and season with fish sauce and ground black pepper."
+    },
+    {
+      "position": 6,
+      "text": "Transfer to a serving bowl. Serve! Share and enjoy."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/efc0d16e-9a42-5a39-9037-59620e0e7adc/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "639 kcal",
+    "carbohydrateContent": "11 g",
+    "proteinContent": "45 g",
+    "fatContent": "45 g",
+    "saturatedFatContent": "10 g",
+    "cholesterolContent": "170 mg",
+    "sodiumContent": "704 mg",
+    "fiberContent": "2 g",
+    "sugarContent": "4 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
+      "name": "chicken (cut into serving pieces)",
+      "normalized_name": "chicken",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6df1d68a-30b9-5841-b35d-1894292e6592",
+      "name": "tomatoe ripe (sliced)",
+      "normalized_name": "tomatoe ripe",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "21960b21-948a-5139-b037-73997a5656a0",
+      "name": "tomato paste (optional)",
+      "normalized_name": "tomato paste",
+      "quantity": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ac449163-5294-5400-84e0-8b81254820c4",
+      "name": "green peas",
+      "normalized_name": "green peas",
+      "quantity": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8bd7a379-a0c2-591a-a044-edef1318f0f5",
+      "name": "parsley (chopped)",
+      "normalized_name": "parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
+      "name": "dried bay leaves",
+      "normalized_name": "dried bay leaves",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (chopped)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "c347e72a-8d22-5304-9550-447f2d4f95f6",
+      "name": "Fish sauce and ground black pepper to taste",
+      "normalized_name": "fish sauce and ground black pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cec4f0db-f248-574a-bd3f-ac43c4af7f4f",
+      "slug": "chicken-stew",
+      "name": "chicken stew",
+      "color": null
+    },
+    {
+      "id": "a46c372c-7805-5e86-8a17-2cd4b7ceb6c0",
+      "slug": "kinamatisang-manok",
+      "name": "kinamatisang manok",
+      "color": null
+    },
+    {
+      "id": "1aada81f-9937-5e1b-a55d-e73ccf826ffa",
+      "slug": "sarciado",
+      "name": "sarciado",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/sarciadong-manok/"
+  },
+  "public": true,
+  "updated_at": 1557297860,
+  "revision": 1
+}

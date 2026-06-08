@@ -1,0 +1,238 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4cd9e071-1015-5e20-884f-5070dccc090b",
+  "slug": "pancit-habhab-recipe",
+  "name": "Pancit Habhab",
+  "recipe_type": "main",
+  "brief_description": "Pancit Habhab features miki Lucban noodles tossed with pork, shrimp, and vegetables in a savory soy and oyster sauce base. Serve it on banana leaves and finish with a light splash of vinegar for the classic Lucban street food experience.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a wok over medium heat. Add pork belly and cook until light brown. Add shrimp and cook until it turns pink. Remove pork and shrimp from the wok and set aside."
+    },
+    {
+      "position": 2,
+      "text": "In the same wok, saut\u00e9 garlic until fragrant. Add onion and cook until it softens."
+    },
+    {
+      "position": 3,
+      "text": "Pour in soy sauce and oyster sauce. Stir to combine and let the mixture bubble briefly to deepen the flavor."
+    },
+    {
+      "position": 4,
+      "text": "Add chayote, carrot, snow peas, and cabbage. Toss to coat with the sauce."
+    },
+    {
+      "position": 5,
+      "text": "Pour in beef broth and bring to a gentle boil."
+    },
+    {
+      "position": 6,
+      "text": "Add miki Lucban noodles. Toss until the noodles absorb the liquid and become soft and flavorful."
+    },
+    {
+      "position": 7,
+      "text": "Return pork and shrimp to the wok. Season with ground black pepper and adjust soy sauce to taste. Toss to combine and heat through."
+    },
+    {
+      "position": 8,
+      "text": "Serve hot on banana leaves and drizzle with a little vinegar before eating for the classic style."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4cd9e071-1015-5e20-884f-5070dccc090b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "481 kcal",
+    "carbohydrateContent": "53 g",
+    "proteinContent": "14 g",
+    "fatContent": "26 g",
+    "saturatedFatContent": "6 g",
+    "transFatContent": "0.04 g",
+    "cholesterolContent": "20 mg",
+    "sodiumContent": "1480 mg",
+    "fiberContent": "3 g",
+    "sugarContent": "4 g",
+    "unsaturatedFatContent": "19 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "Wok or large skillet For saut\u00e9ing and tossing the noodles",
+    "Tongs For tossing noodles and vegetables",
+    "Knife and board For slicing meat and vegetables"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "95b2bc02-841f-5593-8d34-0d31e8dafa6a",
+      "name": "Miki Lucban noodles",
+      "normalized_name": "miki lucban noodles",
+      "quantity": "8",
+      "unit": "oz",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
+      "name": "pork belly (thinly sliced)",
+      "normalized_name": "pork belly",
+      "quantity": "4",
+      "unit": "oz",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
+      "name": "shrimp (peeled and deveined)",
+      "normalized_name": "shrimp",
+      "quantity": "4",
+      "unit": "oz",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5694cecb-ab7b-54eb-b357-2aac2348517b",
+      "name": "small chayote (thinly sliced)",
+      "normalized_name": "small chayote",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2950983c-275a-577c-a739-cf210034d47d",
+      "name": "small carrot (julienned)",
+      "normalized_name": "small carrot",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d778c04c-5fe2-5be8-a24b-4b8ac6b628a5",
+      "name": "snow peas",
+      "normalized_name": "snow peas",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "8853f9f1-7269-5963-8a20-9b1255d8fdfe",
+      "name": "cabbage (chopped)",
+      "normalized_name": "cabbage",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "5",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (sliced)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "3",
+      "unit": "tbsp",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "63041ac9-6930-5398-b18d-13ee1400cb3f",
+      "name": "oyster sauce",
+      "normalized_name": "oyster sauce",
+      "quantity": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tbsp",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "aab9e3a0-656b-56b3-ad5d-01701a78b04c",
+      "name": "vinegar (for serving)",
+      "normalized_name": "vinegar",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [
+    "Use freshly made miki Lucban noodles for the most authentic texture.",
+    "Drizzle vinegar at the table to brighten the flavor.",
+    "Add a splash of shrimp stock or pork broth to enrich the sauce."
+  ],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/pancit-habhab-recipe/"
+  },
+  "public": true,
+  "updated_at": 1357683812,
+  "revision": 1
+}

@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "75ebaee9-ce3c-5a03-8325-97a526bc5bd5",
+  "slug": "killer-pork-sinigang",
+  "name": "Killer Pork Sinigang Recipe",
+  "recipe_type": "soup",
+  "brief_description": "Saut\u00e9ed Pork Sinigang with taro and vegetables.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a cooking pot. Saute onion until layers separate. Add half of the tomato. Saute for 2 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Add pork belly. Continue sauteeing until the pork browns while adding around 1 tablespoon fish sauce."
+    },
+    {
+      "position": 3,
+      "text": "Pour water. Cover the pot and let the liquid boil."
+    },
+    {
+      "position": 4,
+      "text": "Add Knorr Sinigang sa Sampaloc with Gabi. Cover and adjust heat between low to medium. Cook for 30 minutes or until the pork gets tender."
+    },
+    {
+      "position": 5,
+      "text": "Add labanos. Cover and continue cooking for 30 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Add eggplant, string beans, and okra. Cook for 5 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Add kangkong stalks and remaining tomato. Cook for 3 minutes."
+    },
+    {
+      "position": 8,
+      "text": "Season with fish sauce (as needed) and ground black pepper."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/75ebaee9-ce3c-5a03-8325-97a526bc5bd5/cover.webp",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "952 kcal",
+    "carbohydrateContent": "24 g",
+    "proteinContent": "20 g",
+    "fatContent": "88 g",
+    "saturatedFatContent": "30 g",
+    "transFatContent": "1 g",
+    "cholesterolContent": "109 mg",
+    "sodiumContent": "99 mg",
+    "fiberContent": "9 g",
+    "sugarContent": "11 g",
+    "unsaturatedFatContent": "53 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
+      "name": "Pork belly (cubed)",
+      "normalized_name": "pork belly",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "19c436b5-3f2b-5f44-93bb-747442a7530b",
+      "name": "Knorr Sinigang sa Sampaloc Mix with Gabi",
+      "normalized_name": "knorr sinigang sa sampaloc mix with gabi",
+      "quantity": "66",
+      "unit": "g",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4719b516-9052-58d8-b187-2460a8899b22",
+      "name": "talong (sliced)",
+      "normalized_name": "talong",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2ac52341-3e44-5b98-83f6-0076f96d508d",
+      "name": "okra",
+      "normalized_name": "okra",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5c799fe7-1166-5e78-8c83-02b1a54c39bc",
+      "name": "string beans (cut in 2-inch pieces)",
+      "normalized_name": "string beans",
+      "quantity": "18",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "16d54232-405f-5736-a0f7-c0208edf1d49",
+      "name": "daikon radish ((labanos) sliced)",
+      "normalized_name": "daikon radish sliced",
+      "quantity": "5",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "265426f4-3575-59c8-9fe9-d27d6536d56c",
+      "name": "bunch kangkong",
+      "normalized_name": "bunch kangkong",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (wedged)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato (wedged)",
+      "normalized_name": "tomato",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "7f2fdbcb-40eb-5b27-8c45-c6f9abb65976",
+      "name": "shishito pepper",
+      "normalized_name": "shishito pepper",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "c347e72a-8d22-5304-9550-447f2d4f95f6",
+      "name": "Fish sauce and ground black pepper to taste",
+      "normalized_name": "fish sauce and ground black pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fae48d33-42ce-513b-ae00-94049e6f9afd",
+      "slug": "filipino-sinigang",
+      "name": "filipino sinigang",
+      "color": null
+    },
+    {
+      "id": "e421a75e-f5bc-59cb-8f2b-437dab784d06",
+      "slug": "pork-soup",
+      "name": "pork soup",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/killer-pork-sinigang/"
+  },
+  "public": true,
+  "updated_at": 1629410275,
+  "revision": 1
+}

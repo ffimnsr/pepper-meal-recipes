@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e916fad0-ab7c-5696-a869-5e5cdbff1dc1",
+  "slug": "ghostly-dark-chocolate-cupcake",
+  "name": "Ghostly Dark Chocolate Cupcake",
+  "recipe_type": "dessert",
+  "brief_description": "This Dark Chocolate Cupcake is perfect for halloween. Its cute ghostly design is interesting for the kids and fits the season, while its rich dark chocolate can make both kids and adults happy.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine AP flour, baking soda, cocoa powder, and salt in a mixing bowl. Whisk to incorporate the ingredients. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Cream the butter using an electric or sand mixer."
+    },
+    {
+      "position": 3,
+      "text": "Gradually whisk-in the sugars (white and brown) and egg."
+    },
+    {
+      "position": 4,
+      "text": "Slowly add the milk while whisking and then gradually put-in the flour mixture. Continue whisking until a homogeneous mixture is formed."
+    },
+    {
+      "position": 5,
+      "text": "Preheat oven to 350 degrees Fahrenheit."
+    },
+    {
+      "position": 6,
+      "text": "Pour the cupcake batter in cupcake colds arranged in cupcake trays."
+    },
+    {
+      "position": 7,
+      "text": "Bake for 14 to 18 minutes, or until it passes the toothpick test"
+    },
+    {
+      "position": 8,
+      "text": "Remove from the oven to cool down. Frost using the instant orange colored frosting and top with a ghost candy."
+    },
+    {
+      "position": 9,
+      "text": "Serve during your Halloween party. Share and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 18,
+  "preparation_time_minutes": 12,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e916fad0-ab7c-5696-a869-5e5cdbff1dc1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "6 g",
+    "calories": "150 kcal"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour (sifted)",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1 1/4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "06d14bb8-dcd1-5617-b682-3c3222146a21",
+      "name": "unsweetened Cocoa powder (sifted)",
+      "normalized_name": "unsweetened cocoa powder",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda (sifted)",
+      "normalized_name": "baking soda",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "8",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bdb57237-b976-59dd-abd1-dfb1d9e58253",
+      "name": "granulated white sugar",
+      "normalized_name": "granulated white sugar",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e2e680b6-d72e-52b6-bb60-285761839a36",
+      "name": "fresh milk",
+      "normalized_name": "fresh milk",
+      "quantity": "10",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a8287c16-d05b-5684-bdce-12472b2e2f89",
+      "name": "stick unsalted butter (softened)",
+      "normalized_name": "stick unsalted butter",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt (sifted)",
+      "normalized_name": "salt",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "a9c9fb32-4914-5808-950c-b1f65e69156b",
+      "name": "Ghost candies",
+      "normalized_name": "ghost candies",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "496cffd1-0b5f-5c29-a8ea-751a8e6e6ec7",
+      "name": "Instant orange colored cupcake icing",
+      "normalized_name": "instant orange colored cupcake icing",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/ghostly-dark-chocolate-cupcake/"
+  },
+  "public": true,
+  "updated_at": 1351702118,
+  "revision": 1
+}

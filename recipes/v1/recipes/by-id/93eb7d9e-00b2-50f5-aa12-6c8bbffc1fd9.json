@@ -1,0 +1,175 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "93eb7d9e-00b2-50f5-aa12-6c8bbffc1fd9",
+  "slug": "popcorn-chicken-recipe",
+  "name": "Popcorn Chicken",
+  "recipe_type": null,
+  "brief_description": "This is a recipe for Popcorn Chicken.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Sprinkle the chicken with salt and pepper. Mix well and let stay for 10 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, combine the all-purpose flour, garlic powder, and chili powder in a Ziploc bag. Shake to mix."
+    },
+    {
+      "position": 3,
+      "text": "Dip the chicken pieces in the beaten egg, and then put the first batch in the bag with the flour mixture. Shake well to coat."
+    },
+    {
+      "position": 4,
+      "text": "Heat the cooking oil in a deep cooking pan. When the oil becomes hot, put-in the flour coated chicken one-by-one. Continue frying in low to medium heat until the color turns light to golden brown."
+    },
+    {
+      "position": 5,
+      "text": "Remove chicken popcorn from the pan and place in a plate lined with paper towels."
+    },
+    {
+      "position": 6,
+      "text": "Serve with cornbread or cornbread muffin. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 12,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/93eb7d9e-00b2-50f5-aa12-6c8bbffc1fd9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "417 kcal",
+    "carbohydrateContent": "24 g",
+    "proteinContent": "29 g",
+    "fatContent": "21 g",
+    "saturatedFatContent": "4 g",
+    "cholesterolContent": "154 mg",
+    "sodiumContent": "402 mg",
+    "fiberContent": "1 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e401b114-0399-53fc-846d-be6a01b6b46d",
+      "name": "boneless chicken breasts (cubed)",
+      "normalized_name": "boneless chicken breasts",
+      "quantity": "1",
+      "unit": "lb",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a682c0fb-907e-54f3-8cd6-e24e74d9c66e",
+      "name": "raw eggs (beaten)",
+      "normalized_name": "raw eggs",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "e0543f2b-e4c8-57f5-9363-5b9366dfe1bf",
+      "slug": "chicken-recipe",
+      "name": "Chicken Recipe"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "52fa1d44-7570-54ed-b20b-77a82a5164dc",
+      "slug": "breaded-chicken",
+      "name": "breaded chicken",
+      "color": null
+    },
+    {
+      "id": "d3c54edc-8de6-51d0-bc71-cbb497df0712",
+      "slug": "chicken-popcorn",
+      "name": "chicken popcorn",
+      "color": null
+    },
+    {
+      "id": "e588b63c-a464-5dc3-8d2c-b4b6d25dc283",
+      "slug": "deep-fried-chicken",
+      "name": "deep fried chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/popcorn-chicken-recipe/"
+  },
+  "public": true,
+  "updated_at": 1347584450,
+  "revision": 1
+}

@@ -1,0 +1,171 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3c46b1ea-54e2-54ef-a2a5-7a4153f6c541",
+  "slug": "buttered-garlic-shrimp",
+  "name": "Garlic Butter Shrimp Recipe",
+  "recipe_type": "main",
+  "brief_description": "This is a recipe for Garlic Butter Shrimp",
+  "cuisine": "Filipino Recipe",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Marinate the shrimp in lemon soda for about 10 minutes"
+    },
+    {
+      "position": 2,
+      "text": "Melt the butter in a pan."
+    },
+    {
+      "position": 3,
+      "text": "Add the garlic. Cook in low heat until the color turns light brown"
+    },
+    {
+      "position": 4,
+      "text": "Put-in the shrimp. Adjust heat to high. Stir-fry until shrimp turns orange."
+    },
+    {
+      "position": 5,
+      "text": "Season with ground black pepper, salt, and lemon juice. Stir."
+    },
+    {
+      "position": 6,
+      "text": "Add parsley. Cook for 30 seconds."
+    },
+    {
+      "position": 7,
+      "text": "Serve hot. Share and Enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 12,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3c46b1ea-54e2-54ef-a2a5-7a4153f6c541/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "6 g",
+    "carbohydrateContent": "6 g",
+    "proteinContent": "31 g",
+    "fatContent": "10 g",
+    "saturatedFatContent": "5 g",
+    "cholesterolContent": "401 mg",
+    "sodiumContent": "1248 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "4 g",
+    "calories": "243 kcal"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
+      "name": "shrimp (cleaned)",
+      "normalized_name": "shrimp",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8bd7a379-a0c2-591a-a044-edef1318f0f5",
+      "name": "parsley (chopped)",
+      "normalized_name": "parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "494bee0c-29b6-5c02-9713-d75f72262ea3",
+      "name": "head garlic (crushed)",
+      "normalized_name": "head garlic",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8e9ecd1b-f749-5d3c-93a3-494531929e5b",
+      "name": "lemon lime soda",
+      "normalized_name": "lemon lime soda",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "4710e724-e184-5c95-a495-52fd897b6539",
+      "slug": "shrimp",
+      "name": "Shrimp"
+    }
+  ],
+  "tags": [
+    {
+      "id": "810b7f00-9e2f-551f-a9e0-d0a0734bf321",
+      "slug": "butter-garlic-shrimp",
+      "name": "butter garlic shrimp",
+      "color": null
+    },
+    {
+      "id": "09ba1924-9df8-5d50-b49c-18bb2169af82",
+      "slug": "garlic-butter-shrimp",
+      "name": "garlic butter shrimp",
+      "color": null
+    },
+    {
+      "id": "c5388f9c-ebdc-58e9-b934-cdafdd9c9e1e",
+      "slug": "how-to-cook-shrimp",
+      "name": "how to cook shrimp",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/buttered-garlic-shrimp/"
+  },
+  "public": true,
+  "updated_at": 1581584700,
+  "revision": 1
+}

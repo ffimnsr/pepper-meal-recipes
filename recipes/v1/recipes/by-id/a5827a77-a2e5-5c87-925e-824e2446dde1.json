@@ -1,0 +1,236 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a5827a77-a2e5-5c87-925e-824e2446dde1",
+  "slug": "pancit-cabagan-recipe",
+  "name": "Pancit Cabagan Recipe",
+  "recipe_type": null,
+  "brief_description": "This is a recipe for Pansit Cabagan. It is a famous version of pancit that came from the town of Cabagan in Isabela, Philippines.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the oil in a wok or pan."
+    },
+    {
+      "position": 2,
+      "text": "Saute the garlic until it starts to turn light brown."
+    },
+    {
+      "position": 3,
+      "text": "Add the pork slices. Stir-fry until for 2 minutes or until it starts to turn brown."
+    },
+    {
+      "position": 4,
+      "text": "Pour-in the soy sauce, fish sauce, and 3 cups beef broth. Let boil. Cover and cook in low heat for 12 minutes or until the pork becomes tender."
+    },
+    {
+      "position": 5,
+      "text": "Add the miki noodles. Toss. Cook for 2 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Add the carrot, parsley, bell pepper, and cabbage. Continue to cook for 5 minutes. You can add more beef broth if needed."
+    },
+    {
+      "position": 7,
+      "text": "Sprinkle some ground black pepper. Toss."
+    },
+    {
+      "position": 8,
+      "text": "Put the boiled quail eggs in the wok and top with lechon carajay and igado."
+    },
+    {
+      "position": 9,
+      "text": "Transfer to a serving plate. Serve."
+    },
+    {
+      "position": 10,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 30,
+  "cooking_time_minutes": 4,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a5827a77-a2e5-5c87-925e-824e2446dde1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "4 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "af9038cc-6d06-5635-869c-9e4c8f737bc3",
+      "name": "boiled quail eggs",
+      "normalized_name": "boiled quail eggs",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b5c80903-6ca1-57b8-a9e9-b480a186281a",
+      "name": "cooked Lechon Carajay (chopped)",
+      "normalized_name": "cooked lechon carajay",
+      "quantity": "1/4",
+      "unit": "lb",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "e317a7e7-680d-50a5-a312-4260318447cc",
+      "name": "fresh Miki noodles",
+      "normalized_name": "fresh miki noodles",
+      "quantity": "1",
+      "unit": "lb",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6995b31c-9fef-5242-b62c-b88322813b19",
+      "name": "medium carrot (julienned)",
+      "normalized_name": "medium carrot",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a3f087e2-3a7b-58c0-a97f-b2b99e4f1a0d",
+      "name": "small bell pepper (cut into thin strips)",
+      "normalized_name": "small bell pepper",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "db282765-0020-5cdc-ac46-b19e817b970b",
+      "name": "chopped parsley",
+      "normalized_name": "chopped parsley",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
+      "name": "pork shoulder (sliced in small pieces)",
+      "normalized_name": "pork shoulder",
+      "quantity": "1/4",
+      "unit": "lb",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "99545442-03a3-5ec0-bc8c-394c5458e288",
+      "name": "Igado (optional)",
+      "normalized_name": "igado",
+      "quantity": "1/4",
+      "unit": "lb",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "fe3d65f2-a01d-5cd3-a6a3-c444d2742eb4",
+      "name": "head cabbage (chopped)",
+      "normalized_name": "head cabbage",
+      "quantity": "1/4",
+      "unit": null,
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (crushed)",
+      "normalized_name": "garlic",
+      "quantity": "5",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce (patis)",
+      "normalized_name": "fish sauce",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "Cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "1dddc7ba-9e16-52e8-8754-4db50873b8ab",
+      "name": "chopped scallions",
+      "normalized_name": "chopped scallions",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "9cd6d4d7-6841-525f-b451-431d6b9716c3",
+      "slug": "main-dish",
+      "name": "Main Dish"
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/pancit-cabagan-recipe/"
+  },
+  "public": true,
+  "updated_at": 1473188623,
+  "revision": 1
+}

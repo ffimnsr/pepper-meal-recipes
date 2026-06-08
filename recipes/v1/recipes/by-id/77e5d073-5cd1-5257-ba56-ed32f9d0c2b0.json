@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "77e5d073-5cd1-5257-ba56-ed32f9d0c2b0",
+  "slug": "lechon-kawali",
+  "name": "Lechon Kawali",
+  "recipe_type": "appetizer",
+  "brief_description": "Crispy deep fried pork belly with crackling skin and tender, juicy meat. The pork is boiled until fork tender, then fried until golden brown and crunchy. Serve with steamed rice and lechon sauce for a classic Filipino meal.",
+  "cuisine": "Asian Filipino Southeast Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Pour water into a deep cooking pot and bring it to a boil."
+    },
+    {
+      "position": 2,
+      "text": "Add the pork belly, 1 tablespoon of salt, peppercorns, and bay leaves. Boil for 30 to 45 minutes or until the meat is fork tender."
+    },
+    {
+      "position": 3,
+      "text": "Remove the pork belly from the pot and let it cool down for a few minutes on a wire rack."
+    },
+    {
+      "position": 4,
+      "text": "Rub the remaining 1 tablespoon of salt evenly all over the pork belly, especially on the skin side. Let it air dry for at least 30 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Heat oil in a deep cooking pot or wok until it reaches 350F (175C)."
+    },
+    {
+      "position": 6,
+      "text": "Carefully lower the pork belly into the hot oil. Fry for 7 to 10 minutes, turning occasionally to brown evenly. Be extra careful as the oil will splatter. Use a lid to partially cover the pot if needed, but do not cover completely."
+    },
+    {
+      "position": 7,
+      "text": "Remove the pork when the skin is golden brown and crispy all over. Place on a wire rack to drain excess oil."
+    },
+    {
+      "position": 8,
+      "text": "Let the pork rest for 5 minutes before slicing into serving pieces. Serve immediately with lechon sauce or spiced vinegar."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/77e5d073-5cd1-5257-ba56-ed32f9d0c2b0/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1784 kcal",
+    "carbohydrateContent": "3 g",
+    "proteinContent": "15 g",
+    "fatContent": "192 g",
+    "saturatedFatContent": "38 g",
+    "cholesterolContent": "109 mg",
+    "sodiumContent": "2383 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "0.02 g",
+    "transFatContent": "0.4 g",
+    "unsaturatedFatContent": "148 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "1 Deep pot or wok For deep frying the pork belly",
+    "1 Wire rack For drying the boiled pork and draining after frying",
+    "1 Splatter screen To protect from hot oil splatters"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
+      "name": "pork belly (skin on)",
+      "normalized_name": "pork belly",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt (divided)",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "be082731-84a1-5d91-9f0b-948d8d808163",
+      "name": "whole peppercorns",
+      "normalized_name": "whole peppercorns",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
+      "name": "dried bay leaves",
+      "normalized_name": "dried bay leaves",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil (for deep frying)",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water (enough to cover the pork)",
+      "normalized_name": "water",
+      "quantity": "34",
+      "unit": "oz",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "62f0f931-285a-58fb-91da-890a3fa6d87b",
+      "slug": "comfort-food",
+      "name": "comfort food",
+      "color": null
+    },
+    {
+      "id": "4bdf3bbf-0b10-5ba3-9d8b-9eb90f832705",
+      "slug": "crispy",
+      "name": "crispy",
+      "color": null
+    },
+    {
+      "id": "51a38117-e6ad-526f-8ac2-9a6cfcf0aa3a",
+      "slug": "deep-fried",
+      "name": "deep fried",
+      "color": null
+    },
+    {
+      "id": "db73d451-5ada-5e77-944d-df844b9247d5",
+      "slug": "pork-belly",
+      "name": "pork belly",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/lechon-kawali/"
+  },
+  "public": true,
+  "updated_at": 1553265645,
+  "revision": 1
+}

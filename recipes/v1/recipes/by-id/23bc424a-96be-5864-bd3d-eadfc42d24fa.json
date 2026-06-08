@@ -1,0 +1,186 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "23bc424a-96be-5864-bd3d-eadfc42d24fa",
+  "slug": "beer-brats-recipe",
+  "name": "Beer Brats Recipe",
+  "recipe_type": "main",
+  "brief_description": "This is a recipe for beer bratwurst. It is tasty and easy to make.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a cooking pot and pour-in the beer."
+    },
+    {
+      "position": 2,
+      "text": "Add the onion, butter, garlic powder, salt, and pepper. Let boil."
+    },
+    {
+      "position": 3,
+      "text": "Put-in the bratwurst and cook in low to medium heat for about 16 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Remove the bratwurst. Continue cooking the onions until the liquid reduces to about a few tablespoons."
+    },
+    {
+      "position": 5,
+      "text": "Grill the bratwurst for 8 to 10 minutes while rotating to cook all the sides. Set aside."
+    },
+    {
+      "position": 6,
+      "text": "Arrange the bratwurst in hotdog buns and top with the onion."
+    },
+    {
+      "position": 7,
+      "text": "Serve. Share and enjoy!"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/23bc424a-96be-5864-bd3d-eadfc42d24fa/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "135 kcal",
+    "carbohydrateContent": "3 g",
+    "fatContent": "12 g",
+    "saturatedFatContent": "7 g",
+    "cholesterolContent": "31 mg",
+    "sodiumContent": "272 mg",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "276ea08f-92df-591d-8777-8ccb1124697b",
+      "name": "bratwurst",
+      "normalized_name": "bratwurst",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e75e9366-01c1-5159-ada4-75c7d3fcac8d",
+      "name": "yellow onion (sliced)",
+      "normalized_name": "yellow onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c40755cc-542e-56d4-ac2d-b4ba588e5976",
+      "name": "beer",
+      "normalized_name": "beer",
+      "quantity": "12",
+      "unit": "oz",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5506d980-12a6-5d8c-8712-7ebb3a8eb3bd",
+      "name": "tabasco sauce",
+      "normalized_name": "tabasco sauce",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "765acae2-65c4-51e3-ba9d-b0989be5f82e",
+      "name": "Hotdog buns",
+      "normalized_name": "hotdog buns",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3dec74bd-14fa-5ce9-9870-6465e69100dd",
+      "slug": "beer-brats",
+      "name": "beer brats",
+      "color": null
+    },
+    {
+      "id": "3892fd66-ed68-5584-954d-1b5e21c7e0ef",
+      "slug": "brats",
+      "name": "brats",
+      "color": null
+    },
+    {
+      "id": "1fe4ff26-e627-5412-9942-0073ab78001b",
+      "slug": "bratwurst",
+      "name": "bratwurst",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/beer-brats-recipe/"
+  },
+  "public": true,
+  "updated_at": 1346187938,
+  "revision": 1
+}

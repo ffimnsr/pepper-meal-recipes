@@ -1,0 +1,253 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ba3ed7e3-e060-58cf-b5ca-373d3d6bc199",
+  "slug": "pork-menudo-recipe",
+  "name": "Pork Menudo",
+  "recipe_type": null,
+  "brief_description": "This is a recipe for basic pork menudo. It is a delicious dish that makes use pork, liver, and vegetables such as carrot and potato.",
+  "cuisine": "Filipino Recipe",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine pork, soysauce, and lemon in a bowl. Marinate for at least 1 hour."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a pan"
+    },
+    {
+      "position": 3,
+      "text": "Saute garlic and onion."
+    },
+    {
+      "position": 4,
+      "text": "Add the marinated pork. Cook for 5 to 7 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Pour in tomato sauce and water and then add the bay leaves.Let boil and simmer for 30 minutes to an hour depending on the toughness of the pork. Note: Add water as necessary."
+    },
+    {
+      "position": 6,
+      "text": "Add-in the liver and hot dogs.Cook for 5 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Put-in potatoes, carrots, sugar,salt, and pepper. Stir and cook for 8 to 12 minutes."
+    },
+    {
+      "position": 8,
+      "text": "Serve. Share and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ba3ed7e3-e060-58cf-b5ca-373d3d6bc199/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "6 g",
+    "calories": "524 kcal",
+    "carbohydrateContent": "12 g",
+    "proteinContent": "33 g",
+    "fatContent": "37 g",
+    "saturatedFatContent": "12 g",
+    "cholesterolContent": "161 mg",
+    "sodiumContent": "1356 mg",
+    "fiberContent": "2 g",
+    "sugarContent": "3 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a6668890-561f-511c-8418-8e2796284465",
+      "name": "pork",
+      "normalized_name": "pork",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "045eeef6-4ee1-5304-9e36-e5621cb121ca",
+      "name": "pig liver",
+      "normalized_name": "pig liver",
+      "quantity": "1/4",
+      "unit": "lb",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes (diced)",
+      "normalized_name": "potatoes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot (cubed)",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1/2",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (chopped)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
+      "name": "tomato sauce",
+      "normalized_name": "tomato sauce",
+      "quantity": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "80005a74-4d79-5252-9d8b-13d2c2a1734d",
+      "name": "hotdogs (sliced diagonally)",
+      "normalized_name": "hotdogs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
+      "name": "dried bay leaves",
+      "normalized_name": "dried bay leaves",
+      "quantity": "2 to 3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "Salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "9212291e-6b70-55ef-86a1-0ab50c0751d9",
+      "slug": "pork-recipe",
+      "name": "Pork Recipe"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5088b3bf-0f1c-58e7-8835-bea95cc83cf0",
+      "slug": "filipino-menudo",
+      "name": "filipino menudo",
+      "color": null
+    },
+    {
+      "id": "f5598c3b-8978-594a-a1c3-29d173e3ff39",
+      "slug": "menudo-recipe",
+      "name": "menudo recipe",
+      "color": null
+    },
+    {
+      "id": "46cc2f2d-187a-59d9-b941-39fb979ff15d",
+      "slug": "menudo",
+      "name": "menudo",
+      "color": null
+    },
+    {
+      "id": "37a8c627-2e57-58bc-aecd-1c62aa0cc470",
+      "slug": "vanjo-menudo",
+      "name": "vanjo menudo",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/pork-menudo-recipe/"
+  },
+  "public": true,
+  "updated_at": 1623749400,
+  "revision": 1
+}

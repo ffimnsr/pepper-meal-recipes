@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d874bd33-5c7c-56c1-b3c1-2dd1b39c27b9",
+  "slug": "sweet-and-sour-chicken-nuggets",
+  "name": "Sweet and Sour Chicken Nuggets",
+  "recipe_type": "dessert",
+  "brief_description": "Sweet and Sour Chicken Nuggets is an easy dish that we can make when we try to combine two or more recipes from this blog.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Make the chicken nuggets by following the recipe on the link in the ingredients section. Set Aside."
+    },
+    {
+      "position": 2,
+      "text": "Make the sweet and sour sauce by following the sweet and sour sauce recipe link in the ingredients section. Make half amount of what is written in the recipe."
+    },
+    {
+      "position": 3,
+      "text": "Arrange the chicken nuggets in a serving plate. Pour the sweet and sour sauce over the chicken nuggets. Garnish with chopped parsley."
+    },
+    {
+      "position": 4,
+      "text": "Serve. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d874bd33-5c7c-56c1-b3c1-2dd1b39c27b9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "4 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "16c4383a-74bb-50e6-9909-c07b3e0cc190",
+      "name": "chicken nuggets (cooked)",
+      "normalized_name": "chicken nuggets",
+      "quantity": "1/2",
+      "unit": "lb",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a33fee0c-0de0-55a8-bb21-778197232710",
+      "name": "sweet and sour sauce",
+      "normalized_name": "sweet and sour sauce",
+      "quantity": "1 1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d4aa74a6-e575-5f39-aa70-abd0dc23152f",
+      "name": "chopped curly parsley for garnish",
+      "normalized_name": "chopped curly parsley for garnish",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/sweet-and-sour-chicken-nuggets/"
+  },
+  "public": true,
+  "updated_at": 1443707259,
+  "revision": 1
+}

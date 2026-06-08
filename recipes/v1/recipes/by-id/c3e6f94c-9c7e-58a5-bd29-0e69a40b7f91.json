@@ -1,0 +1,186 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c3e6f94c-9c7e-58a5-bd29-0e69a40b7f91",
+  "slug": "baked-garlic-rosemary-chicken-recipe",
+  "name": "Baked Garlic Rosemary Chicken Recipe",
+  "recipe_type": null,
+  "brief_description": "This is a recipe for Baked Garlic Rosemary Chicken",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Boil the potatoes for 8 minutes. Remove from the pot and let cool."
+    },
+    {
+      "position": 2,
+      "text": "Slice the potatoes into quarters. Sprinkle some garlic powder and then set aside."
+    },
+    {
+      "position": 3,
+      "text": "In a bowl, combine garlic, rosemary, 1 tablespoon olive oil, juice of 2 lemons, salt, and ground black pepper. Mix well."
+    },
+    {
+      "position": 4,
+      "text": "Combine the rosemary mixture with the chicken. Make sure that the chicken is coated with the mixture equally. Marinate for 30 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Heat a frying pan and then pour-in remaining olive oil."
+    },
+    {
+      "position": 6,
+      "text": "Pan-fry each side of the chicken for 4 to 6 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Preheat oven to 425 degrees Fahrenheit."
+    },
+    {
+      "position": 8,
+      "text": "Arrange chicken and potatoes in an oven-proof tray."
+    },
+    {
+      "position": 9,
+      "text": "Bake for 30 to 40 minutes."
+    },
+    {
+      "position": 10,
+      "text": "Remove from the oven, and then serve."
+    },
+    {
+      "position": 11,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c3e6f94c-9c7e-58a5-bd29-0e69a40b7f91/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "4 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
+      "name": "chicken (cut into serving pieces)",
+      "normalized_name": "chicken",
+      "quantity": "1 1/2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a2e7afc9-3ad0-55dd-86b9-57e185084b6e",
+      "name": "red potatoes",
+      "normalized_name": "red potatoes",
+      "quantity": "1",
+      "unit": "lb",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7b92db17-5ccc-5d40-938b-ae22fcba3dd3",
+      "name": "chopped fresh Rosemary",
+      "normalized_name": "chopped fresh rosemary",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "3",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "2d51da24-8607-5cdb-a3df-ceaf49e754f1",
+      "name": "Water for boiling the potato",
+      "normalized_name": "water for boiling the potato",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "9cd6d4d7-6841-525f-b451-431d6b9716c3",
+      "slug": "main-dish",
+      "name": "Main Dish"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/baked-garlic-rosemary-chicken-recipe/"
+  },
+  "public": true,
+  "updated_at": 1349724082,
+  "revision": 1
+}

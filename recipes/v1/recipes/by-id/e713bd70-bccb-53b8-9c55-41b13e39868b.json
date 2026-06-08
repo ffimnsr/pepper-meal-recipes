@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e713bd70-bccb-53b8-9c55-41b13e39868b",
+  "slug": "nilagang-manok",
+  "name": "Nilagang Manok Recipe",
+  "recipe_type": "soup",
+  "brief_description": "Boiled chicken soup with potato, banana, and bok choy.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Boil water in a pot."
+    },
+    {
+      "position": 2,
+      "text": "Add onion and whole peppercorn. Pour-in chicken broth. Cover and let boil."
+    },
+    {
+      "position": 3,
+      "text": "Gently add chicken pieces. Boil in medium heat for 30 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Add banana and potato. Cover and continue to boil for 12 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Season with fish sauce."
+    },
+    {
+      "position": 6,
+      "text": "Add bok choy. Cover the pot and let the residual heat cook it for around 5 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Transfer to a serving bowl. Serve with white rice. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e713bd70-bccb-53b8-9c55-41b13e39868b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "446 kcal",
+    "carbohydrateContent": "14 g",
+    "proteinContent": "40 g",
+    "fatContent": "27 g",
+    "saturatedFatContent": "8 g",
+    "cholesterolContent": "128 mg",
+    "sodiumContent": "1899 mg",
+    "fiberContent": "5 g",
+    "sugarContent": "7 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
+      "name": "chicken (sliced into serving pieces)",
+      "normalized_name": "chicken",
+      "quantity": "1 1/2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8b96575f-5f78-5aaa-a31d-0c5f98da4e56",
+      "name": "Saba banana (sliced)",
+      "normalized_name": "saba banana",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3996d4e9-a572-5bf1-9ea2-869c10f374a0",
+      "name": "potato (cubed)",
+      "normalized_name": "potato",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "243dd632-d464-5f8b-9d8c-6c15cb88710f",
+      "name": "bunches bok choy (base removed)",
+      "normalized_name": "bunches bok choy",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (wedged)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce",
+      "normalized_name": "fish sauce",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1623da78-1a96-581d-9b81-712eff987bcb",
+      "name": "whole peppercorn",
+      "normalized_name": "whole peppercorn",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c718034d-9f2e-5a4a-aa30-8d3ee3c4f984",
+      "slug": "chicken-soup",
+      "name": "chicken soup",
+      "color": null
+    },
+    {
+      "id": "c7c96e0f-b54a-5a4f-8fa7-48e30eb69877",
+      "slug": "nilaga",
+      "name": "nilaga",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/nilagang-manok/"
+  },
+  "public": true,
+  "updated_at": 1566981132,
+  "revision": 1
+}

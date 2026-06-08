@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ff465f40-2ac5-5143-83d0-b3f3ecd965cc",
+  "slug": "yema-recipe",
+  "name": "Yema Recipe",
+  "recipe_type": "dessert",
+  "brief_description": "Filipino custard candy.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Chop the peanuts. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Pour condensed milk on a cooking pot. Let boil. Stir constantly while boiling for 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Lower the heat. Add chopped peanuts. Continue cooking while stirring for another 10 minutes or until consistency becomes paste-like."
+    },
+    {
+      "position": 4,
+      "text": "Transfer yema mixture to a bowl."
+    },
+    {
+      "position": 5,
+      "text": "Start wrapping the yema candies individually on a pre-cut cellophane. (Note: The dimensions of my cellophane were 4x4 inches. You can decrease the dimension for smaller candies.)"
+    },
+    {
+      "position": 6,
+      "text": "Let it cool down before eating. Share and enjoy!"
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ff465f40-2ac5-5143-83d0-b3f3ecd965cc/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "544 kcal",
+    "carbohydrateContent": "87 g",
+    "proteinContent": "14 g",
+    "fatContent": "17 g",
+    "saturatedFatContent": "9 g",
+    "cholesterolContent": "54 mg",
+    "sodiumContent": "203 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "86 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e37097b1-c487-5ffa-9e05-8375690c5cf3",
+      "name": "condensed milk (equivalent to 2 cans)",
+      "normalized_name": "condensed milk",
+      "quantity": "28",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7c854956-73d6-5f32-9f08-d96f661d06d2",
+      "name": "peanuts (roasted)",
+      "normalized_name": "peanuts",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3ccb2aec-5804-5cf0-b940-4c4ee5fd2e8e",
+      "slug": "candy-recipe",
+      "name": "candy recipe",
+      "color": null
+    },
+    {
+      "id": "1e81604d-7eef-5e5e-8cb8-2f6bdcb36465",
+      "slug": "custard",
+      "name": "custard",
+      "color": null
+    },
+    {
+      "id": "b6dfb80f-c553-56a1-822e-b82eeceeecd2",
+      "slug": "yema",
+      "name": "yema",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/yema-recipe/"
+  },
+  "public": true,
+  "updated_at": 1615522260,
+  "revision": 1
+}

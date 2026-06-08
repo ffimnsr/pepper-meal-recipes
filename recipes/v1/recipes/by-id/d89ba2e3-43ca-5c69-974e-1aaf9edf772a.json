@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d89ba2e3-43ca-5c69-974e-1aaf9edf772a",
+  "slug": "pork-tapsilog-recipe",
+  "name": "Pork Tapsilog",
+  "recipe_type": "breakfast",
+  "brief_description": "Pork tapa with garlic fried rice and egg",
+  "cuisine": "Fiipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a medium resealable bag, combine pork, soy sauce, garlic, sugar, salt, and pepper. Mix well and then marinate overnight inside the fridge."
+    },
+    {
+      "position": 2,
+      "text": "Heat the frying pan and then pour-in the cooking oil."
+    },
+    {
+      "position": 3,
+      "text": "When the oil becomes hot, fry the marinated pork pieces in low to medium heat until the color turns medium brown. Flip as necessary to cook the opposite side."
+    },
+    {
+      "position": 4,
+      "text": "Arrange the fried marinated pork, a cup of garlic rice, and a piece of fried egg in individual plates."
+    },
+    {
+      "position": 5,
+      "text": "Serve with spicy vinegar and ketchup. Share and enjoy!"
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d89ba2e3-43ca-5c69-974e-1aaf9edf772a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1242 kcal",
+    "carbohydrateContent": "200 g",
+    "proteinContent": "54 g",
+    "fatContent": "22 g",
+    "saturatedFatContent": "3 g",
+    "cholesterolContent": "100 mg",
+    "sodiumContent": "1482 mg",
+    "fiberContent": "3 g",
+    "sugarContent": "1 g",
+    "transFatContent": "0.1 g",
+    "unsaturatedFatContent": "17 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "727d74a7-3782-51cb-beaf-a2f12ca445f8",
+      "name": "pork loin (thinly sliced)",
+      "normalized_name": "pork loin",
+      "quantity": "1",
+      "unit": "lb",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs (fried)",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d9186cc2-3bc4-565f-b150-0596ac433e08",
+      "name": "garlic rice",
+      "normalized_name": "garlic rice",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bdb57237-b976-59dd-abd1-dfb1d9e58253",
+      "name": "granulated white sugar",
+      "normalized_name": "granulated white sugar",
+      "quantity": "\u00bd",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "5c6a2d40-e1db-5a51-b2bb-36e5ea2ad17b",
+      "slug": "breakfast-meal",
+      "name": "Breakfast Meal"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "932014c7-72f8-5911-83ed-0484f951c268",
+      "slug": "breakfast",
+      "name": "breakfast",
+      "color": null
+    },
+    {
+      "id": "ec3c46ce-e674-55e4-9407-749e54eae19f",
+      "slug": "pork-tapa",
+      "name": "pork tapa",
+      "color": null
+    },
+    {
+      "id": "8403f024-748a-532e-aedd-7803684f71cf",
+      "slug": "tapsilog",
+      "name": "tapsilog",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/pork-tapsilog-recipe/"
+  },
+  "public": true,
+  "updated_at": 1348589418,
+  "revision": 1
+}

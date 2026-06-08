@@ -1,0 +1,158 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "61c78282-0e94-573b-af46-0ba46b13cc14",
+  "slug": "pico-de-gallo-recipe",
+  "name": "Pico de Gallo",
+  "recipe_type": "salad",
+  "brief_description": "Pico de Gallo is a fresh, chunky side dish made from diced tomatoes, onions, cilantro, and lime juice, often with a kick of jalape\u00f1o. It\u2019s a vibrant, flavorful mix commonly used as a topping or dip in Mexican cuisine.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large bowl, combine tomatoes and onion. Gently toss to mix."
+    },
+    {
+      "position": 2,
+      "text": "Add the chopped cilantro and jalapeno."
+    },
+    {
+      "position": 3,
+      "text": "Squeeze-in the lemon and sprinkle the salt and ground black pepper. Toss"
+    },
+    {
+      "position": 4,
+      "text": "Serve. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 1,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/61c78282-0e94-573b-af46-0ba46b13cc14/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "4 g",
+    "carbohydrateContent": "9 g",
+    "proteinContent": "2 g",
+    "fatContent": "0.3 g",
+    "saturatedFatContent": "0.1 g",
+    "sodiumContent": "590 mg",
+    "fiberContent": "3 g",
+    "sugarContent": "5 g",
+    "calories": "39 kcal",
+    "unsaturatedFatContent": "0.15 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes (diced)",
+      "normalized_name": "tomatoes",
+      "quantity": "4",
+      "unit": null,
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ea80c672-79f0-58ba-9bd5-33aea85bbfea",
+      "name": "cilantro (chopped)",
+      "normalized_name": "cilantro",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d6dfb1ca-140b-59e0-bda3-e07cac265e52",
+      "name": "onion (white or red",
+      "normalized_name": "onion white or red",
+      "quantity": "1",
+      "unit": null,
+      "preparation": "diced)",
+      "position": 3
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1/2",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "69630bcf-2e48-5c86-8afa-6c63287efc81",
+      "name": "jalapeno (chopped)",
+      "normalized_name": "jalapeno",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "dd0a322f-f4d7-5034-a1a4-c54aa6d04767",
+      "slug": "condiment",
+      "name": "Condiment"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "24e3743e-25a0-58f6-8029-8741b37c8156",
+      "slug": "vegetable",
+      "name": "Vegetable"
+    }
+  ],
+  "tags": [
+    {
+      "id": "9ec6d6ce-cfdf-51a8-848d-4f5ec97b2340",
+      "slug": "ensalada",
+      "name": "ensalada",
+      "color": null
+    },
+    {
+      "id": "58a1d706-2907-547c-8415-142be2665e38",
+      "slug": "salsa",
+      "name": "salsa",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/pico-de-gallo-recipe/"
+  },
+  "public": true,
+  "updated_at": 1356119108,
+  "revision": 1
+}

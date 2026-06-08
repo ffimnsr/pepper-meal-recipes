@@ -2,54 +2,768 @@
   "$schema": "../schemas/categories-index.schema.json",
   "schema_version": 1,
   "generated_at": "2026-05-10T07:05:05Z",
-  "repo_sequence": 1,
+  "repo_sequence": 2,
   "categories": [
     {
       "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
       "slug": "appetizer",
       "name": "Appetizer",
       "description": null,
+      "recipe_count": 98
+    },
+    {
+      "id": "661b4e2d-5e0c-5218-917d-db4a41443699",
+      "slug": "baking",
+      "name": "Baking",
+      "description": null,
       "recipe_count": 1
+    },
+    {
+      "id": "793bf2f4-a467-544a-beca-1f9252dd4a91",
+      "slug": "banana",
+      "name": "Banana",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "75e14a8a-3726-5bf7-ac75-963d3fea5c75",
+      "slug": "bbq-chicken-recipe",
+      "name": "BBQ Chicken Recipe",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "ab16b76c-b277-5ee3-bdd4-ba5d220a3026",
+      "slug": "beans",
+      "name": "Beans",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef",
+      "description": null,
+      "recipe_count": 222
+    },
+    {
+      "id": "8aa336fb-1fb8-5b8c-b339-8458aeab8635",
+      "slug": "beef-recipe",
+      "name": "Beef Recipe",
+      "description": null,
+      "recipe_count": 4
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread",
+      "description": null,
+      "recipe_count": 11
+    },
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast",
+      "description": null,
+      "recipe_count": 35
+    },
+    {
+      "id": "5c6a2d40-e1db-5a51-b2bb-36e5ea2ad17b",
+      "slug": "breakfast-meal",
+      "name": "Breakfast Meal",
+      "description": null,
+      "recipe_count": 5
+    },
+    {
+      "id": "9acb90dc-c658-51cf-8511-4fd4263c6f44",
+      "slug": "breakfast-recipe",
+      "name": "Breakfast Recipe",
+      "description": null,
+      "recipe_count": 2
+    },
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "81708a5d-e773-5988-ba66-5162bf91ff8c",
+      "slug": "cake",
+      "name": "Cake",
+      "description": null,
+      "recipe_count": 3
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken",
+      "description": null,
+      "recipe_count": 313
+    },
+    {
+      "id": "e0543f2b-e4c8-57f5-9363-5b9366dfe1bf",
+      "slug": "chicken-recipe",
+      "name": "Chicken Recipe",
+      "description": null,
+      "recipe_count": 9
+    },
+    {
+      "id": "838adc3f-7dc2-5531-95d4-a7df106e7d30",
+      "slug": "chicken-soup",
+      "name": "Chicken soup",
+      "description": null,
+      "recipe_count": 2
+    },
+    {
+      "id": "38cfe1e8-118e-5334-8afc-032454556b0b",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "50187c0f-97f5-5a0b-9f2b-fba369c161b8",
+      "slug": "combo-meal",
+      "name": "Combo Meal",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "a6c9a033-6571-500a-86c1-ff65c99a874a",
+      "slug": "comfort-food",
+      "name": "comfort food",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "dd0a322f-f4d7-5034-a1a4-c54aa6d04767",
+      "slug": "condiment",
+      "name": "Condiment",
+      "description": null,
+      "recipe_count": 7
+    },
+    {
+      "id": "c2892a68-94e1-5263-aa28-f45e31aa4566",
+      "slug": "congee",
+      "name": "Congee",
+      "description": null,
+      "recipe_count": 2
+    },
+    {
+      "id": "adcb8af5-35bf-5965-8cfb-954d6a0652d1",
+      "slug": "cookie",
+      "name": "Cookie",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "afb12c53-1370-57be-ad43-92c3f48c503b",
+      "slug": "crab",
+      "name": "Crab",
+      "description": null,
+      "recipe_count": 18
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert",
+      "description": null,
+      "recipe_count": 133
+    },
+    {
+      "id": "f7ac63b6-0987-5edb-9719-a996947572fd",
+      "slug": "desssert",
+      "name": "Desssert",
+      "description": null,
+      "recipe_count": 2
     },
     {
       "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
       "slug": "dinner",
       "name": "Dinner",
       "description": null,
+      "recipe_count": 74
+    },
+    {
+      "id": "d369ff83-5088-5938-bdd0-d6b9916b9084",
+      "slug": "dip",
+      "name": "Dip",
+      "description": null,
+      "recipe_count": 11
+    },
+    {
+      "id": "e6c6e89f-ec19-5943-9a2e-f06bf6642f2f",
+      "slug": "dipping-sauces",
+      "name": "Dipping sauces",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks",
+      "description": null,
+      "recipe_count": 6
+    },
+    {
+      "id": "b0bfb4cb-2e19-5bf4-a6a6-ceee6b15275b",
+      "slug": "egg",
+      "name": "Egg",
+      "description": null,
+      "recipe_count": 35
+    },
+    {
+      "id": "51f20d5c-3f51-5b3d-8c4c-d137c5e13a4b",
+      "slug": "eggplant",
+      "name": "Eggplant",
+      "description": null,
       "recipe_count": 2
+    },
+    {
+      "id": "f866000d-005d-5af3-a7c8-3f5b281b7d6f",
+      "slug": "filipino",
+      "name": "Filipino",
+      "description": null,
+      "recipe_count": 3
+    },
+    {
+      "id": "67a635ac-abe5-5f4e-9f87-8077b4db4c6b",
+      "slug": "filipino-recipe",
+      "name": "Filipino Recipe",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
+      "slug": "fish",
+      "name": "Fish",
+      "description": null,
+      "recipe_count": 189
+    },
+    {
+      "id": "2982d97e-fefc-5616-ac0d-c9e7d1776fa4",
+      "slug": "fish-recipe",
+      "name": "Fish Recipe",
+      "description": null,
+      "recipe_count": 5
+    },
+    {
+      "id": "8a7abcc7-7672-5b94-aa68-27ab406cf6ea",
+      "slug": "fried-chicken",
+      "name": "Fried Chicken",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "3abb4365-ccad-5837-b651-d178c73fe82c",
+      "slug": "fried-rice",
+      "name": "Fried Rice",
+      "description": null,
+      "recipe_count": 9
+    },
+    {
+      "id": "391f5a86-c715-58b7-a363-834c39c3d925",
+      "slug": "gift",
+      "name": "gift",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "29b5ec9f-551d-5d2f-9f28-c9ee8f1ad28b",
+      "slug": "ginataan",
+      "name": "Ginataan",
+      "description": null,
+      "recipe_count": 3
+    },
+    {
+      "id": "b2468458-575a-580c-9dbb-2305c46f83ee",
+      "slug": "goat-meat",
+      "name": "Goat Meat",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "5b59830c-73ef-573b-9147-22dce6955956",
+      "slug": "goat-meat-and-lamb",
+      "name": "Goat Meat and Lamb",
+      "description": null,
+      "recipe_count": 10
+    },
+    {
+      "id": "d24bdf86-acc3-5440-8179-01c59692c860",
+      "slug": "grilled-cheese-sandwich",
+      "name": "Grilled Cheese Sandwich",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "284bb66b-7b4f-5530-9cc8-aee58b3acfb9",
+      "slug": "holiday-meal",
+      "name": "holiday meal",
+      "description": null,
+      "recipe_count": 2
+    },
+    {
+      "id": "a633c421-786e-5d2c-84a7-8566354f99ca",
+      "slug": "how-to-cook",
+      "name": "How To Cook",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "8ce11da1-27f1-57b6-8d48-d5c2e94ab68a",
+      "slug": "lamb",
+      "name": "Lamb",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "e7217ebd-10d1-5d95-a454-3ec7987610ea",
+      "slug": "lasagna",
+      "name": "Lasagna",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "1ed2b4af-647f-583e-9373-1ce5d524d76f",
+      "slug": "lumpia",
+      "name": "Lumpia",
+      "description": null,
+      "recipe_count": 1
     },
     {
       "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
       "slug": "lunch",
       "name": "Lunch",
       "description": null,
-      "recipe_count": 1
+      "recipe_count": 50
+    },
+    {
+      "id": "b56919c2-66f2-55ee-bf00-7e738dcf011c",
+      "slug": "macaroni-salad",
+      "name": "Macaroni Salad",
+      "description": null,
+      "recipe_count": 7
+    },
+    {
+      "id": "ec5b95ff-4643-5654-8a5d-1fa50f8cec42",
+      "slug": "main",
+      "name": "main",
+      "description": null,
+      "recipe_count": 3
     },
     {
       "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
       "slug": "main-course",
       "name": "Main Course",
       "description": null,
+      "recipe_count": 529
+    },
+    {
+      "id": "9cd6d4d7-6841-525f-b451-431d6b9716c3",
+      "slug": "main-dish",
+      "name": "Main Dish",
+      "description": null,
+      "recipe_count": 77
+    },
+    {
+      "id": "966ed388-bbc7-5931-a4a8-5e7f567d7cc1",
+      "slug": "meatloaf",
+      "name": "Meatloaf",
+      "description": null,
       "recipe_count": 1
+    },
+    {
+      "id": "6e6ea6e1-e9aa-578d-93e7-dba9912313a3",
+      "slug": "merienda",
+      "name": "merienda",
+      "description": null,
+      "recipe_count": 2
+    },
+    {
+      "id": "41ec6647-4fc1-5dd0-82bb-488a13021c6a",
+      "slug": "meryenda",
+      "name": "Meryenda",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "a1b21e95-4cdb-5996-95f4-c092b4eed1aa",
+      "slug": "muffin",
+      "name": "Muffin",
+      "description": null,
+      "recipe_count": 2
+    },
+    {
+      "id": "011a8953-1921-539f-a08b-e07bc6a9bc61",
+      "slug": "mung-bean",
+      "name": "Mung Bean",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "f1300569-c243-5736-b3c9-7c04031066c6",
+      "slug": "mussel",
+      "name": "Mussel",
+      "description": null,
+      "recipe_count": 14
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle",
+      "description": null,
+      "recipe_count": 45
+    },
+    {
+      "id": "8f51420c-c466-53e5-9aa0-43a0991ee15c",
+      "slug": "noodles",
+      "name": "Noodles",
+      "description": null,
+      "recipe_count": 11
+    },
+    {
+      "id": "e3a12d99-4e56-5b3a-a8ae-c14066f39809",
+      "slug": "pancit",
+      "name": "Pancit",
+      "description": null,
+      "recipe_count": 5
+    },
+    {
+      "id": "e67a783f-7fb2-5681-a188-2b6f5c14e40f",
+      "slug": "party-food",
+      "name": "party food",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "87e53093-fa17-51e2-98d0-51da34963ec9",
+      "slug": "pasalubong",
+      "name": "pasalubong",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta",
+      "description": null,
+      "recipe_count": 62
+    },
+    {
+      "id": "236dbebe-4025-5ee4-97b6-d85045194f90",
+      "slug": "pasta-recipe",
+      "name": "Pasta Recipe",
+      "description": null,
+      "recipe_count": 4
+    },
+    {
+      "id": "149a4eab-232a-5656-97ca-966809a8a3c5",
+      "slug": "pizza",
+      "name": "Pizza",
+      "description": null,
+      "recipe_count": 3
     },
     {
       "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
       "slug": "pork",
       "name": "Pork",
       "description": null,
+      "recipe_count": 410
+    },
+    {
+      "id": "c8b78d6b-d8de-5859-8a87-7fc6baa01493",
+      "slug": "pork-and-vegetable",
+      "name": "Pork and Vegetable",
+      "description": null,
       "recipe_count": 1
+    },
+    {
+      "id": "c8bd9230-0c3b-5af9-88e7-6336fa1a6e05",
+      "slug": "pork-and-vegetables",
+      "name": "Pork and Vegetables",
+      "description": null,
+      "recipe_count": 3
+    },
+    {
+      "id": "9212291e-6b70-55ef-86a1-0ab50c0751d9",
+      "slug": "pork-recipe",
+      "name": "Pork Recipe",
+      "description": null,
+      "recipe_count": 7
+    },
+    {
+      "id": "881a6d86-15f3-5ce7-aa2e-26c7f6e19416",
+      "slug": "pork-recipes",
+      "name": "Pork Recipes",
+      "description": null,
+      "recipe_count": 4
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato",
+      "description": null,
+      "recipe_count": 9
+    },
+    {
+      "id": "e335c727-f151-51c6-b907-b8e7038ccee3",
+      "slug": "potato-recipe",
+      "name": "Potato Recipe",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "70994bf8-321a-5266-be2e-0747ea664db0",
+      "slug": "prawn",
+      "name": "Prawn",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "93b1205a-c797-5601-acba-0c2cece4e701",
+      "slug": "pulutan",
+      "name": "pulutan",
+      "description": null,
+      "recipe_count": 4
+    },
+    {
+      "id": "9899cdec-975c-59d4-8edb-5de93c2b29c5",
+      "slug": "rellenong-talong",
+      "name": "rellenong talong",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "76084483-714d-58e4-863f-02ee098ccc23",
+      "slug": "relyenong-talong",
+      "name": "relyenong talong",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice",
+      "description": null,
+      "recipe_count": 45
     },
     {
       "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
       "slug": "salad",
       "name": "Salad",
       "description": null,
+      "recipe_count": 21
+    },
+    {
+      "id": "b2858d3d-0d4d-5eec-bf71-a9e0522a53fe",
+      "slug": "salad-recipe",
+      "name": "Salad Recipe",
+      "description": null,
+      "recipe_count": 2
+    },
+    {
+      "id": "0d511d9e-ae9e-5871-bc14-a6935299fc6d",
+      "slug": "salmon",
+      "name": "Salmon",
+      "description": null,
       "recipe_count": 1
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich",
+      "description": null,
+      "recipe_count": 12
+    },
+    {
+      "id": "8bbd65dd-7882-53af-83f8-b7e80c3651e4",
+      "slug": "sandwiches",
+      "name": "Sandwiches",
+      "description": null,
+      "recipe_count": 2
+    },
+    {
+      "id": "5e0406b1-1838-5f46-9ac6-0464025cc77b",
+      "slug": "sardines",
+      "name": "Sardines",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "df0dbffa-e580-5a23-819f-ace03de714f7",
+      "slug": "sauce",
+      "name": "Sauce",
+      "description": null,
+      "recipe_count": 4
+    },
+    {
+      "id": "04342015-cac5-527c-b1f5-5d0f9910af90",
+      "slug": "sauces",
+      "name": "Sauces",
+      "description": null,
+      "recipe_count": 19
+    },
+    {
+      "id": "8256a62e-63c1-5627-98c7-c0705e385c5b",
+      "slug": "scallop",
+      "name": "Scallop",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood",
+      "description": null,
+      "recipe_count": 34
+    },
+    {
+      "id": "12c3e63f-b261-50a9-aafa-33c202d2bd97",
+      "slug": "shared",
+      "name": "Shared",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "f007d1b9-5eb3-578f-bc31-efe9bf10694a",
+      "slug": "shared-recipe",
+      "name": "Shared Recipe",
+      "description": null,
+      "recipe_count": 3
+    },
+    {
+      "id": "4710e724-e184-5c95-a495-52fd897b6539",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "description": null,
+      "recipe_count": 70
+    },
+    {
+      "id": "a1e6843c-92e5-5575-81aa-434bbc14bb1a",
+      "slug": "shrimp-recipe",
+      "name": "Shrimp recipe",
+      "description": null,
+      "recipe_count": 2
     },
     {
       "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
       "slug": "side-dish",
       "name": "Side Dish",
+      "description": null,
+      "recipe_count": 42
+    },
+    {
+      "id": "4d559186-4003-5990-b4be-57a9ba1abf3d",
+      "slug": "smoothie-recipe",
+      "name": "Smoothie Recipe",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack",
+      "description": null,
+      "recipe_count": 30
+    },
+    {
+      "id": "38cb4343-f9c8-5de7-a945-252e99bce640",
+      "slug": "snacks",
+      "name": "Snacks",
+      "description": null,
+      "recipe_count": 16
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup",
+      "description": null,
+      "recipe_count": 28
+    },
+    {
+      "id": "b06107a4-b095-5bba-9b43-a704edd280de",
+      "slug": "soup-recipe",
+      "name": "Soup Recipe",
+      "description": null,
+      "recipe_count": 5
+    },
+    {
+      "id": "8d5daf50-5c92-5871-9ef3-0e7e7243f88f",
+      "slug": "squid",
+      "name": "Squid",
+      "description": null,
+      "recipe_count": 18
+    },
+    {
+      "id": "1ea71cfd-fa60-5a65-b159-04fe85e430d6",
+      "slug": "stew",
+      "name": "Stew",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "92c8a1c3-9e5b-5744-a1e1-cbc1c737c836",
+      "slug": "stuffed-egplant",
+      "name": "stuffed egplant",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "e20a175c-09ff-5e8f-bd80-67e3dc59fb69",
+      "slug": "sushi",
+      "name": "Sushi",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "9ec4a5fe-8d8c-5ba6-b668-763fad047f12",
+      "slug": "tofu",
+      "name": "Tofu",
+      "description": null,
+      "recipe_count": 13
+    },
+    {
+      "id": "41d42358-bb7f-5122-bf1f-be7c83dadf69",
+      "slug": "turkey",
+      "name": "Turkey",
+      "description": null,
+      "recipe_count": 10
+    },
+    {
+      "id": "1a0091c5-fd1c-556c-9a30-252f21f47d90",
+      "slug": "turkey-recipe",
+      "name": "Turkey Recipe",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "bc511139-7da4-5589-bd2c-0eec47a6ddcd",
+      "slug": "uncategorized",
+      "name": "Uncategorized",
+      "description": null,
+      "recipe_count": 1
+    },
+    {
+      "id": "24e3743e-25a0-58f6-8029-8741b37c8156",
+      "slug": "vegetable",
+      "name": "Vegetable",
+      "description": null,
+      "recipe_count": 207
+    },
+    {
+      "id": "5230cc9c-5927-5d71-8181-ee3fc2757223",
+      "slug": "vegetable-recipe",
+      "name": "Vegetable Recipe",
+      "description": null,
+      "recipe_count": 4
+    },
+    {
+      "id": "2b1f9b05-ca60-5481-94d5-42780b1da750",
+      "slug": "wonton",
+      "name": "Wonton",
       "description": null,
       "recipe_count": 1
     }

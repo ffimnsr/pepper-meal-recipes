@@ -1,0 +1,184 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "99c36e7a-bb4f-539a-a641-391bf8310c1d",
+  "slug": "pork-hamonado",
+  "name": "Pork Hamonado",
+  "recipe_type": "dessert",
+  "brief_description": "Pork belly stewed in soy sauce and pineapple juice",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the oil in a cooking pot. Fry each side of the pork belly for 2 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Pour-in the soy sauce, pineapple juice, and half of the pineapple chunks."
+    },
+    {
+      "position": 3,
+      "text": "Add the garlic and whole peppercorn. Cover and let it boil."
+    },
+    {
+      "position": 4,
+      "text": "Reduce the heat to a simmer. Continue cooking until the pork tenderizes. Note: This should take around 60 minutes. You can add water as needed."
+    },
+    {
+      "position": 5,
+      "text": "Add the remaining pineapple chunks and brown sugar. Season with salt as needed. Cook for 2 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Serve warm with rice. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/99c36e7a-bb4f-539a-a641-391bf8310c1d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1478 kcal",
+    "carbohydrateContent": "50 g",
+    "proteinContent": "26 g",
+    "fatContent": "131 g",
+    "saturatedFatContent": "45 g",
+    "transFatContent": "0.04 g",
+    "cholesterolContent": "163 mg",
+    "sodiumContent": "1588 mg",
+    "fiberContent": "3 g",
+    "sugarContent": "41 g",
+    "unsaturatedFatContent": "79 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
+      "name": "pork belly (sliced into serving pieces)",
+      "normalized_name": "pork belly",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bed32264-c563-5496-b8b7-ec82e63e81fa",
+      "name": "pineapple juice",
+      "normalized_name": "pineapple juice",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "081c8559-d10e-5f65-85ee-ab5575a739af",
+      "name": "pineapple chunks",
+      "normalized_name": "pineapple chunks",
+      "quantity": "20",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (crushed)",
+      "normalized_name": "garlic",
+      "quantity": "6",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1623da78-1a96-581d-9b81-712eff987bcb",
+      "name": "whole peppercorn",
+      "normalized_name": "whole peppercorn",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "Salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2bedc21f-71c3-5794-9cfa-c60f6f743679",
+      "slug": "crispy-pork-belly",
+      "name": "crispy pork belly",
+      "color": null
+    },
+    {
+      "id": "c1390990-33b2-5531-a8c2-e833163f7629",
+      "slug": "sweet-pork",
+      "name": "sweet pork",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [
+    "Note that you can skip the first step (frying the pork) and simply combine all the ingredients together and simmer until done. This will still give you the same flavor, but I like you to try frying the pork first. You can try this suggestion on your next attempt and then compare what works for you. I personally like to fry the pork because of the texture that it brings.",
+    "This is a basic recipe. Feel free to experiment by using other ingredients. I tried adding oyster sauce and it works too."
+  ],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/pork-hamonado/"
+  },
+  "public": true,
+  "updated_at": 1709757891,
+  "revision": 1
+}

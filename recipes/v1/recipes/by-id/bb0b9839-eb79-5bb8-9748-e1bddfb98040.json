@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "bb0b9839-eb79-5bb8-9748-e1bddfb98040",
+  "slug": "tosilog-recipe",
+  "name": "Tosilog Recipe",
+  "recipe_type": "breakfast",
+  "brief_description": "Tosilog is a popular Filipino breakfast meal. The name tosilog was derived from the different components of the meal which are: Tocino (cured pork), Sinangag (Filipino garlic fried rice), and Sunny-side up egg.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Boil the water in a cooking pot."
+    },
+    {
+      "position": 2,
+      "text": "Once the water starts to boil, pour-in the cooking oil and add the uncooked tocino. Boil in medium heat until the water evaporates."
+    },
+    {
+      "position": 3,
+      "text": "Once the water completely evaporate, the oil will be left behind. Let one side of the tocino cook in oil for 3 minutes. Flip the tocino and cook the other side for the same time."
+    },
+    {
+      "position": 4,
+      "text": "Arrange the cooked tocino with the eggs in individual plates."
+    },
+    {
+      "position": 5,
+      "text": "Meanwhile, remove the excess oil in the cooking pot where the tocino was cooked. Heat the same pot and put-in the sinangag. Cook the fried rice for 1 minute while tossing. The residue from the tocino will stick to the fried rice making it more tasty."
+    },
+    {
+      "position": 6,
+      "text": "Arrange the fried rice with the tocino in individual plates."
+    },
+    {
+      "position": 7,
+      "text": "Serve with spiced vinegar."
+    },
+    {
+      "position": 8,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/bb0b9839-eb79-5bb8-9748-e1bddfb98040/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "3 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "03384751-3c11-5a08-8aca-0de5e6aa1469",
+      "name": "uncooked tocino",
+      "normalized_name": "uncooked tocino",
+      "quantity": "1",
+      "unit": "lb",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "9b2d8ee9-c5da-5824-a8b4-115e8c7c2482",
+      "name": "sinangag",
+      "normalized_name": "sinangag",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b8d82596-c2ad-5ef5-8774-2381301ba60c",
+      "name": "sunny-side up eggs",
+      "normalized_name": "sunny-side up eggs",
+      "quantity": "3",
+      "unit": null,
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/tosilog-recipe/"
+  },
+  "public": true,
+  "updated_at": 1409781298,
+  "revision": 1
+}

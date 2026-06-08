@@ -1,0 +1,176 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e2fcfc60-ae68-5ad1-8b67-f757fc985ea3",
+  "slug": "potato-croquettes-2",
+  "name": "Potato Croquette Recipe",
+  "recipe_type": "appetizer",
+  "brief_description": "Golden brown and crisp on the outside with a soft, seasoned mashed potato filling inside. These Potato Croquettes make a perfect appetizer or snack that pairs well with your favorite dipping sauce.",
+  "cuisine": "French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine mashed potatoes, milk, salt, ground black pepper, flour, and 1 egg. Mix thoroughly."
+    },
+    {
+      "position": 2,
+      "text": "Scoop a mixture of mashed potatoes then dip in the remaining beaten egg and roll over bread crumbs."
+    },
+    {
+      "position": 3,
+      "text": "Heat a cooking pot then pour-in cooking oil."
+    },
+    {
+      "position": 4,
+      "text": "Fry in medium heat until the color of the sides turns golden brown."
+    },
+    {
+      "position": 5,
+      "text": "Transfer to plate lined with paper towel."
+    },
+    {
+      "position": 6,
+      "text": "Serve with your favorite condiment. The combination of mayonnaise and banana ketchup works well for me."
+    },
+    {
+      "position": 7,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e2fcfc60-ae68-5ad1-8b67-f757fc985ea3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "6 g",
+    "calories": "1209 kcal",
+    "carbohydrateContent": "43 g",
+    "proteinContent": "7 g",
+    "fatContent": "114 g",
+    "saturatedFatContent": "9 g",
+    "transFatContent": "0.4 g",
+    "cholesterolContent": "55 mg",
+    "sodiumContent": "525 mg",
+    "fiberContent": "3 g",
+    "sugarContent": "2 g",
+    "unsaturatedFatContent": "104 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2e3c5f19-359f-52d3-9068-b1ff9829a6ef",
+      "name": "mashed potatoes",
+      "normalized_name": "mashed potatoes",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a682c0fb-907e-54f3-8cd6-e24e74d9c66e",
+      "name": "raw eggs (beaten)",
+      "normalized_name": "raw eggs",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9d20eb06-adea-53e5-a7b6-fa1093e59961",
+      "name": "Panko bread crumbs",
+      "normalized_name": "panko bread crumbs",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a847cc41-726f-54bd-a101-611f502042d7",
+      "slug": "fried-potato",
+      "name": "fried potato",
+      "color": null
+    },
+    {
+      "id": "2f4337da-b04a-5f1f-af5c-530c9e561f9b",
+      "slug": "garlic-potato",
+      "name": "garlic potato",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/potato-croquettes-2/"
+  },
+  "public": true,
+  "updated_at": 1299012837,
+  "revision": 1
+}

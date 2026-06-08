@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5a94d1f0-5987-5aea-8843-a353219e6032",
+  "slug": "flat-rice-cake-palitaw-recipe",
+  "name": "Palitaw Recipe",
+  "recipe_type": "dessert",
+  "brief_description": "Palitaw is a soft and chewy Filipino rice cake made from glutinous rice flour and water. The flat dough pieces are boiled until they float, then rolled in grated coconut and coated with a sweet mixture of sugar and toasted sesame seeds. Serve warm as a merienda or afternoon snack.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine the glutinous rice flour and water in a bowl, then mix and knead until a smooth dough forms. The dough should pull away cleanly from the sides of the bowl."
+    },
+    {
+      "position": 2,
+      "text": "Scoop about 2 tablespoons of dough and shape it into a ball."
+    },
+    {
+      "position": 3,
+      "text": "Flatten the dough gently using the palm of your hands into a thin oval disc, about a quarter inch thick."
+    },
+    {
+      "position": 4,
+      "text": "Bring a pot of water to a boil and carefully add the flattened dough pieces, working in batches to avoid overcrowding."
+    },
+    {
+      "position": 5,
+      "text": "Once the dough floats to the surface, remove it from the pot using a slotted spoon and let the excess water drip off."
+    },
+    {
+      "position": 6,
+      "text": "In a separate bowl, combine the sugar and roasted sesame seeds, then toss to combine."
+    },
+    {
+      "position": 7,
+      "text": "Roll each warm rice cake in grated coconut, pressing gently so the coconut sticks, then coat it with the sugar and sesame seed mixture."
+    },
+    {
+      "position": 8,
+      "text": "Arrange on a serving plate and serve while still warm. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5a94d1f0-5987-5aea-8843-a353219e6032/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "637 kcal",
+    "carbohydrateContent": "98 g",
+    "proteinContent": "10 g",
+    "fatContent": "24 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "13 mg",
+    "fiberContent": "8 g",
+    "sugarContent": "27 g",
+    "unsaturatedFatContent": "9 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "1 Large pot For boiling the palitaw",
+    "1 Mixing bowl For combining the dough",
+    "1 Slotted spoon For removing palitaw from the boiling water"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "25769273-feec-582b-a24b-8f8ce09d4c13",
+      "name": "glutinous rice flour",
+      "normalized_name": "glutinous rice flour",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "906af249-c7f3-55dc-bc96-e4c40519a552",
+      "name": "grated coconut (freshly grated or unsweetened desiccated coconut)",
+      "normalized_name": "grated coconut",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b463d4cf-4253-5d55-a200-c47d9dbd3f24",
+      "name": "granulated sugar",
+      "normalized_name": "granulated sugar",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2df422ed-5639-57e6-9df0-83072e2d28b3",
+      "name": "roasted sesame seeds (toasted in a dry pan until golden)",
+      "normalized_name": "roasted sesame seeds",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "6e6ea6e1-e9aa-578d-93e7-dba9912313a3",
+      "slug": "merienda",
+      "name": "merienda"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    }
+  ],
+  "tags": [
+    {
+      "id": "16e9b8cf-2970-5f00-99ca-3aa34826b6b9",
+      "slug": "chewy",
+      "name": "chewy",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "gluten-free",
+      "color": null
+    },
+    {
+      "id": "669c9fad-d363-56a9-8caf-d85ca2590a68",
+      "slug": "palitaw",
+      "name": "Palitaw",
+      "color": null
+    },
+    {
+      "id": "d0e1acf8-ffc1-53b3-89ad-51dd68dbdef9",
+      "slug": "rice-cake",
+      "name": "rice cake",
+      "color": null
+    },
+    {
+      "id": "f4d7b641-4605-5653-92e3-f94ef744db82",
+      "slug": "sweet",
+      "name": "sweet",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/flat-rice-cake-palitaw-recipe/"
+  },
+  "public": true,
+  "updated_at": 1264349020,
+  "revision": 1
+}

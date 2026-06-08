@@ -2,30 +2,30 @@
   "$schema": "./schemas/release.schema.json",
   "schema_version": 1,
   "catalog_version": "v1",
-  "repo_sequence": 1,
+  "repo_sequence": 2,
   "generated_at": "2026-05-10T07:05:05Z",
   "minimum_supported_client_version": "1.0.0",
   "indexes": {
     "recipes": {
       "path": "indexes/recipes.index.json",
-      "sha256": "49c7b4a18f4748953ff32e396d86e3ba6bb150dd8cd740edacedaddd796a6a65"
+      "sha256": "31a3b31ed5dd9c26f4ce8a4c6a8d9267e9dda3bdb03ed13a075cea2000a2b085"
     },
     "categories": {
       "path": "indexes/categories.index.json",
-      "sha256": "e5dd82d58bcdb8066fabfb6df4c5d208bd3f4e1158a9a85ac76b6fc999ceacb2"
+      "sha256": "4666abb74202b9c860e99a0d9afde588bea6f8462196eb4e158ce211cb81e26b"
     },
     "tags": {
       "path": "indexes/tags.index.json",
-      "sha256": "661962417731c322958777b80436a009bbe17261538625a973cbf304ee941a28"
+      "sha256": "3d9f6046f4a7d3bb31a5cdd30904d251101c7d967a84993fbab5fef6bd89ae12"
     },
     "ingredients": {
       "path": "indexes/ingredients.index.json",
-      "sha256": "fa4b122a6558d6489d3cba4931e25ef71c8a807a8ecbf2dab02fd3bdf9992617"
+      "sha256": "7b0b677dc35262e78f066055a13fee6deb32338b42d90a592bba504767d5c667"
     }
   },
   "latest_manifest": {
-    "sequence": 1,
-    "path": "manifests/0000000001.json",
-    "sha256": "9b94d305d50c4cba704fd3dae67158b31df2dfc0668787e3f9780a19ef74c74b"
+    "sequence": 2,
+    "path": "manifests/0000000002.json",
+    "sha256": "91cfcedc03eee22af9a67146cb8f40d16ba60c3bbd070df764d695bdad783441"
   }
 }

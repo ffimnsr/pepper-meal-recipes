@@ -1,0 +1,212 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "925c484f-1a55-5bf6-bf9c-763567fe35c4",
+  "slug": "crispy-bagnet",
+  "name": "Crispy Bagnet Recipe",
+  "recipe_type": "main",
+  "brief_description": "Crispy pork belly cooked using the oil bath method.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 175F."
+    },
+    {
+      "position": 2,
+      "text": "Pour water into a pressure cooker. Add lemongrass, salt, whole peppercorn, and onion. Let boil."
+    },
+    {
+      "position": 3,
+      "text": "Add pork belly. Boil for 3 minutes. Cover the pressure cooker. Cook for 15 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Let the pressure out completely Put the pork belly on a clean plate and let it cool-down for 10 minutes. Season the meat part with salt and ground black pepper. Turn it upside down and season the skin part with salt."
+    },
+    {
+      "position": 5,
+      "text": "Wrap the sides of the pork with an aluminum foil and then rub vinegar on the skin part."
+    },
+    {
+      "position": 6,
+      "text": "Bake it for 2 \u00bd hours to dehydrate the skin."
+    },
+    {
+      "position": 7,
+      "text": "Remove the pork from the oven. Set aside."
+    },
+    {
+      "position": 8,
+      "text": "Heat oil in a wide wok. Once the oil gets hot, add garlic and laurel leaves. Cook until the garlic floats. Remove the garlic and leaves afterwards using a strainer."
+    },
+    {
+      "position": 9,
+      "text": "Arrange a slab of pork belly over a skimmer. Pour hot oil over it using a ladle. Do this step until a crackling texture is formed on the skin. Perform the same steps until all the pork are done."
+    },
+    {
+      "position": 10,
+      "text": "Arrange on a serving plate. Serve with your favorite dipping sauce. Share and enjoy!"
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/925c484f-1a55-5bf6-bf9c-763567fe35c4/cover.webp",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "3807 kcal",
+    "carbohydrateContent": "5 g",
+    "proteinContent": "26 g",
+    "fatContent": "413 g",
+    "saturatedFatContent": "72 g",
+    "transFatContent": "1 g",
+    "cholesterolContent": "196 mg",
+    "sodiumContent": "2899 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "1 g",
+    "unsaturatedFatContent": "328 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
+      "name": "pork belly",
+      "normalized_name": "pork belly",
+      "quantity": "3",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "9a177886-b482-5f30-a30f-17df801e1de6",
+      "name": "bunches lemongrass",
+      "normalized_name": "bunches lemongrass",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "1623da78-1a96-581d-9b81-712eff987bcb",
+      "name": "whole peppercorn",
+      "normalized_name": "whole peppercorn",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "6",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "60a268b9-b903-50b3-8ec6-ab720786b3bc",
+      "name": "laurel leaves",
+      "normalized_name": "laurel leaves",
+      "quantity": "3",
+      "unit": null,
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "6",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "068e2fa2-3a72-5147-b610-353ea8523574",
+      "slug": "crackling",
+      "name": "crackling",
+      "color": null
+    },
+    {
+      "id": "5f8f9859-7c4c-59c1-bc32-187c0035ba9f",
+      "slug": "lechon-kawali",
+      "name": "lechon kawali",
+      "color": null
+    },
+    {
+      "id": "6ba99c6f-d6cb-5ee4-88ac-08b10d17c7ab",
+      "slug": "pork-crackling",
+      "name": "pork crackling",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/crispy-bagnet/"
+  },
+  "public": true,
+  "updated_at": 1641851179,
+  "revision": 1
+}

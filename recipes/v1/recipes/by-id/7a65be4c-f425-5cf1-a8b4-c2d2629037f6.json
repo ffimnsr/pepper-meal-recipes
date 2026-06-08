@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7a65be4c-f425-5cf1-a8b4-c2d2629037f6",
+  "slug": "shrimp-stir-fry",
+  "name": "Sweet and Spicy Shrimp Stir Fry",
+  "recipe_type": "dessert",
+  "brief_description": "This is a recipe for shrimp stir fry.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine soy sauce, ketchup, sugar, and sherry. Mix and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a pan."
+    },
+    {
+      "position": 3,
+      "text": "Add ginger and garlic. Cook for 20 to 30 seconds or until light brown."
+    },
+    {
+      "position": 4,
+      "text": "Put-in the shrimp and stir fry for 1 to 2 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Pour-in the ketchup mixture, scallions, and chili. Stir fry for 2 to 5 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Add salt and pepper."
+    },
+    {
+      "position": 7,
+      "text": "Transfer to a serving plate."
+    },
+    {
+      "position": 8,
+      "text": "Serve. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 8,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7a65be4c-f425-5cf1-a8b4-c2d2629037f6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "170 kcal",
+    "carbohydrateContent": "6 g",
+    "proteinContent": "23 g",
+    "fatContent": "5 g",
+    "cholesterolContent": "285 mg",
+    "sodiumContent": "1117 mg",
+    "sugarContent": "4 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
+      "name": "Shrimp (fresh shrimp)",
+      "normalized_name": "shrimp",
+      "quantity": "1",
+      "unit": "lb",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "34833b33-a170-5c60-b6f8-512154c74c5f",
+      "name": "ginger (minced)",
+      "normalized_name": "ginger",
+      "quantity": "3",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7b3ed228-731b-5b62-8205-1b7a7b60c74d",
+      "name": "tomato ketchup",
+      "normalized_name": "tomato ketchup",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "11540a82-4f6b-5923-bfad-870b24c0d918",
+      "name": "chopped birds eye chili (labuyo)",
+      "normalized_name": "chopped birds eye chili",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5564ac91-509c-5b49-abec-bc572ad4afdf",
+      "name": "sherry cooking wine (optional)",
+      "normalized_name": "sherry cooking wine",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "2e29badd-0fe0-5541-8c39-bad1a1651fe8",
+      "name": "scallions (chopped)",
+      "normalized_name": "scallions",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "Salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "a1e6843c-92e5-5575-81aa-434bbc14bb1a",
+      "slug": "shrimp-recipe",
+      "name": "Shrimp recipe"
+    },
+    {
+      "id": "4710e724-e184-5c95-a495-52fd897b6539",
+      "slug": "shrimp",
+      "name": "Shrimp"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d6730693-47c5-5c90-b3c2-453369678d74",
+      "slug": "shrimp-recipe",
+      "name": "shrimp recipe",
+      "color": null
+    },
+    {
+      "id": "07ba43a2-beca-5b6f-80a3-cca209ede6c8",
+      "slug": "stir-fry",
+      "name": "stir fry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/shrimp-stir-fry/"
+  },
+  "public": true,
+  "updated_at": 1329858634,
+  "revision": 1
+}

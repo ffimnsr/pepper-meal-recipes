@@ -1,0 +1,319 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2a29fab4-275e-558a-97e5-8df67918468d",
+  "slug": "honey-garlic-pork-chops",
+  "name": "Honey Garlic Pork Chops",
+  "recipe_type": "salad",
+  "brief_description": "Crispy fried pork chops tossed in a buttery honey garlic glaze with a hint of chili. Served hot and perfect with sinangag or a cool cucumber salad.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Make the brine by boiling 1/2 quart of water. Add salt, peppercorns, bay leaves, and sugar. Stir well, turn off the heat, then add ice cubes and the remaining water."
+    },
+    {
+      "position": 2,
+      "text": "Brine the pork chops for 35 minutes. Drain and pat dry with a paper towel."
+    },
+    {
+      "position": 3,
+      "text": "Season pork chops with paprika and garlic powder. Add the beaten egg and toss to coat. Dredge each chop in the cornstarch and flour mixture."
+    },
+    {
+      "position": 4,
+      "text": "Heat cooking oil in a pan. Fry the pork chops until both sides are golden brown and crispy. (Optional: Double fry for extra crispiness.)"
+    },
+    {
+      "position": 5,
+      "text": "For the glaze: Melt butter in a pan. Add garlic and saut\u00e9 until lightly browned."
+    },
+    {
+      "position": 6,
+      "text": "Add chili flakes and honey. Stir well."
+    },
+    {
+      "position": 7,
+      "text": "Pour in apple cider vinegar and water. Let boil and simmer until reduced by half."
+    },
+    {
+      "position": 8,
+      "text": "Season with onion powder, garlic powder, salt, and black pepper."
+    },
+    {
+      "position": 9,
+      "text": "Toss the fried pork chops in the glaze until fully coated. Transfer to a serving plate and enjoy with rice."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2a29fab4-275e-558a-97e5-8df67918468d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "490 kcal",
+    "carbohydrateContent": "26 g",
+    "proteinContent": "38 g",
+    "fatContent": "25 g",
+    "saturatedFatContent": "7 g",
+    "cholesterolContent": "120 mg",
+    "sodiumContent": "980 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "12 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "Large mixing bowl For brining the pork chops",
+    "Large frying pan or skillet For frying pork chops evenly",
+    "Paper towels For drying brined pork chops",
+    "Tongs For flipping pork chops during frying"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "592173ee-c9f5-5928-9d42-f17a7e5dc993",
+      "name": "pork chops",
+      "normalized_name": "pork chops",
+      "quantity": "3",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg (beaten)",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
+      "name": "dried bay leaves",
+      "normalized_name": "dried bay leaves",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "be082731-84a1-5d91-9f0b-948d8d808163",
+      "name": "whole peppercorns",
+      "normalized_name": "whole peppercorns",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
+      "name": "quarts water",
+      "normalized_name": "quarts water",
+      "quantity": "1 1/2",
+      "unit": null,
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "8",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "adf1d5f8-d0d3-5e97-9dad-ffa0d79b78b7",
+      "name": "chili flakes",
+      "normalized_name": "chili flakes",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "3b710695-cc41-5a91-9313-1936147aba6c",
+      "name": "apple cider vinegar",
+      "normalized_name": "apple cider vinegar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 17
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 18
+    },
+    {
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 19
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 20
+    },
+    {
+      "ingredient_id": "38197a74-9014-54df-8d01-8d00f5715290",
+      "name": "salt and ground black pepper (to taste)",
+      "normalized_name": "salt and ground black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 21
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 22
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ca9707d2-4bae-5ca6-a978-2dee99ea70ea",
+      "slug": "fried-pork-chops",
+      "name": "fried pork chops",
+      "color": null
+    },
+    {
+      "id": "0a5c2332-a316-56fa-83b5-ea0d62e09470",
+      "slug": "honey-garlic-pork",
+      "name": "honey garlic pork",
+      "color": null
+    },
+    {
+      "id": "59bed562-aa4a-5cdf-a964-026cb38af2c0",
+      "slug": "pork-chops",
+      "name": "pork chops",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/honey-garlic-pork-chops/"
+  },
+  "public": true,
+  "updated_at": 1758786877,
+  "revision": 1
+}

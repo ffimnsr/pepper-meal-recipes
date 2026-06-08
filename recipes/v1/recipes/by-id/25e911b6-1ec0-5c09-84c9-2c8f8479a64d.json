@@ -1,0 +1,184 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "25e911b6-1ec0-5c09-84c9-2c8f8479a64d",
+  "slug": "beef-nilaga",
+  "name": "Beef Nilaga Recipe",
+  "recipe_type": "soup",
+  "brief_description": "A traditional Filipino boiled beef soup prepared with tender brisket, potatoes, cabbage, and saba bananas simmered in a flavorful clear broth. A simple and hearty dish that captures the comforting essence of Filipino home cooking.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Saute the onion until texture becomes soft"
+    },
+    {
+      "position": 2,
+      "text": "Add-in the beef brisket and cook for about 5 minutes"
+    },
+    {
+      "position": 3,
+      "text": "Add the fish sauce and whole peppercorn then mix well"
+    },
+    {
+      "position": 4,
+      "text": "Pour the water and bring to a boil. Simmer for 1 to 2 hours (or 30 minutes if using pressure cooker)"
+    },
+    {
+      "position": 5,
+      "text": "Add the potato, saba banana, and carrots. Simmer for 5 to 7 minutes"
+    },
+    {
+      "position": 6,
+      "text": "Add the bok choy. Cover the pot and turn off the heat. Let it stay for 5 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Serve hot. Share and Enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 130,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/25e911b6-1ec0-5c09-84c9-2c8f8479a64d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "6 g",
+    "calories": "275 kcal",
+    "carbohydrateContent": "8 g",
+    "proteinContent": "34 g",
+    "fatContent": "12 g",
+    "saturatedFatContent": "4 g",
+    "cholesterolContent": "94 mg",
+    "sodiumContent": "826 mg",
+    "fiberContent": "3 g",
+    "sugarContent": "4 g",
+    "unsaturatedFatContent": "6 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8b490755-8522-5789-94b2-bf5b8a44f0ad",
+      "name": "beef brisket (cubed)",
+      "normalized_name": "beef brisket",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3996d4e9-a572-5bf1-9ea2-869c10f374a0",
+      "name": "potato (cubed)",
+      "normalized_name": "potato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8b96575f-5f78-5aaa-a31d-0c5f98da4e56",
+      "name": "saba banana (sliced)",
+      "normalized_name": "saba banana",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "1e96e905-22b2-5636-84df-d76a646c640d",
+      "name": "bunch bok choy",
+      "normalized_name": "bunch bok choy",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (wedged)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots (sliced crosswise )",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1623da78-1a96-581d-9b81-712eff987bcb",
+      "name": "whole peppercorn",
+      "normalized_name": "whole peppercorn",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce",
+      "normalized_name": "fish sauce",
+      "quantity": "2 1/2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
+      "name": "quarts water",
+      "normalized_name": "quarts water",
+      "quantity": "1 1/2",
+      "unit": null,
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c7c96e0f-b54a-5a4f-8fa7-48e30eb69877",
+      "slug": "nilaga",
+      "name": "nilaga",
+      "color": null
+    },
+    {
+      "id": "8b68d374-f080-5596-9c12-5ae48580e5e0",
+      "slug": "nilagang-baka",
+      "name": "nilagang baka",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/beef-nilaga/"
+  },
+  "public": true,
+  "updated_at": 1246102171,
+  "revision": 1
+}

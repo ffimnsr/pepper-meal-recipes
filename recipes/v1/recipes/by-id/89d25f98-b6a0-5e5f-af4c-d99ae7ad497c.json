@@ -1,0 +1,168 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "89d25f98-b6a0-5e5f-af4c-d99ae7ad497c",
+  "slug": "pesang-manok",
+  "name": "Pesang Manok (Chicken Soup in Ginger Broth)",
+  "recipe_type": "soup",
+  "brief_description": "Chicken soup in ginger broth with potato and cabbage.",
+  "cuisine": "Fiipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine chicken, water, chicken broth, ginger, and whole peppercorn in a cooking pot. Let boil. Simmer for 30 to 45 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Add the potatoes and cook for 12 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Put-in the Napa cabbage and fish sauce. Cover and cook for 2 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Transfer to a serving bowl."
+    },
+    {
+      "position": 5,
+      "text": "Serve. Share and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/89d25f98-b6a0-5e5f-af4c-d99ae7ad497c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "6 g",
+    "calories": "502 kcal",
+    "carbohydrateContent": "2 g",
+    "proteinContent": "43 g",
+    "fatContent": "34 g",
+    "saturatedFatContent": "10 g",
+    "transFatContent": "1 g",
+    "cholesterolContent": "170 mg",
+    "sodiumContent": "928 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "1 g",
+    "unsaturatedFatContent": "21 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
+      "name": "Chicken (cut into serving pieces)",
+      "normalized_name": "chicken",
+      "quantity": "3",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a8756250-bd9b-5f00-beb9-d11684254de2",
+      "name": "thumbs ginger",
+      "normalized_name": "thumbs ginger",
+      "quantity": "2 to 3",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes (quartered)",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3c2b0c49-e8a3-594d-bc4c-00ec15e89666",
+      "name": "Napa cabbage (cleaned)",
+      "normalized_name": "napa cabbage",
+      "quantity": "1/2",
+      "unit": "lb",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce",
+      "normalized_name": "fish sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "1623da78-1a96-581d-9b81-712eff987bcb",
+      "name": "whole peppercorn",
+      "normalized_name": "whole peppercorn",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c718034d-9f2e-5a4a-aa30-8d3ee3c4f984",
+      "slug": "chicken-soup",
+      "name": "chicken soup",
+      "color": null
+    },
+    {
+      "id": "a32f8dda-22d8-523f-989c-980dde9371d1",
+      "slug": "pesa",
+      "name": "pesa",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/pesang-manok/"
+  },
+  "public": true,
+  "updated_at": 1380655268,
+  "revision": 1
+}

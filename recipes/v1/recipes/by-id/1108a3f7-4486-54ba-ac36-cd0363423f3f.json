@@ -1,0 +1,204 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1108a3f7-4486-54ba-ac36-cd0363423f3f",
+  "slug": "moist-banana-bread-recipe",
+  "name": "Banana Bread Recipe",
+  "recipe_type": "dessert",
+  "brief_description": "Moist and delicious banana bread recipe.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven at 350 degrees Fahrenheit."
+    },
+    {
+      "position": 2,
+      "text": "Combine all the dry ingredients starting with the flour, sugar, salt, and baking soda. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Mash bananas using a fork or a potato masher."
+    },
+    {
+      "position": 4,
+      "text": "Add eggs, cooking oil, and vanilla extract. Mix well."
+    },
+    {
+      "position": 5,
+      "text": "Gradually add the dry ingredients. Mix until everything is evenly distributed."
+    },
+    {
+      "position": 6,
+      "text": "Grease the loaf pan with a cooking oil spray (Note: you may also wet a paper towel with regular cooking oil or melted butter and spread it in the loaf pan). Pour mixture into the pan."
+    },
+    {
+      "position": 7,
+      "text": "Bake for 1 hour (Note: check the bread as early as 40 minutes during the baking to prevent overcooking. Use the toothpick test)."
+    },
+    {
+      "position": 8,
+      "text": "Remove from loaf pan from the oven. Let it cool down. Slice the bread and arrange on a serving plate (Note: You may put the bread in the fridge to cool or serve immediately.)."
+    },
+    {
+      "position": 9,
+      "text": "Share and Enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1108a3f7-4486-54ba-ac36-cd0363423f3f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "4 g",
+    "calories": "359 kcal",
+    "carbohydrateContent": "44 g",
+    "proteinContent": "3 g",
+    "fatContent": "19 g",
+    "saturatedFatContent": "1 g",
+    "transFatContent": "1 g",
+    "cholesterolContent": "1 mg",
+    "sodiumContent": "480 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "20 g",
+    "unsaturatedFatContent": "17 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "Oven"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
+      "name": "banana (",
+      "normalized_name": "banana",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "large and ripe)",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdb57237-b976-59dd-abd1-dfb1d9e58253",
+      "name": "granulated white sugar",
+      "normalized_name": "granulated white sugar",
+      "quantity": "10",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c8583337-416c-5e87-91aa-b94fecb5287d",
+      "name": "all purpose flour",
+      "normalized_name": "all purpose flour",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cabcfcfb-aa6d-510f-9597-ad6addb7e82a",
+      "slug": "baking",
+      "name": "baking",
+      "color": null
+    },
+    {
+      "id": "fbd23a77-be55-5618-979e-e3e7b701bd1a",
+      "slug": "banana",
+      "name": "banana",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "bread",
+      "color": null
+    },
+    {
+      "id": "e2283edf-3c9d-5951-9e76-51430427afa7",
+      "slug": "cake",
+      "name": "cake",
+      "color": null
+    },
+    {
+      "id": "78057e33-c248-5aa7-84d8-d78a1a6c799e",
+      "slug": "loaf",
+      "name": "loaf",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/moist-banana-bread-recipe/"
+  },
+  "public": true,
+  "updated_at": 1626944700,
+  "revision": 1
+}

@@ -1,0 +1,237 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b74afa0d-aba7-588a-b98a-305c511d65d8",
+  "slug": "sinigang-na-lechon",
+  "name": "Sinigang na Lechon",
+  "recipe_type": "soup",
+  "brief_description": "Roasted pork soup in sour broth.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Slice lechon into serving pieces."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a pot. Add lechon and saute for 1 minute."
+    },
+    {
+      "position": 3,
+      "text": "Put-in onion. Continue to cook for 35 seconds to 1 minute."
+    },
+    {
+      "position": 4,
+      "text": "Pour water into the pot. Let boil. Cover and continue boiling for 20 minutes using medium heat."
+    },
+    {
+      "position": 5,
+      "text": "Add Knorr Sinigang sa Sampaloc recipe mix. Stir."
+    },
+    {
+      "position": 6,
+      "text": "Add tomato and long green pepper. Cook for 8 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Add okra, snake beans, and eggplant. Cook for 5 minutes."
+    },
+    {
+      "position": 8,
+      "text": "Season with ground white pepper and fish sauce."
+    },
+    {
+      "position": 9,
+      "text": "Put kangkong leaves into the pot. Continue cooking for 1 minute."
+    },
+    {
+      "position": 10,
+      "text": "Serve hot with rice. Serve!"
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b74afa0d-aba7-588a-b98a-305c511d65d8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "953 kcal",
+    "carbohydrateContent": "25 g",
+    "proteinContent": "6 g",
+    "fatContent": "94 g",
+    "saturatedFatContent": "36 g",
+    "cholesterolContent": "86 mg",
+    "sodiumContent": "332 mg",
+    "fiberContent": "10 g",
+    "sugarContent": "12 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4efe3a3a-273c-5ae5-b620-5cb6903a198e",
+      "name": "lechon",
+      "normalized_name": "lechon",
+      "quantity": "1",
+      "unit": "lb",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "265426f4-3575-59c8-9fe9-d27d6536d56c",
+      "name": "bunch kangkong",
+      "normalized_name": "bunch kangkong",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "95564c4f-61e3-5cb4-9850-e4b754ae3e46",
+      "name": "Chinese eggplant",
+      "normalized_name": "chinese eggplant",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato (cubed)",
+      "normalized_name": "tomato",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2ac52341-3e44-5b98-83f6-0076f96d508d",
+      "name": "okra",
+      "normalized_name": "okra",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "807ddd5b-c2ab-5ffd-9029-38ad6338e99b",
+      "name": "snake beans (cut into pieces)",
+      "normalized_name": "snake beans",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cd063641-8ce9-578c-a9df-b380f4d519e9",
+      "name": "long green pepper",
+      "normalized_name": "long green pepper",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (wedged)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce",
+      "normalized_name": "fish sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "ea83d9fc-a7f0-569b-9a22-2809a2699fe9",
+      "name": "ground white pepper",
+      "normalized_name": "ground white pepper",
+      "quantity": "1/8",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "33580cd1-df63-53a8-8234-f207cab1433a",
+      "name": "pack Knorr Sinigang sa Sampaloc Mix (Original",
+      "normalized_name": "pack knorr sinigang sa sampaloc mix original",
+      "quantity": "1",
+      "unit": null,
+      "preparation": "44 grams)",
+      "position": 11
+    },
+    {
+      "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
+      "name": "quarts water",
+      "normalized_name": "quarts water",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fae48d33-42ce-513b-ae00-94049e6f9afd",
+      "slug": "filipino-sinigang",
+      "name": "filipino sinigang",
+      "color": null
+    },
+    {
+      "id": "9c6d4cb0-a181-54c4-a4be-a7ed740a7550",
+      "slug": "how-to-make-lechon-sauce",
+      "name": "how to make lechon sauce",
+      "color": null
+    },
+    {
+      "id": "74d9cc37-7a3e-52a4-8bda-2aeca3d5f9c4",
+      "slug": "roast-pork-soup",
+      "name": "roast pork soup",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/sinigang-na-lechon/"
+  },
+  "public": true,
+  "updated_at": 1577989277,
+  "revision": 1
+}

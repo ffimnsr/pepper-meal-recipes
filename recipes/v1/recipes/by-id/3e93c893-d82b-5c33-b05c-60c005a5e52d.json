@@ -1,0 +1,213 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3e93c893-d82b-5c33-b05c-60c005a5e52d",
+  "slug": "laswa-recipe",
+  "name": "Laswa Recipe",
+  "recipe_type": "soup",
+  "brief_description": "Similar to bulanglang and dinengdeng, Laswa is a healthy vegetable soup that makes use of any available vegetables from the backyard.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Boil water in a cooking pot."
+    },
+    {
+      "position": 2,
+      "text": "Add onion and tomato. Cover and boil for 5 minutes using medium heat."
+    },
+    {
+      "position": 3,
+      "text": "Add kalabasa and bagoong alamang. Boil for 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Add eggplant, string beans, and okra. Cook for 4 to 5 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Put shrimp into the pot. Cover and cook for 1 minute."
+    },
+    {
+      "position": 6,
+      "text": "Add saluyot, amaranth leaves (kulitis), and alugbati. Stir."
+    },
+    {
+      "position": 7,
+      "text": "Season with salt and ground black pepper. Serve with fried fish on the side. Share and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3e93c893-d82b-5c33-b05c-60c005a5e52d/cover.webp",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "6 g",
+    "calories": "92 kcal",
+    "carbohydrateContent": "9 g",
+    "proteinContent": "13 g",
+    "fatContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "cholesterolContent": "143 mg",
+    "sodiumContent": "453 mg",
+    "fiberContent": "2 g",
+    "sugarContent": "3 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
+      "name": "shrimp (cleaned)",
+      "normalized_name": "shrimp",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "95564c4f-61e3-5cb4-9850-e4b754ae3e46",
+      "name": "Chinese eggplant (sliced)",
+      "normalized_name": "chinese eggplant",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6d6d736d-ba33-50c2-b46a-10a9a7baf468",
+      "name": "kalabasa squash (diced)",
+      "normalized_name": "kalabasa squash",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5c799fe7-1166-5e78-8c83-02b1a54c39bc",
+      "name": "string beans (cut into 2 inch pieces)",
+      "normalized_name": "string beans",
+      "quantity": "15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "143e94d4-435e-5cfa-91bb-72b52902b29b",
+      "name": "saluyot leaves",
+      "normalized_name": "saluyot leaves",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8d4c2497-861a-56a3-973e-5c2629a76c56",
+      "name": "alugbati",
+      "normalized_name": "alugbati",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "8e76cec9-1170-5385-b7bf-4029b44e17cc",
+      "name": "Amaranth leaves ((kulitis))",
+      "normalized_name": "amaranth leaves",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2ac52341-3e44-5b98-83f6-0076f96d508d",
+      "name": "okra",
+      "normalized_name": "okra",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato (wedged)",
+      "normalized_name": "tomato",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "a54885cc-22c3-5cf2-aea7-939fa6b063c9",
+      "name": "onion wedged",
+      "normalized_name": "onion wedged",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "38257a8c-3b6e-5d21-bce0-9a228e4ab109",
+      "name": "bagoong alamang (or guinamos)",
+      "normalized_name": "bagoong alamang",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "Salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "9cd6d4d7-6841-525f-b451-431d6b9716c3",
+      "slug": "main-dish",
+      "name": "Main Dish"
+    },
+    {
+      "id": "24e3743e-25a0-58f6-8029-8741b37c8156",
+      "slug": "vegetable",
+      "name": "Vegetable"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6df4ef7c-74f6-5472-806a-345cc7e310ca",
+      "slug": "boiled-vegetables",
+      "name": "boiled vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/laswa-recipe/"
+  },
+  "public": true,
+  "updated_at": 1628415900,
+  "revision": 1
+}

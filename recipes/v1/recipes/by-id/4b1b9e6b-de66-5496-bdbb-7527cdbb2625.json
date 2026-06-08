@@ -1,0 +1,222 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4b1b9e6b-de66-5496-bdbb-7527cdbb2625",
+  "slug": "ginisang-sitaw-recipe",
+  "name": "Ginisang Sitaw",
+  "recipe_type": "side",
+  "brief_description": "Ginisang sitaw is sauteed string beans with ground pork, garlic, onion, and tomato, seasoned with fish sauce and black pepper. Everything cooks in one pan in under 30 minutes. Serve it with steamed rice and fried fish for a classic Filipino meal.",
+  "cuisine": "Asian Filipino Southeast Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the oil in a pan over medium heat."
+    },
+    {
+      "position": 2,
+      "text": "Saute the chopped garlic and onion until the onion softens."
+    },
+    {
+      "position": 3,
+      "text": "Add the ground pork to the pan and cook until it turns medium brown."
+    },
+    {
+      "position": 4,
+      "text": "Add the diced tomatoes and cook for 1 minute."
+    },
+    {
+      "position": 5,
+      "text": "Add the string beans and saute for 1 minute."
+    },
+    {
+      "position": 6,
+      "text": "Pour in the water and bring to a boil. Cook until the string beans become tender."
+    },
+    {
+      "position": 7,
+      "text": "Season with fish sauce and ground black pepper."
+    },
+    {
+      "position": 8,
+      "text": "Transfer to a serving plate."
+    },
+    {
+      "position": 9,
+      "text": "Serve and enjoy."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4b1b9e6b-de66-5496-bdbb-7527cdbb2625/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "302 kcal",
+    "carbohydrateContent": "22 g",
+    "proteinContent": "13 g",
+    "fatContent": "20 g",
+    "saturatedFatContent": "4 g",
+    "transFatContent": "0.04 g",
+    "cholesterolContent": "31 mg",
+    "sodiumContent": "42 mg",
+    "fiberContent": "8 g",
+    "sugarContent": "10 g",
+    "unsaturatedFatContent": "15 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "Pan or skillet A wide pan works best so the beans have room to saute instead of steam."
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "5c799fe7-1166-5e78-8c83-02b1a54c39bc",
+      "name": "string beans (cut into 2-inch lengths)",
+      "normalized_name": "string beans",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4d7a6e98-92db-548c-be40-93f5ca798f4f",
+      "name": "medium tomatoes (diced)",
+      "normalized_name": "medium tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
+      "name": "ground pork",
+      "normalized_name": "ground pork",
+      "quantity": "6",
+      "unit": "oz",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion (chopped)",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (chopped)",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce (to taste)",
+      "normalized_name": "fish sauce",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper (to taste)",
+      "normalized_name": "ground black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water (as needed)",
+      "normalized_name": "water",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "24e3743e-25a0-58f6-8029-8741b37c8156",
+      "slug": "vegetable",
+      "name": "Vegetable"
+    }
+  ],
+  "tags": [
+    {
+      "id": "62f0f931-285a-58fb-91da-890a3fa6d87b",
+      "slug": "comfort-food",
+      "name": "comfort food",
+      "color": null
+    },
+    {
+      "id": "9cf41af0-2130-5b57-9f28-8504ab56b416",
+      "slug": "one-pan",
+      "name": "one-pan",
+      "color": null
+    },
+    {
+      "id": "f73fbc82-f5b9-54db-9301-4635097cc8c2",
+      "slug": "quick",
+      "name": "quick",
+      "color": null
+    },
+    {
+      "id": "92a06a00-215e-58b3-8d44-d7a4369bcb93",
+      "slug": "sauteed",
+      "name": "sauteed",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/ginisang-sitaw-recipe/"
+  },
+  "public": true,
+  "updated_at": 1338510622,
+  "revision": 1
+}

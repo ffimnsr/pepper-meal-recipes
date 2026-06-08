@@ -1,0 +1,247 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d511ec46-362c-500a-9b56-d9d01c85d00b",
+  "slug": "pineapple-chicken-afritada",
+  "name": "Pineapple Chicken Afritada",
+  "recipe_type": "main",
+  "brief_description": "Chicken stew with pineapple, potato, and carrots.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a pan. Add garlic. Continue cooking while stirring until it starts to turn golden brown in color."
+    },
+    {
+      "position": 2,
+      "text": "Add onion. Saute until it softens."
+    },
+    {
+      "position": 3,
+      "text": "Add chicken. Cook each side for 1 minute or until the color turns light brown."
+    },
+    {
+      "position": 4,
+      "text": "Pour the tomato sauce, juice from pineapple chunks, and water into the pan. Stir. Cover the pan."
+    },
+    {
+      "position": 5,
+      "text": "Once the liquid starts to boil, add Knorr Chicken Cube and bay leaves. Cover the pan and then adjust the heat to a low setting. Continue cooking for 18 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Use a kitchen tong to turn the chicken pieces over. Continue cooking the opposite side for 12 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Add pineapple, potato, and carrot. Cook for 10 minutes."
+    },
+    {
+      "position": 8,
+      "text": "Season with fish sauce and ground black pepper."
+    },
+    {
+      "position": 9,
+      "text": "Add bell pepper. Cook for 3 to 5 minutes."
+    },
+    {
+      "position": 10,
+      "text": "Transfer to a serving bowl. Serve and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d511ec46-362c-500a-9b56-d9d01c85d00b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "182 kcal",
+    "carbohydrateContent": "21 g",
+    "proteinContent": "2 g",
+    "fatContent": "11 g",
+    "saturatedFatContent": "1 g",
+    "transFatContent": "1 g",
+    "cholesterolContent": "1 mg",
+    "sodiumContent": "554 mg",
+    "fiberContent": "4 g",
+    "sugarContent": "15 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
+      "name": "chicken (cut into serving pieces)",
+      "normalized_name": "chicken",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d0baff8b-b4d0-5ab6-b900-2ec4beb67067",
+      "name": "Knorr chicken cube",
+      "normalized_name": "knorr chicken cube",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
+      "name": "tomato sauce",
+      "normalized_name": "tomato sauce",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "081c8559-d10e-5f65-85ee-ab5575a739af",
+      "name": "pineapple chunks (in can)",
+      "normalized_name": "pineapple chunks",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3996d4e9-a572-5bf1-9ea2-869c10f374a0",
+      "name": "potato (diced)",
+      "normalized_name": "potato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot (sliced)",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper (cut into squares)",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper (cut into squares)",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (chopped)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (chopped)",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
+      "name": "dried bay leaves",
+      "normalized_name": "dried bay leaves",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "c347e72a-8d22-5304-9550-447f2d4f95f6",
+      "name": "Fish sauce and ground black pepper to taste",
+      "normalized_name": "fish sauce and ground black pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c6831c31-467f-5463-a2aa-87062b2cc018",
+      "slug": "afritada",
+      "name": "afritada",
+      "color": null
+    },
+    {
+      "id": "cec4f0db-f248-574a-bd3f-ac43c4af7f4f",
+      "slug": "chicken-stew",
+      "name": "chicken stew",
+      "color": null
+    },
+    {
+      "id": "9bcb93c2-9332-575f-a475-981f4af23ff0",
+      "slug": "pineapple-chicken",
+      "name": "pineapple chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/pineapple-chicken-afritada/"
+  },
+  "public": true,
+  "updated_at": 1615780680,
+  "revision": 1
+}

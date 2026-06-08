@@ -1,0 +1,216 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8991c5ab-b1fe-54ec-85b9-21d63fe426a6",
+  "slug": "egg-fried-rice",
+  "name": "Egg Fried Rice",
+  "recipe_type": "side",
+  "brief_description": "This Egg Fried Rice is a quick and flavorful way to turn leftover rice into a satisfying meal. Tossed with eggs, soy sauce, and vegetables, it is perfect for busy days when you want comfort food in minutes.",
+  "cuisine": "Chinese",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Crack the eggs into a bowl and beat lightly until smooth."
+    },
+    {
+      "position": 2,
+      "text": "Heat cooking oil in a wok over medium heat. Pour in the beaten eggs and cook until the bottom side turns light brown. Flip, cook the other side, then break into smaller pieces."
+    },
+    {
+      "position": 3,
+      "text": "Add the onion, bell pepper, and sweet peppers. Stir fry for about one minute until fragrant but still crisp."
+    },
+    {
+      "position": 4,
+      "text": "Add half of the leftover rice and stir fry for two minutes to loosen the grains. Then add the remaining rice and continue mixing until well combined."
+    },
+    {
+      "position": 5,
+      "text": "Pour in the soy sauce and sesame oil. Toss everything well so the rice absorbs the seasonings evenly."
+    },
+    {
+      "position": 6,
+      "text": "Season with salt and sugar. Add the green onions and cook for another minute while stirring continuously."
+    },
+    {
+      "position": 7,
+      "text": "Transfer to a serving plate. Serve hot and enjoy your Egg Fried Rice with your favorite dishes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8991c5ab-b1fe-54ec-85b9-21d63fe426a6/cover.webp",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "467 kcal",
+    "carbohydrateContent": "57 g",
+    "proteinContent": "13 g",
+    "fatContent": "22 g",
+    "saturatedFatContent": "3 g",
+    "transFatContent": "0.1 g",
+    "cholesterolContent": "164 mg",
+    "sodiumContent": "1299 mg",
+    "fiberContent": "5 g",
+    "sugarContent": "9 g",
+    "unsaturatedFatContent": "16 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "1 Wok or large skillet For even stir frying and heat control",
+    "1 Mixing bowl For beating the eggs",
+    "1 Spatula For stirring and tossing the rice evenly"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": null,
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7d382a24-a4cb-5699-a15c-e668d84729e5",
+      "name": "leftover rice",
+      "normalized_name": "leftover rice",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (chopped)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "75dfa26d-9966-5dd8-911f-e45937232b84",
+      "name": "bell pepper (chopped)",
+      "normalized_name": "bell pepper",
+      "quantity": "0.5",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "258d740d-93a2-57ce-b5e8-5cb547126597",
+      "name": "sweet peppers (chopped)",
+      "normalized_name": "sweet peppers",
+      "quantity": "3",
+      "unit": null,
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2bb7f8e7-f9f2-52d8-a55e-5a50a04b3eed",
+      "name": "green onion (chopped)",
+      "normalized_name": "green onion",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar (optional)",
+      "normalized_name": "sugar",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bab7abc3-fbe4-5ccf-8948-e1fe4f638505",
+      "slug": "egg-rice",
+      "name": "egg rice",
+      "color": null
+    },
+    {
+      "id": "ec6a5d88-074f-5f8b-97a9-466f6e76245c",
+      "slug": "fried-rice",
+      "name": "fried rice",
+      "color": null
+    },
+    {
+      "id": "1be8fdbe-eb57-594e-afab-4883a929a754",
+      "slug": "fried-rice-with-egg",
+      "name": "fried rice with egg",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [
+    "Leftover rice works best for this recipe since it is firm and not sticky.",
+    "You can add proteins such as shrimp or ham for a heartier version."
+  ],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/egg-fried-rice/"
+  },
+  "public": true,
+  "updated_at": 1705948546,
+  "revision": 1
+}

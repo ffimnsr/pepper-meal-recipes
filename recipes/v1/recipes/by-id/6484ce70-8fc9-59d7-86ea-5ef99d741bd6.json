@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6484ce70-8fc9-59d7-86ea-5ef99d741bd6",
+  "slug": "bistek-silog",
+  "name": "Bistek Silog",
+  "recipe_type": null,
+  "brief_description": "This is a recipe for a tasty Filipino Combo Meal known as Bistek Silog. It is a name that describes bistek tagalog, sinangag (garlic fried rice), at itlog (and fried egg).",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook bistek tagalog by following the recipe provided on the link above. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Prepare the garlic fried rice (also known as sinangag na kanin). Use the link in the ingredients section to be directed to the recipe for sinangag."
+    },
+    {
+      "position": 3,
+      "text": "Arrange a cup of sinangag in a plate and add a serving of bistek tagalog. Put 2 fried eggs on the side. Do this step 2 more times until a total of 3 bistek silog plates are prepared."
+    },
+    {
+      "position": 4,
+      "text": "Serve with your favorite condiment (mine is ketchup for the egg). Share and enjoy!"
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6484ce70-8fc9-59d7-86ea-5ef99d741bd6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "3 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "26f32826-c630-5d4a-8d4f-d720a352dde1",
+      "name": "servings bistek tagalog",
+      "normalized_name": "servings bistek tagalog",
+      "quantity": "3",
+      "unit": null,
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b9dd8a8c-af68-57cc-9423-7a0fee8f4392",
+      "name": "fried eggs",
+      "normalized_name": "fried eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "1440f7c5-34ba-595e-9553-386beec35327",
+      "name": "sinangag na kanin",
+      "normalized_name": "sinangag na kanin",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "50187c0f-97f5-5a0b-9f2b-fba369c161b8",
+      "slug": "combo-meal",
+      "name": "Combo Meal"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/bistek-silog/"
+  },
+  "public": true,
+  "updated_at": 1474405122,
+  "revision": 1
+}

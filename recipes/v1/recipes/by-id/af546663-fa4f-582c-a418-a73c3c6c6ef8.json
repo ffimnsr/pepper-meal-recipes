@@ -1,0 +1,206 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "af546663-fa4f-582c-a418-a73c3c6c6ef8",
+  "slug": "garlic-bread-recipe",
+  "name": "Garlic Bread",
+  "recipe_type": "appetizer",
+  "brief_description": "This Garlic Bread is a buttery, golden side dish made with French bread, fresh garlic, parsley, and Parmesan, baked until the edges turn crisp and the middle stays soft. It is the easy side I make for almost every pasta night at home, and it goes well with spaghetti, lasagna, or any saucy meal.",
+  "cuisine": "American Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375\u00b0F."
+    },
+    {
+      "position": 2,
+      "text": "Combine the softened butter and minced garlic in a bowl."
+    },
+    {
+      "position": 3,
+      "text": "Add the Parmesan cheese, parsley, salt, and olive oil. Mix until all the ingredients are well blended."
+    },
+    {
+      "position": 4,
+      "text": "Slice each loaf of French bread crosswise, then slice each piece lengthwise in half."
+    },
+    {
+      "position": 5,
+      "text": "Divide the garlic butter mixture evenly among the bread slices and spread it all the way to the edges."
+    },
+    {
+      "position": 6,
+      "text": "Line a baking tray with parchment paper. Arrange the buttered bread on top."
+    },
+    {
+      "position": 7,
+      "text": "Bake for 9 to 10 minutes, or until the edges turn lightly crisp and the butter melts into the bread."
+    },
+    {
+      "position": 8,
+      "text": "Remove the garlic bread from the oven and let it cool for a few minutes."
+    },
+    {
+      "position": 9,
+      "text": "Slice into serving pieces."
+    },
+    {
+      "position": 10,
+      "text": "Serve as a side for pasta."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/af546663-fa4f-582c-a418-a73c3c6c6ef8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "148 kcal",
+    "carbohydrateContent": "1 g",
+    "proteinContent": "1 g",
+    "fatContent": "16 g",
+    "saturatedFatContent": "9 g",
+    "transFatContent": "1 g",
+    "cholesterolContent": "38 mg",
+    "sodiumContent": "87 mg",
+    "fiberContent": "0.1 g",
+    "sugarContent": "0.1 g",
+    "unsaturatedFatContent": "6 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "1 Baking tray Half sheet pan size works well for two loaves.",
+    "1 Parchment Paper Keeps the bread from sticking and makes cleanup easier.",
+    "1 Mixing bowl For combining the garlic butter mixture.",
+    "1 Serrated Knife Slices through the crust without crushing the soft middle."
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "95585eb8-0520-57b6-b91a-7003a314ab33",
+      "name": "loaves French bread",
+      "normalized_name": "loaves french bread",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter (softened)",
+      "normalized_name": "unsalted butter",
+      "quantity": "10",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "6",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "8bd7a379-a0c2-591a-a044-edef1318f0f5",
+      "name": "parsley (minced)",
+      "normalized_name": "parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "88484198-1339-5eeb-a28d-8ad010e76991",
+      "name": "Parmesan cheese (grated)",
+      "normalized_name": "parmesan cheese",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "84b8e582-e631-566b-9ba0-cbc0b8e649de",
+      "name": "extra virgin olive oil",
+      "normalized_name": "extra virgin olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "c8d6af28-cbfc-56ff-9ba1-6b27b0df4ead",
+      "name": "fine salt",
+      "normalized_name": "fine salt",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fceda9fd-bb48-5ee8-badd-4f91ede04e2a",
+      "slug": "buttery",
+      "name": "buttery",
+      "color": null
+    },
+    {
+      "id": "62f0f931-285a-58fb-91da-890a3fa6d87b",
+      "slug": "comfort-food",
+      "name": "comfort food",
+      "color": null
+    },
+    {
+      "id": "60f6fa5f-ac03-5eff-897b-8776dfb1ef02",
+      "slug": "garlic",
+      "name": "garlic",
+      "color": null
+    },
+    {
+      "id": "f73fbc82-f5b9-54db-9301-4635097cc8c2",
+      "slug": "quick",
+      "name": "quick",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/garlic-bread-recipe/"
+  },
+  "public": true,
+  "updated_at": 1366798813,
+  "revision": 1
+}

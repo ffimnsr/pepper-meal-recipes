@@ -15,6 +15,7 @@ from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup, Tag
+from requests import RequestException
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -89,7 +90,14 @@ KNOWN_UNITS = {
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Scrape Panlasang Pinoy recipe pages into PMP recipe JSON.")
-    parser.add_argument("urls", nargs="+", help="Recipe URL(s) to scrape.")
+    parser.add_argument("urls", nargs="*", help="Recipe URL(s) to scrape.")
+    parser.add_argument(
+        "--urls-file",
+        type=Path,
+        action="append",
+        default=[],
+        help="Optional text file with one recipe URL per line. Supports comments starting with #.",
+    )
     parser.add_argument(
         "--output-dir",
         type=Path,
@@ -131,7 +139,10 @@ def parse_args() -> argparse.Namespace:
         default=DEFAULT_PUBLIC_REPO_BRANCH,
         help="Git branch used when building published GitHub asset URLs.",
     )
-    return parser.parse_args()
+    args = parser.parse_args()
+    if not args.urls and not args.urls_file:
+        parser.error("provide at least one recipe URL or --urls-file")
+    return args
 
 
 def stable_uuid(namespace: uuid.UUID, key: str) -> str:
@@ -341,7 +352,14 @@ def download_recipe_image(assets_dir: Path, recipe: dict[str, Any]) -> Path | No
     if not image_url:
         return None
 
-    image_bytes, content_type = fetch_bytes(image_url)
+    try:
+        image_bytes, content_type = fetch_bytes(image_url)
+    except RequestException as exc:
+        print_progress(
+            f"Skipping image download for {recipe['slug']}: {image_url} :: {exc}"
+        )
+        return None
+
     extension = infer_image_extension(image_url, content_type)
     recipe_assets_dir = assets_dir / recipe["id"]
     recipe_assets_dir.mkdir(parents=True, exist_ok=True)
@@ -432,6 +450,16 @@ def dedupe_preserve_order(items: list[str]) -> list[str]:
         seen.add(item)
         result.append(item)
     return result
+
+
+def load_urls_from_file(path: Path) -> list[str]:
+    urls: list[str] = []
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.split("#", 1)[0].strip()
+        if not line:
+            continue
+        urls.append(line)
+    return urls
 
 
 def split_text_values(value: Any) -> list[str]:
@@ -714,20 +742,49 @@ def write_catalog_output(recipes_dir: Path, recipe: dict[str, Any]) -> None:
     output_path.write_text(json.dumps(recipe, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
 
 
+def print_progress(message: str) -> None:
+    print(message, file=sys.stderr, flush=True)
+
+
 def main() -> int:
     args = parse_args()
+    urls = list(args.urls)
+    for path in args.urls_file:
+        urls.extend(load_urls_from_file(path))
+    urls = dedupe_preserve_order(urls)
+    total_urls = len(urls)
+
     recipes: list[dict[str, Any]] = []
-    for url in args.urls:
-        recipes.append(scrape_recipe(url, args.selector))
+    failed_urls: list[tuple[str, str]] = []
+    for index, url in enumerate(urls, start=1):
+        print_progress(f"[{index}/{total_urls}] Scraping {url}")
+        try:
+            recipes.append(scrape_recipe(url, args.selector))
+        except Exception as exc:
+            error_message = str(exc) or exc.__class__.__name__
+            failed_urls.append((url, error_message))
+            print_progress(f"[{index}/{total_urls}] Skipping {url}: {error_message}")
+
+    if not recipes:
+        print_progress("No recipes were scraped successfully.")
+        if failed_urls:
+            print_progress("Failed URLs:")
+            for failed_url, error_message in failed_urls:
+                print_progress(f"- {failed_url} :: {error_message}")
+        return 1
+
+    total_recipes = len(recipes)
 
     if args.output_dir:
-        for recipe in recipes:
+        for index, recipe in enumerate(recipes, start=1):
+            print_progress(f"[{index}/{total_recipes}] Writing output file for {recipe['slug']}")
             write_output(args.output_dir, recipe)
 
     if args.write_catalog or args.catalog_recipes_dir:
         catalog_recipes_dir = args.catalog_recipes_dir or DEFAULT_CATALOG_RECIPES_DIR
         assets_dir = args.assets_dir or DEFAULT_CATALOG_ASSETS_DIR
-        for recipe in recipes:
+        for index, recipe in enumerate(recipes, start=1):
+            print_progress(f"[{index}/{total_recipes}] Downloading assets and writing catalog file for {recipe['slug']}")
             asset_path = download_recipe_image(assets_dir, recipe)
             if asset_path is not None:
                 recipe["image_url"] = build_public_asset_url(
@@ -738,7 +795,8 @@ def main() -> int:
                 )
             write_catalog_output(catalog_recipes_dir, recipe)
     elif args.assets_dir:
-        for recipe in recipes:
+        for index, recipe in enumerate(recipes, start=1):
+            print_progress(f"[{index}/{total_recipes}] Downloading assets for {recipe['slug']}")
             asset_path = download_recipe_image(args.assets_dir, recipe)
             if asset_path is not None:
                 recipe["image_url"] = build_public_asset_url(
@@ -747,6 +805,14 @@ def main() -> int:
                     args.public_repo_url,
                     args.public_repo_branch,
                 )
+
+    print_progress(
+        f"Completed {total_recipes}/{total_urls} recipe(s) successfully. Writing JSON output."
+    )
+    if failed_urls:
+        print_progress(f"Skipped {len(failed_urls)} URL(s) due to errors:")
+        for failed_url, error_message in failed_urls:
+            print_progress(f"- {failed_url} :: {error_message}")
 
     payload: Any = recipes[0] if len(recipes) == 1 else recipes
     json.dump(payload, sys.stdout, indent=2, ensure_ascii=True)

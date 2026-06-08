@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fd6b2f50-983e-5621-8645-714d37466fbc",
+  "slug": "macaroni-salad-easy-recipe",
+  "name": "Macaroni Salad",
+  "recipe_type": "salad",
+  "brief_description": "Simple chicken macaroni salad for beginners",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook the macaroni based on the package instructions. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Boil the chicken breast for 15 minutes. Let it cool down and the shred it into pieces."
+    },
+    {
+      "position": 3,
+      "text": "Combine cooked macaroni, shredded chicken, Lady\u2019s Choice Mayonnaise, and all other ingredients in a large bowl. Toss until well blended."
+    },
+    {
+      "position": 4,
+      "text": "Season with salt. Refrigerate for at least 2 hours before serving."
+    },
+    {
+      "position": 5,
+      "text": "Serve. Share and enjoy!"
+    }
+  ],
+  "servings": null,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fd6b2f50-983e-5621-8645-714d37466fbc/cover.webp",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "4870 kcal",
+    "carbohydrateContent": "499 g",
+    "proteinContent": "132 g",
+    "fatContent": "249 g",
+    "saturatedFatContent": "38 g",
+    "transFatContent": "0.03 g",
+    "cholesterolContent": "212 mg",
+    "sodiumContent": "3397 mg",
+    "fiberContent": "29 g",
+    "sugarContent": "77 g",
+    "unsaturatedFatContent": "13 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "90ad4070-8a31-5a7c-9087-58102c7ff05f",
+      "name": "elbow macaroni",
+      "normalized_name": "elbow macaroni",
+      "quantity": "1",
+      "unit": "lb",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7402d10f-ce7d-5e88-82dc-9d8f54fcdf4a",
+      "name": "Lady\u2019s Choice Mayonnaise",
+      "normalized_name": "ladys choice mayonnaise",
+      "quantity": "1 \u00bd",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "72e78ee1-743c-5e32-a2bf-40a7081015af",
+      "name": "chicken breast ((note 1))",
+      "normalized_name": "chicken breast",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ae91a64d-4792-5799-85fc-6fd43e925f38",
+      "name": "shredded cheese ((note 2))",
+      "normalized_name": "shredded cheese",
+      "quantity": "\u00be",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a30d25dd-b19a-582e-aac5-208fa424ff00",
+      "name": "sweet pickle relish",
+      "normalized_name": "sweet pickle relish",
+      "quantity": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot (minced)",
+      "normalized_name": "carrot",
+      "quantity": "\u00bc",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a0f17d09-d637-50b5-b4ff-d4c19e25ec2e",
+      "name": "raisins",
+      "normalized_name": "raisins",
+      "quantity": "\u00bd",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f1c083f0-e588-51b1-bc7a-82b25e5afefd",
+      "name": "pineapple tidbits ((note 3))",
+      "normalized_name": "pineapple tidbits",
+      "quantity": "8",
+      "unit": "oz",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper (minced)",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper (minced)",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "Salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [
+    "Remove skin off the chicken breast and for 12 to 18 minutes and then shred it into pieces once it cools down. You can also dice the boiled chicken if preferred.",
+    "I use shredded cheddar cheese for this recipe. You can also use other types of cheese that goes well with your taste.",
+    "Canned pineapple tidbits are the ones that I used. Feel free to use pineapple chunks or even fresh pineapple. Also, you can add around 3 tablespoons or more of pineapple juice for best results."
+  ],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/macaroni-salad-easy-recipe/"
+  },
+  "public": true,
+  "updated_at": 1652876160,
+  "revision": 1
+}

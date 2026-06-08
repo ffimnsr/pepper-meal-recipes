@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "734c13cd-759c-5eae-8ffd-b303de1cf7dd",
+  "slug": "pork-chop-sinigang",
+  "name": "Pork Chop Sinigang",
+  "recipe_type": "soup",
+  "brief_description": "This is a recipe for Pork Chop Sinigang",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring water to a boil in a pot."
+    },
+    {
+      "position": 2,
+      "text": "Add tomato and onion. Boil for 3 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Put the pork chops in and then cover the pot. Continue to cook in medium heat for 30 to 40 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Add the sinigang mix. Stir."
+    },
+    {
+      "position": 5,
+      "text": "Put the okra, eggplant, long green peppers, and snake beans into the cooking pot. Cover and continue to cook for 10 to 12 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Pour fish sauce. Stir. Add the spinach and cover the pot. Turn off the heat and let it stay covered for 5 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Transfer to a serving bowl. Serve with white rice."
+    },
+    {
+      "position": 8,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/734c13cd-759c-5eae-8ffd-b303de1cf7dd/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "3 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d2bbe037-93f1-5f58-a13f-fae0320f7239",
+      "name": "pork chop",
+      "normalized_name": "pork chop",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2ac52341-3e44-5b98-83f6-0076f96d508d",
+      "name": "okra",
+      "normalized_name": "okra",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "807ddd5b-c2ab-5ffd-9029-38ad6338e99b",
+      "name": "snake beans (cut into 2 inch pieces)",
+      "normalized_name": "snake beans",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b7b6a651-fe75-55ce-828a-5317a2e8aa4c",
+      "name": "medium tomato (wedged)",
+      "normalized_name": "medium tomato",
+      "quantity": "3",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "80139d0e-d3ea-5dc9-8571-6cd60be4d578",
+      "name": "bunch fresh spinach",
+      "normalized_name": "bunch fresh spinach",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "95564c4f-61e3-5cb4-9850-e4b754ae3e46",
+      "name": "Chinese eggplant (sliced)",
+      "normalized_name": "chinese eggplant",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cd063641-8ce9-578c-a9df-b380f4d519e9",
+      "name": "long green pepper (siling pansigang)",
+      "normalized_name": "long green pepper",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "c8c46ff5-01f9-5e82-a884-11e82f09d3d3",
+      "name": "medium yellow or white onion (wedged)",
+      "normalized_name": "medium yellow or white onion",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "6",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "9a9c4f7f-5ef5-5953-aa41-d41558f94be6",
+      "name": "40g pack sinigang mix",
+      "normalized_name": "40g pack sinigang mix",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce",
+      "normalized_name": "fish sauce",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/pork-chop-sinigang/"
+  },
+  "public": true,
+  "updated_at": 1478370849,
+  "revision": 1
+}

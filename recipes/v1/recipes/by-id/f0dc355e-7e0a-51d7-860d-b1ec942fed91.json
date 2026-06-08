@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f0dc355e-7e0a-51d7-860d-b1ec942fed91",
+  "slug": "spam-and-egg-sandwich",
+  "name": "Spam and Egg Sandwich",
+  "recipe_type": "breakfast",
+  "brief_description": "Spam and Egg Sandwich is a very simple sandwich that anyone can make. You might have done this before and may have your own recipe.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Grease a frying pan with cooking oil. Fry the Spam for 2 minutes per side. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Place the bread slices in a toaster. Toast for 2 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Spread the mayonnaise on one side of each bread slice. Set one bread slice on a plate \u2013 side with mayonnaise facing up. Put the American cheese followed by the Spam and egg. Top with the remaining bread slice \u2013 side with mayonnaise facing down."
+    },
+    {
+      "position": 4,
+      "text": "Serve with Crispy French fries."
+    },
+    {
+      "position": 5,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 8,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f0dc355e-7e0a-51d7-860d-b1ec942fed91/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "02fefa6a-f5b4-582c-b03f-92b7eaaf6cc2",
+      "name": "slices of Spam Lite",
+      "normalized_name": "slices of spam lite",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8c25d84a-0a69-53fc-822f-e78745c0cb08",
+      "name": "bread slices or 1 French bread",
+      "normalized_name": "bread slices or 1 french bread",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg (cooked sunny side-up)",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c73b4281-800b-5fea-96ef-c6f3751095ab",
+      "name": "slice American cheese",
+      "normalized_name": "slice american cheese",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "cc74916a-1632-5bfb-9707-385b03ee5c8d",
+      "name": "light mayonnaise",
+      "normalized_name": "light mayonnaise",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "329effe5-1b29-5b9c-a2c0-b5e226ad7c46",
+      "name": "cooked crispy fries",
+      "normalized_name": "cooked crispy fries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/spam-and-egg-sandwich/"
+  },
+  "public": true,
+  "updated_at": 1380650451,
+  "revision": 1
+}

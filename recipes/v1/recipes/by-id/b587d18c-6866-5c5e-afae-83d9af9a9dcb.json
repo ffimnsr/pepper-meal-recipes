@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b587d18c-6866-5c5e-afae-83d9af9a9dcb",
+  "slug": "breakfast-burrito",
+  "name": "Breakfast Burrito",
+  "recipe_type": "breakfast",
+  "brief_description": "Filipino breakfast burrito with tocino and all the fixins",
+  "cuisine": "Filipino Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook the tocino by heating 3 tablespoons of cooking oil in a pan. Adjust your stove between low to medium heat setting. Fry both sides of our CDO Funtastyk Young Pork Tocino until it browns (note: no need to boil). Remove the tocino from the pan. Slice it into serving pieces. Set aside"
+    },
+    {
+      "position": 2,
+      "text": "Make the scrambled eggs by combining eggs and fresh milk. Beat until the mixture smoothens. Heat a pan and melt the butter. Once the butter gets hot enough, pour the egg mixture and stir constantly while cooking. Once the texture becomes less runny, add 2 tablespoons of shredded cheddar cheese, and then stir. Transfer to a clean plate. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Prepare the rice by pouring vinegar over it. Mix well and set aside."
+    },
+    {
+      "position": 4,
+      "text": "Assemble the burrito. Start by spreading the rice over the tortilla. Top with lettuce, tomato, cheese, egg, and CDO Funtastyk Young Pork Tocino. Secure the contents by wrapping the flour tortilla. Arrange on a serving platter. Serve for breakfast. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b587d18c-6866-5c5e-afae-83d9af9a9dcb/cover.webp",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "531 kcal",
+    "carbohydrateContent": "48 g",
+    "proteinContent": "28 g",
+    "fatContent": "25 g",
+    "saturatedFatContent": "12 g",
+    "transFatContent": "0.3 g",
+    "cholesterolContent": "201 mg",
+    "sodiumContent": "544 mg",
+    "fiberContent": "3 g",
+    "sugarContent": "4 g",
+    "unsaturatedFatContent": "9 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3aed2eba-2fba-58b7-9272-fe15120f05b6",
+      "name": "CDO Funtastyk Young Pork Tocino",
+      "normalized_name": "cdo funtastyk young pork tocino",
+      "quantity": "225",
+      "unit": "g",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5eedfd85-8c8b-5c39-927c-857917c73997",
+      "name": "cooked rice",
+      "normalized_name": "cooked rice",
+      "quantity": "2 \u00bd",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "3",
+      "unit": null,
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "65e874a3-0c6e-5d24-a019-ceb2f2f4c3cc",
+      "name": "cheddar cheese (shredded)",
+      "normalized_name": "cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "efbcd020-9376-5af7-b159-fb8dc82fe858",
+      "name": "flour tortillas",
+      "normalized_name": "flour tortillas",
+      "quantity": "4",
+      "unit": null,
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "32902551-8b00-5e1a-b128-cf1bca8dd1d6",
+      "name": "romaine lettuce (shredded)",
+      "normalized_name": "romaine lettuce",
+      "quantity": "1 \u00bd",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes (diced)",
+      "normalized_name": "tomatoes",
+      "quantity": "3",
+      "unit": null,
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "e2e680b6-d72e-52b6-bb60-285761839a36",
+      "name": "fresh milk",
+      "normalized_name": "fresh milk",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "932014c7-72f8-5911-83ed-0484f951c268",
+      "slug": "breakfast",
+      "name": "breakfast",
+      "color": null
+    },
+    {
+      "id": "cf39d254-a59a-5d0a-9856-f4c4b26798d8",
+      "slug": "burrito",
+      "name": "burrito",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/breakfast-burrito/"
+  },
+  "public": true,
+  "updated_at": 1673744400,
+  "revision": 1
+}

@@ -1,0 +1,213 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "091e843d-5a7c-5111-b54b-5a8173a137c1",
+  "slug": "shepherds-pie",
+  "name": "Shepherds Pie",
+  "recipe_type": "soup",
+  "brief_description": "Ground beef cooked with vegetables and broth, topped with mashed potatoes and baked. A complete and filling main dish.",
+  "cuisine": "British",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a cooking pot and melt the butter."
+    },
+    {
+      "position": 2,
+      "text": "Put-in the onion when the butter melts, and then cook until the onion becomes soft."
+    },
+    {
+      "position": 3,
+      "text": "Add the ground beef and cook until brown (about 5 to 10 minutes)"
+    },
+    {
+      "position": 4,
+      "text": "Put-in the Worcestershire sauce, salt, ground black pepper, and beef broth. Stir and simmer for 12 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Add the mix vegetables. Stir and cook for 3 to 5 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Turn-off heat and let it cool."
+    },
+    {
+      "position": 7,
+      "text": "Preheat oven to 375 degrees Fahrenheit."
+    },
+    {
+      "position": 8,
+      "text": "Transfer the cooked mixture to a baking tray."
+    },
+    {
+      "position": 9,
+      "text": "Arrange the mashed potato over the cooked mixture, and then bake for 25 to 30 minutes."
+    },
+    {
+      "position": 10,
+      "text": "Remove from the oven and serve."
+    },
+    {
+      "position": 11,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/091e843d-5a7c-5111-b54b-5a8173a137c1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "6 g",
+    "calories": "617 kcal",
+    "carbohydrateContent": "43 g",
+    "proteinContent": "26 g",
+    "fatContent": "39 g",
+    "saturatedFatContent": "19 g",
+    "transFatContent": "2 g",
+    "cholesterolContent": "121 mg",
+    "sodiumContent": "1229 mg",
+    "fiberContent": "5 g",
+    "sugarContent": "2 g",
+    "unsaturatedFatContent": "15 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1 1/2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2e3c5f19-359f-52d3-9068-b1ff9829a6ef",
+      "name": "mashed potatoes",
+      "normalized_name": "mashed potatoes",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d6666493-7d8a-527b-8163-c7d45ff132eb",
+      "name": "mixed vegetables",
+      "normalized_name": "mixed vegetables",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (chopped)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "Worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f2a0b605-36cc-59e6-81b6-1aa59d686bb2",
+      "slug": "ground-beef-pie",
+      "name": "ground beef pie",
+      "color": null
+    },
+    {
+      "id": "e14fdd53-1e0d-5d14-9365-e652df21a428",
+      "slug": "homemade-mashed-potato",
+      "name": "homemade mashed potato",
+      "color": null
+    },
+    {
+      "id": "167aef83-5c7f-56f5-a676-81b33c8aa249",
+      "slug": "meaty-pie",
+      "name": "meaty pie",
+      "color": null
+    },
+    {
+      "id": "8f882813-88a5-5516-992b-03179b2c215a",
+      "slug": "potato-pie",
+      "name": "potato pie",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/shepherds-pie/"
+  },
+  "public": true,
+  "updated_at": 1302031979,
+  "revision": 1
+}

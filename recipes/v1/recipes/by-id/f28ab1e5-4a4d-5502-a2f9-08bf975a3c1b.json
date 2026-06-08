@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f28ab1e5-4a4d-5502-a2f9-08bf975a3c1b",
+  "slug": "breakfast-quesadilla",
+  "name": "Breakfast Quesadilla",
+  "recipe_type": "breakfast",
+  "brief_description": "Seasoned Eggs are cooked flat over sliced tomatoes and green onions, then folded inside a crispy flour tortilla with melted mozzarella cheese.",
+  "cuisine": "American Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine the egg and Maggi Magic Sarap in a small bowl. Beat well until the seasoning is mixed in, and then set aside."
+    },
+    {
+      "position": 2,
+      "text": "Heat the olive oil in a nonstick pan over medium heat."
+    },
+    {
+      "position": 3,
+      "text": "Arrange the sliced tomatoes in the pan. Cook for 30 seconds until they start to soften."
+    },
+    {
+      "position": 4,
+      "text": "Sprinkle the chopped green onions over the tomatoes and within the spaces in between. Pour in the beaten egg over the entire surface. Continue cooking over low to medium heat until the egg sets enough that it no longer runs."
+    },
+    {
+      "position": 5,
+      "text": "Place the flour tortilla on top of the egg and press down gently. Carefully flip the whole thing so the tortilla is on the bottom."
+    },
+    {
+      "position": 6,
+      "text": "Sprinkle the mozzarella cheese over one half of the egg. Fold the tortilla in half and continue cooking until the cheese fully melts, about 1 to 2 minutes. You can also use other cheeses here."
+    },
+    {
+      "position": 7,
+      "text": "Transfer to a cutting board. Slice and serve for breakfast or brunch."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f28ab1e5-4a4d-5502-a2f9-08bf975a3c1b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "494 kcal",
+    "carbohydrateContent": "18 g",
+    "proteinContent": "15 g",
+    "fatContent": "41 g",
+    "saturatedFatContent": "10 g",
+    "transFatContent": "0.02 g",
+    "cholesterolContent": "186 mg",
+    "sodiumContent": "463 mg",
+    "fiberContent": "2 g",
+    "sugarContent": "2 g",
+    "unsaturatedFatContent": "29 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "1 Nonstick pan Use one that is slightly larger than your tortilla so the egg has room to spread",
+    "1 Wide spatula Needed to flip the tortilla and egg together without tearing"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8c8ee45c-dd7d-5f38-a376-535d09869309",
+      "name": "Maggi Magic Sarap",
+      "normalized_name": "maggi magic sarap",
+      "quantity": "2",
+      "unit": "grams",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes (sliced crosswise)",
+      "normalized_name": "tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "1c777bee-f804-52ed-9c29-771ad3ca02b5",
+      "name": "stalks green onion (chopped)",
+      "normalized_name": "stalks green onion",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "1e8d460a-d5bb-5c3e-a042-62354fc97db9",
+      "name": "mozzarella cheese",
+      "normalized_name": "mozzarella cheese",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3a2489bd-7cbd-5dc9-8615-f713b8a8753f",
+      "name": "flour tortilla",
+      "normalized_name": "flour tortilla",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "b0bfb4cb-2e19-5bf4-a6a6-ceee6b15275b",
+      "slug": "egg",
+      "name": "Egg"
+    }
+  ],
+  "tags": [
+    {
+      "id": "62f0f931-285a-58fb-91da-890a3fa6d87b",
+      "slug": "comfort-food",
+      "name": "comfort food",
+      "color": null
+    },
+    {
+      "id": "9cf41af0-2130-5b57-9f28-8504ab56b416",
+      "slug": "one-pan",
+      "name": "one-pan",
+      "color": null
+    },
+    {
+      "id": "f73fbc82-f5b9-54db-9301-4635097cc8c2",
+      "slug": "quick",
+      "name": "quick",
+      "color": null
+    },
+    {
+      "id": "6e066ae3-17e7-53aa-9fae-f4be70bb9b94",
+      "slug": "savory",
+      "name": "Savory",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/breakfast-quesadilla/"
+  },
+  "public": true,
+  "updated_at": 1775900550,
+  "revision": 1
+}

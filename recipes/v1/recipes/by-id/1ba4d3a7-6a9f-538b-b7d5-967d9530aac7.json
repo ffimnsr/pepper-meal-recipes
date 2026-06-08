@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1ba4d3a7-6a9f-538b-b7d5-967d9530aac7",
+  "slug": "chocolate-biko-recipe",
+  "name": "Chocolate Biko Recipe",
+  "recipe_type": "dessert",
+  "brief_description": "This is a recipe for Chocolate Biko",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Pour coconut milk in a pot. Bring to a boil."
+    },
+    {
+      "position": 2,
+      "text": "Add the tablea. Stir until it dissolves completely."
+    },
+    {
+      "position": 3,
+      "text": "Add the rice, sugar, and salt. Stir and cover. Continue to cook in low to medium heat until the rice absorbs half of the liquid."
+    },
+    {
+      "position": 4,
+      "text": "Stir the mixture making sure that no rice sticks on the pot (this will require a little effort). Continue to cook until the liquid is completely absorbed. Note: you may add more coconut milk or water when the liquid starts to dry out and the rice is not completely done yet."
+    },
+    {
+      "position": 5,
+      "text": "Arrange in a greased baking dish. Let it cool down and serve."
+    },
+    {
+      "position": 6,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1ba4d3a7-6a9f-538b-b7d5-967d9530aac7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "2 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a56941c4-c122-5bf2-882d-88c43f5b119b",
+      "name": "glutinous rice",
+      "normalized_name": "glutinous rice",
+      "quantity": "\u00be",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "132b0200-f6d6-5b77-90d8-764180ecae62",
+      "name": "cacao tablea",
+      "normalized_name": "cacao tablea",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "52f89bf4-31b4-5e03-b389-e376835ca56b",
+      "name": "coconut milk",
+      "normalized_name": "coconut milk",
+      "quantity": "2 \u00bd",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "\u00be",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f1d85603-c8e4-5977-ba17-d15b003c2587",
+      "name": "a pinch of salt",
+      "normalized_name": "a pinch of salt",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/chocolate-biko-recipe/"
+  },
+  "public": true,
+  "updated_at": 1493984653,
+  "revision": 1
+}

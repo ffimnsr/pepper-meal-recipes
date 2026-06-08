@@ -1,0 +1,179 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "96dc7729-a2f1-5079-98c2-ad7dd39b15c5",
+  "slug": "lechon-manok-recipe",
+  "name": "Lechon Manok Recipe",
+  "recipe_type": null,
+  "brief_description": "This is a recipe for rotisserie or spit-roasted chicken. This is also known as Lechon Manok in Filipino.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large bowl, combine all the marinade ingredients. Mix well."
+    },
+    {
+      "position": 2,
+      "text": "Place the chicken inside a large re-sealable bag. Pour the marinade in the bag with the chicken. Put the onion and lemongrass inside the cavity. Seal and refrigerate overnight."
+    },
+    {
+      "position": 3,
+      "text": "Remove the chicken from the bag and then stuff with fresh lemongrass and green onion."
+    },
+    {
+      "position": 4,
+      "text": "Prepare to roast the chicken on the grill by skewering the entire fowl on a spit and secure both sides with a grill fork."
+    },
+    {
+      "position": 5,
+      "text": "Spit-roast (or i-litson in Tagalog) for 2 \u00bd to 3 hours or until the chicken is done"
+    },
+    {
+      "position": 6,
+      "text": "Transfer to a serving plate. Serve with lechon manok sauce and atchara."
+    },
+    {
+      "position": 7,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 180,
+  "preparation_time_minutes": 360,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/96dc7729-a2f1-5079-98c2-ad7dd39b15c5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "5 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e70b9d8d-beca-59ab-b317-5175892c2668",
+      "name": "whole chicken",
+      "normalized_name": "whole chicken",
+      "quantity": "1 2 to 3",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a8756250-bd9b-5f00-beb9-d11684254de2",
+      "name": "thumbs ginger (crushed)",
+      "normalized_name": "thumbs ginger",
+      "quantity": "4",
+      "unit": null,
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (crushed)",
+      "normalized_name": "garlic",
+      "quantity": "5",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6627cb30-6a06-5c4f-b5f5-0322b1eb6f19",
+      "name": "medium red onion (sliced)",
+      "normalized_name": "medium red onion",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
+      "name": "dried bay leaves (crumbled)",
+      "normalized_name": "dried bay leaves",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "17681e05-1062-512a-a2b2-c11144c6420d",
+      "name": "stalk lemongrass (bottom part crushed)",
+      "normalized_name": "stalk lemongrass",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "7530a492-f864-5546-9667-61224d4b5400",
+      "name": "coarse sea salt",
+      "normalized_name": "coarse sea salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "\u00bc",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5e8ee607-a709-5fcd-8174-eeb9d1868010",
+      "name": "7-up",
+      "normalized_name": "7-up",
+      "quantity": "1 \u00be",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "48bb8581-bf3d-5c12-a1bb-339ec8e687e6",
+      "name": "stalk crushed lemongrass (tanglad)",
+      "normalized_name": "stalk crushed lemongrass",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "2be16b8b-3326-50ca-a7ee-2ef4cad7c955",
+      "name": "bunches of green onions (dahon ng sibuyas)",
+      "normalized_name": "bunches of green onions",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "9cd6d4d7-6841-525f-b451-431d6b9716c3",
+      "slug": "main-dish",
+      "name": "Main Dish"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/lechon-manok-recipe/"
+  },
+  "public": true,
+  "updated_at": 1476225739,
+  "revision": 1
+}

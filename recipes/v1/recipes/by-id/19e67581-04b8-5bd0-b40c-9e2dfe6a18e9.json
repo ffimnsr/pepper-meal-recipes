@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "19e67581-04b8-5bd0-b40c-9e2dfe6a18e9",
+  "slug": "crispy-pork-belly-chips",
+  "name": "Crispy Pork Belly Chips",
+  "recipe_type": "main",
+  "brief_description": "Thinly sliced pork belly that were air fried until crispy.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine pork belly, water, whole peppercorn, and dried bay leaves in a cooking pot. Cover the pot and let it boil. Adjust heat between low and medium. Continue boiling for 60 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Remove pork from the pot. Let it cool down. Slice into thin pieces. Note: I usually freeze the pork for 1 \u00bd hours before slicing it. This method will harden the meat and fat by a bit. It helps prevent the meat from wobbling when sliced."
+    },
+    {
+      "position": 3,
+      "text": "Combine sliced pork and Knorr Liquid Seasoning. Mix well."
+    },
+    {
+      "position": 4,
+      "text": "Arrange pork on an air fryer. Set the air fryer to 350F and air fry for 20 minutes or until pork becomes crispy. Note: Make sure to flip the pork slices in the middle of the cooking process. This will ensure that both sides are cooked properly."
+    }
+  ],
+  "servings": null,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 60,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/19e67581-04b8-5bd0-b40c-9e2dfe6a18e9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "3577 kcal",
+    "carbohydrateContent": "8 g",
+    "proteinContent": "70 g",
+    "fatContent": "361 g",
+    "saturatedFatContent": "132 g",
+    "cholesterolContent": "490 mg",
+    "sodiumContent": "3307 mg",
+    "fiberContent": "2 g",
+    "sugarContent": "1 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "Air fryer"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
+      "name": "pork belly",
+      "normalized_name": "pork belly",
+      "quantity": "1 \u00bd",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a3ca511e-6cdc-5e31-819e-966d9bec5b08",
+      "name": "Knorr Liquid Seasoning",
+      "normalized_name": "knorr liquid seasoning",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "6",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
+      "name": "dried bay leaves",
+      "normalized_name": "dried bay leaves",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "1623da78-1a96-581d-9b81-712eff987bcb",
+      "name": "whole peppercorn",
+      "normalized_name": "whole peppercorn",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2bedc21f-71c3-5794-9cfa-c60f6f743679",
+      "slug": "crispy-pork-belly",
+      "name": "crispy pork belly",
+      "color": null
+    },
+    {
+      "id": "0fe54bc4-19b5-5f05-a8a0-78b09da5e84f",
+      "slug": "deep-fried-pork-belly",
+      "name": "deep fried pork belly",
+      "color": null
+    },
+    {
+      "id": "8ebde1ab-1064-57e0-8271-2873e7f5dd9f",
+      "slug": "inihaw-na-liempo",
+      "name": "inihaw na liempo",
+      "color": null
+    },
+    {
+      "id": "5f8f9859-7c4c-59c1-bc32-187c0035ba9f",
+      "slug": "lechon-kawali",
+      "name": "lechon kawali",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/crispy-pork-belly-chips/"
+  },
+  "public": true,
+  "updated_at": 1618940098,
+  "revision": 1
+}

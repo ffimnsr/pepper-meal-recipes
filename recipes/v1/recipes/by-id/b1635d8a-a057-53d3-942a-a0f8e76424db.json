@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b1635d8a-a057-53d3-942a-a0f8e76424db",
+  "slug": "bicol-express",
+  "name": "Bicol Express Recipe",
+  "recipe_type": null,
+  "brief_description": "This is a recipe for Bicol Express",
+  "cuisine": "Filipino Recipe",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine pork, ginger, garlic, onion, Thai chili pepper, long green pepper, and bagoong alamang, coconut milk in a pan. Mix well. Cover the pan and turn the heat to on. Let the mixture boil."
+    },
+    {
+      "position": 2,
+      "text": "Stir and adjust the heat to low. Cover and simmer for 50 minutes. Note: add water as necessary"
+    },
+    {
+      "position": 3,
+      "text": "Add the remaining coconut cream and bagoong alamang (as needed). Season with Maggi Magic Sarap. Continue cooking in low heat until the sauce thickens (around"
+    },
+    {
+      "position": 4,
+      "text": "Transfer to a serving plate and serve with warm rice."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 55,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b1635d8a-a057-53d3-942a-a0f8e76424db/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "6 g",
+    "calories": "1224 kcal",
+    "carbohydrateContent": "10 g",
+    "proteinContent": "23 g",
+    "fatContent": "124 g",
+    "saturatedFatContent": "68 g",
+    "cholesterolContent": "168 mg",
+    "sodiumContent": "248 mg",
+    "fiberContent": "2 g",
+    "sugarContent": "1 g",
+    "unsaturatedFatContent": "48 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
+      "name": "pork belly (sliced into strips)",
+      "normalized_name": "pork belly",
+      "quantity": "2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "52f89bf4-31b4-5e03-b389-e376835ca56b",
+      "name": "coconut milk",
+      "normalized_name": "coconut milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4c9107df-7fbe-5725-b3a4-15e722d53a83",
+      "name": "coconut cream",
+      "normalized_name": "coconut cream",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d7033a71-09e7-5336-986d-223b33b890e8",
+      "name": "shrimp paste (or salted Krill)",
+      "normalized_name": "shrimp paste",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (crushed)",
+      "normalized_name": "garlic",
+      "quantity": "5",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "060ecd6b-e829-5017-bcb6-bb0e0e9a261a",
+      "name": "Thai chili pepper (chopped)",
+      "normalized_name": "thai chili pepper",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a8756250-bd9b-5f00-beb9-d11684254de2",
+      "name": "thumbs ginger (minced)",
+      "normalized_name": "thumbs ginger",
+      "quantity": "2",
+      "unit": null,
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (chopped)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b21643dc-bcf3-5c23-8692-974627b1dc7f",
+      "name": "Serrano pepper (sliced)",
+      "normalized_name": "serrano pepper",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water (optional)",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "8c8ee45c-dd7d-5f38-a376-535d09869309",
+      "name": "Maggi Magic Sarap",
+      "normalized_name": "maggi magic sarap",
+      "quantity": "8",
+      "unit": "grams",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "9cd6d4d7-6841-525f-b451-431d6b9716c3",
+      "slug": "main-dish",
+      "name": "Main Dish"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d2ed7908-792d-5fb0-888d-1211b0f50ff0",
+      "slug": "ginataang-baboy",
+      "name": "ginataang baboy",
+      "color": null
+    },
+    {
+      "id": "84e39e8a-ac53-5cdf-a6ca-17ae8d2b2e0c",
+      "slug": "how-to-cook-bicol-express",
+      "name": "how to cook bicol express",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/bicol-express/"
+  },
+  "public": true,
+  "updated_at": 1619364900,
+  "revision": 1
+}

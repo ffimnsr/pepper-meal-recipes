@@ -1,0 +1,186 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4ecb5c16-c558-50f6-bd05-d1e0668d8e67",
+  "slug": "creamy-pasta-carbonara",
+  "name": "Pasta Carbonara Filipino Style",
+  "recipe_type": "main",
+  "brief_description": "Creamy Filipino style carbonara with white sauce.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook fettuccine according to package instructions. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Make the creamy pasta sauce by mixing Knorr Cream of Mushroom and water. Stir until completely diluted. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Heat a pan and add chopped bacon. Cook until the bacon becomes crispy."
+    },
+    {
+      "position": 4,
+      "text": "Add butter. Let it melt and then add mushrooms. Cook for 1 minute."
+    },
+    {
+      "position": 5,
+      "text": "Pour cream of mushroom mixture into the pan. Stir and continue cooking until the sauce thickens."
+    },
+    {
+      "position": 6,
+      "text": "Add heavy cream and Parmesan cheese. Stir."
+    },
+    {
+      "position": 7,
+      "text": "Combine the cooked fettuccine with the pasta sauce. Toss until the pasta gets coated completely."
+    },
+    {
+      "position": 8,
+      "text": "Transfer to a serving plate. Serve and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4ecb5c16-c558-50f6-bd05-d1e0668d8e67/cover.webp",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "797 kcal",
+    "carbohydrateContent": "84 g",
+    "proteinContent": "23 g",
+    "fatContent": "42 g",
+    "saturatedFatContent": "21 g",
+    "transFatContent": "1 g",
+    "cholesterolContent": "204 mg",
+    "sodiumContent": "301 mg",
+    "fiberContent": "4 g",
+    "sugarContent": "3 g",
+    "unsaturatedFatContent": "17 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "797513ef-7396-5cd6-ae0c-c870de6d93d2",
+      "name": "fettuccine",
+      "normalized_name": "fettuccine",
+      "quantity": "1",
+      "unit": "lb",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "dc8b8f41-5277-5f9b-91ba-73854eb10b2a",
+      "name": "strips bacon (chopped)",
+      "normalized_name": "strips bacon",
+      "quantity": "5",
+      "unit": null,
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "836ca736-50f5-5928-b858-688244d0fa5e",
+      "name": "Knorr Cream of Mushroom",
+      "normalized_name": "knorr cream of mushroom",
+      "quantity": "68",
+      "unit": "grams",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "88484198-1339-5eeb-a28d-8ad010e76991",
+      "name": "Parmesan cheese",
+      "normalized_name": "parmesan cheese",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "69936178-9fc7-5aa4-9666-9ad716bda545",
+      "name": "button mushroom (sliced)",
+      "normalized_name": "button mushroom",
+      "quantity": "4.5",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    }
+  ],
+  "tags": [
+    {
+      "id": "96401bea-07c4-5a25-b83f-d68af6670e24",
+      "slug": "alfredo-pasta-recipe",
+      "name": "alfredo pasta recipe",
+      "color": null
+    },
+    {
+      "id": "256c9a4e-7102-538a-92c4-a70e16f12a87",
+      "slug": "carbonara-recipe",
+      "name": "carbonara recipe",
+      "color": null
+    },
+    {
+      "id": "3e2a2e62-0aa2-57da-80f3-04667041281e",
+      "slug": "pasta-carbonara",
+      "name": "pasta carbonara",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/creamy-pasta-carbonara/"
+  },
+  "public": true,
+  "updated_at": 1641419399,
+  "revision": 1
+}

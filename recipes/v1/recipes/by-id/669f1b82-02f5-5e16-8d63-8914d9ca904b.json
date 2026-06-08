@@ -1,0 +1,177 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "669f1b82-02f5-5e16-8d63-8914d9ca904b",
+  "slug": "laing-fried-rice",
+  "name": "Laing Fried Rice",
+  "recipe_type": "side",
+  "brief_description": "This is a quick fried rice recipe that makes use of laing. These are taro leaves that were cooked in coconut milk.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine salt and rice in a bowl. Gently mix until well blended."
+    },
+    {
+      "position": 2,
+      "text": "Heat the oil in a wide pan."
+    },
+    {
+      "position": 3,
+      "text": "Add the garlic once the oil gets hot. Cook until light brown."
+    },
+    {
+      "position": 4,
+      "text": "Put the laing in the pan. Stir and cook for 2 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Add the rice. Continue to cook for 5 to 8 minutes. Stir fry the rice until it blends well with the rest of the ingredients."
+    },
+    {
+      "position": 6,
+      "text": "Add the toasted anchovies. Stir and cook for 1 minute."
+    },
+    {
+      "position": 7,
+      "text": "Transfer to a serving plate. Top with red chili."
+    },
+    {
+      "position": 8,
+      "text": "Serve. Share and enjoy!"
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/669f1b82-02f5-5e16-8d63-8914d9ca904b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "5 g",
+    "calories": "845 kcal",
+    "carbohydrateContent": "156 g",
+    "proteinContent": "20 g",
+    "fatContent": "14 g",
+    "saturatedFatContent": "2 g",
+    "transFatContent": "0.04 g",
+    "cholesterolContent": "14 mg",
+    "sodiumContent": "170 mg",
+    "fiberContent": "4 g",
+    "sugarContent": "2 g",
+    "unsaturatedFatContent": "12 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "444d816f-2ec8-5ce4-aaea-e4ddff4ddceb",
+      "name": "white rice (preferably leftovers )",
+      "normalized_name": "white rice",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "34a22987-dced-5763-98a6-7fd27f6a7e39",
+      "name": "laing (cooked)",
+      "normalized_name": "laing",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (crushed)",
+      "normalized_name": "garlic",
+      "quantity": "6",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3b7ad643-d783-5b6f-b12e-549a92277144",
+      "name": "toasted anchovies (tustadong dilis)",
+      "normalized_name": "toasted anchovies",
+      "quantity": "\u00bd",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e5202551-1e92-5518-8e98-9377371cfbb5",
+      "name": "chili peppers (optional)",
+      "normalized_name": "chili peppers",
+      "quantity": "3",
+      "unit": null,
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "3abb4365-ccad-5837-b651-d178c73fe82c",
+      "slug": "fried-rice",
+      "name": "Fried Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "716d0af7-a80e-5ed5-8709-97898b73dea3",
+      "slug": "bicol-laing",
+      "name": "Bicol laing",
+      "color": null
+    },
+    {
+      "id": "774481ce-0cc8-5daa-ad31-5e723883b1c4",
+      "slug": "fried-rice-recipe",
+      "name": "fried rice recipe",
+      "color": null
+    },
+    {
+      "id": "ad661e05-f7b3-5e59-ab04-693a49cd6d26",
+      "slug": "sinangag",
+      "name": "sinangag",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/laing-fried-rice/"
+  },
+  "public": true,
+  "updated_at": 1695799406,
+  "revision": 1
+}

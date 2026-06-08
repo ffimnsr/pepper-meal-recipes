@@ -1,0 +1,206 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "bbca93fb-9b38-5dd1-a6d1-d3748ebc0127",
+  "slug": "hototay-soup",
+  "name": "Hototay Soup Recipe",
+  "recipe_type": "soup",
+  "brief_description": "A hearty Chinese-inspired soup, enriched with a variety of meats and vegetables.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a cooking pot."
+    },
+    {
+      "position": 2,
+      "text": "Saute garlic and onion."
+    },
+    {
+      "position": 3,
+      "text": "When the onion becomes soft, add the pork and cook until the color turns light brown."
+    },
+    {
+      "position": 4,
+      "text": "Put-in the chicken and liver, and cook for 3 to 5 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Pour-in the chicken stock or chicken broth. Let boil and simmer for 7 to 10 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Add carrots and mushroom. Stir and cook for 3 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Put-in the Napa cabbage, salt, and ground black pepper. Stir and cook for 2 minutes."
+    },
+    {
+      "position": 8,
+      "text": "Turn off heat, and then transfer to individual serving bowls."
+    },
+    {
+      "position": 9,
+      "text": "Crack and place one egg per bowl. Sprinkle green onions on top to garnish."
+    },
+    {
+      "position": 10,
+      "text": "Serve hot. Share and enjoy!"
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/bbca93fb-9b38-5dd1-a6d1-d3748ebc0127/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "3 g",
+    "calories": "669 kcal",
+    "carbohydrateContent": "33 g",
+    "proteinContent": "49 g",
+    "fatContent": "38 g",
+    "saturatedFatContent": "9 g",
+    "transFatContent": "0.1 g",
+    "cholesterolContent": "216 mg",
+    "sodiumContent": "665 mg",
+    "fiberContent": "6 g",
+    "sugarContent": "13 g",
+    "unsaturatedFatContent": "26 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a6668890-561f-511c-8418-8e2796284465",
+      "name": "pork (sliced thinly)",
+      "normalized_name": "pork",
+      "quantity": "1/2",
+      "unit": "lb",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e5146a7b-60d5-500a-a49b-7e88f8567718",
+      "name": "boiled chicken (shredded)",
+      "normalized_name": "boiled chicken",
+      "quantity": "1/2",
+      "unit": "lb",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "045eeef6-4ee1-5304-9e36-e5621cb121ca",
+      "name": "pig liver (sliced thinly)",
+      "normalized_name": "pig liver",
+      "quantity": "1/4",
+      "unit": "lb",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f272bed1-55de-54eb-9c6c-d9da1b8f6a18",
+      "name": "chicken stock or chicken broth",
+      "normalized_name": "chicken stock or chicken broth",
+      "quantity": "4 to 6",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3c2b0c49-e8a3-594d-bc4c-00ec15e89666",
+      "name": "Napa cabbage (chopped)",
+      "normalized_name": "napa cabbage",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1e5650a3-3410-5a8c-b323-f9d46fae85bd",
+      "name": "Shiitake mushrooms (chopped)",
+      "normalized_name": "shiitake mushrooms",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots (sliced)",
+      "normalized_name": "carrots",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2bb7f8e7-f9f2-52d8-a55e-5a50a04b3eed",
+      "name": "green onion (chopped finely)",
+      "normalized_name": "green onion",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (chopped)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": null,
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/hototay-soup/"
+  },
+  "public": true,
+  "updated_at": 1314641286,
+  "revision": 1
+}

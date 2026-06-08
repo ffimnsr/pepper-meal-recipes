@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c3bb0c5c-e3d2-5364-ad5b-72a980613bec",
+  "slug": "laing-recipe",
+  "name": "Laing Recipe",
+  "recipe_type": "main",
+  "brief_description": "Taro leaves with chili peppers and pork cooked in coconut milk with bagoong alamang.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine the coconut milk, pork, shrimp paste, ginger, onion, and garlic in a cooking pot. Heat the pot and let boil."
+    },
+    {
+      "position": 2,
+      "text": "Once the mixture starts to boil, gently stir to mix the ingredients. Cover the pot and simmer for 15 to 20 minutes. Make sure to stir once in a while to prevent the ingredients from sticking on the bottom of the cooking pot."
+    },
+    {
+      "position": 3,
+      "text": "Add the dried taro leaves. Do not stir. Let it stay until the leaves absorb the coconut milk. This takes about 20 to 30 minutes. You can gently push the leaves down so that it can absorb more coconut milk."
+    },
+    {
+      "position": 4,
+      "text": "Once the leaves absorb the coconut milk, stir the leaves and then continue to cook for to 10 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Pour the coconut cream into the cooking pot. Add the red chilies. Stir. Cook for 10 to 12 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Transfer to a serving plate. Serve."
+    },
+    {
+      "position": 7,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 70,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c3bb0c5c-e3d2-5364-ad5b-72a980613bec/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "8 g",
+    "calories": "618 kcal",
+    "carbohydrateContent": "12 g",
+    "proteinContent": "18 g",
+    "fatContent": "59 g",
+    "saturatedFatContent": "51 g",
+    "cholesterolContent": "108 mg",
+    "sodiumContent": "323 mg",
+    "fiberContent": "2 g",
+    "sugarContent": "1 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "9eebd65d-54e6-5b51-8c74-c82caeb94da0",
+      "name": "taro leaves (dried)",
+      "normalized_name": "taro leaves",
+      "quantity": "3.5",
+      "unit": "oz",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "52f89bf4-31b4-5e03-b389-e376835ca56b",
+      "name": "coconut milk",
+      "normalized_name": "coconut milk",
+      "quantity": "6",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4c9107df-7fbe-5725-b3a4-15e722d53a83",
+      "name": "coconut cream",
+      "normalized_name": "coconut cream",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d7033a71-09e7-5336-986d-223b33b890e8",
+      "name": "shrimp paste (bagoong or balaw)",
+      "normalized_name": "shrimp paste",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
+      "name": "pork shoulder (thinly sliced)",
+      "normalized_name": "pork shoulder",
+      "quantity": "1/2",
+      "unit": "lb",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8473ea35-4a3a-503b-8eae-619c1b5c70af",
+      "name": "red chilies",
+      "normalized_name": "red chilies",
+      "quantity": "5 to 7",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (sliced)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f6e07545-83a7-5bf5-93b2-8f50cff5a77a",
+      "name": "sliced ginger",
+      "normalized_name": "sliced ginger",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (crushed)",
+      "normalized_name": "garlic",
+      "quantity": "8",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "24e3743e-25a0-58f6-8029-8741b37c8156",
+      "slug": "vegetable",
+      "name": "Vegetable"
+    }
+  ],
+  "tags": [
+    {
+      "id": "398b96a8-11bf-5bef-83f6-1d0c428dab3f",
+      "slug": "laing",
+      "name": "laing",
+      "color": null
+    },
+    {
+      "id": "1da35937-9b02-5878-b4c5-bac27bf23611",
+      "slug": "natong",
+      "name": "natong",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/laing-recipe/"
+  },
+  "public": true,
+  "updated_at": 1420454656,
+  "revision": 1
+}

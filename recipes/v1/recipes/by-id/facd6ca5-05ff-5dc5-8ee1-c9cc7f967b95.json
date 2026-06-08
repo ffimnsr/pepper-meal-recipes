@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "facd6ca5-05ff-5dc5-8ee1-c9cc7f967b95",
+  "slug": "dill-dip-recipe",
+  "name": "Dill Dip Recipe",
+  "recipe_type": null,
+  "brief_description": "This is a Recipe for Dill Dip.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine sour cream and mayonnaise in a bowl. Mix well."
+    },
+    {
+      "position": 2,
+      "text": "Add onion, parsley, dill weed, and salt. Continue to mix until ingredients are incorporated."
+    },
+    {
+      "position": 3,
+      "text": "Transfer to a dip bowl. Serve with fresh vegetables."
+    },
+    {
+      "position": 4,
+      "text": "Share and enjoy!"
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/facd6ca5-05ff-5dc5-8ee1-c9cc7f967b95/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "5 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "56400de5-1c0b-57ed-89cf-dff50ec7ca6a",
+      "name": "light sour cream",
+      "normalized_name": "light sour cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "cc74916a-1632-5bfb-9707-385b03ee5c8d",
+      "name": "light mayonnaise",
+      "normalized_name": "light mayonnaise",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c695b7e1-c0a2-5395-852a-ca8d6057ab91",
+      "name": "dried dill weed",
+      "normalized_name": "dried dill weed",
+      "quantity": "1 \u00bd",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "06558c84-4f0e-5da7-b013-84830407933e",
+      "name": "dried parsley flakes",
+      "normalized_name": "dried parsley flakes",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "02d4f872-6e6e-56ff-93d3-4ebab5500e0f",
+      "name": "minced onion",
+      "normalized_name": "minced onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "f1d85603-c8e4-5977-ba17-d15b003c2587",
+      "name": "a pinch of salt",
+      "normalized_name": "a pinch of salt",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d369ff83-5088-5938-bdd0-d6b9916b9084",
+      "slug": "dip",
+      "name": "Dip"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/dill-dip-recipe/"
+  },
+  "public": true,
+  "updated_at": 1479030356,
+  "revision": 1
+}

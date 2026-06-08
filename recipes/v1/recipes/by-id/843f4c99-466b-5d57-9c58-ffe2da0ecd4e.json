@@ -1,0 +1,204 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "843f4c99-466b-5d57-9c58-ffe2da0ecd4e",
+  "slug": "simple-lo-mein",
+  "name": "Lo Mein",
+  "recipe_type": "main",
+  "brief_description": "This homemade lo mein is a quick stir fry of egg noodles, crisp vegetables, and a savory sauce made with soy sauce, oyster sauce, and chicken stock. Everything comes together in a wok in under 20 minutes.",
+  "cuisine": "Chinese",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the cooking oil in a wok over medium heat."
+    },
+    {
+      "position": 2,
+      "text": "Saut\u00e9 the onion until it softens. Add the bell pepper, mushrooms, snow peas, and carrots. Stir fry for about 2 minutes, just until the vegetables are slightly tender but still crisp."
+    },
+    {
+      "position": 3,
+      "text": "Add the cooked egg noodles. Toss well and cook for 3 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Pour in the soy sauce, chicken stock, and oyster sauce. Toss everything together and continue cooking for 3 to 5 minutes, allowing the noodles to absorb the sauce."
+    },
+    {
+      "position": 5,
+      "text": "Add the spinach, then season with salt and pepper. Toss again and cook for 1 to 3 minutes, just until the spinach wilts."
+    },
+    {
+      "position": 6,
+      "text": "Transfer to a serving plate and serve hot. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/843f4c99-466b-5d57-9c58-ffe2da0ecd4e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "130 kcal",
+    "carbohydrateContent": "6 g",
+    "proteinContent": "3 g",
+    "fatContent": "11 g",
+    "saturatedFatContent": "1 g",
+    "transFatContent": "0.04 g",
+    "cholesterolContent": "1 mg",
+    "sodiumContent": "954 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "2 g",
+    "unsaturatedFatContent": "10 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [
+    "1 Wok A large skillet works if you do not have a wok"
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": "96ca1e75-6271-50de-9a9c-fb94ee79856a",
+      "name": "dried egg noodles (cooked according to package instructions)",
+      "normalized_name": "dried egg noodles",
+      "quantity": "8",
+      "unit": "oz",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d778c04c-5fe2-5be8-a24b-4b8ac6b628a5",
+      "name": "snow peas",
+      "normalized_name": "snow peas",
+      "quantity": "12 to 15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots (julienned)",
+      "normalized_name": "carrots",
+      "quantity": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3a589137-8212-5bb7-8631-e98dbbfa17fd",
+      "name": "small red bell pepper (julienned)",
+      "normalized_name": "small red bell pepper",
+      "quantity": "1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "1c3e9a7a-0f31-50a9-93d9-37a5172318bd",
+      "name": "fresh white mushrooms (sliced)",
+      "normalized_name": "fresh white mushrooms",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "04129b0e-7a5b-515b-a66d-9a0fe7f0324b",
+      "name": "fresh spinach",
+      "normalized_name": "fresh spinach",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "39879787-cb9c-5995-8ee9-100fb5f9d99c",
+      "name": "small yellow onion (sliced)",
+      "normalized_name": "small yellow onion",
+      "quantity": "1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "63041ac9-6930-5398-b18d-13ee1400cb3f",
+      "name": "oyster sauce",
+      "normalized_name": "oyster sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "092c58e1-2d7b-5b6b-846c-fba6f16a29fb",
+      "name": "light soy sauce",
+      "normalized_name": "light soy sauce",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fc436b99-b324-567a-bf77-2167ee97b04e",
+      "slug": "lo-mein-recipe",
+      "name": "lo mein recipe",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/simple-lo-mein/"
+  },
+  "public": true,
+  "updated_at": 1434837778,
+  "revision": 1
+}

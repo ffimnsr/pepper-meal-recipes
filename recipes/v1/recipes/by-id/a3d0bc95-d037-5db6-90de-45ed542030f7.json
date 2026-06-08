@@ -1,0 +1,76 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a3d0bc95-d037-5db6-90de-45ed542030f7",
+  "slug": "how-to-make-latik",
+  "name": "Latik Recipe",
+  "recipe_type": "dessert",
+  "brief_description": "This is a recipe for latik",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a saucepan and pour-in the coconut milk."
+    },
+    {
+      "position": 2,
+      "text": "Bring the coconut milk to a boil."
+    },
+    {
+      "position": 3,
+      "text": "Continuously stir until most of the liquid evaporate. This will take about 12 to 15 minutes per cup of coconut milk."
+    },
+    {
+      "position": 4,
+      "text": "When the texture turns gelatinous, lower the heat and continue stirring. Oils should be separating from the milk at this stage."
+    },
+    {
+      "position": 5,
+      "text": "Continue stirring until brownish residues are formed. Turn off the heat and place the latik in a container. You can use this right away to top your favorite rice cake or place it in the fridge for a week or so."
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 2,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a3d0bc95-d037-5db6-90de-45ed542030f7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "servingSize": "3 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b9f65ec3-73f6-5ef5-b709-977a3a3c6016",
+      "name": "can coconut milk",
+      "normalized_name": "can coconut milk",
+      "quantity": "1 2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    }
+  ],
+  "tags": [],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/how-to-make-latik/"
+  },
+  "public": true,
+  "updated_at": 1269511579,
+  "revision": 1
+}

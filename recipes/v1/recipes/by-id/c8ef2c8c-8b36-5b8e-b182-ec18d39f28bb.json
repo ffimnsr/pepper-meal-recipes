@@ -1,0 +1,214 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c8ef2c8c-8b36-5b8e-b182-ec18d39f28bb",
+  "slug": "beef-hinalang",
+  "name": "Beef Hinalang Recipe",
+  "recipe_type": "soup",
+  "brief_description": "Spicy beef soup with Thai chili and green onion.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a pot. Saute onion, garlic, and ginger."
+    },
+    {
+      "position": 2,
+      "text": "Once onion softens, add beef. Saute until medium brown."
+    },
+    {
+      "position": 3,
+      "text": "Pour vinegar and soy sauce. Let boil."
+    },
+    {
+      "position": 4,
+      "text": "Add Knorr Beef Cube. Stir and then pour-in water. Let the water boil. Continue to boil in low to medium heat for 30 minutes of until the beef gets tender. Note: add more water if needed."
+    },
+    {
+      "position": 5,
+      "text": "Add Thai chili pepper and green onions. Season with ground black pepper. Cook for 2 minutes. Serve hot. Share and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c8ef2c8c-8b36-5b8e-b182-ec18d39f28bb/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "563 kcal",
+    "carbohydrateContent": "7 g",
+    "proteinContent": "32 g",
+    "fatContent": "45 g",
+    "saturatedFatContent": "14 g",
+    "cholesterolContent": "121 mg",
+    "sodiumContent": "1377 mg",
+    "fiberContent": "1 g",
+    "sugarContent": "2 g",
+    "servingSize": "1 serving"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "35713999-8aad-5061-ad49-9100533a481e",
+      "name": "beef (thinly sliced)",
+      "normalized_name": "beef",
+      "quantity": "1 1/2",
+      "unit": "lbs",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b0cf97c8-0d8d-59fe-9334-3590c92290b4",
+      "name": "Knorr Beef Cube",
+      "normalized_name": "knorr beef cube",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2bb7f8e7-f9f2-52d8-a55e-5a50a04b3eed",
+      "name": "green onion (chopped)",
+      "normalized_name": "green onion",
+      "quantity": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "060ecd6b-e829-5017-bcb6-bb0e0e9a261a",
+      "name": "Thai chili pepper (chopped)",
+      "normalized_name": "thai chili pepper",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion (chopped)",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a8756250-bd9b-5f00-beb9-d11684254de2",
+      "name": "thumbs ginger (sliced)",
+      "normalized_name": "thumbs ginger",
+      "quantity": "3",
+      "unit": null,
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic (minced)",
+      "normalized_name": "garlic",
+      "quantity": "5",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "Ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "7a79349c-76d5-5e2f-aed7-e5eba1337328",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "214deb7d-d2ac-505b-8ea4-f7fd289fce75",
+      "slug": "filipino-soup",
+      "name": "filipino soup",
+      "color": null
+    },
+    {
+      "id": "f20d119d-bced-5c77-a148-81a2d17dc2de",
+      "slug": "halang-halang",
+      "name": "halang-halang",
+      "color": null
+    },
+    {
+      "id": "bcadb439-dd55-5799-a327-57cb7d2194e4",
+      "slug": "soup-recipe",
+      "name": "soup recipe",
+      "color": null
+    },
+    {
+      "id": "bed488cb-e1e7-52d2-bf6b-005672a4c7c4",
+      "slug": "spicy-beef",
+      "name": "spicy beef",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com/beef-hinalang/"
+  },
+  "public": true,
+  "updated_at": 1582706451,
+  "revision": 1
+}
