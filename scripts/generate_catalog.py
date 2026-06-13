@@ -16,10 +16,8 @@ from pathlib import Path
 
 try:
     from jsonschema import Draft202012Validator
-except ImportError as exc:
-    raise SystemExit(
-        "missing dependency: install with 'python3 -m pip install -r requirements-dev.txt'"
-    ) from exc
+except ImportError:
+    Draft202012Validator = None
 
 
 SCHEMA_VERSION = 1
@@ -32,6 +30,7 @@ INDEXES_DIR = CATALOG_ROOT / "indexes"
 MANIFESTS_DIR = CATALOG_ROOT / "manifests"
 RELEASE_FILE = CATALOG_ROOT / "release.json"
 SCHEMAS_DIR = CATALOG_ROOT / "schemas"
+INGREDIENT_REVIEW_FILE = INDEXES_DIR / "ingredients.review.json"
 
 CATALOG_NAMESPACE = uuid.UUID("8d7c8f42-d53a-4d2d-9d67-935eeea8d7c4")
 RECIPE_NAMESPACE = uuid.uuid5(CATALOG_NAMESPACE, "recipe")
@@ -96,6 +95,119 @@ KNOWN_UNITS = {
     "teaspoons",
     "tsp",
 }
+LEADING_AMOUNT_PHRASES = (
+    "a bit of ",
+    "a bunch of ",
+    "a dash of ",
+    "a few dashes of ",
+    "a few drops of ",
+    "a hint of ",
+    "a pack of ",
+    "a pinch of ",
+    "an assortment of ",
+    "a slice of ",
+    "a can of ",
+    "can of ",
+    "pack of ",
+    "bunch of ",
+    "head of ",
+)
+LEADING_DESCRIPTORS = {
+    "additional",
+    "another",
+    "bit",
+    "bunch",
+    "dash",
+    "few",
+    "fresh",
+    "head",
+    "heads",
+    "hint",
+    "large",
+    "medium",
+    "piece",
+    "pieces",
+    "pack",
+    "raw",
+    "small",
+    "thumb",
+    "thumbs",
+    "whole",
+}
+NON_IDENTITY_WORDS = {
+    "also",
+    "around",
+    "best",
+    "length",
+    "optional",
+}
+PREPARATION_HINTS = {
+    "beaten",
+    "boiled",
+    "butterflied",
+    "butterfly",
+    "chopped",
+    "cleaned",
+    "cracked",
+    "crushed",
+    "cubed",
+    "cut",
+    "deboned",
+    "deveined",
+    "diced",
+    "drained",
+    "filleted",
+    "grated",
+    "ground",
+    "gutted",
+    "halved",
+    "head",
+    "heads",
+    "knotted",
+    "mashed",
+    "minced",
+    "peeled",
+    "pitted",
+    "quartered",
+    "removed",
+    "scaled",
+    "scales",
+    "seeded",
+    "shelled",
+    "shredded",
+    "sliced",
+    "soaked",
+    "softened",
+    "trimmed",
+    "wedged",
+}
+SAFE_COMPOUND_SPLITS = {
+    "fish sauce and crushed peppercorn": ["fish sauce", "crushed peppercorn"],
+    "fish sauce and ground black pepper": ["fish sauce", "ground black pepper"],
+    "fish sauce and ground white pepper": ["fish sauce", "ground white pepper"],
+    "salt and ground black pepper": ["salt", "ground black pepper"],
+    "salt and pepper": ["salt", "pepper"],
+}
+PACKAGING_PREFIXES = {
+    "can": "canned",
+}
+EXCLUDED_INGREDIENT_PATTERNS = (
+    re.compile(r"^aluminum foil$", re.IGNORECASE),
+    re.compile(r"^a double boiler$", re.IGNORECASE),
+    re.compile(r"^bamboo skewers(?: .*)?$", re.IGNORECASE),
+    re.compile(r"^water for boiling\b", re.IGNORECASE),
+    re.compile(r"^additional water for boiling\b", re.IGNORECASE),
+)
+AMBIGUOUS_CONNECTOR_RE = re.compile(r"\b(or|and/or)\b", re.IGNORECASE)
+FOR_BOILING_RE = re.compile(r"\bfor boiling\b.*$", re.IGNORECASE)
+TO_TASTE_RE = re.compile(r"\bto taste\b.*$", re.IGNORECASE)
+CUT_PREPARATION_RE = re.compile(
+    r"\s+(cut into|cut in|cut to|chopped|cleaned|cubed|diced|gutted|julienned|knotted|minced|peeled|pitted|quartered|scaled|seeded|shelled|shredded|sliced|trimmed|wedged)\b.*$",
+    re.IGNORECASE,
+)
+PAREN_CONTENT_RE = re.compile(r"\(([^()]*)\)")
+INGREDIENT_REVIEW_SCHEMA = "ingredients-review.schema.json"
+VALIDATE_SCHEMAS = True
 
 
 @dataclass
@@ -130,6 +242,13 @@ class CanonicalRecipe:
     source_path: Path
     output_path: Path
     payload: dict
+    review_entries: list[dict]
+
+
+@dataclass
+class CanonicalIngredientResult:
+    ingredients: list[dict]
+    review_entries: list[dict]
 
 
 def utc_timestamp() -> str:
@@ -165,6 +284,267 @@ def normalize_name(value: str) -> str:
     value = re.sub(r"[^a-z0-9\s/-]", "", value)
     value = re.sub(r"\s+", " ", value)
     return value.strip(" -/")
+
+
+def split_parenthetical_chunks(value: str) -> tuple[str, list[str]]:
+    text = clean_text(value)
+    parts: list[str] = []
+    previous = None
+    while previous != text:
+        previous = text
+        for match in PAREN_CONTENT_RE.findall(text):
+            cleaned = clean_text(match)
+            if cleaned:
+                parts.append(cleaned)
+        text = PAREN_CONTENT_RE.sub(" ", text)
+        text = clean_text(text)
+    return text, parts
+
+
+def classify_parenthetical_part(value: str) -> str:
+    normalized = normalize_name(value)
+    if not normalized:
+        return "ignore"
+    if normalized == "optional" or normalized.startswith("optional "):
+        return "optional"
+    if AMBIGUOUS_CONNECTOR_RE.search(normalized):
+        return "ambiguous"
+    if any(token in PREPARATION_HINTS for token in normalized.split()):
+        return "preparation"
+    return "alias"
+
+
+def singularize_token(token: str) -> str:
+    irregular = {
+        "batches": "batch",
+        "berries": "berry",
+        "chilies": "chili",
+        "eggs": "egg",
+        "leaves": "leaf",
+        "loaves": "loaf",
+        "potatoes": "potato",
+        "tomatoes": "tomato",
+    }
+    if token in irregular:
+        return irregular[token]
+    if len(token) <= 3 or token.endswith(("ss", "us", "is")):
+        return token
+    if token.endswith("ies") and len(token) > 4:
+        return f"{token[:-3]}y"
+    if token.endswith("oes") and len(token) > 4:
+        return token[:-2]
+    if token.endswith("ses") and len(token) > 4:
+        return token[:-2]
+    if token.endswith("s") and not token.endswith("ds"):
+        return token[:-1]
+    return token
+
+
+def singularize_phrase(value: str) -> str:
+    tokens = value.split()
+    if not tokens:
+        return value
+    tokens[-1] = singularize_token(tokens[-1])
+    return " ".join(token for token in tokens if token)
+
+
+def normalize_packaging_prefix(value: str) -> str:
+    for prefix, replacement in PACKAGING_PREFIXES.items():
+        if value.startswith(f"{prefix} of "):
+            return clean_text(f"{replacement} {value[len(prefix) + 4:]}")
+    return value
+
+
+def strip_leading_descriptors(value: str) -> str:
+    tokens = value.split()
+    while tokens and tokens[0] in LEADING_DESCRIPTORS:
+        tokens.pop(0)
+    return " ".join(tokens)
+
+
+def strip_non_identity_words(value: str) -> str:
+    tokens = [token for token in value.split() if token not in NON_IDENTITY_WORDS]
+    return " ".join(tokens)
+
+
+def normalize_core_ingredient_name(value: str) -> str:
+    normalized = normalize_name(value)
+    if not normalized:
+        return ""
+    if normalized.startswith("a can of "):
+        normalized = f"canned {normalized[len('a can of '):]}"
+    elif normalized.startswith("can of "):
+        normalized = f"canned {normalized[len('can of '):]}"
+    for phrase in LEADING_AMOUNT_PHRASES:
+        if normalized.startswith(phrase):
+            normalized = normalized[len(phrase) :]
+            break
+    normalized = FOR_BOILING_RE.sub("", normalized).strip()
+    normalized = TO_TASTE_RE.sub("", normalized).strip()
+    normalized = strip_leading_descriptors(normalized)
+    normalized = CUT_PREPARATION_RE.sub("", normalized).strip()
+    normalized = strip_non_identity_words(normalized)
+    normalized = re.sub(r"\bof\b$", "", normalized).strip()
+    normalized = re.sub(r"\s+", " ", normalized).strip(" -/")
+    normalized = singularize_phrase(normalized)
+    synonym_map = {
+        "green onions": "green onion",
+        "scallions": "green onion",
+        "spring onions": "green onion",
+        "yellow onions": "yellow onion",
+        "red onions": "red onion",
+        "white onions": "white onion",
+        "canned tunas": "canned tuna",
+    }
+    return synonym_map.get(normalized, normalized)
+
+
+def looks_like_preparation(value: str) -> bool:
+    normalized = normalize_name(value)
+    return bool(normalized) and any(token in PREPARATION_HINTS for token in normalized.split())
+
+
+def clean_preparation_text(value: str | None) -> str | None:
+    text = normalize_name(value or "")
+    if not text:
+        return None
+    text = re.sub(r"\boptional\b", "", text).strip()
+    text = re.sub(r"\s+", " ", text).strip(" -/")
+    return text or None
+
+
+def is_excluded_ingredient_name(value: str) -> bool:
+    text = clean_text(value)
+    if not text:
+        return True
+    return any(pattern.search(text) for pattern in EXCLUDED_INGREDIENT_PATTERNS)
+
+
+def build_review_entry(
+    recipe: dict,
+    ingredient: dict,
+    issue_types: list[str],
+    resolution: str,
+    original_text: str,
+    cleaned_name: str | None = None,
+    replacements: list[str] | None = None,
+) -> dict:
+    return {
+        "recipe_id": recipe["id"],
+        "recipe_slug": recipe["slug"],
+        "recipe_name": recipe["name"],
+        "position": ingredient.get("position"),
+        "original_text": original_text,
+        "quantity": ingredient.get("quantity"),
+        "unit": ingredient.get("unit"),
+        "cleaned_name": cleaned_name,
+        "replacements": replacements or [],
+        "issue_types": sorted(dict.fromkeys(issue_types)),
+        "resolution": resolution,
+    }
+
+
+def canonicalize_ingredient_entry(recipe: dict, ingredient: dict) -> CanonicalIngredientResult:
+    original_text = clean_text(" ".join(filter(None, [ingredient.get("quantity"), ingredient.get("unit"), ingredient.get("name")])))
+    if is_section_heading(ingredient.get("name") or ""):
+        return CanonicalIngredientResult([], [])
+
+    base_name, parenthetical_parts = split_parenthetical_chunks(ingredient.get("name") or "")
+    issue_types: list[str] = []
+    preparation_parts: list[str] = []
+    if ingredient.get("preparation"):
+        preparation_parts.append(ingredient["preparation"])
+
+    for part in parenthetical_parts:
+        kind = classify_parenthetical_part(part)
+        if kind == "preparation":
+            preparation_parts.append(part)
+        elif kind == "optional":
+            issue_types.append("optional")
+        elif kind == "ambiguous":
+            issue_types.append("ambiguous_parenthetical")
+        elif kind == "alias":
+            issue_types.append("alias_parenthetical")
+
+    canonical_name = normalize_core_ingredient_name(base_name)
+    trailing_match = CUT_PREPARATION_RE.search(base_name)
+    if trailing_match:
+        preparation_parts.append(trailing_match.group(0))
+
+    preparation = clean_preparation_text(" ".join(preparation_parts))
+    if is_excluded_ingredient_name(base_name) or is_excluded_ingredient_name(canonical_name):
+        review = build_review_entry(
+            recipe,
+            ingredient,
+            issue_types + ["excluded_non_ingredient"],
+            "excluded",
+            original_text,
+            cleaned_name=canonical_name or None,
+        )
+        return CanonicalIngredientResult([], [review])
+
+    if not canonical_name:
+        review = build_review_entry(recipe, ingredient, issue_types + ["empty_canonical_name"], "excluded", original_text)
+        return CanonicalIngredientResult([], [review])
+
+    if canonical_name in SAFE_COMPOUND_SPLITS:
+        replacements = SAFE_COMPOUND_SPLITS[canonical_name]
+        split_ingredients = [
+            {
+                "ingredient_id": stable_uuid(INGREDIENT_NAMESPACE, normalize_name(name)),
+                "name": name,
+                "normalized_name": normalize_name(name),
+                "quantity": None,
+                "unit": None,
+                "preparation": preparation,
+                "position": ingredient["position"],
+            }
+            for name in replacements
+        ]
+        review = build_review_entry(
+            recipe,
+            ingredient,
+            issue_types + ["compound_split"],
+            "split",
+            original_text,
+            cleaned_name=canonical_name,
+            replacements=replacements,
+        )
+        return CanonicalIngredientResult(split_ingredients, [review])
+
+    if AMBIGUOUS_CONNECTOR_RE.search(canonical_name):
+        review = build_review_entry(
+            recipe,
+            ingredient,
+            issue_types + ["ambiguous_connector"],
+            "review",
+            original_text,
+            cleaned_name=canonical_name,
+        )
+        return CanonicalIngredientResult([], [review])
+
+    canonical = {
+        "ingredient_id": stable_uuid(INGREDIENT_NAMESPACE, normalize_name(canonical_name)),
+        "name": canonical_name,
+        "normalized_name": normalize_name(canonical_name),
+        "quantity": ingredient.get("quantity"),
+        "unit": ingredient.get("unit"),
+        "preparation": preparation,
+        "position": ingredient["position"],
+    }
+    review_entries: list[dict] = []
+    if issue_types:
+        review_entries.append(
+            build_review_entry(
+                recipe,
+                ingredient,
+                issue_types,
+                "canonicalized",
+                original_text,
+                cleaned_name=canonical_name,
+            )
+        )
+    return CanonicalIngredientResult([canonical], review_entries)
 
 
 def normalize_ingredient_text(value: str) -> str:
@@ -411,10 +791,19 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Increment repo_sequence and publish a new manifest file.",
     )
+    parser.add_argument(
+        "--skip-validation",
+        action="store_true",
+        help="Skip JSON Schema validation when local validation dependencies are unavailable.",
+    )
     return parser.parse_args()
 
 
 def load_schema(schema_name: str) -> dict:
+    if not VALIDATE_SCHEMAS:
+        return {}
+    if Draft202012Validator is None:
+        raise SystemExit("missing dependency: install with 'python3 -m pip install -r requirements-dev.txt'")
     schema = load_json(SCHEMAS_DIR / schema_name)
     Draft202012Validator.check_schema(schema)
     return schema
@@ -428,6 +817,8 @@ def format_validation_error(error) -> str:
 
 
 def validate_payload(payload: dict, schema_name: str, source_name: str) -> None:
+    if not VALIDATE_SCHEMAS:
+        return
     validator = Draft202012Validator(load_schema(schema_name))
     errors = sorted(validator.iter_errors(payload), key=lambda item: list(item.absolute_path))
     if not errors:
@@ -437,7 +828,7 @@ def validate_payload(payload: dict, schema_name: str, source_name: str) -> None:
     raise SystemExit(f"schema validation failed for {source_name}:\n{details}")
 
 
-def canonicalize_recipe(recipe: dict) -> dict:
+def canonicalize_recipe(recipe: dict) -> tuple[dict, list[dict]]:
     canonical = deepcopy(recipe)
     slug = canonical["slug"]
     canonical["$schema"] = "../../schemas/recipe.schema.json"
@@ -451,16 +842,18 @@ def canonicalize_recipe(recipe: dict) -> dict:
         tag["id"] = stable_uuid(TAG_NAMESPACE, tag["slug"])
 
     normalized_ingredients: list[dict] = []
+    review_entries: list[dict] = []
     for ingredient in canonical.get("ingredients", []):
         normalize_ingredient_record(ingredient)
-        if is_section_heading(ingredient.get("name") or ""):
-            continue
-        ingredient["position"] = len(normalized_ingredients) + 1
-        normalized_ingredients.append(ingredient)
+        result = canonicalize_ingredient_entry(canonical, ingredient)
+        for normalized in result.ingredients:
+            normalized["position"] = len(normalized_ingredients) + 1
+            normalized_ingredients.append(normalized)
+        review_entries.extend(result.review_entries)
 
     canonical["ingredients"] = normalized_ingredients
 
-    return canonical
+    return canonical, review_entries
 
 
 def sort_recipe_files() -> list[Path]:
@@ -471,7 +864,7 @@ def collect_canonical_recipes() -> list[CanonicalRecipe]:
     canonical_recipes: list[CanonicalRecipe] = []
 
     for recipe_path in sort_recipe_files():
-        canonical = canonicalize_recipe(load_json(recipe_path))
+        canonical, review_entries = canonicalize_recipe(load_json(recipe_path))
         canonical_path = RECIPES_DIR / f"{canonical['id']}.json"
         validate_payload(canonical, "recipe.schema.json", str(recipe_path.relative_to(REPO_ROOT)))
         canonical_recipes.append(
@@ -479,6 +872,7 @@ def collect_canonical_recipes() -> list[CanonicalRecipe]:
                 source_path=recipe_path,
                 output_path=canonical_path,
                 payload=canonical,
+                review_entries=review_entries,
             )
         )
 
@@ -690,6 +1084,33 @@ def write_index_files(recipes_index: dict, categories_index: dict, tags_index: d
     dump_json(INDEXES_DIR / "ingredients.index.json", ingredients_index)
 
 
+def build_ingredient_review_index(canonical_recipes: list[CanonicalRecipe], generated_at: str, repo_sequence: int) -> dict:
+    entries: list[dict] = []
+    for recipe in canonical_recipes:
+        entries.extend(recipe.review_entries)
+    review_index = {
+        "$schema": f"../schemas/{INGREDIENT_REVIEW_SCHEMA}",
+        "schema_version": SCHEMA_VERSION,
+        "generated_at": generated_at,
+        "repo_sequence": repo_sequence,
+        "entries": sorted(
+            entries,
+            key=lambda item: (
+                item["recipe_slug"],
+                int(item["position"] or 0),
+                item["original_text"].lower(),
+                item["resolution"],
+            ),
+        ),
+    }
+    validate_payload(review_index, INGREDIENT_REVIEW_SCHEMA, "recipes/v1/indexes/ingredients.review.json")
+    return review_index
+
+
+def write_ingredient_review_file(review_index: dict) -> None:
+    dump_json(INGREDIENT_REVIEW_FILE, review_index)
+
+
 def rebuild_manifest(recipe_summaries: list[RecipeSummary], generated_at: str, repo_sequence: int) -> Path:
     manifest_path = MANIFESTS_DIR / manifest_file_name(repo_sequence)
     manifest = {
@@ -753,6 +1174,8 @@ def rebuild_release(generated_at: str, repo_sequence: int, manifest_path: Path) 
 
 def main() -> None:
     args = parse_args()
+    global VALIDATE_SCHEMAS
+    VALIDATE_SCHEMAS = not args.skip_validation
     release = load_release()
     repo_sequence = int(release.get("repo_sequence", 1))
     if args.bump_sequence:
@@ -779,6 +1202,8 @@ def main() -> None:
         repo_sequence,
     )
     write_index_files(recipes_index, categories_index, tags_index, ingredients_index)
+    ingredient_review_index = build_ingredient_review_index(canonical_recipes, generated_at, repo_sequence)
+    write_ingredient_review_file(ingredient_review_index)
 
     manifest_path = rebuild_manifest(recipe_summaries, generated_at, repo_sequence)
     rebuild_release(generated_at, repo_sequence, manifest_path)

@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pmp.vastorigins.com/schemas/ingredients-review.schema.json",
+  "title": "Pepper Meal Planner Ingredient Review Index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_at",
+    "repo_sequence",
+    "entries"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "repo_sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "recipe_id",
+          "recipe_slug",
+          "recipe_name",
+          "position",
+          "original_text",
+          "quantity",
+          "unit",
+          "cleaned_name",
+          "replacements",
+          "issue_types",
+          "resolution"
+        ],
+        "properties": {
+          "recipe_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "recipe_slug": {
+            "type": "string",
+            "minLength": 1
+          },
+          "recipe_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "position": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "original_text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quantity": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cleaned_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "replacements": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "issue_types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "resolution": {
+            "type": "string",
+            "enum": [
+              "canonicalized",
+              "excluded",
+              "review",
+              "split"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

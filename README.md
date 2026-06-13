@@ -17,6 +17,7 @@ recipes/
       categories.index.json
       tags.index.json
       ingredients.index.json
+      ingredients.review.json
     manifests/
       0000000001.json
     recipes/
@@ -53,6 +54,7 @@ The generator will:
 2. Rebuild recipe, category, tag, and ingredient indexes from recipe payloads.
 3. Rebuild the current manifest `upserts` from the recipe files.
 4. Refresh `release.json` timestamps and SHA-256 hashes.
+5. Emit `indexes/ingredients.review.json` for excluded, split, or ambiguous ingredient lines that need human review.
 
 The generator validates recipe payloads and generated artifacts against the JSON Schemas before writing catalog metadata.
 
