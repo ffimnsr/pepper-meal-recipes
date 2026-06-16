@@ -80,34 +80,34 @@
     },
     {
       "ingredient_id": "99244f64-52dc-5746-a1a5-0e8b8df8f7b1",
-      "name": "ox tripe (cleaned)",
+      "name": "ox tripe",
       "normalized_name": "ox tripe",
       "quantity": "1",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "cleaned",
       "position": 2
     },
     {
       "ingredient_id": "9ec72540-11bd-5605-975c-3bf8ebf593a0",
-      "name": "pig large intestine (cleaned)",
+      "name": "pig large intestine",
       "normalized_name": "pig large intestine",
       "quantity": "1",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "cleaned",
       "position": 3
     },
     {
-      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
-      "name": "eggs (boiled and shelled)",
-      "normalized_name": "eggs",
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
       "quantity": "4",
       "unit": null,
-      "preparation": null,
+      "preparation": "boiled and shelled",
       "position": 4
     },
     {
       "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
-      "name": "water (for cooking)",
+      "name": "water",
       "normalized_name": "water",
       "quantity": "5",
       "unit": "cups",
@@ -116,7 +116,7 @@
     },
     {
       "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
-      "name": "water (for boiling)",
+      "name": "water",
       "normalized_name": "water",
       "quantity": "6",
       "unit": "cups",
@@ -124,22 +124,13 @@
       "position": 6
     },
     {
-      "ingredient_id": "fee310a6-af45-580f-a2d8-cc657b7aeeea",
-      "name": "beef powder or 1 beef cube",
-      "normalized_name": "beef powder or 1 beef cube",
-      "quantity": "2",
-      "unit": "teaspoons",
-      "preparation": null,
-      "position": 7
-    },
-    {
       "ingredient_id": "f9f32b2a-00da-585f-b38f-fd1d6ec5819a",
-      "name": "turmeric powder (optional)",
+      "name": "turmeric powder",
       "normalized_name": "turmeric powder",
       "quantity": "1",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 8
+      "position": 7
     },
     {
       "ingredient_id": "5ec285ac-e5f8-545b-b77d-a4264f14cee4",
@@ -148,25 +139,25 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": null,
+      "preparation": "minced",
       "position": 9
     },
     {
-      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
-      "name": "medium onion (minced)",
-      "normalized_name": "medium onion",
-      "quantity": "1",
-      "unit": null,
-      "preparation": null,
-      "position": 10
-    },
-    {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
-      "name": "garlic (minced)",
+      "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "5",
       "unit": "cloves",
-      "preparation": null,
-      "position": 11
+      "preparation": "minced",
+      "position": 10
     },
     {
       "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
@@ -175,7 +166,7 @@
       "quantity": "2",
       "unit": "teaspoons",
       "preparation": null,
-      "position": 12
+      "position": 11
     },
     {
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
@@ -184,16 +175,16 @@
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 13
+      "position": 12
     },
     {
-      "ingredient_id": "b6f5175b-7376-5ed7-a66b-d4a13f9947d0",
-      "name": "head toasted garlic",
-      "normalized_name": "head toasted garlic",
+      "ingredient_id": "ed386748-d3cc-5a27-9b75-2c49fdb37427",
+      "name": "toasted garlic",
+      "normalized_name": "toasted garlic",
       "quantity": "1",
       "unit": null,
       "preparation": null,
-      "position": 14
+      "position": 13
     },
     {
       "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
@@ -202,7 +193,7 @@
       "quantity": "1/4",
       "unit": "cup",
       "preparation": null,
-      "position": 15
+      "position": 14
     },
     {
       "ingredient_id": "3ce74e61-f2fe-5fc2-9aeb-1dfd01734fcf",
@@ -211,12 +202,21 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
       "position": 16
     },
     {
-      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
-      "name": "Salt and pepper to taste",
-      "normalized_name": "salt and pepper to taste",
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
       "quantity": null,
       "unit": null,
       "preparation": null,

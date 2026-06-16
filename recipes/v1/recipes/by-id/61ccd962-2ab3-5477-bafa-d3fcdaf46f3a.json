@@ -77,18 +77,18 @@
   "equipment": [],
   "ingredients": [
     {
-      "ingredient_id": "b107accd-a6ad-5b50-8b22-ce5bee8ebfae",
-      "name": "pork hocks (cleaned)",
-      "normalized_name": "pork hocks",
+      "ingredient_id": "b95a4695-b1c8-5930-aebd-05e82a419fda",
+      "name": "pork hock",
+      "normalized_name": "pork hock",
       "quantity": "3",
       "unit": "lbs",
-      "preparation": null,
+      "preparation": "cleaned",
       "position": 1
     },
     {
-      "ingredient_id": "b69b02b2-ef77-5dc4-8c80-4f09c7d47b63",
-      "name": "mung beans (washed)",
-      "normalized_name": "mung beans",
+      "ingredient_id": "3105a63b-36f5-5971-890d-5d6ee19a0a8a",
+      "name": "mung bean",
+      "normalized_name": "mung bean",
       "quantity": "1 1/2",
       "unit": "cups",
       "preparation": null,
@@ -114,29 +114,29 @@
     },
     {
       "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
-      "name": "onion (chopped)",
+      "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
       "unit": null,
-      "preparation": null,
+      "preparation": "chopped",
       "position": 5
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
-      "name": "garlic (chopped)",
+      "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "5",
       "unit": null,
-      "preparation": null,
+      "preparation": "chopped",
       "position": 6
     },
     {
-      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
-      "name": "tomatoes (diced)",
-      "normalized_name": "tomatoes",
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato",
+      "normalized_name": "tomato",
       "quantity": "3",
       "unit": null,
-      "preparation": null,
+      "preparation": "diced",
       "position": 7
     },
     {
@@ -158,13 +158,22 @@
       "position": 9
     },
     {
-      "ingredient_id": "c347e72a-8d22-5304-9550-447f2d4f95f6",
-      "name": "Fish sauce and ground black pepper to taste",
-      "normalized_name": "fish sauce and ground black pepper to taste",
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce",
+      "normalized_name": "fish sauce",
       "quantity": null,
       "unit": null,
       "preparation": null,
       "position": 10
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 11
     },
     {
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
@@ -173,7 +182,7 @@
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 11
+      "position": 12
     }
   ],
   "categories": [

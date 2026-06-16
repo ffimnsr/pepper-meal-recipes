@@ -66,9 +66,9 @@
   "equipment": [],
   "ingredients": [
     {
-      "ingredient_id": "9fdccbd7-93ca-5bbd-bbcc-892c264f60ac",
-      "name": "spaghetti noodles (cooked according to package instructions)",
-      "normalized_name": "spaghetti noodles",
+      "ingredient_id": "dc0dd4c1-70ac-5db7-9020-05db5b47ad7c",
+      "name": "spaghetti noodle",
+      "normalized_name": "spaghetti noodle",
       "quantity": "1",
       "unit": "lb",
       "preparation": null,
@@ -76,11 +76,11 @@
     },
     {
       "ingredient_id": "372d8c75-f9d9-5c03-9a48-e7102724c5c7",
-      "name": "pancetta (chopped)",
+      "name": "pancetta",
       "normalized_name": "pancetta",
       "quantity": "1/4",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 2
     },
     {
@@ -103,7 +103,7 @@
     },
     {
       "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
-      "name": "grated Parmesan cheese",
+      "name": "grated parmesan cheese",
       "normalized_name": "grated parmesan cheese",
       "quantity": "1",
       "unit": "cup",
@@ -111,18 +111,18 @@
       "position": 5
     },
     {
-      "ingredient_id": "a30d2790-8959-5f92-90c9-d9b63bfe2517",
-      "name": "egg yolks",
-      "normalized_name": "egg yolks",
+      "ingredient_id": "f57bd758-b955-5a0d-8781-8edfd21c2ac5",
+      "name": "egg yolk",
+      "normalized_name": "egg yolk",
       "quantity": "6",
       "unit": null,
       "preparation": null,
       "position": 6
     },
     {
-      "ingredient_id": "51d43a95-1651-5f52-8e68-567ddaabd3da",
-      "name": "chopped fresh basil leaves",
-      "normalized_name": "chopped fresh basil leaves",
+      "ingredient_id": "a306e697-dd96-54c2-90a5-bf481614d685",
+      "name": "chopped fresh basil leaf",
+      "normalized_name": "chopped fresh basil leaf",
       "quantity": "1/4",
       "unit": "cup",
       "preparation": null,
@@ -139,7 +139,7 @@
     },
     {
       "ingredient_id": "84b8e582-e631-566b-9ba0-cbc0b8e649de",
-      "name": "Extra Virgin Olive Oil",
+      "name": "extra virgin olive oil",
       "normalized_name": "extra virgin olive oil",
       "quantity": "2",
       "unit": "tablespoons",
@@ -148,21 +148,30 @@
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
-      "name": "garlic (minced)",
+      "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "3",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "minced",
       "position": 10
     },
     {
-      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
-      "name": "Salt and pepper to taste",
-      "normalized_name": "salt and pepper to taste",
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
       "quantity": null,
       "unit": null,
       "preparation": null,
       "position": 11
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 12
     },
     {
       "ingredient_id": "122ede5a-a404-5380-9ad9-27c0e5a17cb5",
@@ -171,7 +180,7 @@
       "quantity": "2",
       "unit": "teaspoons",
       "preparation": null,
-      "position": 12
+      "position": 13
     }
   ],
   "categories": [

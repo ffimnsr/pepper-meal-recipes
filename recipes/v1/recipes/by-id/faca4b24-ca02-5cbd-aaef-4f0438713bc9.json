@@ -90,16 +90,16 @@
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
-      "name": "chicken (cut into serving pieces)",
+      "name": "chicken",
       "normalized_name": "chicken",
       "quantity": "2",
       "unit": "lbs",
-      "preparation": null,
+      "preparation": "cut into serving pieces",
       "position": 1
     },
     {
       "ingredient_id": "bf56a2c0-634e-5c86-b165-b32864736da0",
-      "name": "Maggi Magic Chicken Cube",
+      "name": "maggi magic chicken cube",
       "normalized_name": "maggi magic chicken cube",
       "quantity": "1",
       "unit": null,
@@ -107,54 +107,54 @@
       "position": 2
     },
     {
-      "ingredient_id": "d6072608-3218-5a98-9c26-e5a1472ff43b",
-      "name": "saba bananas (sliced diagonally)",
-      "normalized_name": "saba bananas",
+      "ingredient_id": "8b96575f-5f78-5aaa-a31d-0c5f98da4e56",
+      "name": "saba banana",
+      "normalized_name": "saba banana",
       "quantity": "3",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "sliced diagonally",
       "position": 3
     },
     {
-      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
-      "name": "potatoes (sliced into large cubes)",
-      "normalized_name": "potatoes",
+      "ingredient_id": "3996d4e9-a572-5bf1-9ea2-869c10f374a0",
+      "name": "potato",
+      "normalized_name": "potato",
       "quantity": "2",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "sliced into large cubes",
       "position": 4
     },
     {
-      "ingredient_id": "8ab24957-494b-588a-bd7b-4dc8da5a5c77",
-      "name": "chickpeas (garbanzos) (canned)",
-      "normalized_name": "chickpeas",
+      "ingredient_id": "dfa9b4d8-8b0a-5006-9e5a-9e5ecb1bd189",
+      "name": "chickpea",
+      "normalized_name": "chickpea",
       "quantity": "14",
       "unit": "ounces",
       "preparation": null,
       "position": 5
     },
     {
-      "ingredient_id": "f89b9fae-7acd-5b32-a5c7-fe528025d7d9",
-      "name": "long green beans",
-      "normalized_name": "long green beans",
+      "ingredient_id": "4337f427-9113-5a55-8428-447cabe85ade",
+      "name": "long green bean",
+      "normalized_name": "long green bean",
       "quantity": "15",
       "unit": "pieces",
       "preparation": null,
       "position": 6
     },
     {
-      "ingredient_id": "fe3d65f2-a01d-5cd3-a6a3-c444d2742eb4",
-      "name": "head cabbage (quartered)",
-      "normalized_name": "head cabbage",
+      "ingredient_id": "8853f9f1-7269-5963-8a20-9b1255d8fdfe",
+      "name": "cabbage",
+      "normalized_name": "cabbage",
       "quantity": "1/2",
       "unit": null,
-      "preparation": null,
+      "preparation": "quartered",
       "position": 7
     },
     {
-      "ingredient_id": "1e96e905-22b2-5636-84df-d76a646c640d",
-      "name": "bunch bok choy",
-      "normalized_name": "bunch bok choy",
+      "ingredient_id": "714e4403-f607-545f-8307-b082bd452433",
+      "name": "bok choy",
+      "normalized_name": "bok choy",
       "quantity": "1",
       "unit": null,
       "preparation": null,
@@ -162,38 +162,38 @@
     },
     {
       "ingredient_id": "e75e9366-01c1-5159-ada4-75c7d3fcac8d",
-      "name": "yellow onion (chopped)",
+      "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
       "unit": null,
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
-      "name": "garlic (chopped)",
+      "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "5",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 10
     },
     {
-      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
-      "name": "tomatoes (wedged)",
-      "normalized_name": "tomatoes",
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato",
+      "normalized_name": "tomato",
       "quantity": "2",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "wedged",
       "position": 11
     },
     {
       "ingredient_id": "737560f4-71f7-5a78-a413-e780daa09ffb",
-      "name": "Chorizo de bilbao (sliced)",
+      "name": "chorizo de bilbao",
       "normalized_name": "chorizo de bilbao",
       "quantity": "2",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 12
     },
     {
@@ -224,13 +224,22 @@
       "position": 15
     },
     {
-      "ingredient_id": "c347e72a-8d22-5304-9550-447f2d4f95f6",
-      "name": "Fish sauce and ground black pepper to taste",
-      "normalized_name": "fish sauce and ground black pepper to taste",
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce",
+      "normalized_name": "fish sauce",
       "quantity": null,
       "unit": null,
       "preparation": null,
       "position": 16
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 17
     }
   ],
   "categories": [

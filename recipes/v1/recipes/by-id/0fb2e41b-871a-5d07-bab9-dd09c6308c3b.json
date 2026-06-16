@@ -70,22 +70,13 @@
   "equipment": [],
   "ingredients": [
     {
-      "ingredient_id": "4fdddf0b-95bc-57c7-9292-3371f3c0272d",
-      "name": "beef eye of round or flank steak (3/4 inch thick in one piece)",
-      "normalized_name": "beef eye of round or flank steak",
-      "quantity": "2",
-      "unit": "lbs",
-      "preparation": null,
-      "position": 1
-    },
-    {
       "ingredient_id": "d1e29e1a-b4af-5ce8-97fc-26645ed8da86",
-      "name": "beef cubes dissolved in 3 cups boiling water (beef stock/broth)",
+      "name": "beef cubes dissolved in 3 cups boiling water",
       "normalized_name": "beef cubes dissolved in 3 cups boiling water",
       "quantity": "2",
       "unit": "pieces",
       "preparation": null,
-      "position": 2
+      "position": 1
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -94,7 +85,7 @@
       "quantity": "1/4",
       "unit": "tsp",
       "preparation": null,
-      "position": 3
+      "position": 2
     },
     {
       "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
@@ -103,7 +94,7 @@
       "quantity": "1",
       "unit": "piece",
       "preparation": null,
-      "position": 4
+      "position": 3
     },
     {
       "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
@@ -112,16 +103,16 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
-      "position": 5
+      "position": 4
     },
     {
-      "ingredient_id": "250e4856-4f9e-5f93-be5f-2f9c57ae9ea4",
-      "name": "medium sized carrot (cut into long strips)",
-      "normalized_name": "medium sized carrot",
+      "ingredient_id": "5b9fcd8e-e548-5f70-81d5-3157c95c82b7",
+      "name": "sized carrot",
+      "normalized_name": "sized carrot",
       "quantity": "1",
       "unit": "piece",
-      "preparation": null,
-      "position": 6
+      "preparation": "cut into long strips",
+      "position": 5
     },
     {
       "ingredient_id": "a41022c4-6f22-5e6c-9a47-2bf8db00a3e3",
@@ -130,7 +121,7 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
-      "position": 7
+      "position": 6
     },
     {
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
@@ -139,43 +130,34 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a75415bd-5a81-55ec-a121-7858e0fc7740",
+      "name": "hotdog",
+      "normalized_name": "hotdog",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "cut in half lengthwise",
       "position": 8
     },
     {
-      "ingredient_id": "80005a74-4d79-5252-9d8b-13d2c2a1734d",
-      "name": "hotdogs (cut in half lengthwise)",
-      "normalized_name": "hotdogs",
-      "quantity": "4",
+      "ingredient_id": "7f20a1c7-5bff-5fc3-a663-ce4e64a2b64a",
+      "name": "hard boiled egg",
+      "normalized_name": "hard boiled egg",
+      "quantity": "3",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 9
     },
     {
-      "ingredient_id": "7ffa75c1-bef4-5a4b-a177-adace994f36e",
-      "name": "pickled dill or sweet pickled cucumber (cut lengthwise divided into 4 equal pieces)",
-      "normalized_name": "pickled dill or sweet pickled cucumber",
-      "quantity": "2",
-      "unit": "pieces",
-      "preparation": null,
-      "position": 10
-    },
-    {
-      "ingredient_id": "275314b6-ee0f-53c3-9b55-f304642c2102",
-      "name": "hard boiled eggs (sliced)",
-      "normalized_name": "hard boiled eggs",
-      "quantity": "3",
-      "unit": "pieces",
-      "preparation": null,
-      "position": 11
-    },
-    {
       "ingredient_id": "65e874a3-0c6e-5d24-a019-ceb2f2f4c3cc",
-      "name": "cheddar cheese (cut in strips (about 1/2 inch thick))",
+      "name": "cheddar cheese",
       "normalized_name": "cheddar cheese",
       "quantity": "3",
       "unit": "ounces",
-      "preparation": null,
-      "position": 12
+      "preparation": "cut in strips",
+      "position": 10
     }
   ],
   "categories": [

@@ -86,16 +86,16 @@
   "ingredients": [
     {
       "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
-      "name": "pork shoulder (sliced)",
+      "name": "pork shoulder",
       "normalized_name": "pork shoulder",
       "quantity": "6",
       "unit": "ounces",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 1
     },
     {
       "ingredient_id": "5017cd7b-454f-5d6a-b9da-6fab939fe9b7",
-      "name": "Knorr Shrimp Cube",
+      "name": "knorr shrimp cube",
       "normalized_name": "knorr shrimp cube",
       "quantity": "1",
       "unit": null,
@@ -104,7 +104,7 @@
     },
     {
       "ingredient_id": "a71522e7-d8c1-5c1b-8b18-276ab451f387",
-      "name": "vermicelli ((note))",
+      "name": "vermicelli",
       "normalized_name": "vermicelli",
       "quantity": "300",
       "unit": "grams",
@@ -112,9 +112,9 @@
       "position": 3
     },
     {
-      "ingredient_id": "fe3d65f2-a01d-5cd3-a6a3-c444d2742eb4",
-      "name": "head cabbage ((note))",
-      "normalized_name": "head cabbage",
+      "ingredient_id": "8853f9f1-7269-5963-8a20-9b1255d8fdfe",
+      "name": "cabbage",
+      "normalized_name": "cabbage",
       "quantity": "1/2",
       "unit": null,
       "preparation": null,
@@ -122,7 +122,7 @@
     },
     {
       "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
-      "name": "carrot ((note))",
+      "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
       "unit": null,
@@ -131,7 +131,7 @@
     },
     {
       "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
-      "name": "red bell pepper ((note))",
+      "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
       "unit": null,
@@ -139,18 +139,18 @@
       "position": 6
     },
     {
-      "ingredient_id": "db7f0f33-399f-5575-ab80-c8f22d9455ea",
-      "name": "bunch green onion ((note))",
-      "normalized_name": "bunch green onion",
+      "ingredient_id": "2bb7f8e7-f9f2-52d8-a55e-5a50a04b3eed",
+      "name": "green onion",
+      "normalized_name": "green onion",
       "quantity": "1",
       "unit": null,
       "preparation": null,
       "position": 7
     },
     {
-      "ingredient_id": "d778c04c-5fe2-5be8-a24b-4b8ac6b628a5",
-      "name": "snow peas",
-      "normalized_name": "snow peas",
+      "ingredient_id": "edae48b2-3eff-52ec-97d4-634553b336c1",
+      "name": "snow pea",
+      "normalized_name": "snow pea",
       "quantity": "3",
       "unit": "ounces",
       "preparation": null,
@@ -158,20 +158,20 @@
     },
     {
       "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
-      "name": "onion (chopped)",
+      "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
       "unit": null,
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
-      "name": "garlic (crushed)",
+      "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "8",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 10
     },
     {
@@ -211,13 +211,22 @@
       "position": 14
     },
     {
-      "ingredient_id": "c347e72a-8d22-5304-9550-447f2d4f95f6",
-      "name": "Fish sauce and ground black pepper to taste",
-      "normalized_name": "fish sauce and ground black pepper to taste",
+      "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
+      "name": "fish sauce",
+      "normalized_name": "fish sauce",
       "quantity": null,
       "unit": null,
       "preparation": null,
       "position": 15
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 16
     }
   ],
   "categories": [

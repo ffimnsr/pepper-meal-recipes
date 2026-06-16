@@ -63,20 +63,20 @@
   "ingredients": [
     {
       "ingredient_id": "a6668890-561f-511c-8418-8e2796284465",
-      "name": "pork (cubed)",
+      "name": "pork",
       "normalized_name": "pork",
       "quantity": "1",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "cubed",
       "position": 1
     },
     {
       "ingredient_id": "82b8f36f-5c7c-527e-88f7-e6033d9e99e1",
-      "name": "tofu (cubed and deep fried)",
+      "name": "tofu",
       "normalized_name": "tofu",
       "quantity": "14",
       "unit": "ounces",
-      "preparation": null,
+      "preparation": "cubed and deep fried",
       "position": 2
     },
     {
@@ -89,9 +89,9 @@
       "position": 3
     },
     {
-      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
-      "name": "dried bay leaves",
-      "normalized_name": "dried bay leaves",
+      "ingredient_id": "c6f41004-9471-56a4-b6ab-f3572dc95e32",
+      "name": "dried bay leaf",
+      "normalized_name": "dried bay leaf",
       "quantity": "4",
       "unit": "pieces",
       "preparation": null,
@@ -99,11 +99,11 @@
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
-      "name": "garlic (crushed)",
+      "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "5",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 5
     },
     {
@@ -152,13 +152,22 @@
       "position": 10
     },
     {
-      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
-      "name": "Salt and pepper to taste",
-      "normalized_name": "salt and pepper to taste",
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
       "quantity": null,
       "unit": null,
       "preparation": null,
       "position": 11
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 12
     }
   ],
   "categories": [

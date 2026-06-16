@@ -48,6 +48,15 @@ To publish a new catalog revision with a new manifest sequence:
 python3 scripts/generate_catalog.py --bump-sequence
 ```
 
+To rewrite ingredient ids across recipe payloads:
+
+```bash
+./scripts/recipe-editor.py merge <id_1> <id_2> [<id_n>...]
+./scripts/recipe-editor.py rename <id> <ingredient_name>
+```
+
+Run `python3 scripts/generate_catalog.py` after editing recipes so the indexes and review queue are rebuilt from the updated payloads.
+
 The generator will:
 
 1. Assign stable UUIDv5 identifiers from recipe and taxonomy keys.

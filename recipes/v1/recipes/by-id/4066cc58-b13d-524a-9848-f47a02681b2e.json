@@ -63,9 +63,9 @@
   "equipment": [],
   "ingredients": [
     {
-      "ingredient_id": "9fdccbd7-93ca-5bbd-bbcc-892c264f60ac",
-      "name": "spaghetti noodles (cooked according to package instructions)",
-      "normalized_name": "spaghetti noodles",
+      "ingredient_id": "dc0dd4c1-70ac-5db7-9020-05db5b47ad7c",
+      "name": "spaghetti noodle",
+      "normalized_name": "spaghetti noodle",
       "quantity": "1",
       "unit": "lb",
       "preparation": null,
@@ -73,11 +73,11 @@
     },
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
-      "name": "chicken (cleaned)",
+      "name": "chicken",
       "normalized_name": "chicken",
       "quantity": "1",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "cleaned",
       "position": 2
     },
     {
@@ -90,30 +90,30 @@
       "position": 3
     },
     {
-      "ingredient_id": "95521cf2-b4b6-5516-9702-6c921ab9e195",
-      "name": "diced tomatoes",
-      "normalized_name": "diced tomatoes",
+      "ingredient_id": "30e689d9-f00c-5b96-8fdd-bc2fea5143de",
+      "name": "diced tomato",
+      "normalized_name": "diced tomato",
       "quantity": "4",
       "unit": "ounces",
       "preparation": null,
       "position": 4
     },
     {
-      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
-      "name": "medium onion (minced)",
-      "normalized_name": "medium onion",
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
       "quantity": "1",
       "unit": null,
-      "preparation": null,
+      "preparation": "minced",
       "position": 5
     },
     {
-      "ingredient_id": "82c6f85d-d67d-53e8-8bf9-eacb7978629d",
-      "name": "fresh basil leaves (chopped)",
-      "normalized_name": "fresh basil leaves",
+      "ingredient_id": "a5621d42-4f0c-5495-9a13-0c42ffe6ae89",
+      "name": "basil leaf",
+      "normalized_name": "basil leaf",
       "quantity": "1 1/2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 6
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "ingredient_id": "46e61c24-33a7-5f57-aabf-570573269078",
-      "name": "shredded Monterey Jack cheese",
+      "name": "shredded monterey jack cheese",
       "normalized_name": "shredded monterey jack cheese",
       "quantity": "1",
       "unit": "cup",
@@ -180,13 +180,22 @@
       "position": 13
     },
     {
-      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
-      "name": "Salt and pepper to taste",
-      "normalized_name": "salt and pepper to taste",
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
       "quantity": null,
       "unit": null,
       "preparation": null,
       "position": 14
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 15
     }
   ],
   "categories": [

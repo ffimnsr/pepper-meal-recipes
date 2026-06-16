@@ -81,20 +81,20 @@
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
-      "name": "shrimp (peeled and deveined)",
+      "name": "shrimp",
       "normalized_name": "shrimp",
       "quantity": "1",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "peeled and deveined",
       "position": 1
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
-      "name": "garlic (minced)",
+      "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 2
     },
     {
@@ -108,39 +108,30 @@
     },
     {
       "ingredient_id": "1a48afdb-97d4-5309-a45e-790b3067b051",
-      "name": "green chili (sliced diagonally)",
+      "name": "green chili",
       "normalized_name": "green chili",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "sliced diagonally",
       "position": 4
     },
     {
       "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
-      "name": "red bell pepper (chopped)",
+      "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 5
     },
     {
-      "ingredient_id": "891d0b15-294f-5dc2-a05a-3e806f5045eb",
-      "name": "cooking oil or olive oil",
-      "normalized_name": "cooking oil or olive oil",
-      "quantity": "1/4",
-      "unit": "cup",
-      "preparation": null,
-      "position": 6
-    },
-    {
       "ingredient_id": "cd5fabb2-c7a0-5e52-b519-7c27a2cfd5f5",
-      "name": "medium-sized onion (quartered)",
+      "name": "medium-sized onion",
       "normalized_name": "medium-sized onion",
       "quantity": "1",
       "unit": null,
-      "preparation": null,
-      "position": 7
+      "preparation": "quartered",
+      "position": 6
     },
     {
       "ingredient_id": "1af9a1c9-cc99-520e-a5ed-3614673a1538",
@@ -149,7 +140,7 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 8
+      "position": 7
     },
     {
       "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
@@ -158,7 +149,7 @@
       "quantity": "1/4",
       "unit": "cup",
       "preparation": null,
-      "position": 9
+      "position": 8
     },
     {
       "ingredient_id": "7dbfa67c-e34d-58ac-abe0-b43451ca0de7",
@@ -167,12 +158,21 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
       "position": 10
     },
     {
-      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
-      "name": "Salt and pepper to taste",
-      "normalized_name": "salt and pepper to taste",
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
       "quantity": null,
       "unit": null,
       "preparation": null,

@@ -103,7 +103,7 @@
   "ingredients": [
     {
       "ingredient_id": "fb380d33-8526-589b-8eaa-28afde1754e3",
-      "name": "pata (pork hock)",
+      "name": "pata",
       "normalized_name": "pata",
       "quantity": "3",
       "unit": "lbs",
@@ -112,16 +112,16 @@
     },
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
-      "name": "shrimp (deveined)",
+      "name": "shrimp",
       "normalized_name": "shrimp",
       "quantity": "1",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "deveined",
       "position": 2
     },
     {
       "ingredient_id": "b8e28b76-7b2e-5d9c-baaa-78cc5b0a942e",
-      "name": "Knorr Pork Cube",
+      "name": "knorr pork cube",
       "normalized_name": "knorr pork cube",
       "quantity": "1",
       "unit": null,
@@ -138,9 +138,9 @@
       "position": 4
     },
     {
-      "ingredient_id": "ec18b683-802d-5026-bc0f-e2c54419621f",
-      "name": "fresh pepper leaves",
-      "normalized_name": "fresh pepper leaves",
+      "ingredient_id": "4eb49ebb-6add-562a-92bc-fe81bbab1b3f",
+      "name": "pepper leaf",
+      "normalized_name": "pepper leaf",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -148,17 +148,17 @@
     },
     {
       "ingredient_id": "8324877e-b219-5312-8c6a-e4c7526d8a3a",
-      "name": "unripe jackfruit (sliced)",
+      "name": "unripe jackfruit",
       "normalized_name": "unripe jackfruit",
       "quantity": "1 1/2",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 6
     },
     {
-      "ingredient_id": "b69b02b2-ef77-5dc4-8c80-4f09c7d47b63",
-      "name": "mung beans",
-      "normalized_name": "mung beans",
+      "ingredient_id": "3105a63b-36f5-5971-890d-5d6ee19a0a8a",
+      "name": "mung bean",
+      "normalized_name": "mung bean",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
@@ -174,49 +174,40 @@
       "position": 8
     },
     {
-      "ingredient_id": "1623da78-1a96-581d-9b81-712eff987bcb",
-      "name": "whole peppercorn",
-      "normalized_name": "whole peppercorn",
+      "ingredient_id": "3e08993c-fcad-5a50-acd0-69ecd2432114",
+      "name": "peppercorn",
+      "normalized_name": "peppercorn",
       "quantity": "1",
       "unit": "tablespoon",
       "preparation": null,
       "position": 9
     },
     {
-      "ingredient_id": "6c074392-e68f-5b1a-af73-5952167709be",
-      "name": "dried bay leaves",
-      "normalized_name": "dried bay leaves",
+      "ingredient_id": "c6f41004-9471-56a4-b6ab-f3572dc95e32",
+      "name": "dried bay leaf",
+      "normalized_name": "dried bay leaf",
       "quantity": "5",
       "unit": "pieces",
       "preparation": null,
       "position": 10
     },
     {
-      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
-      "name": "medium onion (chopped)",
-      "normalized_name": "medium onion",
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
       "quantity": "1",
       "unit": null,
-      "preparation": null,
+      "preparation": "chopped",
       "position": 11
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
-      "name": "garlic (chopped)",
+      "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "4",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 12
-    },
-    {
-      "ingredient_id": "7e5afea8-2723-54e9-90e7-bae312d2e471",
-      "name": "Thai chili pepper or siling labuyo",
-      "normalized_name": "thai chili pepper or siling labuyo",
-      "quantity": "4 to 6",
-      "unit": "pieces",
-      "preparation": null,
-      "position": 13
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
@@ -225,16 +216,16 @@
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 14
+      "position": 13
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water (for boiling pork)",
+      "name": "quarts water",
       "normalized_name": "quarts water",
       "quantity": "8",
       "unit": null,
       "preparation": null,
-      "position": 15
+      "position": 14
     },
     {
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
@@ -243,7 +234,7 @@
       "quantity": "4",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 16
+      "position": 15
     }
   ],
   "categories": [

@@ -1,0 +1,10 @@
+[project]
+name = "pepper-meal-recipes"
+
+[envs.dev]
+image = "python:3.14-bookworm"
+project_mount = "/workspace/pepper-meal-recipes"
+workdir = "/workspace/pepper-meal-recipes"
+preserve_env = ["SSH_AUTH_SOCK"]
+shell = ["/bin/bash"]
+startup_command = ["sleep", "infinity"]
