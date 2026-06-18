@@ -1,6 +1,7 @@
 ---
 
 import recipesIndex from '../../../../recipes/v1/indexes/recipes.index.json';
+const base = import.meta.env.BASE_URL;
 
 type RecipeIngredient = {
 	name: string;
@@ -94,7 +95,7 @@ const formattedDifficulty = recipe.difficulty ? recipe.difficulty.charAt(0).toUp
 	<body>
 		<main class="page-shell">
 			<div class="breadcrumb">
-				<a href="/">← Back to browse</a>
+				<a href={base}>← Back to browse</a>
 			</div>
 
 			<section class="focus-hero">

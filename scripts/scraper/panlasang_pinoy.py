@@ -11,7 +11,7 @@ import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -173,7 +173,7 @@ def slug_from_url(url: str) -> str:
     path = urlparse(url).path.strip("/")
     if not path:
         raise ValueError(f"cannot derive slug from URL: {url}")
-    return path.split("/")[-1]
+    return slugify(unquote(path.split("/")[-1]))
 
 
 def fetch_html(url: str) -> str:

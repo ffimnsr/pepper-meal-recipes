@@ -32,6 +32,7 @@ const toTitleCase = (value: string) =>
 		.split(/([\s_-]+)/)
 		.map((part) => (/[\s_-]+/.test(part) ? part : part.charAt(0).toUpperCase() + part.slice(1).toLowerCase()))
 		.join('');
+const base = import.meta.env.BASE_URL;
 
 ---
 
@@ -39,8 +40,8 @@ const toTitleCase = (value: string) =>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+		<link rel="icon" href={`${base}favicon.ico`} />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
 		<meta
@@ -117,7 +118,7 @@ const toTitleCase = (value: string) =>
 
 				<div class="grid featured-recipes">
 					{topRecipes.map((recipe) => (
-						<a class="mini-card recipe-link" href={`/recipes/${recipe.slug}/`} aria-label={`Open ${recipe.name}`}>
+						<a class="mini-card recipe-link" href={`${base}recipes/${recipe.slug}/`} aria-label={`Open ${recipe.name}`}>
 							<p class="mini-label">Featured</p>
 							<h3>{recipe.name}</h3>
 							<p>{recipe.brief_description}</p>
@@ -191,7 +192,7 @@ const toTitleCase = (value: string) =>
 						return (
 							<a
 								class="recipe-card"
-								href={`/recipes/${recipe.slug}/`}
+								href={`${base}recipes/${recipe.slug}/`}
 								aria-label={`Open ${recipe.name}`}
 								data-search={searchTerms}
 								data-categories={recipe.category_slugs.join(',')}
@@ -217,8 +218,8 @@ const toTitleCase = (value: string) =>
 		<footer class="site-footer">
 			<p>&copy; 2026 Pepper Meal Planner</p>
 			<nav aria-label="Legal links">
-				<a href="/privacy-policy/">Privacy Policy</a>
-				<a href="/terms-and-conditions/">Terms and Conditions</a>
+				<a href={`${base}privacy-policy/`}>Privacy Policy</a>
+				<a href={`${base}terms-and-conditions/`}>Terms and Conditions</a>
 			</nav>
 		</footer>
 
