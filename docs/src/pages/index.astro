@@ -214,6 +214,14 @@ const toTitleCase = (value: string) =>
 			</section>
 		</main>
 
+		<footer class="site-footer">
+			<p>&copy; 2026 Pepper Meal Planner</p>
+			<nav aria-label="Legal links">
+				<a href="/privacy-policy/">Privacy Policy</a>
+				<a href="/terms-and-conditions/">Terms and Conditions</a>
+			</nav>
+		</footer>
+
 		<script is:inline>
 			const searchInput = document.querySelector('#search');
 			const categoryFilter = document.querySelector('#category-filter');
@@ -299,6 +307,42 @@ const toTitleCase = (value: string) =>
 				max-width: 1320px;
 				margin: 0 auto;
 				padding: 3rem 1.25rem 4rem;
+			}
+
+			.site-footer {
+				max-width: 1320px;
+				margin: 3rem auto 0;
+				padding: 1.25rem 1.25rem 2rem;
+				display: flex;
+				justify-content: space-between;
+				gap: 1rem;
+				align-items: center;
+				flex-wrap: wrap;
+				border-top: 1px solid rgba(102, 64, 32, 0.12);
+				color: #6b5446;
+			}
+
+			.site-footer p {
+				margin: 0;
+				font-weight: 700;
+			}
+
+			.site-footer nav {
+				display: flex;
+				gap: 1rem;
+				flex-wrap: wrap;
+			}
+
+			.site-footer a {
+				color: inherit;
+				text-decoration: none;
+				font-weight: 650;
+			}
+
+			.site-footer a:hover,
+			.site-footer a:focus-visible {
+				text-decoration: underline;
+				outline: none;
 			}
 
 			.hero {
@@ -652,6 +696,10 @@ const toTitleCase = (value: string) =>
 				.shell {
 					padding-inline: 0.85rem;
 					padding-top: 1rem;
+				}
+
+				.site-footer {
+					padding-inline: 0.85rem;
 				}
 
 				.hero-copy,

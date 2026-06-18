@@ -1,0 +1,132 @@
+---
+const lastUpdated = 'June 18, 2026';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Privacy Policy | PMP Recipes</title>
+		<meta
+			name="description"
+			content="Privacy policy for PMP Recipes. This app does not collect personal data or track users."
+		/>
+	</head>
+	<body>
+		<main class="policy-shell">
+			<a class="back-link" href="/">← Back to home</a>
+			<h1>Privacy Policy</h1>
+			<p class="updated">Last updated: {lastUpdated}</p>
+
+			<section>
+				<h2>Summary</h2>
+				<p>
+					PMP Recipes is designed for iOS and other mobile devices. We do not collect, store,
+					share, or sell personal data from users.
+				</p>
+			</section>
+
+			<section>
+				<h2>Data collection</h2>
+				<p>
+					We do not require accounts, and we do not collect names, email addresses, device
+					identifiers, location data, browsing history, or recipe preferences.
+				</p>
+			</section>
+
+			<section>
+				<h2>Analytics and tracking</h2>
+				<p>
+					We do not use advertising SDKs, analytics SDKs, tracking pixels, or cross-app tracking.
+					The app does not follow users across apps or websites.
+				</p>
+			</section>
+
+			<section>
+				<h2>Local device use</h2>
+				<p>
+					If any app settings or browsing state are saved on your device, they are stored locally
+					to improve your experience and are not transmitted to us.
+				</p>
+			</section>
+
+			<section>
+				<h2>Children's privacy</h2>
+				<p>
+					Because we do not collect personal data, PMP Recipes does not knowingly collect
+					information from children or adults.
+				</p>
+			</section>
+
+			<section>
+				<h2>Contact</h2>
+				<p>
+					If you have questions about this policy, please contact the app publisher through the
+					appropriate support channel for the App Store listing.
+				</p>
+			</section>
+		</main>
+	</body>
+</html>
+
+<style>
+	:root {
+		color-scheme: light;
+		font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+		background: linear-gradient(180deg, #fffaf4 0%, #fff 100%);
+		color: #221813;
+	}
+
+	body {
+		margin: 0;
+		min-height: 100vh;
+	}
+
+	.policy-shell {
+		max-width: 760px;
+		margin: 0 auto;
+		padding: 2rem 1.25rem 3rem;
+		line-height: 1.7;
+	}
+
+	.back-link {
+		display: inline-block;
+		margin-bottom: 1rem;
+		color: #a4551d;
+		text-decoration: none;
+		font-weight: 700;
+	}
+
+	h1,
+	h2,
+	p {
+		margin-top: 0;
+	}
+
+	h1 {
+		font-size: clamp(2.25rem, 6vw, 3.5rem);
+		line-height: 1;
+		margin-bottom: 0.5rem;
+	}
+
+	.updated {
+		color: #6b5446;
+		font-weight: 600;
+		margin-bottom: 2rem;
+	}
+
+	section + section {
+		margin-top: 1.5rem;
+	}
+
+	h2 {
+		font-size: 1.15rem;
+		margin-bottom: 0.4rem;
+	}
+
+	p {
+		color: #4f4036;
+	}
+</style>
