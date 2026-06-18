@@ -1,0 +1,478 @@
+---
+
+import recipesIndex from '../../../../recipes/v1/indexes/recipes.index.json';
+
+type RecipeIngredient = {
+	name: string;
+	quantity?: string | null;
+	unit?: string | null;
+	preparation?: string | null;
+};
+
+type RecipeStep = {
+	position: number;
+	text: string;
+};
+
+type RecipeDetail = {
+	slug: string;
+	name: string;
+	brief_description?: string | null;
+	recipe_type?: string | null;
+	cuisine?: string | null;
+	difficulty?: string | null;
+	servings?: number | null;
+	cooking_time_minutes?: number | null;
+	preparation_time_minutes?: number | null;
+	rest_time_minutes?: number | null;
+	total_time_minutes?: number | null;
+	image_url?: string | null;
+	video_url?: string | null;
+	additional_media?: string[];
+	ingredients: RecipeIngredient[];
+	instructions: RecipeStep[];
+	categories: Array<{ slug: string; name: string }>;
+	tags: Array<{ slug: string; name: string }>;
+	related_recipe_ids: string[];
+	recipe_notes: string[];
+	storage_notes: string[];
+	equipment?: string[];
+	source?: { name: string; url: string };
+	updated_at?: number;
+	revision?: number;
+	public?: boolean;
+};
+
+export function getStaticPaths() {
+	const recipeModules = import.meta.glob<{ default: RecipeDetail }>(
+		'../../../../recipes/v1/recipes/by-id/*.json',
+		{
+			eager: true,
+		},
+	);
+
+	const recipesBySlug = new Map(
+		Object.values(recipeModules).map((module) => [module.default.slug, module.default] as const),
+	);
+
+	return recipesIndex.recipes
+		.map((recipe) => {
+			const detail = recipesBySlug.get(recipe.slug);
+
+			if (!detail) {
+				return null;
+			}
+
+			return {
+				params: { slug: recipe.slug },
+				props: { recipe: detail },
+			};
+		})
+		.filter((entry): entry is { params: { slug: string }; props: { recipe: RecipeDetail } } => entry !== null);
+}
+
+const { recipe } = Astro.props as { recipe: RecipeDetail };
+const totalTime = recipe.total_time_minutes ?? recipe.cooking_time_minutes ?? recipe.preparation_time_minutes ?? 0;
+const ingredientCount = recipe.ingredients.length;
+const stepCount = recipe.instructions.length;
+const formattedUpdatedAt = recipe.updated_at ? new Date(recipe.updated_at * 1000).toLocaleDateString() : 'Unknown';
+const relatedRecipes = recipesIndex.recipes.filter((entry) => recipe.related_recipe_ids.includes(entry.id)).slice(0, 6);
+const galleryImage = recipe.image_url ?? null;
+const formattedDifficulty = recipe.difficulty ? recipe.difficulty.charAt(0).toUpperCase() + recipe.difficulty.slice(1) : 'Unspecified';
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={recipe.brief_description ?? recipe.name} />
+		<title>{recipe.name} · PMP Recipes</title>
+	</head>
+	<body>
+		<main class="page-shell">
+			<div class="breadcrumb">
+				<a href="/">← Back to browse</a>
+			</div>
+
+			<section class="focus-hero">
+				<div class="focus-copy">
+					<p class="eyebrow">Focused recipe</p>
+					<h1>{recipe.name}</h1>
+					<p class="summary">{recipe.brief_description ?? 'No description available.'}</p>
+
+					<div class="meta-grid">
+						<div>
+							<span>Difficulty</span>
+							<strong>{formattedDifficulty}</strong>
+						</div>
+						<div>
+							<span>Time</span>
+							<strong>{totalTime} min</strong>
+						</div>
+						<div>
+							<span>Servings</span>
+							<strong>{recipe.servings ?? '—'}</strong>
+						</div>
+						<div>
+							<span>Ingredients</span>
+							<strong>{ingredientCount}</strong>
+						</div>
+						<div>
+							<span>Steps</span>
+							<strong>{stepCount}</strong>
+						</div>
+					</div>
+				</div>
+
+				<div class="focus-art">
+					{galleryImage ? (
+						<img src={galleryImage} alt={recipe.name} loading="eager" />
+					) : (
+						<div class="image-fallback">
+							<p>No image available</p>
+						</div>
+					)}
+					<div class="art-foot">
+						<span>{recipe.cuisine ?? 'Cuisine not specified'}</span>
+						<span>Updated {formattedUpdatedAt}</span>
+					</div>
+				</div>
+		</section>
+
+		<section class="content-grid">
+			<section class="panel">
+				<div class="panel-heading">
+					<h2>Ingredients</h2>
+					<p>Measured from the catalog payload.</p>
+				</div>
+				<ul class="ingredient-list">
+					{recipe.ingredients.map((ingredient) => (
+						<li>
+							<strong>
+								{ingredient.quantity ? `${ingredient.quantity} ` : ''}
+								{ingredient.unit ? `${ingredient.unit} ` : ''}
+								{ingredient.name}
+							</strong>
+							{ingredient.preparation ? <span>{ingredient.preparation}</span> : null}
+						</li>
+					))}
+				</ul>
+			</section>
+
+			<section class="panel">
+				<div class="panel-heading">
+					<h2>Instructions</h2>
+					<p>{stepCount} cooking steps</p>
+				</div>
+				<ol class="steps">
+					{recipe.instructions
+						.slice()
+						.sort((a, b) => a.position - b.position)
+						.map((step) => <li>{step.text}</li>)}
+				</ol>
+			</section>
+
+			<section class="panel compact">
+				<div class="panel-heading">
+					<h2>Catalog details</h2>
+					<p>Useful for browsing and sync.</p>
+				</div>
+				<div class="detail-pills">
+					<span>{recipe.categories.map((category) => category.name).join(', ') || 'No categories'}</span>
+					<span>{recipe.tags.map((tag) => tag.name).join(', ') || 'No tags'}</span>
+					<span>{recipe.public ? 'Public recipe' : 'Private recipe'}</span>
+					<span>Revision {recipe.revision ?? '—'}</span>
+				</div>
+
+				{recipe.recipe_notes.length ? (
+					<>
+						<h3>Recipe notes</h3>
+						<ul class="note-list">
+							{recipe.recipe_notes.map((note) => <li>{note}</li>)}
+						</ul>
+					</>
+				) : null}
+
+				{recipe.storage_notes.length ? (
+					<>
+						<h3>Storage notes</h3>
+						<ul class="note-list">
+							{recipe.storage_notes.map((note) => <li>{note}</li>)}
+						</ul>
+					</>
+				) : null}
+			</section>
+		</section>
+
+		{relatedRecipes.length ? (
+			<section class="related-section">
+				<div class="panel-heading">
+					<h2>Related recipes</h2>
+					<p>Recipes linked from this item.</p>
+				</div>
+				<div class="related-grid">
+					{relatedRecipes.map((item) => (
+						<a class="related-card" href={`/recipes/${item.slug}/`}>
+							<h3>{item.name}</h3>
+							<p>{item.brief_description ?? 'Open recipe details'}</p>
+						</a>
+					))}
+				</div>
+			</section>
+		) : null}
+		</main>
+
+		<style>
+			:root {
+				color-scheme: light;
+				font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+				background: linear-gradient(180deg, #fffaf4 0%, #fff 100%);
+				color: #221813;
+			}
+
+			body {
+				margin: 0;
+			}
+
+			.page-shell {
+				max-width: 1180px;
+				margin: 0 auto;
+				padding: 2rem 1.25rem 4rem;
+			}
+
+			.breadcrumb a {
+				color: #7f4b24;
+				font-weight: 700;
+				text-decoration: none;
+			}
+
+			.focus-hero,
+			.panel,
+			.related-card {
+				background: rgba(255, 255, 255, 0.9);
+				border: 1px solid rgba(102, 64, 32, 0.12);
+				box-shadow: 0 18px 50px rgba(58, 28, 12, 0.08);
+				border-radius: 1.75rem;
+			}
+
+			.focus-hero {
+				display: grid;
+				grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+				gap: 1.25rem;
+				padding: 1.25rem;
+				margin-top: 1rem;
+			}
+
+			.focus-copy,
+			.focus-art,
+			.panel {
+				padding: 1.25rem;
+			}
+
+			h1,
+			h2,
+			h3,
+			p,
+			ul,
+			ol {
+				margin-top: 0;
+			}
+
+			.eyebrow {
+				margin: 0 0 0.75rem;
+				text-transform: uppercase;
+				letter-spacing: 0.18em;
+				font-size: 0.78rem;
+				color: #a4551d;
+				font-weight: 700;
+			}
+
+			h1 {
+				font-size: clamp(2.5rem, 6vw, 4.75rem);
+				line-height: 0.96;
+				margin-bottom: 0.9rem;
+			}
+
+			.summary {
+				font-size: 1.06rem;
+				line-height: 1.7;
+				color: #5d4638;
+				max-width: 62ch;
+			}
+
+			.meta-grid {
+				display: grid;
+				grid-template-columns: repeat(3, minmax(0, 1fr));
+				gap: 0.75rem;
+				margin-top: 1.5rem;
+			}
+
+			.meta-grid div,
+			.detail-pills span {
+				background: #fff7f0;
+				border-radius: 1rem;
+				padding: 0.85rem 1rem;
+			}
+
+			.meta-grid span,
+			.panel-heading p,
+			.source,
+			.note-list,
+			.steps,
+			.ingredient-list {
+				color: #6d5547;
+			}
+
+			.meta-grid span {
+				display: block;
+				font-size: 0.8rem;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				font-weight: 800;
+				margin-bottom: 0.35rem;
+			}
+
+			.focus-art {
+				display: grid;
+				gap: 0.75rem;
+			}
+
+			.focus-art img,
+			.image-fallback {
+				width: 100%;
+				aspect-ratio: 4 / 3;
+				object-fit: cover;
+				border-radius: 1.4rem;
+				background: #f4e6d8;
+			}
+
+			.focus-art img {
+				display: block;
+			}
+
+			.image-fallback {
+				display: grid;
+				place-items: center;
+				font-weight: 700;
+				color: #865335;
+			}
+
+			.art-foot {
+				display: flex;
+				justify-content: space-between;
+				gap: 1rem;
+				flex-wrap: wrap;
+				font-size: 0.92rem;
+				color: #6d5547;
+			}
+
+			.content-grid {
+				display: grid;
+				grid-template-columns: 1.05fr 1.2fr 0.85fr;
+				gap: 1rem;
+				margin-top: 1rem;
+			}
+
+			.panel-heading {
+				margin-bottom: 1rem;
+			}
+
+			.panel-heading h2 {
+				margin-bottom: 0.25rem;
+			}
+
+			.ingredient-list,
+			.steps,
+			.note-list {
+				padding-left: 1.2rem;
+			}
+
+			.ingredient-list li,
+			.steps li,
+			.note-list li {
+				margin-bottom: 0.85rem;
+				line-height: 1.6;
+			}
+
+			.ingredient-list strong {
+				display: block;
+				color: #241811;
+			}
+
+			.detail-pills {
+				display: grid;
+				gap: 0.6rem;
+				margin-bottom: 1rem;
+			}
+
+			.detail-pills span,
+			.ingredient-list li,
+			.steps li,
+			.note-list li,
+			.source,
+			.panel-heading p {
+				color: #5f4a3d;
+			}
+
+			.compact h3 {
+				margin: 1rem 0 0.5rem;
+			}
+
+			.detail-pills span {
+				font-weight: 700;
+			}
+
+			.related-section {
+				margin-top: 1rem;
+			}
+
+			.related-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+				gap: 0.85rem;
+			}
+
+			.related-card {
+				padding: 1rem;
+				text-decoration: none;
+				color: inherit;
+				transition: transform 140ms ease, box-shadow 140ms ease;
+			}
+
+			.related-card:hover,
+			.related-card:focus-visible {
+				transform: translateY(-2px);
+				box-shadow: 0 22px 56px rgba(58, 28, 12, 0.12);
+				outline: none;
+			}
+
+			@media (max-width: 980px) {
+				.focus-hero,
+				.content-grid {
+					grid-template-columns: 1fr;
+				}
+
+				.meta-grid {
+					grid-template-columns: repeat(2, minmax(0, 1fr));
+				}
+			}
+
+			@media (max-width: 720px) {
+				.page-shell {
+					padding-inline: 0.85rem;
+				}
+
+				.meta-grid {
+					grid-template-columns: 1fr;
+				}
+
+				h1 {
+					font-size: clamp(2.2rem, 11vw, 3.4rem);
+				}
+			}
+		</style>
+	</body>
+</html>
