@@ -7,7 +7,7 @@ const repoRoot = fileURLToPath(new URL('..', import.meta.url));
 const isProduction = process.env.NODE_ENV === 'production';
 
 export default defineConfig({
-	base: isProduction ? '/pepper-meal-recipes/' : '/',
+	base: '/',
 	vite: {
 		server: {
 			fs: {
