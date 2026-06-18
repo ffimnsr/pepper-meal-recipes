@@ -230,7 +230,6 @@ const toTitleCase = (value: string) =>
 			const resetButton = document.querySelector('#reset-filters');
 			const resultSummary = document.querySelector('#result-summary');
 			const cards = Array.from(document.querySelectorAll('.recipe-card'));
-
 			const normalize = (value) => String(value ?? '').trim().toLowerCase();
 
 			const refresh = () => {
@@ -615,15 +614,18 @@ const toTitleCase = (value: string) =>
 			}
 
 			.recipe-grid {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-				gap: 1rem;
+				column-width: 20rem;
+				column-gap: 1rem;
 			}
 
 			.recipe-card {
-				display: grid;
+				display: block;
 				gap: 0.8rem;
-				align-content: start;
+				margin: 0 0 1rem;
+				break-inside: avoid;
+				-webkit-column-break-inside: avoid;
+				page-break-inside: avoid;
+				overflow: hidden;
 				text-decoration: none;
 				color: inherit;
 				transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
@@ -641,6 +643,7 @@ const toTitleCase = (value: string) =>
 
 			.recipe-card h3,
 			.mini-card h3 {
+				margin-top: 0;
 				margin-bottom: 0.25rem;
 			}
 
@@ -696,6 +699,10 @@ const toTitleCase = (value: string) =>
 				.shell {
 					padding-inline: 0.85rem;
 					padding-top: 1rem;
+				}
+
+				.recipe-grid {
+					columns: 1;
 				}
 
 				.site-footer {
