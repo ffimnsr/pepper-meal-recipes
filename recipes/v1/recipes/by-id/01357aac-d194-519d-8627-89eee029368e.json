@@ -5,32 +5,32 @@
   "slug": "turon",
   "name": "Turon (Banana Lumpia with Caramel)",
   "recipe_type": "dessert",
-  "brief_description": "Deep fried banana and ripe jackfruit lumpia. This is a popular Filipino street food.",
-  "cuisine": "Fiipino",
+  "brief_description": "Deep-fried banana and ripe jackfruit lumpia with caramelized sugar coating. This popular Filipino street food features sweet plantains wrapped in crispy spring roll wrappers.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Roll the banana on the sugar plate and ensure that the banana is coated with enough sugar"
+      "text": "Roll each banana half on a plate with sugar, ensuring the banana is evenly coated."
     },
     {
       "position": 2,
-      "text": "Place the banana with sugar coating on the lumpia wrapper. Add a slice of ripe jackfruit on top."
+      "text": "Place a sugar-coated banana half on a lumpia wrapper. Add a slice of ripe jackfruit on top."
     },
     {
       "position": 3,
-      "text": "Fold and lock the spring roll wrapper, use water to seal the edge"
+      "text": "Fold and roll the wrapper tightly around the banana and jackfruit, using water to seal the edge."
     },
     {
       "position": 4,
-      "text": "In a pan, heat the oil and put-in some sugar.Wait until the brown sugar floats"
+      "text": "In a pan, heat the oil over medium heat. Add 1/2 cup sugar and wait until it dissolves and turns light brown."
     },
     {
       "position": 5,
-      "text": "Put-in the wrapped banana and fry until the wrapper turns golden brown and the extra sugar sticks on wrapper"
+      "text": "Carefully add the wrapped bananas and fry until the wrapper turns golden brown and crispy, with caramelized sugar coating the exterior."
     },
     {
       "position": 6,
-      "text": "Serve hot as a dessert or snack. Share and Enjoy!"
+      "text": "Remove from oil and drain on a wire rack or paper towels. Serve warm as a dessert or snack."
     }
   ],
   "servings": 6,
@@ -43,7 +43,7 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g",
+    "servingSize": "1 piece",
     "calories": "292 kcal",
     "carbohydrateContent": "58 g",
     "proteinContent": "1 g",
@@ -54,22 +54,32 @@
     "fiberContent": "1 g",
     "sugarContent": "55 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "gluten",
+    "wheat"
+  ],
+  "equipment": [
+    "deep frying pan",
+    "tongs",
+    "wire rack",
+    "plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
-      "name": "banana",
-      "normalized_name": "banana",
+      "name": "saba banana",
+      "normalized_name": "saba banana",
       "quantity": "6",
       "unit": "pieces",
-      "preparation": "cut in half",
+      "preparation": "peeled and halved lengthwise",
       "position": 1
     },
     {
       "ingredient_id": "e00073cd-00af-5eb6-8e61-25f6aa98660e",
-      "name": "jackfruit",
+      "name": "ripe jackfruit",
       "normalized_name": "jackfruit",
       "quantity": "1",
       "unit": "cup",
@@ -78,7 +88,7 @@
     },
     {
       "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
-      "name": "sugar",
+      "name": "brown sugar",
       "normalized_name": "sugar",
       "quantity": "1 1/2",
       "unit": "cup",
@@ -131,8 +141,16 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Best served warm for maximum crispiness.",
+    "Use saba bananas or ripe plantains for authentic flavor.",
+    "The caramel coating creates a crunchy, candy-like exterior."
+  ],
+  "storage_notes": [
+    "Store in an airtight container at room temperature for up to 1 day.",
+    "Reheat in an air fryer or oven at 350\u00b0F for 5 minutes to restore crispiness.",
+    "Not recommended for freezing."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/turon/"

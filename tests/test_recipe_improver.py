@@ -68,6 +68,17 @@ class RecipeImproverTests(TestCase):
         self.assertEqual(payload["plugins"], [{"id": "response-healing"}])
         self.assertIn("categories and tags must remain arrays of objects", payload["messages"][0]["content"])
 
+    def test_build_payload_includes_repair_feedback(self) -> None:
+        payload = recipe_improver.build_payload(
+            {"name": "Test"},
+            "test/model",
+            repair_feedback="'main_course' is not one of ['main']",
+        )
+
+        self.assertIn("failed schema validation", payload["messages"][0]["content"])
+        self.assertIn("Validation error", payload["messages"][1]["content"])
+        self.assertIn("main_course", payload["messages"][1]["content"])
+
     def test_normalize_improved_recipe_restores_invalid_tags(self) -> None:
         original = {
             "id": "orig-id",
@@ -98,6 +109,92 @@ class RecipeImproverTests(TestCase):
         self.assertEqual(normalized["categories"], [{"id": "c2", "slug": "dip", "name": "Dip"}])
         self.assertEqual(normalized["tags"], [{"id": "t1", "slug": "spicy", "name": "Spicy"}])
         self.assertTrue(any("restored tags" in repair for repair in repairs))
+
+    def test_normalize_improved_recipe_fills_missing_ingredient_unit_and_preparation(self) -> None:
+        original = {
+            "id": "orig-id",
+            "slug": "orig-slug",
+            "schema_version": 1,
+            "updated_at": 1,
+            "revision": 1,
+            "categories": [],
+            "tags": [],
+            "ingredients": [],
+        }
+        improved = {
+            "id": "orig-id",
+            "slug": "orig-slug",
+            "schema_version": 1,
+            "updated_at": 1,
+            "revision": 1,
+            "categories": [],
+            "tags": [],
+            "ingredients": [
+                {
+                    "ingredient_id": "11111111-1111-5111-8111-111111111111",
+                    "name": "garlic, minced",
+                    "normalized_name": "garlic",
+                    "quantity": "3",
+                    "unit": "",
+                    "preparation": None,
+                    "position": 1,
+                },
+                {
+                    "ingredient_id": "22222222-2222-5222-8222-222222222222",
+                    "name": "bay leaf",
+                    "normalized_name": "bay leaf",
+                    "quantity": "2",
+                    "unit": None,
+                    "preparation": None,
+                    "position": 2,
+                },
+            ],
+        }
+
+        normalized, repairs = recipe_improver.normalize_improved_recipe(original, improved)
+
+        self.assertEqual(normalized["ingredients"][0]["unit"], "cloves")
+        self.assertEqual(normalized["ingredients"][0]["preparation"], "minced")
+        self.assertEqual(normalized["ingredients"][1]["unit"], "pieces")
+        self.assertTrue(any("filled unit" in repair for repair in repairs))
+        self.assertTrue(any("filled preparation" in repair for repair in repairs))
+
+    def test_normalize_improved_recipe_leaves_preparation_null_when_not_evident(self) -> None:
+        original = {
+            "id": "orig-id",
+            "slug": "orig-slug",
+            "schema_version": 1,
+            "updated_at": 1,
+            "revision": 1,
+            "categories": [],
+            "tags": [],
+            "ingredients": [],
+        }
+        improved = {
+            "id": "orig-id",
+            "slug": "orig-slug",
+            "schema_version": 1,
+            "updated_at": 1,
+            "revision": 1,
+            "categories": [],
+            "tags": [],
+            "ingredients": [
+                {
+                    "ingredient_id": "33333333-3333-5333-8333-333333333333",
+                    "name": "water spinach",
+                    "normalized_name": "water spinach",
+                    "quantity": "1",
+                    "unit": "",
+                    "preparation": None,
+                    "position": 1,
+                }
+            ],
+        }
+
+        normalized, _ = recipe_improver.normalize_improved_recipe(original, improved)
+
+        self.assertEqual(normalized["ingredients"][0]["unit"], "piece")
+        self.assertIsNone(normalized["ingredients"][0]["preparation"])
 
     def test_validate_recipe_with_manual_fix_revalidates_after_edit(self) -> None:
         original = {
@@ -130,6 +227,88 @@ class RecipeImproverTests(TestCase):
             result = recipe_improver.validate_recipe_with_manual_fix(original, invalid, validator=object())
 
         self.assertEqual(result["tags"][0]["slug"], "spicy")
+
+    def test_validate_recipe_with_manual_fix_retries_model_before_vim(self) -> None:
+        original = {
+            "id": "orig-id",
+            "slug": "orig-slug",
+            "schema_version": 1,
+            "updated_at": 1,
+            "revision": 1,
+            "categories": [],
+            "tags": [],
+            "recipe_type": "main",
+        }
+        invalid = dict(original, recipe_type="main_course")
+        repaired = dict(original, recipe_type="main")
+
+        validation_error = recipe_improver.ValidationError("'main_course' is not one of ['main']")
+        args = mock.Mock()
+
+        with mock.patch.object(
+            recipe_improver,
+            "validate_recipe",
+            side_effect=[validation_error, None],
+        ), mock.patch.object(
+            recipe_improver,
+            "re_improve_recipe_with_validation_feedback",
+            return_value=(repaired, "fixed recipe_type"),
+        ) as retry_model, mock.patch.object(
+            recipe_improver,
+            "prompt_yes_no",
+            side_effect=AssertionError("vim prompt should not happen on first validation failure"),
+        ), mock.patch.object(
+            recipe_improver,
+            "edit_recipe_in_vim",
+            side_effect=AssertionError("vim should not open when the retry succeeds"),
+        ):
+            result = recipe_improver.validate_recipe_with_manual_fix(original, invalid, validator=object(), args=args)
+
+        self.assertEqual(result["recipe_type"], "main")
+        retry_model.assert_called_once_with(original, invalid, validation_error, args)
+
+    def test_validate_recipe_with_manual_fix_uses_vim_after_failed_model_retry(self) -> None:
+        original = {
+            "id": "orig-id",
+            "slug": "orig-slug",
+            "schema_version": 1,
+            "updated_at": 1,
+            "revision": 1,
+            "categories": [],
+            "tags": [],
+            "recipe_type": "main",
+        }
+        invalid = dict(original, recipe_type="main_course")
+        retried_invalid = dict(original, recipe_type="main_course")
+        edited = dict(original, recipe_type="main")
+
+        first_error = recipe_improver.ValidationError("'main_course' is not one of ['main']")
+        second_error = recipe_improver.ValidationError("'main_course' is not one of ['main']")
+        args = mock.Mock()
+
+        with mock.patch.object(
+            recipe_improver,
+            "validate_recipe",
+            side_effect=[first_error, second_error, None],
+        ), mock.patch.object(
+            recipe_improver,
+            "re_improve_recipe_with_validation_feedback",
+            return_value=(retried_invalid, "retry did not fix it"),
+        ) as retry_model, mock.patch.object(
+            recipe_improver,
+            "prompt_yes_no",
+            return_value=True,
+        ) as prompt, mock.patch.object(
+            recipe_improver,
+            "edit_recipe_in_vim",
+            return_value=edited,
+        ) as edit_recipe:
+            result = recipe_improver.validate_recipe_with_manual_fix(original, invalid, validator=object(), args=args)
+
+        self.assertEqual(result["recipe_type"], "main")
+        retry_model.assert_called_once_with(original, invalid, first_error, args)
+        prompt.assert_called_once()
+        edit_recipe.assert_called_once_with(retried_invalid)
 
     def test_call_openrouter_parses_recipe_response(self) -> None:
         class Response:
@@ -188,6 +367,38 @@ class RecipeImproverTests(TestCase):
         self.assertEqual(
             post.call_args.kwargs["headers"]["X-OpenRouter-Metadata"],
             "enabled",
+        )
+
+    def test_call_openrouter_passes_repair_feedback_into_payload(self) -> None:
+        class Response:
+            headers = {}
+
+            def raise_for_status(self) -> None:
+                return None
+
+            def json(self) -> dict:
+                return {
+                    "choices": [
+                        {
+                            "message": {
+                                "content": "{\"recipe\": {\"name\": \"Improved\"}, \"summary\": \"ok\"}",
+                            }
+                        }
+                    ]
+                }
+
+        with mock.patch.dict(os.environ, {"OPENROUTER_API_KEY": "test-key"}, clear=False), mock.patch(
+            "requests.post", return_value=Response()
+        ) as post:
+            recipe_improver.call_openrouter(
+                {"name": "Test"},
+                mock.Mock(api_key=None, model="test/model", site_url=None, app_name=None, timeout=5),
+                repair_feedback="recipe_type must be one of ['main']",
+            )
+
+        self.assertIn(
+            "recipe_type must be one of ['main']",
+            post.call_args.kwargs["json"]["messages"][1]["content"],
         )
 
     def test_run_recipe_yes_flag_skips_overwrite_prompt(self) -> None:

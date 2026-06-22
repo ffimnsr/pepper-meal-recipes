@@ -4,13 +4,13 @@
   "id": "016189f4-794b-50c2-9e60-4b3bd003a9fd",
   "slug": "tuna-sushi-roll",
   "name": "Tuna Sushi Roll",
-  "recipe_type": null,
-  "brief_description": "Tuna Sushi Roll is a type of Sushi made from shari (cooked rice with vinegar) and raw tuna. This is also known as Tekkamaki.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Fresh tuna and cucumber rolled in vinegared sushi rice and nori, topped with spicy dynamite sauce and crispy panko breadcrumbs. This inside-out roll features a creamy, spicy finish with a satisfying crunch.",
+  "cuisine": "Japanese",
   "instructions": [
     {
       "position": 1,
-      "text": "Combine mayonnaise, sesame oil, and chili paste in a bowl. Mix well and set aside."
+      "text": "Combine mayonnaise, sesame oil, and chili paste in a bowl. Mix well to make dynamite sauce and set aside."
     },
     {
       "position": 2,
@@ -18,27 +18,27 @@
     },
     {
       "position": 3,
-      "text": "Arrange a sheet of nori over a sushi roller. Scoop some sushi rice and press on the nori so that the rice will stick. Do this step until most of the toasted seaweed is evenly covered. See the California Roll video for more details."
+      "text": "Arrange a sheet of nori over a sushi mat. Scoop some sushi rice and spread evenly over the nori, pressing gently so the rice sticks. Leave a 1-inch border at the top."
     },
     {
       "position": 4,
-      "text": "Flip the nori in such a way that the part with rice is facing down. Arrange the tuna slices and cucumber on top of the toasted seaweed."
+      "text": "Flip the nori in such a way that the part with rice is facing down. Arrange the tuna slices and cucumber on top of the nori."
     },
     {
       "position": 5,
-      "text": "Spread a little wasabi paste over the tuna, and then start rolling with the help of a sushi roller. Note: try to push down a little as you roll the sushi to compress."
+      "text": "Spread a little wasabi paste over the tuna, and then start rolling with the help of a sushi mat. Note: try to push down a little as you roll the sushi to compress."
     },
     {
       "position": 6,
-      "text": "Spread some dynamite sauce over the sushi and sprinkle some Panko breadcrumbs on top of the sauce."
+      "text": "Spread the dynamite sauce over the sushi roll and sprinkle panko breadcrumbs on top of the sauce."
     },
     {
       "position": 7,
-      "text": "Slice the Sushi roll crosswise into 6 equal pieces."
+      "text": "Slice the sushi roll crosswise into 6 equal pieces."
     },
     {
       "position": 8,
-      "text": "Transfer to a serving plate. Serve with soy sauce and wasabe paste."
+      "text": "Transfer to a serving plate. Serve with soy sauce and wasabi paste."
     },
     {
       "position": 9,
@@ -48,18 +48,32 @@
   "servings": 4,
   "cooking_time_minutes": 5,
   "preparation_time_minutes": 12,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 10,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/016189f4-794b-50c2-9e60-4b3bd003a9fd/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": null
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Fish",
+    "Eggs",
+    "Sesame",
+    "Wheat",
+    "Soy"
+  ],
+  "equipment": [
+    "Sushi mat (makisu)",
+    "Sharp knife",
+    "Mixing bowls",
+    "Cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
@@ -90,10 +104,10 @@
     },
     {
       "ingredient_id": "15ce914e-29ad-5a58-92d8-80adda102986",
-      "name": "sheets nori",
-      "normalized_name": "sheets nori",
+      "name": "nori sheets",
+      "normalized_name": "nori",
       "quantity": "5",
-      "unit": null,
+      "unit": "sheets",
       "preparation": null,
       "position": 4
     },
@@ -128,36 +142,36 @@
       "ingredient_id": "b6082c42-4b72-50e0-87c8-bb10d64bdbb1",
       "name": "rice vinegar",
       "normalized_name": "rice vinegar",
-      "quantity": "1",
-      "unit": "tbsp",
+      "quantity": "3",
+      "unit": "tablespoons",
       "preparation": null,
       "position": 8
     },
     {
-      "ingredient_id": "33dd86e6-a853-5ee8-8320-1abdfe4be25d",
-      "name": "dynamite sauce",
-      "normalized_name": "dynamite sauce",
-      "quantity": "4",
-      "unit": "tablespoons",
-      "preparation": null,
-      "position": 9
-    },
-    {
       "ingredient_id": "c36587ff-543a-55ca-beb3-0e5ebcbdf6da",
-      "name": "panko bread crumb",
-      "normalized_name": "panko bread crumb",
+      "name": "panko breadcrumbs",
+      "normalized_name": "panko breadcrumbs",
       "quantity": "1",
       "unit": "tablespoon",
       "preparation": null,
-      "position": 10
+      "position": 9
     },
     {
       "ingredient_id": "c61cc68c-b2b3-50ad-80a1-c1221dce4048",
       "name": "wasabi paste",
       "normalized_name": "wasabi paste",
-      "quantity": null,
+      "quantity": "to taste",
       "unit": null,
       "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": null,
+      "unit": null,
+      "preparation": "for serving",
       "position": 11
     }
   ],

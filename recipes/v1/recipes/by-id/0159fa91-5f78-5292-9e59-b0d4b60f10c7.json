@@ -4,9 +4,9 @@
   "id": "0159fa91-5f78-5292-9e59-b0d4b60f10c7",
   "slug": "monggo-guisado-with-dilis-and-malunggay-balatong",
   "name": "Monggo Guisado with Dilis and Malunggay (Mung Bean Stew with Dried Anchovies)",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Monggo Guisado with Dilis and Malunggay or Balatong is a delicious Filipino dish composed of mung beans, dried anchovies, and moringa.",
-  "cuisine": null,
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -53,17 +53,27 @@
   "cooking_time_minutes": 35,
   "preparation_time_minutes": 30,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0159fa91-5f78-5292-9e59-b0d4b60f10c7/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "cooking pot",
+    "saute pan",
+    "wooden spoon",
+    "serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3105a63b-36f5-5971-890d-5d6ee19a0a8a",
@@ -78,7 +88,7 @@
       "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
       "name": "water",
       "normalized_name": "water",
-      "quantity": "4 to 6",
+      "quantity": "6",
       "unit": "cups",
       "preparation": null,
       "position": 2
@@ -148,11 +158,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/4",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "grounded",
       "position": 10
     }
   ],
