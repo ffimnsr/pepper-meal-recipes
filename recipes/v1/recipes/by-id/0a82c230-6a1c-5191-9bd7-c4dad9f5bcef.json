@@ -5,7 +5,7 @@
   "slug": "arroz-valenciana",
   "name": "Arroz ala Valenciana",
   "recipe_type": "main",
-  "brief_description": "Paella Valenciana recipe",
+  "brief_description": "Filipino-style paella with chicken, chorizo, and glutinous rice",
   "cuisine": "Filipino Spanish",
   "instructions": [
     {
@@ -85,8 +85,15 @@
     "unsaturatedFatContent": "12 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Eggs"
+  ],
+  "equipment": [
+    "Paellera or wide shallow pan",
+    "Knife",
+    "Cutting board",
+    "Spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "34b147a5-a97f-5b31-b52b-63aac2c0ceb9",
@@ -102,7 +109,7 @@
       "name": "chorizo de bilbao",
       "normalized_name": "chorizo de bilbao",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "sliced diagonally",
       "position": 2
     },
@@ -138,7 +145,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cut into strips",
       "position": 6
     },
@@ -192,7 +199,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 12
     },
@@ -201,7 +208,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 13
     },
@@ -219,7 +226,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "boiled",
       "position": 15
     },
@@ -236,8 +243,8 @@
       "ingredient_id": "1cc18708-8d95-5e27-b7a7-6f9212b37046",
       "name": "spanish saffron",
       "normalized_name": "spanish saffron",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "pinch",
       "preparation": null,
       "position": 17
     },
@@ -245,8 +252,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 18
     },
@@ -254,8 +261,8 @@
       "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
       "name": "pepper",
       "normalized_name": "pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/2",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 19
     }
@@ -281,8 +288,14 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Soak saffron in warm broth for 10 minutes before cooking to release color and flavor",
+    "Can substitute saffron with 1/4 teaspoon turmeric if unavailable"
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 3 days",
+    "Reheat with a splash of broth or water to prevent drying"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/arroz-valenciana/"

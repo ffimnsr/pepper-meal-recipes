@@ -49,9 +49,21 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "dairy",
+    "eggs",
+    "tree nuts"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowls",
+    "whisk",
+    "aluminum molds",
+    "foil"
+  ],
   "ingredients": [
     {
       "ingredient_id": "25769273-feec-582b-a24b-8f8ce09d4c13",
@@ -109,11 +121,11 @@
     },
     {
       "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
-      "name": "shredded cheddar cheese",
-      "normalized_name": "shredded cheddar cheese",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 7
     },
     {
@@ -121,7 +133,7 @@
       "name": "egg yolk",
       "normalized_name": "egg yolk",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 8
     },
@@ -130,7 +142,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 9
     }

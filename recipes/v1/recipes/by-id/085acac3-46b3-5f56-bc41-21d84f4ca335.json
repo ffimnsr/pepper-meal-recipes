@@ -4,9 +4,9 @@
   "id": "085acac3-46b3-5f56-bc41-21d84f4ca335",
   "slug": "spicy-bopis-recipe",
   "name": "Spicy Bopis Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This is a recipe for bopis. It is a Filipino dish that makes use of pig innards. It is eaten as pulutan or main dish.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -34,7 +34,7 @@
     },
     {
       "position": 7,
-      "text": "Add carrots,red bell pepper, salt, and pepper. Cook for 3 minutes."
+      "text": "Add carrots, red bell pepper, salt, and pepper. Cook for 3 minutes."
     },
     {
       "position": 8,
@@ -57,14 +57,21 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "pan",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "ec521385-b730-5473-a3ec-5105edf92afc",
-      "name": "pigs heart",
-      "normalized_name": "pigs heart",
+      "name": "pig's heart",
+      "normalized_name": "pig heart",
       "quantity": "1 1/2",
       "unit": "lbs",
       "preparation": "boiled until tender and diced",
@@ -75,7 +82,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 2
     },
@@ -84,14 +91,14 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 3
     },
     {
       "ingredient_id": "c40fe8fb-1ede-5166-9316-0eeec8f2936f",
-      "name": "annatto seeds diluted in 1/4 cup water",
-      "normalized_name": "annatto seeds diluted in 1/4 cup water",
+      "name": "annatto water",
+      "normalized_name": "annatto water",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
@@ -129,7 +136,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 8
     },
@@ -138,7 +145,7 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "4",
-      "unit": "clove",
+      "unit": "cloves",
       "preparation": "minced",
       "position": 9
     },
@@ -197,8 +204,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Traditionally served as pulutan (appetizer with drinks) or as a main dish with steamed rice.",
+    "Annatto water is made by steeping annatto seeds in warm water until the color releases."
+  ],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat thoroughly before serving."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/spicy-bopis-recipe/"

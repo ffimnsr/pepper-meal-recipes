@@ -4,9 +4,9 @@
   "id": "046cebbb-54db-5464-86c7-f0d7fe69843b",
   "slug": "daing-na-bangus-fried-milkfish-marinated-in-vinegar",
   "name": "Daing na Bangus Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Daing na bangus is a fried milkfish dish wherein the fish is marinated in a vinegar mixture and then fried until brown and crispy.",
-  "cuisine": null,
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -40,7 +40,7 @@
   "servings": 2,
   "cooking_time_minutes": 10,
   "preparation_time_minutes": 60,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 480,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/046cebbb-54db-5464-86c7-f0d7fe69843b/cover.jpg",
   "video_url": null,
@@ -49,26 +49,37 @@
     "@type": "NutritionInformation",
     "servingSize": "2 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "frying pan",
+    "mixing bowl",
+    "resealable plastic bag",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b1b9fb87-50d0-5183-9746-7e6f44b55c51",
-      "name": "sized milkfish",
-      "normalized_name": "sized milkfish",
+      "name": "milkfish",
+      "normalized_name": "milkfish",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cleaned and scales removed",
       "position": 1
     },
     {
       "ingredient_id": "2284c9c9-dc52-596d-9350-0ca99f0f818b",
-      "name": "crushed peppercorn",
-      "normalized_name": "crushed peppercorn",
+      "name": "peppercorn",
+      "normalized_name": "peppercorn",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 2
     },
     {
@@ -76,7 +87,7 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "1",
-      "unit": null,
+      "unit": "head",
       "preparation": "crushed",
       "position": 3
     },
@@ -106,6 +117,15 @@
       "unit": "cup",
       "preparation": null,
       "position": 6
+    },
+    {
+      "ingredient_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "vinegar",
+      "normalized_name": "vinegar",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
     }
   ],
   "categories": [
@@ -115,10 +135,32 @@
       "name": "Fish"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "f1e2d3c4-b5a6-7890-1234-567890abcdef",
+      "slug": "filipino",
+      "name": "Filipino"
+    },
+    {
+      "id": "a2b3c4d5-e6f7-8901-2345-67890abcdef0",
+      "slug": "fried",
+      "name": "Fried"
+    },
+    {
+      "id": "b3c4d5e6-f7a8-9012-3456-7890abcdef01",
+      "slug": "marinated",
+      "name": "Marinated"
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Marinate overnight for best flavor and texture",
+    "Serve with spicy vinegar dip (sawsawan)"
+  ],
+  "storage_notes": [
+    "Keep marinated fish refrigerated and cook within 24 hours",
+    "Cooked fish can be refrigerated for up to 2 days"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/daing-na-bangus-fried-milkfish-marinated-in-vinegar/"

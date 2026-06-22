@@ -4,9 +4,9 @@
   "id": "0ab1abbb-1065-5d82-a10c-aa538dcc6ed5",
   "slug": "teriyaki-pork-chop-recipe",
   "name": "Teriyaki Pork Chop Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This Teriyaki Pork Chop Recipe is delicious and easy to prepare. You can even use the teriyaki sauce for other meats. Try this today.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -33,17 +33,24 @@
   "cooking_time_minutes": 20,
   "preparation_time_minutes": 180,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0ab1abbb-1065-5d82-a10c-aa538dcc6ed5/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "8 oz"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "grill"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d2bbe037-93f1-5f58-a13f-fae0320f7239",
@@ -103,18 +110,18 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 7
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": "ground",
       "position": 8
     },
     {

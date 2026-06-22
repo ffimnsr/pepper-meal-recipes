@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "03f81377-77ba-5b34-b687-c841b213262f",
   "slug": "pancit-guisado-recipe-knr-sc",
-  "name": "Pancit Bihon Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Pancit Bihon",
-  "cuisine": "Filipino Recipe",
+  "name": "Pancit Bihon",
+  "recipe_type": "main",
+  "brief_description": "A classic Filipino stir-fried noodle dish made with rice vermicelli, tender pork and chicken, fresh vegetables, and savory soy sauce.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -55,7 +55,7 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "8 g",
+    "servingSize": "1 serving",
     "calories": "240 kcal",
     "carbohydrateContent": "23 g",
     "proteinContent": "13 g",
@@ -69,8 +69,12 @@
     "unsaturatedFatContent": "7 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "wok"
+  ],
   "ingredients": [
     {
       "ingredient_id": "796b8d59-32f6-5c2d-bd80-9f5839e81520",
@@ -122,7 +126,7 @@
       "name": "cabbage",
       "normalized_name": "cabbage",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "head",
       "preparation": "chopped",
       "position": 6
     },
@@ -140,7 +144,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 8
     },

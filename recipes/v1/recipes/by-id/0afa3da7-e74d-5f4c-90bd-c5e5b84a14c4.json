@@ -4,9 +4,9 @@
   "id": "0afa3da7-e74d-5f4c-90bd-c5e5b84a14c4",
   "slug": "chicken-parmesan-recipe",
   "name": "Chicken Parmesan Recipe",
-  "recipe_type": null,
-  "brief_description": "Try this delicious Chicken Parmesan Recipe and you will enjoy the results. Our cooking video will guide you through the process.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Classic Italian-American dish featuring breaded chicken breasts baked with marinara sauce and melted cheeses.",
+  "cuisine": "italian-american",
   "instructions": [
     {
       "position": 1,
@@ -73,22 +73,35 @@
   "cooking_time_minutes": 50,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0afa3da7-e74d-5f4c-90bd-c5e5b84a14c4/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains gluten",
+    "contains dairy",
+    "contains eggs"
+  ],
+  "allergens": [
+    "gluten",
+    "dairy",
+    "eggs"
+  ],
+  "equipment": [
+    "skillet",
+    "cooking pot",
+    "oven",
+    "oven-safe baking dish"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b610a8a0-7941-54ff-9d98-720ce782f109",
-      "name": "boneless skinless chicken breast halve",
-      "normalized_name": "boneless skinless chicken breast halve",
+      "name": "boneless skinless chicken breast halves",
+      "normalized_name": "boneless skinless chicken breast halves",
       "quantity": "3",
       "unit": "pieces",
       "preparation": null,
@@ -96,8 +109,8 @@
     },
     {
       "ingredient_id": "b1bab039-42a7-5047-a99e-83e67fbc8d31",
-      "name": "bread crumb",
-      "normalized_name": "bread crumb",
+      "name": "bread crumbs",
+      "normalized_name": "bread crumbs",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -150,8 +163,8 @@
     },
     {
       "ingredient_id": "91ca7f25-5636-538c-a946-15631d2eaa1d",
-      "name": "flat parsley",
-      "normalized_name": "flat parsley",
+      "name": "flat-leaf parsley",
+      "normalized_name": "flat-leaf parsley",
       "quantity": "1",
       "unit": "tablespoon",
       "preparation": "chopped",
@@ -199,7 +212,7 @@
       "normalized_name": "peeled whole tomato",
       "quantity": "1",
       "unit": "can",
-      "preparation": null,
+      "preparation": "peeled whole tomato",
       "position": 13
     },
     {

@@ -40,6 +40,19 @@ class RecipeImproverTests(TestCase):
         self.assertEqual(payload["recipe"]["name"], "Improved")
         self.assertEqual(payload["summary"], "Better")
 
+    def test_extract_choice_content_supports_content_part_list(self) -> None:
+        content = recipe_improver.extract_choice_content(
+            {
+                "message": {
+                    "content": [
+                        {"type": "text", "text": "{\"recipe\": {\"name\": \"Improved\"}, \"summary\": \"ok\"}"}
+                    ]
+                }
+            }
+        )
+
+        self.assertIn('"recipe"', content)
+
     def test_next_recipe_path_skips_reviewed_ids(self) -> None:
         with mock.patch.object(
             recipe_improver,
@@ -400,6 +413,53 @@ class RecipeImproverTests(TestCase):
             "recipe_type must be one of ['main']",
             post.call_args.kwargs["json"]["messages"][1]["content"],
         )
+
+    def test_call_openrouter_retries_once_when_content_is_empty(self) -> None:
+        class EmptyResponse:
+            headers = {"X-Generation-Id": "gen-empty"}
+
+            def raise_for_status(self) -> None:
+                return None
+
+            def json(self) -> dict:
+                return {
+                    "choices": [
+                        {
+                            "finish_reason": "stop",
+                            "message": {
+                                "content": "",
+                            },
+                        }
+                    ]
+                }
+
+        class GoodResponse:
+            headers = {"X-Generation-Id": "gen-good"}
+
+            def raise_for_status(self) -> None:
+                return None
+
+            def json(self) -> dict:
+                return {
+                    "choices": [
+                        {
+                            "message": {
+                                "content": "{\"recipe\": {\"name\": \"Improved\"}, \"summary\": \"ok\"}",
+                            }
+                        }
+                    ]
+                }
+
+        with mock.patch.dict(os.environ, {"OPENROUTER_API_KEY": "test-key"}, clear=False), mock.patch(
+            "requests.post", side_effect=[EmptyResponse(), GoodResponse()]
+        ) as post:
+            result = recipe_improver.call_openrouter(
+                {"name": "Test"},
+                mock.Mock(api_key=None, model="test/model", site_url=None, app_name=None, timeout=5),
+            )
+
+        self.assertEqual(result["recipe"]["name"], "Improved")
+        self.assertEqual(post.call_count, 2)
 
     def test_run_recipe_yes_flag_skips_overwrite_prompt(self) -> None:
         recipe_path = Path("/tmp/test-recipe.json")

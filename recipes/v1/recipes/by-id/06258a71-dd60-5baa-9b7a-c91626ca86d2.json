@@ -6,11 +6,11 @@
   "name": "Leche Puto Recipe",
   "recipe_type": "dessert",
   "brief_description": "This is a recipe for leche puto, which is also known as puto flan",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Pour water in a steamer of pot. Bring to a boil."
+      "text": "Pour water in a steamer or pot. Bring to a boil."
     },
     {
       "position": 2,
@@ -46,7 +46,7 @@
     },
     {
       "position": 10,
-      "text": "Serve for dessert. Share and Enjoy!"
+      "text": "Serve for dessert. Share and enjoy!"
     }
   ],
   "servings": 6,
@@ -62,8 +62,17 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "steamer",
+    "mixing bowls",
+    "whisk",
+    "puto molds"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
@@ -115,7 +124,7 @@
       "name": "egg yolk",
       "normalized_name": "egg yolk",
       "quantity": "7",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 6
     },
@@ -123,7 +132,7 @@
       "ingredient_id": "e37097b1-c487-5ffa-9e05-8375690c5cf3",
       "name": "condensed milk",
       "normalized_name": "condensed milk",
-      "quantity": "1 14",
+      "quantity": "14",
       "unit": "oz",
       "preparation": null,
       "position": 7

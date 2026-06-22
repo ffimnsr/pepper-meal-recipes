@@ -4,9 +4,9 @@
   "id": "05eb6bb8-2fc2-56da-8f17-0fa23542dbb5",
   "slug": "paella-negra-arroz-negre-recipe",
   "name": "Paella Negra (Arroz Negre) Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Paella Negra (Arroz Negre)",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "A dramatic Spanish rice dish tinted black with squid ink, featuring tender seafood and sweet bell peppers. This one-pan meal creates a striking presentation with deep oceanic flavors.",
+  "cuisine": "spanish",
   "instructions": [
     {
       "position": 1,
@@ -48,18 +48,30 @@
   "servings": 6,
   "cooking_time_minutes": 35,
   "preparation_time_minutes": 15,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 5,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/05eb6bb8-2fc2-56da-8f17-0fa23542dbb5/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "shellfish",
+    "mollusks",
+    "fish"
+  ],
+  "equipment": [
+    "paellera or wide shallow pan",
+    "knife",
+    "cutting board",
+    "wooden spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "fa1a9e41-5e96-5973-9e18-d47058bbd63d",
@@ -75,7 +87,7 @@
       "name": "squid",
       "normalized_name": "squid",
       "quantity": "5",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cleaned and sliced crosswise",
       "position": 2
     },
@@ -111,7 +123,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 6
     },
@@ -129,7 +141,7 @@
       "name": "roma tomato",
       "normalized_name": "roma tomato",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "peeled and sliced into small cubes",
       "position": 8
     },
@@ -138,7 +150,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 9
     },
@@ -147,7 +159,7 @@
       "name": "green bell pepper",
       "normalized_name": "green bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 10
     },
@@ -156,7 +168,7 @@
       "name": "lemon",
       "normalized_name": "lemon",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "sliced into wedges",
       "position": 11
     },
@@ -168,6 +180,15 @@
       "unit": "tablespoons",
       "preparation": null,
       "position": 12
+    },
+    {
+      "ingredient_id": "a7f8c9d0-e1b2-4c3d-8f5a-6b7c8d9e0f1a",
+      "name": "fish broth",
+      "normalized_name": "fish broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
     }
   ],
   "categories": [
@@ -179,8 +200,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For authentic texture, use Spanish short-grain rice such as Calasparra or Bomba.",
+    "Avoid stirring the rice once the broth begins to boil to encourage the formation of socarrat (crispy bottom layer).",
+    "Squid ink can stain surfaces and clothing; handle with care."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 2 days.",
+    "Reheat with a splash of fish broth or water to restore moisture."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/paella-negra-arroz-negre-recipe/"

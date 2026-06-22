@@ -32,7 +32,7 @@
   "servings": 4,
   "cooking_time_minutes": 1,
   "preparation_time_minutes": 15,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 15,
   "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/08b3fea8-d13c-5ddc-a65a-aac258a968dd/cover.jpg",
   "video_url": null,
@@ -41,9 +41,15 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegan",
+    "vegetarian",
+    "gluten-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "477d2053-cbe0-579e-a93b-96f61aa51d7f",
@@ -68,7 +74,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 3
     },

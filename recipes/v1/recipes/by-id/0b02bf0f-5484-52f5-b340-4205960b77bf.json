@@ -5,7 +5,7 @@
   "slug": "baked-spaghetti",
   "name": "Baked Spaghetti",
   "recipe_type": "main",
-  "brief_description": "Creamy and spaghetti baked with mozzarella.",
+  "brief_description": "Creamy spaghetti baked with mozzarella.",
   "cuisine": "Italian",
   "instructions": [
     {
@@ -42,7 +42,7 @@
     }
   ],
   "servings": 6,
-  "cooking_time_minutes": null,
+  "cooking_time_minutes": 70,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
   "difficulty": "medium",
@@ -66,7 +66,13 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "large pot",
+    "skillet",
+    "colander"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f3cf53a3-b225-53f5-bdcc-67cc5aabc4d9",
@@ -118,7 +124,7 @@
       "name": "knorr beef cube",
       "normalized_name": "knorr beef cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 6
     },
@@ -137,7 +143,7 @@
       "normalized_name": "diced tomato",
       "quantity": "15",
       "unit": "ounces",
-      "preparation": null,
+      "preparation": "diced tomato",
       "position": 8
     },
     {
@@ -154,7 +160,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 10
     },

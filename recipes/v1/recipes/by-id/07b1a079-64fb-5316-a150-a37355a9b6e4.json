@@ -4,9 +4,9 @@
   "id": "07b1a079-64fb-5316-a150-a37355a9b6e4",
   "slug": "sweet-chicken-asado-recipe",
   "name": "Sweet Chicken Asado Recipe",
-  "recipe_type": "dessert",
-  "brief_description": "Just like my favorite chicken adobo, I always enjoy eating Sweet Chicken Asado for either lunch or dinner -- I don\u2019t even mind having the leftovers the next day for breakfast. This Sweet Chicken Asado was inspired by the pork asado recipe that I published back then when I was starting this food blog.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Just like my favorite chicken adobo, I always enjoy eating Sweet Chicken Asado for either lunch or dinner -- I don't even mind having the leftovers the next day for breakfast. This Sweet Chicken Asado was inspired by the pork asado recipe that I published back then when I was starting this food blog.",
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -55,11 +55,16 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "5 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "cooking pot",
+    "serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "34b147a5-a97f-5b31-b52b-63aac2c0ceb9",
@@ -90,17 +95,17 @@
     },
     {
       "ingredient_id": "79a67268-f09a-50cb-86f5-1735baaba0c8",
-      "name": "crushed garlic",
-      "normalized_name": "crushed garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "4",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 4
     },
     {
       "ingredient_id": "bc90f28c-5316-5fbe-bb97-8d5ec16504a9",
-      "name": "spice powder",
-      "normalized_name": "spice powder",
+      "name": "five spice powder",
+      "normalized_name": "five spice powder",
       "quantity": "1/2",
       "unit": "teaspoon",
       "preparation": null,
@@ -150,15 +155,6 @@
       "unit": "teaspoon",
       "preparation": null,
       "position": 10
-    },
-    {
-      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
-      "name": "cooking oil",
-      "normalized_name": "cooking oil",
-      "quantity": "3",
-      "unit": "tablespoons",
-      "preparation": null,
-      "position": 11
     }
   ],
   "categories": [

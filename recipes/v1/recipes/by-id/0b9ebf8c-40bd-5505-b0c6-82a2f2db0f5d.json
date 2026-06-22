@@ -4,9 +4,9 @@
   "id": "0b9ebf8c-40bd-5505-b0c6-82a2f2db0f5d",
   "slug": "pinatuyong-pork-hamonado-recipe",
   "name": "Pinatuyong Pork Hamonado",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Pork belly in soy and pineapple reduction. This is a tasty dish best served with rice.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -57,7 +57,7 @@
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0b9ebf8c-40bd-5505-b0c6-82a2f2db0f5d/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -75,8 +75,16 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "gluten"
+  ],
+  "equipment": [
+    "pan",
+    "spatula",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
@@ -187,8 +195,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Adjust sweetness by adding more or less brown sugar according to taste",
+    "Ensure sauce is completely evaporated for authentic pinatuyo (dried) texture",
+    "Use low heat when simmering to prevent burning"
+  ],
+  "storage_notes": [
+    "Store in airtight container in refrigerator for up to 3 days",
+    "Reheat in a pan with a small amount of water to prevent drying out"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/pinatuyong-pork-hamonado-recipe/"

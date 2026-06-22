@@ -4,9 +4,9 @@
   "id": "0d434777-e793-5a2f-9a79-994e9b9ffc38",
   "slug": "teriyaki-bistek-recipe",
   "name": "Teriyaki Bistek Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Teriyaki Bistek is the result of combining Bistek Tagalog and Beef Teriyaki. This is the counterpart of crossovers in the automobile world",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -53,17 +53,26 @@
   "cooking_time_minutes": 45,
   "preparation_time_minutes": 30,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0d434777-e793-5a2f-9a79-994e9b9ffc38/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "5 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Soy",
+    "Sesame",
+    "Wheat"
+  ],
+  "equipment": [
+    "Mixing bowl",
+    "Skillet",
+    "Tongs",
+    "Serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "6d13f9ac-0dd2-5bf8-9fbb-741ce51efea4",
@@ -106,7 +115,7 @@
       "name": "white onion",
       "normalized_name": "white onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced crosswise",
       "position": 5
     },
@@ -121,11 +130,11 @@
     },
     {
       "ingredient_id": "4c0f52a5-b958-5799-97dd-674e1b2bae27",
-      "name": "cornstarch diluted in 2 tablespoons cold water",
-      "normalized_name": "cornstarch diluted in 2 tablespoons cold water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "diluted in 2 tablespoons cold water",
       "position": 7
     },
     {

@@ -4,9 +4,9 @@
   "id": "0960bc59-41f1-597b-961a-baf5069538a7",
   "slug": "pepper-steak",
   "name": "Pepper Steak",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Tender beef stir fried with bell peppers and onion in a savory sauce. Best served with steamed rice.",
-  "cuisine": null,
+  "cuisine": "Chinese",
   "instructions": [
     {
       "position": 1,
@@ -48,7 +48,7 @@
   "servings": 5,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 180,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0960bc59-41f1-597b-961a-baf5069538a7/cover.jpg",
   "video_url": null,
@@ -69,8 +69,15 @@
     "unsaturatedFatContent": "10 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Shellfish",
+    "Soy"
+  ],
+  "equipment": [
+    "Wok",
+    "Mixing bowl",
+    "Refrigerator"
+  ],
   "ingredients": [
     {
       "ingredient_id": "99e5be06-ad90-5ded-8737-04c857580851",
@@ -86,7 +93,7 @@
       "name": "green bell pepper",
       "normalized_name": "green bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 2
     },
@@ -95,7 +102,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },
@@ -104,7 +111,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 4
     },
@@ -118,13 +125,22 @@
       "position": 5
     },
     {
+      "ingredient_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 6
+    },
+    {
       "ingredient_id": "b792b081-78c7-5a5d-b818-adb32ee626de",
       "name": "white pepper powder",
       "normalized_name": "white pepper powder",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
@@ -133,7 +149,7 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 7
+      "position": 8
     },
     {
       "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
@@ -142,25 +158,25 @@
       "quantity": "1 1/4",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 8
+      "position": 9
     },
     {
       "ingredient_id": "63041ac9-6930-5398-b18d-13ee1400cb3f",
       "name": "oyster sauce",
       "normalized_name": "oyster sauce",
       "quantity": "2",
-      "unit": "tablespoon",
+      "unit": "tablespoons",
       "preparation": null,
-      "position": 9
+      "position": 10
     },
     {
       "ingredient_id": "512c9c2b-d55d-550d-83c1-9f0e928091fe",
       "name": "shaoxing wine",
       "normalized_name": "shaoxing wine",
       "quantity": "1",
-      "unit": "tablespoon",
+      "unit": "tablespoons",
       "preparation": null,
-      "position": 10
+      "position": 11
     },
     {
       "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
@@ -169,7 +185,7 @@
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 11
+      "position": 12
     },
     {
       "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
@@ -178,7 +194,7 @@
       "quantity": "3/4",
       "unit": "cup",
       "preparation": null,
-      "position": 12
+      "position": 13
     },
     {
       "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
@@ -187,7 +203,7 @@
       "quantity": "3",
       "unit": "teaspoons",
       "preparation": null,
-      "position": 13
+      "position": 14
     },
     {
       "ingredient_id": "63041ac9-6930-5398-b18d-13ee1400cb3f",
@@ -196,16 +212,16 @@
       "quantity": "1 1/2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 14
+      "position": 15
     },
     {
       "ingredient_id": "512c9c2b-d55d-550d-83c1-9f0e928091fe",
       "name": "shaoxing wine",
       "normalized_name": "shaoxing wine",
       "quantity": "1",
-      "unit": "tablespoon",
+      "unit": "tablespoons",
       "preparation": null,
-      "position": 15
+      "position": 16
     },
     {
       "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
@@ -214,7 +230,7 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 16
+      "position": 17
     },
     {
       "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
@@ -223,7 +239,7 @@
       "quantity": "1/2",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 17
+      "position": 18
     },
     {
       "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
@@ -232,7 +248,7 @@
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 18
+      "position": 19
     }
   ],
   "categories": [

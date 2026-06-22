@@ -4,9 +4,9 @@
   "id": "075e4e47-0b48-570b-b0a4-e92574861127",
   "slug": "roasted-chicken-dinner-recipe",
   "name": "Roasted Chicken Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This traditional roasted chicken recipe is tender, juicy, and flavorful. It is best eaten with mashed potato, or with rice, which is the Filipino way.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -52,7 +52,7 @@
   "servings": 4,
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 10,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/075e4e47-0b48-570b-b0a4-e92574861127/cover.jpg",
   "video_url": null,
@@ -61,16 +61,25 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "equipment": [
+    "oven",
+    "roasting pan",
+    "kitchen twine",
+    "meat thermometer"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
       "name": "chicken",
       "normalized_name": "chicken",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 1
     },
@@ -104,9 +113,9 @@
     {
       "ingredient_id": "cd5fabb2-c7a0-5e52-b519-7c27a2cfd5f5",
       "name": "medium-sized onion",
-      "normalized_name": "medium-sized onion",
+      "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 5
     },
@@ -115,17 +124,17 @@
       "name": "celery stalk",
       "normalized_name": "celery stalk",
       "quantity": "2",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 6
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 7
     },
     {

@@ -4,9 +4,9 @@
   "id": "053dba0e-adbf-5db9-b5a1-a71326276b61",
   "slug": "carne-asada-recipe",
   "name": "Carne Asada Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Carne Asada refers to marinated and grilled beef pieces. These are usually thin cuts of steaks such as skirt steak or flank steak.",
-  "cuisine": null,
+  "cuisine": "Mexican",
   "instructions": [
     {
       "position": 1,
@@ -36,18 +36,24 @@
   "servings": 4,
   "cooking_time_minutes": 20,
   "preparation_time_minutes": 120,
-  "rest_time_minutes": null,
-  "difficulty": "expert",
+  "rest_time_minutes": 10,
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/053dba0e-adbf-5db9-b5a1-a71326276b61/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "4 servings"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "gluten-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "grill",
+    "mixing bowl",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "6d13f9ac-0dd2-5bf8-9fbb-741ce51efea4",
@@ -69,29 +75,29 @@
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 3
     },
     {
       "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
-      "name": "ground cumin",
-      "normalized_name": "ground cumin",
+      "name": "cumin",
+      "normalized_name": "cumin",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 4
     },
     {
       "ingredient_id": "04257aa0-e3aa-5c04-a4e0-552fc3f8d415",
-      "name": "chopped cilantro",
-      "normalized_name": "chopped cilantro",
+      "name": "cilantro",
+      "normalized_name": "cilantro",
       "quantity": "3",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 5
     },
     {
@@ -123,11 +129,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 9
     }
   ],

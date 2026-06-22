@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "06c0897a-19d9-5f1e-bf1b-84f9960926cf",
   "slug": "calamares-calamari-recipe",
-  "name": "Calamares Recipe",
+  "name": "Calamares",
   "recipe_type": "appetizer",
   "brief_description": "Calamares or Calamari is a mouth watering breaded fried squid dish. Discover why this is one of the best appetizers around.",
-  "cuisine": null,
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Heat a cooking pot the pour-in cooking oil."
+      "text": "Heat a cooking pot then pour-in cooking oil."
     },
     {
       "position": 3,
@@ -47,16 +47,29 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "dairy-free"
+  ],
+  "allergens": [
+    "shellfish",
+    "gluten",
+    "egg"
+  ],
+  "equipment": [
+    "deep fryer or heavy-bottomed pot",
+    "tongs",
+    "paper towels",
+    "mixing bowls",
+    "whisk"
+  ],
   "ingredients": [
     {
       "ingredient_id": "5f652464-4164-57ad-8866-b39f4e7a3a66",
-      "name": "sized squid",
-      "normalized_name": "sized squid",
+      "name": "squid",
+      "normalized_name": "squid",
       "quantity": "1/2",
       "unit": "lb",
       "preparation": "cleaned and sliced into rings",
@@ -82,8 +95,8 @@
     },
     {
       "ingredient_id": "917712c7-f745-5d8b-a16c-d6223970a495",
-      "name": "breadcrumb",
-      "normalized_name": "breadcrumb",
+      "name": "breadcrumbs",
+      "normalized_name": "breadcrumbs",
       "quantity": "3/4",
       "unit": "cup",
       "preparation": null,
@@ -124,7 +137,28 @@
       "name": "Squid"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "slug": "fried",
+      "name": "Fried"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "slug": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      "slug": "filipino",
+      "name": "Filipino"
+    },
+    {
+      "id": "6ba7b811-9dad-11d1-80b4-00c04fd430c8",
+      "slug": "crispy",
+      "name": "Crispy"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

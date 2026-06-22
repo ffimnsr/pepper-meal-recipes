@@ -5,7 +5,7 @@
   "slug": "puto-bumbong-recipe",
   "name": "Puto Bumbong Recipe",
   "recipe_type": "dessert",
-  "brief_description": "This is a recipe for Puto Bumbong.",
+  "brief_description": "Traditional Filipino steamed rice cake made with purple glutinous rice, cooked in bamboo tubes, and served with butter, fresh grated coconut, and muscovado sugar. A beloved Christmas delicacy often enjoyed after Simbang Gabi.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -62,9 +62,22 @@
     "fiberContent": "3 g",
     "sugarContent": "28 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Dairy",
+    "Tree Nuts"
+  ],
+  "equipment": [
+    "Large mixing bowl",
+    "Large sieve",
+    "Food processor",
+    "Puto bumbong steamer",
+    "Bamboo tubes (bumbong)",
+    "Banana leaves"
+  ],
   "ingredients": [
     {
       "ingredient_id": "de6772c5-f269-5479-95d5-e6e704c1e075",
@@ -113,20 +126,20 @@
     },
     {
       "ingredient_id": "d6bbdaf7-3688-5aeb-a5d3-96c5363c43d5",
-      "name": "freshly grated coconut",
-      "normalized_name": "freshly grated coconut",
+      "name": "coconut",
+      "normalized_name": "coconut",
       "quantity": "1 1/2",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "freshly grated",
       "position": 6
     },
     {
       "ingredient_id": "4cadfa54-7c73-5755-9a01-b8c539936e08",
-      "name": "softened butter",
-      "normalized_name": "softened butter",
+      "name": "butter",
+      "normalized_name": "butter",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "softened",
       "position": 7
     }
   ],
@@ -139,8 +152,17 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Soak rice for exactly 2 days (48 hours) for the best texture and proper fermentation.",
+    "Do not compress the rice mixture in the bamboo tubes; allow space for steam to circulate for even cooking.",
+    "Use fresh banana leaves for serving to add authentic aroma and prevent sticking.",
+    "Best served hot immediately after cooking; the texture is optimal when fresh."
+  ],
+  "storage_notes": [
+    "Best consumed immediately while hot.",
+    "Can be refrigerated in an airtight container for up to 2 days, though texture will harden.",
+    "Reheat by steaming for 2-3 minutes until soft and warm."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/puto-bumbong-recipe/"

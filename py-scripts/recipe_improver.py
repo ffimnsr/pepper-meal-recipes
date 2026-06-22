@@ -190,6 +190,38 @@ def parse_model_response(content: str) -> dict[str, Any]:
     return payload
 
 
+def extract_choice_content(choice: dict[str, Any]) -> str:
+    message = choice.get("message") or {}
+    content = message.get("content")
+    if isinstance(content, str) and content.strip():
+        return content
+
+    collected_parts: list[str] = []
+    if isinstance(content, list):
+        for part in content:
+            if isinstance(part, str) and part.strip():
+                collected_parts.append(part.strip())
+                continue
+            if not isinstance(part, dict):
+                continue
+            text = part.get("text")
+            if isinstance(text, str) and text.strip():
+                collected_parts.append(text.strip())
+                continue
+            if isinstance(text, dict):
+                nested_text = text.get("value")
+                if isinstance(nested_text, str) and nested_text.strip():
+                    collected_parts.append(nested_text.strip())
+    if collected_parts:
+        return "\n".join(collected_parts)
+
+    fallback_text = choice.get("text")
+    if isinstance(fallback_text, str) and fallback_text.strip():
+        return fallback_text
+
+    return ""
+
+
 def is_named_object_list(value: Any) -> bool:
     if not isinstance(value, list):
         return False
@@ -456,80 +488,92 @@ def call_openrouter(
         "X-OpenRouter-Title": args.app_name or os.environ.get("OPENROUTER_APP_NAME") or "Pepper Meal Recipe Improver",
         "X-OpenRouter-Metadata": "enabled",
     }
-    status(f"Sending request to OpenRouter with {model}...")
-    request_started_at = time.perf_counter()
-    response = requests.post(
-        OPENROUTER_URL,
-        headers=headers,
-        json=build_payload(recipe, model, repair_feedback=repair_feedback),
-        timeout=args.timeout,
-    )
-    response.raise_for_status()
-    response_received_at = time.perf_counter()
-    status(f"Response received in {response_received_at - request_started_at:.2f}s; parsing model output...")
-    payload = response.json()
-    generation_id = response.headers.get("X-Generation-Id")
-    if generation_id:
-        status(f"OpenRouter generation id: {generation_id}")
-
-    usage = payload.get("usage")
-    if isinstance(usage, dict):
-        prompt_tokens = usage.get("prompt_tokens")
-        completion_tokens = usage.get("completion_tokens")
-        total_tokens = usage.get("total_tokens")
-        status(
-            "OpenRouter usage: "
-            f"prompt_tokens={prompt_tokens}, "
-            f"completion_tokens={completion_tokens}, "
-            f"total_tokens={total_tokens}"
+    max_attempts = 2
+    last_error: str | None = None
+    for attempt_index in range(max_attempts):
+        status(f"Sending request to OpenRouter with {model}...")
+        request_started_at = time.perf_counter()
+        response = requests.post(
+            OPENROUTER_URL,
+            headers=headers,
+            json=build_payload(recipe, model, repair_feedback=repair_feedback),
+            timeout=args.timeout,
         )
+        response.raise_for_status()
+        response_received_at = time.perf_counter()
+        status(f"Response received in {response_received_at - request_started_at:.2f}s; parsing model output...")
+        payload = response.json()
+        generation_id = response.headers.get("X-Generation-Id")
+        if generation_id:
+            status(f"OpenRouter generation id: {generation_id}")
 
-    metadata = payload.get("openrouter_metadata")
-    if isinstance(metadata, dict):
-        summary = metadata.get("summary")
-        attempt = metadata.get("attempt")
-        strategy = metadata.get("strategy")
-        status(f"OpenRouter routing: strategy={strategy}, attempt={attempt}, summary={summary}")
-        attempts = metadata.get("attempts")
-        if isinstance(attempts, list) and attempts:
-            attempt_summaries = []
-            for item in attempts:
-                if not isinstance(item, dict):
-                    continue
-                provider = item.get("provider")
-                model_name = item.get("model")
-                status_code = item.get("status")
-                attempt_summaries.append(f"{provider}:{model_name}:{status_code}")
-            if attempt_summaries:
-                status("OpenRouter provider attempts: " + " | ".join(attempt_summaries))
+        usage = payload.get("usage")
+        if isinstance(usage, dict):
+            prompt_tokens = usage.get("prompt_tokens")
+            completion_tokens = usage.get("completion_tokens")
+            total_tokens = usage.get("total_tokens")
+            status(
+                "OpenRouter usage: "
+                f"prompt_tokens={prompt_tokens}, "
+                f"completion_tokens={completion_tokens}, "
+                f"total_tokens={total_tokens}"
+            )
 
-        pipeline = metadata.get("pipeline")
-        if isinstance(pipeline, list) and pipeline:
-            pipeline_summaries = []
-            for item in pipeline:
-                if not isinstance(item, dict):
-                    continue
-                pipeline_summaries.append(f"{item.get('type')}:{item.get('name')}")
-            if pipeline_summaries:
-                status("OpenRouter pipeline: " + " | ".join(pipeline_summaries))
+        metadata = payload.get("openrouter_metadata")
+        if isinstance(metadata, dict):
+            summary = metadata.get("summary")
+            attempt = metadata.get("attempt")
+            strategy = metadata.get("strategy")
+            status(f"OpenRouter routing: strategy={strategy}, attempt={attempt}, summary={summary}")
+            attempts = metadata.get("attempts")
+            if isinstance(attempts, list) and attempts:
+                attempt_summaries = []
+                for item in attempts:
+                    if not isinstance(item, dict):
+                        continue
+                    provider = item.get("provider")
+                    model_name = item.get("model")
+                    status_code = item.get("status")
+                    attempt_summaries.append(f"{provider}:{model_name}:{status_code}")
+                if attempt_summaries:
+                    status("OpenRouter provider attempts: " + " | ".join(attempt_summaries))
 
-    choices = payload.get("choices") or []
-    if not choices:
-        raise SystemExit("openrouter response did not include any choices")
-    message = choices[0].get("message") or {}
-    content = message.get("content")
-    if not isinstance(content, str) or not content.strip():
-        raise SystemExit("openrouter response content was empty")
-    parse_started_at = time.perf_counter()
-    result = parse_model_response(content)
-    parse_finished_at = time.perf_counter()
-    status(
-        "Model profiling: "
-        f"request={response_received_at - request_started_at:.2f}s, "
-        f"parse={parse_finished_at - parse_started_at:.2f}s, "
-        f"total={parse_finished_at - request_started_at:.2f}s"
-    )
-    return result
+            pipeline = metadata.get("pipeline")
+            if isinstance(pipeline, list) and pipeline:
+                pipeline_summaries = []
+                for item in pipeline:
+                    if not isinstance(item, dict):
+                        continue
+                    pipeline_summaries.append(f"{item.get('type')}:{item.get('name')}")
+                if pipeline_summaries:
+                    status("OpenRouter pipeline: " + " | ".join(pipeline_summaries))
+
+        choices = payload.get("choices") or []
+        if not choices:
+            raise RuntimeError("openrouter response did not include any choices")
+
+        choice = choices[0]
+        content = extract_choice_content(choice)
+        if not content:
+            finish_reason = choice.get("finish_reason")
+            last_error = f"openrouter response content was empty (finish_reason={finish_reason})"
+            if attempt_index + 1 < max_attempts:
+                status(f"{last_error}; retrying once...")
+                continue
+            raise RuntimeError(last_error)
+
+        parse_started_at = time.perf_counter()
+        result = parse_model_response(content)
+        parse_finished_at = time.perf_counter()
+        status(
+            "Model profiling: "
+            f"request={response_received_at - request_started_at:.2f}s, "
+            f"parse={parse_finished_at - parse_started_at:.2f}s, "
+            f"total={parse_finished_at - request_started_at:.2f}s"
+        )
+        return result
+
+    raise RuntimeError(last_error or "openrouter request failed")
 
 
 def preview_changes(before: dict[str, Any], after: dict[str, Any]) -> str:
@@ -688,7 +732,7 @@ def main() -> None:
         recipe_id = recipe_id_from_path(recipe_path)
         try:
             wrote, _ = run_recipe(recipe_path, args, validator)
-        except Exception as error:
+        except (Exception, SystemExit) as error:
             print(f"Failed to improve {recipe_path.name}: {error}")
             if not prompt_yes_no("Try the next recipe instead?", default_no=True):
                 save_state(args.state_file, state)

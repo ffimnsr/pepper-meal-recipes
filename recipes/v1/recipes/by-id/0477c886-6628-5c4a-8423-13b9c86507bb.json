@@ -4,8 +4,8 @@
   "id": "0477c886-6628-5c4a-8423-13b9c86507bb",
   "slug": "chili-garlic-butter-shrimp-recipe",
   "name": "Chili Garlic Butter Shrimp Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Chili Garlic Butter Shrimp.",
+  "recipe_type": "main",
+  "brief_description": "Succulent shrimp stir-fried in a spicy garlic butter sauce with fresh Thai chili and scallions. A quick and flavorful Filipino seafood dish perfect for weeknight dinners.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -47,11 +47,19 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "shellfish",
+    "dairy"
+  ],
+  "equipment": [
+    "pan",
+    "plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -73,11 +81,11 @@
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 3
     },
     {

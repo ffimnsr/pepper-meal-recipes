@@ -75,8 +75,17 @@
     "sugarContent": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "egg",
+    "gluten",
+    "soy",
+    "shellfish"
+  ],
+  "equipment": [
+    "pan",
+    "toothpicks",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "c611d2d4-5c81-5421-8637-e935177584f9",
@@ -102,15 +111,15 @@
       "normalized_name": "carrot",
       "quantity": "1",
       "unit": "piece",
-      "preparation": null,
+      "preparation": "diced",
       "position": 3
     },
     {
       "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
-      "name": "stalks celery",
-      "normalized_name": "stalks celery",
+      "name": "celery stalks",
+      "normalized_name": "celery",
       "quantity": "2",
-      "unit": null,
+      "unit": "stalks",
       "preparation": "chopped",
       "position": 4
     },
@@ -147,7 +156,7 @@
       "normalized_name": "lemon",
       "quantity": "1",
       "unit": "piece",
-      "preparation": null,
+      "preparation": "juiced",
       "position": 8
     },
     {

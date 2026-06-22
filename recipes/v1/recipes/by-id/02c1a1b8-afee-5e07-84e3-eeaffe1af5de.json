@@ -4,9 +4,9 @@
   "id": "02c1a1b8-afee-5e07-84e3-eeaffe1af5de",
   "slug": "grilled-rib-eye-steak-with-arroz-amarillo",
   "name": "Grilled Rib Eye Steak with Arroz Amarillo",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Grilled Rib Eye Steak with Arroz Amarillo",
-  "cuisine": "Beef",
+  "recipe_type": "main",
+  "brief_description": "Juicy grilled rib eye steaks seasoned with a simple spice rub, served alongside fragrant yellow rice (arroz amarillo) cooked with turmeric and smoked paprika.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -48,26 +48,32 @@
   "servings": 2,
   "cooking_time_minutes": 50,
   "preparation_time_minutes": 12,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 10,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/02c1a1b8-afee-5e07-84e3-eeaffe1af5de/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "gluten-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "grill",
+    "heavy-bottomed pot",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "30133916-a719-5e62-9463-21c141b56519",
-      "name": "slices of rib eye steak",
-      "normalized_name": "slices of rib eye steak",
-      "quantity": "2 8",
-      "unit": "oz",
-      "preparation": null,
+      "name": "rib eye steak",
+      "normalized_name": "rib eye steak",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
       "position": 1
     },
     {
@@ -81,11 +87,11 @@
     },
     {
       "ingredient_id": "488fbbc3-e999-524c-8b06-3bfc0f9a4cf8",
-      "name": "cracked whole peppercorn",
-      "normalized_name": "cracked whole peppercorn",
+      "name": "whole peppercorn",
+      "normalized_name": "black peppercorn",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "cracked",
       "position": 3
     },
     {
@@ -99,8 +105,8 @@
     },
     {
       "ingredient_id": "469dcc05-be69-51ec-bc9c-16f1129ea6b0",
-      "name": "cayenne pepper powder",
-      "normalized_name": "cayenne pepper powder",
+      "name": "cayenne pepper",
+      "normalized_name": "cayenne pepper",
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
@@ -144,8 +150,8 @@
     },
     {
       "ingredient_id": "f9f32b2a-00da-585f-b38f-fd1d6ec5819a",
-      "name": "turmeric powder",
-      "normalized_name": "turmeric powder",
+      "name": "turmeric",
+      "normalized_name": "turmeric",
       "quantity": "1",
       "unit": "teaspoon",
       "preparation": null,
@@ -170,8 +176,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Letting the steak rest for 10 minutes after grilling is crucial for retaining juices.",
+    "For best results, bring steaks to room temperature for 30 minutes before grilling."
+  ],
+  "storage_notes": [
+    "Store leftover steak and rice separately in airtight containers in the refrigerator for up to 3 days.",
+    "Reheat rice with a splash of water to restore moisture."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/grilled-rib-eye-steak-with-arroz-amarillo/"

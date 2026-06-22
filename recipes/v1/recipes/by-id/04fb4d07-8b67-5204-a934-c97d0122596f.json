@@ -4,9 +4,9 @@
   "id": "04fb4d07-8b67-5204-a934-c97d0122596f",
   "slug": "filipino-fish-steak-recipe",
   "name": "Filipino Fish Steak Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Filipino Fish Steak is the Fish version of Bistek Tagalog, which is also known as Filipino Beef Steak. This dish is simple and easy to prepare. If you have been visiting this food blog for a while, you should be aware that I always speak of what I think is the truth \u2013 and this recipe is something that is easy and delicious.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -53,24 +53,27 @@
   "cooking_time_minutes": 20,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/04fb4d07-8b67-5204-a934-c97d0122596f/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "Fish",
+    "Soybeans"
+  ],
   "equipment": [],
   "ingredients": [
     {
       "ingredient_id": "b022d945-1cd9-5867-bcce-d76561302323",
-      "name": "belly of 2 milkfish",
-      "normalized_name": "belly of 2 milkfish",
-      "quantity": null,
-      "unit": null,
+      "name": "milkfish belly",
+      "normalized_name": "milkfish belly",
+      "quantity": "2",
+      "unit": "pieces",
       "preparation": "sliced",
       "position": 1
     },
@@ -79,17 +82,17 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 2
     },
     {
       "ingredient_id": "33618afe-0a1c-573e-9dbb-f05f888ee78a",
-      "name": "juice of 1 lemon",
-      "normalized_name": "juice of 1 lemon",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
       "position": 3
     },
     {
@@ -105,27 +108,27 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/2",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 5
     },
     {
       "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
-      "name": "pepper",
-      "normalized_name": "pepper",
-      "quantity": null,
-      "unit": null,
+      "name": "ground black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 6
     },
     {
       "ingredient_id": "6208ccbe-4216-558b-9a23-c34538600cba",
-      "name": "chopped flat leaf parsley",
-      "normalized_name": "chopped flat leaf parsley",
+      "name": "flat leaf parsley",
+      "normalized_name": "flat leaf parsley",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 7
     },
     {

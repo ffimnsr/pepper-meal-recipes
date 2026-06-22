@@ -3,9 +3,9 @@
   "schema_version": 1,
   "id": "0cc3752e-940a-5db6-979b-38f94eed9b64",
   "slug": "binagoongang-talong",
-  "name": "Binagoongang Talong Recipe",
-  "recipe_type": "salad",
-  "brief_description": "Eggplant cooked in shrimp paste with chillies.",
+  "name": "Binagoongang Talong",
+  "recipe_type": "main",
+  "brief_description": "Filipino eggplant dish cooked in savory shrimp paste (bagoong) with pork, tomatoes, and chili peppers. Best served with steamed rice.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -64,9 +64,22 @@
     "unsaturatedFatContent": "15 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Pork"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Spatula",
+    "Knife",
+    "Cutting board",
+    "Measuring spoons",
+    "Measuring cups"
+  ],
   "ingredients": [
     {
       "ingredient_id": "95564c4f-61e3-5cb4-9850-e4b754ae3e46",
@@ -171,8 +184,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 12
     }
@@ -201,17 +214,16 @@
       "slug": "eggplant",
       "name": "eggplant",
       "color": null
-    },
-    {
-      "id": "6e629658-2bb1-55f6-b7c7-1653425244a2",
-      "slug": "ensaladang-talong",
-      "name": "ensaladang talong",
-      "color": null
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Adjust the amount of bagoong alamang according to your salt preference.",
+    "Serve hot with steamed rice."
+  ],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/binagoongang-talong/"

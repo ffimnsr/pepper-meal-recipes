@@ -4,9 +4,9 @@
   "id": "0953ab3a-792c-544e-b674-9c751cd40f14",
   "slug": "creamy-tuyo-pesto-pasta-recipe",
   "name": "Creamy Tuyo Pesto",
-  "recipe_type": null,
-  "brief_description": "Creamy Tuyo Pesto Recipe",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "A Filipino-Italian fusion pasta dish featuring salty tuyo (dried herring) flakes in a rich, creamy pesto sauce.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -53,17 +53,28 @@
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0953ab3a-792c-544e-b674-9c751cd40f14/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Contains Dairy"
+  ],
+  "allergens": [
+    "Fish",
+    "Milk",
+    "Wheat"
+  ],
+  "equipment": [
+    "Blender or food processor",
+    "Cooking pot",
+    "Cooking pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "dc0dd4c1-70ac-5db7-9020-05db5b47ad7c",
@@ -179,12 +190,48 @@
       "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
       "slug": "fish",
       "name": "Fish"
+    },
+    {
+      "id": "3f4c5d6e-7f8a-9012-b3c4-d5e6f7a8b9c0",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "4a5b6c7d-8e9f-0123-a4b5-c6d7e8f9a0b1",
+      "slug": "main-course",
+      "name": "Main Course"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "5b6c7d8e-9f0a-1234-b5c6-d7e8f9a0b1c2",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "6c7d8e9f-0a1b-2345-c6d7-e8f9a0b1c2d3",
+      "slug": "creamy",
+      "name": "Creamy"
+    },
+    {
+      "id": "7d8e9f0a-1b2c-3456-d7e8-f9a0b1c2d3e4",
+      "slug": "filipino",
+      "name": "Filipino"
+    },
+    {
+      "id": "8e9f0a1b-2c3d-4567-e8f9-a0b1c2d3e4f5",
+      "slug": "seafood",
+      "name": "Seafood"
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Tuyo is naturally salty; taste the sauce before adding additional salt.",
+    "Adjust the amount of tuyo flakes according to your preference for saltiness."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days. Reheat gently with a splash of cream or water to loosen the sauce."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/creamy-tuyo-pesto-pasta-recipe/"

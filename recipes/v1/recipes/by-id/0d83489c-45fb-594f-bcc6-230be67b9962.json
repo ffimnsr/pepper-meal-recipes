@@ -10,7 +10,7 @@
   "instructions": [
     {
       "position": 1,
-      "text": "Prepare the ground beef filing by heating 3 tablespoons of cooking oil in a pan."
+      "text": "Prepare the ground beef filling by heating 3 tablespoons of cooking oil in a pan."
     },
     {
       "position": 2,
@@ -59,7 +59,7 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g",
+    "servingSize": "1 serving",
     "calories": "555 kcal",
     "carbohydrateContent": "8 g",
     "proteinContent": "21 g",
@@ -73,15 +73,22 @@
     "unsaturatedFatContent": "35 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs"
+  ],
+  "equipment": [
+    "frying pan",
+    "spatula",
+    "mixing bowl",
+    "whisk"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "4",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 1
     },
@@ -99,7 +106,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 3
     },
@@ -108,7 +115,7 @@
       "name": "green bell pepper",
       "normalized_name": "green bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 4
     },

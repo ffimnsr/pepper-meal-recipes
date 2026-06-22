@@ -32,7 +32,7 @@
   "servings": 3,
   "cooking_time_minutes": 70,
   "preparation_time_minutes": 5,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 360,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/037f48df-2601-5355-87c0-774bd890e716/cover.jpg",
   "video_url": null,
@@ -55,7 +55,9 @@
   "dietary_labels": [],
   "allergens": [],
   "equipment": [
-    "Air fryer"
+    "Air fryer",
+    "Large cooking pot",
+    "Tongs"
   ],
   "ingredients": [
     {
@@ -134,8 +136,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "2",
+      "unit": "teaspoons",
       "preparation": null,
       "position": 9
     },
@@ -143,8 +145,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 10
     }
@@ -176,8 +178,17 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Ensure the pork hock is completely dry before air frying for maximum crispiness.",
+    "The drying step is crucial for achieving crispy skin.",
+    "For faster drying, use a dehydrator or air fryer at low temperature.",
+    "Serve with spiced vinegar, soy sauce with calamansi, or lechon sauce."
+  ],
+  "storage_notes": [
+    "Best consumed immediately while crispy.",
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat in air fryer at 375\u00b0F for 8-10 minutes to restore crispiness."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/air-fryer-crispy-pata/"

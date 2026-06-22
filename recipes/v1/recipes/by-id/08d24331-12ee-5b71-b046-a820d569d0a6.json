@@ -6,7 +6,7 @@
   "name": "Spicy Beef Noodle Soup",
   "recipe_type": "soup",
   "brief_description": "Beef Noodle Soup has always been a favorite especially during cold weather. This Spicy Beef Noodle Soup Recipe will surely make you feel warm",
-  "cuisine": null,
+  "cuisine": "Chinese",
   "instructions": [
     {
       "position": 1,
@@ -62,16 +62,23 @@
     "servingSize": "5 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Soy",
+    "Wheat",
+    "Gluten"
+  ],
+  "equipment": [
+    "Pot",
+    "Bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "671dd2eb-a265-5fc6-b87e-c6738ffa8407",
-      "name": "sliced beef shank",
-      "normalized_name": "sliced beef shank",
+      "name": "beef shank",
+      "normalized_name": "beef shank",
       "quantity": "2",
       "unit": "lbs",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 1
     },
     {
@@ -96,18 +103,18 @@
       "ingredient_id": "9b06717d-05d3-5c69-902d-da50fd34d973",
       "name": "baby bok choy",
       "normalized_name": "baby bok choy",
-      "quantity": null,
-      "unit": null,
+      "quantity": "6",
+      "unit": "pieces",
       "preparation": "cleaned",
       "position": 4
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 5
     },
     {
@@ -139,20 +146,20 @@
     },
     {
       "ingredient_id": "5ec285ac-e5f8-545b-b77d-a4264f14cee4",
-      "name": "minced ginger",
-      "normalized_name": "minced ginger",
+      "name": "ginger",
+      "normalized_name": "ginger",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 9
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 10
     },
     {
@@ -196,7 +203,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 15
     },
@@ -205,7 +212,7 @@
       "name": "pepper",
       "normalized_name": "pepper",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 16
     }

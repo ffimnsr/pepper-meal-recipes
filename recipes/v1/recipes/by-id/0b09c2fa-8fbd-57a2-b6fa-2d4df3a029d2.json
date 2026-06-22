@@ -4,9 +4,9 @@
   "id": "0b09c2fa-8fbd-57a2-b6fa-2d4df3a029d2",
   "slug": "egg-foo-young-recipe",
   "name": "Egg Foo Young Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This is a recipe for Egg Foo Young",
-  "cuisine": null,
+  "cuisine": "Chinese",
   "instructions": [
     {
       "position": 1,
@@ -59,11 +59,26 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-eggs",
+    "contains-shellfish",
+    "contains-pork",
+    "contains-soy"
+  ],
+  "allergens": [
+    "eggs",
+    "shellfish",
+    "soy"
+  ],
+  "equipment": [
+    "saucepan",
+    "frying pan",
+    "mixing bowl",
+    "cooking pot",
+    "ladle"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -94,10 +109,10 @@
     },
     {
       "ingredient_id": "c7318de4-fad0-5651-8cf7-7e92be8f5050",
-      "name": "sized onion",
-      "normalized_name": "sized onion",
+      "name": "onion",
+      "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 4
     },
@@ -106,7 +121,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 5
     },
@@ -141,8 +156,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/2",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 9
     },
@@ -150,8 +165,8 @@
       "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
       "name": "pepper",
       "normalized_name": "pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 10
     },
@@ -184,12 +199,30 @@
     },
     {
       "ingredient_id": "e929127a-b681-5c77-bc1e-1b81a88ace91",
-      "name": "cornstarch dissolved in 4 tablespoons water",
-      "normalized_name": "cornstarch dissolved in 4 tablespoons water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "dissolved in 4 tablespoons water",
       "position": 14
+    },
+    {
+      "ingredient_id": "8f4e2a1b-3c4d-5e6f-7a8b-9c0d1e2f3a4b",
+      "name": "leeks",
+      "normalized_name": "leeks",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": "chopped",
+      "position": 15
+    },
+    {
+      "ingredient_id": "9a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d",
+      "name": "mushrooms",
+      "normalized_name": "mushrooms",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": "sliced",
+      "position": 16
     }
   ],
   "categories": [

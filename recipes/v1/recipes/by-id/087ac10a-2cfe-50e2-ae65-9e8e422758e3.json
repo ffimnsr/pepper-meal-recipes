@@ -53,9 +53,21 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Eggs",
+    "Dairy",
+    "Gluten"
+  ],
+  "equipment": [
+    "Electric mixer",
+    "Mixing bowls",
+    "9-10 inch round cake pans",
+    "Oven",
+    "Bread knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "246dd1c7-1948-51ea-a594-e87773aec86d",
@@ -95,11 +107,11 @@
     },
     {
       "ingredient_id": "b94296dc-9e1a-5dad-9dc2-727ad66f0055",
-      "name": "cold water",
-      "normalized_name": "cold water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "cold",
       "position": 5
     },
     {

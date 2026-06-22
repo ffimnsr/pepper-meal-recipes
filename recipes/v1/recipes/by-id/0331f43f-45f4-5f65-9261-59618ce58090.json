@@ -4,8 +4,8 @@
   "id": "0331f43f-45f4-5f65-9261-59618ce58090",
   "slug": "chicken-hamonado-recipe",
   "name": "Chicken Hamonado",
-  "recipe_type": "dessert",
-  "brief_description": "This is a recipe for hamonadong manok or sweet chicken hamonado.&nbsp;",
+  "recipe_type": "main",
+  "brief_description": "This is a recipe for hamonadong manok or sweet chicken hamonado.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Arrange a colander over a large bowl. Pour the chicken mixture. Let the it stay for 10 minutes or until the marinade completely drips-off the chicken. Set the marinade aside."
+      "text": "Arrange a colander over a large bowl. Pour the chicken mixture. Let it stay for 10 minutes or until the marinade completely drips-off the chicken. Set the marinade aside."
     },
     {
       "position": 3,
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Add chicken pieces,. Pour marinade. Let boil. Cover and cook in low heat for 30 to 35 minutes. Note: add water as needed."
+      "text": "Add chicken pieces. Pour marinade. Let boil. Cover and cook over low heat for 30 to 35 minutes. Note: add water as needed."
     },
     {
       "position": 6,
@@ -63,8 +63,15 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "cooking pot",
+    "colander",
+    "mixing bowl",
+    "serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -133,8 +140,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/2",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 8
     },
@@ -142,8 +149,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 9
     }

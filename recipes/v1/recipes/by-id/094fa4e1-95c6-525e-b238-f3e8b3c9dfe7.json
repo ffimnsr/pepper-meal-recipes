@@ -4,9 +4,9 @@
   "id": "094fa4e1-95c6-525e-b238-f3e8b3c9dfe7",
   "slug": "seared-okra-and-tomato-recipe",
   "name": "Seared Okra and Tomato Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Seared Okra and Tomato",
-  "cuisine": null,
+  "recipe_type": "side",
+  "brief_description": "A quick Filipino saut\u00e9 of fresh okra and tomatoes seasoned with garlic, salt, and pepper. The vinegar toss reduces okra slime while maintaining a crisp-tender texture.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -47,11 +47,18 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "skillet",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "2ac52341-3e44-5b98-83f6-0076f96d508d",
@@ -67,7 +74,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cubed",
       "position": 2
     },
@@ -117,8 +124,13 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Tossing okra with vinegar helps reduce slime during cooking.",
+    "Do not overcook the okra to maintain its crisp texture."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/seared-okra-and-tomato-recipe/"

@@ -4,8 +4,8 @@
   "id": "04f34321-4776-5fbe-aa1e-532906cd7dae",
   "slug": "nilagang-baka-ala-bulalo",
   "name": "Nilagang Baka ala Bulalo",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Nilagang Baka ala Bulalo",
+  "recipe_type": "main",
+  "brief_description": "A Filipino beef and vegetable soup similar to bulalo, featuring tender beef chuck, corn, potatoes, and cabbage simmered in a savory clear broth.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -55,11 +55,15 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "89009c1c-76a6-5143-8d75-494309a66aa0",
@@ -84,7 +88,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "piece",
       "preparation": "wedged",
       "position": 3
     },
@@ -102,7 +106,7 @@
       "name": "sweet corn",
       "normalized_name": "sweet corn",
       "quantity": "1",
-      "unit": null,
+      "unit": "ear",
       "preparation": null,
       "position": 5
     },
@@ -110,7 +114,7 @@
       "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
       "name": "fish sauce",
       "normalized_name": "fish sauce",
-      "quantity": "4 to 4",
+      "quantity": "3 to 4",
       "unit": "tablespoons",
       "preparation": null,
       "position": 6
@@ -120,7 +124,7 @@
       "name": "beef cube",
       "normalized_name": "beef cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 7
     },
@@ -129,7 +133,7 @@
       "name": "baking potato",
       "normalized_name": "baking potato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 8
     },
@@ -138,7 +142,7 @@
       "name": "cabbage",
       "normalized_name": "cabbage",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "head",
       "preparation": "sliced",
       "position": 9
     }

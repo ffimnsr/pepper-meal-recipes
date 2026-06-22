@@ -47,11 +47,17 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 cup"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "equipment": [
+    "cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
@@ -90,22 +96,31 @@
       "position": 4
     },
     {
+      "ingredient_id": "9f8e7d6c-5b4a-43f2-91e8-123456789abc",
+      "name": "chili flakes",
+      "normalized_name": "chili flakes",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
       "ingredient_id": "aac01892-174e-5006-846c-d2b7ae99563a",
       "name": "crushed tomato",
       "normalized_name": "crushed tomato",
       "quantity": "3",
       "unit": "cups",
       "preparation": null,
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
@@ -114,7 +129,7 @@
       "quantity": "3",
       "unit": "cups",
       "preparation": null,
-      "position": 7
+      "position": 8
     },
     {
       "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
@@ -123,7 +138,7 @@
       "quantity": "2 1/2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 8
+      "position": 9
     },
     {
       "ingredient_id": "88484198-1339-5eeb-a28d-8ad010e76991",
@@ -132,7 +147,7 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": "grated",
-      "position": 9
+      "position": 10
     }
   ],
   "categories": [

@@ -4,9 +4,9 @@
   "id": "0dbd601d-0295-5c95-a760-b5acaa3d8edd",
   "slug": "tonkatsu-sinangag-at-itlog",
   "name": "Tonkatsu Sinangag at Itlog",
-  "recipe_type": null,
-  "brief_description": "This is a recipe Tonkatsu Sinangag at Itlog",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "A Filipino breakfast favorite (Tosi-log) featuring crispy Japanese-style breaded pork cutlet served with garlic fried rice (sinangag) and fried egg (itlog).",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -50,8 +50,16 @@
     "servingSize": "1 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Egg",
+    "Gluten",
+    "Soy"
+  ],
+  "equipment": [
+    "Frying pan",
+    "Tongs",
+    "Shallow bowls or plates for dredging"
+  ],
   "ingredients": [
     {
       "ingredient_id": "57593523-2bc0-5bc3-8768-0ab77c09efe0",
@@ -64,11 +72,11 @@
     },
     {
       "ingredient_id": "1a0a136d-1169-518c-b085-98850cc654af",
-      "name": "fried egg",
-      "normalized_name": "fried egg",
+      "name": "egg",
+      "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
-      "preparation": null,
+      "unit": "piece",
+      "preparation": "fried",
       "position": 2
     },
     {
@@ -103,7 +111,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "beaten",
       "position": 6
     },
@@ -142,6 +150,15 @@
       "unit": "cup",
       "preparation": null,
       "position": 10
+    },
+    {
+      "ingredient_id": "a7f3e8d2-9c4b-4f1d-b8e6-3c5a7d9f2e1b",
+      "name": "pork cutlet",
+      "normalized_name": "pork cutlet",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 11
     }
   ],
   "categories": [

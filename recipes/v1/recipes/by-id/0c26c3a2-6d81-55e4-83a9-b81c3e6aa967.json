@@ -58,8 +58,18 @@
     "servingSize": "3 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Egg",
+    "Wheat",
+    "Gluten",
+    "Soy"
+  ],
+  "equipment": [
+    "Pressure cooker",
+    "Deep cooking pot",
+    "Saucepan",
+    "Paper towels"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3e1a989c-6117-5370-b2e1-a19eaa281407",
@@ -75,7 +85,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "beaten",
       "position": 2
     },
@@ -183,7 +193,7 @@
       "name": "cornstarch",
       "normalized_name": "cornstarch",
       "quantity": "1",
-      "unit": "tablespoons",
+      "unit": "tablespoon",
       "preparation": null,
       "position": 14
     },

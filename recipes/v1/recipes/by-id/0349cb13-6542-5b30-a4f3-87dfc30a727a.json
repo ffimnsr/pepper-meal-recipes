@@ -4,9 +4,9 @@
   "id": "0349cb13-6542-5b30-a4f3-87dfc30a727a",
   "slug": "grilled-grouper-steak-in-foil-packet-inihaw-na-lapu",
   "name": "Grilled Grouper Steak in Foil Packet",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Grilled Grouper Steak in Foil Packet",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Filipino-style grilled grouper steak cooked in foil packets with lemon-garlic butter and topped with crispy toasted garlic.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -43,37 +43,47 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Gluten-Free"
+  ],
+  "allergens": [
+    "Fish",
+    "Dairy"
+  ],
+  "equipment": [
+    "Grill",
+    "Aluminum foil",
+    "Mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "61450257-f384-5b78-aa94-947f614e75ed",
       "name": "grouper steak",
       "normalized_name": "grouper steak",
-      "quantity": "2 6",
-      "unit": "ounces",
+      "quantity": "2",
+      "unit": "steaks",
       "preparation": null,
       "position": 1
     },
     {
       "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
-      "name": "melted butter",
-      "normalized_name": "melted butter",
+      "name": "butter",
+      "normalized_name": "butter",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "melted",
       "position": 2
     },
     {
       "ingredient_id": "ed386748-d3cc-5a27-9b75-2c49fdb37427",
-      "name": "toasted garlic",
-      "normalized_name": "toasted garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "toasted",
       "position": 3
     },
     {
@@ -90,7 +100,7 @@
       "name": "lemon",
       "normalized_name": "lemon",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 5
     }

@@ -6,7 +6,7 @@
   "name": "Fish Ball Soup Recipe",
   "recipe_type": "soup",
   "brief_description": "Fish Ball Soup is a nice tasting fish soup with scallions and bok choy. Minced fish fillet is made into a ball by adding tapioca starch and minced scallions.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -61,9 +61,19 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "food processor",
+    "large cooking pot",
+    "mixing bowl",
+    "spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "1a371118-2b35-529f-ae23-6bd021e82c0e",
@@ -94,20 +104,20 @@
     },
     {
       "ingredient_id": "2cdb9107-060d-54e0-936d-bb18e3082d18",
-      "name": "minced scallion",
-      "normalized_name": "minced scallion",
+      "name": "scallions",
+      "normalized_name": "scallion",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "minced",
       "position": 4
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallions",
+      "normalized_name": "scallion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 5
     },
     {
@@ -115,7 +125,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 6
     },
@@ -124,7 +134,7 @@
       "name": "baby bok choy",
       "normalized_name": "baby bok choy",
       "quantity": "1",
-      "unit": null,
+      "unit": "head",
       "preparation": null,
       "position": 7
     },

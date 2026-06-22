@@ -10,7 +10,7 @@
   "instructions": [
     {
       "position": 1,
-      "text": "Rub salt all over the chicken. Let it stay for 15 minutes."
+      "text": "Rub salt all over the chicken pieces. Let rest for 15 minutes."
     },
     {
       "position": 2,
@@ -18,23 +18,23 @@
     },
     {
       "position": 3,
-      "text": "Prepare the batter. Start by pressing a fork on the chicken cube until it is completely squashed. Combine it with warm milk. Stir until well blended. Set aside."
+      "text": "Prepare the batter by crushing the chicken cube with a fork until completely dissolved. Combine it with the warm evaporated milk and stir until well blended. Set aside."
     },
     {
       "position": 4,
-      "text": "Combine flour, baking powder, garlic powder, salt, and ground black pepper. Mix well using a fork or a wire whisk. Set aside."
+      "text": "Combine the flour, baking powder, garlic powder, salt, and ground black pepper. Mix well using a fork or wire whisk. Set aside."
     },
     {
       "position": 5,
-      "text": "Beat the eggs in a large mixing bowl. Add the milk mixture. Continue to beat until all the ingredients are all incorporated. Add half of flour mixture. Whisk. Add the remaining half and whisk until the texture of the batter becomes smooth."
+      "text": "Beat the eggs in a large mixing bowl. Add the milk mixture and continue beating until all ingredients are incorporated. Add half of the flour mixture and whisk. Add the remaining half and whisk until the batter is smooth."
     },
     {
       "position": 6,
-      "text": "Dredge the chicken in flour and then dip in batter. Roll it again in flour until completely covered. Fry in medium heat for 7 minutes per side."
+      "text": "Dredge the chicken in flour, then dip into the batter. Roll again in flour until completely covered. Fry over medium heat for 7 minutes per side."
     },
     {
       "position": 7,
-      "text": "Remove from the pot and put in a plate lined with paper towel. This will absorb the oil."
+      "text": "Remove from the pot and place on a plate lined with paper towels to absorb excess oil."
     },
     {
       "position": 8,
@@ -48,14 +48,14 @@
   "servings": 6,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 20,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 15,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/02c08560-21b9-55c9-a59b-bdd05dbd5287/cover.webp",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g",
+    "servingSize": "1 serving",
     "calories": "1680 kcal",
     "carbohydrateContent": "32 g",
     "proteinContent": "50 g",
@@ -69,8 +69,19 @@
     "unsaturatedFatContent": "125 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Gluten",
+    "Egg",
+    "Milk"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Large mixing bowl",
+    "Fork",
+    "Wire whisk",
+    "Paper towels",
+    "Plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -122,7 +133,7 @@
       "name": "knorr chicken cube",
       "normalized_name": "knorr chicken cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 6
     },
@@ -131,7 +142,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 7
     },
@@ -140,7 +151,7 @@
       "name": "all-purpose flour",
       "normalized_name": "all-purpose flour",
       "quantity": "3/4",
-      "unit": "cups",
+      "unit": "cup",
       "preparation": null,
       "position": 8
     },
@@ -202,8 +213,14 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Ensure the oil is at the correct temperature before frying to avoid a soggy coating.",
+    "Do not overcrowd the pot to maintain oil temperature and ensure even cooking."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat in an oven or air fryer to maintain crispiness."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/crispy-fried-chicken-recipe/"

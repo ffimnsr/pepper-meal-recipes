@@ -3,18 +3,18 @@
   "schema_version": 1,
   "id": "07174e18-dece-54e3-af36-c5fe68409c6a",
   "slug": "baked-chicken-parmesan-recipe",
-  "name": "Baked Chicken Parmesan Recipe",
+  "name": "Baked Chicken Parmesan",
   "recipe_type": null,
-  "brief_description": "This Baked Chicken Parmesan Recipe is a winner. It is simple to make and all you have to do is bake it in the oven \u2013 although you will still need to cook the spaghetti noodles.",
+  "brief_description": "This Baked Chicken Parmesan is a winner. It is simple to make and all you have to do is bake it in the oven \u2013 although you will still need to cook the spaghetti noodles.",
   "cuisine": null,
   "instructions": [
     {
       "position": 1,
-      "text": "Cook the Spaghetti noodles according to package instructions. Set aside."
+      "text": "Cook the spaghetti noodles according to package instructions. Set aside."
     },
     {
       "position": 2,
-      "text": "Preheat oven to 360 Fahrenheit."
+      "text": "Preheat the oven to 360 degrees Fahrenheit."
     },
     {
       "position": 3,
@@ -30,7 +30,7 @@
     },
     {
       "position": 6,
-      "text": "Bake for 18 to 20 minutes."
+      "text": "Bake for 18 to 20 minutes, or until the chicken is cooked through."
     },
     {
       "position": 7,
@@ -38,7 +38,7 @@
     },
     {
       "position": 8,
-      "text": "Arrange the spaghetti noodles in serving plates. Top with the baked chicken Parmesan and more marina sauce as needed."
+      "text": "Arrange the spaghetti noodles on serving plates. Top with the baked chicken Parmesan and more marinara sauce, as needed."
     },
     {
       "position": 9,
@@ -55,11 +55,20 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Dairy",
+    "Eggs",
+    "Gluten",
+    "Wheat"
+  ],
+  "equipment": [
+    "Oven",
+    "Baking dish",
+    "Mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "11843ddc-9136-55c4-834f-29cfc38d731b",
@@ -99,11 +108,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 5
     },
     {
@@ -129,7 +138,7 @@
       "name": "cooking oil spray",
       "normalized_name": "cooking oil spray",
       "quantity": null,
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 8
     },
@@ -138,17 +147,17 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "beaten",
       "position": 9
     },
     {
       "ingredient_id": "e943758d-4323-5cf3-adc9-5e61e055ae20",
-      "name": "shredded parmesan cheese",
-      "normalized_name": "shredded parmesan cheese",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 10
     },
     {
@@ -189,7 +198,9 @@
   "tags": [],
   "related_recipe_ids": [],
   "recipe_notes": [],
-  "storage_notes": [],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/baked-chicken-parmesan-recipe/"

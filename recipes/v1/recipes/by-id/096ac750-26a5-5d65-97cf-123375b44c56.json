@@ -4,9 +4,9 @@
   "id": "096ac750-26a5-5d65-97cf-123375b44c56",
   "slug": "crispy-fried-mahi-mahi-sarciado",
   "name": "Crispy Fried Mahi Mahi Sarciado",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Crispy Fried Mahi Mahi Sarciado",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Crispy fried mahi-mahi fillets topped with a savory egg and tomato sarciado sauce, a classic Filipino dish that combines crunchy textures with a rich, tangy sauce.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -53,17 +53,31 @@
   "cooking_time_minutes": 20,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/096ac750-26a5-5d65-97cf-123375b44c56/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Fish",
+    "Eggs",
+    "Wheat",
+    "Gluten"
+  ],
+  "equipment": [
+    "Deep cooking pot",
+    "Saucepan",
+    "Tongs or slotted spoon",
+    "Plate",
+    "Paper towels"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b703325f-4cdb-5ec1-9f66-d2a21031b50e",
@@ -106,7 +120,7 @@
       "name": "ripe roma tomato",
       "normalized_name": "ripe roma tomato",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "sliced into small cubes",
       "position": 5
     },
@@ -115,7 +129,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 6
     },
@@ -124,7 +138,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 7
     },
@@ -133,7 +147,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "beaten",
       "position": 8
     },

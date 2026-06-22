@@ -45,9 +45,20 @@
     "@type": "NutritionInformation",
     "servingSize": "3 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "steamer",
+    "grater",
+    "small bowl",
+    "plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "648bcec0-2e90-5146-b477-8322f41d1646",
@@ -60,11 +71,11 @@
     },
     {
       "ingredient_id": "43090370-3fd0-5d19-ac6c-ef23008949e0",
-      "name": "rind from 1 lemon",
-      "normalized_name": "rind from 1 lemon",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "rind",
       "position": 2
     },
     {
@@ -78,11 +89,11 @@
     },
     {
       "ingredient_id": "79a67268-f09a-50cb-86f5-1735baaba0c8",
-      "name": "crushed garlic",
-      "normalized_name": "crushed garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "4 to 6",
-      "unit": "pieces",
-      "preparation": null,
+      "unit": "cloves",
+      "preparation": "crushed",
       "position": 4
     }
   ],

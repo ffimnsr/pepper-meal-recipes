@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "0d6c1978-729e-53f8-80f7-2a62bde15836",
   "slug": "ham-and-potato-soup-recipe",
-  "name": "Ham and Potato Soup Recipe",
+  "name": "Ham and Potato Soup",
   "recipe_type": "soup",
   "brief_description": "A good soup can help build your appetite. This Ham and Potato Soup Recipe is a nice warm soup that can make your meals enjoyable.",
   "cuisine": null,
@@ -59,11 +59,19 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "4 servings"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "cooking pot",
+    "saucepan",
+    "whisk",
+    "bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "53c4ecc7-54c9-56e4-9496-38a51a8b5995",
@@ -97,7 +105,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 4
     },

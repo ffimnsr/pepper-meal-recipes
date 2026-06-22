@@ -4,9 +4,9 @@
   "id": "0b415cf9-dc02-5d21-b7fa-66238dd20f72",
   "slug": "easy-spinach-dip-recipe",
   "name": "Easy Spinach Dip Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Easy Spinach Dip",
-  "cuisine": null,
+  "recipe_type": "appetizer",
+  "brief_description": "A creamy, chilled spinach dip with water chestnuts and vegetable soup mix, perfect for serving with chips, crackers, or bread.",
+  "cuisine": "american",
   "instructions": [
     {
       "position": 1,
@@ -28,18 +28,23 @@
   "servings": 4,
   "cooking_time_minutes": 1,
   "preparation_time_minutes": 12,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 120,
   "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0b415cf9-dc02-5d21-b7fa-66238dd20f72/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1/4 of recipe"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "mixing bowl",
+    "refrigerator"
+  ],
   "ingredients": [
     {
       "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
@@ -79,11 +84,11 @@
     },
     {
       "ingredient_id": "639109b5-da35-5369-b1f4-bdcd578a8f24",
-      "name": "chopped spinach",
-      "normalized_name": "chopped spinach",
+      "name": "spinach",
+      "normalized_name": "spinach",
       "quantity": "6",
       "unit": "ounces",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 5
     }
   ],
@@ -97,7 +102,9 @@
   "tags": [],
   "related_recipe_ids": [],
   "recipe_notes": [],
-  "storage_notes": [],
+  "storage_notes": [
+    "Store covered in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/easy-spinach-dip-recipe/"
