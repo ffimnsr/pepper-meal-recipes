@@ -769,8 +769,8 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
-def recipe_relative_path(recipe_id: str) -> str:
-    return f"recipes/by-id/{recipe_id}.json"
+def recipe_relative_path(path: Path) -> str:
+    return str(path.relative_to(CATALOG_ROOT)).replace("\\", "/")
 
 
 def manifest_file_name(sequence: int) -> str:
@@ -879,19 +879,9 @@ def collect_canonical_recipes() -> list[CanonicalRecipe]:
     return canonical_recipes
 
 
-def rewrite_recipe_files(canonical_recipes: list[CanonicalRecipe]) -> list[Path]:
-    rewritten_paths: list[Path] = []
-
-    for recipe in canonical_recipes:
-        dump_json(recipe.output_path, recipe.payload)
-        rewritten_paths.append(recipe.output_path)
-        if recipe.output_path != recipe.source_path and recipe.source_path.exists():
-            recipe.source_path.unlink()
-
-    return sorted(rewritten_paths)
-
-
-def build_indexes(recipe_paths: list[Path], generated_at: str, repo_sequence: int) -> tuple[list[RecipeSummary], dict, dict, dict, dict]:
+def build_indexes(
+    canonical_recipes: list[CanonicalRecipe], generated_at: str, repo_sequence: int
+) -> tuple[list[RecipeSummary], dict, dict, dict, dict]:
     recipe_summaries: list[RecipeSummary] = []
     category_records: dict[str, dict] = {}
     tag_records: dict[str, dict] = {}
@@ -900,8 +890,9 @@ def build_indexes(recipe_paths: list[Path], generated_at: str, repo_sequence: in
     tag_counts: Counter[str] = Counter()
     ingredient_counts: Counter[str] = Counter()
 
-    for recipe_path in recipe_paths:
-        recipe = load_json(recipe_path)
+    for canonical_recipe in canonical_recipes:
+        recipe_path = canonical_recipe.source_path
+        recipe = canonical_recipe.payload
         file_hash = sha256_file(recipe_path)
         category_slugs = [category["slug"] for category in recipe.get("categories", [])]
         tag_slugs = [tag["slug"] for tag in recipe.get("tags", [])]
@@ -940,7 +931,7 @@ def build_indexes(recipe_paths: list[Path], generated_at: str, repo_sequence: in
                 instruction_step_count=len(recipe.get("instructions", [])),
                 updated_at=recipe["updated_at"],
                 revision=recipe["revision"],
-                recipe_path=recipe_relative_path(recipe["id"]),
+                recipe_path=recipe_relative_path(recipe_path),
                 file_sha256=file_hash,
             )
         )
@@ -1187,8 +1178,7 @@ def main() -> None:
     MANIFESTS_DIR.mkdir(parents=True, exist_ok=True)
 
     canonical_recipes = collect_canonical_recipes()
-    recipe_paths = rewrite_recipe_files(canonical_recipes)
-    if not recipe_paths:
+    if not canonical_recipes:
         raise SystemExit("no recipe payloads found under recipes/v1/recipes/by-id")
 
     generated_at = catalog_generated_at(
@@ -1197,7 +1187,7 @@ def main() -> None:
     )
 
     recipe_summaries, recipes_index, categories_index, tags_index, ingredients_index = build_indexes(
-        recipe_paths,
+        canonical_recipes,
         generated_at,
         repo_sequence,
     )

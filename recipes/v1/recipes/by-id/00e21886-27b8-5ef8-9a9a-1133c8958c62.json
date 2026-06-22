@@ -5,7 +5,7 @@
   "slug": "lechon-belly-roll",
   "name": "Lechon Belly Roll",
   "recipe_type": "main",
-  "brief_description": "Roasted pork belly lechon Cebu sytle.",
+  "brief_description": "Roasted pork belly lechon Cebu style.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "position": 2,
-      "text": "Preheat oven to 350F."
+      "text": "Preheat oven to 350\u00b0F."
     },
     {
       "position": 3,
-      "text": "Chop the scallion, onion, and garlic. Crush the lemon grass and slice into pieces. Place all the garlic and onion over the belly. Add scallion and lemongrass. Roll the belly and secure by tying kitchen twine."
+      "text": "Chop the scallions, onion, and garlic. Crush the lemongrass and slice into pieces. Place all the garlic and onion over the belly. Add scallions and lemongrass. Roll the belly and secure by tying kitchen twine."
     },
     {
       "position": 4,
@@ -30,19 +30,19 @@
     },
     {
       "position": 6,
-      "text": "Increase the heat to 360F. Continue to roast for another hour. Note: add more water on the pan if needed."
+      "text": "Increase the oven temperature to 360\u00b0F. Continue to roast for another hour. Note: add more water to the pan if needed."
     },
     {
       "position": 7,
-      "text": "Increase the heat to 370F. Brush with basting sauce. Roast for 1 hour more."
+      "text": "Increase the oven temperature to 370\u00b0F. Brush with basting sauce. Roast for 1 hour more."
     },
     {
       "position": 8,
-      "text": "Increase heat to 400F. Continue to roast until the skin gets very crispy. Remove from the oven and let the pork belly cool down."
+      "text": "Increase heat to 400\u00b0F. Continue to roast until the skin gets very crispy. Remove from the oven and let the pork belly cool down."
     },
     {
       "position": 9,
-      "text": "Make the dipping sauce by combining all the sauce ingredients as listed above. Microwave for 30 seconds."
+      "text": "Make the dipping sauce by combining all the sauce ingredients (vinegar, soy sauce, red onion, garlic, sugar, peppercorn, and Thai chili). Microwave for 30 seconds."
     },
     {
       "position": 10,
@@ -75,8 +75,19 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Soy"
+  ],
+  "equipment": [
+    "Oven",
+    "Roasting pan",
+    "Roasting rack",
+    "Kitchen twine",
+    "Basting brush",
+    "Chef's knife",
+    "Cutting board",
+    "Microwave"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
@@ -111,7 +122,7 @@
       "normalized_name": "onion",
       "quantity": "1",
       "unit": "piece",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 4
     },
     {
@@ -119,26 +130,26 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "3",
-      "unit": null,
-      "preparation": null,
+      "unit": "cloves",
+      "preparation": "chopped",
       "position": 5
     },
     {
       "ingredient_id": "f82b6386-a0fd-5457-976f-194db96a2bd1",
-      "name": "bunches scallion",
-      "normalized_name": "bunches scallion",
+      "name": "scallions",
+      "normalized_name": "scallions",
       "quantity": "2",
-      "unit": null,
-      "preparation": null,
+      "unit": "bunches",
+      "preparation": "chopped, divided",
       "position": 6
     },
     {
       "ingredient_id": "3dbaf220-bd5a-5f0d-8b6f-67265d921638",
-      "name": "stalks lemongrass",
-      "normalized_name": "stalks lemongrass",
+      "name": "lemongrass",
+      "normalized_name": "lemongrass",
       "quantity": "3",
-      "unit": null,
-      "preparation": null,
+      "unit": "stalks",
+      "preparation": "crushed and sliced",
       "position": 7
     },
     {
@@ -212,6 +223,15 @@
       "unit": "pieces",
       "preparation": "chopped",
       "position": 15
+    },
+    {
+      "ingredient_id": "9f8e7d6c-5b4a-4938-8f7e-6d5c4b3a2910",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 16
     }
   ],
   "categories": [

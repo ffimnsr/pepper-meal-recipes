@@ -3,50 +3,50 @@
   "schema_version": 1,
   "id": "0070db64-a3a9-53d5-9ca8-eab891bd7aba",
   "slug": "cioppino-recipe",
-  "name": "Cioppino Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Cioppino.",
-  "cuisine": null,
+  "name": "Cioppino",
+  "recipe_type": "main",
+  "brief_description": "A hearty Italian-American seafood stew featuring a medley of fish, shrimp, scallops, crab, clams, and mussels in a rich tomato and wine broth, served with crusty bread.",
+  "cuisine": "italian-american",
   "instructions": [
     {
       "position": 1,
-      "text": "Heat oil in a cooking pot."
+      "text": "Heat olive oil in a large pot or Dutch oven over medium heat."
     },
     {
       "position": 2,
-      "text": "Once the oil starts to get hot, add the chopped fennel bulb. Saute for 1 minute."
+      "text": "Add the chopped fennel bulb and saut\u00e9 for 1 minute."
     },
     {
       "position": 3,
-      "text": "Add onion and garlic. Continue to saute until onion becomes soft and translucent."
+      "text": "Add the onion and garlic. Continue to saut\u00e9 until the onion becomes soft and translucent."
     },
     {
       "position": 4,
-      "text": "Pour canned diced tomato, water, and Pinot Grigio wine. Let boil. Continue to boil in medium heat for 5 minutes."
+      "text": "Pour in the canned diced tomatoes, water, and Pinot Grigio wine. Bring to a boil, then reduce to medium heat and simmer for 5 minutes."
     },
     {
       "position": 5,
-      "text": "Add the fish steaks, shrimp, and scallops. Cook for 1 to 2 minutes."
+      "text": "Add the fish steaks, shrimp, scallops, and squid rings. Cook for 1 to 2 minutes."
     },
     {
       "position": 6,
-      "text": "Remove the fish and seafood from the pot using a slotted spoon. Set aside."
+      "text": "Remove the fish, shrimp, scallops, and squid from the pot using a slotted spoon. Set aside."
     },
     {
       "position": 7,
-      "text": "Add basil, bell pepper, and parsley. Stir."
+      "text": "Add the basil, bell pepper, and parsley. Stir to combine."
     },
     {
       "position": 8,
-      "text": "Add crab, clams, and mussels. Cover the pot. Cook for 3 to 5 minutes."
+      "text": "Add the crab, clams, and mussels. Cover the pot and cook for 3 to 5 minutes, until the clams and mussels open."
     },
     {
       "position": 9,
-      "text": "Put the fish, shrimp, and scallops back into the pot. Gently stir."
+      "text": "Return the fish, shrimp, scallops, and squid to the pot. Gently stir to combine."
     },
     {
       "position": 10,
-      "text": "Add Cayenne pepper, salt and ground black pepper."
+      "text": "Season with cayenne pepper, salt, and ground black pepper to taste."
     },
     {
       "position": 11,
@@ -54,7 +54,7 @@
     },
     {
       "position": 12,
-      "text": "Serve with toasted sour dough bread."
+      "text": "Serve immediately with toasted sourdough bread."
     }
   ],
   "servings": 6,
@@ -69,9 +69,19 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish",
+    "shellfish",
+    "gluten"
+  ],
+  "equipment": [
+    "large pot or Dutch oven",
+    "slotted spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8cfc0dbc-02a8-5b4b-be76-c26f39b200d3",
@@ -120,8 +130,8 @@
     },
     {
       "ingredient_id": "a440db72-c24e-501e-88b4-d4af34071906",
-      "name": "dungeneous crab cluster",
-      "normalized_name": "dungeneous crab cluster",
+      "name": "dungeness crab cluster",
+      "normalized_name": "dungeness crab cluster",
       "quantity": "2",
       "unit": null,
       "preparation": null,
@@ -158,8 +168,8 @@
       "ingredient_id": "30e689d9-f00c-5b96-8fdd-bc2fea5143de",
       "name": "diced tomato",
       "normalized_name": "diced tomato",
-      "quantity": "1 14",
-      "unit": "oz",
+      "quantity": "1",
+      "unit": "can (14 oz)",
       "preparation": null,
       "position": 10
     },
@@ -219,11 +229,11 @@
     },
     {
       "ingredient_id": "5aa9d493-e667-560e-8ec3-d7d6346cb41e",
-      "name": "garlic crushed",
-      "normalized_name": "garlic crushed",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "4",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 17
     },
     {
@@ -277,8 +287,16 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Use the freshest seafood available for best results.",
+    "Be careful not to overcook the seafood; it should be just opaque.",
+    "Adjust the amount of cayenne pepper to taste.",
+    "Serve immediately with crusty sourdough bread for dipping in the broth."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 2 days.",
+    "Reheat gently over low heat to avoid overcooking the seafood."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/cioppino-recipe/"

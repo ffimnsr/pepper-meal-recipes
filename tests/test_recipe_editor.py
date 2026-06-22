@@ -3,10 +3,22 @@ import sys
 from pathlib import Path
 from unittest import TestCase, mock
 
-from scripts.generate_catalog import INGREDIENT_NAMESPACE, stable_uuid
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+GENERATE_CATALOG_PATH = REPO_ROOT / "py-scripts" / "generate_catalog.py"
+GENERATE_CATALOG_SPEC = importlib.util.spec_from_file_location("generate_catalog", GENERATE_CATALOG_PATH)
+generate_catalog = importlib.util.module_from_spec(GENERATE_CATALOG_SPEC)
+assert GENERATE_CATALOG_SPEC.loader is not None
+sys.modules[GENERATE_CATALOG_SPEC.name] = generate_catalog
+GENERATE_CATALOG_SPEC.loader.exec_module(generate_catalog)
+
+INGREDIENT_NAMESPACE = generate_catalog.INGREDIENT_NAMESPACE
+stable_uuid = generate_catalog.stable_uuid
 
 
-SCRIPT_PATH = Path(__file__).resolve().parents[1] / "scripts" / "recipe-editor.py"
+SCRIPT_PATH = Path(__file__).resolve().parents[1] / "py-scripts" / "recipe_editor.py"
 SPEC = importlib.util.spec_from_file_location("recipe_editor", SCRIPT_PATH)
 recipe_editor = importlib.util.module_from_spec(SPEC)
 assert SPEC.loader is not None

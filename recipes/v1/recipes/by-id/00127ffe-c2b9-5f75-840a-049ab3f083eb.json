@@ -5,7 +5,7 @@
   "slug": "coconut-buko-pie-recipe",
   "name": "Buko Pie",
   "recipe_type": "dessert",
-  "brief_description": "This is a recipe for Buko Pie",
+  "brief_description": "A traditional Filipino double-crust pie filled with tender young coconut meat in a creamy, sweet custard filling. This beloved dessert features a flaky, buttery pastry encasing a rich coconut center, perfect for special occasions or afternoon merienda.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -67,11 +67,26 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 slice"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Gluten",
+    "Dairy",
+    "Coconut"
+  ],
+  "equipment": [
+    "Mixing bowls",
+    "Balloon whisk",
+    "Pastry cutter or pastry blender",
+    "Rolling pin",
+    "8 or 9-inch cake pan or pie dish",
+    "Saucepan",
+    "Fork",
+    "Oven"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
@@ -138,11 +153,11 @@
     },
     {
       "ingredient_id": "2ff09914-a7b1-5e13-ae56-ab72971ed01b",
-      "name": "cornstarch diluted in 1/2 cup young coconut water",
-      "normalized_name": "cornstarch diluted in 1/2 cup young coconut water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "diluted in 1/2 cup young coconut water",
       "position": 8
     },
     {
@@ -164,8 +179,19 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Ensure butter and shortening are cold for a flaky crust; chill in freezer for 15 minutes before using if kitchen is warm",
+    "If crust edges brown too quickly during baking, cover with aluminum foil or a pie shield",
+    "The filling thickens rapidly once cornstarch mixture is added; stir constantly to prevent lumps",
+    "Reserve young coconut water when extracting meat from fresh coconuts for the cornstarch slurry",
+    "Pie is done when crust is golden brown and filling bubbles slightly through vent holes"
+  ],
+  "storage_notes": [
+    "Store cooled pie in airtight container at room temperature for up to 2 days",
+    "Refrigerate for up to 5 days; bring to room temperature or warm slightly before serving",
+    "To restore crispness to crust, reheat in 350\u00b0F oven for 10 minutes",
+    "Not recommended for freezing as texture of coconut meat may change"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/coconut-buko-pie-recipe/"

@@ -4,13 +4,13 @@
   "id": "0017bb2a-d9c4-5d05-94db-5357aa60b4ac",
   "slug": "ginisang-sardinas-with-ampalayasardines-bitter-melon",
   "name": "Ginisang Sardinas with Ampalaya",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Sauteed Sardines with bittermelon. It is translated as Ginisang Sardinas with Ampalaya in Filipino.",
+  "recipe_type": "main",
+  "brief_description": "A Filipino dish of saut\u00e9ed sardines in tomato sauce with bitter melon, garlic, and onion. Quick to prepare and full of savory umami flavor balanced by the distinctive bitterness of ampalaya.",
   "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Heat oil in a cooking pot"
+      "text": "Heat oil in a cooking pot over medium heat."
     },
     {
       "position": 2,
@@ -22,11 +22,11 @@
     },
     {
       "position": 4,
-      "text": "Pour the contents of the large can of sardines. Gently stir."
+      "text": "Pour in the sardines in tomato sauce. Gently stir to combine."
     },
     {
       "position": 5,
-      "text": "Add ground black pepper and fish sauce. Cover and continue to cook in medium heat for 2 to 3 minutes."
+      "text": "Season with ground black pepper and fish sauce. Cover and cook over medium heat for 2 to 3 minutes."
     },
     {
       "position": 6,
@@ -34,31 +34,41 @@
     },
     {
       "position": 7,
-      "text": "Serve. Share and enjoy!"
+      "text": "Serve hot with steamed rice. Share and enjoy!"
     }
   ],
   "servings": 3,
   "cooking_time_minutes": 12,
   "preparation_time_minutes": 3,
   "rest_time_minutes": null,
-  "difficulty": "medium",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0017bb2a-d9c4-5d05-94db-5357aa60b4ac/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "dairy-free",
+    "gluten-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "cooking pot",
+    "knife",
+    "cutting board",
+    "wooden spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b2bb5682-2d64-5772-966c-3226c0b8089b",
       "name": "sardines in tomato sauce",
       "normalized_name": "sardines in tomato sauce",
       "quantity": "1",
-      "unit": "can",
+      "unit": "large can",
       "preparation": null,
       "position": 1
     },
@@ -67,7 +77,7 @@
       "name": "bitter melon",
       "normalized_name": "bitter melon",
       "quantity": "1",
-      "unit": null,
+      "unit": "medium",
       "preparation": "cored and sliced into thin pieces",
       "position": 2
     },
@@ -76,8 +86,8 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
-      "preparation": null,
+      "unit": "small",
+      "preparation": "sliced",
       "position": 3
     },
     {
@@ -100,11 +110,11 @@
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 6
     },
     {
@@ -144,8 +154,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "To reduce bitterness, soak sliced bitter melon in salted water for 15 minutes before cooking, then rinse and drain well.",
+    "For extra flavor, add a beaten egg in the last minute of cooking and gently stir until set."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 2 days.",
+    "Reheat gently on the stovetop or in the microwave."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/ginisang-sardinas-with-ampalayasardines-bitter-melon/"
