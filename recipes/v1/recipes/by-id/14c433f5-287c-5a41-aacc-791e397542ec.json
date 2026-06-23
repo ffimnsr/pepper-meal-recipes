@@ -6,7 +6,7 @@
   "name": "Adobong Kangkong Recipe",
   "recipe_type": null,
   "brief_description": "This is a recipe for adobong kangkong. It is a Filipino vegetable dish wherein the water spinach is cooked inadobo style.",
-  "cuisine": "Fiipino",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -66,16 +66,22 @@
     "sugarContent": "2 g",
     "transFatContent": "1 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegetarian",
+    "vegan"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "frying pan",
+    "bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b1919bbb-d46e-5bf1-b879-0a0d82a42429",
       "name": "kangkong",
       "normalized_name": "kangkong",
       "quantity": "1",
-      "unit": null,
+      "unit": "bunch",
       "preparation": "leaves and stalks separated stalks cut in 1 inch pieces",
       "position": 1
     },
@@ -93,7 +99,7 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "1",
-      "unit": null,
+      "unit": "head",
       "preparation": "crushed and chopped",
       "position": 3
     },
@@ -137,8 +143,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 8
     }

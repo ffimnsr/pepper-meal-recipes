@@ -6,7 +6,7 @@
   "name": "Banana Bread Recipe",
   "recipe_type": "dessert",
   "brief_description": "Moist and delicious banana bread recipe.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -38,7 +38,7 @@
     },
     {
       "position": 8,
-      "text": "Remove from loaf pan from the oven. Let it cool down. Slice the bread and arrange on a serving plate (Note: You may put the bread in the fridge to cool or serve immediately.)."
+      "text": "Remove the loaf pan from the oven. Let it cool down. Slice the bread and arrange on a serving plate (Note: You may put the bread in the fridge to cool or serve immediately.)."
     },
     {
       "position": 9,
@@ -55,7 +55,7 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g",
+    "servingSize": "1 slice",
     "calories": "359 kcal",
     "carbohydrateContent": "44 g",
     "proteinContent": "3 g",
@@ -68,19 +68,28 @@
     "sugarContent": "20 g",
     "unsaturatedFatContent": "17 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
   "equipment": [
-    "Oven"
+    "Oven",
+    "Loaf pan",
+    "Mixing bowl",
+    "Fork",
+    "Toothpick"
   ],
   "ingredients": [
     {
       "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
-      "name": "banana",
+      "name": "large ripe banana",
       "normalized_name": "banana",
       "quantity": "2",
       "unit": "pieces",
-      "preparation": "large and ripe",
+      "preparation": null,
       "position": 1
     },
     {

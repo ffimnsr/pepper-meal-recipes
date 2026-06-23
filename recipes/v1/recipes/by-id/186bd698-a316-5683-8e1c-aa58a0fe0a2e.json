@@ -77,8 +77,19 @@
     "unsaturatedFatContent": "159 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shellfish",
+    "wheat",
+    "egg",
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "wok",
+    "deep pot or fryer",
+    "tongs or spider strainer",
+    "measuring cups and spoons"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b8fc462a-600f-5e69-936a-e20e4090acd5",
@@ -112,7 +123,7 @@
       "name": "bok choy",
       "normalized_name": "bok choy",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 4
     },
@@ -181,11 +192,11 @@
     },
     {
       "ingredient_id": "30158449-c261-50d1-8601-9b8fb84c48c7",
-      "name": "cornstarch diluted in 3 tablespoons water",
-      "normalized_name": "cornstarch diluted in 3 tablespoons water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "diluted in 3 tablespoons water",
       "position": 12
     },
     {

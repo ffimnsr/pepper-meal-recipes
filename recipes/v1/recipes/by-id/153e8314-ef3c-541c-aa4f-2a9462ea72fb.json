@@ -71,8 +71,15 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish",
+    "dairy"
+  ],
+  "equipment": [
+    "frying pan",
+    "plate",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "09b48090-4ab9-57be-98fb-e1762c62e647",
@@ -121,11 +128,11 @@
     },
     {
       "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
-      "name": "grated parmesan cheese",
-      "normalized_name": "grated parmesan cheese",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "grated",
       "position": 6
     },
     {
@@ -175,11 +182,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
       "unit": null,
-      "preparation": null,
+      "preparation": "ground",
       "position": 12
     }
   ],

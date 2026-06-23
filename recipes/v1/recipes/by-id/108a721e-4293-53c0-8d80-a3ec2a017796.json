@@ -6,7 +6,7 @@
   "name": "Filipino Omelet",
   "recipe_type": "breakfast",
   "brief_description": "Beaten eggs seasoned with salt and pepper and cooked with onions and tomato. This is a delicious breakfast dish best paired with pandesal.",
-  "cuisine": "Fiipino",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -57,9 +57,20 @@
     "fiberContent": "1 g",
     "sugarContent": "3 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian",
+    "Gluten-Free"
+  ],
+  "allergens": [
+    "Eggs"
+  ],
+  "equipment": [
+    "Frying pan",
+    "Medium bowl",
+    "Whisk",
+    "Spatula",
+    "Plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
@@ -75,7 +86,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "2",
-      "unit": "piece",
+      "unit": "pieces",
       "preparation": "diced",
       "position": 2
     },

@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "13fee007-c88e-55a3-8c4d-ebe716e7ce4b",
   "slug": "ensaladang-filipino-recipe",
-  "name": "Ensaladang Filipino Recipe",
+  "name": "Ensaladang Filipino",
   "recipe_type": "salad",
   "brief_description": "Ensaladang Filipino is a type of salad composed of eggplant, onion, and tomato. It has a simple vinaigrette dressing and is sometimes served with shrimp paste. Ensaladang Filipino is also known as ensaladang talong.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -39,7 +39,7 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
@@ -50,7 +50,7 @@
       "name": "chinese eggplant",
       "normalized_name": "chinese eggplant",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 1
     },
@@ -59,7 +59,7 @@
       "name": "plum tomato",
       "normalized_name": "plum tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced and half",
       "position": 2
     },
@@ -68,9 +68,18 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "peeled and sliced in half",
       "position": 3
+    },
+    {
+      "ingredient_id": "a7f8c9d0-e1f2-4a3b-8c4d-5e6f7a8b9c0d",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
@@ -79,7 +88,7 @@
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 4
+      "position": 5
     },
     {
       "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
@@ -88,7 +97,7 @@
       "quantity": "1/2",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -97,7 +106,7 @@
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "d7033a71-09e7-5336-986d-223b33b890e8",
@@ -106,7 +115,7 @@
       "quantity": "1/4",
       "unit": "cup",
       "preparation": null,
-      "position": 7
+      "position": 8
     }
   ],
   "categories": [

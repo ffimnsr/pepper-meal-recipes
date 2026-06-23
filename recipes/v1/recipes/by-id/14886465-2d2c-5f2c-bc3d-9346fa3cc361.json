@@ -4,7 +4,7 @@
   "id": "14886465-2d2c-5f2c-bc3d-9346fa3cc361",
   "slug": "how-to-cook-chicken-teriyaki",
   "name": "Chicken Teriyaki Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This is a simple and straightforward recipe for chicken teriyaki using fresh cut chicken with bones.",
   "cuisine": "Japanese",
   "instructions": [
@@ -41,17 +41,28 @@
   "cooking_time_minutes": 20,
   "preparation_time_minutes": 60,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/14886465-2d2c-5f2c-bc3d-9346fa3cc361/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Soy",
+    "Wheat",
+    "Sesame"
+  ],
+  "equipment": [
+    "Grill",
+    "Saucepan",
+    "Mixing bowl",
+    "Tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -103,7 +114,7 @@
       "name": "sesame seeds",
       "normalized_name": "sesame seeds",
       "quantity": "2",
-      "unit": "teaspoon",
+      "unit": "teaspoons",
       "preparation": null,
       "position": 6
     }

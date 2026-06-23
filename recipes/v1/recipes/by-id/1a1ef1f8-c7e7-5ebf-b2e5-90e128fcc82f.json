@@ -4,9 +4,9 @@
   "id": "1a1ef1f8-c7e7-5ebf-b2e5-90e128fcc82f",
   "slug": "chicago-style-hotdog",
   "name": "Chicago Style Hotdog",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Chicago style hotdog is like no other. It is complete with all the good flavor and it is simply delicious. You can take it anywhere you like",
-  "cuisine": null,
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
@@ -37,17 +37,19 @@
   "cooking_time_minutes": 12,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "medium",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1a1ef1f8-c7e7-5ebf-b2e5-90e128fcc82f/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 hotdog"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "steamer"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d8c333fc-f806-5c05-a160-47477400da9e",
@@ -72,7 +74,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "wedged",
       "position": 3
     },
@@ -96,11 +98,11 @@
     },
     {
       "ingredient_id": "caf4365f-3321-5c46-8f9c-910799adbb54",
-      "name": "diced yellow onion",
-      "normalized_name": "diced yellow onion",
+      "name": "yellow onion",
+      "normalized_name": "yellow onion",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "diced",
       "position": 6
     },
     {

@@ -5,8 +5,8 @@
   "slug": "binatog-bualaw-corn-recipe",
   "name": "Binatog Recipe (Boiled white corn kernels with Shredded Coconut)",
   "recipe_type": "snack",
-  "brief_description": "Binatog or boiled white corn kernels is a popular Filipino snack and street food. This is made by soaking mature white corn in water and salt until puffed.",
-  "cuisine": null,
+  "brief_description": "Binatog is a traditional Filipino snack made with boiled white corn kernels topped with grated coconut and sugar. This version uses canned hominy for convenience.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -37,7 +37,7 @@
   "cooking_time_minutes": 20,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "medium",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/144da260-bca0-5347-b216-34cd7a8ca77c/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -45,9 +45,20 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Tree Nuts"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Colander",
+    "Serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "425272b9-e3df-5390-a0ed-e48cdf95b5ff",
@@ -55,7 +66,7 @@
       "normalized_name": "hominy",
       "quantity": "29",
       "unit": "ounces",
-      "preparation": null,
+      "preparation": "canned",
       "position": 1
     },
     {
@@ -75,6 +86,24 @@
       "unit": "cup",
       "preparation": "grated",
       "position": 3
+    },
+    {
+      "ingredient_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "to taste",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
     }
   ],
   "categories": [
@@ -86,8 +115,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Traditional binatog uses dried mature white corn soaked in water and lye until puffed. Canned hominy is a convenient shortcut that eliminates the soaking process."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 2 days. Best served fresh as the coconut may dry out."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/binatog-bualaw-corn-recipe/"

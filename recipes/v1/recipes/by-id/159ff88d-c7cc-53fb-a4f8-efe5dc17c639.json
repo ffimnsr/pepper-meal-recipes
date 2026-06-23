@@ -5,40 +5,40 @@
   "slug": "pumpkin-muffins-recipe",
   "name": "Pumpkin Muffins",
   "recipe_type": "breakfast",
-  "brief_description": "I made these pumpkin muffins for breakfast because it pairs well with my morning cup of coffee. I get very excited when I start my day baking stuff because this is something that I like to do all the time.",
+  "brief_description": "Moist and warmly spiced pumpkin muffins topped with coarse sugar, perfect for breakfast or pairing with your morning coffee.",
   "cuisine": null,
   "instructions": [
     {
       "position": 1,
-      "text": "Preheat oven to 375F."
+      "text": "Preheat oven to 375\u00b0F (190\u00b0C)."
     },
     {
       "position": 2,
-      "text": "Grease the muffin tray with a cooking spray. Set the pan aside for now."
+      "text": "Grease a muffin tin with cooking spray and set aside."
     },
     {
       "position": 3,
-      "text": "In a large mixing bowl, combine the flour, granulated sugar, baking powder, baking soda, cinnamon, and nutmeg. Mix well."
+      "text": "In a large mixing bowl, whisk together the flour, granulated sugar, baking powder, baking soda, cinnamon, and nutmeg."
     },
     {
       "position": 4,
-      "text": "Add the pumpkin, eggs, water, and oil. Continue to mix until all the ingredients are well blended."
+      "text": "Add the pumpkin, eggs, water, and oil. Stir until just combined."
     },
     {
       "position": 5,
-      "text": "Scoop part of the mixture and place into the muffin tray. Sprinkle the coarse sugar on top."
+      "text": "Scoop the batter into the prepared muffin cups, filling each about two-thirds full. Sprinkle coarse sugar evenly over the tops."
     },
     {
       "position": 6,
-      "text": "Bake for 20 to 30 minutes."
+      "text": "Bake for 20 to 30 minutes, or until a toothpick inserted into the center of a muffin comes out clean."
     },
     {
       "position": 7,
-      "text": "Remove from the oven and let the temperature reduce to room temp."
+      "text": "Remove from the oven and let cool in the pan for 5 minutes, then transfer to a wire rack to cool completely."
     },
     {
       "position": 8,
-      "text": "Serve with hot coffee or hot chocolate."
+      "text": "Serve warm or at room temperature with coffee or hot chocolate."
     }
   ],
   "servings": 15,
@@ -54,8 +54,18 @@
     "servingSize": "15 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "wheat",
+    "eggs",
+    "gluten"
+  ],
+  "equipment": [
+    "muffin tin",
+    "cooking spray",
+    "large mixing bowl",
+    "whisk",
+    "wire rack"
+  ],
   "ingredients": [
     {
       "ingredient_id": "c8583337-416c-5e87-91aa-b94fecb5287d",
@@ -89,7 +99,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 4
     },
@@ -131,20 +141,20 @@
     },
     {
       "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
-      "name": "ground cinnamon",
-      "normalized_name": "ground cinnamon",
+      "name": "cinnamon",
+      "normalized_name": "cinnamon",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 9
     },
     {
       "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
-      "name": "ground nutmeg",
-      "normalized_name": "ground nutmeg",
+      "name": "nutmeg",
+      "normalized_name": "nutmeg",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 10
     },
     {
@@ -166,8 +176,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Do not overmix the batter once the wet ingredients are added; stir just until combined to avoid tough muffins.",
+    "For added texture, fold in 1/2 cup of chopped walnuts or pecans with the wet ingredients."
+  ],
+  "storage_notes": [
+    "Store cooled muffins in an airtight container at room temperature for up to 3 days.",
+    "Muffins can be frozen for up to 3 months; thaw at room temperature or reheat in the microwave."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/pumpkin-muffins-recipe/"

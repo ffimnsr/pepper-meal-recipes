@@ -4,8 +4,8 @@
   "id": "1a8a6562-4f53-5567-94f1-35c073050557",
   "slug": "chicken-gravy",
   "name": "Chicken Gravy",
-  "recipe_type": null,
-  "brief_description": "This chicken gravy version is quick and easy to make. It also cost less because of the use of chicken bouillon, which is very tasty by the way. I usually make this gravy version for all my fried chicken.",
+  "recipe_type": "condiment",
+  "brief_description": "This chicken gravy is quick and easy to make. It costs less because it uses chicken bouillon, which is very tasty. I usually make this gravy for all my fried chicken.",
   "cuisine": "American",
   "instructions": [
     {
@@ -52,8 +52,14 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "wheat",
+    "milk"
+  ],
+  "equipment": [
+    "saucepan",
+    "whisk"
+  ],
   "ingredients": [
     {
       "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
@@ -76,7 +82,7 @@
     {
       "ingredient_id": "d0baff8b-b4d0-5ab6-b900-2ec4beb67067",
       "name": "knorr chicken cube",
-      "normalized_name": "knorr chicken cube",
+      "normalized_name": "chicken bouillon cube",
       "quantity": "1",
       "unit": "piece",
       "preparation": null,
@@ -102,11 +108,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/8",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 6
     },
     {

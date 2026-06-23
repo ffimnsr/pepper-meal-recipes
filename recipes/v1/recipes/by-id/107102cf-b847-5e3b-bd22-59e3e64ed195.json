@@ -4,7 +4,7 @@
   "id": "107102cf-b847-5e3b-bd22-59e3e64ed195",
   "slug": "sweet-and-sour-tilapia",
   "name": "Sweet and Sour Tilapia",
-  "recipe_type": "dessert",
+  "recipe_type": "main",
   "brief_description": "Crispy Fried Tilapia cooked in a tasty sweet and sour sauce.",
   "cuisine": "Filipino",
   "instructions": [
@@ -53,7 +53,7 @@
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/107102cf-b847-5e3b-bd22-59e3e64ed195/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -71,8 +71,13 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "frying pan",
+    "cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3612c5d7-4545-5e0b-a284-8afb44d98042",
@@ -142,7 +147,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 8
     },

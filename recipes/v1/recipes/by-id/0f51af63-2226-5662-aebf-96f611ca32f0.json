@@ -6,7 +6,7 @@
   "name": "Sticky Asian Fried Chicken Wings",
   "recipe_type": "appetizer",
   "brief_description": "Sticky Asian Fried Chicken Wings makes a delicious appetizer; this can also be eaten as a main dish with fried rice. Contrary to most people think, making your own Sticky Asian Fried Chicken Wings is quick and easy.",
-  "cuisine": null,
+  "cuisine": "Asian",
   "instructions": [
     {
       "position": 1,
@@ -53,17 +53,24 @@
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 30,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0f51af63-2226-5662-aebf-96f611ca32f0/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "sesame",
+    "soy"
+  ],
+  "equipment": [
+    "deep cooking pot",
+    "wok",
+    "paper towels"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d1fef6e3-4e4e-5765-a6f2-b634826322a9",
@@ -139,11 +146,11 @@
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 9
     },
     {
@@ -151,35 +158,35 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "1",
-      "unit": null,
+      "unit": "tablespoon",
       "preparation": "minced",
       "position": 10
     },
     {
       "ingredient_id": "4076c0db-8766-5ed2-8335-1c9d6763e6b4",
-      "name": "cornstarch diluted 3 tablespoons light soy sauce",
-      "normalized_name": "cornstarch diluted 3 tablespoons light soy sauce",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "diluted in 3 tablespoons light soy sauce",
       "position": 11
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 12
     },
     {
       "ingredient_id": "42272eb6-4a9a-574f-97b6-bf5ce194f082",
-      "name": "toasted sesame seeds",
-      "normalized_name": "toasted sesame seeds",
+      "name": "sesame seeds",
+      "normalized_name": "sesame seeds",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "toasted",
       "position": 13
     },
     {

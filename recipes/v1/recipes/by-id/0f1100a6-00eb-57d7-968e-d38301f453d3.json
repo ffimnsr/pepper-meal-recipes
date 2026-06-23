@@ -6,7 +6,7 @@
   "name": "Meatball Adobo with Shrimp Fried Rice and Egg",
   "recipe_type": "breakfast",
   "brief_description": "Meatball Adobo with Shrimp Fried Rice and Egg is something that I came-up with after combining two dishes that I recently prepared. I had this meal for breakfast and it was the first time that I will be having both together as a meal.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -35,15 +35,20 @@
   "additional_media": [],
   "nutritional_information": null,
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "shellfish"
+  ],
+  "equipment": [
+    "frying pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "4c7210e3-52e6-5220-abae-a7393410de1a",
       "name": "serving of meatball adobo",
       "normalized_name": "serving of meatball adobo",
       "quantity": "1",
-      "unit": null,
+      "unit": "serving",
       "preparation": null,
       "position": 1
     },
@@ -52,17 +57,17 @@
       "name": "serving of shrimp fried rice",
       "normalized_name": "serving of shrimp fried rice",
       "quantity": "1 1/2",
-      "unit": null,
+      "unit": "serving",
       "preparation": null,
       "position": 2
     },
     {
       "ingredient_id": "1a0a136d-1169-518c-b085-98850cc654af",
-      "name": "fried egg",
-      "normalized_name": "fried egg",
+      "name": "egg",
+      "normalized_name": "egg",
       "quantity": "4 to 6",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "fried",
       "position": 3
     }
   ],
@@ -75,7 +80,10 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
+  "recipe_notes": [
+    "This recipe combines leftover or separately prepared Meatball Adobo and Shrimp Fried Rice.",
+    "Ensure the meatballs and fried rice are heated through before assembling the dish."
+  ],
   "storage_notes": [],
   "source": {
     "name": "Panlasang Pinoy",

@@ -65,7 +65,7 @@
   "cooking_time_minutes": 50,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/13944c1e-2fc5-5c84-8e89-8624e33b8c30/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -84,7 +84,15 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Large soup pot",
+    "Medium pot",
+    "Knife",
+    "Cutting board",
+    "Tongs",
+    "Measuring cups",
+    "Measuring spoons"
+  ],
   "ingredients": [
     {
       "ingredient_id": "72e78ee1-743c-5e32-a2bf-40a7081015af",
@@ -106,10 +114,10 @@
     },
     {
       "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
-      "name": "stalks celery",
-      "normalized_name": "stalks celery",
+      "name": "celery",
+      "normalized_name": "celery",
       "quantity": "3",
-      "unit": null,
+      "unit": "stalks",
       "preparation": null,
       "position": 3
     },
@@ -160,11 +168,11 @@
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 9
     },
     {

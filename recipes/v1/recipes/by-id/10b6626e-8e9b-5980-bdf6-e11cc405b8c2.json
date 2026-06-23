@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "10b6626e-8e9b-5980-bdf6-e11cc405b8c2",
   "slug": "inun-unan-recipe",
-  "name": "Inun unan Recipe (Fish cooked in Vinegar)",
-  "recipe_type": null,
+  "name": "Inun-unan Recipe (Fish cooked in Vinegar)",
+  "recipe_type": "main",
   "brief_description": "Inun unan is a Filipino fish recipe that involves fish and vinegar along with some vegetables and spices. This inun-unan recipe is easy to follow",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -42,7 +42,9 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "fish"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -59,7 +61,7 @@
       "name": "ampalaya",
       "normalized_name": "ampalaya",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cored and sliced",
       "position": 2
     },
@@ -68,7 +70,7 @@
       "name": "chinese eggplant",
       "normalized_name": "chinese eggplant",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },
@@ -77,7 +79,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 4
     },
@@ -86,7 +88,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 5
     },
@@ -107,6 +109,24 @@
       "unit": "teaspoon",
       "preparation": null,
       "position": 7
+    },
+    {
+      "ingredient_id": "7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d",
+      "name": "vinegar",
+      "normalized_name": "vinegar",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "9f8e7d6c-5b4a-3f2e-1d0c-9b8a7f6e5d4c",
+      "name": "chili",
+      "normalized_name": "chili",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
     }
   ],
   "categories": [

@@ -78,9 +78,21 @@
     "sugarContent": "12 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-nuts",
+    "contains-shellfish"
+  ],
+  "allergens": [
+    "peanuts",
+    "shellfish",
+    "soy"
+  ],
+  "equipment": [
+    "cooking pot",
+    "food processor",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "e899e069-61e4-57e1-97c0-33b7c57f09a2",
@@ -120,10 +132,10 @@
     },
     {
       "ingredient_id": "2c6039db-1670-5eac-9ccc-d97c79383be0",
-      "name": "bunches pechay",
-      "normalized_name": "bunches pechay",
+      "name": "pechay",
+      "normalized_name": "pechay",
       "quantity": "2",
-      "unit": null,
+      "unit": "bunch",
       "preparation": null,
       "position": 5
     },
@@ -204,7 +216,7 @@
       "name": "ground black pepper and shrimp paste",
       "normalized_name": "ground black pepper and shrimp paste",
       "quantity": null,
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 14
     }
@@ -223,12 +235,6 @@
   ],
   "tags": [
     {
-      "id": "42d92047-34d1-5006-a992-6337a3f2d96b",
-      "slug": "chicken-curry",
-      "name": "chicken curry",
-      "color": null
-    },
-    {
       "id": "241d084d-edee-5421-b78a-8a41411f5542",
       "slug": "kare-kare",
       "name": "kare kare",
@@ -243,7 +249,7 @@
     {
       "id": "18e1e8e9-a0f7-5cdd-8213-d76e788cce84",
       "slug": "pocrk-hock-stew",
-      "name": "pocrk hock stew",
+      "name": "pork hock stew",
       "color": null
     }
   ],

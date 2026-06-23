@@ -46,15 +46,23 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "dairy"
+  ],
+  "equipment": [
+    "pot",
+    "mixing bowl",
+    "colander",
+    "knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "11843ddc-9136-55c4-834f-29cfc38d731b",
       "name": "boneless chicken breast",
       "normalized_name": "boneless chicken breast",
-      "quantity": "2 4",
-      "unit": "oz",
+      "quantity": "2",
+      "unit": "piece",
       "preparation": null,
       "position": 1
     },
@@ -63,7 +71,7 @@
       "name": "potato",
       "normalized_name": "potato",
       "quantity": "2",
-      "unit": null,
+      "unit": "piece",
       "preparation": "peeled and diced",
       "position": 2
     },
@@ -72,7 +80,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "2",
-      "unit": null,
+      "unit": "piece",
       "preparation": "peeled and diced",
       "position": 3
     },
@@ -87,8 +95,8 @@
     },
     {
       "ingredient_id": "36827922-e7a7-5c77-8b40-cb01b48af561",
-      "name": "frozen green pea",
-      "normalized_name": "frozen green pea",
+      "name": "frozen green peas",
+      "normalized_name": "frozen green peas",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -105,11 +113,11 @@
     },
     {
       "ingredient_id": "e943758d-4323-5cf3-adc9-5e61e055ae20",
-      "name": "shredded parmesan cheese",
-      "normalized_name": "shredded parmesan cheese",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 7
     },
     {
@@ -136,8 +144,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "You can adjust the amount of garlic salt and Parmesan to tailor to your taste.",
+    "Ensure chicken is fully cooled before dicing to maintain texture."
+  ],
+  "storage_notes": [
+    "Refrigerate for at least 3 hours before serving.",
+    "Store in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/chicken-potato-salad/"

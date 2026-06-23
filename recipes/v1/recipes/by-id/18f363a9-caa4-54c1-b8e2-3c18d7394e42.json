@@ -4,9 +4,9 @@
   "id": "18f363a9-caa4-54c1-b8e2-3c18d7394e42",
   "slug": "carne-norte-corned-beef-baked-macaroni",
   "name": "Corned Beef Baked Macaroni",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Corned Beef Baked Macaroni.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "A hearty Filipino-style baked macaroni dish featuring savory corned beef in rich tomato sauce, layered with mozzarella and ricotta cheeses, then baked until bubbly and golden.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -57,17 +57,22 @@
   "cooking_time_minutes": 43,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/18f363a9-caa4-54c1-b8e2-3c18d7394e42/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "pot",
+    "colander"
+  ],
   "ingredients": [
     {
       "ingredient_id": "90ad4070-8a31-5a7c-9087-58102c7ff05f",
@@ -109,7 +114,7 @@
       "ingredient_id": "03713dba-457c-5f15-bcb0-5214dee5f802",
       "name": "corned beef",
       "normalized_name": "corned beef",
-      "quantity": "1 12",
+      "quantity": "12",
       "unit": "oz",
       "preparation": null,
       "position": 5
@@ -119,7 +124,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 6
     },
@@ -136,7 +141,7 @@
       "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
       "name": "tomato sauce",
       "normalized_name": "tomato sauce",
-      "quantity": "1 28",
+      "quantity": "28",
       "unit": "oz",
       "preparation": null,
       "position": 8
@@ -182,7 +187,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 13
     },
@@ -191,7 +196,7 @@
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 14
     }

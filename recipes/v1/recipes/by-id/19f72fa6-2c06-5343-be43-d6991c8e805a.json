@@ -5,7 +5,7 @@
   "slug": "how-to-make-yema",
   "name": "How to Make Yema",
   "recipe_type": "dessert",
-  "brief_description": "This is a recipe for Yema.",
+  "brief_description": "Sweet Filipino custard candy made with egg yolks and condensed milk, wrapped in colorful cellophane.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Melt butter in a cooking pot or pan. Pour the egg yolk mistuxe into the pan."
+      "text": "Melt butter in a cooking pot or pan. Pour the egg yolk mixture into the pan."
     },
     {
       "position": 4,
@@ -30,11 +30,11 @@
     },
     {
       "position": 6,
-      "text": "Cut the cellophane into 3x3 inch pieces. Scoop 1 tablespoons of mixture and place at the middle of the cellophane. Wrap the yema while molding to form a pyramid shape piece (note: watch the video for details). Continue to wrap the yema until all the mixture are consumed."
+      "text": "Cut the cellophane into 3x3 inch pieces. Scoop 1 tablespoon of mixture and place at the middle of the cellophane. Wrap the yema while molding to form a pyramid shape piece. Continue to wrap the yema until all the mixture is consumed."
     },
     {
       "position": 7,
-      "text": "Serve . Share and enjoy."
+      "text": "Serve. Share and enjoy."
     }
   ],
   "servings": 6,
@@ -57,13 +57,26 @@
     "sodiumContent": "134 mg",
     "sugarContent": "36 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free"
+  ],
+  "allergens": [
+    "Eggs",
+    "Milk",
+    "Tree Nuts"
+  ],
+  "equipment": [
+    "Cooking pot or pan",
+    "Mixing bowl",
+    "Whisk",
+    "Knife",
+    "Spoon",
+    "Cellophane wrappers"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f57bd758-b955-5a0d-8781-8edfd21c2ac5",
-      "name": "egg yolk",
+      "name": "egg yolks",
       "normalized_name": "egg yolk",
       "quantity": "7",
       "unit": "pieces",
@@ -87,6 +100,24 @@
       "unit": "tablespoons",
       "preparation": null,
       "position": 3
+    },
+    {
+      "ingredient_id": "a7f3c2d1-8b4e-5f6a-9c0d-1e2f3a4b5c6d",
+      "name": "walnuts",
+      "normalized_name": "walnuts",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "b8c4d3e2-9c5f-6a7b-8d1e-2f3a4b5c6d7e",
+      "name": "cellophane wrappers",
+      "normalized_name": "cellophane",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
     }
   ],
   "categories": [

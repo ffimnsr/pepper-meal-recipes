@@ -68,9 +68,23 @@
     "unsaturatedFatContent": "103 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "frying pan",
+    "mixing bowls",
+    "grater",
+    "cheesecloth (optional)",
+    "measuring cups",
+    "measuring spoons",
+    "microwave (optional)"
+  ],
   "ingredients": [
     {
       "ingredient_id": "95564c4f-61e3-5cb4-9850-e4b754ae3e46",
@@ -95,7 +109,7 @@
       "name": "green onion",
       "normalized_name": "green onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 3
     },
@@ -281,8 +295,13 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Best served immediately while crispy",
+    "Squeeze the grated eggplant thoroughly to remove excess moisture for a crispier texture"
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 2 days. Reheat in an oven or air fryer to restore crispiness."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/fried-eggplant-crispy-fritters/"

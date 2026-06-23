@@ -4,9 +4,9 @@
   "id": "1d029d6c-be5f-581b-863b-c02bc0c960e5",
   "slug": "tokwat-baka-recipe",
   "name": "Tokwat Baka (Fried Tofu and Grilled Beef in Vinegar Sauce)",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Tokwat Baka is the beef version of the well loved tokwat baboy recipe. Similar dishes often use boiled beef -- this particular recipe is quite different",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -42,16 +42,19 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "soy",
+    "sesame"
+  ],
   "equipment": [],
   "ingredients": [
     {
       "ingredient_id": "adf4076e-8320-53f3-8643-9d0f5a7c7772",
-      "name": "grilled porterhouse steak",
-      "normalized_name": "grilled porterhouse steak",
+      "name": "porterhouse steak",
+      "normalized_name": "porterhouse steak",
       "quantity": "16",
       "unit": "ounces",
-      "preparation": "sliced",
+      "preparation": "grilled and sliced",
       "position": 1
     },
     {
@@ -92,20 +95,20 @@
     },
     {
       "ingredient_id": "bdb57237-b976-59dd-abd1-dfb1d9e58253",
-      "name": "granulated white sugar",
-      "normalized_name": "granulated white sugar",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
       "quantity": "1 1/2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "granulated",
       "position": 6
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/4",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 7
     },
     {
@@ -119,11 +122,11 @@
     },
     {
       "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
-      "name": "chopped green onion",
-      "normalized_name": "chopped green onion",
+      "name": "green onion",
+      "normalized_name": "green onion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     },
     {
@@ -131,17 +134,17 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 10
     },
     {
       "ingredient_id": "2df422ed-5639-57e6-9df0-83072e2d28b3",
-      "name": "roasted sesame seeds",
-      "normalized_name": "roasted sesame seeds",
+      "name": "sesame seeds",
+      "normalized_name": "sesame seeds",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "roasted",
       "position": 11
     }
   ],

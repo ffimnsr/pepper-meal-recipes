@@ -5,7 +5,7 @@
   "slug": "pork-nilaga-recipe",
   "name": "Pork Nilaga Recipe",
   "recipe_type": "soup",
-  "brief_description": "This is a recipe for Pork Nilaga. It is a type of soup in clear broth.",
+  "brief_description": "Filipino pork belly soup with potatoes, saba bananas, and pechay in a clear, savory broth.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -53,9 +53,16 @@
     "@type": "NutritionInformation",
     "servingSize": "5 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "dairy-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "cooking pot",
+    "knife",
+    "cutting board",
+    "serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
@@ -71,7 +78,7 @@
       "name": "knorr pork cube",
       "normalized_name": "knorr pork cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 2
     },
@@ -80,7 +87,7 @@
       "name": "potato",
       "normalized_name": "potato",
       "quantity": "3 to 4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "peeled and sliced in half",
       "position": 3
     },
@@ -98,7 +105,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 5
     },
@@ -128,6 +135,15 @@
       "unit": "tablespoons",
       "preparation": null,
       "position": 8
+    },
+    {
+      "ingredient_id": "c4e8d9f2-1a3b-4c5d-9e0f-123456789abc",
+      "name": "pechay (bok choy)",
+      "normalized_name": "pechay",
+      "quantity": "1",
+      "unit": "bunch",
+      "preparation": null,
+      "position": 9
     }
   ],
   "categories": [

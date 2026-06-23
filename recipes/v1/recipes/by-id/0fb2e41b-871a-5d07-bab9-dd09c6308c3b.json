@@ -4,8 +4,8 @@
   "id": "0fb2e41b-871a-5d07-bab9-dd09c6308c3b",
   "slug": "beef-holiday-christmas-new-year-food-menu-morcon-recipe",
   "name": "Morcon",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for beef morcon",
+  "recipe_type": "main",
+  "brief_description": "Filipino beef roll stuffed with hotdogs, pickles, carrots, cheese, and hard-boiled eggs, braised in a savory soy sauce and lemon marinade.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -54,9 +54,9 @@
     }
   ],
   "servings": 4,
-  "cooking_time_minutes": 60,
-  "preparation_time_minutes": 60,
-  "rest_time_minutes": null,
+  "cooking_time_minutes": 150,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": 60,
   "difficulty": "expert",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0fb2e41b-871a-5d07-bab9-dd09c6308c3b/cover.jpg",
   "video_url": null,
@@ -66,16 +66,26 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Eggs",
+    "Dairy",
+    "Gluten",
+    "Soy"
+  ],
+  "equipment": [
+    "kitchen twine",
+    "casserole",
+    "frying pan",
+    "pressure cooker (optional)"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d1e29e1a-b4af-5ce8-97fc-26645ed8da86",
-      "name": "beef cubes dissolved in 3 cups boiling water",
-      "normalized_name": "beef cubes dissolved in 3 cups boiling water",
+      "name": "beef bouillon cubes",
+      "normalized_name": "beef bouillon cubes",
       "quantity": "2",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "dissolved in 3 cups boiling water",
       "position": 1
     },
     {
@@ -93,7 +103,7 @@
       "normalized_name": "lemon",
       "quantity": "1",
       "unit": "piece",
-      "preparation": null,
+      "preparation": "juiced",
       "position": 3
     },
     {
@@ -107,8 +117,8 @@
     },
     {
       "ingredient_id": "5b9fcd8e-e548-5f70-81d5-3157c95c82b7",
-      "name": "sized carrot",
-      "normalized_name": "sized carrot",
+      "name": "carrot",
+      "normalized_name": "carrot",
       "quantity": "1",
       "unit": "piece",
       "preparation": "cut into long strips",
@@ -158,6 +168,15 @@
       "unit": "ounces",
       "preparation": "cut in strips",
       "position": 10
+    },
+    {
+      "ingredient_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "pickles",
+      "normalized_name": "pickles",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": "cut into long strips",
+      "position": 11
     }
   ],
   "categories": [
@@ -169,8 +188,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Marinate the beef for at least 1 hour for best flavor",
+    "If using a pressure cooker, cooking time is reduced to 30 minutes"
+  ],
+  "storage_notes": [
+    "Store leftovers in the refrigerator for up to 3 days",
+    "Slice only when ready to serve to retain moisture"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/beef-holiday-christmas-new-year-food-menu-morcon-recipe/"

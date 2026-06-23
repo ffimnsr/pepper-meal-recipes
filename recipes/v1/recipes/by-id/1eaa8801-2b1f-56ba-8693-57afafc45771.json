@@ -5,24 +5,24 @@
   "slug": "tuna-frittata-recipe",
   "name": "Tuna Frittata Recipe",
   "recipe_type": "breakfast",
-  "brief_description": "Tuna Frittata is a baked egg dish. This is composed of canned tuna, beaten eggs, and cheese. I love to have his for breakfast along with toast or muffins.",
+  "brief_description": "Tuna Frittata is a baked egg dish. This is composed of canned tuna, beaten eggs, and cheese. I love to have this for breakfast along with toast or muffins.",
   "cuisine": null,
   "instructions": [
     {
       "position": 1,
-      "text": "Grease a 9\" inch pie dish by pouring-over cooking oil and rubbing it on the surface."
+      "text": "Preheat oven to 370 degrees Fahrenheit."
     },
     {
       "position": 2,
-      "text": "Combine eggs, tuna, salt, and pepper. Mix well."
+      "text": "Grease a 9-inch pie dish with cooking oil."
     },
     {
       "position": 3,
-      "text": "Pour-mixture on the pie dish."
+      "text": "Combine eggs, tuna, salt, and pepper in a bowl. Mix well."
     },
     {
       "position": 4,
-      "text": "Preheat oven to 370 degrees Fahrenheit"
+      "text": "Pour mixture into the pie dish."
     },
     {
       "position": 5,
@@ -30,7 +30,7 @@
     },
     {
       "position": 6,
-      "text": "Sprinkle the cheese on top. Set the oven to broil and then continue broiling for 3 minutes."
+      "text": "Sprinkle cheese on top. Broil for 3 minutes until melted and golden."
     },
     {
       "position": 7,
@@ -38,7 +38,7 @@
     }
   ],
   "servings": 4,
-  "cooking_time_minutes": 14,
+  "cooking_time_minutes": 17,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
   "difficulty": "medium",
@@ -49,26 +49,36 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian"
+  ],
+  "allergens": [
+    "fish",
+    "eggs",
+    "dairy"
+  ],
+  "equipment": [
+    "oven",
+    "9-inch pie dish",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "235e2062-4068-5912-a818-dacf320bfb76",
       "name": "tuna",
       "normalized_name": "tuna",
-      "quantity": "2 10",
-      "unit": "oz",
-      "preparation": null,
+      "quantity": "2",
+      "unit": "can",
+      "preparation": "canned",
       "position": 1
     },
     {
       "ingredient_id": "ae91a64d-4792-5799-85fc-6fd43e925f38",
-      "name": "shredded cheese",
-      "normalized_name": "shredded cheese",
+      "name": "cheese",
+      "normalized_name": "cheese",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 2
     },
     {
@@ -76,7 +86,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "5",
-      "unit": null,
+      "unit": "piece",
       "preparation": "beaten",
       "position": 3
     },
@@ -103,7 +113,7 @@
       "name": "cooking oil",
       "normalized_name": "cooking oil",
       "quantity": "3",
-      "unit": "teaspoons",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 6
     }

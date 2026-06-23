@@ -28,7 +28,7 @@
   "servings": 4,
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 60,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1b748e2f-7a1f-573c-861f-7bc5850c9536/cover.jpg",
   "video_url": null,
@@ -37,8 +37,14 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
+  "dietary_labels": [
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -73,7 +79,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "minced",
       "position": 4
     },
@@ -82,7 +88,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 5
     },
@@ -97,8 +103,8 @@
     },
     {
       "ingredient_id": "1ced16cc-3180-57cb-94de-df18f77910ff",
-      "name": "jalapeo",
-      "normalized_name": "jalapeo",
+      "name": "jalape\u00f1o",
+      "normalized_name": "jalapeno",
       "quantity": "2",
       "unit": "pieces",
       "preparation": "chopped",
@@ -106,11 +112,11 @@
     },
     {
       "ingredient_id": "2ba2a3e1-ea4d-5f9c-8fb9-977ed71759bf",
-      "name": "juice from 8 lime",
-      "normalized_name": "juice from 8 lime",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "juiced",
       "position": 8
     },
     {

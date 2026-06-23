@@ -4,9 +4,9 @@
   "id": "13d65357-154a-5af2-aa90-c250a5c4e594",
   "slug": "basilpesto-recipe",
   "name": "Basil Pesto",
-  "recipe_type": null,
+  "recipe_type": "condiment",
   "brief_description": "Basil Pesto is a fresh tasting sauce made from fresh basil leaves, pine nuts, garlic, olive oil, and cheese. This sauce is best for pasta",
-  "cuisine": null,
+  "cuisine": "Italian",
   "instructions": [
     {
       "position": 1,
@@ -37,13 +37,17 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Food processor"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a5621d42-4f0c-5495-9a13-0c42ffe6ae89",
-      "name": "basil leaf",
+      "name": "fresh basil leaves",
       "normalized_name": "basil leaf",
       "quantity": "2",
       "unit": "cups",
@@ -52,20 +56,20 @@
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
+      "name": "garlic",
       "normalized_name": "minced garlic",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 2
     },
     {
       "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
-      "name": "grated parmesan cheese",
+      "name": "parmesan cheese",
       "normalized_name": "grated parmesan cheese",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "grated",
       "position": 3
     },
     {
@@ -79,7 +83,7 @@
     },
     {
       "ingredient_id": "a1c2d6ee-9de0-58b2-a530-1fc7cc6c31c7",
-      "name": "pine nut",
+      "name": "pine nuts",
       "normalized_name": "pine nut",
       "quantity": "4",
       "unit": "tablespoons",
@@ -91,7 +95,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 6
     },
@@ -100,7 +104,7 @@
       "name": "pepper",
       "normalized_name": "pepper",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 7
     }
@@ -112,7 +116,28 @@
       "name": "Sauces"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "3f4c9c1e-2a1b-4c5d-8e7f-9a0b1c2d3e4f",
+      "slug": "vegetarian",
+      "name": "Vegetarian"
+    },
+    {
+      "id": "4f5c9c1e-2a1b-4c5d-8e7f-9a0b1c2d3e5f",
+      "slug": "quick",
+      "name": "Quick"
+    },
+    {
+      "id": "5f6c9c1e-2a1b-4c5d-8e7f-9a0b1c2d3e6f",
+      "slug": "no-cook",
+      "name": "No-cook"
+    },
+    {
+      "id": "6f7c9c1e-2a1b-4c5d-8e7f-9a0b1c2d3e7f",
+      "slug": "italian",
+      "name": "Italian"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

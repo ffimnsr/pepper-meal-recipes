@@ -6,7 +6,7 @@
   "name": "Ginataang Monggo Recipe",
   "recipe_type": "dessert",
   "brief_description": "Ginataang Munggo or Ginataang Monggo is a simple Filipino dessert dish wherein toasted Mung beans and sticky rice are cooked in coconut milk.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -53,17 +53,21 @@
   "cooking_time_minutes": 40,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1ac80b59-39c4-5c6e-bf6a-688179438c2a/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "pan",
+    "cooking pot",
+    "mortar and pestle"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3105a63b-36f5-5971-890d-5d6ee19a0a8a",
@@ -111,8 +115,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Toast mung beans until golden brown for best flavor",
+    "Serve hot or cold according to preference",
+    "Top with extra coconut milk when serving if desired"
+  ],
+  "storage_notes": [
+    "Refrigerate in airtight container for up to 3 days",
+    "Stir in additional coconut milk when reheating if mixture becomes too thick"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/ginataang-monggo-filipino-dessert/"

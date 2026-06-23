@@ -5,7 +5,7 @@
   "slug": "ube-kalamay-recipe",
   "name": "Ube Kalamay Recipe",
   "recipe_type": "dessert",
-  "brief_description": "This is a recipe for ube kalamay.",
+  "brief_description": "A traditional Filipino sticky rice cake made with purple yam (ube), coconut milk, and glutinous rice flour, topped with sweet latik. Rich, creamy, and delicately sweet.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -61,10 +61,32 @@
     "fiberContent": "6 g",
     "sugarContent": "51 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Vegetarian",
+    "Vegan"
+  ],
+  "allergens": [
+    "Coconut"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Mixing bowl",
+    "Wire whisk",
+    "Mold (quiche mold or similar)",
+    "Spoon",
+    "Pastry brush"
+  ],
   "ingredients": [
+    {
+      "ingredient_id": "7f8e9d0c-1b2a-4c3d-8e9f-0a1b2c3d4e5f",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
     {
       "ingredient_id": "52f89bf4-31b4-5e03-b389-e376835ca56b",
       "name": "coconut milk",
@@ -72,16 +94,16 @@
       "quantity": "4",
       "unit": "cups",
       "preparation": null,
-      "position": 1
+      "position": 2
     },
     {
       "ingredient_id": "829dcb6a-9801-5207-b392-6991cb08cc84",
-      "name": "grated purple yam",
-      "normalized_name": "grated purple yam",
+      "name": "purple yam",
+      "normalized_name": "purple yam",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
-      "position": 2
+      "preparation": "grated",
+      "position": 3
     },
     {
       "ingredient_id": "e3d0274d-b92f-5a77-93ae-f2becb467bb8",
@@ -90,7 +112,7 @@
       "quantity": "2",
       "unit": "teaspoons",
       "preparation": null,
-      "position": 3
+      "position": 4
     },
     {
       "ingredient_id": "25769273-feec-582b-a24b-8f8ce09d4c13",
@@ -99,16 +121,16 @@
       "quantity": "2",
       "unit": "cups",
       "preparation": null,
-      "position": 4
+      "position": 5
     },
     {
       "ingredient_id": "bdb57237-b976-59dd-abd1-dfb1d9e58253",
       "name": "granulated white sugar",
       "normalized_name": "granulated white sugar",
       "quantity": "1 1/2",
-      "unit": "cup",
+      "unit": "cups",
       "preparation": null,
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "e93f94e8-102d-57d5-bdab-05b4666a843a",
@@ -117,7 +139,7 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "e1f61fb9-e8f4-56b9-9735-b3643a2a22b2",
@@ -126,7 +148,7 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 7
+      "position": 8
     }
   ],
   "categories": [
@@ -151,8 +173,14 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Latik is caramelized coconut curds made by boiling coconut cream until the oil separates and the solids turn golden brown.",
+    "Oil your spatula or hands when handling the kalamay to prevent sticking."
+  ],
+  "storage_notes": [
+    "Store in an airtight container at room temperature for up to 2 days.",
+    "Refrigerate for up to 5 days. Bring to room temperature before serving."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/ube-kalamay-recipe/"

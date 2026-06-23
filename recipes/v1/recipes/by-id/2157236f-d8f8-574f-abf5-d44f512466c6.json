@@ -4,9 +4,9 @@
   "id": "2157236f-d8f8-574f-abf5-d44f512466c6",
   "slug": "lo-mein-with-beef-and-broccoli",
   "name": "Lo Mein with Beef and Broccoli",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Lo Mein with Beef and Broccoli is a easy-to-make noodle dish that satisfies my appetite. It is simply delicious and easy to cook -- this means that this recipe is under the basic or beginner level.",
-  "cuisine": null,
+  "cuisine": "Chinese",
   "instructions": [
     {
       "position": 1,
@@ -53,22 +53,27 @@
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 12,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2157236f-d8f8-574f-abf5-d44f512466c6/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": null,
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "Wheat",
+    "Soy",
+    "Egg",
+    "Shellfish"
+  ],
   "equipment": [],
   "ingredients": [
     {
       "ingredient_id": "6061bf8d-0811-5f19-8ef8-1286e9099878",
-      "name": "dried egg noodles cooked according to package instruction",
-      "normalized_name": "dried egg noodles cooked according to package instruction",
+      "name": "dried egg noodles",
+      "normalized_name": "dried egg noodles",
       "quantity": "8",
       "unit": "oz",
-      "preparation": null,
+      "preparation": "cooked according to package instructions",
       "position": 1
     },
     {
@@ -82,20 +87,20 @@
     },
     {
       "ingredient_id": "5ec285ac-e5f8-545b-b77d-a4264f14cee4",
-      "name": "minced ginger",
-      "normalized_name": "minced ginger",
+      "name": "ginger",
+      "normalized_name": "ginger",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 3
     },
     {
       "ingredient_id": "25fe8894-a337-5316-9521-9f006a881c54",
-      "name": "broccoli floret",
-      "normalized_name": "broccoli floret",
+      "name": "broccoli",
+      "normalized_name": "broccoli",
       "quantity": "1 1/2",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "florets",
       "position": 4
     },
     {
@@ -157,7 +162,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 11
     },
@@ -166,7 +171,7 @@
       "name": "pepper",
       "normalized_name": "pepper",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 12
     },

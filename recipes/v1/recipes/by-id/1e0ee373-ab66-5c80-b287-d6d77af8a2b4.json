@@ -6,7 +6,7 @@
   "name": "How to Make Kimchi at Home",
   "recipe_type": null,
   "brief_description": "This is a recipe for homemade Kimchi",
-  "cuisine": null,
+  "cuisine": "Korean",
   "instructions": [
     {
       "position": 1,
@@ -50,8 +50,8 @@
     }
   ],
   "servings": 12,
-  "cooking_time_minutes": 1,
-  "preparation_time_minutes": 3600,
+  "cooking_time_minutes": 0,
+  "preparation_time_minutes": 45,
   "rest_time_minutes": null,
   "difficulty": "expert",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1e0ee373-ab66-5c80-b287-d6d77af8a2b4/cover.jpg",
@@ -61,9 +61,19 @@
     "@type": "NutritionInformation",
     "servingSize": "12 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Fermented"
+  ],
+  "allergens": [
+    "Fish",
+    "Shellfish"
+  ],
+  "equipment": [
+    "Colander",
+    "Large mixing bowl",
+    "Clear plastic wrap",
+    "Mason jar or kimchi container"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3c2b0c49-e8a3-594d-bc4c-00ec15e89666",
@@ -85,10 +95,10 @@
     },
     {
       "ingredient_id": "286881f8-25cd-5aa0-a968-346630c334c7",
-      "name": "pints of cold water",
-      "normalized_name": "pints of cold water",
+      "name": "cold water",
+      "normalized_name": "cold water",
       "quantity": "6 to 8",
-      "unit": null,
+      "unit": "pints",
       "preparation": null,
       "position": 3
     },
@@ -97,26 +107,26 @@
       "name": "daikon radish",
       "normalized_name": "daikon radish",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 4
     },
     {
       "ingredient_id": "ff475815-eec0-5c0f-8df8-bdad5ccbe404",
-      "name": "minced fresh ginger",
-      "normalized_name": "minced fresh ginger",
+      "name": "fresh ginger",
+      "normalized_name": "fresh ginger",
       "quantity": "4",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 5
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "4",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 6
     },
     {
@@ -124,7 +134,7 @@
       "name": "scallion",
       "normalized_name": "scallion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cut into 1 inch length pieces",
       "position": 7
     },
@@ -175,7 +185,9 @@
   "tags": [],
   "related_recipe_ids": [],
   "recipe_notes": [],
-  "storage_notes": [],
+  "storage_notes": [
+    "Keeps for several weeks to months when properly fermented and refrigerated"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-make-kimchi-at-home/"

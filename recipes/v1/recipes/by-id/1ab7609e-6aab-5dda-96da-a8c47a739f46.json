@@ -6,7 +6,7 @@
   "name": "Aligue Pasta",
   "recipe_type": null,
   "brief_description": "Aligue Pasta Recipe - Aligue is another term for crab fat. The aligue in this recipe comes from Asian shore crabs. In the Philippines, we call these crabs \u201ctalangka\u201d while the fat that comes from these crabs is known as \u201ctaba ng talangka\u201d.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -58,8 +58,15 @@
     "servingSize": "3 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shellfish",
+    "dairy",
+    "gluten"
+  ],
+  "equipment": [
+    "cooking pot",
+    "serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "1c700ff1-205b-5ef0-9f99-adfd5292da38",
@@ -111,7 +118,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 6
     },
@@ -147,7 +154,7 @@
       "name": "green onion",
       "normalized_name": "green onion",
       "quantity": "1",
-      "unit": "teaspoon",
+      "unit": "stalk",
       "preparation": null,
       "position": 10
     },

@@ -52,7 +52,7 @@
   "servings": 4,
   "cooking_time_minutes": 14,
   "preparation_time_minutes": 5,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 180,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/11d24266-7600-5c1c-a971-b160ba7bb58f/cover.jpg",
   "video_url": null,
@@ -63,7 +63,13 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "frying pan",
+    "paper towels",
+    "freezer bag or deep container",
+    "plate",
+    "whisk"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d2bbe037-93f1-5f58-a13f-fae0320f7239",
@@ -121,11 +127,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 7
     },
     {

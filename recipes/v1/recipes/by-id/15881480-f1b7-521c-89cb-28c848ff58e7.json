@@ -4,9 +4,9 @@
   "id": "15881480-f1b7-521c-89cb-28c848ff58e7",
   "slug": "beefsteak",
   "name": "Pinoy Beefsteak",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Pinoy Beefsteak is a version of bistek tagalog that makes use of beef skirt steak. It has the same delicious taste and it is simple to prepare.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -54,9 +54,16 @@
   "video_url": null,
   "additional_media": [],
   "nutritional_information": null,
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Soy"
+  ],
+  "equipment": [
+    "pan",
+    "bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "c8bd31ca-a597-5d81-859f-a610696ffaba",
@@ -81,7 +88,7 @@
       "name": "lemon",
       "normalized_name": "lemon",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 3
     },
@@ -99,7 +106,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "sliced crosswise",
       "position": 5
     },
@@ -165,10 +172,33 @@
       "name": "Beef"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "slug": "filipino",
+      "name": "Filipino"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "slug": "bistek",
+      "name": "Bistek"
+    },
+    {
+      "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      "slug": "main-dish",
+      "name": "Main Dish"
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Marinate the beef for at least 1 hour for best flavor.",
+    "Adjust the amount of salt and pepper according to your taste preference.",
+    "Ensure there is sufficient sauce before serving; add water or beef broth if needed."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat gently on the stovetop with a splash of water to prevent drying out."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/beefsteak/"

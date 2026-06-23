@@ -4,9 +4,9 @@
   "id": "15ee5424-f083-5a19-8de3-5eb11b04ee31",
   "slug": "orange-chicken",
   "name": "Orange Chicken Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "I love this Orange Chicken Recipe; it is absolutely delicious! Before we start cooking, did you know that Orange Chicken is a dish of American-Chinese origin?",
-  "cuisine": null,
+  "cuisine": "chinese",
   "instructions": [
     {
       "position": 1,
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Dip the chicken on the beaten egg mixture and place inside the container (where the flour, salt, and pepper are)"
+      "text": "Dip the chicken in the beaten egg mixture and place inside the container (where the flour, salt, and pepper are)"
     },
     {
       "position": 3,
@@ -34,7 +34,7 @@
     },
     {
       "position": 7,
-      "text": "Add the sugar and and simmer for 3 to 5 minutes"
+      "text": "Add the sugar and simmer for 3 to 5 minutes"
     },
     {
       "position": 8,
@@ -42,7 +42,7 @@
     },
     {
       "position": 9,
-      "text": "Add the deep-fried chicken on pan and cook until sauce nearly evaporates"
+      "text": "Add the deep-fried chicken to the pan and cook until sauce nearly evaporates"
     },
     {
       "position": 10,
@@ -53,17 +53,29 @@
   "cooking_time_minutes": 25,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/15ee5424-f083-5a19-8de3-5eb11b04ee31/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "wheat",
+    "soy",
+    "eggs"
+  ],
+  "equipment": [
+    "deep fryer or heavy-bottomed pot",
+    "mixing bowl",
+    "container with lid",
+    "skillet or pan",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "11843ddc-9136-55c4-834f-29cfc38d731b",
@@ -97,7 +109,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "beaten",
       "position": 4
     },
@@ -123,8 +135,8 @@
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
       "name": "cooking oil",
       "normalized_name": "cooking oil",
-      "quantity": null,
-      "unit": null,
+      "quantity": "2",
+      "unit": "cups",
       "preparation": null,
       "position": 7
     },
@@ -151,7 +163,7 @@
       "name": "cornstarch",
       "normalized_name": "cornstarch",
       "quantity": "2",
-      "unit": "tbsp",
+      "unit": "tablespoons",
       "preparation": null,
       "position": 10
     },

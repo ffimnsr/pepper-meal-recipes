@@ -4,9 +4,9 @@
   "id": "15024d2b-e06d-5b2b-90ce-2dd2c819589c",
   "slug": "kare-kare-tripas-recipe",
   "name": "Kare Kare Tripas",
-  "recipe_type": null,
-  "brief_description": "Kare Kare Tripas is a variation of the delicous Filipino Kare Kare (peanut stew) using ox tripe or tripas.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Kare Kare Tripas is a variation of the delicious Filipino Kare Kare (peanut stew) using ox tripe or tripas.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -46,8 +46,15 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "peanuts",
+    "crustaceans"
+  ],
+  "equipment": [
+    "pressure cooker",
+    "cooking pot",
+    "strainer"
+  ],
   "ingredients": [
     {
       "ingredient_id": "99244f64-52dc-5746-a1a5-0e8b8df8f7b1",
@@ -81,7 +88,7 @@
       "name": "banana blossom",
       "normalized_name": "banana blossom",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 4
     },
@@ -90,7 +97,7 @@
       "name": "chinese eggplant",
       "normalized_name": "chinese eggplant",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 5
     },
@@ -99,7 +106,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 6
     },
@@ -123,11 +130,11 @@
     },
     {
       "ingredient_id": "c0a4c9aa-f4ac-5c4e-a765-d97a38c05bb3",
-      "name": "water for blanching the vegetable",
-      "normalized_name": "water for blanching the vegetable",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "4",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "for blanching vegetables",
       "position": 9
     },
     {
@@ -141,11 +148,11 @@
     },
     {
       "ingredient_id": "0e5e9441-c87f-5b49-9155-78dabbec3ecc",
-      "name": "glutinous rice flour diluted in 1/4 cup water",
-      "normalized_name": "glutinous rice flour diluted in 1/4 cup water",
+      "name": "glutinous rice flour",
+      "normalized_name": "glutinous rice flour",
       "quantity": "3",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "diluted in 1/4 cup water",
       "position": 11
     },
     {

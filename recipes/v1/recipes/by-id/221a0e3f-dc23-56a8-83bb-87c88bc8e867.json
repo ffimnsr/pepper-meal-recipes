@@ -4,7 +4,7 @@
   "id": "221a0e3f-dc23-56a8-83bb-87c88bc8e867",
   "slug": "air-fryer-bangus-salpicao",
   "name": "Bangus Salpicao",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Air-fried marinated milk fish topped with toasted garlic.",
   "cuisine": "Filipino",
   "instructions": [
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Place the milksfish inside a resealable bag. Add the marinade. Make sure that the fish gets coated all throughout. Release the air from the bag and seal. Marinate for 30 minutes."
+      "text": "Place the milkfish inside a resealable bag. Add the marinade. Make sure that the fish gets coated all throughout. Release the air from the bag and seal. Marinate for 30 minutes."
     },
     {
       "position": 4,
@@ -36,7 +36,7 @@
   "servings": 4,
   "cooking_time_minutes": 8,
   "preparation_time_minutes": 15,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 30,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/221a0e3f-dc23-56a8-83bb-87c88bc8e867/cover.jpg",
   "video_url": null,
@@ -55,9 +55,14 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "fish"
+  ],
   "equipment": [
-    "Air fryer"
+    "Air fryer",
+    "Sauce pan",
+    "Kitchen sieve",
+    "Resealable bag"
   ],
   "ingredients": [
     {
@@ -122,6 +127,15 @@
       "unit": "teaspoon",
       "preparation": null,
       "position": 7
+    },
+    {
+      "ingredient_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "parsley",
+      "normalized_name": "parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "chopped",
+      "position": 8
     }
   ],
   "categories": [
@@ -141,12 +155,6 @@
       "id": "7ae28fb3-065d-5857-8c55-6beaa4cf9bac",
       "slug": "bangus",
       "name": "bangus",
-      "color": null
-    },
-    {
-      "id": "e588b63c-a464-5dc3-8d2c-b4b6d25dc283",
-      "slug": "deep-fried-chicken",
-      "name": "deep fried chicken",
       "color": null
     },
     {

@@ -4,9 +4,9 @@
   "id": "1adc43d0-7e86-53aa-b5f5-1486a0a0281e",
   "slug": "patis-fried-chiken",
   "name": "Patis Fried Chicken",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Patis Fried Chicken is a crispy and tasty fried chicken recipe that is best eaten with rice. This fried chicken dish is marinated in fish sauce",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Heat a deep cooking pot. Pour-oil and then let the oil get hot enough to fry."
+      "text": "Heat a deep cooking pot. Pour oil and then let the oil get hot enough to fry."
     },
     {
       "position": 4,
@@ -40,18 +40,25 @@
   "servings": 4,
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 60,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1adc43d0-7e86-53aa-b5f5-1486a0a0281e/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "gluten",
+    "fish"
+  ],
+  "equipment": [
+    "deep cooking pot",
+    "mixing bowl",
+    "large container"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",

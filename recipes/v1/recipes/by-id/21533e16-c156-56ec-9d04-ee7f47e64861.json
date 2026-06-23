@@ -5,12 +5,12 @@
   "slug": "adobong-sitaw-at-kangkong-with-chicharon",
   "name": "Adobong Sitaw at Kangkong with Chicharon",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Adobong Sitaw at Kangkong with Chicharon",
+  "brief_description": "A classic Filipino vegetable adobo featuring long beans (sitaw) and water spinach (kangkong) simmered in a savory-tangy sauce of soy sauce and vinegar, topped with crispy pork rinds (chicharon) for added texture and flavor.",
   "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Heat oil in a pan"
+      "text": "Heat oil in a pan."
     },
     {
       "position": 2,
@@ -38,7 +38,7 @@
     },
     {
       "position": 8,
-      "text": "Season with salt and ground black pepper"
+      "text": "Season with salt and ground black pepper."
     },
     {
       "position": 9,
@@ -53,13 +53,13 @@
   "cooking_time_minutes": 20,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/21533e16-c156-56ec-9d04-ee7f47e64861/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g",
+    "servingSize": "1 serving",
     "calories": "156 kcal",
     "carbohydrateContent": "5 g",
     "proteinContent": "6 g",
@@ -70,9 +70,19 @@
     "fiberContent": "1 g",
     "sugarContent": "1 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-pork",
+    "contains-soy"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "pan",
+    "knife",
+    "cutting board",
+    "spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "e6a01fec-1df0-5115-9a0c-ffd66919412a",
@@ -88,7 +98,7 @@
       "name": "kangkong",
       "normalized_name": "kangkong",
       "quantity": "1",
-      "unit": null,
+      "unit": "bunch",
       "preparation": "leaves separated and stalk cut into small pieces",
       "position": 2
     },

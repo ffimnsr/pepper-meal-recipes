@@ -4,9 +4,9 @@
   "id": "111bdcec-eb12-5f27-bc26-09f2920663b0",
   "slug": "spicy-chicken-in-coconut-milk-ginataang-manok",
   "name": "Spicy Chicken in Coconut Milk (Ginataang Manok)",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Spicy Chicken in Coconut Milk or Spicy Ginataang Manok is a Filipino Chicken dish that makes use of coconut cream or coconut milk and lots of spicy chili.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Add the mooring leaves (malunggay). Stir and cook for 5 minutes."
+      "text": "Add the moringa leaves (malunggay). Stir and cook for 5 minutes."
     },
     {
       "position": 6,
@@ -51,11 +51,19 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "Spicy",
+    "Dairy-Free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Cooking pot",
+    "Knife",
+    "Cutting board",
+    "Wooden spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -104,8 +112,8 @@
     },
     {
       "ingredient_id": "cd47a37a-8bc1-59a3-af11-b2816673db57",
-      "name": "mooring",
-      "normalized_name": "mooring",
+      "name": "moringa leaves",
+      "normalized_name": "moringa leaves",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -116,7 +124,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 7
     },
@@ -134,7 +142,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 9
     },
@@ -143,7 +151,7 @@
       "name": "chicken cube",
       "normalized_name": "chicken cube",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 10
     },

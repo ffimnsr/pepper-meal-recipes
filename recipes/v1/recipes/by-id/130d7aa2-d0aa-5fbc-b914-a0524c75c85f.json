@@ -6,7 +6,7 @@
   "name": "Pichi-Pichi Recipe",
   "recipe_type": "dessert",
   "brief_description": "Pichi Pichi is a form of Filipino dessert made from grated cassava. Watch our video to learn how to cook this dish.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -18,11 +18,11 @@
     },
     {
       "position": 3,
-      "text": "Put-in the buko-pandan essence then mix again"
+      "text": "Put in the buko-pandan essence then mix again"
     },
     {
       "position": 4,
-      "text": "Once the mixture is evenly distributed, pour in individual cup molds and place in a steamer"
+      "text": "Once the mixture is evenly distributed, pour into individual cup molds and place in a steamer"
     },
     {
       "position": 5,
@@ -30,11 +30,11 @@
     },
     {
       "position": 6,
-      "text": "Allow the steamed pichi-pichi to cool down (at least 40 minutes to 1 hour ; you can even place it in the fridge after letting it cool down at least 15 minutes) then remove from the molds"
+      "text": "Allow the steamed pichi-pichi to cool down (at least 40 minutes to 1 hour; you can even place it in the fridge after letting it cool down at least 15 minutes) then remove them from the molds"
     },
     {
       "position": 7,
-      "text": "Roll the each piece over the grated coconut"
+      "text": "Roll each piece in the grated coconut"
     },
     {
       "position": 8,
@@ -44,7 +44,7 @@
   "servings": 5,
   "cooking_time_minutes": 45,
   "preparation_time_minutes": 15,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 40,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/130d7aa2-d0aa-5fbc-b914-a0524c75c85f/cover.jpg",
   "video_url": null,
@@ -53,9 +53,19 @@
     "@type": "NutritionInformation",
     "servingSize": "5 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "vegan"
+  ],
+  "allergens": [
+    "coconut"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "steamer",
+    "individual cup molds",
+    "spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "41683bba-b5d8-59a6-81e3-79b58c0e7c05",
@@ -119,10 +129,47 @@
       "name": "Dessert"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "8f3e2a1b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",
+      "slug": "filipino",
+      "name": "Filipino"
+    },
+    {
+      "id": "9a4f3b2c-5d6e-7f8a-9b0c-1d2e3f4a5b6c",
+      "slug": "cassava",
+      "name": "Cassava"
+    },
+    {
+      "id": "ab50c4d3-6e7f-8a9b-0c1d-2e3f4a5b6c7d",
+      "slug": "steamed",
+      "name": "Steamed"
+    },
+    {
+      "id": "bc61d5e4-7f8a-9b0c-1d2e-3f4a5b6c7d8e",
+      "slug": "coconut",
+      "name": "Coconut"
+    },
+    {
+      "id": "cd72e6f5-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
+      "slug": "gluten-free",
+      "name": "Gluten-Free"
+    },
+    {
+      "id": "de83f7a6-9b0c-1d2e-3f4a-5b6c7d8e9f0a",
+      "slug": "vegan",
+      "name": "Vegan"
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Lye water (lihiya) is essential for the characteristic chewy texture and glossy appearance. Ensure you use food-grade lye water.",
+    "If fresh grated cassava is unavailable, frozen grated cassava may be used (thaw and drain excess liquid before using)."
+  ],
+  "storage_notes": [
+    "Store uncoated pichi-pichi in an airtight container in the refrigerator for up to 3 days.",
+    "Coat with grated coconut just before serving to maintain freshness."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/filipino-asian-dessert-cassava-pichi-pichi-recipe/"

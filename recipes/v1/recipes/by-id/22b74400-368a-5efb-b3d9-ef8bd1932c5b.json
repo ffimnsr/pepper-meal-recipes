@@ -4,7 +4,7 @@
   "id": "22b74400-368a-5efb-b3d9-ef8bd1932c5b",
   "slug": "how-to-make-sweet-and-sour-sauce-recipe",
   "name": "Sweet and Sour Sauce Recipe",
-  "recipe_type": "dessert",
+  "recipe_type": "condiment",
   "brief_description": "A perfectly balanced sweet and tangy sauce",
   "cuisine": "Chinese",
   "instructions": [
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Turn of the heat and transfer the sweet and sour sauce to a sauce bowl then serve."
+      "text": "Turn off the heat and transfer the sweet and sour sauce to a sauce bowl then serve."
     }
   ],
   "servings": 3,
@@ -39,7 +39,7 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g",
+    "servingSize": "40 g",
     "calories": "84 kcal",
     "carbohydrateContent": "20 g",
     "proteinContent": "0.3 g",
@@ -50,9 +50,19 @@
     "sugarContent": "18 g",
     "unsaturatedFatContent": "0.013 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "allergens": [
+    "Soy"
+  ],
+  "equipment": [
+    "Mixing bowl",
+    "Balloon whisk or fork",
+    "Saucepan",
+    "Sauce bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
@@ -89,6 +99,24 @@
       "unit": "teaspoon",
       "preparation": null,
       "position": 4
+    },
+    {
+      "ingredient_id": "b1c2d3e4-f5a6-7890-abcd-ef1234567890",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c2d3e4f5-a6b7-8901-bcde-f12345678901",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
     }
   ],
   "categories": [
@@ -128,7 +156,10 @@
     "Brown Sugar \u2013 Use light brown sugar for a more subtle sweetness and easier melting.",
     "Boiling Cornstarch Slurry \u2013 Make sure the cornstarch is fully dissolved before adding; undissolved starch causes clumps. Do not overboil after adding slurry or it may turn jelly-like."
   ],
-  "storage_notes": [],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 2 weeks.",
+    "Reheat gently in a saucepan or microwave, adding a splash of water if too thick."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-make-sweet-and-sour-sauce-recipe/"

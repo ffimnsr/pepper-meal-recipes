@@ -4,9 +4,9 @@
   "id": "1ba3649c-c658-5025-872c-5fb51651194d",
   "slug": "chicken-pandan-recipe",
   "name": "Chicken Pandan",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Chicken pandan",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Filipino chicken wings marinated in soy sauce, fish sauce, and aromatics, wrapped in fragrant pandan leaves and deep-fried until golden brown.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Put-in the chicken pieces in the bowl with the mixture and marinade for at least 3 hours. I always marinade meat overnight to absorb the flavors better. When marinating overnight, make sure to cover the bowl and refrigerate it to avoid contamination."
+      "text": "Put-in the chicken pieces in the bowl with the mixture and marinate for at least 3 hours. I always marinate meat overnight to absorb the flavors better. When marinating overnight, make sure to cover the bowl and refrigerate it to avoid contamination."
     },
     {
       "position": 3,
@@ -40,18 +40,28 @@
   "servings": 3,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 180,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1ba3649c-c658-5025-872c-5fb51651194d/cover.webp",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "fish",
+    "shellfish"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "cooking pot",
+    "tongs",
+    "kitchen knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d1fef6e3-4e4e-5765-a6f2-b634826322a9",
@@ -118,12 +128,21 @@
     },
     {
       "ingredient_id": "8b8f8e72-3247-5fd8-9b4f-0d506de89b28",
-      "name": "thumb-size piece ginger",
-      "normalized_name": "thumb-size piece ginger",
+      "name": "ginger",
+      "normalized_name": "ginger",
       "quantity": "1",
-      "unit": null,
-      "preparation": "minced",
+      "unit": "piece",
+      "preparation": "thumb-size, minced",
       "position": 8
+    },
+    {
+      "ingredient_id": "9c4e2d8a-1f5b-4c3e-9d7f-6a2b8c5d4e1f",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
     },
     {
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
@@ -132,7 +151,16 @@
       "quantity": "2",
       "unit": "cups",
       "preparation": null,
-      "position": 9
+      "position": 10
+    },
+    {
+      "ingredient_id": "7a3f9e2b-8c4d-5e6f-7a8b-9c0d1e2f3a4b",
+      "name": "pandan leaves",
+      "normalized_name": "pandan leaves",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
     }
   ],
   "categories": [

@@ -4,9 +4,9 @@
   "id": "1158800a-f392-5d5b-9d1b-3481f349fdb9",
   "slug": "pinoy-style-fried-chicken",
   "name": "Pinoy Style Fried Chicken",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Pinoy Style Fried Chicken is one of our Filipino Fried Chicken versions. Pinoy fried chicken is known for its simplicity and delicious taste. This recipe is no exception; it is simple, delicious, and budget friendly.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -48,7 +48,7 @@
   "servings": 4,
   "cooking_time_minutes": 25,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 180,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1158800a-f392-5d5b-9d1b-3481f349fdb9/cover.jpg",
   "video_url": null,
@@ -58,8 +58,16 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "gluten"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "resealable bag",
+    "pan",
+    "tongs",
+    "serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -120,7 +128,7 @@
       "name": "cooking oil",
       "normalized_name": "cooking oil",
       "quantity": "1 1/2",
-      "unit": null,
+      "unit": "cups",
       "preparation": null,
       "position": 7
     }

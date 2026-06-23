@@ -4,9 +4,9 @@
   "id": "120ba172-2067-5eb7-ae5f-28083c87d442",
   "slug": "chicken-siomai",
   "name": "Chicken Siomai",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This Chicken Siomai recipe is a variation of pork siomai or shaomai. This recipe makes use of lean ground chicken plus additional vegetables and seasonings.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -50,8 +50,18 @@
     "servingSize": "8 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Shellfish",
+    "Egg",
+    "Wheat",
+    "Sesame"
+  ],
+  "equipment": [
+    "Steamer",
+    "Mixing bowl",
+    "Spatula",
+    "Plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f0464817-6351-5fe4-b463-fe603c5e064d",
@@ -64,11 +74,11 @@
     },
     {
       "ingredient_id": "be5812bd-7c7f-59c2-8e00-1d32ab966a99",
-      "name": "minced shrimp",
-      "normalized_name": "minced shrimp",
+      "name": "shrimp",
+      "normalized_name": "shrimp",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "minced",
       "position": 2
     },
     {
@@ -91,11 +101,11 @@
     },
     {
       "ingredient_id": "29c7679e-afde-5f64-8f54-9fe47e73ed96",
-      "name": "minced white mushroom",
-      "normalized_name": "minced white mushroom",
+      "name": "white mushroom",
+      "normalized_name": "white mushroom",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "minced",
       "position": 5
     },
     {
@@ -112,17 +122,17 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 7
     },
     {
       "ingredient_id": "2fa59de2-bb0e-5455-95bf-aeea377489da",
-      "name": "minced carrot",
-      "normalized_name": "minced carrot",
+      "name": "carrot",
+      "normalized_name": "carrot",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "minced",
       "position": 8
     },
     {
@@ -157,7 +167,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 12
     },
@@ -166,7 +176,7 @@
       "name": "wonton wrapper",
       "normalized_name": "wonton wrapper",
       "quantity": null,
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 13
     },

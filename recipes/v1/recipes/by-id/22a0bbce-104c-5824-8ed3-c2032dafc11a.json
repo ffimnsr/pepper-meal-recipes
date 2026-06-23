@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "22a0bbce-104c-5824-8ed3-c2032dafc11a",
   "slug": "pinoy-street-food-orange-egg-tokneneng-qwek-kwek-kwek-recipe",
-  "name": "Kwek - Kwek Recipe",
+  "name": "Kwek-Kwek",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Kewek kwek or Deep Fried Boiled Quail Eggs with Orange Batter.",
-  "cuisine": null,
+  "brief_description": "Kwek-kwek are deep-fried quail eggs coated in an orange annatto batter, a popular Filipino street food snack.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,11 +14,11 @@
     },
     {
       "position": 2,
-      "text": "In a mixing bowl, combine flour, salt, and pepper then mix thoroughly."
+      "text": "In a mixing bowl, combine flour, salt, and pepper, then mix thoroughly."
     },
     {
       "position": 3,
-      "text": "Dilute the anatto powder in warm water then pour-in the mixing bowl with the other ingredients. Mix well."
+      "text": "Dilute the annatto powder in warm water, then pour into the mixing bowl with the other ingredients. Mix well."
     },
     {
       "position": 4,
@@ -26,15 +26,15 @@
     },
     {
       "position": 5,
-      "text": "Heat the pan and pour the cooking oil."
+      "text": "Heat a pan and pour in the cooking oil."
     },
     {
       "position": 6,
-      "text": "When the oil is hot enough, deep-fry the quail eggs by scooping them from the mixing bowl using a spoon. Make sure that each is coated with batter."
+      "text": "When the oil is hot enough, deep-fry the quail eggs by scooping them from the mixing bowl using a spoon. Make sure that each one is coated with batter."
     },
     {
       "position": 7,
-      "text": "After a few minutes, remove the fried quail eggs from the pan and place in a serving plate."
+      "text": "After a few minutes, remove the fried quail eggs from the pan and place on a serving plate."
     },
     {
       "position": 8,
@@ -58,16 +58,24 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Eggs",
+    "Gluten"
+  ],
+  "equipment": [
+    "Mixing bowl",
+    "Deep pan or wok",
+    "Spoon",
+    "Container"
+  ],
   "ingredients": [
     {
       "ingredient_id": "e56ee4c9-593c-5ddd-81ea-c58fc4714a18",
-      "name": "boiled quail egg",
-      "normalized_name": "boiled quail egg",
+      "name": "quail egg",
+      "normalized_name": "quail egg",
       "quantity": "12 to 18",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "boiled",
       "position": 1
     },
     {
@@ -99,8 +107,8 @@
     },
     {
       "ingredient_id": "fadb4e33-2610-517a-8235-bfb73d7114d8",
-      "name": "anatto powder",
-      "normalized_name": "anatto powder",
+      "name": "annatto powder",
+      "normalized_name": "annatto powder",
       "quantity": "1",
       "unit": "tbsp",
       "preparation": null,
@@ -117,11 +125,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "tsp",
-      "preparation": null,
+      "preparation": "ground",
       "position": 7
     },
     {
@@ -143,8 +151,13 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Ensure the oil is sufficiently hot before frying to prevent the batter from sticking.",
+    "Serve immediately while crispy for the best texture."
+  ],
+  "storage_notes": [
+    "Best consumed immediately after frying; does not store well."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/pinoy-street-food-orange-egg-tokneneng-qwek-kwek-kwek-recipe/"

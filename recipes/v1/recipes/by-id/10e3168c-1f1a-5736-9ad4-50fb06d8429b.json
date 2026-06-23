@@ -6,7 +6,7 @@
   "name": "Saging con Hielo",
   "recipe_type": "dessert",
   "brief_description": "Saging con Hielo is a simple dessert that I like to have during summertime. It is simply \"minatamis na saging\" (banana with caramel sauce) topped with shaved ice and milk.",
-  "cuisine": null,
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -46,8 +46,13 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "milk"
+  ],
+  "equipment": [
+    "cooking pot",
+    "serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "86d3ea41-488c-550d-ac28-d59f98509ddd",
@@ -102,6 +107,15 @@
       "unit": "cup",
       "preparation": null,
       "position": 6
+    },
+    {
+      "ingredient_id": "c7d8e9f0-a1b2-4c3d-8e9f-0a1b2c3d4e5f",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
     }
   ],
   "categories": [
@@ -111,7 +125,28 @@
       "name": "Dessert"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "slug": "filipino",
+      "name": "Filipino"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "slug": "cold-dessert",
+      "name": "Cold Dessert"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "slug": "summer",
+      "name": "Summer"
+    },
+    {
+      "id": "d4e5f6a7-b8c9-0123-defa-456789012345",
+      "slug": "no-bake",
+      "name": "No-Bake"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

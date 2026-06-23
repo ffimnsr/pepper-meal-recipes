@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "20791c61-b71a-580b-a289-e90f791e9b6b",
   "slug": "paella-de-marisco-recipe",
-  "name": "Paella de Marisco Recipe",
-  "recipe_type": null,
+  "name": "Paella de Marisco",
+  "recipe_type": "main",
   "brief_description": "Paella with mussels, shrimp, and clams",
-  "cuisine": null,
+  "cuisine": "Spanish",
   "instructions": [
     {
       "position": 1,
@@ -26,15 +26,15 @@
     },
     {
       "position": 5,
-      "text": "Pan Fry the fish fillet until both sides turns light brown."
+      "text": "Pan-fry the fish fillet until both sides turn light brown."
     },
     {
       "position": 6,
-      "text": "Remove the fish from the pan and then chop into small pieces. Set side."
+      "text": "Remove the fish from the pan and then chop into small pieces. Set aside."
     },
     {
       "position": 7,
-      "text": "Meanwhile, fry both sides of the shrimp until the color turns orange."
+      "text": "Fry both sides of the shrimp until the color turns orange."
     },
     {
       "position": 8,
@@ -42,7 +42,7 @@
     },
     {
       "position": 9,
-      "text": "Saut\u00e9 the onion, scallion, and red bell pepper"
+      "text": "Saut\u00e9 the onion, scallion, and red bell pepper."
     },
     {
       "position": 10,
@@ -95,28 +95,39 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "8 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "shellfish",
+    "fish"
+  ],
+  "equipment": [
+    "paellera",
+    "aluminum foil",
+    "mortar and pestle"
+  ],
   "ingredients": [
     {
       "ingredient_id": "dae76ed6-dd8b-5e07-bf7d-077cc47a7e59",
-      "name": "cooked mussel",
-      "normalized_name": "cooked mussel",
+      "name": "mussel",
+      "normalized_name": "mussel",
       "quantity": "12 to 15",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "cooked",
       "position": 1
     },
     {
       "ingredient_id": "ed9cd859-53d1-5a73-9982-cd37208f874c",
-      "name": "cooked clam",
-      "normalized_name": "cooked clam",
+      "name": "clam",
+      "normalized_name": "clam",
       "quantity": "12 to 15",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "cooked",
       "position": 2
     },
     {
@@ -160,7 +171,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "piece",
       "preparation": "roasted and sliced into strips",
       "position": 7
     },
@@ -169,7 +180,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 8
     },
@@ -178,17 +189,17 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "1",
-      "unit": null,
+      "unit": "clove",
       "preparation": null,
       "position": 9
     },
     {
       "ingredient_id": "db282765-0020-5cdc-ac46-b19e817b970b",
-      "name": "chopped parsley",
-      "normalized_name": "chopped parsley",
+      "name": "parsley",
+      "normalized_name": "parsley",
       "quantity": "3",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 10
     },
     {
@@ -205,7 +216,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 12
     },
@@ -232,7 +243,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 15
     },

@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "1a40ae03-0494-5a45-93bc-e10bf068fe5c",
   "slug": "spicy-wonton-soup-recipe",
-  "name": "Spicy Wonton Soup Recipe",
+  "name": "Spicy Wonton Soup",
   "recipe_type": "soup",
   "brief_description": "Spicy Wonton Soup is a Chinese dish that features wontons, which are dumplings filled with meat or vegetables, in a spicy broth. The soup typically includes ingredients like chili oil, garlic, and scallions, providing a flavorful and warming meal with a balance of heat and savory depth!",
-  "cuisine": null,
+  "cuisine": "Chinese",
   "instructions": [
     {
       "position": 1,
@@ -71,9 +71,18 @@
     "sugarContent": "3 g",
     "unsaturatedFatContent": "16 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Contains Pork"
+  ],
+  "allergens": [
+    "Pork",
+    "Wheat",
+    "Sesame"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "67cc2d5f-e0b7-5d7d-b310-781d8ba1ea9c",
@@ -98,7 +107,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 3
     },
@@ -188,7 +197,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 13
     },

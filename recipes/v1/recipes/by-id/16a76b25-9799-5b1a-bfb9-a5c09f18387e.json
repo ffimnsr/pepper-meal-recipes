@@ -6,7 +6,7 @@
   "name": "Crispy Spam Steak Recipe",
   "recipe_type": "breakfast",
   "brief_description": "I eat my crispy spam steak with Filipino pandesal, and there are times when I eat it with sinangag with banana ketchup and fried egg.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -34,7 +34,7 @@
     },
     {
       "position": 7,
-      "text": "Remove the Crispy fried Spam steaks from then pan. Place in a plate lined with paper towel."
+      "text": "Remove the Crispy fried Spam steaks from the pan. Place in a plate lined with paper towel."
     },
     {
       "position": 8,
@@ -54,15 +54,29 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "gluten",
+    "soy"
+  ],
+  "equipment": [
+    "can opener",
+    "knife",
+    "cutting board",
+    "deep frying pan",
+    "tongs",
+    "mixing bowls",
+    "whisk",
+    "plate",
+    "paper towels"
+  ],
   "ingredients": [
     {
       "ingredient_id": "5646eaf4-33de-5ab8-9e1f-fd9f716ab987",
       "name": "spam light",
       "normalized_name": "spam light",
-      "quantity": "1 12",
-      "unit": "oz",
+      "quantity": "1",
+      "unit": "can",
       "preparation": null,
       "position": 1
     },
@@ -121,8 +135,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Double coating (dredging in egg and flour twice) creates a thicker, crunchier crust.",
+    "Ensure oil is hot enough (around 350\u00b0F/175\u00b0C) before frying to prevent soggy coating."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat in a toaster oven or air fryer to maintain crispiness."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/crispy-spam-steak-recipe/"

@@ -5,7 +5,7 @@
   "slug": "pastimallows",
   "name": "Pastimallows",
   "recipe_type": "dessert",
-  "brief_description": "This is a recipe for pastimallows, which is a dessert made from pastillas and marshmallows.",
+  "brief_description": "Filipino no-bake treats made with sweet pastillas (milk candy) wrapped around fluffy marshmallows, rolled in sugar.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -42,7 +42,9 @@
     "servingSize": "10 g"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "Milk"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -67,18 +69,18 @@
       "ingredient_id": "e37097b1-c487-5ffa-9e05-8375690c5cf3",
       "name": "condensed milk",
       "normalized_name": "condensed milk",
-      "quantity": "1 14",
+      "quantity": "14",
       "unit": "oz",
       "preparation": null,
       "position": 3
     },
     {
       "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
-      "name": "melted butter",
-      "normalized_name": "melted butter",
+      "name": "butter",
+      "normalized_name": "butter",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "melted",
       "position": 4
     },
     {
@@ -92,10 +94,10 @@
     },
     {
       "ingredient_id": "6dcb7167-9538-5679-9f46-dccc9e8a4b06",
-      "name": "drops red and green food coloring",
-      "normalized_name": "drops red and green food coloring",
-      "quantity": "12",
-      "unit": null,
+      "name": "red and green food coloring",
+      "normalized_name": "red and green food coloring",
+      "quantity": "10-12",
+      "unit": "drops",
       "preparation": null,
       "position": 6
     }

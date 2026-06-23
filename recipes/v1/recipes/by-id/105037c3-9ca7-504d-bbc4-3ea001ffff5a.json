@@ -4,8 +4,8 @@
   "id": "105037c3-9ca7-504d-bbc4-3ea001ffff5a",
   "slug": "inihaw-na-galunggong-with-ensaladang-talong",
   "name": "Inihaw na Galunggong with Ensaladang Talong",
-  "recipe_type": "salad",
-  "brief_description": "This is a recipe for grilled fish with eggplant salad",
+  "recipe_type": "main",
+  "brief_description": "Whole grilled mackerel scad served with ensaladang talong, a classic Filipino eggplant salad with tomatoes, onions, calamansi, and shrimp paste. A perfect combination of smoky, tangy, and savory flavors best enjoyed with steamed rice and spicy vinegar.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -49,16 +49,28 @@
     "@type": "NutritionInformation",
     "servingSize": "1 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+  ],
+  "allergens": [
+    "shellfish",
+    "crustaceans"
+  ],
+  "equipment": [
+    "grill",
+    "bamboo skewers",
+    "mixing bowl",
+    "fork"
+  ],
   "ingredients": [
     {
       "ingredient_id": "569fdfd3-ad9a-5f47-b3d6-b0fb966ec0c5",
       "name": "galunggong",
       "normalized_name": "galunggong",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cleaned",
       "position": 1
     },
@@ -85,7 +97,7 @@
       "name": "chinese eggplant",
       "normalized_name": "chinese eggplant",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 4
     },
@@ -94,7 +106,7 @@
       "name": "ripe tomato",
       "normalized_name": "ripe tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 5
     },
@@ -103,7 +115,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 6
     },

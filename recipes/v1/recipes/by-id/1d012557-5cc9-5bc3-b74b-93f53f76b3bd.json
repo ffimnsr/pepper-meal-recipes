@@ -4,9 +4,9 @@
   "id": "1d012557-5cc9-5bc3-b74b-93f53f76b3bd",
   "slug": "pork-giniling-quail-eggs",
   "name": "Pork Giniling with Quail Eggs",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Got any idea for a simple and delicious meal for lunch yet? How about checking out this Pork Giniling with Quail Eggs recipe? This is another version of our popular pork giniling.",
-  "cuisine": null,
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -49,17 +49,22 @@
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1d012557-5cc9-5bc3-b74b-93f53f76b3bd/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "5 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "cooking pot",
+    "spatula",
+    "cutting board",
+    "knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
@@ -72,25 +77,25 @@
     },
     {
       "ingredient_id": "287abcf9-ec7c-527f-807b-4aae9a1b2da7",
-      "name": "hard boiled quail egg",
-      "normalized_name": "hard boiled quail egg",
+      "name": "quail eggs",
+      "normalized_name": "quail egg",
       "quantity": "12 to 18",
       "unit": "pieces",
-      "preparation": "shells removed",
+      "preparation": "hard-boiled, shells removed",
       "position": 2
     },
     {
       "ingredient_id": "a5f0d27c-2795-5c86-9890-36ab45b4c1a8",
-      "name": "diced carrot",
-      "normalized_name": "diced carrot",
+      "name": "carrots",
+      "normalized_name": "carrot",
       "quantity": "3/4",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "diced",
       "position": 3
     },
     {
       "ingredient_id": "f94c5c90-99b0-5664-93d9-ff20d5b9fdab",
-      "name": "green pea",
+      "name": "green peas",
       "normalized_name": "green pea",
       "quantity": "3/4",
       "unit": "cup",
@@ -110,14 +115,14 @@
       "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
       "name": "tomato sauce",
       "normalized_name": "tomato sauce",
-      "quantity": "1 8",
+      "quantity": "8",
       "unit": "oz",
       "preparation": null,
       "position": 6
     },
     {
       "ingredient_id": "0395d79e-c1a7-5479-88bd-6a47c200ed08",
-      "name": "raisin",
+      "name": "raisins",
       "normalized_name": "raisin",
       "quantity": "1/2",
       "unit": "cup",
@@ -129,7 +134,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 8
     },
@@ -156,7 +161,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 11
     },
@@ -165,7 +170,7 @@
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 12
     }

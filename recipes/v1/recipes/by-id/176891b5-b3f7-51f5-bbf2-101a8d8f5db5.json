@@ -65,15 +65,27 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "egg",
+    "gluten",
+    "milk"
+  ],
+  "equipment": [
+    "Large pot or deep fryer",
+    "Small pot",
+    "Saucepan",
+    "Kitchen strainer",
+    "Mixing bowls",
+    "Whisk",
+    "Tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
       "name": "chicken",
       "normalized_name": "chicken",
       "quantity": "1",
-      "unit": null,
+      "unit": "whole",
       "preparation": null,
       "position": 1
     },
@@ -82,7 +94,7 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "2",
-      "unit": null,
+      "unit": "heads",
       "preparation": "chopped",
       "position": 2
     },
@@ -91,7 +103,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 3
     },
@@ -175,15 +187,6 @@
       "unit": null,
       "preparation": null,
       "position": 12
-    },
-    {
-      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
-      "position": 13
     }
   ],
   "categories": [

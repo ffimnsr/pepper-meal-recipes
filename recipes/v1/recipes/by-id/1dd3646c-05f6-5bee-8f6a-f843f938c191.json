@@ -5,7 +5,7 @@
   "slug": "nilagang-baka-with-kalabasa-filipino-boiled-beef-soup",
   "name": "Nilagang Baka with Kalabasa \u2013 Filipino boiled beef Soup",
   "recipe_type": "soup",
-  "brief_description": "This is a recipe for Nilagang Baka with Kalabasa \u2013 Filipino boiled beef Soup",
+  "brief_description": "A comforting Filipino beef and vegetable soup featuring tender beef chuck, butternut squash (kalabasa), green beans, and bok choy simmered in a clear, savory broth. Best served hot with steamed rice.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Add long greens beans. Cook for 3 minutes."
+      "text": "Add long green beans. Cook for 3 minutes."
     },
     {
       "position": 5,
@@ -41,7 +41,7 @@
   "cooking_time_minutes": 120,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1dd3646c-05f6-5bee-8f6a-f843f938c191/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -50,8 +50,14 @@
     "servingSize": "5 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Fish"
+  ],
+  "equipment": [
+    "Large cooking pot",
+    "Cutting board",
+    "Chef's knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "89009c1c-76a6-5143-8d75-494309a66aa0",
@@ -67,7 +73,7 @@
       "name": "bok choy",
       "normalized_name": "bok choy",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 2
     },
@@ -85,7 +91,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "wedged",
       "position": 4
     },
@@ -124,6 +130,15 @@
       "unit": "tablespoons",
       "preparation": null,
       "position": 8
+    },
+    {
+      "ingredient_id": "c8f4e2b1-9d3a-4b5c-8e7f-6a5b4c3d2e1f",
+      "name": "kalabasa",
+      "normalized_name": "butternut squash",
+      "quantity": "1/2",
+      "unit": "lb",
+      "preparation": "cubed",
+      "position": 9
     }
   ],
   "categories": [
@@ -140,8 +155,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Substitute calabaza or kabocha squash if butternut squash is unavailable.",
+    "Adjust fish sauce quantity to taste preferences.",
+    "For a clearer broth, skim off excess fat and impurities during the first 30 minutes of boiling."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 3 days.",
+    "Reheat gently on the stovetop over medium heat until warmed through."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/nilagang-baka-with-kalabasa-filipino-boiled-beef-soup/"

@@ -4,9 +4,9 @@
   "id": "16e132da-922f-5b16-8e38-e2daee2078c6",
   "slug": "basic-teriyaki-sauce-recipe",
   "name": "Basic Teriyaki Sauce",
-  "recipe_type": null,
+  "recipe_type": "condiment",
   "brief_description": "You can use this basic Teriyaki sauce to make delicious Teriyaki dishes and sauces. This recipe is so quick to prepare. You can make one in 10 minutes.",
-  "cuisine": null,
+  "cuisine": "Japanese",
   "instructions": [
     {
       "position": 1,
@@ -42,20 +42,31 @@
     }
   ],
   "servings": 4,
-  "cooking_time_minutes": 1,
+  "cooking_time_minutes": 5,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "medium",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/16e132da-922f-5b16-8e38-e2daee2078c6/cover.jpeg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "2 tablespoons"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "allergens": [
+    "Soy",
+    "Wheat",
+    "Gluten"
+  ],
+  "equipment": [
+    "Saucepan",
+    "Fine mesh strainer",
+    "Whisk or spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "092c58e1-2d7b-5b6b-846c-fba6f16a29fb",
@@ -104,20 +115,20 @@
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1 1/2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 6
     },
     {
       "ingredient_id": "c8a58215-0bcb-57b9-a482-d3d070393943",
-      "name": "grated ginger",
-      "normalized_name": "grated ginger",
+      "name": "ginger",
+      "normalized_name": "ginger",
       "quantity": "1 1/2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "grated",
       "position": 7
     }
   ],

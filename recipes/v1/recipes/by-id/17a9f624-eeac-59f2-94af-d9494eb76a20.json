@@ -4,9 +4,9 @@
   "id": "17a9f624-eeac-59f2-94af-d9494eb76a20",
   "slug": "super-tasty-chop-suey",
   "name": "Super Tasty Chop Suey",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Chop Suey with chicken breast and chicken liver. This version makes use of Knorr SavorRich Chicken Liquid Seasoning, which helps make the dish tasty and delicious.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Saute onion and garllic until onion softens."
+      "text": "Saute onion and garlic until onion softens."
     },
     {
       "position": 3,
@@ -46,7 +46,7 @@
     },
     {
       "position": 10,
-      "text": "Season with Knorr SavrorRich Chicken liquid seasoning and ground black pepper."
+      "text": "Season with Knorr SavorRich Chicken liquid seasoning and ground black pepper."
     },
     {
       "position": 11,
@@ -57,11 +57,11 @@
       "text": "Share and enjoy!"
     }
   ],
-  "servings": null,
-  "cooking_time_minutes": null,
-  "preparation_time_minutes": null,
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/17a9f624-eeac-59f2-94af-d9494eb76a20/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -114,7 +114,7 @@
       "name": "cauliflower",
       "normalized_name": "cauliflower",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 4
     },
@@ -155,13 +155,22 @@
       "position": 8
     },
     {
+      "ingredient_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "cabbage",
+      "normalized_name": "cabbage",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "chopped",
+      "position": 9
+    },
+    {
       "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
       "unit": "piece",
       "preparation": "sliced",
-      "position": 9
+      "position": 10
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
@@ -170,7 +179,7 @@
       "quantity": "4",
       "unit": "cloves",
       "preparation": "minced",
-      "position": 10
+      "position": 11
     },
     {
       "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
@@ -179,16 +188,16 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
-      "position": 11
+      "position": 12
     },
     {
       "ingredient_id": "bfef5b06-74b6-5b1a-8dd0-a2babb29dd27",
-      "name": "cornstarch diliuted in 1/3 cup water",
-      "normalized_name": "cornstarch diliuted in 1/3 cup water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1 1/2",
-      "unit": "teaspoon",
-      "preparation": null,
-      "position": 12
+      "unit": "teaspoons",
+      "preparation": "diluted in 1/3 cup water",
+      "position": 13
     },
     {
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
@@ -197,7 +206,7 @@
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 13
+      "position": 14
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
@@ -206,7 +215,7 @@
       "quantity": null,
       "unit": null,
       "preparation": null,
-      "position": 14
+      "position": 15
     }
   ],
   "categories": [

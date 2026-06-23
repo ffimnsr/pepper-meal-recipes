@@ -4,9 +4,9 @@
   "id": "1064b8c5-a9b5-5cd5-95f1-d0195d7a7ef8",
   "slug": "adobo-meatballs-recipe",
   "name": "Adobo Meatballs Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Adobo Meatball is a dish made using our easy meatball recipe and cooked inadobo style. Since I made a lot of meatballs for our Spaghetti and meatball dinner, there was an extra batch that I was not able to use and I thought that it will be nice to turn them into meatball adobo.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -51,11 +51,16 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "pan",
+    "stove"
+  ],
   "ingredients": [
     {
       "ingredient_id": "64ff177c-e8f3-58ee-813d-dbfde538ade2",
@@ -125,7 +130,7 @@
       "name": "cooking oil",
       "normalized_name": "cooking oil",
       "quantity": "2",
-      "unit": "tablespoon",
+      "unit": "tablespoons",
       "preparation": null,
       "position": 8
     },

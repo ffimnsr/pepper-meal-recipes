@@ -4,7 +4,7 @@
   "id": "15503df9-59d9-5e76-b845-2ca393d4011e",
   "slug": "filipino-spaghetti-recipe",
   "name": "Filipino Style Spaghetti",
-  "recipe_type": "dessert",
+  "recipe_type": "main",
   "brief_description": "A sweet version of spaghetti with hotdogs and ground meat.",
   "cuisine": "Filipino",
   "instructions": [
@@ -100,22 +100,31 @@
       "position": 3
     },
     {
+      "ingredient_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "hotdog",
+      "normalized_name": "hotdog",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
       "ingredient_id": "0f243194-d1b1-589f-91a2-bc2da087f31b",
       "name": "filipino style spaghetti sauce",
       "normalized_name": "filipino style spaghetti sauce",
       "quantity": "35",
       "unit": "ounces",
       "preparation": null,
-      "position": 4
+      "position": 5
     },
     {
       "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
-      "name": "shredded cheddar cheese",
-      "normalized_name": "shredded cheddar cheese",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
-      "position": 5
+      "preparation": "shredded",
+      "position": 6
     },
     {
       "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
@@ -124,25 +133,25 @@
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
-      "position": 7
+      "position": 8
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
-      "position": 8
+      "preparation": "minced",
+      "position": 9
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -151,7 +160,7 @@
       "quantity": null,
       "unit": null,
       "preparation": null,
-      "position": 9
+      "position": 10
     },
     {
       "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
@@ -160,7 +169,7 @@
       "quantity": null,
       "unit": null,
       "preparation": null,
-      "position": 10
+      "position": 11
     },
     {
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
@@ -169,7 +178,7 @@
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 11
+      "position": 12
     }
   ],
   "categories": [

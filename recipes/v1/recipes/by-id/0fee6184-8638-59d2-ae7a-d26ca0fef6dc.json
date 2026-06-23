@@ -10,15 +10,15 @@
   "instructions": [
     {
       "position": 1,
-      "text": "Combine avocados, salt, and lime juice. Coat the avocados with lime. Set aside."
+      "text": "Combine avocados, salt, and lime juice. Coat the avocados with lime juice. Set aside."
     },
     {
       "position": 2,
-      "text": "Put together the remaining ingredients in bowl and then shred using a food processor."
+      "text": "Put together the remaining ingredients in a bowl and then shred using a food processor."
     },
     {
       "position": 3,
-      "text": "Add the shredded ingredients with the avocado and then mash using a fork of potato masher. Mix well."
+      "text": "Add the shredded ingredients with the avocado and then mash using a fork or potato masher. Mix well."
     },
     {
       "position": 4,
@@ -35,18 +35,29 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "150g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "food processor",
+    "mixing bowl",
+    "fork",
+    "potato masher",
+    "cutting board",
+    "knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a8da5e1f-7b18-55b3-81fc-99e0bba480ca",
       "name": "avocado",
       "normalized_name": "avocado",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "peeled and pitted",
       "position": 1
     },
@@ -73,17 +84,17 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 4
     },
     {
       "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
-      "name": "chopped fresh cilantro",
-      "normalized_name": "chopped fresh cilantro",
+      "name": "fresh cilantro",
+      "normalized_name": "cilantro",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 5
     },
     {
@@ -91,7 +102,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "chopped",
       "position": 6
     },
@@ -103,15 +114,6 @@
       "unit": "cloves",
       "preparation": null,
       "position": 7
-    },
-    {
-      "ingredient_id": "f983a3fe-f871-566b-86c5-ef39f98449fc",
-      "name": "cooking procedure",
-      "normalized_name": "cooking procedure",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
-      "position": 8
     }
   ],
   "categories": [

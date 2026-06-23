@@ -4,9 +4,9 @@
   "id": "11379ba4-36d2-5322-a17d-6e5d2d481335",
   "slug": "no-bake-lasagna-pinoy-style",
   "name": "No Bake Lasagna",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This is a recipe for No Bake Lasagna Filipino Style.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -77,7 +77,7 @@
   "cooking_time_minutes": 45,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/11379ba4-36d2-5322-a17d-6e5d2d481335/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -96,7 +96,13 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "pan",
+    "saucepan",
+    "cooking pot",
+    "baking pan",
+    "microwave"
+  ],
   "ingredients": [
     {
       "ingredient_id": "30298945-7f90-5b38-99e6-af308e3bdc8a",
@@ -127,11 +133,11 @@
     },
     {
       "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
-      "name": "shredded cheddar cheese",
-      "normalized_name": "shredded cheddar cheese",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 4
     },
     {
@@ -172,11 +178,11 @@
     },
     {
       "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
-      "name": "shredded cheddar cheese",
-      "normalized_name": "shredded cheddar cheese",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 9
     },
     {
@@ -226,28 +232,28 @@
     },
     {
       "ingredient_id": "2e824291-5bec-5288-b6d1-aa2ba3710ed8",
-      "name": "crushed dried basil",
-      "normalized_name": "crushed dried basil",
+      "name": "dried basil",
+      "normalized_name": "dried basil",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 15
     },
     {
       "ingredient_id": "db282765-0020-5cdc-ac46-b19e817b970b",
-      "name": "chopped parsley",
-      "normalized_name": "chopped parsley",
+      "name": "parsley",
+      "normalized_name": "parsley",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 16
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "to taste",
+      "unit": "piece",
       "preparation": null,
       "position": 17
     },
@@ -255,8 +261,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "to taste",
+      "unit": "piece",
       "preparation": null,
       "position": 18
     }

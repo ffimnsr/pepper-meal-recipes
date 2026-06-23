@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "16df06d6-d4b7-5938-9d1a-debb625a32f3",
   "slug": "no-bake-filipino-style-lasagna",
-  "name": "No Bake Filipino Style Lasagna",
+  "name": "No-Bake Filipino-Style Lasagna",
   "recipe_type": "main",
   "brief_description": "I love lasagna! It is rich, tasty, and delicious. The sauce is cooked the same way as that of Filipino Spaghetti. I simply call it Filipino Style Lasagna.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -75,8 +75,18 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "cooking pot",
+    "saucepan",
+    "8x8 baking pan",
+    "aluminum foil",
+    "turbo broiler",
+    "colander"
+  ],
   "ingredients": [
     {
       "ingredient_id": "30298945-7f90-5b38-99e6-af308e3bdc8a",
@@ -250,8 +260,12 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Let the lasagna rest for 10 to 15 minutes before slicing for cleaner servings."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/no-bake-filipino-style-lasagna/"

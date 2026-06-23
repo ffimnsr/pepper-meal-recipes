@@ -4,8 +4,8 @@
   "id": "0fcebdca-a39b-5942-bb11-78c51bedeb54",
   "slug": "beef-short-rib-kare-kare",
   "name": "Beef Short Rib Kare Kare",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Beef Short Rib Kare Kare",
+  "recipe_type": "main",
+  "brief_description": "A Filipino beef stew made with tender beef short ribs, rich peanut sauce, banana blossoms, and vegetables, colored with annatto and served with saut\u00e9ed shrimp paste.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -63,11 +63,20 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Peanuts",
+    "Shellfish"
+  ],
+  "equipment": [
+    "Pressure cooker",
+    "Mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d7855d9f-4b7d-51c9-aed8-67f95269f20b",
@@ -92,7 +101,7 @@
       "name": "baby bok choy",
       "normalized_name": "baby bok choy",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 3
     },
@@ -110,7 +119,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 5
     },
@@ -128,17 +137,17 @@
       "name": "banana blossom",
       "normalized_name": "banana blossom",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 7
     },
     {
       "ingredient_id": "0e5e9441-c87f-5b49-9155-78dabbec3ecc",
-      "name": "glutinous rice flour diluted in 1/4 cup water",
-      "normalized_name": "glutinous rice flour diluted in 1/4 cup water",
+      "name": "glutinous rice flour",
+      "normalized_name": "glutinous rice flour",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "diluted in 1/4 cup water",
       "position": 8
     },
     {
@@ -170,8 +179,8 @@
     },
     {
       "ingredient_id": "b9f723d8-fc4a-52cd-af3d-212988528564",
-      "name": "sauted shrimp paste",
-      "normalized_name": "sauted shrimp paste",
+      "name": "saut\u00e9ed shrimp paste",
+      "normalized_name": "saut\u00e9ed shrimp paste",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,

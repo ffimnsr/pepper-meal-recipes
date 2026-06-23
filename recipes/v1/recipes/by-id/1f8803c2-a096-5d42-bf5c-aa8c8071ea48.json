@@ -4,9 +4,9 @@
   "id": "1f8803c2-a096-5d42-bf5c-aa8c8071ea48",
   "slug": "asian-style-spare-ribs",
   "name": "Asian Style Spare Ribs",
-  "recipe_type": null,
-  "brief_description": "I enjoy eating spare ribs to the point that I don\u2019t mind how messy my hands are while indulging every bite. This recipe post is all about Asian Style Spare Ribs. It is a simple spare ribs dish that is full of flavor. I also liked how the meat got really tender.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "I enjoy eating spare ribs to the point that I don't mind how messy my hands are while indulging every bite. This recipe post is all about Asian Style Spare Ribs. It is a simple spare ribs dish that is full of flavor. I also liked how the meat got really tender.",
+  "cuisine": "asian",
   "instructions": [
     {
       "position": 1,
@@ -40,7 +40,7 @@
   "servings": 6,
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 480,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1f8803c2-a096-5d42-bf5c-aa8c8071ea48/cover.jpg",
   "video_url": null,
@@ -50,8 +50,17 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "bowl",
+    "resealable plastic bag",
+    "oven",
+    "roasting pan with lid",
+    "pastry brush"
+  ],
   "ingredients": [
     {
       "ingredient_id": "22289691-a453-5abb-a467-ebea2208e7c3",
@@ -73,11 +82,11 @@
     },
     {
       "ingredient_id": "70d856a5-cb23-5f42-8e98-92ca72c83fd2",
-      "name": "juice from 3 lime",
-      "normalized_name": "juice from 3 lime",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "juiced",
       "position": 3
     },
     {
@@ -100,8 +109,8 @@
     },
     {
       "ingredient_id": "17f70712-027e-59e6-b9ed-b463b32122fe",
-      "name": "blackstrap molass",
-      "normalized_name": "blackstrap molass",
+      "name": "blackstrap molasses",
+      "normalized_name": "blackstrap molasses",
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,

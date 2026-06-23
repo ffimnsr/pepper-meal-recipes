@@ -4,9 +4,9 @@
   "id": "10418a9a-18fe-5a5f-9dde-1ecf68ec19b2",
   "slug": "slow-cook-pork-afritada",
   "name": "Slow Cook Pork Afritada",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Slow cooked meat is tender and more flavorful. This helps bring out the flavor and makes the meat extra tender. Slow Cook Pork Afritada is no exception.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -33,17 +33,20 @@
   "cooking_time_minutes": 240,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/10418a9a-18fe-5a5f-9dde-1ecf68ec19b2/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "slow cooker",
+    "pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
@@ -59,17 +62,17 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cut into squares",
       "position": 2
     },
     {
       "ingredient_id": "30e689d9-f00c-5b96-8fdd-bc2fea5143de",
-      "name": "diced tomato",
-      "normalized_name": "diced tomato",
+      "name": "tomato",
+      "normalized_name": "tomato",
       "quantity": "1",
       "unit": "can",
-      "preparation": null,
+      "preparation": "diced",
       "position": 3
     },
     {
@@ -86,17 +89,17 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 5
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 6
     },
     {
@@ -113,7 +116,7 @@
       "name": "beef cube",
       "normalized_name": "beef cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 8
     },
@@ -131,7 +134,7 @@
       "name": "baking potato",
       "normalized_name": "baking potato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 10
     },

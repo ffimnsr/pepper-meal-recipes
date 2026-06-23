@@ -4,9 +4,9 @@
   "id": "15974b77-a7f8-5cdc-a532-493b28f58e74",
   "slug": "chicken-cordon-bleu-recipe",
   "name": "Chicken Cordon Bleu",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Chicken Cordon Bleu is a dish composed of chicken breasts, ham, and Swiss cheese. The ham and Swiss cheese are arranged on top of the chicken breast and rolled together then dredged in bread crumbs.",
-  "cuisine": null,
+  "cuisine": "French",
   "instructions": [
     {
       "position": 1,
@@ -59,11 +59,23 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 piece"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Dairy",
+    "Eggs",
+    "Gluten"
+  ],
+  "equipment": [
+    "Oven",
+    "Baking dish",
+    "Toothpicks",
+    "Pastry brush",
+    "Whisk",
+    "Cutting board",
+    "Knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "11843ddc-9136-55c4-834f-29cfc38d731b",
@@ -85,19 +97,19 @@
     },
     {
       "ingredient_id": "29730b8b-d326-5d50-937d-8fc07dd3f0da",
-      "name": "slices thin",
-      "normalized_name": "slices thin",
+      "name": "ham",
+      "normalized_name": "ham",
       "quantity": "12",
-      "unit": null,
-      "preparation": "sliced ham",
+      "unit": "slices",
+      "preparation": "thinly sliced",
       "position": 3
     },
     {
       "ingredient_id": "b6ebebf6-6ac8-5148-b830-29908511b5e7",
-      "name": "slices of swiss cheese",
-      "normalized_name": "slices of swiss cheese",
+      "name": "Swiss cheese",
+      "normalized_name": "swiss cheese",
       "quantity": "4",
-      "unit": null,
+      "unit": "slices",
       "preparation": null,
       "position": 4
     },
@@ -133,7 +145,7 @@
       "name": "paprika",
       "normalized_name": "paprika",
       "quantity": "2",
-      "unit": "tsp",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 8
     }

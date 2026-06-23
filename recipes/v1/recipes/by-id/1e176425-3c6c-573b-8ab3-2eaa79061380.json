@@ -5,7 +5,7 @@
   "slug": "pickled-papaya-appetize-atsara-achara-atchara-recipe",
   "name": "Atchara (Papaya)",
   "recipe_type": "appetizer",
-  "brief_description": "Picjled green papaya",
+  "brief_description": "Pickled green papaya",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Put the papaya back in the large bowl and combine with carrots, garlic, ginger, onions, whole peppercorn, bell pepper, and raisins"
+      "text": "Put the papaya back in the large bowl and combine with carrots, garlic, ginger, onions, whole peppercorn, bell pepper, and raisins."
     },
     {
       "position": 6,
@@ -34,7 +34,7 @@
     },
     {
       "position": 7,
-      "text": "Add the sugar and 1 1/2 tsp salt then stir until well diluted"
+      "text": "Add the sugar and 1 1/2 tsp salt then stir until well dissolved."
     },
     {
       "position": 8,
@@ -42,7 +42,7 @@
     },
     {
       "position": 9,
-      "text": "Place the combined vegetables and spices in a sterilized airtight jar and pour-in the syrup"
+      "text": "Place the combined vegetables and spices in a sterilized airtight jar and pour-in the syrup."
     },
     {
       "position": 10,
@@ -55,8 +55,8 @@
   ],
   "servings": 12,
   "cooking_time_minutes": 30,
-  "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "preparation_time_minutes": 45,
+  "rest_time_minutes": 480,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1e176425-3c6c-573b-8ab3-2eaa79061380/cover.jpg",
   "video_url": null,
@@ -74,9 +74,19 @@
     "sugarContent": "32 g",
     "unsaturatedFatContent": "0.2 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegan",
+    "vegetarian",
+    "gluten-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "saucepan",
+    "colander",
+    "cheesecloth",
+    "airtight jar",
+    "refrigerator"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8b97d9b9-30e4-57ca-8a11-91b324cf2e0f",
@@ -84,7 +94,7 @@
       "normalized_name": "green papaya",
       "quantity": "3 to 4",
       "unit": "lbs",
-      "preparation": null,
+      "preparation": "julienned",
       "position": 1
     },
     {
@@ -93,7 +103,7 @@
       "normalized_name": "carrot",
       "quantity": "2",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "julienned",
       "position": 2
     },
     {
@@ -134,10 +144,10 @@
     },
     {
       "ingredient_id": "c7ae8bed-0d7d-560e-abfc-bd08882489b4",
-      "name": "knob ginger",
-      "normalized_name": "knob ginger",
+      "name": "ginger",
+      "normalized_name": "ginger",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cut into thin strips",
       "position": 7
     },
@@ -204,18 +214,6 @@
       "id": "9a69d9ca-1434-5acb-8838-8e5e803b3e81",
       "slug": "atchara",
       "name": "atchara",
-      "color": null
-    },
-    {
-      "id": "42a9a5d2-0eeb-588c-be70-064364c9cd78",
-      "slug": "chicken-and-papaya",
-      "name": "chicken and papaya",
-      "color": null
-    },
-    {
-      "id": "f9ab4b02-f07f-5bf1-a205-761c79df8fcb",
-      "slug": "okra-side-dish",
-      "name": "okra side dish",
       "color": null
     }
   ],

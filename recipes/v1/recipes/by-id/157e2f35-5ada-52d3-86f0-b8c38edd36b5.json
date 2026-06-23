@@ -3,47 +3,58 @@
   "schema_version": 1,
   "id": "157e2f35-5ada-52d3-86f0-b8c38edd36b5",
   "slug": "sirloin-tip-roast-recipe",
-  "name": "Sirloin Tip Roast Recipe",
-  "recipe_type": null,
-  "brief_description": "Sirloin Tip Roast is a tasty and easy way to cook sirloin tip roast. Yes, you read it right, the name of the dish is the same with the main ingredient. This roasted beef recipe is similar to London broil or even the tradition roast beef -- the difference is the cut of beef that we use.",
-  "cuisine": null,
+  "name": "Sirloin Tip Roast",
+  "recipe_type": "main",
+  "brief_description": "A tender and flavorful sirloin tip roast seasoned with aromatic herbs and spices. This classic roasted beef dish is perfect for Sunday dinners or special occasions, served with your favorite steak sauce or gravy.",
+  "cuisine": "american",
   "instructions": [
     {
       "position": 1,
-      "text": "Pat-dry the sirloin tip roast using a paper towel. Set aside."
+      "text": "Pat the sirloin tip roast dry using paper towels. Set aside."
     },
     {
       "position": 2,
-      "text": "In a bowl, combine thyme, rosemary, garlic powder, oregano, paprika, salt, and pepper. Mix well using a spoon."
+      "text": "In a small bowl, combine dried thyme, dried rosemary, garlic powder, dried oregano, paprika, sea salt, and ground black pepper. Mix well."
     },
     {
       "position": 3,
-      "text": "Rub the spice mixture all over the sirloin tip. Let it stay for at least 1 hour so that the meat can better absorb the flavor."
+      "text": "Rub the spice mixture evenly over all sides of the sirloin tip roast. Cover and refrigerate for at least 1 hour to allow the flavors to penetrate the meat."
     },
     {
       "position": 4,
-      "text": "Preheat the oven to 325 degrees Fahrenheit. Arrange the sirloin tip roast in a roasting pan. Roast for 70 minutes. If you\u2019re sirloin tip roast is less than or is more than 3 lbs. (as indicated in this recipe), roast your sirloin tip roast in the oven for 23 minutes per lb."
+      "text": "Preheat the oven to 325\u00b0F (163\u00b0C). Place the seasoned roast in a roasting pan. Roast for approximately 70 minutes, or until the internal temperature reaches your desired doneness. For roasts of different sizes, calculate 23 minutes per pound."
     },
     {
       "position": 5,
-      "text": "Remove the roast from the oven. Let the meat rest for 15 minutes. Slice the meat. Serve with your favorite sauce. You can use steak sauce such as A1, Worcestershire sauce, or even gravy."
+      "text": "Remove the roast from the oven and transfer to a cutting board. Tent loosely with aluminum foil and let rest for 15 minutes to allow juices to redistribute."
+    },
+    {
+      "position": 6,
+      "text": "Slice against the grain and serve with steak sauce, Worcestershire sauce, or gravy."
     }
   ],
   "servings": 6,
   "cooking_time_minutes": 70,
   "preparation_time_minutes": 15,
-  "rest_time_minutes": null,
-  "difficulty": "hard",
+  "rest_time_minutes": 15,
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/157e2f35-5ada-52d3-86f0-b8c38edd36b5/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "6 servings"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "dairy-free",
+    "gluten-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "roasting pan",
+    "meat thermometer",
+    "aluminum foil"
+  ],
   "ingredients": [
     {
       "ingredient_id": "dcd39a59-4a42-543a-b818-8a726ca4f74f",
@@ -136,8 +147,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For medium-rare, aim for an internal temperature of 135\u00b0F (57\u00b0C). For medium, target 145\u00b0F (63\u00b0C).",
+    "Letting the roast come to room temperature before cooking ensures more even cooking.",
+    "Always slice against the grain for maximum tenderness."
+  ],
+  "storage_notes": [
+    "Refrigerate leftover roast in an airtight container for up to 4 days.",
+    "Sliced roast can be frozen for up to 3 months. Wrap tightly in plastic wrap and aluminum foil."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/sirloin-tip-roast-recipe/"

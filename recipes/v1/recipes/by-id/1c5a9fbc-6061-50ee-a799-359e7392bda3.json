@@ -4,8 +4,8 @@
   "id": "1c5a9fbc-6061-50ee-a799-359e7392bda3",
   "slug": "dinuguan-laman-loob",
   "name": "Dinuguan Laman-Loob Recipe (Blood Stew)",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Dinuguan Lamang loob. It is basically a type of blood stew with pork innards.",
+  "recipe_type": "main",
+  "brief_description": "A savory Filipino blood stew made with pork innards (heart, liver, and small intestine) simmered in pork blood, vinegar, and spices until thick and rich. Traditionally served with buttered puto (steamed rice cakes).",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Add pig\u2019s heart, liver, and small intestine then cook for 5 minutes."
+      "text": "Add pig's heart, liver, and small intestine then cook for 5 minutes."
     },
     {
       "position": 4,
@@ -51,11 +51,16 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Large cooking pot",
+    "Cutting board",
+    "Kitchen knife",
+    "Wooden spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "9e123c3a-fecb-5017-b522-757b7c466e92",
@@ -69,7 +74,7 @@
     {
       "ingredient_id": "ec521385-b730-5473-a3ec-5105edf92afc",
       "name": "pigs heart",
-      "normalized_name": "pigs heart",
+      "normalized_name": "pork heart",
       "quantity": "1",
       "unit": "lb",
       "preparation": "diced",
@@ -78,7 +83,7 @@
     {
       "ingredient_id": "55a34950-9648-5029-a228-3d9f3d6b7cc1",
       "name": "pigs liver",
-      "normalized_name": "pigs liver",
+      "normalized_name": "pork liver",
       "quantity": "1/4",
       "unit": "lb",
       "preparation": "diced",
@@ -87,7 +92,7 @@
     {
       "ingredient_id": "000298d5-db99-593d-b92b-2984361d9ea1",
       "name": "pigs small intestine",
-      "normalized_name": "pigs small intestine",
+      "normalized_name": "pork small intestine",
       "quantity": "1",
       "unit": "lb",
       "preparation": "boiled until tender and sliced cleaned",
@@ -134,7 +139,7 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "4",
-      "unit": "clove",
+      "unit": "cloves",
       "preparation": "minced",
       "position": 9
     },
@@ -143,7 +148,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 10
     },

@@ -6,7 +6,7 @@
   "name": "Mixed Seafood in Coconut Milk Recipe",
   "recipe_type": null,
   "brief_description": "Seafood such as shrimp, crab, squid cooked in coconut milk",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Saute garlic and onions"
+      "text": "Saute garlic and onions."
     },
     {
       "position": 3,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Sprinkle ground black pepper. Add-in dried chilies and shrimp paste. Stir and simmer until the liquid reduces to half."
+      "text": "Sprinkle ground black pepper. Add dried chilies and shrimp paste. Stir and simmer until the liquid reduces to half."
     },
     {
       "position": 5,
@@ -30,7 +30,7 @@
     },
     {
       "position": 6,
-      "text": "Turn-ff heat. Transfer to a serving plate."
+      "text": "Turn off heat. Transfer to a serving plate."
     },
     {
       "position": 7,
@@ -47,11 +47,20 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Crustaceans"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "ed227b0c-c67d-5c65-9178-4ca6a6514ccb",
@@ -94,7 +103,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 5
     },

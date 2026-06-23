@@ -5,7 +5,7 @@
   "slug": "chocolate-biko-recipe",
   "name": "Chocolate Biko Recipe",
   "recipe_type": "dessert",
-  "brief_description": "This is a recipe for Chocolate Biko",
+  "brief_description": "A rich Filipino rice cake made with glutinous rice, coconut milk, and pure cacao tablea for a decadent chocolate twist on the classic kakanin.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -45,9 +45,20 @@
     "@type": "NutritionInformation",
     "servingSize": "2 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Coconut",
+    "Tree Nuts"
+  ],
+  "equipment": [
+    "Heavy-bottomed pot",
+    "Baking dish",
+    "Wooden spoon or spatula",
+    "Measuring cups"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a56941c4-c122-5bf2-882d-88c43f5b119b",
@@ -89,8 +100,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 5
     }
@@ -109,8 +120,17 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Use high-quality pure cacao tablea for the best chocolate flavor.",
+    "If tablea is unavailable, substitute with 2 tablespoons unsweetened cocoa powder.",
+    "For extra richness, use coconut cream instead of coconut milk.",
+    "Best served with coffee or hot chocolate."
+  ],
+  "storage_notes": [
+    "Store in an airtight container at room temperature for up to 2 days.",
+    "Refrigerate for up to 5 days. Bring to room temperature or warm slightly before serving.",
+    "Do not freeze as the texture may become grainy."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/chocolate-biko-recipe/"
