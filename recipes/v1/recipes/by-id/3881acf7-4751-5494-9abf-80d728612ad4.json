@@ -53,11 +53,11 @@
       "text": "Serve as a side dish, best paired with beef stroganoff, fried chicken and gravy, roast turkey, meatloaf, steak, or pork chops."
     }
   ],
-  "servings": null,
+  "servings": 6,
   "cooking_time_minutes": 20,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3881acf7-4751-5494-9abf-80d728612ad4/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -76,10 +76,17 @@
     "unsaturatedFatContent": "21 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
   "allergens": [],
   "equipment": [
-    "microwave oven"
+    "microwave oven",
+    "large pot",
+    "potato masher",
+    "mixing bowl",
+    "colander",
+    "vegetable peeler"
   ],
   "ingredients": [
     {
@@ -129,10 +136,10 @@
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water",
-      "normalized_name": "quarts water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "2",
-      "unit": null,
+      "unit": "quarts",
       "preparation": null,
       "position": 6
     },
@@ -140,8 +147,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "tablespoon",
       "preparation": null,
       "position": 7
     },
@@ -149,8 +156,8 @@
       "ingredient_id": "6e1056b2-e64d-5a90-b780-8a8a5529689d",
       "name": "ground pepper",
       "normalized_name": "ground pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 8
     }
@@ -177,10 +184,12 @@
   ],
   "related_recipe_ids": [],
   "recipe_notes": [
-    "Cream Cheese \u2013 Softens the starchiness of potatoes and adds richness that\u2019s hard to replicate with just milk and butter. It also helps the mash stay creamy even after reheating, making it great for make-ahead meals.",
+    "Cream Cheese \u2013 Softens the starchiness of potatoes and adds richness that's hard to replicate with just milk and butter. It also helps the mash stay creamy even after reheating, making it great for make-ahead meals.",
     "Mashing Step \u2013 Mashing by hand (with a potato masher or ricer) preserves a fluffy texture and prevents overworking the starch. Avoid blenders or food processors as they break down the potatoes too much, release excess starch, and turn your mash into glue. A little effort with manual mashing goes a long way for better taste and mouthfeel."
   ],
-  "storage_notes": [],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days. Reheat gently on the stovetop or in the microwave, adding a splash of milk if needed to restore creaminess."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-make-mashed-potatoes-recipe/"

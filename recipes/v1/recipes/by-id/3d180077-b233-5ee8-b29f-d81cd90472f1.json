@@ -4,9 +4,9 @@
   "id": "3d180077-b233-5ee8-b29f-d81cd90472f1",
   "slug": "garlic-shrimp-pasta",
   "name": "Garlic Shrimp Pasta",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Garlic Shrimp Pasta is the pasta dish of my choice when I want to have a quick spaghetti meal before I hit the gym or start to exercise",
-  "cuisine": null,
+  "cuisine": "italian",
   "instructions": [
     {
       "position": 1,
@@ -51,11 +51,23 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Contains Dairy",
+    "Contains Gluten"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Dairy",
+    "Gluten"
+  ],
+  "equipment": [
+    "Pot",
+    "Pan",
+    "Colander"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -68,11 +80,11 @@
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "3",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 2
     },
     {
@@ -86,26 +98,26 @@
     },
     {
       "ingredient_id": "84b8e582-e631-566b-9ba0-cbc0b8e649de",
-      "name": "extra virgin olive oil",
-      "normalized_name": "extra virgin olive oil",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
       "quantity": "2 1/2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "extra virgin",
       "position": 4
     },
     {
       "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
-      "name": "dried oregano",
-      "normalized_name": "dried oregano",
+      "name": "oregano",
+      "normalized_name": "oregano",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "dried",
       "position": 5
     },
     {
       "ingredient_id": "dc0dd4c1-70ac-5db7-9020-05db5b47ad7c",
-      "name": "spaghetti noodle",
-      "normalized_name": "spaghetti noodle",
+      "name": "spaghetti",
+      "normalized_name": "spaghetti",
       "quantity": "3/4",
       "unit": "lb",
       "preparation": null,
@@ -113,20 +125,20 @@
     },
     {
       "ingredient_id": "e943758d-4323-5cf3-adc9-5e61e055ae20",
-      "name": "shredded parmesan cheese",
-      "normalized_name": "shredded parmesan cheese",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
       "quantity": "5",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 7
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": "ground",
       "position": 8
     }
   ],

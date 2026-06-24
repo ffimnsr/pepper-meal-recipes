@@ -28,7 +28,7 @@
   "servings": 4,
   "cooking_time_minutes": 12,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 10,
   "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/41102e47-2043-5d65-9849-fee111864e80/cover.jpg",
   "video_url": null,
@@ -55,7 +55,7 @@
       "name": "romaine lettuce heart",
       "normalized_name": "romaine lettuce heart",
       "quantity": "3",
-      "unit": null,
+      "unit": "hearts",
       "preparation": "chopped",
       "position": 2
     },
@@ -78,13 +78,22 @@
       "position": 4
     },
     {
+      "ingredient_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
       "ingredient_id": "483c13b6-0e91-5e7c-bade-76600312e258",
       "name": "lite caesar salad dressing",
       "normalized_name": "lite caesar salad dressing",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -93,7 +102,7 @@
       "quantity": null,
       "unit": null,
       "preparation": null,
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
@@ -102,7 +111,7 @@
       "quantity": null,
       "unit": null,
       "preparation": null,
-      "position": 7
+      "position": 8
     }
   ],
   "categories": [

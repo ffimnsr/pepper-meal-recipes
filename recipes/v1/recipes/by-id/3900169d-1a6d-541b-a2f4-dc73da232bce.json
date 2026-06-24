@@ -4,9 +4,9 @@
   "id": "3900169d-1a6d-541b-a2f4-dc73da232bce",
   "slug": "ginisang-upo-with-sardinas",
   "name": "Ginisang Upo with Sardinas",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This is a recipe for sauteed bottle gourd with canned sardines in tomato sauce.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -30,7 +30,7 @@
     },
     {
       "position": 6,
-      "text": "Add water. Let boil. Continue to for 3 to 5 minutes."
+      "text": "Add water. Let boil. Continue to cook for 3 to 5 minutes."
     },
     {
       "position": 7,
@@ -45,25 +45,35 @@
       "text": "Share and enjoy!"
     }
   ],
-  "servings": null,
-  "cooking_time_minutes": null,
-  "preparation_time_minutes": null,
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "medium",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3900169d-1a6d-541b-a2f4-dc73da232bce/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": null,
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "dairy-free",
+    "gluten-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "frying pan",
+    "spatula",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "37f38590-6cc8-5d95-b137-d929fac1ce29",
       "name": "bottle gourd",
       "normalized_name": "bottle gourd",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "peeled and sliced",
       "position": 1
     },
@@ -71,8 +81,8 @@
       "ingredient_id": "7601b773-0d81-5077-9e38-5c81e438f03c",
       "name": "spicy sardines in tomato sauce",
       "normalized_name": "spicy sardines in tomato sauce",
-      "quantity": "2 5.5",
-      "unit": "oz",
+      "quantity": "2",
+      "unit": "cans",
       "preparation": null,
       "position": 2
     },
@@ -81,7 +91,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },
@@ -90,7 +100,7 @@
       "name": "ripe tomato",
       "normalized_name": "ripe tomato",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cubed",
       "position": 4
     },
@@ -145,9 +155,55 @@
       "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
       "slug": "fish",
       "name": "Fish"
+    },
+    {
+      "id": "9f8e7d6c-5b4a-4932-81f0-1a2b3c4d5e6f",
+      "slug": "filipino",
+      "name": "Filipino"
+    },
+    {
+      "id": "1a2b3c4d-5e6f-4789-9012-1a2b3c4d5e6f",
+      "slug": "main-dish",
+      "name": "Main Dish"
+    },
+    {
+      "id": "2b3c4d5e-6f7a-4890-1234-2b3c4d5e6f7a",
+      "slug": "vegetable",
+      "name": "Vegetable"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "3c4d5e6f-7a8b-4901-2345-3c4d5e6f7a8b",
+      "slug": "quick",
+      "name": "Quick"
+    },
+    {
+      "id": "4d5e6f7a-8b9c-4012-3456-4d5e6f7a8b9c",
+      "slug": "budget-friendly",
+      "name": "Budget-Friendly"
+    },
+    {
+      "id": "5e6f7a8b-9c0d-4123-4567-5e6f7a8b9c0d",
+      "slug": "one-pan",
+      "name": "One Pan"
+    },
+    {
+      "id": "6f7a8b9c-0d1e-4234-5678-6f7a8b9c0d1e",
+      "slug": "sardines",
+      "name": "Sardines"
+    },
+    {
+      "id": "7a8b9c0d-1e2f-4345-6789-7a8b9c0d1e2f",
+      "slug": "bottle-gourd",
+      "name": "Bottle Gourd"
+    },
+    {
+      "id": "8b9c0d1e-2f3a-4456-7890-8b9c0d1e2f3a",
+      "slug": "ginisang-upo",
+      "name": "Ginisang Upo"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

@@ -4,9 +4,9 @@
   "id": "3f869bf9-16d3-51f4-8859-937023e188e3",
   "slug": "adobong-sitaw-with-tofu",
   "name": "Adobong Sitaw with Tofu",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Adobong Sitaw with Tofu is another version of Adobong Sitaw, this time it is cooked with fried extra firm tofu. Adobong Sitaw is a Filipino vegetable dish",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Saute garlic and onion until the onion is soft."
+      "text": "Saut\u00e9 garlic and onion until the onion is soft."
     },
     {
       "position": 4,
@@ -55,16 +55,26 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "4 servings"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian",
+    "vegan"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "pan",
+    "knife",
+    "cutting board",
+    "serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b142e249-76d4-54ef-b01a-e7993bd1afaf",
-      "name": "string bean",
-      "normalized_name": "string bean",
+      "name": "string beans",
+      "normalized_name": "string beans",
       "quantity": "12 to 15",
       "unit": "pieces",
       "preparation": "cut into 2 1/2 inch length",
@@ -76,7 +86,7 @@
       "normalized_name": "extra firm tofu",
       "quantity": "3",
       "unit": "pieces",
-      "preparation": "fried until medium brown",
+      "preparation": "fried until medium brown, sliced into squares",
       "position": 2
     },
     {
@@ -84,7 +94,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },
@@ -144,8 +154,8 @@
     },
     {
       "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
-      "name": "pepper",
-      "normalized_name": "pepper",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
       "quantity": null,
       "unit": null,
       "preparation": null,
@@ -161,8 +171,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, use extra firm tofu and fry until golden brown before slicing.",
+    "Adjust vinegar to taste - some prefer a more sour adobo.",
+    "Serve with steamed rice for a complete meal."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat gently in a pan or microwave."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/adobong-sitaw-with-tofu/"

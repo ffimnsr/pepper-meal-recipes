@@ -62,8 +62,13 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "dairy"
+  ],
+  "equipment": [
+    "pressure cooker",
+    "cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "469ea168-af72-51cf-803d-81939a04f599",
@@ -93,22 +98,31 @@
       "position": 3
     },
     {
-      "ingredient_id": "c710bb42-9b8e-501b-b915-48ac976be0fd",
-      "name": "sliced button mushroom",
-      "normalized_name": "sliced button mushroom",
-      "quantity": "1",
-      "unit": "cup",
+      "ingredient_id": "4a7c9e2b-8d5f-4c1e-9a3b-2f6e8d4c1a9b",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "2",
+      "unit": "cups",
       "preparation": null,
       "position": 4
+    },
+    {
+      "ingredient_id": "c710bb42-9b8e-501b-b915-48ac976be0fd",
+      "name": "button mushroom",
+      "normalized_name": "button mushroom",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "sliced",
+      "position": 5
     },
     {
       "ingredient_id": "e75e9366-01c1-5159-ada4-75c7d3fcac8d",
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
@@ -117,7 +131,7 @@
       "quantity": "5",
       "unit": "cloves",
       "preparation": "crushed",
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
@@ -126,7 +140,7 @@
       "quantity": "6",
       "unit": "cups",
       "preparation": null,
-      "position": 7
+      "position": 8
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -135,16 +149,16 @@
       "quantity": null,
       "unit": null,
       "preparation": null,
-      "position": 8
+      "position": 9
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
       "unit": null,
-      "preparation": null,
-      "position": 9
+      "preparation": "ground",
+      "position": 10
     },
     {
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
@@ -153,7 +167,7 @@
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 10
+      "position": 11
     }
   ],
   "categories": [

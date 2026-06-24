@@ -72,7 +72,10 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "peanuts",
+    "shellfish"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -95,19 +98,19 @@
     },
     {
       "ingredient_id": "6db206e2-7248-5741-9777-af70858546ff",
-      "name": "ground peanut",
-      "normalized_name": "ground peanut",
+      "name": "peanut",
+      "normalized_name": "peanut",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "ground",
       "position": 3
     },
     {
       "ingredient_id": "6ebe988d-e739-593d-94a8-9a69328cfafd",
-      "name": "bunches baby bok choy",
-      "normalized_name": "bunches baby bok choy",
+      "name": "baby bok choy",
+      "normalized_name": "baby bok choy",
       "quantity": "2",
-      "unit": null,
+      "unit": "bunches",
       "preparation": null,
       "position": 4
     },
@@ -194,11 +197,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
       "unit": null,
-      "preparation": null,
+      "preparation": "ground",
       "position": 14
     },
     {

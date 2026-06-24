@@ -6,7 +6,7 @@
   "name": "Hawaiian Pizza (No Bake)",
   "recipe_type": null,
   "brief_description": "There is perhaps no other dish that has caused an uproar quite like Hawaiian Pizza. However, you have to admit that it tastes good.",
-  "cuisine": null,
+  "cuisine": "Hawaiian",
   "instructions": [
     {
       "position": 1,
@@ -49,10 +49,10 @@
       "text": "Remove the pizza from the pan and lay on a wide chopping board. Slice. Serve and enjoy."
     }
   ],
-  "servings": null,
-  "cooking_time_minutes": null,
-  "preparation_time_minutes": null,
-  "rest_time_minutes": null,
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": 10,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/405a89cc-bda4-5b17-a477-b0b392620fd0/cover.webp",
   "video_url": null,
@@ -73,8 +73,20 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "gluten",
+    "dairy"
+  ],
+  "equipment": [
+    "frying pan",
+    "mixing bowl",
+    "plastic wrap",
+    "rolling pin",
+    "fork",
+    "knife",
+    "chopping board",
+    "lid"
+  ],
   "ingredients": [
     {
       "ingredient_id": "142e548d-1b32-57b6-bd38-655c56b77ea0",

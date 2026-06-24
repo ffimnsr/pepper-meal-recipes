@@ -6,7 +6,7 @@
   "name": "Sinigang na Tilapia sa Miso Recipe",
   "recipe_type": "soup",
   "brief_description": "Sinigang na Tilapia sa Miso is a popular sour fish soup recipe in the Philippines. This version that we have is tastier than the usual recipes because I pan-fried the tilapia beforehand. For some reason, it adds an interesting flavor to the dish.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -65,24 +65,35 @@
   "cooking_time_minutes": 40,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3bc54af3-946b-5bc7-9afd-232a78df2b46/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish",
+    "soy"
+  ],
+  "equipment": [
+    "frying pan",
+    "cooking pot",
+    "knife",
+    "cutting board",
+    "plate",
+    "spatula",
+    "serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3612c5d7-4545-5e0b-a284-8afb44d98042",
       "name": "tilapia",
       "normalized_name": "tilapia",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "scales and innards removed",
       "position": 1
     },
@@ -100,7 +111,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "wedged",
       "position": 3
     },
@@ -109,7 +120,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "quartered",
       "position": 4
     },
@@ -145,7 +156,7 @@
       "name": "sachet sinigang mix",
       "normalized_name": "sachet sinigang mix",
       "quantity": "1",
-      "unit": null,
+      "unit": "packet",
       "preparation": null,
       "position": 8
     },
@@ -163,7 +174,7 @@
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 10
     },

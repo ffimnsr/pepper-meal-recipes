@@ -61,7 +61,7 @@
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 30,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/38c2d25e-7985-515f-b3a9-bc595a1160e2/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -77,9 +77,22 @@
     "fiberContent": "28 g",
     "sugarContent": "287 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Fish",
+    "Coconut"
+  ],
+  "equipment": [
+    "Pan",
+    "Knife",
+    "Cutting board",
+    "Measuring spoons",
+    "Measuring cup",
+    "Spatula or wooden spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -164,11 +177,11 @@
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 10
     },
     {

@@ -4,9 +4,9 @@
   "id": "4223b02d-655c-52d7-93ee-12afd4ff359f",
   "slug": "ginataang-hipon-recipe",
   "name": "Ginataang Hipon Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Ginataang Hipon or Shrimps Cooked in Coconut Milk is a tasty Filipino shrimp recipe that goes well with warm steamed rice",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -51,11 +51,20 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Fish"
+  ],
+  "equipment": [
+    "Frying pan",
+    "Spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -98,7 +107,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 5
     },

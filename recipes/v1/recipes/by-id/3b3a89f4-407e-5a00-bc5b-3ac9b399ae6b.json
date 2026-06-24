@@ -4,9 +4,9 @@
   "id": "3b3a89f4-407e-5a00-bc5b-3ac9b399ae6b",
   "slug": "grilled-chicken-and-corn",
   "name": "Grilled Chicken and Corn",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Grilled chicken and corn is a good meal combination. This is perfect for lunch along with coleslaw.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -48,7 +48,7 @@
   "servings": 4,
   "cooking_time_minutes": 35,
   "preparation_time_minutes": 5,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 180,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3b3a89f4-407e-5a00-bc5b-3ac9b399ae6b/cover.jpg",
   "video_url": null,
@@ -66,9 +66,17 @@
     "sugarContent": "28 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "equipment": [
+    "grill",
+    "pastry brush",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "34b147a5-a97f-5b31-b52b-63aac2c0ceb9",
@@ -126,11 +134,11 @@
     },
     {
       "ingredient_id": "a6c79322-8ebb-5ff7-b753-fd3b222e0076",
-      "name": "soft butter",
-      "normalized_name": "soft butter",
+      "name": "butter",
+      "normalized_name": "butter",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "softened",
       "position": 7
     }
   ],

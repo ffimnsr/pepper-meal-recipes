@@ -6,7 +6,7 @@
   "name": "Pork Adobo Paksiw with Jeprox and Shrimp Fried Rice",
   "recipe_type": "breakfast",
   "brief_description": "Pork Adobo Paksiw with Jeprox and Shrimp Fried Rice is more than complete for breakfast or even brunch. It is the ideal Pinoy Breakfast, if you have a big day ahead.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -35,28 +35,34 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shrimp",
+    "eggs"
+  ],
+  "equipment": [
+    "frying pan",
+    "serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d08289a1-dadd-5874-8f63-7642028b35ff",
-      "name": "serving of pork adobo paksiw",
-      "normalized_name": "serving of pork adobo paksiw",
+      "name": "pork adobo paksiw",
+      "normalized_name": "pork adobo paksiw",
       "quantity": "1",
-      "unit": null,
+      "unit": "serving",
       "preparation": null,
       "position": 1
     },
     {
       "ingredient_id": "5a759739-4f3a-5085-9f10-63093a62cd55",
-      "name": "serving of crisy fried jeprox",
-      "normalized_name": "serving of crisy fried jeprox",
+      "name": "jeprox",
+      "normalized_name": "jeprox",
       "quantity": "1",
-      "unit": null,
-      "preparation": null,
+      "unit": "serving",
+      "preparation": "crispy fried",
       "position": 2
     },
     {
@@ -79,11 +85,11 @@
     },
     {
       "ingredient_id": "7f20a1c7-5bff-5fc3-a663-ce4e64a2b64a",
-      "name": "hard boiled egg",
-      "normalized_name": "hard boiled egg",
+      "name": "egg",
+      "normalized_name": "egg",
       "quantity": "4",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "hard boiled",
       "position": 5
     }
   ],
@@ -96,8 +102,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "This recipe uses component dishes: Pork Adobo Paksiw, Crispy Fried Jeprox, and Shrimp Fried Rice.",
+    "Ensure all components are hot when assembling the breakfast plate."
+  ],
+  "storage_notes": [
+    "Best consumed immediately.",
+    "Store components separately if preparing ahead: refrigerate adobo paksiw for up to 3 days, jeprox in airtight container for up to 2 days, and prepare fried rice fresh."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/pork-adobo-paksiw-with-jeprox-and-shrimp-fried-rice/"

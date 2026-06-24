@@ -4,9 +4,9 @@
   "id": "408e5b97-6fab-5d01-a134-8ef5e5196280",
   "slug": "how-to-cook-new-york-strip-steak-with-sauteed-spinach",
   "name": "New York Strip Steak with Sauteed Spinach Recipe",
-  "recipe_type": null,
-  "brief_description": "This Yummy New York Strip Steak was a hit. Learn to cook this dish by following our detailed Recipe.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Classic New York strip steaks seasoned simply with salt and pepper, grilled to perfection, and served over saut\u00e9ed garlic spinach. A restaurant-quality steakhouse dinner that's naturally gluten-free and ready in under 30 minutes.",
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
@@ -56,25 +56,35 @@
   "servings": 2,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
-  "difficulty": "hard",
+  "rest_time_minutes": 15,
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/408e5b97-6fab-5d01-a134-8ef5e5196280/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Low-Carb"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "grill or grill pan",
+    "tongs",
+    "skillet",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b94fe104-bea4-5114-9838-67a9a4310db8",
       "name": "new york strip steak",
       "normalized_name": "new york strip steak",
-      "quantity": "2 10 to 12",
-      "unit": "ounces",
+      "quantity": "2",
+      "unit": "steaks",
       "preparation": null,
       "position": 1
     },
@@ -92,7 +102,7 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "2",
-      "unit": "teaspoon",
+      "unit": "teaspoons",
       "preparation": "minced",
       "position": 3
     },
@@ -109,8 +119,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 5
     },
@@ -118,8 +128,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 6
     }
@@ -133,8 +143,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, bring steaks to room temperature 30 minutes before grilling.",
+    "Letting the steak rest for 15 minutes after grilling ensures the juices redistribute for a more tender result.",
+    "If using a charcoal grill, create a two-zone fire to move steaks away from flare-ups."
+  ],
+  "storage_notes": [
+    "Store leftover steak and spinach separately in airtight containers in the refrigerator for up to 3 days.",
+    "Reheat steak gently in a low oven (275\u00b0F) to avoid overcooking."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-cook-new-york-strip-steak-with-sauteed-spinach/"

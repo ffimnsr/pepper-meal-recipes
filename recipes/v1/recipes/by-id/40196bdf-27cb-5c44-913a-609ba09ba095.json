@@ -3,9 +3,9 @@
   "schema_version": 1,
   "id": "40196bdf-27cb-5c44-913a-609ba09ba095",
   "slug": "spinach-tomato-and-cheese-omelette",
-  "name": "Spinach Tomato and Cheese Omelette",
+  "name": "Spinach, Tomato, and Cheese Omelette",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Spinach Tomato and Cheese Omelette",
+  "brief_description": "A hearty omelette filled with saut\u00e9ed spinach, fresh tomatoes, and melted cheddar cheese, perfect for breakfast or brunch.",
   "cuisine": null,
   "instructions": [
     {
@@ -14,15 +14,15 @@
     },
     {
       "position": 2,
-      "text": "Once the butter starts to bubble, add tomato. Saute for 1 minute."
+      "text": "Once the butter starts to bubble, add the tomato. Saute for 1 minute."
     },
     {
       "position": 3,
-      "text": "Put the spinach in the pan. Cook for 30 seconds. Transfer everything in a clean plate."
+      "text": "Put the spinach in the pan. Cook for 30 seconds. Transfer everything to a clean plate."
     },
     {
       "position": 4,
-      "text": "Wipe the pan clean using a paper towel. Heat the pan in a stovetop using low to medium heat. Melt the remaining butter in the pan."
+      "text": "Wipe the pan clean using a paper towel. Heat the pan over medium heat. Melt the remaining butter in the pan."
     },
     {
       "position": 5,
@@ -30,11 +30,11 @@
     },
     {
       "position": 6,
-      "text": "Once the eggs starts to form, pour the cooke tomato and spinach over the egg. Top with shredded cheese. Continue to cook until the eggs are done."
+      "text": "Once the eggs start to form, pour the cooked tomato and spinach over the egg. Top with shredded cheese. Continue to cook until the eggs are done."
     },
     {
       "position": 7,
-      "text": "Fold the omelet halfway to secure the filling. You can top the omelet with more cheese."
+      "text": "Fold the omelette in half to secure the filling. You can top the omelette with more cheese."
     },
     {
       "position": 8,
@@ -57,16 +57,27 @@
     "@type": "NutritionInformation",
     "servingSize": "2 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian",
+    "Gluten-Free"
+  ],
+  "allergens": [
+    "Eggs",
+    "Dairy"
+  ],
+  "equipment": [
+    "Frying pan",
+    "Mixing bowl",
+    "Spatula",
+    "Plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 1
     },
@@ -84,17 +95,17 @@
       "name": "ripe roma tomato",
       "normalized_name": "ripe roma tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 3
     },
     {
       "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
-      "name": "shredded cheddar cheese",
-      "normalized_name": "shredded cheddar cheese",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 4
     },
     {

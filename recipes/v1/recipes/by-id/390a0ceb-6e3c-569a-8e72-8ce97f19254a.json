@@ -4,17 +4,17 @@
   "id": "390a0ceb-6e3c-569a-8e72-8ce97f19254a",
   "slug": "eggplant-parmigiana",
   "name": "Eggplant Parmesan Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Baked eggplant with marinara sauce and cheeses",
-  "cuisine": null,
+  "cuisine": "italian",
   "instructions": [
     {
       "position": 1,
-      "text": "In a bowl, combine bread crumbs, salt, pepper, and garlic powder. Mix well."
+      "text": "Preheat oven to 350 degrees Fahrenheit."
     },
     {
       "position": 2,
-      "text": "Heat the olive oil in a pan, and then fry both sides of the coated eggplants until the color turns medium brown. Set aside."
+      "text": "In a bowl, combine bread crumbs, salt, pepper, and garlic powder. Mix well."
     },
     {
       "position": 3,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Preheat oven to 350 degrees Fahrenheit."
+      "text": "Heat the olive oil in a pan, and then fry both sides of the coated eggplants until the color turns medium brown. Set aside."
     },
     {
       "position": 5,
@@ -53,17 +53,24 @@
   "cooking_time_minutes": 25,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/390a0ceb-6e3c-569a-8e72-8ce97f19254a/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "oven",
+    "baking dish",
+    "frying pan",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "95564c4f-61e3-5cb4-9850-e4b754ae3e46",
@@ -85,8 +92,8 @@
     },
     {
       "ingredient_id": "b1bab039-42a7-5047-a99e-83e67fbc8d31",
-      "name": "bread crumb",
-      "normalized_name": "bread crumb",
+      "name": "bread crumbs",
+      "normalized_name": "bread crumbs",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
@@ -94,8 +101,8 @@
     },
     {
       "ingredient_id": "feac7502-e2a1-50d8-b74c-c691047376c6",
-      "name": "mozarella cheese",
-      "normalized_name": "mozarella cheese",
+      "name": "mozzarella cheese",
+      "normalized_name": "mozzarella cheese",
       "quantity": "6",
       "unit": "ounces",
       "preparation": "shredded",
@@ -103,8 +110,8 @@
     },
     {
       "ingredient_id": "a56da387-1146-58a5-af60-257ebe113e13",
-      "name": "marinara sauce1/2 teaspoon dried parsley flake",
-      "normalized_name": "marinara sauce1/2 teaspoon dried parsley flake",
+      "name": "marinara sauce",
+      "normalized_name": "marinara sauce",
       "quantity": "2 1/2",
       "unit": "cups",
       "preparation": null,
@@ -116,7 +123,7 @@
       "normalized_name": "egg",
       "quantity": "2",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "beaten",
       "position": 6
     },
     {

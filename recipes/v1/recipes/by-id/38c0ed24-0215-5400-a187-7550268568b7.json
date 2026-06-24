@@ -4,9 +4,9 @@
   "id": "38c0ed24-0215-5400-a187-7550268568b7",
   "slug": "sarciadong-daing",
   "name": "Sarciadong Daing",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Sarciadong Daing or Sarciadong Buwad is a quick and easy recipe involving daing (salted dried fish). Fried daing is quickly cooked with a tomato-based sauce.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Put the dating in the mixture. Cook for 1 minutes."
+      "text": "Put the daing in the mixture. Cook for 1 minute."
     },
     {
       "position": 6,
@@ -49,9 +49,20 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "frying pan",
+    "spatula",
+    "cutting board",
+    "knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "1f7d9eb2-e7ab-5cf3-b79a-ffd1634203b9",
@@ -64,10 +75,10 @@
     },
     {
       "ingredient_id": "5c3e1fb0-de9f-5b8a-b7a3-8a9fcc690e30",
-      "name": "can",
-      "normalized_name": "can",
-      "quantity": "1 14",
-      "unit": "oz",
+      "name": "diced tomatoes",
+      "normalized_name": "diced tomatoes",
+      "quantity": "1",
+      "unit": "can",
       "preparation": "diced tomatoes",
       "position": 2
     },
@@ -76,16 +87,16 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },
     {
       "ingredient_id": "0f77d8b7-de4a-55a9-8b8e-797b147d22f0",
-      "name": "coves garlic",
-      "normalized_name": "coves garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "3",
-      "unit": null,
+      "unit": "cloves",
       "preparation": "crushed",
       "position": 4
     },

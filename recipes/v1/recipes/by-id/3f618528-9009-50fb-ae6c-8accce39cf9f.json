@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Cook the spaghetti by pouring water in a cooking pot. Let boil. Add salt and put the spaghetti into the pot. Cook for 12 minutes or until al dente. Remove the spaghetti Set aside. Save \u00bc cup of water used to cook spaghetti."
+      "text": "Cook the spaghetti by pouring water in a cooking pot. Let boil. Add salt and put the spaghetti into the pot. Cook for 12 minutes or until al dente. Remove the spaghetti. Set aside. Save \u00bc cup of water used to cook spaghetti."
     },
     {
       "position": 3,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "One the onion softens, pour all-purpose cream into the pan. Stir. Add \u00bc cup water."
+      "text": "Once the onion softens, pour all-purpose cream into the pan. Stir. Add \u00bc cup water."
     },
     {
       "position": 5,
@@ -66,9 +66,21 @@
     "sugarContent": "15 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-dairy",
+    "contains-gluten",
+    "contains-pork"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten"
+  ],
+  "equipment": [
+    "large pot",
+    "skillet",
+    "tongs",
+    "colander"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f3cf53a3-b225-53f5-bdcc-67cc5aabc4d9",
@@ -90,10 +102,10 @@
     },
     {
       "ingredient_id": "dc8b8f41-5277-5f9b-91ba-73854eb10b2a",
-      "name": "strips bacon",
-      "normalized_name": "strips bacon",
+      "name": "bacon",
+      "normalized_name": "bacon",
       "quantity": "7",
-      "unit": null,
+      "unit": "strips",
       "preparation": null,
       "position": 3
     },
@@ -108,11 +120,11 @@
     },
     {
       "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
-      "name": "grated parmesan cheese",
-      "normalized_name": "grated parmesan cheese",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
       "quantity": "6",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "grated",
       "position": 5
     },
     {
@@ -153,10 +165,10 @@
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water",
-      "normalized_name": "quarts water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "2",
-      "unit": null,
+      "unit": "quarts",
       "preparation": null,
       "position": 10
     }

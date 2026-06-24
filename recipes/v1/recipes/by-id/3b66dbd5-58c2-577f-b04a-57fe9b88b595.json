@@ -4,9 +4,9 @@
   "id": "3b66dbd5-58c2-577f-b04a-57fe9b88b595",
   "slug": "chicken-cordon-bleu-with-dijon-cream-sauce",
   "name": "Chicken Cordon Bleu with Dijon Cream Sauce",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Chicken Cordon Bleu with Dijon Cream Sauce",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Classic Chicken Cordon Bleu featuring tender chicken breast stuffed with ham and Swiss cheese, breaded and fried until golden, served with a rich Dijon cream sauce.",
+  "cuisine": "French",
   "instructions": [
     {
       "position": 1,
@@ -63,11 +63,20 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "gluten",
+    "dairy",
+    "egg"
+  ],
+  "equipment": [
+    "meat tenderizer",
+    "toothpicks",
+    "cooking pot",
+    "saucepan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "11843ddc-9136-55c4-834f-29cfc38d731b",
@@ -80,11 +89,11 @@
     },
     {
       "ingredient_id": "27fe10ff-edcf-5bf3-ab7e-82dc810a93c9",
-      "name": "sliced ham",
-      "normalized_name": "sliced ham",
+      "name": "ham",
+      "normalized_name": "ham",
       "quantity": "3 to 6",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 2
     },
     {
@@ -110,7 +119,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "beaten",
       "position": 5
     },
@@ -161,11 +170,11 @@
     },
     {
       "ingredient_id": "48bfa086-dd13-58ef-a284-a106bee4d7df",
-      "name": "minced yellow onion",
-      "normalized_name": "minced yellow onion",
+      "name": "yellow onion",
+      "normalized_name": "yellow onion",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 11
     },
     {

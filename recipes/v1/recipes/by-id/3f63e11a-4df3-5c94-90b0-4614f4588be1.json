@@ -4,9 +4,9 @@
   "id": "3f63e11a-4df3-5c94-90b0-4614f4588be1",
   "slug": "lechon-sisig-recipe",
   "name": "Lechon Sisig Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Lechon Sisig is a dish made from left over lechon or roasted pig. This can be enjoyed as a main dish with rice, along with calamansi and hot sauce.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -50,8 +50,13 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "eggs"
+  ],
+  "equipment": [
+    "frying pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "4efe3a3a-273c-5ae5-b620-5cb6903a198e",
@@ -67,9 +72,18 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 2
+    },
+    {
+      "ingredient_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
     },
     {
       "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
@@ -78,7 +92,7 @@
       "quantity": "1/2",
       "unit": "tablespoon",
       "preparation": null,
-      "position": 3
+      "position": 4
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -87,7 +101,7 @@
       "quantity": "1",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 4
+      "position": 5
     },
     {
       "ingredient_id": "e12d5804-6838-5e44-9d63-c2e58b62584c",
@@ -96,7 +110,7 @@
       "quantity": "2",
       "unit": "pieces",
       "preparation": null,
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "cc74916a-1632-5bfb-9707-385b03ee5c8d",
@@ -105,7 +119,7 @@
       "quantity": "4",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
@@ -114,7 +128,7 @@
       "quantity": "1/2",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 7
+      "position": 8
     },
     {
       "ingredient_id": "a7a3c147-3252-5d82-9ac5-1fa16c3dc453",
@@ -123,7 +137,7 @@
       "quantity": "1",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 8
+      "position": 9
     },
     {
       "ingredient_id": "915d3931-7f1a-547d-9655-7c5ac8ed53bd",
@@ -132,7 +146,7 @@
       "quantity": "1",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 9
+      "position": 10
     }
   ],
   "categories": [

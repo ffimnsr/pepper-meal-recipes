@@ -5,7 +5,7 @@
   "slug": "pancit-sotanghon-na-may-hipon",
   "name": "Pancit Sotanghon Na May Hipon",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Pancit Sotanghon Na May Hipon",
+  "brief_description": "A savory Filipino glass noodle dish featuring delicate sotanghon noodles, succulent shrimp, and Chinese sausage in a flavorful broth infused with garlic, fish sauce, and annatto.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -57,17 +57,26 @@
   "cooking_time_minutes": 18,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3b5e9d46-4d46-55d0-98f1-2b9a9d826c7d/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shellfish",
+    "fish"
+  ],
+  "equipment": [
+    "Large pot or wok",
+    "Knife",
+    "Cutting board",
+    "Colander",
+    "Spatula or tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "50d20e12-0606-5abe-9bb7-6543a132b534",
@@ -83,7 +92,7 @@
       "name": "knorr shrimp cube",
       "normalized_name": "knorr shrimp cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 2
     },
@@ -116,20 +125,20 @@
     },
     {
       "ingredient_id": "10ff2a0c-03da-5be8-9d89-f1d626db42d9",
-      "name": "chopped cabbage",
-      "normalized_name": "chopped cabbage",
+      "name": "cabbage",
+      "normalized_name": "cabbage",
       "quantity": "2",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 6
     },
     {
       "ingredient_id": "87aab9e0-6b82-5310-9d99-68af88f38491",
-      "name": "minced parsley",
-      "normalized_name": "minced parsley",
+      "name": "parsley",
+      "normalized_name": "parsley",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "minced",
       "position": 7
     },
     {
@@ -143,11 +152,11 @@
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     },
     {
@@ -164,7 +173,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 11
     },

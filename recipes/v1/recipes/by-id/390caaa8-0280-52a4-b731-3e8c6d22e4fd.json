@@ -5,7 +5,7 @@
   "slug": "kielbasa-fried-rice",
   "name": "Kielbasa Fried Rice",
   "recipe_type": null,
-  "brief_description": "Kielbasa Fried Rice is a type of fried rice with Kielbasa sausage. It is a delicious dish that is very easy to prepare. Although I used Kielbasa, I tried to make this taste more Asian (fried rice is associated with Asian Cuisine anyway \ud83d\ude42 ) by adding soy sauce and green onions. It will be better\u2026",
+  "brief_description": "A hearty fried rice dish combining smoky Polish kielbasa sausage with Asian-inspired flavors. Features eggs, green peas, and green onions seasoned with soy sauce and garlic for a quick, satisfying meal.",
   "cuisine": null,
   "instructions": [
     {
@@ -50,8 +50,14 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "milk",
+    "soy"
+  ],
+  "equipment": [
+    "pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "85ed519f-ff56-5b89-a42b-73ca63150204",
@@ -85,17 +91,17 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 4
     },
     {
       "ingredient_id": "b6c42fab-6465-5846-9696-635f828c5f39",
-      "name": "sliced kielbasa sausage",
-      "normalized_name": "sliced kielbasa sausage",
+      "name": "kielbasa sausage",
+      "normalized_name": "kielbasa sausage",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 5
     },
     {
@@ -109,11 +115,11 @@
     },
     {
       "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
-      "name": "chopped green onion",
-      "normalized_name": "chopped green onion",
+      "name": "green onion",
+      "normalized_name": "green onion",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 7
     },
     {

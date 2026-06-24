@@ -4,9 +4,9 @@
   "id": "3ff89a6a-4901-5942-b9f4-d38d6bb82aa5",
   "slug": "scotch-eggs",
   "name": "Scotch Eggs Recipe",
-  "recipe_type": null,
+  "recipe_type": "appetizer",
   "brief_description": "Scotch Eggs are hard boiled eggs covered with a ground pork mixture (usually sausage meat mixture) that are dredged in bread crumbs and fried until golden brown.",
-  "cuisine": null,
+  "cuisine": "British",
   "instructions": [
     {
       "position": 1,
@@ -49,23 +49,36 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-egg",
+    "contains-pork",
+    "contains-gluten",
+    "deep-fried"
+  ],
+  "allergens": [
+    "egg",
+    "gluten"
+  ],
+  "equipment": [
+    "large bowl",
+    "deep cooking pot",
+    "paper towels",
+    "plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "2d8ad1fb-229f-5168-9cce-c45c8749fe8c",
-      "name": "hard boiled chicken egg",
-      "normalized_name": "hard boiled chicken egg",
+      "name": "chicken egg",
+      "normalized_name": "chicken egg",
       "quantity": "5",
       "unit": "pieces",
-      "preparation": "shell removed",
+      "preparation": "hard boiled, shell removed",
       "position": 1
     },
     {
       "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
-      "name": "egg",
-      "normalized_name": "egg",
+      "name": "chicken egg",
+      "normalized_name": "chicken egg",
       "quantity": "1",
       "unit": "piece",
       "preparation": "beaten",
@@ -145,8 +158,8 @@
     },
     {
       "ingredient_id": "c36587ff-543a-55ca-beb3-0e5ebcbdf6da",
-      "name": "panko bread crumb",
-      "normalized_name": "panko bread crumb",
+      "name": "panko breadcrumbs",
+      "normalized_name": "panko breadcrumbs",
       "quantity": "3/4",
       "unit": "cup",
       "preparation": null,

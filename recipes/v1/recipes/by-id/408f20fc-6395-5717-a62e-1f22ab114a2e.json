@@ -37,14 +37,23 @@
     "@type": "NutritionInformation",
     "servingSize": "5 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "mixing bowl",
+    "whisk",
+    "plastic wrap"
+  ],
   "ingredients": [
     {
       "ingredient_id": "dd57f4dd-6cc1-504f-8b8a-46c6a6e4dcd4",
-      "name": "each garbanzo",
-      "normalized_name": "each garbanzo",
+      "name": "chickpeas",
+      "normalized_name": "chickpeas",
       "quantity": "2",
       "unit": "cans",
       "preparation": "drained",
@@ -52,29 +61,29 @@
     },
     {
       "ingredient_id": "a5621d42-4f0c-5495-9a13-0c42ffe6ae89",
-      "name": "basil leaf",
-      "normalized_name": "basil leaf",
+      "name": "basil leaves",
+      "normalized_name": "basil leaves",
       "quantity": "6 to 8",
-      "unit": null,
+      "unit": "leaves",
       "preparation": "chopped",
       "position": 2
     },
     {
       "ingredient_id": "f11606a6-950b-5ffc-9902-e3a5a2c648c6",
-      "name": "red tomato",
-      "normalized_name": "red tomato",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
       "quantity": "3 to 4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "chopped into small cubes",
       "position": 3
     },
     {
       "ingredient_id": "6208ccbe-4216-558b-9a23-c34538600cba",
-      "name": "chopped flat leaf parsley",
-      "normalized_name": "chopped flat leaf parsley",
+      "name": "flat leaf parsley",
+      "normalized_name": "flat leaf parsley",
       "quantity": "3",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 4
     },
     {
@@ -82,7 +91,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 5
     },
@@ -118,7 +127,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 9
     },
@@ -127,7 +136,7 @@
       "name": "pepper",
       "normalized_name": "pepper",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 10
     }

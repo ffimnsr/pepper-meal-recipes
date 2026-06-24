@@ -5,7 +5,7 @@
   "slug": "bangus-sisig-recipe",
   "name": "Bangus Sisig",
   "recipe_type": "main",
-  "brief_description": "This Bangus Sisig Recipe is really good. This dish has lower fat and cholesterol compared to pork sisig and it is delicious",
+  "brief_description": "A healthier twist on the classic Filipino sisig using flaked milkfish (bangus) instead of pork. This dish is lower in fat and cholesterol while maintaining the savory, tangy flavors of the original.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -67,8 +67,14 @@
     "calories": "416 kcal"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Fish",
+    "Soy",
+    "Pork"
+  ],
+  "equipment": [
+    "Pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "2b023962-2347-5623-a9bf-2927143c23af",
@@ -76,7 +82,7 @@
       "normalized_name": "bangus",
       "quantity": "1",
       "unit": "piece",
-      "preparation": "and then flaked",
+      "preparation": "flaked",
       "position": 1
     },
     {
@@ -130,16 +136,16 @@
       "normalized_name": "ginger",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": "this is minced",
+      "preparation": "minced",
       "position": 7
     },
     {
       "ingredient_id": "3ce74e61-f2fe-5fc2-9aeb-1dfd01734fcf",
-      "name": "crushed chicharon",
-      "normalized_name": "crushed chicharon",
+      "name": "chicharon",
+      "normalized_name": "chicharon",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 8
     },
     {
@@ -195,7 +201,7 @@
     {
       "id": "885f3bfb-a873-590f-a78b-94cd7b181de5",
       "slug": "filipino-sisig",
-      "name": "filipino sisig",
+      "name": "Filipino Sisig",
       "color": null
     }
   ],

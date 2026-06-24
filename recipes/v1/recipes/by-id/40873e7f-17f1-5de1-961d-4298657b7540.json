@@ -6,7 +6,7 @@
   "name": "Linat an Recipe (Boiled Pork Soup with Lemongrass)",
   "recipe_type": "soup",
   "brief_description": "linat an is a boiled pork soup dish that resembles Pork Nilaga. Although both dishes might sound the same, there are notable differences",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -55,7 +55,9 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "22289691-a453-5abb-a467-ebea2208e7c3",
@@ -71,7 +73,7 @@
       "name": "string bean",
       "normalized_name": "string bean",
       "quantity": "5",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cut in 2 1/2 inch length",
       "position": 2
     },
@@ -80,7 +82,7 @@
       "name": "green onion",
       "normalized_name": "green onion",
       "quantity": null,
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cut in 3 inch length",
       "position": 3
     },
@@ -89,7 +91,7 @@
       "name": "taro root",
       "normalized_name": "taro root",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "chopped",
       "position": 4
     },
@@ -98,7 +100,7 @@
       "name": "lemongrass",
       "normalized_name": "lemongrass",
       "quantity": null,
-      "unit": null,
+      "unit": "stalks",
       "preparation": "cleaned and tied together",
       "position": 5
     },
@@ -116,7 +118,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 7
     },
@@ -125,7 +127,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "quartered",
       "position": 8
     },
@@ -134,7 +136,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 9
     },
@@ -143,7 +145,7 @@
       "name": "pepper",
       "normalized_name": "pepper",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 10
     }

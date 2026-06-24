@@ -58,9 +58,17 @@
     "fiberContent": "2 g",
     "sugarContent": "3 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -181,11 +189,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
       "unit": null,
-      "preparation": null,
+      "preparation": "ground",
       "position": 14
     }
   ],

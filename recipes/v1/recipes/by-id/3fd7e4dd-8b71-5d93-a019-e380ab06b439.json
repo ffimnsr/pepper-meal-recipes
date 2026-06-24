@@ -3,30 +3,30 @@
   "schema_version": 1,
   "id": "3fd7e4dd-8b71-5d93-a019-e380ab06b439",
   "slug": "bananacue",
-  "name": "Bananacue Recipe",
+  "name": "Bananacue",
   "recipe_type": "dessert",
-  "brief_description": "Bananacue is a nutritious and popular snack in the Philippines. Get to know how to cook this through our cooking video.",
-  "cuisine": null,
+  "brief_description": "Bananacue is a popular Filipino street food snack made by deep-frying saba bananas coated in caramelized brown sugar, then skewered on bamboo sticks. A classic merienda treat often paired with cold soda.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Heat a cooking pot then pour-in cooking oil."
+      "text": "Heat cooking oil in a deep pot or frying pan over medium heat."
     },
     {
       "position": 2,
-      "text": "When the oil becomes hot, deep fry the bananas for 2 minutes."
+      "text": "When the oil is hot, carefully deep fry the bananas for 2 minutes."
     },
     {
       "position": 3,
-      "text": "Gradually put-in the brown sugar, adjust the heat to medium-low and continue cooking until the melted brown sugar coats the bananas. Note: Gently stir the bananas so that it can get coated with melted brown sugar easily."
+      "text": "Gradually add the brown sugar, reduce heat to medium-low, and continue cooking until the melted sugar coats the bananas. Stir gently to ensure even coating."
     },
     {
       "position": 4,
-      "text": "Remove the cooked bananas one by one and immediately skewer using a bamboo skewer. Note: 2 pieces per skewer is recommended."
+      "text": "Remove the cooked bananas one by one and immediately skewer using a bamboo skewer. 2 pieces per skewer is recommended."
     },
     {
       "position": 5,
-      "text": "Let cool then serve with cold soda."
+      "text": "Let cool slightly before serving. Traditionally enjoyed with cold soda."
     },
     {
       "position": 6,
@@ -43,16 +43,26 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 skewer (2 bananas)"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegetarian",
+    "vegan",
+    "gluten-free",
+    "dairy-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "deep pot or frying pan",
+    "bamboo skewers",
+    "tongs",
+    "paper towels"
+  ],
   "ingredients": [
     {
       "ingredient_id": "9fd38b65-2eee-5173-9697-f0b460f39dfa",
       "name": "saging na saba",
-      "normalized_name": "saging na saba",
+      "normalized_name": "saba bananas",
       "quantity": "6",
       "unit": "pieces",
       "preparation": null,

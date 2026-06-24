@@ -4,9 +4,9 @@
   "id": "3cc94588-ec64-5a00-a3bf-30073b6e32e5",
   "slug": "pork-parmesan",
   "name": "Pork Parmesan",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This Pork Parmesan Recipe is a crowd pleaser. It tastes great; takes a little time to prepare; and it is perfect for any occasion.",
-  "cuisine": null,
+  "cuisine": "italian",
   "instructions": [
     {
       "position": 1,
@@ -60,18 +60,31 @@
   "servings": 4,
   "cooking_time_minutes": 40,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 10,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3cc94588-ec64-5a00-a3bf-30073b6e32e5/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-dairy",
+    "contains-gluten",
+    "contains-eggs"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "eggs"
+  ],
+  "equipment": [
+    "frying pan",
+    "baking tray",
+    "saucepan",
+    "oven"
+  ],
   "ingredients": [
     {
       "ingredient_id": "e2818f2b-2e4d-5644-a162-a56151c8ad35",
@@ -102,11 +115,11 @@
     },
     {
       "ingredient_id": "0aa773dc-246c-5545-a507-cad13b888d9a",
-      "name": "eggs beaten",
-      "normalized_name": "eggs beaten",
+      "name": "eggs",
+      "normalized_name": "eggs",
       "quantity": "2",
-      "unit": null,
-      "preparation": null,
+      "unit": "piece",
+      "preparation": "beaten",
       "position": 4
     },
     {
@@ -131,9 +144,9 @@
       "ingredient_id": "30e689d9-f00c-5b96-8fdd-bc2fea5143de",
       "name": "diced tomato",
       "normalized_name": "diced tomato",
-      "quantity": "1 15",
+      "quantity": "15",
       "unit": "oz",
-      "preparation": null,
+      "preparation": "diced tomato",
       "position": 7
     },
     {
@@ -165,11 +178,11 @@
     },
     {
       "ingredient_id": "d722b777-abc2-5595-b96c-8bd023496ed2",
-      "name": "shredded quick melt cheese",
-      "normalized_name": "shredded quick melt cheese",
+      "name": "quick melt cheese",
+      "normalized_name": "quick melt cheese",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 11
     },
     {

@@ -4,7 +4,7 @@
   "id": "3b417bae-ec82-5994-b61b-995b633db292",
   "slug": "parmesan-crusted-fish-recipe",
   "name": "Parmesan Crusted Fish Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Parmesan crusted fish is a quick and easy fish recipe that you can prepare anytime. This dish is perfect for lent. Tilapia is the most common fish",
   "cuisine": null,
   "instructions": [
@@ -40,18 +40,30 @@
   "servings": 2,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 12,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 10,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3b417bae-ec82-5994-b61b-995b633db292/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "fish",
+    "dairy"
+  ],
+  "equipment": [
+    "oven",
+    "baking tray",
+    "mixing bowl",
+    "measuring spoons",
+    "measuring cups"
+  ],
   "ingredients": [
     {
       "ingredient_id": "1a371118-2b35-529f-ae23-6bd021e82c0e",
@@ -64,11 +76,11 @@
     },
     {
       "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
-      "name": "grated parmesan cheese",
-      "normalized_name": "grated parmesan cheese",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "grated",
       "position": 2
     },
     {
@@ -82,20 +94,20 @@
     },
     {
       "ingredient_id": "b7f246e5-1d6b-5572-94d9-778c01ad7ab0",
-      "name": "dried parsley flake",
-      "normalized_name": "dried parsley flake",
+      "name": "parsley flakes",
+      "normalized_name": "parsley flakes",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "dried",
       "position": 4
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 5
     },
     {
@@ -113,9 +125,45 @@
       "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
       "slug": "fish",
       "name": "Fish"
+    },
+    {
+      "id": "7d8f9e2a-1b3c-4d5e-af7a-8b9c0d1e2f3a",
+      "slug": "main-course",
+      "name": "Main Course"
+    },
+    {
+      "id": "8e9f0a3b-2c4d-4e6f-9a8b-9c0d1e2f3a4b",
+      "slug": "dinner",
+      "name": "Dinner"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "9f0a1b4c-3d5e-4f7a-ba9c-0d1e2f3a4b5c",
+      "slug": "quick",
+      "name": "Quick"
+    },
+    {
+      "id": "a0b1c2d5-4e6f-4a8b-9c0d-1e2f3a4b5c6d",
+      "slug": "easy",
+      "name": "Easy"
+    },
+    {
+      "id": "b1c2d3e6-5f7a-4b8c-ad1e-2f3a4b5c6d7e",
+      "slug": "baked",
+      "name": "Baked"
+    },
+    {
+      "id": "c2d3e4f7-6a8b-4c9d-be1f-2a3b4c5d6e7f",
+      "slug": "lent",
+      "name": "Lent"
+    },
+    {
+      "id": "d3e4f5a8-7b9c-4d0e-af2a-3b4c5d6e7f8a",
+      "slug": "parmesan",
+      "name": "Parmesan"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

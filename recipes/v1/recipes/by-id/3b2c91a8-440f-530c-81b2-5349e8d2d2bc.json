@@ -4,9 +4,9 @@
   "id": "3b2c91a8-440f-530c-81b2-5349e8d2d2bc",
   "slug": "ginisang-kalabasa-at-sitaw-with-daing-recipe",
   "name": "Ginisang Kalabasa at Sitaw with Daing Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Ginisang kalabasa at sitaw with daing is a Filipino vegetable saute dish that makes use of calabaza squash and string beans as ingredients.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -30,7 +30,7 @@
     },
     {
       "position": 6,
-      "text": "Stir in the string beans.Cook for 2 minutes in medium heat."
+      "text": "Stir in the string beans. Cook for 2 minutes in medium heat."
     },
     {
       "position": 7,
@@ -38,7 +38,7 @@
     },
     {
       "position": 8,
-      "text": "Tranfer to a serving plate. Share and enjoy!"
+      "text": "Transfer to a serving plate. Share and enjoy!"
     }
   ],
   "servings": 4,
@@ -53,9 +53,17 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "pan",
+    "knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "2a16c6be-41eb-5d45-b527-00280699811e",
@@ -98,7 +106,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 5
     },

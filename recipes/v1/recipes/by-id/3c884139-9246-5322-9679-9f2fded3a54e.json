@@ -6,7 +6,7 @@
   "name": "Crab with Misua and Patola",
   "recipe_type": "soup",
   "brief_description": "Crab with Misua and Patola is a simple yet flavorful Filipino soup dish. This can be prepared using any type of edible crab, some Chinese vermicelli noodles (also called misua or miswa), and young loofah (or patola). The crab and fish sauce gives this dish its distinct taste.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -61,8 +61,15 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Fish",
+    "Gluten"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -79,7 +86,7 @@
       "name": "patola",
       "normalized_name": "patola",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "peeled and sliced crosswise",
       "position": 2
     },
@@ -97,7 +104,7 @@
       "name": "green onion",
       "normalized_name": "green onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 4
     },
@@ -115,7 +122,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 6
     },
@@ -150,8 +157,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 10
     },

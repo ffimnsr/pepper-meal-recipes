@@ -4,9 +4,9 @@
   "id": "3ba586cf-57e9-5ea5-ba8a-584a02105591",
   "slug": "special-pinoy-pork-chop-binalot-lunch-combo-meal-recipe",
   "name": "Special Pinoy Pork Chop Binalot Lunch Combo Meal Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Think of Special Pinoy Pork Chop Binalot Lunch Combo Meal as your extra special binalot because it is composed of 3 dishes with rice and salted eggs.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -39,54 +39,58 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "banana leaves",
+    "bowls",
+    "leak-proof containers"
+  ],
   "ingredients": [
     {
       "ingredient_id": "4b0c526e-2c2f-5a79-ad5d-5d11e2dcd5d0",
-      "name": "grilled pork chop",
-      "normalized_name": "grilled pork chop",
+      "name": "pork chop",
+      "normalized_name": "pork chop",
       "quantity": "2",
       "unit": "lbs",
-      "preparation": null,
+      "preparation": "grilled",
       "position": 1
     },
     {
       "ingredient_id": "40b749c3-9150-5bdb-9958-d629cea4d7e3",
-      "name": "serving tokwa and tuna",
-      "normalized_name": "serving tokwa and tuna",
+      "name": "tokwa and tuna",
+      "normalized_name": "tokwa and tuna",
       "quantity": "1",
-      "unit": null,
+      "unit": "serving",
       "preparation": null,
       "position": 2
     },
     {
       "ingredient_id": "81f99c3c-3e8d-51f1-9a1a-754fc700ed64",
-      "name": "serving ensaladang talong",
-      "normalized_name": "serving ensaladang talong",
+      "name": "ensaladang talong",
+      "normalized_name": "ensaladang talong",
       "quantity": "1",
-      "unit": null,
+      "unit": "serving",
       "preparation": null,
       "position": 3
     },
     {
       "ingredient_id": "2308f5e3-139a-55e5-af36-180c7369e78c",
-      "name": "steamed white rice",
-      "normalized_name": "steamed white rice",
+      "name": "white rice",
+      "normalized_name": "white rice",
       "quantity": "4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "steamed",
       "position": 4
     },
     {
       "ingredient_id": "722668b6-03a0-5251-98f2-4639e4673423",
-      "name": "o 4 pieces salted duck egg",
-      "normalized_name": "o 4 pieces salted duck egg",
-      "quantity": "2",
-      "unit": null,
+      "name": "salted duck egg",
+      "normalized_name": "salted duck egg",
+      "quantity": "4",
+      "unit": "pieces",
       "preparation": null,
       "position": 5
     },

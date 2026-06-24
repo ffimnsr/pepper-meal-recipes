@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Discard the water. Pour rich washing into the pot. Let boil."
+      "text": "Discard the water. Pour rice washing into the pot. Let boil."
     },
     {
       "position": 4,
@@ -34,7 +34,7 @@
     },
     {
       "position": 7,
-      "text": "Arrange in a bowl. Pour hot broth in the bowl and top with chop green onions and chili."
+      "text": "Arrange in a bowl. Pour hot broth in the bowl and top with chopped green onions and chili."
     },
     {
       "position": 8,
@@ -59,7 +59,12 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "large cooking pot",
+    "knife",
+    "cutting board",
+    "bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "49c8a71c-4024-59f1-8265-bf4828da1536",
@@ -111,7 +116,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "chopped",
       "position": 6
     },
@@ -126,17 +131,17 @@
     },
     {
       "ingredient_id": "df82be8f-4363-5ed2-9199-80e68aadb3bc",
-      "name": "quarts rice wash",
-      "normalized_name": "quarts rice wash",
+      "name": "rice wash",
+      "normalized_name": "rice wash",
       "quantity": "2",
-      "unit": null,
+      "unit": "quarts",
       "preparation": null,
       "position": 8
     },
     {
       "ingredient_id": "9db40689-a7c2-5147-acb2-2adcb5b45c60",
       "name": "annatto seeds diluted in water",
-      "normalized_name": "annatto seeds diluted in water",
+      "normalized_name": "annatto water",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
@@ -153,11 +158,11 @@
     },
     {
       "ingredient_id": "4179711d-6069-50be-93f8-ddfb763511ba",
-      "name": "crushed whole peppercorn",
-      "normalized_name": "crushed whole peppercorn",
+      "name": "whole peppercorn",
+      "normalized_name": "whole peppercorn",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 11
     },
     {
@@ -174,25 +179,25 @@
       "name": "beef bouillon",
       "normalized_name": "beef bouillon",
       "quantity": "1",
-      "unit": null,
+      "unit": "cube",
       "preparation": null,
       "position": 13
     },
     {
       "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
-      "name": "chopped green onion",
-      "normalized_name": "chopped green onion",
+      "name": "green onion",
+      "normalized_name": "green onion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 14
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water",
-      "normalized_name": "quarts water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "2",
-      "unit": null,
+      "unit": "quarts",
       "preparation": null,
       "position": 15
     }
@@ -206,8 +211,13 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Ensure beef innards are thoroughly cleaned and parboiled before cooking"
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 3 days",
+    "Reheat gently on the stovetop"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/gotong-batangas-recipe/"

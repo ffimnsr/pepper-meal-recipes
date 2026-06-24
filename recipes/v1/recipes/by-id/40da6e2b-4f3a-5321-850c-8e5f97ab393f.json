@@ -40,7 +40,7 @@
   "servings": 1,
   "cooking_time_minutes": 40,
   "preparation_time_minutes": 20,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 45,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/40da6e2b-4f3a-5321-850c-8e5f97ab393f/cover.jpg",
   "video_url": null,
@@ -60,8 +60,14 @@
     "unsaturatedFatContent": "56 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat",
+    "gluten",
+    "milk"
+  ],
   "equipment": [
     "Mixing bowl for combining dry ingredients",
     "Pastry cutter or fork for cutting butter into flour",
@@ -108,11 +114,11 @@
     },
     {
       "ingredient_id": "97cbd716-5e58-5c12-aafe-713b7ba7e18b",
-      "name": "ice-cold water",
-      "normalized_name": "ice-cold water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "6",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "ice-cold",
       "position": 5
     }
   ],

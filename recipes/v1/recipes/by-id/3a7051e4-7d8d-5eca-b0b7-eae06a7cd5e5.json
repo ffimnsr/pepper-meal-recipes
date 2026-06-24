@@ -6,7 +6,7 @@
   "name": "Pork Fried Rice",
   "recipe_type": null,
   "brief_description": "Pork Fried Rice is something that I wish to have when craving for fried rice. Yes, I also love Yang Chow Fried Rice because it is also good.",
-  "cuisine": null,
+  "cuisine": "Chinese",
   "instructions": [
     {
       "position": 1,
@@ -57,7 +57,7 @@
   "cooking_time_minutes": 25,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3a7051e4-7d8d-5eca-b0b7-eae06a7cd5e5/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -66,8 +66,17 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Egg",
+    "Soy",
+    "Sesame"
+  ],
+  "equipment": [
+    "wok or large pan",
+    "mixing bowl",
+    "spatula",
+    "spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "c6a66670-d081-5afa-8ffc-0d78b8f4dabf",
@@ -92,7 +101,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "beaten",
       "position": 3
     },
@@ -143,11 +152,11 @@
     },
     {
       "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
-      "name": "chopped green onion",
-      "normalized_name": "chopped green onion",
+      "name": "green onion",
+      "normalized_name": "green onion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     },
     {

@@ -4,9 +4,9 @@
   "id": "38963338-c3c9-5dce-b886-3a1c9633d266",
   "slug": "how-to-cook-mongolian-beef",
   "name": "Mongolian Beef Recipe",
-  "recipe_type": "dessert",
+  "recipe_type": "main",
   "brief_description": "This is a recipe for Easy Mongolian Beef. It involves stir-frying pre-fried beef slices with a thick sweet sauce. You can enjoy this dish with warm white rice.",
-  "cuisine": null,
+  "cuisine": "Chinese-American",
   "instructions": [
     {
       "position": 1,
@@ -61,7 +61,7 @@
   "cooking_time_minutes": 12,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/38963338-c3c9-5dce-b886-3a1c9633d266/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -80,9 +80,25 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "gluten"
+  ],
+  "equipment": [
+    "wok",
+    "mixing bowl",
+    "tongs"
+  ],
   "ingredients": [
+    {
+      "ingredient_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "beef",
+      "normalized_name": "beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "thinly sliced",
+      "position": 1
+    },
     {
       "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
       "name": "cornstarch",
@@ -90,16 +106,16 @@
       "quantity": "5",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 1
+      "position": 2
     },
     {
       "ingredient_id": "34833b33-a170-5c60-b6f8-512154c74c5f",
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
-      "position": 2
+      "position": 3
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
@@ -108,7 +124,7 @@
       "quantity": "5",
       "unit": "cloves",
       "preparation": "minced",
-      "position": 3
+      "position": 4
     },
     {
       "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
@@ -117,7 +133,7 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
-      "position": 4
+      "position": 5
     },
     {
       "ingredient_id": "f365a1a4-8c18-572c-83d5-b15489e42e02",
@@ -126,7 +142,7 @@
       "quantity": "5",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
@@ -135,7 +151,7 @@
       "quantity": "10",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "2bb7f8e7-f9f2-52d8-a55e-5a50a04b3eed",
@@ -144,7 +160,7 @@
       "quantity": "1",
       "unit": "cup",
       "preparation": "chopped",
-      "position": 7
+      "position": 8
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -153,7 +169,7 @@
       "quantity": "1/2",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 8
+      "position": 9
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
@@ -162,7 +178,7 @@
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 9
+      "position": 10
     },
     {
       "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
@@ -171,7 +187,7 @@
       "quantity": "3/4",
       "unit": "cup",
       "preparation": null,
-      "position": 10
+      "position": 11
     }
   ],
   "categories": [
