@@ -209,6 +209,24 @@ class RecipeImproverTests(TestCase):
         self.assertEqual(normalized["ingredients"][0]["unit"], "piece")
         self.assertIsNone(normalized["ingredients"][0]["preparation"])
 
+    def test_normalize_improved_recipe_maps_intermediate_difficulty_to_medium(self) -> None:
+        original = {
+            "id": "orig-id",
+            "slug": "orig-slug",
+            "schema_version": 1,
+            "updated_at": 1,
+            "revision": 1,
+            "categories": [],
+            "tags": [],
+            "difficulty": None,
+        }
+        improved = dict(original, difficulty="intermediate")
+
+        normalized, repairs = recipe_improver.normalize_improved_recipe(original, improved)
+
+        self.assertEqual(normalized["difficulty"], "medium")
+        self.assertTrue(any("normalized difficulty" in repair for repair in repairs))
+
     def test_validate_recipe_with_manual_fix_revalidates_after_edit(self) -> None:
         original = {
             "id": "orig-id",
@@ -496,6 +514,46 @@ class RecipeImproverTests(TestCase):
         self.assertTrue(wrote)
         self.assertEqual(improved, recipe)
         write_recipe.assert_called_once_with(recipe_path, recipe)
+
+    def test_main_yes_flag_continues_after_failed_recipe(self) -> None:
+        args = mock.Mock(
+            yes=True,
+            recipe_id=None,
+            state_file=Path("/tmp/state.json"),
+        )
+        state = recipe_improver.ResumeState([], [])
+        recipe_path = Path("/tmp/recipe-one.json")
+
+        with mock.patch.object(recipe_improver, "parse_args", return_value=args), mock.patch.object(
+            recipe_improver,
+            "load_validator",
+            return_value=None,
+        ), mock.patch.object(
+            recipe_improver,
+            "load_state",
+            return_value=state,
+        ), mock.patch.object(
+            recipe_improver,
+            "choose_recipe_path",
+            side_effect=[recipe_path, None],
+        ), mock.patch.object(
+            recipe_improver,
+            "run_recipe",
+            side_effect=SystemExit("boom"),
+        ), mock.patch.object(
+            recipe_improver,
+            "prompt_yes_no",
+            side_effect=AssertionError("retry prompt should be skipped when --yes is set"),
+        ), mock.patch.object(
+            recipe_improver,
+            "save_state",
+        ) as save_state, mock.patch.object(
+            recipe_improver,
+            "status",
+        ):
+            recipe_improver.main()
+
+        save_state.assert_called_once_with(args.state_file, state)
 
 
 if __name__ == "__main__":

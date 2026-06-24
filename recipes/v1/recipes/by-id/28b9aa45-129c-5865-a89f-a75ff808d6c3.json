@@ -4,9 +4,9 @@
   "id": "28b9aa45-129c-5865-a89f-a75ff808d6c3",
   "slug": "ginisang-ampalaya-with-shrimp-sauteed-bitter-gourd",
   "name": "Ginisang Ampalaya with Shrimp (Sauteed Bitter Gourd)",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Ginisang Ampalaya with Shrimp (or saut\u00e9ed bitter gourd) is a simple yet nutritious dish that you can prepare for lunch. This recipe involves bitter gourd (also called bitter melon), which is a type of vegetable that is known to have a lot of nutritional value.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Add the onion and tomato. Sauce until the texture turns soft."
+      "text": "Add the onion and tomato. Saute until the texture turns soft."
     },
     {
       "position": 5,
@@ -30,11 +30,11 @@
     },
     {
       "position": 6,
-      "text": "Stir-in the ampalaya. Cook for 3 to 5 minutes. Add salt and pepper to taste."
+      "text": "Stir in the ampalaya. Cook for 3 to 5 minutes. Add salt and pepper to taste."
     },
     {
       "position": 7,
-      "text": "Make extra room in the pan by pushing the mixture on the side. Pour the beaten eggs in the pan. Continue to cook the eggs while trying to stir around."
+      "text": "Make extra room in the pan by pushing the mixture on the side. Pour the beaten eggs in the pan. Continue to cook the eggs while stirring gently."
     },
     {
       "position": 8,
@@ -53,7 +53,7 @@
   "cooking_time_minutes": 20,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/28b9aa45-129c-5865-a89f-a75ff808d6c3/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -61,9 +61,21 @@
     "@type": "NutritionInformation",
     "servingSize": "3 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Gluten-Free"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Eggs"
+  ],
+  "equipment": [
+    "Pan",
+    "Knife",
+    "Cutting board",
+    "Bowl",
+    "Spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3e322b2c-64aa-559f-80ea-b6ea00a3473b",
@@ -132,8 +144,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "to taste",
+      "unit": "piece",
       "preparation": null,
       "position": 8
     },
@@ -141,8 +153,8 @@
       "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
       "name": "pepper",
       "normalized_name": "pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "to taste",
+      "unit": "piece",
       "preparation": null,
       "position": 9
     }

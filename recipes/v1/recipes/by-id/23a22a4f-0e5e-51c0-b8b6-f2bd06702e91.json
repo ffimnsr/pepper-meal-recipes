@@ -54,8 +54,16 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "gluten"
+  ],
+  "equipment": [
+    "loaf pan",
+    "mixing bowl",
+    "wire whisk",
+    "fork"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3a4393ef-eb78-5da8-aab8-bb1a1d39f98f",
@@ -116,7 +124,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 7
     },

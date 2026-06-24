@@ -5,7 +5,7 @@
   "slug": "root-beer-pork-steak-bistek-tagalog",
   "name": "Root Beer Pork Steak",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Root Beer Pork Steak.",
+  "brief_description": "A Filipino-inspired pork steak dish marinated in root beer, calamansi, and soy sauce, then braised until tender with sweet and savory flavors.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Heat oil in a cooking pot. Separate the pork from the marinade. Pan fry the marinated pork chops for 2 minutes per side.Remove from the cooking pot. Set aside."
+      "text": "Heat oil in a cooking pot. Separate the pork from the marinade. Pan fry the marinated pork chops for 2 minutes per side. Remove from the cooking pot. Set aside."
     },
     {
       "position": 3,
@@ -48,18 +48,24 @@
   "servings": 4,
   "cooking_time_minutes": 50,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 180,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/237527ad-9b30-5006-a320-8e851ebd86ec/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "cooking pot",
+    "mixing bowl",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d2bbe037-93f1-5f58-a13f-fae0320f7239",
@@ -75,7 +81,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "sliced into rings",
       "position": 2
     },
@@ -108,11 +114,11 @@
     },
     {
       "ingredient_id": "5aa9d493-e667-560e-8ec3-d7d6346cb41e",
-      "name": "garlic crushed",
-      "normalized_name": "garlic crushed",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "4",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 6
     },
     {

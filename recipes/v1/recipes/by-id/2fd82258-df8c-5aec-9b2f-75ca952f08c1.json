@@ -53,7 +53,7 @@
   "cooking_time_minutes": 120,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2fd82258-df8c-5aec-9b2f-75ca952f08c1/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -72,7 +72,10 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "wok",
+    "serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
@@ -175,11 +178,11 @@
     },
     {
       "ingredient_id": "2284c9c9-dc52-596d-9350-0ca99f0f818b",
-      "name": "crushed peppercorn",
-      "normalized_name": "crushed peppercorn",
+      "name": "peppercorn",
+      "normalized_name": "peppercorn",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 12
     }
   ],

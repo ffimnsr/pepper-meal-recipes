@@ -4,7 +4,7 @@
   "id": "280c2e16-c399-57fa-af2a-c39b9075456a",
   "slug": "chopsuey",
   "name": "Chop Suey",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This is a perfect dish for vegetable lovers. Chop suey is a dish made using a variety of veggies including snow peas, young corn, cabbage, and bell peppers. There is also a protein and seafood component in it. I went the extra mile by adding boiled and cute quail eggs. It was so good.",
   "cuisine": "Filipino",
   "instructions": [
@@ -61,13 +61,13 @@
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/280c2e16-c399-57fa-af2a-c39b9075456a/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g",
+    "servingSize": "1 serving",
     "calories": "214 kcal",
     "carbohydrateContent": "20 g",
     "proteinContent": "4 g",
@@ -78,9 +78,20 @@
     "fiberContent": "2 g",
     "sugarContent": "9 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "shellfish",
+    "soy",
+    "eggs"
+  ],
+  "equipment": [
+    "wok",
+    "pan",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -102,11 +113,11 @@
     },
     {
       "ingredient_id": "11843ddc-9136-55c4-834f-29cfc38d731b",
-      "name": "boneless chicken breast",
-      "normalized_name": "boneless chicken breast",
+      "name": "chicken breast",
+      "normalized_name": "chicken breast",
       "quantity": "3",
       "unit": "ounces",
-      "preparation": "sliced",
+      "preparation": "boneless, sliced",
       "position": 3
     },
     {
@@ -237,11 +248,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/4",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 18
     },
     {

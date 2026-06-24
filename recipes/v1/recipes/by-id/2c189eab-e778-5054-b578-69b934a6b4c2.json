@@ -3,9 +3,9 @@
   "schema_version": 1,
   "id": "2c189eab-e778-5054-b578-69b934a6b4c2",
   "slug": "buffalo-pork-ribs-recipe",
-  "name": "Buffalo Pork Ribs Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Buffalo Pork Ribs.",
+  "name": "Buffalo Pork Ribs",
+  "recipe_type": "main",
+  "brief_description": "Crispy deep-fried pork spare ribs tossed in a spicy Buffalo sauce made with butter and hot sauce, served with celery and ranch dressing.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -59,11 +59,24 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "High Protein",
+    "Spicy"
+  ],
+  "allergens": [
+    "Eggs",
+    "Gluten",
+    "Milk"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Deep cooking pot",
+    "Sauce pan",
+    "Mixing bowl",
+    "Tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "22289691-a453-5abb-a467-ebea2208e7c3",
@@ -115,7 +128,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "beaten",
       "position": 6
     },
@@ -142,7 +155,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": "1/2",
-      "unit": "teaspoons",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 9
     },

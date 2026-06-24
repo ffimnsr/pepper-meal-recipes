@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "In a large bowl. combine macaroni, peas, and all remaining salad ingredients. Toss until ingredients are distributed."
+      "text": "In a large bowl, combine macaroni, peas, and all remaining salad ingredients. Toss until ingredients are distributed."
     },
     {
       "position": 4,
@@ -33,30 +33,41 @@
       "text": "Serve. Share and enjoy!"
     }
   ],
-  "servings": null,
+  "servings": 8,
   "cooking_time_minutes": 10,
   "preparation_time_minutes": 5,
-  "rest_time_minutes": null,
-  "difficulty": "medium",
+  "rest_time_minutes": 60,
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/36317800-6eea-5102-9111-3400e371fc81/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "calories": "3303 kcal",
-    "carbohydrateContent": "300 g",
-    "proteinContent": "79 g",
-    "fatContent": "189 g",
-    "saturatedFatContent": "41 g",
-    "cholesterolContent": "130 mg",
-    "sodiumContent": "2500 mg",
-    "fiberContent": "22 g",
-    "sugarContent": "35 g",
+    "calories": "413 kcal",
+    "carbohydrateContent": "37.5 g",
+    "proteinContent": "9.9 g",
+    "fatContent": "23.6 g",
+    "saturatedFatContent": "5.1 g",
+    "cholesterolContent": "16.3 mg",
+    "sodiumContent": "312.5 mg",
+    "fiberContent": "2.8 g",
+    "sugarContent": "4.4 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "gluten"
+  ],
+  "equipment": [
+    "cooking pot",
+    "colander",
+    "large bowl",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "90ad4070-8a31-5a7c-9087-58102c7ff05f",
@@ -69,8 +80,8 @@
     },
     {
       "ingredient_id": "88225f0e-a082-5313-a2a7-4f1f0c4893b8",
-      "name": "boiled egg",
-      "normalized_name": "boiled egg",
+      "name": "hard-boiled eggs",
+      "normalized_name": "hard-boiled eggs",
       "quantity": "3",
       "unit": "pieces",
       "preparation": "peeled and cubed",
@@ -78,10 +89,10 @@
     },
     {
       "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
-      "name": "stalks celery",
-      "normalized_name": "stalks celery",
+      "name": "celery",
+      "normalized_name": "celery",
       "quantity": "2",
-      "unit": null,
+      "unit": "stalks",
       "preparation": "chopped",
       "position": 3
     },
@@ -96,8 +107,8 @@
     },
     {
       "ingredient_id": "36827922-e7a7-5c77-8b40-cb01b48af561",
-      "name": "frozen green pea",
-      "normalized_name": "frozen green pea",
+      "name": "frozen green peas",
+      "normalized_name": "frozen green peas",
       "quantity": "3/4",
       "unit": "cup",
       "preparation": null,
@@ -123,8 +134,8 @@
     },
     {
       "ingredient_id": "8bd7a379-a0c2-591a-a044-edef1318f0f5",
-      "name": "parsley",
-      "normalized_name": "parsley",
+      "name": "fresh parsley",
+      "normalized_name": "fresh parsley",
       "quantity": "1",
       "unit": "tablespoon",
       "preparation": "chopped",
@@ -132,8 +143,8 @@
     },
     {
       "ingredient_id": "7402d10f-ce7d-5e88-82dc-9d8f54fcdf4a",
-      "name": "ladys choice mayonnaise",
-      "normalized_name": "ladys choice mayonnaise",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -150,8 +161,8 @@
     },
     {
       "ingredient_id": "e255923a-c3f2-517f-8fe6-69dc2671cbea",
-      "name": "sweet relish",
-      "normalized_name": "sweet relish",
+      "name": "sweet pickle relish",
+      "normalized_name": "sweet pickle relish",
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
@@ -161,8 +172,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/2",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 12
     },
@@ -170,8 +181,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 13
     }
@@ -204,8 +215,13 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Best served chilled",
+    "Can be made up to 2 days ahead"
+  ],
+  "storage_notes": [
+    "Refrigerate in an airtight container for up to 3 days"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/easy-classic-macaroni-salad/"

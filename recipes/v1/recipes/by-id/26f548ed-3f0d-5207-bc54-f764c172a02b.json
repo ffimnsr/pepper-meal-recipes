@@ -60,7 +60,7 @@
   "servings": 6,
   "cooking_time_minutes": 80,
   "preparation_time_minutes": 15,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 120,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/26f548ed-3f0d-5207-bc54-f764c172a02b/cover.jpg",
   "video_url": null,
@@ -69,9 +69,24 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "wheat",
+    "tree nuts",
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "bundt pan",
+    "mixing bowls",
+    "wire whisk",
+    "hand blender or stand mixer",
+    "spoon",
+    "refrigerator"
+  ],
   "ingredients": [
     {
       "ingredient_id": "91b29c8f-d01f-54da-b346-952f9f9ed3d8",
@@ -84,11 +99,11 @@
     },
     {
       "ingredient_id": "9031b43e-32c1-5e1d-9a81-d432a314c14e",
-      "name": "chopped walnut",
-      "normalized_name": "chopped walnut",
+      "name": "walnut",
+      "normalized_name": "walnut",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 2
     },
     {
@@ -150,7 +165,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 9
     },

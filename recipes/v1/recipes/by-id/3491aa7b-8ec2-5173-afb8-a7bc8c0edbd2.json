@@ -5,7 +5,7 @@
   "slug": "shingaling-recipe",
   "name": "Shingaling Recipe",
   "recipe_type": "snack",
-  "brief_description": "Shingaling is a popular snack in the Philippines. It is made from miki noodles. Here is a recipe from Rene Magdiwang. Enjoy!",
+  "brief_description": "Shingaling is a popular Filipino street food snack made from seasoned miki noodles that are dried and deep-fried until golden and crispy. This recipe features a savory coating of garlic, chili, and beef powder for an addictive crunch.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -35,19 +35,27 @@
   ],
   "servings": 4,
   "cooking_time_minutes": 12,
-  "preparation_time_minutes": null,
-  "rest_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": 1440,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3491aa7b-8ec2-5173-afb8-a7bc8c0edbd2/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Gluten",
+    "Wheat"
+  ],
+  "equipment": [
+    "Wide tray",
+    "Cheese cloth or clean screen",
+    "Deep fryer or large heavy-bottomed pot",
+    "Tongs or slotted spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "aa9f2b80-0d03-5af5-89f2-8206c73a2a76",
@@ -100,17 +108,21 @@
       "id": "38cb4343-f9c8-5de7-a945-252e99bce640",
       "slug": "snacks",
       "name": "Snacks"
-    },
-    {
-      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
-      "slug": "snack",
-      "name": "Snack"
     }
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "The drying time may vary depending on humidity and sunlight. The noodles should be completely dry before frying to ensure crispiness.",
+    "Be careful when deep frying as the oil may splatter.",
+    "You can adjust the amount of chili powder based on your spice preference.",
+    "Ensure noodles do not overlap during drying to prevent sticking and uneven drying."
+  ],
+  "storage_notes": [
+    "Store in an airtight container at room temperature for up to 1 week.",
+    "Do not refrigerate as moisture will make the noodles soggy.",
+    "Place a paper towel in the container to absorb any excess oil and maintain crispness."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/shingaling-recipe/"

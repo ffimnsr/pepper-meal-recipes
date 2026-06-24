@@ -5,7 +5,7 @@
   "slug": "cheesy-chicken-afritada-recipe",
   "name": "Cheesy Chicken Afritada Recipe",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Cheesy Chicken Afritada",
+  "brief_description": "A Filipino chicken stew cooked in tomato sauce with potatoes, carrots, and bell peppers, topped with melted cheddar cheese",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -71,10 +71,12 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "Dairy"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -91,7 +93,7 @@
       "name": "baking potato",
       "normalized_name": "baking potato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 2
     },
@@ -100,7 +102,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 3
     },
@@ -109,24 +111,24 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 4
     },
     {
       "ingredient_id": "bbb001aa-57e2-5400-b607-791c84fccb9f",
-      "name": "shredded sharp cheddar cheese",
-      "normalized_name": "shredded sharp cheddar cheese",
+      "name": "sharp cheddar cheese",
+      "normalized_name": "sharp cheddar cheese",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 5
     },
     {
       "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
       "name": "tomato sauce",
       "normalized_name": "tomato sauce",
-      "quantity": "1 8",
+      "quantity": "8",
       "unit": "oz",
       "preparation": null,
       "position": 6
@@ -145,7 +147,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 8
     },

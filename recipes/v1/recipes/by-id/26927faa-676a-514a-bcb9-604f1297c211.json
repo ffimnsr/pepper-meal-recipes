@@ -4,13 +4,13 @@
   "id": "26927faa-676a-514a-bcb9-604f1297c211",
   "slug": "pickled-daikon-atcharang-labanos",
   "name": "Atcharang Labanos Recipe",
-  "recipe_type": null,
+  "recipe_type": "side",
   "brief_description": "This atcharang labanos recipe is easy to make. Atchara is a Filipino term that is used to describe Pickled vegetables such as daikon radish.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Slice the daikon crosswise as thin as possible.Use a mandolin slicer for better results."
+      "text": "Slice the daikon crosswise as thin as possible. Use a mandolin slicer for better results."
     },
     {
       "position": 2,
@@ -22,11 +22,11 @@
     },
     {
       "position": 4,
-      "text": "Arrange the daikon and onion in a pickling jar. Pour-in the vinegar mixture.Cover the jar and refrigerate for 3 days."
+      "text": "Arrange the daikon and onion in a pickling jar. Pour in the vinegar mixture. Cover the jar and refrigerate for 3 days."
     },
     {
       "position": 5,
-      "text": "Serve as side dish during lunch or dinner."
+      "text": "Serve as a side dish during lunch or dinner."
     },
     {
       "position": 6,
@@ -45,16 +45,25 @@
     "@type": "NutritionInformation",
     "servingSize": "12 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "vegan",
+    "vegetarian",
+    "gluten-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "mandolin slicer",
+    "colander",
+    "pickling jar",
+    "microwave"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d826586d-9db7-57b2-859f-df254b21fa72",
       "name": "daikon radish",
       "normalized_name": "daikon radish",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 1
     },
@@ -63,7 +72,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 2
     },
@@ -93,6 +102,15 @@
       "unit": "tablespoons",
       "preparation": null,
       "position": 5
+    },
+    {
+      "ingredient_id": "8a7b6c5d-4e3f-2a1b-9c8d-7e6f5a4b3c2d",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
     }
   ],
   "categories": [

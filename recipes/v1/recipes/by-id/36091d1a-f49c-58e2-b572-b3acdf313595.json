@@ -53,13 +53,13 @@
   "cooking_time_minutes": 7,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/36091d1a-f49c-58e2-b572-b3acdf313595/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "8 g",
+    "servingSize": "1 roll",
     "calories": "322 kcal",
     "carbohydrateContent": "18 g",
     "proteinContent": "10 g",
@@ -71,15 +71,24 @@
     "sugarContent": "3 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Wheat",
+    "Dairy",
+    "Eggs"
+  ],
+  "equipment": [
+    "Rolling pin",
+    "Cooking pot",
+    "Toothpicks",
+    "Zip lock bags"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d50c95dd-3422-587f-b155-cbfc6d2f9793",
-      "name": "slices bread",
-      "normalized_name": "slices bread",
+      "name": "bread",
+      "normalized_name": "bread",
       "quantity": "8",
-      "unit": null,
+      "unit": "slices",
       "preparation": null,
       "position": 1
     },
@@ -107,13 +116,13 @@
       "normalized_name": "pimento",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "cut into strips",
       "position": 4
     },
     {
       "ingredient_id": "c36587ff-543a-55ca-beb3-0e5ebcbdf6da",
-      "name": "panko bread crumb",
-      "normalized_name": "panko bread crumb",
+      "name": "panko bread crumbs",
+      "normalized_name": "panko bread crumbs",
       "quantity": "3/4",
       "unit": "cup",
       "preparation": null,

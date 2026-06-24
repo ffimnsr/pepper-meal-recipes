@@ -86,6 +86,16 @@ SINGULAR_UNIT_HINTS = (
     ("star anise", "piece"),
 )
 
+DIFFICULTY_ALIASES = {
+    "beginner": "easy",
+    "easy": "easy",
+    "intermediate": "medium",
+    "medium": "medium",
+    "advanced": "hard",
+    "hard": "hard",
+    "expert": "expert",
+}
+
 
 @dataclass
 class ResumeState:
@@ -390,6 +400,18 @@ def normalize_ingredient_metadata(ingredient: Any) -> tuple[Any, list[str]]:
     return ingredient, repairs
 
 
+def normalize_difficulty(value: Any) -> tuple[Any, str | None]:
+    text = clean_text(value).lower()
+    if not text:
+        return value, None
+
+    normalized = DIFFICULTY_ALIASES.get(text)
+    if normalized and normalized != value:
+        return normalized, f"normalized difficulty from '{value}' to '{normalized}'"
+
+    return value, None
+
+
 def normalize_improved_recipe(original: dict[str, Any], improved: dict[str, Any]) -> tuple[dict[str, Any], list[str]]:
     normalized = deepcopy(improved)
     repairs: list[str] = []
@@ -406,6 +428,12 @@ def normalize_improved_recipe(original: dict[str, Any], improved: dict[str, Any]
     if not is_named_object_list(normalized.get("tags")):
         normalized["tags"] = deepcopy(original.get("tags", []))
         repairs.append("restored tags because model returned an invalid shape")
+
+    if "difficulty" in normalized:
+        normalized_difficulty, difficulty_repair = normalize_difficulty(normalized.get("difficulty"))
+        if difficulty_repair and normalized_difficulty != normalized.get("difficulty"):
+            normalized["difficulty"] = normalized_difficulty
+            repairs.append(difficulty_repair)
 
     ingredients = normalized.get("ingredients")
     if isinstance(ingredients, list):
@@ -734,7 +762,7 @@ def main() -> None:
             wrote, _ = run_recipe(recipe_path, args, validator)
         except (Exception, SystemExit) as error:
             print(f"Failed to improve {recipe_path.name}: {error}")
-            if not prompt_yes_no("Try the next recipe instead?", default_no=True):
+            if not args.yes and not prompt_yes_no("Try the next recipe instead?", default_no=True):
                 save_state(args.state_file, state)
                 return
             state.reviewed_ids.append(recipe_id)

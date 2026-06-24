@@ -32,8 +32,8 @@
   "servings": 6,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 60,
-  "rest_time_minutes": null,
-  "difficulty": "hard",
+  "rest_time_minutes": 180,
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/23bb3fc8-3bdc-5e1d-b026-32f08b096fbf/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -50,8 +50,15 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "grill",
+    "bamboo skewers",
+    "mixing bowl",
+    "basting brush"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
@@ -77,7 +84,7 @@
       "normalized_name": "calamansi",
       "quantity": "4",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "juiced",
       "position": 3
     },
     {
@@ -140,7 +147,7 @@
       "normalized_name": "calamansi",
       "quantity": "1",
       "unit": "piece",
-      "preparation": null,
+      "preparation": "juiced",
       "position": 10
     },
     {

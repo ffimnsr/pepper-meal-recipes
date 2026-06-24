@@ -6,7 +6,7 @@
   "name": "Chocolate Chip Cookie Recipe",
   "recipe_type": "dessert",
   "brief_description": "This delicious Chocolate Chip Cookie Recipe has the right amount of flavor coupled by a perfect texture that will keep you coming back for more.",
-  "cuisine": null,
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
@@ -53,7 +53,7 @@
   "cooking_time_minutes": 10,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/333ccf5e-d349-51cc-acf0-052959f84000/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -61,9 +61,23 @@
     "@type": "NutritionInformation",
     "servingSize": "12 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "wheat",
+    "dairy",
+    "eggs",
+    "tree nuts"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric mixer",
+    "baking sheet",
+    "parchment paper",
+    "cooling rack",
+    "oven"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
@@ -76,11 +90,11 @@
     },
     {
       "ingredient_id": "4cadfa54-7c73-5755-9a01-b8c539936e08",
-      "name": "softened butter",
-      "normalized_name": "softened butter",
+      "name": "butter",
+      "normalized_name": "butter",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "softened",
       "position": 2
     },
     {
@@ -148,11 +162,11 @@
     },
     {
       "ingredient_id": "9031b43e-32c1-5e1d-9a81-d432a314c14e",
-      "name": "chopped walnut",
-      "normalized_name": "chopped walnut",
+      "name": "walnut",
+      "normalized_name": "walnut",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 10
     }
   ],
@@ -163,10 +177,32 @@
       "name": "Dessert"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "3f4c5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d",
+      "slug": "cookies",
+      "name": "Cookies"
+    },
+    {
+      "id": "4f5c6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d",
+      "slug": "chocolate",
+      "name": "Chocolate"
+    },
+    {
+      "id": "5f6c7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d",
+      "slug": "baking",
+      "name": "Baking"
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Cookies will continue to cook on the hot baking sheet after removal; do not overbake",
+    "For chewier cookies, slightly underbake and let cool completely on the baking sheet"
+  ],
+  "storage_notes": [
+    "Store in an airtight container at room temperature for up to 5 days",
+    "Cookie dough can be frozen for up to 3 months"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/chocolate-chip-cookie-recipe/"

@@ -4,13 +4,13 @@
   "id": "237e1547-fc78-507b-b685-26e510e3c70f",
   "slug": "oven-roasted-bbq-chicken-recipe",
   "name": "Oven Roasted BBQ Chicken Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Oven Roasted BBQ Chicken is something that I usually start to prepare on a Friday afternoon so that I can have extra time to marinate it overnight and prepare it for lunch on the weekend.",
   "cuisine": null,
   "instructions": [
     {
       "position": 1,
-      "text": "Prepare the marinade by combine soy sauce, oil, garlic powder. paprika, lemon, salt, and pepper in a bowl. Stir until all the ingredients are well blended."
+      "text": "Prepare the marinade by combining soy sauce, oil, garlic powder, paprika, lemon, salt, and pepper in a bowl. Stir until all the ingredients are well blended."
     },
     {
       "position": 2,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Top a baking tray with aluminum foil and geese it with 1 tablespoon of cooking oil or spray with a cooking oil spray. Arrange the chicken on top of the greased foil. Bake in the oven for 18 minutes."
+      "text": "Top a baking tray with aluminum foil and grease it with 1 tablespoon of cooking oil or spray with a cooking oil spray. Arrange the chicken on top of the greased foil. Bake in the oven for 18 minutes."
     },
     {
       "position": 5,
@@ -53,16 +53,25 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "oven",
+    "baking tray",
+    "resealable plastic bag",
+    "meat thermometer"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
       "name": "chicken",
       "normalized_name": "chicken",
       "quantity": "1",
-      "unit": null,
+      "unit": "whole",
       "preparation": "cut into quarters",
       "position": 1
     },
@@ -122,11 +131,11 @@
     },
     {
       "ingredient_id": "a6f246ed-2f32-5773-a1a2-0617f3d2e64a",
-      "name": "juice from 1 small lemon",
-      "normalized_name": "juice from 1 small lemon",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "small lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
       "position": 8
     },
     {
@@ -146,7 +155,23 @@
       "name": "Chicken"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "slug": "barbecue",
+      "name": "Barbecue"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "slug": "marinated",
+      "name": "Marinated"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "slug": "oven-roasted",
+      "name": "Oven Roasted"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

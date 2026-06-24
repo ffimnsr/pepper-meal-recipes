@@ -62,9 +62,24 @@
     "sugarContent": "154 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Eggs",
+    "Tree Nuts",
+    "Wheat",
+    "Gluten"
+  ],
+  "equipment": [
+    "Oven",
+    "Muffin tray",
+    "Muffin cups",
+    "Mixing bowls",
+    "Wire rack",
+    "Toothpick"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3a4393ef-eb78-5da8-aab8-bb1a1d39f98f",
@@ -158,10 +173,10 @@
     },
     {
       "ingredient_id": "72195e94-9a29-51bd-b8c2-d1cd76fdf391",
-      "name": "a pinch salt",
-      "normalized_name": "a pinch salt",
-      "quantity": null,
-      "unit": null,
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "pinch",
       "preparation": null,
       "position": 11
     }

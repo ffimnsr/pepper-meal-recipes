@@ -5,7 +5,7 @@
   "slug": "fried-eggplant-pritong-talong",
   "name": "Fried Eggplant (Pritong Talong)",
   "recipe_type": "side",
-  "brief_description": "This is a recipe for fried eggplant or pritong talong.",
+  "brief_description": "Classic Filipino fried eggplant dredged in flour and pan-fried until golden brown and tender, traditionally served with bagoong alamang (shrimp paste) and a soy sauce-chili dip.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -39,18 +39,26 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "gluten",
+    "shellfish"
+  ],
+  "equipment": [
+    "knife",
+    "cutting board",
+    "frying pan",
+    "plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "95564c4f-61e3-5cb4-9850-e4b754ae3e46",
       "name": "chinese eggplant",
       "normalized_name": "chinese eggplant",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 1
     },
@@ -96,8 +104,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Serve immediately while hot and crispy for best texture.",
+    "Adjust the amount of bagoong alamang according to your salt preference."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 2 days.",
+    "Reheat in a hot pan with a small amount of oil to restore crispiness."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/fried-eggplant-pritong-talong/"

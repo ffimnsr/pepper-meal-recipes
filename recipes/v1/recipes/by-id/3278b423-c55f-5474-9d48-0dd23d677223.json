@@ -4,9 +4,9 @@
   "id": "3278b423-c55f-5474-9d48-0dd23d677223",
   "slug": "how-to-make-meatloaf",
   "name": "How to Make Meatloaf",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "A quick tutorial on how to make meatloaf at home using a combination of ground beef and ground pork along with canned diced tomato and onions.",
-  "cuisine": null,
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
@@ -33,7 +33,7 @@
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://panlasangpinoy.com/wp-content/uploads/2016/01/How-to-Make-Meatloaf.jpg",
   "video_url": null,
   "additional_media": [],
@@ -42,8 +42,16 @@
     "servingSize": "5 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "gluten"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "loaf pan",
+    "meat thermometer"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
@@ -77,7 +85,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "beaten",
       "position": 4
     },
@@ -98,6 +106,33 @@
       "unit": "teaspoon",
       "preparation": null,
       "position": 6
+    },
+    {
+      "ingredient_id": "8f4e3b2a-1c2d-4e5f-9a0b-1c2d3e4f5a6b",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "9a5f4c3b-2d3e-4f5a-0b1c-2d3e4f5a6b7c",
+      "name": "canned diced tomatoes",
+      "normalized_name": "canned diced tomatoes",
+      "quantity": "1",
+      "unit": "can",
+      "preparation": "diced tomatoes",
+      "position": 8
+    },
+    {
+      "ingredient_id": "0b6a5d4c-3e4f-5a6b-1c2d-3e4f5a6b7c8d",
+      "name": "breadcrumbs",
+      "normalized_name": "breadcrumbs",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
     }
   ],
   "categories": [
@@ -105,9 +140,35 @@
       "id": "a633c421-786e-5d2c-84a7-8566354f99ca",
       "slug": "how-to-cook",
       "name": "How To Cook"
+    },
+    {
+      "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "slug": "main-dish",
+      "name": "Main Dish"
+    },
+    {
+      "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+      "slug": "dinner",
+      "name": "Dinner"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
+      "slug": "comfort-food",
+      "name": "Comfort Food"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

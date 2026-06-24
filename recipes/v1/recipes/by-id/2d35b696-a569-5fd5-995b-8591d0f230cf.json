@@ -6,7 +6,7 @@
   "name": "Nilagang Litid ng Baka",
   "recipe_type": "soup",
   "brief_description": "Nilagang Litid ng Baka or beef tendon soup is a Filipino soup dish composed of beef tendons, cabbage, and potato. This is a variation of nilaga",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -51,7 +51,13 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Soup pot",
+    "Knife",
+    "Cutting board",
+    "Ladle",
+    "Serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "da255f25-053e-5aa8-a11e-4de1f2203fb8",
@@ -67,7 +73,7 @@
       "name": "cabbage",
       "normalized_name": "cabbage",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "head",
       "preparation": "core removed and quartered",
       "position": 2
     },
@@ -85,7 +91,7 @@
       "name": "potato",
       "normalized_name": "potato",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "peeled and quartered",
       "position": 4
     },
@@ -94,7 +100,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "wedged",
       "position": 5
     },

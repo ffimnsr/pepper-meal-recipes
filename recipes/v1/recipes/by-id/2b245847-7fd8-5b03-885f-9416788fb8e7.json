@@ -3,34 +3,34 @@
   "schema_version": 1,
   "id": "2b245847-7fd8-5b03-885f-9416788fb8e7",
   "slug": "sinigang-na-lapu-lapu-sa-miso",
-  "name": "Sinigang na Lapu lapu sa Miso",
+  "name": "Sinigang na Lapu-Lapu sa Miso",
   "recipe_type": "soup",
-  "brief_description": "Sinigang na Lapu lapu sa Miso is a Filipino sour fish soup dish. This recipe makes use of grouper along with tamarind, radish, okra, and mustard leaves",
-  "cuisine": null,
+  "brief_description": "Sinigang na Lapu-Lapu sa Miso is a Filipino sour fish soup dish. This recipe makes use of grouper along with tamarind, radish, okra, and mustard leaves.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Boil water in a cooking pot. Add the tamarind.Cover and continue to boil in medium heat for 40 minutes. Let it cool down."
+      "text": "Boil water in a cooking pot. Add the tamarind. Cover and continue to boil over medium heat for 40 minutes. Let cool."
     },
     {
       "position": 2,
-      "text": "Using a sieve, strain the boiled tamarind towards a clean cooking pot."
+      "text": "Using a sieve, strain the boiled tamarind into a clean cooking pot."
     },
     {
       "position": 3,
-      "text": "Boil the liquid and then add tomato, onion and miso. Cover and cook for 15 minutes."
+      "text": "Boil the liquid and then add tomato, onion, and miso. Cover and cook for 15 minutes."
     },
     {
       "position": 4,
-      "text": "Add the fish, daikon radish, okra, and peppers. Cover and cook for 12 to 15 minutes in low to medium heat."
+      "text": "Add the fish, daikon radish, okra, and peppers. Cover and cook for 12 to 15 minutes over low to medium heat."
     },
     {
       "position": 5,
-      "text": "Pour-in the fish sauce. Stir."
+      "text": "Pour in the fish sauce. Stir."
     },
     {
       "position": 6,
-      "text": "Add the mustard leaves.Cover and cook for 3 to 5 minutes."
+      "text": "Add the mustard leaves. Cover and cook for 3 to 5 minutes."
     },
     {
       "position": 7,
@@ -54,8 +54,13 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "cooking pot",
+    "sieve"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7abb9d21-ec04-5069-ad86-9b9b0a83ea49",
@@ -89,7 +94,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 4
     },
@@ -107,7 +112,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "wedged",
       "position": 6
     },
@@ -116,7 +121,7 @@
       "name": "long green pepper",
       "normalized_name": "long green pepper",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 7
     },

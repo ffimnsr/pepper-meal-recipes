@@ -6,7 +6,7 @@
   "name": "Crema de Fruta Recipe",
   "recipe_type": "dessert",
   "brief_description": "Crema de Fruta is a rich and flavorful cake made up of fruits, custard, and gelatin. This recipe is the best that you can find in the internet.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -50,7 +50,7 @@
     },
     {
       "position": 11,
-      "text": "Pour the simple syrup on top of the sponge cake and thens spread. (I spread the syrup using a brush)"
+      "text": "Pour the simple syrup on top of the sponge cake and then spread. (I spread the syrup using a brush)"
     },
     {
       "position": 12,
@@ -114,8 +114,19 @@
     "servingSize": "8 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "flour sifter",
+    "mixing bowl",
+    "saucepan",
+    "baking pan",
+    "oven",
+    "refrigerator"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a41022c4-6f22-5e6c-9a47-2bf8db00a3e3",
@@ -155,10 +166,10 @@
     },
     {
       "ingredient_id": "bd1b03b9-d4a7-5370-8a74-bd14db3e44a9",
-      "name": "big can fruit cocktail",
-      "normalized_name": "big can fruit cocktail",
+      "name": "fruit cocktail",
+      "normalized_name": "fruit cocktail",
       "quantity": "1",
-      "unit": null,
+      "unit": "can",
       "preparation": null,
       "position": 5
     },

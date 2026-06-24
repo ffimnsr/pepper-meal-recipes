@@ -5,7 +5,7 @@
   "slug": "roasted-garlic-parmesan-red-potato-recipe",
   "name": "Roasted Garlic Parmesan Red Potato",
   "recipe_type": "side",
-  "brief_description": "This is a recipe for roasted potato.",
+  "brief_description": "Tender red potatoes roasted with garlic, butter, and parmesan cheese until crispy and golden. A flavorful side dish that pairs perfectly with chicken or pork.",
   "cuisine": null,
   "instructions": [
     {
@@ -54,9 +54,17 @@
     "sugarContent": "2 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Dairy"
+  ],
+  "equipment": [
+    "Oven",
+    "Baking dish",
+    "Mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "67335e7f-bd74-5f2a-8ba6-43b84c777304",
@@ -69,11 +77,11 @@
     },
     {
       "ingredient_id": "7ffae094-22fb-5138-996e-50c9a2185fae",
-      "name": "melted unsalted butter",
-      "normalized_name": "melted unsalted butter",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "melted",
       "position": 2
     },
     {
@@ -87,20 +95,20 @@
     },
     {
       "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
-      "name": "grated parmesan cheese",
-      "normalized_name": "grated parmesan cheese",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "grated",
       "position": 4
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 5
     },
     {
@@ -118,16 +126,16 @@
       "normalized_name": "lemon",
       "quantity": "1",
       "unit": "piece",
-      "preparation": null,
+      "preparation": "juiced",
       "position": 7
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": "ground",
       "position": 8
     }
   ],

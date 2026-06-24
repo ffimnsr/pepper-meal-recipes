@@ -4,8 +4,8 @@
   "id": "27708ff9-1f80-574c-84af-6d495235b61b",
   "slug": "sweet-and-sour-red-snapper",
   "name": "Sweet and Sour Red Snapper",
-  "recipe_type": "dessert",
-  "brief_description": "This is a recipe for sweet and sour red snapper",
+  "recipe_type": "main",
+  "brief_description": "Crispy fried red snapper topped with a vibrant sweet and sour sauce featuring pineapple juice, bell peppers, and onions. A Filipino classic that balances tangy and sweet flavors.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -51,19 +51,28 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "2"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "frying pan",
+    "mixing bowl",
+    "serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d8ce0fc7-3ac9-5323-aad5-e91dba78c160",
-      "name": "sized red snapper",
-      "normalized_name": "sized red snapper",
-      "quantity": "1 to",
-      "unit": null,
-      "preparation": "scales and entrails removed",
+      "name": "red snapper",
+      "normalized_name": "red snapper",
+      "quantity": "1 to 2",
+      "unit": "pounds",
+      "preparation": "medium-sized, scales and entrails removed",
       "position": 1
     },
     {
@@ -107,7 +116,7 @@
       "name": "green bell pepper",
       "normalized_name": "green bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 6
     },
@@ -116,7 +125,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 7
     },
@@ -125,7 +134,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 8
     },
@@ -158,11 +167,11 @@
     },
     {
       "ingredient_id": "422bf946-65c2-5f88-94eb-2eef2f419527",
-      "name": "cornstarch diluted in 1/4 cup water",
-      "normalized_name": "cornstarch diluted in 1/4 cup water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "3",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "diluted in 1/4 cup water",
       "position": 12
     }
   ],

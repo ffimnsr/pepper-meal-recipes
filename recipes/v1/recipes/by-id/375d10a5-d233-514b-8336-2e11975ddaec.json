@@ -53,16 +53,25 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "meat thermometer",
+    "resealable bag",
+    "bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "9ad46e19-0e2b-506a-8d1a-83ff3667915a",
       "name": "boneless skinless chicken breast",
       "normalized_name": "boneless skinless chicken breast",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 1
     },

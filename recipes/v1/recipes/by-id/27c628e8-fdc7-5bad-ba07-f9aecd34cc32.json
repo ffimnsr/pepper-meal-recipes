@@ -4,9 +4,9 @@
   "id": "27c628e8-fdc7-5bad-ba07-f9aecd34cc32",
   "slug": "chicken-giniling-with-green-peas",
   "name": "Chicken Giniling with Green Peas",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Chicken Giniling with Green Peas is a Filipino stew that makes use of ground chicken meat. This dish is usually made using ground pork",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -53,32 +53,34 @@
   "cooking_time_minutes": 50,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/27c628e8-fdc7-5bad-ba07-f9aecd34cc32/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f0464817-6351-5fe4-b463-fe603c5e064d",
-      "name": "ground chicken",
-      "normalized_name": "ground chicken",
+      "name": "chicken",
+      "normalized_name": "chicken",
       "quantity": "2",
       "unit": "lbs",
-      "preparation": null,
+      "preparation": "ground",
       "position": 1
     },
     {
       "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
       "name": "tomato sauce",
       "normalized_name": "tomato sauce",
-      "quantity": "1 15",
+      "quantity": "15",
       "unit": "oz",
       "preparation": null,
       "position": 2
@@ -88,7 +90,7 @@
       "name": "potato",
       "normalized_name": "potato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cut into small cubes",
       "position": 3
     },
@@ -97,7 +99,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cut into small cubes",
       "position": 4
     },
@@ -115,17 +117,17 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 6
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 7
     },
     {

@@ -5,8 +5,8 @@
   "slug": "how-to-make-suchi-california-roll-recipe-video",
   "name": "California Roll",
   "recipe_type": "side",
-  "brief_description": "California Roll or California Maki is a sushi roll that is made inside out. Crabstick, avocado, and cucumber are placed in the center of the nori",
-  "cuisine": null,
+  "brief_description": "California Roll or California Maki is a sushi roll that is made inside out. Crabstick, avocado, and cucumber are placed in the center of the nori, then rolled with seasoned sushi rice and topped with sesame seeds.",
+  "cuisine": "Japanese",
   "instructions": [
     {
       "position": 1,
@@ -79,27 +79,37 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "6 pieces"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Fish",
+    "Sesame",
+    "Soy"
+  ],
+  "equipment": [
+    "Bamboo mat",
+    "Plastic wrap",
+    "Sharp knife",
+    "Microwave",
+    "Small bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "6bcf1c23-cef5-51e8-a8e6-7606dcbde322",
-      "name": "sized avocado",
-      "normalized_name": "sized avocado",
+      "name": "avocado",
+      "normalized_name": "avocado",
       "quantity": "1",
-      "unit": null,
-      "preparation": "peeled and sliced into 1/4 inch thick pieces",
+      "unit": "piece",
+      "preparation": "medium, peeled and sliced into 1/4 inch thick pieces",
       "position": 1
     },
     {
       "ingredient_id": "6edcc3c5-baa7-55be-a60a-02cc119f9163",
-      "name": "sheets sushinori",
-      "normalized_name": "sheets sushinori",
+      "name": "sushinori",
+      "normalized_name": "sushinori",
       "quantity": "4",
-      "unit": null,
+      "unit": "sheets",
       "preparation": null,
       "position": 2
     },
@@ -117,8 +127,8 @@
       "name": "cucumber",
       "normalized_name": "cucumber",
       "quantity": "1",
-      "unit": null,
-      "preparation": "seeded and sliced in 1/8 inch thick pieces peeled",
+      "unit": "piece",
+      "preparation": "peeled, seeded, and sliced into 1/8 inch thick pieces",
       "position": 4
     },
     {

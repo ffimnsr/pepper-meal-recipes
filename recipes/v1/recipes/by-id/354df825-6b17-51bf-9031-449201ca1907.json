@@ -71,8 +71,17 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "dairy"
+  ],
+  "equipment": [
+    "cooking pot",
+    "frying pan",
+    "plate",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "89009c1c-76a6-5143-8d75-494309a66aa0",
@@ -199,6 +208,24 @@
       "unit": "cloves",
       "preparation": "chopped",
       "position": 14
+    },
+    {
+      "ingredient_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "potato",
+      "normalized_name": "potato",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 15
+    },
+    {
+      "ingredient_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 16
     }
   ],
   "categories": [

@@ -30,7 +30,7 @@
     },
     {
       "position": 6,
-      "text": "Make the salad dressing by combining Lady\u2019s Choice Mayonnaise, pickle relish, onion powder, ground black pepper, sugar, and salt in a bowl. Mix well."
+      "text": "Make the salad dressing by combining Lady's Choice Mayonnaise, pickle relish, onion powder, ground black pepper, sugar, and salt in a bowl. Mix well."
     },
     {
       "position": 7,
@@ -63,8 +63,16 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "egg",
+    "milk"
+  ],
+  "equipment": [
+    "pot",
+    "mixing bowl",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "72e78ee1-743c-5e32-a2bf-40a7081015af",
@@ -77,8 +85,8 @@
     },
     {
       "ingredient_id": "7402d10f-ce7d-5e88-82dc-9d8f54fcdf4a",
-      "name": "ladys choice mayonnaise",
-      "normalized_name": "ladys choice mayonnaise",
+      "name": "Lady's Choice mayonnaise",
+      "normalized_name": "mayonnaise",
       "quantity": "1 1/4",
       "unit": "cups",
       "preparation": null,
@@ -104,8 +112,8 @@
     },
     {
       "ingredient_id": "f94c5c90-99b0-5664-93d9-ff20d5b9fdab",
-      "name": "green pea",
-      "normalized_name": "green pea",
+      "name": "green peas",
+      "normalized_name": "green peas",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -132,7 +140,7 @@
     {
       "ingredient_id": "0434be6a-5c10-58c5-8b40-7239921d3b3e",
       "name": "sharp cheddar cheese",
-      "normalized_name": "sharp cheddar cheese",
+      "normalized_name": "cheddar cheese",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": "shredded",
@@ -160,8 +168,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "to taste",
+      "unit": "piece",
       "preparation": null,
       "position": 11
     }
@@ -179,12 +187,6 @@
     }
   ],
   "tags": [
-    {
-      "id": "9c417ebe-cb49-5f2d-bbf4-ee9f1bdfb652",
-      "slug": "bacon-and-egg-salad",
-      "name": "bacon and egg salad",
-      "color": null
-    },
     {
       "id": "41e06193-a7b3-5b61-b712-47867309a321",
       "slug": "chicken-salad",

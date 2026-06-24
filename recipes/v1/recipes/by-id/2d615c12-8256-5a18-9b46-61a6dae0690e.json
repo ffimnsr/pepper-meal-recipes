@@ -4,8 +4,8 @@
   "id": "2d615c12-8256-5a18-9b46-61a6dae0690e",
   "slug": "mung-bean-sprouts-with-shrimp",
   "name": "Mung Bean Sprouts with Shrimp",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Mung Bean Sprouts with Shrimp",
+  "recipe_type": "main",
+  "brief_description": "A quick and healthy Filipino stir-fry featuring crisp mung bean sprouts, succulent shrimp, and fresh vegetables. Perfect for a light lunch or dinner.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -55,11 +55,20 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "frying pan",
+    "spatula",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "25bc1591-b06c-56b1-af4c-7caa1b454f66",
@@ -84,26 +93,26 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 3
     },
     {
       "ingredient_id": "4abbb631-0ee9-5952-9b0f-4aaae7016725",
-      "name": "shredded cabbage",
-      "normalized_name": "shredded cabbage",
+      "name": "cabbage",
+      "normalized_name": "cabbage",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 4
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 5
     },
     {
@@ -138,7 +147,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 9
     },

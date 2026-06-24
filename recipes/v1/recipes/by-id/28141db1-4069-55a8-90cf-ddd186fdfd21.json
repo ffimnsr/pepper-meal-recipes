@@ -5,60 +5,70 @@
   "slug": "grilled-swiss-cheese-sandwich",
   "name": "Grilled Swiss Cheese Sandwich",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Grilled Swiss Cheese Sandwich",
-  "cuisine": null,
+  "brief_description": "Classic grilled cheese sandwich featuring nutty Swiss cheese melted between buttery, crispy whole grain bread slices. Quick and comforting.",
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
-      "text": "Heat a grill pan or skillet."
+      "text": "Heat a grill pan or non-stick skillet over medium-low heat."
     },
     {
       "position": 2,
-      "text": "Spread some butter on one side of the sliced bread. Place the buttered side directly on the skillet."
+      "text": "Spread butter evenly on one side of each bread slice. Place one slice buttered-side down in the skillet."
     },
     {
       "position": 3,
-      "text": "Put one Swiss cheese slice over the bread."
+      "text": "Place Swiss cheese slices evenly over the bread in the pan."
     },
     {
       "position": 4,
-      "text": "Butter the second sliced bread. Arrange the bread on top of the cheese (buttered side on top)."
+      "text": "Top with the remaining bread slice, buttered-side up."
     },
     {
       "position": 5,
-      "text": "Flip the bread once the first side browns. Let the other side brown."
+      "text": "Cook until the bottom is golden brown, about 2-3 minutes. Flip carefully with a spatula and cook until the other side is crispy and the cheese is fully melted."
     },
     {
       "position": 6,
-      "text": "Transfer to a serving plate. Serve."
+      "text": "Transfer to a serving plate and let cool for 1 minute before cutting diagonally if desired."
     },
     {
       "position": 7,
-      "text": "Share and enjoy!"
+      "text": "Serve immediately while warm and crispy."
     }
   ],
   "servings": 2,
   "cooking_time_minutes": 5,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "medium",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/28141db1-4069-55a8-90cf-ddd186fdfd21/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 sandwich"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Dairy",
+    "Gluten",
+    "Wheat"
+  ],
+  "equipment": [
+    "Grill pan or skillet",
+    "Spatula",
+    "Butter knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "68f8c6c8-45e1-5c09-9572-586fbe577e58",
-      "name": "slices whole grain bread",
-      "normalized_name": "slices whole grain bread",
+      "name": "whole grain bread",
+      "normalized_name": "whole grain bread",
       "quantity": "4",
-      "unit": null,
+      "unit": "slice",
       "preparation": null,
       "position": 1
     },
@@ -73,10 +83,10 @@
     },
     {
       "ingredient_id": "aa55292e-a279-5cd4-a639-3243c7f5331d",
-      "name": "slices swiss cheese",
-      "normalized_name": "slices swiss cheese",
+      "name": "swiss cheese",
+      "normalized_name": "swiss cheese",
       "quantity": "2",
-      "unit": null,
+      "unit": "slice",
       "preparation": null,
       "position": 3
     }
@@ -90,8 +100,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Cook over medium-low heat to prevent the bread from burning while allowing the cheese to melt completely",
+    "If the cheese is not melting, cover the pan briefly for 30 seconds to trap heat",
+    "For extra flavor, try adding a pinch of garlic powder to the butter before spreading"
+  ],
+  "storage_notes": [
+    "Best served immediately while hot and crispy",
+    "Not recommended for storage as the bread will become soggy upon cooling"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/grilled-swiss-cheese-sandwich/"

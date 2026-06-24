@@ -4,9 +4,9 @@
   "id": "2bb3a269-6a90-5700-b173-7d54511f73a4",
   "slug": "rib-eye-steak-with-potatoes-recipe",
   "name": "Rib Eye Steak with Grilled Potato",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Rib Eye Steak with Grilled Potato is perfect for dinner along with a glass of red wine. Like any other steak dish, it is important to not overcook the steak",
-  "cuisine": null,
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
@@ -44,18 +44,22 @@
   "servings": 2,
   "cooking_time_minutes": 24,
   "preparation_time_minutes": 5,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 10,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2bb3a269-6a90-5700-b173-7d54511f73a4/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "grill",
+    "mixing bowl",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "9093fab8-102b-5170-abaf-8bab0704d475",
@@ -97,8 +101,8 @@
       "ingredient_id": "469dcc05-be69-51ec-bc9c-16f1129ea6b0",
       "name": "cayenne pepper powder",
       "normalized_name": "cayenne pepper powder",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 5
     },
@@ -128,9 +132,28 @@
       "name": "Beef"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "slug": "grilling",
+      "name": "Grilling"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+      "slug": "steak",
+      "name": "Steak"
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
+  "recipe_notes": [
+    "Let the steak rest for 10 minutes after grilling to allow juices to redistribute",
+    "Use a meat thermometer for best results: 130\u00b0F for medium-rare, 140\u00b0F for medium"
+  ],
   "storage_notes": [],
   "source": {
     "name": "Panlasang Pinoy",

@@ -5,7 +5,7 @@
   "slug": "chewy-coconut-macaroons-recipe",
   "name": "Chewy Coconut Macaroons Recipe",
   "recipe_type": "dessert",
-  "brief_description": "This is a recipe for Chewy Coconut Macaroons",
+  "brief_description": "Chewy, sweet coconut macaroons made with condensed milk and desiccated coconut, baked in mini cups for a delightful dessert.",
   "cuisine": null,
   "instructions": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Add the desiccated coconut and salt. Fold until the mixture is distributed."
+      "text": "Add the desiccated coconut and salt. Fold until evenly combined."
     },
     {
       "position": 4,
@@ -38,7 +38,7 @@
     },
     {
       "position": 8,
-      "text": "Share and enjoy"
+      "text": "Share and enjoy."
     }
   ],
   "servings": 5,
@@ -53,17 +53,30 @@
     "@type": "NutritionInformation",
     "servingSize": "5 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "vegetarian"
+  ],
+  "allergens": [
+    "egg",
+    "milk",
+    "tree nuts"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "whisk",
+    "mini muffin pan",
+    "mini baking cups"
+  ],
   "ingredients": [
     {
       "ingredient_id": "c8293aa6-2e4e-501a-b273-81cbe7adf846",
-      "name": "shredded sweetened desiccated coconut",
-      "normalized_name": "shredded sweetened desiccated coconut",
+      "name": "sweetened desiccated coconut",
+      "normalized_name": "sweetened desiccated coconut",
       "quantity": "7",
       "unit": "ounces",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 1
     },
     {
@@ -71,7 +84,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 2
     },
@@ -121,8 +134,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Do not overbake to keep the macaroons chewy."
+  ],
+  "storage_notes": [
+    "Store in an airtight container at room temperature for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/chewy-coconut-macaroons-recipe/"

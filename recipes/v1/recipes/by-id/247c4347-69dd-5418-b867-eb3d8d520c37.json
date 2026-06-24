@@ -10,7 +10,7 @@
   "instructions": [
     {
       "position": 1,
-      "text": "Combine chicken breast, onion.and 2 quarts water. Let the water boil."
+      "text": "Combine chicken breast, onion and 2 quarts water. Let the water boil."
     },
     {
       "position": 2,
@@ -34,7 +34,7 @@
     }
   ],
   "servings": 4,
-  "cooking_time_minutes": null,
+  "cooking_time_minutes": 45,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
   "difficulty": "medium",
@@ -56,7 +56,13 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Large pot",
+    "Small pan",
+    "Kitchen sieve",
+    "Small pot",
+    "Serving bowls"
+  ],
   "ingredients": [
     {
       "ingredient_id": "72e78ee1-743c-5e32-a2bf-40a7081015af",
@@ -99,7 +105,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "boiled",
       "position": 5
     },
@@ -135,16 +141,16 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "1",
-      "unit": null,
+      "unit": "head",
       "preparation": "crushed",
       "position": 9
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water",
-      "normalized_name": "quarts water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "2",
-      "unit": null,
+      "unit": "quarts",
       "preparation": null,
       "position": 10
     },
@@ -168,11 +174,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
       "unit": null,
-      "preparation": null,
+      "preparation": "ground",
       "position": 13
     }
   ],

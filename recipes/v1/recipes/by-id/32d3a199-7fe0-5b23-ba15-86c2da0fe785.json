@@ -38,7 +38,7 @@
     },
     {
       "position": 8,
-      "text": "Meanwhile, make the fresh lumpia wrapper by beating the eggs in a large bowl. Pour oil and water. Whisk until all ingrediests are blended."
+      "text": "Meanwhile, make the fresh lumpia wrapper by beating the eggs in a large bowl. Pour oil and water. Whisk until all ingredients are blended."
     },
     {
       "position": 9,
@@ -94,9 +94,25 @@
     "fiberContent": "4 g",
     "sugarContent": "13 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Peanuts",
+    "Eggs",
+    "Gluten",
+    "Soy",
+    "Fish"
+  ],
+  "equipment": [
+    "Wok or large pan",
+    "Mixing bowl",
+    "Whisk",
+    "Non-stick pan",
+    "Saucepan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "32902551-8b00-5e1a-b128-cf1bca8dd1d6",
@@ -109,20 +125,20 @@
     },
     {
       "ingredient_id": "ca5ff268-dfc8-5c9c-8c03-df8a0396b9fe",
-      "name": "crushed peanut",
-      "normalized_name": "crushed peanut",
+      "name": "peanuts",
+      "normalized_name": "peanuts",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 2
     },
     {
       "ingredient_id": "db282765-0020-5cdc-ac46-b19e817b970b",
-      "name": "chopped parsley",
-      "normalized_name": "chopped parsley",
+      "name": "parsley",
+      "normalized_name": "parsley",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 3
     },
     {
@@ -157,7 +173,7 @@
       "name": "cabbage",
       "normalized_name": "cabbage",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "head",
       "preparation": "chopped",
       "position": 7
     },

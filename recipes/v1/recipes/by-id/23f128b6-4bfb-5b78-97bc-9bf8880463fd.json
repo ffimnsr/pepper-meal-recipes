@@ -5,8 +5,8 @@
   "slug": "pork-siomai-and-nido-oriental-style-soup",
   "name": "Pork Siomai and Nido Oriental Style Soup",
   "recipe_type": "soup",
-  "brief_description": "This is a recipe for Pork Siomai and Nido Oriental Style Soup.",
-  "cuisine": null,
+  "brief_description": "Filipino-style steamed pork dumplings (siomai) served with a thick egg drop soup (Nido style). A comforting combination of savory dumplings and rich oriental soup.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -58,8 +58,19 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Eggs",
+    "Pork",
+    "Sesame",
+    "Wheat"
+  ],
+  "equipment": [
+    "Steamer",
+    "Mixing bowl",
+    "Spatula",
+    "Soup pot",
+    "Cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
@@ -75,7 +86,7 @@
       "name": "knorr pork cube",
       "normalized_name": "knorr pork cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 2
     },
@@ -84,7 +95,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 3
     },
@@ -93,17 +104,17 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 4
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 5
     },
     {
@@ -111,7 +122,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 6
     },
@@ -137,8 +148,8 @@
       "ingredient_id": "e38cd144-f0b8-5729-b591-a7f0cccefe7a",
       "name": "knorr real chinese soup",
       "normalized_name": "knorr real chinese soup",
-      "quantity": "1 40",
-      "unit": "g",
+      "quantity": "1",
+      "unit": "packet",
       "preparation": null,
       "position": 9
     },
@@ -156,7 +167,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 11
     }

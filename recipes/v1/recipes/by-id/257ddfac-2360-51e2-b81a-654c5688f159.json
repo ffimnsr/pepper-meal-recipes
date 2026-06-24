@@ -4,9 +4,9 @@
   "id": "257ddfac-2360-51e2-b81a-654c5688f159",
   "slug": "filipino-street-food-inihaw-bituka-grilled-isaw-recipe",
   "name": "Grilled Isaw (Intestine) Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Grilled Isaw or Inihaw na Bituka ng Baboy is pig's large intestine boiled until tender then grilled. This is probably the most sought and most popular street food in the Philippines.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -44,23 +44,31 @@
   "servings": 4,
   "cooking_time_minutes": 40,
   "preparation_time_minutes": 20,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 10,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/257ddfac-2360-51e2-b81a-654c5688f159/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "4 servings"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "grill",
+    "skewers",
+    "cooking pot",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3a925309-4ed9-55ee-90e3-b851d0a40583",
-      "name": "pigs large intestine",
-      "normalized_name": "pigs large intestine",
+      "name": "pig's large intestine",
+      "normalized_name": "pig large intestine",
       "quantity": "1",
       "unit": "lb",
       "preparation": "well cleaned",
@@ -77,8 +85,8 @@
     },
     {
       "ingredient_id": "ff9afa2b-ef74-55b7-8c3d-a08fc4b89fc7",
-      "name": "pepper corn",
-      "normalized_name": "pepper corn",
+      "name": "whole peppercorns",
+      "normalized_name": "whole peppercorns",
       "quantity": "2",
       "unit": "tbsp",
       "preparation": null,
@@ -95,8 +103,8 @@
     },
     {
       "ingredient_id": "c6f41004-9471-56a4-b6ab-f3572dc95e32",
-      "name": "dried bay leaf",
-      "normalized_name": "dried bay leaf",
+      "name": "dried bay leaves",
+      "normalized_name": "bay leaves",
       "quantity": "4 to 6",
       "unit": "pieces",
       "preparation": null,
@@ -110,6 +118,51 @@
       "unit": "cups",
       "preparation": null,
       "position": 6
+    },
+    {
+      "ingredient_id": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "3",
+      "unit": "tbsp",
+      "preparation": "for basting",
+      "position": 7
+    },
+    {
+      "ingredient_id": "8f14e45f-ceea-4f18-b56e-1e7f7e9c8a8b",
+      "name": "banana catsup",
+      "normalized_name": "banana ketchup",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": "for basting",
+      "position": 8
+    },
+    {
+      "ingredient_id": "550e8400-e29b-41d4-a716-446655440000",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tbsp",
+      "preparation": "for basting",
+      "position": 9
+    },
+    {
+      "ingredient_id": "67890abc-1234-5678-9abc-def012345678",
+      "name": "chili peppers",
+      "normalized_name": "chili peppers",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "for dipping",
+      "position": 10
+    },
+    {
+      "ingredient_id": "7890abcd-1234-5678-9abc-def012345678",
+      "name": "vinegar",
+      "normalized_name": "vinegar",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": "for dipping",
+      "position": 11
     }
   ],
   "categories": [
@@ -121,7 +174,10 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
+  "recipe_notes": [
+    "Ensure intestines are thoroughly cleaned and turned inside out before cooking.",
+    "Soaking intestines in vinegar and salt water helps remove odor and impurities."
+  ],
   "storage_notes": [],
   "source": {
     "name": "Panlasang Pinoy",

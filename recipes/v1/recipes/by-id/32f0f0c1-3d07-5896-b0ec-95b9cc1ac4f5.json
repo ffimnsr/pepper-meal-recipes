@@ -4,9 +4,9 @@
   "id": "32f0f0c1-3d07-5896-b0ec-95b9cc1ac4f5",
   "slug": "billys-bbq-chicken-recipe",
   "name": "Billy's BBQ Chicken Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "An easy BBQ Chicken Recipe that anyone can prepare. Get that chicken and corn grilling and enjoy the food!",
-  "cuisine": null,
+  "cuisine": "american",
   "instructions": [
     {
       "position": 1,
@@ -40,12 +40,16 @@
   "nutritional_information": null,
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "grill",
+    "meat thermometer",
+    "basting brush"
+  ],
   "ingredients": [
     {
       "ingredient_id": "4ea008fb-917f-535b-9806-72585e350144",
-      "name": "chicken that are",
-      "normalized_name": "chicken that are",
+      "name": "chicken",
+      "normalized_name": "chicken",
       "quantity": "3",
       "unit": "pounds",
       "preparation": "cut in serving pieces",
@@ -71,10 +75,10 @@
     },
     {
       "ingredient_id": "2a7bb02a-eb56-599b-a076-8bd10db6d172",
-      "name": "half cup canola oil",
-      "normalized_name": "half cup canola oil",
-      "quantity": null,
-      "unit": null,
+      "name": "canola oil",
+      "normalized_name": "canola oil",
+      "quantity": "1/2",
+      "unit": "cup",
       "preparation": null,
       "position": 4
     }

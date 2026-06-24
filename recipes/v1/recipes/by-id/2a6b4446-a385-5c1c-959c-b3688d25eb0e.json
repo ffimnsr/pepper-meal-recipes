@@ -65,8 +65,16 @@
     "unsaturatedFatContent": "11 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Eggs",
+    "Dairy",
+    "Gluten"
+  ],
+  "equipment": [
+    "Mixing bowl",
+    "Steamer",
+    "Aluminum foil"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f0464817-6351-5fe4-b463-fe603c5e064d",
@@ -82,7 +90,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 2
     },
@@ -91,7 +99,7 @@
       "name": "green bell pepper",
       "normalized_name": "green bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 3
     },
@@ -100,7 +108,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 4
     },
@@ -109,7 +117,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 5
     },

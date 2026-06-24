@@ -5,8 +5,8 @@
   "slug": "beer-brats-recipe",
   "name": "Beer Brats Recipe",
   "recipe_type": "main",
-  "brief_description": "This is a recipe for beer bratwurst. It is tasty and easy to make.",
-  "cuisine": null,
+  "brief_description": "Juicy bratwurst simmered in beer with onions, butter, and spices, then grilled to perfection and served in warm buns topped with caramelized onions.",
+  "cuisine": "german-american",
   "instructions": [
     {
       "position": 1,
@@ -56,8 +56,15 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "gluten",
+    "dairy"
+  ],
+  "equipment": [
+    "grill",
+    "large pot",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "276ea08f-92df-591d-8777-8ccb1124697b",
@@ -174,8 +181,16 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Use a lager or pilsner beer for best results. Dark beers can be used for a richer flavor.",
+    "Tabasco sauce can be added to the beer mixture for extra heat, or served on the side.",
+    "Serve with mustard, sauerkraut, or pickled peppers if desired."
+  ],
+  "storage_notes": [
+    "Refrigerate cooked bratwurst in an airtight container for up to 3 days.",
+    "Reheat on the grill or in a skillet over medium heat until warmed through.",
+    "Cooked bratwurst can be frozen for up to 2 months; thaw overnight in the refrigerator before reheating."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/beer-brats-recipe/"

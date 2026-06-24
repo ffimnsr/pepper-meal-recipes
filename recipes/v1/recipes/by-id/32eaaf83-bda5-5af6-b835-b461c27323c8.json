@@ -4,13 +4,13 @@
   "id": "32eaaf83-bda5-5af6-b835-b461c27323c8",
   "slug": "apple-pork-pot-roast",
   "name": "Apple Pork Pot Roast",
-  "recipe_type": "side",
+  "recipe_type": "main",
   "brief_description": "Apple Pork Pot Roast can be considered as a comfort food. It is delicious and full of flavor. This is best served for lunch or dinner along with bread and butter, mashed potatoes, or rice.",
   "cuisine": null,
   "instructions": [
     {
       "position": 1,
-      "text": "Rub salt and pepper all over the pork roast. Let is stay for 20 minutes."
+      "text": "Rub salt and pepper all over the pork roast. Let it stay for 20 minutes."
     },
     {
       "position": 2,
@@ -52,18 +52,21 @@
   "servings": 6,
   "cooking_time_minutes": 180,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 20,
   "difficulty": "expert",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/32eaaf83-bda5-5af6-b835-b461c27323c8/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Dutch oven",
+    "Oven"
+  ],
   "ingredients": [
     {
       "ingredient_id": "e6148900-fcae-5b7a-b7ac-6ebbecb19946",
@@ -97,7 +100,7 @@
       "name": "apple",
       "normalized_name": "apple",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cored and chopped",
       "position": 4
     },
@@ -106,7 +109,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "chopped",
       "position": 5
     },

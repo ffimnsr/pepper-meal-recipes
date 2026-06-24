@@ -10,23 +10,23 @@
   "instructions": [
     {
       "position": 1,
-      "text": "Heat cooking oil in a pan."
+      "text": "Heat cooking oil in a pan over medium heat."
     },
     {
       "position": 2,
-      "text": "Dredge a slice of CDO Holiday Ham in flour, then dip it in beaten egg. Make sure that all the sides are completely coated before dredging the ham into the breadcrumbs. Note: you should press the breadcrumbs gently so that it holds better."
+      "text": "Dredge a slice of CDO Holiday Ham in flour, then dip it in beaten egg. Ensure all sides are completely coated before dredging into breadcrumbs, pressing gently so they adhere better."
     },
     {
       "position": 3,
-      "text": "Deep-fry your ham katsu until the bottom side turns golden brown. Flip it over and do the same step. Remove from the pan and let it cool down."
+      "text": "Deep-fry the ham katsu until the bottom turns golden brown, then flip and fry the other side until crispy. Remove from the pan and let cool on a wire rack."
     },
     {
       "position": 4,
-      "text": "Meanwhile, make the sauce by combining all the tonkatsu sauce ingredients. Mix well."
+      "text": "Meanwhile, make the sauce by combining all the tonkatsu sauce ingredients in a small bowl. Mix well."
     },
     {
       "position": 5,
-      "text": "Arrange the ham katsu with garnish on a serving plate. Serve with homemade tonkatsu sauce. Share and enjoy!"
+      "text": "Arrange the ham katsu on a serving plate. Serve with homemade tonkatsu sauce. Share and enjoy!"
     }
   ],
   "servings": 4,
@@ -52,9 +52,24 @@
     "unsaturatedFatContent": "90 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-meat",
+    "contains-gluten",
+    "contains-egg",
+    "dairy-free"
+  ],
+  "allergens": [
+    "gluten",
+    "egg",
+    "soy"
+  ],
+  "equipment": [
+    "frying pan",
+    "tongs",
+    "mixing bowls",
+    "shallow dishes for dredging",
+    "wire rack"
+  ],
   "ingredients": [
     {
       "ingredient_id": "488e0e81-1110-59ab-ac46-57d395bb3f59",
@@ -88,7 +103,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "large",
       "preparation": "beaten",
       "position": 4
     },
@@ -156,12 +171,6 @@
       "id": "c89c0b8a-f197-5e87-a5e8-6c03e397a3d4",
       "slug": "holiday-ham",
       "name": "holiday ham",
-      "color": null
-    },
-    {
-      "id": "9bfdcc4d-2161-5649-9e9c-2f922955c58b",
-      "slug": "katsu-curry",
-      "name": "katsu curry",
       "color": null
     },
     {

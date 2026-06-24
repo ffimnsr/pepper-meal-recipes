@@ -6,7 +6,7 @@
   "name": "Simple Ube Halaya Recipe",
   "recipe_type": "dessert",
   "brief_description": "Ube Halaya is a type of Filipino Dessert made from purple yam. There are quite a few ways of preparing this dish. Some Ube halaya version makes use of condensed milk to cook the yam with, while others depend on coconut milk. This version only uses 3 major ingredients: purple yam, coconut milk, and sugar.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -45,17 +45,24 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "gluten-free",
+    "vegetarian"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "cooking pot",
+    "llanera",
+    "spatula or wooden spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "829dcb6a-9801-5207-b392-6991cb08cc84",
-      "name": "grated purple yam",
-      "normalized_name": "grated purple yam",
+      "name": "purple yam",
+      "normalized_name": "purple yam",
       "quantity": "1",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "grated",
       "position": 1
     },
     {
@@ -95,8 +102,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Stir constantly to prevent burning and sticking to the pot",
+    "Use low to medium heat to avoid scorching the coconut milk"
+  ],
+  "storage_notes": [
+    "Refrigerate for up to 3 days",
+    "Cover with plastic wrap or store in an airtight container"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/simple-ube-halaya-recipe/"

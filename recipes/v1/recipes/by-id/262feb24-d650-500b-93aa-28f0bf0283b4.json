@@ -4,9 +4,9 @@
   "id": "262feb24-d650-500b-93aa-28f0bf0283b4",
   "slug": "baked-salmon-recipe",
   "name": "Baked Salmon Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This delicious and healthy Baked Salmon Recipe is quick and easy to prepare. Allow me to guide you on how to make this dish.",
-  "cuisine": null,
+  "cuisine": "Mediterranean",
   "instructions": [
     {
       "position": 1,
@@ -50,20 +50,33 @@
     }
   ],
   "servings": 2,
-  "cooking_time_minutes": 15,
+  "cooking_time_minutes": 22,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/262feb24-d650-500b-93aa-28f0bf0283b4/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "high-protein",
+    "low-carb",
+    "pescatarian"
+  ],
+  "allergens": [
+    "fish",
+    "dairy"
+  ],
+  "equipment": [
+    "oven",
+    "baking sheet",
+    "aluminum foil",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "09b48090-4ab9-57be-98fb-e1762c62e647",
@@ -85,11 +98,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/4",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 3
     },
     {
@@ -139,11 +152,11 @@
     },
     {
       "ingredient_id": "cbedf4a1-173e-56ae-92c0-3595384b0e2c",
-      "name": "crumbled feta cheese",
-      "normalized_name": "crumbled feta cheese",
+      "name": "feta cheese",
+      "normalized_name": "feta cheese",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "crumbled",
       "position": 9
     }
   ],
@@ -156,8 +169,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Salmon is cooked when it flakes easily with a fork or reaches an internal temperature of 145\u00b0F (63\u00b0C).",
+    "For best results, use fresh salmon fillets of even thickness."
+  ],
+  "storage_notes": [
+    "Refrigerate leftover salmon in an airtight container for up to 2 days.",
+    "Store salad components separately to prevent wilting."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/baked-salmon-recipe/"

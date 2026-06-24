@@ -4,8 +4,8 @@
   "id": "2e95631f-4978-506b-a371-2be9aad08d75",
   "slug": "adobong-pusit-sa-gata",
   "name": "Adobong Pusit sa Gata",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Adobong Pusit sa Gata",
+  "recipe_type": "main",
+  "brief_description": "Filipino squid adobo simmered in rich coconut milk with soy sauce, vinegar, and aromatics. Features tender squid in a savory-sour cream sauce, traditionally served with steamed rice.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -55,16 +55,27 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Soy",
+    "Fish"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Plate",
+    "Serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "5f652464-4164-57ad-8866-b39f4e7a3a66",
-      "name": "sized squid",
-      "normalized_name": "sized squid",
+      "name": "squid",
+      "normalized_name": "squid",
       "quantity": "1",
       "unit": "lb",
       "preparation": "cleaned",
@@ -152,8 +163,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Do not overcook the squid to maintain tenderness - remove promptly once opaque and tender.",
+    "Adjust fish sauce to taste; different brands vary in saltiness."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 2 days.",
+    "Reheat gently over low heat to prevent the squid from becoming rubbery."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/adobong-pusit-sa-gata/"

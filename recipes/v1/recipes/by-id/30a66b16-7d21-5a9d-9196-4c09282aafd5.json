@@ -5,7 +5,7 @@
   "slug": "how-to-cook-sotanghon-guisado",
   "name": "Sotanghon Guisado",
   "recipe_type": "main",
-  "brief_description": "Garlicky sotanghon pancit recipe",
+  "brief_description": "Filipino stir-fried glass noodles (sotanghon) with pork, vegetables, and annatto oil, garnished with toasted garlic",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -61,7 +61,7 @@
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/30a66b16-7d21-5a9d-9196-4c09282aafd5/cover.webp",
   "video_url": null,
   "additional_media": [],
@@ -80,9 +80,22 @@
     "unsaturatedFatContent": "14 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Contains Pork",
+    "Contains Shellfish",
+    "Contains Soy",
+    "Contains Fish"
+  ],
+  "allergens": [
+    "shellfish",
+    "soy",
+    "fish"
+  ],
+  "equipment": [
+    "Wok or large pan",
+    "Colander",
+    "Tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
@@ -98,7 +111,7 @@
       "name": "knorr shrimp cube",
       "normalized_name": "knorr shrimp cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "cube",
       "preparation": null,
       "position": 2
     },
@@ -116,7 +129,7 @@
       "name": "cabbage",
       "normalized_name": "cabbage",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "head",
       "preparation": null,
       "position": 4
     },
@@ -125,7 +138,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 5
     },
@@ -134,7 +147,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 6
     },
@@ -143,7 +156,7 @@
       "name": "green onion",
       "normalized_name": "green onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "stalk",
       "preparation": null,
       "position": 7
     },
@@ -161,7 +174,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 9
     },
@@ -275,7 +288,10 @@
     "Bell peppers are optional ingredients. However, I find my pancit to be more pleasant with it.",
     "Green onions are optional. Chop it into small pieces or cut it in 1-inch length, both works well."
   ],
-  "storage_notes": [],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat in a pan with a splash of water to prevent drying."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-cook-sotanghon-guisado/"

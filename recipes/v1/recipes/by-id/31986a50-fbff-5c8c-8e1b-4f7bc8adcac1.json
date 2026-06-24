@@ -80,12 +80,19 @@
     "sodiumContent": "220 mg",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Eggs",
+    "Milk",
+    "Wheat"
+  ],
   "equipment": [
-    "Pot For cooking the choux dough",
-    "Baking tray Lined with parchment paper",
-    "Oven Preheated to 375\u00b0F"
+    "Saucepan",
+    "Baking tray",
+    "Parchment paper",
+    "Oven"
   ],
   "ingredients": [
     {
@@ -111,7 +118,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": "1",
-      "unit": "pieces",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 3
     },
@@ -135,11 +142,11 @@
     },
     {
       "ingredient_id": "511fe23f-7694-5c86-aae2-dccbd4636b14",
-      "name": "grated cheddar cheese",
-      "normalized_name": "grated cheddar cheese",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "grated",
       "position": 6
     }
   ],
@@ -158,11 +165,6 @@
       "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
       "slug": "snack",
       "name": "Snack"
-    },
-    {
-      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
-      "slug": "dessert",
-      "name": "Dessert"
     }
   ],
   "tags": [

@@ -5,7 +5,7 @@
   "slug": "shrimp-avocado-salad-recipe",
   "name": "Shrimp Avocado Salad Recipe",
   "recipe_type": "salad",
-  "brief_description": "Shrimp avocado salad that makes use of fresh or pre-cooked chrimp along with cubed avocado, sour cream, lime, and garlic powder",
+  "brief_description": "Shrimp avocado salad that makes use of fresh or pre-cooked shrimp along with cubed avocado, sour cream, lime, and garlic powder",
   "cuisine": null,
   "instructions": [
     {
@@ -45,9 +45,19 @@
     "@type": "NutritionInformation",
     "servingSize": "3 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "pescatarian"
+  ],
+  "allergens": [
+    "shellfish",
+    "dairy"
+  ],
+  "equipment": [
+    "cooking pot",
+    "large bowl",
+    "serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -70,9 +80,9 @@
     {
       "ingredient_id": "9ffce1c5-76cb-5956-a91e-1ab9f64d7ac1",
       "name": "ripe avocado",
-      "normalized_name": "ripe avocado",
+      "normalized_name": "avocado",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cubed",
       "position": 3
     },
@@ -96,11 +106,11 @@
     },
     {
       "ingredient_id": "489599af-5b5d-5a71-99b3-6fef2d9d2a40",
-      "name": "juice from 1 lime",
-      "normalized_name": "juice from 1 lime",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
       "position": 6
     },
     {
@@ -114,11 +124,11 @@
     },
     {
       "ingredient_id": "c093719d-3298-5556-b29a-7cb4df8743bc",
-      "name": "chives for garnish",
-      "normalized_name": "chives for garnish",
+      "name": "chives",
+      "normalized_name": "chives",
       "quantity": null,
       "unit": null,
-      "preparation": null,
+      "preparation": "for garnish",
       "position": 8
     }
   ],

@@ -5,7 +5,7 @@
   "slug": "siomai-pork-and-shrimp-with-chili-garlic-oil",
   "name": "Pork and Shrimp Siomai with Chili Garlic Oil",
   "recipe_type": "appetizer",
-  "brief_description": "This is a recipe for pork and shrimp shumai with a topping of chili garlic oil.",
+  "brief_description": "Steamed pork and shrimp siomai served with homemade chili garlic oil and calamansi-soy dipping sauce.",
   "cuisine": "Chinese Filipino",
   "instructions": [
     {
@@ -69,8 +69,19 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shellfish",
+    "eggs",
+    "wheat",
+    "sesame",
+    "soy"
+  ],
+  "equipment": [
+    "steamer",
+    "wok",
+    "food processor",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
@@ -92,10 +103,10 @@
     },
     {
       "ingredient_id": "67ae4435-63fb-5b9a-b5ae-9a5df0d53883",
-      "name": "ml knorr liquid seasoning",
-      "normalized_name": "ml knorr liquid seasoning",
+      "name": "Knorr Liquid Seasoning",
+      "normalized_name": "knorr liquid seasoning",
       "quantity": "12",
-      "unit": null,
+      "unit": "ml",
       "preparation": null,
       "position": 3
     },
@@ -181,13 +192,22 @@
       "position": 12
     },
     {
+      "ingredient_id": "7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
+    },
+    {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "2",
-      "unit": null,
+      "unit": "cloves",
       "preparation": "peeled",
-      "position": 13
+      "position": 14
     },
     {
       "ingredient_id": "060ecd6b-e829-5017-bcb6-bb0e0e9a261a",
@@ -196,16 +216,16 @@
       "quantity": "1/4",
       "unit": "lb",
       "preparation": null,
-      "position": 14
+      "position": 15
     },
     {
       "ingredient_id": "6b9ec460-761b-5858-9336-d74fdb952d8c",
       "name": "star anise",
       "normalized_name": "star anise",
       "quantity": "1",
-      "unit": "pieces",
+      "unit": "piece",
       "preparation": null,
-      "position": 15
+      "position": 16
     },
     {
       "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
@@ -214,7 +234,7 @@
       "quantity": "2",
       "unit": "pieces",
       "preparation": null,
-      "position": 16
+      "position": 17
     },
     {
       "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
@@ -223,7 +243,7 @@
       "quantity": "1",
       "unit": "tablespoon",
       "preparation": null,
-      "position": 17
+      "position": 18
     },
     {
       "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
@@ -232,7 +252,7 @@
       "quantity": "1",
       "unit": "tablespoon",
       "preparation": null,
-      "position": 18
+      "position": 19
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -241,7 +261,7 @@
       "quantity": "1",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 19
+      "position": 20
     },
     {
       "ingredient_id": "63041ac9-6930-5398-b18d-13ee1400cb3f",
@@ -250,7 +270,25 @@
       "quantity": "1",
       "unit": "tablespoon",
       "preparation": null,
-      "position": 20
+      "position": 21
+    },
+    {
+      "ingredient_id": "8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 22
+    },
+    {
+      "ingredient_id": "9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b",
+      "name": "calamansi",
+      "normalized_name": "calamansi",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 23
     }
   ],
   "categories": [

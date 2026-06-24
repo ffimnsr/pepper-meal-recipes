@@ -4,9 +4,9 @@
   "id": "2e8ac587-0bcd-5d8d-8638-36b676a574c6",
   "slug": "how-to-make-sushi-summer-roll",
   "name": "Sushi Summer Roll Recipe",
-  "recipe_type": null,
+  "recipe_type": "appetizer",
   "brief_description": "Sushi summer roll is a type of fresh vegetable, shrimp, and crabmeat roll that makes use of rice paper. It is simply delicious.",
-  "cuisine": null,
+  "cuisine": "Asian",
   "instructions": [
     {
       "position": 1,
@@ -51,12 +51,31 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 roll"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian"
+  ],
+  "allergens": [
+    "shellfish",
+    "fish"
+  ],
+  "equipment": [
+    "bowl",
+    "kitchen towel",
+    "cutting board",
+    "knife"
+  ],
   "ingredients": [
+    {
+      "ingredient_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "tapioca paper",
+      "normalized_name": "tapioca paper",
+      "quantity": "4",
+      "unit": "sheets",
+      "preparation": null,
+      "position": 1
+    },
     {
       "ingredient_id": "a8da5e1f-7b18-55b3-81fc-99e0bba480ca",
       "name": "avocado",
@@ -64,7 +83,7 @@
       "quantity": "1",
       "unit": "piece",
       "preparation": "sliced lengthwise",
-      "position": 1
+      "position": 2
     },
     {
       "ingredient_id": "ec1c2b5e-cca0-5d55-a629-5ae15ac48fb5",
@@ -73,25 +92,25 @@
       "quantity": "1",
       "unit": "piece",
       "preparation": "sliced into long thin strips",
-      "position": 2
+      "position": 3
     },
     {
       "ingredient_id": "5b9fcd8e-e548-5f70-81d5-3157c95c82b7",
-      "name": "sized carrot",
-      "normalized_name": "sized carrot",
+      "name": "carrot",
+      "normalized_name": "carrot",
       "quantity": "1",
       "unit": "piece",
       "preparation": "sliced into long thin strips",
-      "position": 3
+      "position": 4
     },
     {
       "ingredient_id": "8a711248-6435-5103-8cd2-0522fddde139",
       "name": "leaf lettuce",
       "normalized_name": "leaf lettuce",
       "quantity": "4",
-      "unit": null,
+      "unit": "leaves",
       "preparation": "cleaned",
-      "position": 4
+      "position": 5
     },
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -100,7 +119,7 @@
       "quantity": "8",
       "unit": "pieces",
       "preparation": "cooked and butterfly sliced",
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "2a7914c1-c240-52e3-9c35-34d2083ecab8",
@@ -109,7 +128,7 @@
       "quantity": "4",
       "unit": "pieces",
       "preparation": null,
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "6f263d59-167c-56cd-ba3d-98ea6705b7ca",
@@ -118,7 +137,7 @@
       "quantity": "2",
       "unit": "cups",
       "preparation": null,
-      "position": 7
+      "position": 8
     }
   ],
   "categories": [
@@ -126,9 +145,35 @@
       "id": "4710e724-e184-5c95-a495-52fd897b6539",
       "slug": "shrimp",
       "name": "Shrimp"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "slug": "asian",
+      "name": "Asian"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "d4e5f6a7-b8c9-0123-defa-456789012345",
+      "slug": "fresh",
+      "name": "Fresh"
+    },
+    {
+      "id": "e5f6a7b8-c9d0-1234-efab-567890123456",
+      "slug": "no-cook",
+      "name": "No-Cook"
+    },
+    {
+      "id": "f6a7b8c9-d0e1-2345-fabc-678901234567",
+      "slug": "healthy",
+      "name": "Healthy"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

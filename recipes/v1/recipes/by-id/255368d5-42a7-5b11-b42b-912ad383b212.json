@@ -67,9 +67,23 @@
     "sugarContent": "37 g",
     "unsaturatedFatContent": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Dairy",
+    "Egg",
+    "Gluten",
+    "Wheat"
+  ],
+  "equipment": [
+    "Steamer",
+    "Mixing bowls",
+    "Fine mesh sieve or sifter",
+    "Puto molds or muffin tins",
+    "Spatula",
+    "Whisk or spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
@@ -130,7 +144,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 7
     },
@@ -162,8 +176,16 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Ensure the steamer water is boiling before placing the molds to ensure proper rising",
+    "Do not overmix the batter once the wet and dry ingredients are combined",
+    "Cheese can be substituted with edam or quick-melt cheese for different flavor profiles"
+  ],
+  "storage_notes": [
+    "Store in an airtight container at room temperature for up to 2 days",
+    "Refrigerate for up to 5 days",
+    "Reheat by steaming for 5 minutes or microwaving for 20-30 seconds"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/cheese-puto-recipe/"

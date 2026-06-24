@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "36b6d0c0-d6f4-5e1b-9f86-162c86ecdb92",
   "slug": "tuna-casserole",
-  "name": "Tuna Casserole Recipe",
-  "recipe_type": null,
-  "brief_description": "This Tuna Casserole Recipe is perfect for ordinary days and special occasions. Experience the delightful taste that will surely capture your taste buds.",
-  "cuisine": null,
+  "name": "Tuna Casserole",
+  "recipe_type": "main",
+  "brief_description": "A classic American comfort food casserole featuring egg noodles, tuna, and mushrooms in a creamy sauce, topped with sharp cheddar cheese and crispy fried onions. Perfect for weeknight dinners.",
+  "cuisine": "american",
   "instructions": [
     {
       "position": 1,
@@ -41,7 +41,7 @@
   "cooking_time_minutes": 22,
   "preparation_time_minutes": 12,
   "rest_time_minutes": null,
-  "difficulty": "medium",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/36b6d0c0-d6f4-5e1b-9f86-162c86ecdb92/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -49,14 +49,28 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-fish",
+    "contains-dairy",
+    "contains-gluten"
+  ],
+  "allergens": [
+    "fish",
+    "milk",
+    "wheat",
+    "soy"
+  ],
+  "equipment": [
+    "baking dish",
+    "mixing bowl",
+    "oven",
+    "can opener"
+  ],
   "ingredients": [
     {
       "ingredient_id": "41448d2c-638d-5fb8-afd1-dea092535826",
-      "name": "each tuna",
-      "normalized_name": "each tuna",
+      "name": "tuna",
+      "normalized_name": "tuna",
       "quantity": "2",
       "unit": "cans",
       "preparation": "drained",
@@ -73,8 +87,8 @@
     },
     {
       "ingredient_id": "2d2538d8-6c1d-5fa9-8977-0ab6882d3ace",
-      "name": "mushroom",
-      "normalized_name": "mushroom",
+      "name": "mushrooms",
+      "normalized_name": "mushrooms",
       "quantity": "1 to 2",
       "unit": "cups",
       "preparation": "chopped",
@@ -82,8 +96,8 @@
     },
     {
       "ingredient_id": "6551aa07-2cfa-513a-82fe-7124da07bf3d",
-      "name": "french fried onion",
-      "normalized_name": "french fried onion",
+      "name": "french fried onions",
+      "normalized_name": "french fried onions",
       "quantity": "1",
       "unit": "cup",
       "preparation": "crushed",
@@ -100,8 +114,8 @@
     },
     {
       "ingredient_id": "f94c5c90-99b0-5664-93d9-ff20d5b9fdab",
-      "name": "green pea",
-      "normalized_name": "green pea",
+      "name": "green peas",
+      "normalized_name": "green peas",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -124,6 +138,15 @@
       "unit": "teaspoons",
       "preparation": null,
       "position": 8
+    },
+    {
+      "ingredient_id": "a7f8d9e0-1234-5678-9abc-def012345678",
+      "name": "egg noodles",
+      "normalized_name": "egg noodles",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "cooked",
+      "position": 9
     }
   ],
   "categories": [
@@ -135,8 +158,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, drain the tuna thoroughly to prevent excess moisture in the casserole.",
+    "If using frozen peas, thaw them first or add directly to the hot noodles to thaw."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat individual portions in the microwave for 2-3 minutes or until heated through."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/tuna-casserole/"

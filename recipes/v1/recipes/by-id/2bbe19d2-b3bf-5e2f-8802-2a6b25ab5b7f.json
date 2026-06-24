@@ -58,8 +58,16 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shellfish",
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "steamer",
+    "frying pan",
+    "knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
@@ -84,7 +92,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 3
     },
@@ -93,7 +101,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 4
     },
@@ -126,11 +134,11 @@
     },
     {
       "ingredient_id": "6f0b3b87-a856-5fc1-aa43-5f3f612476ce",
-      "name": "cornstarch diluted in 2 tablespoons water",
-      "normalized_name": "cornstarch diluted in 2 tablespoons water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "diluted in 2 tablespoons water",
       "position": 8
     },
     {
@@ -161,8 +169,13 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Kikiam can be frozen after steaming (before frying) for later use."
+  ],
+  "storage_notes": [
+    "Refrigerate cooked kikiam for up to 3 days.",
+    "Freeze steamed (unfried) kikiam for up to 1 month."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/kikiam-recipe/"

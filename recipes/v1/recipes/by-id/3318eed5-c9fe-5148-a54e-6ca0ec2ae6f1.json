@@ -6,7 +6,7 @@
   "name": "Pancit Miki Guisado Recipe",
   "recipe_type": null,
   "brief_description": "Pancit Miki are fresh thick egg noodles. These noodles are thicker than the egg noodles used in beef mami, and a little thinner compared to Lomi noodles.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -55,11 +55,21 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Wheat",
+    "Egg",
+    "Soy",
+    "Shellfish"
+  ],
+  "equipment": [
+    "Wok",
+    "Spatula",
+    "Cutting board",
+    "Chef's knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "aa9f2b80-0d03-5af5-89f2-8206c73a2a76",
@@ -99,11 +109,11 @@
     },
     {
       "ingredient_id": "22e5b124-6122-522a-bf93-1809198a848c",
-      "name": "shredded carrot",
-      "normalized_name": "shredded carrot",
+      "name": "carrot",
+      "normalized_name": "carrot",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 5
     },
     {
@@ -111,7 +121,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 6
     },

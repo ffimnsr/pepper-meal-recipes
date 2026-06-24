@@ -4,9 +4,9 @@
   "id": "293944b8-76ee-52dc-9ae8-8e4353196613",
   "slug": "kilawin-kinilaw-na-dulong-recipe",
   "name": "Kinilaw na Dulong",
-  "recipe_type": null,
+  "recipe_type": "appetizer",
   "brief_description": "Kinilaw na dulong is a fish dish that makes use of silverfish which are locally known as \u201cDulong\u201d. This is a type of Ceviche wherein fishes or seafood are soaked in a citrus marinade.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -36,18 +36,26 @@
   "servings": 2,
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 30,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/293944b8-76ee-52dc-9ae8-8e4353196613/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "refrigerator"
+  ],
   "ingredients": [
     {
       "ingredient_id": "78e05c1f-bce4-58cb-a960-cb6570756147",
@@ -60,7 +68,7 @@
     },
     {
       "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
-      "name": "lemon",
+      "name": "lemon or calamansi",
       "normalized_name": "lemon",
       "quantity": "1 to 2",
       "unit": "pieces",
@@ -96,7 +104,7 @@
     },
     {
       "ingredient_id": "083d9845-c040-5a9b-9641-08b5d806bbfb",
-      "name": "birds eye chili",
+      "name": "bird's eye chili",
       "normalized_name": "birds eye chili",
       "quantity": "1 to 2",
       "unit": "teaspoons",
@@ -113,8 +121,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Ensure the dulong (silverfish) is extremely fresh and properly cleaned.",
+    "Calamansi can be substituted for lemon for a more traditional Filipino flavor.",
+    "The citric acid 'cooks' the fish but does not kill bacteria as heat would; consume within 24 hours."
+  ],
+  "storage_notes": [
+    "Best consumed immediately after preparation.",
+    "Can be refrigerated for up to 24 hours. Do not freeze."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/kilawin-kinilaw-na-dulong-recipe/"

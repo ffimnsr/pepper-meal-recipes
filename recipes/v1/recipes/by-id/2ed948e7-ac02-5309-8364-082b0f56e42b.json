@@ -4,9 +4,9 @@
   "id": "2ed948e7-ac02-5309-8364-082b0f56e42b",
   "slug": "grill-salmon",
   "name": "How to Grill Salmon",
-  "recipe_type": "drink",
-  "brief_description": "Now that you\u2019ve got an idea of the health benefits, it\u2019s time to learn how to grill salmon. Fillets are best for grilling and can be seasoned with garlic powder, lemon juice, salt, pepper, olive oil, sesame oil and many other seasonings. You will need:",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Learn how to grill perfect salmon fillets seasoned with garlic powder, lemon juice, salt, pepper, and olive oil. This easy grilling method yields flaky, opaque fish with delicious flavor.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Make sure the salmon is skin side down and cook for 10-15 minutes. Check to see if it is flaky and opaque. If you don\u2019t have aluminum foil, grease the cooking grate with a little oil before placing the fish."
+      "text": "Make sure the salmon is skin side down and cook for 10-15 minutes. Check to see if it is flaky and opaque. If you don't have aluminum foil, grease the cooking grate with a little oil before placing the fish."
     },
     {
       "position": 4,
@@ -35,20 +35,84 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 fillet"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Fish"
+  ],
+  "equipment": [
+    "Grill",
+    "Aluminum foil",
+    "Tongs"
+  ],
   "ingredients": [
     {
+      "ingredient_id": "8f2e1b3c-9d4e-5f6a-7b8c-9d0e1f2a3b4c",
+      "name": "salmon fillets",
+      "normalized_name": "salmon fillet",
+      "quantity": "4",
+      "unit": "fillet",
+      "preparation": null,
+      "position": 1
+    },
+    {
       "ingredient_id": "bc54481c-5f82-5b79-ad45-338f0551a0b1",
-      "name": "seasoning of your choice",
-      "normalized_name": "seasoning of your choice",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7a6b5c4d-3e2f-1a0b-9c8d-7e6f5a4b3c2d",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9b8c7d6e-5f4a-3b2c-1d0e-9f8a7b6c5d4e",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f",
+      "name": "salt",
+      "normalized_name": "salt",
       "quantity": null,
       "unit": null,
       "preparation": null,
-      "position": 1
+      "position": 6
+    },
+    {
+      "ingredient_id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 7
     }
   ],
   "categories": [
@@ -58,10 +122,38 @@
       "name": "Salmon"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b",
+      "slug": "grilling",
+      "name": "Grilling"
+    },
+    {
+      "id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+      "slug": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d",
+      "slug": "healthy",
+      "name": "Healthy"
+    },
+    {
+      "id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e",
+      "slug": "quick",
+      "name": "Quick"
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, choose center-cut salmon fillets of even thickness.",
+    "If using skinless fillets, reduce cooking time by 2-3 minutes.",
+    "The salmon is done when it reaches an internal temperature of 145\u00b0F (63\u00b0C) and flakes easily with a fork."
+  ],
+  "storage_notes": [
+    "Store leftover grilled salmon in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat gently in a 275\u00b0F oven for about 15 minutes to prevent drying out."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/grill-salmon/"

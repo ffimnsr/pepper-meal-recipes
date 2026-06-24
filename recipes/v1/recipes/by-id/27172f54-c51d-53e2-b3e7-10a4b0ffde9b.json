@@ -6,7 +6,7 @@
   "name": "Tofu and Broccoli Stir fry",
   "recipe_type": "main",
   "brief_description": "Tofu and Broccoli stir fry is a tasty dish that you can cook for lunch or dinner. The good thing about this recipe is its ease in preparation",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -53,7 +53,7 @@
   "cooking_time_minutes": 18,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/27172f54-c51d-53e2-b3e7-10a4b0ffde9b/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -71,9 +71,15 @@
     "sugarContent": "4 g",
     "unsaturatedFatContent": "21 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "dairy-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "frying pan",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "ce3ba2f9-03e3-5efd-9ea2-0a82704013e9",
@@ -86,11 +92,11 @@
     },
     {
       "ingredient_id": "e2236601-7313-5593-8bb8-e066f0cea92f",
-      "name": "sliced broccoli floret",
-      "normalized_name": "sliced broccoli floret",
+      "name": "broccoli florets",
+      "normalized_name": "broccoli",
       "quantity": "3",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 2
     },
     {
@@ -98,7 +104,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced diagonally",
       "position": 3
     },
@@ -107,26 +113,26 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 4
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 5
     },
     {
       "ingredient_id": "5ec285ac-e5f8-545b-b77d-a4264f14cee4",
-      "name": "minced ginger",
-      "normalized_name": "minced ginger",
+      "name": "ginger",
+      "normalized_name": "ginger",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 6
     },
     {

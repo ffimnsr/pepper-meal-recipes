@@ -4,9 +4,9 @@
   "id": "34943f06-48b2-5f8f-84b6-1013e98cf93d",
   "slug": "broiled-red-snapper-with-pico-de-gallo",
   "name": "Broiled Red Snapper with Pico de Gallo",
-  "recipe_type": null,
-  "brief_description": "Broiled Red Snapper with Pico de Gallo is a simple yet delicious dish. The good thing about it is its easy and quick to prepare.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Fresh red snapper broiled with garlic and lemon, served with vibrant pico de gallo. A simple yet flavorful main course that comes together quickly.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -57,9 +57,20 @@
     "@type": "NutritionInformation",
     "servingSize": "3 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Pescatarian"
+  ],
+  "allergens": [
+    "Fish"
+  ],
+  "equipment": [
+    "Oven",
+    "Baking tray",
+    "Mixing bowl",
+    "Knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "87ad3f03-9c25-5c93-935f-94f33124c5a0",
@@ -81,11 +92,11 @@
     },
     {
       "ingredient_id": "79a67268-f09a-50cb-86f5-1735baaba0c8",
-      "name": "crushed garlic",
-      "normalized_name": "crushed garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 3
     },
     {

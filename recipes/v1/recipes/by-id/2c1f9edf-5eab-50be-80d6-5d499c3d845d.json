@@ -40,7 +40,7 @@
   "servings": 4,
   "cooking_time_minutes": 40,
   "preparation_time_minutes": 30,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 30,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2c1f9edf-5eab-50be-80d6-5d499c3d845d/cover.jpg",
   "video_url": null,
@@ -59,8 +59,14 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "coconut"
+  ],
+  "equipment": [
+    "bowl",
+    "pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -122,7 +128,7 @@
       "normalized_name": "peppercorn",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "whole",
       "position": 7
     },
     {
@@ -189,8 +195,13 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Marinate chicken for at least 30 minutes for best flavor.",
+    "Buko juice refers to young coconut water."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/adobong-manok-sa-buko/"

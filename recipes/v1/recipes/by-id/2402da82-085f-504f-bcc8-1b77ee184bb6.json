@@ -4,9 +4,9 @@
   "id": "2402da82-085f-504f-bcc8-1b77ee184bb6",
   "slug": "kare-kare-recipe",
   "name": "Kare Kare",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Kare-kare or ox tripe stew",
-  "cuisine": "Fiipino",
+  "recipe_type": "main",
+  "brief_description": "A traditional Filipino oxtail and peanut stew with vegetables, served with shrimp paste",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -51,7 +51,7 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g",
+    "servingSize": "1 serving",
     "calories": "934 kcal",
     "carbohydrateContent": "24 g",
     "proteinContent": "91 g",
@@ -62,9 +62,21 @@
     "fiberContent": "5 g",
     "sugarContent": "3 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "peanuts",
+    "shellfish"
+  ],
+  "equipment": [
+    "large pot",
+    "pressure cooker (optional)",
+    "pan",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "150f043f-d15d-501c-b996-d51203ce26d3",
@@ -89,7 +101,7 @@
       "name": "bundle string bean",
       "normalized_name": "bundle string bean",
       "quantity": "1",
-      "unit": null,
+      "unit": "bundle",
       "preparation": "cut into 2 inch slices",
       "position": 3
     },
@@ -134,7 +146,7 @@
       "name": "water",
       "normalized_name": "water",
       "quantity": "34",
-      "unit": "Ounces",
+      "unit": "ounces",
       "preparation": null,
       "position": 8
     },

@@ -6,7 +6,7 @@
   "name": "Crab and Pork Shumai Recipe",
   "recipe_type": "appetizer",
   "brief_description": "This is a yummy siomai recipe. Crab meat and ground pork are combined along with other ingredients to produce a delicious dimsum dish.",
-  "cuisine": null,
+  "cuisine": "Chinese",
   "instructions": [
     {
       "position": 1,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Fold the wonton wrapper to cover all the sides. Make sure that you leave the top open. Do this step until you are down with the last shumai. If you need more guidance on this step, this pork siomai recipe cooking video might be helpful."
+      "text": "Fold the wonton wrapper to cover all the sides. Make sure that you leave the top open. Do this step until you are done with the last shumai. If you need more guidance on this step, this pork siomai recipe cooking video might be helpful."
     },
     {
       "position": 5,
@@ -53,7 +53,7 @@
   "cooking_time_minutes": 25,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2974c28a-fbb4-5471-ac33-b5eb988643b4/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -62,8 +62,17 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shellfish",
+    "eggs",
+    "wheat",
+    "sesame"
+  ],
+  "equipment": [
+    "steamer",
+    "mixing bowl",
+    "spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
@@ -97,7 +106,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 4
     },
@@ -106,17 +115,17 @@
       "name": "sweet onion",
       "normalized_name": "sweet onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 5
     },
     {
       "ingredient_id": "2fa59de2-bb0e-5455-95bf-aeea377489da",
-      "name": "minced carrot",
-      "normalized_name": "minced carrot",
+      "name": "carrot",
+      "normalized_name": "carrot",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "minced",
       "position": 6
     },
     {
