@@ -77,8 +77,8 @@
     },
     {
       "ingredient_id": "daf36092-1695-5dcd-aed7-8a9192da6da9",
-      "name": "malunggay leaf",
-      "normalized_name": "malunggay leaf",
+      "name": "malunggay leaves",
+      "normalized_name": "malunggay leaves",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -95,8 +95,8 @@
     },
     {
       "ingredient_id": "fcefb726-393a-5536-8f47-8e1421914610",
-      "name": "dried anchovy",
-      "normalized_name": "dried anchovy",
+      "name": "dried anchovies",
+      "normalized_name": "dried anchovies",
       "quantity": "3/4",
       "unit": "cup",
       "preparation": null,
@@ -104,8 +104,8 @@
     },
     {
       "ingredient_id": "060ecd6b-e829-5017-bcb6-bb0e0e9a261a",
-      "name": "thai chili pepper",
-      "normalized_name": "thai chili pepper",
+      "name": "Thai chili pepper",
+      "normalized_name": "Thai chili pepper",
       "quantity": "4",
       "unit": "pieces",
       "preparation": null,
@@ -113,12 +113,21 @@
     },
     {
       "ingredient_id": "6db15e70-9a26-57cc-95d0-531f773b15c3",
-      "name": "patis and ground black pepper",
-      "normalized_name": "patis and ground black pepper",
+      "name": "patis",
+      "normalized_name": "patis",
       "quantity": null,
       "unit": null,
       "preparation": null,
       "position": 6
+    },
+    {
+      "ingredient_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 7
     },
     {
       "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
@@ -127,7 +136,25 @@
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 7
+      "position": 8
+    },
+    {
+      "ingredient_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "medium",
+      "preparation": "chopped",
+      "position": 9
+    },
+    {
+      "ingredient_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 10
     }
   ],
   "categories": [
@@ -159,12 +186,6 @@
       "id": "7e64f967-2e6a-5aba-b7aa-08311a17cdfd",
       "slug": "jackfruit-dish",
       "name": "jackfruit dish",
-      "color": null
-    },
-    {
-      "id": "9dfa0157-871a-51d3-bf0b-a879c2015c25",
-      "slug": "manok-sa-gata",
-      "name": "manok sa gata",
       "color": null
     }
   ],

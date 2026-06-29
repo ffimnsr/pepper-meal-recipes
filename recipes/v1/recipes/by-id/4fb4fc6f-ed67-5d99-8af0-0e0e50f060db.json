@@ -5,12 +5,12 @@
   "slug": "easy-sweet-and-sour-sauce",
   "name": "Easy Sweet and Sour Sauce",
   "recipe_type": "dessert",
-  "brief_description": "Sweet and Sour Sauce is staple in Asian Cuisine. There are many ways to make this sauce and it also has many uses.",
+  "brief_description": "Sweet and sour sauce is a staple in Asian cuisine. There are many ways to make this sauce, and it has many uses.",
   "cuisine": null,
   "instructions": [
     {
       "position": 1,
-      "text": "Pour water in a saucepan. Bring to a boil."
+      "text": "Pour water into a saucepan. Bring to a boil."
     },
     {
       "position": 2,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Pour-in the cornstarch diluted in water. Stir."
+      "text": "Pour in the cornstarch diluted in water. Stir."
     },
     {
       "position": 5,
@@ -47,7 +47,10 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "saucepan",
+    "small ladle"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
@@ -78,11 +81,11 @@
     },
     {
       "ingredient_id": "6f1e7739-dd81-558c-b76b-9044b8ad21d4",
-      "name": "chopped fresh pineapple",
-      "normalized_name": "chopped fresh pineapple",
+      "name": "fresh pineapple",
+      "normalized_name": "fresh pineapple",
       "quantity": "1 1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 4
     },
     {
@@ -99,7 +102,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 6
     },
@@ -108,7 +111,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 7
     },
@@ -117,17 +120,17 @@
       "name": "green bell pepper",
       "normalized_name": "green bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 8
     },
     {
       "ingredient_id": "6f0b3b87-a856-5fc1-aa43-5f3f612476ce",
-      "name": "cornstarch diluted in 2 tablespoons water",
-      "normalized_name": "cornstarch diluted in 2 tablespoons water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1 1/2",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "diluted in 2 tablespoons water",
       "position": 9
     }
   ],

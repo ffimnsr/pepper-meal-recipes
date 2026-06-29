@@ -5,7 +5,7 @@
   "slug": "sinigang-na-bangus-recipe",
   "name": "Sinigang na Bangus Recipe",
   "recipe_type": null,
-  "brief_description": "This is a recipe for sinigang na bangus",
+  "brief_description": "A classic Filipino sour soup made with milkfish, fresh vegetables, and tamarind broth.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Add tomato and anion. Let boil."
+      "text": "Add tomato and onion. Let boil."
     },
     {
       "position": 3,
@@ -68,7 +68,9 @@
     "unsaturatedFatContent": "10 g"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "Fish"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -94,7 +96,7 @@
       "name": "kangkong",
       "normalized_name": "kangkong",
       "quantity": "1",
-      "unit": null,
+      "unit": "bunch",
       "preparation": null,
       "position": 3
     },
@@ -130,7 +132,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "wedged",
       "position": 7
     },
@@ -139,7 +141,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "wedged",
       "position": 8
     },
@@ -163,10 +165,10 @@
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water",
-      "normalized_name": "quarts water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "2",
-      "unit": null,
+      "unit": "quarts",
       "preparation": null,
       "position": 11
     }

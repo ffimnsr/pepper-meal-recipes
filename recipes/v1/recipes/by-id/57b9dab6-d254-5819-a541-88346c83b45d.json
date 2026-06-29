@@ -71,7 +71,10 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "peanuts",
+    "shellfish"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -124,7 +127,7 @@
       "name": "bok choy",
       "normalized_name": "bok choy",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 6
     },
@@ -148,20 +151,20 @@
     },
     {
       "ingredient_id": "5975675d-c0c7-5318-8679-44cc564afdd0",
-      "name": "pints water",
-      "normalized_name": "pints water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "1 1/2",
-      "unit": null,
+      "unit": "pints",
       "preparation": null,
       "position": 9
     },
     {
       "ingredient_id": "422bf946-65c2-5f88-94eb-2eef2f419527",
-      "name": "cornstarch diluted in 1/4 cup water",
-      "normalized_name": "cornstarch diluted in 1/4 cup water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "diluted in 1/4 cup water",
       "position": 10
     },
     {

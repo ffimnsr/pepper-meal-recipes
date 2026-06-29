@@ -5,7 +5,7 @@
   "slug": "tinolang-tahong-with-malunggay",
   "name": "Tinolang Tahong with Malunggay",
   "recipe_type": "soup",
-  "brief_description": "This is a recipe for tinolang tahong with malunggay. It is a soup dish composed of mussels, malunggay leaves, ginger, and lemongrass. It is best consumed during cold weather.",
+  "brief_description": "A comforting Filipino soup of mussels and malunggay leaves simmered with ginger and lemongrass. Best enjoyed during cold weather.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Add the onion, ginger, and lemongrass. Continue to boil in medium heat for 8 minutes."
+      "text": "Add the onion, ginger, and lemongrass. Continue to boil over medium heat for 8 minutes."
     },
     {
       "position": 3,
@@ -22,11 +22,11 @@
     },
     {
       "position": 4,
-      "text": "Gently slide-in the malunggay leaves. Cook for 6 to 8 minutes."
+      "text": "Gently slide in the malunggay leaves. Cook for 6 to 8 minutes."
     },
     {
       "position": 5,
-      "text": "Sprinkle salt and ground black pepper. Stir,"
+      "text": "Season with salt and ground black pepper. Stir."
     },
     {
       "position": 6,
@@ -49,9 +49,17 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "155500e6-3aa5-5631-9e88-3c9be1208d91",
@@ -67,16 +75,16 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "crushed",
       "position": 2
     },
     {
       "ingredient_id": "17681e05-1062-512a-a2b2-c11144c6420d",
-      "name": "stalk lemongrass",
-      "normalized_name": "stalk lemongrass",
+      "name": "lemongrass",
+      "normalized_name": "lemongrass",
       "quantity": "2",
-      "unit": null,
+      "unit": "stalks",
       "preparation": null,
       "position": 3
     },
@@ -94,7 +102,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 5
     },
@@ -140,8 +148,13 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Ensure mussels are thoroughly cleaned and debearded before cooking.",
+    "Discard any mussels that remain closed after cooking."
+  ],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 2 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/tinolang-tahong-with-malunggay/"

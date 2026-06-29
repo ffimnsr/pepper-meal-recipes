@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "43db7730-2768-5abc-9500-51caa3ec4496",
   "slug": "lengua-estofada",
-  "name": "Lengua Estofado",
-  "recipe_type": "dessert",
+  "name": "Lengua Estofada",
+  "recipe_type": "main",
   "brief_description": "Tender beef tongue braised in a sweet and tangy sauce of diced tomatoes, white wine, soy sauce, vinegar, and olives. This Filipino-Spanish stew is a holiday favorite best served over steamed white rice.",
-  "cuisine": "Filipino Mediterranean Spanish",
+  "cuisine": "Filipino-Spanish",
   "instructions": [
     {
       "position": 1,
@@ -103,11 +103,11 @@
     },
     {
       "ingredient_id": "30e689d9-f00c-5b96-8fdd-bc2fea5143de",
-      "name": "diced tomato",
-      "normalized_name": "diced tomato",
+      "name": "tomato",
+      "normalized_name": "tomato",
       "quantity": "1",
       "unit": "can",
-      "preparation": null,
+      "preparation": "diced",
       "position": 3
     },
     {
@@ -133,7 +133,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": "pieces",
+      "unit": "piece",
       "preparation": "minced",
       "position": 6
     },

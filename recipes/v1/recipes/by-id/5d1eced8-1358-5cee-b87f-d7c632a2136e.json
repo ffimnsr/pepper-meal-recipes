@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "5d1eced8-1358-5cee-b87f-d7c632a2136e",
   "slug": "sinaing-na-tulingan-recipe",
-  "name": "Sinaing na Tulingan Recipe",
+  "name": "Sinaing na Tulingan",
   "recipe_type": "main",
   "brief_description": "Sinaing na tulingan is a traditional Filipino dish made from tuna fish slow-cooked in a mixture of kamias, salt, and spices, resulting in a tangy and savory flavor.",
   "cuisine": "Filipino",
@@ -54,7 +54,7 @@
     }
   ],
   "servings": 4,
-  "cooking_time_minutes": 240,
+  "cooking_time_minutes": 300,
   "preparation_time_minutes": 20,
   "rest_time_minutes": null,
   "difficulty": "expert",
@@ -63,7 +63,7 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g",
+    "servingSize": "1 serving",
     "calories": "1 kcal",
     "carbohydrateContent": "0.1 g",
     "proteinContent": "0.2 g",
@@ -74,8 +74,13 @@
     "unsaturatedFatContent": "0.013 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "clay pot",
+    "knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "c8b25110-323c-54e8-ab4f-57d729468a2a",
@@ -99,10 +104,28 @@
       "ingredient_id": "738d3b9b-15fe-551c-bee2-96d86017610f",
       "name": "banana leaf",
       "normalized_name": "banana leaf",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "pre-cut",
       "position": 3
+    },
+    {
+      "ingredient_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "kamias (bilimbi)",
+      "normalized_name": "kamias",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "name": "rock salt",
+      "normalized_name": "rock salt",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
     }
   ],
   "categories": [

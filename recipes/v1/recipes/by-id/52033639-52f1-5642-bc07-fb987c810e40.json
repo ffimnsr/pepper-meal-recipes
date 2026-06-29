@@ -5,7 +5,7 @@
   "slug": "grilled-chicken-salad-recipe",
   "name": "Grilled Chicken Salad",
   "recipe_type": "salad",
-  "brief_description": "This is a recipe for Grilled Chicken Salad",
+  "brief_description": "A refreshing salad featuring grilled marinated chicken breast served over mixed greens with carrots and grape tomatoes, dressed with a simple Dijon vinaigrette.",
   "cuisine": null,
   "instructions": [
     {
@@ -49,9 +49,16 @@
     "@type": "NutritionInformation",
     "servingSize": "3 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free",
+    "high-protein"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "grill",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "9ad46e19-0e2b-506a-8d1a-83ff3667915a",
@@ -91,8 +98,8 @@
     },
     {
       "ingredient_id": "e8acaa2d-1c4f-53e2-959e-1adb7476c7f1",
-      "name": "mixed green",
-      "normalized_name": "mixed green",
+      "name": "mixed greens",
+      "normalized_name": "mixed greens",
       "quantity": "3",
       "unit": "cups",
       "preparation": null,
@@ -109,7 +116,7 @@
     },
     {
       "ingredient_id": "0f06217c-1261-5004-bf60-5ee81c8266af",
-      "name": "grape tomato",
+      "name": "grape tomatoes",
       "normalized_name": "grape tomato",
       "quantity": "1",
       "unit": "cup",

@@ -5,7 +5,7 @@
   "slug": "tuna-salad-over-crackers",
   "name": "Tuna Salad Over Crackers",
   "recipe_type": "salad",
-  "brief_description": "This is a recipe for Tuna Salad Over Crackers.",
+  "brief_description": "Creamy tuna salad with crisp celery and onion, lightly seasoned with mustard and served atop crackers. A quick, no-cook appetizer perfect for gatherings or light lunches.",
   "cuisine": null,
   "instructions": [
     {
@@ -28,7 +28,7 @@
   "servings": 6,
   "cooking_time_minutes": null,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 60,
   "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/50e4d02c-91dd-5c30-be06-0b69ef284bc9/cover.jpg",
   "video_url": null,
@@ -37,9 +37,17 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian"
+  ],
+  "allergens": [
+    "fish",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "66ae3f93-908c-5c7e-9051-3cd4266cdd07",
@@ -61,20 +69,20 @@
     },
     {
       "ingredient_id": "02d4f872-6e6e-56ff-93d3-4ebab5500e0f",
-      "name": "minced onion",
-      "normalized_name": "minced onion",
+      "name": "onion",
+      "normalized_name": "onion",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 3
     },
     {
       "ingredient_id": "9bedc1c9-82d3-506e-866d-cd918497f89f",
-      "name": "minced celery",
-      "normalized_name": "minced celery",
+      "name": "celery",
+      "normalized_name": "celery",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 4
     },
     {
@@ -88,11 +96,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
       "unit": null,
-      "preparation": null,
+      "preparation": "ground",
       "position": 6
     },
     {
@@ -120,7 +128,9 @@
   "tags": [],
   "related_recipe_ids": [],
   "recipe_notes": [],
-  "storage_notes": [],
+  "storage_notes": [
+    "Store leftover tuna salad in an airtight container in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/tuna-salad-over-crackers/"

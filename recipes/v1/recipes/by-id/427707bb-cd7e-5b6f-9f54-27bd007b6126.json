@@ -53,15 +53,24 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Gluten",
+    "Dairy",
+    "Eggs",
+    "Soy"
+  ],
+  "equipment": [
+    "Frying pan",
+    "Spatula",
+    "Knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "57b0a321-cb82-5597-b374-27f3a7d0e51c",
       "name": "cdo crispy burger patty",
       "normalized_name": "cdo crispy burger patty",
       "quantity": "6",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 1
     },
@@ -70,7 +79,7 @@
       "name": "slices tasty bread",
       "normalized_name": "slices tasty bread",
       "quantity": "3",
-      "unit": null,
+      "unit": "slices",
       "preparation": "cut in half",
       "position": 2
     },

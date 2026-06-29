@@ -29,7 +29,7 @@
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 180,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5d8d55e4-5f6b-58c4-b942-6bae0a5d7a70/cover.webp",
   "video_url": null,
   "additional_media": [],
@@ -47,8 +47,15 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "gluten"
+  ],
+  "equipment": [
+    "grill",
+    "bamboo skewers",
+    "large bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
@@ -61,10 +68,10 @@
     },
     {
       "ingredient_id": "451f8e2f-bd83-5153-99da-1c6e7b0d97fd",
-      "name": "sachets knorr savorrich pork liquid seasoning",
-      "normalized_name": "sachets knorr savorrich pork liquid seasoning",
+      "name": "Knorr SavorRich pork liquid seasoning",
+      "normalized_name": "knorr savorrich pork liquid seasoning",
       "quantity": "2",
-      "unit": null,
+      "unit": "sachets",
       "preparation": null,
       "position": 2
     },

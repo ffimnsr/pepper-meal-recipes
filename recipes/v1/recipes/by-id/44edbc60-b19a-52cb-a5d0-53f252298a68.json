@@ -5,7 +5,7 @@
   "slug": "mini-banana-cake-with-walnuts-for-kids",
   "name": "Mini Banana Cake with Walnuts for Kids",
   "recipe_type": "dessert",
-  "brief_description": "This is a Recipe for Mini Banana Cake with walnuts for Kids",
+  "brief_description": "Mini banana cake with walnuts for kids",
   "cuisine": null,
   "instructions": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Combine softened butter, vanilla extract, and sour cream in another bowl. Start to cream the mixture; use a blended, if possible for better results. The beater blade of your stand mixer needs to be used in this process."
+      "text": "Combine butter, vanilla extract, and sour cream in another bowl. Start to cream the mixture; use a blender, if possible for better results. The beater blade of your stand mixer needs to be used in this process."
     },
     {
       "position": 4,
@@ -30,11 +30,11 @@
     },
     {
       "position": 6,
-      "text": "Bake in the oven for 20 to 30 minutes or until it turns golden brown"
+      "text": "Bake in the oven for 20 to 30 minutes or until it turns golden brown."
     },
     {
       "position": 7,
-      "text": "Remove from oven. Serve. You can also top with whip cream so that kids will like it more."
+      "text": "Remove from oven. Serve. You can also top with whipped cream so that kids will like it more."
     }
   ],
   "servings": 5,
@@ -50,8 +50,19 @@
     "servingSize": "5 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "gluten",
+    "dairy",
+    "tree nuts"
+  ],
+  "equipment": [
+    "oven",
+    "mixing bowl",
+    "wire whisk",
+    "stand mixer",
+    "baking tray",
+    "muffin pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
@@ -67,7 +78,7 @@
       "name": "ripe banana",
       "normalized_name": "ripe banana",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 2
     },
@@ -84,18 +95,18 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 4
     },
     {
       "ingredient_id": "4cadfa54-7c73-5755-9a01-b8c539936e08",
-      "name": "softened butter",
-      "normalized_name": "softened butter",
+      "name": "butter",
+      "normalized_name": "butter",
       "quantity": "6",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "softened",
       "position": 5
     },
     {
@@ -127,11 +138,11 @@
     },
     {
       "ingredient_id": "9031b43e-32c1-5e1d-9a81-d432a314c14e",
-      "name": "chopped walnut",
-      "normalized_name": "chopped walnut",
+      "name": "walnut",
+      "normalized_name": "walnut",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     }
   ],

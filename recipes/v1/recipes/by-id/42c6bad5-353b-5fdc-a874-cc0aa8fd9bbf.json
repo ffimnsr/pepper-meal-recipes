@@ -4,9 +4,9 @@
   "id": "42c6bad5-353b-5fdc-a874-cc0aa8fd9bbf",
   "slug": "beef-bicol-express",
   "name": "Beef Bicol Express",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Beef Bicol Express is the beef version of the popular Bicol express dish. The latter uses pork (usually pork belly) as the main ingredient. I got some gorgeous fresh beef chuck from the supermarket and I decided to consume it for this dish. I was attracted with the nice looking marbled fat. This adds a nice flavor to the meat and maintains moisture",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -50,8 +50,14 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "pan",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "89009c1c-76a6-5143-8d75-494309a66aa0",
@@ -100,11 +106,11 @@
     },
     {
       "ingredient_id": "5ec285ac-e5f8-545b-b77d-a4264f14cee4",
-      "name": "minced ginger",
-      "normalized_name": "minced ginger",
+      "name": "ginger",
+      "normalized_name": "ginger",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 6
     },
     {
@@ -112,7 +118,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 7
     },

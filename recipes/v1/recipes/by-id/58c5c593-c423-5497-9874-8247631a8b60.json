@@ -4,9 +4,9 @@
   "id": "58c5c593-c423-5497-9874-8247631a8b60",
   "slug": "seafood-fried-shrimp-camaron-rebosado-recipe",
   "name": "Camaron Rebosado Recipe",
-  "recipe_type": "drink",
+  "recipe_type": "main",
   "brief_description": "Camaron Rebosado (translated in English as Overflowed Shrimp) is an easy seafood dish that makes use of shrimps as the primary component. Shelled shrimps are marinated in lemon juice and dipped in a batter before deep frying.This style of cooking shrimp nearly resembles the Japanese tempura and shrimp croquettes; however, some ingredients and preparation steps vary.",
-  "cuisine": null,
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Add the eggs and milk stir until all the ingredients are well distributed."
+      "text": "Add the eggs and milk and stir until all the ingredients are well distributed."
     },
     {
       "position": 4,
@@ -49,9 +49,22 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian"
+  ],
+  "allergens": [
+    "shellfish",
+    "gluten",
+    "dairy",
+    "eggs"
+  ],
+  "equipment": [
+    "deep fryer or heavy-bottomed pot",
+    "mixing bowls",
+    "whisk",
+    "tongs",
+    "paper towels"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -68,7 +81,7 @@
       "normalized_name": "lemon",
       "quantity": "1",
       "unit": "piece",
-      "preparation": null,
+      "preparation": "juiced",
       "position": 2
     },
     {
@@ -135,8 +148,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, ensure the oil is hot enough (around 350\u00b0F/175\u00b0C) before frying.",
+    "Serve immediately with sweet and sour sauce for dipping."
+  ],
+  "storage_notes": [
+    "Best consumed immediately while crispy.",
+    "Leftovers can be refrigerated in an airtight container for up to 2 days, though they will lose crispiness. Reheat in an oven or air fryer to restore some texture."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/seafood-fried-shrimp-camaron-rebosado-recipe/"

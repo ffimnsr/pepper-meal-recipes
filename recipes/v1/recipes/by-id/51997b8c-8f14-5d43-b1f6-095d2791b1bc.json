@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "51997b8c-8f14-5d43-b1f6-095d2791b1bc",
   "slug": "how-to-make-kfc-style-gravy-recipe",
-  "name": "KFC Style Gravy Recipe",
+  "name": "KFC-Style Gravy",
   "recipe_type": null,
-  "brief_description": "This Copycat KFC Style Gravy is the best thing that you can put on your favorite fried chicken. It tastes really good.",
-  "cuisine": null,
+  "brief_description": "A rich, savory copycat KFC-style gravy perfect for drizzling over fried chicken or mashed potatoes.",
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
@@ -47,11 +47,17 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Milk",
+    "Wheat"
+  ],
+  "equipment": [
+    "Saucepan",
+    "Whisk"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
@@ -79,6 +85,15 @@
       "unit": "cups",
       "preparation": null,
       "position": 3
+    },
+    {
+      "ingredient_id": "c1847d45-3e2b-5f1a-9c8d-7e6f5a4b3c2d",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
     }
   ],
   "categories": [
@@ -90,8 +105,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Stir continuously when making the roux to prevent burning and ensure an even brown color."
+  ],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 3 days. Reheat gently before serving."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-make-kfc-style-gravy-recipe/"

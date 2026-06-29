@@ -5,7 +5,7 @@
   "slug": "pork-chop-bicol-express",
   "name": "Pork Chop Bicol Express",
   "recipe_type": "main",
-  "brief_description": "This is a recipe for Pork Chop Bicol Express",
+  "brief_description": "A Filipino dish featuring pan-fried pork chops simmered in rich coconut cream with shrimp paste, Thai chilies, and green peppers for a spicy, creamy, and savory flavor profile.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -53,13 +53,13 @@
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5034e3a1-79b3-53e5-bda9-f0c9ab4690e2/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g",
+    "servingSize": "1 serving",
     "calories": "1122 kcal",
     "carbohydrateContent": "24 g",
     "proteinContent": "21 g",
@@ -72,9 +72,21 @@
     "sugarContent": "3 g",
     "unsaturatedFatContent": "30 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Tree Nuts"
+  ],
+  "equipment": [
+    "frying pan",
+    "knife",
+    "cutting board",
+    "tongs",
+    "spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "d2bbe037-93f1-5f58-a13f-fae0320f7239",
@@ -126,7 +138,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 6
     },
@@ -190,8 +202,16 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Adjust the amount of Thai chili peppers according to your preferred spice level",
+    "If the sauce becomes too thick during cooking, add hot water in small increments",
+    "For best results, use bone-in pork chops for more flavor",
+    "Serve immediately with steamed jasmine rice"
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days",
+    "Reheat gently on stovetop with a splash of water to loosen the sauce"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/pork-chop-bicol-express/"

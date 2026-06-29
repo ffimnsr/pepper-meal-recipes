@@ -3,9 +3,9 @@
   "schema_version": 1,
   "id": "514b076c-b012-5321-a600-69abecc8ec6e",
   "slug": "how-to-cook-pumpkin-soup",
-  "name": "Pumpkin Soup Recipe",
+  "name": "Pumpkin Soup",
   "recipe_type": "soup",
-  "brief_description": "This Pumpkin Soup Recipe is rich and hearty, and it is so good. Get to know the simple steps on how to cook this soup through our recipe.",
+  "brief_description": "Rich and hearty pumpkin soup made with roasted calabaza squash, blended with onions and chicken broth, and finished with heavy cream.",
   "cuisine": null,
   "instructions": [
     {
@@ -53,17 +53,24 @@
   "cooking_time_minutes": 40,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/514b076c-b012-5321-a600-69abecc8ec6e/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "dairy"
+  ],
+  "equipment": [
+    "baking tray",
+    "blender",
+    "cooking pot",
+    "oven"
+  ],
   "ingredients": [
     {
       "ingredient_id": "2a16c6be-41eb-5d45-b527-00280699811e",
@@ -97,7 +104,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 4
     },

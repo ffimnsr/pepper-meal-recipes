@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "5292ac06-e04c-5c09-bb78-59eab7d1a5aa",
   "slug": "easy-tuna-kilawin-recipe",
-  "name": "Kilawin",
+  "name": "Tuna Kilawin",
   "recipe_type": "appetizer",
   "brief_description": "Fresh, cubed ahi tuna marinated in citrus and spices.",
-  "cuisine": "Fiipino",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -46,27 +46,47 @@
     "sugarContent": "0.5 g",
     "unsaturatedFatContent": "1.1 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Fish"
+  ],
+  "equipment": [
+    "Mixing bowl",
+    "Refrigerator",
+    "Knife",
+    "Cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "836f3743-7c11-5874-a8da-8d3c89fc1c76",
-      "name": "juice from 3 pieces lemon",
-      "normalized_name": "juice from 3 pieces lemon",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "juiced",
       "position": 1
     },
     {
+      "ingredient_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "ahi tuna",
+      "normalized_name": "ahi tuna",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cubed",
+      "position": 2
+    },
+    {
       "ingredient_id": "51bb8e4a-9394-583f-a01b-b4c019d9192b",
-      "name": "thai chili",
+      "name": "Thai chili",
       "normalized_name": "thai chili",
       "quantity": "6",
       "unit": "pieces",
       "preparation": "chopped",
-      "position": 2
+      "position": 3
     },
     {
       "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
@@ -75,7 +95,7 @@
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 3
+      "position": 4
     },
     {
       "ingredient_id": "7c4b84bc-2ec4-55fe-b774-67e45882f217",
@@ -84,7 +104,7 @@
       "quantity": "1/2",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 4
+      "position": 5
     },
     {
       "ingredient_id": "bdb57237-b976-59dd-abd1-dfb1d9e58253",
@@ -93,7 +113,7 @@
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -102,16 +122,16 @@
       "quantity": "1/4",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 6
+      "position": 7
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
-      "position": 7
+      "position": 8
     }
   ],
   "categories": [
@@ -141,11 +161,13 @@
   ],
   "related_recipe_ids": [],
   "recipe_notes": [
-    "If you\u2019re using frozen tuna, just make sure it\u2019s fully thawed and patted dry before marinating. This keeps any extra water out of the dish, so the flavors really stick.",
-    "If you\u2019re craving a sweeter touch, you could swap the sugar with honey or maple syrup. It\u2019ll change the taste a bit, but it can give a nice twist if that\u2019s what you\u2019re going for.",
-    "Feel free to add thinly sliced onions or some diced cucumber is desired."
+    "If you're using frozen tuna, just make sure it's fully thawed and patted dry before marinating. This keeps any extra water out of the dish, so the flavors really stick.",
+    "If you're craving a sweeter touch, you could swap the sugar with honey or maple syrup. It'll change the taste a bit, but it can give a nice twist if that's what you're going for.",
+    "Feel free to add thinly sliced onions or some diced cucumber if desired."
   ],
-  "storage_notes": [],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator and consume within 24 hours for best freshness. Do not freeze once marinated."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/easy-tuna-kilawin-recipe/"

@@ -4,9 +4,9 @@
   "id": "4e03c560-6f0c-59a2-b72a-b98ee7643ead",
   "slug": "how-to-cook-spinach-and-feta-pasta",
   "name": "Spinach and Feta Pasta Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This Spinach and Feta Pasta Recipe is simple and easy to follow. This dish really tastes good.",
-  "cuisine": null,
+  "cuisine": "Mediterranean",
   "instructions": [
     {
       "position": 1,
@@ -53,9 +53,20 @@
     "@type": "NutritionInformation",
     "servingSize": "5 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Dairy",
+    "Gluten"
+  ],
+  "equipment": [
+    "Skillet",
+    "Large pot",
+    "Colander",
+    "Cutting board",
+    "Knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "45c3c86c-890f-53fa-9af4-b0559a54c76d",
@@ -80,7 +91,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 3
     },
@@ -146,15 +157,6 @@
       "unit": null,
       "preparation": null,
       "position": 10
-    },
-    {
-      "ingredient_id": "f983a3fe-f871-566b-86c5-ef39f98449fc",
-      "name": "cooking procedure",
-      "normalized_name": "cooking procedure",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
-      "position": 11
     }
   ],
   "categories": [

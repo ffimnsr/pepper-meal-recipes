@@ -4,8 +4,8 @@
   "id": "56532d37-f041-51e7-bb3e-90a3759800ca",
   "slug": "nilagang-buto-buto-ng-baka-recipe",
   "name": "Nilagang Buto-buto ng Baka Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Nilagang Buto-buto ng Baka",
+  "recipe_type": "main",
+  "brief_description": "A comforting Filipino beef soup featuring tender beef neck bones simmered for hours with saba bananas, potatoes, and leafy greens, finished with fish sauce for a savory broth.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -40,18 +40,28 @@
   "servings": 6,
   "cooking_time_minutes": 180,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
-  "difficulty": "expert",
+  "rest_time_minutes": 8,
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/56532d37-f041-51e7-bb3e-90a3759800ca/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "deep soup pot",
+    "knife",
+    "cutting board",
+    "ladle"
+  ],
   "ingredients": [
     {
       "ingredient_id": "57a5b168-3bec-5051-98e1-391d46161d2e",
@@ -64,10 +74,10 @@
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water",
-      "normalized_name": "quarts water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "2",
-      "unit": null,
+      "unit": "quarts",
       "preparation": null,
       "position": 2
     },
@@ -76,7 +86,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "wedged",
       "position": 3
     },
@@ -103,16 +113,16 @@
       "name": "baking potato",
       "normalized_name": "baking potato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 6
     },
     {
       "ingredient_id": "6ebe988d-e739-593d-94a8-9a69328cfafd",
-      "name": "bunches baby bok choy",
-      "normalized_name": "bunches baby bok choy",
+      "name": "baby bok choy",
+      "normalized_name": "baby bok choy",
       "quantity": "2",
-      "unit": null,
+      "unit": "bunches",
       "preparation": null,
       "position": 7
     },

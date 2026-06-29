@@ -4,9 +4,9 @@
   "id": "4ed7612a-9a8a-565a-8d17-67e7d1b07399",
   "slug": "creamy-veggie-lasagna",
   "name": "Creamy Veggie Lasagna",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Vegetable Lasagna",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "A creamy vegetarian lasagna layered with broccoli, mushrooms, carrots, and three cheeses in a homemade b\u00e9chamel sauce.",
+  "cuisine": "italian",
   "instructions": [
     {
       "position": 1,
@@ -14,23 +14,23 @@
     },
     {
       "position": 2,
-      "text": "Melt the butter in a saucepan. Gradually add-in flour and cook until light brown.."
+      "text": "Melt the butter in a saucepan. Gradually add the flour and cook until light brown."
     },
     {
       "position": 3,
-      "text": "Gently stir-in the milk. Cook while stirring until the texture thickens. Add-in nutmeg and salt. Stir and turn off heat. This is now your bechamel sauce."
+      "text": "Gently stir in the milk. Cook while stirring until the texture thickens. Add the nutmeg and salt. Stir and turn off the heat. This is now your b\u00e9chamel sauce."
     },
     {
       "position": 4,
-      "text": "Preheat oven to 350 degrees Fahrenheit."
+      "text": "Preheat the oven to 350 degrees Fahrenheit."
     },
     {
       "position": 5,
-      "text": "Prepare a wide rectangular baking pan. Start setting-up your masterpiece by spreading the bechamel sauce on the pan. Arrange a layer of lasagna noodles, followed by another layer of vegetables. Sprinkle some mozzarella, Parmesan, and ricotta cheese on top, and then pour-in some bechamel sauce. Create another layer of lasagna noodles. Continue doing the process until you are able to fill your pan. Make sure that the last layer is made-up of lasagna noodles topped with parmesan cheese."
+      "text": "Prepare a wide rectangular baking pan. Start by spreading b\u00e9chamel sauce on the bottom. Arrange a layer of lasagna noodles, followed by a layer of vegetables. Sprinkle mozzarella, Parmesan, and ricotta cheese on top, then pour in some b\u00e9chamel sauce. Add another layer of lasagna noodles. Repeat the process until the pan is full, ending with a layer of lasagna noodles topped with Parmesan cheese."
     },
     {
       "position": 6,
-      "text": "Cover the rectangular pan with aluminum foil. Bake for 25 to 35 minutes."
+      "text": "Cover the pan with aluminum foil. Bake for 25 to 35 minutes."
     },
     {
       "position": 7,
@@ -66,9 +66,20 @@
     "sugarContent": "9 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten"
+  ],
+  "equipment": [
+    "oven",
+    "microwave",
+    "saucepan",
+    "baking pan",
+    "aluminum foil"
+  ],
   "ingredients": [
     {
       "ingredient_id": "30298945-7f90-5b38-99e6-af308e3bdc8a",
@@ -207,8 +218,12 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Let the lasagna rest for 10 minutes before slicing for cleaner cuts."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/creamy-veggie-lasagna/"

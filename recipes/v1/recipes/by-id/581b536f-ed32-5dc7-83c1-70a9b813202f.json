@@ -5,8 +5,8 @@
   "slug": "sinigang-na-bangus-belly-sa-miso",
   "name": "Sinigang na Bangus Belly sa Miso",
   "recipe_type": "soup",
-  "brief_description": "Boneless milkfish belly soup in sour broth",
-  "cuisine": null,
+  "brief_description": "Filipino sour soup with boneless milkfish belly, vegetables, and savory miso broth",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -67,9 +67,16 @@
     "sugarContent": "6 g",
     "unsaturatedFatContent": "3 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian"
+  ],
+  "allergens": [
+    "Fish",
+    "Soy"
+  ],
+  "equipment": [
+    "Cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "c6be3308-a92c-5b16-8d25-5147c93c729b",
@@ -103,7 +110,7 @@
       "name": "plum tomato",
       "normalized_name": "plum tomato",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "wedged",
       "position": 4
     },
@@ -112,7 +119,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 5
     },
@@ -121,7 +128,7 @@
       "name": "okra",
       "normalized_name": "okra",
       "quantity": "10",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 6
     },
@@ -130,7 +137,7 @@
       "name": "daikon radish",
       "normalized_name": "daikon radish",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 7
     },
@@ -139,7 +146,7 @@
       "name": "long green pepper",
       "normalized_name": "long green pepper",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 8
     },
@@ -157,7 +164,7 @@
       "name": "mustard green",
       "normalized_name": "mustard green",
       "quantity": "1",
-      "unit": null,
+      "unit": "bunch",
       "preparation": null,
       "position": 10
     },
@@ -180,8 +187,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Adjust sourness to taste by varying the amount of sinigang mix."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 2 days. Reheat gently to avoid breaking the fish."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/sinigang-na-bangus-belly-sa-miso/"

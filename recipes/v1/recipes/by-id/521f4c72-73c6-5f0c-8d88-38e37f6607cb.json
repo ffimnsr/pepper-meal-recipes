@@ -5,7 +5,7 @@
   "slug": "lechon-carajay-recipe",
   "name": "Lechon Carajay Recipe",
   "recipe_type": null,
-  "brief_description": "This is e recipe for Lechon Carajay or Deep Fried Pork Belly",
+  "brief_description": "This is a recipe for Lechon Carajay or Deep Fried Pork Belly",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -48,7 +48,7 @@
   "servings": 6,
   "cooking_time_minutes": 18,
   "preparation_time_minutes": 120,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 120,
   "difficulty": "expert",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/521f4c72-73c6-5f0c-8d88-38e37f6607cb/cover.jpg",
   "video_url": null,
@@ -56,7 +56,12 @@
   "nutritional_information": null,
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "cooking pot",
+    "deep fryer",
+    "plate",
+    "refrigerator"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
@@ -90,7 +95,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 4
     },

@@ -5,7 +5,7 @@
   "slug": "tuna-macaroni-salad",
   "name": "Tuna Macaroni Salad",
   "recipe_type": "salad",
-  "brief_description": "This is a recipe for Tuna Macaroni Salad.",
+  "brief_description": "A creamy and refreshing pasta salad made with elbow macaroni, tuna, and mayonnaise. Perfect as a side dish or light meal.",
   "cuisine": null,
   "instructions": [
     {
@@ -44,8 +44,8 @@
   "servings": 6,
   "cooking_time_minutes": 7,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
-  "difficulty": "medium",
+  "rest_time_minutes": 60,
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/535e4cc7-2e58-56fc-9bc1-2c526bfa57cd/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -54,8 +54,18 @@
     "servingSize": "5 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Fish",
+    "Wheat",
+    "Egg",
+    "Milk"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Colander",
+    "Large mixing bowl",
+    "Mixing spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "90ad4070-8a31-5a7c-9087-58102c7ff05f",
@@ -68,7 +78,7 @@
     },
     {
       "ingredient_id": "7402d10f-ce7d-5e88-82dc-9d8f54fcdf4a",
-      "name": "ladys choice mayonnaise",
+      "name": "Lady's Choice Mayonnaise",
       "normalized_name": "ladys choice mayonnaise",
       "quantity": "1 1/2",
       "unit": "cup",
@@ -89,17 +99,17 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 4
     },
     {
       "ingredient_id": "050fd1fb-31a0-5e06-b14b-ec4e9d1a5a3a",
-      "name": "minced celery heart",
-      "normalized_name": "minced celery heart",
+      "name": "celery heart",
+      "normalized_name": "celery heart",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "minced",
       "position": 5
     },
     {
@@ -113,11 +123,11 @@
     },
     {
       "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
-      "name": "shredded cheddar cheese",
-      "normalized_name": "shredded cheddar cheese",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 7
     },
     {
@@ -131,11 +141,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 9
     },
     {
@@ -157,8 +167,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Gently stir the macaroni once every minute while boiling to prevent sticking.",
+    "For best flavor, chill for at least 1 hour before serving.",
+    "Adjust mayonnaise amount to desired creaminess."
+  ],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 3 days.",
+    "Stir before serving leftovers."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/tuna-macaroni-salad/"

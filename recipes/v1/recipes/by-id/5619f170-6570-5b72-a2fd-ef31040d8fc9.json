@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Roast for 60 to 80 minutes (time will depend on the thickness).Baste with remaining mixture every 20 minutes while roasting."
+      "text": "Roast for 60 to 80 minutes (time will depend on the thickness). Baste with remaining mixture every 20 minutes while roasting."
     },
     {
       "position": 6,
@@ -40,7 +40,7 @@
   "servings": 2,
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 60,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5619f170-6570-5b72-a2fd-ef31040d8fc9/cover.jpg",
   "video_url": null,
@@ -51,14 +51,17 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "roasting pan",
+    "oven"
+  ],
   "ingredients": [
     {
       "ingredient_id": "520098e1-aa5e-5073-aa1a-c22312db3a59",
       "name": "chicken quarter",
       "normalized_name": "chicken quarter",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 1
     },
@@ -91,11 +94,11 @@
     },
     {
       "ingredient_id": "56944f38-a9fd-539c-ab2b-dbb3446d22a9",
-      "name": "crushed and",
-      "normalized_name": "crushed and",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "3",
       "unit": "teaspoons",
-      "preparation": "minced garlic",
+      "preparation": "crushed and minced",
       "position": 5
     },
     {
@@ -103,17 +106,17 @@
       "name": "extra-virgin olive oil",
       "normalized_name": "extra-virgin olive oil",
       "quantity": "2",
-      "unit": "tablespoon",
+      "unit": "tablespoons",
       "preparation": null,
       "position": 6
     },
     {
       "ingredient_id": "4f8aca36-a86e-5f5d-a9f2-804172f83ebb",
-      "name": "chopped fresh flat leaf parsley",
-      "normalized_name": "chopped fresh flat leaf parsley",
+      "name": "fresh flat leaf parsley",
+      "normalized_name": "flat leaf parsley",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 7
     },
     {

@@ -4,9 +4,9 @@
   "id": "57d31c89-0a8a-5827-a761-b061ee3f0e8d",
   "slug": "fresh-basil-and-sun-dried-tomato-spaghetti-pasta",
   "name": "Fresh Basil and Sun Dried Tomato Spaghetti Pasta",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Fresh Basil and Sun Dried Tomato Spaghetti is a simple yet tasty pasta dish that anyone can prepare with ease. I like it because it is fresh",
-  "cuisine": null,
+  "cuisine": "italian",
   "instructions": [
     {
       "position": 1,
@@ -51,11 +51,21 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "gluten",
+    "dairy"
+  ],
+  "equipment": [
+    "large pot",
+    "colander",
+    "skillet",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f3cf53a3-b225-53f5-bdcc-67cc5aabc4d9",
@@ -104,11 +114,11 @@
     },
     {
       "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
-      "name": "grated parmesan cheese",
-      "normalized_name": "grated parmesan cheese",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
       "quantity": "6",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "grated",
       "position": 6
     },
     {
@@ -130,8 +140,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Add basil at the last minute to preserve its fresh flavor and color",
+    "Use high-quality parmesan for best results"
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 3 days",
+    "Reheat gently with a splash of olive oil to prevent drying"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/fresh-basil-and-sun-dried-tomato-spaghetti-pasta/"

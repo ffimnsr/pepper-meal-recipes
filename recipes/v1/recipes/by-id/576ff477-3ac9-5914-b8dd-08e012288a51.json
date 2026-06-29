@@ -59,10 +59,10 @@
   "dietary_labels": [],
   "allergens": [],
   "equipment": [
-    "Cooking pot For simmering the chicken and noodles",
-    "Knife For chopping aromatics and slicing patola",
-    "Cutting board For preparing ingredients",
-    "Ladle For serving the soup"
+    "Cooking pot",
+    "Knife",
+    "Cutting board",
+    "Ladle"
   ],
   "ingredients": [
     {
@@ -121,10 +121,10 @@
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water",
-      "normalized_name": "quarts water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "1.5",
-      "unit": null,
+      "unit": "quart",
       "preparation": null,
       "position": 7
     },
@@ -139,11 +139,11 @@
     },
     {
       "ingredient_id": "ef560a9f-49d8-5ec3-8029-99b15a88513f",
-      "name": "roasted garlic",
-      "normalized_name": "roasted garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "tbsp",
-      "preparation": null,
+      "preparation": "roasted",
       "position": 9
     },
     {
@@ -152,7 +152,7 @@
       "normalized_name": "green onion",
       "quantity": "2",
       "unit": "tbsp",
-      "preparation": "for garnish chopped",
+      "preparation": "chopped",
       "position": 10
     },
     {
@@ -160,17 +160,17 @@
       "name": "fish sauce",
       "normalized_name": "fish sauce",
       "quantity": null,
-      "unit": null,
+      "unit": "tbsp",
       "preparation": null,
       "position": 11
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "unit": "tsp",
+      "preparation": "ground",
       "position": 12
     }
   ],

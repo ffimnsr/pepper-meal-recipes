@@ -6,7 +6,7 @@
   "name": "Pancit Batil Patung Recipe",
   "recipe_type": null,
   "brief_description": "Pancit Batil Patung is a popular noodle dish in Tuguegarao City, Cagayan. It is composed of two parts: the noodles with toppings, and the sauce",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Hold the chopped celery, carrot, and onion together using a cheese cloth and secure using a kithen thread. This will be the mirepoix. Add the mirepoix in the cooking pot and let boil."
+      "text": "Hold the chopped celery, carrot, and onion together using a cheese cloth and secure using a kitchen thread. This will be the mirepoix. Add the mirepoix in the cooking pot and let boil."
     },
     {
       "position": 3,
@@ -42,7 +42,7 @@
     },
     {
       "position": 9,
-      "text": "Push the meat and vegetables on one side of the pan. Arrange the Miki noodles on the other side. Toss the noodles while cooking. Add soy sauce and ground black pepper. cook for 2 to 3 minutes."
+      "text": "Push the meat and vegetables on one side of the pan. Arrange the Miki noodles on the other side. Toss the noodles while cooking. Add soy sauce and ground black pepper. Cook for 2 to 3 minutes."
     },
     {
       "position": 10,
@@ -91,11 +91,11 @@
   "ingredients": [
     {
       "ingredient_id": "159c25db-aa3d-56fb-8596-cb55720d6fa4",
-      "name": "minced beef",
-      "normalized_name": "minced beef",
+      "name": "beef",
+      "normalized_name": "beef",
       "quantity": "6",
       "unit": "oz",
-      "preparation": null,
+      "preparation": "minced",
       "position": 1
     },
     {
@@ -121,7 +121,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 4
     },
@@ -136,20 +136,20 @@
     },
     {
       "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
-      "name": "chopped green onion",
-      "normalized_name": "chopped green onion",
+      "name": "green onion",
+      "normalized_name": "green onion",
       "quantity": "3/4",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 6
     },
     {
       "ingredient_id": "4abbb631-0ee9-5952-9b0f-4aaae7016725",
-      "name": "shredded cabbage",
-      "normalized_name": "shredded cabbage",
+      "name": "cabbage",
+      "normalized_name": "cabbage",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 7
     },
     {
@@ -163,10 +163,10 @@
     },
     {
       "ingredient_id": "b897bd9e-b83f-5e71-bdfb-cb929cf58ff9",
-      "name": "tablepespoons soy sauce",
-      "normalized_name": "tablepespoons soy sauce",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
       "quantity": "3",
-      "unit": null,
+      "unit": "tablespoons",
       "preparation": null,
       "position": 9
     },
@@ -175,7 +175,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 10
     },
@@ -220,7 +220,7 @@
       "name": "beef cube",
       "normalized_name": "beef cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 15
     },
@@ -229,7 +229,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 16
     },
@@ -244,10 +244,10 @@
     },
     {
       "ingredient_id": "ac43bfa7-7896-5ff3-bde4-13aaa7c8b6f3",
-      "name": "stalk celery",
-      "normalized_name": "stalk celery",
+      "name": "celery",
+      "normalized_name": "celery",
       "quantity": "1",
-      "unit": null,
+      "unit": "stalk",
       "preparation": "chopped",
       "position": 18
     },
@@ -256,7 +256,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 19
     },
@@ -265,7 +265,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 20
     }

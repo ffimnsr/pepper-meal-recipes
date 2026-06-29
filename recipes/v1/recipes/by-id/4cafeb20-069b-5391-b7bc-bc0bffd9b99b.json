@@ -14,11 +14,11 @@
     },
     {
       "position": 2,
-      "text": "Remove the fish from the frying pan and place in a a plate with paper towels. Set aside."
+      "text": "Remove the fish from the frying pan and place in a plate with paper towels. Set aside."
     },
     {
       "position": 3,
-      "text": "Using a clean pan, heat about 2 teaspoons of cooking oil then saut\u00e9 the garlic, onions, and tomatoes"
+      "text": "Using a clean pan, heat about 2 teaspoons of cooking oil then saut\u00e9 the garlic, onions, and tomatoes."
     },
     {
       "position": 4,
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Put-in the chopped green onions and water then bring to a boil."
+      "text": "Put in the chopped green onions and water then bring to a boil."
     },
     {
       "position": 6,
@@ -34,15 +34,15 @@
     },
     {
       "position": 7,
-      "text": "Pour the beaten eggs on the pan. Ensure that it is distributed evenly."
+      "text": "Pour the beaten eggs into the pan. Ensure that they are distributed evenly."
     },
     {
       "position": 8,
-      "text": "Once the eggs curdles or coagulates, you may start stirring the mixture."
+      "text": "Once the eggs curdle or coagulate, you may start stirring the mixture."
     },
     {
       "position": 9,
-      "text": "Simmer for another 2 minutes than transfer to a serving plate."
+      "text": "Simmer for another 2 minutes then transfer to a serving plate."
     },
     {
       "position": 10,
@@ -53,7 +53,7 @@
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4cafeb20-069b-5391-b7bc-bc0bffd9b99b/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -73,8 +73,14 @@
     "unsaturatedFatContent": "29 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Fish",
+    "Egg"
+  ],
+  "equipment": [
+    "Frying pan",
+    "Spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3612c5d7-4545-5e0b-a284-8afb44d98042",
@@ -90,7 +96,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "diced",
       "position": 2
     },
@@ -99,7 +105,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "diced",
       "position": 3
     },
@@ -114,11 +120,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 5
     },
     {
@@ -126,7 +132,7 @@
       "name": "green onion",
       "normalized_name": "green onion",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "chopped",
       "position": 6
     },
@@ -144,7 +150,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "beaten",
       "position": 8
     },

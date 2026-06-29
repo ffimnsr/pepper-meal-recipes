@@ -4,9 +4,9 @@
   "id": "4f696823-19e6-52b6-989d-5461121656f9",
   "slug": "sweet-and-sour-mahi-mahi",
   "name": "Sweet and Sour Mahi-mahi",
-  "recipe_type": "dessert",
+  "recipe_type": "main",
   "brief_description": "Sweet and sour Mahi-mahi is a type of sweet and sour fish recipe. It is one of the easiest and quickest fish dish that you can make.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -53,16 +53,20 @@
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4f696823-19e6-52b6-989d-5461121656f9/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "fish",
+    "gluten",
+    "soy"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -97,7 +101,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 4
     },
@@ -106,7 +110,7 @@
       "name": "green bell pepper",
       "normalized_name": "green bell pepper",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 5
     },
@@ -124,7 +128,7 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 7
     },
@@ -157,11 +161,11 @@
     },
     {
       "ingredient_id": "30158449-c261-50d1-8601-9b8fb84c48c7",
-      "name": "cornstarch diluted in 3 tablespoons water",
-      "normalized_name": "cornstarch diluted in 3 tablespoons water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1 1/2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "diluted in 3 tablespoons water",
       "position": 11
     },
     {

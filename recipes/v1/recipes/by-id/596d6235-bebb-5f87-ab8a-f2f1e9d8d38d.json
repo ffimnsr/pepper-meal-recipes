@@ -4,9 +4,9 @@
   "id": "596d6235-bebb-5f87-ab8a-f2f1e9d8d38d",
   "slug": "chili-garlic-shrimp-stir-fry",
   "name": "Chili Garlic Shrimp Stir Fry",
-  "recipe_type": null,
-  "brief_description": "Chili Garlic Shrimp Stir Fry is a quick and easy shrimp recipe that you can make at home. This dish can be compared to the chili shrimp that they serve in Dampa -- the only difference is that you are the one who prepared it.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "A quick and flavorful Filipino shrimp dish cooked in butter with garlic, banana ketchup, and Sriracha. Similar to the chili shrimp served in Dampa seafood markets, but easy to make at home.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -55,11 +55,17 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": null
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shellfish",
+    "dairy"
+  ],
+  "equipment": [
+    "frying pan",
+    "spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -72,11 +78,11 @@
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 2
     },
     {
@@ -111,7 +117,7 @@
       "name": "sherry cooking wine",
       "normalized_name": "sherry cooking wine",
       "quantity": "3",
-      "unit": "tablespoon",
+      "unit": "tablespoons",
       "preparation": null,
       "position": 6
     },
@@ -126,20 +132,20 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
       "unit": null,
-      "preparation": null,
+      "preparation": "ground",
       "position": 8
     },
     {
       "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
-      "name": "chopped green onion",
-      "normalized_name": "chopped green onion",
+      "name": "green onion",
+      "normalized_name": "green onion",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     }
   ],

@@ -3,7 +3,7 @@
   "schema_version": 1,
   "id": "479eac72-c3be-5971-842c-659375ceef3c",
   "slug": "sugar-cookies-recipe",
-  "name": "Sugar Cookie Recipe",
+  "name": "Sugar Cookies",
   "recipe_type": "dessert",
   "brief_description": "Baking is a good way to develop family bonding. Making this Sugar Cookie Recipe as a group will develop teamwork and will make your family sweeter.",
   "cuisine": null,
@@ -34,7 +34,7 @@
     },
     {
       "position": 7,
-      "text": "Arrange in a backing tray lined with parchment or wax paper."
+      "text": "Arrange in a baking tray lined with parchment or wax paper."
     },
     {
       "position": 8,
@@ -42,7 +42,7 @@
     },
     {
       "position": 9,
-      "text": "Let cool using a wire rack then decorate, if desired."
+      "text": "Let cool on a wire rack then decorate, if desired."
     },
     {
       "position": 10,
@@ -53,7 +53,7 @@
   "cooking_time_minutes": 14,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/479eac72-c3be-5971-842c-659375ceef3c/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -62,8 +62,18 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "wheat",
+    "milk",
+    "eggs"
+  ],
+  "equipment": [
+    "electric mixer",
+    "mixing bowl",
+    "baking tray",
+    "parchment paper",
+    "wire rack"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
@@ -88,7 +98,7 @@
       "name": "granulated white sugar",
       "normalized_name": "granulated white sugar",
       "quantity": "3/4",
-      "unit": "cups",
+      "unit": "cup",
       "preparation": null,
       "position": 3
     },

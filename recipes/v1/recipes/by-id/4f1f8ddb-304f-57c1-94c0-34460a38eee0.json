@@ -4,9 +4,9 @@
   "id": "4f1f8ddb-304f-57c1-94c0-34460a38eee0",
   "slug": "sweet-and-sour-chicken-meatballs",
   "name": "Sweet and Sour Chicken Meatballs",
-  "recipe_type": "dessert",
+  "recipe_type": "main",
   "brief_description": "Ground chicken meatballs cooked in sweet and sour sauce.",
-  "cuisine": null,
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -59,9 +59,19 @@
     "sugarContent": "20 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "eggs",
+    "gluten"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "frying pan",
+    "spatula",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f0464817-6351-5fe4-b463-fe603c5e064d",
@@ -74,8 +84,8 @@
     },
     {
       "ingredient_id": "917712c7-f745-5d8b-a16c-d6223970a495",
-      "name": "breadcrumb",
-      "normalized_name": "breadcrumb",
+      "name": "breadcrumbs",
+      "normalized_name": "breadcrumbs",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
@@ -83,11 +93,11 @@
     },
     {
       "ingredient_id": "d0baff8b-b4d0-5ab6-b900-2ec4beb67067",
-      "name": "knorr chicken cube",
+      "name": "Knorr chicken cube",
       "normalized_name": "knorr chicken cube",
       "quantity": "1",
       "unit": "piece",
-      "preparation": null,
+      "preparation": "grated",
       "position": 3
     },
     {
@@ -168,7 +178,7 @@
       "normalized_name": "bell pepper",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 12
     },
     {
@@ -186,24 +196,24 @@
       "normalized_name": "carrot",
       "quantity": "3",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "diced",
       "position": 14
     },
     {
       "ingredient_id": "6f0b3b87-a856-5fc1-aa43-5f3f612476ce",
-      "name": "cornstarch diluted in 2 tablespoons water",
-      "normalized_name": "cornstarch diluted in 2 tablespoons water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1 1/2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "diluted in 2 tablespoons water",
       "position": 15
     },
     {
       "ingredient_id": "a3ca511e-6cdc-5e31-819e-966d9bec5b08",
-      "name": "knorr liquid seasoning",
+      "name": "Knorr liquid seasoning",
       "normalized_name": "knorr liquid seasoning",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 16
     }

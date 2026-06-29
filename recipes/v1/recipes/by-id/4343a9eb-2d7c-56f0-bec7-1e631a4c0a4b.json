@@ -4,9 +4,9 @@
   "id": "4343a9eb-2d7c-56f0-bec7-1e631a4c0a4b",
   "slug": "fried-bangus-recipe",
   "name": "Fried Bangus Recipe (Fried Milkfish)",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This Marinated Fried Bangus Recipe enhances the flavor of the milkfish through the marinade. Get the details of the recipe here.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -33,24 +33,34 @@
   "cooking_time_minutes": 10,
   "preparation_time_minutes": 720,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4343a9eb-2d7c-56f0-bec7-1e631a4c0a4b/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Dairy-Free",
+    "Gluten-Free"
+  ],
+  "allergens": [
+    "Fish"
+  ],
+  "equipment": [
+    "Frying pan",
+    "Bowl",
+    "Deep wide plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "c22f52e9-1410-5b7c-a3e7-a1c030b07861",
       "name": "boneless bangus",
       "normalized_name": "boneless bangus",
       "quantity": "1",
-      "unit": null,
+      "unit": "whole",
       "preparation": "cleaned and butterflied milkfish scales removed",
       "position": 1
     },
@@ -78,7 +88,7 @@
       "normalized_name": "peppercorn",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "whole",
       "position": 4
     },
     {
@@ -109,8 +119,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "The oil may splatter due to the liquid from the marinade. Cover the pan while leaving a small gap for steam to escape.",
+    "For best results, marinate the fish overnight."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 2 days.",
+    "Reheat in a pan over medium heat for best texture."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/fried-bangus-recipe/"

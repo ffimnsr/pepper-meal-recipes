@@ -4,9 +4,9 @@
   "id": "54249b09-3cd5-5059-8686-4eb29880eec0",
   "slug": "sarciadong-itlog-recipe",
   "name": "Sarciadong Itlog Recipe",
-  "recipe_type": null,
-  "brief_description": "Sarciadong Itlog is a simple and easy-to-prepared dish that can be eaten with warm rice. It is composed of hard boiled eggs and vegetables. This dish can be good recipe for lent since the recipe does not require meat.",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Sarciadong Itlog is a simple and easy-to-prepare dish that can be eaten with warm rice. It is composed of hard boiled eggs and vegetables. This dish can be good recipe for lent since the recipe does not require meat.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -51,19 +51,32 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Eggs",
+    "Fish"
+  ],
+  "equipment": [
+    "Pan",
+    "Knife",
+    "Cutting board",
+    "Bowl",
+    "Spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7f20a1c7-5bff-5fc3-a663-ce4e64a2b64a",
-      "name": "hard boiled egg",
-      "normalized_name": "hard boiled egg",
+      "name": "egg",
+      "normalized_name": "egg",
       "quantity": "3 to 4",
       "unit": "pieces",
-      "preparation": "shell removed",
+      "preparation": "hard boiled, shell removed",
       "position": 1
     },
     {
@@ -80,7 +93,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 3
     },
@@ -89,7 +102,7 @@
       "name": "green bell pepper",
       "normalized_name": "green bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 4
     },
@@ -98,7 +111,7 @@
       "name": "plum tomato",
       "normalized_name": "plum tomato",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "diced",
       "position": 5
     },
@@ -107,17 +120,17 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 6
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 7
     },
     {
@@ -131,11 +144,11 @@
     },
     {
       "ingredient_id": "6208ccbe-4216-558b-9a23-c34538600cba",
-      "name": "chopped flat leaf parsley",
-      "normalized_name": "chopped flat leaf parsley",
+      "name": "flat leaf parsley",
+      "normalized_name": "flat leaf parsley",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     },
     {
@@ -184,8 +197,13 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "You can use vegetable broth instead of chicken broth for a lighter flavor.",
+    "For a vegetarian version, substitute fish sauce with soy sauce or salt to taste."
+  ],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/sarciadong-itlog-recipe/"

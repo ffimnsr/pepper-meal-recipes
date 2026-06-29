@@ -4,9 +4,9 @@
   "id": "5c153984-d130-5226-8533-b19677f6a733",
   "slug": "ginataang-tahong-recipe",
   "name": "Ginataang Tahong",
-  "recipe_type": null,
-  "brief_description": "Ginataang Tahong or Mussels cooked in Coconut Milk is a common Filipino Recipe involving Marine Mussels. Mussels are abundant in coastal areas",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Ginataang Tahong, or Mussels cooked in Coconut Milk, is a common Filipino recipe involving marine mussels. Mussels are abundant in coastal areas.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -47,11 +47,21 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free",
+    "Pescatarian"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Fish"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Stove"
+  ],
   "ingredients": [
     {
       "ingredient_id": "155500e6-3aa5-5631-9e88-3c9be1208d91",
@@ -73,11 +83,11 @@
     },
     {
       "ingredient_id": "639109b5-da35-5369-b1f4-bdcd578a8f24",
-      "name": "chopped spinach",
-      "normalized_name": "chopped spinach",
+      "name": "spinach",
+      "normalized_name": "spinach",
       "quantity": "2",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 3
     },
     {
@@ -103,7 +113,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 6
     },

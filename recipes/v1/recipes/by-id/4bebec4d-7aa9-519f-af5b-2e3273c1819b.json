@@ -100,9 +100,28 @@
     "unsaturatedFatContent": "27 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-shellfish",
+    "contains-pork",
+    "contains-eggs",
+    "contains-nuts",
+    "non-vegetarian"
+  ],
+  "allergens": [
+    "peanuts",
+    "shellfish",
+    "eggs",
+    "gluten",
+    "soy"
+  ],
+  "equipment": [
+    "pan",
+    "saucepan",
+    "non-stick pan",
+    "mixing bowl",
+    "plate",
+    "strainer (optional)"
+  ],
   "ingredients": [
     {
       "ingredient_id": "11fcd285-7961-54a5-86dd-b45cad556aa5",
@@ -145,7 +164,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 5
     },
@@ -189,8 +208,8 @@
       "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
       "name": "fish sauce",
       "normalized_name": "fish sauce",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "tablespoon",
       "preparation": null,
       "position": 10
     },
@@ -198,8 +217,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 11
     },

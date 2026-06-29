@@ -4,9 +4,9 @@
   "id": "542f87dd-3388-51f4-8076-9384be2e7616",
   "slug": "teriyaki-salmon",
   "name": "Teriyaki Salmon Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Teriyaki Salmon is a healthy and easy salmon recipe that makes use of our quick and easy Teriyaki sauce recipe. This is simply delicious.",
-  "cuisine": null,
+  "cuisine": "Japanese",
   "instructions": [
     {
       "position": 1,
@@ -40,7 +40,7 @@
   "servings": 2,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 180,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/542f87dd-3388-51f4-8076-9384be2e7616/cover.jpg",
   "video_url": null,
@@ -49,17 +49,30 @@
     "@type": "NutritionInformation",
     "servingSize": "2 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Fish",
+    "Soy",
+    "Gluten"
+  ],
+  "equipment": [
+    "freezer bag",
+    "saucepan",
+    "baking pan",
+    "oven",
+    "pastry brush"
+  ],
   "ingredients": [
     {
       "ingredient_id": "09b48090-4ab9-57be-98fb-e1762c62e647",
       "name": "salmon fillet",
       "normalized_name": "salmon fillet",
-      "quantity": "2 5",
-      "unit": "oz",
-      "preparation": null,
+      "quantity": "2",
+      "unit": "piece",
+      "preparation": "about 5 oz each",
       "position": 1
     },
     {
@@ -91,11 +104,11 @@
     },
     {
       "ingredient_id": "b97426e4-414f-5165-a790-dfaaa1363ea4",
-      "name": "cornstarch dissolved in 1 tablespoon cold water",
-      "normalized_name": "cornstarch dissolved in 1 tablespoon cold water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "dissolved in 1 tablespoon cold water",
       "position": 5
     }
   ],
@@ -108,8 +121,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, marinate the salmon for at least 3 hours or overnight.",
+    "Serve over steamed brown rice or white rice."
+  ],
+  "storage_notes": [
+    "Store cooked salmon in an airtight container in the refrigerator for up to 2 days.",
+    "Reheat gently in the oven or microwave to avoid drying out."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/teriyaki-salmon/"

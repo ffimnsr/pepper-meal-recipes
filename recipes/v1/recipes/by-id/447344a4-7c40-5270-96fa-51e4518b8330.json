@@ -46,8 +46,17 @@
     "servingSize": "7 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish",
+    "dairy"
+  ],
+  "equipment": [
+    "skillet",
+    "spatula",
+    "knife",
+    "cutting board",
+    "container"
+  ],
   "ingredients": [
     {
       "ingredient_id": "235e2062-4068-5912-a818-dacf320bfb76",
@@ -91,7 +100,7 @@
       "normalized_name": "spring onion",
       "quantity": "7",
       "unit": "grams",
-      "preparation": "chopped",
+      "preparation": "white part only, chopped",
       "position": 5
     },
     {
@@ -116,8 +125,8 @@
       "ingredient_id": "ebee5ca2-430f-5d85-bee2-2a7dc2131625",
       "name": "rock salt",
       "normalized_name": "rock salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "pinch",
       "preparation": null,
       "position": 8
     }
@@ -136,8 +145,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Step 6 requires additional ingredients not listed above: baguette, tomatoes, and fresh basil for the bruschetta variation."
+  ],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 3-5 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/shared-recipe-antonios-tuna-cream-cheese-and-onion-spread/"

@@ -6,7 +6,7 @@
   "name": "Misua with Ground Beef and Zucchini Soup",
   "recipe_type": "soup",
   "brief_description": "Misua with Ground Beef and Zucchini soup is a delicious recipe that you ought to try. This recipe makes use of Misua, which are thin flour noodles.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Saut\u00e9 the garlic and onion"
+      "text": "Saut\u00e9 the garlic and onion."
     },
     {
       "position": 3,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Put-in the beef cube or powder and then pour-in the water. Stir and let boil. Simmer covered for 15 minutes."
+      "text": "Put in the beef cube or powder and then pour in the water. Stir and let boil. Cover and simmer for 15 minutes."
     },
     {
       "position": 5,
@@ -30,7 +30,7 @@
     },
     {
       "position": 6,
-      "text": "Put-in the Misua along with the fish sauce and ground black pepper. Stir. Continue cooking for 3 to 5 minutes."
+      "text": "Add the misua along with the fish sauce and ground black pepper. Stir. Continue cooking for 3 to 5 minutes."
     },
     {
       "position": 7,
@@ -54,8 +54,14 @@
     "servingSize": "4 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Eggs",
+    "Fish",
+    "Gluten"
+  ],
+  "equipment": [
+    "Cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "6f7d3ee9-33f6-5827-8bb0-694b07e499a5",
@@ -89,7 +95,7 @@
       "name": "zucchini",
       "normalized_name": "zucchini",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 4
     },
@@ -104,11 +110,11 @@
     },
     {
       "ingredient_id": "334aab48-b463-5163-9a26-40d813a71db0",
-      "name": "hard-boiled quail egg",
-      "normalized_name": "hard-boiled quail egg",
+      "name": "quail egg",
+      "normalized_name": "quail egg",
       "quantity": "10",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "hard-boiled",
       "position": 6
     },
     {
@@ -125,7 +131,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 8
     },

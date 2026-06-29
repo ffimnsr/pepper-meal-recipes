@@ -4,9 +4,9 @@
   "id": "49460ec5-d30b-59ed-bd20-b64f0c1d2880",
   "slug": "pork-burger-steak-with-mushroom-gravy",
   "name": "Pork Burger Steak with Mushroom Gravy",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Moist and delicious pork burgers topped with a rich and flavorful mushroom gravy. This Filipino take on the classic Salisbury steak is best enjoyed over warm white rice.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Scoop around 1/3 cup mixture and roll into a ball-shaped figure. Flatten it into a patty.Set aside."
+      "text": "Scoop around 1/3 cup mixture and roll into a ball-shaped figure. Flatten it into a patty. Set aside."
     },
     {
       "position": 3,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Flip the pork burger patties. Continue frying the other side for 2 minutes. Add \u00bc cup water. Cover and steam for 3 minutes. Remove the patties from the pan and place in a clean plate. Note. Perform the same steps until all pork burgers are cooked."
+      "text": "Flip the pork burger patties. Continue frying the other side for 2 minutes. Add \u00bc cup water. Cover and steam for 3 minutes. Remove the patties from the pan and place in a clean plate. Note: Perform the same steps until all pork burgers are cooked."
     },
     {
       "position": 5,
@@ -45,10 +45,10 @@
       "text": "Arrange the pork burger patties on a serving plate. Top with mushroom gravy and chopped green onions. Serve hot. Share and enjoy!"
     }
   ],
-  "servings": null,
-  "cooking_time_minutes": null,
-  "preparation_time_minutes": null,
-  "rest_time_minutes": null,
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": 0,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/49460ec5-d30b-59ed-bd20-b64f0c1d2880/cover.jpg",
   "video_url": null,
@@ -67,8 +67,19 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Eggs",
+    "Wheat",
+    "Milk",
+    "Soy"
+  ],
+  "equipment": [
+    "Mixing bowl",
+    "Frying pan",
+    "Spatula",
+    "Plate",
+    "Measuring cups and spoons"
+  ],
   "ingredients": [
     {
       "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
@@ -118,7 +129,7 @@
     {
       "ingredient_id": "b1bab039-42a7-5047-a99e-83e67fbc8d31",
       "name": "bread crumb",
-      "normalized_name": "bread crumb",
+      "normalized_name": "breadcrumbs",
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,
@@ -177,6 +188,15 @@
       "unit": "cups",
       "preparation": null,
       "position": 12
+    },
+    {
+      "ingredient_id": "c4f8d2e1-5b3a-4e8f-9c2d-1a2b3c4d5e6f",
+      "name": "green onion",
+      "normalized_name": "green onion",
+      "quantity": "2",
+      "unit": "stalks",
+      "preparation": "chopped",
+      "position": 13
     }
   ],
   "categories": [
@@ -188,8 +208,15 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Green onions (scallions) are used as garnish.",
+    "Knorr pork cubes typically contain soy and gluten. Check packaging for specific allergen information.",
+    "Serve with steamed white rice."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat gently in a pan with a splash of water to prevent drying out."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/pork-burger-steak-with-mushroom-gravy/"

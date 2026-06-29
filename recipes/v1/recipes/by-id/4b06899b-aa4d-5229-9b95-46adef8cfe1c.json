@@ -4,9 +4,9 @@
   "id": "4b06899b-aa4d-5229-9b95-46adef8cfe1c",
   "slug": "fried-chicken-breast-with-creamy-lemon-sauce-dip",
   "name": "Fried Chicken Breast with Creamy Lemon Sauce Dip",
-  "recipe_type": null,
-  "brief_description": "Fried Chicken Breast with Creamy Lemon Sauce Dip is a yummy fried chicken variation. This recipe involves skinless and boneless chicken breast",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Crispy fried chicken breast served with a rich, tangy creamy lemon sauce. This recipe features skinless, boneless chicken breast dredged in flour and egg, then deep-fried to golden perfection.",
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -50,20 +50,32 @@
     }
   ],
   "servings": 4,
-  "cooking_time_minutes": 9,
+  "cooking_time_minutes": 25,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4b06899b-aa4d-5229-9b95-46adef8cfe1c/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-dairy",
+    "contains-gluten",
+    "contains-eggs"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "eggs"
+  ],
+  "equipment": [
+    "frying pan",
+    "saucepan",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "11843ddc-9136-55c4-834f-29cfc38d731b",
@@ -88,7 +100,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "beaten",
       "position": 3
     },
@@ -139,10 +151,10 @@
     },
     {
       "ingredient_id": "99cfe476-4981-539f-8a5c-71204c3d8a3c",
-      "name": "yolk of 1 piece egg",
-      "normalized_name": "yolk of 1 piece egg",
-      "quantity": null,
-      "unit": null,
+      "name": "egg yolk",
+      "normalized_name": "egg yolk",
+      "quantity": "1",
+      "unit": "piece",
       "preparation": "beaten",
       "position": 9
     },
@@ -159,8 +171,8 @@
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 11
     }

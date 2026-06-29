@@ -4,9 +4,9 @@
   "id": "529d8b43-b6f6-548b-b0e6-35098f0ce4ac",
   "slug": "pinoy-baked-whole-wheat-penne-pasta",
   "name": "Pinoy Baked Whole Wheat Penne Pasta",
-  "recipe_type": null,
-  "brief_description": "Pinoy Baked Whole Wheat Penne Pasta is a rich and delicious pasta dish. The pasta sauce that I used for this dish is similar to Joillibee Style Spaghetti",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Pinoy Baked Whole Wheat Penne Pasta is a rich and delicious pasta dish. The pasta sauce that I used for this dish is similar to Jollibee Style Spaghetti.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -18,11 +18,11 @@
     },
     {
       "position": 3,
-      "text": "Arrange the cooked pasta on a deep and wide baking dish. Pour-in 3/4 of the meat sauce mixture. Toss to mix the sauce and pasta."
+      "text": "Arrange the cooked pasta in a deep, wide baking dish. Pour in 3/4 of the meat sauce mixture. Toss to mix the sauce and pasta."
     },
     {
       "position": 4,
-      "text": "Pour the remaining sauce on top and then distribute. Top with shredded cheese."
+      "text": "Pour the remaining sauce on top and spread evenly. Top with shredded cheese."
     },
     {
       "position": 5,
@@ -30,11 +30,11 @@
     },
     {
       "position": 6,
-      "text": "Change to oven setting to broil. Broil for 7 minutes."
+      "text": "Change the oven setting to broil. Broil for 7 minutes."
     },
     {
       "position": 7,
-      "text": "Remove from the oven. Serve Hot."
+      "text": "Remove from the oven. Serve hot."
     },
     {
       "position": 8,
@@ -51,11 +51,19 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Wheat",
+    "Milk"
+  ],
+  "equipment": [
+    "Baking dish",
+    "Large mixing bowl",
+    "Oven",
+    "Pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "cd088f0b-bc77-5f40-bbb0-a334df2596bc",
@@ -77,11 +85,11 @@
     },
     {
       "ingredient_id": "72b56b8c-a3f2-5ffb-b12e-91122ac573f6",
-      "name": "chopped pimiento",
-      "normalized_name": "chopped pimiento",
+      "name": "pimiento",
+      "normalized_name": "pimiento",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 3
     },
     {
@@ -95,11 +103,11 @@
     },
     {
       "ingredient_id": "d722b777-abc2-5595-b96c-8bd023496ed2",
-      "name": "shredded quick melt cheese",
-      "normalized_name": "shredded quick melt cheese",
+      "name": "quick melt cheese",
+      "normalized_name": "quick melt cheese",
       "quantity": "1 1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 5
     }
   ],

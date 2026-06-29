@@ -46,7 +46,7 @@
     },
     {
       "position": 10,
-      "text": "Add bell peppers , chopped parsley, and blanched vegetables. Toss until well distributed."
+      "text": "Add bell peppers, chopped parsley, and blanched vegetables. Toss until well distributed."
     },
     {
       "position": 11,
@@ -81,8 +81,16 @@
     "unsaturatedFatContent": "14 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "wheat",
+    "soy",
+    "shellfish"
+  ],
+  "equipment": [
+    "wok",
+    "pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b8fc462a-600f-5e69-936a-e20e4090acd5",
@@ -125,7 +133,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 5
     },
@@ -134,7 +142,7 @@
       "name": "cabbage",
       "normalized_name": "cabbage",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "head",
       "preparation": "roughly chopped",
       "position": 6
     },
@@ -152,16 +160,16 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 8
     },
     {
       "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
-      "name": "stalks celery",
-      "normalized_name": "stalks celery",
+      "name": "celery",
+      "normalized_name": "celery",
       "quantity": "2",
-      "unit": null,
+      "unit": "stalks",
       "preparation": "chopped",
       "position": 9
     },
@@ -206,7 +214,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 14
     },
@@ -215,7 +223,7 @@
       "name": "green bell pepper",
       "normalized_name": "green bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 15
     },
@@ -230,20 +238,20 @@
     },
     {
       "ingredient_id": "9af1ba61-f85e-5c38-bce7-4e92ba7b98f4",
-      "name": "quart water",
-      "normalized_name": "quart water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "1",
-      "unit": null,
+      "unit": "quart",
       "preparation": null,
       "position": 17
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
       "unit": null,
-      "preparation": null,
+      "preparation": "ground",
       "position": 18
     },
     {

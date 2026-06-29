@@ -5,7 +5,7 @@
   "slug": "tasty-sliders-recipe",
   "name": "Tasty Sliders Recipe",
   "recipe_type": null,
-  "brief_description": "This is a recipe for tasty sliders",
+  "brief_description": "Mini beef patties seasoned with French onion soup powder, grilled, and served on dinner rolls with cheese, onion, and pickles.",
   "cuisine": null,
   "instructions": [
     {
@@ -47,11 +47,18 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "5 g"
+    "servingSize": "2 sliders"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "gluten",
+    "dairy",
+    "eggs"
+  ],
+  "equipment": [
+    "grill",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
@@ -64,10 +71,10 @@
     },
     {
       "ingredient_id": "79f1f051-2d73-5e22-b7b2-65515b7c736f",
-      "name": "packet",
-      "normalized_name": "packet",
+      "name": "French onion soup powder",
+      "normalized_name": "french onion soup powder",
       "quantity": "1",
-      "unit": null,
+      "unit": "packet",
       "preparation": null,
       "position": 2
     },
@@ -84,8 +91,8 @@
       "ingredient_id": "4c12a47c-8907-5912-9659-8908e469026b",
       "name": "individual cheese slice",
       "normalized_name": "individual cheese slice",
-      "quantity": null,
-      "unit": null,
+      "quantity": "10",
+      "unit": "slices",
       "preparation": null,
       "position": 4
     },
@@ -100,11 +107,11 @@
     },
     {
       "ingredient_id": "c5d1ca96-acff-5211-9ce5-2d47772a3c0c",
-      "name": "chopped",
-      "normalized_name": "chopped",
+      "name": "onion",
+      "normalized_name": "onion",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": "sliced onions",
+      "preparation": "sliced",
       "position": 6
     },
     {

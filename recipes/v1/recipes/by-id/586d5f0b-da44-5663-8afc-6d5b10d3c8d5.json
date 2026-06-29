@@ -4,9 +4,9 @@
   "id": "586d5f0b-da44-5663-8afc-6d5b10d3c8d5",
   "slug": "pork-adobo-with-potato-recipe",
   "name": "Pork Adobo with Potato Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Pork Adobo with Potato Recipe is another variation of the famous Pork Adobo. This easy to follow recipe incorporates potatoes to the basic adobo recipe.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -49,7 +49,7 @@
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/586d5f0b-da44-5663-8afc-6d5b10d3c8d5/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -57,9 +57,13 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "Dairy-Free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a6668890-561f-511c-8418-8e2796284465",
@@ -75,7 +79,7 @@
       "name": "potato",
       "normalized_name": "potato",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cubed",
       "position": 2
     },
@@ -99,11 +103,11 @@
     },
     {
       "ingredient_id": "79a67268-f09a-50cb-86f5-1735baaba0c8",
-      "name": "crushed garlic",
-      "normalized_name": "crushed garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "5",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 5
     },
     {
@@ -118,7 +122,7 @@
     {
       "ingredient_id": "ff9afa2b-ef74-55b7-8c3d-a08fc4b89fc7",
       "name": "pepper corn",
-      "normalized_name": "pepper corn",
+      "normalized_name": "peppercorns",
       "quantity": "1",
       "unit": "tbsp",
       "preparation": null,
@@ -159,7 +163,23 @@
       "name": "Pork"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "a12bc34d-56ef-78ab-90cd-1234ef567890",
+      "slug": "filipino",
+      "name": "Filipino"
+    },
+    {
+      "id": "b23cd45e-67fa-89bc-01de-2345fa678901",
+      "slug": "adobo",
+      "name": "Adobo"
+    },
+    {
+      "id": "c34de56f-78ab-90cd-12ef-3456ab789012",
+      "slug": "stew",
+      "name": "Stew"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

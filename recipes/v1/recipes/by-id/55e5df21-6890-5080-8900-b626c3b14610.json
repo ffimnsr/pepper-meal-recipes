@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "55e5df21-6890-5080-8900-b626c3b14610",
   "slug": "how-to-make-basic-asian-dipping-sauce",
-  "name": "Asian Dipping Sauce Recipe",
+  "name": "Basic Asian Dipping Sauce",
   "recipe_type": null,
-  "brief_description": "Asian Dipping Sauce adds flavor to a dish and makes it taste good. This Recipe will help you learn how to prepare this sauce .",
-  "cuisine": null,
+  "brief_description": "A savory, no-cook dipping sauce made with soy sauce, rice vinegar, and sesame oil. Perfect alongside fried or steamed dim sum.",
+  "cuisine": "asian",
   "instructions": [
     {
       "position": 1,
@@ -18,11 +18,11 @@
     },
     {
       "position": 3,
-      "text": "Serve along with fried or steamed Dim Sum."
+      "text": "Serve alongside fried or steamed dim sum."
     },
     {
       "position": 4,
-      "text": "Share and Enjoy!!!"
+      "text": "Serve immediately."
     }
   ],
   "servings": 2,
@@ -38,8 +38,14 @@
     "servingSize": "2 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "sesame"
+  ],
+  "equipment": [
+    "small bowl",
+    "teaspoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
@@ -72,8 +78,8 @@
       "ingredient_id": "5181c021-d474-53cd-b3f6-873681814ca3",
       "name": "chili pepper",
       "normalized_name": "chili pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "piece",
       "preparation": null,
       "position": 4
     }
@@ -88,7 +94,9 @@
   "tags": [],
   "related_recipe_ids": [],
   "recipe_notes": [],
-  "storage_notes": [],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 1 week."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-make-basic-asian-dipping-sauce/"

@@ -6,7 +6,7 @@
   "name": "Tuyo Pesto Spaghetti Pasta",
   "recipe_type": "main",
   "brief_description": "Spaghetti pesto with salted fish flakes. This Filipino version of pesto pasta is a must try.",
-  "cuisine": "Fiipino Italian",
+  "cuisine": "Filipino Italian",
   "instructions": [
     {
       "position": 1,
@@ -14,7 +14,7 @@
     },
     {
       "position": 2,
-      "text": "Cook the spaghetti based on package instructions. Save \u00be cups of pasta water. Drain the remaining water."
+      "text": "Cook the spaghetti based on package instructions. Save \u00be cup of pasta water. Drain the remaining water."
     },
     {
       "position": 3,
@@ -47,8 +47,18 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish",
+    "dairy",
+    "tree nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "food processor",
+    "large pot",
+    "colander",
+    "large bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "1f7d9eb2-e7ab-5cf3-b79a-ffd1634203b9",
@@ -136,12 +146,6 @@
     }
   ],
   "tags": [
-    {
-      "id": "96401bea-07c4-5a25-b83f-d68af6670e24",
-      "slug": "alfredo-pasta-recipe",
-      "name": "alfredo pasta recipe",
-      "color": null
-    },
     {
       "id": "99f85645-dfa7-5c6a-abf1-3932ae6e6a7c",
       "slug": "pesto",

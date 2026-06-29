@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "53002e39-bd75-50cf-8b36-1ab528a6664a",
   "slug": "tortilla-soup-recipe",
-  "name": "Tortilla Soup Recipe",
+  "name": "Tortilla Soup",
   "recipe_type": "soup",
-  "brief_description": "This flavorful Tortilla Soup Recipe is best for cold weather. Nothing is more comforting like having a hot and hearty soup for dinner.",
-  "cuisine": null,
+  "brief_description": "A comforting and flavorful tortilla soup perfect for cold weather, featuring tender shredded chicken, tomatoes, and warm spices topped with crispy tortilla strips, avocado, and cheese.",
+  "cuisine": "Mexican",
   "instructions": [
     {
       "position": 1,
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Add chicken broth and let boil.Simmer for 10 minutes."
+      "text": "Add chicken broth and let boil. Simmer for 10 minutes."
     },
     {
       "position": 6,
@@ -55,11 +55,17 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "4 servings"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "dairy"
+  ],
+  "equipment": [
+    "cooking pot",
+    "cutting board",
+    "knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -75,16 +81,16 @@
       "name": "avocado",
       "normalized_name": "avocado",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "peeled and sliced",
       "position": 2
     },
     {
       "ingredient_id": "c85f5369-62e0-5420-8f73-b80230602c70",
-      "name": "corn tortilla strip",
-      "normalized_name": "corn tortilla strip",
-      "quantity": null,
-      "unit": null,
+      "name": "corn tortilla strips",
+      "normalized_name": "corn tortilla strips",
+      "quantity": "1",
+      "unit": "cup",
       "preparation": null,
       "position": 3
     },
@@ -99,11 +105,11 @@
     },
     {
       "ingredient_id": "30e689d9-f00c-5b96-8fdd-bc2fea5143de",
-      "name": "diced tomato",
-      "normalized_name": "diced tomato",
+      "name": "diced tomatoes",
+      "normalized_name": "diced tomatoes",
       "quantity": "1",
       "unit": "can",
-      "preparation": null,
+      "preparation": "diced tomatoes",
       "position": 5
     },
     {
@@ -148,7 +154,7 @@
       "normalized_name": "sharp cheddar cheese",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 10
     },
     {
@@ -165,7 +171,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 12
     },
@@ -188,8 +194,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For extra heat, leave seeds in jalapeno.",
+    "Tortilla strips can be homemade or store-bought."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 3 days.",
+    "Store toppings separately to maintain texture."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/tortilla-soup-recipe/"

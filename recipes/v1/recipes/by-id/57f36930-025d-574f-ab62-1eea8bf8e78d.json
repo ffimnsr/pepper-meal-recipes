@@ -47,7 +47,11 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "grill",
+    "bamboo skewers",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
@@ -111,6 +115,24 @@
       "unit": "teaspoons",
       "preparation": null,
       "position": 7
+    },
+    {
+      "ingredient_id": "7d8f9e2a-1b3c-4d5e-8f6a-9b0c1d2e3f4a",
+      "name": "lemon soda",
+      "normalized_name": "lemon soda",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "8e9f0a3b-2c4d-5e6f-9a7b-0c1d2e3f4a5b",
+      "name": "spicy vinegar",
+      "normalized_name": "spicy vinegar",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": "for serving",
+      "position": 9
     }
   ],
   "categories": [
@@ -122,7 +144,9 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
+  "recipe_notes": [
+    "For best results, marinate the pork overnight."
+  ],
   "storage_notes": [],
   "source": {
     "name": "Panlasang Pinoy",

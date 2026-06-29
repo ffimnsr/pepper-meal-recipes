@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "43e1bfdf-85f0-53d1-b7a6-09f02726b353",
   "slug": "grilled-liempo-sisig-recipe",
-  "name": "Grilled Liempo Sisig Recipe",
+  "name": "Grilled Liempo Sisig",
   "recipe_type": null,
-  "brief_description": "There are hundreds of ways to make sisig, and Grilled Liempo Sisig is just one of the ways. This delicious sisig version (which is very tasty, by the way) makes use of grilled pork belly. I am referring to the Filipino style inihaw na liempo which is an awesome dish by itself.",
-  "cuisine": null,
+  "brief_description": "Sisig has countless variations, and Grilled Liempo Sisig is a flavorful version made with Filipino-style grilled pork belly (inihaw na liempo). The smoky, savory pork is combined with chicken liver and spices for a delicious twist on the classic.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -30,7 +30,7 @@
     },
     {
       "position": 6,
-      "text": "Put the fried chicken liver in the food processor and then add the mayonnaise. Grind until the texture of the mixture becomes soft. set aside."
+      "text": "Put the fried chicken liver in the food processor and then add the mayonnaise. Grind until the texture of the mixture becomes soft. Set aside."
     },
     {
       "position": 7,
@@ -38,7 +38,7 @@
     },
     {
       "position": 8,
-      "text": "Add the minced grilled liempo.Stir and cook for 10 to 12 minutes while stirring once in a while."
+      "text": "Add the minced grilled liempo. Stir and cook for 10 to 12 minutes while stirring once in a while."
     },
     {
       "position": 9,
@@ -50,7 +50,7 @@
     },
     {
       "position": 11,
-      "text": "Serve with sriracha sauce, soy sauce, and lemon. don't forget the rice."
+      "text": "Serve with sriracha sauce, soy sauce, and lemon. Don't forget the rice."
     },
     {
       "position": 12,
@@ -61,22 +61,26 @@
   "cooking_time_minutes": 45,
   "preparation_time_minutes": 15,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/43e1bfdf-85f0-53d1-b7a6-09f02726b353/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "food processor",
+    "frying pan",
+    "sizzling plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "796a446d-c518-5981-8ad6-7cfb3a19ddae",
       "name": "filipino style grilled pork belly",
-      "normalized_name": "filipino style grilled pork belly",
+      "normalized_name": "pork belly",
       "quantity": "1",
       "unit": "lb",
       "preparation": null,
@@ -96,7 +100,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 3
     },
@@ -147,11 +151,11 @@
     },
     {
       "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
-      "name": "chopped green onion",
-      "normalized_name": "chopped green onion",
+      "name": "green onion",
+      "normalized_name": "green onion",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     },
     {

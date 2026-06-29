@@ -6,7 +6,7 @@
   "name": "Ginisang Baguio Beans with Pork",
   "recipe_type": null,
   "brief_description": "Ginisang Baguio Beans with Pork is a simple dish consisting of fresh green beans, tomato, and ground pork. Green beans are known as Baguio beans in the Philippines; this has something to do with the place where green beans are commonly grown.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -51,7 +51,9 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "4337f427-9113-5a55-8428-447cabe85ade",
@@ -76,17 +78,17 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 4
     },
     {
@@ -94,7 +96,7 @@
       "name": "plum tomato",
       "normalized_name": "plum tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 5
     },

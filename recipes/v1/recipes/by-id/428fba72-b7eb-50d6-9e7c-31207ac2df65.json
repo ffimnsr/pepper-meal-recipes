@@ -3,38 +3,38 @@
   "schema_version": 1,
   "id": "428fba72-b7eb-50d6-9e7c-31207ac2df65",
   "slug": "vegetable-omelet-recipe",
-  "name": "Vegetable Omelet Recipe",
+  "name": "Vegetable Omelet",
   "recipe_type": "breakfast",
-  "brief_description": "How about some Vegetable Omelet for breakfast? You can easily prepare this delicious omelet on your own by following the steps below.",
+  "brief_description": "A fluffy vegetable omelet loaded with bell peppers and mushrooms, finished under the broiler for a perfectly set top.",
   "cuisine": null,
   "instructions": [
     {
       "position": 1,
-      "text": "Melt butter in Teflon coated (oven safe) frying pan"
+      "text": "Melt the butter in a Teflon-coated (oven-safe) frying pan."
     },
     {
       "position": 2,
-      "text": "Saut\u00e9 the bell peppers and mushroom for 1 minute."
+      "text": "Saut\u00e9 the bell peppers and mushrooms for 1 minute."
     },
     {
       "position": 3,
-      "text": "Add salt and then stir."
+      "text": "Add the salt and stir."
     },
     {
       "position": 4,
-      "text": "Pour-in the eggs and then cook in low to medium heat for 3 to 4 minutes."
+      "text": "Pour in the eggs and cook over low to medium heat for 3 to 4 minutes."
     },
     {
       "position": 5,
-      "text": "Preheat oven to broil."
+      "text": "Preheat the oven to broil."
     },
     {
       "position": 6,
-      "text": "Turn- off the stove top and then transfer the Oven safe frying pan in the oven. Cook for 2 minutes or until the top part is done"
+      "text": "Turn off the stovetop and transfer the oven-safe frying pan to the oven. Cook for 2 minutes or until the top is set."
     },
     {
       "position": 7,
-      "text": "Remove the pan from the oven (don\u2019t forget to wear oven gloves). Let the omelet slide from the pan to the serving plate while folding the omelet as it slides halfway down."
+      "text": "Remove the pan from the oven (wear oven gloves). Let the omelet slide from the pan onto the serving plate, folding it as it slides halfway down."
     },
     {
       "position": 8,
@@ -51,46 +51,54 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Eggs",
+    "Dairy"
+  ],
+  "equipment": [
+    "Oven-safe frying pan",
+    "Oven gloves"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "beaten",
       "position": 1
     },
     {
       "ingredient_id": "da7be1d8-acde-59bb-bea7-170eaf39dcba",
-      "name": "diced red bell pepper",
-      "normalized_name": "diced red bell pepper",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "diced",
       "position": 2
     },
     {
       "ingredient_id": "b6820373-a7d1-5933-b92e-f3f4ccc0d9a4",
-      "name": "diced green bell pepper",
-      "normalized_name": "diced green bell pepper",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "diced",
       "position": 3
     },
     {
       "ingredient_id": "26ac5539-0dfb-5ecf-bd23-336d49ab07be",
-      "name": "sliced white mushroom",
-      "normalized_name": "sliced white mushroom",
+      "name": "white mushroom",
+      "normalized_name": "white mushroom",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 4
     },
     {

@@ -5,24 +5,24 @@
   "slug": "7up-fried-chicken",
   "name": "7Up Fried Chicken",
   "recipe_type": "main",
-  "brief_description": "Easy crispy fried chicken recipe.",
+  "brief_description": "Crispy fried chicken marinated in lemon lime soda and spices, then double-dredged and deep-fried to golden perfection.",
   "cuisine": "American",
   "instructions": [
     {
       "position": 1,
-      "text": "Combine chicken with marinade ingredients in a bowl. Mix well. Marinate for at least 3 hours. Drain the remaining marinade afterwards."
+      "text": "Combine chicken with marinade ingredients (lemon lime soda, onion powder, garlic powder, salt, and ground white pepper) in a large bowl. Mix well. Marinate for at least 3 hours. Drain the remaining marinade afterwards."
     },
     {
       "position": 2,
-      "text": "Heat oil in a deep fryer or deep pot."
+      "text": "Heat oil in a deep fryer or deep pot to 350\u00b0F (175\u00b0C)."
     },
     {
       "position": 3,
-      "text": "Beat egg in a bowl. Dredge chicken in flour and then dip in beaten egg. Double coat by dredging in flour again. Shake off excess flour. Perform this step to all chicken pieces."
+      "text": "Beat eggs in a bowl. Dredge chicken in flour, then dip in beaten egg. Double coat by dredging in flour again. Shake off excess flour. Repeat for all chicken pieces."
     },
     {
       "position": 4,
-      "text": "Deep fry for a total of 15 minutes. Note: you can go longer if needed. If using lesser oll, fry one side for 10 minutes. Flip and fry the opposite side for 5 to 8 minutes."
+      "text": "Deep fry for a total of 15 minutes. Note: if using less oil, fry one side for 10 minutes, then flip and fry the other side for 5 to 8 minutes."
     },
     {
       "position": 5,
@@ -32,7 +32,7 @@
   "servings": 4,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 60,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 180,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4794b25d-6d40-53c9-9982-6b83deae0248/cover.jpg",
   "video_url": null,
@@ -51,8 +51,17 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "wheat"
+  ],
+  "equipment": [
+    "deep fryer or heavy-bottomed pot",
+    "tongs",
+    "wire rack",
+    "mixing bowls",
+    "measuring cups and spoons"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -169,8 +178,14 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Maintain oil temperature at around 350\u00b0F (175\u00b0C) for best results.",
+    "Double coating creates an extra crispy crust."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat in a 375\u00b0F oven for 10\u201315 minutes to restore crispiness."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/7up-fried-chicken/"

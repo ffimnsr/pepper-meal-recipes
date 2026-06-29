@@ -5,8 +5,8 @@
   "slug": "chopped-tomato-onion-bagoong-isda",
   "name": "Chopped Tomato and Onion with Bagoong Isda",
   "recipe_type": "side",
-  "brief_description": "Have you had a side dish composed of chopped tomato, onion, and bagoong isda? Actually, this can also be both a side dish and a main dish at the same time,",
-  "cuisine": null,
+  "brief_description": "A simple Filipino side dish (or main) composed of chopped tomato, onion, and bagoong isda (fermented fish paste). Perfect accompaniment to fried fish or bagnet.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -37,16 +37,25 @@
     "@type": "NutritionInformation",
     "servingSize": "2 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Gluten-Free"
+  ],
+  "allergens": [
+    "Fish"
+  ],
+  "equipment": [
+    "Mixing bowl",
+    "Knife",
+    "Cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "53d823b0-422f-556a-8322-32bed2d5f8cd",
       "name": "plum tomato",
       "normalized_name": "plum tomato",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "diced",
       "position": 1
     },
@@ -55,17 +64,17 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 2
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 3
     },
     {
@@ -85,6 +94,15 @@
       "unit": "teaspoon",
       "preparation": null,
       "position": 5
+    },
+    {
+      "ingredient_id": "8f4e2c1b-9d3a-4f5b-8c2d-1e4f5a6b7c8d",
+      "name": "calamansi",
+      "normalized_name": "calamansi",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 6
     }
   ],
   "categories": [

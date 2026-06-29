@@ -4,7 +4,7 @@
   "id": "5383bca2-e219-5877-95a3-eb4a4479ee9a",
   "slug": "paklay-recipe",
   "name": "Paklay",
-  "recipe_type": "drink",
+  "recipe_type": "main",
   "brief_description": "Paklay is a stew featuring a mix of pig and cow innards, popular in the southern regions of the Philippines. It is commonly enjoyed as a main dish or served as pulutan, a type of food to accompany drinks.",
   "cuisine": "Philippines",
   "instructions": [
@@ -170,7 +170,7 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "1",
-      "unit": null,
+      "unit": "clove",
       "preparation": "minced",
       "position": 10
     },
@@ -188,7 +188,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "2",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 12
     },
@@ -245,6 +245,15 @@
       "unit": "tablespoons",
       "preparation": null,
       "position": 18
+    },
+    {
+      "ingredient_id": "c9d8e7f6-1234-4678-8abc-def012345678",
+      "name": "beef cube",
+      "normalized_name": "beef cube",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 19
     }
   ],
   "categories": [

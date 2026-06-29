@@ -5,12 +5,12 @@
   "slug": "how-to-cook-crispy-fried-smelt",
   "name": "Crispy Fried Smelt",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Crispy Fried Smelt",
-  "cuisine": null,
+  "brief_description": "Crispy, golden fried smelt seasoned simply and fried until crunchy. A classic Filipino seafood dish perfect as an appetizer or main.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Rub salt and garlic powder all over the smelts. Let it stay for 10 minutes."
+      "text": "Rub salt and garlic powder all over the smelts. Let them sit for 10 minutes."
     },
     {
       "position": 2,
@@ -22,15 +22,15 @@
     },
     {
       "position": 4,
-      "text": "Dredge the smelts in flour and cornstarch mixture."
+      "text": "Dredge the smelts in the flour and cornstarch mixture."
     },
     {
       "position": 5,
-      "text": "Fry in medium heat for 3 to 5 minutes or until it turns crispy."
+      "text": "Fry over medium heat for 3 to 5 minutes or until crispy and golden brown."
     },
     {
       "position": 6,
-      "text": "Remove from the pan and arrange in a plate lined with paper towel."
+      "text": "Remove from the pan and arrange on a plate lined with paper towels."
     },
     {
       "position": 7,
@@ -49,9 +49,17 @@
     "@type": "NutritionInformation",
     "servingSize": "5 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish",
+    "gluten"
+  ],
+  "equipment": [
+    "frying pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f9e52fc7-e221-5c03-a0c5-14544c54ff03",
@@ -91,11 +99,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 5
     },
     {
@@ -117,8 +125,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, ensure the oil is hot before adding the smelts. Do not overcrowd the pan."
+  ],
+  "storage_notes": [
+    "Best enjoyed immediately. Leftovers can be refrigerated in an airtight container for up to 2 days. Reheat in an oven or air fryer to restore crispiness."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-cook-crispy-fried-smelt/"

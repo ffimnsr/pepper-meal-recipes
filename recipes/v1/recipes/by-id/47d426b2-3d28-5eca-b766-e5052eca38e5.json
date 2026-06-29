@@ -5,7 +5,7 @@
   "slug": "how-to-make-tarragon-chicken-salad",
   "name": "Tarragon Chicken Salad",
   "recipe_type": "salad",
-  "brief_description": "This is a recipe for Tarragon Chicken Salad.",
+  "brief_description": "A creamy, herbaceous chicken salad featuring tender baked chicken, crisp celery and apples, sweet grapes, and toasted walnuts, all tossed in a tangy tarragon dressing. Perfect for sandwiches, wraps, or served over greens.",
   "cuisine": null,
   "instructions": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "position": 2,
-      "text": "Arrange the chicken in a baking dish and pour-in chicken stock."
+      "text": "Arrange the chicken in a baking dish and pour in the chicken stock."
     },
     {
       "position": 3,
-      "text": "Bake the chicken for about 40 to 45 minutes."
+      "text": "Bake the chicken for about 40 to 45 minutes, or until cooked through."
     },
     {
       "position": 4,
@@ -26,15 +26,15 @@
     },
     {
       "position": 5,
-      "text": "Drain excess liquid then cut the chicken into cubes."
+      "text": "Drain excess liquid, then cut the chicken into cubes."
     },
     {
       "position": 6,
-      "text": "In a mixing bowl, combine sour cream, mayonnaise, tarragon, salt, and ground black pepper. Mix well."
+      "text": "In a mixing bowl, combine sour cream, mayonnaise, tarragon, salt, and black pepper. Mix well."
     },
     {
       "position": 7,
-      "text": "Add in celery, apple, grapes, walnuts, and chicken then stir to distribute the ingredients."
+      "text": "Add celery, apple, grapes, walnuts, and chicken, then stir to distribute the ingredients evenly."
     },
     {
       "position": 8,
@@ -42,7 +42,7 @@
     },
     {
       "position": 9,
-      "text": "Transfer to a salad plate the serve."
+      "text": "Transfer to a salad plate and serve."
     },
     {
       "position": 10,
@@ -50,25 +50,35 @@
     }
   ],
   "servings": 6,
-  "cooking_time_minutes": 1,
+  "cooking_time_minutes": 45,
   "preparation_time_minutes": 15,
-  "rest_time_minutes": null,
-  "difficulty": "hard",
+  "rest_time_minutes": 60,
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/47d426b2-3d28-5eca-b766-e5052eca38e5/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Tree nuts",
+    "Dairy",
+    "Eggs"
+  ],
+  "equipment": [
+    "Oven",
+    "Baking dish",
+    "Mixing bowl",
+    "Knife",
+    "Cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "0b27047e-da7a-55c7-ba71-159c2ff26005",
-      "name": "boneless",
-      "normalized_name": "boneless",
+      "name": "boneless chicken breast",
+      "normalized_name": "chicken breast",
       "quantity": "2",
       "unit": "pounds",
       "preparation": null,
@@ -76,11 +86,11 @@
     },
     {
       "ingredient_id": "cef70ac0-94cc-5178-b9ba-b405f830d9cf",
-      "name": "dried tarragon",
-      "normalized_name": "dried tarragon",
+      "name": "tarragon",
+      "normalized_name": "tarragon",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "dried",
       "position": 2
     },
     {
@@ -157,11 +167,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 11
     }
   ],
@@ -170,12 +180,28 @@
       "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
       "slug": "chicken",
       "name": "Chicken"
+    },
+    {
+      "id": "bf2e2e4a-7c1e-5e2f-9b3a-1c2d3e4f5a6b",
+      "slug": "salad",
+      "name": "Salad"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "a1b2c3d4-e5f6-5a7b-8c9d-0e1f2a3b4c5d",
+      "slug": "tarragon",
+      "name": "Tarragon"
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For the best flavor, chill the salad for at least 1 hour before serving to allow the flavors to meld.",
+    "Toast the walnuts in a dry skillet over medium heat for 3 to 5 minutes until fragrant."
+  ],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-make-tarragon-chicken-salad/"

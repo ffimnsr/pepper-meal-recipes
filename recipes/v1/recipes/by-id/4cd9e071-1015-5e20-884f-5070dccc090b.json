@@ -65,11 +65,15 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "Shellfish",
+    "Soy",
+    "Gluten"
+  ],
   "equipment": [
-    "Wok or large skillet For saut\u00e9ing and tossing the noodles",
-    "Tongs For tossing noodles and vegetables",
-    "Knife and board For slicing meat and vegetables"
+    "Wok or large skillet",
+    "Tongs",
+    "Knife and cutting board"
   ],
   "ingredients": [
     {
@@ -104,7 +108,7 @@
       "name": "chayote",
       "normalized_name": "chayote",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "thinly sliced",
       "position": 4
     },
@@ -113,7 +117,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 5
     },
@@ -173,11 +177,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/4",
       "unit": "tsp",
-      "preparation": null,
+      "preparation": "ground",
       "position": 12
     },
     {
@@ -202,8 +206,8 @@
       "ingredient_id": "aab9e3a0-656b-56b3-ad5d-01701a78b04c",
       "name": "vinegar",
       "normalized_name": "vinegar",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "tbsp",
       "preparation": null,
       "position": 15
     }
@@ -227,7 +231,9 @@
     "Drizzle vinegar at the table to brighten the flavor.",
     "Add a splash of shrimp stock or pork broth to enrich the sauce."
   ],
-  "storage_notes": [],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 2 days. Reheat in a wok with a splash of broth to loosen the noodles."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/pancit-habhab-recipe/"

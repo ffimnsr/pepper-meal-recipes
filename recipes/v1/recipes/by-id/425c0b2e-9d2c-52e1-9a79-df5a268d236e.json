@@ -5,7 +5,7 @@
   "slug": "spicy-pork-kaldereta",
   "name": "Spicy Pork Kaldereta Recipe",
   "recipe_type": null,
-  "brief_description": "This is a recipe for a spicy version of Pork Kaldereta. This is meant for pulutan.",
+  "brief_description": "A rich and spicy Filipino pork stew featuring tender pork belly, vegetables, and the distinctive flavor of liver spread. Traditionally served as pulutan (appetizer) or with steamed rice.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -66,9 +66,20 @@
     "sugarContent": "26 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "spicy",
+    "high-protein"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "pot",
+    "knife",
+    "cutting board",
+    "wooden spoon",
+    "can opener"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
@@ -84,7 +95,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": "pieces",
+      "unit": "piece",
       "preparation": "sliced",
       "position": 2
     },
@@ -99,11 +110,11 @@
     },
     {
       "ingredient_id": "30e689d9-f00c-5b96-8fdd-bc2fea5143de",
-      "name": "diced tomato",
-      "normalized_name": "diced tomato",
+      "name": "tomato",
+      "normalized_name": "tomato",
       "quantity": "1",
       "unit": "can",
-      "preparation": null,
+      "preparation": "diced",
       "position": 4
     },
     {
@@ -239,8 +250,15 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Liver spread is essential for authentic kaldereta flavor",
+    "Adjust chili quantity based on spice preference",
+    "Best served with steamed rice or as pulutan (appetizer)"
+  ],
+  "storage_notes": [
+    "Store leftovers in airtight container in refrigerator for up to 3 days",
+    "Flavor improves after resting overnight"
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/spicy-pork-kaldereta/"

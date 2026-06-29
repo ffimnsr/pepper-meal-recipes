@@ -55,18 +55,20 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "37f38590-6cc8-5d95-b137-d929fac1ce29",
       "name": "bottle gourd",
       "normalized_name": "bottle gourd",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 1
     },
@@ -84,7 +86,7 @@
       "name": "plum tomato",
       "normalized_name": "plum tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "cubed",
       "position": 3
     },
@@ -93,7 +95,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 4
     },
@@ -132,6 +134,15 @@
       "unit": "cup",
       "preparation": null,
       "position": 8
+    },
+    {
+      "ingredient_id": "7c9a5b3e-4f2d-4e1a-9b5c-3d7f6e2a1b4c",
+      "name": "fish sauce",
+      "normalized_name": "fish sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
     }
   ],
   "categories": [

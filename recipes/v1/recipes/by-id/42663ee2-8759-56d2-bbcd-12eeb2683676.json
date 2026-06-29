@@ -55,7 +55,10 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "pan",
+    "stove"
+  ],
   "ingredients": [
     {
       "ingredient_id": "1406b9dc-e908-5eb2-a5e4-f99d6e71756a",
@@ -98,26 +101,26 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 5
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 6
     },
     {
       "ingredient_id": "9fb28bbd-917f-51e0-9b5e-f07e27cc0880",
-      "name": "cornstarch diluted in 4 teaspoons water",
-      "normalized_name": "cornstarch diluted in 4 teaspoons water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "diluted in 4 teaspoons water",
       "position": 7
     },
     {
@@ -133,8 +136,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1/4",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 9
     },

@@ -6,7 +6,7 @@
   "name": "Ginataang Monggo with Tofu and Malunggay",
   "recipe_type": "main",
   "brief_description": "Mung bean stew with fried tofu and moringa leaves",
-  "cuisine": "Fiipino",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -65,8 +65,13 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "pot",
+    "serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3105a63b-36f5-5971-890d-5d6ee19a0a8a",
@@ -82,7 +87,7 @@
       "name": "knorr pork cube",
       "normalized_name": "knorr pork cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 2
     },
@@ -97,11 +102,11 @@
     },
     {
       "ingredient_id": "fcfe6779-a1d8-536f-a3fa-3c7d66597a26",
-      "name": "fried tofu",
-      "normalized_name": "fried tofu",
+      "name": "tofu",
+      "normalized_name": "tofu",
       "quantity": "8",
       "unit": "ounces",
-      "preparation": "diced",
+      "preparation": "fried, diced",
       "position": 4
     },
     {
@@ -118,16 +123,16 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 6
     },
     {
       "ingredient_id": "7e6674a9-00c2-5b05-8229-48616a087a83",
-      "name": "mato",
-      "normalized_name": "mato",
-      "quantity": "1 to",
-      "unit": null,
+      "name": "tomato",
+      "normalized_name": "tomato",
+      "quantity": "1",
+      "unit": "piece",
       "preparation": "diced",
       "position": 7
     },

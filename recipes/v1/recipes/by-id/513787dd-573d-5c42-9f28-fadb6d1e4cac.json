@@ -4,9 +4,9 @@
   "id": "513787dd-573d-5c42-9f28-fadb6d1e4cac",
   "slug": "beef-pot-roast",
   "name": "Beef Pot Roast",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Beef Pot Roast",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Classic American beef pot roast with vegetables, slow-cooked in red wine and broth until tender.",
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
@@ -57,17 +57,22 @@
   "cooking_time_minutes": 180,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/513787dd-573d-5c42-9f28-fadb6d1e4cac/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Dutch oven"
+  ],
   "ingredients": [
     {
       "ingredient_id": "89009c1c-76a6-5143-8d75-494309a66aa0",
@@ -101,7 +106,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "sliced into 2 inch pieces",
       "position": 4
     },
@@ -110,7 +115,7 @@
       "name": "red potato",
       "normalized_name": "red potato",
       "quantity": "5",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "quartered",
       "position": 5
     },
@@ -119,7 +124,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "quartered",
       "position": 6
     },
@@ -134,11 +139,11 @@
     },
     {
       "ingredient_id": "c6f41004-9471-56a4-b6ab-f3572dc95e32",
-      "name": "dried bay leaf",
-      "normalized_name": "dried bay leaf",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
       "quantity": "3",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "dried",
       "position": 8
     },
     {
@@ -161,11 +166,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 11
     },
     {

@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Crumble the bacon and add to the bowl with broccoli. Add the cashew and cheese, as well. Continue to toss gently until all the ingredients are well belended."
+      "text": "Crumble the bacon and add to the bowl with broccoli. Add the cashew and cheese, as well. Continue to toss gently until all the ingredients are well blended."
     },
     {
       "position": 5,
@@ -51,10 +51,10 @@
   "ingredients": [
     {
       "ingredient_id": "7c42af38-e395-5e67-9d41-3844e320930b",
-      "name": "bacon slice",
-      "normalized_name": "bacon slice",
+      "name": "bacon",
+      "normalized_name": "bacon",
       "quantity": "6",
-      "unit": null,
+      "unit": "slices",
       "preparation": null,
       "position": 1
     },
@@ -63,17 +63,17 @@
       "name": "broccoli",
       "normalized_name": "broccoli",
       "quantity": "1",
-      "unit": null,
+      "unit": "head",
       "preparation": "florets chopped",
       "position": 2
     },
     {
       "ingredient_id": "188bf98c-5e05-5e22-a7c3-d021a3e42189",
-      "name": "shredded monterrey jack cheese",
-      "normalized_name": "shredded monterrey jack cheese",
+      "name": "monterrey jack cheese",
+      "normalized_name": "monterrey jack cheese",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "shredded",
       "position": 3
     },
     {
@@ -81,7 +81,7 @@
       "name": "sweet onion",
       "normalized_name": "sweet onion",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 4
     },
@@ -90,7 +90,7 @@
       "name": "granulated white sugar",
       "normalized_name": "granulated white sugar",
       "quantity": "1",
-      "unit": "tablespoons",
+      "unit": "tablespoon",
       "preparation": null,
       "position": 5
     },
@@ -123,11 +123,11 @@
     },
     {
       "ingredient_id": "6bc932dc-8b25-5834-af55-e6dbd1465fbd",
-      "name": "roasted cashew",
-      "normalized_name": "roasted cashew",
+      "name": "cashews",
+      "normalized_name": "cashew",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "roasted",
       "position": 9
     }
   ],

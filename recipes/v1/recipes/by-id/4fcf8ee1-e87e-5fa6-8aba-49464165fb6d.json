@@ -4,9 +4,9 @@
   "id": "4fcf8ee1-e87e-5fa6-8aba-49464165fb6d",
   "slug": "easy-chicken-curry",
   "name": "Easy Chicken Curry",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Easy Chicken Curry is a very tasty and delicious dish that you can quickly prepare any time of the day. The use of curry powder makes this dish easier to make -- compared to assembling your own curry from scratch (although nothing beats making your own curry scratch by grinding and combining spices).",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -64,8 +64,8 @@
   "servings": 3,
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
-  "difficulty": "hard",
+  "rest_time_minutes": 15,
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4fcf8ee1-e87e-5fa6-8aba-49464165fb6d/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -75,7 +75,11 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "bowl",
+    "cooking pot",
+    "plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -91,7 +95,7 @@
       "name": "potato",
       "normalized_name": "potato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "peeled and diced",
       "position": 2
     },
@@ -145,7 +149,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 8
     },
@@ -154,7 +158,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 9
     },

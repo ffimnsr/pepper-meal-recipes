@@ -69,7 +69,7 @@
   "cooking_time_minutes": 12,
   "preparation_time_minutes": 8,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4ebcf3d6-ec36-527c-bd60-69e2e2765f61/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -77,14 +77,26 @@
     "@type": "NutritionInformation",
     "servingSize": "8 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "gluten",
+    "dairy",
+    "eggs"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric mixer",
+    "baking sheet",
+    "parchment paper",
+    "cooling rack"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f9723a1f-a577-552a-bd9e-385317ee7567",
-      "name": "oat",
-      "normalized_name": "oat",
+      "name": "oats",
+      "normalized_name": "oats",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -164,8 +176,8 @@
     },
     {
       "ingredient_id": "0395d79e-c1a7-5479-88bd-6a47c200ed08",
-      "name": "raisin",
-      "normalized_name": "raisin",
+      "name": "raisins",
+      "normalized_name": "raisins",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,

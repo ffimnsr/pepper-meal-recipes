@@ -5,8 +5,8 @@
   "slug": "clam-soup-tinolang-halaan",
   "name": "Clam Soup Recipe (Tinolang Halaan)",
   "recipe_type": "soup",
-  "brief_description": "This clam soup recipe is the Filipino version of clam soup. The ingredients that I used were alternative vegetables that are available in my location",
-  "cuisine": null,
+  "brief_description": "A Filipino clam soup made with fresh clams, ginger, and spinach. This version uses vegetables readily available in your local market.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,15 +14,15 @@
     },
     {
       "position": 2,
-      "text": "Add the ginger and onion. Cover and continue to boil in medium heat for 3 to 5 minutes."
+      "text": "Add the ginger and onion. Cover and continue to boil over medium heat for 3 to 5 minutes."
     },
     {
       "position": 3,
-      "text": "Stir-in the clams. Simmer for 5 to 10 minutes."
+      "text": "Stir in the clams. Simmer for 5 to 10 minutes."
     },
     {
       "position": 4,
-      "text": "Add-in the spinach. Cover and cook for a minute more."
+      "text": "Add the spinach. Cover and cook for a minute more."
     },
     {
       "position": 5,
@@ -47,11 +47,18 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Shellfish"
+  ],
+  "equipment": [
+    "Stockpot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8089b640-46ae-583f-b6db-38dd5c55970c",
@@ -67,7 +74,7 @@
       "name": "spinach",
       "normalized_name": "spinach",
       "quantity": "1",
-      "unit": null,
+      "unit": "bunch",
       "preparation": "washed and drained",
       "position": 2
     },
@@ -76,7 +83,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },
@@ -85,7 +92,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 4
     },

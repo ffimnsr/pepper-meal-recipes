@@ -80,18 +80,32 @@
   "servings": 6,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 20,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 165,
   "difficulty": "expert",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4492cdc4-fafe-517e-a3fb-3bc7c5115308/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "80 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Vegetarian"
+  ],
+  "allergens": [
+    "Dairy",
+    "Eggs",
+    "Wheat"
+  ],
+  "equipment": [
+    "Mixing bowl",
+    "Rolling pin",
+    "Dough slicer",
+    "Pastry brush",
+    "Baking tray",
+    "Wax paper",
+    "Kitchen towel"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
@@ -131,11 +145,11 @@
     },
     {
       "ingredient_id": "511fe23f-7694-5c86-aae2-dccbd4636b14",
-      "name": "grated cheddar cheese",
-      "normalized_name": "grated cheddar cheese",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "grated",
       "position": 5
     },
     {
@@ -149,10 +163,10 @@
     },
     {
       "ingredient_id": "e315a3a5-f3e9-5ec6-8322-52afba15a73f",
-      "name": "pouch rapid rise yeast",
-      "normalized_name": "pouch rapid rise yeast",
+      "name": "rapid rise yeast",
+      "normalized_name": "rapid rise yeast",
       "quantity": "1",
-      "unit": null,
+      "unit": "pouch",
       "preparation": null,
       "position": 7
     },

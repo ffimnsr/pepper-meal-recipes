@@ -5,7 +5,7 @@
   "slug": "7up-chicken-asado",
   "name": "7Up Chicken Asado",
   "recipe_type": null,
-  "brief_description": "This is a recipe for 7Up Chicken Asado.",
+  "brief_description": "Filipino-style whole chicken marinated in soy sauce and peppercorns, stuffed with aromatics, and simmered in 7Up until tender. Finished with a reduced savory-sweet sauce poured over the carved chicken.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Pour the remaining marinade and 1 liter of 7up (or any similar product). Let boil."
+      "text": "Pour the remaining marinade and 1 liter of 7Up (or any similar product). Let boil."
     },
     {
       "position": 6,
@@ -42,7 +42,7 @@
     },
     {
       "position": 9,
-      "text": "Continue to cook the sauce in the cooking pot until it reduces to half. Add garlic powder and onion powder. Stir"
+      "text": "Continue to cook the sauce in the cooking pot until it reduces to half. Add garlic powder and onion powder. Stir."
     },
     {
       "position": 10,
@@ -56,7 +56,7 @@
   "servings": 5,
   "cooking_time_minutes": 60,
   "preparation_time_minutes": 12,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 10,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5459c63f-379e-5b0a-9cd7-c46ebc29c14e/cover.jpg",
   "video_url": null,
@@ -67,14 +67,19 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Large cooking pot",
+    "Plate or bowl",
+    "Kitchen sieve or strainer",
+    "Serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
       "name": "chicken",
       "normalized_name": "chicken",
       "quantity": "1",
-      "unit": null,
+      "unit": "whole",
       "preparation": null,
       "position": 1
     },
@@ -89,11 +94,11 @@
     },
     {
       "ingredient_id": "2284c9c9-dc52-596d-9350-0ca99f0f818b",
-      "name": "crushed peppercorn",
-      "normalized_name": "crushed peppercorn",
+      "name": "peppercorn",
+      "normalized_name": "peppercorn",
       "quantity": "1 1/2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 3
     },
     {
@@ -101,16 +106,16 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 4
     },
     {
       "ingredient_id": "9a177886-b482-5f30-a30f-17df801e1de6",
-      "name": "bunches lemongrass",
-      "normalized_name": "bunches lemongrass",
+      "name": "lemongrass",
+      "normalized_name": "lemongrass",
       "quantity": "3",
-      "unit": null,
+      "unit": "bunches",
       "preparation": "tied into knots",
       "position": 5
     },
@@ -119,17 +124,17 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 6
     },
     {
       "ingredient_id": "79a67268-f09a-50cb-86f5-1735baaba0c8",
-      "name": "crushed garlic",
-      "normalized_name": "crushed garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "4",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 7
     },
     {
@@ -143,10 +148,10 @@
     },
     {
       "ingredient_id": "9c57ec9f-1d51-54a5-b8d5-6cc2849d6eaa",
-      "name": "liter 7 up",
-      "normalized_name": "liter 7 up",
+      "name": "7 Up",
+      "normalized_name": "7 up",
       "quantity": "1",
-      "unit": null,
+      "unit": "liter",
       "preparation": null,
       "position": 9
     },

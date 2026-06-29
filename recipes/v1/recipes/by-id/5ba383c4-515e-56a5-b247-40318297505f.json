@@ -5,7 +5,7 @@
   "slug": "cook-pork-bagnet-crispy-fried-pork-belly",
   "name": "How to Cook Pork Bagnet",
   "recipe_type": null,
-  "brief_description": "This is a recipe for crispy pork bagnet,",
+  "brief_description": "This is a recipe for crispy pork bagnet.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -53,9 +53,17 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "deep cooking pot",
+    "deep fryer",
+    "paper towels",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
@@ -68,19 +76,19 @@
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water",
-      "normalized_name": "quarts water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "2",
-      "unit": null,
+      "unit": "qt",
       "preparation": null,
       "position": 2
     },
     {
       "ingredient_id": "00652cfa-235b-5a99-8f90-d74552701dd5",
-      "name": "quarts cooking oil",
-      "normalized_name": "quarts cooking oil",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
       "quantity": "1 1/2",
-      "unit": null,
+      "unit": "qt",
       "preparation": null,
       "position": 3
     }

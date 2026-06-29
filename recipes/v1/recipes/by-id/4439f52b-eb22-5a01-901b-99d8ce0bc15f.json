@@ -67,19 +67,27 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "8 g",
+    "servingSize": "1 serving",
     "calories": "204 kcal"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Shellfish",
+    "Eggs",
+    "Gluten"
+  ],
+  "equipment": [
+    "Pan",
+    "Bowl",
+    "Spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "b0ccac4d-b32d-52f6-ac57-b0380174755c",
-      "name": "meat and top shell of 8 pieces steamed blue crab",
-      "normalized_name": "meat and top shell of 8 pieces steamed blue crab",
-      "quantity": null,
-      "unit": null,
+      "name": "meat and top shell of steamed blue crab",
+      "normalized_name": "meat and top shell of steamed blue crab",
+      "quantity": "8",
+      "unit": "pieces",
       "preparation": null,
       "position": 1
     },
@@ -88,7 +96,7 @@
       "name": "potato",
       "normalized_name": "potato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 2
     },
@@ -97,7 +105,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 3
     },
@@ -115,7 +123,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 5
     },
@@ -133,7 +141,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 7
     },

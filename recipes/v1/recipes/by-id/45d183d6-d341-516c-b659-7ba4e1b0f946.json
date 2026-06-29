@@ -53,7 +53,7 @@
   "cooking_time_minutes": 28,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/45d183d6-d341-516c-b659-7ba4e1b0f946/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -61,16 +61,29 @@
     "@type": "NutritionInformation",
     "servingSize": "6 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "eggs",
+    "milk",
+    "tree nuts",
+    "wheat"
+  ],
+  "equipment": [
+    "cooking pot",
+    "large mixing bowl",
+    "potato masher",
+    "baking pan",
+    "oven"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f751fd63-aa06-57bc-bdb1-bd705d3794d0",
       "name": "sweet potato",
       "normalized_name": "sweet potato",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "peeled and cubed",
       "position": 1
     },
@@ -106,7 +119,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 5
     },

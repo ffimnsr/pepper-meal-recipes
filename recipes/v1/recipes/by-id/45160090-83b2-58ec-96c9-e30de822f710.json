@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "45160090-83b2-58ec-96c9-e30de822f710",
   "slug": "tinolang-bangus-recipe",
-  "name": "Tinolang Bangus Recipe",
+  "name": "Tinolang Bangus",
   "recipe_type": "soup",
   "brief_description": "Tinolang Bangus is a delicious Filipino soup recipe; it is a hearty ginger soup composed of bangus (milkfish) and vegetables such as chayote, hot pepper leaves, and malunggay leaves. This is best eaten with white rice along with a spicy fish sauce dip.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -51,10 +51,12 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "Fish"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -62,7 +64,7 @@
       "name": "bangus",
       "normalized_name": "bangus",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "scales and innards removed and sliced",
       "position": 1
     },
@@ -98,7 +100,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced into strips",
       "position": 5
     },
@@ -107,7 +109,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 6
     },

@@ -6,19 +6,19 @@
   "name": "Paksiw na Isda Recipe",
   "recipe_type": null,
   "brief_description": "This Paksiw na Isda Recipe is simply fish cooked in vinegar and garlic. This seafood dish is best eaten with steamed rice.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Heat a pan and cooking pot then pour-in vinegar and water."
+      "text": "Heat a pan or cooking pot, then pour in the vinegar and water."
     },
     {
       "position": 2,
-      "text": "Add salt and whole peppercorn then stir. Bring to a boil."
+      "text": "Add the salt and whole peppercorns, then stir. Bring to a boil."
     },
     {
       "position": 3,
-      "text": "Arrange the fish in the pan along with the ginger, garlic, onion, bitter gourd, and finger chili. Cover and simmer in low to medium heat for 12 to 15 minutes."
+      "text": "Arrange the fish in the pot along with the ginger, garlic, onion, bitter gourd, and finger chilies. Cover and simmer over low to medium heat for 12 to 15 minutes."
     },
     {
       "position": 4,
@@ -27,10 +27,6 @@
     {
       "position": 5,
       "text": "Serve hot with steamed rice. Share and enjoy!"
-    },
-    {
-      "position": 6,
-      "text": "Note: You may substitute salt with 3/4 to 1 tablespoon fish sauce."
     }
   ],
   "servings": 2,
@@ -43,11 +39,21 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Gluten-Free",
+    "Dairy-Free"
+  ],
+  "allergens": [
+    "Fish"
+  ],
+  "equipment": [
+    "Pan",
+    "Cooking pot",
+    "Serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "21abfd13-7bc7-5d5d-a530-96940d0f4c44",
@@ -63,7 +69,7 @@
       "name": "knob ginger",
       "normalized_name": "knob ginger",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced and pounded",
       "position": 2
     },
@@ -99,7 +105,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 6
     },
@@ -108,7 +114,7 @@
       "name": "bitter gourd",
       "normalized_name": "bitter gourd",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 7
     },
@@ -149,8 +155,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "You may substitute salt with 3/4 to 1 tablespoon fish sauce."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 2 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/paksiw-na-isda-recipe/"

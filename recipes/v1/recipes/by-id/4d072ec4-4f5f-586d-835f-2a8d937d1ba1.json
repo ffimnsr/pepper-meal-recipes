@@ -76,16 +76,27 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy",
+    "shellfish"
+  ],
+  "equipment": [
+    "frying pan",
+    "cooking pot",
+    "kitchen sieve",
+    "mixing bowl",
+    "spatula",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8fdeccbd-97a4-5cae-81db-33e23df91564",
       "name": "water spinach",
       "normalized_name": "water spinach",
       "quantity": "1",
-      "unit": null,
-      "preparation": null,
+      "unit": "bunch",
+      "preparation": "chopped",
       "position": 1
     },
     {
@@ -102,8 +113,8 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "1",
-      "unit": null,
-      "preparation": null,
+      "unit": "head",
+      "preparation": "crushed and chopped",
       "position": 3
     },
     {
@@ -111,7 +122,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 4
     },
@@ -168,6 +179,24 @@
       "unit": "cup",
       "preparation": null,
       "position": 10
+    },
+    {
+      "ingredient_id": "9f8e7d6c-5b4a-4392-8765-4321fedcba09",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "to taste",
+      "unit": "piece",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "to taste",
+      "unit": "piece",
+      "preparation": null,
+      "position": 12
     }
   ],
   "categories": [

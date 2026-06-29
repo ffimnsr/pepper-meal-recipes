@@ -5,7 +5,7 @@
   "slug": "chicken-soup-with-misua-and-patola",
   "name": "Chicken Soup with Misua and Patola",
   "recipe_type": "soup",
-  "brief_description": "This is a recipe for Chicken Soup with Misua and Patola.",
+  "brief_description": "A comforting Filipino chicken noodle soup featuring tender shredded chicken, delicate misua noodles, and fresh patola (loofah gourd) in a savory broth.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "position": 13,
-      "text": "Add the scallions, fish sauce, and ground black pepper.Cook for 2 minutes."
+      "text": "Add the scallions, fish sauce, and ground black pepper. Cook for 2 minutes."
     },
     {
       "position": 14,
@@ -73,17 +73,22 @@
   "cooking_time_minutes": 50,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5312ace0-d305-5946-8b94-1eeadcc4878a/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Cooking pot",
+    "Knife",
+    "Cutting board",
+    "Bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "72e78ee1-743c-5e32-a2bf-40a7081015af",
@@ -108,7 +113,7 @@
       "name": "patola",
       "normalized_name": "patola",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced crosswise",
       "position": 3
     },
@@ -117,7 +122,7 @@
       "name": "knorr chicken cube",
       "normalized_name": "knorr chicken cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 4
     },
@@ -132,20 +137,20 @@
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 6
     },
     {
       "ingredient_id": "79a67268-f09a-50cb-86f5-1735baaba0c8",
-      "name": "crushed garlic",
-      "normalized_name": "crushed garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "3",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 7
     },
     {
@@ -153,7 +158,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 8
     },

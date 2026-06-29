@@ -4,50 +4,50 @@
   "id": "48f53092-4274-550a-b577-de4d1d74bb02",
   "slug": "pinapaitan-sa-ampalaya",
   "name": "Pinapaitan sa Ampalaya",
-  "recipe_type": "appetizer",
-  "brief_description": "Beef offal soup with bitter melon.",
+  "recipe_type": "soup",
+  "brief_description": "Traditional Filipino beef offal soup with bitter melon, featuring a complex savory-bitter flavor profile from beef tripe, heart, liver, and small intestine simmered with ampalaya and kamias.",
   "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Prepare the bitter melons by removing the seeds. Chop the veggies into small pieces. Note: you can also use a food processor for best results."
+      "text": "Prepare the bitter melons by cutting them in half lengthwise and removing the seeds with a spoon. Slice into thin half-moons or chop into small pieces. Note: you can also use a food processor for best results."
     },
     {
       "position": 2,
-      "text": "Boil water in a cooking pot. Add chopped bitter melons. Boil for 3 minutes. Set aside."
+      "text": "Bring water to a boil in a cooking pot. Add the chopped bitter melons and boil for 3 minutes to reduce bitterness. Drain and set aside, reserving the boiling liquid."
     },
     {
       "position": 3,
-      "text": "Heat oil in a clean wok or pan. Saut\u00e9 garlic, onion, and ginger."
+      "text": "Heat cooking oil in a clean wok or heavy-bottomed pot over medium heat. Saut\u00e9 minced garlic, onion, and ginger until fragrant and the onion begins to soften, about 2-3 minutes."
     },
     {
       "position": 4,
-      "text": "Once the onion softens, add the beef tripe, beef heart, and small intestine. Cook for 5 to 7 minutes."
+      "text": "Add the boiled and chopped beef tripe, beef heart, and beef small intestine to the pot. Cook for 5 to 7 minutes, stirring occasionally, until lightly browned and heated through."
     },
     {
       "position": 5,
-      "text": "Add liver. Cook for 1 minute."
+      "text": "Add the sliced pork liver to the pot. Cook for 1 minute, stirring gently to avoid breaking the liver."
     },
     {
       "position": 6,
-      "text": "Pour vinegar into the wok. Let the mixture boil."
+      "text": "Pour white vinegar into the wok, scraping the bottom to deglaze. Let the mixture boil uncovered for 2 minutes to cook off the sharp acidity."
     },
     {
       "position": 7,
-      "text": "Pour the water used to boil the bitter melons while straining. Cover and let the liquid boil. Set the heat to low. Continue boiling until all the ingredients gets tender."
+      "text": "Pour in the reserved bitter melon boiling water through a fine strainer to remove any solids. Cover the pot, reduce heat to low, and simmer until the offal is tender, approximately 45-60 minutes."
     },
     {
       "position": 8,
-      "text": "Add kamias and chili peppers. Cook for 15 minutes."
+      "text": "Add kamias and whole chili peppers to the soup. Continue cooking for 15 minutes to develop the sour and spicy notes."
     },
     {
       "position": 9,
-      "text": "Season with fish sauce and ground black pepper. Serve hot. Share and enjoy!"
+      "text": "Season with fish sauce and ground black pepper to taste. Adjust bitterness and sourness as desired. Serve hot with steamed rice. Share and enjoy!"
     }
   ],
   "servings": 6,
   "cooking_time_minutes": 90,
-  "preparation_time_minutes": 10,
+  "preparation_time_minutes": 25,
   "rest_time_minutes": null,
   "difficulty": "hard",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/48f53092-4274-550a-b577-de4d1d74bb02/cover.webp",
@@ -70,15 +70,21 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "large cooking pot",
+    "wok or heavy-bottomed pot",
+    "fine mesh strainer",
+    "cutting board",
+    "chef's knife"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a59584f2-5ec0-5c70-b641-48b7c04902d4",
       "name": "bitter melon",
       "normalized_name": "bitter melon",
       "quantity": "2",
-      "unit": null,
-      "preparation": null,
+      "unit": "pieces",
+      "preparation": "seeded and sliced",
       "position": 1
     },
     {
@@ -122,16 +128,16 @@
       "name": "chili pepper",
       "normalized_name": "chili pepper",
       "quantity": "5",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 6
     },
     {
       "ingredient_id": "d4f23e88-6259-51ba-ba81-87507d83fd22",
-      "name": "kamia",
-      "normalized_name": "kamia",
+      "name": "kamias",
+      "normalized_name": "kamias",
       "quantity": "5",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 7
     },
@@ -140,7 +146,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 8
     },
@@ -149,7 +155,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "3",
-      "unit": null,
+      "unit": "tablespoons",
       "preparation": "minced",
       "position": 9
     },
@@ -193,8 +199,8 @@
       "ingredient_id": "bbd156a1-dded-5a45-93f2-268dc6af4718",
       "name": "fish sauce",
       "normalized_name": "fish sauce",
-      "quantity": null,
-      "unit": null,
+      "quantity": "2",
+      "unit": "tablespoons",
       "preparation": null,
       "position": 14
     },
@@ -202,8 +208,8 @@
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
       "name": "ground black pepper",
       "normalized_name": "ground black pepper",
-      "quantity": null,
-      "unit": null,
+      "quantity": "0.5",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 15
     }
@@ -211,8 +217,8 @@
   "categories": [
     {
       "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
-      "slug": "appetizer",
-      "name": "Appetizer"
+      "slug": "soup",
+      "name": "Soup"
     },
     {
       "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
@@ -241,8 +247,18 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Offal requires thorough cleaning and pre-boiling before use in this recipe.",
+    "Kamias (bilimbi fruit) provides essential sourness; substitute with tamarind or additional vinegar if unavailable.",
+    "Bitterness level can be adjusted by increasing or decreasing bitter melon and kamias quantities.",
+    "Traditional versions may include bile for enhanced bitterness (pinapaitan).",
+    "Best consumed immediately; leftovers develop stronger flavors overnight."
+  ],
+  "storage_notes": [
+    "Refrigerate in an airtight container for up to 3 days.",
+    "Freeze portions without the bitter melon for up to 2 months; add fresh bitter melon when reheating.",
+    "Reheat gently over low heat to prevent liver from becoming tough."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/pinapaitan-sa-ampalaya/"

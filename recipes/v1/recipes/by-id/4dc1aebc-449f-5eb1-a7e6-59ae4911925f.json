@@ -60,8 +60,12 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "shellfish"
+  ],
+  "equipment": [
+    "wok"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f2a2e263-b25d-54a0-aa12-77600cb3dfc0",
@@ -113,7 +117,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 6
     },
@@ -122,7 +126,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 7
     },

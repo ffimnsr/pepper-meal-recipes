@@ -6,7 +6,7 @@
   "name": "Breakfast Daing na Bisugo with Sinangag",
   "recipe_type": "breakfast",
   "brief_description": "Daing na Bisugo with Sinangag sounds like a perfect pair for a Filipino breakfast; it will be even better if we add some spicy vinegar dip.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -43,11 +43,21 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "1 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian",
+    "Dairy-Free",
+    "Gluten-Free"
+  ],
+  "allergens": [
+    "Fish"
+  ],
+  "equipment": [
+    "Frying pan",
+    "Paper towels",
+    "Plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "917f41d2-9f49-58e6-a217-32e7f60e73b7",
@@ -75,6 +85,15 @@
       "unit": "cup",
       "preparation": null,
       "position": 3
+    },
+    {
+      "ingredient_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "name": "spiced vinegar",
+      "normalized_name": "spiced vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
     }
   ],
   "categories": [
@@ -86,8 +105,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Daing na bisugo refers to salted dried threadfin fish, a Filipino breakfast staple.",
+    "Sinangag is Filipino garlic fried rice, typically made with day-old rice."
+  ],
+  "storage_notes": [
+    "Store leftover fried fish in an airtight container in the refrigerator for up to 2 days. Reheat in a pan to maintain crispiness.",
+    "Sinangag is best consumed immediately but can be refrigerated for up to 1 day."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/breakfast-daing-na-bisugo-sinangag/"

@@ -4,8 +4,8 @@
   "id": "42430492-3835-517d-80b9-150ed3d46843",
   "slug": "crockpot-beef-pares-recipe",
   "name": "Crockpot Beef Pares Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Crockpot Beef Pares",
+  "recipe_type": "main",
+  "brief_description": "Tender beef cubes slow-cooked in a savory-sweet broth with star anise, ginger, and garlic, served with garlic fried rice and fresh scallions",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -29,17 +29,21 @@
   "cooking_time_minutes": 480,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/42430492-3835-517d-80b9-150ed3d46843/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "slow cooker"
+  ],
   "ingredients": [
     {
       "ingredient_id": "57593523-2bc0-5bc3-8768-0ab77c09efe0",
@@ -52,11 +56,11 @@
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 2
     },
     {
@@ -64,7 +68,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 3
     },
@@ -88,11 +92,11 @@
     },
     {
       "ingredient_id": "5ec285ac-e5f8-545b-b77d-a4264f14cee4",
-      "name": "minced ginger",
-      "normalized_name": "minced ginger",
+      "name": "ginger",
+      "normalized_name": "ginger",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 6
     },
     {
@@ -100,7 +104,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 7
     },

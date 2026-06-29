@@ -3,14 +3,14 @@
   "schema_version": 1,
   "id": "464c4b2b-8b5a-5e27-9ad9-a8c13fd2bf30",
   "slug": "how-to-cook-tandoori-chicken",
-  "name": "Tandoori Chicken Recipe",
+  "name": "Tandoori Chicken",
   "recipe_type": null,
-  "brief_description": "This Tandoori Chicken Recipe is straightforward and easy to prepare. Try to make it for yourself and enjoy its delicious taste. Happy cooking!",
-  "cuisine": null,
+  "brief_description": "Classic Indian tandoori chicken marinated in yogurt and warm spices, then grilled until charred and juicy. A flavorful main course perfect with rice or naan.",
+  "cuisine": "Indian",
   "instructions": [
     {
       "position": 1,
-      "text": "In a large bowl, combine all of the ingredients except for chicken and olive oil. Mix thoroughly."
+      "text": "In a large bowl, combine all of the ingredients except for the chicken and olive oil. Mix thoroughly."
     },
     {
       "position": 2,
@@ -18,7 +18,7 @@
     },
     {
       "position": 3,
-      "text": "Marinade for 8 to 10 hours."
+      "text": "Marinate for 8 to 10 hours."
     },
     {
       "position": 4,
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Grill until both sides are done."
+      "text": "Grill over medium-high heat, turning occasionally, until the chicken is cooked through and slightly charred, about 15 to 18 minutes."
     },
     {
       "position": 6,
@@ -34,24 +34,29 @@
     },
     {
       "position": 7,
-      "text": "Serve. Share and Enjoy!"
+      "text": "Serve warm and enjoy."
     }
   ],
   "servings": 6,
   "cooking_time_minutes": 18,
-  "preparation_time_minutes": 600,
-  "rest_time_minutes": null,
-  "difficulty": "expert",
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": 600,
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/464c4b2b-8b5a-5e27-9ad9-a8c13fd2bf30/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Dairy"
+  ],
+  "equipment": [
+    "Grill",
+    "Large bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8384034f-177a-5d0b-afe6-2f4f6bc991d7",
@@ -91,20 +96,20 @@
     },
     {
       "ingredient_id": "ea2ad59d-a51b-5a0c-830b-c0053dc651ba",
-      "name": "ground cardamom",
-      "normalized_name": "ground cardamom",
+      "name": "cardamom",
+      "normalized_name": "cardamom",
       "quantity": "1/4",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 5
     },
     {
       "ingredient_id": "55282b9a-e96b-5451-89e7-9caaac574d31",
-      "name": "ground clove",
-      "normalized_name": "ground clove",
+      "name": "clove",
+      "normalized_name": "clove",
       "quantity": "1/4",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 6
     },
     {
@@ -118,20 +123,20 @@
     },
     {
       "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
-      "name": "ground cumin",
-      "normalized_name": "ground cumin",
+      "name": "cumin",
+      "normalized_name": "cumin",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 8
     },
     {
       "ingredient_id": "1c05fe49-eae3-5107-914d-8b01c5886c6f",
-      "name": "ground coriander",
-      "normalized_name": "ground coriander",
+      "name": "coriander",
+      "normalized_name": "coriander",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 9
     },
     {
@@ -145,11 +150,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 11
     },
     {
