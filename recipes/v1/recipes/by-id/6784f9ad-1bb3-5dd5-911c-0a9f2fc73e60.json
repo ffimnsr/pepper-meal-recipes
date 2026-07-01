@@ -81,16 +81,30 @@
     "sodiumContent": "179 mg",
     "sugarContent": "95 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian",
+    "gluten-free"
+  ],
+  "allergens": [
+    "eggs",
+    "milk"
+  ],
+  "equipment": [
+    "oven",
+    "saucepan",
+    "mixing bowl",
+    "ramekins or llanera molds",
+    "roasting tray",
+    "aluminum foil",
+    "wire rack (optional)"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f57bd758-b955-5a0d-8781-8edfd21c2ac5",
       "name": "egg yolk",
       "normalized_name": "egg yolk",
       "quantity": "12",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 1
     },
@@ -114,7 +128,7 @@
     },
     {
       "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
-      "name": "milk",
+      "name": "fresh milk",
       "normalized_name": "milk",
       "quantity": "1",
       "unit": "cup",

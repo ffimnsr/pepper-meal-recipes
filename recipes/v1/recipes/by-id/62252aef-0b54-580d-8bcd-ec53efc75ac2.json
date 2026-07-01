@@ -4,9 +4,9 @@
   "id": "62252aef-0b54-580d-8bcd-ec53efc75ac2",
   "slug": "braised-pork-belly-in-soy-sauce-tau-yew-bak",
   "name": "Braised Pork Belly in Soy Sauce (Tau Yew Bak)",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Braised Pork Belly in Soy Sauce (Tau Yew Bak)",
-  "cuisine": null,
+  "recipe_type": "main",
+  "brief_description": "Tender pork belly braised in soy sauce with sweet roasted garlic, tofu, and hard-boiled eggs. A comforting dish perfect over steamed rice.",
+  "cuisine": "Chinese",
   "instructions": [
     {
       "position": 1,
@@ -14,23 +14,23 @@
     },
     {
       "position": 2,
-      "text": "Prepare the roasted garlic pulp by first slicing the top part of the garlic crosswise to expose the cloves. Boil 2 cups water and then put the garlic head into the pot. Continue to boil in low to medium heat for 8 minutes."
+      "text": "Prepare the roasted garlic pulp by first slicing the top part of the garlic crosswise to expose the cloves. Boil 2 cups water and then put the garlic head into the pot. Continue to boil over low to medium heat for 8 minutes."
     },
     {
       "position": 3,
-      "text": "Preheat oven to 200F. Remove the garlic from the pot . Let it cool down and then rub vegetable oil all over it. Arrange in a baking tray and bake for 30 minutes. Removed from the oven and set aside."
+      "text": "Preheat oven to 200F. Remove the garlic from the pot. Let it cool down and then rub vegetable oil all over it. Arrange in a baking tray and bake for 30 minutes. Remove from the oven, let cool, and squeeze out the roasted garlic pulp. Set aside."
     },
     {
       "position": 4,
-      "text": "Place the marinated pork along with the soy sauce in a cooking pot. Start to heat the pot and then cook the pork until light to medium brown."
+      "text": "Place the marinated pork along with the soy sauce in a cooking pot. Heat the pot and cook the pork until light to medium brown."
     },
     {
       "position": 5,
-      "text": "Pour the beef broth into the pan (or you can also use water with \u00bd beef or pork cube/bouillon). Let boil. Add the roasted garlic pulp. Cover and cook in low to medium heat until the pork gets tender. You can add more broth or water if needed."
+      "text": "Pour the beef broth into the pot (or you can also use water with \u00bd beef or pork cube/bouillon). Let boil. Add the roasted garlic pulp. Cover and cook over low to medium heat until the pork gets tender. You can add more broth or water if needed."
     },
     {
       "position": 6,
-      "text": "Add the sugar. Stir until diluted."
+      "text": "Add the sugar. Stir until dissolved."
     },
     {
       "position": 7,
@@ -55,11 +55,19 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "3 g"
+    "servingSize": null
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Soy",
+    "Egg"
+  ],
+  "equipment": [
+    "Pot",
+    "Oven",
+    "Baking tray",
+    "Bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a830b7ca-57c2-58ca-b9cf-e82341160649",
@@ -99,11 +107,11 @@
     },
     {
       "ingredient_id": "e48e3356-0176-559e-b16e-e2c59b7d8ceb",
-      "name": "hard-boiled egg",
-      "normalized_name": "hard-boiled egg",
+      "name": "egg",
+      "normalized_name": "egg",
       "quantity": "3 to 5",
-      "unit": null,
-      "preparation": null,
+      "unit": "pieces",
+      "preparation": "hard-boiled",
       "position": 5
     },
     {
@@ -129,7 +137,7 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "1",
-      "unit": null,
+      "unit": "head",
       "preparation": null,
       "position": 8
     },
@@ -161,8 +169,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, marinate the pork for at least 30 minutes before cooking."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/braised-pork-belly-in-soy-sauce-tau-yew-bak/"

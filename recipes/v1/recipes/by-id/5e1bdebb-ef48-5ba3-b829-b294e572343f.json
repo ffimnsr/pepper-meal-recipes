@@ -4,9 +4,9 @@
   "id": "5e1bdebb-ef48-5ba3-b829-b294e572343f",
   "slug": "orange-glazed-pork-recipe",
   "name": "Orange Glazed Pork",
-  "recipe_type": "dessert",
+  "recipe_type": "main",
   "brief_description": "Crispy bite-sized pork coated with sweet and tangy orange sauce",
-  "cuisine": null,
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -48,14 +48,14 @@
   "servings": 6,
   "cooking_time_minutes": 40,
   "preparation_time_minutes": 20,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 20,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5e1bdebb-ef48-5ba3-b829-b294e572343f/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g",
+    "servingSize": "1 serving",
     "calories": "1112 kcal",
     "carbohydrateContent": "56 g",
     "proteinContent": "30 g",
@@ -69,8 +69,15 @@
     "unsaturatedFatContent": "74 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "soy"
+  ],
+  "equipment": [
+    "cooking pot",
+    "saucepan",
+    "large mixing bowl",
+    "serving bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
@@ -161,6 +168,15 @@
       "unit": "cups",
       "preparation": null,
       "position": 10
+    },
+    {
+      "ingredient_id": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "name": "cane vinegar",
+      "normalized_name": "cane vinegar",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
     }
   ],
   "categories": [

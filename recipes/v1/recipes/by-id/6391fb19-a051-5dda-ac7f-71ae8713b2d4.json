@@ -69,7 +69,10 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "peanuts",
+    "tree nuts"
+  ],
   "equipment": [],
   "ingredients": [
     {
@@ -101,10 +104,10 @@
     },
     {
       "ingredient_id": "243dd632-d464-5f8b-9d8c-6c15cb88710f",
-      "name": "bunches bok choy",
-      "normalized_name": "bunches bok choy",
+      "name": "bok choy",
+      "normalized_name": "bok choy",
       "quantity": "2",
-      "unit": null,
+      "unit": "bunches",
       "preparation": null,
       "position": 4
     },
@@ -113,7 +116,7 @@
       "name": "chinese eggplant",
       "normalized_name": "chinese eggplant",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 5
     },
@@ -122,7 +125,7 @@
       "name": "string bean",
       "normalized_name": "string bean",
       "quantity": "12",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cut in 2 inch pieces",
       "position": 6
     },
@@ -131,7 +134,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 7
     },
@@ -146,10 +149,10 @@
     },
     {
       "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
-      "name": "quarts water",
-      "normalized_name": "quarts water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "2",
-      "unit": null,
+      "unit": "quarts",
       "preparation": null,
       "position": 9
     },

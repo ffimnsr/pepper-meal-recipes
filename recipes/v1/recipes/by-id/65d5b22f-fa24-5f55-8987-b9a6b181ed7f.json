@@ -4,8 +4,8 @@
   "id": "65d5b22f-fa24-5f55-8987-b9a6b181ed7f",
   "slug": "rellenong-talong-recipe",
   "name": "Rellenong Talong (Stuffed Eggplant) Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for stuffed eggplant.",
+  "recipe_type": "main",
+  "brief_description": "Filipino-style grilled eggplant stuffed with savory ground pork, tomatoes, and aromatics, dipped in beaten egg and pan-fried until golden brown. Traditionally served with banana ketchup and steamed rice.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -14,47 +14,47 @@
     },
     {
       "position": 2,
-      "text": "Remove the eggplants from the grill; let the temperature cool down; peel-off the skin and then set aside"
+      "text": "Remove the eggplants from the grill; let cool, peel off the skin, and set aside."
     },
     {
       "position": 3,
-      "text": "Meanwhile, heat 1 tablespoon of cooking in a pan."
+      "text": "Meanwhile, heat 1 tablespoon of cooking oil in a pan."
     },
     {
       "position": 4,
-      "text": "Saut\u00e9 onion, garlic, and tomato"
+      "text": "Saut\u00e9 onion, garlic, and tomato until softened."
     },
     {
       "position": 5,
-      "text": "Add the ground pork. Cook until color turns medium brown (about 8 to 10 minutes)"
+      "text": "Add the ground pork. Cook until color turns medium brown (about 8 to 10 minutes)."
     },
     {
       "position": 6,
-      "text": "Put-in soy sauce, 1/2 teaspoon salt, and ground black pepper. Stir; turn off heat, and then set aside."
+      "text": "Add soy sauce, 1/2 teaspoon salt, and ground black pepper. Stir, turn off the heat, and set aside."
     },
     {
       "position": 7,
-      "text": "Add remaining salt with the beaten eggs and then beat once more."
+      "text": "Add the remaining salt to the beaten eggs and mix well."
     },
     {
       "position": 8,
-      "text": "Dip the eggplants in the beaten egg mixture."
+      "text": "Dip the peeled eggplants in the beaten egg mixture."
     },
     {
       "position": 9,
-      "text": "Heat a clean pan and then pour-in 1/2 cup cooking oil."
+      "text": "Heat a clean pan and pour in 1/2 cup cooking oil."
     },
     {
       "position": 10,
-      "text": "Put-in one egg plant. Scoop about half of the ground pork mixture and distribute on top of the eggplant"
+      "text": "Put in one eggplant. Scoop about half of the ground pork mixture and distribute on top of the eggplant."
     },
     {
       "position": 11,
-      "text": "Pour-in about 2 to 3 tablespoons of beaten egg mixture over the ground pork."
+      "text": "Pour 2 to 3 tablespoons of beaten egg mixture over the ground pork."
     },
     {
       "position": 12,
-      "text": "Gently flip the egg (using 2 spatulas if possible) to cook the other side. Cook for 3 to 4 minutes in low to medium heat."
+      "text": "Gently flip the eggplant (using two spatulas if possible) to cook the other side. Cook for 3 to 4 minutes over low-to-medium heat."
     },
     {
       "position": 13,
@@ -70,10 +70,10 @@
     }
   ],
   "servings": 2,
-  "cooking_time_minutes": 10,
+  "cooking_time_minutes": 35,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "expert",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/65d5b22f-fa24-5f55-8987-b9a6b181ed7f/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -90,13 +90,26 @@
     "sugarContent": "4 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "contains-pork",
+    "contains-eggs",
+    "contains-soy"
+  ],
+  "allergens": [
+    "eggs",
+    "soy"
+  ],
+  "equipment": [
+    "grill",
+    "frying pan",
+    "mixing bowl",
+    "spatula",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "95564c4f-61e3-5cb4-9850-e4b754ae3e46",
-      "name": "chinese eggplant",
+      "name": "Chinese eggplant",
       "normalized_name": "chinese eggplant",
       "quantity": "2",
       "unit": "pieces",
@@ -135,14 +148,14 @@
       "name": "garlic",
       "normalized_name": "garlic",
       "quantity": "2",
-      "unit": "clove",
+      "unit": "cloves",
       "preparation": "minced",
       "position": 5
     },
     {
       "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
-      "name": "egg",
-      "normalized_name": "egg",
+      "name": "eggs",
+      "normalized_name": "eggs",
       "quantity": "3",
       "unit": "pieces",
       "preparation": "beaten",
@@ -177,8 +190,8 @@
     },
     {
       "ingredient_id": "b149ea7d-e7f1-576a-933a-62dc7912e481",
-      "name": "cooking oil plus 1 tablespoon extra",
-      "normalized_name": "cooking oil plus 1 tablespoon extra",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
@@ -198,19 +211,42 @@
     },
     {
       "id": "92c8a1c3-9e5b-5744-a1e1-cbc1c737c836",
-      "slug": "stuffed-egplant",
-      "name": "stuffed egplant"
+      "slug": "stuffed-eggplant",
+      "name": "stuffed eggplant"
     },
     {
       "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
       "slug": "pork",
-      "name": "Pork"
+      "name": "pork"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "slug": "filipino",
+      "name": "filipino"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "slug": "stuffed-vegetables",
+      "name": "stuffed vegetables"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+      "slug": "main-dish",
+      "name": "main dish"
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Reserve 1 tablespoon of cooking oil for saut\u00e9ing the aromatics (in addition to the 1/2 cup for frying).",
+    "When flipping the stuffed eggplant, use two spatulas to prevent the filling from falling out.",
+    "Ensure the eggplant is fully cooked and tender before peeling."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat in a pan over medium heat or in the microwave until warmed through."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/rellenong-talong-recipe/"

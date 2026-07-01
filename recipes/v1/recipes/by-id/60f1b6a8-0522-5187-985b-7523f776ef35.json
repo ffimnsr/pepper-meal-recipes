@@ -64,9 +64,20 @@
     "unsaturatedFatContent": "20 g",
     "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "Pescatarian"
+  ],
+  "allergens": [
+    "Shellfish",
+    "Dairy",
+    "Gluten"
+  ],
+  "equipment": [
+    "Large pot",
+    "Colander",
+    "Large skillet or pan",
+    "Tongs or wooden spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -100,7 +111,7 @@
       "name": "lemon",
       "normalized_name": "lemon",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 4
     },
@@ -118,7 +129,7 @@
       "name": "grape tomato",
       "normalized_name": "grape tomato",
       "quantity": "15",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "halved",
       "position": 6
     },

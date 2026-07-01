@@ -3,9 +3,9 @@
   "schema_version": 1,
   "id": "6a1d31a1-4b56-520f-bff6-3ddc1bb8b9a4",
   "slug": "chicken-inasal-bbq-recipe",
-  "name": "Chicken Inasal BBQ Recipe",
+  "name": "Chicken Inasal BBQ",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Chicken Inasal Barbecue.",
+  "brief_description": "Filipino-style grilled chicken marinated in lemongrass, ginger, coconut vinegar, and annatto oil, then skewered and basted with margarine while grilling.",
   "cuisine": "Filipino",
   "instructions": [
     {
@@ -22,11 +22,11 @@
     },
     {
       "position": 4,
-      "text": "Prepare the basting sauce by combining all the sauce ingredients (see above). Mix well. Microwave for 12 seconds."
+      "text": "Prepare the basting sauce by combining the annatto oil, margarine, and salt. Mix well. Microwave for 12 seconds."
     },
     {
       "position": 5,
-      "text": "Grill one side of the chicken for 2 to 4 minutes. Brush basting sauce on top. Note: do this step until the chicken is fully cooked."
+      "text": "Grill the chicken for 2 to 4 minutes per side, brushing basting sauce on top each time, until fully cooked."
     },
     {
       "position": 6,
@@ -51,7 +51,12 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "grill",
+    "bamboo skewers",
+    "mixing bowl",
+    "microwave"
+  ],
   "ingredients": [
     {
       "ingredient_id": "11843ddc-9136-55c4-834f-29cfc38d731b",
@@ -67,7 +72,7 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "crushed",
       "position": 2
     },
@@ -109,11 +114,11 @@
     },
     {
       "ingredient_id": "2284c9c9-dc52-596d-9350-0ca99f0f818b",
-      "name": "crushed peppercorn",
-      "normalized_name": "crushed peppercorn",
+      "name": "peppercorn",
+      "normalized_name": "peppercorn",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 7
     },
     {
@@ -148,7 +153,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": "1/2",
-      "unit": "teaspoons",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 11
     }

@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "5e1d3622-6873-5939-9f09-733087b001dc",
   "slug": "chicken-and-ham-sopas",
-  "name": "Chicken and Ham Sopas Recipe",
+  "name": "Chicken and Ham Sopas",
   "recipe_type": null,
   "brief_description": "Chicken and Ham Sopas is perfect during cold weather. This version of the popular chicken sopas will excite your taste buds.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,23 +14,23 @@
     },
     {
       "position": 2,
-      "text": "Put-in the butter to melt."
+      "text": "Put in the butter to melt."
     },
     {
       "position": 3,
-      "text": "Add-in the onions once the butter becomes hot.Cook for 2 minutes."
+      "text": "Add the onions once the butter becomes hot. Cook for 2 minutes."
     },
     {
       "position": 4,
-      "text": "Put-in the celery ribs. Cook for 1 minute."
+      "text": "Add the celery ribs. Cook for 1 minute."
     },
     {
       "position": 5,
-      "text": "add the ground chicken and ham. Cook for 3 minutes."
+      "text": "Add the ground chicken and ham. Cook for 3 minutes."
     },
     {
       "position": 6,
-      "text": "Pour-in the chicken broth and water. Let boil. Simmer for 30 minutes."
+      "text": "Pour in the chicken broth and water. Let boil, then simmer for 30 minutes."
     },
     {
       "position": 7,
@@ -38,11 +38,11 @@
     },
     {
       "position": 8,
-      "text": "Pour-in the evaporated milk. Allow to boil, and then simmer for 10 minutes."
+      "text": "Pour in the evaporated milk. Allow to boil, then simmer for 10 minutes."
     },
     {
       "position": 9,
-      "text": "Put-in the noodles and thyme. Cook for 12 to 15 minutes."
+      "text": "Add the noodles and thyme. Cook for 12 to 15 minutes."
     },
     {
       "position": 10,
@@ -61,13 +61,13 @@
   "cooking_time_minutes": 50,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5e1d3622-6873-5939-9f09-733087b001dc/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "8 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
   "allergens": [],
@@ -75,20 +75,20 @@
   "ingredients": [
     {
       "ingredient_id": "f0464817-6351-5fe4-b463-fe603c5e064d",
-      "name": "ground chicken",
-      "normalized_name": "ground chicken",
+      "name": "chicken",
+      "normalized_name": "chicken",
       "quantity": "1/2",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "ground",
       "position": 1
     },
     {
       "ingredient_id": "ee68b059-77c2-5bd2-ac8a-7af733407838",
-      "name": "chopped ham",
-      "normalized_name": "chopped ham",
+      "name": "ham",
+      "normalized_name": "ham",
       "quantity": "1/2",
       "unit": "lb",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 2
     },
     {
@@ -114,7 +114,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 5
     },
@@ -132,7 +132,7 @@
       "name": "baking potato",
       "normalized_name": "baking potato",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "diced",
       "position": 7
     },
@@ -141,7 +141,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "diced",
       "position": 8
     },
@@ -165,11 +165,11 @@
     },
     {
       "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
-      "name": "dried thyme",
-      "normalized_name": "dried thyme",
+      "name": "thyme",
+      "normalized_name": "thyme",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "dried",
       "position": 11
     },
     {
@@ -189,6 +189,15 @@
       "unit": null,
       "preparation": null,
       "position": 13
+    },
+    {
+      "ingredient_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "name": "elbow macaroni",
+      "normalized_name": "elbow macaroni",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 14
     }
   ],
   "categories": [

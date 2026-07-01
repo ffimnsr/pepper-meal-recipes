@@ -54,10 +54,10 @@
     }
   ],
   "servings": 6,
-  "cooking_time_minutes": 1,
+  "cooking_time_minutes": 0,
   "preparation_time_minutes": 20,
-  "rest_time_minutes": null,
-  "difficulty": "hard",
+  "rest_time_minutes": 180,
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/61fffa7b-b324-5a42-82e8-82b6cbd314a3/cover.jpg",
   "video_url": null,
   "additional_media": [],
@@ -66,16 +66,24 @@
     "servingSize": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "dairy",
+    "gluten"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "electric mixer",
+    "strainer",
+    "8x8 baking pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f9ee9ed2-5dec-58c1-9733-552efd2504e1",
-      "name": "ml cold heavy whipping cream",
-      "normalized_name": "ml cold heavy whipping cream",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
       "quantity": "16",
       "unit": "oz",
-      "preparation": null,
+      "preparation": "cold",
       "position": 1
     },
     {
@@ -125,11 +133,11 @@
     },
     {
       "ingredient_id": "60472e04-a81a-57ac-96d3-f668b3db70b0",
-      "name": "crushed graham",
-      "normalized_name": "crushed graham",
+      "name": "graham cracker",
+      "normalized_name": "graham cracker",
       "quantity": "3",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 7
     }
   ],
@@ -142,8 +150,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "Ensure heavy whipping cream is cold before whipping for best results."
+  ],
+  "storage_notes": [
+    "Refrigerate for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/fruit-cocktail-float/"

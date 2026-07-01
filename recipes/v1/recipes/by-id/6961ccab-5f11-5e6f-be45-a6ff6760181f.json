@@ -5,8 +5,8 @@
   "slug": "longganisa-fried-rice",
   "name": "Longganisa Fried Rice",
   "recipe_type": "breakfast",
-  "brief_description": "Longganissa Fried Rice is a fried rice version using Longganisa (Filipino Sausage). This is best eaten during breakfast.",
-  "cuisine": null,
+  "brief_description": "Longganisa Fried Rice is a fried rice version using Longganisa (Filipino Sausage). This is best eaten during breakfast.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -18,27 +18,27 @@
     },
     {
       "position": 3,
-      "text": "When the oil becomes hot, put-in the chopped longganisa. Cook for 2 minutes."
+      "text": "When the oil is hot, add the chopped longganisa. Cook for 2 minutes."
     },
     {
       "position": 4,
-      "text": "Put-in the mashed rice. Cook for 5 minutes in medium heat while stirring once in awhile."
+      "text": "Add the mashed rice. Cook for 5 minutes over medium heat, stirring occasionally."
     },
     {
       "position": 5,
-      "text": "Make a space in the pan by putting the rice on one side."
+      "text": "Push the rice to one side of the pan to create a space."
     },
     {
       "position": 6,
-      "text": "Crack the eggs and then put in the open space of the pan. Let the eggs cook and then chop using the tip of your spatula."
+      "text": "Crack the eggs into the open space. Let the eggs cook, then chop them using the tip of your spatula."
     },
     {
       "position": 7,
-      "text": "Gently mix the eggs with the rest of the Ingredients."
+      "text": "Gently mix the eggs with the rest of the ingredients."
     },
     {
       "position": 8,
-      "text": "Pour-in the soy sauce. Stir and then cook for one minute."
+      "text": "Pour in the soy sauce. Stir and cook for one minute."
     },
     {
       "position": 9,
@@ -53,17 +53,23 @@
   "cooking_time_minutes": 18,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6961ccab-5f11-5e6f-be45-a6ff6760181f/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Eggs",
+    "Soy"
+  ],
+  "equipment": [
+    "Frying pan",
+    "Spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "04654df9-a021-5cdc-8c17-fe268f6ecc2f",
@@ -80,7 +86,7 @@
       "normalized_name": "longganisa",
       "quantity": "3",
       "unit": "pieces",
-      "preparation": "removed from the casing and the chopped",
+      "preparation": "removed from casing and chopped",
       "position": 2
     },
     {
@@ -88,7 +94,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 3
     },
@@ -138,8 +144,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, use day-old cold rice."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/longganisa-fried-rice/"

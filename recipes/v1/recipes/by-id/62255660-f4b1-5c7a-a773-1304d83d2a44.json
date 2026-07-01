@@ -64,7 +64,9 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "Fish"
+  ],
   "equipment": [
     "1 Air fryer Any brand or model works for this recipe.",
     "1 Small Mixing Bowl For combining the spice rub.",
@@ -73,11 +75,11 @@
   "ingredients": [
     {
       "ingredient_id": "c15ddad5-929f-59bc-8e7c-f96ad252661c",
-      "name": "tilapia fillet",
-      "normalized_name": "tilapia fillet",
+      "name": "tilapia",
+      "normalized_name": "tilapia",
       "quantity": "4",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "fillet",
       "position": 1
     },
     {
@@ -127,20 +129,20 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 7
     },
     {
       "ingredient_id": "eea67def-8b6c-5b0f-a160-72367825dd33",
-      "name": "lemon wedge",
-      "normalized_name": "lemon wedge",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "wedges",
       "position": 8
     }
   ],

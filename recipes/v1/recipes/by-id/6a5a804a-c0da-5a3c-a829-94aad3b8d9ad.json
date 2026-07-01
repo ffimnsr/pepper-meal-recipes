@@ -3,60 +3,69 @@
   "schema_version": 1,
   "id": "6a5a804a-c0da-5a3c-a829-94aad3b8d9ad",
   "slug": "make-eggs-benedict",
-  "name": "How to Make Eggs Benedict",
+  "name": "Eggs Benedict",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Eggs Benedict with Hollandaise Sauce.",
-  "cuisine": null,
+  "brief_description": "Classic eggs Benedict with homemade Hollandaise sauce, crispy bacon, and poached eggs on toasted English muffins.",
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
-      "text": "To learn how to make eggs Benedicts, you must know how to make a good Hollandaise sauce first. Pour an inch of water into the bottom of a double boiler and place it over medium-low heat to simmer."
+      "text": "To make Eggs Benedict, start with the Hollandaise sauce. Pour an inch of water into the bottom of a double boiler and place over medium-low heat to simmer."
     },
     {
       "position": 2,
-      "text": "Mix the egg yolks with lemon juice in a bowl first and then transfer it into the top part of the double boiler. Keep whisking vigorously as you add butter. Allow the butter to melt, sprinkle salt and pepper and remove from heat. Set the sauce aside for later."
+      "text": "Mix the egg yolks with lemon juice in a bowl, then transfer to the top of the double boiler. Whisk vigorously while adding the butter. Once the butter has melted, season with salt and pepper, remove from heat, and set aside."
     },
     {
       "position": 3,
-      "text": "Set the oven to broiler and place the muffin inside in the heat until toasted. Remove them and set aside. In the meantime, heat a pan on medium-high heat and add bacon slices. If they stick to the pan, you should try adding a little olive oil and frying it until crispy. When done, layer the toasted muffins with bacon."
+      "text": "Set the oven to broil and toast the English muffin halves until golden. Remove and set aside. Meanwhile, heat a skillet over medium-high heat and add the bacon slices. If they stick, add a little olive oil and fry until crispy. Top the toasted muffins with the bacon."
     },
     {
       "position": 4,
-      "text": "To poach the eggs, fill half a pan with water. Let the water simmer over medium-low heat, making sure it doesn\u2019t boil. Crack one egg into a bowl keeping the yolk intact. Gently slide it into the simmering water and do the same with the other eggs. When the egg white is set but the yolk is still water, remove from water with a slotted spoon and place them on top of the bacon."
+      "text": "To poach the eggs, fill a pan halfway with water and bring to a gentle simmer over medium-low heat; do not boil. Crack an egg into a bowl, keeping the yolk intact, then gently slide it into the water. Repeat with the remaining eggs. When the whites are set but the yolks are still runny, remove with a slotted spoon and place on top of the bacon."
     },
     {
       "position": 5,
-      "text": "Drizzle the Hollandaise sauce over the egg muffin and serve. This is the simplest method to learn how to make eggs Benedict. With experience and time, you can make your own Hollandaise sauce recipe and experiment with other seasonings. Serve and enjoy."
+      "text": "Drizzle the Hollandaise sauce over the poached eggs and muffins. Serve immediately and enjoy."
     }
   ],
-  "servings": null,
-  "cooking_time_minutes": null,
-  "preparation_time_minutes": null,
+  "servings": 4,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "easy",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6a5a804a-c0da-5a3c-a829-94aad3b8d9ad/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": null,
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "eggs",
+    "milk",
+    "wheat"
+  ],
+  "equipment": [
+    "double boiler",
+    "mixing bowl",
+    "skillet",
+    "slotted spoon"
+  ],
   "ingredients": [
     {
       "ingredient_id": "279eb16b-ddae-5bd3-b5a8-c203840e673f",
       "name": "english muffin",
       "normalized_name": "english muffin",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cut into halves",
       "position": 1
     },
     {
       "ingredient_id": "83205548-dd18-5593-b0de-82b5eb7eaf2d",
-      "name": "slices of uncured bacon",
-      "normalized_name": "slices of uncured bacon",
+      "name": "uncured bacon",
+      "normalized_name": "uncured bacon",
       "quantity": "4-6",
-      "unit": null,
+      "unit": "slices",
       "preparation": null,
       "position": 2
     },
@@ -65,45 +74,18 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 3
-    },
-    {
-      "ingredient_id": "a5185ec7-3800-587b-91b9-6e6b5eef6737",
-      "name": "hollandaise sauce",
-      "normalized_name": "hollandaise sauce",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
-      "position": 4
-    },
-    {
-      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
-      "name": "salt",
-      "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
-      "position": 5
-    },
-    {
-      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
-      "name": "pepper",
-      "normalized_name": "pepper",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
-      "position": 6
     },
     {
       "ingredient_id": "f57bd758-b955-5a0d-8781-8edfd21c2ac5",
       "name": "egg yolk",
       "normalized_name": "egg yolk",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
-      "position": 7
+      "position": 4
     },
     {
       "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
@@ -112,7 +94,16 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": null,
-      "position": 8
+      "position": 5
+    },
+    {
+      "ingredient_id": "7c9a6b2d-8e4f-4a3c-9d1e-5f6a7b8c9d0e",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
@@ -121,7 +112,7 @@
       "quantity": null,
       "unit": null,
       "preparation": null,
-      "position": 9
+      "position": 7
     },
     {
       "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
@@ -130,7 +121,7 @@
       "quantity": null,
       "unit": null,
       "preparation": null,
-      "position": 10
+      "position": 8
     }
   ],
   "categories": [

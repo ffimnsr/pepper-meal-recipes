@@ -3,14 +3,14 @@
   "schema_version": 1,
   "id": "5f4578f3-e93b-577e-8951-ba1ef66925e6",
   "slug": "pancit-molo-recipe",
-  "name": "Pancit Molo Recipe",
+  "name": "Pancit Molo",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Pancit Molo.",
-  "cuisine": null,
+  "brief_description": "A Filipino soup with pork and shrimp wontons in a rich chicken broth, topped with toasted garlic and scallions.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Start to prepare the wonton by chopping the shrimp into small pieces and put it in a mixing bowl."
+      "text": "Start preparing the wontons by chopping the shrimp into small pieces and placing them in a mixing bowl."
     },
     {
       "position": 2,
@@ -18,15 +18,15 @@
     },
     {
       "position": 3,
-      "text": "Lay a piece of wonton wrapper flat on a plate. Scoop 1 1/2 teaspoon of the mixture and place on the middle of the wrapper. Fold the wonton wrapper to form a triangle. Press the sides to keep the meat mixture intact. Gold both sides of the triangle wrapper inward. Set aside. Do this step until the pork mixture is completely consumed."
+      "text": "Lay a piece of wonton wrapper flat on a plate. Scoop 1 1/2 teaspoons of the mixture and place it in the center of the wrapper. Fold the wonton wrapper to form a triangle. Press the sides to seal the meat mixture inside. Fold both sides of the triangle wrapper inward. Set aside. Repeat until the pork mixture is completely used."
     },
     {
       "position": 4,
-      "text": "Make the soup by combining water and chicken broth in a soup pot. Let boil."
+      "text": "Make the soup by combining water and chicken broth in a soup pot. Bring to a boil."
     },
     {
       "position": 5,
-      "text": "Add the rotisserie chicken (with bones). Cover and boil in low heat for 20 minutes. Turn the heat off temporarily."
+      "text": "Add the rotisserie chicken (with bones). Cover and boil over low heat for 20 minutes. Turn the heat off temporarily."
     },
     {
       "position": 6,
@@ -38,7 +38,7 @@
     },
     {
       "position": 8,
-      "text": "Put the wontons in the soup pot. Cover and cook for 5 to 10 minutes in low to medium heat."
+      "text": "Add the wontons to the soup pot. Cover and cook for 5 to 10 minutes over low to medium heat."
     },
     {
       "position": 9,
@@ -46,11 +46,11 @@
     },
     {
       "position": 10,
-      "text": "Transfer to a serving plate. Top with toasted garlic and additional scallions."
+      "text": "Transfer to a serving bowl. Top with toasted garlic and additional scallions."
     },
     {
       "position": 11,
-      "text": "Serve. Share and enjoy!"
+      "text": "Serve hot. Share and enjoy!"
     }
   ],
   "servings": 6,
@@ -63,21 +63,26 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g",
+    "servingSize": "1 serving",
     "calories": "533 kcal",
     "proteinContent": "6 g"
   },
   "dietary_labels": [],
-  "allergens": [],
+  "allergens": [
+    "Shellfish",
+    "Eggs",
+    "Wheat",
+    "Fish"
+  ],
   "equipment": [],
   "ingredients": [
     {
       "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
-      "name": "ground pork",
-      "normalized_name": "ground pork",
+      "name": "pork",
+      "normalized_name": "pork",
       "quantity": "1 1/2",
       "unit": "lbs",
-      "preparation": null,
+      "preparation": "ground",
       "position": 1
     },
     {
@@ -91,8 +96,8 @@
     },
     {
       "ingredient_id": "5a234aa7-87b3-50ed-98e3-039cc6e8248c",
-      "name": "wrapper",
-      "normalized_name": "wrapper",
+      "name": "wonton wrapper",
+      "normalized_name": "wonton wrapper",
       "quantity": "30 to 35",
       "unit": "pieces",
       "preparation": null,
@@ -103,7 +108,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 4
     },
@@ -130,7 +135,7 @@
       "name": "egg",
       "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 7
     },
@@ -145,11 +150,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/8",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 9
     },
     {
@@ -157,7 +162,7 @@
       "name": "rotisserie chicken",
       "normalized_name": "rotisserie chicken",
       "quantity": "1/2",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 10
     },
@@ -181,20 +186,20 @@
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 13
     },
     {
       "ingredient_id": "ed386748-d3cc-5a27-9b75-2c49fdb37427",
-      "name": "toasted garlic",
-      "normalized_name": "toasted garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "toasted",
       "position": 14
     },
     {

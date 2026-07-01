@@ -58,34 +58,43 @@
     "servingSize": "1 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Eggs",
+    "Milk",
+    "Wheat",
+    "Gluten"
+  ],
+  "equipment": [
+    "nonstick frying pan",
+    "spatula",
+    "plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "29faba11-1dcb-58a7-b5d1-0dcbe5e039c0",
       "name": "slices of whole grain bread",
       "normalized_name": "slices of whole grain bread",
       "quantity": "2",
-      "unit": null,
+      "unit": "slices",
       "preparation": null,
       "position": 1
     },
     {
       "ingredient_id": "3f1f820a-362d-51b9-8d22-c7598488c99e",
-      "name": "egg cooked over easy",
-      "normalized_name": "egg cooked over easy",
+      "name": "egg",
+      "normalized_name": "egg",
       "quantity": "1",
-      "unit": null,
-      "preparation": null,
+      "unit": "piece",
+      "preparation": "cooked over easy",
       "position": 2
     },
     {
       "ingredient_id": "4b9801b4-d450-5a6c-8346-12e2c417e437",
-      "name": "sliced black forest ham",
-      "normalized_name": "sliced black forest ham",
+      "name": "black forest ham",
+      "normalized_name": "black forest ham",
       "quantity": "2",
       "unit": "ounces",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 3
     },
     {
@@ -96,6 +105,15 @@
       "unit": "tablespoons",
       "preparation": null,
       "position": 4
+    },
+    {
+      "ingredient_id": "f8a7b6c5-d4e3-4f2a-1b0c-9d8e7f6a5b4c",
+      "name": "cheese",
+      "normalized_name": "cheese",
+      "quantity": "2",
+      "unit": "slices",
+      "preparation": null,
+      "position": 5
     }
   ],
   "categories": [

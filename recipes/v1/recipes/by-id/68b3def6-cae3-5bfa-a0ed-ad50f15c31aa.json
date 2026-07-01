@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "68b3def6-cae3-5bfa-a0ed-ad50f15c31aa",
   "slug": "chili-shrimp-recipe",
-  "name": "Chili Shrimp Recipe",
+  "name": "Chili Shrimp",
   "recipe_type": null,
-  "brief_description": "Chili Shrimp is a delicious shrimp dish that is best eaten with steamed white rice. This dish is very tasty, so expect to consume more rice.",
-  "cuisine": null,
+  "brief_description": "Chili Shrimp is a flavorful shrimp dish best served with steamed white rice. The savory, spicy sauce pairs perfectly with extra rice.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,11 +14,11 @@
     },
     {
       "position": 2,
-      "text": "Saut\u00e9 the garlic and ginger"
+      "text": "Saut\u00e9 the garlic and ginger."
     },
     {
       "position": 3,
-      "text": "Put-in the shrimp. Stir and then cook for 1 minute."
+      "text": "Put in the shrimp. Stir and cook for 1 minute."
     },
     {
       "position": 4,
@@ -26,15 +26,15 @@
     },
     {
       "position": 5,
-      "text": "Pour-in the fish sauce and some sesame oil."
+      "text": "Pour in the fish sauce and sesame oil."
     },
     {
       "position": 6,
-      "text": "Add the leeks. Stir and then cook for 3 to 5 minutes."
+      "text": "Add the leek. Stir and cook for 3 to 5 minutes."
     },
     {
       "position": 7,
-      "text": "Transfer to a serving plate. Serve. Share and enjoy!"
+      "text": "Transfer to a serving plate and serve hot."
     }
   ],
   "servings": 4,
@@ -47,11 +47,17 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Shellfish",
+    "Fish",
+    "Sesame"
+  ],
+  "equipment": [
+    "Pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "174a42fd-8eec-5134-9613-eae3f13a0234",
@@ -120,8 +126,8 @@
       "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
       "name": "sesame oil",
       "normalized_name": "sesame oil",
-      "quantity": null,
-      "unit": null,
+      "quantity": "1",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 8
     },
@@ -130,7 +136,7 @@
       "name": "garlic clove",
       "normalized_name": "garlic clove",
       "quantity": "5",
-      "unit": null,
+      "unit": "cloves",
       "preparation": "minced",
       "position": 9
     },
@@ -139,7 +145,7 @@
       "name": "knob ginger",
       "normalized_name": "knob ginger",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 10
     },

@@ -5,8 +5,8 @@
   "slug": "chicken-congee-recipe",
   "name": "Chicken Congee Recipe",
   "recipe_type": null,
-  "brief_description": "This is a recipe for Chicken Congee",
-  "cuisine": null,
+  "brief_description": "A comforting Filipino rice porridge with tender shredded chicken, ginger, and scallions.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -14,23 +14,23 @@
     },
     {
       "position": 2,
-      "text": "Add Knorr chicken cube. Stir. Cover and continue to cook in medium heat for 15 minutes."
+      "text": "Add Knorr chicken cube. Stir. Cover and continue to cook over medium heat for 15 minutes."
     },
     {
       "position": 3,
-      "text": "Remove the chicken from the pot. Let it cool down. Shred the chicken meat. Discard the bones. Note: you can shred the chicken using two forks, or your bare clean hands."
+      "text": "Remove the chicken from the pot. Let it cool down. Shred the chicken meat. Discard the bones. Note: You can shred the chicken using two forks, or your bare clean hands."
     },
     {
       "position": 4,
-      "text": "Add rice into the pot. Cover and to cook for 30 minutes."
+      "text": "Add rice into the pot. Cover and cook for 30 minutes."
     },
     {
       "position": 5,
-      "text": "Put the shredded chicken in the pot. Continue to cook for 30 minutes more or until the consistency of the porridge gets thick. Note: add water if needed."
+      "text": "Put the shredded chicken in the pot. Continue to cook for 30 minutes more or until the consistency of the porridge gets thick. Note: Add water if needed."
     },
     {
       "position": 6,
-      "text": "Add salt, ground black pepper, and Sesame oil. Stir."
+      "text": "Add salt, ground black pepper, and sesame oil. Stir."
     },
     {
       "position": 7,
@@ -55,7 +55,11 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "cooking pot",
+    "bowl",
+    "forks"
+  ],
   "ingredients": [
     {
       "ingredient_id": "3c993cf9-0232-515c-bc22-46978b8cc562",
@@ -71,7 +75,7 @@
       "name": "knorr chicken cube",
       "normalized_name": "knorr chicken cube",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 2
     },
@@ -86,11 +90,11 @@
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "3/4",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 4
     },
     {
@@ -98,17 +102,17 @@
       "name": "ginger",
       "normalized_name": "ginger",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "sliced into thin strips",
       "position": 5
     },
     {
       "ingredient_id": "ed386748-d3cc-5a27-9b75-2c49fdb37427",
-      "name": "toasted garlic",
-      "normalized_name": "toasted garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "toasted",
       "position": 6
     },
     {
@@ -140,11 +144,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": null,
       "unit": null,
-      "preparation": null,
+      "preparation": "ground",
       "position": 10
     }
   ],
@@ -162,8 +166,14 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "You can substitute chicken breast for chicken thigh if preferred.",
+    "Add more water during cooking if the congee becomes too thick."
+  ],
+  "storage_notes": [
+    "Store leftovers in an airtight container in the refrigerator for up to 3 days.",
+    "Reheat with a splash of water to loosen the porridge."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/chicken-congee-recipe/"

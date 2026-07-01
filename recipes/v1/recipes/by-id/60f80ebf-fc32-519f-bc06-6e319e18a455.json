@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Gradually add the the rice into the pan. Stir to distribute the ingredients. Continue to stir fry for 3 to 5 minutes."
+      "text": "Gradually add the rice into the pan. Stir to distribute the ingredients. Continue to stir fry for 3 to 5 minutes."
     },
     {
       "position": 5,
@@ -55,26 +55,33 @@
     "sugarContent": "0.1 g",
     "unsaturatedFatContent": "11 g"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten-Free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Pan",
+    "Spatula"
+  ],
   "ingredients": [
     {
       "ingredient_id": "85ed519f-ff56-5b89-a42b-73ca63150204",
-      "name": "cooked white rice",
-      "normalized_name": "cooked white rice",
+      "name": "white rice",
+      "normalized_name": "white rice",
       "quantity": "3",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "cooked",
       "position": 1
     },
     {
       "ingredient_id": "79a67268-f09a-50cb-86f5-1735baaba0c8",
-      "name": "crushed garlic",
-      "normalized_name": "crushed garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "5",
       "unit": "cloves",
-      "preparation": null,
+      "preparation": "crushed",
       "position": 2
     },
     {
@@ -135,7 +142,9 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
+  "recipe_notes": [
+    "Best made with day-old rice for better texture and to prevent sogginess."
+  ],
   "storage_notes": [],
   "source": {
     "name": "Panlasang Pinoy",

@@ -4,9 +4,9 @@
   "id": "6411a601-a04c-51c7-8c18-176a22b65ece",
   "slug": "sauteed-brussel-sprouts-with-bacon-recipe",
   "name": "Sauteed Brussels Sprouts with Bacon Recipe",
-  "recipe_type": null,
-  "brief_description": "This is a recipe for Sauteed Brussels Sprouts with Bacon",
-  "cuisine": null,
+  "recipe_type": "side",
+  "brief_description": "Crispy bacon and tender Brussels sprouts saut\u00e9ed with onions for a savory, easy-to-make side dish perfect for weeknight dinners.",
+  "cuisine": "american",
   "instructions": [
     {
       "position": 1,
@@ -39,16 +39,22 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
+  "dietary_labels": [
+    "gluten-free"
+  ],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "frying pan",
+    "knife",
+    "cutting board"
+  ],
   "ingredients": [
     {
       "ingredient_id": "ff6a6e78-e5d9-520a-b952-a6bf0c2424b0",
-      "name": "brussels sprout",
-      "normalized_name": "brussels sprout",
+      "name": "brussels sprouts",
+      "normalized_name": "brussels sprouts",
       "quantity": "1",
       "unit": "lb",
       "preparation": "cleaned and cut into half",
@@ -56,10 +62,10 @@
     },
     {
       "ingredient_id": "dc8b8f41-5277-5f9b-91ba-73854eb10b2a",
-      "name": "strips bacon",
-      "normalized_name": "strips bacon",
+      "name": "bacon",
+      "normalized_name": "bacon",
       "quantity": "5",
-      "unit": null,
+      "unit": "strips",
       "preparation": "chopped",
       "position": 2
     },
@@ -68,7 +74,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },

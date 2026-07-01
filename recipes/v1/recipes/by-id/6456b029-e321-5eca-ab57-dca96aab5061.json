@@ -4,9 +4,9 @@
   "id": "6456b029-e321-5eca-ab57-dca96aab5061",
   "slug": "creamy-baked-salmon",
   "name": "Creamy Baked Salmon",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "Baked salmon with a cheesy and creamy topping with roasted vegetables.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -22,7 +22,7 @@
     },
     {
       "position": 4,
-      "text": "Make the dressing by heating the all-purpose cream in a saucepan (use low heat setting). Turn the heat off. Add cheese and then stir until it melts. Add salt, onion powder, and garlic powder. Squeeze the remaining lemon. Stir until well blended. Add Lady\u2019s Choice Mayonnaise. Stir."
+      "text": "Make the dressing by heating the all-purpose cream in a saucepan (use low heat setting). Turn the heat off. Add cheese and then stir until it melts. Add salt, onion powder, and garlic powder. Squeeze the remaining lemon. Stir until well blended. Add Lady's Choice Mayonnaise. Stir."
     },
     {
       "position": 5,
@@ -38,7 +38,7 @@
     }
   ],
   "servings": 3,
-  "cooking_time_minutes": null,
+  "cooking_time_minutes": 25,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
   "difficulty": "medium",
@@ -60,8 +60,17 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish",
+    "dairy",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "baking tray",
+    "frying pan",
+    "saucepan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "09b48090-4ab9-57be-98fb-e1762c62e647",
@@ -113,7 +122,7 @@
       "name": "lemon",
       "normalized_name": "lemon",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": null,
       "position": 6
     },
@@ -131,7 +140,7 @@
       "name": "bell pepper",
       "normalized_name": "bell pepper",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 8
     },
@@ -140,7 +149,7 @@
       "name": "carrot",
       "normalized_name": "carrot",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "sliced",
       "position": 9
     },
@@ -149,7 +158,7 @@
       "name": "long green bean",
       "normalized_name": "long green bean",
       "quantity": "20",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 10
     },

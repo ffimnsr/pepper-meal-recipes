@@ -4,7 +4,7 @@
   "id": "5ebfd706-3843-5bcc-aef4-6d504485cfef",
   "slug": "how-to-cook-baked-cilantro-lime-cod",
   "name": "Baked Cilantro Lime Cod Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "The outcome of this baked cilantro lime cod recipe is a delicious fish dish can easily be prepared for dinner. It is quick and easy to cook.",
   "cuisine": null,
   "instructions": [
@@ -49,9 +49,18 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "oven",
+    "baking pan",
+    "blender"
+  ],
   "ingredients": [
     {
       "ingredient_id": "11a9c4b4-9aad-5e48-ad34-c875dbd48988",
@@ -121,7 +130,7 @@
       "name": "salt",
       "normalized_name": "salt",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 8
     },
@@ -130,7 +139,7 @@
       "name": "pepper",
       "normalized_name": "pepper",
       "quantity": null,
-      "unit": null,
+      "unit": "teaspoon",
       "preparation": null,
       "position": 9
     }

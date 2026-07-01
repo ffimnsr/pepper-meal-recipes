@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "699dac23-176c-5596-9ced-fd0f09bd983d",
   "slug": "basil-beef-recipe",
-  "name": "Basil Beef Recipe",
-  "recipe_type": "dessert",
-  "brief_description": "Basil beef is a delicious ground beef recipe. It is usually tastes somewhat sweet and spicy. It also has an appetizing aroma brought about by fresh basil",
-  "cuisine": null,
+  "name": "Basil Beef",
+  "recipe_type": "main",
+  "brief_description": "Basil beef is a delicious ground beef dish. It usually tastes somewhat sweet and spicy. It also has an appetizing aroma brought about by fresh basil.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -26,7 +26,7 @@
     },
     {
       "position": 5,
-      "text": "Put-in the ground beef. Stir and brown for about 10 minutes."
+      "text": "Put in the ground beef. Stir and brown for about 10 minutes."
     },
     {
       "position": 6,
@@ -34,15 +34,15 @@
     },
     {
       "position": 7,
-      "text": "Put-in the basil leaves. Cook for 5 minutes."
+      "text": "Put in the basil leaves. Cook for 5 minutes."
     },
     {
       "position": 8,
-      "text": "Sprinkle the ground black pepper. Stir"
+      "text": "Sprinkle the ground black pepper. Stir."
     },
     {
       "position": 9,
-      "text": "Turn-off heat. Transfer to a serving plate. Add fried egg on top if desired."
+      "text": "Turn off heat. Transfer to a serving plate. Add fried egg on top if desired."
     },
     {
       "position": 10,
@@ -53,25 +53,29 @@
   "cooking_time_minutes": 40,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/699dac23-176c-5596-9ced-fd0f09bd983d/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "frying pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
-      "name": "ground beef",
-      "normalized_name": "ground beef",
+      "name": "beef",
+      "normalized_name": "beef",
       "quantity": "1 1/2",
       "unit": "lbs",
-      "preparation": null,
+      "preparation": "ground",
       "position": 1
     },
     {
@@ -103,11 +107,11 @@
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 5
     },
     {
@@ -130,11 +134,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 8
     }
   ],

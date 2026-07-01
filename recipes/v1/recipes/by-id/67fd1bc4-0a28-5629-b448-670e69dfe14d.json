@@ -6,7 +6,7 @@
   "name": "Kilawing Puso ng Saging",
   "recipe_type": "side",
   "brief_description": "Kilawing Puso ng Saging is a Filipino recipe involving banana blossoms. This is considered as a vegetable dish wherein the blossoms are sauteed with garlic and onion and cooked in vinegar.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -58,25 +58,31 @@
     "servingSize": "3 g"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "pan",
+    "colander",
+    "bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "50fc2488-826d-58d6-8343-1182cf2558ff",
-      "name": "chopped banana blossom",
-      "normalized_name": "chopped banana blossom",
+      "name": "banana blossom",
+      "normalized_name": "banana blossom",
       "quantity": "2 to 3",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 1
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "1",
       "unit": "tablespoon",
-      "preparation": null,
+      "preparation": "minced",
       "position": 2
     },
     {
@@ -84,7 +90,7 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },
@@ -117,11 +123,11 @@
     },
     {
       "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
-      "name": "ground black pepper",
-      "normalized_name": "ground black pepper",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/4",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "ground",
       "position": 7
     },
     {
@@ -135,10 +141,10 @@
     },
     {
       "ingredient_id": "33c1bc93-2935-5d75-a104-16d123ddcc60",
-      "name": "brine 6 cups of water combined with 5 tablespoons salt",
-      "normalized_name": "brine 6 cups of water combined with 5 tablespoons salt",
-      "quantity": null,
-      "unit": null,
+      "name": "brine (6 cups water and 5 tablespoons salt)",
+      "normalized_name": "brine",
+      "quantity": "6",
+      "unit": "cups",
       "preparation": null,
       "position": 9
     },

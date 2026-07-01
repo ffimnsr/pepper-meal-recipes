@@ -55,7 +55,10 @@
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "pan",
+    "plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
@@ -77,10 +80,10 @@
     },
     {
       "ingredient_id": "443333f8-c90e-574e-a345-db4e14f3d05b",
-      "name": "pouch taco seasoning",
-      "normalized_name": "pouch taco seasoning",
+      "name": "taco seasoning",
+      "normalized_name": "taco seasoning",
       "quantity": "1",
-      "unit": null,
+      "unit": "packet",
       "preparation": null,
       "position": 3
     },
@@ -107,7 +110,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "diced",
       "position": 6
     },

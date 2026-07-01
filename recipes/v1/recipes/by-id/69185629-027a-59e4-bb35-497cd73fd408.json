@@ -3,63 +3,75 @@
   "schema_version": 1,
   "id": "69185629-027a-59e4-bb35-497cd73fd408",
   "slug": "pineapple-upside-down-cake",
-  "name": "Pineapple Upside Down Cake",
+  "name": "Pineapple Upside-Down Cake",
   "recipe_type": "dessert",
-  "brief_description": "Pineapple Upside Down Cake",
-  "cuisine": null,
+  "brief_description": "A classic American dessert with caramelized pineapple and cherries atop a moist vanilla cake, served upside-down.",
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
-      "text": "Preheat oven to 350 degrees Fahrenheit."
+      "text": "Preheat oven to 350 degrees Fahrenheit (175 degrees Celsius)."
     },
     {
       "position": 2,
-      "text": "Place butter in a cake pan and melt by placing in the oven."
+      "text": "Place the butter in a cake pan and melt it in the oven."
     },
     {
       "position": 3,
-      "text": "Remove the pan from the oven, and then sprinkle some brown sugar."
+      "text": "Remove the pan from the oven and sprinkle the brown sugar evenly over the melted butter."
     },
     {
       "position": 4,
-      "text": "Arrange the sliced pineapples over the sugar.This will look better if you place some maraschino cherries."
+      "text": "Arrange the pineapple slices over the sugar. Place a maraschino cherry in the center of each pineapple ring, if desired."
     },
     {
       "position": 5,
-      "text": "Combine all the remaining ingredients in a mixing bowl. Mix using an electric mixer until all the ingredients are well distributed."
+      "text": "Combine the flour, white sugar, shortening, baking powder, milk, egg, and salt in a mixing bowl. Beat with an electric mixer until well combined."
     },
     {
       "position": 6,
-      "text": "Pour the batter (mixed ingredients) in the cake pan."
+      "text": "Pour the batter evenly over the pineapple layer in the cake pan."
     },
     {
       "position": 7,
-      "text": "Bake for 45 to 50 minutes or until it passes the toothpick test."
+      "text": "Bake for 45 to 50 minutes, or until a toothpick inserted into the center of the cake comes out clean."
     },
     {
       "position": 8,
-      "text": "Remove from the oven, and then transfer to a serving plate."
+      "text": "Remove from the oven and let cool for 5 minutes. Run a knife around the edge of the pan to loosen, then invert the cake onto a serving plate."
     },
     {
       "position": 9,
-      "text": "Serve while still warm. Share and enjoy!"
+      "text": "Serve while still warm. Enjoy!"
     }
   ],
   "servings": 4,
   "cooking_time_minutes": 45,
   "preparation_time_minutes": 15,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 5,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/69185629-027a-59e4-bb35-497cd73fd408/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 slice"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian"
+  ],
+  "allergens": [
+    "gluten",
+    "dairy",
+    "eggs"
+  ],
+  "equipment": [
+    "oven",
+    "cake pan",
+    "mixing bowl",
+    "electric mixer",
+    "toothpick"
+  ],
   "ingredients": [
     {
       "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
@@ -81,10 +93,10 @@
     },
     {
       "ingredient_id": "be14501c-fe83-56aa-b02a-81c04da88038",
-      "name": "slices of pineapple",
-      "normalized_name": "slices of pineapple",
+      "name": "pineapple",
+      "normalized_name": "pineapple",
       "quantity": "5",
-      "unit": null,
+      "unit": "slices",
       "preparation": null,
       "position": 3
     },
@@ -150,6 +162,15 @@
       "unit": "teaspoon",
       "preparation": null,
       "position": 10
+    },
+    {
+      "ingredient_id": "c9d4a7e2-3b5f-4a1c-9d8e-2f4a6b8c0d1e",
+      "name": "maraschino cherries",
+      "normalized_name": "maraschino cherry",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
     }
   ],
   "categories": [

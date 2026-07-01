@@ -3,10 +3,10 @@
   "schema_version": 1,
   "id": "6784e599-f712-56de-b19b-ec4182ed2606",
   "slug": "how-to-cook-sinigang-na-bangus",
-  "name": "How to Cook Sinigang na Bangus",
+  "name": "Sinigang na Bangus",
   "recipe_type": null,
-  "brief_description": "gulp down everything in your bowl. But don\u2019t let me paint this picture for you, and instead, try out this Sinigang na Bangus, yourself",
-  "cuisine": null,
+  "brief_description": "A classic Filipino sour soup featuring tender milkfish and fresh vegetables in a tangy tamarind-miso broth. This recipe includes instructions for both a traditional boiled version and a variation with fried fish for added texture.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -22,7 +22,7 @@
     }
   ],
   "servings": null,
-  "cooking_time_minutes": null,
+  "cooking_time_minutes": 30,
   "preparation_time_minutes": null,
   "rest_time_minutes": null,
   "difficulty": "easy",
@@ -45,8 +45,13 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Fish"
+  ],
+  "equipment": [
+    "Cooking pot",
+    "Pan"
+  ],
   "ingredients": [
     {
       "ingredient_id": "2b023962-2347-5623-a9bf-2927143c23af",
@@ -71,7 +76,7 @@
       "name": "okra",
       "normalized_name": "okra",
       "quantity": "8",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cleaned",
       "position": 3
     },
@@ -80,7 +85,7 @@
       "name": "long green pepper",
       "normalized_name": "long green pepper",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 4
     },
@@ -89,7 +94,7 @@
       "name": "string bean",
       "normalized_name": "string bean",
       "quantity": "12",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cut in 2 inch length",
       "position": 5
     },
@@ -107,7 +112,7 @@
       "name": "mustard leaf",
       "normalized_name": "mustard leaf",
       "quantity": "1",
-      "unit": null,
+      "unit": "bunch",
       "preparation": null,
       "position": 7
     },
@@ -116,7 +121,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "3",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "quartered",
       "position": 8
     },
@@ -125,16 +130,16 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "quartered",
       "position": 9
     },
     {
       "ingredient_id": "9af1ba61-f85e-5c38-bce7-4e92ba7b98f4",
-      "name": "quart water",
-      "normalized_name": "quart water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "1",
-      "unit": null,
+      "unit": "quart",
       "preparation": null,
       "position": 10
     },
@@ -179,7 +184,7 @@
       "name": "okra",
       "normalized_name": "okra",
       "quantity": "8",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cleaned",
       "position": 15
     },
@@ -188,7 +193,7 @@
       "name": "long green pepper",
       "normalized_name": "long green pepper",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": null,
       "position": 16
     },
@@ -197,7 +202,7 @@
       "name": "string bean",
       "normalized_name": "string bean",
       "quantity": "12",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "cut in 2 inch length",
       "position": 17
     },
@@ -206,7 +211,7 @@
       "name": "kangkong leaf",
       "normalized_name": "kangkong leaf",
       "quantity": "1",
-      "unit": null,
+      "unit": "bunch",
       "preparation": null,
       "position": 18
     },
@@ -215,7 +220,7 @@
       "name": "tomato",
       "normalized_name": "tomato",
       "quantity": "4",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "quartered",
       "position": 19
     },
@@ -224,16 +229,16 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "quartered",
       "position": 20
     },
     {
       "ingredient_id": "9af1ba61-f85e-5c38-bce7-4e92ba7b98f4",
-      "name": "quart water",
-      "normalized_name": "quart water",
+      "name": "water",
+      "normalized_name": "water",
       "quantity": "1",
-      "unit": null,
+      "unit": "quart",
       "preparation": null,
       "position": 21
     },
@@ -283,8 +288,12 @@
   ],
   "tags": [],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "This recipe includes two variations: traditional boiled sinigang na bangus and a fried bangus sinigang version."
+  ],
+  "storage_notes": [
+    "Refrigerate leftovers in an airtight container for up to 2 days. Reheat gently over medium heat."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/how-to-cook-sinigang-na-bangus/"

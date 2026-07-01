@@ -51,11 +51,22 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "8 g"
+    "servingSize": "1 cookie"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "wheat",
+    "dairy",
+    "tree nuts",
+    "soy"
+  ],
+  "equipment": [
+    "mixing bowl",
+    "baking sheet",
+    "parchment paper",
+    "cooling rack",
+    "oven"
+  ],
   "ingredients": [
     {
       "ingredient_id": "83950f36-8f51-52c6-a4f4-63fba80765d4",
@@ -86,11 +97,11 @@
     },
     {
       "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
-      "name": "melted butter",
-      "normalized_name": "melted butter",
+      "name": "butter",
+      "normalized_name": "butter",
       "quantity": "1",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "melted",
       "position": 4
     },
     {
@@ -113,8 +124,8 @@
     },
     {
       "ingredient_id": "27b26738-c74e-51c0-9b8f-1e92244020be",
-      "name": "quick 1 minute oat",
-      "normalized_name": "quick 1 minute oat",
+      "name": "quick oats",
+      "normalized_name": "quick oats",
       "quantity": "2 1/4",
       "unit": "cup",
       "preparation": null,
@@ -122,17 +133,17 @@
     },
     {
       "ingredient_id": "7c0e0b47-ce3a-5825-8c8f-a0e705e82f07",
-      "name": "sliced almond",
-      "normalized_name": "sliced almond",
+      "name": "almonds",
+      "normalized_name": "almonds",
       "quantity": "3/4",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "sliced",
       "position": 8
     },
     {
       "ingredient_id": "8f21731e-fc46-5606-85e8-b2e3371d0b55",
-      "name": "semi sweet chocolate chip",
-      "normalized_name": "semi sweet chocolate chip",
+      "name": "semisweet chocolate chips",
+      "normalized_name": "semisweet chocolate chips",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -149,7 +160,9 @@
   "tags": [],
   "related_recipe_ids": [],
   "recipe_notes": [],
-  "storage_notes": [],
+  "storage_notes": [
+    "Store in an airtight container at room temperature for up to 5 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/oatmeal-chocolate-chip-cookies/"

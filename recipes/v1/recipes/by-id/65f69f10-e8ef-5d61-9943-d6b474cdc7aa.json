@@ -4,9 +4,9 @@
   "id": "65f69f10-e8ef-5d61-9943-d6b474cdc7aa",
   "slug": "stir-fried-ginger-beef",
   "name": "Ginger Beef Stir Fry Recipe",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This ginger beef stir fry recipe is quick and easy. You can prepare a delicious dish for your family's lunch. This recipe recommends tenderloin or sirloin",
-  "cuisine": null,
+  "cuisine": "Chinese",
   "instructions": [
     {
       "position": 1,
@@ -38,11 +38,11 @@
     },
     {
       "position": 8,
-      "text": "Add the beef back in the wok and pour-in the sesame oil. Add cumin, salt and pepper.Stir."
+      "text": "Add the beef back in the wok and pour-in the sesame oil. Add cumin, salt and pepper. Stir."
     },
     {
       "position": 9,
-      "text": "Pour-in the cornstarch diluted in water. continue to stir fry for 1 minute."
+      "text": "Pour-in the cornstarch diluted in water. Continue to stir fry for 1 minute."
     },
     {
       "position": 10,
@@ -57,17 +57,23 @@
   "cooking_time_minutes": 8,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/65f69f10-e8ef-5d61-9943-d6b474cdc7aa/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Soy",
+    "Sesame"
+  ],
+  "equipment": [
+    "wok",
+    "mixing bowl"
+  ],
   "ingredients": [
     {
       "ingredient_id": "c47f5166-1b97-5907-9a19-b77d02995f27",
@@ -107,11 +113,11 @@
     },
     {
       "ingredient_id": "5ec285ac-e5f8-545b-b77d-a4264f14cee4",
-      "name": "minced ginger",
-      "normalized_name": "minced ginger",
+      "name": "ginger",
+      "normalized_name": "ginger",
       "quantity": "2",
       "unit": "tablespoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 5
     },
     {
@@ -134,29 +140,29 @@
     },
     {
       "ingredient_id": "75373ee4-8298-55aa-a519-12db196d6d8b",
-      "name": "cornstarch diluted in 3 tablespoons cold water",
-      "normalized_name": "cornstarch diluted in 3 tablespoons cold water",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
       "quantity": "4",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "diluted in 3 tablespoons cold water",
       "position": 8
     },
     {
       "ingredient_id": "1b216c86-8e4b-5d04-96a3-551102ce2558",
-      "name": "chopped scallion",
-      "normalized_name": "chopped scallion",
+      "name": "scallion",
+      "normalized_name": "scallion",
       "quantity": "1/2",
       "unit": "cup",
-      "preparation": null,
+      "preparation": "chopped",
       "position": 9
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 10
     },
     {

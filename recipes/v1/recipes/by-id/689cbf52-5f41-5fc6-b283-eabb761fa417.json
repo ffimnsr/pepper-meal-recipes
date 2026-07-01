@@ -4,17 +4,17 @@
   "id": "689cbf52-5f41-5fc6-b283-eabb761fa417",
   "slug": "grilled-pompano",
   "name": "Grilled Pompano",
-  "recipe_type": "side",
+  "recipe_type": "main",
   "brief_description": "Grilled Pompano is a delicious dish that anyone can prepare. Aside from tasting fresh and delicious, I like grilled pompano because it does not require a lot of ingredients and it is simple to prepare.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
-      "text": "Rub the sea salt all over the pompano. Let is stay for 30 minutes."
+      "text": "Rub the sea salt all over the pompano. Let it stay for 30 minutes."
     },
     {
       "position": 2,
-      "text": "Heat-up the grill. Spray the cooking oil all over the pompano."
+      "text": "Heat up the grill. Spray the cooking oil all over the pompano."
     },
     {
       "position": 3,
@@ -39,18 +39,27 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g"
+    "servingSize": "1 serving"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "equipment": [
+    "grill",
+    "tongs"
+  ],
   "ingredients": [
     {
       "ingredient_id": "757f6764-0fda-5ce8-8c10-0377d1abb45b",
       "name": "pompano",
       "normalized_name": "pompano",
       "quantity": "1",
-      "unit": null,
+      "unit": "whole",
       "preparation": "cleaned",
       "position": 1
     },

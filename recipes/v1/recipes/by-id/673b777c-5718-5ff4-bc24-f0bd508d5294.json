@@ -4,9 +4,9 @@
   "id": "673b777c-5718-5ff4-bc24-f0bd508d5294",
   "slug": "chicken-feet-adobo",
   "name": "Chicken Feet Adobo",
-  "recipe_type": null,
+  "recipe_type": "main",
   "brief_description": "This Chicken Feet Adobo Recipe is simple yet produces a delicious product. Try this recipe today and enjoy!",
-  "cuisine": null,
+  "cuisine": "filipino",
   "instructions": [
     {
       "position": 1,
@@ -55,7 +55,7 @@
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "4 g",
+    "servingSize": "1 serving",
     "calories": "836 kcal",
     "carbohydrateContent": "7 g",
     "proteinContent": "24 g",
@@ -68,9 +68,17 @@
     "sugarContent": "3 g",
     "unsaturatedFatContent": "67 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "dairy-free"
+  ],
+  "allergens": [
+    "soy",
+    "shellfish"
+  ],
+  "equipment": [
+    "cooking pot",
+    "serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f5bf8e01-622f-52da-a824-6b404593b8c7",
@@ -114,7 +122,7 @@
       "normalized_name": "peppercorn",
       "quantity": "1/2",
       "unit": "teaspoon",
-      "preparation": null,
+      "preparation": "whole",
       "position": 5
     },
     {
@@ -123,7 +131,7 @@
       "normalized_name": "thai chili pepper",
       "quantity": "3",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "dried",
       "position": 6
     },
     {
@@ -141,7 +149,7 @@
       "normalized_name": "bay leaf",
       "quantity": "3",
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "dried",
       "position": 8
     },
     {

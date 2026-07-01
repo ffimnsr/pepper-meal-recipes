@@ -6,7 +6,7 @@
   "name": "Ginataang Halo-halo Recipe (Binignit)",
   "recipe_type": "dessert",
   "brief_description": "Ginataang Halo-halo or Binignit is a delicious Filipino dessert and snack recipe that makes use of glutinous rice flour balls and coconut milk.",
-  "cuisine": null,
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -57,9 +57,17 @@
     "@type": "NutritionInformation",
     "servingSize": "4 g"
   },
-  "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "dietary_labels": [
+    "vegetarian",
+    "vegan",
+    "gluten-free"
+  ],
+  "allergens": [
+    "coconut"
+  ],
+  "equipment": [
+    "large cooking pot"
+  ],
   "ingredients": [
     {
       "ingredient_id": "f751fd63-aa06-57bc-bdb1-bd705d3794d0",
@@ -85,7 +93,7 @@
       "normalized_name": "purple yam",
       "quantity": "1 1/2",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "diced",
       "position": 3
     },
     {
@@ -112,7 +120,7 @@
       "normalized_name": "tapioca pearl",
       "quantity": "2",
       "unit": "cups",
-      "preparation": null,
+      "preparation": "cooked",
       "position": 6
     },
     {
@@ -159,7 +167,33 @@
       "name": "Dessert"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "8a3b2c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "slug": "filipino",
+      "name": "Filipino"
+    },
+    {
+      "id": "9b4c3d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+      "slug": "coconut-milk",
+      "name": "Coconut Milk"
+    },
+    {
+      "id": "ac5d4e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+      "slug": "glutinous-rice",
+      "name": "Glutinous Rice"
+    },
+    {
+      "id": "bd6e5f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+      "slug": "merienda",
+      "name": "Merienda"
+    },
+    {
+      "id": "ce7f6a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
+      "slug": "snack",
+      "name": "Snack"
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],

@@ -5,8 +5,8 @@
   "slug": "ham-and-chicken-macaroni-salad",
   "name": "Ham and Chicken Macaroni Salad",
   "recipe_type": "salad",
-  "brief_description": "Macaroni salad with ham and chicken",
-  "cuisine": null,
+  "brief_description": "A creamy Filipino-style macaroni salad made with ham, chicken, elbow macaroni, and a mix of vegetables and sweet relish. Chill before serving.",
+  "cuisine": "Filipino",
   "instructions": [
     {
       "position": 1,
@@ -36,7 +36,7 @@
   "servings": 6,
   "cooking_time_minutes": 30,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": null,
+  "rest_time_minutes": 180,
   "difficulty": "medium",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6321086f-0eaf-5e37-8157-735d7160dbaa/cover.webp",
   "video_url": null,
@@ -57,8 +57,16 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "gluten",
+    "egg",
+    "dairy"
+  ],
+  "equipment": [
+    "cooking pot",
+    "mixing bowl",
+    "colander"
+  ],
   "ingredients": [
     {
       "ingredient_id": "90ad4070-8a31-5a7c-9087-58102c7ff05f",
@@ -92,23 +100,23 @@
       "name": "red onion",
       "normalized_name": "red onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "chopped",
       "position": 4
     },
     {
       "ingredient_id": "397ab18c-09b0-5480-8c62-19aa401ea177",
-      "name": "ribs celery",
-      "normalized_name": "ribs celery",
+      "name": "celery ribs",
+      "normalized_name": "celery ribs",
       "quantity": "4",
-      "unit": null,
+      "unit": "ribs",
       "preparation": "chopped",
       "position": 5
     },
     {
       "ingredient_id": "f94c5c90-99b0-5664-93d9-ff20d5b9fdab",
-      "name": "green pea",
-      "normalized_name": "green pea",
+      "name": "green peas",
+      "normalized_name": "green peas",
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
@@ -119,7 +127,7 @@
       "name": "red bell pepper",
       "normalized_name": "red bell pepper",
       "quantity": "2",
-      "unit": null,
+      "unit": "pieces",
       "preparation": "chopped",
       "position": 7
     },
@@ -134,8 +142,8 @@
     },
     {
       "ingredient_id": "7a0efa1a-9541-50b4-b832-cfce0035cf3b",
-      "name": "pineapple tidbit",
-      "normalized_name": "pineapple tidbit",
+      "name": "pineapple tidbits",
+      "normalized_name": "pineapple tidbits",
       "quantity": "8",
       "unit": "ounces",
       "preparation": null,
@@ -235,8 +243,12 @@
     }
   ],
   "related_recipe_ids": [],
-  "recipe_notes": [],
-  "storage_notes": [],
+  "recipe_notes": [
+    "For best results, chill the salad for at least 3 hours before serving to allow the flavors to meld."
+  ],
+  "storage_notes": [
+    "Store in an airtight container in the refrigerator for up to 3 days."
+  ],
   "source": {
     "name": "Panlasang Pinoy",
     "url": "https://panlasangpinoy.com/ham-and-chicken-macaroni-salad/"

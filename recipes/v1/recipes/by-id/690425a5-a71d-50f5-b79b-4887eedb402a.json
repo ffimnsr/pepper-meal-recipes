@@ -65,15 +65,20 @@
     "servingSize": "1 serving"
   },
   "dietary_labels": [],
-  "allergens": [],
-  "equipment": [],
+  "allergens": [
+    "Soy",
+    "Sesame"
+  ],
+  "equipment": [
+    "Wok"
+  ],
   "ingredients": [
     {
       "ingredient_id": "59668b53-0507-5922-83a2-291e394f372a",
       "name": "lettuce",
       "normalized_name": "lettuce",
       "quantity": "1",
-      "unit": null,
+      "unit": "head",
       "preparation": null,
       "position": 1
     },
@@ -100,7 +105,7 @@
       "name": "onion",
       "normalized_name": "onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "minced",
       "position": 4
     },

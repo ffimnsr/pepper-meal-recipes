@@ -4,9 +4,9 @@
   "id": "61ca2230-37db-5bbc-9ebd-4bfb7b9ec5d7",
   "slug": "braised-collard-greens",
   "name": "Braised Collard Greens",
-  "recipe_type": null,
-  "brief_description": "Braised Collard Greens is a delicious and tasty vegetable dish that you can enjoy for dinner. It is healthy and yummy.",
-  "cuisine": null,
+  "recipe_type": "side",
+  "brief_description": "Slow-braised collard greens simmered with smoky bacon, sweet molasses, and tangy vinegar until meltingly tender. A classic Southern side dish that balances savory, sweet, and acidic flavors perfectly.",
+  "cuisine": "southern-american",
   "instructions": [
     {
       "position": 1,
@@ -49,22 +49,26 @@
   "cooking_time_minutes": 80,
   "preparation_time_minutes": 5,
   "rest_time_minutes": null,
-  "difficulty": "hard",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/61ca2230-37db-5bbc-9ebd-4bfb7b9ec5d7/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "servingSize": "1 cup"
   },
   "dietary_labels": [],
   "allergens": [],
-  "equipment": [],
+  "equipment": [
+    "Large casserole or Dutch oven",
+    "Wooden spoon",
+    "Serving plate"
+  ],
   "ingredients": [
     {
       "ingredient_id": "5c77db76-e1da-5e2f-9716-57c94b8b2d4c",
-      "name": "collard green",
-      "normalized_name": "collard green",
+      "name": "collard greens",
+      "normalized_name": "collard greens",
       "quantity": "3",
       "unit": "lbs",
       "preparation": "stems removed and chopped",
@@ -84,23 +88,23 @@
       "name": "yellow onion",
       "normalized_name": "yellow onion",
       "quantity": "1",
-      "unit": null,
+      "unit": "piece",
       "preparation": "sliced",
       "position": 3
     },
     {
       "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
-      "name": "minced garlic",
-      "normalized_name": "minced garlic",
+      "name": "garlic",
+      "normalized_name": "garlic",
       "quantity": "2",
       "unit": "teaspoons",
-      "preparation": null,
+      "preparation": "minced",
       "position": 4
     },
     {
       "ingredient_id": "d005bb99-04b7-5c1e-b885-447e451b6b9f",
-      "name": "molass",
-      "normalized_name": "molass",
+      "name": "molasses",
+      "normalized_name": "molasses",
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
@@ -135,8 +139,8 @@
     },
     {
       "ingredient_id": "5b8e67b7-c902-5295-ac23-c2098f35da84",
-      "name": "ground back pepper",
-      "normalized_name": "ground back pepper",
+      "name": "ground black pepper",
+      "normalized_name": "black pepper",
       "quantity": "1/2",
       "unit": "teaspoon",
       "preparation": null,
