@@ -1,5 +1,9 @@
+import json
 import unittest
 from unittest import mock
+from pathlib import Path
+
+import jsonschema
 
 import scripts.generate_catalog as generate_catalog
 from scripts.generate_catalog import (
@@ -15,6 +19,9 @@ RECIPE = {
     "slug": "test-recipe",
     "name": "Test Recipe",
 }
+RECIPES_INDEX_SCHEMA_PATH = (
+    Path(__file__).resolve().parents[1] / "recipes" / "v1" / "schemas" / "recipes-index.schema.json"
+)
 
 
 def canonicalize(name: str, quantity: str | None = None, unit: str | None = None, preparation: str | None = None):
@@ -105,6 +112,22 @@ class GenerateCatalogTests(unittest.TestCase):
                 2,
             )
         self.assertEqual(review_index["entries"][0]["original_text"], "salt and pepper")
+
+    def test_recipes_index_schema_allows_condiment_recipe_type(self) -> None:
+        schema = json.loads(RECIPES_INDEX_SCHEMA_PATH.read_text(encoding="utf-8"))
+        summary = {
+            "id": RECIPE["id"],
+            "slug": RECIPE["slug"],
+            "name": RECIPE["name"],
+            "recipe_type": "condiment",
+            "category_slugs": ["condiment"],
+            "tag_slugs": [],
+            "ingredient_names": ["garlic"],
+            "updated_at": 1,
+            "revision": 1,
+        }
+
+        jsonschema.validate(summary, schema["$defs"]["recipeSummary"])
 
 
 if __name__ == "__main__":
