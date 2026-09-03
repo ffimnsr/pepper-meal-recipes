@@ -71,7 +71,7 @@ UUID generation is deterministic so repeated runs do not churn identifiers.
 
 ## FLUX Cover Image Optimizer
 
-`py-scripts/optimize_recipe_images.py` sends each `recipes/v1/assets/by-id/<recipe-uuid>/cover.jpg` to the BFL FLUX.2 Klein 4B image-editing endpoint, then atomically replaces the original cover with the generated JPEG. Images are processed sequentially in UUID order.
+`py-scripts/optimize_recipe_images.py` sends each `recipes/v1/assets/by-id/<recipe-uuid>/cover.{jpg,jpeg,webp}` to the BFL FLUX.2 Klein 4B image-editing endpoint, then atomically saves the generated image as `cover.jpg`. Source WebP and `.jpeg` files are removed only after the new JPEG is safely installed. Images are processed sequentially using natural A–Z sorting by UUID folder name, matching Dolphin's name ordering.
 
 Install dependencies, export the API key, and inspect the work queue without making API calls:
 

@@ -3,7 +3,6 @@ import importlib.util
 import json
 import sys
 import tempfile
-import uuid
 from pathlib import Path
 from unittest import TestCase, mock
 
@@ -31,25 +30,28 @@ class FakeResponse:
 
 
 class OptimizeRecipeImagesTests(TestCase):
-    def test_list_cover_images_sorts_by_uuid(self) -> None:
+    def test_list_cover_images_uses_dolphin_style_natural_sorting(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             covers_dir = Path(temp_dir)
             recipe_ids = [
-                "ffffffff-ffff-5fff-8fff-ffffffffffff",
-                "00000000-0000-5000-8000-000000000001",
-                "10000000-0000-5000-8000-000000000000",
+                "0a4be0a7-987c-53f3-8016-3eb592f5c864",
+                "000a3a92-fc5f-51d0-8a32-0dc27fc278f4",
+                "0a2d9881-c6eb-5e98-8789-f45520ab7584",
+                "0a0b5029-cbdf-503e-b26d-c9ef939efff1",
             ]
-            for recipe_id in recipe_ids:
+            for index, recipe_id in enumerate(recipe_ids):
                 recipe_dir = covers_dir / recipe_id
                 recipe_dir.mkdir()
-                (recipe_dir / "cover.jpg").write_bytes(b"image")
+                cover_name = "cover.webp" if index >= 2 else "cover.jpg"
+                (recipe_dir / cover_name).write_bytes(b"image")
 
             covers = optimize_recipe_images.list_cover_images(covers_dir)
 
         self.assertEqual(
             [path.parent.name for path in covers],
-            sorted(recipe_ids, key=lambda value: uuid.UUID(value).int),
+            [recipe_ids[3], recipe_ids[2], recipe_ids[1], recipe_ids[0]],
         )
+        self.assertEqual([path.suffix for path in covers[:2]], [".webp", ".webp"])
 
     def test_state_round_trip_preserves_pending_task(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -95,18 +97,20 @@ class OptimizeRecipeImagesTests(TestCase):
         self.assertEqual(request_payload["output_format"], "jpeg")
         self.assertEqual(pending.task_id, "task-id")
 
-    def test_install_staged_result_is_idempotent_and_keeps_stage(self) -> None:
+    def test_install_staged_result_converts_webp_and_keeps_stage(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             directory = Path(temp_dir)
-            cover_path = directory / "cover.jpg"
+            source_path = directory / "cover.webp"
+            output_path = directory / "cover.jpg"
             staged_path = directory / ".cover.flux-output.jpg"
-            cover_path.write_bytes(b"old")
+            source_path.write_bytes(b"old")
             staged_path.write_bytes(b"new")
 
-            optimize_recipe_images.install_staged_result(staged_path, cover_path)
-            optimize_recipe_images.install_staged_result(staged_path, cover_path)
+            optimize_recipe_images.install_staged_result(staged_path, output_path, mode_source=source_path)
+            optimize_recipe_images.remove_alternate_cover_formats(directory)
 
-            self.assertEqual(cover_path.read_bytes(), b"new")
+            self.assertEqual(output_path.read_bytes(), b"new")
+            self.assertFalse(source_path.exists())
             self.assertEqual(staged_path.read_bytes(), b"new")
 
     def test_next_cover_skips_completed_ids(self) -> None:

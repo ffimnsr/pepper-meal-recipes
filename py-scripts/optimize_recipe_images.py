@@ -6,6 +6,7 @@ import argparse
 import base64
 import json
 import os
+import re
 import shutil
 import tempfile
 import time
@@ -23,10 +24,9 @@ COVERS_DIR = REPO_ROOT / "recipes" / "v1" / "assets" / "by-id"
 DEFAULT_STATE_FILE = REPO_ROOT / ".flux-image-optimizer-state.json"
 BFL_ENDPOINT = "https://api.bfl.ai/v1/flux-2-klein-4b"
 DEFAULT_PROMPT = (
-    "Make this recipe image 2.5D, showing presentable cooked food that looks "
-    "appetizing and is centered. Place the plate on a solid wood background. "
-    "No watermarks or artifacts."
+    "make this recipe image 2.5d, a presentable cooked food, appetizing, background of the plates solid wood, no watermarks, no artifacts\n"
 )
+SUPPORTED_COVER_NAMES = ("cover.jpg", "cover.jpeg", "cover.webp")
 TERMINAL_FAILURE_STATUSES = {
     "Content Moderated",
     "Error",
@@ -114,22 +114,32 @@ def save_state(path: Path, state: OptimizerState) -> None:
     )
 
 
+def natural_name_key(value: str) -> tuple[int | str, ...]:
+    return tuple(int(part) if part.isdigit() else part.casefold() for part in re.split(r"(\d+)", value))
+
+
 def list_cover_images(covers_dir: Path = COVERS_DIR) -> list[Path]:
     if not covers_dir.is_dir():
         raise OptimizerError(f"Cover image directory does not exist: {covers_dir}")
 
-    covers: list[tuple[uuid.UUID, Path]] = []
-    for cover_path in covers_dir.glob("*/cover.jpg"):
-        recipe_id = cover_path.parent.name
+    covers: list[Path] = []
+    for recipe_dir in covers_dir.iterdir():
+        if not recipe_dir.is_dir():
+            continue
+        candidates = [recipe_dir / name for name in SUPPORTED_COVER_NAMES if (recipe_dir / name).is_file()]
+        if not candidates:
+            continue
+
+        recipe_id = recipe_dir.name
         try:
             parsed_id = uuid.UUID(recipe_id)
         except ValueError as error:
-            raise OptimizerError(f"Cover directory is not a UUID: {cover_path.parent}") from error
+            raise OptimizerError(f"Cover directory is not a UUID: {recipe_dir}") from error
         if str(parsed_id) != recipe_id:
-            raise OptimizerError(f"Cover directory must use a canonical lowercase UUID: {cover_path.parent}")
-        covers.append((parsed_id, cover_path))
+            raise OptimizerError(f"Cover directory must use a canonical lowercase UUID: {recipe_dir}")
+        covers.append(candidates[0])
 
-    return [path for _, path in sorted(covers, key=lambda item: item[0].int)]
+    return sorted(covers, key=lambda path: natural_name_key(path.parent.name))
 
 
 def staging_path(cover_path: Path) -> Path:
@@ -276,7 +286,7 @@ def download_result(
         temporary_path.unlink(missing_ok=True)
 
 
-def install_staged_result(staged_path: Path, cover_path: Path) -> None:
+def install_staged_result(staged_path: Path, cover_path: Path, mode_source: Path | None = None) -> None:
     if not staged_path.is_file():
         raise OptimizerError(
             f"State says the result was downloaded, but the staged image is missing: {staged_path}"
@@ -290,13 +300,19 @@ def install_staged_result(staged_path: Path, cover_path: Path) -> None:
             shutil.copyfileobj(source, destination)
             destination.flush()
             os.fsync(destination.fileno())
-        if cover_path.exists():
-            os.chmod(temporary_path, cover_path.stat().st_mode & 0o777)
+        mode_path = cover_path if cover_path.exists() else mode_source
+        if mode_path is not None and mode_path.exists():
+            os.chmod(temporary_path, mode_path.stat().st_mode & 0o777)
         os.replace(temporary_path, cover_path)
     finally:
         if descriptor >= 0:
             os.close(descriptor)
         temporary_path.unlink(missing_ok=True)
+
+
+def remove_alternate_cover_formats(recipe_dir: Path) -> None:
+    for name in ("cover.jpeg", "cover.webp"):
+        (recipe_dir / name).unlink(missing_ok=True)
 
 
 def next_cover(covers: list[Path], completed_ids: set[str]) -> Path | None:
@@ -305,7 +321,7 @@ def next_cover(covers: list[Path], completed_ids: set[str]) -> Path | None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Optimize recipe cover images with FLUX.2 Klein 4B in UUID order."
+        description="Optimize recipe covers with FLUX.2 Klein 4B in natural A-Z UUID-folder order."
     )
     parser.add_argument("--prompt", default=DEFAULT_PROMPT, help="Image editing prompt sent to BFL.")
     parser.add_argument("--width", type=int, default=512, help="Output width in pixels (default: 512).")
@@ -405,13 +421,15 @@ def run(args: argparse.Namespace) -> None:
                 print(f"  BFL task: {pending.task_id}", flush=True)
 
             staged_path = staging_path(cover_path)
+            output_path = cover_path.with_name("cover.jpg")
             if not pending.output_downloaded:
                 result_url = poll_for_result(session, api_key, pending, args)
                 download_result(session, result_url, staged_path, args.request_timeout)
                 pending.output_downloaded = True
                 save_state(args.state_file, state)
 
-            install_staged_result(staged_path, cover_path)
+            install_staged_result(staged_path, output_path, mode_source=cover_path)
+            remove_alternate_cover_formats(cover_path.parent)
             state.completed_ids.append(pending.recipe_id)
             completed.add(pending.recipe_id)
             state.pending = None
