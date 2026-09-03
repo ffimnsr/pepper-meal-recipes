@@ -14,11 +14,11 @@ tasks:
     commands:
       - |
         source .venv/bin/activate
-        python3 ./scripts/generate_catalog.py
+        python3 ./py-scripts/generate_catalog.py
     description: Re-generate the current catalog.
   gen-bump:
     commands:
       - |
         source .venv/bin/activate
-        python3 ./scripts/generate_catalog.py --bump-sequence
+        python3 ./py-scripts/generate_catalog.py --bump-sequence
     description: Publish new revision for clients to use.

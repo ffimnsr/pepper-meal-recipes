@@ -3,23 +3,28 @@
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-if str(REPO_ROOT) not in sys.path:
-    sys.path.insert(0, str(REPO_ROOT))
 
-from scripts.generate_catalog import (
-    INGREDIENT_NAMESPACE,
-    INDEXES_DIR,
-    RECIPES_DIR,
-    dump_json,
-    normalize_name,
-    stable_uuid,
-)
+REPO_ROOT = Path(__file__).resolve().parents[1]
+GENERATE_CATALOG_PATH = Path(__file__).with_name("generate_catalog.py")
+GENERATE_CATALOG_SPEC = importlib.util.spec_from_file_location("generate_catalog", GENERATE_CATALOG_PATH)
+assert GENERATE_CATALOG_SPEC is not None
+assert GENERATE_CATALOG_SPEC.loader is not None
+generate_catalog = importlib.util.module_from_spec(GENERATE_CATALOG_SPEC)
+sys.modules[GENERATE_CATALOG_SPEC.name] = generate_catalog
+GENERATE_CATALOG_SPEC.loader.exec_module(generate_catalog)
+
+INGREDIENT_NAMESPACE = generate_catalog.INGREDIENT_NAMESPACE
+INDEXES_DIR = generate_catalog.INDEXES_DIR
+RECIPES_DIR = generate_catalog.RECIPES_DIR
+dump_json = generate_catalog.dump_json
+normalize_name = generate_catalog.normalize_name
+stable_uuid = generate_catalog.stable_uuid
 
 
 @dataclass(frozen=True)
