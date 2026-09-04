@@ -132,7 +132,6 @@ LEADING_DESCRIPTORS = {
     "small",
     "thumb",
     "thumbs",
-    "whole",
 }
 NON_IDENTITY_WORDS = {
     "also",
@@ -203,6 +202,14 @@ FOR_BOILING_RE = re.compile(r"\bfor boiling\b.*$", re.IGNORECASE)
 TO_TASTE_RE = re.compile(r"\bto taste\b.*$", re.IGNORECASE)
 CUT_PREPARATION_RE = re.compile(
     r"\s+(cut into|cut in|cut to|chopped|cleaned|cubed|diced|gutted|julienned|knotted|minced|peeled|pitted|quartered|scaled|seeded|shelled|shredded|sliced|trimmed|wedged)\b.*$",
+    re.IGNORECASE,
+)
+LEADING_PREPARATION_RE = re.compile(
+    r"^(?P<preparation>diced|fried|grilled|hard[- ]boiled|sliced)\s+(?P<name>.+)$",
+    re.IGNORECASE,
+)
+SOLUTION_PREPARATION_RE = re.compile(
+    r"\s+(?P<preparation>(?:diluted|dissolved|soaked)\s+in\b.+)$",
     re.IGNORECASE,
 )
 PAREN_CONTENT_RE = re.compile(r"\(([^()]*)\)")
@@ -413,6 +420,26 @@ def clean_preparation_text(value: str | None) -> str | None:
     return text or None
 
 
+def split_embedded_preparation(value: str) -> tuple[str, list[str]]:
+    name = clean_text(value)
+    preparation_parts: list[str] = []
+
+    leading_match = LEADING_PREPARATION_RE.match(name)
+    if leading_match:
+        preparation = normalize_name(leading_match.group("preparation"))
+        if preparation == "hard boiled":
+            preparation = "hard-boiled"
+        preparation_parts.append(preparation)
+        name = clean_text(leading_match.group("name"))
+
+    solution_match = SOLUTION_PREPARATION_RE.search(name)
+    if solution_match:
+        preparation_parts.append(solution_match.group("preparation"))
+        name = clean_text(name[: solution_match.start()])
+
+    return name, preparation_parts
+
+
 def is_excluded_ingredient_name(value: str) -> bool:
     text = clean_text(value)
     if not text:
@@ -450,8 +477,9 @@ def canonicalize_ingredient_entry(recipe: dict, ingredient: dict) -> CanonicalIn
         return CanonicalIngredientResult([], [])
 
     base_name, parenthetical_parts = split_parenthetical_chunks(ingredient.get("name") or "")
+    base_name, embedded_preparation_parts = split_embedded_preparation(base_name)
     issue_types: list[str] = []
-    preparation_parts: list[str] = []
+    preparation_parts: list[str] = embedded_preparation_parts
     if ingredient.get("preparation"):
         preparation_parts.append(ingredient["preparation"])
 
@@ -725,21 +753,31 @@ def split_ingredient_text(text: str) -> tuple[str | None, str | None, str, str |
 
 
 def normalize_ingredient_record(ingredient: dict) -> dict:
-    raw_parts = [ingredient.get("quantity"), ingredient.get("unit"), ingredient.get("name")]
-    raw_text = clean_text(" ".join(part for part in raw_parts if clean_text(part)))
-    quantity, unit, name, preparation = split_ingredient_text(raw_text or ingredient.get("name") or "")
-    fallback_name = clean_ingredient_name(ingredient.get("normalized_name") or "")
     source_name = clean_text(ingredient.get("name") or "")
     source_preparation = clean_text(ingredient.get("preparation") or "") or None
+    has_structured_fields = any(
+        clean_text(ingredient.get(field)) for field in ("quantity", "unit", "preparation")
+    )
 
-    ingredient["name"] = name or clean_ingredient_name(ingredient.get("name") or "") or ingredient["name"]
+    if has_structured_fields:
+        quantity = clean_text(ingredient.get("quantity")) or None
+        unit = clean_text(ingredient.get("unit")) or None
+        name = strip_note_references(source_name) or source_name
+        preparation = source_preparation
+        raw_text = clean_text(" ".join(filter(None, [quantity, unit, name])))
+    else:
+        raw_text = source_name
+        quantity, unit, name, preparation = split_ingredient_text(raw_text)
+
+    fallback_name = clean_ingredient_name(ingredient.get("normalized_name") or "")
+    ingredient["name"] = name or source_name or ingredient["name"]
     if source_name.startswith("(") and source_name.endswith(")") and fallback_name:
         ingredient["name"] = fallback_name
     ingredient["name"] = strip_unmatched_closing_parentheses(ingredient.get("name")) or ingredient["name"]
     ingredient["name"] = strip_trailing_reference_digits(ingredient.get("name")) or ingredient["name"]
-    ingredient["quantity"] = quantity if quantity is not None else ingredient.get("quantity")
-    ingredient["unit"] = unit if unit is not None else ingredient.get("unit")
-    ingredient["preparation"] = preparation if preparation is not None else source_preparation
+    ingredient["quantity"] = quantity
+    ingredient["unit"] = unit
+    ingredient["preparation"] = preparation
     ingredient["preparation"] = strip_note_references(ingredient.get("preparation")) or None
     ingredient["preparation"] = strip_unmatched_closing_parentheses(ingredient.get("preparation"))
     ingredient["preparation"] = strip_trailing_reference_digits(ingredient.get("preparation"))

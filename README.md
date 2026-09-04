@@ -9,6 +9,8 @@ The catalog is published as versioned JSON metadata and per-recipe payloads so m
 ```text
 py-scripts/
   generate_catalog.py
+  merge_ingredients.py
+  resolve_ingredient_review.py
 recipes/
   v1/
     release.json
@@ -48,14 +50,29 @@ To publish a new catalog revision with a new manifest sequence:
 python3 py-scripts/generate_catalog.py --bump-sequence
 ```
 
-To rewrite ingredient ids across recipe payloads:
+To interactively review each indexed ingredient, display its referenced recipe rows with `jq`, and optionally merge matching ingredient names into one UUID:
 
 ```bash
-./scripts/recipe-editor.py merge <id_1> <id_2> [<id_n>...]
-./scripts/recipe-editor.py rename <id> <ingredient_name>
+python3 py-scripts/recipe_editor.py
 ```
 
-Run `python3 py-scripts/generate_catalog.py` after editing recipes so the indexes and review queue are rebuilt from the updated payloads.
+For incorrect ingredients, enter a corrected name to apply it to every matching recipe row, or enter `o` for **other fields** and per-row name, quantity, unit, and preparation editing. In per-row mode, each row after the first accepts Enter or `y` to reuse the first corrected ingredient name, or a different name directly. In a readline-enabled terminal, Tab completes names accepted earlier, including names restored when resuming from the checkpoint. Press Enter to preserve a value, or enter `-` to clear quantity, unit, or preparation. At an ingredient confirmation prompt, enter `r` to restore and revisit the immediately previous ingredient from the current session. The editor saves completed UUIDs in the root-level `.recipe-editor-state.json`; interrupt it with Ctrl+C and rerun the command to resume. The checkpoint is removed after a successful completed review. Run `python3 py-scripts/generate_catalog.py` after editing recipes so the indexes and review queue are rebuilt from the updated payloads.
+
+To merge several indexed ingredient identities into a single canonical ingredient — for example combining `ketchup`, `catsup`, and `banana ketchup` — run:
+
+```bash
+python3 py-scripts/merge_ingredients.py
+```
+
+The script lists every ingredient from `ingredients.index.json` together with its UUID. Type numbers (e.g. `1,3,5-7`) to toggle the listed items, type text to filter the list by name, or use `l`, `r`, `c`, `d`, and `q` to re-list, reset the filter, clear the selection, continue, or quit. Once at least two ingredients are selected, the script asks which selected name — or a newly typed name — should become the merged identity, previews the target name, normalized name, UUID, and affected rows, and then rewrites `ingredient_id`, `name`, and `normalized_name` on every reference in `recipes/v1/recipes/by-id/*.json`. Run `python3 py-scripts/generate_catalog.py` afterwards so the ingredient index is rebuilt with the merged identity.
+
+To work through the flagged ingredient lines in `indexes/ingredients.review.json` — lines the generator could not index cleanly, such as `mirin or cooking wine`, or names with ambiguous parentheticals — run:
+
+```bash
+python3 py-scripts/resolve_ingredient_review.py
+```
+
+The script walks each review entry with its recipe, position, original text, and current row, and shows what the entry means for `ingredients.index.json`. Enter a new ingredient name to rename the row (Tab completes indexed names, and the script reports whether the name merges into an existing indexed ingredient or creates a new one), or use `s` to split the row into several ingredients (e.g. `mirin|cooking wine`), `e` to remove a non-ingredient row from the recipe, `o` to edit quantity, unit, or preparation, `k` to keep the row, `p` to return to the previous entry, and `q` to quit. Rows are edited in `recipes/v1/recipes/by-id/*.json`; entries can only leave the review queue after `python3 py-scripts/generate_catalog.py` regenerates it from the corrected rows. Progress is saved in the root-level `.ingredient-review-state.json` and cleared when the review is completed, so an interrupted or quit run can be resumed with the same command.
 
 The generator will:
 
