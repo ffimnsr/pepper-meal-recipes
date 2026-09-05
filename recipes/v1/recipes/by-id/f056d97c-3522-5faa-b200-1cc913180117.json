@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f056d97c-3522-5faa-b200-1cc913180117",
+  "slug": "j-js-shepherds-pie",
+  "name": "J. J.'s Shepherd's Pie",
+  "recipe_type": "main",
+  "brief_description": "The secret ingredients in this recipe for the classic comfort food shepherd's pie are American cheese and cream-style corn.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Heat a large skillet over medium-high heat. Cook and stir beef in hot skillet until browned and crumbly, 5 to 7 minutes; drain and discard grease."
+    },
+    {
+      "position": 3,
+      "text": "Stir cream-style corn and corn niblets together in a saucepan over medium heat; cook and stir until heated through, 5 to 10 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Spread ground beef out in the bottom of a casserole dish. Top with 8 slices American cheese, corn mixture, remaining cheese slices, and mashed potatoes, respectively."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until corn mixture bubbles along the edges of the dish, about 30 minutes. Cool briefly before slicing."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f056d97c-3522-5faa-b200-1cc913180117/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "316 kcal",
+    "carbohydrateContent": "22 g",
+    "cholesterolContent": "60 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "863 mg",
+    "sugarContent": "3 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c43a049-68cb-59f5-bfea-2e8a56b2ca91",
+      "name": "ounce) can cream-style corn",
+      "normalized_name": "ounce can cream-style corn",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4709e026-0cf4-5640-b047-fd2ded31dbce",
+      "name": "ounce) package frozen corn niblets",
+      "normalized_name": "ounce package frozen corn niblets",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "eee3c0f0-23ce-52c6-b2e5-07f186a601f2",
+      "name": "slices american cheese",
+      "normalized_name": "slices american cheese",
+      "quantity": "16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2e3c5f19-359f-52d3-9068-b1ff9829a6ef",
+      "name": "mashed potatoes",
+      "normalized_name": "mashed potatoes",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9afb73a2-c6dc-5a2e-ac71-57fc2c902428",
+      "slug": "savory-pie",
+      "name": "Savory Pie"
+    },
+    {
+      "id": "980542e9-26b4-5c98-b6c0-ab24b09fc1be",
+      "slug": "shepherd-s-pie",
+      "name": "Shepherd's Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241628/j-js-shepherds-pie"
+  },
+  "public": true,
+  "updated_at": 1642141082,
+  "revision": 1
+}

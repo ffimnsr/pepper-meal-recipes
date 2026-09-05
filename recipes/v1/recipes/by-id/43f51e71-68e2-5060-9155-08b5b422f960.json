@@ -1,0 +1,210 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "43f51e71-68e2-5060-9155-08b5b422f960",
+  "slug": "twice-baked-mashed-potatoes",
+  "name": "Twice-Baked Mashed Potatoes",
+  "recipe_type": "side",
+  "brief_description": "These double-baked mashed potatoes combine 2 favorite comfort foods for a mouthwatering side dish that goes great with chicken, BBQ ribs, or beef.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, 20 to 25 minutes. Drain and transfer potatoes to a large bowl."
+    },
+    {
+      "position": 3,
+      "text": "Mash potatoes with 1/4 cup butter until well combined. Beat in sour cream and cream cheese until smooth; mix in 2 cups Cheddar-Monterey Jack cheese. Spread into a 9x13-inch baking dish. Sprinkle with remaining 1 cup Cheddar-Monterey Jack cheese, 2 tablespoons butter, and bacon bits."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until bubbling, cheese is melted, and the edges are crisp, 20 to 25 minutes."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/43f51e71-68e2-5060-9155-08b5b422f960/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "305 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "66 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "16 g",
+    "sodiumContent": "319 mg",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4f90ae26-b11c-5e21-a5c8-5ffddc835534",
+      "name": "yukon gold potatoes",
+      "normalized_name": "yukon gold potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "peeled",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "softened",
+      "position": 2
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "cd6cdf2d-dbde-56e7-8f54-f3790f0cf0a1",
+      "name": "ounce) package cream cheese",
+      "normalized_name": "ounce package cream cheese",
+      "quantity": "0.5 (8",
+      "unit": "pieces",
+      "preparation": "softened",
+      "position": 4
+    },
+    {
+      "ingredient_id": "675d4b39-d645-53c9-8f58-2e9c15b105a1",
+      "name": "shredded cheddar-monterey jack cheese blend",
+      "normalized_name": "shredded cheddar-monterey jack cheese blend",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "cut into small pieces",
+      "position": 6
+    },
+    {
+      "ingredient_id": "f09563f8-9731-551a-ab25-6558f8000546",
+      "name": "bacon bits",
+      "normalized_name": "bacon bits",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or more to taste",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    },
+    {
+      "id": "cfdd8fd2-4558-5b9e-a1bc-3cd9eb4bf457",
+      "slug": "twice-baked-potato",
+      "name": "Twice Baked Potato"
+    }
+  ],
+  "tags": [
+    {
+      "id": "db295703-3a77-53ff-9eee-02e4dd7db69a",
+      "slug": "twice-baked-potato-recipes",
+      "name": "Twice Baked Potato Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "012dcd82-5673-57c0-863e-83558803f54a",
+      "slug": "monterey-jack",
+      "name": "Monterey Jack",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "a454732a-aeb6-55bb-b5e7-975cff01dbbe",
+      "slug": "mashed-potato-recipes",
+      "name": "Mashed Potato Recipes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235301/twice-baked-mashed-potatoes"
+  },
+  "public": true,
+  "updated_at": 1767600488,
+  "revision": 1
+}

@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ad5dca49-076d-5a8f-869b-4fc80f1b1100",
+  "slug": "pork-pie",
+  "name": "Pork Pie",
+  "recipe_type": "main",
+  "brief_description": "This pork pie recipe includes ground beef in the meaty filling mixed with mashed potatoes and lightly seasoned with nutmeg for a French Canadian dish.",
+  "cuisine": "New England French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Heat a large skillet over medium-high heat. Cook and stir pork and beef in the hot skillet until browned and crumbly, 5 to 7 minutes. Drain and discard grease."
+    },
+    {
+      "position": 3,
+      "text": "Mix together cooked meat, mashed potatoes, nutmeg, salt, and pepper in a large bowl until well combined."
+    },
+    {
+      "position": 4,
+      "text": "Line a 9-inch pie dish with 1 pastry crust. Spoon meat mixture into crust. Cover with second pastry crust; seal and flute the edges. Brush top crust with beaten egg white. Shield the edges with aluminum foil to prevent crust from burning."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven for 30 minutes. Remove aluminum foil and continue baking until edges brown, about 15 minutes more."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ad5dca49-076d-5a8f-869b-4fc80f1b1100/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "712 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "125 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "33 g",
+    "saturatedFatContent": "18 g",
+    "sodiumContent": "462 mg",
+    "sugarContent": "1 g",
+    "fatContent": "51 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f0731ba3-0726-5e98-9933-bf88053c8999",
+      "name": "lean ground pork",
+      "normalized_name": "lean ground pork",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2e3c5f19-359f-52d3-9068-b1ff9829a6ef",
+      "name": "mashed potatoes",
+      "normalized_name": "mashed potatoes",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1636dcc5-a98f-5970-8bc7-d3ab62f6c4db",
+      "name": "inch) unbaked pie shells",
+      "normalized_name": "inch unbaked pie shells",
+      "quantity": "2 (9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "8de860f6-ea04-5f70-b08f-04bbc73cb8c6",
+      "name": "egg white",
+      "normalized_name": "egg white",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "2dbe6212-4970-5524-b25b-55cd2a9bba51",
+      "slug": "ground-pork",
+      "name": "Ground Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "16eff42a-bdad-58bd-8f0c-a6674afbe1dd",
+      "slug": "christmas-dinner-recipes",
+      "name": "Christmas Dinner Recipes",
+      "color": null
+    },
+    {
+      "id": "c83552d0-03fe-50ae-b38d-c1c2a1debac7",
+      "slug": "pork-pie-recipes",
+      "name": "Pork Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "8adc0f94-dacb-5f02-9865-0ab02c815abe",
+      "slug": "meat-pie-recipes",
+      "name": "Meat Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "fdaed86a-bbd7-5daf-83aa-ad4f8aa12cfd",
+      "slug": "new-year",
+      "name": "New Year",
+      "color": null
+    },
+    {
+      "id": "c54e313b-10e0-556e-b336-2af9936bb052",
+      "slug": "quebec",
+      "name": "Quebec",
+      "color": null
+    },
+    {
+      "id": "608f2ca3-2dbe-583f-94d7-b55937fe9721",
+      "slug": "maine-recipes",
+      "name": "Maine Recipes",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9251/pork-pie"
+  },
+  "public": true,
+  "updated_at": 1773846071,
+  "revision": 1
+}

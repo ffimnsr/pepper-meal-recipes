@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7025bae8-4914-5a4a-b920-39e11852b673",
+  "slug": "eggless-french-toast",
+  "name": "Eggless French Toast",
+  "recipe_type": "breakfast",
+  "brief_description": "Eggless French toast is ready in minutes for a yummy breakfast. Even if everyone at your table eats eggs, they won't notice they're missing from this dish!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk milk, cinnamon, and vanilla together in a shallow bowl until well combined."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a large skillet over medium heat."
+    },
+    {
+      "position": 3,
+      "text": "Gently press two bread slices into milk mixture until lightly coated on both sides (do not soak)."
+    },
+    {
+      "position": 4,
+      "text": "Cook coated slices in melted butter until golden brown and somewhat firm, 5 to 8 minutes per side. Repeat for remaining bread slices."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7025bae8-4914-5a4a-b920-39e11852b673/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "112 kcal",
+    "carbohydrateContent": "17 g",
+    "cholesterolContent": "8 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "203 mg",
+    "sugarContent": "4 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or as needed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0121a323-7fec-57c6-a721-27c8b9618c6f",
+      "name": "slices white bread",
+      "normalized_name": "slices white bread",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "divided",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "fd7cda57-4c3d-5757-b7a2-4c387d497eaf",
+      "slug": "french-toast",
+      "name": "French Toast"
+    }
+  ],
+  "tags": [
+    {
+      "id": "04d29078-74ed-556c-98e1-1020fd0a8a8e",
+      "slug": "french-toast-recipes",
+      "name": "French Toast Recipes",
+      "color": null
+    },
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    },
+    {
+      "id": "187603c2-42c4-5076-a2c7-438cbce2329f",
+      "slug": "herbs-and-spices-recipes",
+      "name": "Herbs and Spices Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/254403/eggless-french-toast"
+  },
+  "public": true,
+  "updated_at": 1701812434,
+  "revision": 1
+}

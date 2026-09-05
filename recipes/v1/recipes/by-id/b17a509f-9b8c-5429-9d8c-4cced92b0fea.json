@@ -1,0 +1,228 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b17a509f-9b8c-5429-9d8c-4cced92b0fea",
+  "slug": "taco-nachos",
+  "name": "Taco Nachos",
+  "recipe_type": "appetizer",
+  "brief_description": "This straightforward nacho recipe is sure to please. Ground beef and cheese are melted over chips to create a gooey, messy and delicious snack.",
+  "cuisine": "Mexican Inspired Tex-Mex",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place ground beef in a large, deep skillet. Cook over medium high heat until evenly brown. Drain and mix in taco seasoning mix and water. Continue cooking 5 minutes. Remove from heat."
+    },
+    {
+      "position": 2,
+      "text": "Place processed cheese and milk in a small, microwave safe bowl. Microwave on high until melted, 1 to 2 minutes. Stir until blended and smooth."
+    },
+    {
+      "position": 3,
+      "text": "Place tortilla chips on a large, microwave safe dish. Spread with refried beans. Top with beef and cheese and mixtures."
+    },
+    {
+      "position": 4,
+      "text": "Microwave approximately 2 minutes on high, until the cheese has melted into the beef. Top with tomato and green onions. Serve warm."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b17a509f-9b8c-5429-9d8c-4cced92b0fea/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "788 kcal",
+    "carbohydrateContent": "57 g",
+    "cholesterolContent": "116 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "32 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "1576 mg",
+    "sugarContent": "6 g",
+    "fatContent": "49 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "76c7d107-3ca4-5b78-bcd7-963cfb950cb5",
+      "name": "ounce) package taco seasoning mix",
+      "normalized_name": "ounce package taco seasoning mix",
+      "quantity": "1 (1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a0c3ce91-cca2-51c5-9370-d159b68cf09b",
+      "name": "processed cheese",
+      "normalized_name": "processed cheese",
+      "quantity": "0.75",
+      "unit": "pound",
+      "preparation": "cubed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d6bca99d-bbcc-51fb-9a7d-89b570620d65",
+      "name": "ounce) package tortilla chips",
+      "normalized_name": "ounce package tortilla chips",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9e6d05db-379b-519f-8d6a-74c332bfe2ca",
+      "name": "ounce) can refried beans",
+      "normalized_name": "ounce can refried beans",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "aa02b428-aa63-5991-a8a3-82e8985a9d5f",
+      "name": "chopped fresh tomato",
+      "normalized_name": "chopped fresh tomato",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "907b7443-17d3-5349-b4f1-941d5cb63ff7",
+      "name": "chopped green onions",
+      "normalized_name": "chopped green onions",
+      "quantity": "0.33000001311302",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "f673a69e-2a69-53a3-8baa-b2314639be89",
+      "slug": "cheese",
+      "name": "Cheese"
+    },
+    {
+      "id": "cf540d83-c29c-5df1-a2d1-13dae174c4bf",
+      "slug": "nachos",
+      "name": "Nachos"
+    }
+  ],
+  "tags": [
+    {
+      "id": "41ee6a9e-3f13-5962-b0a9-ced1e68f3d54",
+      "slug": "birthday-parties",
+      "name": "Birthday Parties",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25545/taco-nachos"
+  },
+  "public": true,
+  "updated_at": 1778255378,
+  "revision": 1
+}

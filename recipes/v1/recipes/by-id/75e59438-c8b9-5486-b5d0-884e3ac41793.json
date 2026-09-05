@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "75e59438-c8b9-5486-b5d0-884e3ac41793",
+  "slug": "spanish-brown-rice",
+  "name": "Spanish Brown Rice",
+  "recipe_type": "side",
+  "brief_description": "This easy, Spanish-style brown rice recipe uses salsa, tomatoes, and garlic for a tasty change from a typical side dish. Try it as a burrito filling.",
+  "cuisine": "American Spanish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine rice and garlic in a saucepan; stir in water, salsa, and diced tomatoes. Bring to a boil; stir, reduce heat to low, and simmer, covered, for 50 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Turn off heat, let rice sit, covered, for 5 to 10 minutes. Stir rice before serving."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/75e59438-c8b9-5486-b5d0-884e3ac41793/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "199 kcal",
+    "carbohydrateContent": "42 g",
+    "fiberContent": "3 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "396 mg",
+    "sugarContent": "4 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8c198658-afec-50ef-af63-9df526d808b2",
+      "name": "brown rice",
+      "normalized_name": "brown rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2d1e1921-3e9f-5c4b-b821-833e5c6e4130",
+      "name": "salsa",
+      "normalized_name": "salsa",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "95521cf2-b4b6-5516-9702-6c921ab9e195",
+      "name": "diced tomatoes",
+      "normalized_name": "diced tomatoes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "800b3c0b-bff9-5682-9bcd-21cc6d3e47ec",
+      "slug": "spanish-rice",
+      "name": "Spanish Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "62fa7371-cbc2-5fe7-8752-f2c2a79fa8f9",
+      "slug": "spanish-rice-recipes",
+      "name": "Spanish Rice Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "eb5aa199-59db-5676-b8dd-ac80f3eea4cd",
+      "slug": "brown-rice-recipes",
+      "name": "Brown Rice Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230893/spanish-brown-rice"
+  },
+  "public": true,
+  "updated_at": 1743533562,
+  "revision": 1
+}

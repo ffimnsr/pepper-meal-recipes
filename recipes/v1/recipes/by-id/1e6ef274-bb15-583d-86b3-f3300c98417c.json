@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1e6ef274-bb15-583d-86b3-f3300c98417c",
+  "slug": "insalata-caprese-i",
+  "name": "Insalata Caprese I",
+  "recipe_type": "salad",
+  "brief_description": "Thick wedges of ripe tomatoes, fresh Mozzarella and slices of red onion are tossed in olive oil and vinegar and sprinkled with chopped, fresh basil. Chill and eat.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large bowl, combine the tomatoes, cheese, onion, oil, vinegar, basil, and salt and pepper to taste. Toss and chill for 1 hour. Serve on large platter."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1e6ef274-bb15-583d-86b3-f3300c98417c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "498 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "78 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "17 g",
+    "sodiumContent": "154 mg",
+    "sugarContent": "10 g",
+    "fatContent": "40 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "89347858-1c0c-5185-a332-c2e1a8627bc3",
+      "name": "ripe tomatoes",
+      "normalized_name": "ripe tomatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "cut into wedges",
+      "position": 1
+    },
+    {
+      "ingredient_id": "23530132-e54a-5954-b233-db1f7f92b42e",
+      "name": "fresh mozzarella cheese",
+      "normalized_name": "fresh mozzarella cheese",
+      "quantity": "14",
+      "unit": "ounces",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "84b8e582-e631-566b-9ba0-cbc0b8e649de",
+      "name": "extra virgin olive oil",
+      "normalized_name": "extra virgin olive oil",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "362e8788-4b07-5d90-b5e6-28134dd6bd01",
+      "name": "balsamic vinegar",
+      "normalized_name": "balsamic vinegar",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3137d3c8-bf47-5da8-adb2-cd7e446039cd",
+      "name": "chopped fresh basil",
+      "normalized_name": "chopped fresh basil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14398/insalata-caprese-i"
+  },
+  "public": true,
+  "updated_at": 1739741374,
+  "revision": 1
+}

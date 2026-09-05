@@ -1,0 +1,234 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7043f8f3-62ed-58c5-90e0-0cc3fc3d65fd",
+  "slug": "summer-pizza-recipe-7644619",
+  "name": "Summer Pizza",
+  "recipe_type": "main",
+  "brief_description": "This summer pizza, made on the grill, features fresh vegetables and is light on the cheese, so it is perfectly light for a summer night.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat a gas grill with all burners on High for 10 to 15 minutes. Shape pizza dough into a circle."
+    },
+    {
+      "position": 2,
+      "text": "Reduce the flame on half of the grill burners to Low, to create areas of direct and indirect heat."
+    },
+    {
+      "position": 3,
+      "text": "Carefully place dough onto the grill over direct heat. Close the cover. Let dough grill until the bottom is just barely cooked and shows char marks, 1 to 3 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Use tongs to flip pizza dough over; move to the indirect heat. Brush dough with pesto. Sprinkle with cheese. Scatter on zucchini, summer squash, bell pepper, red onion, and bacon."
+    },
+    {
+      "position": 5,
+      "text": "Grill until cheese is melted, about 3 minutes. Carefully remove pizza from the grill."
+    },
+    {
+      "position": 6,
+      "text": "Optional: Brush crust edges with butter glaze and place pizza under the oven broiler, until golden."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7043f8f3-62ed-58c5-90e0-0cc3fc3d65fd/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "433 kcal",
+    "carbohydrateContent": "57 g",
+    "cholesterolContent": "17 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "719 mg",
+    "sugarContent": "5 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1ed42357-73aa-542c-88cf-e8ffe2d56055",
+      "name": "pizza dough",
+      "normalized_name": "pizza dough",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bcb570de-4d06-57db-95cd-4ac1e9919756",
+      "name": "pesto",
+      "normalized_name": "pesto",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4f031036-3c7e-5546-b581-71a8a978cb70",
+      "name": "shredded quesadilla cheese",
+      "normalized_name": "shredded quesadilla cheese",
+      "quantity": "1/3",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "506c7455-2423-5232-96b3-088981899fc8",
+      "name": "thin slices zucchini",
+      "normalized_name": "thin slices zucchini",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "4550594f-a808-5605-a95a-3c388ff80c59",
+      "name": "thin slices squash",
+      "normalized_name": "thin slices squash",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "f08837ef-ec29-562c-bd6e-6fee4e7e0949",
+      "name": "mini bell peppers",
+      "normalized_name": "mini bell peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "ca2315de-1281-5ce5-a9a1-033f422e417a",
+      "name": "thin slice red onion",
+      "normalized_name": "thin slice red onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "cce4e705-83d3-570e-8c4a-72d9f53aba9b",
+      "name": "strip bacon",
+      "normalized_name": "strip bacon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cooked and chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
+      "name": "melted butter",
+      "normalized_name": "melted butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "a4f0813b-a4f2-5a5b-a163-47a5439062ec",
+      "name": "brazilian steak seasoning",
+      "normalized_name": "brazilian steak seasoning",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or any seasoning you like",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "017f8645-ec08-59b4-a868-cdf69e504615",
+      "slug": "entree",
+      "name": "Entree"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "149a4eab-232a-5656-97ca-966809a8a3c5",
+      "slug": "pizza",
+      "name": "Pizza"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c88e879c-5c3e-531a-97fc-d72022e4e131",
+      "slug": "pizza-recipes",
+      "name": "Pizza Recipes",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/summer-pizza-recipe-7644619"
+  },
+  "public": true,
+  "updated_at": 1692301420,
+  "revision": 1
+}

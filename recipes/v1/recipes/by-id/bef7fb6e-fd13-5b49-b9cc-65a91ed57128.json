@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "bef7fb6e-fd13-5b49-b9cc-65a91ed57128",
+  "slug": "grandmas-corn-chowder",
+  "name": "Grandma's Corn Chowder",
+  "recipe_type": "soup",
+  "brief_description": "Try grandma's corn chowder recipe for a creamy, delicious bowl of comforting soup made with creamed corn, potatoes, half-and-half, and bacon.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Cook bacon in a large pot over medium-high heat until crisp, 5 to 7 minutes. Drain, leaving bacon and 2 tablespoons grease in the pot."
+    },
+    {
+      "position": 3,
+      "text": "Add potatoes and onion to the pot; cook, stirring occasionally, for 5 minutes. Add corn, water, salt, and pepper; bring to a boil. Reduce the heat to low, cover the pot and simmer, stirring frequently, until potatoes are tender, about 20 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Warm half-and-half in a small saucepan until it bubbles; remove from the heat just before it boils. Mix into chowder."
+    },
+    {
+      "position": 5,
+      "text": "Serve immediately."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/bef7fb6e-fd13-5b49-b9cc-65a91ed57128/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/VPYM2CmB-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "255 kcal",
+    "carbohydrateContent": "40 g",
+    "cholesterolContent": "26 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "972 mg",
+    "sugarContent": "5 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0b6a1b2b-c5d6-5ab9-82a6-1bf94a124088",
+      "name": "diced bacon",
+      "normalized_name": "diced bacon",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "067a4d45-1400-54c0-b57f-680eb212a03a",
+      "name": "medium potatoes",
+      "normalized_name": "medium potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "f3eb7558-356e-56c5-b249-bedf8178d5ec",
+      "name": "cream-style corn",
+      "normalized_name": "cream-style corn",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    },
+    {
+      "id": "bb9022e2-8ff4-5c69-8747-92f78a8cbce3",
+      "slug": "corn-chowder",
+      "name": "Corn Chowder"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "b1da4043-161f-5b59-b102-87a72b0cd40a",
+      "slug": "corn-chowder-recipes",
+      "name": "Corn Chowder Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "a0d28738-e8e1-5472-b5d0-058cdd5cf5d5",
+      "slug": "family-heirloom",
+      "name": "Family Heirloom",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/86096/grandmas-corn-chowder"
+  },
+  "public": true,
+  "updated_at": 1762523794,
+  "revision": 1
+}

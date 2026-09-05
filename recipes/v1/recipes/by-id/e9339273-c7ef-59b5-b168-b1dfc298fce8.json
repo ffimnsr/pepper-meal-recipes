@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e9339273-c7ef-59b5-b168-b1dfc298fce8",
+  "slug": "pineapple-and-banana-smoothie",
+  "name": "Pineapple and Banana Smoothie",
+  "recipe_type": "breakfast",
+  "brief_description": "This pineapple banana smoothie is quick to make by blending fresh pineapple and banana chunks together for a tropical drink full of fruity goodness.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place ice cubes, pineapple, banana, and pineapple juice into the container of a blender."
+    },
+    {
+      "position": 3,
+      "text": "Pur\u00e9e on high until smooth."
+    },
+    {
+      "position": 4,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e9339273-c7ef-59b5-b168-b1dfc298fce8/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/8OHLJwlR-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "313 kcal",
+    "carbohydrateContent": "79 g",
+    "fiberContent": "6 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "10 mg",
+    "sugarContent": "53 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ff7f9a12-0677-5ded-b4f9-b4dbe2d266d9",
+      "name": "fresh pineapple - peeled",
+      "normalized_name": "fresh pineapple - peeled",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "cored and cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "233b251e-9a27-5ca0-a2d7-2f3fcac4d41e",
+      "name": "large banana",
+      "normalized_name": "large banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into chunks",
+      "position": 3
+    },
+    {
+      "ingredient_id": "e45a8047-1a48-58c7-8ea0-e009a2e8205d",
+      "name": "pineapple or apple juice",
+      "normalized_name": "pineapple or apple juice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "fbd23a77-be55-5618-979e-e3e7b701bd1a",
+      "slug": "banana",
+      "name": "Banana",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/138159/pineapple-and-banana-smoothie"
+  },
+  "public": true,
+  "updated_at": 1767879311,
+  "revision": 1
+}

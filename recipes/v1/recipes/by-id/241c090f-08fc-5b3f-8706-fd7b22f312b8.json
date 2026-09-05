@@ -1,0 +1,219 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "241c090f-08fc-5b3f-8706-fd7b22f312b8",
+  "slug": "souvlaki",
+  "name": "Souvlaki",
+  "recipe_type": "main",
+  "brief_description": "Delicious souvlaki skewers made with marinated pork, onions, and bell peppers cooked on a grill until succulent, tender, and full of Greek flavor.",
+  "cuisine": "Greek",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Mix oil, soy sauce, lemon juice, garlic, and oregano together in a large glass bowl."
+    },
+    {
+      "position": 3,
+      "text": "Add pork, onions, and bell peppers, and stir until coated. Cover and refrigerate for 2 to 3 hours."
+    },
+    {
+      "position": 4,
+      "text": "Preheat an outdoor grill for medium-high heat and lightly oil the grate."
+    },
+    {
+      "position": 5,
+      "text": "Remove pork and vegetables from marinade and shake off excess; thread onto skewers. Discard remaining marinade."
+    },
+    {
+      "position": 6,
+      "text": "Cook on the preheated grill, turning frequently, until pork is no longer pink in the middle, 10 to 15 minutes. An instant-read thermometer inserted into the center should read at least 145 degrees F (63 degrees C)."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/241c090f-08fc-5b3f-8706-fd7b22f312b8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "189 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "65 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "354 mg",
+    "sugarContent": "1 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a9e7201e-3074-5d68-a926-8e46f9ad8847",
+      "name": "medium lemon",
+      "normalized_name": "medium lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "crushed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1406b9dc-e908-5eb2-a5e4-f99d6e71756a",
+      "name": "pork tenderloin",
+      "normalized_name": "pork tenderloin",
+      "quantity": "3",
+      "unit": "pounds",
+      "preparation": "cut into 1 inch cubes",
+      "position": 6
+    },
+    {
+      "ingredient_id": "92320836-6f9c-5d82-8e57-cad7636a91df",
+      "name": "medium yellow onions",
+      "normalized_name": "medium yellow onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into 1 inch pieces",
+      "position": 7
+    },
+    {
+      "ingredient_id": "1cf07757-417b-5b33-aa64-e346ca77dfd7",
+      "name": "medium green bell peppers",
+      "normalized_name": "medium green bell peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into 1 inch pieces",
+      "position": 8
+    },
+    {
+      "ingredient_id": "062f9992-eea2-5905-a67d-97273457cecd",
+      "name": "skewers",
+      "normalized_name": "skewers",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "7260e21f-4176-5c27-b84a-5295015f6c4d",
+      "slug": "bbq-grilling",
+      "name": "BBQ & Grilling"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "88f95a48-8ac6-5dd8-b655-9e73bc177770",
+      "slug": "skewers-and-kabobs",
+      "name": "Skewers and Kabobs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "48069ae4-871a-565f-8069-6dc6ae82ef82",
+      "slug": "skewers-and-kabobs",
+      "name": "Skewers and Kabobs",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "bbf47bb0-f808-535a-b0be-7f7961e623c2",
+      "slug": "greek",
+      "name": "Greek",
+      "color": null
+    },
+    {
+      "id": "f5829042-f0a1-5586-967c-eda0386916df",
+      "slug": "bbq-grilling-recipes",
+      "name": "BBQ & Grilling Recipes",
+      "color": null
+    },
+    {
+      "id": "e32c1d80-2bef-5d58-ad38-1635be9bed81",
+      "slug": "pork-tenderloin",
+      "name": "Pork Tenderloin",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14713/souvlaki"
+  },
+  "public": true,
+  "updated_at": 1768953235,
+  "revision": 1
+}

@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "66c5aecd-7d04-5e1b-aa66-77b1f8c9bf67",
+  "slug": "split-pea-soup-with-tofu",
+  "name": "Split Pea Soup with Tofu",
+  "recipe_type": "soup",
+  "brief_description": "This thick and creamy soup is perfect to warm you up on a rainy day, and the ingredients are very simple.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the olive oil in a skillet over medium heat, and saute the onion and garlic until tender."
+    },
+    {
+      "position": 2,
+      "text": "In a large pot, mix the onion mixture, potatoes, carrots, and split peas. Pour in the vegetable broth. Bring to a boil, reduce heat to low, and simmer 1 hour."
+    },
+    {
+      "position": 3,
+      "text": "In a blender or food processor, blend the tofu and spinach until creamy, and mix into the pot. Season with basil, salt, and pepper. Continue cooking 1 hour. If the soup becomes too thick, add water. Serve hot and enjoy."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 120,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/66c5aecd-7d04-5e1b-aa66-77b1f8c9bf67/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "211 kcal",
+    "carbohydrateContent": "33 g",
+    "fiberContent": "8 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "270 mg",
+    "sugarContent": "6 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4fd5be30-292b-5ddd-84eb-acfe87eb005d",
+      "name": "white onion",
+      "normalized_name": "white onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "pressed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "70a67b7c-7a71-52b2-bb82-feb2f09573ea",
+      "name": "small red potatoes",
+      "normalized_name": "small red potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "277f57ae-b740-593b-a580-72e808440474",
+      "name": "peeled",
+      "normalized_name": "peeled",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "diced carrots",
+      "position": 5
+    },
+    {
+      "ingredient_id": "2ccb9094-1f45-5911-b46d-2b43293f0288",
+      "name": "dry green split peas",
+      "normalized_name": "dry green split peas",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3276fba0-0803-5cfd-938a-5e171471fcae",
+      "name": "ounce) package soft tofu",
+      "normalized_name": "ounce package soft tofu",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "119b15cc-4943-5ac8-b3d6-b5f05bb54f75",
+      "name": "ounce) bag fresh spinach",
+      "normalized_name": "ounce bag fresh spinach",
+      "quantity": "1 (6",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 9
+    },
+    {
+      "ingredient_id": "926af8a3-1f4f-5d54-b16f-43f37953b512",
+      "name": "dried basil",
+      "normalized_name": "dried basil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "630df682-a5ea-5d74-97e6-3b57367b0fe8",
+      "slug": "split-pea-soup-recipes",
+      "name": "Split Pea Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "646d833a-042e-5089-8a59-3d916b212664",
+      "slug": "tofu",
+      "name": "Tofu",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/71574/split-pea-soup-with-tofu"
+  },
+  "public": true,
+  "updated_at": 1739908640,
+  "revision": 1
+}

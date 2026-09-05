@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0314bea4-74a4-549d-85a0-c8f7d53d227a",
+  "slug": "strawberry-raspberry-smoothie",
+  "name": "Strawberry Raspberry Smoothie",
+  "recipe_type": "breakfast",
+  "brief_description": "This strawberry and raspberry smoothie recipe is easy and filling. Fruit is blended with yogurt, creating a probiotic-enhanced breakfast treat.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Blend strawberries, raspberries, milk, yogurt, honey, and vanilla together in a blender until smooth."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0314bea4-74a4-549d-85a0-c8f7d53d227a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "318 kcal",
+    "carbohydrateContent": "59 g",
+    "cholesterolContent": "16 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "134 mg",
+    "sugarContent": "50 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f64d005a-4352-54b8-8a79-0341bc9f0fbf",
+      "name": "hulled fresh strawberries",
+      "normalized_name": "hulled fresh strawberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "27e50b75-b7ff-5fc9-ad07-f6d126c7324d",
+      "name": "frozen raspberries",
+      "normalized_name": "frozen raspberries",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b561ce67-6ebc-51e4-8151-3265370d2f55",
+      "name": "lowfat milk",
+      "normalized_name": "lowfat milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bcb1e0d2-6ea8-5e5f-9065-176c9647f165",
+      "name": "vanilla yogurt",
+      "normalized_name": "vanilla yogurt",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "1feb6745-4c3a-532c-8017-0b2e3fe6bf86",
+      "slug": "raspberries",
+      "name": "Raspberries",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231749/strawberry-raspberry-smoothie"
+  },
+  "public": true,
+  "updated_at": 1776247947,
+  "revision": 1
+}

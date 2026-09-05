@@ -1,0 +1,251 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "69c64bae-2657-58bf-b42a-115f978459c5",
+  "slug": "bean-soup",
+  "name": "Bean Soup",
+  "recipe_type": "soup",
+  "brief_description": "This hearty bean soup is made with a ham bone, cubed ham, navy beans, carrots, and celery. It's so flavorful and tastes even better on the second day!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Rinse beans; transfer to a large stockpot and add water. Bring to a boil and simmer for 2 minutes; remove from heat, cover, and let stand for 1 hour."
+    },
+    {
+      "position": 3,
+      "text": "Add ham bone, diced ham, onion, salt, pepper, and bay leaf. Bring to a boil; reduce heat to low, cover, and simmer until beans are soft, about 1 hour and 15 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Add carrots and celery; cook until tender, about 10 to 15 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Remove ham bone from the pot and place on a cutting board until cool enough to handle. Remove any meat from the bones and cut into bite-sized pieces."
+    },
+    {
+      "position": 6,
+      "text": "Stir into soup until warmed through. Serve and enjoy!"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 100,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/69c64bae-2657-58bf-b42a-115f978459c5/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/2RF6TPXB-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "247 kcal",
+    "carbohydrateContent": "37 g",
+    "cholesterolContent": "17 mg",
+    "fiberContent": "14 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "543 mg",
+    "sugarContent": "3 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4475f583-808d-5ad8-9fe5-e5b3b05df739",
+      "name": "ounce) package dried navy beans",
+      "normalized_name": "ounce package dried navy beans",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "7",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5db76c0e-453e-526c-8d43-3f4c24bb2ac9",
+      "name": "ham bone",
+      "normalized_name": "ham bone",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "75e5d3bb-c63b-5498-9d37-80aacbe5d3ad",
+      "name": "diced ham",
+      "normalized_name": "diced ham",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "02d4f872-6e6e-56ff-93d3-4ebab5500e0f",
+      "name": "minced onion",
+      "normalized_name": "minced onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "4a86c2c5-ff06-5ab9-8d10-2e734dcb1f59",
+      "name": "sliced carrots",
+      "normalized_name": "sliced carrots",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "3a8137b6-2b9b-5704-b5ef-e9843b21f577",
+      "name": "sliced celery",
+      "normalized_name": "sliced celery",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "62486dc7-9e27-5c22-9339-2e4ab00fb7d2",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "c8686615-6b0e-5edb-8336-d3d213a5adfd",
+      "slug": "ham-soup",
+      "name": "Ham Soup",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "71fc5e14-6a8b-53ee-980f-0e256e4a1fc3",
+      "slug": "white-beans",
+      "name": "White Beans",
+      "color": null
+    },
+    {
+      "id": "32ca55aa-c740-52e0-95af-7aec91411ac9",
+      "slug": "high-fiber",
+      "name": "High-Fiber",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13346/bean-soup"
+  },
+  "public": true,
+  "updated_at": 1764337171,
+  "revision": 1
+}

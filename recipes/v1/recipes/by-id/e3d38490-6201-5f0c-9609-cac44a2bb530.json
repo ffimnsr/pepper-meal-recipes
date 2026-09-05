@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e3d38490-6201-5f0c-9609-cac44a2bb530",
+  "slug": "easy-chicken-and-broccoli-alfredo",
+  "name": "Easy Chicken and Broccoli Alfredo",
+  "recipe_type": "main",
+  "brief_description": "This creamy chicken and broccoli Alfredo pasta dish with fresh broccoli, tender chunks of chicken breast, Parmesan cheese, and basil is sure to please!",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook pasta as directed on package, adding broccoli to the boiling water for the last 2 minutes of the pasta cooking time. Drain pasta mixture."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, heat dressing in large nonstick skillet on medium-high heat. Add chicken and cook until no longer pink in the center, stirring occasionally, about 5 to 7 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir in milk, cream cheese, Parmesan cheese, and basil. Bring to a boil, stirring constantly. Cook until sauce is well blended and heated through, about 1 to 2 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Add chicken mixture to pasta mixture; mix lightly."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e3d38490-6201-5f0c-9609-cac44a2bb530/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "511 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "139 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "47 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "514 mg",
+    "sugarContent": "10 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "955fd337-f524-5da9-98b3-d5865e6ed454",
+      "name": "fettuccine or spaghetti",
+      "normalized_name": "fettuccine or spaghetti",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "uncooked",
+      "position": 1
+    },
+    {
+      "ingredient_id": "f9792d9d-aa19-52b4-9ed2-fa61da8cd301",
+      "name": "fresh broccoli florets",
+      "normalized_name": "fresh broccoli florets",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "55726410-c266-5ca4-af46-8329fb91e558",
+      "name": "kraft zesty italian dressing",
+      "normalized_name": "kraft zesty italian dressing",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0a4f2d3d-d7ee-58f8-ae1a-699f381aa1a8",
+      "name": "boneless skinless chicken breasts",
+      "normalized_name": "boneless skinless chicken breasts",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into bite-sized pieces",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1.6666667461395",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "461534a4-b4d2-593a-b23c-bdce62e03d19",
+      "name": "philadelphia cream cheese",
+      "normalized_name": "philadelphia cream cheese",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": "cubed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "deaef6a4-133d-545f-907e-f953fd20f096",
+      "name": "kraft grated parmesan cheese",
+      "normalized_name": "kraft grated parmesan cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "74ab852f-8b04-5e97-911e-cb89d2068ec3",
+      "name": "dried basil leaves",
+      "normalized_name": "dried basil leaves",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "6cf58bec-f1ee-5a7c-875c-674522ce2cd5",
+      "slug": "chicken-alfredo",
+      "name": "Chicken Alfredo"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "8188eed4-b891-5ca2-b130-93c8a82eac19",
+      "slug": "fettuccini-recipes",
+      "name": "Fettuccini Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/212498/easy-chicken-and-broccoli-alfredo"
+  },
+  "public": true,
+  "updated_at": 1764596615,
+  "revision": 1
+}

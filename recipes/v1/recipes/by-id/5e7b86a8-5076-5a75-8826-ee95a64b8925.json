@@ -1,0 +1,277 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5e7b86a8-5076-5a75-8826-ee95a64b8925",
+  "slug": "chicken-noodle-soup",
+  "name": "Chicken Noodle Soup",
+  "recipe_type": "soup",
+  "brief_description": "This chicken noodle soup recipe is easily made from scratch with vegetables, pasta, bouillon broth, and seasonings for a warm and satisfying meal.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a large stockpot over medium-high heat. Saut\u00e9 celery and onion in hot butter until slightly softened."
+    },
+    {
+      "position": 3,
+      "text": "Add water, chicken, bouillon, carrots, parsley, marjoram, pepper, and bay leaf. Simmer for 30 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Stir in noodles and simmer until pasta is tender, about 10 more minutes."
+    },
+    {
+      "position": 5,
+      "text": "Season to taste. Enjoy!"
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5e7b86a8-5076-5a75-8826-ee95a64b8925/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/sSHzrcyQ-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "227 kcal",
+    "carbohydrateContent": "18 g",
+    "cholesterolContent": "74 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "1124 mg",
+    "sugarContent": "1 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "12",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c5d1ca96-acff-5211-9ce5-2d47772a3c0c",
+      "name": "chopped",
+      "normalized_name": "chopped",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": "cooked chicken meat",
+      "position": 5
+    },
+    {
+      "ingredient_id": "3ce4bb58-0809-5770-b087-cde27facb41c",
+      "name": "cubes chicken bouillon",
+      "normalized_name": "cubes chicken bouillon",
+      "quantity": "9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "89363afe-8ce1-56cb-84bd-e34bc58da1f2",
+      "name": "chopped carrots",
+      "normalized_name": "chopped carrots",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "c7f94c24-41b4-5f73-9a71-06be56833d48",
+      "name": "dried parsley",
+      "normalized_name": "dried parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "81b7e63d-4dd5-593a-b159-45272d9a1999",
+      "name": "dried marjoram",
+      "normalized_name": "dried marjoram",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "7f06c2ce-8aca-5415-93da-7ca715bb4e40",
+      "name": "egg noodles",
+      "normalized_name": "egg noodles",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "95237eae-d985-5390-a1a3-cc4324d8aa85",
+      "slug": "noodle-soup",
+      "name": "Noodle Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "3d692f67-54c3-5135-8edb-98c25ad1ca4c",
+      "slug": "noodle-recipes",
+      "name": "Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "4c68fe1e-e85b-5155-b3cf-8e97914904d8",
+      "slug": "egg-noodle-recipes",
+      "name": "Egg Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "650d6000-fed4-5f1c-b2cf-056aca19db01",
+      "slug": "chicken-noodle-soup-recipes",
+      "name": "Chicken Noodle Soup Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8562/chicken-noodle-soup"
+  },
+  "public": true,
+  "updated_at": 1773162004,
+  "revision": 1
+}

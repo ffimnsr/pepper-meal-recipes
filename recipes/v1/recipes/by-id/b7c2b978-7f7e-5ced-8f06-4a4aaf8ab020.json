@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b7c2b978-7f7e-5ced-8f06-4a4aaf8ab020",
+  "slug": "spaghetti-carbonara-i",
+  "name": "Spaghetti Carbonara I",
+  "recipe_type": "main",
+  "brief_description": "Fry up some bacon and scrambled eggs, then toss with cooked spaghetti, olive oil and Parmesan cheese for a quick, savory meal.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, place bacon in a large, deep skillet. Cook over medium high heat until evenly brown. Drain, reserving some of the drippings, crumble and set aside."
+    },
+    {
+      "position": 3,
+      "text": "Scramble eggs in bacon drippings."
+    },
+    {
+      "position": 4,
+      "text": "Place spaghetti in a large bowl. Pour in olive oil, and mix well; use enough to just moisten spaghetti. Stir in bacon, eggs, and Parmesan cheese. Serve immediately."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b7c2b978-7f7e-5ced-8f06-4a4aaf8ab020/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "601 kcal",
+    "carbohydrateContent": "58 g",
+    "cholesterolContent": "163 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "28 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "832 mg",
+    "sugarContent": "2 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f3cf53a3-b225-53f5-bdcc-67cc5aabc4d9",
+      "name": "spaghetti",
+      "normalized_name": "spaghetti",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "14a9821b-6966-5d2b-a09e-837355f37cb5",
+      "name": "bacon",
+      "normalized_name": "bacon",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "well beaten",
+      "position": 3
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "78763672-5fe6-58db-bb74-5fd900ec3b2f",
+      "slug": "pasta-carbonara",
+      "name": "Pasta Carbonara"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "2af3f8a9-5a79-5561-843d-624fe049896e",
+      "slug": "pasta-carbonara-recipes",
+      "name": "Pasta Carbonara Recipes",
+      "color": null
+    },
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11791/spaghetti-carbonara-i"
+  },
+  "public": true,
+  "updated_at": 1657829079,
+  "revision": 1
+}

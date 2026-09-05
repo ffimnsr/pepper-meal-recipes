@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d5687255-c511-5c33-b3fc-8de3651109f7",
+  "slug": "homemade-dog-food",
+  "name": "Homemade Dog Food",
+  "recipe_type": null,
+  "brief_description": "This homemade dog food can be fed to dogs on its own or mixed in with kibble. Made with turkey, rice, and veggies \u2014 it's sure to make some tails wag!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place ground turkey, water, rice, and rosemary into a large Dutch oven. Stir until ground turkey is broken up and evenly distributed throughout the mixture; bring to a boil over high heat, then reduce heat to low and simmer for 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add frozen vegetables, and cook for an additional 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Remove from heat and cool."
+    },
+    {
+      "position": 5,
+      "text": "Refrigerate until using."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d5687255-c511-5c33-b3fc-8de3651109f7/cover.jpg",
+  "video_url": "https://cdn.jwplayer.com/videos/TDtThrrH-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "440 kcal",
+    "carbohydrateContent": "64 g",
+    "cholesterolContent": "72 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "118 mg",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2ab27880-5f02-56cd-a31a-aab351e1ec65",
+      "name": "ground turkey",
+      "normalized_name": "ground turkey",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "6",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8c198658-afec-50ef-af63-9df526d808b2",
+      "name": "brown rice",
+      "normalized_name": "brown rice",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "8276eea8-48d5-53bd-807f-402083fde791",
+      "name": "dried rosemary",
+      "normalized_name": "dried rosemary",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "370a8bf5-e0fc-5e0d-8b71-a0fbab5930e0",
+      "name": "ounce) package frozen broccoli",
+      "normalized_name": "ounce package frozen broccoli",
+      "quantity": "0.5 (16",
+      "unit": "pieces",
+      "preparation": "carrots and cauliflower combination",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f1c01169-db64-5d2a-b556-54ef10ca52e3",
+      "slug": "ingredient",
+      "name": "Ingredient"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    },
+    {
+      "id": "5d84fa53-3224-5052-862f-33517e2d2b09",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas"
+    },
+    {
+      "id": "c819676f-e29d-5458-bab5-a6d901a67e8f",
+      "slug": "pet-food",
+      "name": "Pet Food"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ec9d976e-4296-5c34-88a4-518d14e86e0b",
+      "slug": "allrecipes",
+      "name": "Allrecipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "dfd57937-ca1c-5f7a-9472-30b1621d944c",
+      "slug": "pet-food-recipes",
+      "name": "Pet Food Recipes",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "64640c9a-541d-5903-84f5-bb20081545af",
+      "slug": "rosemary-recipes",
+      "name": "Rosemary Recipes",
+      "color": null
+    },
+    {
+      "id": "187603c2-42c4-5076-a2c7-438cbce2329f",
+      "slug": "herbs-and-spices-recipes",
+      "name": "Herbs and Spices Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/140286/homemade-dog-food"
+  },
+  "public": true,
+  "updated_at": 1761754933,
+  "revision": 1
+}

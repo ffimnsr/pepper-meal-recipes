@@ -1,0 +1,267 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "151fd84c-578b-5a45-a9c9-f3a71ba3e8e8",
+  "slug": "baked-mexican-rice",
+  "name": "Baked Mexican Rice",
+  "recipe_type": "side",
+  "brief_description": "This baked Mexican rice recipe uses green bell pepper, onion, saz\u00f3n seasoning, ground cumin, ground coriander, garlic powder, tomato sauce, and cilantro.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place rice in a 9-inch square baking dish. Drizzle in canola oil; stir until rice completely coated. Stir in bell pepper, green onions, and chopped onion; season with saz\u00f3n seasoning, cumin, coriander, garlic powder, and salt."
+    },
+    {
+      "position": 3,
+      "text": "Combine water and tomato sauce in a microwave-safe bowl or measuring cup. Microwave until simmering, about 2 minutes. Pour over rice; stir briefly. Tightly cover the baking dish with heavy-duty aluminum foil."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven for 30 minutes. Let stand, covered, for 5 minutes. Uncover; fluff rice with a fork. Stir in cilantro; squeeze lime juice over top."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/151fd84c-578b-5a45-a9c9-f3a71ba3e8e8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "238 kcal",
+    "carbohydrateContent": "43 g",
+    "fiberContent": "3 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "389 mg",
+    "sugarContent": "3 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d098e3eb-5e18-5076-9614-7988d3eff5a3",
+      "name": "parboiled rice (such as uncle ben's\u00ae)",
+      "normalized_name": "parboiled rice",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "03174c98-4286-5a20-ae8a-229f93f11569",
+      "name": "canola oil",
+      "normalized_name": "canola oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "a45b900a-8d93-5717-a256-c746ab4c35a1",
+      "name": "large green onions",
+      "normalized_name": "large green onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "850aa031-f17b-5038-9c91-785fafdc7ae7",
+      "name": "ounce) packet sazon seasoning with saffron (such as goya\u00ae azafran)",
+      "normalized_name": "ounce packet sazon seasoning with saffron",
+      "quantity": "1 (.18",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "1c05fe49-eae3-5107-914d-8b01c5886c6f",
+      "name": "ground coriander",
+      "normalized_name": "ground coriander",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": "or more to taste",
+      "position": 10
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
+      "name": "tomato sauce",
+      "normalized_name": "tomato sauce",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "c13c57db-cb16-51b7-8615-8e691e49911b",
+      "name": "minced fresh cilantro",
+      "normalized_name": "minced fresh cilantro",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into wedges",
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "800b3c0b-bff9-5682-9bcd-21cc6d3e47ec",
+      "slug": "spanish-rice",
+      "name": "Spanish Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "62fa7371-cbc2-5fe7-8752-f2c2a79fa8f9",
+      "slug": "spanish-rice-recipes",
+      "name": "Spanish Rice Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "b06f0c5b-7919-511f-9eeb-ad9b9e1ed1a0",
+      "slug": "grains",
+      "name": "Grains",
+      "color": null
+    },
+    {
+      "id": "4bbf3490-84b7-5429-acd1-f3f32d9749b1",
+      "slug": "whole-grain",
+      "name": "Whole Grain",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "648e9a72-96a1-5b58-9a0c-0980359f7b23",
+      "slug": "green-bell-peppers",
+      "name": "Green Bell Peppers",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/280388/baked-mexican-rice"
+  },
+  "public": true,
+  "updated_at": 1734970110,
+  "revision": 1
+}

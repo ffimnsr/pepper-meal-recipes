@@ -1,0 +1,201 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8ccbb3f2-fe68-5e73-b17a-18fc8ac43fe4",
+  "slug": "air-fryer-spinach-and-mushroom-frittata",
+  "name": "Air Fryer Spinach and Mushroom Frittata",
+  "recipe_type": "breakfast",
+  "brief_description": "For a quick and easy breakfast for one, this spinach and mushroom frittata cooked in the air fryer is the perfect choice.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat an air fryer to 400 degrees F (200 degrees C). Spray a 4 1/2-inch ramekin with nonstick spray."
+    },
+    {
+      "position": 2,
+      "text": "Whisk eggs and cream together in a bowl. Stir in spinach, mushrooms, Cheddar cheese, salt, and pepper until well combined. Pour into the prepared ramekin and cover tightly with foil."
+    },
+    {
+      "position": 3,
+      "text": "Air-fry for 12 minutes. Remove foil and air-fry until top starts to brown and a toothpick inserted into the center comes out clean, 4 to 8 more minutes."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8ccbb3f2-fe68-5e73-b17a-18fc8ac43fe4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "356 kcal",
+    "carbohydrateContent": "5 g",
+    "cholesterolContent": "432 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "366 mg",
+    "sugarContent": "2 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d7fa220b-2e1f-5859-8be0-50a59d09740b",
+      "name": "nonstick cooking spray",
+      "normalized_name": "nonstick cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b22bc2e2-07c9-54aa-a04f-a6f6cd0810e9",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "eb9f0650-e142-54f9-88fb-d63fffd7df4c",
+      "name": "coarsely chopped spinach leaves",
+      "normalized_name": "coarsely chopped spinach leaves",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3ed51bea-4fc6-5151-b12c-514d192af0d7",
+      "name": "diced mushrooms",
+      "normalized_name": "diced mushrooms",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbb001aa-57e2-5400-b607-791c84fccb9f",
+      "name": "shredded sharp cheddar cheese",
+      "normalized_name": "shredded sharp cheddar cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "2da64254-5d89-5e90-936d-80dd8fc2f10a",
+      "slug": "frittata",
+      "name": "Frittata"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7c6e3374-3665-5d67-8138-d19636e5a163",
+      "slug": "frittata-recipes",
+      "name": "Frittata Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/285031/air-fryer-spinach-and-mushroom-frittata"
+  },
+  "public": true,
+  "updated_at": 1733210786,
+  "revision": 1
+}

@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c8b146a3-e9fc-52c9-889b-6d68dcf8a9ac",
+  "slug": "simple-country-ribs",
+  "name": "Simple Country Ribs",
+  "recipe_type": "main",
+  "brief_description": "Ribs are boiled in barbeque sauce before grilling over high heat to produce extra tasty, deliciously moist, fall-off-the-bone pork ribs.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place spareribs in a large stockpot; add barbeque sauce, onion, salt, and pepper. Pour in enough water to cover the ribs. Bring to a low boil and simmer for 40 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Preheat an outdoor grill for high heat and lightly oil the grate."
+    },
+    {
+      "position": 3,
+      "text": "Transfer spareribs onto the preheated grill, reserving the cooking liquid. Cook, basting with reserved cooking liquid often and turning frequently, until nicely browned, about 20 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c8b146a3-e9fc-52c9-889b-6d68dcf8a9ac/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "882 kcal",
+    "carbohydrateContent": "94 g",
+    "cholesterolContent": "150 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "36 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "3518 mg",
+    "sugarContent": "67 g",
+    "fatContent": "38 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2036bbd7-4e10-5be0-8551-ba8c503b14c8",
+      "name": "pork spareribs",
+      "normalized_name": "pork spareribs",
+      "quantity": "2.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5c828940-a59e-5871-aaee-34825134a2a0",
+      "name": "ounce) bottles barbeque sauce",
+      "normalized_name": "ounce bottles barbeque sauce",
+      "quantity": "2 (18",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "quartered",
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "8f9e8cdb-7587-5a8f-b6dc-9480e6d479a2",
+      "slug": "pork-rib",
+      "name": "Pork Rib"
+    },
+    {
+      "id": "cca49254-3888-5708-a216-53d7c8fd978e",
+      "slug": "spare-ribs",
+      "name": "Spare Ribs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2200a178-592a-5387-9946-6a31d580eb09",
+      "slug": "pork-ribs",
+      "name": "Pork Ribs",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "f5829042-f0a1-5586-967c-eda0386916df",
+      "slug": "bbq-grilling-recipes",
+      "name": "BBQ & Grilling Recipes",
+      "color": null
+    },
+    {
+      "id": "7def3cdd-8a55-5453-8df0-9424068ead2c",
+      "slug": "syrah-and-shiraz",
+      "name": "Syrah and Shiraz",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "a4ab9606-d763-5f61-aa8c-42b5f8b89953",
+      "slug": "rib-recipes",
+      "name": "Rib Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25432/simple-country-ribs"
+  },
+  "public": true,
+  "updated_at": 1765403128,
+  "revision": 1
+}

@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7f1e641d-8465-5222-adcc-d4bd5f36cff1",
+  "slug": "peach-banana-smoothie",
+  "name": "Peach Smoothie",
+  "recipe_type": "drink",
+  "brief_description": "This easy peach smoothie recipe combines canned peaches, plain yogurt, bananas, and orange juice to create a smooth and delicious drink in just minutes.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine peaches, bananas, yogurt, orange juice, sugar, and ice in a blender; blend on high speed until ice is crushed and smoothie reaches desired consistency."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7f1e641d-8465-5222-adcc-d4bd5f36cff1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "194 kcal",
+    "carbohydrateContent": "44 g",
+    "cholesterolContent": "4 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "48 mg",
+    "sugarContent": "36 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ea4ef059-e6e0-5248-a9b8-954e77011f4a",
+      "name": "ounce) can peaches",
+      "normalized_name": "ounce can peaches",
+      "quantity": "1 (15.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "1eebb4b2-e59f-5c62-9071-16e2f2babccb",
+      "name": "bananas",
+      "normalized_name": "bananas",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "db76615d-4814-5688-8d5f-70dd1c04090a",
+      "name": "plain yogurt",
+      "normalized_name": "plain yogurt",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5f2347f6-33f3-597d-834e-20653545df33",
+      "name": "orange juice",
+      "normalized_name": "orange juice",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "6323d2ef-f79f-5ace-9dc0-1a834f9e6705",
+      "name": "cubes ice",
+      "normalized_name": "cubes ice",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "eda7a1ec-a1b1-5c5b-9cba-252158e1afbc",
+      "slug": "peaches",
+      "name": "Peaches",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "fbd23a77-be55-5618-979e-e3e7b701bd1a",
+      "slug": "banana",
+      "name": "Banana",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "76abba44-5c5d-5a59-bc38-9bbc98e583e0",
+      "slug": "orange",
+      "name": "Orange",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232903/peach-banana-smoothie"
+  },
+  "public": true,
+  "updated_at": 1783474339,
+  "revision": 1
+}

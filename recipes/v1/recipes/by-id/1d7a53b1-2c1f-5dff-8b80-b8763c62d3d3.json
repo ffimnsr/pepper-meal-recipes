@@ -1,0 +1,236 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1d7a53b1-2c1f-5dff-8b80-b8763c62d3d3",
+  "slug": "potato-broccoli-and-cheese-soup",
+  "name": "Potato, Broccoli and Cheese Soup",
+  "recipe_type": "soup",
+  "brief_description": "A cheesy, potato broccoli soup that tastes great.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large stock pot saute onion in butter. Add potatoes, water and bouillon cubes. Cover, bring to boil and then reduce heat to medium and cook until potatoes are tender, about 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Remove tough outer skin of broccoli stems and cook broccoli. Once cooked add to soup."
+    },
+    {
+      "position": 3,
+      "text": "In a blender or food processor puree half of the soup and return to stock pot. Season with salt and pepper."
+    },
+    {
+      "position": 4,
+      "text": "Add cheese and heat soup through until cheese is melted. Serve warm."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1d7a53b1-2c1f-5dff-8b80-b8763c62d3d3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "448 kcal",
+    "carbohydrateContent": "43 g",
+    "cholesterolContent": "60 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "1189 mg",
+    "sugarContent": "5 g",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "915d3931-7f1a-547d-9655-7c5ac8ed53bd",
+      "name": "margarine",
+      "normalized_name": "margarine",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c1a83071-d748-5e2d-9bb8-25b76c837a81",
+      "name": "peeled and cubed potatoes",
+      "normalized_name": "peeled and cubed potatoes",
+      "quantity": "2.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d72b2051-e25f-52e6-9254-2ff83a376f80",
+      "name": "boiling water",
+      "normalized_name": "boiling water",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3ce4bb58-0809-5770-b087-cde27facb41c",
+      "name": "cubes chicken bouillon",
+      "normalized_name": "cubes chicken bouillon",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3ee15289-9460-5a39-a550-485cec58969d",
+      "name": "fresh broccoli",
+      "normalized_name": "fresh broccoli",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": "cooked and drained",
+      "position": 6
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "278514fe-983b-5bcb-a57c-c032a506c02e",
+      "slug": "potato-soup",
+      "name": "Potato Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "c6bf3992-663f-5e3a-8ba5-f02997d350ab",
+      "slug": "cream-of-potato-soup-recipes",
+      "name": "Cream of Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "5606a16e-e04d-5bc0-9a9b-14e21d2c303c",
+      "slug": "potato-soup-recipes",
+      "name": "Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "ef17e4b5-7e1d-5885-a7a8-9ae74359254f",
+      "slug": "cream-of-broccoli-soup",
+      "name": "Cream of Broccoli Soup",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "7b5bf05a-c541-5808-b45a-02ad3516f05b",
+      "slug": "broccoli-soup-recipes",
+      "name": "Broccoli Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "78edf4ff-9437-5d63-a7c6-9904d0587091",
+      "slug": "broccoli",
+      "name": "Broccoli",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13353/potato-broccoli-and-cheese-soup"
+  },
+  "public": true,
+  "updated_at": 1768131571,
+  "revision": 1
+}

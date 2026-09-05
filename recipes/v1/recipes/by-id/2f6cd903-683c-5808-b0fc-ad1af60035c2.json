@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2f6cd903-683c-5808-b0fc-ad1af60035c2",
+  "slug": "chocolate-popcorn",
+  "name": "Chocolate Popcorn",
+  "recipe_type": "dessert",
+  "brief_description": "This baked chocolate popcorn candy recipe combines freshly popped popcorn, peanuts, and a rich homemade glaze to create a crispy, chocolaty treat!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 250 degrees F (120 degrees C). Spray a 10x15-inch baking pan with nonstick spray. Place popcorn and peanuts into a large metal bowl; set aside."
+    },
+    {
+      "position": 2,
+      "text": "Combine sugar, butter, corn syrup, and cocoa together in a saucepan over medium-high heat; bring to a boil, stirring continuously, and cook for 2 minutes. Stir in vanilla, then pour over popcorn in the bowl. Stir until popcorn is well-coated; spread on the prepared pan."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven, stirring several times, for 30 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Remove popcorn from the oven; allow to cool to room temperature to crisp up. Break into small clumps and store in an airtight container."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2f6cd903-683c-5808-b0fc-ad1af60035c2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "186 kcal",
+    "carbohydrateContent": "19 g",
+    "cholesterolContent": "15 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "164 mg",
+    "sugarContent": "10 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d7fa220b-2e1f-5859-8be0-50a59d09740b",
+      "name": "nonstick cooking spray",
+      "normalized_name": "nonstick cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b9a73814-4eb9-525d-a894-96c5bb3fd8ca",
+      "name": "quarts popped popcorn",
+      "normalized_name": "quarts popped popcorn",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7c854956-73d6-5f32-9f08-d96f661d06d2",
+      "name": "peanuts",
+      "normalized_name": "peanuts",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8fd1875d-2904-5a0d-8ffc-3621b15bda18",
+      "name": "corn syrup",
+      "normalized_name": "corn syrup",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "604f6a7e-c9c0-59fe-953b-68ef46e3a37e",
+      "name": "cocoa powder",
+      "normalized_name": "cocoa powder",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "188e0cea-6bd8-5e4a-b299-110121db099a",
+      "name": "vanilla",
+      "normalized_name": "vanilla",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7891449c-491f-5889-b6e5-4aa5b1bbd0b6",
+      "slug": "candy",
+      "name": "Candy"
+    },
+    {
+      "id": "94444452-2f53-5f65-b282-1b7a98428914",
+      "slug": "popcorn-candy",
+      "name": "Popcorn Candy"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1ec1b220-3014-5073-b90a-86a363a6cb1f",
+      "slug": "popcorn-candy-recipes",
+      "name": "Popcorn Candy Recipes",
+      "color": null
+    },
+    {
+      "id": "15a99091-d0e3-5199-b3f7-5f4884482d1a",
+      "slug": "food-gift-recipes",
+      "name": "Food Gift Recipes",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "b966de5b-5e35-587e-a41f-d63676ef20a9",
+      "slug": "chocolate-popcorn-recipes",
+      "name": "Chocolate Popcorn Recipes",
+      "color": null
+    },
+    {
+      "id": "8f501865-12a4-588c-897e-f5a591924e7a",
+      "slug": "chocolate-candy-recipes",
+      "name": "Chocolate Candy Recipes",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "f1bb5f6f-2324-5dbc-ae61-c9a6795d698f",
+      "slug": "cocoa-powder-recipes",
+      "name": "Cocoa Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "6d7d0eb0-fe57-5977-bce4-f4c353ce90d3",
+      "slug": "on-the-go",
+      "name": "On The Go",
+      "color": null
+    },
+    {
+      "id": "55cad25b-af2c-5f1d-92f4-8939f324769c",
+      "slug": "treats",
+      "name": "Treats",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/160595/chocolate-popcorn"
+  },
+  "public": true,
+  "updated_at": 1776311165,
+  "revision": 1
+}

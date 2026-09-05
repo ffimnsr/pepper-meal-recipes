@@ -1,0 +1,237 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b783863b-1f3d-50b7-bd67-3d19fa45efd4",
+  "slug": "southern-ham-and-brown-beans",
+  "name": "Southern Ham and Brown Beans",
+  "recipe_type": "soup",
+  "brief_description": "This Southern pinto beans recipe turns a pound of dry pinto beans and a ham hock into a family-favorite meal that will be enjoyed by multiple generations.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Combine beans, ham hock, onion, garlic, and water in a large stockpot."
+    },
+    {
+      "position": 3,
+      "text": "Season with chili powder, salt, and pepper."
+    },
+    {
+      "position": 4,
+      "text": "Bring to a boil, and cook for 2 minutes. Remove from the heat, cover, and let stand for 1 hour."
+    },
+    {
+      "position": 5,
+      "text": "After 1 hour, return the pot to the stovetop and return to a boil. Reduce the heat to medium-low and simmer until flavors have blended and broth has thickened, at least 3 hours, or up to 6 hours."
+    },
+    {
+      "position": 6,
+      "text": "During the last 15 minutes of simmering, transfer ham hock to a cutting board. Let sit until cool enough to handle, 5 to 10 minutes, then pull meat from the bone."
+    },
+    {
+      "position": 7,
+      "text": "Return meat to the stockpot and discard the bone. Adjust seasonings to taste."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 200,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b783863b-1f3d-50b7-bd67-3d19fa45efd4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "273 kcal",
+    "carbohydrateContent": "38 g",
+    "cholesterolContent": "17 mg",
+    "fiberContent": "9 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "323 mg",
+    "sugarContent": "2 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "667b9643-333c-576e-bcd5-ec4105620383",
+      "name": "dry pinto beans",
+      "normalized_name": "dry pinto beans",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "cb4de6a0-afa7-5012-80bb-7b250fb2ebb7",
+      "name": "large",
+      "normalized_name": "large",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "meaty ham hock",
+      "position": 2
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "62486dc7-9e27-5c22-9339-2e4ab00fb7d2",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "838edca0-bc0e-58f4-9b63-026d0d2c115b",
+      "slug": "arkansas-recipes",
+      "name": "Arkansas Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "301bad8a-6e1f-553c-a80c-5128b923b5b0",
+      "slug": "chili-powder-recipes",
+      "name": "Chili Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/40203/southern-ham-and-brown-beans"
+  },
+  "public": true,
+  "updated_at": 1767017313,
+  "revision": 1
+}

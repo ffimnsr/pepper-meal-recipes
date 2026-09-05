@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2caf05ad-424f-56a0-8e63-4c8d7626fbed",
+  "slug": "tofu-lasagna",
+  "name": "Tofu Lasagna",
+  "recipe_type": "main",
+  "brief_description": "Tofu is combined with eggs, spaghetti sauce, mozzarella cheese and spices. The mixture is layered with lasagna noodles and topped with more cheese.",
+  "cuisine": "Italian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Bring a large pot of lightly salted water to a boil. Add lasagna and cook for 8 to 10 minutes or until al dente; drain."
+    },
+    {
+      "position": 3,
+      "text": "In a medium bowl combine tofu, eggs, salt, pepper, nutmeg, milk, spaghetti sauce, parsley and 1 cup of mozzarella cheese. Spread a layer in the bottom of a 9x13 inch baking dish."
+    },
+    {
+      "position": 4,
+      "text": "Layer lasagna noodles with the sauce mixture, ending with sauce. Sprinkle with remaining mozzarella and Parmesan cheese."
+    },
+    {
+      "position": 5,
+      "text": "Bake in preheated oven for 25 to 35 minutes."
+    }
+  ],
+  "servings": 7,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2caf05ad-424f-56a0-8e63-4c8d7626fbed/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "324 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "81 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "569 mg",
+    "sugarContent": "5 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8f3cd8ca-d3f1-5164-8c4a-3d48552b1b4d",
+      "name": "ounce) package uncooked lasagna noodles",
+      "normalized_name": "ounce package uncooked lasagna noodles",
+      "quantity": "0.5 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "482c5e5c-3bfb-575a-bf59-ab64b2aabf27",
+      "name": "ounce) package firm tofu",
+      "normalized_name": "ounce package firm tofu",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "crumbled",
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2294de1f-3730-5887-93bb-9edf85bc609d",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "7f831d7b-244e-5d9f-a616-6d1ac5093cf0",
+      "name": "spaghetti sauce",
+      "normalized_name": "spaghetti sauce",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "c7f94c24-41b4-5f73-9a71-06be56833d48",
+      "name": "dried parsley",
+      "normalized_name": "dried parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 10
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "e7217ebd-10d1-5d95-a454-3ec7987610ea",
+      "slug": "lasagna",
+      "name": "Lasagna"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2b7c3fe2-f0a3-52e6-bc54-eab7b96fba9b",
+      "slug": "lasagna-recipes",
+      "name": "Lasagna Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "646d833a-042e-5089-8a59-3d916b212664",
+      "slug": "tofu",
+      "name": "Tofu",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "a213982f-5b8e-5e56-9445-5c9940cfb475",
+      "slug": "protein",
+      "name": "Protein",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25345/tofu-lasagna"
+  },
+  "public": true,
+  "updated_at": 1779241383,
+  "revision": 1
+}

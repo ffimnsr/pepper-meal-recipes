@@ -1,0 +1,224 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f51be8ce-8fc9-544f-b68a-d72fa9a95199",
+  "slug": "ahi-shoyu-poke",
+  "name": "Ahi Shoyu Poke",
+  "recipe_type": "appetizer",
+  "brief_description": "Make Hawaiian shoyu poke at home with this easy recipe that combines fresh tuna, soy sauce, onion, ginger, and sesame oil for a quick, flavorful appetizer.",
+  "cuisine": "Hawaiian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Combine ahi cubes, soy sauce, Maui onion, green onion, chile pepper, sesame oil, sesame seeds, macadamia nuts, ginger, and sea salt in a large bowl. Gently toss to combine."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f51be8ce-8fc9-544f-b68a-d72fa9a95199/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "191 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "51 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "28 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "1026 mg",
+    "sugarContent": "2 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "35676129-5b97-549d-9994-9f62588df82a",
+      "name": "fresh ahi steaks",
+      "normalized_name": "fresh ahi steaks",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into small cubes",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "288f4288-77a7-5355-97a0-d34201019a6d",
+      "name": "chopped maui onion",
+      "normalized_name": "chopped maui onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
+      "name": "chopped green onion",
+      "normalized_name": "chopped green onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "88495ebe-5955-5e9d-ab8d-7abff1330b82",
+      "name": "chile pepper",
+      "normalized_name": "chile pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "42272eb6-4a9a-574f-97b6-bf5ce194f082",
+      "name": "toasted sesame seeds",
+      "normalized_name": "toasted sesame seeds",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a391adc4-061b-52ae-831c-c16e7d40a258",
+      "name": "finely chopped toasted macadamia nuts",
+      "normalized_name": "finely chopped toasted macadamia nuts",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1fe00ee7-26c9-54f0-a652-5b3f1fef706c",
+      "name": "grated fresh ginger",
+      "normalized_name": "grated fresh ginger",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d0ffc36d-c753-56eb-86e6-07655adacd1f",
+      "name": "sea salt to taste",
+      "normalized_name": "sea salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
+      "slug": "fish",
+      "name": "Fish"
+    },
+    {
+      "id": "8e4084f8-9941-57c1-a7a9-2d2a8f0a27ba",
+      "slug": "tuna",
+      "name": "Tuna"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f3a06a5e-eb68-58cb-91b0-8787d6f2babc",
+      "slug": "tuna",
+      "name": "Tuna",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "129449da-b9e2-520f-bbe5-f1b5328c5adf",
+      "slug": "sesame-oil-recipes",
+      "name": "Sesame Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "7d7ff37b-c522-55be-86e6-73e12aee7ff3",
+      "slug": "raw-food-diet-recipes",
+      "name": "Raw Food Diet Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/256936/ahi-shoyu-poke"
+  },
+  "public": true,
+  "updated_at": 1781538560,
+  "revision": 1
+}

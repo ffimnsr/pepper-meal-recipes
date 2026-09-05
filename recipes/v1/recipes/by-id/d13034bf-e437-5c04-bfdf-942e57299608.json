@@ -1,0 +1,217 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d13034bf-e437-5c04-bfdf-942e57299608",
+  "slug": "arroz-rojo",
+  "name": "Arroz Rojo",
+  "recipe_type": "side",
+  "brief_description": "A great recipe for Mexican style rice in tomato sauce. This is an excellent side dish for the Slow Cooker Pozole on this site.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the lard in a large heavy skillet over medium-high heat. Add the rice, and stir until rice is toasted. Add the garlic and onion; cook and stir until the onion just begins to brown. Stir in the tomatoes, tomato sauce, chicken broth, chili powder and salt. Bring to a boil, then reduce heat to low, cover, and cook for 20 to 25 minutes, or until rice is tender. Let stand for 5 minutes, covered, before serving."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d13034bf-e437-5c04-bfdf-942e57299608/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "217 kcal",
+    "carbohydrateContent": "37 g",
+    "cholesterolContent": "5 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "504 mg",
+    "sugarContent": "4 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7fbad7c0-457b-518a-babc-2ab04e0d87a4",
+      "name": "lard or peanut oil",
+      "normalized_name": "lard or peanut oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "491fbcae-89d3-51d7-a812-1ad25f3c025a",
+      "name": "long grain white rice",
+      "normalized_name": "long grain white rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "d07117a7-b2ef-5b2f-bc0a-0939302537dd",
+      "name": "roma (plum) tomatoes",
+      "normalized_name": "roma tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded and chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "f7a620bf-624f-5839-bad4-c9e85269074e",
+      "name": "ounce) can tomato sauce",
+      "normalized_name": "ounce can tomato sauce",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "800b3c0b-bff9-5682-9bcd-21cc6d3e47ec",
+      "slug": "spanish-rice",
+      "name": "Spanish Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "62fa7371-cbc2-5fe7-8752-f2c2a79fa8f9",
+      "slug": "spanish-rice-recipes",
+      "name": "Spanish Rice Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "301bad8a-6e1f-553c-a80c-5128b923b5b0",
+      "slug": "chili-powder-recipes",
+      "name": "Chili Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "4998f96b-d9a2-5b2a-9fb9-7608a3f52e16",
+      "slug": "rice-side-dish-recipes",
+      "name": "Rice Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/78213/arroz-rojo"
+  },
+  "public": true,
+  "updated_at": 1528464301,
+  "revision": 1
+}

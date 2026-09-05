@@ -1,0 +1,192 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "516ac3c7-1163-54ef-a45b-126be29b181f",
+  "slug": "onigiri-japanese-rice-balls",
+  "name": "Onigiri (Japanese Rice Balls)",
+  "recipe_type": "side",
+  "brief_description": "This onigiri recipe is fun to make for Japanese bento boxes! You can put almost anything in these rice balls; try salmon or tuna with mayonnaise.",
+  "cuisine": "Japanese",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Wash rice in a mesh strainer until water runs clear. Combine washed rice and 4 1/2 cups water in a saucepan. Bring to a boil over high heat, stirring occasionally. Reduce heat to low; cover, and simmer rice until water is absorbed, 15 to 20 minutes. Let rice rest for 15 minutes to continue to steam and become tender. Allow cooked rice to cool."
+    },
+    {
+      "position": 2,
+      "text": "Combine remaining 1 cup water with salt in a small bowl; use to dampen hands before handling rice. Divide cooked rice into 8 equal portions. Use one portion of rice for each onigiri."
+    },
+    {
+      "position": 3,
+      "text": "Divide one portion of rice in two. Create a dimple in rice and fill with a heaping teaspoon of bonito flakes. Cover with remaining portion of rice and press lightly to enclose filling inside rice ball. Gently press rice to shape into a triangle; wrap with a strip of nori and sprinkle with sesame seeds. Repeat with remaining portions of rice."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/516ac3c7-1163-54ef-a45b-126be29b181f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "744 kcal",
+    "carbohydrateContent": "159 g",
+    "fiberContent": "6 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "160 mg",
+    "sugarContent": "1 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b43a70e7-1edb-5feb-aa30-384c1a05fc4c",
+      "name": "uncooked short-grain white rice",
+      "normalized_name": "uncooked short-grain white rice",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "5.5",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c05bfc23-3004-5d28-8d17-652227c64d16",
+      "name": "bonito shavings (dry fish flakes)",
+      "normalized_name": "bonito shavings",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "15ce914e-29ad-5a58-92d8-80adda102986",
+      "name": "sheets nori (dry seaweed)",
+      "normalized_name": "sheets nori",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into 1/2-inch strips",
+      "position": 5
+    },
+    {
+      "ingredient_id": "e1f678b6-d8cf-5c32-9ae8-0d389e675eb7",
+      "name": "sesame seeds",
+      "normalized_name": "sesame seeds",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "a4e6611a-eaf0-564b-a832-fc9eb0cd1b1a",
+      "slug": "lunches",
+      "name": "Lunches",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/140422/onigiri-japanese-rice-balls"
+  },
+  "public": true,
+  "updated_at": 1761669909,
+  "revision": 1
+}

@@ -1,0 +1,209 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3fe9e140-1281-50bd-8e5c-66b908d42c39",
+  "slug": "buffalo-chicken-sushi-roll",
+  "name": "Buffalo Chicken Sushi Roll",
+  "recipe_type": "appetizer",
+  "brief_description": "This Buffalo chicken sushi recipe rolls cooked chicken coated with hot sauce, carrot, and celery in sushi rice and nori for a wing-inspired sushi roll.",
+  "cuisine": "U.S. American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine chicken and hot sauce in a bowl; toss to coat."
+    },
+    {
+      "position": 2,
+      "text": "Place 1 nori sheet onto a bamboo sushi rolling mat. Spread 1 cup rice onto nori, leaving a 1/2-inch strip along 1 edge. Place 1/4 each chicken, carrot, and celery in a line near bottom edge of rice. Roll nori sheet around rice and fillings, using the mat to help. Moisten remaining nori edge with a finger dipped in water; press to seal. Repeat with remaining nori, rice, chicken, carrot, and celery."
+    },
+    {
+      "position": 3,
+      "text": "Slice each roll into 8 pieces using a sharp, wet knife. Top each piece with a dollop of mayonnaise and a small amount of onion."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3fe9e140-1281-50bd-8e5c-66b908d42c39/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "522 kcal",
+    "carbohydrateContent": "55 g",
+    "cholesterolContent": "34 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "1082 mg",
+    "sugarContent": "3 g",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "43339ba9-14c9-59c0-aa6e-9936f2648740",
+      "name": "fully cooked breaded chicken breast tenderloins",
+      "normalized_name": "fully cooked breaded chicken breast tenderloins",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "caa37eda-f1d6-5fef-90ee-16dac8151601",
+      "name": "hot pepper sauce",
+      "normalized_name": "hot pepper sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "15ce914e-29ad-5a58-92d8-80adda102986",
+      "name": "sheets nori (dry seaweed)",
+      "normalized_name": "sheets nori",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "e7a8dba8-31f9-5b11-a3ec-531b4346005a",
+      "name": "cooked sushi rice",
+      "normalized_name": "cooked sushi rice",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and cut into 4-inch matchsticks",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b16188d9-811c-5f3a-94b6-0c9e495bae81",
+      "name": "celery stalk",
+      "normalized_name": "celery stalk",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 4-inch matchsticks",
+      "position": 6
+    },
+    {
+      "ingredient_id": "582b3b12-a8d7-5262-aa3e-946309226928",
+      "name": "spicy mayonnaise",
+      "normalized_name": "spicy mayonnaise",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d63c590f-7f7f-5fe9-9ad9-352fffbc3800",
+      "name": "french-fried onions (such as french's\u00ae)",
+      "normalized_name": "french-fried onions",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "4f18d61e-1945-57c4-b05d-6900eb4e2b54",
+      "slug": "japanese",
+      "name": "Japanese"
+    }
+  ],
+  "tags": [
+    {
+      "id": "de222264-8a59-5c45-9e81-4f2407168847",
+      "slug": "buffalo-flavored",
+      "name": "Buffalo Flavored",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239021/buffalo-chicken-sushi-roll"
+  },
+  "public": true,
+  "updated_at": 1737999238,
+  "revision": 1
+}

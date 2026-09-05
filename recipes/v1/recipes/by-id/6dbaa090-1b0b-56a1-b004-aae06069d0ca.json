@@ -1,0 +1,336 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6dbaa090-1b0b-56a1-b004-aae06069d0ca",
+  "slug": "chef-johns-stuffed-peppers",
+  "name": "Chef John\u2019s Stuffed Peppers",
+  "recipe_type": "main",
+  "brief_description": "This is the best stuffed peppers recipe that simply fills bell peppers with a mix of rice, ground beef and pork sausage for an easy yet satisfying supper.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Bring rice and water to a boil in a saucepan over high heat. Reduce heat to medium-low, cover, and simmer until the rice is tender, and the liquid has been absorbed, 20 to 25 minutes. Set the cooked rice aside."
+    },
+    {
+      "position": 3,
+      "text": "Meanwhile, preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 4,
+      "text": "To make the sauce: Cook onion and olive oil over medium heat until onion begins to soften, about 5 minutes. Transfer 1/2 of the cooked onion to a large bowl and set aside."
+    },
+    {
+      "position": 5,
+      "text": "Stir marinara sauce, beef broth, balsamic vinegar, and red pepper flakes into the skillet with cooked onion; cook and stir for 1 minute."
+    },
+    {
+      "position": 6,
+      "text": "Pour sauce mixture into a 9x13-inch baking dish and set aside."
+    },
+    {
+      "position": 7,
+      "text": "Combine ground beef, Italian sausage, diced tomatoes, Italian parsley, garlic, salt, black pepper, and cayenne pepper into the bowl with reserved onions; mix well. Stir in cooked rice and one cup of Parmigiano Reggiano. Stuff bell peppers with beef and sausage mixture."
+    },
+    {
+      "position": 8,
+      "text": "Place stuffed bell pepper halves in the baking dish over tomato sauce; optionally sprinkle with additional Parmigiano Reggiano, cover baking dish with aluminum foil, and bake in the preheated oven for 45 minutes."
+    },
+    {
+      "position": 9,
+      "text": "Remove aluminum foil and continue to bake until meat is no longer pink, bell peppers are tender and cheese is browned on top, an additional 20 to 25 minutes. Serve hot and enjoy!"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 80,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6dbaa090-1b0b-56a1-b004-aae06069d0ca/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/QnTuCzLW-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "377 kcal",
+    "carbohydrateContent": "35 g",
+    "cholesterolContent": "52 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "1274 mg",
+    "sugarContent": "9 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d727dfd3-7483-5449-85a1-eaebbdc1a52b",
+      "name": "uncooked long grain white rice",
+      "normalized_name": "uncooked long grain white rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9dc0e258-4bf5-57cc-a9bb-5b5ca4a8321e",
+      "name": "marinara sauce",
+      "normalized_name": "marinara sauce",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "362e8788-4b07-5d90-b5e6-28134dd6bd01",
+      "name": "balsamic vinegar",
+      "normalized_name": "balsamic vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "07650efc-8869-5114-9096-0912b3dbf48e",
+      "name": "crushed red pepper flakes",
+      "normalized_name": "crushed red pepper flakes",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "b28ffd3d-0716-5b7b-afa0-6b0c1a7cf06f",
+      "name": "hot italian pork sausage",
+      "normalized_name": "hot italian pork sausage",
+      "quantity": "0.25",
+      "unit": "pound",
+      "preparation": "casing removed",
+      "position": 10
+    },
+    {
+      "ingredient_id": "9df4d90c-3c3d-5af4-a2c3-2dbac876bf33",
+      "name": "ounce) can diced tomatoes",
+      "normalized_name": "ounce can diced tomatoes",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "a1aadb65-a7a6-5bbc-aee5-f1b5800d0cb2",
+      "name": "chopped fresh italian parsley",
+      "normalized_name": "chopped fresh italian parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 13
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "03a89e37-58b7-506c-b5ea-448d038b67e6",
+      "name": "ground cayenne pepper",
+      "normalized_name": "ground cayenne pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "0b73b5d8-b7d1-519f-a8a9-1166d49f26c0",
+      "name": "finely grated parmigiano-reggiano cheese",
+      "normalized_name": "finely grated parmigiano-reggiano cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "plus more for topping",
+      "position": 17
+    },
+    {
+      "ingredient_id": "c50c9540-8c9f-5067-b799-f4004d3bb818",
+      "name": "large green bell peppers",
+      "normalized_name": "large green bell peppers",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "halved lengthwise and seeded",
+      "position": 18
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "6e5f4f60-ac53-5db3-814f-6633d1788d5d",
+      "slug": "stuffed",
+      "name": "Stuffed"
+    },
+    {
+      "id": "834260f7-b772-5b86-8a6d-95255bccd02a",
+      "slug": "stuffed-bell-pepper",
+      "name": "Stuffed Bell Pepper"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "343c63e2-61cf-5d46-8bdf-88004bca1473",
+      "slug": "stuffed-bell-pepper-recipes",
+      "name": "Stuffed Bell Pepper Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222002/chef-johns-stuffed-peppers"
+  },
+  "public": true,
+  "updated_at": 1783355062,
+  "revision": 1
+}

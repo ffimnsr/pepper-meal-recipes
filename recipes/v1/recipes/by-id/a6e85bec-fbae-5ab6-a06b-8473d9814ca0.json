@@ -1,0 +1,253 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a6e85bec-fbae-5ab6-a06b-8473d9814ca0",
+  "slug": "philly-cheese-steak-soup",
+  "name": "Philly Cheese Steak Soup",
+  "recipe_type": "soup",
+  "brief_description": "This Philly cheese steak soup combines everything you love about the sandwich in a creamy, hearty soup with roast beef, provolone cheese, peppers, and onion.",
+  "cuisine": "U.S. American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a large, heavy-bottomed pot or Dutch oven over medium heat. Add onion, bell pepper, and mushrooms; cook and stir until tender, about 5 minutes. Add flour; cook and stir until flour golden, about 5 minutes more."
+    },
+    {
+      "position": 3,
+      "text": "Gradually whisk in milk; bring to a simmer. Cook until thickened, stirring often, about 5 minutes. Reduce heat to medium-low. Add beef consomm\u00e9; season soup with salt and black pepper."
+    },
+    {
+      "position": 4,
+      "text": "Slowly stir in provolone cheese until melted, 3 to 5 minutes. Off heat, stir in roast beef."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a6e85bec-fbae-5ab6-a06b-8473d9814ca0/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "448 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "100 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "1291 mg",
+    "sugarContent": "10 g",
+    "fatContent": "30 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4fd5be30-292b-5ddd-84eb-acfe87eb005d",
+      "name": "white onion",
+      "normalized_name": "white onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ae66d8de-19a8-56e3-a272-57b532f64c29",
+      "name": "ounce) package sliced fresh mushrooms",
+      "normalized_name": "ounce package sliced fresh mushrooms",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "6",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cc2ae6e0-7216-56bc-a2ac-3d428f085eb4",
+      "name": "ounce) can beef consomme",
+      "normalized_name": "ounce can beef consomme",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "6fc087b6-6e49-5a8d-819a-e740a4ac15f1",
+      "name": "ounce) package provolone cheese",
+      "normalized_name": "ounce package provolone cheese",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "7d12d35a-b3df-5bf0-af28-62ca78d62862",
+      "name": "sliced roast beef",
+      "normalized_name": "sliced roast beef",
+      "quantity": "0.75",
+      "unit": "pound",
+      "preparation": "chopped",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "7dacfeb9-10e7-53e7-a73a-4e71f3edbee7",
+      "slug": "beef-soup",
+      "name": "Beef Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "93d6bb92-2db6-5afd-9faf-567408a6eea6",
+      "slug": "beef-soup-recipes",
+      "name": "Beef Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "c1d36a4f-e621-5c50-932e-8a7e7f254e4c",
+      "slug": "provolone",
+      "name": "Provolone",
+      "color": null
+    },
+    {
+      "id": "7b092300-32ca-5218-9080-fb494477274e",
+      "slug": "pennsylvania-recipes",
+      "name": "Pennsylvania Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "58f836b1-d1a3-5e0e-b2ff-a9a45fe2c4c4",
+      "slug": "u-s-recipes",
+      "name": "U.S. Recipes",
+      "color": null
+    },
+    {
+      "id": "e1bc8638-843f-5ab3-bcec-0edffd0ddef6",
+      "slug": "u-s-recipes-by-state",
+      "name": "U.S. Recipes by State",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234082/philly-cheese-steak-soup"
+  },
+  "public": true,
+  "updated_at": 1766421487,
+  "revision": 1
+}

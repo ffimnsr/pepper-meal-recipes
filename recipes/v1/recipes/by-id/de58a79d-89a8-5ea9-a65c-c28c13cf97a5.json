@@ -1,0 +1,234 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "de58a79d-89a8-5ea9-a65c-c28c13cf97a5",
+  "slug": "garden-tomato-salsa",
+  "name": "Garden Tomato Salsa",
+  "recipe_type": "appetizer",
+  "brief_description": "This garden tomato salsa recipe is made with fresh tomatoes, onion, bell pepper, cilantro, pickled jalape\u00f1os, fresh lime, red wine vinegar, and oil.",
+  "cuisine": "World American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place onion, bell pepper, cilantro, and jalape\u00f1os in the bowl of a food processor; pulse until finely chopped. Add tomatoes; pulse several times until tomatoes are coarsely chopped. Transfer to a bowl with a tight-fitting lid."
+    },
+    {
+      "position": 2,
+      "text": "Whisk olive oil, red wine vinegar, lime juice, and salt together in a small bowl until vinaigrette well combined."
+    },
+    {
+      "position": 3,
+      "text": "Pour vinaigrette over tomato mixture; stir well. Cover; refrigerate before serving for at least 1 hour."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/de58a79d-89a8-5ea9-a65c-c28c13cf97a5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "30 kcal",
+    "carbohydrateContent": "5 g",
+    "fiberContent": "1 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "68 mg",
+    "sugarContent": "3 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3962bc64-6c09-5e18-a253-b9e163ca8320",
+      "name": "sweet onion",
+      "normalized_name": "sweet onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "coarsely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "06e30bc6-9c07-544b-8016-edd6eba91c34",
+      "name": "fresh cilantro",
+      "normalized_name": "fresh cilantro",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b1bfd5aa-fd18-5614-900e-29b72ea2b9a1",
+      "name": "slices pickled jalapeno peppers",
+      "normalized_name": "slices pickled jalapeno peppers",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "or to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "9a091b5f-ce60-5d2d-8779-2e14bc064368",
+      "name": "fresh tomatoes",
+      "normalized_name": "fresh tomatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "quartered",
+      "position": 5
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3984a17a-560e-5498-8e4b-ecdeaafe5951",
+      "name": "red wine vinegar",
+      "normalized_name": "red wine vinegar",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "1faa93ef-d254-52e4-b2f2-abb2c786c8dd",
+      "slug": "salsa",
+      "name": "Salsa"
+    },
+    {
+      "id": "79e9d0f4-4f1f-50fb-b85f-b143609c7d81",
+      "slug": "tomato-salsa",
+      "name": "Tomato Salsa"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e44ff9e9-db7e-5ed9-8a7f-a05d8d13afa3",
+      "slug": "tomato-salsa-recipes",
+      "name": "Tomato Salsa Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "e6313b9f-2d74-5934-88cb-b74b7ba3c47c",
+      "slug": "salsa-recipes",
+      "name": "Salsa Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/89033/garden-tomato-salsa"
+  },
+  "public": true,
+  "updated_at": 1786655158,
+  "revision": 1
+}

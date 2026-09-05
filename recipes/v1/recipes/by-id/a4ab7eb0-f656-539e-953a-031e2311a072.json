@@ -1,0 +1,255 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a4ab7eb0-f656-539e-953a-031e2311a072",
+  "slug": "mitzies-beef-stroganoff",
+  "name": "Mitzie's Beef Stroganoff",
+  "recipe_type": "main",
+  "brief_description": "This is a stroganoff recipe using ground beef. Stirring cream cheese and sour cream through the dish just before serving will give a delightfully creamy texture to the final product.",
+  "cuisine": "Russian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a large skillet over medium-high heat. Crumble ground beef into the hot skillet; season with salt and pepper. Cook and stir beef until completely browned, 7 to 10 minutes. Drain and discard any excess grease. Transfer beef to a bowl."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in the skillet over medium heat. Cook and stir onion and garlic in hot butter until softened, 3 to 5 minutes. Stir flour into onion mixture; cook and stir until flour is browned, about 1 minute. Return beef to the skillet; stir. Pour beef broth over the mixture in the skillet; bring to a boil. Stir Worcestershire sauce and mustard through the mixture."
+    },
+    {
+      "position": 3,
+      "text": "Place a cover on the skillet, reduce heat to medium-low, and cook mixture at a simmer until the consistency is gravy-like, about 1 hour."
+    },
+    {
+      "position": 4,
+      "text": "Stir sour cream and cream cheese through the beef mixture to serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 75,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a4ab7eb0-f656-539e-953a-031e2311a072/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "329 kcal",
+    "carbohydrateContent": "14 g",
+    "cholesterolContent": "88 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "542 mg",
+    "sugarContent": "4 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "0257ebea-ef7c-5732-8608-1f746830c65b",
+      "name": "prepared mustard",
+      "normalized_name": "prepared mustard",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "56400de5-1c0b-57ed-89cf-dff50ec7ca6a",
+      "name": "light sour cream",
+      "normalized_name": "light sour cream",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "cbaf0824-6817-50ab-9a96-4f45880f0337",
+      "name": "light cream cheese",
+      "normalized_name": "light cream cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "softened",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "c1a57199-329b-531c-9147-19f2f31199bb",
+      "slug": "eastern-european",
+      "name": "Eastern European"
+    },
+    {
+      "id": "aa442a96-96d8-5fcd-bb4f-5d9c040f1eef",
+      "slug": "russian",
+      "name": "Russian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "ac8de754-d8ea-5320-af85-732a6550c67d",
+      "slug": "ground-beef",
+      "name": "Ground Beef",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229090/mitzies-beef-stroganoff"
+  },
+  "public": true,
+  "updated_at": 1629321547,
+  "revision": 1
+}

@@ -1,0 +1,234 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "dbf6010e-4b5d-5426-99fa-0f93a1066e3e",
+  "slug": "skillet-meatloaf",
+  "name": "Skillet Meatloaf",
+  "recipe_type": "main",
+  "brief_description": "A simple meatloaf recipe that is cooked on the stovetop in a marvelous tomato sauce. Mozzarella cheese is melted on top as a finishing touch.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large bowl, mix together 1/4 cup of the tomato soup, ground beef, bread crumbs, egg, onion, salt and pepper using your hands. Shape firmly into two loaves."
+    },
+    {
+      "position": 2,
+      "text": "Heat a large deep skillet over medium-high heat. Brown the meatloaves in the hot skillet, then reduce heat to medium and cover with a lid. Simmer for about 25 minutes, or until meat is cooked through."
+    },
+    {
+      "position": 3,
+      "text": "Spoon the fat from the skillet, and stir in the remaining soup, water, and mustard. Top with mozzarella cheese, and let simmer uncovered for 10 minutes, stirring sauce occasionally."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/dbf6010e-4b5d-5426-99fa-0f93a1066e3e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "311 kcal",
+    "carbohydrateContent": "14 g",
+    "cholesterolContent": "106 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "871 mg",
+    "sugarContent": "5 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "cf184e42-c27d-577b-8c39-2d19adf6a9f4",
+      "name": "ounce) can condensed tomato soup",
+      "normalized_name": "ounce can condensed tomato soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fcb75e45-d120-54be-b6d5-8f74f4acc3b7",
+      "name": "dry bread crumbs",
+      "normalized_name": "dry bread crumbs",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "lightly beaten",
+      "position": 4
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "966ed388-bbc7-5931-a4a8-5e7f567d7cc1",
+      "slug": "meatloaf",
+      "name": "Meatloaf"
+    },
+    {
+      "id": "957a454f-4703-5224-9660-dea0c5404f2a",
+      "slug": "beef-meatloaf",
+      "name": "Beef Meatloaf"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9b843a05-3d30-5959-b53d-71258c6272ab",
+      "slug": "meatloaf-recipes",
+      "name": "Meatloaf Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72845/skillet-meatloaf"
+  },
+  "public": true,
+  "updated_at": 1785854862,
+  "revision": 1
+}

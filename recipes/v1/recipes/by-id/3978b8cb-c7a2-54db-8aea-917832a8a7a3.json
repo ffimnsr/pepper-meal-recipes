@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3978b8cb-c7a2-54db-8aea-917832a8a7a3",
+  "slug": "super-easy-chicken-noodle-soup",
+  "name": "Super Easy Chicken Noodle Soup",
+  "recipe_type": "soup",
+  "brief_description": "This chicken noodle soup with bouillon cubes, tender pieces of chicken, and thin egg noodles is incredibly quick and easy to prepare for a comforting meal.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Measure water into a large pot. Add chicken and bouillon; bring to a boil. Cook until chicken is no longer pink in the center and the juices run clear. An instant-read thermometer inserted into the center of chicken should read at least 165 degrees F (74 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Remove chicken from broth. Chop into small pieces, then return meat to the pot."
+    },
+    {
+      "position": 3,
+      "text": "Add egg noodles and cook until tender."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3978b8cb-c7a2-54db-8aea-917832a8a7a3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "294 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "93 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "1230 mg",
+    "sugarContent": "0 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0b27047e-da7a-55c7-ba71-159c2ff26005",
+      "name": "boneless",
+      "normalized_name": "boneless",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "skinless chicken meat",
+      "position": 2
+    },
+    {
+      "ingredient_id": "3ce4bb58-0809-5770-b087-cde27facb41c",
+      "name": "cubes chicken bouillon",
+      "normalized_name": "cubes chicken bouillon",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "737c1345-c3d8-56bb-80a3-b6b9e5e43020",
+      "name": "thin egg noodles",
+      "normalized_name": "thin egg noodles",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "95237eae-d985-5390-a1a3-cc4324d8aa85",
+      "slug": "noodle-soup",
+      "name": "Noodle Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e82bd1ea-d139-5679-8085-c904c250a18f",
+      "slug": "noodle-soup-recipes",
+      "name": "Noodle Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "3d692f67-54c3-5135-8edb-98c25ad1ca4c",
+      "slug": "noodle-recipes",
+      "name": "Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "4c68fe1e-e85b-5155-b3cf-8e97914904d8",
+      "slug": "egg-noodle-recipes",
+      "name": "Egg Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "650d6000-fed4-5f1c-b2cf-056aca19db01",
+      "slug": "chicken-noodle-soup-recipes",
+      "name": "Chicken Noodle Soup Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12905/super-easy-chicken-noodle-soup"
+  },
+  "public": true,
+  "updated_at": 1775383222,
+  "revision": 1
+}

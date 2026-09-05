@@ -1,0 +1,195 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ef88e521-1e14-58e3-bf7d-12b349772cc2",
+  "slug": "french-toast-sticks",
+  "name": "French Toast Sticks",
+  "recipe_type": "breakfast",
+  "brief_description": "Perfect for an on-the-go breakfast, these kid-friendly French toast sticks are as easy to make as they are delicious!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Mix eggs, powdered sugar, milk, maple syrup, brown sugar, and cinnamon together in a bowl with a fork until well blended."
+    },
+    {
+      "position": 3,
+      "text": "Dip each bread stick into the egg mixture."
+    },
+    {
+      "position": 4,
+      "text": "Coat a skillet with nonstick spray and heat over medium heat. Place sticks in the hot skillet and cook until brown, 2 to 3 minutes; turn over and cook until browned on other side, 2 to 3 minutes more."
+    },
+    {
+      "position": 5,
+      "text": "Repeat with the second batch."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ef88e521-1e14-58e3-bf7d-12b349772cc2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "167 kcal",
+    "carbohydrateContent": "30 g",
+    "cholesterolContent": "63 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "182 mg",
+    "sugarContent": "16 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "87f043ee-da3e-50fb-8ff0-8cf7b313df8a",
+      "name": "powdered sugar",
+      "normalized_name": "powdered sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f3c9a5c8-4880-5c44-af54-63d919c247d4",
+      "name": "maple syrup",
+      "normalized_name": "maple syrup",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0121a323-7fec-57c6-a721-27c8b9618c6f",
+      "name": "slices white bread",
+      "normalized_name": "slices white bread",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "cut into thirds",
+      "position": 7
+    },
+    {
+      "ingredient_id": "d7fa220b-2e1f-5859-8be0-50a59d09740b",
+      "name": "nonstick cooking spray",
+      "normalized_name": "nonstick cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "fd7cda57-4c3d-5757-b7a2-4c387d497eaf",
+      "slug": "french-toast",
+      "name": "French Toast"
+    }
+  ],
+  "tags": [
+    {
+      "id": "04d29078-74ed-556c-98e1-1020fd0a8a8e",
+      "slug": "french-toast-recipes",
+      "name": "French Toast Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "c28c4e15-a448-5959-868f-c8f71bfff24d",
+      "slug": "breakfast-on-the-go",
+      "name": "Breakfast On-The-Go",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/280405/french-toast-sticks"
+  },
+  "public": true,
+  "updated_at": 1781615865,
+  "revision": 1
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4ac97e02-7a18-5517-8d71-c7030db994f1",
+  "slug": "bloody-mary-ceviche",
+  "name": "Bloody Mary Ceviche",
+  "recipe_type": "appetizer",
+  "brief_description": "It's easy to make a zesty shrimp ceviche appetizer when you used cooked shrimp and Bloody Mary drink mix.",
+  "cuisine": "Mexican Inspired American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Lightly mix the shrimp, tomatoes, red onion, cucumber, and cilantro in a bowl, and pour in the Bloody Mary mix. Squeeze the limes over the mixture, add a dash of hot pepper sauce, and sprinkle with salt and pepper. Toss again, cover the bowl, and refrigerate for 3 to 4 hours, stirring occasionally."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4ac97e02-7a18-5517-8d71-c7030db994f1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "74 kcal",
+    "carbohydrateContent": "7 g",
+    "cholesterolContent": "86 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "219 mg",
+    "sugarContent": "3 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "69646184-d5a7-5b5c-a092-cf1ea7d77a0f",
+      "name": "cooked",
+      "normalized_name": "cooked",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "peeled, and deveined shrimp",
+      "position": 1
+    },
+    {
+      "ingredient_id": "d07117a7-b2ef-5b2f-bc0a-0939302537dd",
+      "name": "roma (plum) tomatoes",
+      "normalized_name": "roma tomatoes",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ec1c2b5e-cca0-5d55-a629-5ae15ac48fb5",
+      "name": "cucumber",
+      "normalized_name": "cucumber",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "38c3160f-f977-59e1-9df9-67fd83812ff0",
+      "name": "bunch cilantro",
+      "normalized_name": "bunch cilantro",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "4fa25283-c23f-5823-bf18-6424f30dda35",
+      "name": "bottled bloody mary mix",
+      "normalized_name": "bottled bloody mary mix",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6c432256-96fd-513b-bf60-307b282d3398",
+      "name": "limes",
+      "normalized_name": "limes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0827b76b-6e76-5b30-9ea8-f0952b05fce8",
+      "name": "hot pepper sauce to taste",
+      "normalized_name": "hot pepper sauce to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "133a8d1c-cf97-5603-b0e7-a44c1c7d655f",
+      "name": "salt and black pepper to taste",
+      "normalized_name": "salt and black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "a454910f-9d7a-5839-93b3-26fcfcacabcd",
+      "slug": "meat-and-seafood",
+      "name": "Meat and Seafood"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ab023647-c9d8-51b0-85ee-bd69271e4f94",
+      "slug": "ceviche-recipes",
+      "name": "Ceviche Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/171282/bloody-mary-ceviche"
+  },
+  "public": true,
+  "updated_at": 1740159537,
+  "revision": 1
+}

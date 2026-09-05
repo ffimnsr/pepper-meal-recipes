@@ -1,0 +1,218 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0e1e059e-8c90-5ea5-843a-05a42ed33983",
+  "slug": "yam-soup",
+  "name": "Yam Soup",
+  "recipe_type": "soup",
+  "brief_description": "Make this yam soup with rice for a simple meal made from pantry staples that is comforting and packs a lot of flavor from curry, onion, and garlic.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Pour chicken broth into a saucepan with curry powder, salt, pepper, onion powder, and garlic powder. Bring to a boil over medium heat."
+    },
+    {
+      "position": 2,
+      "text": "Add yams and onion and simmer for about 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add rice and cook until rice is tender, another 20 minutes."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0e1e059e-8c90-5ea5-843a-05a42ed33983/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "286 kcal",
+    "carbohydrateContent": "66 g",
+    "fiberContent": "9 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "252 mg",
+    "sugarContent": "3 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6cdb8b4d-3d16-59b1-9f11-7435f3defa89",
+      "name": "yams",
+      "normalized_name": "yams",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ea55ebcd-d2da-5f89-b8e9-ed703e3ce784",
+      "name": "curry powder",
+      "normalized_name": "curry powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2294de1f-3730-5887-93bb-9edf85bc609d",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3ec50257-6d22-52ff-9da1-0cdf51477ea5",
+      "name": "uncooked wild rice",
+      "normalized_name": "uncooked wild rice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "1d1a6231-2672-5763-9636-40bbd71eefab",
+      "slug": "low-glycemic-impact",
+      "name": "Low Glycemic Impact",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "11232652-01df-591c-8b67-348ec6bdfc3d",
+      "slug": "yams",
+      "name": "Yams",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/58485/yam-soup"
+  },
+  "public": true,
+  "updated_at": 1680748237,
+  "revision": 1
+}

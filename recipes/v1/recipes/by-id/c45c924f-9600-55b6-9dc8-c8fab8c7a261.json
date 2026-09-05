@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c45c924f-9600-55b6-9dc8-c8fab8c7a261",
+  "slug": "tuna-egg-sandwich",
+  "name": "Tuna Egg Sandwich",
+  "recipe_type": "salad",
+  "brief_description": "This tuna salad with egg recipe is perfect for a satisfying sandwich. It's simple to make with canned tuna, hard-cooked eggs, mayo, and celery.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine eggs, tuna, celery, and mayonnaise in a medium bowl. Season with salt and pepper to taste."
+    },
+    {
+      "position": 2,
+      "text": "Divide tuna mixture evenly onto two slices of bread; top with remaining slices of bread."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c45c924f-9600-55b6-9dc8-c8fab8c7a261/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "420 kcal",
+    "carbohydrateContent": "31 g",
+    "cholesterolContent": "312 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "35 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "777 mg",
+    "sugarContent": "5 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4bb8add9-9f4c-5f40-8f8c-9a0283d97c0a",
+      "name": "hard-cooked eggs",
+      "normalized_name": "hard-cooked eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "peeled and chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "c29853eb-92b8-5cd9-8800-3efe37eeebc4",
+      "name": "ounce) can tuna",
+      "normalized_name": "ounce can tuna",
+      "quantity": "1 (5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 2
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4da6f42f-60c2-509e-b99b-066bf6344932",
+      "name": "slices whole wheat bread",
+      "normalized_name": "slices whole wheat bread",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "ecc73156-83e8-5be0-a2c2-a244a68a193b",
+      "slug": "seafood-salad",
+      "name": "Seafood Salad"
+    },
+    {
+      "id": "f8c777bf-7bca-523c-ae2a-8a386d6e47fe",
+      "slug": "tuna-salad",
+      "name": "Tuna Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "f3a06a5e-eb68-58cb-91b0-8787d6f2babc",
+      "slug": "tuna",
+      "name": "Tuna",
+      "color": null
+    },
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "5320ba41-4f75-53b3-808a-7c2080fb3a7f",
+      "slug": "cook-once",
+      "name": "Cook Once",
+      "color": null
+    },
+    {
+      "id": "705381f7-76d5-5557-9b84-f5f63ae5c1ef",
+      "slug": "eat-twice-recipes",
+      "name": "Eat Twice Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "47dbbc95-2797-57bb-8d05-99c3cb21d344",
+      "slug": "fish",
+      "name": "Fish",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/83569/tuna-egg-sandwich"
+  },
+  "public": true,
+  "updated_at": 1765840570,
+  "revision": 1
+}

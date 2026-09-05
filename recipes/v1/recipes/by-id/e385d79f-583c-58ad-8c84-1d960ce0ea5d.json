@@ -1,0 +1,209 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e385d79f-583c-58ad-8c84-1d960ce0ea5d",
+  "slug": "barbecued-beef-sandwiches",
+  "name": "Barbecued Beef Sandwiches",
+  "recipe_type": "main",
+  "brief_description": "This recipe couldn't be much easier. Simply combine all ingredients and cook for 3 hours, then shred the meat. Serve it on buns of your choice...and then sit back and take in the compliments!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place roast in a Dutch oven, and sprinkle with chopped onions. Cover with tomatoes, water, sugar and Worcestershire sauce. Season with salt and pepper."
+    },
+    {
+      "position": 2,
+      "text": "Cook over medium heat with lid slightly ajar for 3 hours."
+    },
+    {
+      "position": 3,
+      "text": "Remove meat, and shred with 2 forks. Discard bones, fat and gristle. place shredded meat back into sauce, and cook until liquid is reduced, 15 to 20 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 180,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e385d79f-583c-58ad-8c84-1d960ce0ea5d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "280 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "71 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "304 mg",
+    "sugarContent": "9 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "89009c1c-76a6-5143-8d75-494309a66aa0",
+      "name": "beef chuck",
+      "normalized_name": "beef chuck",
+      "quantity": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "592cf4b9-7b3f-57c1-9376-9d1f0d70f011",
+      "name": "ounce) can diced tomatoes with juice",
+      "normalized_name": "ounce can diced tomatoes with juice",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a482b994-5b79-5ece-b9e0-26e002146a29",
+      "name": "distilled white vinegar",
+      "normalized_name": "distilled white vinegar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "813464e9-6f96-51b4-b670-07ca68f5458f",
+      "name": "fluid ounce) bottle worcestershire sauce",
+      "normalized_name": "fluid ounce bottle worcestershire sauce",
+      "quantity": "0.33333334326744 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "3580a496-e069-57a4-ae59-0b84d1f420ae",
+      "slug": "sloppy-joe",
+      "name": "Sloppy Joe"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "17f4c204-15f9-596a-8568-681c02f3617f",
+      "slug": "300-calorie-main-dish-recipes",
+      "name": "300 Calorie Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/34696/barbecued-beef-sandwiches"
+  },
+  "public": true,
+  "updated_at": 1740678200,
+  "revision": 1
+}

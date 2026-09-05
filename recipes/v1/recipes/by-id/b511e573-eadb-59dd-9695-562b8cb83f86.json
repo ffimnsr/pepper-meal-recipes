@@ -1,0 +1,214 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b511e573-eadb-59dd-9695-562b8cb83f86",
+  "slug": "spinach-and-ham-quiche",
+  "name": "Spinach and Ham Quiche",
+  "recipe_type": "breakfast",
+  "brief_description": "This easy spinach-crusted quiche is made with baking mix, ham, and two kinds of cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 400 degrees F (200 degrees C). Grease a 10-inch pie plate."
+    },
+    {
+      "position": 2,
+      "text": "Press spinach in an even, compact layer into the bottom of the prepared pie plate."
+    },
+    {
+      "position": 3,
+      "text": "Beat milk, ham, eggs, baking mix, onion, Cheddar cheese, and Monterey Jack cheese together in a bowl; pour over the spinach layer."
+    },
+    {
+      "position": 4,
+      "text": "Bake in preheated oven until quiche is set in the middle, 35 to 40 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b511e573-eadb-59dd-9695-562b8cb83f86/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "275 kcal",
+    "carbohydrateContent": "16 g",
+    "cholesterolContent": "129 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "682 mg",
+    "sugarContent": "4 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "db6e680e-7193-51eb-8f44-c625efa50eb0",
+      "name": "ounce) package frozen chopped spinach",
+      "normalized_name": "ounce package frozen chopped spinach",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": "thawed and drained",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7b2d4806-d351-56f8-90cc-0779f03d9294",
+      "name": "diced cooked ham",
+      "normalized_name": "diced cooked ham",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 4
+    },
+    {
+      "ingredient_id": "f7cf90e4-8e48-5a6a-b5d1-29ce8384cb2c",
+      "name": "baking mix (such as bisquick \u00ae)",
+      "normalized_name": "baking mix",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bbb001aa-57e2-5400-b607-791c84fccb9f",
+      "name": "shredded sharp cheddar cheese",
+      "normalized_name": "shredded sharp cheddar cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "46e61c24-33a7-5f57-aabf-570573269078",
+      "name": "shredded monterey jack cheese",
+      "normalized_name": "shredded monterey jack cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "a7ca9625-d163-578e-8535-bfba35a3532b",
+      "slug": "quiche",
+      "name": "Quiche"
+    }
+  ],
+  "tags": [
+    {
+      "id": "db91492e-e32c-5710-93d7-22a553631e4d",
+      "slug": "quiche",
+      "name": "Quiche",
+      "color": null
+    },
+    {
+      "id": "8d8fef2a-121c-5863-9b4b-5480445e924f",
+      "slug": "ham",
+      "name": "Ham",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "9b933472-3200-5136-b2b3-dfdb64d2d34b",
+      "slug": "spinach-quiche-recipes",
+      "name": "Spinach Quiche Recipes",
+      "color": null
+    },
+    {
+      "id": "17ce2f83-b57d-5618-8dbd-ffdbc076ff37",
+      "slug": "vegetarian-quiche-recipes",
+      "name": "Vegetarian Quiche Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238967/spinach-and-ham-quiche"
+  },
+  "public": true,
+  "updated_at": 1786149069,
+  "revision": 1
+}

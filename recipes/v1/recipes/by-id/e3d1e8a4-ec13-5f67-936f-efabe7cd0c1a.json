@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e3d1e8a4-ec13-5f67-936f-efabe7cd0c1a",
+  "slug": "lelas-protein-mango-smoothie",
+  "name": "Lela's Protein Mango Smoothie",
+  "recipe_type": "breakfast",
+  "brief_description": "Whip up this high-protein vanilla mango smoothie when you need a quick-and-easy refreshing treat.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Blend mango, yogurt, almond milk, ice, protein powder, and honey together in a blender until smooth."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e3d1e8a4-ec13-5f67-936f-efabe7cd0c1a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "401 kcal",
+    "carbohydrateContent": "49 g",
+    "cholesterolContent": "19 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "45 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "379 mg",
+    "sugarContent": "43 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8e09628c-5b2a-59aa-819e-8eb6ad5233cf",
+      "name": "mango",
+      "normalized_name": "mango",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped, or more to taste",
+      "position": 1
+    },
+    {
+      "ingredient_id": "dfd59477-c5d4-57b4-acef-994d1be86ec2",
+      "name": "low-fat vanilla yogurt",
+      "normalized_name": "low-fat vanilla yogurt",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a463ed5f-49ab-5fc6-ba7a-b86c6d796a5d",
+      "name": "almond milk",
+      "normalized_name": "almond milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f1102ddd-a1a6-5f8a-934f-666143834e15",
+      "name": "ice",
+      "normalized_name": "ice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "047a1629-1cb4-57d0-9a35-f334beead097",
+      "name": "scoop vanilla whey protein powder",
+      "normalized_name": "scoop vanilla whey protein powder",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f6c108ab-cec9-5b9f-9309-3faedf5983b9",
+      "slug": "mango",
+      "name": "Mango",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "53c996bd-5d2f-5547-a7d8-0ab52d34378e",
+      "slug": "mangos",
+      "name": "Mangos",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238647/lelas-protein-mango-smoothie"
+  },
+  "public": true,
+  "updated_at": 1776459309,
+  "revision": 1
+}

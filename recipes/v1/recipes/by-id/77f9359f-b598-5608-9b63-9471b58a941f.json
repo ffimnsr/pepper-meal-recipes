@@ -1,0 +1,179 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "77f9359f-b598-5608-9b63-9471b58a941f",
+  "slug": "fruit-punch-salad",
+  "name": "Fruit Punch Salad",
+  "recipe_type": "salad",
+  "brief_description": "This fruit punch salad recipe tastes just like sweet punch drinks, but it's made with fresh fruit and fruit juice and will please the whole family.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix together grapes, strawberries, peach, blueberries, and apple in a large bowl until well combined. Pour orange juice over fruit salad and stir."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/77f9359f-b598-5608-9b63-9471b58a941f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "69 kcal",
+    "carbohydrateContent": "17 g",
+    "fiberContent": "2 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "3 mg",
+    "sugarContent": "14 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ffc95c8c-a3af-527b-8a16-f657e940fdb4",
+      "name": "green grapes",
+      "normalized_name": "green grapes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "some halved and some whole",
+      "position": 1
+    },
+    {
+      "ingredient_id": "dc82dab6-a16a-5d4d-94d8-67a213f55057",
+      "name": "fresh strawberries",
+      "normalized_name": "fresh strawberries",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "404aa7ee-2197-52e0-b44a-61f46ebe113d",
+      "name": "fresh peach",
+      "normalized_name": "fresh peach",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "1b50230f-4efa-5379-a02c-16db54f05786",
+      "name": "fresh blueberries",
+      "normalized_name": "fresh blueberries",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7bcb7687-e1b3-5808-bc3c-fdea7bf4015d",
+      "name": "granny smith apple",
+      "normalized_name": "granny smith apple",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ca8bad9-6c91-51ce-8c7b-0252893c7565",
+      "name": "orange",
+      "normalized_name": "orange",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "38b2cb0a-079a-56eb-93bf-29da23d3ee9c",
+      "slug": "kid-friendly",
+      "name": "Kid-Friendly",
+      "color": null
+    },
+    {
+      "id": "efdf4003-25b0-5a9c-8f16-7e9c7e4a2234",
+      "slug": "blueberries",
+      "name": "Blueberries",
+      "color": null
+    },
+    {
+      "id": "c8ca8695-6f02-5df2-aa10-c45848cb52b7",
+      "slug": "fruit-salad-recipes",
+      "name": "Fruit Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "08cc9044-5b95-5fd2-abea-7ffaa8f9aafc",
+      "slug": "oranges",
+      "name": "Oranges",
+      "color": null
+    },
+    {
+      "id": "ec6d869d-b705-550d-b6f7-57702cd71644",
+      "slug": "blueberry-salad-recipes",
+      "name": "Blueberry Salad Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242309/fruit-punch-salad"
+  },
+  "public": true,
+  "updated_at": 1712176841,
+  "revision": 1
+}

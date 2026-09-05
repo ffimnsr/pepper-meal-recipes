@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ffb996ca-ca48-5a36-af96-53bd02a777cb",
+  "slug": "baked-potato-latkes",
+  "name": "Baked Potato Latkes",
+  "recipe_type": "dessert",
+  "brief_description": "Mix baked potatoes or leftover mashed potatoes with onion, garlic, salt, pepper, and eggs, then shape into pancakes to make these delicious latkes.",
+  "cuisine": "Kosher",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place potatoes, onion, garlic, salt, ground peppercorns, flour, and eggs into a bowl. Fold the mixture together with a rubber spatula, breaking up any large potato chunks, until ingredients are evenly mixed."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a deep-fryer or large skillet to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Form latke dough into 3-inch diameter balls and flatten into 1-inch thick rounds."
+    },
+    {
+      "position": 4,
+      "text": "Working in batches, place latkes in hot oil and cook until edges are golden brown, 3 to 5 minutes. Flip latkes using a slotted spoon and cook until crisp, 2 to 3 minutes more. Transfer to a paper towel-lined plate to cool."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ffb996ca-ca48-5a36-af96-53bd02a777cb/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "219 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "74 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "731 mg",
+    "sugarContent": "3 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "01883e7a-1dba-53da-8aa8-1b1044f334ef",
+      "name": "peeled and mashed baked potatoes",
+      "normalized_name": "peeled and mashed baked potatoes",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2b1be795-b597-5fc9-95ac-b1ff4a6b69bb",
+      "name": "chopped white onion",
+      "normalized_name": "chopped white onion",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "74e20072-90b5-5e52-9128-99d2282d22df",
+      "name": "freshly ground multi-colored peppercorns",
+      "normalized_name": "freshly ground multi-colored peppercorns",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "whisked",
+      "position": 7
+    },
+    {
+      "ingredient_id": "9aa44676-d867-511d-bf77-4a0d2b57854a",
+      "name": "extra-virgin olive oil",
+      "normalized_name": "extra-virgin olive oil",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "or as need for frying",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    },
+    {
+      "id": "e3876d6d-89d3-5a60-be44-850668567954",
+      "slug": "pancakes",
+      "name": "Pancakes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c2dd034b-7054-5e8f-adf9-16e21606c30d",
+      "slug": "pancakes",
+      "name": "Pancakes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "9bb1e663-6705-52d6-b7c4-c07ba088795a",
+      "slug": "latkes",
+      "name": "Latkes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236019/baked-potato-latkes"
+  },
+  "public": true,
+  "updated_at": 1777432460,
+  "revision": 1
+}

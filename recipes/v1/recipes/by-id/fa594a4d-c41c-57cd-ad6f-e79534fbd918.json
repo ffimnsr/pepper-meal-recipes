@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fa594a4d-c41c-57cd-ad6f-e79534fbd918",
+  "slug": "easy-chorizo-street-tacos",
+  "name": "Easy Chorizo Street Tacos",
+  "recipe_type": "main",
+  "brief_description": "Easy chorizo tacos made with crumbled chorizo quickly cooked with chipotle peppers, then topped with chopped cilantro and onion in a warm tortilla.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine crumbled chorizo and chipotle peppers in adobo sauce in a bowl."
+    },
+    {
+      "position": 2,
+      "text": "Heat a skillet over medium-high heat; add chorizo mixture and cook until crisp, 5 to 7 minutes. Transfer to a plate, reserving grease in the skillet."
+    },
+    {
+      "position": 3,
+      "text": "Heat tortillas in reserved grease in the skillet over medium heat until warmed, 1 to 2 minutes per side. Stack 2 tortillas for each taco, then fill with chorizo, onion, and cilantro."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fa594a4d-c41c-57cd-ad6f-e79534fbd918/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/KXeO987k-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "262 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "26 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "466 mg",
+    "sugarContent": "1 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "878fb138-ce4c-5866-a4ff-bb7360d01052",
+      "name": "chorizo sausage link",
+      "normalized_name": "chorizo sausage link",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "casing removed and meat crumbled",
+      "position": 1
+    },
+    {
+      "ingredient_id": "51711b73-6d6e-5fac-8973-55d64a9012c0",
+      "name": "chipotle peppers in adobo sauce",
+      "normalized_name": "chipotle peppers in adobo sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6785cf7f-5f2d-5e96-a1b1-f3d617e40a07",
+      "name": "corn tortillas",
+      "normalized_name": "corn tortillas",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257865/easy-chorizo-street-tacos"
+  },
+  "public": true,
+  "updated_at": 1782232252,
+  "revision": 1
+}

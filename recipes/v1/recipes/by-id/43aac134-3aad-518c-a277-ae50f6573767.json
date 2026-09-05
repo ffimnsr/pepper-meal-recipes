@@ -1,0 +1,227 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "43aac134-3aad-518c-a277-ae50f6573767",
+  "slug": "loaded-baked-beans",
+  "name": "Loaded Baked Beans",
+  "recipe_type": "side",
+  "brief_description": "This baked beans recipe is so comforting and loaded with three types of beans, bacon, green onions, bell pepper, barbecue sauce, and Cheddar cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Cook bacon in a large nonstick skillet over medium-high heat, turning occasionally, until crisp. Drain on paper towels. Discard all but 3 tablespoons bacon drippings from the skillet."
+    },
+    {
+      "position": 3,
+      "text": "Add onion and bell pepper to the skillet; cook until softened, about 5 minutes. Add beans, barbecue sauce, and \u00bd bacon; bring to a boil. Transfer beans to a 1 \u00bd-quart baking dish; cover dish with aluminum foil."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until bubbling, about 20 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Remove foil; top with Cheddar cheese and reserved \u00bd bacon. Bake until cheese is melted, about 5 minutes. Sprinkle with green onions before serving."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/43aac134-3aad-518c-a277-ae50f6573767/cover.png",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "282 kcal",
+    "carbohydrateContent": "39 g",
+    "cholesterolContent": "18 mg",
+    "fiberContent": "10 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "914 mg",
+    "sugarContent": "11 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "coarsely chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "59517dff-5bc3-5c06-9f8a-1a50fa78b5bd",
+      "name": "ounce) can b&m\u00ae original baked beans",
+      "normalized_name": "ounce can bm original baked beans",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0648153c-cb45-59fe-a18f-6c96968fe666",
+      "name": "ounce) can joan of arc\u00ae dark red kidney beans",
+      "normalized_name": "ounce can joan of arc dark red kidney beans",
+      "quantity": "1 (15.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "e621a226-4a9f-5a4d-b042-086f2aad9b0e",
+      "name": "ounce) can joan of arc\u00ae spicy chili beans",
+      "normalized_name": "ounce can joan of arc spicy chili beans",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e84dff4f-e58e-524d-9f45-b7711a05da54",
+      "name": "bbq sauce",
+      "normalized_name": "bbq sauce",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "62486dc7-9e27-5c22-9339-2e4ab00fb7d2",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas"
+    },
+    {
+      "id": "9460df44-db2d-5f25-b365-84437f6b26cb",
+      "slug": "baked-bean",
+      "name": "Baked Bean"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cacb0dc1-c4f8-52f6-a1d4-e9f34b5d0c13",
+      "slug": "baked-bean-recipes",
+      "name": "Baked Bean Recipes",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "22cf0e84-9987-5432-84e0-d5f8892c73d9",
+      "slug": "pinto-beans",
+      "name": "Pinto Beans",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "84c44e85-27a8-5eb5-a5c7-38936faa7a81",
+      "slug": "kidney-beans",
+      "name": "Kidney Beans",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/280599/loaded-baked-beans"
+  },
+  "public": true,
+  "updated_at": 1747276416,
+  "revision": 1
+}

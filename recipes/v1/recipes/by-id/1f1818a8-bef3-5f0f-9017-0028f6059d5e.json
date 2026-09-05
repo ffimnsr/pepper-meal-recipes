@@ -1,0 +1,192 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1f1818a8-bef3-5f0f-9017-0028f6059d5e",
+  "slug": "miso-soup-with-shiitake-mushrooms",
+  "name": "Miso Soup with Shiitake Mushrooms",
+  "recipe_type": "soup",
+  "brief_description": "This delicious Japanese soup features with Shiitake mushrooms and tofu.",
+  "cuisine": "Japanese",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat vegetable broth to a boil in a saucepan. Add mushrooms; reduce heat to low, and simmer 4 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Whisk miso paste and soy sauce together in a small bowl; stir into broth along with tofu and continue cooking 1 minute more. Divide soup among bowls; top with green onions to serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1f1818a8-bef3-5f0f-9017-0028f6059d5e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "92 kcal",
+    "carbohydrateContent": "12 g",
+    "fiberContent": "2 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "1406 mg",
+    "sugarContent": "5 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "1e5650a3-3410-5a8c-b323-f9d46fae85bd",
+      "name": "shiitake mushrooms",
+      "normalized_name": "shiitake mushrooms",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "897a84f5-7ab7-52ee-82d2-318d97d52447",
+      "name": "miso paste",
+      "normalized_name": "miso paste",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9618c501-80b1-5718-bf16-285aba760ce8",
+      "name": "diced firm tofu",
+      "normalized_name": "diced firm tofu",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "trimmed and thinly sliced",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "28f24011-6706-59fa-8654-c3d2657489d7",
+      "slug": "mushroom",
+      "name": "Mushroom",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "e2236ea9-2a8d-5801-a426-a1eeb0140367",
+      "slug": "shiitake-mushrooms",
+      "name": "Shiitake Mushrooms",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/208297/miso-soup-with-shiitake-mushrooms"
+  },
+  "public": true,
+  "updated_at": 1783208128,
+  "revision": 1
+}

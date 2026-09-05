@@ -1,0 +1,237 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8cb9c45b-700a-5c68-8e1a-9618efd02d62",
+  "slug": "banana-walnut-bread",
+  "name": "Banana Walnut Bread",
+  "recipe_type": "breakfast",
+  "brief_description": "Serve this banana nut bread for breakfast or a quick snack. It comes together easily and is always a comforting favorite for everyone to enjoy.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Spray an 8 1/2x4 1/2-inch loaf pan with cooking spray."
+    },
+    {
+      "position": 2,
+      "text": "Combine flour, sugar, baking powder, and salt in a medium mixing bowl. Whisk together egg, bananas, oil, and vanilla in another bowl. Add to flour mixture and stir until flour is moistened. Fold in walnuts."
+    },
+    {
+      "position": 3,
+      "text": "Pour batter into the prepared loaf pan."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until puffed and golden brown, 35 to 40 minutes. A wooden pick inserted in the center should come out clean."
+    },
+    {
+      "position": 5,
+      "text": "Transfer loaf pan to a rack to cool for 10 minutes before turning out of the pan. Serve warm or store in an air-tight container."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8cb9c45b-700a-5c68-8e1a-9618efd02d62/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "210 kcal",
+    "carbohydrateContent": "22 g",
+    "cholesterolContent": "14 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "135 mg",
+    "sugarContent": "10 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "33b56dae-312b-5889-9cbf-05b50e59d49c",
+      "name": "mazola pure\u00ae no-stick canola or butter flavored cooking spray",
+      "normalized_name": "mazola pure no-stick canola or butter flavored cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ce69b121-d9c1-57a7-b18a-abff590824d3",
+      "name": "argo\u00ae baking powder",
+      "normalized_name": "argo baking powder",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "4b93911c-d382-5ea9-b20d-e04da39f25e4",
+      "name": "mashed bananas",
+      "normalized_name": "mashed bananas",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "61c8b8e8-57c4-5e84-a9bc-2252c116ae2d",
+      "name": "mazola\u00ae corn oil",
+      "normalized_name": "mazola corn oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "7c22dcfe-69e1-54ba-b256-8f1f29b0ff2c",
+      "name": "spice islands\u00ae pure vanilla extract",
+      "normalized_name": "spice islands pure vanilla extract",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "e8e75e6e-b180-5d39-a832-2134749a2e0d",
+      "name": "chopped walnuts",
+      "normalized_name": "chopped walnuts",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    }
+  ],
+  "tags": [
+    {
+      "id": "83a46deb-c595-5fc8-991d-01062f74c59d",
+      "slug": "breakfast-bread-recipes",
+      "name": "Breakfast Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "a3b43786-1971-57fd-b78f-c1e8ac2a8f46",
+      "slug": "trusted-brands-recipes-and-tips",
+      "name": "Trusted Brands: Recipes and Tips",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "b5a440ac-5540-5369-8839-9b202195cdbf",
+      "slug": "banana-nut-bread-recipes",
+      "name": "Banana Nut Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "f2a5d498-0488-57e1-8e78-49eece9afc27",
+      "slug": "bananas",
+      "name": "Bananas",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "434ef930-362c-5218-9ff9-a11c39e040b7",
+      "slug": "banana-bread",
+      "name": "Banana Bread",
+      "color": null
+    },
+    {
+      "id": "1d3ec040-9ed5-5566-94f0-af9888a2f7bc",
+      "slug": "fruit-bread-recipes",
+      "name": "Fruit Bread Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239246/banana-walnut-bread"
+  },
+  "public": true,
+  "updated_at": 1734724838,
+  "revision": 1
+}

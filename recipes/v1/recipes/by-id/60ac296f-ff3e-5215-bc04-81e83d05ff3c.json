@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "60ac296f-ff3e-5215-bc04-81e83d05ff3c",
+  "slug": "hatteras-style-clam-chowder",
+  "name": "Hatteras Style Clam Chowder",
+  "recipe_type": "soup",
+  "brief_description": "No cream, but a potful of clam juice in this chowder with potatoes, thyme and bacon.",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large pot over medium heat, cook onion, celery and carrots in oil until they begin to soften. Stir in potatoes, clams, clam juice, thyme, pepper and bacon. Bring to a boil, then reduce heat and simmer 20 minutes, or until potatoes are tender."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/60ac296f-ff3e-5215-bc04-81e83d05ff3c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "265 kcal",
+    "carbohydrateContent": "24 g",
+    "cholesterolContent": "86 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "32 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "941 mg",
+    "sugarContent": "3 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "277f57ae-b740-593b-a580-72e808440474",
+      "name": "peeled",
+      "normalized_name": "peeled",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": "cubed white potatoes",
+      "position": 5
+    },
+    {
+      "ingredient_id": "2ba39b1c-3190-5793-9e1b-f10b1f9a90a8",
+      "name": "ounce) cans minced clams",
+      "normalized_name": "ounce cans minced clams",
+      "quantity": "2 (16",
+      "unit": "pieces",
+      "preparation": "with juice",
+      "position": 6
+    },
+    {
+      "ingredient_id": "d0aed14e-2ab3-53dd-bc90-6081dbe1e958",
+      "name": "quarts clam juice",
+      "normalized_name": "quarts clam juice",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
+      "name": "dried thyme",
+      "normalized_name": "dried thyme",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "9cafc193-d2ef-5669-8812-25f1807636bb",
+      "name": "slices crisp cooked bacon",
+      "normalized_name": "slices crisp cooked bacon",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "crumbled",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    },
+    {
+      "id": "8e8b45ad-d8f1-5366-874f-cf0e27e6ec64",
+      "slug": "clam-chowder",
+      "name": "Clam Chowder"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fc108041-1800-5e02-a3f6-69fc396c6112",
+      "slug": "clam-chowder-recipes",
+      "name": "Clam Chowder Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d96158-47ca-5157-b783-f6e67e23a2cd",
+      "slug": "clams",
+      "name": "Clams",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20860/hatteras-style-clam-chowder"
+  },
+  "public": true,
+  "updated_at": 1782707357,
+  "revision": 1
+}

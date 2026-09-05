@@ -1,0 +1,214 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7ab1ab02-5c26-542d-963c-0bba4173f847",
+  "slug": "cranberry-pecan-cake",
+  "name": "Cranberry Pecan Cake",
+  "recipe_type": "dessert",
+  "brief_description": "This is a yummy, very easy cranberry upside-down cake with lots of cranberries and pecans! Serve warm with whipped cream.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Generously grease a 2 quart rectangular baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Spread the cranberries evenly over the bottom of the baking dish, and sprinkle the pecans over the cranberries. Spoon 1 cup of sugar over the cranberries and pecans."
+    },
+    {
+      "position": 3,
+      "text": "Place the eggs into the work bowl of an electric mixer, and beat on high speed about 1 minute, until the eggs are foamy. Beat in 1 cup of sugar, the flour, melted butter, and milk, and beat on Low until just mixed. The batter will be thick. Spread the batter evenly over the cranberry-pecan mixture."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until the cake is lightly brown and a toothpick inserted near the center comes out clean, 40 to 45 minutes. Carefully invert the cake onto a serving plate, so the cranberry-pecan layer is on top. Let cool 30 minutes before serving."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7ab1ab02-5c26-542d-963c-0bba4173f847/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "327 kcal",
+    "carbohydrateContent": "46 g",
+    "cholesterolContent": "52 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "68 mg",
+    "sugarContent": "35 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d12ff2a1-e0e5-5541-9ace-0a454071df00",
+      "name": "frozen cranberries",
+      "normalized_name": "frozen cranberries",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d238937c-cf57-50e6-8229-dd35b211c044",
+      "name": "pecans",
+      "normalized_name": "pecans",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "ed39a3eb-e4a7-5127-bd1d-6f2e6ffe93ed",
+      "slug": "nut-dessert",
+      "name": "Nut Dessert"
+    },
+    {
+      "id": "48270a38-99a5-5a09-8b85-07078726fc44",
+      "slug": "pecan-dessert",
+      "name": "Pecan Dessert"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c26b9b1c-3c42-5b92-b73a-b8d66c76ddb8",
+      "slug": "pecan-dessert-recipes",
+      "name": "Pecan Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "2624b2ea-2212-589e-996c-65db8e6fc023",
+      "slug": "cakes",
+      "name": "Cakes",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/77832/cranberry-pecan-cake"
+  },
+  "public": true,
+  "updated_at": 1642141626,
+  "revision": 1
+}

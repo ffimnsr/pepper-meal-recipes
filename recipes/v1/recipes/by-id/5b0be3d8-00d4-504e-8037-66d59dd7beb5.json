@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5b0be3d8-00d4-504e-8037-66d59dd7beb5",
+  "slug": "reuben-pizza",
+  "name": "Reuben Pizza",
+  "recipe_type": "main",
+  "brief_description": "Sliced corned beef, sauerkraut, Swiss cheese, and dill pickles all feature in this Reuben pizza for a delicious twist on a classic sandwich.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C). Grease a large pizza pan."
+    },
+    {
+      "position": 2,
+      "text": "On a lightly floured surface, roll bread dough out into a large circle about 18-inches in diameter; transfer to the prepared pizza pan. Build up the edges, and prick the center all over with a fork so it doesn't form a dome when baking."
+    },
+    {
+      "position": 3,
+      "text": "Bake for 20 to 25 minutes in the preheated oven, or until golden."
+    },
+    {
+      "position": 4,
+      "text": "Spread 1/2 of the salad dressing over hot crust. Sprinkle with 1/2 of the Swiss cheese. Arrange corned beef on top of cheese, then drizzle with remaining salad dressing. Top with sauerkraut and remaining Swiss cheese. Sprinkle with caraway seed."
+    },
+    {
+      "position": 5,
+      "text": "Bake for another 10 minutes in the preheated oven, until cheese melts and toppings are heated through. Sprinkle with chopped pickle. Let stand for 5 minutes before slicing."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5b0be3d8-00d4-504e-8037-66d59dd7beb5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "207 kcal",
+    "carbohydrateContent": "6 g",
+    "cholesterolContent": "44 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "698 mg",
+    "sugarContent": "4 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2c2c984b-4055-5ec6-8735-df17916e0ac2",
+      "name": "pound) loaf frozen whole wheat bread dough",
+      "normalized_name": "pound loaf frozen whole wheat bread dough",
+      "quantity": "1 (1",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ba02302f-d3d8-5f65-8c56-3386c42008b9",
+      "name": "thousand island dressing",
+      "normalized_name": "thousand island dressing",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "140f7dad-5d9d-58b3-ba9e-ea045566ab33",
+      "name": "shredded swiss cheese",
+      "normalized_name": "shredded swiss cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "076438a8-350a-50f3-a222-317bf11daf58",
+      "name": "deli sliced corned beef",
+      "normalized_name": "deli sliced corned beef",
+      "quantity": "6",
+      "unit": "ounces",
+      "preparation": "cut into strips",
+      "position": 4
+    },
+    {
+      "ingredient_id": "3e5d8891-729e-55a6-be7a-1d45ae0566ef",
+      "name": "sauerkraut",
+      "normalized_name": "sauerkraut",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "rinsed and drained",
+      "position": 5
+    },
+    {
+      "ingredient_id": "6f9cdca8-64a7-5093-b0b4-8aabaed294aa",
+      "name": "caraway seed",
+      "normalized_name": "caraway seed",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "27e6270d-c204-5ca6-91ab-136bb98c4b3d",
+      "name": "chopped dill pickles",
+      "normalized_name": "chopped dill pickles",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "149a4eab-232a-5656-97ca-966809a8a3c5",
+      "slug": "pizza",
+      "name": "Pizza"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "5f6b1b49-4a03-5a2d-be8a-1149e0a1d018",
+      "slug": "caraway-recipes",
+      "name": "Caraway Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "1377e8b7-e214-5a16-8a8f-8f637f2a7e3f",
+      "slug": "brisket",
+      "name": "Brisket",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "457e676b-62c1-529f-8219-d9e991df349a",
+      "slug": "bread-dough",
+      "name": "Bread Dough",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/58480/reuben-pizza"
+  },
+  "public": true,
+  "updated_at": 1778788535,
+  "revision": 1
+}

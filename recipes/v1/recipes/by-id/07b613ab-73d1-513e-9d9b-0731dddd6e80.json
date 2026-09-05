@@ -1,0 +1,227 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "07b613ab-73d1-513e-9d9b-0731dddd6e80",
+  "slug": "baked-fresh-rainbow-trout",
+  "name": "Baked Fresh Rainbow Trout",
+  "recipe_type": "main",
+  "brief_description": "This rainbow trout recipe uses dill, thyme, and lemon to season whole fish that's baked in the oven until tender and moist for a quick and easy meal.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C). Grease a 9x13-inch baking dish with 1 teaspoon olive oil."
+    },
+    {
+      "position": 2,
+      "text": "Place trout in the prepared baking dish and coat with remaining olive oil. Gather the seasoning ingredients."
+    },
+    {
+      "position": 3,
+      "text": "Season inside and outside of fish with dill, thyme, and salt. Stuff each fish with onion slices; grind pepper on top. Place 1 lemon slice on each fish."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven for 10 minutes; add 2 tablespoons hot water to the dish (cold water could cause the dish to crack) to prevent the fish from drying out. Continue baking until fish flakes easily with a fork, about 10 minutes more."
+    },
+    {
+      "position": 5,
+      "text": "Serve hot and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/07b613ab-73d1-513e-9d9b-0731dddd6e80/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/mcuiyX2u-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "373 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "163 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "54 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "159 mg",
+    "sugarContent": "1 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "f4d7e4b5-85ba-5707-863b-2e93a3d92e15",
+      "name": "whole rainbow trout",
+      "normalized_name": "whole rainbow trout",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "gutted and cleaned, heads and tails still on",
+      "position": 2
+    },
+    {
+      "ingredient_id": "c695b7e1-c0a2-5395-852a-ca8d6057ab91",
+      "name": "dried dill weed",
+      "normalized_name": "dried dill weed",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
+      "name": "dried thyme",
+      "normalized_name": "dried thyme",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "e056348b-c073-5f82-9049-93694c87b1ae",
+      "name": "thin slices lemon",
+      "normalized_name": "thin slices lemon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0497b2f2-fc7c-5cd1-8c09-fe5e3edc9fb4",
+      "name": "hot water",
+      "normalized_name": "hot water",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
+      "slug": "fish",
+      "name": "Fish"
+    },
+    {
+      "id": "767127b9-6cc0-51ea-9af0-29aec20c7bae",
+      "slug": "trout",
+      "name": "Trout"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "2672f801-8174-50ba-8525-37500944c0dd",
+      "slug": "trout",
+      "name": "Trout",
+      "color": null
+    },
+    {
+      "id": "446efbd6-284e-5fce-ad35-75bd970fa103",
+      "slug": "baked",
+      "name": "Baked",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236814/baked-fresh-rainbow-trout"
+  },
+  "public": true,
+  "updated_at": 1762194633,
+  "revision": 1
+}

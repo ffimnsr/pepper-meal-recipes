@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d26e74ac-6ef7-5525-8b3a-19d608af6315",
+  "slug": "quiche-lorraine-ii",
+  "name": "Simple Quiche Lorraine",
+  "recipe_type": "breakfast",
+  "brief_description": "Make this easy quiche Lorraine featuring eggs, bacon, onion, and Swiss cheese baked in a store-bought crust, and serve it for any meal of the day!",
+  "cuisine": "French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Preheat the oven to 450 degrees F (230 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place pie pastry into a 9-inch pie pan; line with a double layer of aluminum foil and a layer of pie weights or dried beans."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until golden on the edges, about 8 minutes. Carefully remove the foil and weights; continue baking until crust is set and dry, about 5 minutes more. Remove from the oven and reduce the temperature to 325 degrees F (165 degrees C)."
+    },
+    {
+      "position": 4,
+      "text": "While the crust is baking, cook bacon in a large skillet over medium-high heat until crisp, about 10 minutes. Transfer to a paper towel-lined plate and crumble when cool enough to handle. Drain all but 2 tablespoons drippings from the skillet."
+    },
+    {
+      "position": 5,
+      "text": "Add onion to drippings in the skillet; cook and stir over medium heat until tender, about 5 minutes. Use a slotted spoon and transfer to a bowl."
+    },
+    {
+      "position": 6,
+      "text": "Toss Swiss cheese and flour together in a small bowl. Whisk milk, eggs, and salt together in a large bowl, then stir in bacon and onion."
+    },
+    {
+      "position": 7,
+      "text": "Mix in cheese mixture until well combined, then pour into pie crust."
+    },
+    {
+      "position": 8,
+      "text": "Bake in the preheated oven until a knife inserted into the center comes out clean, 35 to 40 minutes. Let stand for 10 minutes before serving."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d26e74ac-6ef7-5525-8b3a-19d608af6315/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "359 kcal",
+    "carbohydrateContent": "17 g",
+    "cholesterolContent": "106 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "463 mg",
+    "sugarContent": "3 g",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "67796d38-9a14-5c7f-afb2-279978af907f",
+      "name": "inch) refrigerated pie pastry",
+      "normalized_name": "inch refrigerated pie pastry",
+      "quantity": "1 (9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "140f7dad-5d9d-58b3-ba9e-ea045566ab33",
+      "name": "shredded swiss cheese",
+      "normalized_name": "shredded swiss cheese",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "a7ca9625-d163-578e-8535-bfba35a3532b",
+      "slug": "quiche",
+      "name": "Quiche"
+    }
+  ],
+  "tags": [
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "db91492e-e32c-5710-93d7-22a553631e4d",
+      "slug": "quiche",
+      "name": "Quiche",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "39e8edd4-ff85-5d94-aa4a-7d0506ff85a0",
+      "slug": "easter-brunch",
+      "name": "Easter Brunch",
+      "color": null
+    },
+    {
+      "id": "bdee1869-2a3c-5547-828c-766d1cec95ef",
+      "slug": "savory-pie-recipes",
+      "name": "Savory Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "18e530cc-1eab-5ee9-bebd-117d96516b8c",
+      "slug": "1970s",
+      "name": "1970s",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "4df3c995-92b0-5b26-81f3-a37a2a681eab",
+      "slug": "retro-recipes",
+      "name": "Retro Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18477/quiche-lorraine-ii"
+  },
+  "public": true,
+  "updated_at": 1761668093,
+  "revision": 1
+}

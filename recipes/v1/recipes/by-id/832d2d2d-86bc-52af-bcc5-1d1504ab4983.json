@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "832d2d2d-86bc-52af-bcc5-1d1504ab4983",
+  "slug": "asparagus-parmesan",
+  "name": "Asparagus Parmesan",
+  "recipe_type": "side",
+  "brief_description": "Pan-fried asparagus with Parmesan cheese, saut\u00e9ed to perfection in olive oil and butter, is a quick, delicious, and easy four-ingredient side dish.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter with olive oil in a large skillet over medium heat. Add asparagus spears; cook, stirring occasionally, until desired firmness, about 10 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Drain off and discard excess oil; sprinkle with Parmesan cheese, salt, and pepper."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/832d2d2d-86bc-52af-bcc5-1d1504ab4983/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "199 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "19 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "248 mg",
+    "sugarContent": "2 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d856e27b-3aaf-5738-a7f9-f15699d5b7c3",
+      "name": "fresh asparagus spears",
+      "normalized_name": "fresh asparagus spears",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "trimmed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    },
+    {
+      "id": "1722d249-eb1a-58ac-9a3c-430f7cbcbea1",
+      "slug": "asparagus",
+      "name": "Asparagus"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "170a28a4-5360-5e89-accb-7ecc55c5340b",
+      "slug": "spring",
+      "name": "Spring",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "ba6bd742-8c7c-5fab-beee-026a3280f2c4",
+      "slug": "dairy",
+      "name": "Dairy",
+      "color": null
+    },
+    {
+      "id": "bcc382c6-0b3f-5b7d-8fdd-0ca3f18ad0dd",
+      "slug": "seder",
+      "name": "Seder",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/58645/asparagus-parmesan"
+  },
+  "public": true,
+  "updated_at": 1737561786,
+  "revision": 1
+}

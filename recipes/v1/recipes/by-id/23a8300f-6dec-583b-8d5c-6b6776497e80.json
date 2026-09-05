@@ -1,0 +1,162 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "23a8300f-6dec-583b-8d5c-6b6776497e80",
+  "slug": "chicken-and-rice-casserole",
+  "name": "Chicken and Rice Casserole",
+  "recipe_type": "soup",
+  "brief_description": "Chicken breasts, rice, French onion soup mix, and cream of mushroom soup are all you need to make this easy chicken and rice casserole.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Spread rice into a casserole dish. Lay chicken breasts onto the bed of rice. Sprinkle French onion soup mix over the chicken. Pour cream of mushroom soup over the chicken. Cover casserole dish with aluminum foil."
+    },
+    {
+      "position": 3,
+      "text": "Bake in preheated oven for 45 minutes. Remove aluminum foil and continue baking until the rice is tender and the chicken no longer pink in the center, about 15 minutes more."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/23a8300f-6dec-583b-8d5c-6b6776497e80/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "382 kcal",
+    "carbohydrateContent": "47 g",
+    "cholesterolContent": "68 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "32 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "1189 mg",
+    "sugarContent": "2 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "444d816f-2ec8-5ce4-aaea-e4ddff4ddceb",
+      "name": "white rice",
+      "normalized_name": "white rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves",
+      "position": 2
+    },
+    {
+      "ingredient_id": "79da29c4-cab6-5168-a54b-b2f6ee42c827",
+      "name": "ounce) package french onion soup mix",
+      "normalized_name": "ounce package french onion soup mix",
+      "quantity": "1 (1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "fddcd10d-32a3-5d59-ab5d-4373e920f350",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "109454a9-dac7-5203-9774-f622ac42b29d",
+      "slug": "creamy-chicken",
+      "name": "Creamy Chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233382/chicken-and-rice-casserole"
+  },
+  "public": true,
+  "updated_at": 1668238075,
+  "revision": 1
+}

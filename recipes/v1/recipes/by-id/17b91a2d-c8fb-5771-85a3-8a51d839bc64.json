@@ -1,0 +1,204 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "17b91a2d-c8fb-5771-85a3-8a51d839bc64",
+  "slug": "alis-amazing-bruschetta",
+  "name": "Ali's Amazing Bruschetta",
+  "recipe_type": "appetizer",
+  "brief_description": "This bruschetta will turn out every time you make it. Use small slices of bread for a unique appetizer, or serve with Italian dishes.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Combine tomatoes, onion, olive oil, oregano, basil and parsley in a medium bowl. Place bread on a baking sheet, and top with tomato mixture. Sprinkle with Parmesan."
+    },
+    {
+      "position": 3,
+      "text": "Bake in preheated oven for 8 to 10 minutes, or until bottom of bread is browned. Allow to cool 5 minutes before serving."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/17b91a2d-c8fb-5771-85a3-8a51d839bc64/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "176 kcal",
+    "carbohydrateContent": "22 g",
+    "cholesterolContent": "4 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "288 mg",
+    "sugarContent": "2 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1bae2dfb-2c2b-5c17-bd41-7b4ddeb698de",
+      "name": "large tomatoes",
+      "normalized_name": "large tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "coarsely chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "3962bc64-6c09-5e18-a253-b9e163ca8320",
+      "name": "sweet onion",
+      "normalized_name": "sweet onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "4f3e7b5f-150c-5374-a120-89e81ae074a1",
+      "name": "chopped fresh oregano",
+      "normalized_name": "chopped fresh oregano",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3137d3c8-bf47-5da8-adb2-cd7e446039cd",
+      "name": "chopped fresh basil",
+      "normalized_name": "chopped fresh basil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1c9f9a89-8dd6-54c2-985b-8e90ca9b7fe9",
+      "name": "pound) loaf italian bread",
+      "normalized_name": "pound loaf italian bread",
+      "quantity": "0.5 (1",
+      "unit": "pieces",
+      "preparation": "cut into 1 inch slices",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0d9540ed-f036-58af-a069-b148b895ce06",
+      "name": "freshly grated parmesan cheese",
+      "normalized_name": "freshly grated parmesan cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "5736101f-cd61-52e5-a966-719875f8b09d",
+      "slug": "bruschetta",
+      "name": "Bruschetta"
+    }
+  ],
+  "tags": [
+    {
+      "id": "499954b2-300e-5073-b52f-bba1da045ae0",
+      "slug": "bruschetta-recipes",
+      "name": "Bruschetta Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "ebf99938-61a8-5ffe-b436-629f58509306",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/48156/alis-amazing-bruschetta"
+  },
+  "public": true,
+  "updated_at": 1778163612,
+  "revision": 1
+}

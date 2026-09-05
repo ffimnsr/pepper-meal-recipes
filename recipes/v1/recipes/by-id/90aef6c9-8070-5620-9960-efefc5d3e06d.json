@@ -1,0 +1,253 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "90aef6c9-8070-5620-9960-efefc5d3e06d",
+  "slug": "loaded-baked-potato-soup",
+  "name": "Loaded Baked Potato Soup",
+  "recipe_type": "soup",
+  "brief_description": "All the key players for a loaded baked potato are simmering together creating the ultimate potato soup.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Wrap potatoes in aluminum foil."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until potatoes are tender, 45 minutes to 1 hour. Cool potatoes until easy to handle, cut into cubes, and set aside."
+    },
+    {
+      "position": 4,
+      "text": "Place bacon in a large skillet over medium-high heat; cook, turning occasionally, until evenly browned, about 10 minutes. Drain bacon on a paper towel-lined plate. Crumble and set aside."
+    },
+    {
+      "position": 5,
+      "text": "Combine milk, cream, sour cream, processed cheese, and Cheddar cheese in a large pot over medium heat; cook, stirring frequently, until cheeses are melted, about 10 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Add potatoes and bacon to milk mixture and simmer over medium heat, stirring frequently, until potatoes begin to dissolve into soup, about 20 minutes. Season with onion salt and black pepper."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 85,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/90aef6c9-8070-5620-9960-efefc5d3e06d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "550 kcal",
+    "carbohydrateContent": "50 g",
+    "cholesterolContent": "93 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "17 g",
+    "sodiumContent": "817 mg",
+    "sugarContent": "12 g",
+    "fatContent": "30 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0238dbd0-26a2-51f1-ba84-150dfdd924c6",
+      "name": "large red potatoes",
+      "normalized_name": "large red potatoes",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "74e0d12c-4fd5-5ce1-92a3-e2d39e10f104",
+      "name": "ounce) package bacon",
+      "normalized_name": "ounce package bacon",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "53f369b3-e6d8-556b-bf0b-78ce9e61cbb8",
+      "name": "gallon milk",
+      "normalized_name": "gallon milk",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b22bc2e2-07c9-54aa-a04f-a6f6cd0810e9",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "71672b94-2d63-5e89-ac59-78d4c9c70b68",
+      "name": "ounce) container sour cream",
+      "normalized_name": "ounce container sour cream",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b87607d5-f33e-5242-a2cd-abb832ec5e89",
+      "name": "ounce) package processed cheese (such as velveeta\u00ae)",
+      "normalized_name": "ounce package processed cheese",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "d9665c8e-feae-5357-999b-b8048431ad56",
+      "name": "ounce) package shredded cheddar cheese",
+      "normalized_name": "ounce package shredded cheddar cheese",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5e0af050-e6bb-5652-b5bc-9f70d65e2dae",
+      "name": "onion salt",
+      "normalized_name": "onion salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "278514fe-983b-5bcb-a57c-c032a506c02e",
+      "slug": "potato-soup",
+      "name": "Potato Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c6bf3992-663f-5e3a-8ba5-f02997d350ab",
+      "slug": "cream-of-potato-soup-recipes",
+      "name": "Cream of Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "5606a16e-e04d-5bc0-9a9b-14e21d2c303c",
+      "slug": "potato-soup-recipes",
+      "name": "Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "10c08589-6d06-5624-979f-035d5f98affd",
+      "slug": "red-potatoes",
+      "name": "Red Potatoes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239388/loaded-baked-potato-soup"
+  },
+  "public": true,
+  "updated_at": 1732606548,
+  "revision": 1
+}

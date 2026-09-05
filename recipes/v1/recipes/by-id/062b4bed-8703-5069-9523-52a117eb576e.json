@@ -1,0 +1,280 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "062b4bed-8703-5069-9523-52a117eb576e",
+  "slug": "butternut-squash-and-turkey-chili",
+  "name": "Turkey and Butternut Squash Chili",
+  "recipe_type": "soup",
+  "brief_description": "This spicy butternut squash chili with ground turkey, tomatoes, green chilies, hominy, and beans is a delicious and hearty dinner for fall.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a large pot over medium heat. Add onion and garlic; cook and stir for 3 minutes. Stir in turkey and cook until crumbly and no longer pink, about 5 to 7 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add butternut squash, chicken broth, green chilies, tomatoes, kidney beans, hominy, and tomato sauce; season with chili powder, cumin, and garlic salt."
+    },
+    {
+      "position": 4,
+      "text": "Bring to a simmer, then reduce heat to medium-low, cover, and simmer until the squash is tender, about 20 minutes."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/062b4bed-8703-5069-9523-52a117eb576e/cover.jpg",
+  "video_url": "https://cdn.jwplayer.com/videos/A8LL5qda-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "192 kcal",
+    "carbohydrateContent": "23 g",
+    "cholesterolContent": "27 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "601 mg",
+    "sugarContent": "6 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0ee4a9a3-e562-5a04-8c85-75b1b22cc717",
+      "name": "ground turkey breast",
+      "normalized_name": "ground turkey breast",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f496bab1-15e8-5140-86dc-e7973309681e",
+      "name": "butternut squash - peeled",
+      "normalized_name": "butternut squash - peeled",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "seeded and cut into 1-inch dice",
+      "position": 5
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d0204294-87d9-59b5-935a-fd483daf4468",
+      "name": "ounce) can chopped green chilies",
+      "normalized_name": "ounce can chopped green chilies",
+      "quantity": "1 (4.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f9ca1844-1d23-5810-9e10-fafa81bc3a0c",
+      "name": "ounce) cans petite diced tomatoes",
+      "normalized_name": "ounce cans petite diced tomatoes",
+      "quantity": "2 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a0cb7886-8e82-5bbc-9e62-99c00c2204fb",
+      "name": "ounce) can kidney beans with liquid",
+      "normalized_name": "ounce can kidney beans with liquid",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "7f13fdd9-72e0-5c45-a8cb-a53a11f0b64c",
+      "name": "ounce) can white hominy",
+      "normalized_name": "ounce can white hominy",
+      "quantity": "1 (15.5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 10
+    },
+    {
+      "ingredient_id": "f7a620bf-624f-5839-bad4-c9e85269074e",
+      "name": "ounce) can tomato sauce",
+      "normalized_name": "ounce can tomato sauce",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "290a7383-c4f5-5e89-a4ef-ac32f5e86d14",
+      "name": "garlic salt",
+      "normalized_name": "garlic salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "2233d10f-275a-5e5c-a3df-d9ba7047b8ee",
+      "slug": "chili",
+      "name": "Chili"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "3a5da0b6-9dfb-5d3f-a47c-b6c3c42d4010",
+      "slug": "chili-recipes",
+      "name": "Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "2ba3093b-13b7-506e-9f84-a215eaedbbc4",
+      "slug": "butternut-squash",
+      "name": "Butternut Squash",
+      "color": null
+    },
+    {
+      "id": "d650b623-260a-5c72-83fb-19ed566e1dff",
+      "slug": "turkey-chili-recipes",
+      "name": "Turkey Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/131107/butternut-squash-and-turkey-chili"
+  },
+  "public": true,
+  "updated_at": 1773066018,
+  "revision": 1
+}

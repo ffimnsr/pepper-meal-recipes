@@ -1,0 +1,210 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c8e23af2-3770-5d83-b284-46841069f32d",
+  "slug": "almond-flour-bread",
+  "name": "Almond Flour Bread",
+  "recipe_type": "breakfast",
+  "brief_description": "Almond flour bread made with almond milk and flaxseed meal; it's low-carb, easy to make, and a delicious choice for anyone who can't eat gluten or dairy.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Lightly grease an 8x4-inch loaf pan, or line with parchment paper."
+    },
+    {
+      "position": 3,
+      "text": "Mix almond flour, flaxseed meal, eggs, almond milk, olive oil, baking powder, and salt together in a bowl until a soft dough forms."
+    },
+    {
+      "position": 4,
+      "text": "Transfer to the prepared loaf pan."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until golden brown on top, about 40 minutes. Cool in the loaf pan for 10 minutes before transferring to a wire rack to cool completely."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c8e23af2-3770-5d83-b284-46841069f32d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "229 kcal",
+    "carbohydrateContent": "7 g",
+    "cholesterolContent": "93 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "309 mg",
+    "sugarContent": "1 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f9a99f9f-88e8-50ce-9d63-a797317af35f",
+      "name": "almond flour",
+      "normalized_name": "almond flour",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "cf5ddc88-3b54-528f-ab92-204bd1fdc86c",
+      "name": "flaxseed meal",
+      "normalized_name": "flaxseed meal",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "95c0e7f2-c3a5-5f06-a5a7-1ff92f0d7f0c",
+      "name": "unsweetened almond milk",
+      "normalized_name": "unsweetened almond milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "ae64dcc8-daea-5640-9aa0-491832fd5a6c",
+      "slug": "healthy",
+      "name": "Healthy"
+    },
+    {
+      "id": "fb4213ca-f299-5c79-96c2-387a97ea1621",
+      "slug": "gluten-free",
+      "name": "Gluten Free"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "99d8c901-c626-5363-9195-83d035f13932",
+      "slug": "low-carb",
+      "name": "Low-Carb",
+      "color": null
+    },
+    {
+      "id": "b752f992-5968-5ce7-a698-ce0ec3ad2834",
+      "slug": "dairy-free",
+      "name": "Dairy-Free",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "2d6b8400-f602-558f-b2c4-b29ed02afc3e",
+      "slug": "almond-meal-recipes",
+      "name": "Almond Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "32ca55aa-c740-52e0-95af-7aec91411ac9",
+      "slug": "high-fiber",
+      "name": "High-Fiber",
+      "color": null
+    },
+    {
+      "id": "6e9bc079-ab22-5296-b01a-351ef64551ef",
+      "slug": "flour-recipes",
+      "name": "Flour Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246002/almond-flour-bread"
+  },
+  "public": true,
+  "updated_at": 1773846362,
+  "revision": 1
+}

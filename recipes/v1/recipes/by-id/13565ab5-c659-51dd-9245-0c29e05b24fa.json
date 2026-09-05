@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "13565ab5-c659-51dd-9245-0c29e05b24fa",
+  "slug": "sausage-potato-and-kale-soup",
+  "name": "Sausage, Potato and Kale Soup",
+  "recipe_type": "soup",
+  "brief_description": "This sausage and kale soup combines pork sausage, nutritious kale, and potatoes to give a hearty, rich, bold flavor to a creamy Italian-inspired soup.",
+  "cuisine": "Italian Inspired American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Heat a large soup pot over medium-high heat. Crumble sausage into the pot; cook and stir until browned, about 10 minutes. Drain and discard grease."
+    },
+    {
+      "position": 3,
+      "text": "Stir half-and-half, potatoes, chicken broth, milk, onion, oregano, and pepper flakes into sausage, and bring to a boil. Reduce heat to low and simmer until potatoes are tender, about 30 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Season with black pepper. Stir in kale; simmer until kale is tender, 10 to 15 more minutes."
+    },
+    {
+      "position": 5,
+      "text": "Serve and enjoy!"
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/13565ab5-c659-51dd-9245-0c29e05b24fa/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/WzT4VS0z-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "266 kcal",
+    "carbohydrateContent": "16 g",
+    "cholesterolContent": "50 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "391 mg",
+    "sugarContent": "3 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "db864912-b012-5431-8195-d1eee60db4b6",
+      "name": "bulk italian sausage",
+      "normalized_name": "bulk italian sausage",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2acebd9b-a447-5da9-95f2-91fbfdc0677f",
+      "name": "cubed potatoes",
+      "normalized_name": "cubed potatoes",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d048b8fd-9fab-5cc1-b458-54ddd45ae648",
+      "name": "low-sodium chicken broth",
+      "normalized_name": "low-sodium chicken broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "77dbab31-d057-5d61-a87f-ded964435ff7",
+      "name": "whole milk",
+      "normalized_name": "whole milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or more to taste",
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "00839526-e002-5bcd-a361-9e49a5da7f84",
+      "name": "kale",
+      "normalized_name": "kale",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "torn into bite-sized pieces",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "a223d120-a2a2-54de-8b0c-cc5e335554a3",
+      "slug": "cream-soup",
+      "name": "Cream Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "13320ff7-661a-568e-9538-03cd40f94308",
+      "slug": "kale",
+      "name": "Kale",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231287/sausage-potato-and-kale-soup"
+  },
+  "public": true,
+  "updated_at": 1762362213,
+  "revision": 1
+}

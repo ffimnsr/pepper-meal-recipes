@@ -1,0 +1,267 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "416fc9e9-38d6-5b85-8c9f-af34ed4a3e43",
+  "slug": "beks-minestrone-soup",
+  "name": "Bek's Minestrone Soup",
+  "recipe_type": "soup",
+  "brief_description": "This warm minestrone soup is nicely spiced with jalapeno peppers for a hearty Italian-inspired soup for those cold winter nights.",
+  "cuisine": "Italian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat butter in a large pot over medium heat; cook and stir onion and garlic until onion is transparent, 5 to 10 minutes. Add chicken stock, beef broth, and water; bring to a simmer. Stir tomato paste, tomatoes with jalapenos, and potatoes into broth mixture; simmer until potatoes are slightly tender, 10 to 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir celery, zucchini, carrots, and garbanzo beans into soup mixture; simmer until potatoes are tender and flavors have blended, 45 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/416fc9e9-38d6-5b85-8c9f-af34ed4a3e43/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "245 kcal",
+    "carbohydrateContent": "44 g",
+    "cholesterolContent": "11 mg",
+    "fiberContent": "9 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "1321 mg",
+    "sugarContent": "13 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "31a3b1dd-6265-562a-aa91-a8d80fbb12ab",
+      "name": "ounce) can beef broth",
+      "normalized_name": "ounce can beef broth",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3ebf7b03-b27c-5825-97fc-c1e296f036d1",
+      "name": "ounce) cans tomato paste with basil (such as hunt's\u00ae)",
+      "normalized_name": "ounce cans tomato paste with basil",
+      "quantity": "2 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b2bb167b-1db4-5fb6-afa3-878e60a9cdf1",
+      "name": "ounce) can diced tomatoes with jalapenos",
+      "normalized_name": "ounce can diced tomatoes with jalapenos",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 10
+    },
+    {
+      "ingredient_id": "28b3e7fa-5037-5148-b4f4-27c9c52c1a9b",
+      "name": "zucchini",
+      "normalized_name": "zucchini",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 11
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 12
+    },
+    {
+      "ingredient_id": "b0d6e9eb-5e4c-5043-a7b0-239a64af30ea",
+      "name": "ounce) can garbanzo beans",
+      "normalized_name": "ounce can garbanzo beans",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "735a9e8e-adcb-5012-8a67-19a8d5bdf5e2",
+      "slug": "minestrone",
+      "name": "Minestrone"
+    }
+  ],
+  "tags": [
+    {
+      "id": "781e9dda-ec68-58bd-8466-fa2cd5883626",
+      "slug": "minestrone",
+      "name": "Minestrone",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228717/beks-minestrone-soup"
+  },
+  "public": true,
+  "updated_at": 1554350009,
+  "revision": 1
+}

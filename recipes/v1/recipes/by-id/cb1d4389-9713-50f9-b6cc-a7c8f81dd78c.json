@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cb1d4389-9713-50f9-b6cc-a7c8f81dd78c",
+  "slug": "raspberry-balsamic-vinaigrette-dressing",
+  "name": "Raspberry Balsamic Vinaigrette Dressing",
+  "recipe_type": "salad",
+  "brief_description": "This restaurant-worthy raspberry balsamic vinaigrette is simple to make with oil, honey mustard, garlic, and two types of balsamic vinegar.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine oil, raspberry balsamic vinegar, balsamic vinegar, brown sugar, garlic, and mustard in a sealable jar. Seal the jar and shake vigorously until dressing is well-combined. Refrigerate until flavors combine, at least 1 hour."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cb1d4389-9713-50f9-b6cc-a7c8f81dd78c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "98 kcal",
+    "carbohydrateContent": "4 g",
+    "proteinContent": "0 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "19 mg",
+    "sugarContent": "3 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2c8a7d95-8108-5049-b8a2-9174cbd7c756",
+      "name": "raspberry balsamic vinegar",
+      "normalized_name": "raspberry balsamic vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "362e8788-4b07-5d90-b5e6-28134dd6bd01",
+      "name": "balsamic vinegar",
+      "normalized_name": "balsamic vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "a32afc0d-6854-561a-8783-3f1a34ead120",
+      "name": "honey dijon mustard",
+      "normalized_name": "honey dijon mustard",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "b81ebb73-48d1-5e2f-8859-20aaee21473c",
+      "slug": "salad-dressing",
+      "name": "Salad Dressing"
+    }
+  ],
+  "tags": [
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "ee0f3590-ad30-5c9d-b0a5-f9a1018a6177",
+      "slug": "salad-dressing-recipes",
+      "name": "Salad Dressing Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "1feb6745-4c3a-532c-8017-0b2e3fe6bf86",
+      "slug": "raspberries",
+      "name": "Raspberries",
+      "color": null
+    },
+    {
+      "id": "2cb58cae-746d-5ef8-ba74-d13c0b25c95f",
+      "slug": "fruit-dressing-recipes",
+      "name": "Fruit Dressing Recipes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "47284bc0-1a10-5168-9ee0-5300871f4453",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments",
+      "color": null
+    },
+    {
+      "id": "bb561413-f49c-5029-956b-c7037608823d",
+      "slug": "berries",
+      "name": "Berries",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241621/raspberry-balsamic-vinaigrette-dressing"
+  },
+  "public": true,
+  "updated_at": 1782760157,
+  "revision": 1
+}

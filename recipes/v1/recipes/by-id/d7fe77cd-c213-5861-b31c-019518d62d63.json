@@ -1,0 +1,240 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d7fe77cd-c213-5861-b31c-019518d62d63",
+  "slug": "antipasto-salad-ii",
+  "name": "Antipasto Salad",
+  "recipe_type": "salad",
+  "brief_description": "This antipasto salad is dressed in vinaigrette with 2 kinds of salami, 2 kinds of cheese, artichoke hearts, olives, tomatoes, and roasted red peppers.",
+  "cuisine": "Italian Inspired Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine Genoa and soppressata salamis, provolone, mozzarella, tomatoes, and artichokes in a bowl. Slice roasted red peppers and add them to the bowl with about 3 tablespoons juice from the red pepper jar. Mix in chopped olives."
+    },
+    {
+      "position": 2,
+      "text": "Drizzle olive oil over salami mixture, followed by red wine vinegar. Season with pepper. Mix thoroughly. Store in the refrigerator until serving time."
+    },
+    {
+      "position": 3,
+      "text": "Before serving, tear fresh basil leaves into bite-sized pieces and fold them into salad."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d7fe77cd-c213-5861-b31c-019518d62d63/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "383 kcal",
+    "carbohydrateContent": "8 g",
+    "cholesterolContent": "74 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "1784 mg",
+    "sugarContent": "2 g",
+    "fatContent": "29 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f4333f6c-2011-5141-a0ca-e690aeb11983",
+      "name": "genoa salami",
+      "normalized_name": "genoa salami",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "cut into bite-size pieces",
+      "position": 1
+    },
+    {
+      "ingredient_id": "599600ce-41f3-5138-aee4-323e751dbddb",
+      "name": "sopressata or other hard salami",
+      "normalized_name": "sopressata or other hard salami",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "cut into bite-size pieces",
+      "position": 2
+    },
+    {
+      "ingredient_id": "09175287-2216-5572-a8cd-e4ef11d88a95",
+      "name": "sharp provolone cheese",
+      "normalized_name": "sharp provolone cheese",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "cut into bite-size pieces",
+      "position": 3
+    },
+    {
+      "ingredient_id": "23530132-e54a-5954-b233-db1f7f92b42e",
+      "name": "fresh mozzarella cheese",
+      "normalized_name": "fresh mozzarella cheese",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "cut into bite-size pieces",
+      "position": 4
+    },
+    {
+      "ingredient_id": "1bae2dfb-2c2b-5c17-bd41-7b4ddeb698de",
+      "name": "large tomatoes",
+      "normalized_name": "large tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into bite-size pieces",
+      "position": 5
+    },
+    {
+      "ingredient_id": "1e32989d-bad5-54a2-b75a-9bebda57286c",
+      "name": "ounce) can artichokes",
+      "normalized_name": "ounce can artichokes",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": "drained and cut into bite-size pieces",
+      "position": 6
+    },
+    {
+      "ingredient_id": "5f7f71bb-4574-597e-a18e-afaf0e5c62e8",
+      "name": "ounce) jar roasted red peppers",
+      "normalized_name": "ounce jar roasted red peppers",
+      "quantity": "0.5 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "1c8df123-be0a-5b4d-a0dd-165c6ea7d701",
+      "name": "pitted and coarsely chopped kalamata olives",
+      "normalized_name": "pitted and coarsely chopped kalamata olives",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a20d44ba-70ba-5b06-afa9-a583f2ba40c5",
+      "name": "pitted and chopped green olives",
+      "normalized_name": "pitted and chopped green olives",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "9aa44676-d867-511d-bf77-4a0d2b57854a",
+      "name": "extra-virgin olive oil",
+      "normalized_name": "extra-virgin olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "3984a17a-560e-5498-8e4b-ecdeaafe5951",
+      "name": "red wine vinegar",
+      "normalized_name": "red wine vinegar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "ca7925a7-bbf2-54ae-88af-5c34df3b534b",
+      "name": "freshly-ground black pepper",
+      "normalized_name": "freshly-ground black pepper",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": "to taste",
+      "position": 12
+    },
+    {
+      "ingredient_id": "82c6f85d-d67d-53e8-8bf9-eacb7978629d",
+      "name": "fresh basil leaves",
+      "normalized_name": "fresh basil leaves",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "54bcc1c2-56db-58ad-864e-5e82d0bdba46",
+      "slug": "potluck",
+      "name": "Potluck",
+      "color": null
+    },
+    {
+      "id": "a95ab444-6adc-5563-8da9-03eb51a648bc",
+      "slug": "artichoke-salad-recipes",
+      "name": "Artichoke Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "78473c97-855b-56e2-9592-0f1aaab60f59",
+      "slug": "mozzarella",
+      "name": "Mozzarella",
+      "color": null
+    },
+    {
+      "id": "3a456e08-8377-5099-a672-a439d0140ecb",
+      "slug": "artichokes",
+      "name": "Artichokes",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "c1d36a4f-e621-5c50-932e-8a7e7f254e4c",
+      "slug": "provolone",
+      "name": "Provolone",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216641/antipasto-salad-ii"
+  },
+  "public": true,
+  "updated_at": 1781190968,
+  "revision": 1
+}

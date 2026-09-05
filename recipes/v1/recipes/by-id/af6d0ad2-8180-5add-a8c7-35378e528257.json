@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "af6d0ad2-8180-5add-a8c7-35378e528257",
+  "slug": "ginger-fried-rice",
+  "name": "Ginger Fried Rice",
+  "recipe_type": "side",
+  "brief_description": "A simple ginger fried rice recipe full of delicious flavor from carrots, green onions, and seasoning makes the perfect side to any Asian-inspired meal.",
+  "cuisine": "Asian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat 1/4 cup olive oil in a large skillet over medium heat. Add green onions, shredded carrots, eggs, ginger paste, minced garlic, and salt. Stir gently until eggs are cooked through, 4 to 5 minutes. Transfer to a bowl."
+    },
+    {
+      "position": 2,
+      "text": "Pour remaining 1/4 cup oil into the same skillet and add rice. Fry for 2 minutes. Add soy sauce, oyster sauce, Sriracha sauce, and sesame oil; stir to combine. Add egg mixture back into the skillet and stir gently to combine. Cook for 2 minutes more."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/af6d0ad2-8180-5add-a8c7-35378e528257/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "302 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "82 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "713 mg",
+    "sugarContent": "1 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "d2419bf2-0d9b-5c7e-99d4-a4560b8b2bca",
+      "name": "sliced green onions",
+      "normalized_name": "sliced green onions",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d050a767-79e7-5cf3-8a6a-b06945560279",
+      "name": "shredded carrots",
+      "normalized_name": "shredded carrots",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "lightly beaten",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c51d161e-b2f2-598e-bcb8-904654ce24b8",
+      "name": "ginger paste",
+      "normalized_name": "ginger paste",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3751c9c2-2a6a-5a5d-ae26-3ce8261cd8c0",
+      "name": "day-old cooked white rice",
+      "normalized_name": "day-old cooked white rice",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "63041ac9-6930-5398-b18d-13ee1400cb3f",
+      "name": "oyster sauce",
+      "normalized_name": "oyster sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "e65d3456-f471-5e3c-b3c2-d0d162f93e20",
+      "name": "sriracha sauce",
+      "normalized_name": "sriracha sauce",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "3abb4365-ccad-5837-b651-d178c73fe82c",
+      "slug": "fried-rice",
+      "name": "Fried Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "b06f0c5b-7919-511f-9eeb-ad9b9e1ed1a0",
+      "slug": "grains",
+      "name": "Grains",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "4bbf3490-84b7-5429-acd1-f3f32d9749b1",
+      "slug": "whole-grain",
+      "name": "Whole Grain",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/280073/ginger-fried-rice"
+  },
+  "public": true,
+  "updated_at": 1657030823,
+  "revision": 1
+}

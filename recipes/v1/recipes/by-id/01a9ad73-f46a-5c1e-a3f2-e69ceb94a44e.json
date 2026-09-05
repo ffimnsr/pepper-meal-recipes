@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "01a9ad73-f46a-5c1e-a3f2-e69ceb94a44e",
+  "slug": "hamburger-gravy",
+  "name": "Hamburger Gravy",
+  "recipe_type": "side",
+  "brief_description": "This hamburger gravy recipe uses pan drippings, flour, and milk to create a thick, meaty gravy you can serve over noodles, mashed potatoes or biscuits.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Cook ground beef in a large skillet over medium-high heat until evenly browned and crumbly, 7 to 8 minutes. Remove from the heat and sprinkle flour over top; stir until beef is evenly coated and all fat is absorbed."
+    },
+    {
+      "position": 3,
+      "text": "Return the skillet to the stove over medium heat. Stir in 2 cups milk; cook and stir until warm and beginning to thicken, 3 to 5 minutes. Add remaining 2 cups milk; cook and stir until desired consistency has been reached and gravy comes to a boil, about 5 minutes. Season with onion salt, salt, and pepper."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/01a9ad73-f46a-5c1e-a3f2-e69ceb94a44e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "375 kcal",
+    "carbohydrateContent": "9 g",
+    "cholesterolContent": "95 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "355 mg",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5e0af050-e6bb-5652-b5bc-9f70d65e2dae",
+      "name": "onion salt",
+      "normalized_name": "onion salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "df0dbffa-e580-5a23-819f-ace03de714f7",
+      "slug": "sauce",
+      "name": "Sauce"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "18b28cb8-4cd8-5232-b635-1f1ecee9d5ee",
+      "slug": "gravy",
+      "name": "Gravy"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "b563874f-11e6-5d61-a701-2bd3f87e15b1",
+      "slug": "gravy-recipes",
+      "name": "Gravy Recipes",
+      "color": null
+    },
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "47284bc0-1a10-5168-9ee0-5300871f4453",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13769/hamburger-gravy"
+  },
+  "public": true,
+  "updated_at": 1760729965,
+  "revision": 1
+}

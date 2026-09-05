@@ -1,0 +1,181 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "75c4343f-0113-5f07-93ff-4a09a01264e8",
+  "slug": "frozen-vegetable-stir-fry",
+  "name": "Frozen Vegetable Stir-Fry",
+  "recipe_type": "side",
+  "brief_description": "This quick stir fry with frozen veggies has a tasty Thai-style flavor thanks to the addition of soy sauce, peanut butter, and brown sugar.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine soy sauce, brown sugar, peanut butter, and garlic powder in a small bowl."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a large skillet over medium heat. Add frozen mixed vegetables; cook and stir until just tender, 5 to 7 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Remove from heat and fold in soy sauce mixture."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/75c4343f-0113-5f07-93ff-4a09a01264e8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "88 kcal",
+    "carbohydrateContent": "14 g",
+    "fiberContent": "3 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "345 mg",
+    "sugarContent": "3 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6290592f-3815-50ca-91ed-8c33823c514e",
+      "name": "peanut butter",
+      "normalized_name": "peanut butter",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "37d1c66f-044a-534d-89ac-bafa087dd487",
+      "name": "ounce) package frozen mixed vegetables",
+      "normalized_name": "ounce package frozen mixed vegetables",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "a954f7c7-64e6-5e0d-a6e9-db6ead009ad0",
+      "slug": "diabetic",
+      "name": "Diabetic",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222658/frozen-vegetable-stir-fry"
+  },
+  "public": true,
+  "updated_at": 1764605972,
+  "revision": 1
+}

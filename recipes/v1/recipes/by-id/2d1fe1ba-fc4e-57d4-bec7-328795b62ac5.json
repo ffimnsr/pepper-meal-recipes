@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2d1fe1ba-fc4e-57d4-bec7-328795b62ac5",
+  "slug": "bubble-n-squeak",
+  "name": "Bubble and Squeak",
+  "recipe_type": "side",
+  "brief_description": "Bubble and squeak is a delicious way to use leftover potatoes, cabbage, or any veggies for a comforting side dish that makes the most of leftovers.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Cook cabbage in a medium saucepan with a small amount of water until tender, about 3 to 5 minutes. Drain, and set aside."
+    },
+    {
+      "position": 3,
+      "text": "Cook bacon and onion in a well-seasoned cast iron skillet until onion is soft and bacon is cooked, about 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Add ham, and cook until heated through. Add butter, then mix in cooked cabbage and potatoes; season with paprika, salt, and pepper. Cook until browned on the bottom, turn, and brown again."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2d1fe1ba-fc4e-57d4-bec7-328795b62ac5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "159 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "23 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "423 mg",
+    "sugarContent": "4 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5be89882-0d08-5dbc-981a-90a42b414a47",
+      "name": "medium head cabbage",
+      "normalized_name": "medium head cabbage",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "thinly sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "cbc6cd72-2cde-5471-bfa5-e093268ee933",
+      "name": "cubed cooked ham",
+      "normalized_name": "cubed cooked ham",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "6250895e-7db2-5615-9183-12e6cf13a3d2",
+      "name": "potatoes - baked",
+      "normalized_name": "potatoes - baked",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": "cooled and thinly sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    }
+  ],
+  "tags": [
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "17a00a36-f7a8-5867-99e4-371be3f635e5",
+      "slug": "green-cabbage",
+      "name": "Green Cabbage",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "40044905-5641-52ce-8e18-26e3afdeb43f",
+      "slug": "occasions",
+      "name": "Occasions",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18854/bubble-n-squeak"
+  },
+  "public": true,
+  "updated_at": 1781520496,
+  "revision": 1
+}

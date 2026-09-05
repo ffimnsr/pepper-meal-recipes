@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b631abd6-c6b3-5922-9853-b5749868e060",
+  "slug": "risotto-alla-milanese",
+  "name": "Risotto alla Milanese",
+  "recipe_type": "main",
+  "brief_description": "Typical Italian risotto as the tradition of my city wants it. Directly from Milano I send you this wonderful recipe!",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt half of the butter in a medium saucepan over low heat. Simmer the onion and beef marrow in the butter for about 10 minutes. When the onion is soft, remove the onion and marrow from the pan using a slotted spoon, and set aside. (I like to leave the onions in.)"
+    },
+    {
+      "position": 2,
+      "text": "Saute the rice in the pan over medium heat for 5 to 7 minutes, or until lightly toasted. Stir constantly so the rice will not stick and burn. Stir in one ladle of beef stock, and keep stirring until it is mostly absorbed, ladling and stirring in more of the broth as well as the white wine in the same manner, until the rice is almost al dente. Stir in the saffron, remaining butter, and 3/4 cup of Parmesan cheese. Turn off the heat, cover and let sit for 4 or 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Serve as a bed for ossibuchi or by itself with as much of the remaining Parmesan cheese sprinkled over as you like."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b631abd6-c6b3-5922-9853-b5749868e060/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "834 kcal",
+    "carbohydrateContent": "90 g",
+    "cholesterolContent": "94 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "28 g",
+    "saturatedFatContent": "22 g",
+    "sodiumContent": "711 mg",
+    "sugarContent": "6 g",
+    "fatContent": "35 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1a6b198e-98f0-5ff3-a10d-692470fc6ed5",
+      "name": "uncooked arborio rice",
+      "normalized_name": "uncooked arborio rice",
+      "quantity": "1.75",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "eeb3186d-5d50-5426-9188-7a7b786a5202",
+      "name": "quarts beef stock",
+      "normalized_name": "quarts beef stock",
+      "quantity": "1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d73dd825-8f67-505c-9f12-6995ac5a536d",
+      "name": "beef marrow",
+      "normalized_name": "beef marrow",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "thinly sliced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "93156d00-12a7-5fee-8cde-5afabfda6eca",
+      "name": "saffron powder",
+      "normalized_name": "saffron powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "32c068b2-dc92-5c1c-85e9-b0c98004f775",
+      "name": "dry white wine",
+      "normalized_name": "dry white wine",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "01359e67-e8a2-58b2-9547-4595faf03021",
+      "slug": "risotto",
+      "name": "Risotto"
+    }
+  ],
+  "tags": [
+    {
+      "id": "350013f8-2f45-510a-9b9f-63b3c7f40dc9",
+      "slug": "risotto-recipes",
+      "name": "Risotto Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "f4c7c175-6448-5a68-9f4f-c70b281bdec1",
+      "slug": "barbera",
+      "name": "Barbera",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/31815/risotto-alla-milanese"
+  },
+  "public": true,
+  "updated_at": 1779379263,
+  "revision": 1
+}

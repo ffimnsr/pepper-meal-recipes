@@ -1,0 +1,226 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ccb54f08-d2b9-50fa-a918-a66506018070",
+  "slug": "chicken-long-rice-soup",
+  "name": "Chicken Long Rice Soup",
+  "recipe_type": "soup",
+  "brief_description": "This Hawaiian-style chicken soup has been a family favorite for many generations. The leftovers are great, and it freezes well. Even my Texas man loves it!",
+  "cuisine": "Hawaiian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring chicken broth, chicken, salt, and ginger to a boil in a large pot over high heat, then reduce heat to medium-low and simmer until chicken tender and no longer pink, about 35 minutes. Remove chicken; strain broth into a new pot. Discard remaining solids."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, place noodles in a large bowl and cover with hot water. Set aside until noodles softened, about 30 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir onion into broth; bring to a boil, then reduce heat to medium-low. Meanwhile, remove skin and bones from chicken; discard. Roughly chop chicken meat."
+    },
+    {
+      "position": 4,
+      "text": "After noodles sat 30 minutes, stir noodles, chicken, green onion, and bok choy into broth; simmer until noodles tender."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ccb54f08-d2b9-50fa-a918-a66506018070/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "396 kcal",
+    "carbohydrateContent": "29 g",
+    "cholesterolContent": "102 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "33 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "1118 mg",
+    "sugarContent": "3 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3e9b8f3a-c82c-562c-9c4d-f55b1942233c",
+      "name": "ounce) cartons low-sodium chicken broth",
+      "normalized_name": "ounce cartons low-sodium chicken broth",
+      "quantity": "3 (32",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "1e226b04-8d5d-525f-aa3d-1c6a11c1ccaa",
+      "name": "chicken leg quarters",
+      "normalized_name": "chicken leg quarters",
+      "quantity": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5f4482d0-6873-50af-b870-0ee717c70786",
+      "name": "hawaiian sea salt",
+      "normalized_name": "hawaiian sea salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ddb8a435-1ae8-5a8e-83e4-8d0d84a9102e",
+      "name": "inch) piece fresh ginger root",
+      "normalized_name": "inch piece fresh ginger root",
+      "quantity": "1 (1/2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "3a0a6d0d-79f5-5f2a-948a-1ac8161b0f8f",
+      "name": "ounce) package uncooked bean threads (cellophane noodles)",
+      "normalized_name": "ounce package uncooked bean threads",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c0c828cb-9a7e-5d28-98aa-e4c5ce041c8d",
+      "name": "large maui sweet onion",
+      "normalized_name": "large maui sweet onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cubed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "d6672984-293d-5341-a773-3613abe74951",
+      "name": "bunch green onions",
+      "normalized_name": "bunch green onions",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "thinly sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "1c6a8dee-f1a1-5ca1-8c56-7fb411d8e28a",
+      "name": "small head bok choy",
+      "normalized_name": "small head bok choy",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "95237eae-d985-5390-a1a3-cc4324d8aa85",
+      "slug": "noodle-soup",
+      "name": "Noodle Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b5e67bcd-e37c-509e-81e3-fe562ee95b34",
+      "slug": "rice-noodle-recipes",
+      "name": "Rice Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "170a28a4-5360-5e89-accb-7ecc55c5340b",
+      "slug": "spring",
+      "name": "Spring",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "69d9c1a1-e65a-5d1b-8125-29e2d6a07682",
+      "slug": "texas-recipes",
+      "name": "Texas Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "a0d28738-e8e1-5472-b5d0-058cdd5cf5d5",
+      "slug": "family-heirloom",
+      "name": "Family Heirloom",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/112818/chicken-long-rice-soup"
+  },
+  "public": true,
+  "updated_at": 1776276688,
+  "revision": 1
+}

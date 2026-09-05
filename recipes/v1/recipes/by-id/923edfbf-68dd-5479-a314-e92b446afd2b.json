@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "923edfbf-68dd-5479-a314-e92b446afd2b",
+  "slug": "simple-ground-beef-stroganoff",
+  "name": "Simple Ground Beef Stroganoff",
+  "recipe_type": "soup",
+  "brief_description": "This simple ground beef stroganoff recipe uses cream of mushroom soup, cream of celery soup, and sour cream, along with ground beef and egg noodles.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat 1 tablespoon butter and oil in a skillet over medium-high heat. Add onion and garlic powder; cook and stir until onion is golden brown, 5 to 7 minutes. Reduce heat to medium. Add ground beef; cook and stir until browned and crumbly, 5 to 7 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, fill a large pot with lightly salted water and bring to a rolling boil. Stir in egg noodles and return to a boil. Cook noodles, uncovered, stirring occasionally, until tender yet firm to the bite, about 6 minutes. Drain; return noodles to the pot."
+    },
+    {
+      "position": 3,
+      "text": "Stir sour cream and remaining 1 \u00bd teaspoons butter into ground beef in skillet. Add cream of mushroom soup, cream of celery soup, paprika, salt, and black pepper; stir well. Cook, stirring occasionally, until sauce thickens to desired consistency, about 10 minutes. Stir sauce into egg noodles until evenly coated."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/923edfbf-68dd-5479-a314-e92b446afd2b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "509 kcal",
+    "carbohydrateContent": "49 g",
+    "cholesterolContent": "108 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "877 mg",
+    "sugarContent": "3 g",
+    "fatContent": "25 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "55a8a7ae-285d-5a20-9a49-57ae30636e3e",
+      "name": "ounce) package egg noodles",
+      "normalized_name": "ounce package egg noodles",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "9c118a30-7fd3-5537-8441-1ae0362bce35",
+      "name": "ounce) can condensed cream of celery soup",
+      "normalized_name": "ounce can condensed cream of celery soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "44079fa6-9e49-52c2-8b4a-e01d5920c8a6",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles"
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ac8de754-d8ea-5320-af85-732a6550c67d",
+      "slug": "ground-beef",
+      "name": "Ground Beef",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262060/simple-ground-beef-stroganoff"
+  },
+  "public": true,
+  "updated_at": 1744232897,
+  "revision": 1
+}

@@ -1,0 +1,224 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f49a313d-6381-59af-8761-100c7162d54c",
+  "slug": "deluxe-corned-beef-hash",
+  "name": "Deluxe Corned Beef Hash",
+  "recipe_type": "breakfast",
+  "brief_description": "This corned beef hash combines cooked corned beef with crispy potatoes and onions for a delicious way to use up leftover St. Paddy's Day corned beef.",
+  "cuisine": "Irish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter with olive oil in a large skillet over medium heat. Cook and stir onion until lightly browned, about 8 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir in potatoes and carrot; cook, stirring occasionally, until tender, about 15 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Stir in corned beef, parsley, pepper, thyme, and salt. Cook, stirring often, until hash is crisp and browned, 10 to 15 more minutes."
+    },
+    {
+      "position": 5,
+      "text": "Serve and enjoy!"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f49a313d-6381-59af-8761-100c7162d54c/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/SeN5xxTN-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "320 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "82 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "1559 mg",
+    "sugarContent": "1 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "9aa44676-d867-511d-bf77-4a0d2b57854a",
+      "name": "extra-virgin olive oil",
+      "normalized_name": "extra-virgin olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "da1873fc-5b12-598e-af25-d36f7ca90987",
+      "name": "large yukon gold potatoes",
+      "normalized_name": "large yukon gold potatoes",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "peeled and cut into 1/4-inch cubes",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c8426aad-8c25-516c-a538-f5a93f92c721",
+      "name": "large carrot",
+      "normalized_name": "large carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "coarsely shredded",
+      "position": 5
+    },
+    {
+      "ingredient_id": "f3dfee75-c7bd-55f1-9e27-5f2ebbf082df",
+      "name": "cooked corned beef",
+      "normalized_name": "cooked corned beef",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "cubed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 8
+    },
+    {
+      "ingredient_id": "cff81fd6-1f8b-5984-9efb-02a5189e2031",
+      "name": "dried thyme leaves",
+      "normalized_name": "dried thyme leaves",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "47a10d55-3b96-5a64-8d3c-0fec01f5d038",
+      "slug": "potatoes",
+      "name": "Potatoes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "1377e8b7-e214-5a16-8a8f-8f637f2a7e3f",
+      "slug": "brisket",
+      "name": "Brisket",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "a4b5e8ec-448d-5625-ba32-c1b390f72278",
+      "slug": "irish",
+      "name": "Irish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216981/deluxe-corned-beef-hash"
+  },
+  "public": true,
+  "updated_at": 1771954020,
+  "revision": 1
+}

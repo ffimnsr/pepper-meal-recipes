@@ -1,0 +1,232 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e0763cb0-f210-5ae6-99ce-4fd539a58d59",
+  "slug": "strawberry-and-feta-salad",
+  "name": "Strawberry and Feta Salad",
+  "recipe_type": "salad",
+  "brief_description": "This strawberry feta salad with romaine, toasted almonds, and a sweet-tangy vinaigrette dressing is a delicious way to enjoy summer strawberries!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place almonds in a skillet over medium-high heat; cook, stirring frequently, until lightly toasted. Remove from heat; set aside."
+    },
+    {
+      "position": 3,
+      "text": "To make the dressing: whisk garlic, honey, Dijon mustard, raspberry vinegar, balsamic vinegar, brown sugar, and vegetable oil together until well combined."
+    },
+    {
+      "position": 4,
+      "text": "Place toasted almonds, romaine lettuce, strawberries, and feta cheese in a salad bowl; add dressing and toss to coat."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e0763cb0-f210-5ae6-99ce-4fd539a58d59/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "378 kcal",
+    "carbohydrateContent": "12 g",
+    "cholesterolContent": "22 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "301 mg",
+    "sugarContent": "8 g",
+    "fatContent": "34 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "948e2a98-0dfe-5377-8100-bde72b87cf75",
+      "name": "slivered almonds",
+      "normalized_name": "slivered almonds",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c43f0603-4761-5956-842c-cacc7ec997cf",
+      "name": "dijon mustard",
+      "normalized_name": "dijon mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "e8d5cce3-985a-5122-ab38-3ffad53cfd78",
+      "name": "raspberry vinegar",
+      "normalized_name": "raspberry vinegar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "362e8788-4b07-5d90-b5e6-28134dd6bd01",
+      "name": "balsamic vinegar",
+      "normalized_name": "balsamic vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "dcd729e7-8baa-594b-a934-5243b6b912cc",
+      "name": "head romaine lettuce",
+      "normalized_name": "head romaine lettuce",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "torn",
+      "position": 9
+    },
+    {
+      "ingredient_id": "58907081-e76d-565d-83f1-13801899236f",
+      "name": "pint fresh strawberries",
+      "normalized_name": "pint fresh strawberries",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "cbedf4a1-173e-56ae-92c0-3595384b0e2c",
+      "name": "crumbled feta cheese",
+      "normalized_name": "crumbled feta cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "ba6bd742-8c7c-5fab-beee-026a3280f2c4",
+      "slug": "dairy",
+      "name": "Dairy",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "c435539b-7fb9-5280-93dc-22b3b882cd67",
+      "slug": "lettuce",
+      "name": "Lettuce",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/62686/strawberry-and-feta-salad"
+  },
+  "public": true,
+  "updated_at": 1778002898,
+  "revision": 1
+}

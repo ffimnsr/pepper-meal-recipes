@@ -1,0 +1,175 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c6129a97-bee9-5fda-83b6-49fa85b8fbd3",
+  "slug": "perfect-porterhouse-steak",
+  "name": "Perfect Porterhouse Steak",
+  "recipe_type": "main",
+  "brief_description": "Tenderize porterhouse steak and marinate it for 20 minutes, then pop it on the BBQ for a perfectly grilled cut of beef that's worthy of a special occasion.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place steak onto a plate; coat with olive oil, rub with tenderizer, then gently rub with steak seasoning. Cover with plastic wrap and let stand for 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Meanwhile, preheat a grill for high heat. When hot, lightly oil the grate."
+    },
+    {
+      "position": 4,
+      "text": "Cook steak on the preheated grill until hot, slightly pink in the center, and beginning to firm, 3 to 5 minutes per side. An instant-read thermometer inserted into the center should read 140 degrees F (60 degrees C) for medium."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c6129a97-bee9-5fda-83b6-49fa85b8fbd3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "461 kcal",
+    "cholesterolContent": "94 mg",
+    "proteinContent": "27 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "1025 mg",
+    "fatContent": "37 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b666cb5a-0c6a-5fb0-9d50-ec64dc4ec330",
+      "name": "porterhouse steak",
+      "normalized_name": "porterhouse steak",
+      "quantity": "20",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6372811f-1cf9-5e03-a295-3b8f2662d52b",
+      "name": "meat tenderizer",
+      "normalized_name": "meat tenderizer",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f2e405cb-0733-515d-8d04-7cc7817e1ac8",
+      "name": "steak seasoning",
+      "normalized_name": "steak seasoning",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "557a9d28-0ebf-5c7b-8dbb-bf1dc43515d0",
+      "slug": "steaks",
+      "name": "Steaks"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "1cfa2a4e-ee4e-58e0-8f61-2af2ed73ac95",
+      "slug": "short-loin",
+      "name": "Short Loin",
+      "color": null
+    },
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "5320ba41-4f75-53b3-808a-7c2080fb3a7f",
+      "slug": "cook-once",
+      "name": "Cook Once",
+      "color": null
+    },
+    {
+      "id": "705381f7-76d5-5557-9b84-f5f63ae5c1ef",
+      "slug": "eat-twice-recipes",
+      "name": "Eat Twice Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16536/perfect-porterhouse-steak"
+  },
+  "public": true,
+  "updated_at": 1765204149,
+  "revision": 1
+}

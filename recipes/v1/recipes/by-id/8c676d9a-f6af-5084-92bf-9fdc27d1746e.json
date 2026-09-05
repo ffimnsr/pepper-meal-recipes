@@ -1,0 +1,239 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8c676d9a-f6af-5084-92bf-9fdc27d1746e",
+  "slug": "spicy-guacamole",
+  "name": "Spicy Guacamole",
+  "recipe_type": "appetizer",
+  "brief_description": "Made with red pepper flakes, cayenne, and jalapenos, this spicy guacamole is a quick and relatively healthy snack.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Add avocados and lemon juice to a medium mixing bowl; mash until desired consistency is almost reached. Stir in tomatoes, scallions, jalapeno peppers, garlic, cilantro, salt, red pepper flakes, pepper, and cayenne. Taste guacamole and adjust for seasoning."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8c676d9a-f6af-5084-92bf-9fdc27d1746e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "179 kcal",
+    "carbohydrateContent": "14 g",
+    "fiberContent": "9 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "305 mg",
+    "sugarContent": "2 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3a6613c8-447e-51a7-b1d6-12611718c80c",
+      "name": "ripe avocados",
+      "normalized_name": "ripe avocados",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "peeled and pitted",
+      "position": 1
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "d07117a7-b2ef-5b2f-bc0a-0939302537dd",
+      "name": "roma tomatoes",
+      "normalized_name": "roma tomatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "seeded and finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "2e29badd-0fe0-5541-8c39-bad1a1651fe8",
+      "name": "scallions",
+      "normalized_name": "scallions",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "white parts only, thinly sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "4db9bfac-b397-5b97-9f27-bd286069b2da",
+      "name": "jalapeno peppers",
+      "normalized_name": "jalapeno peppers",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5e105923-4713-55af-923e-012f0330312a",
+      "name": "sea salt",
+      "normalized_name": "sea salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "47c10879-f6b3-56ce-b5af-359974be4f2a",
+      "name": "cayenne pepper",
+      "normalized_name": "cayenne pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "5611510c-11ff-5c0b-aee0-6696f963fc70",
+      "slug": "guacamole",
+      "name": "Guacamole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "8623c0fa-6d3d-5cd5-9d6a-33d7e8f3e14f",
+      "slug": "guacamole-recipes",
+      "name": "Guacamole Recipes",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "f8ef87d6-0290-59c2-8196-4971f34fe7e6",
+      "slug": "dips-and-spreads-recipes",
+      "name": "Dips and Spreads Recipes",
+      "color": null
+    },
+    {
+      "id": "e857a6cf-50b6-58e9-bc19-9f8a61c62d75",
+      "slug": "jalapeno",
+      "name": "Jalapeno",
+      "color": null
+    },
+    {
+      "id": "59c8fee8-43a1-5f05-bdc1-0446f6b2bcb1",
+      "slug": "spicy",
+      "name": "Spicy",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "ebf99938-61a8-5ffe-b436-629f58509306",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279457/spicy-guacamole"
+  },
+  "public": true,
+  "updated_at": 1739979194,
+  "revision": 1
+}

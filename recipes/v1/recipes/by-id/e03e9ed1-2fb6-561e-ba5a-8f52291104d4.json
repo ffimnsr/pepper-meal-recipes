@@ -1,0 +1,224 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e03e9ed1-2fb6-561e-ba5a-8f52291104d4",
+  "slug": "sweet-potato-cranberry-bake",
+  "name": "Sweet Potato Cranberry Bake",
+  "recipe_type": "dessert",
+  "brief_description": "The Thanksgiving staples, yams and cranberries, come together to make a sweet and tart side dish.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Combine cranberries, orange slices, sugar, pecans, orange juice, cinnamon, nutmeg, and mace in a 2-quart baking dish."
+    },
+    {
+      "position": 3,
+      "text": "Bake in preheated oven until cranberries soften, about 30 minutes. Stir yams into cranberry mixture and continue baking until heated through, about 15 minutes more."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e03e9ed1-2fb6-561e-ba5a-8f52291104d4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "218 kcal",
+    "carbohydrateContent": "45 g",
+    "fiberContent": "4 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "25 mg",
+    "sugarContent": "38 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e381f064-98e1-5073-9764-6d7418c11e52",
+      "name": "ounce) package whole cranberries",
+      "normalized_name": "ounce package whole cranberries",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "871acf0d-42b4-5f23-ad7d-e81ea08e91e1",
+      "name": "small unpeeled orange",
+      "normalized_name": "small unpeeled orange",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1.3333333730698",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "42f2244f-806b-5043-b3e9-4312dcde7b7f",
+      "name": "pecan pieces",
+      "normalized_name": "pecan pieces",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5f2347f6-33f3-597d-834e-20653545df33",
+      "name": "orange juice",
+      "normalized_name": "orange juice",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cffe613f-c8ae-59af-9060-fa75cb897432",
+      "name": "ground mace",
+      "normalized_name": "ground mace",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e70e34fe-2ec3-5fbc-a77f-6dd58fceb0cc",
+      "name": "ounce) can cut yams",
+      "normalized_name": "ounce can cut yams",
+      "quantity": "1 (40",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    },
+    {
+      "id": "71b8f6c8-eab9-523a-8fe5-92dd906e72ca",
+      "slug": "sweet-potatoes",
+      "name": "Sweet Potatoes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "508b93c7-2692-52e2-92e8-8ba26eda8a95",
+      "slug": "sweet-potato",
+      "name": "Sweet Potato",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "9247e915-94df-5936-8bb0-46841c369b86",
+      "slug": "casseroles",
+      "name": "Casseroles",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "f275f5a1-e0b2-586d-9bac-3b36e90de2ba",
+      "slug": "sweet-potatoes",
+      "name": "Sweet Potatoes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230825/sweet-potato-cranberry-bake"
+  },
+  "public": true,
+  "updated_at": 1642141477,
+  "revision": 1
+}

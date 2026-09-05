@@ -1,0 +1,227 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "debd2568-34b9-53b7-a995-b1215f732d41",
+  "slug": "three-pepper-pilaf",
+  "name": "Three Pepper Pilaf",
+  "recipe_type": "side",
+  "brief_description": "This colorful dish features red, green and yellow bell peppers with in turmeric-gold rice and scarlet tomatoes. Beautiful to look at, even better to eat.",
+  "cuisine": "World",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large pot, boil chicken pieces in chicken stock, adding onion and garlic to stock before boiling. When chicken is cooked through, remove from stock and set aside. Add turmeric and stir in, then set stock aside."
+    },
+    {
+      "position": 2,
+      "text": "In a large skillet, heat oil. Add mushrooms and saute for 1 minute. Add rice, stir for 2 minutes, then add stock. Let all simmer gently for 20 minutes. In the meantime, skin and slice tomatoes and add to pilaf mixture. Cut cooked chicken into bite size pieces and add to the skillet, along with the red, green and yellow bell peppers. Stir all together and simmer over low heat, stirring, until all liquid is absorbed and rice is separate and fluffy."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/debd2568-34b9-53b7-a995-b1215f732d41/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "467 kcal",
+    "carbohydrateContent": "83 g",
+    "cholesterolContent": "58 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "551 mg",
+    "sugarContent": "8 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5530eebd-10f0-5e6c-8b4b-9084b093ffd6",
+      "name": "skinless chicken thighs",
+      "normalized_name": "skinless chicken thighs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6fe26b3-81da-5f50-8065-5bc6819dddfa",
+      "name": "ground turmeric",
+      "normalized_name": "ground turmeric",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "dbadff2b-40cb-5a7c-be14-28f1a1f4c7e4",
+      "name": "fresh mushrooms",
+      "normalized_name": "fresh mushrooms",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": "sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "69eb52aa-d6ef-508d-828e-206be1969dfb",
+      "name": "uncooked white rice",
+      "normalized_name": "uncooked white rice",
+      "quantity": "12",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "1543bb0f-a3d8-599f-8054-c270a9e88998",
+      "name": "yellow bell pepper",
+      "normalized_name": "yellow bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "thinly sliced",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "936ea180-ebfd-5e0c-8ba1-82bdf0fc1d27",
+      "slug": "pilaf",
+      "name": "Pilaf"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2972e18e-d873-5d41-a42b-b0897daf2e41",
+      "slug": "pilaf",
+      "name": "Pilaf",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9014/three-pepper-pilaf"
+  },
+  "public": true,
+  "updated_at": 1657829298,
+  "revision": 1
+}

@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3f73c36f-d267-5d04-82e3-9a4ec54e059a",
+  "slug": "ham-egg-salad",
+  "name": "Ham & Egg Salad",
+  "recipe_type": "salad",
+  "brief_description": "This protein-packed breakfast requires no cooking, takes only minutes to make, and is an egg-cellent make-ahead morning meal.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Halve the hard-boiled eggs and remove the yolks to a bowl. Coarsely chop the egg whites and set aside."
+    },
+    {
+      "position": 2,
+      "text": "To the bowl with the egg yolks, add the mayonnaise, mustard, hot sauce, salt, and pepper. Using a fork, smash the mixture until smooth. Add the reserved chopped egg whites, ham, shallot, and celery. Toss to combine. If you like a creamier texture, add more mayonnaise."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3f73c36f-d267-5d04-82e3-9a4ec54e059a/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/zdfcCDkI-JxZ4e411.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "195 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "236 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "632 mg",
+    "sugarContent": "1 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8ce3ff60-0c25-59d7-8e4f-3aec3a47f7a5",
+      "name": "hard-boiled eggs",
+      "normalized_name": "hard-boiled eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or more to taste",
+      "position": 2
+    },
+    {
+      "ingredient_id": "774242a0-6199-5c93-947d-ef1dd659bc8b",
+      "name": "mustard",
+      "normalized_name": "mustard",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a606fcc7-a752-5e86-a3ef-aab2b7d902f5",
+      "name": "dash hot sauce",
+      "normalized_name": "dash hot sauce",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2fc1d0e1-121e-5a41-8cc3-9adef29178d8",
+      "name": "ounce) package smithfield\u00ae cubed ham",
+      "normalized_name": "ounce package smithfield cubed ham",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f5e90620-cf68-56ec-9ee5-c115795d5f67",
+      "name": "shallot",
+      "normalized_name": "shallot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "397ab18c-09b0-5480-8c62-19aa401ea177",
+      "name": "ribs celery",
+      "normalized_name": "ribs celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    }
+  ],
+  "tags": [
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "a3b43786-1971-57fd-b78f-c1e8ac2a8f46",
+      "slug": "trusted-brands-recipes-and-tips",
+      "name": "Trusted Brands: Recipes and Tips",
+      "color": null
+    },
+    {
+      "id": "2feffdec-4db6-57e0-a693-71e2fc653e10",
+      "slug": "ham-salad-recipes",
+      "name": "Ham Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "df9608cf-b97f-5ae1-aed7-985fe5ee2355",
+      "slug": "egg-salad-recipes",
+      "name": "Egg Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "22d732c6-fa1e-5878-b043-d71fc0690513",
+      "slug": "kitchen-tools-and-techniques",
+      "name": "Kitchen Tools and Techniques",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273291/ham-egg-salad"
+  },
+  "public": true,
+  "updated_at": 1558064850,
+  "revision": 1
+}

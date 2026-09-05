@@ -1,0 +1,237 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "63e6f915-291c-52b7-a115-784d8d1aba09",
+  "slug": "baked-beans-from-scratch",
+  "name": "Baked Beans from Scratch",
+  "recipe_type": "side",
+  "brief_description": "Baked beans from scratch are made by simmering navy beans in a rich sauce made with ketchup, molasses, Worcestershire sauce, and maple syrup.",
+  "cuisine": "New England",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place beans in a large saucepan with 4 cups of water. Bring to a boil over high heat, then reduce heat to medium-low, cover, and simmer 1 hour."
+    },
+    {
+      "position": 3,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C). Stir ketchup, maple syrup, brown sugar, molasses, Worcestershire sauce, salt, pepper, and chili powder together in a small bowl; set aside."
+    },
+    {
+      "position": 4,
+      "text": "Once beans have simmered for 1 hour, drain, and reserve cooking liquid. Pour beans into a 1 1/2-quart casserole dish; stir in chopped onion and molasses mixture. Stir in enough reserved cooking liquid so sauce covers beans by 1/4 inch."
+    },
+    {
+      "position": 5,
+      "text": "Cover and bake in the preheated oven for 10 minutes; reduce heat to 200 degrees F (95 degrees C) and cook 6 hours longer, stirring beans after they have cooked for 3 hours. Once beans are tender and sauce has reduced and is sticky, remove from the oven, stir, recover, and allow to stand 15 minutes before serving."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 440,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/63e6f915-291c-52b7-a115-784d8d1aba09/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "122 kcal",
+    "carbohydrateContent": "26 g",
+    "fiberContent": "5 g",
+    "proteinContent": "5 g",
+    "sodiumContent": "196 mg",
+    "sugarContent": "12 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7c9f8c9d-620b-5174-ad68-5b18e60cfa79",
+      "name": "navy beans",
+      "normalized_name": "navy beans",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "soaked overnight and drained",
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f3c9a5c8-4880-5c44-af54-63d919c247d4",
+      "name": "maple syrup",
+      "normalized_name": "maple syrup",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8086f0ab-2231-5b83-b6dd-e9f34ff533d9",
+      "name": "molasses",
+      "normalized_name": "molasses",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "62486dc7-9e27-5c22-9339-2e4ab00fb7d2",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas"
+    },
+    {
+      "id": "9460df44-db2d-5f25-b365-84437f6b26cb",
+      "slug": "baked-bean",
+      "name": "Baked Bean"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "a954f7c7-64e6-5e0d-a6e9-db6ead009ad0",
+      "slug": "diabetic",
+      "name": "Diabetic",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/165249/baked-beans-from-scratch"
+  },
+  "public": true,
+  "updated_at": 1761248548,
+  "revision": 1
+}

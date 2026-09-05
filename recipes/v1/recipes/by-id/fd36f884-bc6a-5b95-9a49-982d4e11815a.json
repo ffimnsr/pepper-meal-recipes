@@ -1,0 +1,180 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fd36f884-bc6a-5b95-9a49-982d4e11815a",
+  "slug": "cool-whip-cookies",
+  "name": "Cool Whip Cookies",
+  "recipe_type": "dessert",
+  "brief_description": "These Cool Whip cookies are light and easy cookies made with lemon cake mix.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Lightly grease baking sheets."
+    },
+    {
+      "position": 2,
+      "text": "Beat together whipped topping and eggs in a large bowl. Add cake mix and continue to mix until combined. Dough will be thick. Drop by tablespoonfuls into a bowl of confectioners' sugar and roll to coat. Place on the prepared baking sheets."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until edges are golden, about 8 minutes."
+    }
+  ],
+  "servings": 18,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fd36f884-bc6a-5b95-9a49-982d4e11815a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "177 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "28 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "216 mg",
+    "sugarContent": "18 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0ffee368-ec18-5742-ab1e-3690cc47095b",
+      "name": "ounce) container frozen whipped topping",
+      "normalized_name": "ounce container frozen whipped topping",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3b42839d-d8ee-5771-8c64-5b38bf26de41",
+      "name": "ounce) package lemon cake mix",
+      "normalized_name": "ounce package lemon cake mix",
+      "quantity": "1 (15.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "876108f9-948e-54d9-9740-7c1014b461b0",
+      "name": "confectioners' sugar for decoration",
+      "normalized_name": "confectioners sugar for decoration",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "35233dd5-b3c7-51c7-8825-6fcb0aa37bde",
+      "slug": "cookies",
+      "name": "Cookies"
+    },
+    {
+      "id": "b64553ce-4cd9-5680-b4fe-7ed38640aee2",
+      "slug": "drop-cookie",
+      "name": "Drop Cookie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "ec9d976e-4296-5c34-88a4-518d14e86e0b",
+      "slug": "allrecipes",
+      "name": "Allrecipes",
+      "color": null
+    },
+    {
+      "id": "1300c529-8d54-5981-bfac-b583a24a469e",
+      "slug": "dessert-sauce-recipes",
+      "name": "Dessert Sauce Recipes",
+      "color": null
+    },
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "390247c4-04e6-5dbc-a3b2-c09a144c8daf",
+      "slug": "drop-cookie-recipes",
+      "name": "Drop Cookie Recipes",
+      "color": null
+    },
+    {
+      "id": "9220305c-94e7-520f-94dc-4a2fd372e510",
+      "slug": "cake-mix-cookie-recipes",
+      "name": "Cake Mix Cookie Recipes",
+      "color": null
+    },
+    {
+      "id": "4e422c1c-6e23-5833-90bc-afa530f3f9ef",
+      "slug": "cookies",
+      "name": "Cookies",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11345/cool-whip-cookies"
+  },
+  "public": true,
+  "updated_at": 1773237618,
+  "revision": 1
+}

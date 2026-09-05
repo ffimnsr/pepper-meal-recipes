@@ -1,0 +1,255 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fe8fe5d7-6ad5-5a69-934e-fb81a3354f20",
+  "slug": "mom-moaks-chicken-noodle-soup",
+  "name": "Mom Moak's Chicken Noodle Soup",
+  "recipe_type": "soup",
+  "brief_description": "Mom Moak's chicken noodle soup recipe saves time with the use of cooked, rotisserie, or leftover chicken, and gets its creaminess from evaporated milk.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat vegetable oil in a stock pot over medium heat. Add celery, carrots, and onion; cook and stir until tender, 8 to 10 minutes. Add chicken broth, potatoes, poultry seasoning, and thyme; bring to a simmer and continue cooking until potatoes are cooked through, about 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir chicken, egg noodles, and evaporated milk into soup; cook until noodles are cooked through, 7 to 10 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fe8fe5d7-6ad5-5a69-934e-fb81a3354f20/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "329 kcal",
+    "carbohydrateContent": "44 g",
+    "cholesterolContent": "51 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "1067 mg",
+    "sugarContent": "10 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "989338b8-495c-5a39-bb8c-ecc8a7cce36b",
+      "name": "ounce) cans chicken broth",
+      "normalized_name": "ounce cans chicken broth",
+      "quantity": "4 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5b0aca31-03d7-5d3e-9c43-2255e02c3238",
+      "name": "baking potatoes",
+      "normalized_name": "baking potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "eef09e9a-0884-5cb7-92ec-d7687e83e301",
+      "name": "poultry seasoning",
+      "normalized_name": "poultry seasoning",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
+      "name": "dried thyme",
+      "normalized_name": "dried thyme",
+      "quantity": "0.25",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "0c1c5ba7-93d4-56b1-be7b-68bb3fb86ae0",
+      "name": "shredded cooked chicken",
+      "normalized_name": "shredded cooked chicken",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "7f06c2ce-8aca-5415-93da-7ca715bb4e40",
+      "name": "egg noodles",
+      "normalized_name": "egg noodles",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "478758cf-b8df-56ff-a79a-885f223169bb",
+      "name": "evaporated milk",
+      "normalized_name": "evaporated milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "95237eae-d985-5390-a1a3-cc4324d8aa85",
+      "slug": "noodle-soup",
+      "name": "Noodle Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e82bd1ea-d139-5679-8085-c904c250a18f",
+      "slug": "noodle-soup-recipes",
+      "name": "Noodle Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "3d692f67-54c3-5135-8edb-98c25ad1ca4c",
+      "slug": "noodle-recipes",
+      "name": "Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "4c68fe1e-e85b-5155-b3cf-8e97914904d8",
+      "slug": "egg-noodle-recipes",
+      "name": "Egg Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "650d6000-fed4-5f1c-b2cf-056aca19db01",
+      "slug": "chicken-noodle-soup-recipes",
+      "name": "Chicken Noodle Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219773/mom-moaks-chicken-noodle-soup"
+  },
+  "public": true,
+  "updated_at": 1745435379,
+  "revision": 1
+}

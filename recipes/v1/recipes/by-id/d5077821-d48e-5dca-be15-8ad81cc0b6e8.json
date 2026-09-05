@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d5077821-d48e-5dca-be15-8ad81cc0b6e8",
+  "slug": "oven-barbecued-beef-brisket-i",
+  "name": "Oven BBQ Beef Brisket",
+  "recipe_type": "main",
+  "brief_description": "This BBQ brisket is cooked slowly in the oven, sliced, and then coated with BBQ sauce and braised until tender, delicious, and full of flavor.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 325 degrees F (160 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Sprinkle both sides of brisket with salt, pepper, and garlic powder. Place in a Dutch oven or large roasting pan with a cover."
+    },
+    {
+      "position": 3,
+      "text": "Cook in the preheated oven, covered, without adding water, for 3 hours."
+    },
+    {
+      "position": 4,
+      "text": "Remove brisket from the pan and slice. Return slices to pan. Mix BBQ sauce with water; pour over sliced brisket. Cover the pan and cook for 1 more hour."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 240,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d5077821-d48e-5dca-be15-8ad81cc0b6e8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "575 kcal",
+    "carbohydrateContent": "12 g",
+    "cholesterolContent": "192 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "53 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "378 mg",
+    "sugarContent": "9 g",
+    "fatContent": "34 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8b490755-8522-5789-94b2-bf5b8a44f0ad",
+      "name": "beef brisket",
+      "normalized_name": "beef brisket",
+      "quantity": "4",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "076b6a52-a22e-5d76-8c20-57acabf8662f",
+      "name": "barbecue sauce",
+      "normalized_name": "barbecue sauce",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "27b522d7-8a95-5dab-875d-9d79c0bb5296",
+      "slug": "brisket",
+      "name": "Brisket"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1377e8b7-e214-5a16-8a8f-8f637f2a7e3f",
+      "slug": "brisket",
+      "name": "Brisket",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14647/oven-barbecued-beef-brisket-i"
+  },
+  "public": true,
+  "updated_at": 1777382320,
+  "revision": 1
+}

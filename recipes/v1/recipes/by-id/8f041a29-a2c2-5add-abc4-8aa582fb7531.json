@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8f041a29-a2c2-5add-abc4-8aa582fb7531",
+  "slug": "healing-cabbage-soup",
+  "name": "Healing Cabbage Soup",
+  "recipe_type": "soup",
+  "brief_description": "This simple, comforting cabbage soup with diced tomatoes and garlic is sure to warm you up on a cold day or if you're feeling under the weather.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a large stockpot over medium heat. Stir in onion and garlic; cook until onion has softened, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir in water, bouillon, salt, and pepper. Bring to a boil, then stir in cabbage. Simmer until cabbage wilts, about 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir in tomatoes. Return to a boil, then simmer 15 to 30 minutes, stirring often."
+    },
+    {
+      "position": 4,
+      "text": "Serve hot and enjoy!"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8f041a29-a2c2-5add-abc4-8aa582fb7531/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/PVaFLTKj-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "82 kcal",
+    "carbohydrateContent": "9 g",
+    "fiberContent": "2 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "436 mg",
+    "sugarContent": "6 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
+      "name": "quarts water",
+      "normalized_name": "quarts water",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "28b6d869-be59-5e65-89bf-d479d36a5365",
+      "name": "chicken bouillon granules",
+      "normalized_name": "chicken bouillon granules",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 6
+    },
+    {
+      "ingredient_id": "2294de1f-3730-5887-93bb-9edf85bc609d",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 7
+    },
+    {
+      "ingredient_id": "fe3d65f2-a01d-5cd3-a6a3-c444d2742eb4",
+      "name": "head cabbage",
+      "normalized_name": "head cabbage",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "cored and coarsely chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "ed4435dc-4fee-5d32-9443-4b2e0b508bf0",
+      "name": "ounce) can italian-style stewed tomatoes",
+      "normalized_name": "ounce can italian-style stewed tomatoes",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": "drained and diced",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "b3aef0f6-89f7-5c96-8faa-fe01e4c51f02",
+      "slug": "cabbage-soup",
+      "name": "Cabbage Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/82923/healing-cabbage-soup"
+  },
+  "public": true,
+  "updated_at": 1762448553,
+  "revision": 1
+}

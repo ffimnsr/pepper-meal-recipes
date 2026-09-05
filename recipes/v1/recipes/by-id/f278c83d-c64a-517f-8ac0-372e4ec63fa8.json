@@ -1,0 +1,189 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f278c83d-c64a-517f-8ac0-372e4ec63fa8",
+  "slug": "grandmas-yorkshire-pudding",
+  "name": "Grandma's Yorkshire Pudding",
+  "recipe_type": "side",
+  "brief_description": "These are delicious Yorkies! Very easy, too! Serve Yorkshire pudding with roast beef or pork, as this recipe requires meat drippings.",
+  "cuisine": "English",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 450 degrees F (220 degrees C). Place about a tablespoon of beef drippings into each cup of a 6-cup muffin tin."
+    },
+    {
+      "position": 2,
+      "text": "Whisk eggs in a medium bowl until well-blended. Stir in milk, flour, and salt. Fill the muffin cups about halfway."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven for 15 minutes, then reduce the oven temperature to 350 degrees F (175 degrees C) and bake for an additional 15 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f278c83d-c64a-517f-8ac0-372e4ec63fa8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "475 kcal",
+    "carbohydrateContent": "18 g",
+    "cholesterolContent": "103 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "17 g",
+    "sodiumContent": "488 mg",
+    "sugarContent": "2 g",
+    "fatContent": "42 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c22c70d8-7e67-50bb-83d7-e5c113a64e3b",
+      "name": "beef drippings",
+      "normalized_name": "beef drippings",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "f2f043e8-b0db-5ca3-bfe2-2cfb962e5219",
+      "slug": "popovers-and-yorkshire-pudding",
+      "name": "Popovers and Yorkshire Pudding"
+    }
+  ],
+  "tags": [
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "16c758ed-3bd5-531b-8189-ebec0b592eab",
+      "slug": "popovers-and-yorkshire-pudding-recipes",
+      "name": "Popovers and Yorkshire Pudding Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "a0d28738-e8e1-5472-b5d0-058cdd5cf5d5",
+      "slug": "family-heirloom",
+      "name": "Family Heirloom",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "a991b0f9-a769-56e1-b4b7-7261bf264942",
+      "slug": "english",
+      "name": "English",
+      "color": null
+    },
+    {
+      "id": "067e28fc-e546-505a-a281-11831c6be52a",
+      "slug": "uk-and-ireland",
+      "name": "UK and Ireland",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70230/grandmas-yorkshire-pudding"
+  },
+  "public": true,
+  "updated_at": 1778772026,
+  "revision": 1
+}

@@ -1,0 +1,243 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b6abb98b-eee8-5ec1-aa9b-cbbbbbe3bf1b",
+  "slug": "toscana-soup",
+  "name": "Toscana Soup",
+  "recipe_type": "soup",
+  "brief_description": "This soup is sure to warm your bones on a chilly night and won't leave you hungry. Potatoes, sausage and kale are simmered in chicken broth and cream, with onions and garlic.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 300 degrees F (150 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place sausage links on a baking sheet and bake 25 minutes, or until cooked through. Slice into 1/2 inch slices."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a large saucepan over medium heat. Saute onions until translucent; add garlic and cook 1 minute."
+    },
+    {
+      "position": 4,
+      "text": "Stir in broth, water and potatoes; simmer 15 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Reduce heat to low and add sausage, kale and cream; simmer until heated through and serve."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b6abb98b-eee8-5ec1-aa9b-cbbbbbe3bf1b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "271 kcal",
+    "carbohydrateContent": "7 g",
+    "cholesterolContent": "72 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "1216 mg",
+    "sugarContent": "3 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3d7cb8bf-b63a-59b1-90b4-641d4ca98c83",
+      "name": "links spicy pork sausage",
+      "normalized_name": "links spicy pork sausage",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3d4da035-8d31-5739-9e0e-b190a7b09330",
+      "name": "diced onion",
+      "normalized_name": "diced onion",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1.25",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "df30a526-07be-5d3f-8f8c-6149ad65b796",
+      "name": "chicken soup base",
+      "normalized_name": "chicken soup base",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "halved and sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "6efaf01a-e9f4-523f-8c64-0178d7c476ac",
+      "name": "sliced kale",
+      "normalized_name": "sliced kale",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "278514fe-983b-5bcb-a57c-c032a506c02e",
+      "slug": "potato-soup",
+      "name": "Potato Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c6bf3992-663f-5e3a-8ba5-f02997d350ab",
+      "slug": "cream-of-potato-soup-recipes",
+      "name": "Cream of Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "5606a16e-e04d-5bc0-9a9b-14e21d2c303c",
+      "slug": "potato-soup-recipes",
+      "name": "Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23236/toscana-soup"
+  },
+  "public": true,
+  "updated_at": 1657832983,
+  "revision": 1
+}

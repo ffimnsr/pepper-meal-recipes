@@ -1,0 +1,174 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b036f443-fe85-5f28-b67a-e8c4d12d5d51",
+  "slug": "fettuccine-alfredo-with-ham",
+  "name": "Fettuccine Alfredo with Ham",
+  "recipe_type": "main",
+  "brief_description": "Cream and ham with Parmesan and a touch of butter.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain."
+    },
+    {
+      "position": 2,
+      "text": "In a medium sauce pan over medium heat, melt butter. Stir in ham and cook 1 minute. Stir in cream and heat through. Stir in Parmesan and cook until thick and smooth. Toss with cooked pasta."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b036f443-fe85-5f28-b67a-e8c4d12d5d51/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "516 kcal",
+    "carbohydrateContent": "43 g",
+    "cholesterolContent": "106 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "18 g",
+    "sodiumContent": "458 mg",
+    "sugarContent": "2 g",
+    "fatContent": "32 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4647383e-3fa0-560f-a029-c7fdaab61bf9",
+      "name": "dry fettuccine pasta",
+      "normalized_name": "dry fettuccine pasta",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7b2d4806-d351-56f8-90cc-0779f03d9294",
+      "name": "diced cooked ham",
+      "normalized_name": "diced cooked ham",
+      "quantity": "6",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "8188eed4-b891-5ca2-b130-93c8a82eac19",
+      "slug": "fettuccini-recipes",
+      "name": "Fettuccini Recipes",
+      "color": null
+    },
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21193/fettuccine-alfredo-with-ham"
+  },
+  "public": true,
+  "updated_at": 1780365871,
+  "revision": 1
+}

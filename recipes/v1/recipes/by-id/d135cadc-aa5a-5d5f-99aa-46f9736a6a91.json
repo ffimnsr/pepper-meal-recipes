@@ -1,0 +1,201 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d135cadc-aa5a-5d5f-99aa-46f9736a6a91",
+  "slug": "bite-sized-salmon-tikka",
+  "name": "Bite-Sized Salmon Tikka",
+  "recipe_type": "snack",
+  "brief_description": "Bite-sized salmon tikka is an Indian-inspired recipe with ground cayenne and ground turmeric that is quick, tasty, and ideal as a short snack or a meal.",
+  "cuisine": "Indian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine cayenne, turmeric, and salt in a bowl; add salmon and toss to coat. Set aside for 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a skillet over medium-high heat. While oil is heating, sprinkle cornstarch over salmon; toss to coat."
+    },
+    {
+      "position": 3,
+      "text": "Add salmon to the skillet; cook until golden brown, about 1 minute per side."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d135cadc-aa5a-5d5f-99aa-46f9736a6a91/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "229 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "50 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "629 mg",
+    "sugarContent": "0 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "54782e51-0efc-5906-81c2-863e6f2174ab",
+      "name": "ground red pepper (cayenne)",
+      "normalized_name": "ground red pepper",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d6fe26b3-81da-5f50-8065-5bc6819dddfa",
+      "name": "ground turmeric",
+      "normalized_name": "ground turmeric",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "1cc3645d-5de7-52a6-9a19-d5cd58f27566",
+      "name": "wild pacific salmon fillets",
+      "normalized_name": "wild pacific salmon fillets",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "cut into 1-inch cubes",
+      "position": 4
+    },
+    {
+      "ingredient_id": "01458627-d7bc-5047-a63f-484c4cf26646",
+      "name": "oil for frying",
+      "normalized_name": "oil for frying",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "2336c377-3a0d-5315-937c-eb9b27723743",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes"
+    },
+    {
+      "id": "0d511d9e-ae9e-5871-bc14-a6935299fc6d",
+      "slug": "salmon",
+      "name": "Salmon"
+    },
+    {
+      "id": "2359116f-d0e8-5247-925e-1a109c15708a",
+      "slug": "salmon-fillet",
+      "name": "Salmon Fillet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "47524e31-2c45-5536-8117-12421e363449",
+      "slug": "salmon",
+      "name": "Salmon",
+      "color": null
+    },
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/156039/bite-sized-salmon-tikka"
+  },
+  "public": true,
+  "updated_at": 1786551645,
+  "revision": 1
+}

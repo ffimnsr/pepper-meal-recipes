@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a857d6e4-4941-5ebb-b153-dc4e8f78e585",
+  "slug": "american-shepherds-pie",
+  "name": "American Shepherd's Pie",
+  "recipe_type": "soup",
+  "brief_description": "This shepherd's pie with cheese, ground beef, condensed vegetable soup, and onions is smothered in mashed potatoes and baked for a hot, hearty dinner.",
+  "cuisine": "American Irish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a 2-quart baking dish with cooking spray."
+    },
+    {
+      "position": 2,
+      "text": "Heat a large skillet over medium-high heat. Cook and stir ground beef, onion, and celery in the hot skillet until beef is browned and crumbly. Drain and discard grease."
+    },
+    {
+      "position": 3,
+      "text": "Pour beef mixture into the prepared baking dish. Add condensed soup and thyme; stir well. Spread mashed potatoes evenly on top."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven for 20 minutes. Sprinkle with cheese and continue baking until cheese has melted, about 5 minutes more."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a857d6e4-4941-5ebb-b153-dc4e8f78e585/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "342 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "70 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "818 mg",
+    "sugarContent": "4 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "4e8d6f30-2144-53a2-a959-327380a17708",
+      "name": "ounce) can condensed vegetable soup",
+      "normalized_name": "ounce can condensed vegetable soup",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
+      "name": "dried thyme",
+      "normalized_name": "dried thyme",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5d4363f2-a3e7-5a3b-b49e-490ab3a1f58e",
+      "name": "mashed cooked potatoes",
+      "normalized_name": "mashed cooked potatoes",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b226f94c-0e0a-5542-83f2-f42a84430876",
+      "name": "shredded colby longhorn cheese",
+      "normalized_name": "shredded colby longhorn cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9afb73a2-c6dc-5a2e-ac71-57fc2c902428",
+      "slug": "savory-pie",
+      "name": "Savory Pie"
+    },
+    {
+      "id": "980542e9-26b4-5c98-b6c0-ab24b09fc1be",
+      "slug": "shepherd-s-pie",
+      "name": "Shepherd's Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20098/american-shepherds-pie"
+  },
+  "public": true,
+  "updated_at": 1781823868,
+  "revision": 1
+}

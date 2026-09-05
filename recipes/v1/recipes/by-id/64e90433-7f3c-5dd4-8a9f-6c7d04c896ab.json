@@ -1,0 +1,204 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "64e90433-7f3c-5dd4-8a9f-6c7d04c896ab",
+  "slug": "heirloom-tomato-bruschetta",
+  "name": "Heirloom Tomato Bruschetta",
+  "recipe_type": "appetizer",
+  "brief_description": "Farmers market heirloom tomatoes and truffle-infused oil bring the wow factor in this easy bruschetta recipe.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Toss heirloom tomatoes with chopped basil, truffle oil, salt, and pepper. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a large skillet; add chopped garlic. Cook baguette slices until browned, 2 to 3 minutes per side. Rub each side of the baguette with the halved garlic clove."
+    },
+    {
+      "position": 3,
+      "text": "Spoon tomato mixture over the baguette slices."
+    }
+  ],
+  "servings": 24,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/64e90433-7f3c-5dd4-8a9f-6c7d04c896ab/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "65 kcal",
+    "carbohydrateContent": "9 g",
+    "fiberContent": "1 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "110 mg",
+    "sugarContent": "1 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "33979a25-945b-5f91-97e0-176f981d2032",
+      "name": "small heirloom tomatoes",
+      "normalized_name": "small heirloom tomatoes",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "halved",
+      "position": 1
+    },
+    {
+      "ingredient_id": "3137d3c8-bf47-5da8-adb2-cd7e446039cd",
+      "name": "chopped fresh basil",
+      "normalized_name": "chopped fresh basil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b52b7b07-d560-5514-90be-ecc97bfecf68",
+      "name": "truffle-infused olive oil (such as olevano)",
+      "normalized_name": "truffle-infused olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f51532ba-63f7-50ff-9c55-8db9d5f3e70e",
+      "name": "kosher salt and ground black pepper to taste",
+      "normalized_name": "kosher salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or more as needed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "05f456a2-b547-5307-9e39-b42649d9fa67",
+      "name": "chopped garlic",
+      "normalized_name": "chopped garlic",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "68d4633d-cc9b-598e-912f-5797af1cf556",
+      "name": "french baguette",
+      "normalized_name": "french baguette",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 1-inch-thick slices",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "peeled and halved",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "5736101f-cd61-52e5-a966-719875f8b09d",
+      "slug": "bruschetta",
+      "name": "Bruschetta"
+    }
+  ],
+  "tags": [
+    {
+      "id": "499954b2-300e-5073-b52f-bba1da045ae0",
+      "slug": "bruschetta-recipes",
+      "name": "Bruschetta Recipes",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "187603c2-42c4-5076-a2c7-438cbce2329f",
+      "slug": "herbs-and-spices-recipes",
+      "name": "Herbs and Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275607/heirloom-tomato-bruschetta"
+  },
+  "public": true,
+  "updated_at": 1742934755,
+  "revision": 1
+}

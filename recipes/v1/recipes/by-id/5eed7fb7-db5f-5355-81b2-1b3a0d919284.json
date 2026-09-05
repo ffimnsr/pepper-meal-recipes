@@ -1,0 +1,285 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5eed7fb7-db5f-5355-81b2-1b3a0d919284",
+  "slug": "tortellini-soup-i",
+  "name": "Hearty Tortellini Soup",
+  "recipe_type": "soup",
+  "brief_description": "Italian sausage and tortellini are paired in this beef broth based soup with carrots, celery and zucchini. Serve with grated Parmesan cheese.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Remove casings from sausage. Brown sausage and cook until crumbly. Remove meat from pot. Reserve 1 tablespoon drippings."
+    },
+    {
+      "position": 2,
+      "text": "Cook onion and garlic in the drippings until tender. Add broth, water, wine, carrots, tomatoes, basil, oregano, tomato sauce, and the cooked sausage. Bring to a boil; reduce heat and simmer uncovered 30 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add zucchini, green peppers, parsley, and tortellini. Simmer another 25 minutes, covered, for fresh tortellini, or 45 minutes, covered, for frozen tortellini. Serve with fresh parmesan cheese sprinkled over the top."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 90,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5eed7fb7-db5f-5355-81b2-1b3a0d919284/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "240 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "36 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "932 mg",
+    "sugarContent": "5 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5810a23d-e91c-5f0a-b897-0f48aaf494c6",
+      "name": "italian sausage",
+      "normalized_name": "italian sausage",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "cd5e4014-b749-5840-8481-6eacb9a3c1e2",
+      "name": "dry red wine",
+      "normalized_name": "dry red wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1c50945e-a1a1-541e-8481-42ae37168643",
+      "name": "fresh tortellini pasta",
+      "normalized_name": "fresh tortellini pasta",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "4a86c2c5-ff06-5ab9-8d10-2e734dcb1f59",
+      "name": "sliced carrots",
+      "normalized_name": "sliced carrots",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a156610d-1f27-586f-be81-02650b3dd831",
+      "name": "stewed tomatoes",
+      "normalized_name": "stewed tomatoes",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "926af8a3-1f4f-5d54-b16f-43f37953b512",
+      "name": "dried basil",
+      "normalized_name": "dried basil",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
+      "name": "tomato sauce",
+      "normalized_name": "tomato sauce",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "76e9924d-a145-5f2e-b996-4ad5f02a23cf",
+      "name": "sliced zucchini",
+      "normalized_name": "sliced zucchini",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "8e399f67-a139-5c4b-a6f8-75ff8e7fa1ea",
+      "name": "green bell peppers",
+      "normalized_name": "green bell peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded and cubed",
+      "position": 14
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "fd2ffc67-c552-52a5-9594-6ec896c3b953",
+      "slug": "tortellini-recipes",
+      "name": "Tortellini Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13082/tortellini-soup-i"
+  },
+  "public": true,
+  "updated_at": 1725881478,
+  "revision": 1
+}

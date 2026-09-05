@@ -1,0 +1,249 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5cd25d95-c815-5021-9cd5-052556b879b5",
+  "slug": "creamy-blueberry-pie",
+  "name": "Creamy Blueberry Pie",
+  "recipe_type": "dessert",
+  "brief_description": "A sweet, custardy sour cream mixture is spooned over fresh blueberries, topped with a sweet buttery crumble, and baked. If desired, garnish with mint sprigs and additional blueberries.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Place the blueberries in the pastry shell and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Combine 1 cup sugar, 1/3 cup flour, and salt. Add eggs and sour cream, stirring until blended. Pour the sour cream custard over the blueberries."
+    },
+    {
+      "position": 3,
+      "text": "In another bowl, combine 1/2 cup sugar and 1/2 cup flour. Cut in the butter with pastry blender until the mixture resembles coarse meal. Sprinkle the topping over the sour cream mixture and berries in the pie shell."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven for 50 to 55 minutes, or until lightly browned. Cool on wire rack."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 55,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5cd25d95-c815-5021-9cd5-052556b879b5/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/64PvgKAT-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "440 kcal",
+    "carbohydrateContent": "67 g",
+    "cholesterolContent": "68 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "250 mg",
+    "sugarContent": "44 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1b50230f-4efa-5379-a02c-16db54f05786",
+      "name": "fresh blueberries",
+      "normalized_name": "fresh blueberries",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bea01412-2626-5e97-8154-9dbbdefa6b8c",
+      "name": "inch) deep dish pie crust",
+      "normalized_name": "inch deep dish pie crust",
+      "quantity": "1 (9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 6
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "551563fd-2c14-57e0-ac26-f83cd1b0282b",
+      "slug": "pies",
+      "name": "Pies"
+    },
+    {
+      "id": "4e802708-5386-5870-bbde-d0cf54ecc091",
+      "slug": "fruit-pies",
+      "name": "Fruit Pies"
+    },
+    {
+      "id": "18e170d4-692a-5177-b2e4-67c8d5b58112",
+      "slug": "blueberry-pie",
+      "name": "Blueberry Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "efdf4003-25b0-5a9c-8f16-7e9c7e4a2234",
+      "slug": "blueberries",
+      "name": "Blueberries",
+      "color": null
+    },
+    {
+      "id": "4e5801cf-11bd-503a-8c74-23fa9ac4757c",
+      "slug": "sour-cream-recipes",
+      "name": "Sour Cream Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "b27e7672-5670-576d-b52e-a2ba7aa1e26a",
+      "slug": "summer-desserts",
+      "name": "Summer Desserts",
+      "color": null
+    },
+    {
+      "id": "e9d933fc-ed03-594d-a7e8-83f0266c7917",
+      "slug": "pies",
+      "name": "Pies",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "898af736-967b-51ae-b777-45923e98461f",
+      "slug": "fruit-pies",
+      "name": "Fruit Pies",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12155/creamy-blueberry-pie"
+  },
+  "public": true,
+  "updated_at": 1776425198,
+  "revision": 1
+}

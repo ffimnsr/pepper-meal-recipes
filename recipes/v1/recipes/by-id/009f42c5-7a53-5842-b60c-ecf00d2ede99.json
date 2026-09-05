@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "009f42c5-7a53-5842-b60c-ecf00d2ede99",
+  "slug": "corned-beef-hash-nachos",
+  "name": "Corned Beef Hash Nachos",
+  "recipe_type": "appetizer",
+  "brief_description": "Canned corned beef hash adds an interesting twist to nachos loaded with black beans, salsa, and Cheddar cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Spray a skillet with cooking spray and heat over medium heat. Add corned beef hash and saute until slightly caramelized, 5 to 7 minutes. Remove from the heat."
+    },
+    {
+      "position": 3,
+      "text": "Cover a metal cooking tray with nacho chips. Cover nacho chips with corned beef hash, Cheddar cheese, and black beans."
+    },
+    {
+      "position": 4,
+      "text": "Cook in the preheated oven until cheese is melted and starting to brown and crisp, 8 to 10 minutes. Remove from the oven and top with salsa, tomato, onion, sour cream, olives, and jalapenos."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/009f42c5-7a53-5842-b60c-ecf00d2ede99/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "376 kcal",
+    "carbohydrateContent": "35 g",
+    "cholesterolContent": "31 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "866 mg",
+    "sugarContent": "3 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f5696f35-675e-5442-8a0f-ba6f3fa4a055",
+      "name": "ounce) can corned beef hash",
+      "normalized_name": "ounce can corned beef hash",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "75287100-1240-5e2a-8821-30f12f292f9d",
+      "name": "ounce) package nacho-flavor tortilla chips",
+      "normalized_name": "ounce package nacho-flavor tortilla chips",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbb001aa-57e2-5400-b607-791c84fccb9f",
+      "name": "shredded sharp cheddar cheese",
+      "normalized_name": "shredded sharp cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5994137f-3c02-548c-acb4-3722b49f82fe",
+      "name": "ounce) can black beans",
+      "normalized_name": "ounce can black beans",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 5
+    },
+    {
+      "ingredient_id": "cdcf7af8-8bec-5eb7-a59f-1523a14aeccc",
+      "name": "ounce) jar salsa",
+      "normalized_name": "ounce jar salsa",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bfc75db0-f0a9-5220-8b94-6d93671874b3",
+      "name": "large tomato",
+      "normalized_name": "large tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "456ee8fa-812e-5f58-b6f6-1b115345d915",
+      "name": "large yellow onion",
+      "normalized_name": "large yellow onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d41a5cab-0ee7-5559-9e1d-560e7869ffba",
+      "name": "ounce) can sliced black olives",
+      "normalized_name": "ounce can sliced black olives",
+      "quantity": "1 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "5159e2a0-de2f-5d29-93e7-a04c1e1186ea",
+      "name": "pickled jalapeno peppers",
+      "normalized_name": "pickled jalapeno peppers",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "f673a69e-2a69-53a3-8baa-b2314639be89",
+      "slug": "cheese",
+      "name": "Cheese"
+    },
+    {
+      "id": "cf540d83-c29c-5df1-a2d1-13dae174c4bf",
+      "slug": "nachos",
+      "name": "Nachos"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e5bc1818-b5da-5ae4-8d2d-23af55af1703",
+      "slug": "nachos-recipes",
+      "name": "Nachos Recipes",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "4e7d6528-567b-592e-b80d-f7115460c3d2",
+      "slug": "convenience-cooking",
+      "name": "Convenience Cooking",
+      "color": null
+    },
+    {
+      "id": "2d9ecea4-9682-5b22-b9b0-a8b03d26a602",
+      "slug": "cheese",
+      "name": "Cheese",
+      "color": null
+    },
+    {
+      "id": "cf1f2415-d0eb-5dfe-8157-28435532e758",
+      "slug": "sheet-pan-dinner-recipes",
+      "name": "Sheet Pan Dinner Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/283290/corned-beef-hash-nachos"
+  },
+  "public": true,
+  "updated_at": 1733358204,
+  "revision": 1
+}

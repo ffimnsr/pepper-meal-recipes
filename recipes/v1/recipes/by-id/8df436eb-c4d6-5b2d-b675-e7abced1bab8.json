@@ -1,0 +1,255 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8df436eb-c4d6-5b2d-b675-e7abced1bab8",
+  "slug": "house-fried-rice",
+  "name": "House Fried Rice",
+  "recipe_type": "main",
+  "brief_description": "Loaded with shrimp, ham, chicken, and veggies, just like in your favorite Chinese restaurant. This fried rice is delicious and an excellent use of leftovers!",
+  "cuisine": "Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook rice according to package directions. While rice is cooking, heat a wok or large skillet over medium-high heat. Pour in sesame oil and stir in onion. Fry until golden, then add garlic. When garlic is lightly browned, mix in shrimp, ham, and chicken. Fry until shrimp is pink."
+    },
+    {
+      "position": 2,
+      "text": "Lower heat to medium and stir in celery, carrot, green pepper, and peas. Fry until vegetables are crisp-tender. Stir in beaten egg and cook just until egg is scrambled and firm."
+    },
+    {
+      "position": 3,
+      "text": "When rice is done, mix thoroughly with vegetables and stir in soy sauce. Adjust seasoning to your preference and serve immediately."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8df436eb-c4d6-5b2d-b675-e7abced1bab8/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/oxvRfUqk-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "236 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "59 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "603 mg",
+    "sugarContent": "3 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "69eb52aa-d6ef-508d-828e-206be1969dfb",
+      "name": "uncooked white rice",
+      "normalized_name": "uncooked white rice",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "9e087a39-f7fc-50bb-a19f-516276875107",
+      "name": "small shrimp",
+      "normalized_name": "small shrimp",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "peeled and deveined",
+      "position": 5
+    },
+    {
+      "ingredient_id": "75e5d3bb-c63b-5498-9d37-80aacbe5d3ad",
+      "name": "diced ham",
+      "normalized_name": "diced ham",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "132fed06-a58f-5a90-9ecd-3f431c1aedd9",
+      "name": "chopped cooked chicken breast",
+      "normalized_name": "chopped cooked chicken breast",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and diced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 10
+    },
+    {
+      "ingredient_id": "ac449163-5294-5400-84e0-8b81254820c4",
+      "name": "green peas",
+      "normalized_name": "green peas",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 12
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "3abb4365-ccad-5837-b651-d178c73fe82c",
+      "slug": "fried-rice",
+      "name": "Fried Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "129449da-b9e2-520f-bbe5-f1b5328c5adf",
+      "slug": "sesame-oil-recipes",
+      "name": "Sesame Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "17f4c204-15f9-596a-8568-681c02f3617f",
+      "slug": "300-calorie-main-dish-recipes",
+      "name": "300 Calorie Main Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18294/house-fried-rice"
+  },
+  "public": true,
+  "updated_at": 1781921498,
+  "revision": 1
+}

@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "77eb3543-f4a4-541a-a875-0653f4d880e4",
+  "slug": "passover-soup-with-chicken-dumplings",
+  "name": "Passover Soup with Chicken Dumplings",
+  "recipe_type": "soup",
+  "brief_description": "Simple and satisfying, a hot bowl of chicken broth becomes a hearty meal when served with easy-to-make chicken meatballs.",
+  "cuisine": "World American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of salted water to a rolling boil. Place 8 eggs in the boiling water; let the eggs boil for one minute, then remove the pan from the heat. Let the eggs sit for 15 minutes before removing them from the pot. Let them cool, remove the shells, the white portion of the eggs (save or discard the white), and chop the yolks."
+    },
+    {
+      "position": 2,
+      "text": "In a medium bowl, mix ground chicken, beaten egg, matzo meal, salt and pepper to taste, and cinnamon. Form mixture into walnut-sized balls and refrigerate until ready to cook."
+    },
+    {
+      "position": 3,
+      "text": "In a large saucepan over high heat, bring chicken broth to a boil. Add rice and chicken meatballs, cover, and lower heat to medium low; simmer for 20 minutes or until the rice and chicken are cooked."
+    },
+    {
+      "position": 4,
+      "text": "Ladle into soup bowls and garnish with hard-boiled egg; serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/77eb3543-f4a4-541a-a875-0653f4d880e4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "368 kcal",
+    "carbohydrateContent": "55 g",
+    "cholesterolContent": "209 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "1207 mg",
+    "sugarContent": "11 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f0464817-6351-5fe4-b463-fe603c5e064d",
+      "name": "ground chicken",
+      "normalized_name": "ground chicken",
+      "quantity": "0.66666668653488",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "lightly beaten",
+      "position": 3
+    },
+    {
+      "ingredient_id": "af611e3d-aaf5-5071-aa06-aea051c201ae",
+      "name": "matzo meal",
+      "normalized_name": "matzo meal",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "10",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "7c1b9b8c-6bc8-54e2-90ec-6a50a0e1638c",
+      "name": "uncooked rice",
+      "normalized_name": "uncooked rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "838adc3f-7dc2-5531-95d4-a7df106e7d30",
+      "slug": "chicken-soup",
+      "name": "Chicken Soup"
+    },
+    {
+      "id": "ce068346-7cee-5d8a-b447-6a633f3d9e36",
+      "slug": "chicken-and-rice-soup",
+      "name": "Chicken and Rice Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5533544f-6ea4-50d6-8ff6-f975748af217",
+      "slug": "chicken-and-rice-soup-recipes",
+      "name": "Chicken and Rice Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "bf928f4c-2a6a-5c01-9ecf-243b9f58a15b",
+      "slug": "dumpling-recipes",
+      "name": "Dumpling Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "bcc382c6-0b3f-5b7d-8fdd-0ca3f18ad0dd",
+      "slug": "seder",
+      "name": "Seder",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16309/passover-soup-with-chicken-dumplings"
+  },
+  "public": true,
+  "updated_at": 1743870452,
+  "revision": 1
+}

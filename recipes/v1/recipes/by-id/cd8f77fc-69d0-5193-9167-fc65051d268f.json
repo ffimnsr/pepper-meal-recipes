@@ -1,0 +1,299 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cd8f77fc-69d0-5193-9167-fc65051d268f",
+  "slug": "my-favorite-pork-turkey-meatloaf",
+  "name": "My Favorite Pork Turkey Meatloaf",
+  "recipe_type": "main",
+  "brief_description": "This tender meatloaf is speckled with vegetables. There's always enough for sandwiches the next day.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 375 degrees F (190 degrees C). Line a baking sheet with aluminum foil."
+    },
+    {
+      "position": 2,
+      "text": "Set the ground turkey and ground pork out at room temperature to warm slightly."
+    },
+    {
+      "position": 3,
+      "text": "Heat the oil in a skillet over medium heat; cook the carrot, bell pepper, onion, garlic, and spinach in the heated oil until soft; set aside to cool."
+    },
+    {
+      "position": 4,
+      "text": "Mix together the turkey, pork, bread crumbs, wheat germ, eggs, 2 tablespoons ketchup, salt, and pepper in a large bowl. Add the vegetable mixture and continue to mix until evenly combined; shape into a loaf; lay on the prepared baking sheet."
+    },
+    {
+      "position": 5,
+      "text": "Whisk together the honey and 1 tablespoon ketchup in a small bowl; spread over the meatloaf."
+    },
+    {
+      "position": 6,
+      "text": "Bake in the preheated oven until no longer pink in the center, 60 to 70 minutes; remove to a serving platter and allow to rest 5 minutes before slicing."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 70,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": 5,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cd8f77fc-69d0-5193-9167-fc65051d268f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "310 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "125 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "783 mg",
+    "sugarContent": "5 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2ab27880-5f02-56cd-a31a-aab351e1ec65",
+      "name": "ground turkey",
+      "normalized_name": "ground turkey",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
+      "name": "ground pork",
+      "normalized_name": "ground pork",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "cc0fb384-f3c5-548d-9752-9a6fa80cfd84",
+      "name": "cooking oil",
+      "normalized_name": "cooking oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "e61d3460-7e84-5b5a-a313-6babed099da0",
+      "name": "thawed frozen chopped spinach",
+      "normalized_name": "thawed frozen chopped spinach",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "803edff7-d8a2-564f-a754-586a007fefc3",
+      "name": "bread crumbs",
+      "normalized_name": "bread crumbs",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "0e14432f-8085-59d4-a5ac-1d78e7899bed",
+      "name": "wheat germ",
+      "normalized_name": "wheat germ",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "room temperature",
+      "position": 11
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "966ed388-bbc7-5931-a4a8-5e7f567d7cc1",
+      "slug": "meatloaf",
+      "name": "Meatloaf"
+    },
+    {
+      "id": "1dedaabf-3b33-5eeb-9f5c-a9780620c59c",
+      "slug": "turkey-meatloaf",
+      "name": "Turkey Meatloaf"
+    }
+  ],
+  "tags": [
+    {
+      "id": "90d83dd7-6d0d-5cb6-bbd3-5fbfac9bfedc",
+      "slug": "turkey-meatloaf-recipes",
+      "name": "Turkey Meatloaf Recipes",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "9b843a05-3d30-5959-b53d-71258c6272ab",
+      "slug": "meatloaf-recipes",
+      "name": "Meatloaf Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "2a52f9a5-cd4c-52d1-897e-c3192dd30208",
+      "slug": "ground-pork-recipes",
+      "name": "Ground Pork Recipes",
+      "color": null
+    },
+    {
+      "id": "dab8b302-66f8-57b7-882a-f52f9351967f",
+      "slug": "pork-meatloaf-recipes",
+      "name": "Pork Meatloaf Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/160241/my-favorite-pork-turkey-meatloaf"
+  },
+  "public": true,
+  "updated_at": 1778939234,
+  "revision": 1
+}

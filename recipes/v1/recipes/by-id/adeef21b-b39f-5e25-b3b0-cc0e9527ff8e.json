@@ -1,0 +1,239 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "adeef21b-b39f-5e25-b3b0-cc0e9527ff8e",
+  "slug": "simple-beef-short-ribs",
+  "name": "Simple Beef Short Ribs",
+  "recipe_type": "soup",
+  "brief_description": "This beef short ribs recipe braises beef ribs in stout beer with broth, onion, and garlic until fall-off-the-bone tender for a delicious one-pot meal.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Season ribs with salt and pepper. Dredge in flour until coated; shake off excess."
+    },
+    {
+      "position": 3,
+      "text": "Heat olive oil and butter in a Dutch oven or large skillet over medium-high heat. Cook ribs until browned, about 5 minutes per side. Remove ribs and set aside."
+    },
+    {
+      "position": 4,
+      "text": "Add onion and garlic to the pot; cook and stir until onion is tender, about 5 minutes. Return ribs to the pot; pour in beer while scraping the browned bits of food off the bottom of the pot. Pour in beef stock."
+    },
+    {
+      "position": 5,
+      "text": "Cover and simmer over low heat until ribs are very tender, about 2 hours."
+    },
+    {
+      "position": 6,
+      "text": "Serve and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 135,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/adeef21b-b39f-5e25-b3b0-cc0e9527ff8e/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/IIIJYyfV-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "364 kcal",
+    "carbohydrateContent": "10 g",
+    "cholesterolContent": "54 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "651 mg",
+    "sugarContent": "2 g",
+    "fatContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0b32d7fa-eb93-5027-9d89-693d3358872d",
+      "name": "beef short ribs",
+      "normalized_name": "beef short ribs",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "9b989bae-6c38-5aa9-b59b-2d967f2f6727",
+      "name": "fluid ounce) can or bottle stout beer",
+      "normalized_name": "fluid ounce can or bottle stout beer",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "12af034a-1077-5493-a726-152364114621",
+      "name": "beef stock",
+      "normalized_name": "beef stock",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "e6af432c-4296-596f-a056-43d360275313",
+      "slug": "ribs",
+      "name": "Ribs"
+    },
+    {
+      "id": "7b4b976e-9e0b-5d1f-aedc-433004896dc4",
+      "slug": "short-ribs",
+      "name": "Short Ribs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "465ee954-cdc9-5c4f-a0fb-5ad93ca5fbd6",
+      "slug": "short-ribs",
+      "name": "Short Ribs",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "a4ab9606-d763-5f61-aa8c-42b5f8b89953",
+      "slug": "rib-recipes",
+      "name": "Rib Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "a0d28738-e8e1-5472-b5d0-058cdd5cf5d5",
+      "slug": "family-heirloom",
+      "name": "Family Heirloom",
+      "color": null
+    },
+    {
+      "id": "99d8c901-c626-5363-9195-83d035f13932",
+      "slug": "low-carb",
+      "name": "Low-Carb",
+      "color": null
+    },
+    {
+      "id": "17811c2e-c321-5d1b-812d-b684df7c85ca",
+      "slug": "ribs",
+      "name": "Ribs",
+      "color": null
+    },
+    {
+      "id": "95096cde-996b-5a1b-8a3c-6f7dc7603dc1",
+      "slug": "guinness",
+      "name": "Guinness\u00a8",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/162690/simple-beef-short-ribs"
+  },
+  "public": true,
+  "updated_at": 1769099593,
+  "revision": 1
+}

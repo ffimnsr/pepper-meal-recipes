@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ecc5ce14-c7fe-53d1-afd3-3503a497b10c",
+  "slug": "dirty-martini",
+  "name": "Dirty Martini",
+  "recipe_type": "drink",
+  "brief_description": "A dirty martini is the perfect cocktail for olive lovers. It's made with vodka, vermouth, olive brine, and stuffed olives. Serve up or on the rocks.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Stir together vodka, dry vermouth, brine, and olives in a mixing glass. Pour into a glass or shaker with ice."
+    },
+    {
+      "position": 3,
+      "text": "Serve on the rocks, or strain into chilled cocktail glasses."
+    },
+    {
+      "position": 4,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ecc5ce14-c7fe-53d1-afd3-3503a497b10c/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/D4KG01At-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "207 kcal",
+    "carbohydrateContent": "0 g",
+    "fiberContent": "0 g",
+    "proteinContent": "0 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "269 mg",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "01dbf167-6f03-50e9-aa37-34a6eae537d9",
+      "name": "fluid ounces vodka",
+      "normalized_name": "fluid ounces vodka",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3e76b836-165c-54f4-b1dc-78af7973e79a",
+      "name": "dash dry vermouth",
+      "normalized_name": "dash dry vermouth",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "eaaef17f-0a7f-5ac0-b677-707f3933e300",
+      "name": "fluid ounce brine from olive jar",
+      "normalized_name": "fluid ounce brine from olive jar",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ca147cb6-81fa-5e6e-8421-2e9aeba6616e",
+      "name": "stuffed green olives",
+      "normalized_name": "stuffed green olives",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "4fe9efe4-15fd-5f94-9961-25de12b74509",
+      "slug": "cocktail",
+      "name": "Cocktail"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "0289a089-76d9-5168-a00f-c45a4bf35d28",
+      "slug": "martini",
+      "name": "Martini"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "81c85be3-5275-5583-9b82-3cc5ea28db0d",
+      "slug": "martini-recipes",
+      "name": "Martini Recipes",
+      "color": null
+    },
+    {
+      "id": "fdaed86a-bbd7-5daf-83aa-ad4f8aa12cfd",
+      "slug": "new-year",
+      "name": "New Year",
+      "color": null
+    },
+    {
+      "id": "f0decdd4-0259-5932-b65f-943543dd4242",
+      "slug": "cocktail-recipes",
+      "name": "Cocktail Recipes",
+      "color": null
+    },
+    {
+      "id": "b85cccaa-bc48-53a6-ad85-7a40d6dc2a18",
+      "slug": "drinks-with-alcohol",
+      "name": "Drinks With Alcohol",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "fbee07d6-4c92-53e3-9319-82c2ded63e02",
+      "slug": "vodka-drinks-recipes",
+      "name": "Vodka Drinks Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32238/dirty-martini"
+  },
+  "public": true,
+  "updated_at": 1761235721,
+  "revision": 1
+}

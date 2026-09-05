@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "83fc623a-1a66-5418-923b-5240e60a2f5f",
+  "slug": "mexican-gravy",
+  "name": "Mexican Gravy",
+  "recipe_type": "side",
+  "brief_description": "This Mexican-style 'gravy' is a delicious accompaniment for your burritos, tortilla chips, or whatever you think needs a touch of chili powder and oregano.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix flour, chili powder, onion powder, oregano, and salt together in a small bowl."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a large saucepan over low heat. Whisk flour mixture into hot oil until smooth. Pour water into mixture in small amounts and whisk to incorporate smoothly between additions. Bring the gravy to a simmer for 5 minutes. Remove from heat and cool 10 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/83fc623a-1a66-5418-923b-5240e60a2f5f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "170 kcal",
+    "carbohydrateContent": "10 g",
+    "fiberContent": "1 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "420 mg",
+    "sugarContent": "1 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a41022c4-6f22-5e6c-9a47-2bf8db00a3e3",
+      "name": "flour",
+      "normalized_name": "flour",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "73edd81c-93fd-5899-8abc-52a065e6e4ff",
+      "name": "dried mexican oregano",
+      "normalized_name": "dried mexican oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "18b28cb8-4cd8-5232-b635-1f1ecee9d5ee",
+      "slug": "gravy",
+      "name": "Gravy"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b563874f-11e6-5d61-a701-2bd3f87e15b1",
+      "slug": "gravy-recipes",
+      "name": "Gravy Recipes",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "301bad8a-6e1f-553c-a80c-5128b923b5b0",
+      "slug": "chili-powder-recipes",
+      "name": "Chili Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "e1bad24c-204b-5cce-a415-07fd207fd510",
+      "slug": "oregano-recipes",
+      "name": "Oregano Recipes",
+      "color": null
+    },
+    {
+      "id": "187603c2-42c4-5076-a2c7-438cbce2329f",
+      "slug": "herbs-and-spices-recipes",
+      "name": "Herbs and Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "47284bc0-1a10-5168-9ee0-5300871f4453",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments",
+      "color": null
+    },
+    {
+      "id": "c5b74aea-03dc-57ec-b88e-303313fefcdb",
+      "slug": "mexican-oregano-recipes",
+      "name": "Mexican Oregano Recipes",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236796/mexican-gravy"
+  },
+  "public": true,
+  "updated_at": 1642144691,
+  "revision": 1
+}

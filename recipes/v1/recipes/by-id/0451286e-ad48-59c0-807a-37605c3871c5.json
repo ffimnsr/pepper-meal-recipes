@@ -1,0 +1,176 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0451286e-ad48-59c0-807a-37605c3871c5",
+  "slug": "delicious-healthy-strawberry-shake",
+  "name": "Delicious Strawberry Shake",
+  "recipe_type": "drink",
+  "brief_description": "This easy strawberry shake is a simply blend strawberries with milk, honey, and vanilla for a refreshing summer drink just like mom used to make.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine milk, frozen strawberries, honey, and vanilla in a blender. Blend until smooth."
+    },
+    {
+      "position": 2,
+      "text": "Pour into glasses and serve."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0451286e-ad48-59c0-807a-37605c3871c5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "186 kcal",
+    "carbohydrateContent": "27 g",
+    "cholesterolContent": "20 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "102 mg",
+    "sugarContent": "24 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3dadfd6d-564a-5ec4-bddd-8d706c7f7f2c",
+      "name": "frozen strawberries",
+      "normalized_name": "frozen strawberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "9474d257-abc3-5a1a-94dc-b1f447e79821",
+      "slug": "shakes-and-floats",
+      "name": "Shakes and Floats"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fa443c6f-136c-54a3-a3d8-5ff5b939cf47",
+      "slug": "shakes-and-floats-recipes",
+      "name": "Shakes and Floats Recipes",
+      "color": null
+    },
+    {
+      "id": "321da1b8-e4ab-554c-8642-7e228e7986e6",
+      "slug": "strawberry",
+      "name": "Strawberry",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20816/delicious-healthy-strawberry-shake"
+  },
+  "public": true,
+  "updated_at": 1774966965,
+  "revision": 1
+}

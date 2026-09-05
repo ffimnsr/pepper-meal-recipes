@@ -1,0 +1,234 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1dae9788-81ef-50da-8f2f-5bbce4992f2f",
+  "slug": "corn-and-black-bean-guacamole",
+  "name": "Corn and Black Bean Guacamole",
+  "recipe_type": "appetizer",
+  "brief_description": "This chunky guacamole has red pepper, corn, red onion, and black beans for a colorful dip for tortilla chips.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Stir red bell pepper, red onion, garlic, sweet corn, black beans, and avocado slices together in a large bowl."
+    },
+    {
+      "position": 2,
+      "text": "Mix lime juice, salt, black pepper, and cilantro into avocado mixture until desired texture is achieved."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1dae9788-81ef-50da-8f2f-5bbce4992f2f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "171 kcal",
+    "carbohydrateContent": "17 g",
+    "fiberContent": "8 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "261 mg",
+    "sugarContent": "3 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "f0ec2164-1d81-53e2-8841-02423bd2c733",
+      "name": "ounce) can sweet corn",
+      "normalized_name": "ounce can sweet corn",
+      "quantity": "0.5 (15.25",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5994137f-3c02-548c-acb4-3722b49f82fe",
+      "name": "ounce) can black beans",
+      "normalized_name": "ounce can black beans",
+      "quantity": "0.5 (15",
+      "unit": "pieces",
+      "preparation": "drained and rinsed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "3a6613c8-447e-51a7-b1d6-12611718c80c",
+      "name": "ripe avocados",
+      "normalized_name": "ripe avocados",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "peeled, pitted and sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0e66765e-3fa2-52b8-bd89-520e4935a12f",
+      "name": "fresh lime juice",
+      "normalized_name": "fresh lime juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": "or to taste",
+      "position": 9
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or more to taste",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "5611510c-11ff-5c0b-aee0-6696f963fc70",
+      "slug": "guacamole",
+      "name": "Guacamole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a5c662fd-486b-50ed-8590-37f23fc841de",
+      "slug": "bean-dip-recipes",
+      "name": "Bean Dip Recipes",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "a2739e39-e56d-5b2f-aed0-2eef272025f6",
+      "slug": "black-beans",
+      "name": "Black Beans",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "e89937cb-1734-5226-87a5-ca9f1e08fc2f",
+      "slug": "prebiotic-and-probiotic",
+      "name": "Prebiotic and Probiotic",
+      "color": null
+    },
+    {
+      "id": "6d7d0eb0-fe57-5977-bce4-f4c353ce90d3",
+      "slug": "on-the-go",
+      "name": "On The Go",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221283/corn-and-black-bean-guacamole"
+  },
+  "public": true,
+  "updated_at": 1644605258,
+  "revision": 1
+}

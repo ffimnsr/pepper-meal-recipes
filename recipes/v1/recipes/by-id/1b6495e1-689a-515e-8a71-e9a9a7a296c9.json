@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1b6495e1-689a-515e-8a71-e9a9a7a296c9",
+  "slug": "california-blt-chopped-bagel-recipe-8604129",
+  "name": "California BLT Chopped Bagel",
+  "recipe_type": "breakfast",
+  "brief_description": "To make this California chopped BLT bagel, you'll chop bacon, tomato, avocado, and lettuce into a smear of chive cream cheese, then sandwich it into an everything bagel. It's quick, easy, and so, so good.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Toast bagel until golden brown, about 3 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, slightly spread cream cheese on a cutting board. Add bacon, lettuce, and tomato on top. Sprinkle with salt and pepper, and chop mixture until chunky and well incorporated. Add avocado and chop 5 to 7 more times."
+    },
+    {
+      "position": 3,
+      "text": "Gather mixture together; scrape up with a spatula or bench scraper. Spread mixture onto bottom of toasted bagel and place top piece on top. Serve immediately."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1b6495e1-689a-515e-8a71-e9a9a7a296c9/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/YvyxenPc-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1285 kcal",
+    "carbohydrateContent": "137 g",
+    "cholesterolContent": "78 mg",
+    "fiberContent": "22 g",
+    "proteinContent": "43 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "1940 mg",
+    "sugarContent": "22 g",
+    "fatContent": "67 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "deb44e19-6ffb-5a98-bad6-ef7c5be96056",
+      "name": "everything bagel",
+      "normalized_name": "everything bagel",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced in half horizontally",
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3d55e2d-da2a-5147-ad35-c9e3208913ce",
+      "name": "chive and onion cream cheese",
+      "normalized_name": "chive and onion cream cheese",
+      "quantity": "2",
+      "unit": "ounces",
+      "preparation": "softened",
+      "position": 2
+    },
+    {
+      "ingredient_id": "9cafc193-d2ef-5669-8812-25f1807636bb",
+      "name": "slices crisp cooked bacon",
+      "normalized_name": "slices crisp cooked bacon",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0329f8aa-ef53-569f-83b5-544740aa898d",
+      "name": "leaves romaine lettuce",
+      "normalized_name": "leaves romaine lettuce",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "e9c0b206-896d-5a2e-ad0d-b809f6c589b7",
+      "name": "slice tomato",
+      "normalized_name": "slice tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "207da207-7554-5b16-a44c-8e024e2d40d0",
+      "name": "kosher salt",
+      "normalized_name": "kosher salt",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": "1/4",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a8da5e1f-7b18-55b3-81fc-99e0bba480ca",
+      "name": "avocado",
+      "normalized_name": "avocado",
+      "quantity": "1/4",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "017f8645-ec08-59b4-a868-cdf69e504615",
+      "slug": "entree",
+      "name": "Entree"
+    },
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "9e004679-7e06-5079-808d-76ab33ec6e18",
+      "slug": "yeast-bread",
+      "name": "Yeast Bread"
+    },
+    {
+      "id": "bdf73e5f-a98e-5031-876f-483f4b652f60",
+      "slug": "bagel",
+      "name": "Bagel"
+    }
+  ],
+  "tags": [
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "29e3dac3-9823-5196-8496-13b628e380f5",
+      "slug": "bagel-recipes",
+      "name": "Bagel Recipes",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "e81b13ec-9a0b-55c6-acb2-07f45c001cb6",
+      "slug": "yeast-bread-recipes",
+      "name": "Yeast Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "58f836b1-d1a3-5e0e-b2ff-a9a45fe2c4c4",
+      "slug": "u-s-recipes",
+      "name": "U.S. Recipes",
+      "color": null
+    },
+    {
+      "id": "e1bc8638-843f-5ab3-bcec-0edffd0ddef6",
+      "slug": "u-s-recipes-by-state",
+      "name": "U.S. Recipes by State",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    },
+    {
+      "id": "beeeb437-f615-54b5-9350-85e2be0c0537",
+      "slug": "california-recipes",
+      "name": "California Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/california-blt-chopped-bagel-recipe-8604129"
+  },
+  "public": true,
+  "updated_at": 1709670179,
+  "revision": 1
+}

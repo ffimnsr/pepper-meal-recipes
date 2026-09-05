@@ -1,0 +1,266 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fa4c2873-77f6-5046-9453-53e5d59e6b2b",
+  "slug": "shrimp-fried-rice-ii",
+  "name": "Shrimp Fried Rice",
+  "recipe_type": "main",
+  "brief_description": "This shrimp fried rice recipe cooks white rice, shrimp, green onion, egg, soy sauce, and bean sprouts in one pan for a flavorsome, restaurant-style meal.",
+  "cuisine": "Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Bring water to a boil in a saucepan. Add rice and stir. Reduce heat, cover, and simmer for 20 minutes. Set aside and allow rice to completely cool."
+    },
+    {
+      "position": 3,
+      "text": "Heat a large skillet or wok for 2 minutes. When the skillet or wok is hot, pour in vegetable oil, bean sprouts, and onions. Mix well and cook for 3 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Mix in cooled rice and shrimp and cook for another 3 minutes. Stirring constantly."
+    },
+    {
+      "position": 5,
+      "text": "Add in eggs, green onion, soy sauce, salt, pepper, and sesame oil. Cook for another 4 minutes, stirring continuously, until eggs are cooked and everything is blended evenly."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fa4c2873-77f6-5046-9453-53e5d59e6b2b/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/Wpy2WKlF-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "483 kcal",
+    "carbohydrateContent": "60 g",
+    "cholesterolContent": "187 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "1638 mg",
+    "sugarContent": "2 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "69eb52aa-d6ef-508d-828e-206be1969dfb",
+      "name": "uncooked white rice",
+      "normalized_name": "uncooked white rice",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "420ec604-eb23-5632-83b4-bd357be86d46",
+      "name": "fresh bean sprouts",
+      "normalized_name": "fresh bean sprouts",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "e9249a8a-b391-526a-8701-a50870490b59",
+      "name": "cooked medium shrimp",
+      "normalized_name": "cooked medium shrimp",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": "peeled and deveined without tail",
+      "position": 6
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 7
+    },
+    {
+      "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
+      "name": "chopped green onion",
+      "normalized_name": "chopped green onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "3abb4365-ccad-5837-b651-d178c73fe82c",
+      "slug": "fried-rice",
+      "name": "Fried Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "c1fd9249-a4f9-5907-9fd1-658ba5469e94",
+      "slug": "fried-rice-recipes",
+      "name": "Fried Rice Recipes",
+      "color": null
+    },
+    {
+      "id": "129449da-b9e2-520f-bbe5-f1b5328c5adf",
+      "slug": "sesame-oil-recipes",
+      "name": "Sesame Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21561/shrimp-fried-rice-ii"
+  },
+  "public": true,
+  "updated_at": 1760546442,
+  "revision": 1
+}

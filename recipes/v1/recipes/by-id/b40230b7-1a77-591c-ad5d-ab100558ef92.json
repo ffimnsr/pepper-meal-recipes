@@ -1,0 +1,282 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b40230b7-1a77-591c-ad5d-ab100558ef92",
+  "slug": "fabulous-wet-burritos",
+  "name": "Fabulous Wet Burritos",
+  "recipe_type": "main",
+  "brief_description": "A wet burrito recipe made with flour tortillas filled with ground beef, refried beans, and chiles \u2014 topped with a generous amount of sauce and cheese.",
+  "cuisine": "Southwestern American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Crumble ground beef into a skillet over medium-high heat. Cook and stir until evenly browned. Add onion and cook until translucent. Drain grease, and season with garlic, cumin, salt, and pepper. Stir in refried beans and green chilies until well blended. Turn off heat but keep warm."
+    },
+    {
+      "position": 2,
+      "text": "Combine canned chili, condensed soup, and enchilada sauce in a saucepan. Mix well and cook over medium heat until heated through. Turn off the heat and keep warm."
+    },
+    {
+      "position": 3,
+      "text": "Place warmed tortilla on a plate and spoon a generous 1/2 cup of the ground beef mixture onto the center. Top with a portion of lettuce and tomato to your liking. Roll up tortilla around the filling, while tucking in the sides. Spoon a generous amount of the sauce over the top and sprinkle with a portion of cheese and green onions. Heat in the microwave until cheese is melted, about 30 seconds. Repeat with remaining tortillas and fillings."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b40230b7-1a77-591c-ad5d-ab100558ef92/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/UUALPPEF-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "916 kcal",
+    "carbohydrateContent": "92 g",
+    "cholesterolContent": "123 mg",
+    "fiberContent": "10 g",
+    "proteinContent": "44 g",
+    "saturatedFatContent": "20 g",
+    "sodiumContent": "2285 mg",
+    "sugarContent": "10 g",
+    "fatContent": "42 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "37de2f89-040e-52db-a1a6-6127a0bc912b",
+      "name": "cumin",
+      "normalized_name": "cumin",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9e6d05db-379b-519f-8d6a-74c332bfe2ca",
+      "name": "ounce) can refried beans",
+      "normalized_name": "ounce can refried beans",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f99f3e9b-43e6-561e-81d0-63474e5b7a7f",
+      "name": "ounce) can diced green chile peppers",
+      "normalized_name": "ounce can diced green chile peppers",
+      "quantity": "1 (4.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "90bf223c-0371-535f-a234-71ac2362f0bb",
+      "name": "ounce) can chili without beans",
+      "normalized_name": "ounce can chili without beans",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "cf184e42-c27d-577b-8c39-2d19adf6a9f4",
+      "name": "ounce) can condensed tomato soup",
+      "normalized_name": "ounce can condensed tomato soup",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "cc36c9dc-ba79-52ff-80c0-88b23866a363",
+      "name": "ounce) can enchilada sauce",
+      "normalized_name": "ounce can enchilada sauce",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "3de1e9ac-4c7f-5818-a480-473403e19215",
+      "name": "inch) flour tortillas",
+      "normalized_name": "inch flour tortillas",
+      "quantity": "6 (12",
+      "unit": "pieces",
+      "preparation": "warmed",
+      "position": 12
+    },
+    {
+      "ingredient_id": "e8df9fca-6fae-51c4-a94c-e9e685105bd0",
+      "name": "shredded lettuce",
+      "normalized_name": "shredded lettuce",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 13
+    },
+    {
+      "ingredient_id": "d5c1a3e3-5533-5e3b-a365-66e79ced3213",
+      "name": "chopped tomatoes",
+      "normalized_name": "chopped tomatoes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 14
+    },
+    {
+      "ingredient_id": "a1df7e8c-4f9f-576f-adfd-55eeb0bcdab6",
+      "name": "shredded mexican cheese blend",
+      "normalized_name": "shredded mexican cheese blend",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 15
+    },
+    {
+      "ingredient_id": "907b7443-17d3-5349-b4f1-941d5cb63ff7",
+      "name": "chopped green onions",
+      "normalized_name": "chopped green onions",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "c435539b-7fb9-5280-93dc-22b3b882cd67",
+      "slug": "lettuce",
+      "name": "Lettuce",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70404/fabulous-wet-burritos"
+  },
+  "public": true,
+  "updated_at": 1782835286,
+  "revision": 1
+}

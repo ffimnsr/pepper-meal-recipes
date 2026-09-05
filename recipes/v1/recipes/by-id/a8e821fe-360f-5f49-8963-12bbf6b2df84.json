@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a8e821fe-360f-5f49-8963-12bbf6b2df84",
+  "slug": "strawberry-banana-protein-shake",
+  "name": "Strawberry Banana Protein Shake",
+  "recipe_type": "breakfast",
+  "brief_description": "This strawberry banana protein powder shake is made with skim milk and natural peanut butter for a great post-workout meal or on-the-go breakfast.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Layer milk, protein powder, ice, strawberries, banana, and peanut butter in a blender in this order; blend until creamy and smooth."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a8e821fe-360f-5f49-8963-12bbf6b2df84/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "261 kcal",
+    "carbohydrateContent": "31 g",
+    "cholesterolContent": "9 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "187 mg",
+    "sugarContent": "19 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "068980a1-0ace-5c9b-b5cf-1f29246fd694",
+      "name": "skim milk",
+      "normalized_name": "skim milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8130e7ff-8eb3-5620-9bb1-6d9f9e2bbf51",
+      "name": "scoop vanilla-flavored whey protein powder",
+      "normalized_name": "scoop vanilla-flavored whey protein powder",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f1102ddd-a1a6-5f8a-934f-666143834e15",
+      "name": "ice",
+      "normalized_name": "ice",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5ff5f54c-2a65-5690-a15d-70a0807a7659",
+      "name": "strawberries",
+      "normalized_name": "strawberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "233b251e-9a27-5ca0-a2d7-2f3fcac4d41e",
+      "name": "large banana",
+      "normalized_name": "large banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "feb11255-05ac-5c55-9511-983298d2f446",
+      "name": "natural peanut butter",
+      "normalized_name": "natural peanut butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    }
+  ],
+  "tags": [
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244960/strawberry-banana-protein-shake"
+  },
+  "public": true,
+  "updated_at": 1776359284,
+  "revision": 1
+}

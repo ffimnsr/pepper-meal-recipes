@@ -1,0 +1,247 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7b704c6c-970f-5f1a-bd49-41ba25a2e7d1",
+  "slug": "brown-butter-blondies",
+  "name": "Brown Butter Blondies",
+  "recipe_type": "dessert",
+  "brief_description": "These delicious blondies are flavored with brown butter, chocolate chips, and chopped walnuts. What else could you ask for?",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Grease an 11x7-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Sift flour, baking powder, and salt together in a bowl. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Melt butter in a saucepan over medium heat, swirling constantly until golden brown, bubbling, and fragrant, 3 to 5 minutes. Remove from heat and let cool for 5 to 7 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Beat brown butter and brown sugar in a bowl with an electric mixer until light and fluffy. Add eggs, one at a time, beating well after each addition. Beat in vanilla extract. Fold in flour mixture just until incorporated. Fold in walnuts and semisweet chocolate chips. Spread batter into the prepared baking dish."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until top is dry and edges have started to pull away from the sides of the pan, 35 to 40 minutes. Let cool completely before slicing into 18 blondies. Dust with powdered sugar."
+    }
+  ],
+  "servings": 18,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7b704c6c-970f-5f1a-bd49-41ba25a2e7d1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "168 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "32 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "67 mg",
+    "sugarContent": "15 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "packed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "e8e75e6e-b180-5d39-a832-2134749a2e0d",
+      "name": "chopped walnuts",
+      "normalized_name": "chopped walnuts",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1c6f820d-96d6-5851-aed5-635ad1273bee",
+      "name": "semisweet chocolate",
+      "normalized_name": "semisweet chocolate",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "87f043ee-da3e-50fb-8ff0-8cf7b313df8a",
+      "name": "powdered sugar",
+      "normalized_name": "powdered sugar",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "35233dd5-b3c7-51c7-8825-6fcb0aa37bde",
+      "slug": "cookies",
+      "name": "Cookies"
+    },
+    {
+      "id": "8cb7547a-54b4-55c5-9233-ca55d825dc1e",
+      "slug": "brownie",
+      "name": "Brownie"
+    },
+    {
+      "id": "c06711fb-d5f2-5ddb-bbe7-021117ca2fe3",
+      "slug": "nut-brownie",
+      "name": "Nut Brownie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "707c28d8-9a0a-53e5-8d63-26581d86d0de",
+      "slug": "brownie-recipes",
+      "name": "Brownie Recipes",
+      "color": null
+    },
+    {
+      "id": "f654140a-5ccd-512e-88b5-325b8b2cbbd5",
+      "slug": "butter-recipes",
+      "name": "Butter Recipes",
+      "color": null
+    },
+    {
+      "id": "4a613e91-807d-52aa-9813-8c70e2d1d531",
+      "slug": "walnut-dessert-recipes",
+      "name": "Walnut Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "41ab1f70-8ad5-50ba-85cc-97bd5a7836be",
+      "slug": "dark-chocolate",
+      "name": "Dark Chocolate",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "977e1e78-9723-59e3-bb92-4d2c26472dde",
+      "slug": "walnut",
+      "name": "Walnut",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275713/brown-butter-blondies"
+  },
+  "public": true,
+  "updated_at": 1583385633,
+  "revision": 1
+}

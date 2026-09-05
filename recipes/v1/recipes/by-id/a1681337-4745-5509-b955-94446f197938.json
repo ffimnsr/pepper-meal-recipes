@@ -1,0 +1,193 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a1681337-4745-5509-b955-94446f197938",
+  "slug": "eggnog-spiked-with-rum",
+  "name": "Eggnog (Spiked with Rum)",
+  "recipe_type": "drink",
+  "brief_description": "This homemade spiked eggnog made with rum, cream, eggs, and sugar is easy to prepare for the perfect adult drink for your holiday party.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Mix egg yolks, 2 cups sugar, rum, and nutmeg together in a large mixing bowl. Cover with plastic wrap and refrigerate 8 hours to overnight to \"cure.\""
+    },
+    {
+      "position": 3,
+      "text": "Beat egg whites and remaining 1 cup sugar in a bowl using an electric mixer until firm peaks form."
+    },
+    {
+      "position": 4,
+      "text": "Fold in heavy cream. Fold in the egg yolk mixture. Beat in half-and-half until well combined."
+    },
+    {
+      "position": 5,
+      "text": "Pour into lidded jars or containers, refrigerate, and shake before serving."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a1681337-4745-5509-b955-94446f197938/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "445 kcal",
+    "carbohydrateContent": "41 g",
+    "cholesterolContent": "203 mg",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "89 mg",
+    "sugarContent": "38 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": "separated",
+      "position": 1
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "df581fed-7291-5d5b-8712-4672882c7f51",
+      "name": "fluid ounces dark rum (such as captain morgan\u00ae spiced rum)",
+      "normalized_name": "fluid ounces dark rum",
+      "quantity": "16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b22bc2e2-07c9-54aa-a04f-a6f6cd0810e9",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b6d75f2b-9d7a-539d-b268-14b45e448ca5",
+      "name": "quart half-and-half",
+      "normalized_name": "quart half-and-half",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "572c115c-5f0e-5571-a660-d5f6bb8a777f",
+      "slug": "eggnog",
+      "name": "Eggnog"
+    }
+  ],
+  "tags": [
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "f0decdd4-0259-5932-b65f-943543dd4242",
+      "slug": "cocktail-recipes",
+      "name": "Cocktail Recipes",
+      "color": null
+    },
+    {
+      "id": "9d3c6604-d801-56ea-a0ab-d94d449e01d9",
+      "slug": "eggnog-recipes",
+      "name": "Eggnog Recipes",
+      "color": null
+    },
+    {
+      "id": "c5ccfc50-ad3d-5061-ae48-e01d18c4ee36",
+      "slug": "rum-drinks-recipes",
+      "name": "Rum Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/260825/eggnog-spiked-with-rum"
+  },
+  "public": true,
+  "updated_at": 1767594163,
+  "revision": 1
+}

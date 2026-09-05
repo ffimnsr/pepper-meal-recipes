@@ -1,0 +1,218 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4e8f5e3a-ab56-55a4-962c-0b2eade2d1cc",
+  "slug": "feta-cheese-ball",
+  "name": "Feta Cheese Ball",
+  "recipe_type": "appetizer",
+  "brief_description": "For all you garlic-lovers--this cheese ball is easy and delicious! I get a lot of requests for this recipe. Serve with garlic bagel chips.",
+  "cuisine": "Greek",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large bowl, combine cream cheese, feta cheese, olive oil, green onions and garlic. Season with dill, oregano and pepper. Mix well, and form into 2 balls. Cover, and chill for 2 hours."
+    }
+  ],
+  "servings": 32,
+  "cooking_time_minutes": 120,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4e8f5e3a-ab56-55a4-962c-0b2eade2d1cc/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "75 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "19 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "82 mg",
+    "sugarContent": "0 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ff07c3dd-abc3-51a9-bb49-d30c0737d0c1",
+      "name": "ounce) packages cream cheese",
+      "normalized_name": "ounce packages cream cheese",
+      "quantity": "2 (8",
+      "unit": "pieces",
+      "preparation": "softened",
+      "position": 1
+    },
+    {
+      "ingredient_id": "c465cba1-9bf1-541d-9aa4-73c9a4f3ce33",
+      "name": "feta cheese",
+      "normalized_name": "feta cheese",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": "crumbled",
+      "position": 2
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "c695b7e1-c0a2-5395-852a-ca8d6057ab91",
+      "name": "dried dill weed",
+      "normalized_name": "dried dill weed",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f3daab85-fd5d-56c3-a1a7-aced8f06b15b",
+      "name": "cracked black pepper",
+      "normalized_name": "cracked black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "6ad8913c-315a-59a3-af4f-713310ac8cde",
+      "slug": "cheese-dips-and-spreads",
+      "name": "Cheese Dips and Spreads"
+    },
+    {
+      "id": "92a2fb55-b6b9-5075-aa6c-fc9c400579c8",
+      "slug": "cold-cheese-dip",
+      "name": "Cold Cheese Dip"
+    }
+  ],
+  "tags": [
+    {
+      "id": "30c736a8-9ce4-5bff-be4e-2a3b1661810c",
+      "slug": "cold-cheese-dip-recipes",
+      "name": "Cold Cheese Dip Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "6ce52073-665a-558e-9235-f303f0933afd",
+      "slug": "feta",
+      "name": "Feta",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "2f32f8bf-e46a-53c3-b100-1eacf52b2c38",
+      "slug": "cheese-ball-recipes",
+      "name": "Cheese Ball Recipes",
+      "color": null
+    },
+    {
+      "id": "99d8c901-c626-5363-9195-83d035f13932",
+      "slug": "low-carb",
+      "name": "Low-Carb",
+      "color": null
+    },
+    {
+      "id": "f8ef87d6-0290-59c2-8196-4971f34fe7e6",
+      "slug": "dips-and-spreads-recipes",
+      "name": "Dips and Spreads Recipes",
+      "color": null
+    },
+    {
+      "id": "63bb1b58-4e6f-5db7-b51d-758398e3c408",
+      "slug": "cheese-dips-and-spreads-recipes",
+      "name": "Cheese Dips and Spreads Recipes",
+      "color": null
+    },
+    {
+      "id": "2d9ecea4-9682-5b22-b9b0-a8b03d26a602",
+      "slug": "cheese",
+      "name": "Cheese",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/53450/feta-cheese-ball"
+  },
+  "public": true,
+  "updated_at": 1681145785,
+  "revision": 1
+}

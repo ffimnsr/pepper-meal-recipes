@@ -1,0 +1,234 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cb562d79-f615-5faa-86a9-d7052c5af389",
+  "slug": "grandmas-banana-bread",
+  "name": "Grandma's Banana Bread",
+  "recipe_type": "dessert",
+  "brief_description": "If you're looking for a sweet banana bread, this recipe is for you.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 325 degrees F (165 degrees C). Lightly grease a 9x13-inch baking pan."
+    },
+    {
+      "position": 2,
+      "text": "In a large bowl, cream together the sugar and margarine until light and fluffy. Stir in the eggs one at a time, beating well with each addition, then stir in the vanilla."
+    },
+    {
+      "position": 3,
+      "text": "In a large bowl, sift together flour, baking soda and salt. Blend this mixture into the egg mixture, alternately with the buttermilk; stir just to combine. Fold in the mashed bananas; mixing just enough to evenly combine. Pour batter into prepared pan."
+    },
+    {
+      "position": 4,
+      "text": "Bake in preheated oven until a toothpick inserted into center of the loaf comes our clean, about 60 minutes."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cb562d79-f615-5faa-86a9-d7052c5af389/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "545 kcal",
+    "carbohydrateContent": "93 g",
+    "cholesterolContent": "63 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "480 mg",
+    "sugarContent": "59 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "915d3931-7f1a-547d-9655-7c5ac8ed53bd",
+      "name": "margarine",
+      "normalized_name": "margarine",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "softened",
+      "position": 2
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "950239d2-8408-5a49-a8bd-7298ae896627",
+      "name": "buttermilk",
+      "normalized_name": "buttermilk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2d858fec-c1a8-5920-b294-5ee943e81b48",
+      "name": "very ripe bananas",
+      "normalized_name": "very ripe bananas",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "mashed",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "77e1f546-2f79-59e6-8408-01ccbe297542",
+      "slug": "fruit-bread",
+      "name": "Fruit Bread"
+    },
+    {
+      "id": "4b13ce95-42d9-5ce7-aece-efd8f15854ae",
+      "slug": "banana-bread",
+      "name": "Banana Bread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "434ef930-362c-5218-9ff9-a11c39e040b7",
+      "slug": "banana-bread",
+      "name": "Banana Bread",
+      "color": null
+    },
+    {
+      "id": "83a46deb-c595-5fc8-991d-01062f74c59d",
+      "slug": "breakfast-bread-recipes",
+      "name": "Breakfast Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "f01feff9-0daa-53ad-90b4-1e3f426879d5",
+      "slug": "buttermilk-recipes",
+      "name": "Buttermilk Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "a0d28738-e8e1-5472-b5d0-058cdd5cf5d5",
+      "slug": "family-heirloom",
+      "name": "Family Heirloom",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "f2a5d498-0488-57e1-8e78-49eece9afc27",
+      "slug": "bananas",
+      "name": "Bananas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23810/grandmas-banana-bread"
+  },
+  "public": true,
+  "updated_at": 1780931035,
+  "revision": 1
+}

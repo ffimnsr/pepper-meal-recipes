@@ -1,0 +1,278 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8d04af35-7857-57b2-a749-e97671ef8c41",
+  "slug": "moo-shu-chicken",
+  "name": "Moo Shu Chicken",
+  "recipe_type": "main",
+  "brief_description": "This moo shu chicken dish combines sliced chicken with an umami-rich sauce, shredded cabbage, and shiitake mushrooms. Skip eating out and try this at home!",
+  "cuisine": "Chinese",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk 2 tablespoons water, 2 teaspoons sesame oil, and cornstarch together in a large bowl. Add chicken, toss to coat, and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Combine remaining 4 tablespoons water and 1 teaspoon sesame oil in a separate bowl. Whisk in hoisin sauce, oyster sauce, and soy sauce until well combined; set sauce aside."
+    },
+    {
+      "position": 3,
+      "text": "Heat 1 teaspoon oil in a skillet over medium heat. Add eggs and cook for 3 minutes; flip and cook until firm and set, about 3 minutes more. Transfer to a cutting board and slice into thin strips."
+    },
+    {
+      "position": 4,
+      "text": "Add marinated chicken to the skillet and cook over medium-high heat for 6 minutes. Flip and cook until golden brown on the outside and the juices run clear, about 6 minutes more; transfer to a plate."
+    },
+    {
+      "position": 5,
+      "text": "Heat remaining 1 teaspoon oil in the skillet over medium-high heat. Add cabbage, shiitake mushrooms, garlic, and sherry; cook until cabbage starts to wilt, about 2 minutes. Add chicken, sliced egg, and reserved sauce to the skillet; cook, stirring occasionally, until sauce has thickened, about 5 minutes. Toss in green onions and serve immediately."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8d04af35-7857-57b2-a749-e97671ef8c41/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "319 kcal",
+    "carbohydrateContent": "17 g",
+    "cholesterolContent": "157 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "30 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "585 mg",
+    "sugarContent": "3 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b94296dc-9e1a-5dad-9dc2-727ad66f0055",
+      "name": "cold water",
+      "normalized_name": "cold water",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "3",
+      "unit": "teaspoons",
+      "preparation": "divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "645e82f3-83b2-5e64-8d25-2c721e094a6b",
+      "name": "chicken breast tenderloins",
+      "normalized_name": "chicken breast tenderloins",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into thin strips",
+      "position": 4
+    },
+    {
+      "ingredient_id": "23a94183-312d-503b-8dec-f96fa55e4e22",
+      "name": "hoisin sauce",
+      "normalized_name": "hoisin sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "63041ac9-6930-5398-b18d-13ee1400cb3f",
+      "name": "oyster sauce",
+      "normalized_name": "oyster sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "divided",
+      "position": 8
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 9
+    },
+    {
+      "ingredient_id": "30edf85f-2724-5829-bd8b-4ceba59d39cb",
+      "name": "shredded cabbage or coleslaw mix",
+      "normalized_name": "shredded cabbage or coleslaw mix",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "9f04dcd1-9d97-5a58-8fbf-6cf2cb9c1966",
+      "name": "ounce) can sliced shiitake mushrooms",
+      "normalized_name": "ounce can sliced shiitake mushrooms",
+      "quantity": "1 (4",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 11
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 12
+    },
+    {
+      "ingredient_id": "e1b1dc68-7b7b-59ca-8c26-3635ad2a1317",
+      "name": "sherry",
+      "normalized_name": "sherry",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "e5b25e38-8736-5268-9f37-591300935e34",
+      "slug": "chinese",
+      "name": "Chinese"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273598/moo-shu-chicken"
+  },
+  "public": true,
+  "updated_at": 1672254895,
+  "revision": 1
+}

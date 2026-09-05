@@ -1,0 +1,238 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "eb15e605-881e-5bb8-aa17-d78d3244a9aa",
+  "slug": "jeffs-sloppy-joes",
+  "name": "Jeff's Sloppy Joes",
+  "recipe_type": "main",
+  "brief_description": "Ground beef and sausage are the main ingredients of this spicy sandwich filling. The heat level can be upped even further by adding hot pepper sauce.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the oil in a large skillet over medium heat. Add the onion, garlic, green bell pepper, celery and oregano. Saute for 5 minutes, or until onion is tender. Transfer this mixture to a plate and reserve for later."
+    },
+    {
+      "position": 2,
+      "text": "In the same skillet over medium high heat, combine the ground beef and sausage and saute for 10 minutes, or until well browned. Add reserved onion mixture, chili sauce, vinegar, Worcestershire sauce and brown sugar and mix well. Season with salt and pepper to taste."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/eb15e605-881e-5bb8-aa17-d78d3244a9aa/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "235 kcal",
+    "carbohydrateContent": "9 g",
+    "cholesterolContent": "46 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "296 mg",
+    "sugarContent": "3 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "36a74fec-d1b3-5fd5-a16b-85ed1240196f",
+      "name": "chopped green bell pepper",
+      "normalized_name": "chopped green bell pepper",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ac43bfa7-7896-5ff3-bde4-13aaa7c8b6f3",
+      "name": "stalk celery",
+      "normalized_name": "stalk celery",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5810a23d-e91c-5f0a-b897-0f48aaf494c6",
+      "name": "italian sausage",
+      "normalized_name": "italian sausage",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "7fdf43d7-1350-56fe-a0a0-bd5159433f33",
+      "name": "fluid ounce) can or bottle chili sauce",
+      "normalized_name": "fluid ounce can or bottle chili sauce",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "3984a17a-560e-5498-8e4b-ecdeaafe5951",
+      "name": "red wine vinegar",
+      "normalized_name": "red wine vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "3580a496-e069-57a4-ae59-0b84d1f420ae",
+      "slug": "sloppy-joe",
+      "name": "Sloppy Joe"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "8ddf50ea-3218-548a-8ca9-640723840968",
+      "slug": "sandwiches-and-wraps",
+      "name": "Sandwiches and Wraps",
+      "color": null
+    },
+    {
+      "id": "17f4c204-15f9-596a-8568-681c02f3617f",
+      "slug": "300-calorie-main-dish-recipes",
+      "name": "300 Calorie Main Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16365/jeffs-sloppy-joes"
+  },
+  "public": true,
+  "updated_at": 1738690799,
+  "revision": 1
+}

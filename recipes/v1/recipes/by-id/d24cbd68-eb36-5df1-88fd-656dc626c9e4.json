@@ -1,0 +1,238 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d24cbd68-eb36-5df1-88fd-656dc626c9e4",
+  "slug": "classic-pasta-salad",
+  "name": "Classic Pasta Salad",
+  "recipe_type": "salad",
+  "brief_description": "This classic pasta salad recipe is loaded with Italian meats, veggies, and three types of cheese \u2014 it's perfect for parties, picnics, and potlucks.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of lightly salted water to a boil; cook rotini at a boil until tender yet firm to the bite, about 8 minutes. Drain; run under cold water to stop the cooking process. Drain; transfer to a large bowl."
+    },
+    {
+      "position": 2,
+      "text": "Stir dressing, pepperoni, salami, Cheddar cheese, Monterey Jack cheese, feta cheese, cucumber, black olives, red onion, and cherry tomatoes into rotini; toss to combine."
+    },
+    {
+      "position": 3,
+      "text": "Cover the bowl with plastic wrap; set aside in the refrigerator before serving, at least 1 hour."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d24cbd68-eb36-5df1-88fd-656dc626c9e4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "367 kcal",
+    "carbohydrateContent": "34 g",
+    "cholesterolContent": "32 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "940 mg",
+    "sugarContent": "4 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "51848f69-a4e1-5018-afca-b0b02a5a6aa6",
+      "name": "ounce) package tricolor rotini pasta",
+      "normalized_name": "ounce package tricolor rotini pasta",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fdfa82e0-6d8f-5bc7-b9c6-6d9633716420",
+      "name": "italian-style salad dressing",
+      "normalized_name": "italian-style salad dressing",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fb0452be-8a9f-51ab-a2ad-55009747e097",
+      "name": "diced pepperoni",
+      "normalized_name": "diced pepperoni",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0d7c0546-4409-5514-91ba-a3ac46724cf4",
+      "name": "diced salami",
+      "normalized_name": "diced salami",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6a862e39-9197-5669-8319-e5f80a951d35",
+      "name": "diced cheddar cheese",
+      "normalized_name": "diced cheddar cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "cd0080b1-f63a-5d94-a87f-c4a1bb95fd6e",
+      "name": "diced monterey jack cheese",
+      "normalized_name": "diced monterey jack cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cbedf4a1-173e-56ae-92c0-3595384b0e2c",
+      "name": "crumbled feta cheese",
+      "normalized_name": "crumbled feta cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "561396cb-0117-554f-a8e1-5b033ed9061b",
+      "name": "medium cucumber",
+      "normalized_name": "medium cucumber",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "98e57fe8-6ef2-57c0-883b-b3064b358ea0",
+      "name": "sliced black olives",
+      "normalized_name": "sliced black olives",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "6627cb30-6a06-5c4f-b5f5-0322b1eb6f19",
+      "name": "medium red onion",
+      "normalized_name": "medium red onion",
+      "quantity": "0.33333334326744",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "b1fa9030-caca-5cdb-a806-8fcba68d3333",
+      "name": "cherry tomatoes",
+      "normalized_name": "cherry tomatoes",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": "halved",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "3bd8e887-6fc6-543b-b7f2-c49077b61b9f",
+      "slug": "pasta-salad",
+      "name": "Pasta Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4aa94727-af93-50d8-b901-2043dfebe1de",
+      "slug": "pasta-salad",
+      "name": "Pasta Salad",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "67a9e0e4-4e75-55b6-a69a-a87726f5aa9b",
+      "slug": "pasta-by-shape-recipes",
+      "name": "Pasta by Shape Recipes",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "a00e8f38-1976-5fcc-afc1-90bb835175c0",
+      "slug": "holiday-planning",
+      "name": "Holiday Planning",
+      "color": null
+    },
+    {
+      "id": "83ede234-40e7-59a3-9890-7aac032099fb",
+      "slug": "patriotic",
+      "name": "Patriotic",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/281752/classic-pasta-salad"
+  },
+  "public": true,
+  "updated_at": 1756835998,
+  "revision": 1
+}

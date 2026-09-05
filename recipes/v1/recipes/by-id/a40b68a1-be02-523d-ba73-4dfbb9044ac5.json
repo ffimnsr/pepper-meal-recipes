@@ -1,0 +1,207 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a40b68a1-be02-523d-ba73-4dfbb9044ac5",
+  "slug": "cheese-crackers",
+  "name": "Cheese Crackers",
+  "recipe_type": "appetizer",
+  "brief_description": "Crispy Cheddar cheese crackers are made easy with just a few simple ingredients. Add red pepper flakes and sesame seeds for a spicy and nutty dimension.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 300 degrees F (150 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Combine flour, salt, and red pepper flakes in a large bowl; add Cheddar cheese and toss until cheese is coated. Pour in melted butter; stir until mixture is moist and crumbly. Add rice cereal and knead by hand until dough is well-blended."
+    },
+    {
+      "position": 3,
+      "text": "Roll dough into 1/2-inch balls; arrange on a baking sheet. Flatten each ball with a fork."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until light and crispy, about 30 minutes."
+    }
+  ],
+  "servings": 150,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a40b68a1-be02-523d-ba73-4dfbb9044ac5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "31 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "6 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "22 mg",
+    "sugarContent": "0 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "65e874a3-0c6e-5d24-a019-ceb2f2f4c3cc",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "grated and room temperature",
+      "position": 4
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 5
+    },
+    {
+      "ingredient_id": "84db457c-ea27-52b7-bc5d-3c844893217a",
+      "name": "crispy rice cereal (such as rice krispies\u00ae)",
+      "normalized_name": "crispy rice cereal",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "38cb4343-f9c8-5de7-a945-252e99bce640",
+      "slug": "snacks",
+      "name": "Snacks"
+    },
+    {
+      "id": "7bb7f89d-d1e2-52cd-91c0-c491d30b4603",
+      "slug": "cracker",
+      "name": "Cracker"
+    }
+  ],
+  "tags": [
+    {
+      "id": "af3f97a9-673e-57cc-86e8-fa8cc8231404",
+      "slug": "cracker-recipes",
+      "name": "Cracker Recipes",
+      "color": null
+    },
+    {
+      "id": "bea70f6b-83d1-547c-b292-dc14e80b6239",
+      "slug": "cooking-for-a-crowd-recipes",
+      "name": "Cooking for a Crowd Recipes",
+      "color": null
+    },
+    {
+      "id": "41ee6a9e-3f13-5962-b0a9-ced1e68f3d54",
+      "slug": "birthday-parties",
+      "name": "Birthday Parties",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "7f078dac-1953-5a3b-87ce-4ca9aab56c07",
+      "slug": "snacks",
+      "name": "Snacks",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "a00e8f38-1976-5fcc-afc1-90bb835175c0",
+      "slug": "holiday-planning",
+      "name": "Holiday Planning",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223350/cheese-crackers"
+  },
+  "public": true,
+  "updated_at": 1642141702,
+  "revision": 1
+}

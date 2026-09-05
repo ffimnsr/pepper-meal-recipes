@@ -1,0 +1,177 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9a2fb593-a051-50df-9072-24eec3b2b28c",
+  "slug": "quick-vegan-sushi",
+  "name": "Quick Vegan Sushi",
+  "recipe_type": "main",
+  "brief_description": "This vegan sushi is simple and quick to prepare--make it the night before and pack it with some wasabi and soy sauce for a delicious lunch at school or work.",
+  "cuisine": "Asian Inspired American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place cooked rice in a microwave-safe bowl and cover partially. Microwave on high until hot, about 1 minute."
+    },
+    {
+      "position": 2,
+      "text": "Place 1 nori sheet on the bamboo mat. Spread 1/2 of the rice evenly on nori sheet, using a little water on your hands or a spoon to keep rice from sticking. Place 1/2 of the cucumber and carrot slices on the top half of the rice, and roll nori sheet around rice and veggies, using the bamboo mat to help. Repeat with remaining nori sheet, rice, and veggies."
+    },
+    {
+      "position": 3,
+      "text": "Cut each roll into 6 small pieces and put them in the refrigerator until cool, about 20 minutes."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9a2fb593-a051-50df-9072-24eec3b2b28c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "292 kcal",
+    "carbohydrateContent": "63 g",
+    "fiberContent": "7 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "51 mg",
+    "sugarContent": "6 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6d2b13e2-949e-5817-be01-64738d2e0b91",
+      "name": "ounce) package precooked brown rice",
+      "normalized_name": "ounce package precooked brown rice",
+      "quantity": "1 (7.4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "15ce914e-29ad-5a58-92d8-80adda102986",
+      "name": "sheets nori (dry seaweed)",
+      "normalized_name": "sheets nori",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "363b18df-bec1-5414-8362-2920f9e451e4",
+      "name": "bamboo mat",
+      "normalized_name": "bamboo mat",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ec1c2b5e-cca0-5d55-a629-5ae15ac48fb5",
+      "name": "cucumber",
+      "normalized_name": "cucumber",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced into thin strips",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced into thin strips",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "b06f0c5b-7919-511f-9eeb-ad9b9e1ed1a0",
+      "slug": "grains",
+      "name": "Grains",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "ce42b902-40b1-5733-83a2-3f55dfe6e7fc",
+      "slug": "cucumber",
+      "name": "Cucumber",
+      "color": null
+    },
+    {
+      "id": "4bbf3490-84b7-5429-acd1-f3f32d9749b1",
+      "slug": "whole-grain",
+      "name": "Whole Grain",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277023/quick-vegan-sushi"
+  },
+  "public": true,
+  "updated_at": 1746115942,
+  "revision": 1
+}

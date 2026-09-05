@@ -1,0 +1,222 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b0e14005-2afc-5a2b-804d-70d7b5ef82a2",
+  "slug": "blonde-apple-brownies",
+  "name": "Blonde Apple Brownies",
+  "recipe_type": "dessert",
+  "brief_description": "Blonde apple brownies recipe, made with apples, brown sugar, and cinnamon, take less than an hour to make, and offer a twist on the traditional blondie.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a 9x13-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Beat butter, white sugar, brown sugar, and eggs together in a bowl with an electric mixer until smooth; beat in flour until well combined. Beat in baking powder, then stir in cinnamon. Fold in apples. Transfer to the prepared baking dish."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until a toothpick inserted into center comes out with moist crumbs, about 45 minutes."
+    }
+  ],
+  "servings": 15,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b0e14005-2afc-5a2b-804d-70d7b5ef82a2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "315 kcal",
+    "carbohydrateContent": "48 g",
+    "cholesterolContent": "57 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "134 mg",
+    "sugarContent": "33 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ffaeafed-5d45-547a-87d1-29176b89b6f7",
+      "name": "salted butter",
+      "normalized_name": "salted butter",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "softened",
+      "position": 1
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c4bb34d2-68f1-5321-a2d7-a47781d7fabe",
+      "name": "lightly packed light brown sugar",
+      "normalized_name": "lightly packed light brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f00d02da-8a8d-5bea-bf6a-c697d222a77a",
+      "name": "mcintosh apples - peeled",
+      "normalized_name": "mcintosh apples - peeled",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "cored, and diced",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7125d7fa-c15d-5725-8012-306c4b58775a",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts"
+    },
+    {
+      "id": "61a3128f-ab07-5578-9443-a5f6b922b749",
+      "slug": "apple-dessert",
+      "name": "Apple Dessert"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "bac2704d-1485-5aae-be0c-d0436b2276e0",
+      "slug": "bar-cookie-recipes",
+      "name": "Bar Cookie Recipes",
+      "color": null
+    },
+    {
+      "id": "2bb20ebd-8eac-5023-99c5-f6d105547e73",
+      "slug": "apple-dessert-recipes",
+      "name": "Apple Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "707c28d8-9a0a-53e5-8d63-26581d86d0de",
+      "slug": "brownie-recipes",
+      "name": "Brownie Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "297cb4b0-78c7-537b-a53c-ffe0804526cd",
+      "slug": "apple",
+      "name": "Apple",
+      "color": null
+    },
+    {
+      "id": "7b1dd243-fa3d-5d07-80a3-b9c37f24e21b",
+      "slug": "blondie-recipes",
+      "name": "Blondie Recipes",
+      "color": null
+    },
+    {
+      "id": "37b7be76-1cac-512c-b664-325c5af8fa60",
+      "slug": "fruit-cookie-recipes",
+      "name": "Fruit Cookie Recipes",
+      "color": null
+    },
+    {
+      "id": "4e422c1c-6e23-5833-90bc-afa530f3f9ef",
+      "slug": "cookies",
+      "name": "Cookies",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238475/blonde-apple-brownies"
+  },
+  "public": true,
+  "updated_at": 1769522630,
+  "revision": 1
+}

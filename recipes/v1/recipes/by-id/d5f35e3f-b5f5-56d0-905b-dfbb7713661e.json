@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d5f35e3f-b5f5-56d0-905b-dfbb7713661e",
+  "slug": "grandmas-chicken-soup-with-homemade-noodles",
+  "name": "Grandma's Chicken Soup with Homemade Noodles",
+  "recipe_type": "soup",
+  "brief_description": "Made-from-scratch noodles are the star of this chicken soup recipe just like grandma used to make.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring chicken stock to a boil; cook chicken breasts at a boil until no longer pink in the center, 15 to 20 minutes. Remove chicken, cool, and cut meat from bone; keep chicken stock at a low simmer."
+    },
+    {
+      "position": 2,
+      "text": "Mix flour and 1/4 teaspoon salt together using the dough hook attachment in the bowl of a stand mixer on Low; add eggs and water, 1 tablespoon at time, until dough holds together."
+    },
+    {
+      "position": 3,
+      "text": "Split dough in half. Roll 1 dough half on a lightly floured surface to 1/8-inch thickness. Cut dough into noodles 2 to 3-inches long x 1/4-inch wide using a sharp knife dipped in flour or a fettuccine pasta cutter. Repeat with other dough half."
+    },
+    {
+      "position": 4,
+      "text": "Return chicken to the simmering stock; add noodles. Season stock with black pepper and 1 pinch salt. Cook soup until noodles are cooked through, 15 to 25 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d5f35e3f-b5f5-56d0-905b-dfbb7713661e/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/cmFJUasX-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "490 kcal",
+    "carbohydrateContent": "51 g",
+    "cholesterolContent": "179 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "41 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "2022 mg",
+    "sugarContent": "2 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f194101a-de6a-52cb-a9dd-ddcfb2c11763",
+      "name": "gallon chicken stock",
+      "normalized_name": "gallon chicken stock",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "940012af-be96-5309-a4e5-37c2f9e57158",
+      "name": "bone-in chicken breast halves",
+      "normalized_name": "bone-in chicken breast halves",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or as needed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "95237eae-d985-5390-a1a3-cc4324d8aa85",
+      "slug": "noodle-soup",
+      "name": "Noodle Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "d8ce8de0-5988-5b3e-939d-b47058698406",
+      "slug": "chicken-pasta",
+      "name": "Chicken Pasta",
+      "color": null
+    },
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "a0d28738-e8e1-5472-b5d0-058cdd5cf5d5",
+      "slug": "family-heirloom",
+      "name": "Family Heirloom",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231666/grandmas-chicken-soup-with-homemade-noodles"
+  },
+  "public": true,
+  "updated_at": 1780428974,
+  "revision": 1
+}

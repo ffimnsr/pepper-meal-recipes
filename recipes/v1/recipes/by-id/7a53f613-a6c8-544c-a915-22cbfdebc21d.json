@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7a53f613-a6c8-544c-a915-22cbfdebc21d",
+  "slug": "banana-peanut-butter-smoothie",
+  "name": "Banana Peanut Butter Smoothie",
+  "recipe_type": "drink",
+  "brief_description": "If you love smoothies with peanut butter, try peanut butter powder. It delivers the same great flavor but doesn\u2019t have as many calories as peanut butter.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Blend almond milk, banana, ice, powdered peanut butter, cocoa powder, and cinnamon together in a blender until smooth."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7a53f613-a6c8-544c-a915-22cbfdebc21d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "232 kcal",
+    "carbohydrateContent": "46 g",
+    "fiberContent": "8 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "232 mg",
+    "sugarContent": "22 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "95c0e7f2-c3a5-5f06-a5a7-1ff92f0d7f0c",
+      "name": "unsweetened almond milk",
+      "normalized_name": "unsweetened almond milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e32b8075-7a9d-5d85-a4f3-75c84cf273ee",
+      "name": "frozen banana",
+      "normalized_name": "frozen banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "f1102ddd-a1a6-5f8a-934f-666143834e15",
+      "name": "ice",
+      "normalized_name": "ice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "6602ef85-1379-5ebd-ab90-50744b9bbbe2",
+      "name": "powdered peanut butter",
+      "normalized_name": "powdered peanut butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "604f6a7e-c9c0-59fe-953b-68ef46e3a37e",
+      "name": "cocoa powder",
+      "normalized_name": "cocoa powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ded045a7-68d2-50b1-bae2-f30c4ec60f1f",
+      "name": "cinnamon",
+      "normalized_name": "cinnamon",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    },
+    {
+      "id": "793bf2f4-a467-544a-beca-1f9252dd4a91",
+      "slug": "banana",
+      "name": "Banana"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fbd23a77-be55-5618-979e-e3e7b701bd1a",
+      "slug": "banana",
+      "name": "Banana",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "f2a5d498-0488-57e1-8e78-49eece9afc27",
+      "slug": "bananas",
+      "name": "Bananas",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "32ca55aa-c740-52e0-95af-7aec91411ac9",
+      "slug": "high-fiber",
+      "name": "High-Fiber",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237693/banana-peanut-butter-smoothie"
+  },
+  "public": true,
+  "updated_at": 1702070621,
+  "revision": 1
+}

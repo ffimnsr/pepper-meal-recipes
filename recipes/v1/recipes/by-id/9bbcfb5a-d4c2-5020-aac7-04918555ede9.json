@@ -1,0 +1,260 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9bbcfb5a-d4c2-5020-aac7-04918555ede9",
+  "slug": "chicken-shepherds-pie",
+  "name": "Chicken Shepherd's Pie",
+  "recipe_type": "main",
+  "brief_description": "This is not your typical Shepherd 's Pie. Chicken takes the place of ground beef, a whole head of roasted garlic is mashed into the potatoes, and the thyme and rosemary add a perfect touch. And there 's lots of cheese.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "To prepare roasted garlic: Cut head of garlic in half and drizzle with olive oil. Wrap in foil and bake at 400 degrees F (200 degrees C) for 45 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Reduce oven temperature to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Peel, chop and boil potatoes until tender. Drain, then mash potatoes. Add butter, milk and roasted garlic and mix in. Set aside."
+    },
+    {
+      "position": 4,
+      "text": "Arrange chicken evenly in the bottom of a casserole dish, then sprinkle with spices, then layer peppers, corn and all but 1/4 cup cheese. Spread mashed potatoes on top, sealing everything in. Sprinkle with remaining cheese."
+    },
+    {
+      "position": 5,
+      "text": "Bake at 350 degrees F (175 degrees C) for 25 minutes or until brown around edges."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9bbcfb5a-d4c2-5020-aac7-04918555ede9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "556 kcal",
+    "carbohydrateContent": "60 g",
+    "cholesterolContent": "99 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "34 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "446 mg",
+    "sugarContent": "5 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.66666698455811",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "fc61a2bd-b0cf-5f98-aa35-00c5d6fa2a2d",
+      "name": "medium head roasted garlic",
+      "normalized_name": "medium head roasted garlic",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "69646184-d5a7-5b5c-a092-cf1ea7d77a0f",
+      "name": "cooked",
+      "normalized_name": "cooked",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "shredded chicken breast meat",
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "6015646e-6927-5ea2-8523-49b609b71c17",
+      "name": "chopped fresh thyme",
+      "normalized_name": "chopped fresh thyme",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "7b92db17-5ccc-5d40-938b-ae22fcba3dd3",
+      "name": "chopped fresh rosemary",
+      "normalized_name": "chopped fresh rosemary",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "diced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "778b7909-b98c-5874-bc24-66ad6c0fae9a",
+      "name": "fresh corn kernels",
+      "normalized_name": "fresh corn kernels",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9afb73a2-c6dc-5a2e-ac71-57fc2c902428",
+      "slug": "savory-pie",
+      "name": "Savory Pie"
+    },
+    {
+      "id": "8ce564d9-ad23-5ecc-bea2-6b1fcee6662c",
+      "slug": "chicken-pie",
+      "name": "Chicken Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "18ff3c6b-383a-5b2b-afcf-ca0ef43aeede",
+      "slug": "chicken-pie-recipes",
+      "name": "Chicken Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "bdee1869-2a3c-5547-828c-766d1cec95ef",
+      "slug": "savory-pie-recipes",
+      "name": "Savory Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "c9f8795b-b106-5ff4-81ae-92f09e21e8c0",
+      "slug": "shepherd-s-pie-recipes",
+      "name": "Shepherd's Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "cd7e72a0-d2b1-5465-815b-0da0d3762c24",
+      "slug": "corn",
+      "name": "Corn",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12621/chicken-shepherds-pie"
+  },
+  "public": true,
+  "updated_at": 1657834446,
+  "revision": 1
+}

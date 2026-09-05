@@ -1,0 +1,243 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3a8539b6-a28a-5ebb-b5f4-75fbc8f6e0ae",
+  "slug": "crab-omelet",
+  "name": "Crab Omelet",
+  "recipe_type": "breakfast",
+  "brief_description": "Crab, egg, tomato, red bell pepper, and potato go very well together in this delightful crab omelet.",
+  "cuisine": "Filipino American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a skillet over medium heat. Fry potato in hot oil until fork-tender, 5 to 7 minutes. Use a slotted spoon to transfer potatoes to a plate lined with paper towels, leaving excess oil in the skillet."
+    },
+    {
+      "position": 2,
+      "text": "Return the skillet to medium heat. Cook onion and garlic in oil until tender, about 5 minutes. Add crab to the skillet and season with salt and pepper; stir. Cover the skillet and cook for 2 minutes. Stir tomatoes into mixture and cook another 2 minutes. Add raisins, peas, and red bell pepper; stir and cook another 2 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Pour eggs over mixture in the skillet. Cook until eggs set, 2 to 3 minutes. Flip omelet and cook 1 minute more. Transfer to a plate and serve hot with potatoes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3a8539b6-a28a-5ebb-b5f4-75fbc8f6e0ae/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "165 kcal",
+    "carbohydrateContent": "18 g",
+    "cholesterolContent": "104 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "104 mg",
+    "sugarContent": "8 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "698ed997-d6bf-51f6-8bca-0cb9baaa0a08",
+      "name": "small potato",
+      "normalized_name": "small potato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "f8388a1d-c9ba-5d75-85a6-91af8ca2159f",
+      "name": "fresh crabmeat",
+      "normalized_name": "fresh crabmeat",
+      "quantity": "0.25",
+      "unit": "pound",
+      "preparation": "drained and flaked",
+      "position": 5
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b13418cd-0b74-544c-b8bf-019a27ba5ff0",
+      "name": "small tomato",
+      "normalized_name": "small tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "2dda2b94-e6cc-5e23-8eb5-f4e13dbbaca9",
+      "name": "ounce) box raisins",
+      "normalized_name": "ounce box raisins",
+      "quantity": "1 (1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "6bdd8e14-0841-55d0-ad0d-2da23da6dfcd",
+      "name": "peas",
+      "normalized_name": "peas",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 10
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/212965/crab-omelet"
+  },
+  "public": true,
+  "updated_at": 1732941619,
+  "revision": 1
+}

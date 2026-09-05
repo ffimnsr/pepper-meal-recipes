@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "add288e9-b22e-5553-931b-4d09df60db0d",
+  "slug": "red-cabbage-salad-with-apples",
+  "name": "Red Cabbage Salad with Apples",
+  "recipe_type": "salad",
+  "brief_description": "This easy red cabbage and apple salad is tasty and full of vitamins. If you are vegan, substitute the honey with agave or another sweetener.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine red cabbage and salt in a bowl and knead with your hands for a few minutes until cabbage is soft. Mix in apples."
+    },
+    {
+      "position": 2,
+      "text": "Whisk white balsamic vinegar and honey together in a cup. Whisk in oil. Drizzle over salad, mix well, and set aside for at least 1 hour for flavors to combine."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/add288e9-b22e-5553-931b-4d09df60db0d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "165 kcal",
+    "carbohydrateContent": "27 g",
+    "fiberContent": "4 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "613 mg",
+    "sugarContent": "21 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ed06179d-65d8-5b4e-84dc-b3ee4b57f9f8",
+      "name": "medium head red cabbage",
+      "normalized_name": "medium head red cabbage",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "shredded",
+      "position": 1
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "76d43063-0bd1-5977-b885-8a9730d84e02",
+      "name": "red apples",
+      "normalized_name": "red apples",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "d35ec19f-203e-5c0e-b8a0-81b703a306ad",
+      "name": "white balsamic vinegar",
+      "normalized_name": "white balsamic vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "cf45a7f5-aed6-5aea-a395-9122ae87cdcd",
+      "name": "liquid honey",
+      "normalized_name": "liquid honey",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "afddf4d7-9a53-53c4-bc4b-68cf3e70a492",
+      "name": "rapeseed oil",
+      "normalized_name": "rapeseed oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "9eea36fc-de96-56e5-830b-9fb67af0f7a6",
+      "slug": "red-cabbage",
+      "name": "Red Cabbage",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "7d7ff37b-c522-55be-86e6-73e12aee7ff3",
+      "slug": "raw-food-diet-recipes",
+      "name": "Raw Food Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "8a79baa9-65d0-5998-9377-e629123efa11",
+      "slug": "clean-eating-recipes",
+      "name": "Clean Eating Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/263318/red-cabbage-salad-with-apples"
+  },
+  "public": true,
+  "updated_at": 1528469283,
+  "revision": 1
+}

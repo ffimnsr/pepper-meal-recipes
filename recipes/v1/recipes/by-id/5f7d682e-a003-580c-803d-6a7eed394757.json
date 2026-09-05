@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5f7d682e-a003-580c-803d-6a7eed394757",
+  "slug": "instant-pot-dr-pepper-pulled-pork",
+  "name": "Instant Pot Dr Pepper Pulled Pork",
+  "recipe_type": "main",
+  "brief_description": "A simple and tasty pulled pork recipe made with pork tenderloin, BBQ sauce, and Dr Pepper.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine soda and 1/2 cup barbeque sauce in a multi-functional pressure cooker (such as Instant Pot). Add pork tenderloin. Close and lock the lid. Select high pressure according to manufacturer's instructions; set timer for 50 minutes. Allow 10 to 15 minutes for pressure to build."
+    },
+    {
+      "position": 2,
+      "text": "Release pressure using the natural-release method according to manufacturer's instructions, 10 to 40 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Remove pork loin and drain liquid from the pot. Shred pork using 2 forks. Return to the pot and mix in remaining 1 1/2 cups barbeque sauce."
+    },
+    {
+      "position": 4,
+      "text": "Serve on hamburger buns and top with coleslaw."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5f7d682e-a003-580c-803d-6a7eed394757/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "627 kcal",
+    "carbohydrateContent": "106 g",
+    "cholesterolContent": "71 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "1697 mg",
+    "sugarContent": "35 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e01ea2ba-ed18-5ba5-88a5-f1871d354157",
+      "name": "caffeinated pepper-type soda (such as dr pepper\u00ae)",
+      "normalized_name": "caffeinated pepper-type soda",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "9dd481b3-27c3-5a07-bf33-511804d982e8",
+      "name": "barbeque sauce (such as sweet baby ray's\u00ae)",
+      "normalized_name": "barbeque sauce",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "1406b9dc-e908-5eb2-a5e4-f99d6e71756a",
+      "name": "pork tenderloin",
+      "normalized_name": "pork tenderloin",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a3c2e67a-4249-5b86-a9e7-344b5beafc4a",
+      "name": "hamburger buns",
+      "normalized_name": "hamburger buns",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "67e1f36a-f5f5-5a15-9ff2-d598159cf943",
+      "name": "prepared coleslaw",
+      "normalized_name": "prepared coleslaw",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "60e02e7b-d196-56d0-a0e0-a9249bc49e57",
+      "slug": "pulled-pork",
+      "name": "Pulled Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "354736d5-336a-595d-a400-7d173505dd95",
+      "slug": "pulled-pork",
+      "name": "Pulled Pork",
+      "color": null
+    },
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "da64d917-5eba-580b-b256-9272d36dc291",
+      "slug": "pork-tenderloin-recipes",
+      "name": "Pork Tenderloin Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/268514/instant-pot-dr-pepper-pulled-pork"
+  },
+  "public": true,
+  "updated_at": 1783195930,
+  "revision": 1
+}

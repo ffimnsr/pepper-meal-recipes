@@ -1,0 +1,254 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6fa11b82-a016-54b9-99eb-178e3ee6c3a5",
+  "slug": "paella-ii",
+  "name": "Seafood Paella",
+  "recipe_type": "main",
+  "brief_description": "This seafood paella with saffron-infused rice is brimming with mussels, shrimp, and squid for a classic Spanish dish that's perfect for sharing.",
+  "cuisine": "Spanish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a pot of lightly salted water to the boil: add mussels and cook until they open. Drain, and discard any unopened mussels. Boil shrimp and squid in a separate pot of lightly salted water, until opaque, 3 to 4 minutes. Drain, reserving liquid."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a large skillet. Add chicken pieces; cook and stir until golden brown, about 5 minutes. Transfer chicken to a plate."
+    },
+    {
+      "position": 3,
+      "text": "Place garlic, bell pepper, and tomato cubes into the skillet; cook and stir until softened, about 3 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Meanwhile, bring fish stock and 3 cups salted water to a boil; mix in 3 cups rice, saffron, and paprika. Bring to a boil again, cover, and reduce heat; simmer until rice is tender, about 15 to 20 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Stir peas into the rice. Pour rice mixture into a large serving dish. Arrange cooked vegetables, chicken, and shellfish around rice. Serve hot."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6fa11b82-a016-54b9-99eb-178e3ee6c3a5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "367 kcal",
+    "carbohydrateContent": "52 g",
+    "cholesterolContent": "72 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "84 mg",
+    "sugarContent": "1 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "aff38cb1-6fbc-51db-9164-e88a269a399e",
+      "name": "mussels",
+      "normalized_name": "mussels",
+      "quantity": "20",
+      "unit": "pieces",
+      "preparation": "cleaned and debearded",
+      "position": 1
+    },
+    {
+      "ingredient_id": "c0c81ee9-da2d-5907-928f-a667f7be2c64",
+      "name": "large shrimp",
+      "normalized_name": "large shrimp",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "673ef68e-5a4d-5abd-b2d0-4edaffafee83",
+      "name": "large squid",
+      "normalized_name": "large squid",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cleaned and sliced into rings",
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0b27047e-da7a-55c7-ba71-159c2ff26005",
+      "name": "boneless",
+      "normalized_name": "boneless",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "skinless chicken pieces cut into chunks",
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 8
+    },
+    {
+      "ingredient_id": "e64d6133-7523-5933-9b63-1413eeacab1a",
+      "name": "long-grain white rice",
+      "normalized_name": "long-grain white rice",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "fa0531cd-f0c6-50a2-b38e-8be19528b1de",
+      "name": "saffron",
+      "normalized_name": "saffron",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "ac449163-5294-5400-84e0-8b81254820c4",
+      "name": "green peas",
+      "normalized_name": "green peas",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "6d21f6cb-fe38-5dcb-b42f-ad955a1e4dc4",
+      "slug": "spanish",
+      "name": "Spanish"
+    }
+  ],
+  "tags": [
+    {
+      "id": "09918637-74ca-57f0-a5a8-55971f1dd9d0",
+      "slug": "spanish",
+      "name": "Spanish",
+      "color": null
+    },
+    {
+      "id": "4aa7a643-2507-5689-b8e3-c5cf265eadea",
+      "slug": "paella-recipes",
+      "name": "Paella Recipes",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "73d15f3b-ba62-57e7-af10-1b51c8972f27",
+      "slug": "green-peas",
+      "name": "Green Peas",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "437287f9-69aa-5a3a-90bd-920e8cefbea3",
+      "slug": "mussels",
+      "name": "Mussels",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12840/paella-ii"
+  },
+  "public": true,
+  "updated_at": 1714659263,
+  "revision": 1
+}

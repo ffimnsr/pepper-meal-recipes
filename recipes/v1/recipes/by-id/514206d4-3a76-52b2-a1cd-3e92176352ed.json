@@ -1,0 +1,174 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "514206d4-3a76-52b2-a1cd-3e92176352ed",
+  "slug": "apples-by-the-fire",
+  "name": "Apples by the Fire",
+  "recipe_type": "dessert",
+  "brief_description": "This recipe stuffs a tart apple with cinnamon and brown sugar, wraps it in foil, then places it in the coals of a fire for a camping or cookout dessert.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Build a campfire or preheat an outdoor charcoal grill; allow fire to burn until a bed of coals has accumulated. Rake coals into a flat bed on one side of the fire."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, combine brown sugar and cinnamon in a small bowl; spoon into apple core. Wrap apple in a large piece of heavy-duty aluminum foil, twisting extra foil into a tail for a handle."
+    },
+    {
+      "position": 3,
+      "text": "Place foil-wrapped apple in the coals; cook until softened, 5 to 10 minutes. Remove apple from the coals; unwrap carefully to avoid being burnt by hot sugar."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/514206d4-3a76-52b2-a1cd-3e92176352ed/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "114 kcal",
+    "carbohydrateContent": "31 g",
+    "fiberContent": "3 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "5 mg",
+    "sugarContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7bcb7687-e1b3-5808-bc3c-fdea7bf4015d",
+      "name": "granny smith apple",
+      "normalized_name": "granny smith apple",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored",
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7125d7fa-c15d-5725-8012-306c4b58775a",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts"
+    },
+    {
+      "id": "61a3128f-ab07-5578-9443-a5f6b922b749",
+      "slug": "apple-dessert",
+      "name": "Apple Dessert"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "3ac8ece0-b9bd-5cf9-a9b3-8ad549f8dc41",
+      "slug": "vegan",
+      "name": "Vegan",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "40044905-5641-52ce-8e18-26e3afdeb43f",
+      "slug": "occasions",
+      "name": "Occasions",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/27184/apples-by-the-fire"
+  },
+  "public": true,
+  "updated_at": 1780941433,
+  "revision": 1
+}

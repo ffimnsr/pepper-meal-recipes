@@ -1,0 +1,266 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5e70149d-bf98-5512-969d-e4f32448c474",
+  "slug": "perfect-summer-fruit-salad",
+  "name": "Perfect Summer Fruit Salad",
+  "recipe_type": "salad",
+  "brief_description": "This fantastic fruit salad combines pineapple, kiwi, bananas, oranges, grapes, and berries in a sweet citrusy sauce for a colorful summer dessert.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "To make the sauce: Bring orange juice, lemon juice, brown sugar, orange zest, and lemon zest to a boil in a saucepan over medium-high heat. Reduce heat to medium-low and simmer until slightly thickened, about 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Remove from heat and stir in vanilla extract. Set aside to cool."
+    },
+    {
+      "position": 4,
+      "text": "Layer fruit in a large, clear glass bowl in this order: pineapple, strawberries, kiwi fruit, bananas, oranges, grapes, and blueberries. Pour cooled sauce over fruit; cover and refrigerate for 3 to 4 hours before serving."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5e70149d-bf98-5512-969d-e4f32448c474/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/6j6nIOLB-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "277 kcal",
+    "carbohydrateContent": "70 g",
+    "cholesterolContent": "0 mg",
+    "fiberContent": "9 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "7 mg",
+    "sugarContent": "47 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "252dfedf-8074-5d8c-aee3-03f524d199ef",
+      "name": "fresh orange juice",
+      "normalized_name": "fresh orange juice",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "eab08681-affd-54d9-9398-cfa92db0ac26",
+      "name": "fresh lemon juice",
+      "normalized_name": "fresh lemon juice",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4318d726-c4c1-57d3-ad3e-5e83a3428d49",
+      "name": "packed brown sugar",
+      "normalized_name": "packed brown sugar",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3ebb53e5-f40f-5fda-8529-cc6eaa81107a",
+      "name": "grated orange zest",
+      "normalized_name": "grated orange zest",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "28ad164a-c179-5dcf-adc3-fe57fe2bbce2",
+      "name": "grated lemon zest",
+      "normalized_name": "grated lemon zest",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "69150387-fdf7-511d-b5da-d1658d7d7186",
+      "name": "cubed fresh pineapple",
+      "normalized_name": "cubed fresh pineapple",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5ff5f54c-2a65-5690-a15d-70a0807a7659",
+      "name": "strawberries",
+      "normalized_name": "strawberries",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "hulled and sliced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "d5e07222-64d3-573a-8bbe-9d6c838204ca",
+      "name": "kiwi fruit",
+      "normalized_name": "kiwi fruit",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "peeled and sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "1eebb4b2-e59f-5c62-9071-16e2f2babccb",
+      "name": "bananas",
+      "normalized_name": "bananas",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "cfade92c-a02c-5801-bd76-e91500a14bba",
+      "name": "oranges",
+      "normalized_name": "oranges",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and sectioned",
+      "position": 11
+    },
+    {
+      "ingredient_id": "6e8b6aa8-7788-5aba-b748-726a8c46e66a",
+      "name": "seedless grapes",
+      "normalized_name": "seedless grapes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "e5260d61-017f-525a-9908-e2b5a97b2d54",
+      "name": "blueberries",
+      "normalized_name": "blueberries",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "0248d781-8987-5750-9070-cb8fa8e26bf5",
+      "slug": "fruit-salad",
+      "name": "Fruit Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "8fb2ac4d-24cc-5dda-bac6-c5f73ece3d5b",
+      "slug": "orange-salad-recipes",
+      "name": "Orange Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214947/perfect-summer-fruit-salad"
+  },
+  "public": true,
+  "updated_at": 1776190822,
+  "revision": 1
+}

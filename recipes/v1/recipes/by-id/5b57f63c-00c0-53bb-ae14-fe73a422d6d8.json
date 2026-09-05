@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5b57f63c-00c0-53bb-ae14-fe73a422d6d8",
+  "slug": "easter-breakfast-casserole",
+  "name": "Easter Breakfast Casserole",
+  "recipe_type": "breakfast",
+  "brief_description": "A delicious breakfast casserole with bacon and vegetables in the mix. This egg and hash brown breakfast dish is perfect for Easter brunch.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a 7x11-inch casserole dish."
+    },
+    {
+      "position": 2,
+      "text": "Fry bacon in a large, deep skillet over medium-high heat until evenly browned, about 10 minutes. Drain on a paper towel-lined plate. Crumble."
+    },
+    {
+      "position": 3,
+      "text": "Beat eggs and milk together in a large bowl; mix in cheese, bacon, onion, and green pepper. Stir in thawed hash browns. Pour mixture into prepared casserole."
+    },
+    {
+      "position": 4,
+      "text": "Cover with aluminum foil and bake in preheated oven for 45 minutes. Uncover and bake until eggs have set, another 30 minutes."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 75,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5b57f63c-00c0-53bb-ae14-fe73a422d6d8/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/xMSI8dDE-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "281 kcal",
+    "carbohydrateContent": "10 g",
+    "cholesterolContent": "171 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "538 mg",
+    "sugarContent": "3 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "14a9821b-6966-5d2b-a09e-837355f37cb5",
+      "name": "bacon",
+      "normalized_name": "bacon",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3d4da035-8d31-5739-9e0e-b190a7b09330",
+      "name": "diced onion",
+      "normalized_name": "diced onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b6820373-a7d1-5933-b92e-f3f4ccc0d9a4",
+      "name": "diced green bell pepper",
+      "normalized_name": "diced green bell pepper",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "23298b59-dd3a-5668-8b34-fa2ba5b6e7af",
+      "name": "ounce) package frozen hash brown potatoes",
+      "normalized_name": "ounce package frozen hash brown potatoes",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "b6080a36-e955-56e9-81db-718202beb92a",
+      "slug": "holidays-and-events",
+      "name": "Holidays and Events"
+    },
+    {
+      "id": "88b3a12e-5413-53d9-be98-585ae7808db1",
+      "slug": "easter",
+      "name": "Easter"
+    },
+    {
+      "id": "b19a3ce2-8be3-50de-a4b5-72b586066521",
+      "slug": "easter-brunch",
+      "name": "Easter Brunch"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2a79b5de-9536-534a-9eb5-06cbc9101d65",
+      "slug": "breakfast-casserole-recipes",
+      "name": "Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "077df670-db17-5b8c-b6d8-8441d1bc5da6",
+      "slug": "potato-breakfast-casserole-recipes",
+      "name": "Potato Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "b47afa88-9f0d-5c19-bad8-7b84ed660e85",
+      "slug": "vegetable",
+      "name": "Vegetable",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "06ec51be-db30-5641-9f33-649268cc4c42",
+      "slug": "easter-ideas",
+      "name": "Easter Ideas",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "1f2b9ae2-f2cb-5370-a191-8eefcc03f9a1",
+      "slug": "hash-brown-breakfast-casserole-recipes",
+      "name": "Hash Brown Breakfast Casserole Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20900/easter-breakfast-casserole"
+  },
+  "public": true,
+  "updated_at": 1763749530,
+  "revision": 1
+}

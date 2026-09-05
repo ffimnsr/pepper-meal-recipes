@@ -1,0 +1,246 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b5f49486-893a-521b-a07d-58a20bc9b9fb",
+  "slug": "best-ever-bruschetta",
+  "name": "Best Ever Bruschetta!",
+  "recipe_type": "appetizer",
+  "brief_description": "Toasted English muffins topped with tomato, olives, and mozzarella cheese.",
+  "cuisine": "American Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven's broiler and set the oven rack about 6 inches from the heat source. Toast muffin halves under broiler until golden, about 2 to 3 minutes. Mix garlic, butter, and basil together in a small bowl; spread butter mixture evenly onto each toasted muffin half."
+    },
+    {
+      "position": 2,
+      "text": "Combine tomatoes, olives, and tomato paste in a large bowl; set aside. Whisk together the olive oil, lemon juice, and honey in a small bowl. Spoon some of the tomato mixture onto each muffin, then drizzle the olive oil mixture over the top, place a piece of mozzarella on top, and season with salt and pepper."
+    },
+    {
+      "position": 3,
+      "text": "Return muffins to broiler; cook until the cheese has melted, 1 to 2 minutes. Serve immediately."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b5f49486-893a-521b-a07d-58a20bc9b9fb/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "170 kcal",
+    "carbohydrateContent": "19 g",
+    "cholesterolContent": "17 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "268 mg",
+    "sugarContent": "4 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "18a1eb9b-6d08-5daa-9e19-3972823c0e71",
+      "name": "english muffins",
+      "normalized_name": "english muffins",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "split",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3137d3c8-bf47-5da8-adb2-cd7e446039cd",
+      "name": "chopped fresh basil",
+      "normalized_name": "chopped fresh basil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "921ad0b4-fc46-5066-afeb-8ca097b32cdb",
+      "name": "large fresh tomatoes",
+      "normalized_name": "large fresh tomatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "91bbaa5f-c179-5b2e-a173-7954a1e54d76",
+      "name": "black olives",
+      "normalized_name": "black olives",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "pitted and halved",
+      "position": 6
+    },
+    {
+      "ingredient_id": "21960b21-948a-5139-b037-73997a5656a0",
+      "name": "tomato paste",
+      "normalized_name": "tomato paste",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "4bab8bf7-ec53-55e9-b3cc-4e822d557564",
+      "name": "slices mozzarella cheese",
+      "normalized_name": "slices mozzarella cheese",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "halved",
+      "position": 11
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "5736101f-cd61-52e5-a966-719875f8b09d",
+      "slug": "bruschetta",
+      "name": "Bruschetta"
+    }
+  ],
+  "tags": [
+    {
+      "id": "499954b2-300e-5073-b52f-bba1da045ae0",
+      "slug": "bruschetta-recipes",
+      "name": "Bruschetta Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "78473c97-855b-56e2-9592-0f1aaab60f59",
+      "slug": "mozzarella",
+      "name": "Mozzarella",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/134530/best-ever-bruschetta"
+  },
+  "public": true,
+  "updated_at": 1738386336,
+  "revision": 1
+}

@@ -1,0 +1,174 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c935abd2-eec4-5ef0-8b70-99e34b258099",
+  "slug": "broiled-scallops",
+  "name": "Broiled Scallops",
+  "recipe_type": "dessert",
+  "brief_description": "These broiled scallops are flavored with butter, lemon, and garlic salt, then quickly broiled until golden brown and sweet for a quick, easy dinner.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the broiler to high heat."
+    },
+    {
+      "position": 2,
+      "text": "Rinse scallops and place in a shallow baking pan. Sprinkle with 2 tablespoons melted butter, lemon juice, and garlic salt."
+    },
+    {
+      "position": 3,
+      "text": "Broil in the preheated broiler until scallops begin to turn golden, 6 to 8 minutes. Remove from the oven and serve with extra melted butter on the side for dipping."
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 6,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c935abd2-eec4-5ef0-8b70-99e34b258099/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/eB134sfB-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "273 kcal",
+    "carbohydrateContent": "7 g",
+    "cholesterolContent": "95 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "38 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "2232 mg",
+    "sugarContent": "0 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2993281c-dd0d-50c9-8bcb-fca4c754e1c1",
+      "name": "bay scallops",
+      "normalized_name": "bay scallops",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
+      "name": "melted butter",
+      "normalized_name": "melted butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or as needed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "290a7383-c4f5-5e89-a4ef-ac32f5e86d14",
+      "name": "garlic salt",
+      "normalized_name": "garlic salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "7fd16b6c-8df2-541d-b6c5-a69009bd4691",
+      "slug": "shellfish",
+      "name": "Shellfish"
+    },
+    {
+      "id": "6d2df38d-98e9-5558-94db-dd256097fa45",
+      "slug": "scallops",
+      "name": "Scallops"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f2ba905d-7de3-53b8-84f4-78e8d7f5d13c",
+      "slug": "scallops",
+      "name": "Scallops",
+      "color": null
+    },
+    {
+      "id": "8ed572a6-d901-5275-a627-a48280f61ad2",
+      "slug": "easter-dinner",
+      "name": "Easter Dinner",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "170a28a4-5360-5e89-accb-7ecc55c5340b",
+      "slug": "spring",
+      "name": "Spring",
+      "color": null
+    },
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12798/broiled-scallops"
+  },
+  "public": true,
+  "updated_at": 1771432232,
+  "revision": 1
+}

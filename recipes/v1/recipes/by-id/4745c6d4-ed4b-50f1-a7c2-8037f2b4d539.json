@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4745c6d4-ed4b-50f1-a7c2-8037f2b4d539",
+  "slug": "cream-cheese-filled-bagel-balls",
+  "name": "Cream Cheese-Filled Bagel Balls",
+  "recipe_type": "breakfast",
+  "brief_description": "Perfect for breakfast and super easy and quick to make, these cream cheese-filled bagel balls are made with a yogurt-based dough that requires no rising time.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 450 degrees F (230 degrees C). Grease a baking pan."
+    },
+    {
+      "position": 2,
+      "text": "Mix 1 cup flour, baking powder, and 1/2 teaspoon salt together. Mix in Greek yogurt and knead until all flour is mixed in; if dough is sticky, add more flour."
+    },
+    {
+      "position": 3,
+      "text": "Cut dough into 8 equal pieces. Roll each piece into a ball and press each ball into a flat circle; they should look like mini pizzas."
+    },
+    {
+      "position": 4,
+      "text": "Scoop cream cheese into the center of each circle. Fold the edges up and pinch closed so you have a round ball of dough with cream cheese inside. Make sure you seal the edges so the cream cheese doesn't spill out during baking. Place seam side down on the prepared baking pan."
+    },
+    {
+      "position": 5,
+      "text": "Mix egg, half-and-half, and a pinch of salt in a small bowl. Brush egg wash on top of each dough ball and sprinkle with bagel seasoning."
+    },
+    {
+      "position": 6,
+      "text": "Bake in the preheated oven until golden brown, about 10 minutes. Remove from the oven and brush with melted butter before serving."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4745c6d4-ed4b-50f1-a7c2-8037f2b4d539/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "338 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "98 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "852 mg",
+    "sugarContent": "2 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or more to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "c97f6054-ab2e-5a23-baf2-cb18b737bce8",
+      "name": "greek yogurt",
+      "normalized_name": "greek yogurt",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b79f8d0f-40ab-5fde-814c-f7d1069dd443",
+      "name": "cream cheese",
+      "normalized_name": "cream cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "56d589a0-7a05-5dd1-a90a-9f515d08c93a",
+      "name": "everything bagel seasoning",
+      "normalized_name": "everything bagel seasoning",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "or to taste",
+      "position": 8
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "melted, or as needed",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "9e004679-7e06-5079-808d-76ab33ec6e18",
+      "slug": "yeast-bread",
+      "name": "Yeast Bread"
+    },
+    {
+      "id": "bdf73e5f-a98e-5031-876f-483f4b652f60",
+      "slug": "bagel",
+      "name": "Bagel"
+    }
+  ],
+  "tags": [
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "29e3dac3-9823-5196-8496-13b628e380f5",
+      "slug": "bagel-recipes",
+      "name": "Bagel Recipes",
+      "color": null
+    },
+    {
+      "id": "83a46deb-c595-5fc8-991d-01062f74c59d",
+      "slug": "breakfast-bread-recipes",
+      "name": "Breakfast Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "e81b13ec-9a0b-55c6-acb2-07f45c001cb6",
+      "slug": "yeast-bread-recipes",
+      "name": "Yeast Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "ee35ebfc-8e0e-5cd2-9bf8-9c3adaf10fe2",
+      "slug": "mini-foods",
+      "name": "Mini Foods",
+      "color": null
+    },
+    {
+      "id": "a083a82d-692d-5885-87bc-d2df9364609f",
+      "slug": "cream-cheese-recipes",
+      "name": "Cream Cheese Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/285341/cream-cheese-filled-bagel-balls"
+  },
+  "public": true,
+  "updated_at": 1598923896,
+  "revision": 1
+}

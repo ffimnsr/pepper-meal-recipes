@@ -1,0 +1,192 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e559ac02-e543-5da5-98fd-4b21131ea7e7",
+  "slug": "potato-salad-for-40",
+  "name": "Potato Salad for a Crowd",
+  "recipe_type": "salad",
+  "brief_description": "This potato salad for a crowd is easy to make and perfect for serving up to 40 people. Make it for your next family reunion or summer gathering.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce the heat to medium-low and simmer until tender, about 20 minutes. Drain and cool potatoes, then peel and dice. Transfer to a bowl, cover, and refrigerate 8 hours to overnight."
+    },
+    {
+      "position": 2,
+      "text": "While the potatoes are cooking, place eggs into a saucepan and cover with water. Bring to a boil, then remove from the heat and let eggs stand in hot water for 15 minutes. Remove eggs from the hot water and cool under cold running water. Peel and chop eggs. Transfer to a bowl, cover, and refrigerate 8 hours to overnight, at the same time as the potatoes."
+    },
+    {
+      "position": 3,
+      "text": "Combine potatoes, eggs, and green onions in a large mixing bowl or roasting pan. Add mayonnaise, salt, mustard, and pepper and gently toss to combine. Refrigerate until ready to serve."
+    }
+  ],
+  "servings": 40,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e559ac02-e543-5da5-98fd-4b21131ea7e7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "285 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "107 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "407 mg",
+    "sugarContent": "1 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "10",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "24",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": "or to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "47bed0f7-3d2f-5013-971a-3b049a821a6d",
+      "name": "finely chopped green onions",
+      "normalized_name": "finely chopped green onions",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "36f0ba83-6cf7-5b3c-9c04-ccc142dd82bc",
+      "slug": "potato-salad-recipes",
+      "name": "Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "08fb80b7-e7b5-5e1a-a22f-17f2941dd920",
+      "slug": "creamy-potato-salad-recipes",
+      "name": "Creamy Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222868/potato-salad-for-40"
+  },
+  "public": true,
+  "updated_at": 1767595711,
+  "revision": 1
+}

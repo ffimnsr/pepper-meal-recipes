@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a9fb574e-4dcb-585a-a781-d8d5276d7805",
+  "slug": "creamy-potato-carrot-and-leek-soup",
+  "name": "Creamy Potato, Carrot, and Leek Soup",
+  "recipe_type": "soup",
+  "brief_description": "This potato, carrot, and leek soup is based on one served in a small Irish restaurant. It\u2019s creamy and delicious with a mild flavor the kids will love.",
+  "cuisine": "Irish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a stockpot over medium-high heat. Add leeks and celery; cook and stir until softened, 3 to 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Add broth, potatoes, carrots, salt, and bay leaf; bring to a boil. Cook until potatoes and carrots are soft, about 20 minutes. Remove and discard bay leaf."
+    },
+    {
+      "position": 3,
+      "text": "Blend soup with an immersion blender until smooth. Stir cream into blended soup. Reduce the heat to medium-low and simmer until thickened, about 20 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a9fb574e-4dcb-585a-a781-d8d5276d7805/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "416 kcal",
+    "carbohydrateContent": "64 g",
+    "cholesterolContent": "51 mg",
+    "fiberContent": "9 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "1413 mg",
+    "sugarContent": "9 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "80c097d8-212d-5781-a71e-0b7efa0d6635",
+      "name": "leeks",
+      "normalized_name": "leeks",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "d333cc74-558b-560b-9bd4-db783166778b",
+      "name": "celery stalks",
+      "normalized_name": "celery stalks",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "69d1b056-2560-5b92-9f90-e747223dcaba",
+      "name": "large potatoes",
+      "normalized_name": "large potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "b22bc2e2-07c9-54aa-a04f-a6f6cd0810e9",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "278514fe-983b-5bcb-a57c-c032a506c02e",
+      "slug": "potato-soup",
+      "name": "Potato Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5606a16e-e04d-5bc0-9a9b-14e21d2c303c",
+      "slug": "potato-soup-recipes",
+      "name": "Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "f5bd9c7d-6900-5a33-9c74-dd507abf4796",
+      "slug": "leeks",
+      "name": "Leeks",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "a4b5e8ec-448d-5625-ba32-c1b390f72278",
+      "slug": "irish",
+      "name": "Irish",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "067e28fc-e546-505a-a281-11831c6be52a",
+      "slug": "uk-and-ireland",
+      "name": "UK and Ireland",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235401/creamy-potato-carrot-and-leek-soup"
+  },
+  "public": true,
+  "updated_at": 1776131436,
+  "revision": 1
+}

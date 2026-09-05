@@ -1,0 +1,180 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "73f55e6c-ed00-5769-afcb-a6d07974ca9d",
+  "slug": "tuna-and-avocado-salad",
+  "name": "Tuna and Avocado Salad",
+  "recipe_type": "salad",
+  "brief_description": "This tuna salad gets added creaminess from avocado and packs a punch with jalapeno and onion.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix avocados, tuna, tomato, jalapeno pepper, and white onion together in a bowl; season with salt."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/73f55e6c-ed00-5769-afcb-a6d07974ca9d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "239 kcal",
+    "carbohydrateContent": "10 g",
+    "cholesterolContent": "19 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "65 mg",
+    "sugarContent": "1 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2ebaa5f7-9804-59a8-831a-e09a155c527f",
+      "name": "avocados - peeled",
+      "normalized_name": "avocados - peeled",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "pitted, and diced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "c97bda97-f1c6-54bd-b44a-cae065b14e9a",
+      "name": "ounce) cans tuna in water",
+      "normalized_name": "ounce cans tuna in water",
+      "quantity": "3 (5",
+      "unit": "pieces",
+      "preparation": "drained and flaked",
+      "position": 2
+    },
+    {
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato",
+      "normalized_name": "tomato",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "a4182eae-598b-5104-9ee4-e5ab15d9725f",
+      "name": "jalapeno pepper",
+      "normalized_name": "jalapeno pepper",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c58379fa-87cd-5559-8ca5-da8725cb4dd6",
+      "name": "diced white onion",
+      "normalized_name": "diced white onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b77bb40a-4809-5425-bc48-d73582f4f9d4",
+      "slug": "tuna-salad-recipes",
+      "name": "Tuna Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "56337018-718e-5e0b-a33f-5f59eb272718",
+      "slug": "paleo-diet-recipes",
+      "name": "Paleo Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "f3a06a5e-eb68-58cb-91b0-8787d6f2babc",
+      "slug": "tuna",
+      "name": "Tuna",
+      "color": null
+    },
+    {
+      "id": "47dbbc95-2797-57bb-8d05-99c3cb21d344",
+      "slug": "fish",
+      "name": "Fish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237788/tuna-and-avocado-salad"
+  },
+  "public": true,
+  "updated_at": 1738343909,
+  "revision": 1
+}

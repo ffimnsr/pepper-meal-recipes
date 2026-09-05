@@ -1,0 +1,284 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b89c7ac6-09d5-5db8-85ab-d698364d6d85",
+  "slug": "creamy-after-thanksgiving-turkey-soup",
+  "name": "Cream of Turkey Soup",
+  "recipe_type": "soup",
+  "brief_description": "This hearty cream of turkey soup simmers leftover Thanksgiving turkey with veggies and noodles in a rich, creamy broth for a comforting meal.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place turkey carcass in a large pot or Dutch oven and cover with water. Bring to a boil. Reduce heat to medium, cover, and simmer for 1 hour."
+    },
+    {
+      "position": 3,
+      "text": "Remove carcass and allow to cool. Separate turkey meat from bones. Cut meat into bite-sized pieces; discard bones. Reserve 12 cups turkey broth in a large bowl. Save remaining broth for another use."
+    },
+    {
+      "position": 4,
+      "text": "Melt butter in the same large pot over medium heat; cook and stir onion, celery, and carrots in hot butter until tender, about 5 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Sprinkle with flour; cook and stir until smooth, about 5 minutes. Gradually stir in 4 cups reserved turkey broth. Bring to a boil; cook and stir until thickened, about 2 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Stir in remaining 8 cups turkey broth, turkey meat, half-and-half, noodles, stuffing, salt, bouillon, pepper, and poultry seasoning. Reduce heat to medium-low, cover, and simmer until noodles are tender, about 10 minutes."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 95,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b89c7ac6-09d5-5db8-85ab-d698364d6d85/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "274 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "57 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "442 mg",
+    "sugarContent": "1 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0cad6ec1-8b46-585b-b626-0877e08f1413",
+      "name": "turkey carcass",
+      "normalized_name": "turkey carcass",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "ba9bf63e-b1a7-522d-8eba-00fe629ee2c3",
+      "name": "large carrots",
+      "normalized_name": "large carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "797513ef-7396-5cd6-ae0c-c870de6d93d2",
+      "name": "fettuccine",
+      "normalized_name": "fettuccine",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": "broken into 2-inch pieces",
+      "position": 8
+    },
+    {
+      "ingredient_id": "7b73ba9a-2480-5c7e-9ec5-e0553d2fe549",
+      "name": "prepared stuffing",
+      "normalized_name": "prepared stuffing",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or more to taste",
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "28b6d869-be59-5e65-89bf-d479d36a5365",
+      "name": "chicken bouillon granules",
+      "normalized_name": "chicken bouillon granules",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "eef09e9a-0884-5cb7-92ec-d7687e83e301",
+      "name": "poultry seasoning",
+      "normalized_name": "poultry seasoning",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": "or to taste",
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "f2f6a33b-8caa-523c-910c-6f6d95715b85",
+      "slug": "turkey-soup",
+      "name": "Turkey Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c343a6c3-2f39-5ff4-a50d-24fa730c8e48",
+      "slug": "turkey-soup-recipes",
+      "name": "Turkey Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "3271eb40-5d57-5348-8744-67459297f4ea",
+      "slug": "leftover-turkey-recipes",
+      "name": "Leftover Turkey Recipes",
+      "color": null
+    },
+    {
+      "id": "f6c4b0b6-c32b-5d36-b81a-2ff399253a58",
+      "slug": "thanksgiving",
+      "name": "Thanksgiving",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "e82bd1ea-d139-5679-8085-c904c250a18f",
+      "slug": "noodle-soup-recipes",
+      "name": "Noodle Soup Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233288/creamy-after-thanksgiving-turkey-soup"
+  },
+  "public": true,
+  "updated_at": 1776237443,
+  "revision": 1
+}

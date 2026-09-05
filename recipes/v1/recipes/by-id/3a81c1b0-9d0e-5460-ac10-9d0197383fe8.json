@@ -1,0 +1,221 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3a81c1b0-9d0e-5460-ac10-9d0197383fe8",
+  "slug": "sugar-pie-iv",
+  "name": "Sugar Pie IV",
+  "recipe_type": "dessert",
+  "brief_description": "Sugar pie made with brown sugar, cream and pecans.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). In a medium bowl, mix together brown sugar and flour; set aside."
+    },
+    {
+      "position": 2,
+      "text": "In a large bowl, whisk together the cream, egg, corn syrup and vanilla. Stir in brown sugar mixture until blended. Fold in the pecans."
+    },
+    {
+      "position": 3,
+      "text": "Pour filling into pie crust. Bake in preheated oven for 30 to 40 minutes, or until golden brown."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3a81c1b0-9d0e-5460-ac10-9d0197383fe8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "370 kcal",
+    "carbohydrateContent": "52 g",
+    "cholesterolContent": "35 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "115 mg",
+    "sugarContent": "29 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8fd1875d-2904-5a0d-8ffc-3621b15bda18",
+      "name": "corn syrup",
+      "normalized_name": "corn syrup",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a0ceb4ab-348a-5657-881b-75a939d19580",
+      "name": "chopped pecans",
+      "normalized_name": "chopped pecans",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0011c71-4485-5c1c-97cd-75dc85af7c49",
+      "name": "inch) unbaked pie crust",
+      "normalized_name": "inch unbaked pie crust",
+      "quantity": "1 (9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "551563fd-2c14-57e0-ac26-f83cd1b0282b",
+      "slug": "pies",
+      "name": "Pies"
+    },
+    {
+      "id": "723cc86e-7fb6-5961-8aaf-8446a9b7f149",
+      "slug": "vintage-pie",
+      "name": "Vintage Pie"
+    },
+    {
+      "id": "00dfdb45-b836-51df-ae0d-6cd39fb18351",
+      "slug": "chess-pie",
+      "name": "Chess Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0af44417-dd59-5ca1-908d-6a053b8a5851",
+      "slug": "chess-pie-recipes",
+      "name": "Chess Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "c26b9b1c-3c42-5b92-b73a-b8d66c76ddb8",
+      "slug": "pecan-dessert-recipes",
+      "name": "Pecan Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "e9d933fc-ed03-594d-a7e8-83f0266c7917",
+      "slug": "pies",
+      "name": "Pies",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "f6657eaf-c48f-5b44-b582-680ffc9ba77c",
+      "slug": "vintage-pie-recipes",
+      "name": "Vintage Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "ce0edb67-90a5-51e3-8ba5-d4d55ca7e589",
+      "slug": "nut-dessert-recipes",
+      "name": "Nut Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22506/sugar-pie-iv"
+  },
+  "public": true,
+  "updated_at": 1657836395,
+  "revision": 1
+}

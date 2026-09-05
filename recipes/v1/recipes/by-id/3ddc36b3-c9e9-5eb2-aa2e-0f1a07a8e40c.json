@@ -1,0 +1,223 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3ddc36b3-c9e9-5eb2-aa2e-0f1a07a8e40c",
+  "slug": "easy-shepherds-pie",
+  "name": "Easy Shepherd's Pie",
+  "recipe_type": "main",
+  "brief_description": "This shepherd's pie has a layer of ground beef in savory gravy with vegetables and a rich and cheesy potato topping for classic comfort food.",
+  "cuisine": "British",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Brown meat in a large skillet."
+    },
+    {
+      "position": 3,
+      "text": "While the meat is browning, mix potatoes, cream cheese, 1/2 cup shredded cheese, and garlic until well blended."
+    },
+    {
+      "position": 4,
+      "text": "Drain meat. Return to skillet; stir in vegetables and gravy."
+    },
+    {
+      "position": 5,
+      "text": "Spoon into a 9-inch square baking dish."
+    },
+    {
+      "position": 6,
+      "text": "Cover with potato mixture and remaining 1/2 cup shredded cheese."
+    },
+    {
+      "position": 7,
+      "text": "Bake in the preheated oven until heated through, about 20 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3ddc36b3-c9e9-5eb2-aa2e-0f1a07a8e40c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "435 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "89 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "772 mg",
+    "sugarContent": "1 g",
+    "fatContent": "25 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e0cc28e9-c27f-5918-adb5-961af7840a4f",
+      "name": "hot mashed potatoes",
+      "normalized_name": "hot mashed potatoes",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "461534a4-b4d2-593a-b23c-bdce62e03d19",
+      "name": "philadelphia cream cheese",
+      "normalized_name": "philadelphia cream cheese",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": "cubed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "f1ac820c-407d-599a-a5c1-61ab501adc2b",
+      "name": "kraft shredded cheddar cheese",
+      "normalized_name": "kraft shredded cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "2e5c954e-c751-5a7d-b7c3-76ca09d8626e",
+      "name": "frozen mixed vegetables",
+      "normalized_name": "frozen mixed vegetables",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": "thawed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "b2a65446-6acb-5feb-b853-e3ada5d097ae",
+      "name": "beef gravy",
+      "normalized_name": "beef gravy",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9afb73a2-c6dc-5a2e-ac71-57fc2c902428",
+      "slug": "savory-pie",
+      "name": "Savory Pie"
+    },
+    {
+      "id": "980542e9-26b4-5c98-b6c0-ab24b09fc1be",
+      "slug": "shepherd-s-pie",
+      "name": "Shepherd's Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "a3b43786-1971-57fd-b78f-c1e8ac2a8f46",
+      "slug": "trusted-brands-recipes-and-tips",
+      "name": "Trusted Brands: Recipes and Tips",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "bdee1869-2a3c-5547-828c-766d1cec95ef",
+      "slug": "savory-pie-recipes",
+      "name": "Savory Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "e7950ffe-059a-58bd-bd3f-8b11f4753f98",
+      "slug": "beef-pie-recipes",
+      "name": "Beef Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "c9f8795b-b106-5ff4-81ae-92f09e21e8c0",
+      "slug": "shepherd-s-pie-recipes",
+      "name": "Shepherd's Pie Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/181137/easy-shepherds-pie"
+  },
+  "public": true,
+  "updated_at": 1761575610,
+  "revision": 1
+}

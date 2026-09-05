@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4a1f8bdc-fa75-5f88-83d1-81c04e325dbb",
+  "slug": "greek-burgers",
+  "name": "Greek Burgers",
+  "recipe_type": "main",
+  "brief_description": "These lamb burgers have the wonderful taste of fresh fennel and oregano in each bite. Serve with a garlic mayonnaise.",
+  "cuisine": "Greek",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a small bowl, mix together mayonnaise and minced garlic. Cover, and refrigerate for at least 1 hour."
+    },
+    {
+      "position": 2,
+      "text": "Preheat grill for high heat."
+    },
+    {
+      "position": 3,
+      "text": "Mix together lamb, breadcrumbs, fennel, shallot, oregano, and salt. Form into 3/4-inch-thick patties, and sprinkle black pepper over each."
+    },
+    {
+      "position": 4,
+      "text": "Brush grate with olive oil, and place burgers on grill. Cook for 3 to 5 minutes per side, turning once, or until done. Serve on buns with garlic mayonnaise."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4a1f8bdc-fa75-5f88-83d1-81c04e325dbb/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "479 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "81 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "559 mg",
+    "sugarContent": "1 g",
+    "fatContent": "30 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "33698917-9b00-5bcb-bd0f-286eb20e2b60",
+      "name": "ground lamb",
+      "normalized_name": "ground lamb",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3b5f9d4a-30d2-5a67-8844-2a1eeca553ff",
+      "name": "breadcrumbs",
+      "normalized_name": "breadcrumbs",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "e9aafbb8-64fa-534e-8578-c77d25b2cbe0",
+      "name": "trimmed",
+      "normalized_name": "trimmed",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "diced fennel bulb",
+      "position": 5
+    },
+    {
+      "ingredient_id": "195dd91b-7e16-5008-af4e-050104514749",
+      "name": "shallots",
+      "normalized_name": "shallots",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "a3c2e67a-4249-5b86-a9e7-344b5beafc4a",
+      "name": "hamburger buns",
+      "normalized_name": "hamburger buns",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "2ec470c2-b64f-5da8-9a90-36e93079e4ff",
+      "slug": "greek",
+      "name": "Greek"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "39cb0500-8f1b-5ba4-9e23-b75d590435ce",
+      "slug": "fennel",
+      "name": "Fennel",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "71a878a7-a6b7-5b9e-8d5c-87ac1110805b",
+      "slug": "lamb",
+      "name": "Lamb",
+      "color": null
+    },
+    {
+      "id": "bb20f75a-bcb2-5bee-baf8-4bfe603a2108",
+      "slug": "ground",
+      "name": "Ground",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14559/greek-burgers"
+  },
+  "public": true,
+  "updated_at": 1739566145,
+  "revision": 1
+}

@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e7bb3a27-a487-57d9-9039-bca2c3223de6",
+  "slug": "creamy-mango-smoothie",
+  "name": "Creamy Mango Smoothie",
+  "recipe_type": "drink",
+  "brief_description": "This fruity mango smoothie is a simple blend of fresh mango, creamy vanilla yogurt, and ice for a luscious and refreshing summer drink.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Blend mango, milk, yogurt, ice, and vanilla extract in a blender until smooth and creamy."
+    },
+    {
+      "position": 3,
+      "text": "Serve and enjoy!"
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e7bb3a27-a487-57d9-9039-bca2c3223de6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "157 kcal",
+    "carbohydrateContent": "30 g",
+    "cholesterolContent": "9 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "61 mg",
+    "sugarContent": "27 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3521061f-9bb5-509b-af30-8622b7d86bcf",
+      "name": "chopped fresh mango",
+      "normalized_name": "chopped fresh mango",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2af6eb86-ad31-51b9-b362-c2d5cec82d3a",
+      "name": "cold milk",
+      "normalized_name": "cold milk",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bcb1e0d2-6ea8-5e5f-9065-176c9647f165",
+      "name": "vanilla yogurt",
+      "normalized_name": "vanilla yogurt",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    },
+    {
+      "id": "0d205bd7-b82b-5484-87bb-528240cce532",
+      "slug": "mango",
+      "name": "Mango"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "f6c108ab-cec9-5b9f-9309-3faedf5983b9",
+      "slug": "mango",
+      "name": "Mango",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "53c996bd-5d2f-5547-a7d8-0ab52d34378e",
+      "slug": "mangos",
+      "name": "Mangos",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/215171/creamy-mango-smoothie"
+  },
+  "public": true,
+  "updated_at": 1774969851,
+  "revision": 1
+}

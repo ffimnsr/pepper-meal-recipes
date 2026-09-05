@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3f441619-617a-56f7-b5b6-a608adaa648a",
+  "slug": "fonio-pilaf",
+  "name": "Fonio Pilaf",
+  "recipe_type": "side",
+  "brief_description": "Fonio grains are mixed with aromatic vegetables, sesame seeds, nuts and raisins for a nutritious alternative to rice pilaf. Serve this with your favorite savory meat or fish dish.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine 1/2 cup vegetable stock and raisins in a bowl and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a deep skillet over medium heat. Cook shallot, garlic, black sesame seeds, carrots, and almonds until fragrant and softened, about 4 minutes. Add fonio and stir to absorb flavors, about 2 minutes. Pour in raisins and stock and stir until fonio has absorbed all the liquid, about 5 minutes. Add some remaining stock and cook until the fonio is soft. You may not need the entire amount, depending on the brand and quality of the fonio. Season with salt and pepper."
+    },
+    {
+      "position": 3,
+      "text": "Remove from heat once all liquid is absorbed. Fluff with a fork and sprinkle with fresh pomegranate seeds before serving."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3f441619-617a-56f7-b5b6-a608adaa648a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "789 kcal",
+    "carbohydrateContent": "125 g",
+    "fiberContent": "6 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "264 mg",
+    "sugarContent": "17 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c34f6692-1ccb-56d7-bc90-0a5478deedce",
+      "name": "warm vegetable stock",
+      "normalized_name": "warm vegetable stock",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "a50819a5-25fc-53bd-99c7-710c98257b48",
+      "name": "golden raisins",
+      "normalized_name": "golden raisins",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f5e90620-cf68-56ec-9ee5-c115795d5f67",
+      "name": "shallot",
+      "normalized_name": "shallot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "af178230-9e48-59be-8d2d-1da47526d338",
+      "name": "black sesame seeds",
+      "normalized_name": "black sesame seeds",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d050a767-79e7-5cf3-8a6a-b06945560279",
+      "name": "shredded carrots",
+      "normalized_name": "shredded carrots",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5b34559c-2ccf-5edd-a3fc-5e9cc368dccc",
+      "name": "chopped almonds",
+      "normalized_name": "chopped almonds",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "419f1fbe-e0ef-5498-81f2-df7e55311fc1",
+      "name": "fonio grains",
+      "normalized_name": "fonio grains",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "b786a4e4-c423-5b0a-aa9c-5492d1d14c84",
+      "name": "pomegranate seeds",
+      "normalized_name": "pomegranate seeds",
+      "quantity": "0.125",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "936ea180-ebfd-5e0c-8ba1-82bdf0fc1d27",
+      "slug": "pilaf",
+      "name": "Pilaf"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2972e18e-d873-5d41-a42b-b0897daf2e41",
+      "slug": "pilaf",
+      "name": "Pilaf",
+      "color": null
+    },
+    {
+      "id": "d46fe219-c55f-552e-a716-1541a8e8e2fd",
+      "slug": "raisins",
+      "name": "Raisins",
+      "color": null
+    },
+    {
+      "id": "36a846b9-3517-5db5-8b81-4bcf80e729bc",
+      "slug": "pomegranates",
+      "name": "Pomegranates",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "b06f0c5b-7919-511f-9eeb-ad9b9e1ed1a0",
+      "slug": "grains",
+      "name": "Grains",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "4bbf3490-84b7-5429-acd1-f3f32d9749b1",
+      "slug": "whole-grain",
+      "name": "Whole Grain",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/270421/fonio-pilaf"
+  },
+  "public": true,
+  "updated_at": 1583808825,
+  "revision": 1
+}

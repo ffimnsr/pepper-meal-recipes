@@ -1,0 +1,207 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b47b8441-e193-55e7-b877-642ca88ab1f6",
+  "slug": "foolproof-potato-latkes",
+  "name": "Foolproof Potato Latkes",
+  "recipe_type": "dessert",
+  "brief_description": "Use a food processor to combine ingredients for these crispy latkes.",
+  "cuisine": "Israeli",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place 1/4 of the potatoes, onion, eggs, salt, flour, and baking powder in the bowl of a food processor; pulse several times until the vegetables are finely chopped. Add remaining potatoes and pulse again until all potatoes are finely chopped and mixture is thoroughly combined."
+    },
+    {
+      "position": 2,
+      "text": "Heat canola oil in a skillet over medium heat. Scoop up about 1/3 cup of potato mixture at a time and place in skillet. Fry latkes until brown and crisp on the bottom, 2 to 3 minutes. Flip and cook other sides until brown, 2 to 3 minutes longer."
+    },
+    {
+      "position": 3,
+      "text": "Repeat with remaining potato mixture, replenishing oil as needed. Serve hot."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b47b8441-e193-55e7-b877-642ca88ab1f6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "289 kcal",
+    "carbohydrateContent": "37 g",
+    "cholesterolContent": "74 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "1068 mg",
+    "sugarContent": "3 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or as needed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "03174c98-4286-5a20-ae8a-229f93f11569",
+      "name": "canola oil",
+      "normalized_name": "canola oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    },
+    {
+      "id": "e3876d6d-89d3-5a60-be44-850668567954",
+      "slug": "pancakes",
+      "name": "Pancakes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "b179f124-9e41-5f0f-95b0-bc38497b7808",
+      "slug": "food-processor",
+      "name": "Food Processor",
+      "color": null
+    },
+    {
+      "id": "9bb1e663-6705-52d6-b7c4-c07ba088795a",
+      "slug": "latkes",
+      "name": "Latkes",
+      "color": null
+    },
+    {
+      "id": "e9c7cb3f-2b04-5892-a9d2-9e4be2971320",
+      "slug": "middle-eastern",
+      "name": "Middle Eastern",
+      "color": null
+    },
+    {
+      "id": "9a578210-cad0-5e96-b126-9f653a6a83f6",
+      "slug": "kosher",
+      "name": "Kosher",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/212816/foolproof-potato-latkes"
+  },
+  "public": true,
+  "updated_at": 1786552886,
+  "revision": 1
+}

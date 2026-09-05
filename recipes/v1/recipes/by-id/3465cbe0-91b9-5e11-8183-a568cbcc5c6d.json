@@ -1,0 +1,238 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3465cbe0-91b9-5e11-8183-a568cbcc5c6d",
+  "slug": "chilaquiles",
+  "name": "Chilaquiles with Spicy Salsa",
+  "recipe_type": "breakfast",
+  "brief_description": "A chilaquiles dish made with crispy tortilla strips, tomatoes, chile de arbol peppers, and eggs for a tasty Mexican breakfast or brunch.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine tomatoes, chile de arbol peppers, onion, garlic, chicken bouillon, and salt in a saucepan; add enough water to cover. Bring to a boil; reduce heat and cook, stirring occasionally, until tomatoes and peppers soften, 5 to 10 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Transfer chile peppers to a blender using a slotted spoon; blend until smooth. Pour in tomato mixture; blend until smooth."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a large skillet over medium heat. Cook and stir tortilla strips in the hot oil until crispy, 3 to 5 minutes. Crack in eggs; stir until scrambled and set, about 5 minutes. Strain blended sauce over tortillas and eggs; mix well."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3465cbe0-91b9-5e11-8183-a568cbcc5c6d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "329 kcal",
+    "carbohydrateContent": "36 g",
+    "cholesterolContent": "164 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "221 mg",
+    "sugarContent": "4 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "125a4862-f8e2-5124-8dd9-4e92e1ad6a89",
+      "name": "dried chile de arbol peppers",
+      "normalized_name": "dried chile de arbol peppers",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "28b6d869-be59-5e65-89bf-d479d36a5365",
+      "name": "chicken bouillon granules",
+      "normalized_name": "chicken bouillon granules",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0263984d-55a0-5974-aed7-2135511be28b",
+      "name": "water to cover",
+      "normalized_name": "water to cover",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 8
+    },
+    {
+      "ingredient_id": "8304bf0c-22ee-5e58-8b42-7fbe25e37c44",
+      "name": "inch) corn tortillas",
+      "normalized_name": "inch corn tortillas",
+      "quantity": "2 (6",
+      "unit": "pieces",
+      "preparation": "cut into strips",
+      "position": 9
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "3d8ed22f-fcce-5fd7-8874-3045e2841e3b",
+      "slug": "chilaquiles",
+      "name": "Chilaquiles"
+    }
+  ],
+  "tags": [
+    {
+      "id": "03a5c100-37b7-56eb-a52f-5139a61c5d7d",
+      "slug": "chilaquiles-recipes",
+      "name": "Chilaquiles Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "0e245ab8-9cdb-5cd0-a099-19543f459f5f",
+      "slug": "scrambled",
+      "name": "Scrambled",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257968/chilaquiles"
+  },
+  "public": true,
+  "updated_at": 1743534526,
+  "revision": 1
+}

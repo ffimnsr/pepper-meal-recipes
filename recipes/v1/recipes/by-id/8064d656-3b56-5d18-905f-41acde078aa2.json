@@ -1,0 +1,243 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8064d656-3b56-5d18-905f-41acde078aa2",
+  "slug": "african-peanut-soup",
+  "name": "West African Peanut Soup",
+  "recipe_type": "soup",
+  "brief_description": "This creamy African peanut soup is made with red bell peppers, tomatoes, chunky peanut butter, and brown rice for a surprisingly satisfying soup.",
+  "cuisine": "West African African",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a large stock pot over medium-high heat. Add onions and bell peppers; cook and stir until tender. Stir in garlic and cook until fragrant, about 1 minute."
+    },
+    {
+      "position": 3,
+      "text": "Stir in vegetable stock, tomatoes, pepper, and chili powder. Reduce heat to low and simmer, uncovered, for 30 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Stir in rice; cover and simmer until rice is tender, about 15 minutes. Stir in peanut butter until well blended; serve."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8064d656-3b56-5d18-905f-41acde078aa2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "222 kcal",
+    "carbohydrateContent": "24 g",
+    "fiberContent": "5 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "559 mg",
+    "sugarContent": "6 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4ff4afe5-0de6-5510-87de-06c24b8758dc",
+      "name": "medium onions",
+      "normalized_name": "medium onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "4a1b3643-e747-5869-81e6-c84b264835dc",
+      "name": "large red bell peppers",
+      "normalized_name": "large red bell peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5763b64f-568f-53d3-a53c-a8aeabfbbc15",
+      "name": "vegetable broth or stock",
+      "normalized_name": "vegetable broth or stock",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "6bff6f84-ed38-5237-ae2d-5789030d5171",
+      "name": "ounce) can crushed tomatoes",
+      "normalized_name": "ounce can crushed tomatoes",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": "with liquid",
+      "position": 6
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a0ff7b40-c845-56b4-97cc-5c70c5a7ea24",
+      "name": "extra crunchy peanut butter",
+      "normalized_name": "extra crunchy peanut butter",
+      "quantity": "0.66666698455811",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "cae26c76-8eac-5982-8d29-5b554af6bf1b",
+      "name": "uncooked brown rice",
+      "normalized_name": "uncooked brown rice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "e0dbb63f-3e2f-588c-97b4-5a4c385743ce",
+      "slug": "african",
+      "name": "African"
+    },
+    {
+      "id": "04f7fe33-4d60-5902-b7bc-8b7793820ec5",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4bbf3490-84b7-5429-acd1-f3f32d9749b1",
+      "slug": "whole-grain",
+      "name": "Whole Grain",
+      "color": null
+    },
+    {
+      "id": "301bad8a-6e1f-553c-a80c-5128b923b5b0",
+      "slug": "chili-powder-recipes",
+      "name": "Chili Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "2d125895-5569-549a-907e-4302ae47cb95",
+      "slug": "soup",
+      "name": "Soup",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/73090/african-peanut-soup"
+  },
+  "public": true,
+  "updated_at": 1774373672,
+  "revision": 1
+}

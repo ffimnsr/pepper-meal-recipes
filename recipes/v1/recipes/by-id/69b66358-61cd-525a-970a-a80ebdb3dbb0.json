@@ -1,0 +1,228 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "69b66358-61cd-525a-970a-a80ebdb3dbb0",
+  "slug": "korean-bbq-galbi",
+  "name": "Korean BBQ Galbi",
+  "recipe_type": "dessert",
+  "brief_description": "This galbi recipe for Korean BBQ uses flanken-cut short ribs soaked in a sweet sesame soy marinade, then grilled for a tender, delicious meaty dish.",
+  "cuisine": "Korean",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place ribs in a large pot and cover with cold water. Soak ribs in the refrigerator for 1 hour to pull out any blood. Drain."
+    },
+    {
+      "position": 2,
+      "text": "Combine Asian pear, onion, and garlic in a blender; blend until smooth. Pour into a large bowl and stir in soy sauce, brown sugar, honey, sesame oil, and black pepper. Add ribs to soy mixture; turn to coat evenly. Cover the bowl and marinate in the refrigerator, 8 hours to overnight."
+    },
+    {
+      "position": 3,
+      "text": "Preheat an outdoor grill for high heat and lightly oil the grate."
+    },
+    {
+      "position": 4,
+      "text": "Remove ribs from marinade and cook on the preheated grill until meat is tender and the outside is crusty, 5 to 10 minutes per side. Discard marinade."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/69b66358-61cd-525a-970a-a80ebdb3dbb0/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1092 kcal",
+    "carbohydrateContent": "58 g",
+    "cholesterolContent": "155 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "39 g",
+    "saturatedFatContent": "31 g",
+    "sodiumContent": "2501 mg",
+    "sugarContent": "51 g",
+    "fatContent": "79 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0b32d7fa-eb93-5027-9d89-693d3358872d",
+      "name": "beef short ribs",
+      "normalized_name": "beef short ribs",
+      "quantity": "5",
+      "unit": "pounds",
+      "preparation": "cut flanken style",
+      "position": 1
+    },
+    {
+      "ingredient_id": "71b33369-66ec-56be-96b6-1e0b7dfabd36",
+      "name": "asian pear",
+      "normalized_name": "asian pear",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored and cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "coarsely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "5",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce (such as kikkoman\u00ae)",
+      "normalized_name": "soy sauce",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "4794b416-fd93-5c53-94bb-e546becf51d1",
+      "name": "black pepper to taste",
+      "normalized_name": "black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "017f8645-ec08-59b4-a868-cdf69e504615",
+      "slug": "entree",
+      "name": "Entree"
+    },
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "3757e5e7-602a-54d2-ae11-f5601a53e1ff",
+      "slug": "korean",
+      "name": "Korean"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "765b80d7-9d7b-5e5b-829d-68e275819a1e",
+      "slug": "korean",
+      "name": "Korean",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "129449da-b9e2-520f-bbe5-f1b5328c5adf",
+      "slug": "sesame-oil-recipes",
+      "name": "Sesame Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "a4ab9606-d763-5f61-aa8c-42b5f8b89953",
+      "slug": "rib-recipes",
+      "name": "Rib Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "17811c2e-c321-5d1b-812d-b684df7c85ca",
+      "slug": "ribs",
+      "name": "Ribs",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/141268/korean-bbq-galbi"
+  },
+  "public": true,
+  "updated_at": 1776610039,
+  "revision": 1
+}

@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c72a8e85-67e0-5637-87f5-784931494842",
+  "slug": "easy-pesto",
+  "name": "Easy Pesto",
+  "recipe_type": "side",
+  "brief_description": "This is the easiest pesto recipe, using easy to find ingredients. It can be prepared in 2 minutes after you toast the almonds.",
+  "cuisine": "Italian Inspired American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 450 degrees F (230 degrees C). Place almonds on a cookie sheet, and bake for 10 minutes, or until lightly toasted."
+    },
+    {
+      "position": 2,
+      "text": "In a food processor, combine toasted almonds, garlic, basil, olive oil, nutmeg, salt and pepper. Process until a coarse paste is formed."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 2,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c72a8e85-67e0-5637-87f5-784931494842/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "199 kcal",
+    "carbohydrateContent": "2 g",
+    "fiberContent": "1 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "389 mg",
+    "sugarContent": "0 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "fdd91cfe-1384-5564-a436-0ac2ce0b810e",
+      "name": "almonds",
+      "normalized_name": "almonds",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "82c6f85d-d67d-53e8-8bf9-eacb7978629d",
+      "name": "fresh basil leaves",
+      "normalized_name": "fresh basil leaves",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "dd0a322f-f4d7-5034-a1a4-c54aa6d04767",
+      "slug": "condiment",
+      "name": "Condiment"
+    },
+    {
+      "id": "f1c01169-db64-5d2a-b556-54ef10ca52e3",
+      "slug": "ingredient",
+      "name": "Ingredient"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "04342015-cac5-527c-b1f5-5d0f9910af90",
+      "slug": "sauces",
+      "name": "Sauces"
+    },
+    {
+      "id": "b10034d4-200e-527f-b96c-84f307d8e315",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces"
+    },
+    {
+      "id": "4bbce3b5-1094-5afe-9c1a-51d908f535b1",
+      "slug": "vegetarian",
+      "name": "Vegetarian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "2cff95a3-f637-55d7-ae8c-f790b34c478c",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "56337018-718e-5e0b-a33f-5f59eb272718",
+      "slug": "paleo-diet-recipes",
+      "name": "Paleo Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "99f85645-dfa7-5c6a-abf1-3932ae6e6a7c",
+      "slug": "pesto",
+      "name": "Pesto",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "3ac8ece0-b9bd-5cf9-a9b3-8ad549f8dc41",
+      "slug": "vegan",
+      "name": "Vegan",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/41596/easy-pesto"
+  },
+  "public": true,
+  "updated_at": 1733855669,
+  "revision": 1
+}

@@ -1,0 +1,192 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cd6a7ddf-3f0f-5171-a7d6-a011a8d5add0",
+  "slug": "kellys-butterscotch-pudding",
+  "name": "Kelly's Butterscotch Pudding",
+  "recipe_type": "dessert",
+  "brief_description": "This butterscotch pudding is made with brown sugar, butter, egg yolks, and milk for a rich and delicious dessert full of butterscotch flavor.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a small bowl, mix together brown sugar, cornstarch and salt. Add enough milk to make thick paste. In a saucepan over medium heat, bring milk to a boil. Stir in brown sugar mixture, return to a boil, and cook for 1 minute."
+    },
+    {
+      "position": 2,
+      "text": "Place egg yolks in small bowl. Temper the yolks by quickly stirring in about 1/4 of hot milk mixture. Pour yolk mixture back into hot milk mixture, and return to heat. Cook, stirring constantly, for 1 minute; remove from heat. Stir in butter and vanilla until butter is melted. Pour into bowls, and let cool slightly."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cd6a7ddf-3f0f-5171-a7d6-a011a8d5add0/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "475 kcal",
+    "carbohydrateContent": "70 g",
+    "cholesterolContent": "199 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "470 mg",
+    "sugarContent": "62 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4318d726-c4c1-57d3-ad3e-5e83a3428d49",
+      "name": "packed brown sugar",
+      "normalized_name": "packed brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a30d2790-8959-5f92-90c9-d9b63bfe2517",
+      "name": "egg yolks",
+      "normalized_name": "egg yolks",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "58cf1107-f62e-5e8e-9478-81ed461597fd",
+      "slug": "custards-and-puddings",
+      "name": "Custards and Puddings"
+    }
+  ],
+  "tags": [
+    {
+      "id": "88cb2134-e479-5295-92e0-da57e506b53a",
+      "slug": "custards-and-puddings",
+      "name": "Custards and Puddings",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/47403/kellys-butterscotch-pudding"
+  },
+  "public": true,
+  "updated_at": 1773095620,
+  "revision": 1
+}

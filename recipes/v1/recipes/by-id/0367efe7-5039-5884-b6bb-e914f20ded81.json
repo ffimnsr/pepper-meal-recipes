@@ -1,0 +1,173 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0367efe7-5039-5884-b6bb-e914f20ded81",
+  "slug": "roesti",
+  "name": "Roesti",
+  "recipe_type": "dessert",
+  "brief_description": "This simple side dish originates from Switzerland. This recipe lends itself well to added ingredients, some of which might include bacon, onions, or cheese.",
+  "cuisine": "Swiss",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place the potatoes in a large pot. Cover the potatoes with water. Bring the water to a boil over medium-high heat. Cook the potatoes until tender enough to pierce with a fork, about 15 minutes; drain and refrigerate potatoes overnight."
+    },
+    {
+      "position": 2,
+      "text": "Peel and grate the potatoes into a large bowl."
+    },
+    {
+      "position": 3,
+      "text": "Melt the butter in a skillet over medium heat; add the grated potatoes; season with salt. Press the potatoes into a round loaf using a spatula. Sprinkle the milk over them. Cover the skillet with a lid. When you hear the potatoes begin to sizzle in about 5 to 10 minutes, reduce the heat to low. Cook until a brown crust has formed on the bottom, about 30 minutes. Cover the skillet with a large plate and flip the roesti onto the plate to serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0367efe7-5039-5884-b6bb-e914f20ded81/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "186 kcal",
+    "carbohydrateContent": "31 g",
+    "cholesterolContent": "16 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "436 mg",
+    "sugarContent": "2 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2.25",
+      "unit": "pounds",
+      "preparation": "scrubbed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    },
+    {
+      "id": "e3876d6d-89d3-5a60-be44-850668567954",
+      "slug": "pancakes",
+      "name": "Pancakes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f4182272-3374-5426-b64c-8cd8cd875fab",
+      "slug": "sugar-free",
+      "name": "Sugar-Free",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/149259/roesti"
+  },
+  "public": true,
+  "updated_at": 1528465736,
+  "revision": 1
+}

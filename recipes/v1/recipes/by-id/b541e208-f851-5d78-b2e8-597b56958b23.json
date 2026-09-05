@@ -1,0 +1,228 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b541e208-f851-5d78-b2e8-597b56958b23",
+  "slug": "a-jerky-chicken",
+  "name": "A Jerky Chicken",
+  "recipe_type": "main",
+  "brief_description": "A great Jamaican style dish. A spicy blend of herbs, vinegar, and a habanero pepper make this chicken dish unforgettable. Serve with rice, yum!",
+  "cuisine": "Jamaican Caribbean",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine the onion, brown sugar, soy sauce, vinegar, thyme, sesame oil, garlic, allspice and habanero pepper in the container of a food processor or blender. Process until smooth. Place the chicken into a large resealable bag, and pour in 3/4 of the sauce. Squeeze out excess air, and seal. Marinate in the refrigerator for at least one hour."
+    },
+    {
+      "position": 2,
+      "text": "Preheat your oven's broiler."
+    },
+    {
+      "position": 3,
+      "text": "Remove chicken from bag, and discard marinade. Broil chicken for 10 to 15 minutes, turning once to ensure even cooking. Heat remaining sauce in a small pan, and pour over chicken when serving."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 60,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b541e208-f851-5d78-b2e8-597b56958b23/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "197 kcal",
+    "carbohydrateContent": "14 g",
+    "cholesterolContent": "68 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "982 mg",
+    "sugarContent": "10 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "finely chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3984a17a-560e-5498-8e4b-ecdeaafe5951",
+      "name": "red wine vinegar",
+      "normalized_name": "red wine vinegar",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6015646e-6927-5ea2-8523-49b609b71c17",
+      "name": "chopped fresh thyme",
+      "normalized_name": "chopped fresh thyme",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "d4e4490c-7688-5371-b51b-8e512749645a",
+      "name": "ground allspice",
+      "normalized_name": "ground allspice",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "7ef04850-7e2d-5611-84e2-6f4fcd0bbbd4",
+      "name": "habanero pepper",
+      "normalized_name": "habanero pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves - cut into 1 inch strips",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "84631e40-6558-5e7a-800b-d32ffe1ce2f1",
+      "slug": "caribbean",
+      "name": "Caribbean"
+    }
+  ],
+  "tags": [
+    {
+      "id": "60032b7f-97a0-5dc1-b092-afa8ea2a5359",
+      "slug": "habanero",
+      "name": "Habanero",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "129449da-b9e2-520f-bbe5-f1b5328c5adf",
+      "slug": "sesame-oil-recipes",
+      "name": "Sesame Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "61167916-29e0-502d-be83-5e51871f336f",
+      "slug": "broiled-chicken",
+      "name": "Broiled Chicken",
+      "color": null
+    },
+    {
+      "id": "1d1a6231-2672-5763-9636-40bbd71eefab",
+      "slug": "low-glycemic-impact",
+      "name": "Low Glycemic Impact",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/50726/a-jerky-chicken"
+  },
+  "public": true,
+  "updated_at": 1738033823,
+  "revision": 1
+}

@@ -1,0 +1,260 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ad23b189-2ded-5d96-a81c-1bc8dfe8392e",
+  "slug": "get-a-husband-brunswick-stew",
+  "name": "Brunswick Stew",
+  "recipe_type": "soup",
+  "brief_description": "This is the best Brunswick stew! It's a Southern favorite with ground pork and beef, shredded chicken, and vegetables in a savory tomato-based broth.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a large stockpot over medium heat. Add onions and celery; cook and stir until translucent, about 5 minutes. Mix in pork and beef; cook and stir until evenly browned and crumbly, about 10 minutes. Do not drain."
+    },
+    {
+      "position": 2,
+      "text": "Add shredded chicken, tomatoes and their liquid, ketchup, barbecue sauce, hot sauce, salt, and pepper. Submerge whole green pepper in the mixture. Reduce the heat to low and cook, stirring occasionally, until thickened, about 2 hours."
+    },
+    {
+      "position": 3,
+      "text": "Stir in corn and continue to cook for 1 hour, or to desired consistency. Remove green pepper; chop and return to the stew or discard."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 195,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ad23b189-2ded-5d96-a81c-1bc8dfe8392e/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/Ti06CbhN-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "380 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "90 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "836 mg",
+    "sugarContent": "11 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a9528d99-1482-5a22-8e0a-18d3b0ed010c",
+      "name": "chopped onions",
+      "normalized_name": "chopped onions",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
+      "name": "ground pork",
+      "normalized_name": "ground pork",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2d7eb934-f0fe-59c6-98f2-b9dfbcf7af2f",
+      "name": "pound) whole cooked chicken",
+      "normalized_name": "pound whole cooked chicken",
+      "quantity": "1 (3",
+      "unit": "pieces",
+      "preparation": "deboned and shredded",
+      "position": 6
+    },
+    {
+      "ingredient_id": "e24ee67d-6c92-5eb7-9531-126bcda8c17e",
+      "name": "ounce) cans whole peeled tomatoes with liquid",
+      "normalized_name": "ounce cans whole peeled tomatoes with liquid",
+      "quantity": "3 (14.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "aebf453c-6f03-56da-ac9a-f46f1c43c833",
+      "name": "hickory-flavored barbecue sauce",
+      "normalized_name": "hickory-flavored barbecue sauce",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "2db950c3-f53b-5ed0-b575-262af7bdc814",
+      "name": "hot sauce to taste",
+      "normalized_name": "hot sauce to taste",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "8ce32994-f02d-5eb9-a0fc-1d077b7bdfb1",
+      "name": "medium green bell pepper",
+      "normalized_name": "medium green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "667affb9-18a3-5321-895f-ade738569b02",
+      "name": "ounce) cans cream style corn",
+      "normalized_name": "ounce cans cream style corn",
+      "quantity": "3 (14.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "2650695f-4f86-5a9d-9ac7-e85b3db12bbc",
+      "slug": "brunswick-stew",
+      "name": "Brunswick Stew"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "2b34cdbd-cfbd-54c1-aa97-9297ad673939",
+      "slug": "brunswick-stew-recipes",
+      "name": "Brunswick Stew Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "2a52f9a5-cd4c-52d1-897e-c3192dd30208",
+      "slug": "ground-pork-recipes",
+      "name": "Ground Pork Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55610/get-a-husband-brunswick-stew"
+  },
+  "public": true,
+  "updated_at": 1773332850,
+  "revision": 1
+}

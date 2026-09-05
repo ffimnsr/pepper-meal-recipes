@@ -1,0 +1,233 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6f2c8087-5b22-5d31-9042-6928c8de9519",
+  "slug": "paleo-applesauce-pancakes",
+  "name": "Paleo Applesauce Pancakes",
+  "recipe_type": "dessert",
+  "brief_description": "These paleo pancakes made with tapioca flour, applesauce, and cinnamon are a quick and easy gluten-free breakfast treat.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Whisk eggs lightly in a large bowl. Add applesauce and vanilla extract; mix well to combine."
+    },
+    {
+      "position": 3,
+      "text": "Combine almond flour, tapioca flour, cinnamon, baking soda, and salt in a separate bowl."
+    },
+    {
+      "position": 4,
+      "text": "Add to egg mixture and mix until just combined. Add water until pancake batter is desired thickness. Set batter aside to rest for 15 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Melt coconut oil on a griddle over medium-high heat. Drop batter by large spoonfuls onto the griddle and cook until bubbles form in the center and the edges are dry, 3 to 4 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Flip and cook until golden on the other side, 2 to 3 minutes. Repeat with remaining batter."
+    },
+    {
+      "position": 7,
+      "text": "Serve and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6f2c8087-5b22-5d31-9042-6928c8de9519/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "127 kcal",
+    "carbohydrateContent": "11 g",
+    "cholesterolContent": "62 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "155 mg",
+    "sugarContent": "2 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "9066f2fe-bc68-5ac9-81ac-d1b85dce55e5",
+      "name": "applesauce",
+      "normalized_name": "applesauce",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f9a99f9f-88e8-50ce-9d63-a797317af35f",
+      "name": "almond flour",
+      "normalized_name": "almond flour",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bc315b17-d17c-578d-bad9-05f4fed45d8b",
+      "name": "tapioca flour",
+      "normalized_name": "tapioca flour",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "or as needed",
+      "position": 9
+    },
+    {
+      "ingredient_id": "e1f61fb9-e8f4-56b9-9735-b3643a2a22b2",
+      "name": "coconut oil",
+      "normalized_name": "coconut oil",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": "or as needed",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "8dc4a884-c5f6-5ca8-8a40-0edcca64e2aa",
+      "slug": "pancake",
+      "name": "Pancake"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "16c5608f-411f-50ae-b193-c9821fae5fd8",
+      "slug": "pancake-recipes",
+      "name": "Pancake Recipes",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "6e9bc079-ab22-5296-b01a-351ef64551ef",
+      "slug": "flour-recipes",
+      "name": "Flour Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "2d6b8400-f602-558f-b2c4-b29ed02afc3e",
+      "slug": "almond-meal-recipes",
+      "name": "Almond Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245536/paleo-applesauce-pancakes"
+  },
+  "public": true,
+  "updated_at": 1756830527,
+  "revision": 1
+}

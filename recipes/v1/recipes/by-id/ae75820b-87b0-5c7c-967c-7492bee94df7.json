@@ -1,0 +1,199 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ae75820b-87b0-5c7c-967c-7492bee94df7",
+  "slug": "peanut-butter-fudge",
+  "name": "Peanut Butter Fudge",
+  "recipe_type": "dessert",
+  "brief_description": "Evaporated milk, peanut butter and marshmallow creme are the signature ingredients in this fudge.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Grease an 8x8 inch dish."
+    },
+    {
+      "position": 2,
+      "text": "In a medium saucepan over medium heat, combine milk, sugar and butter. Bring to a rolling boil, and let boil 5 minutes. Remove from heat and stir in peanut butter, marshmallow creme and vanilla until well incorporated. Spread into prepared dish. Let cool completely before cutting into squares."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ae75820b-87b0-5c7c-967c-7492bee94df7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "274 kcal",
+    "carbohydrateContent": "40 g",
+    "cholesterolContent": "7 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "116 mg",
+    "sugarContent": "34 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "478758cf-b8df-56ff-a79a-885f223169bb",
+      "name": "evaporated milk",
+      "normalized_name": "evaporated milk",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6290592f-3815-50ca-91ed-8c33823c514e",
+      "name": "peanut butter",
+      "normalized_name": "peanut butter",
+      "quantity": "1.125",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2736e4d4-e3f7-5cf6-9a09-247b8623597a",
+      "name": "marshmallow creme",
+      "normalized_name": "marshmallow creme",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7891449c-491f-5889-b6e5-4aa5b1bbd0b6",
+      "slug": "candy",
+      "name": "Candy"
+    },
+    {
+      "id": "4b884464-a6d5-5c75-ac5e-2c459beffca8",
+      "slug": "fudge",
+      "name": "Fudge"
+    },
+    {
+      "id": "c7f82534-3817-5d16-8ad5-a96ef0e06488",
+      "slug": "peanut-butter",
+      "name": "Peanut Butter"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c2408948-d3b4-5a30-a236-1b3c2756fe10",
+      "slug": "peanut-butter",
+      "name": "Peanut Butter",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "8735694f-ee89-5378-9b26-e5d87898864b",
+      "slug": "fudge-recipes",
+      "name": "Fudge Recipes",
+      "color": null
+    },
+    {
+      "id": "713cfa7d-4531-51a3-9cc6-946696b7de36",
+      "slug": "bake-sale-recipes",
+      "name": "Bake Sale Recipes",
+      "color": null
+    },
+    {
+      "id": "90494e08-8fd4-54a9-85c3-7a90dd15c914",
+      "slug": "fundraising-favorites-recipes",
+      "name": "Fundraising Favorites Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "7a885960-8acc-549f-9170-8939c42a169f",
+      "slug": "candy-recipes",
+      "name": "Candy Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24068/peanut-butter-fudge"
+  },
+  "public": true,
+  "updated_at": 1657828511,
+  "revision": 1
+}

@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "46e8833d-a0fa-5903-ace5-949bc426b140",
+  "slug": "yummy-cheese-fries",
+  "name": "Yummy Cheese Fries",
+  "recipe_type": "appetizer",
+  "brief_description": "This recipe for yummy cheese fries bakes fries in the oven with Cheddar and crumbled bacon and serves them with ranch dressing for a quick appetizer.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (205 degrees C). Line a baking sheet with aluminum foil."
+    },
+    {
+      "position": 2,
+      "text": "Cook bacon in a large skillet over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain on paper towels; crumble."
+    },
+    {
+      "position": 3,
+      "text": "Spread fries in a single layer on the prepared baking sheet."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until golden brown and crisp, 15 to 20 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Remove fries from the oven. Turn on the broiler to high."
+    },
+    {
+      "position": 6,
+      "text": "Sprinkle fries with Cheddar cheese and crumbled bacon."
+    },
+    {
+      "position": 7,
+      "text": "Broil under the preheated broiler until cheese melted, 1 to 2 minutes. Serve with ranch dressing."
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/46e8833d-a0fa-5903-ace5-949bc426b140/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "536 kcal",
+    "carbohydrateContent": "57 g",
+    "cholesterolContent": "51 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "1361 mg",
+    "sugarContent": "0 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "46deb3f4-9db9-51a1-ba58-86c798db7ad7",
+      "name": "ounce) package frozen french fries",
+      "normalized_name": "ounce package frozen french fries",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3394cd52-6405-5271-86b1-11432d59786c",
+      "name": "ranch dressing",
+      "normalized_name": "ranch dressing",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "daa92f2e-5e27-5412-8c1b-714212d09d18",
+      "slug": "fries",
+      "name": "Fries"
+    },
+    {
+      "id": "426b3ece-3cb3-5093-b52e-db11535d0816",
+      "slug": "french-fries",
+      "name": "French Fries"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b1ffa940-71c7-50a4-bbb2-06d8410cbff5",
+      "slug": "french-fries-recipes",
+      "name": "French Fries Recipes",
+      "color": null
+    },
+    {
+      "id": "e455473e-49bf-511c-8377-db59253a8adf",
+      "slug": "fries-recipes",
+      "name": "Fries Recipes",
+      "color": null
+    },
+    {
+      "id": "5021ac57-f66e-5b49-9f36-27c68704abb5",
+      "slug": "baked-french-fries",
+      "name": "Baked French Fries",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222752/yummy-cheese-fries"
+  },
+  "public": true,
+  "updated_at": 1775384359,
+  "revision": 1
+}

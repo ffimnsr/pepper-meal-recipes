@@ -1,0 +1,265 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "32d681a6-7d7b-54c7-bcb8-6f5472f8ed8e",
+  "slug": "chicken-primavera-alfredo",
+  "name": "Chicken Primavera Alfredo",
+  "recipe_type": "main",
+  "brief_description": "Chicken strips, green and red bell peppers, and mushrooms are cooked in butter, then stirred into a creamy, comforting Alfredo sauce with fettuccini in this delicious chicken primavera Alfredo dish.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Fill a large pot with lightly salted water and bring to a rolling boil. Stir in fettuccine, bring back to a boil, and cook pasta over medium heat until cooked through but still firm to the bite, about 8 minutes. Drain."
+    },
+    {
+      "position": 2,
+      "text": "Melt 1/4 cup butter in a large skillet over medium heat; cook and stir chicken and garlic in butter until chicken is browned. Add mushrooms, green bell pepper, and red bell pepper; cook and stir until vegetables are tender."
+    },
+    {
+      "position": 3,
+      "text": "Melt remaining 1/2 cup butter with 1/2 of the heavy cream in a large saucepan over medium heat. Gradually add Parmesan cheese, alternating with pieces of cream cheese, stirring constantly. Stir in remaining heavy cream, simmering until sauce has thickened, about 5 minutes. Stir chicken and vegetable mixture into cream sauce."
+    },
+    {
+      "position": 4,
+      "text": "Transfer pasta to the saucepan and stir in egg. Cook and stir for 1 minute and serve immediately."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/32d681a6-7d7b-54c7-bcb8-6f5472f8ed8e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "974 kcal",
+    "carbohydrateContent": "62 g",
+    "cholesterolContent": "268 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "27 g",
+    "saturatedFatContent": "43 g",
+    "sodiumContent": "441 mg",
+    "sugarContent": "4 g",
+    "fatContent": "71 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b1f1fc8b-3df1-59ff-837f-fe2817a2e05e",
+      "name": "fettuccine pasta",
+      "normalized_name": "fettuccine pasta",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves, cut into strips",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced, or more to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "23f433e9-1310-5488-a961-7f5e2aed5ebe",
+      "name": "sliced fresh mushrooms",
+      "normalized_name": "sliced fresh mushrooms",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "515f4d5c-9bdd-5803-83d8-ce4b304bf103",
+      "name": "pint heavy whipping cream",
+      "normalized_name": "pint heavy whipping cream",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "cd6cdf2d-dbde-56e7-8f54-f3790f0cf0a1",
+      "name": "ounce) package cream cheese",
+      "normalized_name": "ounce package cream cheese",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "cut into pieces",
+      "position": 11
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "8188eed4-b891-5ca2-b130-93c8a82eac19",
+      "slug": "fettuccini-recipes",
+      "name": "Fettuccini Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "d9a74c41-79f6-5dbb-9a10-c9cd50f44ad1",
+      "slug": "pasta-primavera-recipes",
+      "name": "Pasta Primavera Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231825/chicken-primavera-alfredo"
+  },
+  "public": true,
+  "updated_at": 1735492669,
+  "revision": 1
+}

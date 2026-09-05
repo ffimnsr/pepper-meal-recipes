@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "13bcb134-5012-5322-baaf-fffa7dcf4f7f",
+  "slug": "beef-kelaguen",
+  "name": "Beef Kelaguen",
+  "recipe_type": "drink",
+  "brief_description": "This kelaguen (beef ceviche), is a family recipe from Guam. The acidity in the lemon juice \"cooks\" thin slices of raw flank steak, ready in about an hour.",
+  "cuisine": "Oceanic",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Pour lemon juice, soy sauce, and Tabasco into a large, glass bowl. Stir in beef and green onions. Add additional lemon juice if needed to cover the beef."
+    },
+    {
+      "position": 2,
+      "text": "Cover the bowl with plastic wrap, and allow to rest at room temperature for 1 hour, until meat turns a grayish-brown color and appears cooked."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/13bcb134-5012-5322-baaf-fffa7dcf4f7f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "210 kcal",
+    "carbohydrateContent": "6 g",
+    "cholesterolContent": "47 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "303 mg",
+    "sugarContent": "2 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": "or as needed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a408f721-2501-5272-b124-e676f0fdc7b6",
+      "name": "tabasco to taste",
+      "normalized_name": "tabasco to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "de27a357-549f-5979-8349-7fb53ff89b5c",
+      "name": "beef flank steak",
+      "normalized_name": "beef flank steak",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "very thinly sliced against the grain",
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6672984-293d-5341-a773-3613abe74951",
+      "name": "bunch green onions",
+      "normalized_name": "bunch green onions",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "thinly sliced",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "acb4aea2-50e0-54f5-9f55-88ed42e18ac3",
+      "slug": "olympics",
+      "name": "Olympics",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "45c9107a-f3eb-524f-ae04-7ea40dfc4e6a",
+      "slug": "weight-loss",
+      "name": "Weight-Loss",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "d8a88f90-c0c0-5567-ae83-22cb9872fd7f",
+      "slug": "low-calorie",
+      "name": "Low-Calorie",
+      "color": null
+    },
+    {
+      "id": "17f4c204-15f9-596a-8568-681c02f3617f",
+      "slug": "300-calorie-main-dish-recipes",
+      "name": "300 Calorie Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/130443/beef-kelaguen"
+  },
+  "public": true,
+  "updated_at": 1733856176,
+  "revision": 1
+}

@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "afe5acaf-bcd6-5e4f-887a-0ee98702a76e",
+  "slug": "creamy-make-ahead-mashed-potatoes",
+  "name": "Creamy Make-Ahead Mashed Potatoes",
+  "recipe_type": "side",
+  "brief_description": "These make-ahead mashed potatoes can be made up to two days ahead to save you time; adding butter after reheating makes them taste freshly mashed!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place potatoes in a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, about 20 minutes. Drain."
+    },
+    {
+      "position": 2,
+      "text": "Heat half-and-half in the microwave until just warm."
+    },
+    {
+      "position": 3,
+      "text": "Process unpeeled potatoes through a food mill into a medium bowl. (Or, using a potholder, peel and drop them into a bowl. Puree using a potato masher or stand mixer fitted with the paddle attachment.) Stir in warm half-and-half and salt (or beat, if using a mixer) until smooth and fluffy."
+    },
+    {
+      "position": 4,
+      "text": "Cool, cover, and refrigerate potatoes in a microwave-safe, airtight container for up to 2 days."
+    },
+    {
+      "position": 5,
+      "text": "Thirty minutes before serving, microwave until warm. Transfer to a heatproof bowl set over a pan of simmering water. Stir in butter to melt. Cover and keep warm."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/afe5acaf-bcd6-5e4f-887a-0ee98702a76e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "213 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "32 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "72 mg",
+    "sugarContent": "1 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4b2b3112-53d1-5b2b-a392-6dbd06a85d12",
+      "name": "russet (idaho) potatoes",
+      "normalized_name": "russet potatoes",
+      "quantity": "3",
+      "unit": "pounds",
+      "preparation": "scrubbed but unpeeled",
+      "position": 1
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": "softened",
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    },
+    {
+      "id": "fc9fdc64-b883-5312-a3be-e817e01fbd6c",
+      "slug": "mashed-potato",
+      "name": "Mashed Potato"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a454732a-aeb6-55bb-b5e7-975cff01dbbe",
+      "slug": "mashed-potato-recipes",
+      "name": "Mashed Potato Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "34260111-dacb-53d4-9795-7c3933ef5810",
+      "slug": "make-ahead",
+      "name": "Make-Ahead",
+      "color": null
+    },
+    {
+      "id": "f6c4b0b6-c32b-5d36-b81a-2ff399253a58",
+      "slug": "thanksgiving",
+      "name": "Thanksgiving",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/76961/creamy-make-ahead-mashed-potatoes"
+  },
+  "public": true,
+  "updated_at": 1764534771,
+  "revision": 1
+}

@@ -1,0 +1,175 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "650cc142-5fde-57d3-8db3-d82c9879cd49",
+  "slug": "lemon-herb-quinoa",
+  "name": "Lemon Herb Quinoa",
+  "recipe_type": "side",
+  "brief_description": "Quinoa is perfectly paired with lemon, parsley, basil, and garlic to make this dish that is great with chicken or fish.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Stir water, quinoa, lemon juice, lemon zest, parsley, basil, garlic, and seasoning blend together in a saucepan. Bring to a boil; reduce heat to medium-low, cover, and simmer until quinoa is tender and water is absorbed, about 20 minutes. Let rest, covered, for 5 minutes; fluff with a fork."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/650cc142-5fde-57d3-8db3-d82c9879cd49/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "109 kcal",
+    "carbohydrateContent": "21 g",
+    "fiberContent": "3 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "82 mg",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d2fde650-4009-5bf0-adf1-1161b2b7345e",
+      "name": "quinoa",
+      "normalized_name": "quinoa",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced and zested",
+      "position": 3
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3137d3c8-bf47-5da8-adb2-cd7e446039cd",
+      "name": "chopped fresh basil",
+      "normalized_name": "chopped fresh basil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "2d18f00d-c953-592a-a651-f235c3651ff3",
+      "name": "roasted red pepper and garlic seasoning blend",
+      "normalized_name": "roasted red pepper and garlic seasoning blend",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "8f2d1759-6b94-5f01-b137-4c7adb22db12",
+      "slug": "grain-side-dish",
+      "name": "Grain Side Dish"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "fef0bdc5-5b61-5aee-a388-8fa2d1ab2df3",
+      "slug": "parsley-recipes",
+      "name": "Parsley Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "d4ef8f15-0a58-50dd-a7a7-70f0c094eb34",
+      "slug": "whole-grains",
+      "name": "Whole Grains",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "867ecb29-7f93-56b1-bd91-1a1d9974c87e",
+      "slug": "quinoa",
+      "name": "Quinoa",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242114/lemon-herb-quinoa"
+  },
+  "public": true,
+  "updated_at": 1642141460,
+  "revision": 1
+}

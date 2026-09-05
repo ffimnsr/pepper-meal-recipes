@@ -1,0 +1,211 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f2e32a53-734c-559c-9c9a-78753184fce4",
+  "slug": "quick-pasta-carbonara",
+  "name": "Quick Pasta Carbonara",
+  "recipe_type": "main",
+  "brief_description": "The rich flavors of bacon and green peas combine with cheesy, creamy carbonara sauce made without egg to serve with hot, cooked pasta.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook pasta as directed on the package. Drain pasta and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, cook bacon in a large skillet until crisp. Drain bacon on paper towels. Reserve 2 tablespoons drippings in the skillet."
+    },
+    {
+      "position": 3,
+      "text": "Add cream cheese, peas, milk, Parmesan cheese, and garlic powder to reserved drippings. Cook on low heat until cream cheese is melted and mixture is heated through."
+    },
+    {
+      "position": 4,
+      "text": "Place pasta in a large bowl. Add cream cheese sauce and bacon; mix lightly."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f2e32a53-734c-559c-9c9a-78753184fce4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "407 kcal",
+    "carbohydrateContent": "51 g",
+    "cholesterolContent": "52 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "458 mg",
+    "sugarContent": "6 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0a26cbaa-632d-5243-8d4b-e17562133673",
+      "name": "medium-size pasta",
+      "normalized_name": "medium-size pasta",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "cc31255f-1b18-573a-bd2b-8203eafb611e",
+      "name": "slices oscar mayer bacon",
+      "normalized_name": "slices oscar mayer bacon",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "461534a4-b4d2-593a-b23c-bdce62e03d19",
+      "name": "philadelphia cream cheese",
+      "normalized_name": "philadelphia cream cheese",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": "cubed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ee169fda-3fca-5765-9af5-f262e26fe53c",
+      "name": "frozen peas",
+      "normalized_name": "frozen peas",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "deaef6a4-133d-545f-907e-f953fd20f096",
+      "name": "kraft grated parmesan cheese",
+      "normalized_name": "kraft grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "78763672-5fe6-58db-bb74-5fd900ec3b2f",
+      "slug": "pasta-carbonara",
+      "name": "Pasta Carbonara"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2af3f8a9-5a79-5561-843d-624fe049896e",
+      "slug": "pasta-carbonara-recipes",
+      "name": "Pasta Carbonara Recipes",
+      "color": null
+    },
+    {
+      "id": "73d15f3b-ba62-57e7-af10-1b51c8972f27",
+      "slug": "green-peas",
+      "name": "Green Peas",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/212501/quick-pasta-carbonara"
+  },
+  "public": true,
+  "updated_at": 1643846913,
+  "revision": 1
+}

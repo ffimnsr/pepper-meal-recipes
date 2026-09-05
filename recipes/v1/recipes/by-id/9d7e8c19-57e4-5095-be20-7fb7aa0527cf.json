@@ -1,0 +1,281 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9d7e8c19-57e4-5095-be20-7fb7aa0527cf",
+  "slug": "my-jambalaya",
+  "name": "My Jambalaya",
+  "recipe_type": "soup",
+  "brief_description": "Jambalaya made with rice, chicken, shrimp, and tomatoes is a quick version of the traditional Creole-inspired dish.",
+  "cuisine": "Creole",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil and butter together in a large saucepan over medium heat; cook and stir sausage and onion until onion starts to brown, about 10 minutes. Add garlic; cook and stir until fragrant, 1 to 2 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Mix green bell peppers, zucchini, tomatoes, chicken broth, rice, Worcestershire sauce, and bay leaf into onion-sausage mixture; bring to a boil. Reduce heat and simmer until rice is tender and mixture is thickened, about 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir chicken and shrimp into tomato-sausage mixture; simmer until chicken and shrimp are heated through, 1 to 2 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9d7e8c19-57e4-5095-be20-7fb7aa0527cf/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "611 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "263 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "51 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "1158 mg",
+    "sugarContent": "4 g",
+    "fatContent": "33 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "82cf6b33-c37e-5409-aaab-05201d8e3d1b",
+      "name": "polish sausages",
+      "normalized_name": "polish sausages",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "halved lengthwise and cut into 1/4-inch thick pieces",
+      "position": 3
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "6",
+      "unit": "cloves",
+      "preparation": "finely chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "8e399f67-a139-5c4b-a6f8-75ff8e7fa1ea",
+      "name": "green bell peppers",
+      "normalized_name": "green bell peppers",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "seeded and diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "28b3e7fa-5037-5148-b4f4-27c9c52c1a9b",
+      "name": "zucchini",
+      "normalized_name": "zucchini",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped, or to taste",
+      "position": 7
+    },
+    {
+      "ingredient_id": "6bff6f84-ed38-5237-ae2d-5789030d5171",
+      "name": "ounce) can crushed tomatoes",
+      "normalized_name": "ounce can crushed tomatoes",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "7cdd3e1d-a870-5232-920e-fcf3ee69e83a",
+      "name": "rice",
+      "normalized_name": "rice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 11
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "132fed06-a58f-5a90-9ecd-3f431c1aedd9",
+      "name": "chopped cooked chicken breast",
+      "normalized_name": "chopped cooked chicken breast",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "2537b9bf-87a3-5698-9e12-3b087ee69fb7",
+      "name": "peeled cooked shrimp",
+      "normalized_name": "peeled cooked shrimp",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "de5b3e43-d67b-5708-bb13-57116c9df3e2",
+      "slug": "jambalaya",
+      "name": "Jambalaya"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "6eb5c42c-d95c-516f-a59f-ac29b7afdc01",
+      "slug": "mardi-gras",
+      "name": "Mardi Gras",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237040/my-jambalaya"
+  },
+  "public": true,
+  "updated_at": 1465049229,
+  "revision": 1
+}

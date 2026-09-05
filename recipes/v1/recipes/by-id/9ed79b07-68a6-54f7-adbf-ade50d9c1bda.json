@@ -1,0 +1,265 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9ed79b07-68a6-54f7-adbf-ade50d9c1bda",
+  "slug": "indonesian-fried-rice-nasi-goreng",
+  "name": "Nasi Goreng (Indonesian Fried Rice)",
+  "recipe_type": "dessert",
+  "brief_description": "Nasi goreng is a traditional Indonesian fried rice dish that\u2019s savory, sweet, and salty thanks to the addition of kecap manis (Indonesian soy sauce).",
+  "cuisine": "Indonesian Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a large nonstick skillet over medium heat. Coat with nonstick cooking spray."
+    },
+    {
+      "position": 2,
+      "text": "Pour eggs into the hot skillet and cook until the edges begin to set. Lift the edges to allow any uncooked egg to flow onto the hot pan, about 1 minute. Flip omelet in one piece and cook until fully set, about 30 seconds. Transfer omelet to a cutting board and slice into 1/2-inch strips. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Heat vegetable oil in a wok or large frying pan over high heat. Stir in onion, leek, chile peppers, and garlic. Cook and stir until onion is soft, 3 to 5 minutes. Stir in chicken, shrimp, coriander, and cumin; mix well. Cook and stir for about 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Mix in cooked rice, sweet soy sauce, and omelet strips; cook until rice is heated through and chicken is no longer pink in the center, 3 to 5 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9ed79b07-68a6-54f7-adbf-ade50d9c1bda/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "415 kcal",
+    "carbohydrateContent": "50 g",
+    "cholesterolContent": "258 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "31 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "872 mg",
+    "sugarContent": "5 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 2
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "d31a124e-7c23-5762-927c-a613752d3c0c",
+      "name": "leek",
+      "normalized_name": "leek",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "01e06f8c-c7de-5510-b1cf-519f7ed8c4dc",
+      "name": "green chile peppers",
+      "normalized_name": "green chile peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "boneless chicken breasts, cut into thin strips",
+      "position": 8
+    },
+    {
+      "ingredient_id": "4d45880b-081a-5507-b260-7835c96924c4",
+      "name": "peeled and deveined prawns",
+      "normalized_name": "peeled and deveined prawns",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "1c05fe49-eae3-5107-914d-8b01c5886c6f",
+      "name": "ground coriander",
+      "normalized_name": "ground coriander",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "69eb52aa-d6ef-508d-828e-206be1969dfb",
+      "name": "uncooked white rice",
+      "normalized_name": "uncooked white rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "e48ff4ca-e9af-558c-a71e-ac126a46e694",
+      "name": "sweet soy sauce (indonesian kecap manis)",
+      "normalized_name": "sweet soy sauce",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "3abb4365-ccad-5837-b651-d178c73fe82c",
+      "slug": "fried-rice",
+      "name": "Fried Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "49a81362-72e3-51d1-8b42-7b72d0702a59",
+      "slug": "wok",
+      "name": "Wok",
+      "color": null
+    },
+    {
+      "id": "8458dec7-408e-5b27-b04c-65dfe100d88e",
+      "slug": "indonesian",
+      "name": "Indonesian",
+      "color": null
+    },
+    {
+      "id": "1e83fd8f-f8d5-5dd8-98fc-88de342429d2",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/165963/indonesian-fried-rice-nasi-goreng"
+  },
+  "public": true,
+  "updated_at": 1732600735,
+  "revision": 1
+}

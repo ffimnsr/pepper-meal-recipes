@@ -1,0 +1,206 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "74ad176a-8264-50af-a8d0-77947d5507a8",
+  "slug": "huevos-endiablados",
+  "name": "Huevos Endiablados",
+  "recipe_type": "appetizer",
+  "brief_description": "Spanish tapas are tasty small plates that when combined can create a light supper, or serve as a great appetizer. Huevos Endiablados are deviled eggs filled with a savory combination of tuna, onion, mayonnaise, and Dijon mustard.",
+  "cuisine": "Spanish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place eggs in a saucepan and cover with water. Bring to a boil, remove from heat, and let eggs stand in hot water for 15 minutes. Remove eggs from hot water, cool under cold running water, and peel. Allow to cool completely, about 20 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Slice each egg in half lengthwise, remove yolks and place them in a bowl. Set the whites aside on a serving platter. Mash yolks together with tuna, red onion, mayonnaise, Dijon mustard, garlic, smoked paprika, and salt until smooth and combined. Fill each egg white half with about a tablespoon of filling. Garnish with smoked paprika."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/74ad176a-8264-50af-a8d0-77947d5507a8/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/dM3DyHRu-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "139 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "191 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "316 mg",
+    "sugarContent": "1 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c6c4a03e-5038-5376-9450-787c33eee2eb",
+      "name": "ounce) can tuna packed in oil",
+      "normalized_name": "ounce can tuna packed in oil",
+      "quantity": "1 (4",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 2
+    },
+    {
+      "ingredient_id": "128120d8-bfb6-55c2-9d45-dc7c94d1167a",
+      "name": "diced red onion",
+      "normalized_name": "diced red onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c43f0603-4761-5956-842c-cacc7ec997cf",
+      "name": "dijon mustard",
+      "normalized_name": "dijon mustard",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "63a103b0-c54c-5b1d-a1a8-4e8e33b61e9b",
+      "name": "smoked paprika",
+      "normalized_name": "smoked paprika",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "plus more for garnish",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "78e6f3b3-d4d6-5248-a096-55612b876bea",
+      "slug": "deviled-eggs",
+      "name": "Deviled Eggs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "09918637-74ca-57f0-a5a8-55971f1dd9d0",
+      "slug": "spanish",
+      "name": "Spanish",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "f3a06a5e-eb68-58cb-91b0-8787d6f2babc",
+      "slug": "tuna",
+      "name": "Tuna",
+      "color": null
+    },
+    {
+      "id": "8b57bfd6-0f1a-5ac9-8adb-d8274c85f51c",
+      "slug": "world-cup",
+      "name": "World Cup",
+      "color": null
+    },
+    {
+      "id": "47dbbc95-2797-57bb-8d05-99c3cb21d344",
+      "slug": "fish",
+      "name": "Fish",
+      "color": null
+    },
+    {
+      "id": "625da4f7-4eee-5dc7-9b15-828856bf3fca",
+      "slug": "tapas",
+      "name": "Tapas",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228955/huevos-endiablados"
+  },
+  "public": true,
+  "updated_at": 1593737401,
+  "revision": 1
+}

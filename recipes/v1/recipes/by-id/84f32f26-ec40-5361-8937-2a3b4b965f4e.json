@@ -1,0 +1,236 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "84f32f26-ec40-5361-8937-2a3b4b965f4e",
+  "slug": "savory-roasted-root-vegetables",
+  "name": "Savory Roasted Root Vegetables",
+  "recipe_type": "side",
+  "brief_description": "This roasted root vegetables recipe is a great way to use root vegetables like beets, carrots, and potatoes. Garlic and thyme add even more flavor.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place carrots, potatoes, beets, onion, garlic, and chickpeas into a 9x13-inch baking dish; drizzle with olive oil, then season with thyme, salt, and pepper. Mix well."
+    },
+    {
+      "position": 3,
+      "text": "Bake, uncovered, in the preheated oven for 30 minutes, stirring once midway through baking. Remove the baking dish from the oven, and stir in wine. Return to the oven, and bake until wine has mostly evaporated and vegetables are tender, about 15 minutes more. Stir in beet greens, allowing them to wilt from the heat of the vegetables. Season to taste with salt and pepper before serving."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/84f32f26-ec40-5361-8937-2a3b4b965f4e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "143 kcal",
+    "carbohydrateContent": "21 g",
+    "fiberContent": "4 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "95 mg",
+    "sugarContent": "5 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "e6c07127-c4df-5503-91a7-2a08931bdd29",
+      "name": "diced potatoes",
+      "normalized_name": "diced potatoes",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "45055c8a-1e2f-5fe4-913f-c83a101828eb",
+      "name": "diced",
+      "normalized_name": "diced",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "raw beet",
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "297be44d-471c-5e6e-ac07-1ea4b595618c",
+      "name": "canned garbanzo beans (chickpeas)",
+      "normalized_name": "canned garbanzo beans",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "drained",
+      "position": 6
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cff81fd6-1f8b-5984-9efb-02a5189e2031",
+      "name": "dried thyme leaves",
+      "normalized_name": "dried thyme leaves",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "32c068b2-dc92-5c1c-85e9-b0c98004f775",
+      "name": "dry white wine",
+      "normalized_name": "dry white wine",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "b14b9205-6921-5bfa-92bd-1e2387c5ba16",
+      "name": "torn beet greens",
+      "normalized_name": "torn beet greens",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    },
+    {
+      "id": "31402e35-ea9c-5285-99be-824b7bdeb22e",
+      "slug": "greens",
+      "name": "Greens"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "b0566d01-38e6-5699-8099-79eb4d1538a0",
+      "slug": "beets",
+      "name": "Beets",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "fdaed86a-bbd7-5daf-83aa-ad4f8aa12cfd",
+      "slug": "new-year",
+      "name": "New Year",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/183620/savory-roasted-root-vegetables"
+  },
+  "public": true,
+  "updated_at": 1776898780,
+  "revision": 1
+}

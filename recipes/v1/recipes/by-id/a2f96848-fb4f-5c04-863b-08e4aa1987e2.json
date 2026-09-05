@@ -1,0 +1,238 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a2f96848-fb4f-5c04-863b-08e4aa1987e2",
+  "slug": "gazpacho-a-la-mrs-landesman",
+  "name": "Gazpacho a la Mrs. Landesman",
+  "recipe_type": "soup",
+  "brief_description": "I often find that most gazpacho is a little too acidic or that I only want a couple of spoonfuls. This recipe (which I got from my friend's mother) is AWESOME. It's not too acidic at all and is so wonderfully light and healthy.",
+  "cuisine": "Spanish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In the container of a food processor or blender, combine the garlic, onion, cucumber, bell pepper, tomatoes, olive oil, vinegar, parsley, salt and pepper. Cover and blend to your desired texture. Stir in the tomato sauce and paprika and transfer to a bowl or container. Refrigerate for at least 1 hour to blend the flavors."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 3,
+  "preparation_time_minutes": 45,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a2f96848-fb4f-5c04-863b-08e4aa1987e2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "76 kcal",
+    "carbohydrateContent": "6 g",
+    "fiberContent": "2 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "104 mg",
+    "sugarContent": "4 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "crushed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "coarsely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "ec1c2b5e-cca0-5d55-a629-5ae15ac48fb5",
+      "name": "cucumber",
+      "normalized_name": "cucumber",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "peeled and quartered",
+      "position": 5
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a482b994-5b79-5ece-b9e0-26e002146a29",
+      "name": "distilled white vinegar",
+      "normalized_name": "distilled white vinegar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0262e614-a690-56a0-b77f-d2fc4697b64e",
+      "name": "bunch fresh parsley",
+      "normalized_name": "bunch fresh parsley",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "99bf8c93-2be8-5a29-a6c2-5ae108970c3b",
+      "name": "fluid ounce) can tomato juice",
+      "normalized_name": "fluid ounce can tomato juice",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "c35b4028-c374-5777-a813-14d61361df41",
+      "slug": "gazpacho",
+      "name": "Gazpacho"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ff7e1070-248f-5b5e-b89b-87aaaab12cc6",
+      "slug": "gazpacho-recipes",
+      "name": "Gazpacho Recipes",
+      "color": null
+    },
+    {
+      "id": "810e961d-68a9-508b-b05e-3207ef6601a7",
+      "slug": "cold-soup-recipes",
+      "name": "Cold Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/129220/gazpacho-a-la-mrs-landesman"
+  },
+  "public": true,
+  "updated_at": 1744733633,
+  "revision": 1
+}

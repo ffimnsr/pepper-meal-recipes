@@ -1,0 +1,283 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "90b09333-e808-53ba-8244-7bde986286af",
+  "slug": "simple-turkey-chili",
+  "name": "Simple Turkey Chili",
+  "recipe_type": "soup",
+  "brief_description": "This turkey chili recipe is made with ground turkey, tomatoes, kidney beans, and spices that make it super flavorful. Even better on the second day!",
+  "cuisine": "Tex-Mex",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a large pot over medium heat. Add turkey; cook and stir until evenly browned, 6 to 8 minutes. Stir in onion and cook until softened."
+    },
+    {
+      "position": 3,
+      "text": "Add water; stir in tomatoes, kidney beans, and garlic."
+    },
+    {
+      "position": 4,
+      "text": "Stir in chili powder, paprika, oregano, cayenne pepper, cumin, salt, and pepper."
+    },
+    {
+      "position": 5,
+      "text": "Bring to a boil. Reduce heat to low and simmer, covered, until flavors blend and chili thickens slightly, about 30 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/90b09333-e808-53ba-8244-7bde986286af/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/mP4xNroO-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "185 kcal",
+    "carbohydrateContent": "19 g",
+    "cholesterolContent": "42 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "450 mg",
+    "sugarContent": "1 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2ab27880-5f02-56cd-a31a-aab351e1ec65",
+      "name": "ground turkey",
+      "normalized_name": "ground turkey",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5d9b577a-5f84-5056-b8f6-9a7e37ccba97",
+      "name": "ounce) can canned crushed tomatoes",
+      "normalized_name": "ounce can canned crushed tomatoes",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7eebe139-daba-5497-bce9-7c65e900c266",
+      "name": "ounce) can canned kidney beans - drained",
+      "normalized_name": "ounce can canned kidney beans - drained",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": "rinsed, and mashed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "minced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "03a89e37-58b7-506c-b5ea-448d038b67e6",
+      "name": "ground cayenne pepper",
+      "normalized_name": "ground cayenne pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "2233d10f-275a-5e5c-a3df-d9ba7047b8ee",
+      "slug": "chili",
+      "name": "Chili"
+    },
+    {
+      "id": "bc1c5c6b-0234-558f-a7d5-86ef419bc8be",
+      "slug": "turkey-chili",
+      "name": "Turkey Chili"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "40044905-5641-52ce-8e18-26e3afdeb43f",
+      "slug": "occasions",
+      "name": "Occasions",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "3a5da0b6-9dfb-5d3f-a47c-b6c3c42d4010",
+      "slug": "chili-recipes",
+      "name": "Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/80969/simple-turkey-chili"
+  },
+  "public": true,
+  "updated_at": 1773246216,
+  "revision": 1
+}

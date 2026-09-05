@@ -1,0 +1,219 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d7ea9fa0-264c-5546-8a45-12f674ce33af",
+  "slug": "poor-mans-cake-iii",
+  "name": "Poor Man's Cake",
+  "recipe_type": "dessert",
+  "brief_description": "This Poor Man's Cake is a family recipe that has been passed down since the 1930s. No mixer needed, use just one bowl to make this cake with no eggs.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Grease and flour a 9x13-inch pan."
+    },
+    {
+      "position": 2,
+      "text": "Mix raisins, water, brown sugar, and shortening in a saucepan. Bring to a boil and boil for 3 minutes. Remove from heat and let cool."
+    },
+    {
+      "position": 3,
+      "text": "Combine flour, cinnamon, baking soda, nutmeg, cloves, and salt in a large bowl. When raisin mixture is cool, add to dry ingredients and mix well to combine."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven for 30 or 40 minutes. Do not overbake or it will be too dry. Test after 30 minutes. A toothpick inserted into the center of the cake should come out clean."
+    }
+  ],
+  "servings": 24,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d7ea9fa0-264c-5546-8a45-12f674ce33af/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "186 kcal",
+    "carbohydrateContent": "31 g",
+    "fiberContent": "1 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "206 mg",
+    "sugarContent": "16 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a0f17d09-d637-50b5-b4ff-d4c19e25ec2e",
+      "name": "raisins",
+      "normalized_name": "raisins",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4318d726-c4c1-57d3-ad3e-5e83a3428d49",
+      "name": "packed brown sugar",
+      "normalized_name": "packed brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "19474987-99ea-5312-af22-52e1aa7953a4",
+      "name": "shortening",
+      "normalized_name": "shortening",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "3a08fd59-870f-5cb5-97dc-304b1ce57e08",
+      "name": "ground cloves",
+      "normalized_name": "ground cloves",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "8e6135f2-70c2-504e-b820-739c60d8d719",
+      "slug": "cakes",
+      "name": "Cakes"
+    },
+    {
+      "id": "ebb7f1bd-7b87-5c01-9821-eb6a70d639eb",
+      "slug": "fruitcake",
+      "name": "Fruitcake"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2624b2ea-2212-589e-996c-65db8e6fc023",
+      "slug": "cakes",
+      "name": "Cakes",
+      "color": null
+    },
+    {
+      "id": "cabcfcfb-aa6d-510f-9597-ad6addb7e82a",
+      "slug": "baking",
+      "name": "Baking",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "1d3071fb-3b3d-56b9-a1e3-0e4530e4a84d",
+      "slug": "fruitcake-recipes",
+      "name": "Fruitcake Recipes",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "b752f992-5968-5ce7-a698-ce0ec3ad2834",
+      "slug": "dairy-free",
+      "name": "Dairy-Free",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8289/poor-mans-cake-iii"
+  },
+  "public": true,
+  "updated_at": 1778688664,
+  "revision": 1
+}

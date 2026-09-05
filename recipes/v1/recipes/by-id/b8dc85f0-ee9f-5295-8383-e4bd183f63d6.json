@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b8dc85f0-ee9f-5295-8383-e4bd183f63d6",
+  "slug": "mango-chipotle-guacamole",
+  "name": "Mango Chipotle Guacamole",
+  "recipe_type": "appetizer",
+  "brief_description": "With a smoky twist on traditional guacamole, this dip gets a kick from chipotle powder and sweet notes from mango. It's excellent with chips or paired with carne asada or carnitas.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mash avocados in a small bowl, leaving chunks if desired. Mix in mango, garlic, cilantro, lime juice, chipotle powder and salt. Serve immediately."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b8dc85f0-ee9f-5295-8383-e4bd183f63d6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "196 kcal",
+    "carbohydrateContent": "18 g",
+    "fiberContent": "8 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "47 mg",
+    "sugarContent": "8 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "86d91c65-7cfc-5a21-8fde-a408c6039d8d",
+      "name": "ripe avocados from mexico",
+      "normalized_name": "ripe avocados from mexico",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and pitted",
+      "position": 1
+    },
+    {
+      "ingredient_id": "8e09628c-5b2a-59aa-819e-8eb6ad5233cf",
+      "name": "mango",
+      "normalized_name": "mango",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled, pitted and diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "1e28a733-6036-5f23-997f-7a258dcc98fd",
+      "name": "small clove garlic",
+      "normalized_name": "small clove garlic",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "c97d0c58-c379-52d5-8ef2-0d65ed5ad62c",
+      "name": "chopped fresh cilantro leaves",
+      "normalized_name": "chopped fresh cilantro leaves",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "59ad6408-a9e8-5f6c-aa7a-e073cf4e0a9c",
+      "name": "lime juice",
+      "normalized_name": "lime juice",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7eb8b081-4368-5090-af26-19f660dd8418",
+      "name": "ground dried chipotle pepper",
+      "normalized_name": "ground dried chipotle pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    }
+  ],
+  "tags": [
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "53c996bd-5d2f-5547-a7d8-0ab52d34378e",
+      "slug": "mangos",
+      "name": "Mangos",
+      "color": null
+    },
+    {
+      "id": "a3b43786-1971-57fd-b78f-c1e8ac2a8f46",
+      "slug": "trusted-brands-recipes-and-tips",
+      "name": "Trusted Brands: Recipes and Tips",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "f8ef87d6-0290-59c2-8196-4971f34fe7e6",
+      "slug": "dips-and-spreads-recipes",
+      "name": "Dips and Spreads Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237856/mango-chipotle-guacamole"
+  },
+  "public": true,
+  "updated_at": 1644609395,
+  "revision": 1
+}

@@ -1,0 +1,236 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1d070f10-699b-54bb-a0f8-11e92edcc5ee",
+  "slug": "tiramisu-chocolate-mousse",
+  "name": "Tiramisu Chocolate Mousse",
+  "recipe_type": "dessert",
+  "brief_description": "This decadent mousse features dark chocolate, espresso, and mascarpone cheese.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine espresso and butter in the top of a double boiler over simmering water."
+    },
+    {
+      "position": 2,
+      "text": "Place dark chocolate pieces in the espresso mixture; cook without stirring until chocolate starts to melt, about 3 minutes. Whisk chocolate and espresso mixture until well combined. Remove from heat and set aside."
+    },
+    {
+      "position": 3,
+      "text": "Combine Marsala, egg yolks, and sugar in a saucepan over medium-low heat, whisking constantly until frothy and thickened, 3 to 5 minutes. Remove from heat."
+    },
+    {
+      "position": 4,
+      "text": "Stir mascarpone cheese into marsala mixture."
+    },
+    {
+      "position": 5,
+      "text": "Combine chocolate mixture with mascarpone mixture. Cool to room temperature."
+    },
+    {
+      "position": 6,
+      "text": "Whip heavy cream in a bowl until soft peaks form, 2 to 3 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Fold half of whipped cream into cooled chocolate mixture."
+    },
+    {
+      "position": 8,
+      "text": "Fold second half of whipped cream into chocolate mixture. Cover with plastic wrap and chill in refrigerator for at least 2 hours."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1d070f10-699b-54bb-a0f8-11e92edcc5ee/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/71w8AJoz-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "381 kcal",
+    "carbohydrateContent": "23 g",
+    "cholesterolContent": "180 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "18 g",
+    "sodiumContent": "33 mg",
+    "sugarContent": "5 g",
+    "fatContent": "31 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "9c60b4d6-75ee-5d7a-8393-ae3e3196400f",
+      "name": "brewed espresso",
+      "normalized_name": "brewed espresso",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b569dba6-428a-5b06-a1af-d55818be2724",
+      "name": "dark chocolate",
+      "normalized_name": "dark chocolate",
+      "quantity": "3.5",
+      "unit": "ounces",
+      "preparation": "broken into small pieces",
+      "position": 3
+    },
+    {
+      "ingredient_id": "fad7c86d-7c6b-535c-9bb3-95fd22c9438c",
+      "name": "marsala wine or rum",
+      "normalized_name": "marsala wine or rum",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a30d2790-8959-5f92-90c9-d9b63bfe2517",
+      "name": "egg yolks",
+      "normalized_name": "egg yolks",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0bf48ff0-9dd3-5e94-bcde-cf03ed86f8aa",
+      "name": "mascarpone cheese",
+      "normalized_name": "mascarpone cheese",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "600f08a7-1feb-558d-bf42-782867acd551",
+      "slug": "mousse",
+      "name": "Mousse"
+    },
+    {
+      "id": "a0d2e292-29e1-5eff-b08a-37a351f76c16",
+      "slug": "chocolate-mousse",
+      "name": "Chocolate Mousse"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c1a998e2-7319-54f1-8ee0-72f1ae94b25f",
+      "slug": "chocolate-mousse-recipes",
+      "name": "Chocolate Mousse Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "41ab1f70-8ad5-50ba-85cc-97bd5a7836be",
+      "slug": "dark-chocolate",
+      "name": "Dark Chocolate",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "82470b2a-8d6a-584b-b3cb-d838319680c7",
+      "slug": "valentine-s-day-desserts",
+      "name": "Valentine's Day Desserts",
+      "color": null
+    },
+    {
+      "id": "64b0fd08-5ae2-5091-93d4-cbb4facf08e5",
+      "slug": "tiramisu-recipes",
+      "name": "Tiramisu Recipes",
+      "color": null
+    },
+    {
+      "id": "90b94f66-8a10-5725-bb66-285ebfd8b5e7",
+      "slug": "mousse-recipes",
+      "name": "Mousse Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "1de601c5-1ddb-51f4-8124-7f0578ddba49",
+      "slug": "school-favorites",
+      "name": "School Favorites",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221264/tiramisu-chocolate-mousse"
+  },
+  "public": true,
+  "updated_at": 1641945721,
+  "revision": 1
+}

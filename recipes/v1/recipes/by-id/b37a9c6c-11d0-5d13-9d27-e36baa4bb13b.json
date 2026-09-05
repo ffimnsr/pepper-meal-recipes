@@ -1,0 +1,233 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b37a9c6c-11d0-5d13-9d27-e36baa4bb13b",
+  "slug": "grilled-chicken-salad-sandwich",
+  "name": "Grilled Chicken Salad Sandwich",
+  "recipe_type": "salad",
+  "brief_description": "This grilled chicken salad is a creamy combo of mayo, leftover grilled chicken, celery, nuts, and cranberries that tastes great in a sandwich or on lettuce.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Whisk 1 cup mayonnaise, pepper, garlic powder, and celery salt together in a small bowl until combined."
+    },
+    {
+      "position": 3,
+      "text": "Combine chicken, celery, cashews, and cranberries in a large bowl; pour mayonnaise mixture over chicken mixture and stir until evenly combined."
+    },
+    {
+      "position": 4,
+      "text": "Spread 1/2 tablespoon mayonnaise on each slice of toasted bread. Divide chicken salad between 4 toast slices; top each with a lettuce leaf and a tomato slice. Complete each sandwich with remaining 4 toast slices."
+    },
+    {
+      "position": 5,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b37a9c6c-11d0-5d13-9d27-e36baa4bb13b/cover.jpg",
+  "video_url": "https://cdn.jwplayer.com/videos/K29ndTOc-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1078 kcal",
+    "carbohydrateContent": "50 g",
+    "cholesterolContent": "131 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "47 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "1048 mg",
+    "sugarContent": "17 g",
+    "fatContent": "77 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f637f15c-1634-5afd-aed7-8979a8ecfc31",
+      "name": "celery salt",
+      "normalized_name": "celery salt",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d7515271-47e8-5f52-a340-a8c5687f537b",
+      "name": "chopped leftover grilled chicken",
+      "normalized_name": "chopped leftover grilled chicken",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d333cc74-558b-560b-9bd4-db783166778b",
+      "name": "celery stalks",
+      "normalized_name": "celery stalks",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "4594961d-116c-5dc1-b9cc-944f4bdbdfd2",
+      "name": "salted cashews",
+      "normalized_name": "salted cashews",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a3d7bad4-3e3e-52a7-8ea6-8b459ee98536",
+      "name": "sweetened dried cranberries",
+      "normalized_name": "sweetened dried cranberries",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d50c95dd-3422-587f-b155-cbfc6d2f9793",
+      "name": "slices bread",
+      "normalized_name": "slices bread",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "toasted",
+      "position": 10
+    },
+    {
+      "ingredient_id": "1e0b1d80-9172-5c80-931a-e99e0aa29f09",
+      "name": "large red leaf lettuce leaves",
+      "normalized_name": "large red leaf lettuce leaves",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "ddc58987-debc-5ad9-88d9-130cf900dbcf",
+      "name": "ripe tomato",
+      "normalized_name": "ripe tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "0c4351c3-a3e2-5491-9427-591469b533f8",
+      "slug": "chicken-salad-recipes",
+      "name": "Chicken Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/143587/grilled-chicken-salad-sandwich"
+  },
+  "public": true,
+  "updated_at": 1785940134,
+  "revision": 1
+}

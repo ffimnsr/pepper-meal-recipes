@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5e375582-112d-5cc8-a47f-0cd6d23e1f4e",
+  "slug": "atta-whole-wheat-halwa",
+  "name": "Atta (Whole Wheat) Halwa",
+  "recipe_type": "dessert",
+  "brief_description": "The inspiration for this halwa is the classic Sikh preparation called 'karha prashad.' This halwa has the addition of cardamom, raisins, and nuts.",
+  "cuisine": "Indian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt the ghee in a heavy-bottomed skillet over medium heat; cook the cashews and raisins in the melted ghee until the raisins plump and the cashews are lightly browned, about 5 minutes. Remove the cashews and raisins from the pan with a slotted spoon and set aside. Add the flour to the pan and roast till brown and nutty, about 10 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, bring the water and sugar to a boil in a saucepan until the sugar dissolves to make a clear syrup. Stir the cardamom into the syrup; slowly pour over the roasted flour, stirring as you pour to avoid lumps. Continue cooking until the halwa pulls away from the sides of the pan, about 5 minutes more. Transfer to a serving dish and spread into an even layer; sprinkle the cashews and raisins over the halwa to serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5e375582-112d-5cc8-a47f-0cd6d23e1f4e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "300 kcal",
+    "carbohydrateContent": "41 g",
+    "cholesterolContent": "33 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "32 mg",
+    "sugarContent": "28 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bf6e8273-10c1-55aa-ba1f-51c4f5eb97ff",
+      "name": "ghee (clarified butter)",
+      "normalized_name": "ghee",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "91f11ad2-e0fc-5c67-b646-c4c4a4c9e006",
+      "name": "cashews",
+      "normalized_name": "cashews",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a0f17d09-d637-50b5-b4ff-d4c19e25ec2e",
+      "name": "raisins",
+      "normalized_name": "raisins",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b5404ae1-14cb-5d02-8b60-2836ddf2795c",
+      "name": "whole wheat flour",
+      "normalized_name": "whole wheat flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ea2ad59d-a51b-5a0c-830b-c0053dc651ba",
+      "name": "ground cardamom",
+      "normalized_name": "ground cardamom",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "e497f6d9-26fc-5ee8-be38-aff4dcba9d79",
+      "slug": "indian",
+      "name": "Indian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eecd2c00-de61-530a-bc32-cb01ad53bd59",
+      "slug": "indian",
+      "name": "Indian",
+      "color": null
+    },
+    {
+      "id": "d46fe219-c55f-552e-a716-1541a8e8e2fd",
+      "slug": "raisins",
+      "name": "Raisins",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "6e9bc079-ab22-5296-b01a-351ef64551ef",
+      "slug": "flour-recipes",
+      "name": "Flour Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "ea461ddc-604f-503b-af15-38dcda169546",
+      "slug": "ghee-recipes",
+      "name": "Ghee Recipes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/210475/atta-whole-wheat-halwa"
+  },
+  "public": true,
+  "updated_at": 1635548496,
+  "revision": 1
+}

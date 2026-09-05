@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "06e6ae05-b47b-58c8-8372-348bc95b5128",
+  "slug": "easy-naan",
+  "name": "Easy Naan",
+  "recipe_type": "main",
+  "brief_description": "This naan recipe is deceptively easy to make, and baked under the broiler. You can spice it up by adding garlic, or leave it plain.",
+  "cuisine": "Indian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine water, yeast, and sugar in a large bowl. Let stand until bubbly and frothy, about 10 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir in milk, egg, salt, and enough flour to make a soft dough. Knead dough on a lightly floured surface until smooth, 6 to 8 minutes. Place dough into a well oiled bowl, cover with a damp cloth, and set aside to rise until the dough has doubled in volume, about 1 hour."
+    },
+    {
+      "position": 3,
+      "text": "Punch down dough and knead well. For garlic naan, knead in garlic at this point."
+    },
+    {
+      "position": 4,
+      "text": "Pinch off small handfuls of dough about the size of golf balls. Roll into balls, cover with a clean cloth, and allow to rise until doubled in size, about 30 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Set an oven rack about 6 inches from the heat source and preheat the oven's broiler."
+    },
+    {
+      "position": 6,
+      "text": "Roll out 2 balls of dough into elongated ovals. Place on an ungreased baking sheet and cook under the broiler until lightly browned, about 2 minutes. Brush butter on both sides and flip. Continue broiling until the second side is firm and golden, 2 minutes more. Repeat with remaining dough."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/06e6ae05-b47b-58c8-8372-348bc95b5128/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "252 kcal",
+    "carbohydrateContent": "43 g",
+    "cholesterolContent": "26 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "424 mg",
+    "sugarContent": "3 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6f263d59-167c-56cd-ba3d-98ea6705b7ca",
+      "name": "warm water",
+      "normalized_name": "warm water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "90e4310a-3b88-5215-80b6-7b397599981a",
+      "name": "active dry yeast",
+      "normalized_name": "active dry yeast",
+      "quantity": "2.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or more to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "or to taste",
+      "position": 6
+    },
+    {
+      "ingredient_id": "a049e3aa-d031-5e83-8072-1b7e4578a7da",
+      "name": "bread flour",
+      "normalized_name": "bread flour",
+      "quantity": "5.5",
+      "unit": "cups",
+      "preparation": "or as needed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "9e004679-7e06-5079-808d-76ab33ec6e18",
+      "slug": "yeast-bread",
+      "name": "Yeast Bread"
+    },
+    {
+      "id": "f30897fe-fdea-53fb-b42d-963cfcdb1140",
+      "slug": "flat-bread",
+      "name": "Flat Bread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "80790b70-3c68-548e-9974-5e6dac61911c",
+      "slug": "flat-bread-recipes",
+      "name": "Flat Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "eecd2c00-de61-530a-bc32-cb01ad53bd59",
+      "slug": "indian",
+      "name": "Indian",
+      "color": null
+    },
+    {
+      "id": "e81b13ec-9a0b-55c6-acb2-07f45c001cb6",
+      "slug": "yeast-bread-recipes",
+      "name": "Yeast Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "a00e8f38-1976-5fcc-afc1-90bb835175c0",
+      "slug": "holiday-planning",
+      "name": "Holiday Planning",
+      "color": null
+    },
+    {
+      "id": "020989a6-4402-56c7-b113-c9a633af7c9a",
+      "slug": "diwali",
+      "name": "Diwali",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279560/easy-naan"
+  },
+  "public": true,
+  "updated_at": 1635551779,
+  "revision": 1
+}

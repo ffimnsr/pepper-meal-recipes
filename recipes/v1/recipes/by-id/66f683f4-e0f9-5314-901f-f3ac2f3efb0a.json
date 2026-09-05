@@ -1,0 +1,201 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "66f683f4-e0f9-5314-901f-f3ac2f3efb0a",
+  "slug": "avocado-egg-salad",
+  "name": "Avocado Egg Salad",
+  "recipe_type": "salad",
+  "brief_description": "This avocado egg salad made with hard boiled eggs, creamy avocado, red onion, pickles, and mustard is a tasty twist on the classic egg salad.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Mash hard-boiled eggs lightly in a bowl with a fork."
+    },
+    {
+      "position": 3,
+      "text": "Add avocado, red onion, mayonnaise, pickles, and mustard. Gently mash together until just blended; season to taste with salt and black pepper."
+    },
+    {
+      "position": 4,
+      "text": "Store in the refrigerator until ready to serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/66f683f4-e0f9-5314-901f-f3ac2f3efb0a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "284 kcal",
+    "carbohydrateContent": "9 g",
+    "cholesterolContent": "217 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "189 mg",
+    "sugarContent": "3 g",
+    "fatContent": "25 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8ce3ff60-0c25-59d7-8e4f-3aec3a47f7a5",
+      "name": "hard-boiled eggs",
+      "normalized_name": "hard-boiled eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "peeled",
+      "position": 1
+    },
+    {
+      "ingredient_id": "2ebaa5f7-9804-59a8-831a-e09a155c527f",
+      "name": "avocados - peeled",
+      "normalized_name": "avocados - peeled",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "pitted, and cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "6d15bb48-816f-598a-ad4d-a0ae0ef981dd",
+      "name": "minced red onion",
+      "normalized_name": "minced red onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3749987e-414d-503a-a879-436b88aad87b",
+      "name": "chopped sweet pickles",
+      "normalized_name": "chopped sweet pickles",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "83fc2e11-02d7-559d-87f0-bc031626509c",
+      "slug": "egg-salad",
+      "name": "Egg Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "df9608cf-b97f-5ae1-aed7-985fe5ee2355",
+      "slug": "egg-salad-recipes",
+      "name": "Egg Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "c4de14bd-4f3c-5c41-b153-7dcc8f39bb79",
+      "slug": "avocado-salad-recipes",
+      "name": "Avocado Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "2d0499eb-7cfb-5f78-a576-ba2461f08fe0",
+      "slug": "campus-cooking-recipes",
+      "name": "Campus Cooking Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/170446/avocado-egg-salad"
+  },
+  "public": true,
+  "updated_at": 1773916064,
+  "revision": 1
+}

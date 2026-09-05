@@ -1,0 +1,238 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2bccc93f-dabc-5b8f-95e4-277170d24bc6",
+  "slug": "chile-rellenos",
+  "name": "Chiles Rellenos",
+  "recipe_type": "main",
+  "brief_description": "Delicious chiles rellenos are stuffed with Cheddar cheese, dipped in a simple batter, then fried in canola oil until crispy and golden brown.",
+  "cuisine": "Mexican Inspired Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Remove seeds and membranes from chile peppers. Stuff each pepper with a strip of Cheddar."
+    },
+    {
+      "position": 2,
+      "text": "Mix milk, 1 cup flour, egg, baking powder, baking soda, salt, and 1 teaspoon canola oil together in a small bowl until well combined. Place remaining 1/2 cup flour on a shallow plate."
+    },
+    {
+      "position": 3,
+      "text": "Pour 1 inch oil into a heavy frying pan. Heat over medium-high heat."
+    },
+    {
+      "position": 4,
+      "text": "Roll each pepper in flour, then dip in batter. Fry in batches until lightly browned on both sides."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2bccc93f-dabc-5b8f-95e4-277170d24bc6/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/l03zrXj7-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "741 kcal",
+    "carbohydrateContent": "52 g",
+    "cholesterolContent": "171 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "39 g",
+    "saturatedFatContent": "25 g",
+    "sodiumContent": "1746 mg",
+    "sugarContent": "11 g",
+    "fatContent": "42 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d0b2de97-4276-5ae1-b054-003abb6809c6",
+      "name": "anaheim chile peppers",
+      "normalized_name": "anaheim chile peppers",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": "charred and peeled",
+      "position": 1
+    },
+    {
+      "ingredient_id": "65e874a3-0c6e-5d24-a019-ceb2f2f4c3cc",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into strips",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 5
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "03174c98-4286-5a20-ae8a-229f93f11569",
+      "name": "canola oil",
+      "normalized_name": "canola oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "70d626a0-2690-5386-89b4-07d17bc394e3",
+      "name": "oil for fryin",
+      "normalized_name": "oil for fryin",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    }
+  ],
+  "tags": [
+    {
+      "id": "31de50a7-b7c1-5e06-84b8-07f43c2f1491",
+      "slug": "anaheim",
+      "name": "Anaheim",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "13e595a6-f821-58fd-be2c-e58e2813dba8",
+      "slug": "chile-relleno-recipes",
+      "name": "Chile Relleno Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21148/chile-rellenos"
+  },
+  "public": true,
+  "updated_at": 1776809556,
+  "revision": 1
+}

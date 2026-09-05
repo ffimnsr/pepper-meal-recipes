@@ -1,0 +1,228 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "14df5d13-390a-5f70-901f-95e5408dcef4",
+  "slug": "chicken-honey-nut-stir-fry",
+  "name": "Chicken Honey Nut Stir Fry",
+  "recipe_type": "dessert",
+  "brief_description": "This healthy stir fry features a sweet, spicy citrus sauce over chicken, carrots and celery and a garnish of cashews.",
+  "cuisine": "Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat 1 teaspoon of the oil in a wok over high heat. Add the carrots and celery and stir fry for 3 minutes. Add remaining 1 teaspoon oil, then add the chicken and stir fry for 5 more minutes."
+    },
+    {
+      "position": 2,
+      "text": "In a small bowl, dissolve the cornstarch into the orange juice. Mix in the soy sauce, honey and ginger. Add this sauce to the wok and cook over medium heat until thickened. Top with the cashews and green onions."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/14df5d13-390a-5f70-901f-95e5408dcef4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "235 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "69 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "27 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "529 mg",
+    "sugarContent": "7 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "05ab8e87-ccac-5ef7-a929-cd8ddb59ad48",
+      "name": "peanut oil",
+      "normalized_name": "peanut oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and diagonally sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "boneless chicken breast halves - cut into strips",
+      "position": 4
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5f2347f6-33f3-597d-834e-20653545df33",
+      "name": "orange juice",
+      "normalized_name": "orange juice",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "092c58e1-2d7b-5b6b-846c-fba6f16a29fb",
+      "name": "light soy sauce",
+      "normalized_name": "light soy sauce",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "43c98d7b-cee3-51c0-b588-895591d1b1a1",
+      "name": "minced fresh ginger root",
+      "normalized_name": "minced fresh ginger root",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "91f11ad2-e0fc-5c67-b646-c4c4a4c9e006",
+      "name": "cashews",
+      "normalized_name": "cashews",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "c06dd3e7-b440-56ff-a2d5-9de60f6d1a5e",
+      "name": "minced green onions",
+      "normalized_name": "minced green onions",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "07ba43a2-beca-5b6f-80a3-cca209ede6c8",
+      "slug": "stir-fry",
+      "name": "Stir-Fry",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "9a578210-cad0-5e96-b126-9f653a6a83f6",
+      "slug": "kosher",
+      "name": "Kosher",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15646/chicken-honey-nut-stir-fry"
+  },
+  "public": true,
+  "updated_at": 1661194104,
+  "revision": 1
+}

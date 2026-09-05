@@ -1,0 +1,219 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "32ca4b54-d1f3-5094-b480-7fce2bb5c1ba",
+  "slug": "baked-cranberry-oatmeal",
+  "name": "Baked Cranberry Oatmeal",
+  "recipe_type": "breakfast",
+  "brief_description": "Baked oatmeal with apples, walnuts, and dried cranberries is a nice way to spice up plain oatmeal made on the stovetop.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Grease an 8x8-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Bring milk, brown sugar, cinnamon, nutmeg, and cloves to a boil in a saucepan; remove from heat. Combine oats, apples, dried cranberries, and walnuts in a bowl; transfer to the prepared baking dish. Pour milk mixture over oat mixture."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until lightly browned, 30 to 35 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/32ca4b54-d1f3-5094-b480-7fce2bb5c1ba/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "252 kcal",
+    "carbohydrateContent": "38 g",
+    "cholesterolContent": "7 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "42 mg",
+    "sugarContent": "24 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3a08fd59-870f-5cb5-97dc-304b1ce57e08",
+      "name": "ground cloves",
+      "normalized_name": "ground cloves",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4f28533b-45b7-5cce-8ccb-8a0f71f11c06",
+      "name": "rolled oats",
+      "normalized_name": "rolled oats",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3ee89361-a576-5e30-a6fd-6021df3919fc",
+      "name": "chopped apples",
+      "normalized_name": "chopped apples",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3aac79cd-69ec-521d-bf79-2578b95c386c",
+      "name": "dried cranberries",
+      "normalized_name": "dried cranberries",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e8e75e6e-b180-5d39-a832-2134749a2e0d",
+      "name": "chopped walnuts",
+      "normalized_name": "chopped walnuts",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": "or as desired",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "9ec40b2a-b71d-5383-b106-ec69d067e34e",
+      "slug": "cereals",
+      "name": "Cereals"
+    },
+    {
+      "id": "2bc6bdc3-0797-52d0-adef-3ce8a112c8b9",
+      "slug": "oatmeal",
+      "name": "Oatmeal"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6776c038-23ed-5fb6-929e-fbe166455d68",
+      "slug": "oatmeal-recipes",
+      "name": "Oatmeal Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "fe7ed170-1df4-5541-837c-5575aceff5b6",
+      "slug": "cereals",
+      "name": "Cereals",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "4fe5fe2f-c3bd-5b9f-80cc-96bc9aaf2251",
+      "slug": "oat-recipes",
+      "name": "Oat Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "bb561413-f49c-5029-956b-c7037608823d",
+      "slug": "berries",
+      "name": "Berries",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244175/baked-cranberry-oatmeal"
+  },
+  "public": true,
+  "updated_at": 1779901818,
+  "revision": 1
+}

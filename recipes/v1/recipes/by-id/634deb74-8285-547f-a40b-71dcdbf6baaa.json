@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "634deb74-8285-547f-a40b-71dcdbf6baaa",
+  "slug": "shrimp-gumbo",
+  "name": "Shrimp Gumbo",
+  "recipe_type": "soup",
+  "brief_description": "Hearty and delicious, this shrimp gumbo has quite the kick, but if you don't like spices, it's easy to alter by omitting the jalapeno peppers and using a mild sausage.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a large stockpot over medium-high heat. Add onion, bell pepper, and jalapeno and saute until tender, about 5 minutes. Stir in garlic and cook until fragrant, about 1 minute."
+    },
+    {
+      "position": 2,
+      "text": "Drain liquid from tomatoes into the stockpot. Place tomatoes on a cutting board, dice, and add to the pot. Add chicken broth, rice mix, and seasoning packet, cover, and bring to a boil. Reduce heat and simmer until rice is tender, about 25 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add sliced sausage and simmer for 5 minutes. Stir in shrimp, and cook until they are bright pink on the outside and the meat is opaque, about 3 minutes more."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/634deb74-8285-547f-a40b-71dcdbf6baaa/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "431 kcal",
+    "carbohydrateContent": "35 g",
+    "cholesterolContent": "162 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "1842 mg",
+    "sugarContent": "8 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "a4182eae-598b-5104-9ee4-e5ab15d9725f",
+      "name": "jalapeno pepper",
+      "normalized_name": "jalapeno pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and chopped, or more to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "23f090f6-3cc6-5ba3-b1d7-71d2167e6b8d",
+      "name": "ounce) cans mexican-style stewed tomatoes",
+      "normalized_name": "ounce cans mexican-style stewed tomatoes",
+      "quantity": "2 (14.5",
+      "unit": "pieces",
+      "preparation": "undrained",
+      "position": 6
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "2.3333332538605",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "344e4b21-67c3-5be1-a48c-2410dda5e6d0",
+      "name": "ounce) package uncooked long grain and wild rice mix",
+      "normalized_name": "ounce package uncooked long grain and wild rice mix",
+      "quantity": "1 (6",
+      "unit": "pieces",
+      "preparation": "with seasoning packet",
+      "position": 8
+    },
+    {
+      "ingredient_id": "d4301a3d-cf0a-5f7c-b073-f8bbd26b1d7c",
+      "name": "ounce) package fully cooked hot italian sausage",
+      "normalized_name": "ounce package fully cooked hot italian sausage",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "cut into 1/4-inch thick slices",
+      "position": 9
+    },
+    {
+      "ingredient_id": "89ac7ba5-f8fd-5803-adcc-c1d57ad3cab0",
+      "name": "raw small shrimp",
+      "normalized_name": "raw small shrimp",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "shelled and deveined",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "e5e597b7-47c6-521b-8236-c975ee5d23bd",
+      "slug": "gumbo",
+      "name": "Gumbo"
+    }
+  ],
+  "tags": [
+    {
+      "id": "30c92a5a-605c-5de3-878c-31d07bec16b4",
+      "slug": "gumbo-recipes",
+      "name": "Gumbo Recipes",
+      "color": null
+    },
+    {
+      "id": "d4ef8f15-0a58-50dd-a7a7-70f0c094eb34",
+      "slug": "whole-grains",
+      "name": "Whole Grains",
+      "color": null
+    },
+    {
+      "id": "8ca8d5c2-4970-503c-8e85-ee0b4721ce6f",
+      "slug": "wild-rice",
+      "name": "Wild Rice",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "243b0b54-aa9c-5b58-8b36-d4a730f1e17d",
+      "slug": "southern",
+      "name": "Southern",
+      "color": null
+    },
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277988/shrimp-gumbo"
+  },
+  "public": true,
+  "updated_at": 1579942463,
+  "revision": 1
+}

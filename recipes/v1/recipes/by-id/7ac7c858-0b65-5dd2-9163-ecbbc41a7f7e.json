@@ -1,0 +1,191 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7ac7c858-0b65-5dd2-9163-ecbbc41a7f7e",
+  "slug": "double-ranch-fries",
+  "name": "Double Ranch Fries",
+  "recipe_type": "snack",
+  "brief_description": "These ranch fries are soaked in milk, seasoned, then deep-fried until crisp and golden for a tasty side dish or savory snack your family will love.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Soak prepared potatoes in a bowl with milk."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, heat oil in a deep fryer to 365 degrees F (185 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Combine ranch-style dressing mix and garlic salt on a plate or in a bag."
+    },
+    {
+      "position": 4,
+      "text": "Drain potatoes and roll in seasonings to coat; reserve any excess seasonings."
+    },
+    {
+      "position": 5,
+      "text": "Cook potatoes in hot oil in batches so they are not too crowded. Fry until golden brown, about 5 minutes. Drain on paper towels and sprinkle with leftover seasonings."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7ac7c858-0b65-5dd2-9163-ecbbc41a7f7e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "305 kcal",
+    "carbohydrateContent": "38 g",
+    "cholesterolContent": "3 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "407 mg",
+    "sugarContent": "3 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "69d1b056-2560-5b92-9f90-e747223dcaba",
+      "name": "large potatoes",
+      "normalized_name": "large potatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "scrubbed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "1ecc48f3-9537-539a-baa5-550b0d27d66b",
+      "name": "quart oil for frying",
+      "normalized_name": "quart oil for frying",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "or as needed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "c166917b-f5a5-5e40-b77b-0f6e134132bb",
+      "name": "ounce) package dry ranch-style dressing mix",
+      "normalized_name": "ounce package dry ranch-style dressing mix",
+      "quantity": "1 (1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "290a7383-c4f5-5e89-a4ef-ac32f5e86d14",
+      "name": "garlic salt",
+      "normalized_name": "garlic salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "daa92f2e-5e27-5412-8c1b-714212d09d18",
+      "slug": "fries",
+      "name": "Fries"
+    },
+    {
+      "id": "426b3ece-3cb3-5093-b52e-db11535d0816",
+      "slug": "french-fries",
+      "name": "French Fries"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "b1ffa940-71c7-50a4-bbb2-06d8410cbff5",
+      "slug": "french-fries-recipes",
+      "name": "French Fries Recipes",
+      "color": null
+    },
+    {
+      "id": "e455473e-49bf-511c-8377-db59253a8adf",
+      "slug": "fries-recipes",
+      "name": "Fries Recipes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "c2f09869-a010-58cf-bc86-5b930914ce17",
+      "slug": "budget-cooking-recipes",
+      "name": "Budget Cooking Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72893/double-ranch-fries"
+  },
+  "public": true,
+  "updated_at": 1688399223,
+  "revision": 1
+}

@@ -1,0 +1,330 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fb11442a-59b4-572f-80ab-5812a8f0b25c",
+  "slug": "minestrone-soup-ii",
+  "name": "Minestrone Soup II",
+  "recipe_type": "soup",
+  "brief_description": "This is an extra rich and savory minestrone with bacon, ground beef, red wine, and condensed onion soup. Garbanzo beans, spinach, zucchini, carrots, and celery add nutrition and visual appeal.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large stock pot, cook bacon and drain off fat. Add onion, garlic, and beef. When onions are translucent, add celery, carrot, pureed tomatoes, whole tomatoes, broth, condensed soup, water, wine, oregano, basil, salt and pepper. Cook for 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir in zucchini, spinach, pasta, garbanzo beans and parsley. Cook for 15 minutes and serve with fresh Parmesan cheese."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fb11442a-59b4-572f-80ab-5812a8f0b25c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "387 kcal",
+    "carbohydrateContent": "44 g",
+    "cholesterolContent": "34 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "1634 mg",
+    "sugarContent": "13 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "0.33333334326744",
+      "unit": "pound",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9bedc1c9-82d3-506e-866d-cd918497f89f",
+      "name": "minced celery",
+      "normalized_name": "minced celery",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "9318079a-77f3-5e9c-bb8f-da795cf4938f",
+      "name": "cubed carrots",
+      "normalized_name": "cubed carrots",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b127cc3b-f75d-5aa8-a95b-f1d43946233f",
+      "name": "tomato puree",
+      "normalized_name": "tomato puree",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2e0416e9-7e5f-5a6a-bb37-6c07b5c62035",
+      "name": "ounce) cans stewed tomatoes",
+      "normalized_name": "ounce cans stewed tomatoes",
+      "quantity": "2 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "31a3b1dd-6265-562a-aa91-a8d80fbb12ab",
+      "name": "ounce) can beef broth",
+      "normalized_name": "ounce can beef broth",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "8497b61f-f902-57d4-9762-c6087b60fc91",
+      "name": "ounce) can condensed french onion soup",
+      "normalized_name": "ounce can condensed french onion soup",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "54a4ec0e-2006-572c-a5ee-ed8328a3dd64",
+      "name": "red wine",
+      "normalized_name": "red wine",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "926af8a3-1f4f-5d54-b16f-43f37953b512",
+      "name": "dried basil",
+      "normalized_name": "dried basil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "6226f57f-9945-5b58-a453-05370ad68303",
+      "name": "chopped zucchini",
+      "normalized_name": "chopped zucchini",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "7c7db2bc-1c06-5ae8-b8c9-5913fd0fc65c",
+      "name": "spinach",
+      "normalized_name": "spinach",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "rinsed and sliced",
+      "position": 17
+    },
+    {
+      "ingredient_id": "c1dfce8e-eb5f-5a32-bcae-96fbd596d054",
+      "name": "uncooked spinach pasta",
+      "normalized_name": "uncooked spinach pasta",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 18
+    },
+    {
+      "ingredient_id": "b0d6e9eb-5e4c-5043-a7b0-239a64af30ea",
+      "name": "ounce) can garbanzo beans",
+      "normalized_name": "ounce can garbanzo beans",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 19
+    },
+    {
+      "ingredient_id": "db282765-0020-5cdc-ac46-b19e817b970b",
+      "name": "chopped parsley",
+      "normalized_name": "chopped parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 20
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "735a9e8e-adcb-5012-8a67-19a8d5bdf5e2",
+      "slug": "minestrone",
+      "name": "Minestrone"
+    }
+  ],
+  "tags": [
+    {
+      "id": "781e9dda-ec68-58bd-8466-fa2cd5883626",
+      "slug": "minestrone",
+      "name": "Minestrone",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13339/minestrone-soup-ii"
+  },
+  "public": true,
+  "updated_at": 1738173395,
+  "revision": 1
+}

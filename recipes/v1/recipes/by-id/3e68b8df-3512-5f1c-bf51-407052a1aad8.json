@@ -1,0 +1,201 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3e68b8df-3512-5f1c-bf51-407052a1aad8",
+  "slug": "cajun-potato-wedges",
+  "name": "Cajun Potato Wedges",
+  "recipe_type": "appetizer",
+  "brief_description": "Seasoned potato wedges are baked in the oven instead of deep fried. A fun alternative to french fries.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 425 degrees F (220 degrees C). Grease a baking sheet."
+    },
+    {
+      "position": 2,
+      "text": "Cut each potato into 12 wedges; place in a large bowl. Toss potatoes with olive oil, garlic, salt, pepper, onion powder, and paprika. Arrange in a single layer on prepared baking sheet."
+    },
+    {
+      "position": 3,
+      "text": "Bake in preheated oven for 20 minutes. Turn potatoes over and continue baking until golden and crisp, 25 to 30 minutes longer."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3e68b8df-3512-5f1c-bf51-407052a1aad8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "258 kcal",
+    "carbohydrateContent": "38 g",
+    "fiberContent": "5 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "159 mg",
+    "sugarContent": "2 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5b0aca31-03d7-5d3e-9c43-2255e02c3238",
+      "name": "baking potatoes",
+      "normalized_name": "baking potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "846e663f-495e-5e95-89ae-ffd45e24caeb",
+      "name": "minced fresh garlic",
+      "normalized_name": "minced fresh garlic",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    }
+  ],
+  "tags": [
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "e455473e-49bf-511c-8377-db59253a8adf",
+      "slug": "fries-recipes",
+      "name": "Fries Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "5021ac57-f66e-5b49-9f36-27c68704abb5",
+      "slug": "baked-french-fries",
+      "name": "Baked French Fries",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "b1ffa940-71c7-50a4-bbb2-06d8410cbff5",
+      "slug": "french-fries-recipes",
+      "name": "French Fries Recipes",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/223408/cajun-potato-wedges"
+  },
+  "public": true,
+  "updated_at": 1781624094,
+  "revision": 1
+}

@@ -1,0 +1,256 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4ef65d0b-88ff-5793-a30c-4c87581b6f00",
+  "slug": "always-delicious-cherry-pie",
+  "name": "Always Delicious Cherry Pie",
+  "recipe_type": "dessert",
+  "brief_description": "A large pie made with both sweet and sour cherries. Incredibly yummy with vanilla ice cream!",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 425 degrees F (220 degrees C). On a lightly floured surface, roll out one crust, and place in a 9 inch deep dish pie plate. Roll out top crust, and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Measure 1 1/2 cups reserved cherry syrup into a small saucepan over low heat. Mix together sugar, arrowroot powder, cinnamon, and salt. Stir into syrup until dissolved. Increase heat to high, and bring syrup to a boil. Cook for 1 to 2 minutes, or until thickened. Remove from heat, and stir in butter, lemon juice, vanilla, almond extract, and red food coloring."
+    },
+    {
+      "position": 3,
+      "text": "In a large bowl, combine cherries and thickened syrup. Gently toss until evenly coated. Pour filling into pie crust. Cover with top crust, and crimp edges with fork. Make a few fork vents in top pie crust to allow steam to escape during baking."
+    },
+    {
+      "position": 4,
+      "text": "Bake in preheated oven for 20 minutes, then reduce heat to 375 degrees F (190 degrees C). Continue to bake for 30 minutes. Allow to cool for 3 hours before serving."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4ef65d0b-88ff-5793-a30c-4c87581b6f00/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "474 kcal",
+    "carbohydrateContent": "79 g",
+    "cholesterolContent": "4 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "344 mg",
+    "sugarContent": "48 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "141a9703-757e-5f85-b3b5-e264b2097a9f",
+      "name": "deep dish pastry for double crust",
+      "normalized_name": "deep dish pastry for double crust",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "96aa7ca1-aa9d-58bb-ad47-70a6db6e53af",
+      "name": "ounce) cans pitted dark sweet cherries",
+      "normalized_name": "ounce cans pitted dark sweet cherries",
+      "quantity": "2 (16.5",
+      "unit": "pieces",
+      "preparation": "drained with syrup reserved",
+      "position": 2
+    },
+    {
+      "ingredient_id": "5a379efc-4603-59d3-a4c5-82a244bc8376",
+      "name": "ounce) can pitted sour cherries",
+      "normalized_name": "ounce can pitted sour cherries",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 3
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bf61f8f7-2c2c-576a-8589-3c20a8822235",
+      "name": "arrowroot powder",
+      "normalized_name": "arrowroot powder",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "melted",
+      "position": 8
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "34fdd020-793d-59fa-875e-52bc4c4debef",
+      "name": "almond extract",
+      "normalized_name": "almond extract",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "c36fd6ff-e1fa-5dd3-ae3e-649e03e288bf",
+      "name": "red food coloring",
+      "normalized_name": "red food coloring",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "551563fd-2c14-57e0-ac26-f83cd1b0282b",
+      "slug": "pies",
+      "name": "Pies"
+    },
+    {
+      "id": "4e802708-5386-5870-bbde-d0cf54ecc091",
+      "slug": "fruit-pies",
+      "name": "Fruit Pies"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "d01704a4-a8c5-5f38-9a90-7dc34a930062",
+      "slug": "almond-extract-recipes",
+      "name": "Almond Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "e9d933fc-ed03-594d-a7e8-83f0266c7917",
+      "slug": "pies",
+      "name": "Pies",
+      "color": null
+    },
+    {
+      "id": "85d69275-8e59-5747-87b3-7e60d68ef1e9",
+      "slug": "cherry-dessert-recipes",
+      "name": "Cherry Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/47020/always-delicious-cherry-pie"
+  },
+  "public": true,
+  "updated_at": 1657829096,
+  "revision": 1
+}

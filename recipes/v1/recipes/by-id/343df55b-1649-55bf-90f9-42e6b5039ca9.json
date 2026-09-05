@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "343df55b-1649-55bf-90f9-42e6b5039ca9",
+  "slug": "blueberry-s-pie",
+  "name": "Blueberry 'S' Pie",
+  "recipe_type": "dessert",
+  "brief_description": "A quick oat streusel sandwiches a filling of sweet blueberries in this easy dessert.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "In a medium bowl, cream together the butter and brown sugar. Stir in flour, salt and oats. Mix until well combined."
+    },
+    {
+      "position": 3,
+      "text": "Pat 2/3 of the mixture into an ungreased 9-inch pie pan to form the bottom crust. Spread blueberries evenly into crust. Pat the remaining oat mixture onto top of blueberries."
+    },
+    {
+      "position": 4,
+      "text": "Bake in preheated oven until topping is golden brown and filling is bubbly, 40 to 50 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/343df55b-1649-55bf-90f9-42e6b5039ca9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "469 kcal",
+    "carbohydrateContent": "61 g",
+    "cholesterolContent": "61 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "15 g",
+    "sodiumContent": "319 mg",
+    "sugarContent": "38 g",
+    "fatContent": "24 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "e46041fc-9c4a-585a-99d3-941cd4c1bfa2",
+      "name": "quick cooking oats",
+      "normalized_name": "quick cooking oats",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "9d0563bb-edd1-5ba3-915c-42aadd1c1c79",
+      "name": "ounce) can sweetened blueberries",
+      "normalized_name": "ounce can sweetened blueberries",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "6aec5b4e-5dad-5a47-b4a6-2ce607cc6a3b",
+      "slug": "crisps-and-crumble",
+      "name": "Crisps and Crumble"
+    },
+    {
+      "id": "af08b6ee-3573-5bfa-9bf7-08780fc4f9bb",
+      "slug": "blueberry-crisps-and-crumbles",
+      "name": "Blueberry Crisps and Crumbles"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5b7a7322-fd2a-531b-bfa2-5c7dad637941",
+      "slug": "blueberry-crisps-and-crumbles-recipes",
+      "name": "Blueberry Crisps and Crumbles Recipes",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "c6f90ac9-f4db-5013-8421-b6bc16d4e922",
+      "slug": "crisps-and-crumble-recipes",
+      "name": "Crisps and Crumble Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "efdf4003-25b0-5a9c-8f16-7e9c7e4a2234",
+      "slug": "blueberries",
+      "name": "Blueberries",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "e9d933fc-ed03-594d-a7e8-83f0266c7917",
+      "slug": "pies",
+      "name": "Pies",
+      "color": null
+    },
+    {
+      "id": "f6657eaf-c48f-5b44-b582-680ffc9ba77c",
+      "slug": "vintage-pie-recipes",
+      "name": "Vintage Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "5b4ec8d9-53b7-505c-b847-5c010b62f4c6",
+      "slug": "blueberry-dessert-recipes",
+      "name": "Blueberry Dessert Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18524/blueberry-s-pie"
+  },
+  "public": true,
+  "updated_at": 1659973153,
+  "revision": 1
+}

@@ -1,0 +1,206 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b130a647-d53c-59fe-9f44-2e21befe0555",
+  "slug": "irish-boxty",
+  "name": "Irish Boxty",
+  "recipe_type": "dessert",
+  "brief_description": "Boxty is a traditional Irish potato pancake made with grated and mashed potatoes; pan-fry until golden and crispy on the outside and fluffy inside.",
+  "cuisine": "Irish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Toss grated potatoes with flour in a large bowl. Stir in mashed potatoes until combined."
+    },
+    {
+      "position": 3,
+      "text": "Whisk egg and milk together in a separate bowl; mix into the potatoes. Season to taste with salt and pepper."
+    },
+    {
+      "position": 4,
+      "text": "Heat oil in a large skillet over medium-high heat. Drop in potato mixture, forming patties about 2 inches in diameter. Fry on both sides until golden brown, 3 to 4 minutes per side. Drain on a paper towel-lined plate. Serve warm."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b130a647-d53c-59fe-9f44-2e21befe0555/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "227 kcal",
+    "carbohydrateContent": "29 g",
+    "cholesterolContent": "32 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "121 mg",
+    "sugarContent": "1 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e9799049-6585-5c4d-b535-c8adaa8209ec",
+      "name": "grated raw potatoes",
+      "normalized_name": "grated raw potatoes",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f996e7b0-bcf7-5bbc-a6a9-8745c1013f2d",
+      "name": "leftover mashed potatoes",
+      "normalized_name": "leftover mashed potatoes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "068980a1-0ace-5c9b-b5cf-1f29246fd694",
+      "name": "skim milk",
+      "normalized_name": "skim milk",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    },
+    {
+      "id": "e3876d6d-89d3-5a60-be44-850668567954",
+      "slug": "pancakes",
+      "name": "Pancakes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c2dd034b-7054-5e8f-adf9-16e21606c30d",
+      "slug": "pancakes",
+      "name": "Pancakes",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "008f2628-10aa-5ed8-8067-4b8db700670f",
+      "slug": "st-patrick-s-day",
+      "name": "St. Patrick's Day",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "a4b5e8ec-448d-5625-ba32-c1b390f72278",
+      "slug": "irish",
+      "name": "Irish",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/161679/irish-boxty"
+  },
+  "public": true,
+  "updated_at": 1770222737,
+  "revision": 1
+}

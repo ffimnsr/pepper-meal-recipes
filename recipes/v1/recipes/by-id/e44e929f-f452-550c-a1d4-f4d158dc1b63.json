@@ -1,0 +1,273 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e44e929f-f452-550c-a1d4-f4d158dc1b63",
+  "slug": "light-chicken-piccata",
+  "name": "Light Chicken Piccata",
+  "recipe_type": "drink",
+  "brief_description": "This light version of chicken piccata features chicken breasts marinated in yogurt, then fried in margarine and olive oil, and finished in vermouth and lemon juice sauce with capers.",
+  "cuisine": "Italian Inspired Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Coat chicken with yogurt, cover, and refrigerate at least 2 hours, preferably overnight."
+    },
+    {
+      "position": 2,
+      "text": "Rinse chicken, and pat dry with paper towels."
+    },
+    {
+      "position": 3,
+      "text": "In a bowl, stir together flour, paprika, salt, and pepper."
+    },
+    {
+      "position": 4,
+      "text": "Heat oil, margarine, and 1 1/2 tablespoons lemon juice in skillet over medium heat. Dredge chicken in flour mixture. Place chicken in skillet; cook, turning to brown both sides, about 15 minutes. Remove chicken to a plate, and keep warm."
+    },
+    {
+      "position": 5,
+      "text": "Pour vermouth into skillet, and scrape brown bits with a wooden spoon. Stir in garlic, 1/4 cup lemon juice, water, and capers. Cook until reduced by half."
+    },
+    {
+      "position": 6,
+      "text": "Return chicken to the pan, and simmer 3 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e44e929f-f452-550c-a1d4-f4d158dc1b63/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "370 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "72 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "32 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "261 mg",
+    "sugarContent": "10 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ceaef059-e73c-5c5e-b405-049d915040bb",
+      "name": "lowfat plain yogurt",
+      "normalized_name": "lowfat plain yogurt",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f08d3268-1c7e-56e2-98ae-d5919ccf7603",
+      "name": "boned and skinned chicken breast halves",
+      "normalized_name": "boned and skinned chicken breast halves",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "915d3931-7f1a-547d-9655-7c5ac8ed53bd",
+      "name": "margarine",
+      "normalized_name": "margarine",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e0df8f12-231d-5c16-98f7-ccf84f498610",
+      "name": "white vermouth",
+      "normalized_name": "white vermouth",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "f63c0985-5fbb-5c7c-9c1c-eab46ad703d0",
+      "name": "capers",
+      "normalized_name": "capers",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "a4e468db-c310-5f81-aadf-7ccdbaa43522",
+      "slug": "chicken-piccata",
+      "name": "Chicken Piccata"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "b0b94d68-c3b9-5d25-b287-2a562c7a9510",
+      "slug": "paprika-recipes",
+      "name": "Paprika Recipes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "34370fa7-4854-53d1-a33b-e439479ca940",
+      "slug": "pan-fried-chicken",
+      "name": "Pan-Fried Chicken",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/87149/light-chicken-piccata"
+  },
+  "public": true,
+  "updated_at": 1739385756,
+  "revision": 1
+}

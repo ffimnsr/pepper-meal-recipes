@@ -1,0 +1,219 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "49e3ba9a-f20f-5964-b413-183cc92b2cf6",
+  "slug": "crispy-bacon-and-sweet-onion-omelet",
+  "name": "Crispy Bacon and Sweet Onion Omelet",
+  "recipe_type": "dessert",
+  "brief_description": "Sauteed onions, crispy bacon, and a blend of cheddar and American cheeses provide the filling for this fluffy omelet.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook bacon in a skillet over medium-high heat until crisp. Remove with a slotted spoon to paper towels to drain and cool; crumble the bacon and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Melt the butter in a skillet over medium heat. Cook and stir the onions in the butter until tender, about 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Prepare a 10-inch non-stick skillet with cooking spray and place over a cold burner. Whisk together the eggs and water; pour the egg mixture into the cold skillet. Cover and turn the burner on for medium-low heat. Cook until steam begins to vent from the skillet. Remove the lid. Sprinkle the crumbled bacon, Cheddar cheese, American cheese, salt, and red pepper over the eggs. Spread the onions over the eggs. Gently swirl the skillet in a circular motion to release the omelet and slide it onto a plate. Fold the omelet in half. Allow the cheese to melt, about 2 minutes."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/49e3ba9a-f20f-5964-b413-183cc92b2cf6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "380 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "417 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "1030 mg",
+    "sugarContent": "2 g",
+    "fatContent": "29 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "dc8b8f41-5277-5f9b-91ba-73854eb10b2a",
+      "name": "strips bacon",
+      "normalized_name": "strips bacon",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3962bc64-6c09-5e18-a253-b9e163ca8320",
+      "name": "sweet onion",
+      "normalized_name": "sweet onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "878fac81-0818-536f-9e46-c46accad99d9",
+      "name": "jumbo eggs",
+      "normalized_name": "jumbo eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbb001aa-57e2-5400-b607-791c84fccb9f",
+      "name": "shredded sharp cheddar cheese",
+      "normalized_name": "shredded sharp cheddar cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "751916bc-ffdf-584b-b6a0-8a90e2142065",
+      "name": "slice process american cheese",
+      "normalized_name": "slice process american cheese",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "07650efc-8869-5114-9096-0912b3dbf48e",
+      "name": "crushed red pepper flakes",
+      "normalized_name": "crushed red pepper flakes",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "034394aa-b2a8-5d8f-9932-b7e2b073439f",
+      "slug": "bacon",
+      "name": "Bacon",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "5320ba41-4f75-53b3-808a-7c2080fb3a7f",
+      "slug": "cook-once",
+      "name": "Cook Once",
+      "color": null
+    },
+    {
+      "id": "705381f7-76d5-5557-9b84-f5f63ae5c1ef",
+      "slug": "eat-twice-recipes",
+      "name": "Eat Twice Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/146979/crispy-bacon-and-sweet-onion-omelet"
+  },
+  "public": true,
+  "updated_at": 1634150758,
+  "revision": 1
+}

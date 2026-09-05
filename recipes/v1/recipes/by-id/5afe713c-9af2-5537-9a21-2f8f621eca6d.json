@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5afe713c-9af2-5537-9a21-2f8f621eca6d",
+  "slug": "sweet-potato-pie-ix",
+  "name": "Southern Sweet Potato Pie",
+  "recipe_type": "dessert",
+  "brief_description": "This sweet potato pie recipe makes two tasty pies that smell amazing as they bake. Delicious at Thanksgiving or anytime of year!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of water to a boil. Add sweet potatoes and cook until tender but still firm, about 30 minutes. Drain and cool; peel and mash."
+    },
+    {
+      "position": 2,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Combine sweet potatoes, butter, sugar, vanilla, and nutmeg in a large bowl. Whisk eggs and milk together in a small bowl; blend into sweet potato mixture. Pour filling into pie shells."
+    },
+    {
+      "position": 4,
+      "text": "Bake pies in the preheated oven for 60 minutes, or until a knife inserted in the center comes out clean."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5afe713c-9af2-5537-9a21-2f8f621eca6d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "371 kcal",
+    "carbohydrateContent": "54 g",
+    "cholesterolContent": "65 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "235 mg",
+    "sugarContent": "30 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "277d6364-0cb8-549d-8c34-c464d99af714",
+      "name": "large sweet potatoes",
+      "normalized_name": "large sweet potatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "softened",
+      "position": 2
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "or more to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 6
+    },
+    {
+      "ingredient_id": "478758cf-b8df-56ff-a79a-885f223169bb",
+      "name": "evaporated milk",
+      "normalized_name": "evaporated milk",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "1636dcc5-a98f-5970-8bc7-d3ab62f6c4db",
+      "name": "inch) unbaked pie shells",
+      "normalized_name": "inch unbaked pie shells",
+      "quantity": "2 (9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "551563fd-2c14-57e0-ac26-f83cd1b0282b",
+      "slug": "pies",
+      "name": "Pies"
+    },
+    {
+      "id": "448d4f55-68c0-50c6-8630-ddd4bdc6d8d5",
+      "slug": "sweet-potato-pie",
+      "name": "Sweet Potato Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "508b93c7-2692-52e2-92e8-8ba26eda8a95",
+      "slug": "sweet-potato",
+      "name": "Sweet Potato",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "17b47db6-de1c-5238-9dfe-cd2b7cd4fe01",
+      "slug": "thanksgiving-desserts",
+      "name": "Thanksgiving Desserts",
+      "color": null
+    },
+    {
+      "id": "e9d933fc-ed03-594d-a7e8-83f0266c7917",
+      "slug": "pies",
+      "name": "Pies",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "f6c4b0b6-c32b-5d36-b81a-2ff399253a58",
+      "slug": "thanksgiving",
+      "name": "Thanksgiving",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22522/sweet-potato-pie-ix"
+  },
+  "public": true,
+  "updated_at": 1655287579,
+  "revision": 1
+}

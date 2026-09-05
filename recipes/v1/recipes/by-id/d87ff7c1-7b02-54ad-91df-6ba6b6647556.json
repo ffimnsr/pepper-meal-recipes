@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d87ff7c1-7b02-54ad-91df-6ba6b6647556",
+  "slug": "curried-squash-mushroom-soup",
+  "name": "Curried Squash-Mushroom Soup",
+  "recipe_type": "soup",
+  "brief_description": "This flavorful and nutritious curried butternut squash-mushroom soup recipe is creamy, rich, and just like your grandmother used to make.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place squash halves on a microwave-safe plate; microwave for 10 minutes. Remove and discard peel and seeds. Place cooked squash flesh in a food processor; pur\u00e9e."
+    },
+    {
+      "position": 2,
+      "text": "Melt margarine in a large saucepan over medium-high heat. Add mushrooms and onion; cook 1 to 2 minutes. Stir in flour and curry powder; cook 5 minutes. Gradually stir in chicken stock and wine; cook until smooth and slightly thickened, about 5 minutes. Whisk in cooked squash, honey, and nutmeg; reduce heat and simmer 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir cream into soup; reheat if necessary."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d87ff7c1-7b02-54ad-91df-6ba6b6647556/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "326 kcal",
+    "carbohydrateContent": "35 g",
+    "cholesterolContent": "55 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "640 mg",
+    "sugarContent": "10 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a95cbbf5-b3fc-57ed-8810-dcc7550d1439",
+      "name": "medium butternut squash",
+      "normalized_name": "medium butternut squash",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "halved and pricked all over using a fork",
+      "position": 1
+    },
+    {
+      "ingredient_id": "915d3931-7f1a-547d-9655-7c5ac8ed53bd",
+      "name": "margarine",
+      "normalized_name": "margarine",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "23f433e9-1310-5488-a961-7f5e2aed5ebe",
+      "name": "sliced fresh mushrooms",
+      "normalized_name": "sliced fresh mushrooms",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ea55ebcd-d2da-5f89-b8e9-ed703e3ce784",
+      "name": "curry powder",
+      "normalized_name": "curry powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "32c068b2-dc92-5c1c-85e9-b0c98004f775",
+      "name": "dry white wine",
+      "normalized_name": "dry white wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "fe7a919a-6a37-5361-b2a0-bc16b768a5b4",
+      "name": "10% cream",
+      "normalized_name": "10 cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "bd0d1695-7b66-5071-9f9b-f09e048a9b23",
+      "slug": "squash-soup",
+      "name": "Squash Soup"
+    },
+    {
+      "id": "403da2f2-6d0d-59f4-8d05-dd2778831b17",
+      "slug": "butternut-squash-soup",
+      "name": "Butternut Squash Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5defd427-bf5c-575f-a2d7-c33dd6b0e4fa",
+      "slug": "butternut-squash-soup-recipes",
+      "name": "Butternut Squash Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "93ac05da-a018-5297-b24d-b00d29c97ce5",
+      "slug": "curry-soup-recipes",
+      "name": "Curry Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "2ba3093b-13b7-506e-9f84-a215eaedbbc4",
+      "slug": "butternut-squash",
+      "name": "Butternut Squash",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "489def73-dc81-5671-9631-5bffd5bd351b",
+      "slug": "squash",
+      "name": "Squash",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/268182/curried-squash-mushroom-soup"
+  },
+  "public": true,
+  "updated_at": 1736896721,
+  "revision": 1
+}

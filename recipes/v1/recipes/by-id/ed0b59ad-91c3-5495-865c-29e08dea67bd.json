@@ -1,0 +1,228 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ed0b59ad-91c3-5495-865c-29e08dea67bd",
+  "slug": "amish-meatloaf",
+  "name": "Amish Meatloaf",
+  "recipe_type": "main",
+  "brief_description": "A recipe for Amish meatloaf topped with bacon strips and a ketchup glaze that I had while in Amish country in Holmes County, Ohio.",
+  "cuisine": "Amish American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Combine ground beef, crushed crackers, 3/4 cup ketchup, onion, 1/4 cup brown sugar, and eggs until well blended. Press into a 9x5-inch loaf pan; lay bacon over top."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until cooked through, about 1 hour. While loaf bakes, whisk remaining 1 cup ketchup, remaining 1/2 cup brown sugar, vinegar, mustard, and salt together in a bowl; spread over top of meatloaf during last 15 minutes of baking."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ed0b59ad-91c3-5495-865c-29e08dea67bd/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "464 kcal",
+    "carbohydrateContent": "46 g",
+    "cholesterolContent": "118 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "1161 mg",
+    "sugarContent": "34 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4851c12a-e6de-5f0e-8dbe-b1cafaf3544a",
+      "name": "crushed butter-flavored crackers",
+      "normalized_name": "crushed butter-flavored crackers",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "aab9e3a0-656b-56b3-ad5d-01701a78b04c",
+      "name": "vinegar",
+      "normalized_name": "vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "966ed388-bbc7-5931-a4a8-5e7f567d7cc1",
+      "slug": "meatloaf",
+      "name": "Meatloaf"
+    },
+    {
+      "id": "957a454f-4703-5224-9660-dea0c5404f2a",
+      "slug": "beef-meatloaf",
+      "name": "Beef Meatloaf"
+    }
+  ],
+  "tags": [
+    {
+      "id": "dc7ce65a-86ba-57ae-b0f1-df459edaf834",
+      "slug": "beef-meatloaf-recipes",
+      "name": "Beef Meatloaf Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9b843a05-3d30-5959-b53d-71258c6272ab",
+      "slug": "meatloaf-recipes",
+      "name": "Meatloaf Recipes",
+      "color": null
+    },
+    {
+      "id": "20335285-9c47-50de-b90f-ecc230c02d8c",
+      "slug": "amish-and-mennonite",
+      "name": "Amish and Mennonite",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "8d0e94bd-0c5c-58a6-9410-f7735163b9d0",
+      "slug": "ohio-recipes",
+      "name": "Ohio Recipes",
+      "color": null
+    },
+    {
+      "id": "58f836b1-d1a3-5e0e-b2ff-a9a45fe2c4c4",
+      "slug": "u-s-recipes",
+      "name": "U.S. Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/65250/amish-meatloaf"
+  },
+  "public": true,
+  "updated_at": 1779337695,
+  "revision": 1
+}

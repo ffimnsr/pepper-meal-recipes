@@ -1,0 +1,316 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "43c69d8b-1d2a-562e-b623-9832cf9965b6",
+  "slug": "red-velvet-belgian-waffles",
+  "name": "Red Velvet Belgian Waffles",
+  "recipe_type": "breakfast",
+  "brief_description": "These red velvet waffles, topped with a cream cheese glaze, whipped cream, and fresh strawberries, are a decadent treat for Valentine's Day breakfast.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Make waffles: Whisk flour, white sugar, baking powder, cocoa powder, and salt together in a medium bowl."
+    },
+    {
+      "position": 2,
+      "text": "Beat buttermilk, melted butter, eggs, vanilla, and vinegar together in a large bowl until smooth. Stir in red food coloring. Add flour mixture; mix until just combined."
+    },
+    {
+      "position": 3,
+      "text": "Preheat a waffle iron according to manufacturer's instructions."
+    },
+    {
+      "position": 4,
+      "text": "While the waffle iron is heating, make glaze: Beat cream cheese and butter together in a large bowl with an electric mixer until smooth and fluffy. Gradually mix in confectioners' sugar, alternating with milk and vanilla, until smooth. Set aside."
+    },
+    {
+      "position": 5,
+      "text": "Spoon 1/4 to 1/2 cup waffle batter into the preheated waffle iron. Cook according to manufacturer's directions. Repeat with remaining batter."
+    },
+    {
+      "position": 6,
+      "text": "Lightly dust each waffle with confectioners' sugar, drizzle with glaze, and top with whipped cream and strawberries."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/43c69d8b-1d2a-562e-b623-9832cf9965b6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "731 kcal",
+    "carbohydrateContent": "92 g",
+    "cholesterolContent": "158 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "22 g",
+    "sodiumContent": "967 mg",
+    "sugarContent": "56 g",
+    "fatContent": "36 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "06d14bb8-dcd1-5617-b682-3c3222146a21",
+      "name": "unsweetened cocoa powder",
+      "normalized_name": "unsweetened cocoa powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "950239d2-8408-5a49-a8bd-7298ae896627",
+      "name": "buttermilk",
+      "normalized_name": "buttermilk",
+      "quantity": "1.75",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
+      "name": "melted butter",
+      "normalized_name": "melted butter",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": "cooled",
+      "position": 7
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "24f827ef-fdaf-502d-8561-288a1a4bd2b6",
+      "name": "red velvet food coloring (such as lorann professional kitchen\u00ae) red velvet bakery emulsion) or as desired",
+      "normalized_name": "red velvet food coloring red velvet bakery emulsion or as desired",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "b79f8d0f-40ab-5fde-814c-f7d1069dd443",
+      "name": "cream cheese",
+      "normalized_name": "cream cheese",
+      "quantity": "6",
+      "unit": "ounces",
+      "preparation": "softened",
+      "position": 12
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": "softened",
+      "position": 13
+    },
+    {
+      "ingredient_id": "23466612-d4e8-5f39-b905-a7f8e3b75dbf",
+      "name": "confectioners' sugar",
+      "normalized_name": "confectioners sugar",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "77dbab31-d057-5d61-a87f-ded964435ff7",
+      "name": "whole milk",
+      "normalized_name": "whole milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or more as needed",
+      "position": 15
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "23466612-d4e8-5f39-b905-a7f8e3b75dbf",
+      "name": "confectioners' sugar",
+      "normalized_name": "confectioners sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 17
+    },
+    {
+      "ingredient_id": "4dadb8b0-0892-51ea-9a62-8af03da8ce57",
+      "name": "whipped cream",
+      "normalized_name": "whipped cream",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 18
+    },
+    {
+      "ingredient_id": "c706378f-bf63-54b9-b7d7-9886d5329e84",
+      "name": "sliced strawberries",
+      "normalized_name": "sliced strawberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 19
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "ca4bb0f3-992b-59a0-b015-d50d8f7c717e",
+      "slug": "waffle",
+      "name": "Waffle"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2ab9d92d-1fb9-5d8e-823e-e98a8fdac29c",
+      "slug": "waffle-recipes",
+      "name": "Waffle Recipes",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "1de601c5-1ddb-51f4-8124-7f0578ddba49",
+      "slug": "school-favorites",
+      "name": "School Favorites",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236472/red-velvet-belgian-waffles"
+  },
+  "public": true,
+  "updated_at": 1690296685,
+  "revision": 1
+}

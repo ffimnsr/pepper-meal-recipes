@@ -1,0 +1,236 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d2b6460d-0d74-5c61-a852-da7bd8ce4891",
+  "slug": "ground-turkey-lettuce-wraps",
+  "name": "Ground Turkey Lettuce Wraps",
+  "recipe_type": "appetizer",
+  "brief_description": "A saucy Asian-inspired ground turkey mixture is gathered up in lettuce leaves to make these easy wraps.",
+  "cuisine": "Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a pan over medium-high heat. Add onion and soy sauce; cook until tender, about 5 minutes. Stir in garlic; cook until fragrant, about 1 minute. Add turkey and cook, breaking into smaller pieces, until no longer pink, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Make the sauce by whisking soy sauce, rice vinegar, brown sugar, sesame oil, red pepper flakes, and ginger together in a small bowl. Pour over turkey mixture and simmer until slightly reduced, 2 to 3 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d2b6460d-0d74-5c61-a852-da7bd8ce4891/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "259 kcal",
+    "carbohydrateContent": "12 g",
+    "cholesterolContent": "84 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "756 mg",
+    "sugarContent": "7 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f2af3a9d-f1f3-580e-b073-cb056e8c2bea",
+      "name": "medium yellow onion",
+      "normalized_name": "medium yellow onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "2ab27880-5f02-56cd-a31a-aab351e1ec65",
+      "name": "ground turkey",
+      "normalized_name": "ground turkey",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b6082c42-4b72-50e0-87c8-bb10d64bdbb1",
+      "name": "rice vinegar",
+      "normalized_name": "rice vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "d2b31123-499f-5c84-9509-f2bb88d48a27",
+      "name": "ground ginger",
+      "normalized_name": "ground ginger",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "5f4d6677-2c2c-5f71-b922-b40b93159770",
+      "name": "head lettuce",
+      "normalized_name": "head lettuce",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "separated into leaves",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "cf1e635c-b2d7-52fc-8796-cfd0aa20b583",
+      "slug": "wraps-and-rolls",
+      "name": "Wraps and Rolls"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c5c96d01-46fa-5e46-a39f-749c5649f026",
+      "slug": "wraps-and-rolls",
+      "name": "Wraps and Rolls",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "c435539b-7fb9-5280-93dc-22b3b882cd67",
+      "slug": "lettuce",
+      "name": "Lettuce",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "9e37681e-4248-55e3-9500-84024af357e0",
+      "slug": "lettuce-wraps-recipes",
+      "name": "Lettuce Wraps Recipes",
+      "color": null
+    },
+    {
+      "id": "79e2c749-39d4-593a-a697-3cd6d97d00e6",
+      "slug": "ground-turkey-recipes",
+      "name": "Ground Turkey Recipes",
+      "color": null
+    },
+    {
+      "id": "ebf99938-61a8-5ffe-b436-629f58509306",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/270054/ground-turkey-lettuce-wraps"
+  },
+  "public": true,
+  "updated_at": 1778865038,
+  "revision": 1
+}

@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0e419e09-1a70-5407-a997-9a6eebc2a2ad",
+  "slug": "corned-beef-hash",
+  "name": "Corned Beef Hash",
+  "recipe_type": "breakfast",
+  "brief_description": "This corned beef hash with potatoes is prepared in one skillet with leftover or canned corned beef for a quick and filling breakfast with eggs.",
+  "cuisine": "English British",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Combine potatoes, corned beef, onion, and broth in a large, deep skillet over medium heat. Cover and simmer until potatoes are soft enough to mash and liquid is almost gone."
+    },
+    {
+      "position": 3,
+      "text": "Mix well and serve hot."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0e419e09-1a70-5407-a997-9a6eebc2a2ad/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/C7BeYE0D-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "434 kcal",
+    "carbohydrateContent": "66 g",
+    "cholesterolContent": "48 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "718 mg",
+    "sugarContent": "4 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "69d1b056-2560-5b92-9f90-e747223dcaba",
+      "name": "large potatoes",
+      "normalized_name": "large potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "peeled and diced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "092f9f95-c9ce-5faf-aaa6-366362507cd9",
+      "name": "ounce) can corned beef",
+      "normalized_name": "ounce can corned beef",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "cut into chunks",
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "47a10d55-3b96-5a64-8d3c-0fec01f5d038",
+      "slug": "potatoes",
+      "name": "Potatoes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "1377e8b7-e214-5a16-8a8f-8f637f2a7e3f",
+      "slug": "brisket",
+      "name": "Brisket",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/33129/corned-beef-hash"
+  },
+  "public": true,
+  "updated_at": 1762363258,
+  "revision": 1
+}

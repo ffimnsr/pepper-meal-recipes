@@ -1,0 +1,273 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e0405944-baf0-5324-805c-739c41a5e27d",
+  "slug": "vegan-beefless-stew",
+  "name": "Vegan Beefless Stew",
+  "recipe_type": "soup",
+  "brief_description": "This yummy beefless, beef-style stew is totally vegan and made with corn, celery, potatoes, herbs, and seitan.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix water and \"beef\" soup flavoring in a large pot over high heat. Add carrots, celery, potatoes, onion, peas, and corn. Add summer savory, parsley, and black pepper and mix together well. Taste and adjust seasonings as needed."
+    },
+    {
+      "position": 2,
+      "text": "Mix cornstarch and water together in a small bowl. Add to the pot and mix to combine. Bring to a boil, about 5 minutes. Reduce to a simmer and cook, covered, at least 1 hour."
+    },
+    {
+      "position": 3,
+      "text": "Meanwhile, heat olive oil in a skillet over medium-high heat. Add seitan pieces and cook until browned, 4 to 5 minutes per side."
+    },
+    {
+      "position": 4,
+      "text": "Pour stew into bowls and add a few pieces of seitan to each."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 75,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e0405944-baf0-5324-805c-739c41a5e27d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "190 kcal",
+    "carbohydrateContent": "33 g",
+    "fiberContent": "5 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "156 mg",
+    "sugarContent": "4 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8ce2844a-0842-5470-8b08-ac2139564d40",
+      "name": "vegan \"beef\" soup flavoring",
+      "normalized_name": "vegan beef soup flavoring",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ba9bf63e-b1a7-522d-8eba-00fe629ee2c3",
+      "name": "large carrots",
+      "normalized_name": "large carrots",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "diced large",
+      "position": 3
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "diced large",
+      "position": 4
+    },
+    {
+      "ingredient_id": "69d1b056-2560-5b92-9f90-e747223dcaba",
+      "name": "large potatoes",
+      "normalized_name": "large potatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "6bdd8e14-0841-55d0-ad0d-2da23da6dfcd",
+      "name": "peas",
+      "normalized_name": "peas",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "30877046-b7af-5225-99a6-4dfabe564978",
+      "name": "corn",
+      "normalized_name": "corn",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "01ca1019-9dd1-57f0-abf6-dee8513b1513",
+      "name": "dried summer savory",
+      "normalized_name": "dried summer savory",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c7f94c24-41b4-5f73-9a71-06be56833d48",
+      "name": "dried parsley",
+      "normalized_name": "dried parsley",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "c48505ba-bc10-5602-a683-3f5893be612a",
+      "name": "ounce) package cubed",
+      "normalized_name": "ounce package cubed",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "beef-style seitan (such as gardein\u00ae)",
+      "position": 15
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or as needed",
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "a954f7c7-64e6-5e0d-a6e9-db6ead009ad0",
+      "slug": "diabetic",
+      "name": "Diabetic",
+      "color": null
+    },
+    {
+      "id": "bf0b75d6-5c24-587e-9f5a-2f5b9f4ea84d",
+      "slug": "seitan",
+      "name": "Seitan",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275871/vegan-beefless-stew"
+  },
+  "public": true,
+  "updated_at": 1744257669,
+  "revision": 1
+}

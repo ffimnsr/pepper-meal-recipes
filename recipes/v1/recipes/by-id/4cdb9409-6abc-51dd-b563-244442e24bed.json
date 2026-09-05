@@ -1,0 +1,222 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4cdb9409-6abc-51dd-b563-244442e24bed",
+  "slug": "slow-cooker-beef-bourguignon",
+  "name": "Slow Cooker Beef Bourguignon",
+  "recipe_type": "soup",
+  "brief_description": "This slow cooker beef bourguignon is simmered with onions, red wine, carrots, thyme, and bay leaf for a rich stew filled with tender chunks of meat.",
+  "cuisine": "French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat butter and oil in a large skillet over medium-high heat. Add beef and cook, stirring occasionally, until browned on all sides, 5 to 8 minutes. Brown beef in batches if necessary, making sure not to overcrowd the pan; otherwise, beef will not brown properly. Remove browned beef to the slow cooker."
+    },
+    {
+      "position": 2,
+      "text": "Add onions to the same skillet. Cook and stir until softened and beginning to take some color, 3 to 5 minutes. Transfer onions to the slow cooker."
+    },
+    {
+      "position": 3,
+      "text": "Place the skillet back over medium-high heat and pour in 1/2 of the wine. Bring to a simmer, scraping up any browned bits from the bottom of the pan with a wooden spoon. Remove from heat and carefully pour into the slow cooker along with remaining wine. Add carrots, thyme, bay leaves, salt, and pepper."
+    },
+    {
+      "position": 4,
+      "text": "Cook on Low for 6 to 8 hours."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 385,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4cdb9409-6abc-51dd-b563-244442e24bed/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "453 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "95 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "151 mg",
+    "sugarContent": "5 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "22f8117e-e242-5f36-aa8b-df14c7b99d54",
+      "name": "beef stew meat",
+      "normalized_name": "beef stew meat",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "4ff4afe5-0de6-5510-87de-06c24b8758dc",
+      "name": "medium onions",
+      "normalized_name": "medium onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "quartered",
+      "position": 4
+    },
+    {
+      "ingredient_id": "02f232e2-78c1-5344-a97b-13e3a21fd7e8",
+      "name": "milliliter) bottle red wine",
+      "normalized_name": "milliliter bottle red wine",
+      "quantity": "1 (750",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "chopped into large chunks",
+      "position": 6
+    },
+    {
+      "ingredient_id": "e795b5f4-b19e-5f47-844b-dd7549537b42",
+      "name": "fresh thyme",
+      "normalized_name": "fresh thyme",
+      "quantity": "3",
+      "unit": "sprigs",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "ee57764b-9fb3-54be-8f66-abcd362e332d",
+      "name": "large bay leaves",
+      "normalized_name": "large bay leaves",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "22b69ae3-bf6c-5161-837b-50f510df6b6b",
+      "slug": "slow-cooker",
+      "name": "Slow Cooker",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "a951ccea-a4fc-5ac2-8890-e8562b309950",
+      "slug": "stew",
+      "name": "Stew",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/284549/slow-cooker-beef-bourguignon"
+  },
+  "public": true,
+  "updated_at": 1731812095,
+  "revision": 1
+}

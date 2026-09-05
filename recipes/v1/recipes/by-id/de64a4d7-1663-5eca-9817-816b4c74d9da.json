@@ -1,0 +1,193 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "de64a4d7-1663-5eca-9817-816b4c74d9da",
+  "slug": "sous-vide-mashed-potatoes",
+  "name": "Sous Vide Mashed Potatoes",
+  "recipe_type": "side",
+  "brief_description": "Using your sous vide immersion cooker to make mashed potatoes may take longer than boiling potatoes, but it really intensifies the potato flavor.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Fill a large pot with water and place a sous vide immersion cooker into the water. Set temperature to 195 degrees F (91 degrees C) according to manufacturer's instructions."
+    },
+    {
+      "position": 2,
+      "text": "Peel potatoes and cut into cubes, no bigger than 3/4 inch. Place potatoes in a single layer inside a large vacuum bag, along with cubed butter, 1/2 cup half-and-half, and sour cream. Ensure potatoes are spread out as much as possible. Seal the bag using a vacuum sealer, stopping the sealer early so liquid doesn't escape from the bag."
+    },
+    {
+      "position": 3,
+      "text": "Place bag into the water and set timer for 90 minutes. Some air may remain in the bag, and you will need to weigh the bag down with a heavy object to ensure bag is fully submerged. After 45 minutes, remove bag and redistribute potatoes evenly in bag, if needed."
+    },
+    {
+      "position": 4,
+      "text": "When timer is up, cut bag open and dump contents into a large bowl. Season with salt and pepper and mash potatoes. Add in additional half-and-half, if needed."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 90,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/de64a4d7-1663-5eca-9817-816b4c74d9da/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "415 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "81 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "196 mg",
+    "sugarContent": "1 g",
+    "fatContent": "31 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4b2b3112-53d1-5b2b-a392-6dbd06a85d12",
+      "name": "russet potatoes",
+      "normalized_name": "russet potatoes",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c96784c2-7d32-57a4-b7ce-31bded73fb7d",
+      "name": "cold salted butter",
+      "normalized_name": "cold salted butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    },
+    {
+      "id": "fc9fdc64-b883-5312-a3be-e817e01fbd6c",
+      "slug": "mashed-potato",
+      "name": "Mashed Potato"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a454732a-aeb6-55bb-b5e7-975cff01dbbe",
+      "slug": "mashed-potato-recipes",
+      "name": "Mashed Potato Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "f654140a-5ccd-512e-88b5-325b8b2cbbd5",
+      "slug": "butter-recipes",
+      "name": "Butter Recipes",
+      "color": null
+    },
+    {
+      "id": "4e5801cf-11bd-503a-8c74-23fa9ac4757c",
+      "slug": "sour-cream-recipes",
+      "name": "Sour Cream Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/283479/sous-vide-mashed-potatoes"
+  },
+  "public": true,
+  "updated_at": 1732427485,
+  "revision": 1
+}

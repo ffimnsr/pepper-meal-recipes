@@ -1,0 +1,243 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c2f63a0d-4ebd-5a12-9581-598c3e0b327d",
+  "slug": "parmesan-risotto",
+  "name": "Parmesan Risotto",
+  "recipe_type": "appetizer",
+  "brief_description": "This Parmesan risotto made with Arborio rice, garlic, white wine, and freshly grated Parmesan cheese makes a rich and creamy Italian appetizer or side.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil and butter in a large pan over medium-high heat until butter is melted. Reduce heat to medium-low; add shallot and garlic. Cook and stir until shallots are translucent but not brown, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Pour in rice and stir until rice is coated in oil and has started to toast, about 5 minutes. Pour in wine and let it simmer until mostly evaporated, then stir in 1\u20443 of the boiling vegetable broth; continue stirring until the rice has absorbed the liquid and turned creamy. Repeat this process twice more, stirring constantly. Stirring in the broth should take 15 to 20 minutes in all. When finished, the rice should be tender yet firm to the bite. You may not need all the vegetable stock."
+    },
+    {
+      "position": 3,
+      "text": "Remove from heat. Stir in grated Parmesan cheese, parsley, salt, and white pepper until well combined. Serve immediately."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c2f63a0d-4ebd-5a12-9581-598c3e0b327d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "154 kcal",
+    "carbohydrateContent": "14 g",
+    "cholesterolContent": "12 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "460 mg",
+    "sugarContent": "2 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f5e90620-cf68-56ec-9ee5-c115795d5f67",
+      "name": "shallot",
+      "normalized_name": "shallot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "8d81d57c-0ce8-53da-ad55-62db413112f6",
+      "name": "arborio rice",
+      "normalized_name": "arborio rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "32c068b2-dc92-5c1c-85e9-b0c98004f775",
+      "name": "dry white wine",
+      "normalized_name": "dry white wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e284b9d4-d1a8-5eb5-a9a0-d637748b5218",
+      "name": "hot vegetable stock",
+      "normalized_name": "hot vegetable stock",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0d9540ed-f036-58af-a069-b148b895ce06",
+      "name": "freshly grated parmesan cheese",
+      "normalized_name": "freshly grated parmesan cheese",
+      "quantity": "0.33",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "61c5ccdd-bbb0-53d0-bf2e-23f669bfc9ea",
+      "name": "minced fresh parsley",
+      "normalized_name": "minced fresh parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "0dac36f2-9911-5c68-b43a-9313364fb978",
+      "name": "freshly ground white pepper to taste",
+      "normalized_name": "freshly ground white pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "01359e67-e8a2-58b2-9547-4595faf03021",
+      "slug": "risotto",
+      "name": "Risotto"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "350013f8-2f45-510a-9b9f-63b3c7f40dc9",
+      "slug": "risotto-recipes",
+      "name": "Risotto Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "4998f96b-d9a2-5b2a-9fb9-7608a3f52e16",
+      "slug": "rice-side-dish-recipes",
+      "name": "Rice Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "fc296a30-4e6d-5f75-b09e-34c2efbb2a1e",
+      "slug": "authentic",
+      "name": "Authentic",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8495586/parmesan-risotto"
+  },
+  "public": true,
+  "updated_at": 1764554660,
+  "revision": 1
+}

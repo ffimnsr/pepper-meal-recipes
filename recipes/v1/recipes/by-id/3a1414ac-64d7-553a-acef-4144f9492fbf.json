@@ -1,0 +1,183 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3a1414ac-64d7-553a-acef-4144f9492fbf",
+  "slug": "best-guacamole",
+  "name": "Best Guacamole",
+  "recipe_type": "appetizer",
+  "brief_description": "The best guacamole recipe. For chips or a taco topping, guacamole enhanced with lemon and onion is a forever favorite. And it\u2019s easy to make.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cut avocados into halves. Remove seeds and scoop out the pulp into a small bowl. Use a fork to mash the avocado."
+    },
+    {
+      "position": 2,
+      "text": "Stir in lemon juice, onion, olive oil, and salt. Cover the bowl and refrigerate for 1 hour before serving."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3a1414ac-64d7-553a-acef-4144f9492fbf/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/jnxhGbTQ-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "56 kcal",
+    "carbohydrateContent": "3 g",
+    "fiberContent": "2 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "75 mg",
+    "sugarContent": "0 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "9c17d1f7-3520-5c14-ac2e-1c633723cf11",
+      "name": "avocados",
+      "normalized_name": "avocados",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "5611510c-11ff-5c0b-aee0-6696f963fc70",
+      "slug": "guacamole",
+      "name": "Guacamole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "9a578210-cad0-5e96-b126-9f653a6a83f6",
+      "slug": "kosher",
+      "name": "Kosher",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "acb4aea2-50e0-54f5-9f55-88ed42e18ac3",
+      "slug": "olympics",
+      "name": "Olympics",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14837/best-guacamole"
+  },
+  "public": true,
+  "updated_at": 1786656382,
+  "revision": 1
+}

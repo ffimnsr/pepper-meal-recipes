@@ -1,0 +1,195 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cf2e4156-0622-5e1d-97a4-94806c150cbb",
+  "slug": "chef-johns-summer-scrambled-eggs",
+  "name": "Chef John's Summer Scrambled Eggs",
+  "recipe_type": "breakfast",
+  "brief_description": "Chef John's recipe for scrambled eggs with cherry tomatoes, feta cheese, and fresh basil is a delicious breakfast option for any time of the year.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk eggs and pepper flakes together in a bowl. Stir in tomatoes, feta, and basil."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a nonstick skillet over high heat until starting to shimmer. Pour egg mixture into hot oil and cook, without stirring, for 5 seconds."
+    },
+    {
+      "position": 3,
+      "text": "Cook and stir egg mixture until eggs are scrambled and softly set, about 30 seconds. Transfer to a plate and sprinkle with sea salt."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cf2e4156-0622-5e1d-97a4-94806c150cbb/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/0dwUunWI-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "420 kcal",
+    "carbohydrateContent": "10 g",
+    "cholesterolContent": "575 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "756 mg",
+    "sugarContent": "2 g",
+    "fatContent": "33 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b1fa9030-caca-5cdb-a806-8fcba68d3333",
+      "name": "cherry tomatoes",
+      "normalized_name": "cherry tomatoes",
+      "quantity": "9",
+      "unit": "pieces",
+      "preparation": "halved",
+      "position": 3
+    },
+    {
+      "ingredient_id": "cbedf4a1-173e-56ae-92c0-3595384b0e2c",
+      "name": "crumbled feta cheese",
+      "normalized_name": "crumbled feta cheese",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "59542f20-f6c8-579c-9567-bd7de6ddb2e4",
+      "name": "very thinly sliced fresh basil leaves",
+      "normalized_name": "very thinly sliced fresh basil leaves",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5e105923-4713-55af-923e-012f0330312a",
+      "name": "sea salt",
+      "normalized_name": "sea salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "97a0fad3-b301-5402-877f-34c2f9747d7c",
+      "slug": "scrambled",
+      "name": "Scrambled"
+    }
+  ],
+  "tags": [
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "e04fcf40-e5a4-50fd-8d3d-75173326a0ee",
+      "slug": "chef-john",
+      "name": "Chef John",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236372/chef-johns-summer-scrambled-eggs"
+  },
+  "public": true,
+  "updated_at": 1778596850,
+  "revision": 1
+}

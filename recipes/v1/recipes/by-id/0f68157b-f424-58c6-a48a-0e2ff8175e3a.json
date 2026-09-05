@@ -1,0 +1,172 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0f68157b-f424-58c6-a48a-0e2ff8175e3a",
+  "slug": "lemon-ice-ii",
+  "name": "Refreshing Lemon Ice",
+  "recipe_type": "dessert",
+  "brief_description": "This lemon ice recipe is a refreshing, deliciously easy summer dessert option for those with ice cream machines and a little extra time.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine lemon zest, lemon juice, milk, and sweetened condensed milk in the freezer canister of an ice cream maker. Freeze according to manufacturers' directions."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 120,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0f68157b-f424-58c6-a48a-0e2ff8175e3a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "232 kcal",
+    "carbohydrateContent": "48 g",
+    "cholesterolContent": "15 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "101 mg",
+    "sugarContent": "44 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "zested and juiced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "2af6eb86-ad31-51b9-b362-c2d5cec82d3a",
+      "name": "cold milk",
+      "normalized_name": "cold milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "chilled",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ba726c0f-4f9b-5cfb-b33f-5dd653d0d01a",
+      "name": "ounce) can nonfat sweetened condensed milk",
+      "normalized_name": "ounce can nonfat sweetened condensed milk",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": "chilled",
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "ae6fe95d-4e1e-5382-93c0-f2d4fa12d15d",
+      "slug": "frozen-dessert",
+      "name": "Frozen Dessert"
+    },
+    {
+      "id": "b2e4ec0c-c3d2-5312-b4ea-c452d99ac762",
+      "slug": "ice-cream",
+      "name": "Ice Cream"
+    }
+  ],
+  "tags": [
+    {
+      "id": "29b3f1f5-cdfa-5a4d-a6c0-8e18731312ec",
+      "slug": "ice-cream",
+      "name": "Ice Cream",
+      "color": null
+    },
+    {
+      "id": "9ea79771-fce6-5c97-bcca-259e1d8ee61b",
+      "slug": "lemon-dessert-recipes",
+      "name": "Lemon Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "b27e7672-5670-576d-b52e-a2ba7aa1e26a",
+      "slug": "summer-desserts",
+      "name": "Summer Desserts",
+      "color": null
+    },
+    {
+      "id": "50f70bb9-e15c-5182-be0d-29b0444422c1",
+      "slug": "frozen-dessert-recipes",
+      "name": "Frozen Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "baf2993a-351e-520b-9a29-cc3b5449a541",
+      "slug": "lemons",
+      "name": "Lemons",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/45633/lemon-ice-ii"
+  },
+  "public": true,
+  "updated_at": 1756835614,
+  "revision": 1
+}

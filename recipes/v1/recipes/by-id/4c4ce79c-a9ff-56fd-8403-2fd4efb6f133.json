@@ -1,0 +1,213 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4c4ce79c-a9ff-56fd-8403-2fd4efb6f133",
+  "slug": "steak-and-cheese-egg-rolls",
+  "name": "Steak and Cheese Egg Rolls",
+  "recipe_type": "appetizer",
+  "brief_description": "Deep-fried egg rolls stuffed with shaved steak, American cheese, and bell peppers are a gooey appetizer you can dip in a variety of sauces.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook and stir half of the shaved steak in a large skillet over medium heat until browned, 3 to 5 minutes. Transfer to a plate. Repeat with remaining steak. Drain juices from the steak; cut into small pieces."
+    },
+    {
+      "position": 2,
+      "text": "Combine steak, American cheese, green bell pepper, red bell pepper, and yellow bell pepper in a bowl. Season with salt and pepper."
+    },
+    {
+      "position": 3,
+      "text": "Lay 1 egg roll wrapper on a flat surface in the shape of a diamond. Place a large spoonful of the steak mixture in the center. Fold the bottom corner and opposing sides over the steak mixture; roll up wrapper towards the top corner. Repeat with remaining egg roll wrappers and steak mixture."
+    },
+    {
+      "position": 4,
+      "text": "Heat oil in a deep-fryer or large saucepan. Place a few egg rolls in the hot oil, seam-side down. Fry, turning occasionally, until golden brown, 2 to 3 minutes. Repeat with remaining rolls."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 12,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4c4ce79c-a9ff-56fd-8403-2fd4efb6f133/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "233 kcal",
+    "carbohydrateContent": "17 g",
+    "cholesterolContent": "43 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "344 mg",
+    "sugarContent": "1 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "155c25eb-5f12-5a89-b128-6761349fdf4c",
+      "name": "shaved steak",
+      "normalized_name": "shaved steak",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "eee3c0f0-23ce-52c6-b2e5-07f186a601f2",
+      "name": "slices american cheese",
+      "normalized_name": "slices american cheese",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "1543bb0f-a3d8-599f-8054-c270a9e88998",
+      "name": "yellow bell pepper",
+      "normalized_name": "yellow bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "476dc35e-623d-5ed2-9d54-f7841ec287b9",
+      "name": "ounce) package egg roll wrappers",
+      "normalized_name": "ounce package egg roll wrappers",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "dfb248a5-b421-5c14-a0ac-68d92b8d93dc",
+      "name": "vegetable oil for frying",
+      "normalized_name": "vegetable oil for frying",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "cf1e635c-b2d7-52fc-8796-cfd0aa20b583",
+      "slug": "wraps-and-rolls",
+      "name": "Wraps and Rolls"
+    },
+    {
+      "id": "b018d3b1-2d42-51f2-9c76-131a8759e1d6",
+      "slug": "egg-roll",
+      "name": "Egg Roll"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e1c1a213-4d13-5d64-8e57-fd54a049255d",
+      "slug": "egg-roll-recipes",
+      "name": "Egg Roll Recipes",
+      "color": null
+    },
+    {
+      "id": "0cb7f7e9-0f44-544e-9f57-3101ccea369c",
+      "slug": "red-bell-peppers",
+      "name": "Red Bell Peppers",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "648e9a72-96a1-5b58-9a0c-0980359f7b23",
+      "slug": "green-bell-peppers",
+      "name": "Green Bell Peppers",
+      "color": null
+    },
+    {
+      "id": "a521fc92-4d06-54e8-8b56-d71c7745923c",
+      "slug": "bell-peppers",
+      "name": "Bell Peppers",
+      "color": null
+    },
+    {
+      "id": "2d9ecea4-9682-5b22-b9b0-a8b03d26a602",
+      "slug": "cheese",
+      "name": "Cheese",
+      "color": null
+    },
+    {
+      "id": "c5c96d01-46fa-5e46-a39f-749c5649f026",
+      "slug": "wraps-and-rolls",
+      "name": "Wraps and Rolls",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257975/steak-and-cheese-egg-rolls"
+  },
+  "public": true,
+  "updated_at": 1733027815,
+  "revision": 1
+}

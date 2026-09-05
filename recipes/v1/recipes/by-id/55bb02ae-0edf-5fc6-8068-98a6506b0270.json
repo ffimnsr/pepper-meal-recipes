@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "55bb02ae-0edf-5fc6-8068-98a6506b0270",
+  "slug": "easy-marinated-feta",
+  "name": "Easy Marinated Feta",
+  "recipe_type": "appetizer",
+  "brief_description": "Marinated feta is a great addition to any antipasti platter or serve it on its own with crusty bread as an appetizer or nibble with a glass of wine.",
+  "cuisine": "Italian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place feta cheese in a glass jar. Add chile pepper, herbes de Provence, and lemon zest. Fill jar with olive oil so feta is completely covered and seal."
+    },
+    {
+      "position": 2,
+      "text": "Marinate in a cool place, but not in the refrigerator, for 3 to 4 days. Remove chile pepper before serving."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/55bb02ae-0edf-5fc6-8068-98a6506b0270/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "519 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "67 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "16 g",
+    "sodiumContent": "838 mg",
+    "sugarContent": "4 g",
+    "fatContent": "52 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c465cba1-9bf1-541d-9aa4-73c9a4f3ce33",
+      "name": "feta cheese",
+      "normalized_name": "feta cheese",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "88495ebe-5955-5e9d-ab8d-7abff1330b82",
+      "name": "chile pepper",
+      "normalized_name": "chile pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "25b8c462-3b45-5a07-95db-ed9c808ddf1c",
+      "name": "herbes de provence",
+      "normalized_name": "herbes de provence",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "fb9c0f88-3356-5b13-a1f9-18ccb59208ed",
+      "name": "lemon zest",
+      "normalized_name": "lemon zest",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "c9757d9e-cb71-5cd8-98b6-c878eae6f914",
+      "slug": "antipasto",
+      "name": "Antipasto"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e6c0bdfd-fe95-54e6-85aa-677551291328",
+      "slug": "antipasto-recipes",
+      "name": "Antipasto Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "6ce52073-665a-558e-9235-f303f0933afd",
+      "slug": "feta",
+      "name": "Feta",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "c4f36435-40e8-5f84-b4ac-9a6117f1401f",
+      "slug": "olive-oil-recipes",
+      "name": "Olive Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "99d8c901-c626-5363-9195-83d035f13932",
+      "slug": "low-carb",
+      "name": "Low-Carb",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/266156/easy-marinated-feta"
+  },
+  "public": true,
+  "updated_at": 1661193821,
+  "revision": 1
+}

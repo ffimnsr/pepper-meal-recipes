@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9cf6a83f-07c1-5ac1-bdd5-45d78f402598",
+  "slug": "russian-potato-salad",
+  "name": "Russian Potato Salad",
+  "recipe_type": "salad",
+  "brief_description": "This is no ordinary potato salad. This salad consists of potatoes, turkey hot dogs, pickles, scallions, hard-boiled eggs, and sweet peas. All of the ingredients are finely chopped and dressed with mayonnaise. This salad has been in my family for four generations. Enjoy!",
+  "cuisine": "Russian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place the potatoes in a large pot, and fill with enough water to cover. Bring to a boil, and cook until a fork can be easily inserted and removed, about 20 minutes. Drain and cool slightly. During the last 10 minutes, boil the hot dogs and eggs. Drain everything, and set aside to cool."
+    },
+    {
+      "position": 2,
+      "text": "Peel the potatoes, and cut into cubes. Chop hot dogs. Place everything in a large bowl, and mix in the pickles, onions and peas. Peel the eggs, and grate them on top of the salad. Add mayonnaise and salt to individual servings."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9cf6a83f-07c1-5ac1-bdd5-45d78f402598/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "478 kcal",
+    "carbohydrateContent": "43 g",
+    "cholesterolContent": "136 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "1609 mg",
+    "sugarContent": "5 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "69d1b056-2560-5b92-9f90-e747223dcaba",
+      "name": "large potatoes",
+      "normalized_name": "large potatoes",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "413c0d92-7ce1-50de-ab73-fb366798a6ec",
+      "name": "ounce) package turkey hot dogs",
+      "normalized_name": "ounce package turkey hot dogs",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2be99caa-36e1-5d0e-a0af-8de7d6fed1c6",
+      "name": "large dill pickles",
+      "normalized_name": "large dill pickles",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6672984-293d-5341-a773-3613abe74951",
+      "name": "bunch green onions",
+      "normalized_name": "bunch green onions",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "4323be90-3fa7-54cb-a1d2-94a7a065debc",
+      "name": "ounce) can baby peas",
+      "normalized_name": "ounce can baby peas",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 6
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "170a28a4-5360-5e89-accb-7ecc55c5340b",
+      "slug": "spring",
+      "name": "Spring",
+      "color": null
+    },
+    {
+      "id": "73d15f3b-ba62-57e7-af10-1b51c8972f27",
+      "slug": "green-peas",
+      "name": "Green Peas",
+      "color": null
+    },
+    {
+      "id": "36f0ba83-6cf7-5b3c-9c04-ccc142dd82bc",
+      "slug": "potato-salad-recipes",
+      "name": "Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "08fb80b7-e7b5-5e1a-a22f-17f2941dd920",
+      "slug": "creamy-potato-salad-recipes",
+      "name": "Creamy Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "7380d626-3854-5a4d-9c95-da8016e8cad0",
+      "slug": "turkey-salad-recipes",
+      "name": "Turkey Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/88092/russian-potato-salad"
+  },
+  "public": true,
+  "updated_at": 1786379833,
+  "revision": 1
+}

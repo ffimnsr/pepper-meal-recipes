@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5c28a2d7-c3ba-5309-91d9-db806b3c8ef1",
+  "slug": "one-skillet-corned-beef-hash",
+  "name": "One-Skillet Corned Beef Hash",
+  "recipe_type": "main",
+  "brief_description": "This canned corned beef hash is loaded with perfectly seasoned tender potatoes for a delicious one-pot meal; top with a fried egg for a hearty brunch.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a large skillet over medium-high heat. Add onions and potatoes; cook and stir until slightly browned, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir in corned beef and season with pepper. Stir in vinegar, 1 tablespoon at a time, cooking for 2 to 3 minutes in between each addition. Partially cover skillet, reduce heat to medium-low, and cook, stirring occasionally, for about 20 minutes or until potatoes are tender."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5c28a2d7-c3ba-5309-91d9-db806b3c8ef1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "450 kcal",
+    "carbohydrateContent": "30 g",
+    "cholesterolContent": "96 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "33 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "1135 mg",
+    "sugarContent": "3 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "23e99086-581a-55ed-86ca-42854e080839",
+      "name": "ounce) cans corned beef",
+      "normalized_name": "ounce cans corned beef",
+      "quantity": "2 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7886893a-b4fe-5736-aa40-1be0b019597b",
+      "name": "cider vinegar",
+      "normalized_name": "cider vinegar",
+      "quantity": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "8480d052-348e-57e9-94e9-edc306f5b2b1",
+      "slug": "corned-beef",
+      "name": "Corned Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5868016f-c4cc-5b4c-baeb-ca0425acfefc",
+      "slug": "corned-beef-recipes",
+      "name": "Corned Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "1377e8b7-e214-5a16-8a8f-8f637f2a7e3f",
+      "slug": "brisket",
+      "name": "Brisket",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18873/one-skillet-corned-beef-hash"
+  },
+  "public": true,
+  "updated_at": 1767736023,
+  "revision": 1
+}

@@ -1,0 +1,235 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9f0f1e44-4686-5cf8-ba5f-41cfe8d5be71",
+  "slug": "chicken-noodle-soup-iii",
+  "name": "Chicken Noodle Soup III",
+  "recipe_type": "soup",
+  "brief_description": "Egg noodles are topped with shredded chicken and bean sprouts, bathed in hot chicken broth, drizzled with thinly sliced shallots cooked in oil and topped with green onion in this quick Asian soup.",
+  "cuisine": "Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a small skillet over medium heat, cook shallots in oil until brown and fragrant. Remove from heat and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Bring a large pot of water to a boil. Cook noodles in boiling water until just tender, 8 to 10 minutes; drain and rinse under cold water. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Bring a small pot of water to a boil; have ready a bowl of ice water. Blanch bean sprouts by plunging them into boiling water for 1 minute, then into cold water. Drain and set aside."
+    },
+    {
+      "position": 4,
+      "text": "In a large saucepan over medium heat, bring chicken broth to a simmer."
+    },
+    {
+      "position": 5,
+      "text": "Divide noodles evenly between 6 bowls. Top with bean sprouts and shredded chicken. Pour the heated broth into the bowls. Drizzle with the shallot mixture and garnish with the green onion. Season with salt and pepper. Serve at once."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9f0f1e44-4686-5cf8-ba5f-41cfe8d5be71/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "384 kcal",
+    "carbohydrateContent": "36 g",
+    "cholesterolContent": "73 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "61 mg",
+    "sugarContent": "4 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "195dd91b-7e16-5008-af4e-050104514749",
+      "name": "shallots",
+      "normalized_name": "shallots",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7f06c2ce-8aca-5415-93da-7ca715bb4e40",
+      "name": "egg noodles",
+      "normalized_name": "egg noodles",
+      "quantity": "6",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "caf57ef1-1c94-5f67-a95a-dba7e07c0b7d",
+      "name": "bean sprouts",
+      "normalized_name": "bean sprouts",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c3110a26-5991-5747-b57a-6af96eb7255f",
+      "name": "quarts chicken broth",
+      "normalized_name": "quarts chicken broth",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "656f0ad5-28b4-5286-8572-b4cd236ebf1b",
+      "name": "shredded",
+      "normalized_name": "shredded",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": "cooked chicken breast meat",
+      "position": 6
+    },
+    {
+      "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
+      "name": "chopped green onion",
+      "normalized_name": "chopped green onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "95237eae-d985-5390-a1a3-cc4324d8aa85",
+      "slug": "noodle-soup",
+      "name": "Noodle Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d8ce8de0-5988-5b3e-939d-b47058698406",
+      "slug": "chicken-pasta",
+      "name": "Chicken Pasta",
+      "color": null
+    },
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25758/chicken-noodle-soup-iii"
+  },
+  "public": true,
+  "updated_at": 1738017383,
+  "revision": 1
+}

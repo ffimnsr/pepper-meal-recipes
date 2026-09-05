@@ -1,0 +1,219 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a745a766-bb16-5ed3-90df-ecd6f17b7e21",
+  "slug": "fennel-risotto",
+  "name": "Fennel Risotto",
+  "recipe_type": "main",
+  "brief_description": "This rich, creamy fennel risotto recipe uses fennel bulbs, Arborio rice, and heavy cream. You can swap chicken stock for vegetable and oil for butter.",
+  "cuisine": "Italian Inspired American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cut base off fennel bulbs, then cut a cone shape into bases to remove cores. Slice fennel bulbs vertically (lengthwise) into \u00bc-inch thick slices."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a heavy-bottomed stock pot over medium heat. Add fennel and onion; cook for 2 minutes. Stir in rice; cook for 2 minutes, stirring constantly, until rice is lightly toasted. Stir in 1 cup vegetable broth; continue stirring until liquid is almost completely absorbed. Repeat process with remaining broth, stirring constantly. Incorporating broth should take 15 to 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir in cream, 3 tablespoons Parmesan cheese, and parsley; cook until rice is tender yet firm to the bite and risotto is thick and creamy. Season with black pepper. Divide risotto among bowls; sprinkle with remaining 3 tablespoons Parmesan cheese."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a745a766-bb16-5ed3-90df-ecd6f17b7e21/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "537 kcal",
+    "carbohydrateContent": "81 g",
+    "cholesterolContent": "64 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "725 mg",
+    "sugarContent": "5 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "de2cafe3-4be7-5d2e-bd0b-fb020895ed09",
+      "name": "bulbs fennel",
+      "normalized_name": "bulbs fennel",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "1a6b198e-98f0-5ff3-a10d-692470fc6ed5",
+      "name": "uncooked arborio rice",
+      "normalized_name": "uncooked arborio rice",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "7",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0d9540ed-f036-58af-a069-b148b895ce06",
+      "name": "freshly grated parmesan cheese",
+      "normalized_name": "freshly grated parmesan cheese",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "c7f94c24-41b4-5f73-9a71-06be56833d48",
+      "name": "dried parsley",
+      "normalized_name": "dried parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "33f59aae-9c0f-597c-b519-8bfc4aae58b6",
+      "name": "freshly ground black pepper to taste",
+      "normalized_name": "freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "01359e67-e8a2-58b2-9547-4595faf03021",
+      "slug": "risotto",
+      "name": "Risotto"
+    }
+  ],
+  "tags": [
+    {
+      "id": "350013f8-2f45-510a-9b9f-63b3c7f40dc9",
+      "slug": "risotto-recipes",
+      "name": "Risotto Recipes",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "39cb0500-8f1b-5ba4-9e23-b75d590435ce",
+      "slug": "fennel",
+      "name": "Fennel",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/109548/fennel-risotto"
+  },
+  "public": true,
+  "updated_at": 1744746604,
+  "revision": 1
+}

@@ -1,0 +1,229 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "32e22f34-5ea6-5d4d-aedd-9afcaa2abd4d",
+  "slug": "cheesy-chicken-pot-pie",
+  "name": "Cheesy Chicken Pot Pie",
+  "recipe_type": "main",
+  "brief_description": "This cheesy chicken pot pie is the best meat pie I have ever eaten! This recipe makes good use of any chicken or turkey leftovers. Great comfort food.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a medium saucepan combine the stock, chicken, peas, celery, and carrots. Bring to a boil."
+    },
+    {
+      "position": 2,
+      "text": "Mix cornstarch with milk and stir into the stock mixture. Cook stirring constantly for 5 minutes. Remove from heat and let cool for 1 hour."
+    },
+    {
+      "position": 3,
+      "text": "Preheat the oven to 325 degrees F (175 degrees C)."
+    },
+    {
+      "position": 4,
+      "text": "Stir cheese into the filling mixture and pour into a 9-inch pie crust. Top with second crust, seal edges, and cut slits in the top crust. Place on a cookie sheet and bake for 35 to 40 minutes or until the top crust is golden brown."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/32e22f34-5ea6-5d4d-aedd-9afcaa2abd4d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "370 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "39 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "579 mg",
+    "sugarContent": "1 g",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "69646184-d5a7-5b5c-a092-cf1ea7d77a0f",
+      "name": "cooked",
+      "normalized_name": "cooked",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "shredded chicken meat",
+      "position": 2
+    },
+    {
+      "ingredient_id": "ac449163-5294-5400-84e0-8b81254820c4",
+      "name": "green peas",
+      "normalized_name": "green peas",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "78e1afaf-f62e-57c5-8cbb-7a61169cf714",
+      "name": "diced celery",
+      "normalized_name": "diced celery",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7016fb71-767f-51fe-aad2-1ae23d00d913",
+      "name": "diced carrots",
+      "normalized_name": "diced carrots",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5a8a8ec9-d27d-565d-8816-31037c684634",
+      "name": "recipe pastry for a 9 inch double crust pie",
+      "normalized_name": "recipe pastry for a 9 inch double crust pie",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "fddcd10d-32a3-5d59-ab5d-4373e920f350",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "73d15f3b-ba62-57e7-af10-1b51c8972f27",
+      "slug": "green-peas",
+      "name": "Green Peas",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "595797f7-b95d-5e7b-b31e-28a868ee7be8",
+      "slug": "pot-pie-recipes",
+      "name": "Pot Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "6b54408f-a141-55e2-bfbf-65fb38f89659",
+      "slug": "chicken-pot-pie-recipes",
+      "name": "Chicken Pot Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12690/cheesy-chicken-pot-pie"
+  },
+  "public": true,
+  "updated_at": 1777862690,
+  "revision": 1
+}

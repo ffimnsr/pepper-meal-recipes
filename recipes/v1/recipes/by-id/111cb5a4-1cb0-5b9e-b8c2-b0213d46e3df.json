@@ -1,0 +1,288 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "111cb5a4-1cb0-5b9e-b8c2-b0213d46e3df",
+  "slug": "classic-goulash",
+  "name": "Classic Goulash",
+  "recipe_type": "soup",
+  "brief_description": "This goulash recipe is made on the stovetop with ground beef, tomatoes, herbs, and mararoni for a classic one-pot meal the whole family will enjoy.",
+  "cuisine": "Eastern European American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a large Dutch oven over medium-high heat. Add onion and cook 3 minutes, stirring often."
+    },
+    {
+      "position": 3,
+      "text": "Add ground beef and cook, breaking up the meat until it is evenly browned, about 5 minutes. Add garlic and cook 3 minutes, stirring often."
+    },
+    {
+      "position": 4,
+      "text": "Stir in water, tomato sauce, diced tomatoes, soy sauce, Italian seasoning, seasoned salt, and bay leaves. Bring to a simmer, cover and cook 5 minutes, stirring halfway through."
+    },
+    {
+      "position": 5,
+      "text": "Stir in uncooked macaroni, cover, and simmer over medium heat until pasta is tender, 11 to 13 minutes, stirring occasionally."
+    },
+    {
+      "position": 6,
+      "text": "Remove from heat, discard bay leaves, and serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/111cb5a4-1cb0-5b9e-b8c2-b0213d46e3df/cover.jpg",
+  "video_url": "https://cdn.jwplayer.com/videos/vO4gDmob-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "476 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "85 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "27 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "1476 mg",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "456ee8fa-812e-5f58-b6f6-1b115345d915",
+      "name": "large yellow onion",
+      "normalized_name": "large yellow onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "4385d971-031f-546d-a4c7-8b3b13e118c8",
+      "name": "green pepper",
+      "normalized_name": "green pepper",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "c2492b8f-9f43-5a3b-b6da-3fb1ec534616",
+      "name": "ounce) cans tomato sauce",
+      "normalized_name": "ounce cans tomato sauce",
+      "quantity": "2 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b6b2558b-c1d0-5d53-a668-cd6f559162a9",
+      "name": "ounce) cans diced tomatoes",
+      "normalized_name": "ounce cans diced tomatoes",
+      "quantity": "2 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "992999ea-f8eb-5270-9dc9-5637c76fc2d2",
+      "name": "dried italian herb seasoning",
+      "normalized_name": "dried italian herb seasoning",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "5cbf4376-30a9-5afa-8f56-d60e87b1c964",
+      "name": "seasoned salt",
+      "normalized_name": "seasoned salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or to taste",
+      "position": 11
+    },
+    {
+      "ingredient_id": "894756ff-a1b1-5651-b3de-687c810264ac",
+      "name": "bay leaves",
+      "normalized_name": "bay leaves",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "9cd0a47c-2d1c-5d2e-b32e-ced7422c2647",
+      "name": "uncooked elbow macaroni",
+      "normalized_name": "uncooked elbow macaroni",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "ffe557e2-ef6a-50c9-a01c-2201ed46a09b",
+      "slug": "goulash",
+      "name": "Goulash"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4ec7a9de-0aeb-5672-a472-d6645fe7a485",
+      "slug": "goulash-recipes",
+      "name": "Goulash Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213268/classic-goulash"
+  },
+  "public": true,
+  "updated_at": 1786128571,
+  "revision": 1
+}

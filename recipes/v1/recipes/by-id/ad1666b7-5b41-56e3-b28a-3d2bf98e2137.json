@@ -1,0 +1,229 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ad1666b7-5b41-56e3-b28a-3d2bf98e2137",
+  "slug": "guinness-bread",
+  "name": "Guinness Bread",
+  "recipe_type": "soup",
+  "brief_description": "This Guinness beer bread made with buttermilk and Irish stout is an incredibly flavorful and hearty brown soda bread that's great with soup.",
+  "cuisine": "Irish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 425 degrees F (220 degrees C). Grease an 8x8-inch baking pan."
+    },
+    {
+      "position": 2,
+      "text": "Mix oats, flour, sugar, baking soda, baking powder, and salt together in a bowl. Stir butter, vanilla, buttermilk, and Guinness together in a separate large bowl. Pour flour mixture into beer mixture, and gently stir until well combined. Pour batter into the prepared baking pan, and sprinkle with additional oats if desired."
+    },
+    {
+      "position": 3,
+      "text": "Bake in preheated oven for 30 minutes, then turn the temperature down to 400 degrees F (200 degrees C), and bake for an additional 30 minutes. Turn the oven off, open the door, and allow to cool for 30 minutes in the oven before turning out onto a wire rack."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ad1666b7-5b41-56e3-b28a-3d2bf98e2137/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "185 kcal",
+    "carbohydrateContent": "30 g",
+    "cholesterolContent": "11 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "401 mg",
+    "sugarContent": "10 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "313d4d75-be37-52a1-bd6a-4f7490e53b23",
+      "name": "regular rolled oats",
+      "normalized_name": "regular rolled oats",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "plus additional",
+      "position": 1
+    },
+    {
+      "ingredient_id": "b5404ae1-14cb-5d02-8b60-2836ddf2795c",
+      "name": "whole wheat flour",
+      "normalized_name": "whole wheat flour",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
+      "name": "melted butter",
+      "normalized_name": "melted butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "950239d2-8408-5a49-a8bd-7298ae896627",
+      "name": "buttermilk",
+      "normalized_name": "buttermilk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "e84df2dd-8f47-57db-af72-2ef57a22360d",
+      "name": "fluid ounce) can or bottle guinness\u00ae beer",
+      "normalized_name": "fluid ounce can or bottle guinness beer",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "912bd024-7276-54a8-a0e2-9bfd8f94509b",
+      "slug": "irish-soda-bread",
+      "name": "Irish Soda Bread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1d4733c4-66d8-5d51-adcc-8be1539827b8",
+      "slug": "irish-soda-bread-recipes",
+      "name": "Irish Soda Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "a4b5e8ec-448d-5625-ba32-c1b390f72278",
+      "slug": "irish",
+      "name": "Irish",
+      "color": null
+    },
+    {
+      "id": "067e28fc-e546-505a-a281-11831c6be52a",
+      "slug": "uk-and-ireland",
+      "name": "UK and Ireland",
+      "color": null
+    },
+    {
+      "id": "008f2628-10aa-5ed8-8067-4b8db700670f",
+      "slug": "st-patrick-s-day",
+      "name": "St. Patrick's Day",
+      "color": null
+    },
+    {
+      "id": "95096cde-996b-5a1b-8a3c-6f7dc7603dc1",
+      "slug": "guinness",
+      "name": "Guinness\u00a8",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "146ace16-9742-534c-949a-429f3f750c32",
+      "slug": "wheat-bread",
+      "name": "Wheat Bread",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/109907/guinness-bread"
+  },
+  "public": true,
+  "updated_at": 1767207076,
+  "revision": 1
+}

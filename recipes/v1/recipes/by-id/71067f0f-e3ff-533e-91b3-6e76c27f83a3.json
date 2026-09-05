@@ -1,0 +1,191 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "71067f0f-e3ff-533e-91b3-6e76c27f83a3",
+  "slug": "lazy-pierogi",
+  "name": "Lazy Pierogi",
+  "recipe_type": "main",
+  "brief_description": "For this tasty pierogi casserole, sauerkraut, onion, mushrooms, and pasta are combined and baked in a rich, buttery sauce. If you are making this ahead and are going to reheat it in the oven you may have to add a little water. If cold, bake at 350 degrees for 1 1/2 to 2 hours.",
+  "cuisine": "Polish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place the sauerkraut and onion in a large skillet over medium-low heat with enough water to cover. Simmer 1 hour, or until most of the water has cooked off."
+    },
+    {
+      "position": 2,
+      "text": "Bring a large pot of lightly salted water to a boil. Add rotini and cook for 8 to 10 minutes or until al dente; drain."
+    },
+    {
+      "position": 3,
+      "text": "In a medium skillet over medium heat, saute the mushrooms in 2 tablespoons of the butter for about 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Stir the remaining butter, cooked pasta, and cream of mushroom soup into the sauerkraut mixture. Cook and stir 15 minutes, or until heated through."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 80,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/71067f0f-e3ff-533e-91b3-6e76c27f83a3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "529 kcal",
+    "carbohydrateContent": "58 g",
+    "cholesterolContent": "61 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "16 g",
+    "sodiumContent": "1787 mg",
+    "sugarContent": "7 g",
+    "fatContent": "29 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3e5d8891-729e-55a6-be7a-1d45ae0566ef",
+      "name": "sauerkraut",
+      "normalized_name": "sauerkraut",
+      "quantity": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "5b9f1de9-031d-56ca-b891-e412c578aa2f",
+      "name": "uncooked rotini pasta",
+      "normalized_name": "uncooked rotini pasta",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "dbadff2b-40cb-5a7c-be14-28f1a1f4c7e4",
+      "name": "fresh mushrooms",
+      "normalized_name": "fresh mushrooms",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "29e9d221-387b-51d5-bfe3-27f1a94f0538",
+      "name": "ounce) cans condensed cream of mushroom soup",
+      "normalized_name": "ounce cans condensed cream of mushroom soup",
+      "quantity": "2 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "46c02b25-ccda-5524-9b75-a5b0982db47d",
+      "slug": "dumpling",
+      "name": "Dumpling"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bf928f4c-2a6a-5c01-9ecf-243b9f58a15b",
+      "slug": "dumpling-recipes",
+      "name": "Dumpling Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "ca08f9ed-0a49-5e17-babf-f2f09c200afa",
+      "slug": "pierogi-recipes",
+      "name": "Pierogi Recipes",
+      "color": null
+    },
+    {
+      "id": "fb441386-361f-566c-97ca-0e1a68d513c3",
+      "slug": "polish",
+      "name": "Polish",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "9247e915-94df-5936-8bb0-46841c369b86",
+      "slug": "casseroles",
+      "name": "Casseroles",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18834/lazy-pierogi"
+  },
+  "public": true,
+  "updated_at": 1521648551,
+  "revision": 1
+}

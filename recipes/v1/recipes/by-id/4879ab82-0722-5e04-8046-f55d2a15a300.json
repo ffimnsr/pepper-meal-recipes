@@ -1,0 +1,244 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4879ab82-0722-5e04-8046-f55d2a15a300",
+  "slug": "awesome-irish-nachos",
+  "name": "Awesome Irish Nachos",
+  "recipe_type": "appetizer",
+  "brief_description": "These Irish nachos feature waffle fries garnished with fresh tomatoes, olives, jalape\u00f1os, and lettuce for a first-rate St. Patrick's Day appetizer.",
+  "cuisine": "Irish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 450 degrees F (230 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Arrange waffle fries in a single layer on a rimmed baking sheet."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until light golden in color, 12 to 20 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Meanwhile, cook and stir ground beef in a large skillet until browned and crumbly, 5 to 7 minutes. Drain excess grease. Stir in taco seasoning and cook for 1 to 2 minutes more."
+    },
+    {
+      "position": 5,
+      "text": "Transfer baked fries to a 9x13-inch baking pan. Spread seasoned ground beef evenly over fries. Cover beef with cheese."
+    },
+    {
+      "position": 6,
+      "text": "Return to the oven until cheese has melted, about 5 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Garnish with tomatoes, olives, jalape\u00f1os, and lettuce to serve. Dollop sour cream and guacamole on top."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4879ab82-0722-5e04-8046-f55d2a15a300/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "349 kcal",
+    "carbohydrateContent": "18 g",
+    "cholesterolContent": "65 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "758 mg",
+    "sugarContent": "2 g",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2730190e-2233-5bdb-ac8d-e1f6dd54e2cd",
+      "name": "ounce) package frozen waffle fries",
+      "normalized_name": "ounce package frozen waffle fries",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "78113d6a-7ca1-56b0-9e0d-4df03fab851a",
+      "name": "ounce) package taco seasoning",
+      "normalized_name": "ounce package taco seasoning",
+      "quantity": "1 (1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "fe522b9d-4d14-5803-897e-63bd781f5264",
+      "name": "ounce) package shredded mexican cheese blend",
+      "normalized_name": "ounce package shredded mexican cheese blend",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "95521cf2-b4b6-5516-9702-6c921ab9e195",
+      "name": "diced tomatoes",
+      "normalized_name": "diced tomatoes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "98e57fe8-6ef2-57c0-883b-b3064b358ea0",
+      "name": "sliced black olives",
+      "normalized_name": "sliced black olives",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e6fedb72-b169-539b-86fe-f87d9bbef6c9",
+      "name": "sliced jalapeno peppers",
+      "normalized_name": "sliced jalapeno peppers",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0329f8aa-ef53-569f-83b5-544740aa898d",
+      "name": "leaves romaine lettuce",
+      "normalized_name": "leaves romaine lettuce",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 9
+    },
+    {
+      "ingredient_id": "a4eb42ed-cc7d-56ee-8174-83d2a7281216",
+      "name": "guacamole",
+      "normalized_name": "guacamole",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "f673a69e-2a69-53a3-8baa-b2314639be89",
+      "slug": "cheese",
+      "name": "Cheese"
+    },
+    {
+      "id": "cf540d83-c29c-5df1-a2d1-13dae174c4bf",
+      "slug": "nachos",
+      "name": "Nachos"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "a4b5e8ec-448d-5625-ba32-c1b390f72278",
+      "slug": "irish",
+      "name": "Irish",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "067e28fc-e546-505a-a281-11831c6be52a",
+      "slug": "uk-and-ireland",
+      "name": "UK and Ireland",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/270922/awesome-irish-nachos"
+  },
+  "public": true,
+  "updated_at": 1709582926,
+  "revision": 1
+}

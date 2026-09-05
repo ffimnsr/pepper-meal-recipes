@@ -1,0 +1,226 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7b4bfcae-23f9-52bf-9ec1-62db7d786d4a",
+  "slug": "holiday-sangria",
+  "name": "Holiday Sangria",
+  "recipe_type": "drink",
+  "brief_description": "A clove pomander adds a festive touch to this red wine sangria made with brandy, orange liqueur, and fresh citrus.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Pour Rioja into a large pitcher. Add brandy and orange liqueur. Cut orange, grapefruit, and lemon into wedges. Squeeze juice into the pitcher. Toss in fruit with rinds. Refrigerate until flavors combine, 8 hours to overnight."
+    },
+    {
+      "position": 2,
+      "text": "Add pomander to the sangria several hours before serving."
+    },
+    {
+      "position": 3,
+      "text": "Strain liquid into chilled glasses of ice. Top with a splash of seltzer. Garnish with lime slices."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7b4bfcae-23f9-52bf-9ec1-62db7d786d4a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "287 kcal",
+    "carbohydrateContent": "34 g",
+    "fiberContent": "3 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "8 mg",
+    "sugarContent": "24 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "329abc16-45a0-5f3f-9d34-0d89742d844f",
+      "name": "milliliter) bottle rioja red wine",
+      "normalized_name": "milliliter bottle rioja red wine",
+      "quantity": "1 (750",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2511e36e-545d-5b30-97d7-e2df8acae4d4",
+      "name": "brandy",
+      "normalized_name": "brandy",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3eea3fb2-db51-524d-893a-198a64d5c46b",
+      "name": "fluid ounce) jiggers orange-flavored liqueur (such as cointreau\u00ae)",
+      "normalized_name": "fluid ounce jiggers orange-flavored liqueur",
+      "quantity": "3 (1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "74e92def-d64f-544c-a882-1e769cac40ce",
+      "name": "large orange",
+      "normalized_name": "large orange",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "480d753e-197d-554e-9a47-7e90252118ab",
+      "name": "large grapefruit",
+      "normalized_name": "large grapefruit",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1a953445-bbf6-57a7-aa37-b2cfa9b893a8",
+      "name": "large lemon",
+      "normalized_name": "large lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f99b0f2b-bd8f-51e8-8027-45391fe8d9ea",
+      "name": "pomander",
+      "normalized_name": "pomander",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "08679e7b-f145-5372-9939-fd5795ab6def",
+      "name": "lemon seltzer water",
+      "normalized_name": "lemon seltzer water",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "6c432256-96fd-513b-bf60-307b282d3398",
+      "name": "limes",
+      "normalized_name": "limes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "4fe9efe4-15fd-5f94-9961-25de12b74509",
+      "slug": "cocktail",
+      "name": "Cocktail"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "91d8cf7f-5cb0-5ff0-9e37-4aaabb4f57fd",
+      "slug": "sangria",
+      "name": "Sangria"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "5087d45c-0b6c-50de-9d81-79f1fb65f8f8",
+      "slug": "limes",
+      "name": "Limes",
+      "color": null
+    },
+    {
+      "id": "3e15e093-b465-5738-bc6e-2753b83b9383",
+      "slug": "adult-punch-recipes",
+      "name": "Adult Punch Recipes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "f0decdd4-0259-5932-b65f-943543dd4242",
+      "slug": "cocktail-recipes",
+      "name": "Cocktail Recipes",
+      "color": null
+    },
+    {
+      "id": "08cc9044-5b95-5fd2-abea-7ffaa8f9aafc",
+      "slug": "oranges",
+      "name": "Oranges",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "baf2993a-351e-520b-9a29-cc3b5449a541",
+      "slug": "lemons",
+      "name": "Lemons",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/269412/holiday-sangria"
+  },
+  "public": true,
+  "updated_at": 1742102031,
+  "revision": 1
+}

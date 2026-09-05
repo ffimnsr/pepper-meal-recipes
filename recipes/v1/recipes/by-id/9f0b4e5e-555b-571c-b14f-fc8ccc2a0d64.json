@@ -1,0 +1,240 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9f0b4e5e-555b-571c-b14f-fc8ccc2a0d64",
+  "slug": "seitan-fajitas",
+  "name": "Seitan Fajitas",
+  "recipe_type": "main",
+  "brief_description": "This recipe with seitan strips, a wheat gluten-based meat alternative, makes spicy vegetarian fajitas stuffed with bell peppers, onion, and garlic.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a large skillet over medium heat; cook and stir bell peppers and onion in hot oil until tender, 3 to 5 minutes. Add seitan, soy sauce, garlic, chili powder, paprika, and cumin; cook and stir until seitan is heated through, 7 to 10 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Spoon seitan filling onto each tortilla and fold tortilla around filling."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9f0b4e5e-555b-571c-b14f-fc8ccc2a0d64/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "424 kcal",
+    "carbohydrateContent": "67 g",
+    "fiberContent": "7 g",
+    "proteinContent": "30 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "925 mg",
+    "sugarContent": "3 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into strips",
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into strips",
+      "position": 3
+    },
+    {
+      "ingredient_id": "1543bb0f-a3d8-599f-8054-c270a9e88998",
+      "name": "yellow bell pepper",
+      "normalized_name": "yellow bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into strips",
+      "position": 4
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "60ae8906-c06e-5347-aab1-53ba96b16ddf",
+      "name": "seitan",
+      "normalized_name": "seitan",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into strips",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0154fe6f-4eed-55b2-bc9c-d5b54ee80ddd",
+      "name": "reduced-sodium soy sauce",
+      "normalized_name": "reduced-sodium soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "32561c41-ddd0-5aab-bad7-8f95223374df",
+      "name": "whole grain tortillas",
+      "normalized_name": "whole grain tortillas",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "38220ae3-3746-52e3-8e0c-9e4a5307cb7a",
+      "slug": "fajita",
+      "name": "Fajita"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    },
+    {
+      "id": "bf0b75d6-5c24-587e-9f5a-2f5b9f4ea84d",
+      "slug": "seitan",
+      "name": "Seitan",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "301bad8a-6e1f-553c-a80c-5128b923b5b0",
+      "slug": "chili-powder-recipes",
+      "name": "Chili Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237343/seitan-fajitas"
+  },
+  "public": true,
+  "updated_at": 1679943393,
+  "revision": 1
+}

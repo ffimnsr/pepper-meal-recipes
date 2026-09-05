@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e0bc9936-d0de-5b4a-8daa-03fa3a477798",
+  "slug": "very-easy-risotto",
+  "name": "Very Easy Risotto",
+  "recipe_type": "main",
+  "brief_description": "This easy risotto recipe is made with sautee\u00e9d green onion and Parmesan for a quick and easy stovetop dish that doesn't require constant stirring.",
+  "cuisine": "Italian Inspired Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large skillet over medium-high heat. Cook and stir green onion in hot butter briefly, then add rice. Cook and stir until rice is toasted, 2 to 3 minutes. Pour in water; season with chicken bouillon and pepper. Bring to a boil, then reduce heat to medium-low. Cover and simmer for 20 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Remove from heat. Let stand, covered, for 5 minutes. Stir in Parmesan cheese."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e0bc9936-d0de-5b4a-8daa-03fa3a477798/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "243 kcal",
+    "carbohydrateContent": "34 g",
+    "cholesterolContent": "21 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "284 mg",
+    "sugarContent": "1 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "39b5aef7-9802-5b8d-98b6-11664e0c4dc6",
+      "name": "sliced green onion",
+      "normalized_name": "sliced green onion",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2ab0bef1-eff6-5bfc-bc33-090dd7a0b26c",
+      "name": "uncooked long-grain rice",
+      "normalized_name": "uncooked long-grain rice",
+      "quantity": "1.3333333730698",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "28b6d869-be59-5e65-89bf-d479d36a5365",
+      "name": "chicken bouillon granules",
+      "normalized_name": "chicken bouillon granules",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "01359e67-e8a2-58b2-9547-4595faf03021",
+      "slug": "risotto",
+      "name": "Risotto"
+    }
+  ],
+  "tags": [
+    {
+      "id": "350013f8-2f45-510a-9b9f-63b3c7f40dc9",
+      "slug": "risotto-recipes",
+      "name": "Risotto Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "17f4c204-15f9-596a-8568-681c02f3617f",
+      "slug": "300-calorie-main-dish-recipes",
+      "name": "300 Calorie Main Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18340/very-easy-risotto"
+  },
+  "public": true,
+  "updated_at": 1773676113,
+  "revision": 1
+}

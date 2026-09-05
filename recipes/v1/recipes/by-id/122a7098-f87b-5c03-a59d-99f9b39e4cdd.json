@@ -1,0 +1,238 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "122a7098-f87b-5c03-a59d-99f9b39e4cdd",
+  "slug": "chicken-corn-chowder",
+  "name": "Chicken Corn Chowder",
+  "recipe_type": "soup",
+  "brief_description": "Homemade chicken broth is combined with onion, shallots, potatoes, corn and cream in this simple, hearty chowder.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place chicken carcass (and any leftover skin and meat and other bones) in a large pot and cover with cold water. Add bay leaf, and bring to a boil. Reduce heat, and simmer 60 to 90 minutes. Remove from heat, cool slightly, and strain. Remove chicken meat from carcass, and chop into bite-size pieces."
+    },
+    {
+      "position": 2,
+      "text": "In a large saucepan over medium heat, melt butter. Cook onion and shallots in butter until translucent. Pour in strained broth and chicken meat and stir in bouillon, parsley, salt, pepper, potatoes and corn. Simmer 15 minutes, until potatoes are cooked and corn is tender. Remove from heat and stir in cream."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 75,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/122a7098-f87b-5c03-a59d-99f9b39e4cdd/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": null,
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "20069b68-a3f0-59a8-980c-389731722963",
+      "name": "chicken carcass",
+      "normalized_name": "chicken carcass",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "195dd91b-7e16-5008-af4e-050104514749",
+      "name": "shallots",
+      "normalized_name": "shallots",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "3ce4bb58-0809-5770-b087-cde27facb41c",
+      "name": "cubes chicken bouillon",
+      "normalized_name": "cubes chicken bouillon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "crumbled",
+      "position": 6
+    },
+    {
+      "ingredient_id": "c7f94c24-41b4-5f73-9a71-06be56833d48",
+      "name": "dried parsley",
+      "normalized_name": "dried parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and diced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "c7140fd4-d0a3-5831-8a5a-0114a00a86d1",
+      "name": "frozen corn kernels",
+      "normalized_name": "frozen corn kernels",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    },
+    {
+      "id": "bb9022e2-8ff4-5c69-8747-92f78a8cbce3",
+      "slug": "corn-chowder",
+      "name": "Corn Chowder"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b1da4043-161f-5b59-b102-87a72b0cd40a",
+      "slug": "corn-chowder-recipes",
+      "name": "Corn Chowder Recipes",
+      "color": null
+    },
+    {
+      "id": "f4182272-3374-5426-b64c-8cd8cd875fab",
+      "slug": "sugar-free",
+      "name": "Sugar-Free",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "80ad79e0-5f27-5ec9-8ff8-fb2e86697ebc",
+      "slug": "shallots",
+      "name": "Shallots",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26378/chicken-corn-chowder"
+  },
+  "public": true,
+  "updated_at": 1738443346,
+  "revision": 1
+}

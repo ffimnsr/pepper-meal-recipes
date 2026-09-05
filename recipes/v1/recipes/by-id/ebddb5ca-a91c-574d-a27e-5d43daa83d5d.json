@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ebddb5ca-a91c-574d-a27e-5d43daa83d5d",
+  "slug": "chocolate-peanut-butter-energy-balls",
+  "name": "Chocolate Peanut Butter Energy Balls",
+  "recipe_type": "appetizer",
+  "brief_description": "These no-bake energy balls are made with oats, peanut butter, coconut, chocolate chips, and cranberries. They make an excellent pre-workout snack.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine oats, peanut butter, shredded coconut, chocolate chips, cranberries, almond milk, and honey in a bowl and mix thoroughly."
+    },
+    {
+      "position": 2,
+      "text": "Roll mixture into bite-size balls and arrange on a baking sheet. Refrigerate until set, at least 15 minutes."
+    }
+  ],
+  "servings": 34,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ebddb5ca-a91c-574d-a27e-5d43daa83d5d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "240 kcal",
+    "carbohydrateContent": "22 g",
+    "fiberContent": "4 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "58 mg",
+    "sugarContent": "11 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e46041fc-9c4a-585a-99d3-941cd4c1bfa2",
+      "name": "quick cooking oats",
+      "normalized_name": "quick cooking oats",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "feb11255-05ac-5c55-9511-983298d2f446",
+      "name": "natural peanut butter",
+      "normalized_name": "natural peanut butter",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d422096a-02a6-529d-91d7-93417a766a16",
+      "name": "dry unsweetened shredded coconut",
+      "normalized_name": "dry unsweetened shredded coconut",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0e674c17-9ab0-548f-a468-c58e120140a2",
+      "name": "chocolate chips",
+      "normalized_name": "chocolate chips",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3aac79cd-69ec-521d-bf79-2578b95c386c",
+      "name": "dried cranberries",
+      "normalized_name": "dried cranberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a463ed5f-49ab-5fc6-ba7a-b86c6d796a5d",
+      "name": "almond milk",
+      "normalized_name": "almond milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bea70f6b-83d1-547c-b292-dc14e80b6239",
+      "slug": "cooking-for-a-crowd-recipes",
+      "name": "Cooking for a Crowd Recipes",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "74cad312-fe37-5624-bbec-5ec3e0dd5a7e",
+      "slug": "coconuts",
+      "name": "Coconuts",
+      "color": null
+    },
+    {
+      "id": "8029a0d6-9f55-5784-8665-fdd07e948974",
+      "slug": "energy-ball-recipes",
+      "name": "Energy Ball Recipes",
+      "color": null
+    },
+    {
+      "id": "4fe5fe2f-c3bd-5b9f-80cc-96bc9aaf2251",
+      "slug": "oat-recipes",
+      "name": "Oat Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/264656/chocolate-peanut-butter-energy-balls"
+  },
+  "public": true,
+  "updated_at": 1526794711,
+  "revision": 1
+}

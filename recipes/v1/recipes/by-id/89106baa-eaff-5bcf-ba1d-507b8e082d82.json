@@ -1,0 +1,207 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "89106baa-eaff-5bcf-ba1d-507b8e082d82",
+  "slug": "apple-crisp-topping",
+  "name": "Apple Crisp Topping",
+  "recipe_type": "dessert",
+  "brief_description": "This simple apple crisp topping is a quick and easy recipe that combines oats, butter, brown sugar, and cinnamon for the perfect topping for any fruit crumble.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Combine brown sugar, flour, cinnamon, salt, and cardamom in a large bowl. Cut in butter until blended and the mixture resembles small peas."
+    },
+    {
+      "position": 3,
+      "text": "Mix in oats with a wooden spoon."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/89106baa-eaff-5bcf-ba1d-507b8e082d82/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "301 kcal",
+    "carbohydrateContent": "37 g",
+    "cholesterolContent": "41 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "212 mg",
+    "sugarContent": "18 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ea2ad59d-a51b-5a0c-830b-c0053dc651ba",
+      "name": "ground cardamom",
+      "normalized_name": "ground cardamom",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "4f28533b-45b7-5cce-8ccb-8a0f71f11c06",
+      "name": "rolled oats",
+      "normalized_name": "rolled oats",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "6aec5b4e-5dad-5a47-b4a6-2ce607cc6a3b",
+      "slug": "crisps-and-crumble",
+      "name": "Crisps and Crumble"
+    },
+    {
+      "id": "eeb07f2d-076f-59d8-94be-80bdb229dff0",
+      "slug": "apple-crisps-and-crumbles",
+      "name": "Apple Crisps and Crumbles"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "038bebf6-15b1-553f-8a1d-94f11ace5695",
+      "slug": "cobblers",
+      "name": "Cobblers",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "3a59388b-9e6e-563d-a902-fb34f36c079d",
+      "slug": "apple-crisps-and-crumbles-recipes",
+      "name": "Apple Crisps and Crumbles Recipes",
+      "color": null
+    },
+    {
+      "id": "c6f90ac9-f4db-5013-8421-b6bc16d4e922",
+      "slug": "crisps-and-crumble-recipes",
+      "name": "Crisps and Crumble Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "f654140a-5ccd-512e-88b5-325b8b2cbbd5",
+      "slug": "butter-recipes",
+      "name": "Butter Recipes",
+      "color": null
+    },
+    {
+      "id": "4fe5fe2f-c3bd-5b9f-80cc-96bc9aaf2251",
+      "slug": "oat-recipes",
+      "name": "Oat Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/259609/apple-crisp-topping"
+  },
+  "public": true,
+  "updated_at": 1761607681,
+  "revision": 1
+}

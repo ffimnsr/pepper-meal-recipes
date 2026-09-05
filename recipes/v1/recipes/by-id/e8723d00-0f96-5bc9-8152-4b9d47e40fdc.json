@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e8723d00-0f96-5bc9-8152-4b9d47e40fdc",
+  "slug": "potato-scones",
+  "name": "Potato Scones",
+  "recipe_type": "dessert",
+  "brief_description": "These tattie scones are similar to potato pancakes and are a traditional Scottish and Irish breakfast dish made with leftover mashed potatoes cooked on a hot griddle until golden brown.",
+  "cuisine": "Irish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Heat a lightly greased griddle or cast iron skillet over medium-high heat."
+    },
+    {
+      "position": 2,
+      "text": "Mash potatoes with flour, butter, and salt in a large bowl until a stiff dough forms."
+    },
+    {
+      "position": 3,
+      "text": "Turn dough out onto a lightly floured work surface. Knead dough lightly and roll dough out to a 1/2-inch-thick circle. Cut into 6 equal wedges."
+    },
+    {
+      "position": 4,
+      "text": "Working in batches, cook scones on the hot griddle until golden brown, 4 to 5 minutes per side."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e8723d00-0f96-5bc9-8152-4b9d47e40fdc/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "198 kcal",
+    "carbohydrateContent": "29 g",
+    "cholesterolContent": "20 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "308 mg",
+    "sugarContent": "1 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b8c4d3fe-484d-5e6b-ac68-c0f15285dda1",
+      "name": "cooked potatoes",
+      "normalized_name": "cooked potatoes",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "19627330-037a-5232-baf2-bba90d980e4c",
+      "name": "self-rising flour",
+      "normalized_name": "self-rising flour",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "6206ee95-2703-5f3e-8408-f3e55059c31b",
+      "slug": "holiday-bread-recipes",
+      "name": "Holiday Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "a4b5e8ec-448d-5625-ba32-c1b390f72278",
+      "slug": "irish",
+      "name": "Irish",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "067e28fc-e546-505a-a281-11831c6be52a",
+      "slug": "uk-and-ireland",
+      "name": "UK and Ireland",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241419/potato-scones"
+  },
+  "public": true,
+  "updated_at": 1763998586,
+  "revision": 1
+}

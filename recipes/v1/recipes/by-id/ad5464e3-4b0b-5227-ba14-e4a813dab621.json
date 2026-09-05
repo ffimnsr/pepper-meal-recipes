@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ad5464e3-4b0b-5227-ba14-e4a813dab621",
+  "slug": "best-oyster-chowder-ever",
+  "name": "Best Oyster Chowder Ever",
+  "recipe_type": "soup",
+  "brief_description": "Fresh oysters mixed with potatoes and corn in a cream base make the best oyster chowder ever.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook oysters and reserved liquid in a skillet over medium heat until edges curl, 5 to 10 minutes. Remove skillet from heat."
+    },
+    {
+      "position": 2,
+      "text": "Combine onion, potato, broccoli, water, and corn in a saucepan; bring to a boil. Reduce heat and simmer until vegetables are tender, 10 to 15 minutes. Drain vegetables and reserve liquid."
+    },
+    {
+      "position": 3,
+      "text": "Melt butter in a large pan over medium heat. Stir flour into melted butter until smooth, about 1 minute. Slowly pour reserved vegetable water and milk into butter-flour mixture; cook until thickened, about 5 minutes. Add oysters and vegetables to milk mixture and cook over medium-low heat until heated through, about 5 minutes. Season with salt and pepper."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ad5464e3-4b0b-5227-ba14-e4a813dab621/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "260 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "76 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "298 mg",
+    "sugarContent": "8 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2085d779-51a7-5430-b147-3ae4b2b2ac26",
+      "name": "ounce) container shucked oysters",
+      "normalized_name": "ounce container shucked oysters",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "drained with liquid reserved",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "3996d4e9-a572-5bf1-9ea2-869c10f374a0",
+      "name": "potato",
+      "normalized_name": "potato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "fa76a7d8-6474-5285-9a36-71f5bfeb17b3",
+      "name": "coarsely chopped broccoli",
+      "normalized_name": "coarsely chopped broccoli",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c77a79e3-560d-55b5-9e75-fe6ffbb53ece",
+      "name": "frozen corn",
+      "normalized_name": "frozen corn",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    },
+    {
+      "id": "bb9022e2-8ff4-5c69-8747-92f78a8cbce3",
+      "slug": "corn-chowder",
+      "name": "Corn Chowder"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b1da4043-161f-5b59-b102-87a72b0cd40a",
+      "slug": "corn-chowder-recipes",
+      "name": "Corn Chowder Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "5fef2fbd-2074-5d5e-adc7-a429943a35ab",
+      "slug": "oysters",
+      "name": "Oysters",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235446/best-oyster-chowder-ever"
+  },
+  "public": true,
+  "updated_at": 1774543876,
+  "revision": 1
+}

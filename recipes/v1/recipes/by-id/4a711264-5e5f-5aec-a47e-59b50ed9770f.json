@@ -1,0 +1,247 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4a711264-5e5f-5aec-a47e-59b50ed9770f",
+  "slug": "caramel-chocolate-corn",
+  "name": "Caramel Chocolate Corn",
+  "recipe_type": "dessert",
+  "brief_description": "Popcorn, roasted peanuts, and milk chocolate: perfect for your salty-sweet snack fix!",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Grease cookie sheets."
+    },
+    {
+      "position": 2,
+      "text": "Place popcorn and peanuts in a paper bag. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "In a microwave safe bowl, combine sugar, butter, corn syrup, vanilla and salt. Microwave 4 minutes, until bubbly. Stir in baking soda. Pour over popcorn mixture and shake bag to coat."
+    },
+    {
+      "position": 4,
+      "text": "Roll down edges of bag and place bag in microwave. Heat for 2 minutes, shaking three times to mix. Spread mixture onto prepared sheets to cool."
+    },
+    {
+      "position": 5,
+      "text": "In a microwave safe bowl, combine chocolate and shortening. Microwave 90 seconds, stirring once, until melted. Drizzle over popcorn mixture. Let cool before serving."
+    }
+  ],
+  "servings": 32,
+  "cooking_time_minutes": 8,
+  "preparation_time_minutes": 7,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4a711264-5e5f-5aec-a47e-59b50ed9770f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "147 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "9 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "184 mg",
+    "sugarContent": "10 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a4f3e4e3-ba01-53d9-846a-ca676f3d38ef",
+      "name": "popped popcorn",
+      "normalized_name": "popped popcorn",
+      "quantity": "16",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fb54e088-c8f2-5129-8732-c04000d4112a",
+      "name": "roasted peanuts",
+      "normalized_name": "roasted peanuts",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7a7fe6f2-3aeb-5623-9b66-a7f2ae0580df",
+      "name": "light corn syrup",
+      "normalized_name": "light corn syrup",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a631a646-898d-5040-ae38-45ddc511e444",
+      "name": "milk chocolate chips",
+      "normalized_name": "milk chocolate chips",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "19474987-99ea-5312-af22-52e1aa7953a4",
+      "name": "shortening",
+      "normalized_name": "shortening",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "b3370c86-1535-5a1b-9dd9-17cb551ce136",
+      "slug": "chocolate-dessert",
+      "name": "Chocolate Dessert"
+    },
+    {
+      "id": "8e1e90ed-fd51-5b11-87d8-71708db707fc",
+      "slug": "milk-chocolate",
+      "name": "Milk Chocolate"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6670563e-10c2-5e93-afc9-38ff18d95a3b",
+      "slug": "milk-chocolate",
+      "name": "Milk Chocolate",
+      "color": null
+    },
+    {
+      "id": "075a12dd-79f9-59ae-bcae-a618726d0d31",
+      "slug": "carnivals-and-fairs",
+      "name": "Carnivals and Fairs",
+      "color": null
+    },
+    {
+      "id": "b966de5b-5e35-587e-a41f-d63676ef20a9",
+      "slug": "chocolate-popcorn-recipes",
+      "name": "Chocolate Popcorn Recipes",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "1ec1b220-3014-5073-b90a-86a363a6cb1f",
+      "slug": "popcorn-candy-recipes",
+      "name": "Popcorn Candy Recipes",
+      "color": null
+    },
+    {
+      "id": "7010d70c-9bb8-59d5-8f78-f098db7e5a29",
+      "slug": "caramel",
+      "name": "Caramel",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23367/caramel-chocolate-corn"
+  },
+  "public": true,
+  "updated_at": 1657829118,
+  "revision": 1
+}

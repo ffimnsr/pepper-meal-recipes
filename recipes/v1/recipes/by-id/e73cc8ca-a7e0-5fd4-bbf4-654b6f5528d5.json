@@ -1,0 +1,198 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e73cc8ca-a7e0-5fd4-bbf4-654b6f5528d5",
+  "slug": "alexs-raw-chocolate-pudding",
+  "name": "Alex's Raw Chocolate Pudding",
+  "recipe_type": "dessert",
+  "brief_description": "This recipe is made with all raw ingredients. The combination of avocado, banana, and raw cocoa nibs may seem odd, but the banana provides the taste, and the avocado adds texture, and the cocoa nibs add crunch.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place avocado, banana, soy milk, cocoa powder, agave nectar, lemon juice, and coconut into a blender. Cover, and puree until smooth. Divide into small containers, and store in the refrigerator 1 hour until set."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e73cc8ca-a7e0-5fd4-bbf4-654b6f5528d5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "271 kcal",
+    "carbohydrateContent": "30 g",
+    "fiberContent": "10 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "49 mg",
+    "sugarContent": "16 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e930232d-709e-57a7-a259-fb07f35733a5",
+      "name": "avocado - peeled",
+      "normalized_name": "avocado - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "pitted, and cut into chunks",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
+      "name": "banana",
+      "normalized_name": "banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and cut into chunks",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0f79a9a5-2d63-523b-903f-0ca49ed951d0",
+      "name": "unsweetened soy milk",
+      "normalized_name": "unsweetened soy milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "47d17bf8-a26f-56f1-b014-37e9af58c5d5",
+      "name": "raw cocoa powder",
+      "normalized_name": "raw cocoa powder",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "62e765a1-bcf6-58da-8e26-f5a368358cb9",
+      "name": "agave nectar",
+      "normalized_name": "agave nectar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "732e538b-a8c6-5f60-a1aa-554ed16fbf84",
+      "name": "shredded unsweetened coconut",
+      "normalized_name": "shredded unsweetened coconut",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7125d7fa-c15d-5725-8012-306c4b58775a",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts"
+    },
+    {
+      "id": "5f8cfb87-d2ec-5b71-9582-10cb90d086bb",
+      "slug": "banana-dessert",
+      "name": "Banana Dessert"
+    }
+  ],
+  "tags": [
+    {
+      "id": "59dcaf4a-4e62-562a-b232-80fa74efd394",
+      "slug": "banana-dessert-recipes",
+      "name": "Banana Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "6e76095e-a6d9-56c4-9a5e-a6f757d6606c",
+      "slug": "chocolate-pudding-recipes",
+      "name": "Chocolate Pudding Recipes",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "f1bb5f6f-2324-5dbc-ae61-c9a6795d698f",
+      "slug": "cocoa-powder-recipes",
+      "name": "Cocoa Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "3dfe4f5a-4976-549c-8ac2-7f7bcf0acbbc",
+      "slug": "pudding",
+      "name": "Pudding",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/166611/alexs-raw-chocolate-pudding"
+  },
+  "public": true,
+  "updated_at": 1562742057,
+  "revision": 1
+}

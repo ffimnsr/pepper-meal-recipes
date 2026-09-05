@@ -1,0 +1,177 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "688acac6-d893-5e10-acb1-87c3ea5cd9ae",
+  "slug": "ham-ball",
+  "name": "Ham Ball",
+  "recipe_type": "appetizer",
+  "brief_description": "This ham ball features softened cream cheese, chopped ham, and green onion rolled in chopped pecans for a great dip to serve with crackers or bread.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix together cream cheese, ham, green onions, and seasoned salt in a large bowl until evenly mixed; roll into a ball."
+    },
+    {
+      "position": 2,
+      "text": "Spread pecans onto a flat surface. Roll ham ball in pecans to coat."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/688acac6-d893-5e10-acb1-87c3ea5cd9ae/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "315 kcal",
+    "carbohydrateContent": "5 g",
+    "cholesterolContent": "70 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "378 mg",
+    "sugarContent": "1 g",
+    "fatContent": "31 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ff07c3dd-abc3-51a9-bb49-d30c0737d0c1",
+      "name": "ounce) packages cream cheese",
+      "normalized_name": "ounce packages cream cheese",
+      "quantity": "2 (8",
+      "unit": "pieces",
+      "preparation": "slightly softened",
+      "position": 1
+    },
+    {
+      "ingredient_id": "b9884871-2254-5b87-a7d0-8f7f9522263b",
+      "name": "slices ham",
+      "normalized_name": "slices ham",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "5cbf4376-30a9-5afa-8f56-d60e87b1c964",
+      "name": "seasoned salt",
+      "normalized_name": "seasoned salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "a0ceb4ab-348a-5657-881b-75a939d19580",
+      "name": "chopped pecans",
+      "normalized_name": "chopped pecans",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "or more to taste",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "6ad8913c-315a-59a3-af4f-713310ac8cde",
+      "slug": "cheese-dips-and-spreads",
+      "name": "Cheese Dips and Spreads"
+    },
+    {
+      "id": "fa3c479a-07a8-59cf-a459-649883e39fe3",
+      "slug": "cheese-ball",
+      "name": "Cheese Ball"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228268/ham-ball"
+  },
+  "public": true,
+  "updated_at": 1780753218,
+  "revision": 1
+}

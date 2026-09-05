@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c4b82e81-bb3d-5561-96bb-a49efa90fd11",
+  "slug": "apricot-almond-pilaf",
+  "name": "Apricot Almond Pilaf",
+  "recipe_type": "side",
+  "brief_description": "This apricot almond pilaf recipe features basmati rice with saffron and rose water studded with dried apricots and slivered almonds in this side dish.",
+  "cuisine": "Middle Eastern Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large saucepan over medium heat. Add onion and carrot; cook and stir until onion is translucent, about 5 minutes. Stir in basmati rice and salt; cook and stir until rice is slightly opaque, about 3 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir in water until combined. Stir in apricots, almonds, rose water, and saffron; bring to a boil. Reduce heat to low, cover, and simmer until liquid is absorbed, about 20 minutes. Remove from heat; let stand, covered, 10 minutes. Stir before serving."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c4b82e81-bb3d-5561-96bb-a49efa90fd11/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "289 kcal",
+    "carbohydrateContent": "46 g",
+    "cholesterolContent": "15 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "637 mg",
+    "sugarContent": "6 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "2950983c-275a-577c-a739-cf210034d47d",
+      "name": "small carrot",
+      "normalized_name": "small carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "27cd3758-31e7-58bb-b9b5-503bc11f038a",
+      "name": "basmati rice",
+      "normalized_name": "basmati rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1.875",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b698ad03-cab1-5fe9-bed5-a5a18872cd7a",
+      "name": "dried apricots",
+      "normalized_name": "dried apricots",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "948e2a98-0dfe-5377-8100-bde72b87cf75",
+      "name": "slivered almonds",
+      "normalized_name": "slivered almonds",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "40677ace-c67e-50d1-97d5-46586d5b85d3",
+      "name": "rose water",
+      "normalized_name": "rose water",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "b13fb225-3aa3-57da-8685-a364ceff85fc",
+      "name": "saffron threads",
+      "normalized_name": "saffron threads",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": "crushed",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "936ea180-ebfd-5e0c-8ba1-82bdf0fc1d27",
+      "slug": "pilaf",
+      "name": "Pilaf"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2972e18e-d873-5d41-a42b-b0897daf2e41",
+      "slug": "pilaf",
+      "name": "Pilaf",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "98dd4ff5-02c1-5d33-9abb-b5177c6b161b",
+      "slug": "apricots",
+      "name": "Apricots",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "a312d711-4bb8-5f0d-a469-8169ac716910",
+      "slug": "rose-water-recipes",
+      "name": "Rose Water Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "e9c7cb3f-2b04-5892-a9d2-9e4be2971320",
+      "slug": "middle-eastern",
+      "name": "Middle Eastern",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/227992/apricot-almond-pilaf"
+  },
+  "public": true,
+  "updated_at": 1736204827,
+  "revision": 1
+}

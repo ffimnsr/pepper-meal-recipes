@@ -1,0 +1,191 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e80f114e-9d26-5e5f-8bbe-014884f7c312",
+  "slug": "savory-parmesan-french-toast",
+  "name": "Savory Parmesan French Toast",
+  "recipe_type": "breakfast",
+  "brief_description": "Savory French toast made with whole wheat bread, eggs, milk, Parmesan, and pepper. A tasty recipe for a quick and easy cheesy take on French toast.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk eggs, Parmesan cheese, milk, and black pepper in a shallow bowl until light and fluffy, about 1 minute."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a large skillet over medium heat."
+    },
+    {
+      "position": 3,
+      "text": "Dip both sides of each slice of bread in egg mixture; place bread in hot butter in the skillet. Cook until golden brown, 2 to 3 minutes per side."
+    },
+    {
+      "position": 4,
+      "text": "Transfer to a warmed plate and dot with butter to serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e80f114e-9d26-5e5f-8bbe-014884f7c312/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "204 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "201 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "333 mg",
+    "sugarContent": "3 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "plus more as needed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "4da6f42f-60c2-509e-b99b-066bf6344932",
+      "name": "slices whole wheat bread",
+      "normalized_name": "slices whole wheat bread",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "fd7cda57-4c3d-5757-b7a2-4c387d497eaf",
+      "slug": "french-toast",
+      "name": "French Toast"
+    }
+  ],
+  "tags": [
+    {
+      "id": "988a2989-8071-5697-8ed2-3941bea4baa7",
+      "slug": "back-to-school",
+      "name": "Back to School",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "04d29078-74ed-556c-98e1-1020fd0a8a8e",
+      "slug": "french-toast-recipes",
+      "name": "French Toast Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "c2f09869-a010-58cf-bc86-5b930914ce17",
+      "slug": "budget-cooking-recipes",
+      "name": "Budget Cooking Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245899/savory-parmesan-french-toast"
+  },
+  "public": true,
+  "updated_at": 1775529245,
+  "revision": 1
+}

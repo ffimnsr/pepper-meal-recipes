@@ -1,0 +1,238 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ca7ddae6-e5a9-56b5-a7ae-162c3e4fcd56",
+  "slug": "wonton-soup",
+  "name": "Wonton Soup",
+  "recipe_type": "soup",
+  "brief_description": "This wonton soup features homemade Chinese dumplings filled with perfectly seasoned juicy pork and shrimp in a hearty broth with chopped scallions.",
+  "cuisine": "Chinese",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "To make the wontons: Mix pork, shrimp, rice wine, soy sauce, brown sugar, green onions, and ginger together in a large bowl until well combined. Let stand for 25 to 30 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Spoon about 1 teaspoon filling onto the center of a wonton wrapper. Moisten all four wrapper edges with water and fold over filling to make a triangle; press the edges firmly to seal."
+    },
+    {
+      "position": 4,
+      "text": "Bring left and right corners together above filling; overlap the tips of these corners, moisten with water, and press together to seal. Repeat until all wrappers have been filled and sealed."
+    },
+    {
+      "position": 5,
+      "text": "To make the soup: Bring chicken stock to a rolling boil in a pot. Gently drop in wontons and cook for 5 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Ladle into bowls and garnish with green onions."
+    },
+    {
+      "position": 7,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ca7ddae6-e5a9-56b5-a7ae-162c3e4fcd56/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/Nq8rF9IA-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "195 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "44 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "887 mg",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "54e6b991-e9b5-5017-8d9d-63194891d6b7",
+      "name": "boneless pork loin",
+      "normalized_name": "boneless pork loin",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "coarsely chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "fa05765f-e24c-5c73-b21f-5dd65b6a7c42",
+      "name": "peeled shrimp",
+      "normalized_name": "peeled shrimp",
+      "quantity": "2",
+      "unit": "ounces",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "4b35c113-bfb0-5a4e-9810-c700c0530f3f",
+      "name": "chinese rice wine",
+      "normalized_name": "chinese rice wine",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "092c58e1-2d7b-5b6b-846c-fba6f16a29fb",
+      "name": "light soy sauce",
+      "normalized_name": "light soy sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "47bed0f7-3d2f-5013-971a-3b049a821a6d",
+      "name": "finely chopped green onions",
+      "normalized_name": "finely chopped green onions",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6eb7d7ec-5d05-5e6d-817d-bcd9c3407c8e",
+      "name": "chopped fresh ginger root",
+      "normalized_name": "chopped fresh ginger root",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3293fe62-39fc-536e-b018-8a5ac4108f4f",
+      "name": "inch square) wonton wrappers",
+      "normalized_name": "inch square wonton wrappers",
+      "quantity": "24 (3.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "47bed0f7-3d2f-5013-971a-3b049a821a6d",
+      "name": "finely chopped green onions",
+      "normalized_name": "finely chopped green onions",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "bf928f4c-2a6a-5c01-9ecf-243b9f58a15b",
+      "slug": "dumpling-recipes",
+      "name": "Dumpling Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "1d1a6231-2672-5763-9636-40bbd71eefab",
+      "slug": "low-glycemic-impact",
+      "name": "Low Glycemic Impact",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "a3217056-1df7-5577-82d8-45855f913181",
+      "slug": "cooking-with-wine-recipes",
+      "name": "Cooking With Wine Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13199/wonton-soup"
+  },
+  "public": true,
+  "updated_at": 1764535530,
+  "revision": 1
+}

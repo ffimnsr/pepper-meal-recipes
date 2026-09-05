@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "09e9eb6d-fb66-57bc-9c9b-f716746acbb6",
+  "slug": "worlds-best-potato-soup",
+  "name": "World's Best Potato Soup",
+  "recipe_type": "soup",
+  "brief_description": "The combination of potatoes, onions, celery, bacon, mushroom soup, and cream in this recipe with cheddar cheese makes the best potato soup.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place potatoes, onions, celery, and bouillon cubes in a large pot. Add enough water to cover all ingredients. Bring to a boil and simmer on medium heat for 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add half and half, bacon, cream of mushroom soup and stir until combined. Add cheese and stir until completely melted. Simmer on low until potatoes are cooked through and tender."
+    },
+    {
+      "position": 4,
+      "text": "Serve and enjoy!"
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/09e9eb6d-fb66-57bc-9c9b-f716746acbb6/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/ZORuC3Om-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "557 kcal",
+    "carbohydrateContent": "42 g",
+    "cholesterolContent": "87 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "28 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "1475 mg",
+    "sugarContent": "6 g",
+    "fatContent": "31 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f0496a87-4bbe-5573-ac0e-e441dbf979ea",
+      "name": "unpeeled potatoes",
+      "normalized_name": "unpeeled potatoes",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "3ce4bb58-0809-5770-b087-cde27facb41c",
+      "name": "cubes chicken bouillon",
+      "normalized_name": "cubes chicken bouillon",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8b86e97b-02f7-5f0b-82a5-e27c7c894e8c",
+      "name": "pint half-and-half cream",
+      "normalized_name": "pint half-and-half cream",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "14a9821b-6966-5d2b-a09e-837355f37cb5",
+      "name": "bacon",
+      "normalized_name": "bacon",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cooked and crumbled",
+      "position": 6
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "278514fe-983b-5bcb-a57c-c032a506c02e",
+      "slug": "potato-soup",
+      "name": "Potato Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "5606a16e-e04d-5bc0-9a9b-14e21d2c303c",
+      "slug": "potato-soup-recipes",
+      "name": "Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "c6bf3992-663f-5e3a-8ba5-f02997d350ab",
+      "slug": "cream-of-potato-soup-recipes",
+      "name": "Cream of Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13404/worlds-best-potato-soup"
+  },
+  "public": true,
+  "updated_at": 1767393446,
+  "revision": 1
+}

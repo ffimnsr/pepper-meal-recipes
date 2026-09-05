@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "603b7d0d-a586-59d2-b97e-de8146706cbd",
+  "slug": "spicy-african-yam-soup",
+  "name": "Spicy African Yam Soup",
+  "recipe_type": "soup",
+  "brief_description": "An unusual combination of simple ingredients that render a spicy, tasty soup that's ready in less than 45 minutes!",
+  "cuisine": "West African",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the oil in a stockpot over medium heat. Saute onion, sweet potato, and garlic until onion is soft. Turn down heat if necessary to prevent burning."
+    },
+    {
+      "position": 2,
+      "text": "Stir in the chicken broth, thyme and cumin. Bring to a boil, cover and simmer for about 15 minutes. Stir in salsa, garbanzo beans and zucchini. Simmer until tender, about 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir in the cooked rice and peanut butter until the peanut butter has dissolved. Serve hot with pita chips and a green salad."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/603b7d0d-a586-59d2-b97e-de8146706cbd/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "345 kcal",
+    "carbohydrateContent": "62 g",
+    "fiberContent": "11 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "822 mg",
+    "sugarContent": "9 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "c3323c91-9bc5-5082-92cb-9b417ade1807",
+      "name": "large sweet potato",
+      "normalized_name": "large sweet potato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
+      "name": "dried thyme",
+      "normalized_name": "dried thyme",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "81c183d0-17b1-595b-b1a6-9be445df80e9",
+      "name": "chunky salsa",
+      "normalized_name": "chunky salsa",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b0d6e9eb-5e4c-5043-a7b0-239a64af30ea",
+      "name": "ounce) can garbanzo beans",
+      "normalized_name": "ounce can garbanzo beans",
+      "quantity": "1 (15.5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 9
+    },
+    {
+      "ingredient_id": "0bd2ffcb-edb6-5307-9b9a-aca676b8e224",
+      "name": "diced zucchini",
+      "normalized_name": "diced zucchini",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "5eedfd85-8c8b-5c39-927c-857917c73997",
+      "name": "cooked rice",
+      "normalized_name": "cooked rice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "63e2e815-e0cd-5ca1-8c80-6b19bad0b643",
+      "name": "creamy peanut butter",
+      "normalized_name": "creamy peanut butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/48121/spicy-african-yam-soup"
+  },
+  "public": true,
+  "updated_at": 1659972953,
+  "revision": 1
+}

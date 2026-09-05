@@ -1,0 +1,340 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7fca66ce-6474-5f1f-b655-91f09fac770e",
+  "slug": "very-veggie-and-beef-chili",
+  "name": "Very Veggie and Beef Chili",
+  "recipe_type": "soup",
+  "brief_description": "Hearty beef chili with vegetables galore! The ingredient list may look a little long, but the prep work for this tasty chili is totally worth it.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Break ground beef into small pieces in a large pot over medium heat; cook and stir until beginning to brown, 3 to 5 minutes. Add onion, bell peppers, and carrot; cook and stir until the vegetables begin to soften, 5 to 7 minutes. Add zucchini and squash; cook and stir until beef is completely browned, 3 to 5 more minutes."
+    },
+    {
+      "position": 2,
+      "text": "Drain excess liquid from the pot. Stir in crushed tomatoes, kidney beans, black beans, diced tomatoes, corn, and garlic; bring to a boil. Stir in chili powder, brown sugar, paprika, oregano, cayenne pepper, cumin, salt, and black pepper. Reduce the heat to low, cover, and simmer for 30 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7fca66ce-6474-5f1f-b655-91f09fac770e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "337 kcal",
+    "carbohydrateContent": "38 g",
+    "cholesterolContent": "43 mg",
+    "fiberContent": "11 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "719 mg",
+    "sugarContent": "6 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "8ce32994-f02d-5eb9-a0fc-1d077b7bdfb1",
+      "name": "medium green bell pepper",
+      "normalized_name": "medium green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "1c5f5205-271b-5bb7-98d2-b755a0ed877a",
+      "name": "medium yellow bell pepper",
+      "normalized_name": "medium yellow bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "6995b31c-9fef-5242-b62c-b88322813b19",
+      "name": "medium carrot",
+      "normalized_name": "medium carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "82ca6aae-c963-561e-9ba7-c0c7c9511c5b",
+      "name": "medium zucchini",
+      "normalized_name": "medium zucchini",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "128e2ac4-9713-574d-93eb-765be9ff1ca1",
+      "name": "medium yellow squash",
+      "normalized_name": "medium yellow squash",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "6bff6f84-ed38-5237-ae2d-5789030d5171",
+      "name": "ounce) can crushed tomatoes",
+      "normalized_name": "ounce can crushed tomatoes",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "c593906b-e65c-55ab-a751-2c4830119045",
+      "name": "ounce) can kidney beans",
+      "normalized_name": "ounce can kidney beans",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": "rinsed and drained",
+      "position": 9
+    },
+    {
+      "ingredient_id": "5994137f-3c02-548c-acb4-3722b49f82fe",
+      "name": "ounce) can black beans",
+      "normalized_name": "ounce can black beans",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": "rinsed and drained",
+      "position": 10
+    },
+    {
+      "ingredient_id": "9df4d90c-3c3d-5af4-a2c3-2dbac876bf33",
+      "name": "ounce) can diced tomatoes",
+      "normalized_name": "ounce can diced tomatoes",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "72bbd412-a614-5c81-bbc4-7e407075ebb2",
+      "name": "frozen white corn kernels",
+      "normalized_name": "frozen white corn kernels",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "1.25",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 17
+    },
+    {
+      "ingredient_id": "03a89e37-58b7-506c-b5ea-448d038b67e6",
+      "name": "ground cayenne pepper",
+      "normalized_name": "ground cayenne pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 18
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 19
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 20
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 21
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "2233d10f-275a-5e5c-a3df-d9ba7047b8ee",
+      "slug": "chili",
+      "name": "Chili"
+    },
+    {
+      "id": "ace4b76f-029f-57da-82ed-2565fde01633",
+      "slug": "beef-chili",
+      "name": "Beef Chili"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "3a5da0b6-9dfb-5d3f-a47c-b6c3c42d4010",
+      "slug": "chili-recipes",
+      "name": "Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "301bad8a-6e1f-553c-a80c-5128b923b5b0",
+      "slug": "chili-powder-recipes",
+      "name": "Chili Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232265/very-veggie-and-beef-chili"
+  },
+  "public": true,
+  "updated_at": 1776730201,
+  "revision": 1
+}

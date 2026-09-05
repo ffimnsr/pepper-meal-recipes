@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b83dee86-531a-5833-86d7-266ee22770b7",
+  "slug": "roasted-veggie-pasta",
+  "name": "Roasted Veggie Pasta",
+  "recipe_type": "main",
+  "brief_description": "Wonderful rustic Italian style pasta dish! Meal can be dressed up or down with accompaniments to this tasty pasta.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Prepare asparagus by trimming woody base and cutting diagonally into 4 inch pieces."
+    },
+    {
+      "position": 2,
+      "text": "In a roasting pan, combine asparagus, bell pepper, mushrooms, roasted garlic and tomato. Sprinkle with rosemary and oregano, then drizzle with olive oil. Bake in preheated oven for 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain. Toss with Parmesan cheese, tapenade and roasted vegetables."
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b83dee86-531a-5833-86d7-266ee22770b7/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/R36rmopH-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "457 kcal",
+    "carbohydrateContent": "67 g",
+    "cholesterolContent": "6 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "213 mg",
+    "sugarContent": "7 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ad30adc8-038c-52ac-9a09-1199978601d1",
+      "name": "fresh asparagus",
+      "normalized_name": "fresh asparagus",
+      "quantity": "0.25",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "787fd5c8-f217-57a9-8e32-861129dfd989",
+      "name": "crimini mushrooms",
+      "normalized_name": "crimini mushrooms",
+      "quantity": "0.25",
+      "unit": "pound",
+      "preparation": "sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ef560a9f-49d8-5ec3-8029-99b15a88513f",
+      "name": "roasted garlic",
+      "normalized_name": "roasted garlic",
+      "quantity": "10",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato",
+      "normalized_name": "tomato",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "quartered",
+      "position": 5
+    },
+    {
+      "ingredient_id": "7b92db17-5ccc-5d40-938b-ae22fcba3dd3",
+      "name": "chopped fresh rosemary",
+      "normalized_name": "chopped fresh rosemary",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "4f3e7b5f-150c-5374-a120-89e81ae074a1",
+      "name": "chopped fresh oregano",
+      "normalized_name": "chopped fresh oregano",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "da11dd5d-17ed-5d38-8204-b2c66d53f264",
+      "name": "dry fettuccini noodles",
+      "normalized_name": "dry fettuccini noodles",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "fdbef903-0594-54ee-9838-fbf70bb9347f",
+      "name": "tapenade",
+      "normalized_name": "tapenade",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "b3e887f5-5ab1-5beb-aecd-b4afd5ef2b65",
+      "slug": "italian",
+      "name": "Italian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "8ed572a6-d901-5275-a627-a48280f61ad2",
+      "slug": "easter-dinner",
+      "name": "Easter Dinner",
+      "color": null
+    },
+    {
+      "id": "8188eed4-b891-5ca2-b130-93c8a82eac19",
+      "slug": "fettuccini-recipes",
+      "name": "Fettuccini Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "170a28a4-5360-5e89-accb-7ecc55c5340b",
+      "slug": "spring",
+      "name": "Spring",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "1d1a6231-2672-5763-9636-40bbd71eefab",
+      "slug": "low-glycemic-impact",
+      "name": "Low Glycemic Impact",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/45644/roasted-veggie-pasta"
+  },
+  "public": true,
+  "updated_at": 1521649662,
+  "revision": 1
+}

@@ -1,0 +1,271 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fdb67362-6c7b-535c-9072-92d4a70124b7",
+  "slug": "sous-vide-beef-tenderloin-roast",
+  "name": "Sous Vide Beef Tenderloin Roast",
+  "recipe_type": "main",
+  "brief_description": "This elegant beef tenderloin roast is first cooked sous vide and then pan-seared in a cast iron pan for extra flavor and color.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Trim and tie tenderloin together with kitchen twine the night before cooking. Combine salt and pepper in a bowl and season tenderloin on all sides. Place on a baking rack set over a cookie sheet and allow to rest, uncovered, in the refrigerator overnight."
+    },
+    {
+      "position": 2,
+      "text": "The next morning place tenderloin, garlic, thyme, and rosemary into a sous vide vacuum bag and seal using a vacuum sealer. Refrigerate until you are ready to sous vide."
+    },
+    {
+      "position": 3,
+      "text": "Attach sous vide cooker to a heat-proof container of water and set temperature to 133 degrees F (56 degrees C). Sous vide until tenderloin has reached the desired temperature, 2 1/2 to 3 hours, depending on thickness."
+    },
+    {
+      "position": 4,
+      "text": "About 30 minutes pour water in a metal bowl and sprinkle gelatin powder on top. Allow to sit for 30 minutes until gelatin blooms. Set on top of a double boiler over simmering water and stir until a clear liquid forms. Do not allow to boil."
+    },
+    {
+      "position": 5,
+      "text": "Remove tenderloin from sous vide, pat dry, and let rest while preparing the gravy."
+    },
+    {
+      "position": 6,
+      "text": "Pour au jus liquids from the sous vide bag into a sauce pan. Stir in 1 to 2 tablespoons butter and red wine. Add as much of the bloomed gelatin as you like depending on desired thickness and whisk until well combined. Season gravy with salt, pepper, and herbs to taste."
+    },
+    {
+      "position": 7,
+      "text": "Heat cast iron pan to medium-high. Brush tenderloin with olive oil and sear in the hot pan until browned all over, 1 to 2 minutes per side. Melt extra butter in the pan as desired. Remove from pan, tent with foil, and allow to rest for 5 to 10 minutes."
+    },
+    {
+      "position": 8,
+      "text": "Slice tenderloin and serve with gravy."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 160,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": 10,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fdb67362-6c7b-535c-9072-92d4a70124b7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "637 kcal",
+    "carbohydrateContent": "0 g",
+    "cholesterolContent": "154 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "37 g",
+    "saturatedFatContent": "22 g",
+    "sodiumContent": "101 mg",
+    "fatContent": "53 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5a00fdaf-07bc-5f32-a6b7-997b1f94f3cd",
+      "name": "whole beef tenderloin",
+      "normalized_name": "whole beef tenderloin",
+      "quantity": "4.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "21e7210e-18cb-5022-b2e2-1a866da4cfc3",
+      "name": "sea salt/kosher salt (such as redmonds\u00ae)",
+      "normalized_name": "sea salt/kosher salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or more to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "6",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9e4104ad-2119-53fd-adf2-343ddcb2ab23",
+      "name": "fresh thyme sprigs",
+      "normalized_name": "fresh thyme sprigs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "or to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "42c2f1ad-8ae9-5074-9ff2-870b8ef4d06a",
+      "name": "rosemary sprig",
+      "normalized_name": "rosemary sprig",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "divided, or more as needed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or as needed",
+      "position": 8
+    },
+    {
+      "ingredient_id": "2a29adea-2227-58e9-b405-5f6be194c757",
+      "name": "splash red wine",
+      "normalized_name": "splash red wine",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "6b226cdc-a8cc-50c3-9e29-42ed8a0916f0",
+      "name": "gelatin powder",
+      "normalized_name": "gelatin powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "b94296dc-9e1a-5dad-9dc2-727ad66f0055",
+      "name": "cold water",
+      "normalized_name": "cold water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "afbdfa8a-8a11-5717-a889-82e7ff8f2645",
+      "slug": "beef-tenderloin",
+      "name": "Beef Tenderloin"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ec9d976e-4296-5c34-88a4-518d14e86e0b",
+      "slug": "allrecipes",
+      "name": "Allrecipes",
+      "color": null
+    },
+    {
+      "id": "16eff42a-bdad-58bd-8f0c-a6674afbe1dd",
+      "slug": "christmas-dinner-recipes",
+      "name": "Christmas Dinner Recipes",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "b3f6b56a-43c6-5a82-9f7c-1ae7481aa809",
+      "slug": "beef-tenderloin-recipes",
+      "name": "Beef Tenderloin Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "1e83fd8f-f8d5-5dd8-98fc-88de342429d2",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "3330acd2-c289-519c-a392-3f20e83fb2c2",
+      "slug": "sous-vide-recipes",
+      "name": "Sous Vide Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8524014/sous-vide-beef-tenderloin-roast"
+  },
+  "public": true,
+  "updated_at": 1731831068,
+  "revision": 1
+}

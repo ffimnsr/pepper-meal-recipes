@@ -1,0 +1,285 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a1beeccb-3442-5e7b-b7d1-c592c19adef0",
+  "slug": "texas-cowboy-stew",
+  "name": "Texas Cowboy Stew",
+  "recipe_type": "soup",
+  "brief_description": "This hearty cowboy stew with ground beef, kielbasa, potatoes, beans, and lots of veggies is a stovetop favorite that can also be made in the crockpot.",
+  "cuisine": "Tex Mex American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Cook ground beef in a large skillet over medium-high heat until crumbly but not yet cooked through, about 5 minutes. Add sausage, onion, and garlic; cook and stir until meat is no longer pink and onion is translucent, 5 to 7 minutes. Drain grease."
+    },
+    {
+      "position": 3,
+      "text": "Transfer beef and sausage mixture to a large pot over medium-low heat. Add water, corn, pinto beans, diced tomatoes, diced tomatoes with chile peppers, and mixed vegetables. Stir in potatoes, cumin, chili powder, salt, and pepper."
+    },
+    {
+      "position": 4,
+      "text": "Cover and simmer, stirring occasionally, for a minimum of 1 hour; the longer it cooks, the better it gets."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 70,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a1beeccb-3442-5e7b-b7d1-c592c19adef0/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "677 kcal",
+    "carbohydrateContent": "52 g",
+    "cholesterolContent": "115 mg",
+    "fiberContent": "9 g",
+    "proteinContent": "35 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "1620 mg",
+    "sugarContent": "7 g",
+    "fatContent": "37 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b11bd04c-95e7-5607-99b2-95a20cec9966",
+      "name": "kielbasa sausage",
+      "normalized_name": "kielbasa sausage",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "sliced into 1/2 inch pieces",
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "63dcf5ba-f407-51e5-b89a-cafdbb32ce36",
+      "name": "ounce) cans whole kernel corn",
+      "normalized_name": "ounce cans whole kernel corn",
+      "quantity": "2 (15.2",
+      "unit": "pieces",
+      "preparation": "with liquid",
+      "position": 6
+    },
+    {
+      "ingredient_id": "1981d198-3c70-5564-927a-a39ac4d4c45a",
+      "name": "ounce) cans pinto beans",
+      "normalized_name": "ounce cans pinto beans",
+      "quantity": "2 (15",
+      "unit": "pieces",
+      "preparation": "with liquid",
+      "position": 7
+    },
+    {
+      "ingredient_id": "724d6bb3-0069-549b-9a2c-164f8203cd30",
+      "name": "ounce) cans peeled and diced tomatoes",
+      "normalized_name": "ounce cans peeled and diced tomatoes",
+      "quantity": "2 (14.5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 8
+    },
+    {
+      "ingredient_id": "b99b7608-1bdb-5da6-bd1b-0785b6067b42",
+      "name": "ounce) can diced tomatoes with green chile peppers",
+      "normalized_name": "ounce can diced tomatoes with green chile peppers",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": "with liquid",
+      "position": 9
+    },
+    {
+      "ingredient_id": "37d1c66f-044a-534d-89ac-bafa087dd487",
+      "name": "ounce) package frozen mixed vegetables",
+      "normalized_name": "ounce package frozen mixed vegetables",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "71b1e970-445a-5105-be18-e30690063809",
+      "name": "medium baking potatoes",
+      "normalized_name": "medium baking potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and diced",
+      "position": 11
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "69d9c1a1-e65a-5d1b-8125-29e2d6a07682",
+      "slug": "texas-recipes",
+      "name": "Texas Recipes",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "301bad8a-6e1f-553c-a80c-5128b923b5b0",
+      "slug": "chili-powder-recipes",
+      "name": "Chili Powder Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/82160/texas-cowboy-stew"
+  },
+  "public": true,
+  "updated_at": 1766084970,
+  "revision": 1
+}

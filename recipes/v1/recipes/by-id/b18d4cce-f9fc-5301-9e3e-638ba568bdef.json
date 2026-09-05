@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b18d4cce-f9fc-5301-9e3e-638ba568bdef",
+  "slug": "creamy-mushroom-soup",
+  "name": "Creamy Mushroom Soup",
+  "recipe_type": "soup",
+  "brief_description": "This fresh and creamy soup is easy to make, and filled with hearty chopped mushrooms.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt the butter in a large saucepan over medium-high heat. Saute the shiitake mushrooms, portobello mushrooms, and shallots for about 5 minutes, or until soft. Mix in the flour until smooth. Gradually stir in the chicken broth. Cook, stirring, 5 minutes, or until thick and bubbly."
+    },
+    {
+      "position": 2,
+      "text": "Stir in the half-and-half, season with salt and pepper, and sprinkle with cinnamon. Heat through, but do not boil."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b18d4cce-f9fc-5301-9e3e-638ba568bdef/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "234 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "53 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "119 mg",
+    "sugarContent": "2 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "97764e15-51a2-592c-a054-96880a9f16ba",
+      "name": "chopped shiitake mushrooms",
+      "normalized_name": "chopped shiitake mushrooms",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "677f1014-1810-5043-b41f-838a721ca44d",
+      "name": "chopped portobello mushrooms",
+      "normalized_name": "chopped portobello mushrooms",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "195dd91b-7e16-5008-af4e-050104514749",
+      "name": "shallots",
+      "normalized_name": "shallots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8281aa04-9844-579b-b0ca-48a71f810798",
+      "name": "ounce) can chicken broth",
+      "normalized_name": "ounce can chicken broth",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "a223d120-a2a2-54de-8b0c-cc5e335554a3",
+      "slug": "cream-soup",
+      "name": "Cream Soup"
+    },
+    {
+      "id": "61620a59-fdce-5447-98ef-ea9b9bd29f2e",
+      "slug": "cream-of-mushroom-soup",
+      "name": "Cream of Mushroom Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d26b16f3-764b-5c4f-8e61-3fb8a7960987",
+      "slug": "cream-of-mushroom-soup-recipes",
+      "name": "Cream of Mushroom Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "28f24011-6706-59fa-8654-c3d2657489d7",
+      "slug": "mushroom",
+      "name": "Mushroom",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "80ad79e0-5f27-5ec9-8ff8-fb2e86697ebc",
+      "slug": "shallots",
+      "name": "Shallots",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22890/creamy-mushroom-soup"
+  },
+  "public": true,
+  "updated_at": 1779809427,
+  "revision": 1
+}

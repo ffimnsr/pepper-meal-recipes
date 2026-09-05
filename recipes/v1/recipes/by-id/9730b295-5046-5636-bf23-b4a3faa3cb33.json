@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9730b295-5046-5636-bf23-b4a3faa3cb33",
+  "slug": "spicy-hawaiian-slow-cooker-chicken-bulgogi",
+  "name": "Spicy Hawaiian Slow Cooker Chicken Bulgogi",
+  "recipe_type": "drink",
+  "brief_description": "If you love spicy food, try this Hawaiian-inspired slow cooker recipe that marinates chicken in bulgogi sauce, gochujang, and pineapple juice.",
+  "cuisine": "Hawaiian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place chicken and onion in a slow cooker. Stir in pineapple, bulgogi marinade, and gochujang."
+    },
+    {
+      "position": 2,
+      "text": "Cook on High for 3 hours."
+    },
+    {
+      "position": 3,
+      "text": "Mix shredded carrots and broccoli into the slow cooker and continue cooking for 1 hour."
+    },
+    {
+      "position": 4,
+      "text": "Stir in cilantro and cook 15 minutes more. Serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 255,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9730b295-5046-5636-bf23-b4a3faa3cb33/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "239 kcal",
+    "carbohydrateContent": "27 g",
+    "cholesterolContent": "65 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "315 mg",
+    "sugarContent": "16 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "boneless chicken breasts, cut into 1-inch pieces",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "abd3e259-b0d5-567a-9567-659a8cf88d4c",
+      "name": "ounce) can pineapple tidbits with juice",
+      "normalized_name": "ounce can pineapple tidbits with juice",
+      "quantity": "1 (20",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "4f26af7c-4188-5937-b517-fb56bf1c2836",
+      "name": "ounce) bottle korean bulgogi marinade",
+      "normalized_name": "ounce bottle korean bulgogi marinade",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2c420df7-0a05-514d-93cd-e445f0cd9d89",
+      "name": "gochujang (korean hot pepper paste)",
+      "normalized_name": "gochujang",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "145f197b-dc7f-5c1a-86b9-4dfef100c7af",
+      "name": "ounce) package shredded carrots",
+      "normalized_name": "ounce package shredded carrots",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "19fdca5a-1d95-56d9-9fd7-e52df16fb90f",
+      "name": "ounce) package shredded broccoli stalks",
+      "normalized_name": "ounce package shredded broccoli stalks",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "458f53be-1fe8-5c42-8c1f-68635cd3ad88",
+      "name": "bunch fresh cilantro",
+      "normalized_name": "bunch fresh cilantro",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "fddcd10d-32a3-5d59-ab5d-4373e920f350",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "bd91d3b0-8795-592d-aaf7-478e2de72f4b",
+      "slug": "slow-cooker-chicken",
+      "name": "Slow Cooker Chicken",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "a954f7c7-64e6-5e0d-a6e9-db6ead009ad0",
+      "slug": "diabetic",
+      "name": "Diabetic",
+      "color": null
+    },
+    {
+      "id": "4bd0d45b-afa4-5e53-bedb-f65fde5c534c",
+      "slug": "bulgogi-recipes",
+      "name": "Bulgogi Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267893/spicy-hawaiian-slow-cooker-chicken-bulgogi"
+  },
+  "public": true,
+  "updated_at": 1535692910,
+  "revision": 1
+}

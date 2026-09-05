@@ -1,0 +1,258 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4cf75c6f-a660-5319-ac77-dfde21937505",
+  "slug": "maryland-crab-soup",
+  "name": "Maryland Crab Soup",
+  "recipe_type": "soup",
+  "brief_description": "This crab soup recipe is authentic Chesapeake Bay food made with Old Bay, lima beans, corn, carrots, and Maryland blue back-fin crab meat and claws.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place stewed tomatoes, 3 cups water, beef broth, lima beans, corn, sliced carrots, chopped onion, and Old Bay seasoning in a 4-quart pot. Bring to a simmer over medium heat; cover and cook for 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Bring 1 gallon water to a boil in a large pot. Add crab claws and boil for 6 minutes; drain."
+    },
+    {
+      "position": 4,
+      "text": "Stir crabmeat and boiled crab claws into tomato and vegetable mixture. Cover and simmer for 10 to 15 minutes. Serve hot."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4cf75c6f-a660-5319-ac77-dfde21937505/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "165 kcal",
+    "carbohydrateContent": "22 g",
+    "cholesterolContent": "52 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "882 mg",
+    "sugarContent": "6 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2e0416e9-7e5f-5a6a-bb37-6c07b5c62035",
+      "name": "ounce) cans stewed tomatoes",
+      "normalized_name": "ounce cans stewed tomatoes",
+      "quantity": "2 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "54145370-358b-5a93-9663-739dbe94c83b",
+      "name": "fresh lima beans",
+      "normalized_name": "fresh lima beans",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c7140fd4-d0a3-5831-8a5a-0114a00a86d1",
+      "name": "frozen corn kernels",
+      "normalized_name": "frozen corn kernels",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4a86c2c5-ff06-5ab9-8d10-2e734dcb1f59",
+      "name": "sliced carrots",
+      "normalized_name": "sliced carrots",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "224bed78-32e4-5b76-b478-7b468f36bd1a",
+      "name": "old bay seasoning tm",
+      "normalized_name": "old bay seasoning tm",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5c8391c4-cfeb-5c9b-a100-dc223f43624a",
+      "name": "gallon water",
+      "normalized_name": "gallon water",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c7410beb-5cd8-5108-b084-a5ac3e0e714b",
+      "name": "blue crab claws",
+      "normalized_name": "blue crab claws",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": "steamed",
+      "position": 10
+    },
+    {
+      "ingredient_id": "cf5e52f8-b884-50a9-b20d-5fede5d4fb0c",
+      "name": "blue crab crabmeat",
+      "normalized_name": "blue crab crabmeat",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "d6d6453b-d06d-574f-900a-c95aaf45d3fd",
+      "slug": "baltimore-recipes",
+      "name": "Baltimore Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13437/maryland-crab-soup"
+  },
+  "public": true,
+  "updated_at": 1772595685,
+  "revision": 1
+}

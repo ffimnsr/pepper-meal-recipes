@@ -1,0 +1,205 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3dd73a96-42df-5355-8dd6-f7f621be370d",
+  "slug": "roasted-turkey-legs",
+  "name": "Roasted Turkey Legs",
+  "recipe_type": "main",
+  "brief_description": "These perfectly roasted turkey legs are tender and juicy with deliciously crispy skin. Great for a small Thanksgiving turkey dinner or any time of the year!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Rinse turkey legs and pat dry."
+    },
+    {
+      "position": 3,
+      "text": "Stand turkey legs upright (as if the turkey were standing). Press a knife downward into the deep tissue, creating 2 or 3 long pockets. Press a piece of celery into each opening. Pull back the skin on the legs, rub with butter, and season with a little salt. Put the skin back into place, rub with more butter, and season lightly with salt. Lay the turkey legs in a roasting pan. Pour in water."
+    },
+    {
+      "position": 4,
+      "text": "Roast uncovered until the legs are golden brown and the internal temperature is 180 degrees F (82 degrees C) when taken with a meat thermometer, about 1 \u00bd to 2 hours. Add more water if needed while roasting, and baste occasionally with the juices or melted butter."
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 90,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3dd73a96-42df-5355-8dd6-f7f621be370d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "558 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "287 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "48 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "602 mg",
+    "sugarContent": "1 g",
+    "fatContent": "40 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d617f73f-213a-5302-9928-477a950eff93",
+      "name": "stalks celery stalks",
+      "normalized_name": "stalks celery stalks",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "cut in thirds",
+      "position": 1
+    },
+    {
+      "ingredient_id": "9d8167ee-64b4-53be-b0c2-4dca63314176",
+      "name": "turkey legs",
+      "normalized_name": "turkey legs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "41d42358-bb7f-5122-bf1f-be7c83dadf69",
+      "slug": "turkey",
+      "name": "Turkey"
+    },
+    {
+      "id": "80174786-175a-58ca-87fa-d543b572fd4f",
+      "slug": "legs",
+      "name": "Legs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "9e8012e1-313d-57dc-9e8b-f9642cd93d81",
+      "slug": "legs",
+      "name": "Legs",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "f654140a-5ccd-512e-88b5-325b8b2cbbd5",
+      "slug": "butter-recipes",
+      "name": "Butter Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "40044905-5641-52ce-8e18-26e3afdeb43f",
+      "slug": "occasions",
+      "name": "Occasions",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "5320ba41-4f75-53b3-808a-7c2080fb3a7f",
+      "slug": "cook-once",
+      "name": "Cook Once",
+      "color": null
+    },
+    {
+      "id": "705381f7-76d5-5557-9b84-f5f63ae5c1ef",
+      "slug": "eat-twice-recipes",
+      "name": "Eat Twice Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "f6c4b0b6-c32b-5d36-b81a-2ff399253a58",
+      "slug": "thanksgiving",
+      "name": "Thanksgiving",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/84456/roasted-turkey-legs"
+  },
+  "public": true,
+  "updated_at": 1781103375,
+  "revision": 1
+}

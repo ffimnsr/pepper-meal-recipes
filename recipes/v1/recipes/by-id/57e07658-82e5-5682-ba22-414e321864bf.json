@@ -1,0 +1,289 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "57e07658-82e5-5682-ba22-414e321864bf",
+  "slug": "minestrone-soup-i",
+  "name": "Hearty Minestrone Soup",
+  "recipe_type": "soup",
+  "brief_description": "This tasty minestrone soup recipe is a hearty combination of fresh veggies, cabbage, potatoes, beans, and macaroni pasta, topped with Parmesan cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt margarine in a heavy stockpot over medium heat. Add onion, carrots, and celery; saut\u00e9 until beginning to soften, 3 to 4 minutes. Add broth, beans, tomatoes, potatoes, cabbage, parsley, tomato paste, garlic, and salt; bring to a boil."
+    },
+    {
+      "position": 2,
+      "text": "Reduce the heat, cover, and simmer until vegetables are tender, about 1 hour. Add pasta and simmer for 30 minutes more. Adjust seasoning as needed."
+    },
+    {
+      "position": 3,
+      "text": "Ladle into bowls and garnish with Parmesan cheese."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 100,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/57e07658-82e5-5682-ba22-414e321864bf/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "292 kcal",
+    "carbohydrateContent": "41 g",
+    "cholesterolContent": "6 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "766 mg",
+    "sugarContent": "5 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "915d3931-7f1a-547d-9655-7c5ac8ed53bd",
+      "name": "margarine",
+      "normalized_name": "margarine",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "89363afe-8ce1-56cb-84bd-e34bc58da1f2",
+      "name": "chopped carrots",
+      "normalized_name": "chopped carrots",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "123df1c8-5748-5666-bf69-2c887930ec89",
+      "name": "ounce) container chicken broth",
+      "normalized_name": "ounce container chicken broth",
+      "quantity": "1 (32",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "86cac1a2-e9fb-5942-9fb0-8dba32c1744e",
+      "name": "ounce) can cannellini beans",
+      "normalized_name": "ounce can cannellini beans",
+      "quantity": "1 (19",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "70ee6ca8-eda1-5214-ba6c-33f76d948ffb",
+      "name": "ounce) can stewed tomatoes",
+      "normalized_name": "ounce can stewed tomatoes",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2acebd9b-a447-5da9-95f2-91fbfdc0677f",
+      "name": "cubed potatoes",
+      "normalized_name": "cubed potatoes",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "4abbb631-0ee9-5952-9b0f-4aaae7016725",
+      "name": "shredded cabbage",
+      "normalized_name": "shredded cabbage",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c7f94c24-41b4-5f73-9a71-06be56833d48",
+      "name": "dried parsley",
+      "normalized_name": "dried parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "21960b21-948a-5139-b037-73997a5656a0",
+      "name": "tomato paste",
+      "normalized_name": "tomato paste",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 12
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "90ad4070-8a31-5a7c-9087-58102c7ff05f",
+      "name": "elbow macaroni",
+      "normalized_name": "elbow macaroni",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "735a9e8e-adcb-5012-8a67-19a8d5bdf5e2",
+      "slug": "minestrone",
+      "name": "Minestrone"
+    }
+  ],
+  "tags": [
+    {
+      "id": "781e9dda-ec68-58bd-8466-fa2cd5883626",
+      "slug": "minestrone",
+      "name": "Minestrone",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "b985ff58-e077-5b11-aac3-6f9e81f071c3",
+      "slug": "cannellini-beans",
+      "name": "Cannellini Beans",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "2300135f-ea67-5f71-9ace-9a489558b679",
+      "slug": "sangiovese",
+      "name": "Sangiovese",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13187/minestrone-soup-i"
+  },
+  "public": true,
+  "updated_at": 1781703392,
+  "revision": 1
+}

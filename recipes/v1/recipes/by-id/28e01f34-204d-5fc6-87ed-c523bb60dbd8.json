@@ -1,0 +1,237 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "28e01f34-204d-5fc6-87ed-c523bb60dbd8",
+  "slug": "strawberry-chicken-salad-for-sandwiches",
+  "name": "Strawberry Chicken Salad",
+  "recipe_type": "salad",
+  "brief_description": "This delightful strawberry chicken salad combines strawberries, chicken, and pecans with homemade poppy seed dressing for a zingy sandwich filling.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Mix mayonnaise, lemon juice, honey, and poppy seeds together in a medium bowl."
+    },
+    {
+      "position": 3,
+      "text": "Add chicken, strawberries, pecans, celery, green onions, parsley; toss to combine. Season with salt and pepper."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/28e01f34-204d-5fc6-87ed-c523bb60dbd8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "860 kcal",
+    "carbohydrateContent": "14 g",
+    "cholesterolContent": "130 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "38 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "428 mg",
+    "sugarContent": "8 g",
+    "fatContent": "74 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5c5e3d80-489c-522a-af3b-30b06f405084",
+      "name": "poppy seeds",
+      "normalized_name": "poppy seeds",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c5d1ca96-acff-5211-9ce5-2d47772a3c0c",
+      "name": "chopped",
+      "normalized_name": "chopped",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "cooked chicken",
+      "position": 5
+    },
+    {
+      "ingredient_id": "1295d4db-5eb2-5b15-b5ee-99c8fb36b102",
+      "name": "sliced fresh strawberries",
+      "normalized_name": "sliced fresh strawberries",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "42f2244f-806b-5043-b3e9-4312dcde7b7f",
+      "name": "pecan pieces",
+      "normalized_name": "pecan pieces",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "991b8a01-c1c5-50f6-837f-820fc7632fc9",
+      "name": "stalk chopped celery",
+      "normalized_name": "stalk chopped celery",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e939fd24-bdb7-52ee-a72a-8b94e2719dba",
+      "name": "stalks green onions",
+      "normalized_name": "stalks green onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 9
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "42d47281-4996-5c3b-b16f-3ae540302bbd",
+      "slug": "chicken-salad",
+      "name": "Chicken Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "0c4351c3-a3e2-5491-9427-591469b533f8",
+      "slug": "chicken-salad-recipes",
+      "name": "Chicken Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "bb561413-f49c-5029-956b-c7037608823d",
+      "slug": "berries",
+      "name": "Berries",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/283223/strawberry-chicken-salad-for-sandwiches"
+  },
+  "public": true,
+  "updated_at": 1777910518,
+  "revision": 1
+}

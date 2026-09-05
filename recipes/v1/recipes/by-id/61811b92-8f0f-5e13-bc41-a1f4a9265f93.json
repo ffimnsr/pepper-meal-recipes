@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "61811b92-8f0f-5e13-bc41-a1f4a9265f93",
+  "slug": "reuben-crescent-bake",
+  "name": "Reuben Crescent Bake",
+  "recipe_type": "main",
+  "brief_description": "This savory pie made with refrigerated crescent roll dough, corned beef, Swiss cheese, and sauerkraut has all the flavors of a Reuben sandwich.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C). Grease an 8x8-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Mix sauerkraut and salad dressing together in a bowl until well combined. Unroll crescent roll dough, and cut dough in half; place one half of the dough onto a floured work surface, and pinch the perforations of the dough closed to make 1 sheet. Roll dough sheet out to about 12 inches square, and fit the dough into the prepared baking sheet. Pinch perforations closed on 2nd half of dough; roll out to about 9 inches square, and set aside."
+    },
+    {
+      "position": 3,
+      "text": "Prebake dough crust in the baking dish in the preheated oven until lightly browned, 8 to 10 minutes. Remove from oven, and place 4 slices of cheese into the bottom of the crust; top cheese slices with the corned beef, and spread with the sauerkraut mixture. Lay 4 remaining slices of Swiss cheese on top of the sauerkraut mixture. Lay the 2nd sheet of crescent roll dough onto the filled baking sheet, and press the top crust down onto the edges of the dish to seal. Brush with beaten egg white."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the oven until the cheese is melted and the crust is golden brown, 15 to 20 minutes; let stand about 5 minutes before slicing."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/61811b92-8f0f-5e13-bc41-a1f4a9265f93/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "658 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "115 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "37 g",
+    "saturatedFatContent": "17 g",
+    "sodiumContent": "2123 mg",
+    "sugarContent": "10 g",
+    "fatContent": "42 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3e5d8891-729e-55a6-be7a-1d45ae0566ef",
+      "name": "sauerkraut",
+      "normalized_name": "sauerkraut",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": "drained and squeezed dry",
+      "position": 1
+    },
+    {
+      "ingredient_id": "7fcfe9b5-cef4-5df1-a8b0-cbe8d01cc6f1",
+      "name": "thousand island salad dressing",
+      "normalized_name": "thousand island salad dressing",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2c53a142-06c6-5261-b043-26d5bc5224ae",
+      "name": "ounce) tube refrigerated crescent rolls (such as pillsbury\u00ae)",
+      "normalized_name": "ounce tube refrigerated crescent rolls",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ab379959-6503-5251-944a-f63b318eea12",
+      "name": "thin-sliced cooked corned beef",
+      "normalized_name": "thin-sliced cooked corned beef",
+      "quantity": "0.75",
+      "unit": "pound",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "aa55292e-a279-5cd4-a639-3243c7f5331d",
+      "name": "slices swiss cheese",
+      "normalized_name": "slices swiss cheese",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "edaaa546-5063-5734-ab32-dc64e71736b8",
+      "name": "beaten egg white",
+      "normalized_name": "beaten egg white",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9afb73a2-c6dc-5a2e-ac71-57fc2c902428",
+      "slug": "savory-pie",
+      "name": "Savory Pie"
+    },
+    {
+      "id": "2a399197-2ba8-5a40-a39f-e8f54a3807fa",
+      "slug": "pot-pie",
+      "name": "Pot Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "595797f7-b95d-5e7b-b31e-28a868ee7be8",
+      "slug": "pot-pie-recipes",
+      "name": "Pot Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "8adc0f94-dacb-5f02-9865-0ab02c815abe",
+      "slug": "meat-pie-recipes",
+      "name": "Meat Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "5868016f-c4cc-5b4c-baeb-ca0425acfefc",
+      "slug": "corned-beef-recipes",
+      "name": "Corned Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "cf72088b-3f3d-57a4-8bed-404532d3b7ba",
+      "slug": "swiss",
+      "name": "Swiss",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216980/reuben-crescent-bake"
+  },
+  "public": true,
+  "updated_at": 1767900679,
+  "revision": 1
+}

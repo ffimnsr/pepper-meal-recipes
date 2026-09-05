@@ -1,0 +1,201 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8b3bdc67-ee38-5816-ad57-10e0c8c16ce5",
+  "slug": "maple-glazed-tofu",
+  "name": "Maple Glazed Tofu",
+  "recipe_type": "main",
+  "brief_description": "This maple tofu is a vegetarian alternative to ham that's great for holidays like Easter and Christmas.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk together maple syrup, pineapple juice, mustard, and soy sauce in a small bowl. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a large skillet over medium-high heat. Cook and stir tofu in hot oil until evenly browned. Stir in maple syrup mixture and continue to cook until glaze is reduced. Sprinkle with sesame seeds."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8b3bdc67-ee38-5816-ad57-10e0c8c16ce5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "407 kcal",
+    "carbohydrateContent": "64 g",
+    "fiberContent": "1 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "360 mg",
+    "sugarContent": "54 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f3c9a5c8-4880-5c44-af54-63d919c247d4",
+      "name": "maple syrup",
+      "normalized_name": "maple syrup",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bed32264-c563-5496-b8b7-ec82e63e81fa",
+      "name": "pineapple juice",
+      "normalized_name": "pineapple juice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "833068e9-0716-525b-b2f8-e30883988175",
+      "name": "brown mustard",
+      "normalized_name": "brown mustard",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ef4e6e3d-f4ae-500a-9a05-b9a50d533f45",
+      "name": "ounce) container firm tofu",
+      "normalized_name": "ounce container firm tofu",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "drained and cubed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "e1f678b6-d8cf-5c32-9ae8-0d389e675eb7",
+      "name": "sesame seeds",
+      "normalized_name": "sesame seeds",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    },
+    {
+      "id": "4bbce3b5-1094-5afe-9c1a-51d908f535b1",
+      "slug": "vegetarian",
+      "name": "Vegetarian"
+    },
+    {
+      "id": "9b016ab7-33d3-5cfa-a2fe-b2884030fd9a",
+      "slug": "protein",
+      "name": "Protein"
+    },
+    {
+      "id": "9ec4a5fe-8d8c-5ba6-b668-763fad047f12",
+      "slug": "tofu",
+      "name": "Tofu"
+    }
+  ],
+  "tags": [
+    {
+      "id": "646d833a-042e-5089-8a59-3d916b212664",
+      "slug": "tofu",
+      "name": "Tofu",
+      "color": null
+    },
+    {
+      "id": "16eff42a-bdad-58bd-8f0c-a6674afbe1dd",
+      "slug": "christmas-dinner-recipes",
+      "name": "Christmas Dinner Recipes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/195238/maple-glazed-tofu"
+  },
+  "public": true,
+  "updated_at": 1670284691,
+  "revision": 1
+}

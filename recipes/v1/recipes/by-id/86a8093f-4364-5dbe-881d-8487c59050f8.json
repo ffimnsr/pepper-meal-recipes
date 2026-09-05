@@ -1,0 +1,200 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "86a8093f-4364-5dbe-881d-8487c59050f8",
+  "slug": "nanas-mashed-turnip",
+  "name": "Nana's Mashed Turnip",
+  "recipe_type": "side",
+  "brief_description": "Mashed potatoes with turnip! What a delicious idea!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place turnip and potatoes in a large pot with enough water to cover, and bring to a boil. Cook 25 to 30 minutes, until tender. Remove from heat, and drain."
+    },
+    {
+      "position": 3,
+      "text": "Mix milk, 2 tablespoons butter, and sugar with the turnip and potatoes. Season with salt and pepper. Mash until slightly lumpy."
+    },
+    {
+      "position": 4,
+      "text": "Transfer turnip mixture to a small baking dish. Dot with remaining butter. Cover loosely, and bake 15 minutes in the preheated oven. Remove cover, and continue baking about 8 minutes, until lightly browned."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/86a8093f-4364-5dbe-881d-8487c59050f8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "141 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "16 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "323 mg",
+    "sugarContent": "4 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e1ffd148-c7ae-52eb-89e0-863bc0af1ef3",
+      "name": "large turnip",
+      "normalized_name": "large turnip",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "29bc475e-4529-5c94-9a33-3e2bf1652113",
+      "name": "white potatoes",
+      "normalized_name": "white potatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "fdaed86a-bbd7-5daf-83aa-ad4f8aa12cfd",
+      "slug": "new-year",
+      "name": "New Year",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "0d198415-2c69-5eb8-98ec-b014b84691a6",
+      "slug": "turnip",
+      "name": "Turnip",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/46250/nanas-mashed-turnip"
+  },
+  "public": true,
+  "updated_at": 1781721350,
+  "revision": 1
+}

@@ -1,0 +1,211 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1aeb1e42-b59a-5af1-af84-25b2fe2303ee",
+  "slug": "simple-flourless-apple-crisp",
+  "name": "Simple Flourless Apple Crisp",
+  "recipe_type": "dessert",
+  "brief_description": "This simple flourless apple crisp recipe comes together quickly for a satisfyingly sweet treat for those looking to avoid gluten or cut back on carbs.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Arrange apple slices in a 9-inch circular glass pie plate. Stir oats, sugar, and cinnamon together in a bowl."
+    },
+    {
+      "position": 3,
+      "text": "Microwave butter in 5-second increments until melted, about 20 seconds. Stir melted butter, honey, and oil into oat mixture; crumble over apples."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until golden brown, about 35 minutes. Cool on a wire cooling rack, about 45 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1aeb1e42-b59a-5af1-af84-25b2fe2303ee/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "605 kcal",
+    "carbohydrateContent": "117 g",
+    "cholesterolContent": "31 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "97 mg",
+    "sugarContent": "85 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "460c6f98-a8e4-59a5-b9e8-e52b36d1249f",
+      "name": "apples - peeled",
+      "normalized_name": "apples - peeled",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "cored, and sliced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "76e55c59-0165-5484-9fa6-eca591d2689c",
+      "name": "oats",
+      "normalized_name": "oats",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "6aec5b4e-5dad-5a47-b4a6-2ce607cc6a3b",
+      "slug": "crisps-and-crumble",
+      "name": "Crisps and Crumble"
+    },
+    {
+      "id": "eeb07f2d-076f-59d8-94be-80bdb229dff0",
+      "slug": "apple-crisps-and-crumbles",
+      "name": "Apple Crisps and Crumbles"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "b27e7672-5670-576d-b52e-a2ba7aa1e26a",
+      "slug": "summer-desserts",
+      "name": "Summer Desserts",
+      "color": null
+    },
+    {
+      "id": "038bebf6-15b1-553f-8a1d-94f11ace5695",
+      "slug": "cobblers",
+      "name": "Cobblers",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "3a59388b-9e6e-563d-a902-fb34f36c079d",
+      "slug": "apple-crisps-and-crumbles-recipes",
+      "name": "Apple Crisps and Crumbles Recipes",
+      "color": null
+    },
+    {
+      "id": "c6f90ac9-f4db-5013-8421-b6bc16d4e922",
+      "slug": "crisps-and-crumble-recipes",
+      "name": "Crisps and Crumble Recipes",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "4fe5fe2f-c3bd-5b9f-80cc-96bc9aaf2251",
+      "slug": "oat-recipes",
+      "name": "Oat Recipes",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241523/simple-flourless-apple-crisp"
+  },
+  "public": true,
+  "updated_at": 1775853893,
+  "revision": 1
+}

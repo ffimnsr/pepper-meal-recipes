@@ -1,0 +1,214 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cdfa8404-1ebf-58f2-9499-7b2e73c214d1",
+  "slug": "new-york-knish-yo",
+  "name": "New York Knish - Yo!",
+  "recipe_type": "appetizer",
+  "brief_description": "These savory potato and onion filled phyllo pastries are a bite of New York City.",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place potatoes into a pot with enough water to cover. Bring to a boil, and cook until tender. Drain, and set aside."
+    },
+    {
+      "position": 2,
+      "text": "While the potatoes are boiling, heat 1/4 cup butter in a large skillet over medium heat. Stir in onions, and cook until soft and translucent."
+    },
+    {
+      "position": 3,
+      "text": "In a large bowl, mash the potatoes until smooth. Mix in onion and butter mixture, crumbled bouillon, and salt and pepper to taste."
+    },
+    {
+      "position": 4,
+      "text": "Preheat oven to 375 degrees F (190 degrees C). Grease a baking sheet."
+    },
+    {
+      "position": 5,
+      "text": "Layer 3 sheets of phyllo dough one on top of the other, and cut this triple-layered sheet in half. Drop one spoonful of potato mixture into each phyllo piece. Roll dough around mixture, tucking ends under. Repeat this step with remaining sheets of phyllo dough to make 12 knishes. Brush with remaining 1/4 cup butter, and place on baking sheet."
+    },
+    {
+      "position": 6,
+      "text": "Bake in a preheated oven 30 to 40 minutes, or until golden brown."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cdfa8404-1ebf-58f2-9499-7b2e73c214d1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "232 kcal",
+    "carbohydrateContent": "33 g",
+    "cholesterolContent": "20 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "294 mg",
+    "sugarContent": "1 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "da1873fc-5b12-598e-af25-d36f7ca90987",
+      "name": "large yukon gold potatoes",
+      "normalized_name": "large yukon gold potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "peeled",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "9e44c4d0-6db4-5e62-b94f-1d9cb6c7907b",
+      "name": "cube chicken bouillon",
+      "normalized_name": "cube chicken bouillon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "crumbled",
+      "position": 4
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ed56578d-9178-5f0b-af37-311e0ecffdab",
+      "name": "sheets phyllo dough",
+      "normalized_name": "sheets phyllo dough",
+      "quantity": "18",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "1c05a4a5-fd56-5e63-9f38-442939c07aee",
+      "slug": "potato",
+      "name": "Potato"
+    }
+  ],
+  "tags": [
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "18b2428e-49ac-5b8d-af80-742fcfba3704",
+      "slug": "new-york-city-recipes",
+      "name": "New York City Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "d302e175-eebe-5aa5-b201-8d914809ae52",
+      "slug": "jewish",
+      "name": "Jewish",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/81942/new-york-knish-yo"
+  },
+  "public": true,
+  "updated_at": 1732234641,
+  "revision": 1
+}

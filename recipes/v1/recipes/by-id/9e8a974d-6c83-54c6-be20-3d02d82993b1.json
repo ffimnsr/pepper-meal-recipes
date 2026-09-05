@@ -1,0 +1,259 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9e8a974d-6c83-54c6-be20-3d02d82993b1",
+  "slug": "vegan-mushroom-and-kale-soup",
+  "name": "Vegan Mushroom and Kale Soup",
+  "recipe_type": "soup",
+  "brief_description": "Vegan main dishes don't get easier than this mushroom and kale soup seasoned with herbes de Provence and loaded with potatoes and carrots.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a large saucepan over medium heat. Add potatoes, carrots, celery, and onion. Cook and stir until fragrant, 3 to 5 minutes. Add broth, 1 package of mushrooms, salt, herbes de Provence, pepper, and bay leaf. Cook until vegetables are soft, 15 to 20 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Place kale in a separate saucepan over low heat and add water to cover. Cook until tender, 5 to 8 minutes. Drain excess liquid."
+    },
+    {
+      "position": 3,
+      "text": "Coarsely chop the second package of mushrooms."
+    },
+    {
+      "position": 4,
+      "text": "Fill blender halfway with the vegetables and broth. Cover and hold lid down with a potholder; pulse a few times before leaving on to blend. Pour into a pot. Repeat with remaining vegetables and broth. Pour all of the pureed soup back into the saucepan. Add the kale and chopped mushrooms. Let simmer until mushrooms are just tender, 5 to 10 minutes more."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9e8a974d-6c83-54c6-be20-3d02d82993b1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "230 kcal",
+    "carbohydrateContent": "40 g",
+    "fiberContent": "8 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "1929 mg",
+    "sugarContent": "11 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or more to taste",
+      "position": 1
+    },
+    {
+      "ingredient_id": "4b2b3112-53d1-5b2b-a392-6dbd06a85d12",
+      "name": "russet potatoes",
+      "normalized_name": "russet potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced, or more to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b7da9fb9-3e73-5273-8180-a4419a81905b",
+      "name": "fluid ounce) containers vegetable broth",
+      "normalized_name": "fluid ounce containers vegetable broth",
+      "quantity": "1.5 (32",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bb98ad84-c6cd-5137-b10c-2ef932ee6394",
+      "name": "ounce) packages sliced mushrooms",
+      "normalized_name": "ounce packages sliced mushrooms",
+      "quantity": "2 (8",
+      "unit": "pieces",
+      "preparation": "divided",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "25b8c462-3b45-5a07-95db-ed9c808ddf1c",
+      "name": "herbes de provence",
+      "normalized_name": "herbes de provence",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "35e58afa-7485-5b03-b195-7745d39e71b3",
+      "name": "chopped kale",
+      "normalized_name": "chopped kale",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "455c8f1d-400c-54da-a781-dcc5ebf58a7b",
+      "slug": "kale-soup",
+      "name": "Kale Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "13320ff7-661a-568e-9538-03cd40f94308",
+      "slug": "kale",
+      "name": "Kale",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "28f24011-6706-59fa-8654-c3d2657489d7",
+      "slug": "mushroom",
+      "name": "Mushroom",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262483/vegan-mushroom-and-kale-soup"
+  },
+  "public": true,
+  "updated_at": 1583808797,
+  "revision": 1
+}

@@ -1,0 +1,204 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "64a1727a-fc30-5e83-8bd4-0526fed3f47f",
+  "slug": "chicken-chilaquiles",
+  "name": "Chicken Chilaquiles",
+  "recipe_type": "main",
+  "brief_description": "Chicken chilaquiles with chorizo, tortilla chips, corn, creamy green enchilada sauce, and cheese; bake until bubbly, golden, and delicious.",
+  "cuisine": "Mexican Inspired Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Heat a large skillet over medium-high heat. Cook and stir chorizo in the hot skillet until crumbly, about 5 minutes. Add chicken; cook and stir until chicken is cooked through and no longer pink in the center, about 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Spread 1/2 of the tortilla chips over the bottom of a casserole dish; top chips with chicken mixture. Sprinkle corn evenly over chicken mixture and layer remaining chips on top. Whisk green enchilada sauce and sour cream in a mixing bowl; pour over chips and top with shredded Monterey Jack cheese."
+    },
+    {
+      "position": 4,
+      "text": "Bake chilaquiles in the preheated oven until casserole is bubbly and the chips begin to brown, 15 to 20 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/64a1727a-fc30-5e83-8bd4-0526fed3f47f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "388 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "71 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "430 mg",
+    "sugarContent": "1 g",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "885cb456-4721-58d9-b3a3-4b1f34795239",
+      "name": "chorizo",
+      "normalized_name": "chorizo",
+      "quantity": "0.25",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves, cut into 1-inch cubes",
+      "position": 2
+    },
+    {
+      "ingredient_id": "85700434-931c-5a6a-975d-3d1600de0123",
+      "name": "ounce) bag tortilla chips",
+      "normalized_name": "ounce bag tortilla chips",
+      "quantity": "0.5 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c7140fd4-d0a3-5831-8a5a-0114a00a86d1",
+      "name": "frozen corn kernels",
+      "normalized_name": "frozen corn kernels",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d2eef55b-1d34-582a-b7f9-0d683013bc34",
+      "name": "ounce) can green enchilada sauce",
+      "normalized_name": "ounce can green enchilada sauce",
+      "quantity": "1 (19",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "46e61c24-33a7-5f57-aabf-570573269078",
+      "name": "shredded monterey jack cheese",
+      "normalized_name": "shredded monterey jack cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "3d8ed22f-fcce-5fd7-8874-3045e2841e3b",
+      "slug": "chilaquiles",
+      "name": "Chilaquiles"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "f69d21ef-d5c5-56ce-ba1a-5a197ca7c9a7",
+      "slug": "mexican-style-chicken",
+      "name": "Mexican-Style Chicken",
+      "color": null
+    },
+    {
+      "id": "b3956ff9-7982-5358-a08b-12513c18b2c6",
+      "slug": "casserole",
+      "name": "Casserole",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/147633/chicken-chilaquiles"
+  },
+  "public": true,
+  "updated_at": 1680699951,
+  "revision": 1
+}

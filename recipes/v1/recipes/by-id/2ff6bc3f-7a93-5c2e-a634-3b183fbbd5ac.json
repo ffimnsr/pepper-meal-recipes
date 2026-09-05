@@ -1,0 +1,236 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2ff6bc3f-7a93-5c2e-a634-3b183fbbd5ac",
+  "slug": "my-chili",
+  "name": "My Chili",
+  "recipe_type": "soup",
+  "brief_description": "This chili recipe makes a delicious basic meat chili with simple ingredients like ground beef, stewed tomatoes, red kidney beans, and chili powder.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine ground beef, onion, and garlic in a large stockpot over medium heat. Cook and stir until beef is browned and crumbly, about 10 minutes. Drain and discard excess grease."
+    },
+    {
+      "position": 2,
+      "text": "Stir tomatoes, tomato sauce, chili powder, salt, and oregano into beef mixture. Break up tomatoes while stirring and bring to a boil, then reduce heat to simmer. Cover and cook, stirring occasionally, for 1 hour."
+    },
+    {
+      "position": 3,
+      "text": "Stir in beans with liquid from the can. Simmer uncovered, stirring occasionally, for 20 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 90,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2ff6bc3f-7a93-5c2e-a634-3b183fbbd5ac/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/xCuJbw9Q-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "482 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "97 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "1517 mg",
+    "sugarContent": "11 g",
+    "fatContent": "31 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "2e0416e9-7e5f-5a6a-bb37-6c07b5c62035",
+      "name": "ounce) cans stewed tomatoes",
+      "normalized_name": "ounce cans stewed tomatoes",
+      "quantity": "4 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f7a620bf-624f-5839-bad4-c9e85269074e",
+      "name": "ounce) can tomato sauce",
+      "normalized_name": "ounce can tomato sauce",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a0cb7886-8e82-5bbc-9e62-99c00c2204fb",
+      "name": "ounce) can kidney beans with liquid",
+      "normalized_name": "ounce can kidney beans with liquid",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "2233d10f-275a-5e5c-a3df-d9ba7047b8ee",
+      "slug": "chili",
+      "name": "Chili"
+    },
+    {
+      "id": "ace4b76f-029f-57da-82ed-2565fde01633",
+      "slug": "beef-chili",
+      "name": "Beef Chili"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "3a5da0b6-9dfb-5d3f-a47c-b6c3c42d4010",
+      "slug": "chili-recipes",
+      "name": "Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "301bad8a-6e1f-553c-a80c-5128b923b5b0",
+      "slug": "chili-powder-recipes",
+      "name": "Chili Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13423/my-chili"
+  },
+  "public": true,
+  "updated_at": 1767105017,
+  "revision": 1
+}

@@ -1,0 +1,175 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "28e0a4d4-d0ea-527c-9f4c-f5f7eed5026b",
+  "slug": "sticky-popcorn",
+  "name": "Sticky Popcorn",
+  "recipe_type": "dessert",
+  "brief_description": "This sticky popcorn is made by melting marshmallows, butter, and brown sugar in the microwave, then pouring it over popped kernels for a sweet snack.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine marshmallows, butter, and brown sugar in a microwave-safe bowl. Heat in the microwave until marshmallows are melted and mixture is smooth, 30 to 60 seconds."
+    },
+    {
+      "position": 2,
+      "text": "Place popcorn in a large serving bowl. Pour marshmallow mixture over popcorn; stir to coat."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/28e0a4d4-d0ea-527c-9f4c-f5f7eed5026b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "353 kcal",
+    "carbohydrateContent": "46 g",
+    "cholesterolContent": "49 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "149 mg",
+    "sugarContent": "30 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5a002fff-d594-56f8-b9a6-c8f7c6af217b",
+      "name": "large marshmallows",
+      "normalized_name": "large marshmallows",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a4f3e4e3-ba01-53d9-846a-ca676f3d38ef",
+      "name": "popped popcorn",
+      "normalized_name": "popped popcorn",
+      "quantity": "10",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7891449c-491f-5889-b6e5-4aa5b1bbd0b6",
+      "slug": "candy",
+      "name": "Candy"
+    },
+    {
+      "id": "94444452-2f53-5f65-b282-1b7a98428914",
+      "slug": "popcorn-candy",
+      "name": "Popcorn Candy"
+    }
+  ],
+  "tags": [
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "1ec1b220-3014-5073-b90a-86a363a6cb1f",
+      "slug": "popcorn-candy-recipes",
+      "name": "Popcorn Candy Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "7010d70c-9bb8-59d5-8f78-f098db7e5a29",
+      "slug": "caramel",
+      "name": "Caramel",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "7a885960-8acc-549f-9170-8939c42a169f",
+      "slug": "candy-recipes",
+      "name": "Candy Recipes",
+      "color": null
+    },
+    {
+      "id": "027c16f6-cfbf-5fc4-9284-39c599a9fea7",
+      "slug": "caramel-popcorn-recipes",
+      "name": "Caramel Popcorn Recipes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/239892/sticky-popcorn"
+  },
+  "public": true,
+  "updated_at": 1780051563,
+  "revision": 1
+}

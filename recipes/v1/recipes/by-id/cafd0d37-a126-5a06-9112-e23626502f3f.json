@@ -1,0 +1,251 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cafd0d37-a126-5a06-9112-e23626502f3f",
+  "slug": "salmon-quiche",
+  "name": "Salmon Quiche",
+  "recipe_type": "breakfast",
+  "brief_description": "This salmon quiche recipe is easy to make with canned salmon, eggs, onion, Cheddar cheese, evaporated milk, and a frozen store-bought pie crust.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Combine evaporated milk, cubed Cheddar, eggs, onion, salt, pepper, garlic powder, parsley, and sage in a blender; blend until smooth."
+    },
+    {
+      "position": 3,
+      "text": "Spread salmon over the pie crust and sprinkle with 1/2 of the shredded Cheddar. Pour in egg mixture, then top with remaining shredded Cheddar."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 30 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cafd0d37-a126-5a06-9112-e23626502f3f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "443 kcal",
+    "carbohydrateContent": "16 g",
+    "cholesterolContent": "166 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "606 mg",
+    "sugarContent": "5 g",
+    "fatContent": "29 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0af1600b-5fe2-523c-97bf-527552ecd9c4",
+      "name": "fluid ounce) can evaporated milk",
+      "normalized_name": "fluid ounce can evaporated milk",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4cfda4c9-bc35-5eb3-98d0-eea9d2481700",
+      "name": "cubed cheddar cheese",
+      "normalized_name": "cubed cheddar cheese",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "c7f94c24-41b4-5f73-9a71-06be56833d48",
+      "name": "dried parsley",
+      "normalized_name": "dried parsley",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "69a5d3cf-aa43-5217-949e-04c28b188b5b",
+      "name": "dried sage",
+      "normalized_name": "dried sage",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "13f58c7b-cdfc-557b-8b5a-90856e39eba4",
+      "name": "ounce) can salmon",
+      "normalized_name": "ounce can salmon",
+      "quantity": "1 (14.75",
+      "unit": "pieces",
+      "preparation": "drained, flaked and bones removed",
+      "position": 10
+    },
+    {
+      "ingredient_id": "7a3b7e6a-e82d-5336-b515-2421ba848780",
+      "name": "inch) frozen pie crust",
+      "normalized_name": "inch frozen pie crust",
+      "quantity": "1 (9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "47524e31-2c45-5536-8117-12421e363449",
+      "slug": "salmon",
+      "name": "Salmon",
+      "color": null
+    },
+    {
+      "id": "f7a20535-5275-5032-b0e5-0e2846cb32f6",
+      "slug": "baked-salmon-recipes",
+      "name": "Baked Salmon Recipes",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "db91492e-e32c-5710-93d7-22a553631e4d",
+      "slug": "quiche",
+      "name": "Quiche",
+      "color": null
+    },
+    {
+      "id": "cc33b187-976c-5cca-9b5a-4fe0bfebfeb6",
+      "slug": "freezer",
+      "name": "Freezer",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/209990/salmon-quiche"
+  },
+  "public": true,
+  "updated_at": 1773679822,
+  "revision": 1
+}

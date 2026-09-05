@@ -1,0 +1,224 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b3040910-2e0e-54db-ad57-c4bcb5c9713d",
+  "slug": "hawaiian-pizza",
+  "name": "Hawaiian Pizza",
+  "recipe_type": "main",
+  "brief_description": "This Hawaiian pizza, topped with crispy smoked bacon, caramelized pineapple, red onion, and mozzarella, has the perfect combination of flavors!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 500 degrees F (260 degrees C) with a rack in the lower position. Oil a large rimmed baking sheet with olive oil."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, heat a large skillet over medium heat. Add bacon and cook, flipping occasionally, until golden brown and crisp, 5 to 7 minutes. Transfer to a paper towel-lined plate."
+    },
+    {
+      "position": 3,
+      "text": "Pour out pan drippings without wiping pan clean, and return skillet to heat. Add pineapple, cook until lightly browned and caramelized, 3 minutes per side. Remove from pan. Chop bacon and cut pineapple rings into 3/4-inch pieces."
+    },
+    {
+      "position": 4,
+      "text": "On a lightly floured surface, roll dough to a 12-inch circle and place on the oiled baking sheet. Prick dough with a fork several times to reduce air bubbles. Spread pizza sauce evenly over dough, leaving a 1 1/2-inch border around edges. Sprinkle with cheese, red onion, Canadian bacon, chopped pineapple, and chopped bacon."
+    },
+    {
+      "position": 5,
+      "text": "Bake in preheated oven until cheese is melted and bubbly, toppings are lightly charred, and crust is golden brown, 10 to 15 minutes. Let stand 5 minutes before serving. Recipe developed by Amanda Holstein"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b3040910-2e0e-54db-ad57-c4bcb5c9713d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "322 kcal",
+    "carbohydrateContent": "34 g",
+    "cholesterolContent": "32 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "844 mg",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "9aa44676-d867-511d-bf77-4a0d2b57854a",
+      "name": "extra-virgin olive oil",
+      "normalized_name": "extra-virgin olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "plus more for pan",
+      "position": 1
+    },
+    {
+      "ingredient_id": "cce6a1b1-d3e2-5ea1-87fc-4dc8ca10b956",
+      "name": "slices applewood-smoked bacon",
+      "normalized_name": "slices applewood-smoked bacon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "e8fb8c90-03e6-5f5d-b5cf-b92e7b4a06f3",
+      "name": "canned pineapple rings",
+      "normalized_name": "canned pineapple rings",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "57b3cb99-97cd-5e53-b8d1-2f1a0a78b113",
+      "name": "fresh pizza dough",
+      "normalized_name": "fresh pizza dough",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "at room temperature",
+      "position": 4
+    },
+    {
+      "ingredient_id": "8c2782ba-f197-5a73-b828-11008f267af4",
+      "name": "pizza sauce (from 1 [14 oz.] jar)",
+      "normalized_name": "pizza sauce",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "93bb9446-2368-5b68-958c-2e2d6911a88e",
+      "name": "oz.) pre-shredded whole-milk mozzarella cheese",
+      "normalized_name": "oz pre-shredded whole-milk mozzarella cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "58e8d637-4d92-5d56-8253-e7ab0f4f1872",
+      "name": "thinly sliced red onion",
+      "normalized_name": "thinly sliced red onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "4e8cd48b-bd3f-5eda-966c-b94464e13cfe",
+      "name": "canadian bacon (about 4 slices)",
+      "normalized_name": "canadian bacon",
+      "quantity": "3",
+      "unit": "ounces",
+      "preparation": "cut into 1-in. triangles",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "149a4eab-232a-5656-97ca-966809a8a3c5",
+      "slug": "pizza",
+      "name": "Pizza"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "c88e879c-5c3e-531a-97fc-d72022e4e131",
+      "slug": "pizza-recipes",
+      "name": "Pizza Recipes",
+      "color": null
+    },
+    {
+      "id": "aaca699e-53a1-50d3-9d05-41d40ab3a030",
+      "slug": "quick-and-easy-main-dishes",
+      "name": "Quick and Easy Main Dishes",
+      "color": null
+    },
+    {
+      "id": "034394aa-b2a8-5d8f-9932-b7e2b073439f",
+      "slug": "bacon",
+      "name": "Bacon",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "63799899-09ad-5d0f-9d12-0e0de5260e82",
+      "slug": "pizza",
+      "name": "Pizza",
+      "color": null
+    },
+    {
+      "id": "1e3ef487-2645-5318-ae6f-746d477342e8",
+      "slug": "canadian",
+      "name": "Canadian",
+      "color": null
+    },
+    {
+      "id": "6ce4b59b-70b4-5100-8436-a29f96994748",
+      "slug": "football",
+      "name": "Football",
+      "color": null
+    },
+    {
+      "id": "db0335bb-8fa0-5e43-a836-92de25a38748",
+      "slug": "recipes-for-the-super-bowl",
+      "name": "Recipes for the Super Bowl\u00ae",
+      "color": null
+    },
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "8f8344aa-ca9e-5545-9519-398838c11970",
+      "slug": "hawaii",
+      "name": "Hawaii",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8527294/hawaiian-pizza"
+  },
+  "public": true,
+  "updated_at": 1773511349,
+  "revision": 1
+}

@@ -1,0 +1,237 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d38cc3c7-23b8-583a-8538-23c37710ab42",
+  "slug": "steak-nachos",
+  "name": "Steak Nachos",
+  "recipe_type": "appetizer",
+  "brief_description": "Steak replaces ground beef in this quick and hearty recipe for velvety nachos made with a quick roux.",
+  "cuisine": "American Tex-Mex",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Spray a frying pan with cooking spray. Heat over medium heat. Cook and stir steak until barely any pink remains, 5 to 7 minutes. Drain fat from pan; add taco seasoning to the steak. Let simmer until desired consistency is reached, 3 to 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Warm milk in a medium saucepan over medium heat until small bubbles appear along the sides. Remove from heat."
+    },
+    {
+      "position": 3,
+      "text": "Melt butter in another medium saucepan over medium-high heat. Add flour once bubbles disappear. Cook, stirring constantly with a whisk, until mixture becomes paste-like and light golden brown, about 5 minutes. Gradually whisk in the warm milk and bring to a simmer over medium heat. Cook and stir until the mixture is thick and smooth, 10 to 15 minutes. Reduce heat to low and stir in shredded cheese."
+    },
+    {
+      "position": 4,
+      "text": "Add black beans, salsa, and the steak pieces. Stir and serve with tortilla chips."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d38cc3c7-23b8-583a-8538-23c37710ab42/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "582 kcal",
+    "carbohydrateContent": "39 g",
+    "cholesterolContent": "97 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "18 g",
+    "sodiumContent": "1108 mg",
+    "sugarContent": "4 g",
+    "fatContent": "35 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e48e8574-0a81-55af-8d0e-e128cbc89872",
+      "name": "flat iron steaks",
+      "normalized_name": "flat iron steaks",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into small pieces",
+      "position": 2
+    },
+    {
+      "ingredient_id": "8ee4e603-8aa2-53a3-8190-66c3d5461eba",
+      "name": "taco seasoning mix",
+      "normalized_name": "taco seasoning mix",
+      "quantity": "1",
+      "unit": "package",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a1df7e8c-4f9f-576f-adfd-55eeb0bcdab6",
+      "name": "shredded mexican cheese blend",
+      "normalized_name": "shredded mexican cheese blend",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5994137f-3c02-548c-acb4-3722b49f82fe",
+      "name": "ounce) can black beans",
+      "normalized_name": "ounce can black beans",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained and rinsed",
+      "position": 8
+    },
+    {
+      "ingredient_id": "2d1e1921-3e9f-5c4b-b821-833e5c6e4130",
+      "name": "salsa",
+      "normalized_name": "salsa",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "85700434-931c-5a6a-975d-3d1600de0123",
+      "name": "ounce) bag tortilla chips",
+      "normalized_name": "ounce bag tortilla chips",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "or to taste",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "f673a69e-2a69-53a3-8baa-b2314639be89",
+      "slug": "cheese",
+      "name": "Cheese"
+    },
+    {
+      "id": "cf540d83-c29c-5df1-a2d1-13dae174c4bf",
+      "slug": "nachos",
+      "name": "Nachos"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bea70f6b-83d1-547c-b292-dc14e80b6239",
+      "slug": "cooking-for-a-crowd-recipes",
+      "name": "Cooking for a Crowd Recipes",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "a2739e39-e56d-5b2f-aed0-2eef272025f6",
+      "slug": "black-beans",
+      "name": "Black Beans",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267998/steak-nachos"
+  },
+  "public": true,
+  "updated_at": 1746134675,
+  "revision": 1
+}

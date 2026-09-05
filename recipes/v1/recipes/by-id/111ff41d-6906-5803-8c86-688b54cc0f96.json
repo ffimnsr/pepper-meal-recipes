@@ -1,0 +1,204 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "111ff41d-6906-5803-8c86-688b54cc0f96",
+  "slug": "lite-brocamole",
+  "name": "Lite Brocamole",
+  "recipe_type": "appetizer",
+  "brief_description": "Wow, this is different. Like guacamole but with steamed broccoli and avocado. And all the usuals - onion, lime juice, hot pepper sauce and cilantro. Mash everything together and dip to your heart 's content.",
+  "cuisine": "Tex Mex American Tex-Mex",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Boil or steam broccoli until very soft."
+    },
+    {
+      "position": 2,
+      "text": "In a large bowl, mash broccoli with avocado. Mix in onions, garlic, lime juice, hot pepper sauce, and cilantro until mixture resembles the consistency of mashed potatoes. Season to taste with salt."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/111ff41d-6906-5803-8c86-688b54cc0f96/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "30 kcal",
+    "carbohydrateContent": "3 g",
+    "fiberContent": "1 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "31 mg",
+    "sugarContent": "1 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a8da5e1f-7b18-55b3-81fc-99e0bba480ca",
+      "name": "avocado",
+      "normalized_name": "avocado",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and pitted",
+      "position": 1
+    },
+    {
+      "ingredient_id": "8c49567b-0083-56ce-85a0-3e6bc011cd52",
+      "name": "large head fresh broccoli",
+      "normalized_name": "large head fresh broccoli",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "59ad6408-a9e8-5f6c-aa7a-e073cf4e0a9c",
+      "name": "lime juice",
+      "normalized_name": "lime juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "caa37eda-f1d6-5fef-90ee-16dac8151601",
+      "name": "hot pepper sauce",
+      "normalized_name": "hot pepper sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "5611510c-11ff-5c0b-aee0-6696f963fc70",
+      "slug": "guacamole",
+      "name": "Guacamole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "a5b15e1a-ecdb-5fd8-9179-f304ae7d22bf",
+      "slug": "tex-mex",
+      "name": "Tex-Mex",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "99d8c901-c626-5363-9195-83d035f13932",
+      "slug": "low-carb",
+      "name": "Low-Carb",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13972/lite-brocamole"
+  },
+  "public": true,
+  "updated_at": 1739569138,
+  "revision": 1
+}

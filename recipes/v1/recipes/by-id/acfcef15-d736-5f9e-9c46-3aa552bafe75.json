@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "acfcef15-d736-5f9e-9c46-3aa552bafe75",
+  "slug": "simple-baked-beans-ii",
+  "name": "Simple Baked Beans",
+  "recipe_type": "side",
+  "brief_description": "These baked beans are quick to make on the stovetop with bacon, onion, brown sugar, ketchup, and canned baked beans for a classic side dish made easy.",
+  "cuisine": "New England American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place bacon in a large, deep skillet. Cook over medium high heat until evenly brown. Add the onion and saut\u00e9 until tender. Drain excess oil, if desired."
+    },
+    {
+      "position": 2,
+      "text": "Stir in baked beans, brown sugar, ketchup, and mustard. Cook, stirring occasionally, until hot and bubbly."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/acfcef15-d736-5f9e-9c46-3aa552bafe75/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "527 kcal",
+    "carbohydrateContent": "61 g",
+    "cholesterolContent": "39 mg",
+    "fiberContent": "10 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "1541 mg",
+    "sugarContent": "31 g",
+    "fatContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "14a9821b-6966-5d2b-a09e-837355f37cb5",
+      "name": "bacon",
+      "normalized_name": "bacon",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "c4460d07-33b1-561c-8b6d-8adf1b86be7b",
+      "name": "ounce) cans baked beans",
+      "normalized_name": "ounce cans baked beans",
+      "quantity": "2 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0257ebea-ef7c-5732-8608-1f746830c65b",
+      "name": "prepared mustard",
+      "normalized_name": "prepared mustard",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "62486dc7-9e27-5c22-9339-2e4ab00fb7d2",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas"
+    },
+    {
+      "id": "9460df44-db2d-5f25-b365-84437f6b26cb",
+      "slug": "baked-bean",
+      "name": "Baked Bean"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cacb0dc1-c4f8-52f6-a1d4-e9f34b5d0c13",
+      "slug": "baked-bean-recipes",
+      "name": "Baked Bean Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "4e7d6528-567b-592e-b80d-f7115460c3d2",
+      "slug": "convenience-cooking",
+      "name": "Convenience Cooking",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21519/simple-baked-beans-ii"
+  },
+  "public": true,
+  "updated_at": 1761049330,
+  "revision": 1
+}

@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ea38844f-be40-55ca-874c-bd9e5f288971",
+  "slug": "sous-vide-poached-pears",
+  "name": "Sous Vide Poached Pears",
+  "recipe_type": "dessert",
+  "brief_description": "Sous vide poached pears are a light and refreshing recipe that you can fix and forget until it's time for dessert. Great served with a scoop of ice cream.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Fill a large pot with warm water, leaving 3 inches of head room. Attach a sous vide cooker to the pot. Set temperature to 175 F degrees (80 degrees C) and timer to 1 hour."
+    },
+    {
+      "position": 2,
+      "text": "Peel pear; halve lengthwise. Scoop out seeds using a small spoon. Place pear halves into a resealable plastic bag or silicone bag; add butter, brown sugar, and vanilla extract."
+    },
+    {
+      "position": 3,
+      "text": "Remove excess air; seal bag and immerse into water making sure top of bag does not go below water. Leave in the water for 1 hour."
+    },
+    {
+      "position": 4,
+      "text": "Remove bag; place pear halves on dessert plates. Drizzle with cooking liquid."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ea38844f-be40-55ca-874c-bd9e5f288971/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "128 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "15 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "0 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "44 mg",
+    "sugarContent": "15 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f00e1d09-817c-575a-92b0-7e2fa1c52fca",
+      "name": "medium pears",
+      "normalized_name": "medium pears",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "raw",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ffaeafed-5d45-547a-87d1-29176b89b6f7",
+      "name": "salted butter",
+      "normalized_name": "salted butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0a949c6b-d460-5683-b9ea-d05253425e4c",
+      "name": "dark brown sugar",
+      "normalized_name": "dark brown sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7125d7fa-c15d-5725-8012-306c4b58775a",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts"
+    },
+    {
+      "id": "32ed6c20-3367-556f-908c-2113cef6dcdd",
+      "slug": "pear-dessert",
+      "name": "Pear Dessert"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "dfc92c66-a2e7-58ae-a03c-c5cd3c9c9bb3",
+      "slug": "pears",
+      "name": "Pears",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/282117/sous-vide-poached-pears"
+  },
+  "public": true,
+  "updated_at": 1746576650,
+  "revision": 1
+}

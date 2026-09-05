@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "80f187ba-3d16-54ac-9b33-5d5e8988eb97",
+  "slug": "spinach-tomato-and-feta-egg-white-omelette",
+  "name": "Spinach, Tomato, and Feta Egg White Omelette",
+  "recipe_type": "breakfast",
+  "brief_description": "This spinach, tomato, and feta egg white omelet recipe is stuffed with veggies and feta cheese for an easy, quick, and filling way to start the day.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a skillet over medium heat; coat with cooking spray."
+    },
+    {
+      "position": 2,
+      "text": "Whisk egg whites, salt, and black pepper together in a bowl; pour into the skillet and swirl until eggs cover entire bottom of skillet. Cook for 1 to 2 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Arrange tomatoes, spinach, and feta cheese in center of eggs. Cook until edges of eggs begin to curl up, 2 to 3 minutes more. Loosen omelet from skillet using a spatula and fold in half; continue cooking until cheese melted, 2 to 3 minutes."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/80f187ba-3d16-54ac-9b33-5d5e8988eb97/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "121 kcal",
+    "carbohydrateContent": "7 g",
+    "cholesterolContent": "17 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "396 mg",
+    "sugarContent": "2 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "982d14de-1236-59b5-b91e-bf6fb931fecc",
+      "name": "egg whites",
+      "normalized_name": "egg whites",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b1fa9030-caca-5cdb-a806-8fcba68d3333",
+      "name": "cherry tomatoes",
+      "normalized_name": "cherry tomatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "032eaae4-bd3d-5fdb-897f-0aaa3adf4878",
+      "name": "chopped fresh spinach",
+      "normalized_name": "chopped fresh spinach",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or more to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "cbedf4a1-173e-56ae-92c0-3595384b0e2c",
+      "name": "crumbled feta cheese",
+      "normalized_name": "crumbled feta cheese",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1e1783f0-14a2-5c36-a8c9-61927a25536b",
+      "slug": "omelet-recipes",
+      "name": "Omelet Recipes",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "6ce52073-665a-558e-9235-f303f0933afd",
+      "slug": "feta",
+      "name": "Feta",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233758/spinach-tomato-and-feta-egg-white-omelette"
+  },
+  "public": true,
+  "updated_at": 1787591810,
+  "revision": 1
+}

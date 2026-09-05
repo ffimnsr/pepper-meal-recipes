@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f99bda4b-453d-5699-84f9-0e970e4bbd99",
+  "slug": "heinz-classic-meatloaf",
+  "name": "Heinz Classic Meatloaf",
+  "recipe_type": "main",
+  "brief_description": "This comforting meatloaf recipe is made with ground beef, bread crumbs, egg, onion, celery, green pepper, and ketchup for a nostalgic evening meal.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (180 degrees C). Lightly grease a 9x5-inch loaf pan."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a large skillet over medium-high heat. Cook and stir onion, celery, and green pepper in hot oil until softened, about 5 minutes. Stir in ketchup to make a sauce. Remove from heat."
+    },
+    {
+      "position": 3,
+      "text": "Combine 1/2 of the sauce with ground beef, bread crumbs, beaten egg, salt, and pepper in a large bowl; mix gently. Pat mixture into the prepared pan."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until an instant-read thermometer reads 160 degrees F (70 degrees C), about 1 hour. Remove from the oven and let rest."
+    },
+    {
+      "position": 5,
+      "text": "Meanwhile, reheat remaining sauce over medium heat. Slice meatloaf and serve with warm sauce."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f99bda4b-453d-5699-84f9-0e970e4bbd99/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "517 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "128 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "797 mg",
+    "sugarContent": "2 g",
+    "fatContent": "34 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "086d955b-35c2-52c3-a408-421896ede438",
+      "name": "finely chopped onion",
+      "normalized_name": "finely chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "51b787cc-9ab1-5567-9153-06876fcf84b4",
+      "name": "finely chopped celery",
+      "normalized_name": "finely chopped celery",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b583b052-36d1-5476-a02e-fa235d0b65cc",
+      "name": "finely chopped green pepper",
+      "normalized_name": "finely chopped green pepper",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f12367c6-6e95-5c6a-876d-3a15aa3dd8b5",
+      "name": "heinz tomato ketchup",
+      "normalized_name": "heinz tomato ketchup",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fd8eef4a-8843-5dfc-bd63-dbd81a2f8cda",
+      "name": "soft",
+      "normalized_name": "soft",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "fresh breadcrumbs",
+      "position": 7
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "slightly beaten",
+      "position": 8
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "9b843a05-3d30-5959-b53d-71258c6272ab",
+      "slug": "meatloaf-recipes",
+      "name": "Meatloaf Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "a3b43786-1971-57fd-b78f-c1e8ac2a8f46",
+      "slug": "trusted-brands-recipes-and-tips",
+      "name": "Trusted Brands: Recipes and Tips",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/217816/heinz-classic-meatloaf"
+  },
+  "public": true,
+  "updated_at": 1781714086,
+  "revision": 1
+}

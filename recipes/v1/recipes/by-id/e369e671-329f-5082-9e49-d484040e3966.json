@@ -1,0 +1,267 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e369e671-329f-5082-9e49-d484040e3966",
+  "slug": "kale-quinoa-and-avocado-salad-with-lemon-dijon-vinaigrette",
+  "name": "Kale, Quinoa, and Avocado Salad with Lemon Dijon Vinaigrette",
+  "recipe_type": "salad",
+  "brief_description": "Tender steamed kale, quinoa, bell pepper, cucumber, onion, and avocado are tossed with a homemade vinaigrette in this super salad.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring 1 1/3 cups water and quinoa to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer until quinoa tender and water absorbed, 15 to 20 minutes. Set aside to cool."
+    },
+    {
+      "position": 2,
+      "text": "Place a steamer basket into a saucepan with 1 inch water; bring water to a boil. Add kale, cover, and steam until hot, about 45 seconds; transfer to a large plate. Top kale with quinoa, avocado, cucumber, bell pepper, red onion, and feta cheese."
+    },
+    {
+      "position": 3,
+      "text": "Whisk olive oil, lemon juice, Dijon mustard, sea salt, and black pepper together in a bowl until emulsified; pour over salad."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e369e671-329f-5082-9e49-d484040e3966/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/CFgmBi2e-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "343 kcal",
+    "carbohydrateContent": "35 g",
+    "cholesterolContent": "2 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "552 mg",
+    "sugarContent": "1 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1.3333333730698",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d2fde650-4009-5bf0-adf1-1161b2b7345e",
+      "name": "quinoa",
+      "normalized_name": "quinoa",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c1973c3-fa1d-5b10-aff5-2cef4782386f",
+      "name": "bunch kale",
+      "normalized_name": "bunch kale",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "torn into bite-sized pieces",
+      "position": 3
+    },
+    {
+      "ingredient_id": "e930232d-709e-57a7-a259-fb07f35733a5",
+      "name": "avocado - peeled",
+      "normalized_name": "avocado - peeled",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "pitted, and diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "7640da8e-6c08-5938-9bd0-1cdf2e3f682f",
+      "name": "chopped cucumber",
+      "normalized_name": "chopped cucumber",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "819b4251-947d-58ee-98c1-767e6f9f8ebe",
+      "name": "chopped red bell pepper",
+      "normalized_name": "chopped red bell pepper",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5a94de26-aba1-5df9-ac14-4544742c49bb",
+      "name": "chopped red onion",
+      "normalized_name": "chopped red onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cbedf4a1-173e-56ae-92c0-3595384b0e2c",
+      "name": "crumbled feta cheese",
+      "normalized_name": "crumbled feta cheese",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "c43f0603-4761-5956-842c-cacc7ec997cf",
+      "name": "dijon mustard",
+      "normalized_name": "dijon mustard",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "5e105923-4713-55af-923e-012f0330312a",
+      "name": "sea salt",
+      "normalized_name": "sea salt",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "a89ce2db-44af-5cb0-8c7c-e8d860b6a5bf",
+      "slug": "quinoa-salad-recipes",
+      "name": "Quinoa Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "13320ff7-661a-568e-9538-03cd40f94308",
+      "slug": "kale",
+      "name": "Kale",
+      "color": null
+    },
+    {
+      "id": "08156d9b-3e00-550e-96cd-4c620723f798",
+      "slug": "main-dish-salads",
+      "name": "Main Dish Salads",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "b06f0c5b-7919-511f-9eeb-ad9b9e1ed1a0",
+      "slug": "grains",
+      "name": "Grains",
+      "color": null
+    },
+    {
+      "id": "d4ef8f15-0a58-50dd-a7a7-70f0c094eb34",
+      "slug": "whole-grains",
+      "name": "Whole Grains",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "867ecb29-7f93-56b1-bd91-1a1d9974c87e",
+      "slug": "quinoa",
+      "name": "Quinoa",
+      "color": null
+    },
+    {
+      "id": "4bbf3490-84b7-5429-acd1-f3f32d9749b1",
+      "slug": "whole-grain",
+      "name": "Whole Grain",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230050/kale-quinoa-and-avocado-salad-with-lemon-dijon-vinaigrette"
+  },
+  "public": true,
+  "updated_at": 1778381721,
+  "revision": 1
+}

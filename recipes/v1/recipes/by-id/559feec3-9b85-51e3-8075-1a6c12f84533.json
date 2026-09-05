@@ -1,0 +1,212 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "559feec3-9b85-51e3-8075-1a6c12f84533",
+  "slug": "blue-cheese-potato-salad",
+  "name": "Blue Cheese Potato Salad",
+  "recipe_type": "salad",
+  "brief_description": "This blue cheese potato salad recipe uses waxy red potatoes, tangy blue cheese, peppery green onions, and crunchy bacon bits for an unforgettable salad.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, 15 to 20 minutes. Drain, cool, and chop, leaving skins on. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, cook bacon in a large, deep skillet over medium-high heat until evenly browned. Drain, crumble, and set aside."
+    },
+    {
+      "position": 3,
+      "text": "Whisk green onions, oil, vinegar, black pepper, and salt together in a large bowl. Add potatoes, bacon, and cheese; toss to coat."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/559feec3-9b85-51e3-8075-1a6c12f84533/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "481 kcal",
+    "carbohydrateContent": "37 g",
+    "cholesterolContent": "22 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "552 mg",
+    "sugarContent": "3 g",
+    "fatContent": "34 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "cc7d352b-4df7-5031-9b06-715d5869e0e2",
+      "name": "red new potatoes",
+      "normalized_name": "red new potatoes",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d6672984-293d-5341-a773-3613abe74951",
+      "name": "bunch green onions",
+      "normalized_name": "bunch green onions",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "22434ed3-4ffc-5906-8f78-e9d95a2eb8bc",
+      "name": "blue cheese",
+      "normalized_name": "blue cheese",
+      "quantity": "1.5",
+      "unit": "ounces",
+      "preparation": "crumbled",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "36f0ba83-6cf7-5b3c-9c04-ccc142dd82bc",
+      "slug": "potato-salad-recipes",
+      "name": "Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "08fb80b7-e7b5-5e1a-a22f-17f2941dd920",
+      "slug": "creamy-potato-salad-recipes",
+      "name": "Creamy Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "06ec51be-db30-5641-9f33-649268cc4c42",
+      "slug": "easter-ideas",
+      "name": "Easter Ideas",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25174/blue-cheese-potato-salad"
+  },
+  "public": true,
+  "updated_at": 1780183840,
+  "revision": 1
+}

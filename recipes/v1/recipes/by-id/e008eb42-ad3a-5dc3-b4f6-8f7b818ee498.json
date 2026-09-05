@@ -1,0 +1,210 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e008eb42-ad3a-5dc3-b4f6-8f7b818ee498",
+  "slug": "spanish-tortilla",
+  "name": "Spanish Tortilla",
+  "recipe_type": "breakfast",
+  "brief_description": "Great for breakfast or brunch. Combines eggs with delicious potatoes in a very short time.",
+  "cuisine": "Spanish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Slice edges off of potatoes so that potatoes are roughly square; thinly slice. Heat olive oil in medium skillet over medium heat. Add potatoes and lightly fry. Remove potatoes with a slotted spoon and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Place bacon in a large, deep skillet. Cook over medium-high heat until evenly brown. Remove bacon, crumble and set aside. Reserve 1 tablespoon bacon grease and cook ham, onion and red pepper. Remove from heat."
+    },
+    {
+      "position": 3,
+      "text": "Beat eggs and paprika together in a bowl; pour into skillet with vegetables. Add bacon and potatoes. Cook over medium heat, without stirring until bottom begins to brown. Turn omelet over and allow both sides to brown. Serve warm."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e008eb42-ad3a-5dc3-b4f6-8f7b818ee498/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "447 kcal",
+    "carbohydrateContent": "22 g",
+    "cholesterolContent": "213 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "558 mg",
+    "sugarContent": "3 g",
+    "fatContent": "34 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled",
+      "position": 2
+    },
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2c98c683-3cbb-5594-948f-8ba9646eea44",
+      "name": "slices cooked ham",
+      "normalized_name": "slices cooked ham",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3e14893d-01cd-562b-a961-1cd642803d8b",
+      "name": "spanish seasoning",
+      "normalized_name": "spanish seasoning",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "2da64254-5d89-5e90-936d-80dd8fc2f10a",
+      "slug": "frittata",
+      "name": "Frittata"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "8d8fef2a-121c-5863-9b4b-5480445e924f",
+      "slug": "ham",
+      "name": "Ham",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "09918637-74ca-57f0-a5a8-55971f1dd9d0",
+      "slug": "spanish",
+      "name": "Spanish",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24342/spanish-tortilla"
+  },
+  "public": true,
+  "updated_at": 1743517059,
+  "revision": 1
+}

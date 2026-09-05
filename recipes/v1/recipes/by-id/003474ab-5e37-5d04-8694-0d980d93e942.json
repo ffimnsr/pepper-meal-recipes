@@ -1,0 +1,179 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "003474ab-5e37-5d04-8694-0d980d93e942",
+  "slug": "grilled-scampi",
+  "name": "Grilled Scampi",
+  "recipe_type": "main",
+  "brief_description": "Grilled shrimp coated with olive oil, butter, garlic, and oregano.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "With a sharp knife, cut shrimp in half so that the meat is exposed in the shell."
+    },
+    {
+      "position": 2,
+      "text": "In a small saucepan, heat olive oil and lightly fry the garlic until just softened. Add butter and Oregano. Heat until butter has melted."
+    },
+    {
+      "position": 3,
+      "text": "Preheat an outdoor grill for medium heat and lightly oil grate."
+    },
+    {
+      "position": 4,
+      "text": "Lay shrimp out on a tray and brush generously with the butter mixture. Grill shrimp until lightly golden."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/003474ab-5e37-5d04-8694-0d980d93e942/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "154 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "57 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "108 mg",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c0c81ee9-da2d-5907-928f-a667f7be2c64",
+      "name": "large shrimp",
+      "normalized_name": "large shrimp",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": "heads off and unpeeled",
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "2336c377-3a0d-5315-937c-eb9b27723743",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes"
+    },
+    {
+      "id": "4710e724-e184-5c95-a495-52fd897b6539",
+      "slug": "shrimp",
+      "name": "Shrimp"
+    },
+    {
+      "id": "b95382a8-8efd-5956-bfa1-e4fbc4829a29",
+      "slug": "shrimp-scampi",
+      "name": "Shrimp Scampi"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21321/grilled-scampi"
+  },
+  "public": true,
+  "updated_at": 1657836776,
+  "revision": 1
+}

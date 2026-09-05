@@ -1,0 +1,171 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5065d696-76cd-5314-906b-34ee077c3499",
+  "slug": "all-fruit-smoothies",
+  "name": "All-Fruit Smoothies",
+  "recipe_type": "drink",
+  "brief_description": "There's nothing in this smoothie except pineapple juice, banana, and frozen strawberries and blueberries. It's smooth, frosty, and dairy-free.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Pour pineapple juice into a blender and add banana, strawberries, and blueberries. Cover and blend until smooth, about 1 minute. Pour into 2 glasses."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5065d696-76cd-5314-906b-34ee077c3499/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "205 kcal",
+    "carbohydrateContent": "51 g",
+    "fiberContent": "6 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "6 mg",
+    "sugarContent": "32 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bed32264-c563-5496-b8b7-ec82e63e81fa",
+      "name": "pineapple juice",
+      "normalized_name": "pineapple juice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "233b251e-9a27-5ca0-a2d7-2f3fcac4d41e",
+      "name": "large banana",
+      "normalized_name": "large banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into chunks",
+      "position": 2
+    },
+    {
+      "ingredient_id": "3dadfd6d-564a-5ec4-bddd-8d706c7f7f2c",
+      "name": "frozen strawberries",
+      "normalized_name": "frozen strawberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "da150580-9931-528a-a57e-ded02006337b",
+      "name": "frozen blueberries",
+      "normalized_name": "frozen blueberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    },
+    {
+      "id": "ac619ab1-4b08-5e99-8beb-a56685583945",
+      "slug": "strawberry",
+      "name": "Strawberry"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4755dc23-7e2d-548f-8358-2f30240609e9",
+      "slug": "blueberry",
+      "name": "Blueberry",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "efdf4003-25b0-5a9c-8f16-7e9c7e4a2234",
+      "slug": "blueberries",
+      "name": "Blueberries",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228854/all-fruit-smoothies"
+  },
+  "public": true,
+  "updated_at": 1780589385,
+  "revision": 1
+}

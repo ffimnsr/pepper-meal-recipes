@@ -1,0 +1,264 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e3aa8824-f3a1-5328-9213-68e8b98d1dd7",
+  "slug": "caldo-de-pollo",
+  "name": "Caldo de Pollo",
+  "recipe_type": "soup",
+  "brief_description": "Caldo de pollo is a simple but richly-flavored chicken soup that's packed with vegetables and seasoned with garlic and lots of fresh cilantro.",
+  "cuisine": "Mexican Inspired Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place chicken legs into a large stockpot; cover with water. Add minced garlic, salt, and garlic powder."
+    },
+    {
+      "position": 3,
+      "text": "Cover the pot; bring to a boil over high heat. Reduce to a simmer; cook until chicken meat falls off the bones, 1 to 2 hours."
+    },
+    {
+      "position": 4,
+      "text": "Stir in chicken bouillon cube until dissolved; add carrots, potatoes, zucchini, chayote, and white onion. Reduce heat to medium-low; simmer until carrots and potatoes are tender, 45 to 60 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Stir chopped cilantro into soup; simmer for 5 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Serve hot and enjoy!"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 110,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e3aa8824-f3a1-5328-9213-68e8b98d1dd7/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/vb7LUJcE-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "606 kcal",
+    "carbohydrateContent": "42 g",
+    "cholesterolContent": "160 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "52 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "2080 mg",
+    "sugarContent": "6 g",
+    "fatContent": "25 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1e226b04-8d5d-525f-aa3d-1c6a11c1ccaa",
+      "name": "chicken leg quarters",
+      "normalized_name": "chicken leg quarters",
+      "quantity": "5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "709d103f-9351-56e2-b234-3f69c9873f20",
+      "name": "gallons water",
+      "normalized_name": "gallons water",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "9e44c4d0-6db4-5e62-b94f-1d9cb6c7907b",
+      "name": "cube chicken bouillon",
+      "normalized_name": "cube chicken bouillon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ba9bf63e-b1a7-522d-8eba-00fe629ee2c3",
+      "name": "large carrots",
+      "normalized_name": "large carrots",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and cut into large chunks",
+      "position": 7
+    },
+    {
+      "ingredient_id": "69d1b056-2560-5b92-9f90-e747223dcaba",
+      "name": "large potatoes",
+      "normalized_name": "large potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and cut into large chunks",
+      "position": 8
+    },
+    {
+      "ingredient_id": "28b3e7fa-5037-5148-b4f4-27c9c52c1a9b",
+      "name": "zucchini",
+      "normalized_name": "zucchini",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "cut into large chunks",
+      "position": 9
+    },
+    {
+      "ingredient_id": "0a2c41dc-eedd-5402-b24f-8b4c7b025dc0",
+      "name": "chayote",
+      "normalized_name": "chayote",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into large chunks",
+      "position": 10
+    },
+    {
+      "ingredient_id": "6934d770-2abd-5842-8fc2-a7573c359eee",
+      "name": "large white onion",
+      "normalized_name": "large white onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into large chunks",
+      "position": 11
+    },
+    {
+      "ingredient_id": "458f53be-1fe8-5c42-8c1f-68635cd3ad88",
+      "name": "bunch fresh cilantro",
+      "normalized_name": "bunch fresh cilantro",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "838adc3f-7dc2-5531-95d4-a7df106e7d30",
+      "slug": "chicken-soup",
+      "name": "Chicken Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "6dad4087-a7f9-5c35-ac41-349f07684bd8",
+      "slug": "chicken-thigh-recipes",
+      "name": "Chicken Thigh Recipes",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231097/caldo-de-pollo"
+  },
+  "public": true,
+  "updated_at": 1773861424,
+  "revision": 1
+}

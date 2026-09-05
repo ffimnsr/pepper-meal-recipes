@@ -1,0 +1,274 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3c6da270-2aaf-5232-af80-631c8d483ad2",
+  "slug": "creamy-tortellini-soup",
+  "name": "Creamy Tortellini Soup",
+  "recipe_type": "soup",
+  "brief_description": "This creamy tortellini soup combines fresh broccoli, stuffed tortellini pasta, and shredded cheese in a rich broth for a cozy meal in just 30 minutes.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a Dutch oven over medium-high heat. Add onion cook until soft and translucent, about 5 minutes. Add garlic and cook until fragrant, about 30 seconds. Sprinkle flour over onion-garlic mixture. Stir to combine, until flour is incorporated."
+    },
+    {
+      "position": 2,
+      "text": "Slowly pour in chicken broth, stirring to combine. Add broccoli, carrot, and tortellini. Season with salt, pepper, paprika, and turmeric. Stir to combine and reduce heat to medium. Cover and simmer until broccoli is tender and tortellini are cooked through, about 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir in cream and cheese until melted. Serve immediately."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3c6da270-2aaf-5232-af80-631c8d483ad2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "497 kcal",
+    "carbohydrateContent": "38 g",
+    "cholesterolContent": "107 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "717 mg",
+    "fatContent": "32 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "086d955b-35c2-52c3-a408-421896ede438",
+      "name": "finely chopped onion",
+      "normalized_name": "finely chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d048b8fd-9fab-5cc1-b458-54ddd45ae648",
+      "name": "low-sodium chicken broth",
+      "normalized_name": "low-sodium chicken broth",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b53ae7bd-211f-5792-9026-70570949bd61",
+      "name": "chopped broccoli",
+      "normalized_name": "chopped broccoli",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6995b31c-9fef-5242-b62c-b88322813b19",
+      "name": "medium carrot",
+      "normalized_name": "medium carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "julienned",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5503e7f8-28cc-5379-8d4c-a5956d849408",
+      "name": "ounce) package cheese tortellini",
+      "normalized_name": "ounce package cheese tortellini",
+      "quantity": "1 (9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "63a103b0-c54c-5b1d-a1a8-4e8e33b61e9b",
+      "name": "smoked paprika",
+      "normalized_name": "smoked paprika",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "9dedb0b4-4d9b-5d36-87b3-daf600def8fe",
+      "name": "turmeric",
+      "normalized_name": "turmeric",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "b22bc2e2-07c9-54aa-a04f-a6f6cd0810e9",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "7b094263-a3a2-5148-ad37-f45092ba8c0a",
+      "name": "shredded colby cheese",
+      "normalized_name": "shredded colby cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "44079fa6-9e49-52c2-8b4a-e01d5920c8a6",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles"
+    },
+    {
+      "id": "d2988218-5c48-5d5a-9b54-278e5c9dce3e",
+      "slug": "pasta-by-shape",
+      "name": "Pasta by Shape"
+    },
+    {
+      "id": "324ac208-45b8-5a8f-a750-2739cd98f887",
+      "slug": "tortellini",
+      "name": "Tortellini"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "fd2ffc67-c552-52a5-9594-6ec896c3b953",
+      "slug": "tortellini-recipes",
+      "name": "Tortellini Recipes",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "78edf4ff-9437-5d63-a7c6-9904d0587091",
+      "slug": "broccoli",
+      "name": "Broccoli",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8472753/creamy-tortellini-soup"
+  },
+  "public": true,
+  "updated_at": 1725889274,
+  "revision": 1
+}

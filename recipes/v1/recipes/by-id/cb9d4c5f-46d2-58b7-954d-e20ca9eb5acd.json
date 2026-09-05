@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cb9d4c5f-46d2-58b7-954d-e20ca9eb5acd",
+  "slug": "green-monster-smoothie",
+  "name": "Green Monster Smoothie",
+  "recipe_type": "breakfast",
+  "brief_description": "Banana, spinach, and peanut butter blend with yogurt and milk for a power-packed smoothie.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Blend milk, yogurt, banana, peanut butter, spinach, and ice cubes until smooth."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cb9d4c5f-46d2-58b7-954d-e20ca9eb5acd/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "382 kcal",
+    "carbohydrateContent": "56 g",
+    "cholesterolContent": "7 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "328 mg",
+    "sugarContent": "36 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c6c8a663-5584-59bc-b9d3-aad414d6284a",
+      "name": "fat-free milk",
+      "normalized_name": "fat-free milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8f0619f9-c16a-5f23-b8ed-0e901c5c004b",
+      "name": "fat-free plain yogurt",
+      "normalized_name": "fat-free plain yogurt",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
+      "name": "banana",
+      "normalized_name": "banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "frozen and chunked",
+      "position": 3
+    },
+    {
+      "ingredient_id": "feb11255-05ac-5c55-9511-983298d2f446",
+      "name": "natural peanut butter",
+      "normalized_name": "natural peanut butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "04129b0e-7a5b-515b-a66d-9a0fe7f0324b",
+      "name": "fresh spinach",
+      "normalized_name": "fresh spinach",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    }
+  ],
+  "tags": [
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "53b4c0bb-791f-5da3-959f-0b5fb573386d",
+      "slug": "veggie",
+      "name": "Veggie",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222708/green-monster-smoothie"
+  },
+  "public": true,
+  "updated_at": 1779120478,
+  "revision": 1
+}

@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ae4638a9-a6df-5506-89ed-d6a4f01f8c0e",
+  "slug": "american-frittata",
+  "name": "American Frittata",
+  "recipe_type": "breakfast",
+  "brief_description": "Potatoes, onions, ham and eggs make this a frittata that's sure to please everyone.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of salted water to a boil. Add potatoes and cook until tender but still firm, about 5 minutes. Drain and set aside to cool. Meanwhile, preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "In a cast iron skillet, heat oil over medium heat. Add onions and cook slowly, stirring occasionally, until onions are soft."
+    },
+    {
+      "position": 3,
+      "text": "Stir in eggs, drained potatoes, ham, salt and pepper. Cook until eggs are firm on the bottom, about 5 minutes. Top frittata with shredded cheese and place in preheated oven until cheese is melted and eggs are completely firm, about 10 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ae4638a9-a6df-5506-89ed-d6a4f01f8c0e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "234 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "203 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "298 mg",
+    "sugarContent": "2 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 4
+    },
+    {
+      "ingredient_id": "a6bf0a2a-8767-5727-9ca2-aa40b8cce80c",
+      "name": "cubed ham",
+      "normalized_name": "cubed ham",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "47a10d55-3b96-5a64-8d3c-0fec01f5d038",
+      "slug": "potatoes",
+      "name": "Potatoes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20020/american-frittata"
+  },
+  "public": true,
+  "updated_at": 1737753388,
+  "revision": 1
+}

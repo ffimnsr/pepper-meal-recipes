@@ -1,0 +1,211 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "48ca5d29-79cd-546e-bb5a-f4d6eecac58d",
+  "slug": "sausage-risotto",
+  "name": "Sausage Risotto",
+  "recipe_type": "side",
+  "brief_description": "The addition of mild Italian sausage transforms what's normally a side dish into a fabulous main course.",
+  "cuisine": "Italian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt 1 tablespoon butter in a saute pan over medium heat. Add sausage and cook, breaking it up with a spoon, for 3 minutes. Add shallots, 1 tablespoon butter, and 1/2 teaspoon salt; saute until shallots begin to caramelize, 2 to 3 minutes. Remove from the heat and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Melt 1 tablespoon butter in a heavy saucepan over medium heat. Add Arborio rice and stir until it begins to brown, 2 to 3 minutes. Add wine and continue stirring until almost absorbed, 2 to 3 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Begin to add broth, 1/2 cup at a time. Stir until broth is almost completely absorbed, then add another 1/2 cup and repeat. Continue adding broth until risotto resembles a thick porridge but still has some bite to it. This process will take 20 to 30 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Remove from the heat. Stir in the sausage mixture, Parmesan cheese, and remaining 1 tablespoon butter. Season with salt if necessary. Garnish with thyme sprigs and serve immediately."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/48ca5d29-79cd-546e-bb5a-f4d6eecac58d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "497 kcal",
+    "carbohydrateContent": "50 g",
+    "cholesterolContent": "67 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "1901 mg",
+    "sugarContent": "2 g",
+    "fatContent": "24 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "dc7cf757-9ece-5c8d-a94a-2927bca1c7d0",
+      "name": "ounce) mild italian sausage link",
+      "normalized_name": "ounce mild italian sausage link",
+      "quantity": "1 (4",
+      "unit": "pieces",
+      "preparation": "casing removed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "91162eb6-94f0-5b07-86de-7b0fa6900583",
+      "name": "diced shallots",
+      "normalized_name": "diced shallots",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or more to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "8d81d57c-0ce8-53da-ad55-62db413112f6",
+      "name": "arborio rice",
+      "normalized_name": "arborio rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4922146b-ea91-5d42-89f6-93771e5af019",
+      "name": "chardonnay wine",
+      "normalized_name": "chardonnay wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": "or more as needed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e795b5f4-b19e-5f47-844b-dd7549537b42",
+      "name": "fresh thyme",
+      "normalized_name": "fresh thyme",
+      "quantity": "3",
+      "unit": "sprigs",
+      "preparation": "or to taste",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "01359e67-e8a2-58b2-9547-4595faf03021",
+      "slug": "risotto",
+      "name": "Risotto"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "350013f8-2f45-510a-9b9f-63b3c7f40dc9",
+      "slug": "risotto-recipes",
+      "name": "Risotto Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/286088/sausage-risotto"
+  },
+  "public": true,
+  "updated_at": 1643236253,
+  "revision": 1
+}

@@ -1,0 +1,201 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "23a4601a-880b-5650-a19b-c1486013d6d0",
+  "slug": "eggnog-french-toast",
+  "name": "Eggnog French Toast",
+  "recipe_type": "breakfast",
+  "brief_description": "This delicious eggnog French toast is flavored with pumpkin pie spice and cinnamon for the perfect holiday breakfast or brunch treat.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Whisk eggnog, eggs, cinnamon, and pumpkin pie spice together in a mixing bowl until well blended; pour into a shallow dish."
+    },
+    {
+      "position": 3,
+      "text": "Preheat an electric skillet to 300 degrees F (150 degrees C). Lightly grease the skillet."
+    },
+    {
+      "position": 4,
+      "text": "Dip one slice of bread at a time into eggnog mixture, being sure to coat each side of the bread thoroughly."
+    },
+    {
+      "position": 5,
+      "text": "Place prepared bread slices into the preheated skillet, and cook, turning once, until golden brown on each side."
+    },
+    {
+      "position": 6,
+      "text": "Place cooked bread slices on a serving plate and cover with foil to keep warm until all the slices are cooked. Serve immediately."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/23a4601a-880b-5650-a19b-c1486013d6d0/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/tk6WzbF8-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "158 kcal",
+    "carbohydrateContent": "19 g",
+    "cholesterolContent": "100 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "155 mg",
+    "sugarContent": "6 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d3b04dee-8b6c-5b53-bd76-36be0536d9e9",
+      "name": "eggnog",
+      "normalized_name": "eggnog",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "beaten slightly",
+      "position": 2
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "58cfa60b-1403-53ce-90fd-947389d6b939",
+      "name": "pumpkin pie spice",
+      "normalized_name": "pumpkin pie spice",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0417ac73-a081-5f26-a1fd-04b425b0d197",
+      "name": "slices french bread",
+      "normalized_name": "slices french bread",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "fd7cda57-4c3d-5757-b7a2-4c387d497eaf",
+      "slug": "french-toast",
+      "name": "French Toast"
+    }
+  ],
+  "tags": [
+    {
+      "id": "04d29078-74ed-556c-98e1-1020fd0a8a8e",
+      "slug": "french-toast-recipes",
+      "name": "French Toast Recipes",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "1aa69b43-f21c-5206-9a70-4772b93cbf6f",
+      "slug": "christmas-breakfast",
+      "name": "Christmas Breakfast",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "a0f447de-7a39-5f29-af35-80c44e51c091",
+      "slug": "low-potassium",
+      "name": "Low-Potassium",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/100490/eggnog-french-toast"
+  },
+  "public": true,
+  "updated_at": 1769091771,
+  "revision": 1
+}

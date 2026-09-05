@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c535e348-a188-509e-8f3d-f80fd385b951",
+  "slug": "magaricz",
+  "name": "Magaricz",
+  "recipe_type": "appetizer",
+  "brief_description": "Chopped eggplant, red and green bell peppers, onions, and carrots, slowly cooked on the stovetop in olive oil will make your kitchen smell like heaven. A wonderful dip for rye--or your favorite bread or crackers.",
+  "cuisine": "Russian Eastern European Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place eggplant in a colander, lightly salt, and leave to drain for about 45 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a large skillet over medium high heat. Add eggplant, red and green bell peppers, onion, and carrot; stir to coat. Reduce heat to low, and cook for 40 minutes, stirring occasionally, or until mixture resembles the consistency of coarse jam. Season to taste with salt and red pepper flakes."
+    },
+    {
+      "position": 3,
+      "text": "Cover, and chill at least 1 hour. Serve chilled as a condiment with your favorite bread or crackers."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c535e348-a188-509e-8f3d-f80fd385b951/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "77 kcal",
+    "carbohydrateContent": "7 g",
+    "fiberContent": "2 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "239 mg",
+    "sugarContent": "4 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "269551e8-75c4-592b-a65e-c1f08055a842",
+      "name": "large eggplant",
+      "normalized_name": "large eggplant",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and coarsely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "01cf02d4-cfca-5185-8121-459f3d4b7415",
+      "name": "medium red bell pepper",
+      "normalized_name": "medium red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into thin strips",
+      "position": 3
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into thin strips",
+      "position": 4
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "fb497143-d8a1-5b22-b2c9-002a2960f8b6",
+      "name": "coarsely shredded carrot",
+      "normalized_name": "coarsely shredded carrot",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "07650efc-8869-5114-9096-0912b3dbf48e",
+      "name": "crushed red pepper flakes",
+      "normalized_name": "crushed red pepper flakes",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    },
+    {
+      "id": "51f20d5c-3f51-5b3d-8c4c-d137c5e13a4b",
+      "slug": "eggplant",
+      "name": "Eggplant"
+    }
+  ],
+  "tags": [
+    {
+      "id": "360a7b29-6f75-5a75-a2d7-0c2872385f2f",
+      "slug": "eggplant",
+      "name": "Eggplant",
+      "color": null
+    },
+    {
+      "id": "3ac8ece0-b9bd-5cf9-a9b3-8ad549f8dc41",
+      "slug": "vegan",
+      "name": "Vegan",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20945/magaricz"
+  },
+  "public": true,
+  "updated_at": 1740676107,
+  "revision": 1
+}

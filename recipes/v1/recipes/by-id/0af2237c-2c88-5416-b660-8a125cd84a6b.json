@@ -1,0 +1,224 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0af2237c-2c88-5416-b660-8a125cd84a6b",
+  "slug": "balsamic-pasta-primavera",
+  "name": "Balsamic Pasta Primavera",
+  "recipe_type": "main",
+  "brief_description": "Fresh ingredients shine in this easy weeknight pasta primavera dish that's made zesty and delicious with a balsamic vinegar-based sauce.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of lightly salted water to a boil. Cook spaghetti in the boiling water, stirring occasionally, until tender yet firm to the bite, 7 to 9 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, combine balsamic vinegar, 1/4 cup oil, garlic, Dijon mustard, and pepper in a small bowl. Set sauce aside."
+    },
+    {
+      "position": 3,
+      "text": "Heat 2 tablespoons oil in a large pan over medium-high heat. Add mushrooms, squash, and onion. Cook for 3 minutes; stir in balsamic sauce mixture. Continue cooking until vegetables are tender, about 3 minutes more, adding parsley during the last minute of cooking. Drain cooked pasta, add to the pan, and toss to coat with sauce. Serve hot."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0af2237c-2c88-5416-b660-8a125cd84a6b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "428 kcal",
+    "carbohydrateContent": "49 g",
+    "fiberContent": "8 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "62 mg",
+    "sugarContent": "3 g",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "148b0c65-fe59-5c3e-9f19-ec17d53128ed",
+      "name": "whole grain spaghetti",
+      "normalized_name": "whole grain spaghetti",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "362e8788-4b07-5d90-b5e6-28134dd6bd01",
+      "name": "balsamic vinegar",
+      "normalized_name": "balsamic vinegar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "9aa44676-d867-511d-bf77-4a0d2b57854a",
+      "name": "extra-virgin olive oil",
+      "normalized_name": "extra-virgin olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "fd1ffbc8-dc56-5f3b-b698-5b154bf83758",
+      "name": "large clove garlic",
+      "normalized_name": "large clove garlic",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c43f0603-4761-5956-842c-cacc7ec997cf",
+      "name": "dijon mustard",
+      "normalized_name": "dijon mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "33f59aae-9c0f-597c-b519-8bfc4aae58b6",
+      "name": "freshly ground black pepper to taste",
+      "normalized_name": "freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9aa44676-d867-511d-bf77-4a0d2b57854a",
+      "name": "extra-virgin olive oil",
+      "normalized_name": "extra-virgin olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "089c3316-a14e-5641-92f7-3b74b33bf2e9",
+      "name": "cremini mushrooms",
+      "normalized_name": "cremini mushrooms",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": "quartered",
+      "position": 8
+    },
+    {
+      "ingredient_id": "685b79de-bfda-5b98-8f74-467a508dae5e",
+      "name": "large yellow squash",
+      "normalized_name": "large yellow squash",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "halved and sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "coarsely chopped",
+      "position": 10
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "955b798f-120b-538f-b2ce-9282290fdb6e",
+      "slug": "pasta-primavera",
+      "name": "Pasta Primavera"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "2ce85535-3e6b-5322-a4d4-f8519480fbec",
+      "slug": "summer-squash",
+      "name": "Summer Squash",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277124/balsamic-pasta-primavera"
+  },
+  "public": true,
+  "updated_at": 1743995283,
+  "revision": 1
+}

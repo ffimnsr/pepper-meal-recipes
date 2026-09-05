@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7a5523eb-f1c8-5851-96dc-8a30972627b1",
+  "slug": "tacos-de-carne-asada",
+  "name": "Tacos de Carne Asada",
+  "recipe_type": "drink",
+  "brief_description": "The secret behind crowd-pleasing tacos de carne asada is flank steak strips marinated in orange and lime juice, grilled to juicy perfection.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine jalapeno, garlic, kosher salt, and 1 teaspoon black pepper in a mortar. Grind into a paste."
+    },
+    {
+      "position": 2,
+      "text": "Pour lime juice, orange juice, and vinegar into a glass bottle or lidded container; add garlic mixture and shake well. Place steak in a shallow bowl and pour marinade over. Cover with plastic wrap and refrigerate until steak absorbs flavors, 4 to 6 hours."
+    },
+    {
+      "position": 3,
+      "text": "Preheat grill for medium heat and lightly oil the grate."
+    },
+    {
+      "position": 4,
+      "text": "Remove steak from the marinade and place on a cutting board. Season with salt and pepper and slice against the grain into thin strips."
+    },
+    {
+      "position": 5,
+      "text": "Grill until slightly charred and light pink in the center, about 5 minutes per side."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7a5523eb-f1c8-5851-96dc-8a30972627b1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "260 kcal",
+    "carbohydrateContent": "3 g",
+    "cholesterolContent": "36 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "295 mg",
+    "sugarContent": "1 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a4182eae-598b-5104-9ee4-e5ab15d9725f",
+      "name": "jalapeno pepper",
+      "normalized_name": "jalapeno pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and minced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "207da207-7554-5b16-a44c-8e024e2d40d0",
+      "name": "kosher salt",
+      "normalized_name": "kosher salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "736b7dad-df0d-5163-a4fb-be8b376b4fb7",
+      "name": "fresh ground black pepper",
+      "normalized_name": "fresh ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "6c432256-96fd-513b-bf60-307b282d3398",
+      "name": "limes",
+      "normalized_name": "limes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "7ca8bad9-6c91-51ce-8c7b-0252893c7565",
+      "name": "orange",
+      "normalized_name": "orange",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bcea839e-06b6-5da8-8bdd-72198104d335",
+      "name": "flank steak",
+      "normalized_name": "flank steak",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "trimmed of fat",
+      "position": 9
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "7260e21f-4176-5c27-b84a-5295015f6c4d",
+      "slug": "bbq-grilling",
+      "name": "BBQ & Grilling"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "f11a424e-1c8e-5a9a-a474-1bdab5b1e516",
+      "slug": "carne-asada",
+      "name": "Carne Asada"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "bea70f6b-83d1-547c-b292-dc14e80b6239",
+      "slug": "cooking-for-a-crowd-recipes",
+      "name": "Cooking for a Crowd Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "f5829042-f0a1-5586-967c-eda0386916df",
+      "slug": "bbq-grilling-recipes",
+      "name": "BBQ & Grilling Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "5087d45c-0b6c-50de-9d81-79f1fb65f8f8",
+      "slug": "limes",
+      "name": "Limes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222495/tacos-de-carne-asada"
+  },
+  "public": true,
+  "updated_at": 1732771759,
+  "revision": 1
+}

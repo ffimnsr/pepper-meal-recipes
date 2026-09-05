@@ -1,0 +1,227 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8339af90-dbb1-5404-8994-5fe6e6d8d09b",
+  "slug": "fresh-mild-salsa",
+  "name": "Fresh Mild Salsa",
+  "recipe_type": "appetizer",
+  "brief_description": "This fresh, mild salsa recipe, made with tomatoes, garlic, bell peppers, cumin, serrano chiles, and jalape\u00f1os, can be tweaked for more or less heat.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine tomatoes, onion, bell pepper, cilantro, jalape\u00f1o, serrano, garlic, cumin, lemon juice, salt, and black pepper in a bowl until well mixed."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8339af90-dbb1-5404-8994-5fe6e6d8d09b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "51 kcal",
+    "carbohydrateContent": "11 g",
+    "fiberContent": "3 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "1175 mg",
+    "sugarContent": "5 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "89347858-1c0c-5185-a332-c2e1a8627bc3",
+      "name": "ripe tomatoes",
+      "normalized_name": "ripe tomatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "4fd5be30-292b-5ddd-84eb-acfe87eb005d",
+      "name": "white onion",
+      "normalized_name": "white onion",
+      "quantity": "0.75",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a4182eae-598b-5104-9ee4-e5ab15d9725f",
+      "name": "jalapeno pepper",
+      "normalized_name": "jalapeno pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b21643dc-bcf3-5c23-8692-974627b1dc7f",
+      "name": "serrano pepper",
+      "normalized_name": "serrano pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or to taste",
+      "position": 8
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "2.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "or to taste",
+      "position": 10
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "1faa93ef-d254-52e4-b2f2-abb2c786c8dd",
+      "slug": "salsa",
+      "name": "Salsa"
+    },
+    {
+      "id": "79e9d0f4-4f1f-50fb-b85f-b143609c7d81",
+      "slug": "tomato-salsa",
+      "name": "Tomato Salsa"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e44ff9e9-db7e-5ed9-8a7f-a05d8d13afa3",
+      "slug": "tomato-salsa-recipes",
+      "name": "Tomato Salsa Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "e6313b9f-2d74-5934-88cb-b74b7ba3c47c",
+      "slug": "salsa-recipes",
+      "name": "Salsa Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222158/fresh-mild-salsa"
+  },
+  "public": true,
+  "updated_at": 1767713829,
+  "revision": 1
+}

@@ -1,0 +1,210 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4f5b94e7-1a57-5b60-be28-87bfd13d9519",
+  "slug": "spicy-guacamole-with-chipotle",
+  "name": "Spicy Guacamole with Chipotle",
+  "recipe_type": "appetizer",
+  "brief_description": "Amped up with jalapeno and chipotle peppers in adobo sauce, this spicy guacamole is great as a dip or on sandwiches, burgers, or soups.",
+  "cuisine": "American Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cut open avocados and scoop all the flesh into a large bowl. Mash with a bean masher or spoon until there are no large chunks of avocado left."
+    },
+    {
+      "position": 2,
+      "text": "Squeeze lime juice over the avocado. Add cilantro and 1 chipotle pepper with some adobo sauce. Season with salt and pepper; mix to combine. Mix in red onion and jalapenos. Add tomato and mix gently to combine. Chill before serving garnished with remaining chipotle pepper and adobo sauce."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4f5b94e7-1a57-5b60-be28-87bfd13d9519/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "237 kcal",
+    "carbohydrateContent": "15 g",
+    "fiberContent": "10 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "47 mg",
+    "sugarContent": "2 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "43ec501f-0fc9-5478-ace7-beec4e6db181",
+      "name": "large avocados",
+      "normalized_name": "large avocados",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6c432256-96fd-513b-bf60-307b282d3398",
+      "name": "limes",
+      "normalized_name": "limes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "halved",
+      "position": 2
+    },
+    {
+      "ingredient_id": "aab5dd38-1322-570c-bb09-fa23744c9b89",
+      "name": "chopped cilantro leaves",
+      "normalized_name": "chopped cilantro leaves",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "51711b73-6d6e-5fac-8973-55d64a9012c0",
+      "name": "chipotle peppers in adobo sauce",
+      "normalized_name": "chipotle peppers in adobo sauce",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped, divided",
+      "position": 4
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "128120d8-bfb6-55c2-9d45-dc7c94d1167a",
+      "name": "diced red onion",
+      "normalized_name": "diced red onion",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e78e931e-b815-54c8-a255-804385f860ae",
+      "name": "seeded and diced jalapeno peppers",
+      "normalized_name": "seeded and diced jalapeno peppers",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "30e689d9-f00c-5b96-8fdd-bc2fea5143de",
+      "name": "diced tomato",
+      "normalized_name": "diced tomato",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "5611510c-11ff-5c0b-aee0-6696f963fc70",
+      "slug": "guacamole",
+      "name": "Guacamole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "5087d45c-0b6c-50de-9d81-79f1fb65f8f8",
+      "slug": "limes",
+      "name": "Limes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "f8ef87d6-0290-59c2-8196-4971f34fe7e6",
+      "slug": "dips-and-spreads-recipes",
+      "name": "Dips and Spreads Recipes",
+      "color": null
+    },
+    {
+      "id": "e857a6cf-50b6-58e9-bc19-9f8a61c62d75",
+      "slug": "jalapeno",
+      "name": "Jalapeno",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279363/spicy-guacamole-with-chipotle"
+  },
+  "public": true,
+  "updated_at": 1740787487,
+  "revision": 1
+}

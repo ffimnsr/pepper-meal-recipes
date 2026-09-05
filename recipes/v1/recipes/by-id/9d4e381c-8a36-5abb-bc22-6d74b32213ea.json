@@ -1,0 +1,279 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9d4e381c-8a36-5abb-bc22-6d74b32213ea",
+  "slug": "salmon-chowder",
+  "name": "Salmon Chowder",
+  "recipe_type": "soup",
+  "brief_description": "Creamy and comforting salmon chowder made with easy ingredients: cooked salmon, milk, potatoes, creamed corn, and lots of Cheddar cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a large pot over medium heat. Add onion, celery, and garlic powder; saut\u00e9 until onions are tender."
+    },
+    {
+      "position": 3,
+      "text": "Add broth; stir in potatoes and carrots. Season with salt, pepper, and dill. Bring to a boil; reduce heat, cover, and simmer 20 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Stir in salmon, corn, evaporated milk, and cheese. Cook until heated through."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9d4e381c-8a36-5abb-bc22-6d74b32213ea/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "490 kcal",
+    "carbohydrateContent": "27 g",
+    "cholesterolContent": "104 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "39 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "1140 mg",
+    "sugarContent": "9 g",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "e6c07127-c4df-5503-91a7-2a08931bdd29",
+      "name": "diced potatoes",
+      "normalized_name": "diced potatoes",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c695b7e1-c0a2-5395-852a-ca8d6057ab91",
+      "name": "dried dill weed",
+      "normalized_name": "dried dill weed",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "55fd07da-4836-5a40-8833-d285c28e74b0",
+      "name": "ounce) cans salmon",
+      "normalized_name": "ounce cans salmon",
+      "quantity": "2 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "43c93c8c-d238-5910-b924-eeb832e3bffb",
+      "name": "ounce) can creamed corn",
+      "normalized_name": "ounce can creamed corn",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "0af1600b-5fe2-523c-97bf-527552ecd9c4",
+      "name": "fluid ounce) can evaporated milk",
+      "normalized_name": "fluid ounce can evaporated milk",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "65e874a3-0c6e-5d24-a019-ceb2f2f4c3cc",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "shredded",
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    },
+    {
+      "id": "64da9e6d-d8c3-5f9b-8c31-ee827f163769",
+      "slug": "fish-chowder",
+      "name": "Fish Chowder"
+    }
+  ],
+  "tags": [
+    {
+      "id": "47524e31-2c45-5536-8117-12421e363449",
+      "slug": "salmon",
+      "name": "Salmon",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "b1da4043-161f-5b59-b102-87a72b0cd40a",
+      "slug": "corn-chowder-recipes",
+      "name": "Corn Chowder Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "47dbbc95-2797-57bb-8d05-99c3cb21d344",
+      "slug": "fish",
+      "name": "Fish",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26463/salmon-chowder"
+  },
+  "public": true,
+  "updated_at": 1764519191,
+  "revision": 1
+}

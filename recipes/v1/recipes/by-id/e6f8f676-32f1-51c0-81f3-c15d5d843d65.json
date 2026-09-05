@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e6f8f676-32f1-51c0-81f3-c15d5d843d65",
+  "slug": "butter-tarts-ii",
+  "name": "Simple Canadian Butter Tarts",
+  "recipe_type": "dessert",
+  "brief_description": "A simple recipe for baked tarts filled with raisin-studded brown sugar custard flavored with lemon and vanilla.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C.)"
+    },
+    {
+      "position": 2,
+      "text": "Beat egg in a large bowl. Mix in brown sugar and salt. Stir in vanilla and lemon extract. Beat until light and bubbly, then stir in melted butter. Fold in raisins. Drop filling by spoonfuls into tart shells."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven for 10 minutes. Reduce oven temperature to 350 degrees F (175 degrees C); bake until filling is set and pastry is golden brown, 20 to 25 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e6f8f676-32f1-51c0-81f3-c15d5d843d65/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "243 kcal",
+    "carbohydrateContent": "41 g",
+    "cholesterolContent": "27 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "151 mg",
+    "sugarContent": "25 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a118f880-bd34-537f-a303-271af33dd7bb",
+      "name": "lemon extract",
+      "normalized_name": "lemon extract",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
+      "name": "melted butter",
+      "normalized_name": "melted butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a0f17d09-d637-50b5-b4ff-d4c19e25ec2e",
+      "name": "raisins",
+      "normalized_name": "raisins",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "917146dc-bec7-5e93-88f0-2e2fda5e0c55",
+      "name": "inch) unbaked tart shells",
+      "normalized_name": "inch unbaked tart shells",
+      "quantity": "8 (3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "551563fd-2c14-57e0-ac26-f83cd1b0282b",
+      "slug": "pies",
+      "name": "Pies"
+    },
+    {
+      "id": "723cc86e-7fb6-5961-8aaf-8446a9b7f149",
+      "slug": "vintage-pie",
+      "name": "Vintage Pie"
+    },
+    {
+      "id": "00dfdb45-b836-51df-ae0d-6cd39fb18351",
+      "slug": "chess-pie",
+      "name": "Chess Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0af44417-dd59-5ca1-908d-6a053b8a5851",
+      "slug": "chess-pie-recipes",
+      "name": "Chess Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "f654140a-5ccd-512e-88b5-325b8b2cbbd5",
+      "slug": "butter-recipes",
+      "name": "Butter Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "31ac1ae8-c9e2-5556-872b-8820ffaa679f",
+      "slug": "lemon-extract-and-oil-recipes",
+      "name": "Lemon Extract and Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "e9d933fc-ed03-594d-a7e8-83f0266c7917",
+      "slug": "pies",
+      "name": "Pies",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23770/butter-tarts-ii"
+  },
+  "public": true,
+  "updated_at": 1778676071,
+  "revision": 1
+}

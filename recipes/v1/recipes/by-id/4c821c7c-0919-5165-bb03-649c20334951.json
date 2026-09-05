@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4c821c7c-0919-5165-bb03-649c20334951",
+  "slug": "southern-style-french-onion-soup",
+  "name": "Southern-Style French Onion Soup",
+  "recipe_type": "soup",
+  "brief_description": "Make this easy French onion soup recipe for steaming bowls of savory broth, tender onions, crisp-gone-soggy bread, and melty mozzarella cheese.",
+  "cuisine": "French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a large skillet over medium-high heat. Add onion and saut\u00e9 for 5 to 10 minutes, or until tender. Stir in thyme, then remove from the heat."
+    },
+    {
+      "position": 3,
+      "text": "In a large pot over high heat, combine the consomm\u00e9, bay leaves, and white wine. Bring to a boil, then reduce heat to low, stir in the saut\u00e9ed onions, and cook until heated through, 10 to 15 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Ladle soup into four individual oven-safe bowls, filling each about 3/4 full. Top each bowl with two baguette slices and cover with mozzarella."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until mozzarella is melted and bubbly, 10 to 15 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4c821c7c-0919-5165-bb03-649c20334951/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "662 kcal",
+    "carbohydrateContent": "69 g",
+    "cholesterolContent": "75 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "31 g",
+    "saturatedFatContent": "16 g",
+    "sodiumContent": "2389 mg",
+    "sugarContent": "5 g",
+    "fatContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
+      "name": "dried thyme",
+      "normalized_name": "dried thyme",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "54cdfc46-3808-537e-a055-b55bbe5357d5",
+      "name": "ounce) cans beef consomme",
+      "normalized_name": "ounce cans beef consomme",
+      "quantity": "5 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "894756ff-a1b1-5651-b3de-687c810264ac",
+      "name": "bay leaves",
+      "normalized_name": "bay leaves",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b1e2180f-a93b-5637-a231-e6913198d0d8",
+      "name": "white wine",
+      "normalized_name": "white wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "68d4633d-cc9b-598e-912f-5797af1cf556",
+      "name": "french baguette",
+      "normalized_name": "french baguette",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 1/2 inch slices",
+      "position": 7
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "661625a7-0b2f-5926-80cd-c4876dd1c728",
+      "slug": "onion-soup",
+      "name": "Onion Soup"
+    },
+    {
+      "id": "2c4766e7-12c2-5b90-83b4-a708f1711beb",
+      "slug": "french-onion-soup",
+      "name": "French Onion Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "88eddc25-7c6f-53f9-88d5-a41644551da3",
+      "slug": "french",
+      "name": "French",
+      "color": null
+    },
+    {
+      "id": "c81dbfd1-d374-5296-acbb-d27cb85a1f55",
+      "slug": "french-onion-soup-recipes",
+      "name": "French Onion Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "3c7d371f-ea02-5870-8d45-73ecb88745dd",
+      "slug": "onion-soup-recipes",
+      "name": "Onion Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18076/southern-style-french-onion-soup"
+  },
+  "public": true,
+  "updated_at": 1689868080,
+  "revision": 1
+}

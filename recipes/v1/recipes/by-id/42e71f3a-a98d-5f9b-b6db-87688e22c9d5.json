@@ -1,0 +1,189 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "42e71f3a-a98d-5f9b-b6db-87688e22c9d5",
+  "slug": "wiener-winks",
+  "name": "Wiener Winks",
+  "recipe_type": "appetizer",
+  "brief_description": "Beef frankfurters wrapped in cheese and bread, buttered and baked to a golden brown.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Take 1 slice of bread and spread 1 teaspoon of butter on one side. Turn the bread over and place a slice of cheese on the bread."
+    },
+    {
+      "position": 3,
+      "text": "Place a frankfurter diagonally on the cheese. Fold bread corner to corner around the frankfurter. Insert a toothpick to hold together. Repeat steps for the remaining frankfurters."
+    },
+    {
+      "position": 4,
+      "text": "Bake in a preheated oven for 20 to 30 minutes or until golden brown."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/42e71f3a-a98d-5f9b-b6db-87688e22c9d5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "394 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "67 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "15 g",
+    "sodiumContent": "1260 mg",
+    "sugarContent": "3 g",
+    "fatContent": "30 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "50c75ae6-0c60-567b-8cc2-dc3e97ad962b",
+      "name": "ounce) package beef frankfurters",
+      "normalized_name": "ounce package beef frankfurters",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3f356638-5ca3-5518-867b-142515d9cc9a",
+      "name": "slices processed american cheese",
+      "normalized_name": "slices processed american cheese",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d50c95dd-3422-587f-b155-cbfc6d2f9793",
+      "name": "slices bread",
+      "normalized_name": "slices bread",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "8",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "7158576e-252d-55ef-83b4-7192f7b36f91",
+      "slug": "hot-dogs-and-corn-dogs",
+      "name": "Hot Dogs and Corn Dogs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b32978a4-7f27-5714-9921-2107a029400b",
+      "slug": "hot-dogs-and-corn-dogs-recipes",
+      "name": "Hot Dogs and Corn Dogs Recipes",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "200a9896-b165-55a6-82ce-4acf4ed39068",
+      "slug": "road-trip-snack-recipes",
+      "name": "Road Trip Snack Recipes",
+      "color": null
+    },
+    {
+      "id": "acb4aea2-50e0-54f5-9f55-88ed42e18ac3",
+      "slug": "olympics",
+      "name": "Olympics",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "3a0e3a37-b1f9-5677-afb0-dbb9e99bc6e6",
+      "slug": "big-game-appetizer-recipes",
+      "name": "Big Game Appetizer Recipes",
+      "color": null
+    },
+    {
+      "id": "db0335bb-8fa0-5e43-a836-92de25a38748",
+      "slug": "recipes-for-the-super-bowl",
+      "name": "Recipes for the Super Bowl\u00ae",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    },
+    {
+      "id": "9005406e-37a6-5c33-a19b-eff22442ed34",
+      "slug": "baseball",
+      "name": "Baseball",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23117/wiener-winks"
+  },
+  "public": true,
+  "updated_at": 1774330004,
+  "revision": 1
+}

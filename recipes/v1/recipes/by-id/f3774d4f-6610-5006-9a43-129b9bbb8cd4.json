@@ -1,0 +1,212 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f3774d4f-6610-5006-9a43-129b9bbb8cd4",
+  "slug": "rice-lasagna",
+  "name": "Rice Lasagna",
+  "recipe_type": "main",
+  "brief_description": "This cheesy beef lasagna-style dish uses cooked rice instead of noodles for a simple and delicious twist on traditional lasagna.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Heat a large skillet over medium-high heat. Cook and stir beef in hot skillet until browned and crumbly, 5 to 7 minutes; drain and discard grease. Add spaghetti sauce and garlic powder."
+    },
+    {
+      "position": 3,
+      "text": "Mix rice, eggs, and 1/4 cup Parmesan cheese in a bowl. Mix 2 cups mozzarella cheese, cottage cheese, and 1/4 cup Parmesan cheese in another bowl."
+    },
+    {
+      "position": 4,
+      "text": "Spread 1/2 of the rice mixture in a 3-quart baking dish, followed by 1/2 of the cheese mixture and 1/2 of the meat sauce. Repeat layers. Sprinkle remaining 1/4 cup Parmesan cheese and 1/4 cup mozzarella cheese over final layer of meat sauce."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until cheese is melted and sauce is bubbly, 20 to 25 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f3774d4f-6610-5006-9a43-129b9bbb8cd4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "461 kcal",
+    "carbohydrateContent": "35 g",
+    "cholesterolContent": "118 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "32 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "975 mg",
+    "sugarContent": "9 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0938f3de-408f-5e98-b18f-e277a6cfee4b",
+      "name": "ounce) jar spaghetti sauce",
+      "normalized_name": "ounce jar spaghetti sauce",
+      "quantity": "1 (26",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5eedfd85-8c8b-5c39-927c-857917c73997",
+      "name": "cooked rice",
+      "normalized_name": "cooked rice",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": "cooled",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "lightly beaten",
+      "position": 5
+    },
+    {
+      "ingredient_id": "e943758d-4323-5cf3-adc9-5e61e055ae20",
+      "name": "shredded parmesan cheese",
+      "normalized_name": "shredded parmesan cheese",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 6
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "2.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b749957e-0fb3-5d92-936b-9b438c8b4adf",
+      "name": "cottage cheese",
+      "normalized_name": "cottage cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "3386fde0-c04b-5802-ac56-e84c4bf4c201",
+      "slug": "casserole",
+      "name": "Casserole"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "ac8de754-d8ea-5320-af85-732a6550c67d",
+      "slug": "ground-beef",
+      "name": "Ground Beef",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "c2f09869-a010-58cf-bc86-5b930914ce17",
+      "slug": "budget-cooking-recipes",
+      "name": "Budget Cooking Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232977/rice-lasagna"
+  },
+  "public": true,
+  "updated_at": 1787761846,
+  "revision": 1
+}

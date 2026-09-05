@@ -1,0 +1,264 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f3d40e6c-78cf-5bfb-9605-1fa1c6455d74",
+  "slug": "jian-bing-chinese-crepes",
+  "name": "Jian Bing (Chinese Cr\u00eapes)",
+  "recipe_type": "appetizer",
+  "brief_description": "Jian Bing, a.k.a. Chinese cr\u00eapes are a beloved Chinese street food featuring homemade cr\u00eapes folded around egg, green onions, and a crispy cracker.",
+  "cuisine": "Chinese",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk millet flour, soy milk, and vegetable oil together in a bowl to make a batter with the consistency of heavy cream. Add a teaspoon of water to thin the batter, if necessary."
+    },
+    {
+      "position": 2,
+      "text": "Mash black bean sauce in a small bowl with 1 teaspoon water to make it easy to spread. Mix hot chili sauce with 1 teaspoon of water in a separate small bowl. Set both sauces aside."
+    },
+    {
+      "position": 3,
+      "text": "Spray a large skillet generously with cooking spray, and heat over medium-low heat. Pour batter into the skillet, and spread evenly to make a thin cr\u00eape; cook until firm, about 1 to 2 minutes. Pour egg evenly over cr\u00eape; cook an additional 1 to 2 minutes, until egg is set. Sprinkle cr\u00eape with green onion slices and cilantro leaves, pressing them firmly into cooked egg."
+    },
+    {
+      "position": 4,
+      "text": "Flip cr\u00eape and spread with bean sauce and chili sauce. Place crackers in the center of cr\u00eape, leaving about 1/4 inch of space between the two crackers. Flip top third of cr\u00eape down over crackers; flip the bottom third up, and then fold the cr\u00eape in half so the crackers are stacked on top of each other in a tidy package. Serve hot."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f3d40e6c-78cf-5bfb-9605-1fa1c6455d74/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "220 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "186 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "265 mg",
+    "sugarContent": "2 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "cb2725f2-0573-5dc2-8405-a45eff58016e",
+      "name": "millet flour",
+      "normalized_name": "millet flour",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "dc9bd806-562a-5b76-bf9c-e9106de8fb2d",
+      "name": "soy milk",
+      "normalized_name": "soy milk",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "if needed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "16fdc903-1a72-5f28-a6f8-70e549c25a50",
+      "name": "chinese black bean sauce",
+      "normalized_name": "chinese black bean sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "88c50bf3-8fa0-5138-815e-de29ed645e40",
+      "name": "asian chile pepper sauce",
+      "normalized_name": "asian chile pepper sauce",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 7
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 10
+    },
+    {
+      "ingredient_id": "2bb7f8e7-f9f2-52d8-a55e-5a50a04b3eed",
+      "name": "green onion",
+      "normalized_name": "green onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 11
+    },
+    {
+      "ingredient_id": "6b325b48-0c82-5051-bec0-a455c7057c6d",
+      "name": "torn fresh cilantro leaves",
+      "normalized_name": "torn fresh cilantro leaves",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "448a0e5e-7795-5a6a-9a92-6b1753d7c712",
+      "name": "whole crackers",
+      "normalized_name": "whole crackers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "2b14185f-7fbd-58f6-b61f-cd2f9cf686ff",
+      "slug": "crepes",
+      "name": "Crepes"
+    },
+    {
+      "id": "22b34eef-cde7-5c72-bab6-be463d9b9f43",
+      "slug": "savory",
+      "name": "Savory"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6e066ae3-17e7-53aa-9fae-f4be70bb9b94",
+      "slug": "savory",
+      "name": "Savory",
+      "color": null
+    },
+    {
+      "id": "2059fc22-7d46-5679-a2aa-28792d79625b",
+      "slug": "crepes",
+      "name": "Crepes",
+      "color": null
+    },
+    {
+      "id": "d4ef8f15-0a58-50dd-a7a7-70f0c094eb34",
+      "slug": "whole-grains",
+      "name": "Whole Grains",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "d39ebfe1-1fd9-5f04-9a7e-813a8f5fcafd",
+      "slug": "lunar-new-year",
+      "name": "Lunar New Year",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "6e9bc079-ab22-5296-b01a-351ef64551ef",
+      "slug": "flour-recipes",
+      "name": "Flour Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/186731/jian-bing-chinese-crepes"
+  },
+  "public": true,
+  "updated_at": 1732835504,
+  "revision": 1
+}

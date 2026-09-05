@@ -1,0 +1,229 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d21e84b5-3038-534e-b943-da28bc85bc31",
+  "slug": "chicken-cordon-bleu-casserole",
+  "name": "Chicken Cordon Bleu Casserole",
+  "recipe_type": "main",
+  "brief_description": "I love making casseroles, and this one's so simple. The chicken breasts, Swiss cheese, and ham are cubed, rather than stuffed and rolled, giving you all the flavor of Cordon Bleu in much less time.",
+  "cuisine": "French Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Beat egg and 1/2 cup milk together until combined. Stir in the chicken chunks to coat, then drain, and coat with bread crumbs. Heat oil in a large skillet to 375 degrees F (190 degrees C). Fry breaded chicken cubes in hot oil until golden brown on all sides, then remove, and drain on paper towels."
+    },
+    {
+      "position": 3,
+      "text": "Place chicken cubes in a glass baking dish, along with the Swiss cheese, and ham. Stir together the soup with 1 cup milk, pour over casserole."
+    },
+    {
+      "position": 4,
+      "text": "Bake in preheated oven until golden brown and bubbly, about 30 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d21e84b5-3038-534e-b943-da28bc85bc31/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "500 kcal",
+    "carbohydrateContent": "24 g",
+    "cholesterolContent": "137 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "36 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "1017 mg",
+    "sugarContent": "4 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "boneless chicken breast halves - cut into chunks",
+      "position": 3
+    },
+    {
+      "ingredient_id": "f186f6ca-3fa0-5415-a4f0-3976249d4ce8",
+      "name": "plain dried bread crumbs",
+      "normalized_name": "plain dried bread crumbs",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "01458627-d7bc-5047-a63f-484c4cf26646",
+      "name": "oil for frying",
+      "normalized_name": "oil for frying",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bf12d518-b58f-5289-8b9c-f22a080512bc",
+      "name": "swiss cheese",
+      "normalized_name": "swiss cheese",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "cubed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "a6bf0a2a-8767-5727-9ca2-aa40b8cce80c",
+      "name": "cubed ham",
+      "normalized_name": "cubed ham",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5213d893-3f57-5cf8-8e96-b1cae3a6dfde",
+      "name": "ounce) can condensed cream of chicken soup",
+      "normalized_name": "ounce can condensed cream of chicken soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "494b4994-9d7c-51d5-b50c-4e5ac4588907",
+      "slug": "french",
+      "name": "French"
+    }
+  ],
+  "tags": [
+    {
+      "id": "88eddc25-7c6f-53f9-88d5-a41644551da3",
+      "slug": "french",
+      "name": "French",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "d67c7e91-9ba4-51d9-8c2c-aa8fd8b4dd5d",
+      "slug": "cheesy-chicken",
+      "name": "Cheesy Chicken",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "cf72088b-3f3d-57a4-8bed-404532d3b7ba",
+      "slug": "swiss",
+      "name": "Swiss",
+      "color": null
+    },
+    {
+      "id": "66ac7337-a308-572f-bc2f-586ce665940b",
+      "slug": "chicken-cordon-bleu-recipes",
+      "name": "Chicken Cordon Bleu Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/132959/chicken-cordon-bleu-casserole"
+  },
+  "public": true,
+  "updated_at": 1768348006,
+  "revision": 1
+}

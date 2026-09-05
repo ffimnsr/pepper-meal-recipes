@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "831b10b6-6da4-58df-a08b-da3e04c4c9ec",
+  "slug": "protein-waffles",
+  "name": "Protein Waffles",
+  "recipe_type": "breakfast",
+  "brief_description": "The waffles you\u2019ll get from this recipe for healthy, protein-packed waffles are fluffy and delicious! Top \u2018em however you like your waffles topped!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat a waffle iron according to manufacturer\u2019s instructions."
+    },
+    {
+      "position": 2,
+      "text": "Blend oats, cottage cheese, eggs, egg whites, honey, vanilla extract, and cinnamon in a blender until creamy."
+    },
+    {
+      "position": 3,
+      "text": "Ladle batter into preheated waffle iron according to manufacturer directions and cook the waffles until golden and crisp, about 5 minutes. Repeat until entire batch of batter is used."
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/831b10b6-6da4-58df-a08b-da3e04c4c9ec/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "254 kcal",
+    "carbohydrateContent": "23 g",
+    "cholesterolContent": "135 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "408 mg",
+    "sugarContent": "3 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "699b505f-5881-5616-bd0e-f951be544ca7",
+      "name": "old-fashioned oats",
+      "normalized_name": "old-fashioned oats",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b749957e-0fb3-5d92-936b-9b438c8b4adf",
+      "name": "cottage cheese",
+      "normalized_name": "cottage cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "982d14de-1236-59b5-b91e-bf6fb931fecc",
+      "name": "egg whites",
+      "normalized_name": "egg whites",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1a5ad819-dcce-5499-acb1-e8f89d8c1a8a",
+      "name": "splash pure vanilla extract",
+      "normalized_name": "splash pure vanilla extract",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "or to taste",
+      "position": 6
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": "or to taste",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "ca4bb0f3-992b-59a0-b015-d50d8f7c717e",
+      "slug": "waffle",
+      "name": "Waffle"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2ab9d92d-1fb9-5d8e-823e-e98a8fdac29c",
+      "slug": "waffle-recipes",
+      "name": "Waffle Recipes",
+      "color": null
+    },
+    {
+      "id": "de3c1fd0-b1a8-5791-80c3-3e8b86b0314b",
+      "slug": "cottage-cheese-recipes",
+      "name": "Cottage Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "fe15adb4-fe7d-5fbe-9366-9c0aed8e0a04",
+      "slug": "mother-s-day",
+      "name": "Mother's Day",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241252/protein-waffles"
+  },
+  "public": true,
+  "updated_at": 1669352380,
+  "revision": 1
+}

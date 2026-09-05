@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3bfc3d3c-a178-596f-9648-4ca2bb2bd3d2",
+  "slug": "duck-fried-rice",
+  "name": "Duck Fried Rice",
+  "recipe_type": "main",
+  "brief_description": "This duck fried rice is easy to make with takeout Chinese roast duck, cooked rice, green onions, and soy sauce for a delicious meal using leftovers.",
+  "cuisine": "Asian Inspired Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook duck skin and fat in a wok or large skillet over medium heat until skin is crispy and fat has rendered, about 10 minutes. Increase the heat to medium-high and stir in duck meat, pork, 1/2 of the green onions, and soy sauce. Cook and stir until meats are heated through, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Add rice and toss together until rice is hot and sizzling, about 5 minutes. Make a wide well in the middle of rice, exposing the bottom of the pan. Pour in beaten eggs and stir until scrambled. Stir scrambled eggs into rice along with remaining green onions. Toss and stir until rice is very hot, about 5 minutes. Season to taste with salt and pepper before serving."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3bfc3d3c-a178-596f-9648-4ca2bb2bd3d2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "375 kcal",
+    "carbohydrateContent": "36 g",
+    "cholesterolContent": "144 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "528 mg",
+    "sugarContent": "1 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4eb78db9-9b32-58a8-aca9-d04753ec20da",
+      "name": "chopped chinese roast duck meat",
+      "normalized_name": "chopped chinese roast duck meat",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "skin and fat separated and set aside",
+      "position": 1
+    },
+    {
+      "ingredient_id": "1c967645-e50e-59b1-8fe4-7d57a2c30d95",
+      "name": "thinly sliced chinese barbecued pork",
+      "normalized_name": "thinly sliced chinese barbecued pork",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 5
+    },
+    {
+      "ingredient_id": "cbeae8b2-d641-5e2c-8d4f-0cd9f69a8c14",
+      "name": "cooked long-grain rice",
+      "normalized_name": "cooked long-grain rice",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "3abb4365-ccad-5837-b651-d178c73fe82c",
+      "slug": "fried-rice",
+      "name": "Fried Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "ed4f11c5-1007-5c46-9250-30f04c709de0",
+      "slug": "game-meats",
+      "name": "Game Meats",
+      "color": null
+    },
+    {
+      "id": "dbbff82d-757f-59c4-b16a-05aa9b9395a8",
+      "slug": "duck",
+      "name": "Duck",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/162383/duck-fried-rice"
+  },
+  "public": true,
+  "updated_at": 1734647469,
+  "revision": 1
+}

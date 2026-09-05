@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "029b9f8d-b65e-528d-86ac-e495f798b0c4",
+  "slug": "cranberry-sangria",
+  "name": "Cranberry Sangria",
+  "recipe_type": "drink",
+  "brief_description": "A spiced cranberry-apple wine punch makes a festive drink to toast the winter holidays. Chill the sangria for a day or so to blend the flavors.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place the sugar, tea bags, lemon slices, cloves, cinnamon, nutmeg, ginger, and water into a saucepan, and stir until the sugar has dissolved. Bring to a boil, reduce heat, and simmer for 10 minutes. Remove from heat and let mixture cool. Strain out and discard the spices, lemon, and tea bags."
+    },
+    {
+      "position": 2,
+      "text": "Pour the white wine into a large jar or covered container, and mix with the tea mixture. Stir in apples and cranberries; mix in the apple brandy. Chill in refrigerator 24 to 48 hours. Serve cold."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/029b9f8d-b65e-528d-86ac-e495f798b0c4/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/ZylSFKXh-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "381 kcal",
+    "carbohydrateContent": "62 g",
+    "fiberContent": "4 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "14 mg",
+    "sugarContent": "52 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "47bd7b87-14fc-5ccf-91d9-05ab46596b9f",
+      "name": "cranberry-flavored tea bags",
+      "normalized_name": "cranberry-flavored tea bags",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f5a69823-306f-5a5e-bbcc-d388d574938d",
+      "name": "slices fresh lemon",
+      "normalized_name": "slices fresh lemon",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "f16a2b80-53f5-5f0c-8d22-038c7afec3c3",
+      "name": "whole cloves",
+      "normalized_name": "whole cloves",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d2b31123-499f-5c84-9509-f2bb88d48a27",
+      "name": "ground ginger",
+      "normalized_name": "ground ginger",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "96137347-31ab-5678-bb47-a1f395950fa8",
+      "name": "milliliter) bottles white wine",
+      "normalized_name": "milliliter bottles white wine",
+      "quantity": "2 (750",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "63fb21f2-a754-5a7b-bd4b-b425cb20e219",
+      "name": "apples",
+      "normalized_name": "apples",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "cored and cut into chunks",
+      "position": 10
+    },
+    {
+      "ingredient_id": "3aac79cd-69ec-521d-bf79-2578b95c386c",
+      "name": "dried cranberries",
+      "normalized_name": "dried cranberries",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "aac5e55a-535f-5182-9361-cd10910dbe87",
+      "name": "fluid ounces apple brandy",
+      "normalized_name": "fluid ounces apple brandy",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "91d8cf7f-5cb0-5ff0-9e37-4aaabb4f57fd",
+      "slug": "sangria",
+      "name": "Sangria"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "fdaed86a-bbd7-5daf-83aa-ad4f8aa12cfd",
+      "slug": "new-year",
+      "name": "New Year",
+      "color": null
+    },
+    {
+      "id": "0620f421-2a0c-5d86-acdb-1b534ca4ee71",
+      "slug": "christmas-cocktails",
+      "name": "Christmas Cocktails",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "3e15e093-b465-5738-bc6e-2753b83b9383",
+      "slug": "adult-punch-recipes",
+      "name": "Adult Punch Recipes",
+      "color": null
+    },
+    {
+      "id": "07f80242-086e-5b31-bed2-8e0846847860",
+      "slug": "halloween-ideas",
+      "name": "Halloween Ideas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216447/cranberry-sangria"
+  },
+  "public": true,
+  "updated_at": 1284313038,
+  "revision": 1
+}

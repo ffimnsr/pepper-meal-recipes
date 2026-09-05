@@ -1,0 +1,214 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c955ffc5-e0d5-54b6-a8df-059add005c77",
+  "slug": "potato-salad-deviled-eggs",
+  "name": "Potato Salad Deviled Eggs",
+  "recipe_type": "salad",
+  "brief_description": "Deviled eggs stuffed with a creamy homemade potato salad filling make a light and tasty savory bite for brunch, picnics, and summer potlucks.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place eggs into a saucepan in a single layer and fill with water to cover the eggs by 1 inch. Cover the saucepan and bring water to a boil over high heat. Once water is boiling, remove from the heat and let eggs stand in the hot water for 15 minutes. Pour out water, then cool eggs under cold running water in the sink. Peel once cold. Slice cooled eggs in half lengthwise; scoop out and reserve the yolks."
+    },
+    {
+      "position": 2,
+      "text": "While eggs are cooking, place chopped potato into a saucepan with enough water to cover; bring to a boil, reduce heat, and simmer until potato pieces are tender, 10 to 15 minutes. Drain and let potatoes cool."
+    },
+    {
+      "position": 3,
+      "text": "Mash reserved egg yolks with pickle relish, mustard, creamy dressing, salt, and pepper until well combined. Place potato into a bowl, and coarsely mash with a fork; gently stir into egg yolk mixture."
+    },
+    {
+      "position": 4,
+      "text": "Stuff each egg half generously with potato salad, and sprinkle with paprika. Cover and chill until ready to serve, at least 20 minutes."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c955ffc5-e0d5-54b6-a8df-059add005c77/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "58 kcal",
+    "carbohydrateContent": "5 g",
+    "cholesterolContent": "93 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "52 mg",
+    "sugarContent": "1 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "11febb45-7611-5904-bba7-dacba9c851ea",
+      "name": "large potato",
+      "normalized_name": "large potato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "coarsely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "96aac3ed-be55-555d-9e92-d85de1d13430",
+      "name": "pickle relish",
+      "normalized_name": "pickle relish",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "774242a0-6199-5c93-947d-ef1dd659bc8b",
+      "name": "mustard",
+      "normalized_name": "mustard",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "64f66a16-51da-5cec-875a-38b4097c296e",
+      "name": "creamy salad dressing (such as miracle whip\u00ae)",
+      "normalized_name": "creamy salad dressing",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "8b924c8c-510a-506f-84b4-213cc2a534f8",
+      "name": "paprika for garnish",
+      "normalized_name": "paprika for garnish",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "78e6f3b3-d4d6-5248-a096-55612b876bea",
+      "slug": "deviled-eggs",
+      "name": "Deviled Eggs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "520f9f30-5e24-51cd-bb0f-a2b7215735f2",
+      "slug": "deviled-eggs",
+      "name": "Deviled Eggs",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "a00e8f38-1976-5fcc-afc1-90bb835175c0",
+      "slug": "holiday-planning",
+      "name": "Holiday Planning",
+      "color": null
+    },
+    {
+      "id": "ebf99938-61a8-5ffe-b436-629f58509306",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks",
+      "color": null
+    },
+    {
+      "id": "617972f8-405b-5b31-a88e-e6cfa21dd0f4",
+      "slug": "picnic",
+      "name": "Picnic",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "d8a88f90-c0c0-5567-ae83-22cb9872fd7f",
+      "slug": "low-calorie",
+      "name": "Low-Calorie",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214713/potato-salad-deviled-eggs"
+  },
+  "public": true,
+  "updated_at": 1735347917,
+  "revision": 1
+}

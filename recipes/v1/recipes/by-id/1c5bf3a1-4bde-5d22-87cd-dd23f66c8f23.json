@@ -1,0 +1,227 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1c5bf3a1-4bde-5d22-87cd-dd23f66c8f23",
+  "slug": "greek-yogurt-chicken-salad",
+  "name": "Greek Yogurt Chicken Salad",
+  "recipe_type": "salad",
+  "brief_description": "The dressing for this chicken salad is made with Greek yogurt, Dijon, and lots of fresh herbs for a lighter chicken salad loaded with tangy flavor.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine Greek yogurt, mustard, lemon juice, honey, parsley, dill, salt, pepper, and onion powder in a small bowl. Mix until dressing is smooth and creamy."
+    },
+    {
+      "position": 2,
+      "text": "Combine chicken and celery in a large bowl. Top with dressing and mix to combine. Chill in the refrigerator for 1 hour before serving."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1c5bf3a1-4bde-5d22-87cd-dd23f66c8f23/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "106 kcal",
+    "carbohydrateContent": "5 g",
+    "cholesterolContent": "31 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "309 mg",
+    "sugarContent": "4 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f8c3f4b3-6487-56b6-9843-c6c6a9bb9fd4",
+      "name": "plain greek yogurt",
+      "normalized_name": "plain greek yogurt",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c43f0603-4761-5956-842c-cacc7ec997cf",
+      "name": "dijon mustard",
+      "normalized_name": "dijon mustard",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "680d1c90-e69f-5b3e-aa4f-d976b25fe361",
+      "name": "chopped fresh dill",
+      "normalized_name": "chopped fresh dill",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "69646184-d5a7-5b5c-a092-cf1ea7d77a0f",
+      "name": "cooked",
+      "normalized_name": "cooked",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "shredded chicken",
+      "position": 10
+    },
+    {
+      "ingredient_id": "39941236-c351-5004-8091-b254457be6ee",
+      "name": "celery",
+      "normalized_name": "celery",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "diced",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "42d47281-4996-5c3b-b16f-3ae540302bbd",
+      "slug": "chicken-salad",
+      "name": "Chicken Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0c4351c3-a3e2-5491-9427-591469b533f8",
+      "slug": "chicken-salad-recipes",
+      "name": "Chicken Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273999/greek-yogurt-chicken-salad"
+  },
+  "public": true,
+  "updated_at": 1715936679,
+  "revision": 1
+}

@@ -1,0 +1,186 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "eb0cb00a-b155-5356-80df-66f0a061a3e3",
+  "slug": "tropical-mango-mousse",
+  "name": "Tropical Mango Mousse",
+  "recipe_type": "dessert",
+  "brief_description": "There's nothing quite so refreshing as mangos! Preparation time: 5 minutes. This recipe is from The WEBB Cooks, articles and recipes by Robyn Webb, courtesy of the American Diabetes Association.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a blender combine mangoes, bananas, yogurt, honey, ice cubes, and vanilla extract until smooth. Refrigerate for 3 hours. Pour into individual dishes and serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/eb0cb00a-b155-5356-80df-66f0a061a3e3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "87 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "1 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "23 mg",
+    "sugarContent": "17 g",
+    "fatContent": "0 g",
+    "servingSize": "6 servings/ serving size: 1/2 cup",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b948885f-c64e-5c4b-b0fa-2169b54aa39a",
+      "name": "mangos - peeled",
+      "normalized_name": "mangos - peeled",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded, and cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
+      "name": "banana",
+      "normalized_name": "banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0d00279e-d03c-51ff-9716-0f7f5e66082d",
+      "name": "nonfat plain yogurt",
+      "normalized_name": "nonfat plain yogurt",
+      "quantity": "0.66666698455811",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6323d2ef-f79f-5ace-9dc0-1a834f9e6705",
+      "name": "cubes ice",
+      "normalized_name": "cubes ice",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "600f08a7-1feb-558d-bf42-782867acd551",
+      "slug": "mousse",
+      "name": "Mousse"
+    }
+  ],
+  "tags": [
+    {
+      "id": "90b94f66-8a10-5725-bb66-285ebfd8b5e7",
+      "slug": "mousse-recipes",
+      "name": "Mousse Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "5e787165-edc4-561f-bf1c-0eea326effb5",
+      "slug": "tropical",
+      "name": "Tropical",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "53c996bd-5d2f-5547-a7d8-0ab52d34378e",
+      "slug": "mangos",
+      "name": "Mangos",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16004/tropical-mango-mousse"
+  },
+  "public": true,
+  "updated_at": 1661194115,
+  "revision": 1
+}

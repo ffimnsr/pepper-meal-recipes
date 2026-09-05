@@ -1,0 +1,235 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "76b9dbe5-6656-5a9e-a077-bae55b72a42b",
+  "slug": "newfie-goulash",
+  "name": "Newfie Goulash",
+  "recipe_type": "soup",
+  "brief_description": "An Atlantic-Canada version of good old macaroni goulash uses corned beef instead of hamburger meat. The one-dish dinner is sprinkled with Parmesan cheese and served hot.",
+  "cuisine": "Canadian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Fill a large pot with lightly salted water and bring to a rolling boil over high heat. Once water is boiling, stir in macaroni, and return to a boil. Cook pasta uncovered, occasionally stirring, until pasta has cooked through, but is still firm to the bite, about 8 minutes. Drain well in a colander set in the sink."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a large pot over medium heat, and cook onion and garlic until onion is soft, about 5 minutes; stir in green pepper, and cook until tender, about 8 more minutes. Mash corned beef into the pot, and simmer until hot. Mix in tomato soup, ketchup, cooked macaroni, salt, and black pepper; stir to combine, and bring mixture to a simmer over medium-low heat. Sprinkle Parmesan cheese on top, and serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/76b9dbe5-6656-5a9e-a077-bae55b72a42b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "357 kcal",
+    "carbohydrateContent": "41 g",
+    "cholesterolContent": "43 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "919 mg",
+    "sugarContent": "7 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "9cd0a47c-2d1c-5d2e-b32e-ced7422c2647",
+      "name": "uncooked elbow macaroni",
+      "normalized_name": "uncooked elbow macaroni",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "ac19d138-da10-5190-98bc-8f4cb1f88960",
+      "name": "small green bell pepper",
+      "normalized_name": "small green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "092f9f95-c9ce-5faf-aaa6-366362507cd9",
+      "name": "ounce) can corned beef",
+      "normalized_name": "ounce can corned beef",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cf184e42-c27d-577b-8c39-2d19adf6a9f4",
+      "name": "ounce) can condensed tomato soup",
+      "normalized_name": "ounce can condensed tomato soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "b6f61d57-6039-58f4-952b-2b73283c38e9",
+      "name": "freshly shredded parmesan cheese",
+      "normalized_name": "freshly shredded parmesan cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "ffe557e2-ef6a-50c9-a01c-2201ed46a09b",
+      "slug": "goulash",
+      "name": "Goulash"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4ec7a9de-0aeb-5672-a472-d6645fe7a485",
+      "slug": "goulash-recipes",
+      "name": "Goulash Recipes",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216983/newfie-goulash"
+  },
+  "public": true,
+  "updated_at": 1735061142,
+  "revision": 1
+}

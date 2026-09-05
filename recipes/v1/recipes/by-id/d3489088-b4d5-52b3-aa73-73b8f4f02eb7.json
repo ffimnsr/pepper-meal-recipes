@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d3489088-b4d5-52b3-aa73-73b8f4f02eb7",
+  "slug": "indian-rice-pilaf",
+  "name": "Indian Rice Pilaf",
+  "recipe_type": "side",
+  "brief_description": "Indian-inspired rice is nicely spiced with curry powder, cinnamon, and garlic powder for a delicious and aromatic side dish.",
+  "cuisine": "Indian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring water and chicken broth to a boil."
+    },
+    {
+      "position": 2,
+      "text": "Combine rice, curry powder, garlic powder, cinnamon, paprika, and cloves in a bowl; stir to mix. Add spiced rice and onion to the boiling broth. Cover and cook until rice is tender, 20 to 25 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d3489088-b4d5-52b3-aa73-73b8f4f02eb7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "188 kcal",
+    "carbohydrateContent": "40 g",
+    "cholesterolContent": "2 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "440 mg",
+    "sugarContent": "1 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8281aa04-9844-579b-b0ca-48a71f810798",
+      "name": "ounce) can chicken broth",
+      "normalized_name": "ounce can chicken broth",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "26cb9ed0-180e-5930-9115-4f4cefa27f9d",
+      "name": "long grain rice",
+      "normalized_name": "long grain rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ea55ebcd-d2da-5f89-b8e9-ed703e3ce784",
+      "name": "curry powder",
+      "normalized_name": "curry powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3a08fd59-870f-5cb5-97dc-304b1ce57e08",
+      "name": "ground cloves",
+      "normalized_name": "ground cloves",
+      "quantity": "2",
+      "unit": "pinches",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "coarsely chopped",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "936ea180-ebfd-5e0c-8ba1-82bdf0fc1d27",
+      "slug": "pilaf",
+      "name": "Pilaf"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2972e18e-d873-5d41-a42b-b0897daf2e41",
+      "slug": "pilaf",
+      "name": "Pilaf",
+      "color": null
+    },
+    {
+      "id": "eecd2c00-de61-530a-bc32-cb01ad53bd59",
+      "slug": "indian",
+      "name": "Indian",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222806/indian-rice-pilaf"
+  },
+  "public": true,
+  "updated_at": 1669350896,
+  "revision": 1
+}

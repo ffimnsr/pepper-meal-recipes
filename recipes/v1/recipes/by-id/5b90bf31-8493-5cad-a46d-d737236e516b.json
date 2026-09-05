@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5b90bf31-8493-5cad-a46d-d737236e516b",
+  "slug": "tasty-breakfast-burritos",
+  "name": "Tasty Breakfast Burritos",
+  "recipe_type": "breakfast",
+  "brief_description": "Baked tortillas, packed with sausage, cheese and eggs. Swimming in a hearty sausage gravy.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place sausage in a large, deep skillet. Cook over medium high heat until evenly brown. Drain, reserving 2 tablespoons drippings; set sausage aside. Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Add the eggs and green chiles to the skillet; cook, stirring occasionally, until eggs are scrambled and set."
+    },
+    {
+      "position": 3,
+      "text": "Lightly grease a 9x13 inch baking pan. Place the tortillas on a counter top or other clean surface. Cover each tortillas with portions on sausage, cheese and eggs. Roll up the tortillas and place them seam side down in the baking dish."
+    },
+    {
+      "position": 4,
+      "text": "Heat reserved sausage drippings in the skillet. Sprinkle on the flour and stir. Add milk, stirring constantly, until the gravy begins to thicken. Pour the gravy on top of the tortilla rolls."
+    },
+    {
+      "position": 5,
+      "text": "Bake in preheated oven for 10 to 15 minutes, until gravy is bubbly."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5b90bf31-8493-5cad-a46d-d737236e516b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "754 kcal",
+    "carbohydrateContent": "41 g",
+    "cholesterolContent": "376 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "39 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "1928 mg",
+    "sugarContent": "4 g",
+    "fatContent": "47 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "09d8ef86-39bf-54d7-93f5-443e28a4cc8c",
+      "name": "ground pork sausage",
+      "normalized_name": "ground pork sausage",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 2
+    },
+    {
+      "ingredient_id": "fe0eecca-d447-5d9c-b39d-ebf611478d57",
+      "name": "ounce) can chopped green chile peppers",
+      "normalized_name": "ounce can chopped green chile peppers",
+      "quantity": "1 (4",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 3
+    },
+    {
+      "ingredient_id": "3de1e9ac-4c7f-5818-a480-473403e19215",
+      "name": "inch) flour tortillas",
+      "normalized_name": "inch flour tortillas",
+      "quantity": "8 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "65e874a3-0c6e-5d24-a019-ceb2f2f4c3cc",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "shredded",
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "aecdcf7e-63fb-55ab-a00d-e9e32b0d98b3",
+      "slug": "breakfast-burrito",
+      "name": "Breakfast Burrito"
+    }
+  ],
+  "tags": [
+    {
+      "id": "556672de-e639-546e-a885-c83eaecb2a12",
+      "slug": "breakfast-burrito-recipes",
+      "name": "Breakfast Burrito Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "2a52f9a5-cd4c-52d1-897e-c3192dd30208",
+      "slug": "ground-pork-recipes",
+      "name": "Ground Pork Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "4e7d6528-567b-592e-b80d-f7115460c3d2",
+      "slug": "convenience-cooking",
+      "name": "Convenience Cooking",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21852/tasty-breakfast-burritos"
+  },
+  "public": true,
+  "updated_at": 1657828628,
+  "revision": 1
+}

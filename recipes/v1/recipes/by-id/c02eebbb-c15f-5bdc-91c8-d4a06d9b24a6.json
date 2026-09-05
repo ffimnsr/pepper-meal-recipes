@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c02eebbb-c15f-5bdc-91c8-d4a06d9b24a6",
+  "slug": "caesar-potato-salad",
+  "name": "Caesar Potato Salad",
+  "recipe_type": "salad",
+  "brief_description": "This warm potato salad with Caesar salad dressing, crispy bacon, potatoes, and green onion is super easy to make for a delightful summer salad dish.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place bacon in a large skillet and cook over medium-high heat, occasionally turning, until evenly browned, about 10 minutes. Drain bacon slices on paper towels and crumble."
+    },
+    {
+      "position": 3,
+      "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until slightly tender, about 8 minutes. Drain and transfer potatoes to a baking dish. Drizzle olive oil over potatoes and season with black pepper."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until tender, about 10 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Mix potatoes, bacon bits, Caesar salad dressing, and green onions together in a bowl. Serve warm."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c02eebbb-c15f-5bdc-91c8-d4a06d9b24a6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "239 kcal",
+    "carbohydrateContent": "41 g",
+    "cholesterolContent": "7 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "173 mg",
+    "sugarContent": "3 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5fa994bb-08c5-530a-952f-74e90bd66d35",
+      "name": "baby red potatoes",
+      "normalized_name": "baby red potatoes",
+      "quantity": "24",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or as needed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "c5c7b9b3-3104-50ef-b376-b10347714513",
+      "name": "cracked black pepper to taste",
+      "normalized_name": "cracked black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7753ff63-5feb-561d-b25f-31a533e35177",
+      "name": "caesar salad dressing",
+      "normalized_name": "caesar salad dressing",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a4e6611a-eaf0-564b-a832-fc9eb0cd1b1a",
+      "slug": "lunches",
+      "name": "Lunches",
+      "color": null
+    },
+    {
+      "id": "10c08589-6d06-5624-979f-035d5f98affd",
+      "slug": "red-potatoes",
+      "name": "Red Potatoes",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "36f0ba83-6cf7-5b3c-9c04-ccc142dd82bc",
+      "slug": "potato-salad-recipes",
+      "name": "Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "6d7d0eb0-fe57-5977-bce4-f4c353ce90d3",
+      "slug": "on-the-go",
+      "name": "On The Go",
+      "color": null
+    },
+    {
+      "id": "1a30ca49-7342-5a8a-985f-dc9fa7d894b8",
+      "slug": "no-mayo",
+      "name": "No Mayo",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "54bcc1c2-56db-58ad-864e-5e82d0bdba46",
+      "slug": "potluck",
+      "name": "Potluck",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237349/caesar-potato-salad"
+  },
+  "public": true,
+  "updated_at": 1782165053,
+  "revision": 1
+}

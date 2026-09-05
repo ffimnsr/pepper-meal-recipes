@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3c324681-7169-55da-bf1d-18ffd36bb6c9",
+  "slug": "empanadas-fritas-de-queso",
+  "name": "Empanadas Fritas de Queso",
+  "recipe_type": "appetizer",
+  "brief_description": "These Chilean empanadas are filled with queso chanco, a Swiss-type cheese, and can be either baked or deep-fried.",
+  "cuisine": "Chilean",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Sift the flour, baking powder, and salt into a large mixing bowl. Combine the lard and milk in a saucepan, and heat until the milk is hot. Pour the hot milk into the flour mixture, and stir until a dough forms. Turn out onto a floured surface, and knead until smooth and elastic. Cover, and allow to rest for 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Preheat oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Roll the dough out on a floured surface 1/4-inch thick. Cut into 4-inch rounds. Brush the outer edges of each circle with beaten egg, and fill with a small mound of cheese. Fold each circle in half to form a half-moon; press the edges with your fingers or a fork to seal. Place the empanadas onto a parchment paper-lined baking sheet. Brush the tops with remaining egg."
+    },
+    {
+      "position": 4,
+      "text": "Bake in preheated oven until golden-brown, about 20 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Alternatively, the empanadas may be deep fried in 375 degrees F (190 degrees C) oil. If deep frying, do not brush the outsides of the empanadas with egg. Drain on paper towels."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3c324681-7169-55da-bf1d-18ffd36bb6c9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "343 kcal",
+    "carbohydrateContent": "39 g",
+    "cholesterolContent": "57 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "287 mg",
+    "sugarContent": "2 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "7d76af43-ab26-567b-a8db-0cbc00157fa4",
+      "name": "lard",
+      "normalized_name": "lard",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "77dbab31-d057-5d61-a87f-ded964435ff7",
+      "name": "whole milk",
+      "normalized_name": "whole milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "well beaten",
+      "position": 6
+    },
+    {
+      "ingredient_id": "f7f1ec64-c3c9-5193-9531-bdba359ea51f",
+      "name": "queso chanco (or swiss cheese or havarti)",
+      "normalized_name": "queso chanco",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "cut into 1/2-inch cubes",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "de47a34a-6e82-5e23-8d43-e244fda88a4d",
+      "slug": "pastries",
+      "name": "Pastries"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cc0f1706-0cf0-598f-8e62-9acfd5939a86",
+      "slug": "pastries",
+      "name": "Pastries",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "cf72088b-3f3d-57a4-8bed-404532d3b7ba",
+      "slug": "swiss",
+      "name": "Swiss",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "7640bb10-fa16-5a7e-8625-7837988ce8da",
+      "slug": "albarino-and-alvarinho",
+      "name": "Albarino and Alvarinho",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    },
+    {
+      "id": "30f61a93-2516-5abf-a92b-2ff797bf794e",
+      "slug": "empanadas",
+      "name": "Empanadas",
+      "color": null
+    },
+    {
+      "id": "625da4f7-4eee-5dc7-9b15-828856bf3fca",
+      "slug": "tapas",
+      "name": "Tapas",
+      "color": null
+    },
+    {
+      "id": "f2e18ec2-088e-596e-8722-b15249d403ab",
+      "slug": "pairings",
+      "name": "Pairings",
+      "color": null
+    },
+    {
+      "id": "b1a167e4-99f4-5b92-a696-f062832fce72",
+      "slug": "chilean",
+      "name": "Chilean",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/134319/empanadas-fritas-de-queso"
+  },
+  "public": true,
+  "updated_at": 1554187728,
+  "revision": 1
+}

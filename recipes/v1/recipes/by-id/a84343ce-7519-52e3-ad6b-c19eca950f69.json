@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a84343ce-7519-52e3-ad6b-c19eca950f69",
+  "slug": "mayo-chicken",
+  "name": "Mayo Chicken",
+  "recipe_type": "main",
+  "brief_description": "Mayo chicken is a simple, tasty baked chicken dinner made with chicken pieces coated with garlic-herb mayonnaise and topped with Parmesan cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place chicken pieces into a 9x13-inch baking dish."
+    },
+    {
+      "position": 3,
+      "text": "Stir together mayonnaise, garlic, rosemary, salt, and black pepper in a bowl."
+    },
+    {
+      "position": 4,
+      "text": "Spread mayonnaise mixture over chicken; top with Parmesan cheese."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until no longer pink in the center and the juices run clear, about 1 hour and 10 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 70,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a84343ce-7519-52e3-ad6b-c19eca950f69/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/GbUN5re5-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "579 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "117 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "34 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "791 mg",
+    "sugarContent": "1 g",
+    "fatContent": "48 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e70b9d8d-beca-59ab-b317-5175892c2668",
+      "name": "whole chicken",
+      "normalized_name": "whole chicken",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 6 pieces",
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "crushed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "23660e57-9f53-5a65-a913-73e05d5978bd",
+      "name": "finely chopped fresh rosemary",
+      "normalized_name": "finely chopped fresh rosemary",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "33f59aae-9c0f-597c-b519-8bfc4aae58b6",
+      "name": "freshly ground black pepper to taste",
+      "normalized_name": "freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "a245228e-1b06-5d73-9487-f7e7c28b696d",
+      "slug": "whole-chicken",
+      "name": "Whole Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3ab323c7-4fea-54bc-856d-2321d61e87a8",
+      "slug": "whole-chicken-recipes",
+      "name": "Whole Chicken Recipes",
+      "color": null
+    },
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "0ba66bc8-6f6c-5329-bdea-cde4f4044c27",
+      "slug": "baked-and-roasted",
+      "name": "Baked and Roasted",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230620/mayo-chicken"
+  },
+  "public": true,
+  "updated_at": 1764535401,
+  "revision": 1
+}

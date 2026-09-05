@@ -1,0 +1,228 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a9d34561-a847-55e4-af63-ff2761df4706",
+  "slug": "venison-gyros",
+  "name": "Venison Gyros",
+  "recipe_type": "main",
+  "brief_description": "These venison gyros are made with strips of venison marinated in cumin, marjoram, and oregano for an interesting twist on the classic Greek sandwich.",
+  "cuisine": "Greek Inspired American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk olive oil, cumin, garlic, vinegar, oregano, marjoram, rosemary, salt, and pepper together in a large glass or ceramic bowl. Add venison strips and toss to evenly coat. Cover the bowl with plastic wrap and marinate in the refrigerator for at least 2 hours."
+    },
+    {
+      "position": 2,
+      "text": "Heat a large skillet over medium-high heat. Working in batches of 1/2 pound at a time, add venison and cook until browned on the outside and no longer pink on the inside, about 8 minutes. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Pile onto warmed pitas to serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a9d34561-a847-55e4-af63-ff2761df4706/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "432 kcal",
+    "carbohydrateContent": "34 g",
+    "cholesterolContent": "159 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "48 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "384 mg",
+    "sugarContent": "1 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3984a17a-560e-5498-8e4b-ecdeaafe5951",
+      "name": "red wine vinegar",
+      "normalized_name": "red wine vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "81b7e63d-4dd5-593a-b159-45272d9a1999",
+      "name": "dried marjoram",
+      "normalized_name": "dried marjoram",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "64116f82-6963-52a0-8b20-55d77f2e61e2",
+      "name": "ground dried rosemary",
+      "normalized_name": "ground dried rosemary",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "170412a1-b17f-5aee-be12-b1a462482fbc",
+      "name": "venison",
+      "normalized_name": "venison",
+      "quantity": "3",
+      "unit": "pounds",
+      "preparation": "cut into 1/4 thick strips",
+      "position": 9
+    },
+    {
+      "ingredient_id": "e2115217-6c78-533c-95a0-e26219a0ffb8",
+      "name": "ounce) package pita breads",
+      "normalized_name": "ounce package pita breads",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "warmed",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "2ec470c2-b64f-5da8-9a90-36e93079e4ff",
+      "slug": "greek",
+      "name": "Greek"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bbf47bb0-f808-535a-b0be-7f7961e623c2",
+      "slug": "greek",
+      "name": "Greek",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "ed4f11c5-1007-5c46-9250-30f04c709de0",
+      "slug": "game-meats",
+      "name": "Game Meats",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "1d404b1e-7f61-5f96-9c1b-2d3f00bb15af",
+      "slug": "venison",
+      "name": "Venison",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "d5b9b2b3-20c4-5ef5-aced-6a3e55a0c721",
+      "slug": "wraps-and-roll-ups",
+      "name": "Wraps and Roll-Ups",
+      "color": null
+    },
+    {
+      "id": "577e818f-81f4-5f1a-90cb-b41cf9cc12b6",
+      "slug": "gyro-recipes",
+      "name": "Gyro Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/153436/venison-gyros"
+  },
+  "public": true,
+  "updated_at": 1732750806,
+  "revision": 1
+}

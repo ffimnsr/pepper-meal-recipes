@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d80e458a-42ae-55f3-8faf-f045aae965c8",
+  "slug": "jasmine-rice",
+  "name": "Jasmine Rice",
+  "recipe_type": "side",
+  "brief_description": "This beautiful rice is infused with onion, a few bay leaves and peas while it simmers and cooks on the stove. The result is a fragrant and very pretty rice pilaf. Serves four.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large saucepan over a medium-low heat, warm the oil. Add onion and saute for 3 to 5 minutes. Mix in green peas, bay leaf, and jasmine rice. Stir to coat the rice."
+    },
+    {
+      "position": 2,
+      "text": "Pour 3 cups water into the saucepan and add the salt. Increase the heat to medium and let the rice come to a quick simmer. Reduce heat to low and let rice simmer lightly and sit uncovered until all of the liquid is absorbed. Cover the rice and remove from heat. Let sit for about 40 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d80e458a-42ae-55f3-8faf-f045aae965c8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "325 kcal",
+    "carbohydrateContent": "59 g",
+    "fiberContent": "1 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "1 mg",
+    "sugarContent": "0 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ac449163-5294-5400-84e0-8b81254820c4",
+      "name": "green peas",
+      "normalized_name": "green peas",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ff73f227-cc3f-5203-9ff5-96ed46f4a07d",
+      "name": "dry jasmine rice",
+      "normalized_name": "dry jasmine rice",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    },
+    {
+      "id": "aaa9dfdd-f215-5170-a64f-f90c50c789ea",
+      "slug": "green-peas",
+      "name": "Green Peas"
+    }
+  ],
+  "tags": [
+    {
+      "id": "73d15f3b-ba62-57e7-af10-1b51c8972f27",
+      "slug": "green-peas",
+      "name": "Green Peas",
+      "color": null
+    },
+    {
+      "id": "170a28a4-5360-5e89-accb-7ecc55c5340b",
+      "slug": "spring",
+      "name": "Spring",
+      "color": null
+    },
+    {
+      "id": "b06f0c5b-7919-511f-9eeb-ad9b9e1ed1a0",
+      "slug": "grains",
+      "name": "Grains",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "2972e18e-d873-5d41-a42b-b0897daf2e41",
+      "slug": "pilaf",
+      "name": "Pilaf",
+      "color": null
+    },
+    {
+      "id": "4bbf3490-84b7-5429-acd1-f3f32d9749b1",
+      "slug": "whole-grain",
+      "name": "Whole Grain",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14136/jasmine-rice"
+  },
+  "public": true,
+  "updated_at": 1778722594,
+  "revision": 1
+}

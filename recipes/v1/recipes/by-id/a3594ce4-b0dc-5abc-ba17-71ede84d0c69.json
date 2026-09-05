@@ -1,0 +1,205 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a3594ce4-b0dc-5abc-ba17-71ede84d0c69",
+  "slug": "cheater-carbonara",
+  "name": "Cheater Carbonara",
+  "recipe_type": "main",
+  "brief_description": "Using milk and cream cheese in place of eggs makes for an extra-creamy carbonara that everyone will enjoy.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of lightly salted water to a boil. Cook linguine at a boil until tender yet firm to the bite, about 11 minutes, adding peas in the last minute of cooking. Drain and keep warm in a bowl."
+    },
+    {
+      "position": 2,
+      "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Transfer bacon to paper towels, reserving 1 tablespoon of drippings in the skillet."
+    },
+    {
+      "position": 3,
+      "text": "Add garlic to the skillet; saute for 1 minute. Reduce heat to low and stir in milk and cream cheese until blended."
+    },
+    {
+      "position": 4,
+      "text": "Crumble bacon and add to the linguine along with sauce and Parmesan cheese; stir to coat."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a3594ce4-b0dc-5abc-ba17-71ede84d0c69/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "443 kcal",
+    "carbohydrateContent": "50 g",
+    "cholesterolContent": "53 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "495 mg",
+    "sugarContent": "7 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a0876903-c9b1-5f15-965e-5f5ec7c69d47",
+      "name": "ounce) package linguine pasta",
+      "normalized_name": "ounce package linguine pasta",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ee169fda-3fca-5765-9af5-f262e26fe53c",
+      "name": "frozen peas",
+      "normalized_name": "frozen peas",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "cd6cdf2d-dbde-56e7-8f54-f3790f0cf0a1",
+      "name": "ounce) package cream cheese",
+      "normalized_name": "ounce package cream cheese",
+      "quantity": "0.5 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "78763672-5fe6-58db-bb74-5fd900ec3b2f",
+      "slug": "pasta-carbonara",
+      "name": "Pasta Carbonara"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2af3f8a9-5a79-5561-843d-624fe049896e",
+      "slug": "pasta-carbonara-recipes",
+      "name": "Pasta Carbonara Recipes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279188/cheater-carbonara"
+  },
+  "public": true,
+  "updated_at": 1643846910,
+  "revision": 1
+}

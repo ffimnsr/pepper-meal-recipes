@@ -1,0 +1,223 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7960e8c5-2bff-5d05-8990-1a5f5499d637",
+  "slug": "simple-banana-bread",
+  "name": "Simple Banana Bread",
+  "recipe_type": "dessert",
+  "brief_description": "A banana bread recipe without baking soda. Overripe bananas lend an extra sweetness and a deeper banana taste to this easy, popular low-fat loaf.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Grease an 8x4-inch loaf pan and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Sift together flour, baking powder, and salt in a large bowl. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Mash bananas in another bowl and stir in eggs and sugar."
+    },
+    {
+      "position": 4,
+      "text": "Stir the flour mixture into the banana mixture just to combine, then fold in walnuts. Pour the batter into the prepared pan."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until a toothpick inserted into the center of the bread comes out clean, 55 to 65 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Remove from the oven and cool on a rack for 10 minutes, then remove from the pan and cool completely. Slice and serve."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 55,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7960e8c5-2bff-5d05-8990-1a5f5499d637/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "237 kcal",
+    "carbohydrateContent": "44 g",
+    "cholesterolContent": "37 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "180 mg",
+    "sugarContent": "19 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6566d1ae-3068-5828-86e6-198b789241fd",
+      "name": "ripe bananas",
+      "normalized_name": "ripe bananas",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "mashed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "e8e75e6e-b180-5d39-a832-2134749a2e0d",
+      "name": "chopped walnuts",
+      "normalized_name": "chopped walnuts",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "ca781685-b74c-58aa-a5ed-bac1a2dbbd57",
+      "slug": "breakfast-bread",
+      "name": "Breakfast Bread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "83a46deb-c595-5fc8-991d-01062f74c59d",
+      "slug": "breakfast-bread-recipes",
+      "name": "Breakfast Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "f2a5d498-0488-57e1-8e78-49eece9afc27",
+      "slug": "bananas",
+      "name": "Bananas",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "434ef930-362c-5218-9ff9-a11c39e040b7",
+      "slug": "banana-bread",
+      "name": "Banana Bread",
+      "color": null
+    },
+    {
+      "id": "1d3ec040-9ed5-5566-94f0-af9888a2f7bc",
+      "slug": "fruit-bread-recipes",
+      "name": "Fruit Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "988a2989-8071-5697-8ed2-3941bea4baa7",
+      "slug": "back-to-school",
+      "name": "Back to School",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6757/simple-banana-bread"
+  },
+  "public": true,
+  "updated_at": 1771802925,
+  "revision": 1
+}

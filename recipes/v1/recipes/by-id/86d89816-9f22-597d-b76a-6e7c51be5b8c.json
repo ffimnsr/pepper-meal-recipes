@@ -1,0 +1,179 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "86d89816-9f22-597d-b76a-6e7c51be5b8c",
+  "slug": "bavarian-sauerkraut",
+  "name": "Bavarian Sauerkraut",
+  "recipe_type": "side",
+  "brief_description": "This sauerkraut recipe is a tasty side dish made with packaged sauerkraut cooked in bacon drippings with onion, brown sugar, caraway seed, and sherry.",
+  "cuisine": "German",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat bacon drippings in a large skillet over medium heat. Cook and stir onion in hot bacon drippings until soft and translucent, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Place sauerkraut with juice into a large bowl and cover with water. Use your hands to squeeze out as much water and juice as possible. Add squeezed sauerkraut to onion in the skillet."
+    },
+    {
+      "position": 3,
+      "text": "Stir chicken stock, sherry, brown sugar, and caraway seeds into sauerkraut mixture. Reduce heat to low; simmer, stirring occasionally, until most of the liquid has evaporated, 30 to 40 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/86d89816-9f22-597d-b76a-6e7c51be5b8c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "52 kcal",
+    "carbohydrateContent": "11 g",
+    "cholesterolContent": "0 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "848 mg",
+    "sugarContent": "5 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a24235ef-67e3-5e18-a597-83ec967757f6",
+      "name": "bacon drippings",
+      "normalized_name": "bacon drippings",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "086d955b-35c2-52c3-a408-421896ede438",
+      "name": "finely chopped onion",
+      "normalized_name": "finely chopped onion",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a9adc850-ebdb-554d-91d5-ea4273b91953",
+      "name": "ounce) packages sauerkraut",
+      "normalized_name": "ounce packages sauerkraut",
+      "quantity": "2 (16",
+      "unit": "pieces",
+      "preparation": "undrained",
+      "position": 3
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "15073bff-eb26-5c8d-b91b-06baffacef45",
+      "name": "cooking sherry",
+      "normalized_name": "cooking sherry",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4318d726-c4c1-57d3-ad3e-5e83a3428d49",
+      "name": "packed brown sugar",
+      "normalized_name": "packed brown sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6e2a1868-a46a-52af-822f-20f03432b7be",
+      "name": "caraway seeds",
+      "normalized_name": "caraway seeds",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "fdaed86a-bbd7-5daf-83aa-ad4f8aa12cfd",
+      "slug": "new-year",
+      "name": "New Year",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    },
+    {
+      "id": "4df3c995-92b0-5b26-81f3-a37a2a681eab",
+      "slug": "retro-recipes",
+      "name": "Retro Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228631/bavarian-sauerkraut"
+  },
+  "public": true,
+  "updated_at": 1785260399,
+  "revision": 1
+}

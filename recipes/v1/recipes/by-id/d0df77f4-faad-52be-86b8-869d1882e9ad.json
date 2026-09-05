@@ -1,0 +1,195 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d0df77f4-faad-52be-86b8-869d1882e9ad",
+  "slug": "birthday-cake-for-your-cat",
+  "name": "Birthday Cake for Your Cat",
+  "recipe_type": "dessert",
+  "brief_description": "This cat birthday cake is purr-fect for those looking for a special treat for a favorite feline. Your kitty will love this easy tuna fish cake.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Preheat the oven to 350 degrees F (175 degrees C). Spray 2 muffin tin cups with cooking spray."
+    },
+    {
+      "position": 2,
+      "text": "Combine tuna, flour, egg white, and Cheddar cheese in a bowl. Fill the prepared muffin cups equally with the mixture."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven for 15 minutes. Let cool in the tin for 5 minutes. Invert onto a wire rack to cool completely."
+    },
+    {
+      "position": 4,
+      "text": "Garnish cakes with shrimp."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d0df77f4-faad-52be-86b8-869d1882e9ad/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "145 kcal",
+    "carbohydrateContent": "6 g",
+    "cholesterolContent": "45 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "96 mg",
+    "sugarContent": "0 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c29853eb-92b8-5cd9-8800-3efe37eeebc4",
+      "name": "ounce) can tuna",
+      "normalized_name": "ounce can tuna",
+      "quantity": "1 (6",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 2
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "8de860f6-ea04-5f70-b08f-04bbc73cb8c6",
+      "name": "egg white",
+      "normalized_name": "egg white",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "80d85e3a-5a69-531a-81fe-f4c512dc8755",
+      "name": "shredded mild cheddar cheese",
+      "normalized_name": "shredded mild cheddar cheese",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "277f57ae-b740-593b-a580-72e808440474",
+      "name": "peeled",
+      "normalized_name": "peeled",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "cooked shrimp",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    },
+    {
+      "id": "5d84fa53-3224-5052-862f-33517e2d2b09",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas"
+    },
+    {
+      "id": "c819676f-e29d-5458-bab5-a6d901a67e8f",
+      "slug": "pet-food",
+      "name": "Pet Food"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "dfd57937-ca1c-5f7a-9472-30b1621d944c",
+      "slug": "pet-food-recipes",
+      "name": "Pet Food Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "f3a06a5e-eb68-58cb-91b0-8787d6f2babc",
+      "slug": "tuna",
+      "name": "Tuna",
+      "color": null
+    },
+    {
+      "id": "47dbbc95-2797-57bb-8d05-99c3cb21d344",
+      "slug": "fish",
+      "name": "Fish",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "4e7d6528-567b-592e-b80d-f7115460c3d2",
+      "slug": "convenience-cooking",
+      "name": "Convenience Cooking",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/265170/birthday-cake-for-your-cat"
+  },
+  "public": true,
+  "updated_at": 1765797525,
+  "revision": 1
+}

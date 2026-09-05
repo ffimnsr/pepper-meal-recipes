@@ -1,0 +1,262 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cc05a8a6-3f59-54a9-a692-515a64a43bbb",
+  "slug": "quick-hawaiian-haystacks",
+  "name": "Quick Hawaiian Haystacks",
+  "recipe_type": "main",
+  "brief_description": "Hawaiian haystacks are ready in less than 30 minutes and are a fun way to use up leftover rice, chicken, veggies, and coconut for a weeknight dinner.",
+  "cuisine": "Hawaiian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix chicken soup and chicken together in a saucepan; stir in enough milk to make a gravy-like consistency. Cook and stir chicken sauce over medium heat until smooth and heated through, 5 to 10 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Spoon 1/2 cup rice onto each of 8 plates. Layer each serving of rice with chow mein noodles, chicken mixture, pineapple, Cheddar cheese, celery, green peppers, green onions, coconut, almonds, and a drizzle of soy sauce, respectively."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cc05a8a6-3f59-54a9-a692-515a64a43bbb/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "512 kcal",
+    "carbohydrateContent": "53 g",
+    "cholesterolContent": "49 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "789 mg",
+    "sugarContent": "8 g",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e9e29f43-e649-5434-93d1-db18af69de18",
+      "name": "ounce) cans cream of chicken soup",
+      "normalized_name": "ounce cans cream of chicken soup",
+      "quantity": "2 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ca7a9a19-12fe-5e2b-a1ad-8233f1dab3e0",
+      "name": "cooked chicken breasts",
+      "normalized_name": "cooked chicken breasts",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "cut into bite-sized pieces",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or more as needed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "5eedfd85-8c8b-5c39-927c-857917c73997",
+      "name": "cooked rice",
+      "normalized_name": "cooked rice",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8950da64-d573-549a-a1e7-febf8f54be54",
+      "name": "ounce) can chow mein noodles",
+      "normalized_name": "ounce can chow mein noodles",
+      "quantity": "1 (5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "983e9b87-d3a0-503f-a9f4-d09a7c98650e",
+      "name": "ounce) can pineapple tidbits",
+      "normalized_name": "ounce can pineapple tidbits",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 6
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "8e399f67-a139-5c4b-a6f8-75ff8e7fa1ea",
+      "name": "green bell peppers",
+      "normalized_name": "green bell peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 9
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 10
+    },
+    {
+      "ingredient_id": "2cdbe285-269a-5e53-b77b-916f981e4b93",
+      "name": "flaked coconut",
+      "normalized_name": "flaked coconut",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "948e2a98-0dfe-5377-8100-bde72b87cf75",
+      "name": "slivered almonds",
+      "normalized_name": "slivered almonds",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "fddcd10d-32a3-5d59-ab5d-4373e920f350",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast"
+    },
+    {
+      "id": "084cf805-b5b0-5920-82d2-a65ee91d965f",
+      "slug": "chicken-pasta",
+      "name": "Chicken Pasta"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "fec31a31-83a2-52b5-980b-653e9f2c3942",
+      "slug": "chow-mein-noodle-recipes",
+      "name": "Chow Mein Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230786/quick-hawaiian-haystacks"
+  },
+  "public": true,
+  "updated_at": 1780420265,
+  "revision": 1
+}

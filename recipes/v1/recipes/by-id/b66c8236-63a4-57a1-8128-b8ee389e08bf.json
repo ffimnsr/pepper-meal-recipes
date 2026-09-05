@@ -1,0 +1,191 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b66c8236-63a4-57a1-8128-b8ee389e08bf",
+  "slug": "hot-chicken-wing-dip",
+  "name": "Hot Chicken Wing Dip",
+  "recipe_type": "appetizer",
+  "brief_description": "This hot chicken wing dip recipe gives you the flavor of hot chicken wings dipped in ranch dressing and covered in cheese. Serve it with chips or crackers.",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Heat a nonstick skillet over medium heat. Add chicken breasts; cook until juices run clear, about 4 minutes per side. Transfer to a cutting board; cool completely. Shred into strands using a fork."
+    },
+    {
+      "position": 3,
+      "text": "Combine cream cheese, hot pepper sauce, and ranch dressing in a bowl until well blended. Add shredded chicken; mix well. Transfer mixture to a 9x13-inch baking dish; sprinkle Cheddar cheese over top."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until cheese is bubbling, about 10 minutes."
+    }
+  ],
+  "servings": 32,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b66c8236-63a4-57a1-8128-b8ee389e08bf/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "161 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "41 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "485 mg",
+    "sugarContent": "1 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6297b442-fcfc-58e7-9623-e8cd20474cfa",
+      "name": "skinless boneless chicken breasts",
+      "normalized_name": "skinless boneless chicken breasts",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ff07c3dd-abc3-51a9-bb49-d30c0737d0c1",
+      "name": "ounce) packages cream cheese",
+      "normalized_name": "ounce packages cream cheese",
+      "quantity": "2 (8",
+      "unit": "pieces",
+      "preparation": "softened",
+      "position": 2
+    },
+    {
+      "ingredient_id": "21253e7e-af41-5360-8d18-cf69433a7f7c",
+      "name": "ounce) bottle hot pepper sauce",
+      "normalized_name": "ounce bottle hot pepper sauce",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b5c76f50-a619-544b-b151-6ade13edc0a6",
+      "name": "ounce) bottle ranch dressing",
+      "normalized_name": "ounce bottle ranch dressing",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d9665c8e-feae-5357-999b-b8048431ad56",
+      "name": "ounce) package shredded cheddar cheese",
+      "normalized_name": "ounce package shredded cheddar cheese",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "6ad8913c-315a-59a3-af4f-713310ac8cde",
+      "slug": "cheese-dips-and-spreads",
+      "name": "Cheese Dips and Spreads"
+    },
+    {
+      "id": "525120a9-1f0b-5dcb-a32f-b13dcf99d5f6",
+      "slug": "hot-cheese-dip",
+      "name": "Hot Cheese Dip"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "bea70f6b-83d1-547c-b292-dc14e80b6239",
+      "slug": "cooking-for-a-crowd-recipes",
+      "name": "Cooking for a Crowd Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "d67c7e91-9ba4-51d9-8c2c-aa8fd8b4dd5d",
+      "slug": "cheesy-chicken",
+      "name": "Cheesy Chicken",
+      "color": null
+    },
+    {
+      "id": "ce1aa778-bd4d-5a5a-bc36-afb26fa27b69",
+      "slug": "buffalo-chicken-dip-recipes",
+      "name": "Buffalo Chicken Dip Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/143466/hot-chicken-wing-dip"
+  },
+  "public": true,
+  "updated_at": 1735243957,
+  "revision": 1
+}

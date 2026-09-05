@@ -1,0 +1,234 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7e234e17-edb9-524d-aa78-f299aaab5d66",
+  "slug": "authentic-filipino-pancit",
+  "name": "Authentic Filipino Pancit",
+  "recipe_type": "main",
+  "brief_description": "This authentic Filipino chicken pancit dish uses simple ingredients to impart tons of flavor, and it's super easy to prepare.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a pot of water to a boil over high heat. Add chicken thighs and boil until no longer pink in the centers and juices run clear, about 30 minutes. Strain broth into a bowl to reserve. Shred chicken thighs using 2 forks."
+    },
+    {
+      "position": 2,
+      "text": "Place noodles in a large bowl and pour in hot chicken broth, adding hot water to cover if needed. Set aside until noodles are softened, 5 to 7 minutes. Blanch noodles with cold water and drain well. Place into a bowl and add soy seasoning, 1 tablespoon olive oil, and sesame oil. Mix well and set aside."
+    },
+    {
+      "position": 3,
+      "text": "Heat remaining olive oil in a skillet or large wok over medium-high heat. Saute garlic in the hot oil until it begins to brown, about 1 minute. Add onion and cook for 2 minutes. Add chicken, cabbage, and carrots. Stir-fry for 3 to 4 minutes; season with garlic salt. Mix chicken mixture with noodles, add soy seasoning to taste, and serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7e234e17-edb9-524d-aa78-f299aaab5d66/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "390 kcal",
+    "carbohydrateContent": "42 g",
+    "cholesterolContent": "47 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "482 mg",
+    "sugarContent": "5 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "71c1704c-5a16-5210-9095-2badd8f02115",
+      "name": "boneless chicken thighs",
+      "normalized_name": "boneless chicken thighs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "58b9d943-1d3b-5d3f-9bf4-830f8f7e9343",
+      "name": "ounce) package dried rice noodles",
+      "normalized_name": "ounce package dried rice noodles",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c1c80560-330f-5b5b-9ed1-c0dd2786e045",
+      "name": "soy-based liquid seasoning (such as maggi\u00ae)",
+      "normalized_name": "soy-based liquid seasoning",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 4
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "9768d195-f743-5ec9-ad42-38b0cf5d0b2e",
+      "name": "large head cabbage",
+      "normalized_name": "large head cabbage",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "julienned",
+      "position": 9
+    },
+    {
+      "ingredient_id": "290a7383-c4f5-5e89-a4ef-ac32f5e86d14",
+      "name": "garlic salt",
+      "normalized_name": "garlic salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "f866000d-005d-5af3-a7c8-3f5b281b7d6f",
+      "slug": "filipino",
+      "name": "Filipino"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "b5e67bcd-e37c-509e-81e3-fe562ee95b34",
+      "slug": "rice-noodle-recipes",
+      "name": "Rice Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "6dad4087-a7f9-5c35-ac41-349f07684bd8",
+      "slug": "chicken-thigh-recipes",
+      "name": "Chicken Thigh Recipes",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "5aaee194-63d7-5682-8669-f71deed29569",
+      "slug": "pancit-recipes",
+      "name": "Pancit Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/98629/authentic-filipino-pancit"
+  },
+  "public": true,
+  "updated_at": 1767368304,
+  "revision": 1
+}

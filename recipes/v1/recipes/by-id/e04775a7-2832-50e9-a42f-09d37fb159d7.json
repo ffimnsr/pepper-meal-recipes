@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e04775a7-2832-50e9-a42f-09d37fb159d7",
+  "slug": "breakfast-grits",
+  "name": "Breakfast Grits",
+  "recipe_type": "breakfast",
+  "brief_description": "Learn how to cook grits with this recipe. Fresh pepper and sharp Cheddar cheese liven up this dish. Simple and tasty, just the way grits should be.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Bring water and salt to a boil in a saucepan. Whisk in grits; continue to whisk for 1 minute."
+    },
+    {
+      "position": 3,
+      "text": "When the mixture comes to a boil again, turn the heat to low. Stir frequently, cook for 10 to 15 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Remove grits from the heat and add cheese, butter, and pepper; mix well."
+    },
+    {
+      "position": 5,
+      "text": "Stir until butter and cheese are melted."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e04775a7-2832-50e9-a42f-09d37fb159d7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "240 kcal",
+    "carbohydrateContent": "31 g",
+    "cholesterolContent": "26 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "424 mg",
+    "sugarContent": "0 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2766a2a5-b389-5534-bb70-1c5fa3272ef2",
+      "name": "hominy grits",
+      "normalized_name": "hominy grits",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbb001aa-57e2-5400-b607-791c84fccb9f",
+      "name": "shredded sharp cheddar cheese",
+      "normalized_name": "shredded sharp cheddar cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "8f2d1759-6b94-5f01-b137-4c7adb22db12",
+      "slug": "grain-side-dish",
+      "name": "Grain Side Dish"
+    },
+    {
+      "id": "2ebf87ae-6eb2-5c88-9c15-009a5783a3c0",
+      "slug": "grits",
+      "name": "Grits"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e67e7af9-c8fe-5206-8ea2-0105bad5b7f8",
+      "slug": "grits",
+      "name": "Grits",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "838edca0-bc0e-58f4-9b63-026d0d2c115b",
+      "slug": "arkansas-recipes",
+      "name": "Arkansas Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "3654150b-4a1b-5dca-bb27-24b9ae14de11",
+      "slug": "polenta-recipes",
+      "name": "Polenta Recipes",
+      "color": null
+    },
+    {
+      "id": "243b0b54-aa9c-5b58-8b36-d4a730f1e17d",
+      "slug": "southern",
+      "name": "Southern",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14020/breakfast-grits"
+  },
+  "public": true,
+  "updated_at": 1786153658,
+  "revision": 1
+}

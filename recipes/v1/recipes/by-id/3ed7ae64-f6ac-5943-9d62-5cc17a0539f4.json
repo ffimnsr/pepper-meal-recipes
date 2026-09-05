@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3ed7ae64-f6ac-5943-9d62-5cc17a0539f4",
+  "slug": "lumpia-shanghai-version",
+  "name": "Lumpia (Shanghai Version)",
+  "recipe_type": "appetizer",
+  "brief_description": "Lumpia Shanghai are Filipino spring rolls that have a meatier filling compared to other lumpia. Serve these crispy savory treats with a dipping sauce.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine ground pork, ground beef, onion, and carrot in a large bowl; mix well with hands. Gradually blend in soy sauce, salt, garlic powder, and pepper until incorporated."
+    },
+    {
+      "position": 2,
+      "text": "Working one at a time, lay a wrapper on a flat surface with a corner pointing at you. Place about 2 tablespoons filling in a line, no thicker than your thumb, across the center of the wrapper. Moisten the edges of wrapper with water. Fold the bottom edge of wrapper snugly over filling. Fold in the left and right sides of wrapper towards the center. Roll up tightly to seal in filling."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a deep fryer or heavy skillet to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 4,
+      "text": "Working in batches, fry lumpia in hot oil, turning once, until golden brown, 3 to 4 minutes. Drain on a paper towel-lined plate. Cut lumpia in half, or serve as-is with dipping sauce."
+    }
+  ],
+  "servings": 20,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 60,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3ed7ae64-f6ac-5943-9d62-5cc17a0539f4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "262 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "38 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "1037 mg",
+    "sugarContent": "1 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "70e3ecde-d27f-5ad7-b472-11e287edbf95",
+      "name": "ground pork",
+      "normalized_name": "ground pork",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "grated",
+      "position": 4
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2294de1f-3730-5887-93bb-9edf85bc609d",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "2.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a005ac11-8d16-5032-84dd-db98491475e6",
+      "name": "ounce) package spring roll wrappers",
+      "normalized_name": "ounce package spring roll wrappers",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 10
+    },
+    {
+      "ingredient_id": "4f92ebcf-374e-577f-8d7e-5daab8ea9918",
+      "name": "quarts oil for frying",
+      "normalized_name": "quarts oil for frying",
+      "quantity": "1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "cf1e635c-b2d7-52fc-8796-cfd0aa20b583",
+      "slug": "wraps-and-rolls",
+      "name": "Wraps and Rolls"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d39ebfe1-1fd9-5f04-9a7e-813a8f5fcafd",
+      "slug": "lunar-new-year",
+      "name": "Lunar New Year",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "2a52f9a5-cd4c-52d1-897e-c3192dd30208",
+      "slug": "ground-pork-recipes",
+      "name": "Ground Pork Recipes",
+      "color": null
+    },
+    {
+      "id": "acb4aea2-50e0-54f5-9f55-88ed42e18ac3",
+      "slug": "olympics",
+      "name": "Olympics",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "3a0e3a37-b1f9-5677-afb0-dbb9e99bc6e6",
+      "slug": "big-game-appetizer-recipes",
+      "name": "Big Game Appetizer Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/40351/lumpia-shanghai-version"
+  },
+  "public": true,
+  "updated_at": 1765984785,
+  "revision": 1
+}

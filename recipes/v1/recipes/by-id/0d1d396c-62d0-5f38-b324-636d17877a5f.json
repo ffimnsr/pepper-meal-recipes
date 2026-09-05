@@ -1,0 +1,248 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0d1d396c-62d0-5f38-b324-636d17877a5f",
+  "slug": "boston-baked-beans",
+  "name": "Boston Baked Beans",
+  "recipe_type": "dessert",
+  "brief_description": "These baked beans are slow-cooked in the oven with bacon, onions, and a sweet, syrupy sauce, resulting in an old-fashioned taste that everyone will enjoy.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Transfer soaked navy beans and soaking water to a saucepan."
+    },
+    {
+      "position": 2,
+      "text": "Bring to a boil. Reduce heat and simmer until nearly tender, approximately 1 to 2 hours. Drain and reserve the cooking liquid."
+    },
+    {
+      "position": 3,
+      "text": "Preheat the oven to 325 degrees F (165 degrees C)."
+    },
+    {
+      "position": 4,
+      "text": "Arrange 1/2 of the beans in the bottom of a 2-quart casserole dish. Place 1/2 of the bacon strips over the beans and sprinkle 1/2 of the onions over top. Repeat layers once more."
+    },
+    {
+      "position": 5,
+      "text": "Combine ketchup, molasses, brown sugar, Worcestershire sauce, salt, pepper, and dry mustard in a large saucepan over medium heat; bring to a boil."
+    },
+    {
+      "position": 6,
+      "text": "Pour sauce over the beans. Pour in just enough reserved cooking liquid to cover the beans. Cover the casserole dish with a lid or aluminum foil."
+    },
+    {
+      "position": 7,
+      "text": "Bake in the preheated oven for 1 1/2 hours. Remove the lid and continue to cook, checking every 1/2 hour or so and adding more cooking liquid if necessary to prevent the beans from getting too dry, until beans are soft and tender, 1 1/2 to 2 1/2 more hours."
+    },
+    {
+      "position": 8,
+      "text": "Serve hot and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 250,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0d1d396c-62d0-5f38-b324-636d17877a5f/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/VfHuunjz-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "382 kcal",
+    "carbohydrateContent": "63 g",
+    "cholesterolContent": "14 mg",
+    "fiberContent": "17 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "1320 mg",
+    "sugarContent": "20 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e9067c86-456a-50dc-a269-6cdba30ef0fd",
+      "name": "dry navy beans",
+      "normalized_name": "dry navy beans",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "soaked overnight",
+      "position": 1
+    },
+    {
+      "ingredient_id": "4d6c93ee-4c88-51cb-854f-7b62fbeddf4a",
+      "name": "uncooked bacon strips",
+      "normalized_name": "uncooked bacon strips",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8086f0ab-2231-5b83-b6dd-e9f34ff533d9",
+      "name": "molasses",
+      "normalized_name": "molasses",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5baabac5-b85c-569f-b9c8-76580a7d6e64",
+      "name": "dry mustard",
+      "normalized_name": "dry mustard",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "62486dc7-9e27-5c22-9339-2e4ab00fb7d2",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas"
+    },
+    {
+      "id": "9460df44-db2d-5f25-b365-84437f6b26cb",
+      "slug": "baked-bean",
+      "name": "Baked Bean"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "0c0382f0-5eab-53c6-90d8-662245a076b6",
+      "slug": "memorial-day",
+      "name": "Memorial Day",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "9a251b70-1100-587a-b632-59ffffa28461",
+      "slug": "new-england",
+      "name": "New England",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "6d7d0eb0-fe57-5977-bce4-f4c353ce90d3",
+      "slug": "on-the-go",
+      "name": "On The Go",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18255/boston-baked-beans"
+  },
+  "public": true,
+  "updated_at": 1769029280,
+  "revision": 1
+}

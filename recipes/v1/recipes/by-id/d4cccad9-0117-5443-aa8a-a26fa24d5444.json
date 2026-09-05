@@ -1,0 +1,193 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d4cccad9-0117-5443-aa8a-a26fa24d5444",
+  "slug": "egg-halwa",
+  "name": "Egg Halwa",
+  "recipe_type": "dessert",
+  "brief_description": "This halwa is a rich, Indian dessert of eggs and milk flavored with cardamom. Keep stirring or else it will burn! You can add vanilla if you feel it tastes too eggy. It's a little heavy, so even a small portion is enough to satisfy your sweet tooth.",
+  "cuisine": "Indian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Crush the cardamom pods with the side of a knife. Combine the cardamom, milk, egg, sugar, shortening, semolina, and dry milk powder in a heavy bottom saucepan. Whisk well to combine, then cook on low heat, stirring occasionally until the eggs thicken. Continue cooking, stirring constantly, until the mixture browns, and the shortening begins to separate, about an hour. Remove cardamom pods and serve hot."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d4cccad9-0117-5443-aa8a-a26fa24d5444/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "556 kcal",
+    "carbohydrateContent": "48 g",
+    "cholesterolContent": "206 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "154 mg",
+    "sugarContent": "47 g",
+    "fatContent": "36 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7791eeee-01ec-5045-8671-a4d42926723b",
+      "name": "pods green cardamom",
+      "normalized_name": "pods green cardamom",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 3
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "19474987-99ea-5312-af22-52e1aa7953a4",
+      "name": "shortening",
+      "normalized_name": "shortening",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "f9c46693-cf84-57dc-a756-8beec0051630",
+      "name": "semolina",
+      "normalized_name": "semolina",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "231caec1-cbcb-56b8-9d78-18cdf63557f9",
+      "name": "dry milk powder",
+      "normalized_name": "dry milk powder",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "e497f6d9-26fc-5ee8-be38-aff4dcba9d79",
+      "slug": "indian",
+      "name": "Indian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eecd2c00-de61-530a-bc32-cb01ad53bd59",
+      "slug": "indian",
+      "name": "Indian",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "187603c2-42c4-5076-a2c7-438cbce2329f",
+      "slug": "herbs-and-spices-recipes",
+      "name": "Herbs and Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "7e72f74d-cb6e-5f08-84b1-85b817f64cac",
+      "slug": "cardamom-recipes",
+      "name": "Cardamom Recipes",
+      "color": null
+    },
+    {
+      "id": "88cb2134-e479-5295-92e0-da57e506b53a",
+      "slug": "custards-and-puddings",
+      "name": "Custards and Puddings",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/54799/egg-halwa"
+  },
+  "public": true,
+  "updated_at": 1635811285,
+  "revision": 1
+}

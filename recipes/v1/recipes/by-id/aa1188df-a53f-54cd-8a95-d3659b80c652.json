@@ -1,0 +1,216 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "aa1188df-a53f-54cd-8a95-d3659b80c652",
+  "slug": "cornbread-pancakes",
+  "name": "Cornbread Pancakes",
+  "recipe_type": "dessert",
+  "brief_description": "These cornbread pancakes are requested regularly by my family for breakfast. The recipe is easy to throw together and the taste is yummy!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk flour, cornmeal, sugar, baking powder, baking soda, and salt in a large bowl. Whisk buttermilk, eggs, and butter in a separate large bowl. Stir the liquid mixture into the dry mixture until blended and smooth."
+    },
+    {
+      "position": 2,
+      "text": "Heat a lightly oiled griddle or skillet over medium-high heat. For each pancake, pour 1/4 cup batter on griddle and cook until browned, about 1 1/2 minutes. Flip and cook until browned on the other side, about 1 minute. Continue with remaining batter."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/aa1188df-a53f-54cd-8a95-d3659b80c652/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "278 kcal",
+    "carbohydrateContent": "39 g",
+    "cholesterolContent": "95 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "550 mg",
+    "sugarContent": "9 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4531b0a6-2a34-5e23-acd0-cbcf6b44f511",
+      "name": "cornmeal",
+      "normalized_name": "cornmeal",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "950239d2-8408-5a49-a8bd-7298ae896627",
+      "name": "buttermilk",
+      "normalized_name": "buttermilk",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "melted and cooled",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "8dc4a884-c5f6-5ca8-8a40-0edcca64e2aa",
+      "slug": "pancake",
+      "name": "Pancake"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6eb5c42c-d95c-516f-a59f-ac29b7afdc01",
+      "slug": "mardi-gras",
+      "name": "Mardi Gras",
+      "color": null
+    },
+    {
+      "id": "16c5608f-411f-50ae-b193-c9821fae5fd8",
+      "slug": "pancake-recipes",
+      "name": "Pancake Recipes",
+      "color": null
+    },
+    {
+      "id": "1469a788-fbf9-5386-8e2c-4c453f138894",
+      "slug": "cornmeal",
+      "name": "Cornmeal",
+      "color": null
+    },
+    {
+      "id": "f01feff9-0daa-53ad-90b4-1e3f426879d5",
+      "slug": "buttermilk-recipes",
+      "name": "Buttermilk Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "96d425a3-66d4-576e-8993-3c2c01729696",
+      "slug": "whole-grain-recipes",
+      "name": "Whole Grain Recipes",
+      "color": null
+    },
+    {
+      "id": "46af1554-a65c-5285-9b88-ff34644de373",
+      "slug": "buttermilk-pancake-recipes",
+      "name": "Buttermilk Pancake Recipes",
+      "color": null
+    },
+    {
+      "id": "2d0499eb-7cfb-5f78-a576-ba2461f08fe0",
+      "slug": "campus-cooking-recipes",
+      "name": "Campus Cooking Recipes",
+      "color": null
+    },
+    {
+      "id": "3963bbaa-9320-53ac-9ec8-0b01e25f52f9",
+      "slug": "whole-grain-pancake-recipes",
+      "name": "Whole Grain Pancake Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/191710/cornbread-pancakes"
+  },
+  "public": true,
+  "updated_at": 1776350665,
+  "revision": 1
+}

@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "93a470d0-1231-5ad9-babc-b317f10620e7",
+  "slug": "french-onion-soup-vii",
+  "name": "French Onion Soup VII",
+  "recipe_type": "soup",
+  "brief_description": "Onions are caramelized in butter, then combined with broth and white wine for a quick and simple onion soup.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large pot over medium heat. Saute onions until deep brown, about 20 minutes. Stir in broth and wine, using a wooden spoon to scrape the bottom of the pot. Season with salt and pepper. Cook until heated through."
+    },
+    {
+      "position": 2,
+      "text": "Preheat oven on broiler setting. Ladle soup into heatproof serving bowls. Top each bowl with a slice of bread, and sprinkle with cheese. Place under a hot broiler until cheese is melted and slightly browned."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/93a470d0-1231-5ad9-babc-b317f10620e7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "343 kcal",
+    "carbohydrateContent": "29 g",
+    "cholesterolContent": "44 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "699 mg",
+    "sugarContent": "10 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "e105926e-b04d-50af-bafd-938307777683",
+      "name": "quart vegetable broth",
+      "normalized_name": "quart vegetable broth",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b1e2180f-a93b-5637-a231-e6913198d0d8",
+      "name": "white wine",
+      "normalized_name": "white wine",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "896f09a8-c929-5956-b05f-a8ac35eb72a1",
+      "name": "slices baguette",
+      "normalized_name": "slices baguette",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "661625a7-0b2f-5926-80cd-c4876dd1c728",
+      "slug": "onion-soup",
+      "name": "Onion Soup"
+    },
+    {
+      "id": "2c4766e7-12c2-5b90-83b4-a708f1711beb",
+      "slug": "french-onion-soup",
+      "name": "French Onion Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "3c7d371f-ea02-5870-8d45-73ecb88745dd",
+      "slug": "onion-soup-recipes",
+      "name": "Onion Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "2d125895-5569-549a-907e-4302ae47cb95",
+      "slug": "soup",
+      "name": "Soup",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23867/french-onion-soup-vii"
+  },
+  "public": true,
+  "updated_at": 1740608521,
+  "revision": 1
+}

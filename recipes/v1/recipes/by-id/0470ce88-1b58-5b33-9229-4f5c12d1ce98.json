@@ -1,0 +1,216 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0470ce88-1b58-5b33-9229-4f5c12d1ce98",
+  "slug": "irish-tacos",
+  "name": "Irish Tacos",
+  "recipe_type": "main",
+  "brief_description": "Irish tacos may not be what you expect when you think of tacos, but these corned beef and coleslaw tacos with cilantro-lime sauce are just delicious.",
+  "cuisine": "Irish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix yogurt, mayonnaise, lime juice, cilantro, cayenne pepper, and salt together in a bowl until smooth. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Place corned beef in a saucepan over medium-low heat; cook, stirring occasionally, just until hot."
+    },
+    {
+      "position": 3,
+      "text": "While corned beef is warming, place a tortilla into a heavy skillet over medium heat until hot and just beginning to show brown spots, about 30 seconds per side. Repeat to warm remaining tortillas."
+    },
+    {
+      "position": 4,
+      "text": "Arrange about 2 tablespoons coleslaw in the center of each tortilla; top each with about 3 tablespoons corned beef. Drizzle each taco with 2 tablespoons yogurt sauce; roll up to serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0470ce88-1b58-5b33-9229-4f5c12d1ce98/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "433 kcal",
+    "carbohydrateContent": "49 g",
+    "cholesterolContent": "27 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "867 mg",
+    "sugarContent": "6 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "db76615d-4814-5688-8d5f-70dd1c04090a",
+      "name": "plain yogurt",
+      "normalized_name": "plain yogurt",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "47c10879-f6b3-56ce-b5af-359974be4f2a",
+      "name": "cayenne pepper",
+      "normalized_name": "cayenne pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": "or to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ead5422f-fc8c-596c-8b34-41a9bf3876df",
+      "name": "shredded corned beef",
+      "normalized_name": "shredded corned beef",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3de1e9ac-4c7f-5818-a480-473403e19215",
+      "name": "inch) flour tortillas",
+      "normalized_name": "inch flour tortillas",
+      "quantity": "8 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "67e1f36a-f5f5-5a15-9ff2-d598159cf943",
+      "name": "prepared coleslaw",
+      "normalized_name": "prepared coleslaw",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "2924bbc2-a057-5f6d-b705-2d731fa28619",
+      "slug": "taco",
+      "name": "Taco"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "1377e8b7-e214-5a16-8a8f-8f637f2a7e3f",
+      "slug": "brisket",
+      "name": "Brisket",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "5868016f-c4cc-5b4c-baeb-ca0425acfefc",
+      "slug": "corned-beef-recipes",
+      "name": "Corned Beef Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216926/irish-tacos"
+  },
+  "public": true,
+  "updated_at": 1786915681,
+  "revision": 1
+}

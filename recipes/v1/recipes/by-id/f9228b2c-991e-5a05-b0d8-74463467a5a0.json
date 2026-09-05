@@ -1,0 +1,293 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f9228b2c-991e-5a05-b0d8-74463467a5a0",
+  "slug": "tamales-de-puerco-red-pork-tamales",
+  "name": "Tamales de Puerco (Red Pork Tamales)",
+  "recipe_type": "main",
+  "brief_description": "This authentic red pork tamales recipe comes from Jalisco, Mexico. The tamales are filled with pork shoulder and a spicy tomato sauce.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cut pork into 3 chunks and place in a large saucepan. Add onion, garlic, bay leaves, and salt and cover with water. Bring to a boil; skim foam from surface. Reduce heat, cover, and simmer for 1 hour. Remove pork and let cool. Strain broth and reserve."
+    },
+    {
+      "position": 2,
+      "text": "Bring a pot of water to a boil while pork is cooking. Add tomatoes, arbol chiles, and guajillo chiles, and boil until chiles are soft, about 5 minutes. Remove with a slotted spoon, reserving cooking water, and allow to cool."
+    },
+    {
+      "position": 3,
+      "text": "Place corn husks in a bowl, cover with boiling water, and soak for 30 to 60 minutes. Drain, place on a work surface, and cover with a clean, damp towel."
+    },
+    {
+      "position": 4,
+      "text": "Combine tomatoes, 1/2 cup cooking water, chiles de arbol, guajillo chiles, and cornstarch in a blender; blend until smooth. Strain tomato sauce through a fine-mesh sieve."
+    },
+    {
+      "position": 5,
+      "text": "Beat lard with an electric mixer in a large bowl until fluffy. Combine masa, 1 cup reserved pork broth, 1 tablespoon salt, and baking powder in a separate bowl and mix until smooth. Add masa mixture to lard and mix until it has a smooth cookie dough consistency. Test if the masa is ready by dropping a small ball of masa into a glass of cold water; if it floats, it's ready, if not, keep beating for a little longer."
+    },
+    {
+      "position": 6,
+      "text": "Shred cooled pork with 2 forks."
+    },
+    {
+      "position": 7,
+      "text": "Select 1 wide corn husk or 2 small ones. Spread about 2 tablespoons masa mixture onto the the corn husk, filling it up to 2 inches from the bottom and 1/4 inch from the top. Add 1 tablespoon of the tomato sauce and pork down the center of the masa mixture. Fold sides of husk together, 1 over the other. Fold the bottom of the husk over the seam of the 2 folded sides. Repeat with remaining husks."
+    },
+    {
+      "position": 8,
+      "text": "Place a steamer insert into a saucepan and fill with water to just below the bottom of the steamer. Bring water to a boil. Add tamales with the open side up and cook until filling is heated through and separates from the husk, about 1 hour. Let tamales rest for 15 minutes before serving."
+    }
+  ],
+  "servings": 15,
+  "cooking_time_minutes": 120,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f9228b2c-991e-5a05-b0d8-74463467a5a0/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "344 kcal",
+    "carbohydrateContent": "30 g",
+    "cholesterolContent": "33 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "644 mg",
+    "sugarContent": "1 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5b108b70-b1dc-575a-9cbe-b62f3ee1ddac",
+      "name": "boneless pork shoulder",
+      "normalized_name": "boneless pork shoulder",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "trimmed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "894756ff-a1b1-5651-b3de-687c810264ac",
+      "name": "bay leaves",
+      "normalized_name": "bay leaves",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0263984d-55a0-5974-aed7-2135511be28b",
+      "name": "water to cover",
+      "normalized_name": "water to cover",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0d13970a-43b4-5258-89f1-38c0f99da439",
+      "name": "corn husks",
+      "normalized_name": "corn husks",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d07117a7-b2ef-5b2f-bc0a-0939302537dd",
+      "name": "roma tomatoes",
+      "normalized_name": "roma tomatoes",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "125a4862-f8e2-5124-8dd9-4e92e1ad6a89",
+      "name": "dried chile de arbol peppers",
+      "normalized_name": "dried chile de arbol peppers",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "4ef0bafd-02b9-52b6-a52e-1378f5e309aa",
+      "name": "small guajillo chile peppers",
+      "normalized_name": "small guajillo chile peppers",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "stemmed and seeded",
+      "position": 10
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "7d76af43-ab26-567b-a8db-0cbc00157fa4",
+      "name": "lard",
+      "normalized_name": "lard",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "95724c9a-932e-5b55-a239-fbe207e10b47",
+      "name": "fresh corn masa dough",
+      "normalized_name": "fresh corn masa dough",
+      "quantity": "4.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "017f8645-ec08-59b4-a868-cdf69e504615",
+      "slug": "entree",
+      "name": "Entree"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bf928f4c-2a6a-5c01-9ecf-243b9f58a15b",
+      "slug": "dumpling-recipes",
+      "name": "Dumpling Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "6e9bc079-ab22-5296-b01a-351ef64551ef",
+      "slug": "flour-recipes",
+      "name": "Flour Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "e14324a7-fc01-5494-9658-3abd56a23336",
+      "slug": "corn-flour-recipes",
+      "name": "Corn Flour Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/261633/tamales-de-puerco-red-pork-tamales"
+  },
+  "public": true,
+  "updated_at": 1732246797,
+  "revision": 1
+}

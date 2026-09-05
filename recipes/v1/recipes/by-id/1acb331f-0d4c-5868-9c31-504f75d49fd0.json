@@ -1,0 +1,247 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1acb331f-0d4c-5868-9c31-504f75d49fd0",
+  "slug": "mexican-shepherds-pie",
+  "name": "Mexican Shepherd's Pie",
+  "recipe_type": "salad",
+  "brief_description": "This is a Mexican version of the Shepherd's Pie that is so popular in the UK. I decided to try this one night when I did not have any mashed potatoes. Its cheap, quick and easy...and my kids loved it! Serve with a tossed green salad for a great family meal!",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 400 degrees F (200 degrees C). Spray a 9x13 inch baking dish with cooking spray."
+    },
+    {
+      "position": 2,
+      "text": "Place the beef and onion in a skillet over medium heat. Cook until beef is evenly brown and onion is tender. Drain grease. Season with garlic powder, salt, and pepper. Mix in the tomatoes, and cook 5 minutes. Stir in the taco seasoning and water. Bring to a boil, reduce heat to low, and continue cooking 5 minutes, until thickened. Transfer to the prepared baking dish, and top evenly with corn."
+    },
+    {
+      "position": 3,
+      "text": "Prepare the corn muffin mix according to package directions. Spread evenly over the corn layer in the baking dish."
+    },
+    {
+      "position": 4,
+      "text": "Bake 20 minutes in the preheated oven, or until puffed and golden. Garnish with olives and cheese."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1acb331f-0d4c-5868-9c31-504f75d49fd0/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "407 kcal",
+    "carbohydrateContent": "34 g",
+    "cholesterolContent": "71 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "1223 mg",
+    "sugarContent": "7 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "b87b76bb-74cb-5321-9a51-f5f88b0b2389",
+      "name": "garlic powder to taste",
+      "normalized_name": "garlic powder to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9df4d90c-3c3d-5af4-a2c3-2dbac876bf33",
+      "name": "ounce) can diced tomatoes",
+      "normalized_name": "ounce can diced tomatoes",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "76c7d107-3ca4-5b78-bcd7-963cfb950cb5",
+      "name": "ounce) package taco seasoning mix",
+      "normalized_name": "ounce package taco seasoning mix",
+      "quantity": "1 (1.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0497b2f2-fc7c-5cd1-8c09-fe5e3edc9fb4",
+      "name": "hot water",
+      "normalized_name": "hot water",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "82666c9c-8ee7-5fd6-852d-addb8807f032",
+      "name": "ounce) can whole kernel corn",
+      "normalized_name": "ounce can whole kernel corn",
+      "quantity": "1 (11",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 8
+    },
+    {
+      "ingredient_id": "2d80f003-9aef-558d-993c-24095666cd30",
+      "name": "ounce) package corn muffin mix",
+      "normalized_name": "ounce package corn muffin mix",
+      "quantity": "1 (8.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "d41a5cab-0ee7-5559-9e1d-560e7869ffba",
+      "name": "ounce) can sliced black olives",
+      "normalized_name": "ounce can sliced black olives",
+      "quantity": "1 (2.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7def3cdd-8a55-5453-8df0-9424068ead2c",
+      "slug": "syrah-and-shiraz",
+      "name": "Syrah and Shiraz",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "9b2641c6-c1cb-5d72-a9a5-495734fa1551",
+      "slug": "zinfandel",
+      "name": "Zinfandel",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/68806/mexican-shepherds-pie"
+  },
+  "public": true,
+  "updated_at": 1778548699,
+  "revision": 1
+}

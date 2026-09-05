@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "22a90a82-dc71-5197-bf14-0f92e8e100a1",
+  "slug": "gelato",
+  "name": "Gelato",
+  "recipe_type": "dessert",
+  "brief_description": "This Italian gelato recipe makes the perfect rich and creamy base for your favorite flavor add-ins from vanilla to chocolate, to any fruit in between.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Mix milk and cream in a medium saucepan. Warm until foam forms around the edges. Remove from heat."
+    },
+    {
+      "position": 3,
+      "text": "Beat egg yolks and sugar until frothy in a large bowl. Gradually pour warm milk into egg yolks and sugar, whisking constantly. Return mixture to saucepan; cook over medium heat, stirring with a wooden spoon until the mixture gels slightly and coats the back of the spoon. If small egg lumps begin to show, remove from heat immediately."
+    },
+    {
+      "position": 4,
+      "text": "Pour the mixture through a sieve or fine strainer into a bowl. Cover, and chill for 2 hours to overnight."
+    },
+    {
+      "position": 5,
+      "text": "Pour the mixture into an ice cream maker, and freeze according to the manufacturer's instructions. Transfer to a sealed container, and freeze until firm, at least 2 hours."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/22a90a82-dc71-5197-bf14-0f92e8e100a1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "416 kcal",
+    "carbohydrateContent": "33 g",
+    "cholesterolContent": "296 mg",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "17 g",
+    "sodiumContent": "81 mg",
+    "sugarContent": "31 g",
+    "fatContent": "29 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a30d2790-8959-5f92-90c9-d9b63bfe2517",
+      "name": "egg yolks",
+      "normalized_name": "egg yolks",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "ae6fe95d-4e1e-5382-93c0-f2d4fa12d15d",
+      "slug": "frozen-dessert",
+      "name": "Frozen Dessert"
+    },
+    {
+      "id": "b2e4ec0c-c3d2-5312-b4ea-c452d99ac762",
+      "slug": "ice-cream",
+      "name": "Ice Cream"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "29b3f1f5-cdfa-5a4d-a6c0-8e18731312ec",
+      "slug": "ice-cream",
+      "name": "Ice Cream",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "b27e7672-5670-576d-b52e-a2ba7aa1e26a",
+      "slug": "summer-desserts",
+      "name": "Summer Desserts",
+      "color": null
+    },
+    {
+      "id": "50f70bb9-e15c-5182-be0d-29b0444422c1",
+      "slug": "frozen-dessert-recipes",
+      "name": "Frozen Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "fc296a30-4e6d-5f75-b09e-34c2efbb2a1e",
+      "slug": "authentic",
+      "name": "Authentic",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55609/gelato"
+  },
+  "public": true,
+  "updated_at": 1761074020,
+  "revision": 1
+}

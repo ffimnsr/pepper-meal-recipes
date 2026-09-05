@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "baed7d2c-7b22-552b-a226-97a77954e6a0",
+  "slug": "cheese-omelette-with-herbs",
+  "name": "Cheese Omelette with Herbs",
+  "recipe_type": "breakfast",
+  "brief_description": "This delicious omelette for 2 is cooked in one pan. Italian herbs, chervil, basil, sunflower seeds, flax seeds, and Gouda cheese add extra flavor.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine eggs, milk, sunflower seeds, flax seeds, chervil, Italian herbs, garlic, salt, and pepper in a bowl and mix with a fork."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a nonstick skillet over medium heat. Pour in egg mixture. Cook until egg starts to set, about 5 minutes. Sprinkle with dried basil and lay sliced Gouda cheese on top. Cut into 2 halves using a spatula. Fold each omelette in half and turn over. Cook for another minute. Serve garnished with fresh basil."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/baed7d2c-7b22-552b-a226-97a77954e6a0/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "490 kcal",
+    "carbohydrateContent": "8 g",
+    "cholesterolContent": "457 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "941 mg",
+    "sugarContent": "2 g",
+    "fatContent": "39 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "77dbab31-d057-5d61-a87f-ded964435ff7",
+      "name": "whole milk",
+      "normalized_name": "whole milk",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "1cc5264a-f23e-512c-842e-7af9524d0d2e",
+      "name": "sunflower seeds",
+      "normalized_name": "sunflower seeds",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "89e55a51-225d-5e96-ab4e-35f7846bff5b",
+      "name": "roasted flax seeds",
+      "normalized_name": "roasted flax seeds",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "111ffe98-6d42-53e2-8b63-495f43602298",
+      "name": "dried chervil",
+      "normalized_name": "dried chervil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d5b1e7c8-671f-5558-b48d-6f4e7b525bff",
+      "name": "dried italian herbs",
+      "normalized_name": "dried italian herbs",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1e28a733-6036-5f23-997f-7a258dcc98fd",
+      "name": "small clove garlic",
+      "normalized_name": "small clove garlic",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5e105923-4713-55af-923e-012f0330312a",
+      "name": "sea salt",
+      "normalized_name": "sea salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "926af8a3-1f4f-5d54-b16f-43f37953b512",
+      "name": "dried basil",
+      "normalized_name": "dried basil",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "9f6c45de-7fde-508b-838b-0a6c7563f3e8",
+      "name": "slices gouda cheese",
+      "normalized_name": "slices gouda cheese",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "a261d511-fe40-5ec5-b4a9-a6a3b3a81ab0",
+      "name": "leaves fresh basil",
+      "normalized_name": "leaves fresh basil",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1e1783f0-14a2-5c36-a8c9-61927a25536b",
+      "slug": "omelet-recipes",
+      "name": "Omelet Recipes",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "5c812762-350f-5d53-9e86-587de3bc0b88",
+      "slug": "chervil-recipes",
+      "name": "Chervil Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "99d8c901-c626-5363-9195-83d035f13932",
+      "slug": "low-carb",
+      "name": "Low-Carb",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262698/cheese-omelette-with-herbs"
+  },
+  "public": true,
+  "updated_at": 1661193981,
+  "revision": 1
+}

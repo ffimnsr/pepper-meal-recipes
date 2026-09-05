@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b60a9f0d-1090-5d54-b0d1-8491f690f1e7",
+  "slug": "beckys-chicken-salad",
+  "name": "Becky's Chicken Salad",
+  "recipe_type": "salad",
+  "brief_description": "Whipped cream gives this chicken salad a lift. Green grapes and crunchy almonds add sweetness and texture to this creamy chicken salad.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a medium bowl, whip cream to soft peaks."
+    },
+    {
+      "position": 2,
+      "text": "Combine meat, celery, grapes, almonds, parsley, salt, and mayonnaise with whipped cream. Chill."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b60a9f0d-1090-5d54-b0d1-8491f690f1e7/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/9rlqSGRA-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "274 kcal",
+    "carbohydrateContent": "5 g",
+    "cholesterolContent": "43 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "388 mg",
+    "sugarContent": "3 g",
+    "fatContent": "24 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3d1d856a-3125-563b-92f5-633e3842869a",
+      "name": "diced and chilled",
+      "normalized_name": "diced and chilled",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": "cooked chicken meat",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ddf6a92a-a1b7-54ab-9dbc-3bb8ef6fefe9",
+      "name": "sliced",
+      "normalized_name": "sliced",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "seedless grapes",
+      "position": 3
+    },
+    {
+      "ingredient_id": "9319336a-2189-5cce-b48c-8b62b6decdbb",
+      "name": "sliced almonds",
+      "normalized_name": "sliced almonds",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b22bc2e2-07c9-54aa-a04f-a6f6cd0810e9",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "0c4351c3-a3e2-5491-9427-591469b533f8",
+      "slug": "chicken-salad-recipes",
+      "name": "Chicken Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "6c01d8ce-f769-5a79-9361-fbecb19c877b",
+      "slug": "almond-recipes",
+      "name": "Almond Recipes",
+      "color": null
+    },
+    {
+      "id": "988a2989-8071-5697-8ed2-3941bea4baa7",
+      "slug": "back-to-school",
+      "name": "Back to School",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8565/beckys-chicken-salad"
+  },
+  "public": true,
+  "updated_at": 1782948976,
+  "revision": 1
+}

@@ -1,0 +1,192 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3e3026e8-1586-5f90-97b6-db8fafefbfb9",
+  "slug": "microwave-banana-baked-oats",
+  "name": "Microwave Banana Baked Oats",
+  "recipe_type": "breakfast",
+  "brief_description": "This is a great baked oats recipe with banana cooked in the microwave. It's perfect for busy college students who need something filling to start their day.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place oats in a blender and process until they form a fine flour. You need 1 cup blended oats."
+    },
+    {
+      "position": 2,
+      "text": "Mash banana in a glass or microwave-safe dish. Mix in cinnamon and vanilla. Pour in blended oats and baking soda and mix to combine. Stir in milk until well combined."
+    },
+    {
+      "position": 3,
+      "text": "Cook in the microwave until set, about 2 minutes. Allow to cool before eating."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 2,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3e3026e8-1586-5f90-97b6-db8fafefbfb9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "488 kcal",
+    "carbohydrateContent": "91 g",
+    "cholesterolContent": "10 mg",
+    "fiberContent": "13 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "686 mg",
+    "sugarContent": "21 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4f28533b-45b7-5cce-8ccb-8a0f71f11c06",
+      "name": "rolled oats",
+      "normalized_name": "rolled oats",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "a2ccf328-cfdb-51e6-9c5a-19331aa6d508",
+      "name": "medium banana",
+      "normalized_name": "medium banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "9ec40b2a-b71d-5383-b106-ec69d067e34e",
+      "slug": "cereals",
+      "name": "Cereals"
+    },
+    {
+      "id": "2bc6bdc3-0797-52d0-adef-3ce8a112c8b9",
+      "slug": "oatmeal",
+      "name": "Oatmeal"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6776c038-23ed-5fb6-929e-fbe166455d68",
+      "slug": "oatmeal-recipes",
+      "name": "Oatmeal Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "fe7ed170-1df4-5541-837c-5575aceff5b6",
+      "slug": "cereals",
+      "name": "Cereals",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "4fe5fe2f-c3bd-5b9f-80cc-96bc9aaf2251",
+      "slug": "oat-recipes",
+      "name": "Oat Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "f2a5d498-0488-57e1-8e78-49eece9afc27",
+      "slug": "bananas",
+      "name": "Bananas",
+      "color": null
+    },
+    {
+      "id": "1e83fd8f-f8d5-5dd8-98fc-88de342429d2",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/284677/microwave-banana-baked-oats"
+  },
+  "public": true,
+  "updated_at": 1622239826,
+  "revision": 1
+}

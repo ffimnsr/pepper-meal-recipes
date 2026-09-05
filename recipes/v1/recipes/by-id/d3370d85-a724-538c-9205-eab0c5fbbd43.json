@@ -1,0 +1,204 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d3370d85-a724-538c-9205-eab0c5fbbd43",
+  "slug": "beefs-portuguese-style",
+  "name": "Beefs Portuguese Style",
+  "recipe_type": "main",
+  "brief_description": "Beef steaks are marinated in red wine, garlic and spices, then pan fried twice. The gravy is close to the one they use in Portuguese restaurants.",
+  "cuisine": "Portuguese",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a medium bowl, combine red wine, water, garlic, chile paste, white pepper and salt. Add beef, and turn to coat evenly."
+    },
+    {
+      "position": 2,
+      "text": "In a large heavy skillet over medium heat, fry 3 steaks for 2 minutes on each side; Set steaks aside, and drain liquids into the red wine mixture. Repeat with remaining beef."
+    },
+    {
+      "position": 3,
+      "text": "Pour oil into skillet, and reduce heat to medium-low. Fry steaks for a second time, 2 minutes on each side. Drain oil, and return all steaks and marinade to the pan. Allow to boil for 2 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d3370d85-a724-538c-9205-eab0c5fbbd43/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "467 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "81 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "272 mg",
+    "sugarContent": "1 g",
+    "fatContent": "39 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "54a4ec0e-2006-572c-a5ee-ed8328a3dd64",
+      "name": "red wine",
+      "normalized_name": "red wine",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "10",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "2bd6c33f-b681-5a1c-ac41-d9dd7785d907",
+      "name": "chile paste",
+      "normalized_name": "chile paste",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "15a31944-f1a5-5171-a651-8e8f61d29b47",
+      "name": "white pepper",
+      "normalized_name": "white pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d010f3bb-ad92-5086-ac86-9f770de59260",
+      "name": "ounce) beef tenderloin steaks",
+      "normalized_name": "ounce beef tenderloin steaks",
+      "quantity": "6 (4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "4e867bb0-c196-541c-94eb-e0eb4886df48",
+      "slug": "portuguese",
+      "name": "Portuguese"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "b3f6b56a-43c6-5a82-9f7c-1ae7481aa809",
+      "slug": "beef-tenderloin-recipes",
+      "name": "Beef Tenderloin Recipes",
+      "color": null
+    },
+    {
+      "id": "1cfa2a4e-ee4e-58e0-8f61-2af2ed73ac95",
+      "slug": "short-loin",
+      "name": "Short Loin",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "b158906b-2b1e-5e43-88fd-1b6c4fbc3619",
+      "slug": "peppercorn-recipes",
+      "name": "Peppercorn Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "a3217056-1df7-5577-82d8-45855f913181",
+      "slug": "cooking-with-wine-recipes",
+      "name": "Cooking With Wine Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/40286/beefs-portuguese-style"
+  },
+  "public": true,
+  "updated_at": 1554348590,
+  "revision": 1
+}

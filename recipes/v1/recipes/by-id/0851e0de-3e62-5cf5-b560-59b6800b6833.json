@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0851e0de-3e62-5cf5-b560-59b6800b6833",
+  "slug": "mexican-oatmeal-recipe-8624357",
+  "name": "Mexican Oatmeal",
+  "recipe_type": "dessert",
+  "brief_description": "This Mexican oatmeal made with milk, cinnamon, and vanilla is creamy, comforting, and sweet.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring water and cinnamon stick to a boil in a saucepan. Reduce heat and simmer for 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Add oats and cook for 1 minute. Add milk and cook until thickened, 1 to 2 minutes. Remove from heat. Stir in piloncillo, cinnamon, and vanilla."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0851e0de-3e62-5cf5-b560-59b6800b6833/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "269 kcal",
+    "carbohydrateContent": "46 g",
+    "cholesterolContent": "10 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "73 mg",
+    "sugarContent": "17 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ffd8cd04-04ca-56ba-b252-faa5c0bf12b1",
+      "name": "mexican cinnamon stick",
+      "normalized_name": "mexican cinnamon stick",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "e46041fc-9c4a-585a-99d3-941cd4c1bfa2",
+      "name": "quick cooking oats",
+      "normalized_name": "quick cooking oats",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bc7cbf26-23c8-5e71-9a74-035aa8186581",
+      "name": "piloncillo",
+      "normalized_name": "piloncillo",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1/2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "9ec40b2a-b71d-5383-b106-ec69d067e34e",
+      "slug": "cereals",
+      "name": "Cereals"
+    },
+    {
+      "id": "2bc6bdc3-0797-52d0-adef-3ce8a112c8b9",
+      "slug": "oatmeal",
+      "name": "Oatmeal"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    },
+    {
+      "id": "96d425a3-66d4-576e-8993-3c2c01729696",
+      "slug": "whole-grain-recipes",
+      "name": "Whole Grain Recipes",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/mexican-oatmeal-recipe-8624357"
+  },
+  "public": true,
+  "updated_at": 1712592000,
+  "revision": 1
+}

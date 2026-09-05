@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d4816548-40b3-5746-96ab-628ea1cc380f",
+  "slug": "butternut-pound-cake",
+  "name": "Butternut Pound Cake",
+  "recipe_type": "dessert",
+  "brief_description": "The butternut is a native American nut that grows in New England and is also known as the white walnut.",
+  "cuisine": "New England",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Grease and flour a 10 inch tube pan. Mix together the flour and salt. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Combine the evaporated milk and whole milk; Set aside. In a large bowl, cream together the butter, shortening and sugar until light and fluffy. Beat in the eggs one at a time, then stir in the butternut flavoring. Beat in the flour mixture alternately with the milk, mixing just until incorporated."
+    },
+    {
+      "position": 3,
+      "text": "Pour batter into prepared pan. Bake at 325 degrees F (165 degrees C) for 1 hour and 45 minutes, or until a toothpick inserted into the center of the cake comes out clean. Allow to cool."
+    }
+  ],
+  "servings": 14,
+  "cooking_time_minutes": 105,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d4816548-40b3-5746-96ab-628ea1cc380f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "461 kcal",
+    "carbohydrateContent": "58 g",
+    "cholesterolContent": "105 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "215 mg",
+    "sugarContent": "38 g",
+    "fatContent": "24 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "19474987-99ea-5312-af22-52e1aa7953a4",
+      "name": "shortening",
+      "normalized_name": "shortening",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c11ba286-ef05-5677-ac25-2f05714ee58c",
+      "name": "butternut flavored extract",
+      "normalized_name": "butternut flavored extract",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "54dab6f5-47ff-5848-bd26-f4ee1c2c87c9",
+      "name": "ounce) can evaporated milk",
+      "normalized_name": "ounce can evaporated milk",
+      "quantity": "1 (5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fff8a9e5-92f6-5873-abcf-82507678d84b",
+      "name": "fluid ounces milk",
+      "normalized_name": "fluid ounces milk",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    },
+    {
+      "id": "1f7b653e-2e2d-5177-b435-501104326712",
+      "slug": "squash",
+      "name": "Squash"
+    },
+    {
+      "id": "eeaa5a74-b477-53ef-88e6-879d5217c2f4",
+      "slug": "winter-squash",
+      "name": "Winter Squash"
+    },
+    {
+      "id": "093edb6e-36ca-558a-a3a4-848e102437b1",
+      "slug": "butternut-squash",
+      "name": "Butternut Squash"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2ba3093b-13b7-506e-9f84-a215eaedbbc4",
+      "slug": "butternut-squash",
+      "name": "Butternut Squash",
+      "color": null
+    },
+    {
+      "id": "37aedf8e-6995-5a20-89f4-9825f452a8a5",
+      "slug": "connecticut-recipes",
+      "name": "Connecticut Recipes",
+      "color": null
+    },
+    {
+      "id": "608f2ca3-2dbe-583f-94d7-b55937fe9721",
+      "slug": "maine-recipes",
+      "name": "Maine Recipes",
+      "color": null
+    },
+    {
+      "id": "9a251b70-1100-587a-b632-59ffffa28461",
+      "slug": "new-england",
+      "name": "New England",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "489def73-dc81-5671-9631-5bffd5bd351b",
+      "slug": "squash",
+      "name": "Squash",
+      "color": null
+    },
+    {
+      "id": "c7b13dd6-4090-52b9-8010-352e0f311ead",
+      "slug": "vermont-recipes",
+      "name": "Vermont Recipes",
+      "color": null
+    },
+    {
+      "id": "f8bf119a-5fe4-5c2c-a463-c4d541983cdf",
+      "slug": "winter-squash",
+      "name": "Winter Squash",
+      "color": null
+    },
+    {
+      "id": "2624b2ea-2212-589e-996c-65db8e6fc023",
+      "slug": "cakes",
+      "name": "Cakes",
+      "color": null
+    },
+    {
+      "id": "6d52f849-9e72-53d1-9af0-8c069a12b843",
+      "slug": "pound-cake-recipes",
+      "name": "Pound Cake Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24966/butternut-pound-cake"
+  },
+  "public": true,
+  "updated_at": 1657836057,
+  "revision": 1
+}

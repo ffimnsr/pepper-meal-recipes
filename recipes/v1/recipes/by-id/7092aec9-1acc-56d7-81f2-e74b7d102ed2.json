@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7092aec9-1acc-56d7-81f2-e74b7d102ed2",
+  "slug": "bruschetta-pizza-recipe-7503843",
+  "name": "Bruschetta Pizza",
+  "recipe_type": "main",
+  "brief_description": "This grilled bruschetta pizza combines premade pizza dough, a fresh bruschetta topping, and balsamic glaze.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat a gas grill with all the burners on High for 10 to 15 minutes. Shape the pizza dough."
+    },
+    {
+      "position": 2,
+      "text": "Stir tomatoes, garlic, and basil together in a small bowl. Season with salt and pepper; set aside."
+    },
+    {
+      "position": 3,
+      "text": "Reduce the flame on half of the grill burners to Low, to create areas of direct and indirect heat."
+    },
+    {
+      "position": 4,
+      "text": "Carefully place dough onto the grill over direct heat. Close the cover. Let dough grill until the bottom is just barely cooked and shows char marks, 1 to 3 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Use tongs to flip pizza dough over; move to the indirect heat. Brush dough with olive oil, and sprinkle with garlic powder. Place mozzarella slices on pizza."
+    },
+    {
+      "position": 6,
+      "text": "Grill until cheese is melted, about 3 minutes. Carefully remove pizza from the grill."
+    },
+    {
+      "position": 7,
+      "text": "Top with tomato bruschetta and drizzle with balsamic glaze. Slice into wedges and serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7092aec9-1acc-56d7-81f2-e74b7d102ed2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "443 kcal",
+    "carbohydrateContent": "61 g",
+    "cholesterolContent": "28 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "712 mg",
+    "sugarContent": "9 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "483a7c54-b62c-557e-8059-e6065e088e89",
+      "name": "prepared pizza dough",
+      "normalized_name": "prepared pizza dough",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded and chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0e894a5b-dd44-5d86-8c71-b038ea2d9835",
+      "name": "basil leaves",
+      "normalized_name": "basil leaves",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "torn",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5d77850d-7dec-5f7f-b5e9-f59cba8c9342",
+      "name": "salt and pepper",
+      "normalized_name": "salt and pepper",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": null,
+      "unit": "pinch",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "c5a75bdf-b978-5d44-9016-99547c69eb2d",
+      "name": "ounce) slices fresh mozzarella cheese",
+      "normalized_name": "ounce slices fresh mozzarella cheese",
+      "quantity": "5 (1",
+      "unit": "pieces",
+      "preparation": "or as needed",
+      "position": 8
+    },
+    {
+      "ingredient_id": "1af7e9e2-6b37-5cf0-b618-4a9a86d6e24e",
+      "name": "balsamic glaze",
+      "normalized_name": "balsamic glaze",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or as needed",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "017f8645-ec08-59b4-a868-cdf69e504615",
+      "slug": "entree",
+      "name": "Entree"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "149a4eab-232a-5656-97ca-966809a8a3c5",
+      "slug": "pizza",
+      "name": "Pizza"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ec9d976e-4296-5c34-88a4-518d14e86e0b",
+      "slug": "allrecipes",
+      "name": "Allrecipes",
+      "color": null
+    },
+    {
+      "id": "c88e879c-5c3e-531a-97fc-d72022e4e131",
+      "slug": "pizza-recipes",
+      "name": "Pizza Recipes",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "78473c97-855b-56e2-9592-0f1aaab60f59",
+      "slug": "mozzarella",
+      "name": "Mozzarella",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/bruschetta-pizza-recipe-7503843"
+  },
+  "public": true,
+  "updated_at": 1708038761,
+  "revision": 1
+}

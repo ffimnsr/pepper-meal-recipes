@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2f1a1839-fd9e-507f-9a1e-5c6bc7061b83",
+  "slug": "irish-boiled-dinner-corned-beef",
+  "name": "Irish Boiled Dinner (Corned Beef)",
+  "recipe_type": "main",
+  "brief_description": "Easy boiled dinner of tender corned beef and cabbage, with onions, white potatoes, and carrots cooked in water for an easy, no-fuss Irish meal.",
+  "cuisine": "Irish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Rinse brisket under cold water and place in a large pot. Add enough water to cover roast by 6 inches."
+    },
+    {
+      "position": 3,
+      "text": "Peel onions and place them in the pot. Bring to a boil; cook for about 30 minutes at a rolling boil. Reduce heat to medium-low, so water is at a gentle boil. Cover and cook for 3 \u00bd hours."
+    },
+    {
+      "position": 4,
+      "text": "Remove onions and cut them into wedges. Return them to the pot. Add carrots to the pot, then place cabbage over roast. Place potatoes on top of cabbage. Cover and cook until potatoes are tender, about 30 minutes more. The potatoes should be immersed in the water by now, but if not, keep the lid on so they can steam."
+    },
+    {
+      "position": 5,
+      "text": "Remove vegetables from the pot and place in a separate serving bowl. Keep corned beef in the pot until ready to slice and serve to prevent it from drying out too quickly."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 270,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2f1a1839-fd9e-507f-9a1e-5c6bc7061b83/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "918 kcal",
+    "carbohydrateContent": "107 g",
+    "cholesterolContent": "179 mg",
+    "fiberContent": "24 g",
+    "proteinContent": "47 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "2248 mg",
+    "sugarContent": "25 g",
+    "fatContent": "36 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "fcf09e40-af2b-5a14-85d2-64b23bfd7713",
+      "name": "pound) corned beef brisket",
+      "normalized_name": "pound corned beef brisket",
+      "quantity": "1 (5 1/2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d1e495b6-21e7-5cfd-b73a-44a6104e0ab3",
+      "name": "large onions",
+      "normalized_name": "large onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": "cut into 1 inch pieces",
+      "position": 3
+    },
+    {
+      "ingredient_id": "7a87610e-1b28-50c8-bbd0-5077d269b12e",
+      "name": "heads cabbage",
+      "normalized_name": "heads cabbage",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cored and cut into wedges",
+      "position": 4
+    },
+    {
+      "ingredient_id": "f693c808-b3a8-51f0-b147-c16af6ed8dc8",
+      "name": "small white (irish) potatoes",
+      "normalized_name": "small white potatoes",
+      "quantity": "15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "8480d052-348e-57e9-94e9-edc306f5b2b1",
+      "slug": "corned-beef",
+      "name": "Corned Beef"
+    },
+    {
+      "id": "c5c63c49-d490-5ec2-a09e-ee55a4c6e058",
+      "slug": "corned-beef-and-cabbage",
+      "name": "Corned Beef and Cabbage"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "5cf652b4-5e69-5e94-a1f7-4c8136fb4657",
+      "slug": "corned-beef-and-cabbage-recipes",
+      "name": "Corned Beef and Cabbage Recipes",
+      "color": null
+    },
+    {
+      "id": "a4b5e8ec-448d-5625-ba32-c1b390f72278",
+      "slug": "irish",
+      "name": "Irish",
+      "color": null
+    },
+    {
+      "id": "5868016f-c4cc-5b4c-baeb-ca0425acfefc",
+      "slug": "corned-beef-recipes",
+      "name": "Corned Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "008f2628-10aa-5ed8-8067-4b8db700670f",
+      "slug": "st-patrick-s-day",
+      "name": "St. Patrick's Day",
+      "color": null
+    },
+    {
+      "id": "b752f992-5968-5ce7-a698-ce0ec3ad2834",
+      "slug": "dairy-free",
+      "name": "Dairy-Free",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "1377e8b7-e214-5a16-8a8f-8f637f2a7e3f",
+      "slug": "brisket",
+      "name": "Brisket",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/30918/irish-boiled-dinner-corned-beef"
+  },
+  "public": true,
+  "updated_at": 1761683093,
+  "revision": 1
+}

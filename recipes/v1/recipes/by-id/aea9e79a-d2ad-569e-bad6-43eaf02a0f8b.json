@@ -1,0 +1,277 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "aea9e79a-d2ad-569e-bad6-43eaf02a0f8b",
+  "slug": "hearty-chicken-cacciatore-soup-with-rice",
+  "name": "Hearty Chicken Cacciatore Soup with Rice",
+  "recipe_type": "soup",
+  "brief_description": "Hearty, full of flavor, and easy enough to have on the table for a weeknight supper, this tasty chicken cacciatore soup is sure to become a family-favorite.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine chicken broth, condensed soup, 2 cans water, diced tomatoes, and 1 tablespoon vegetable seasoning in an 8-quart stockpot over medium heat; bring to a slow, rolling boil."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, melt butter in a large skillet over medium heat. Add chicken, mushrooms, onion, and remaining 1 tablespoon vegetable seasoning and cook until onion is translucent and chicken is cooked through, about 7 minutes. Stir in garlic salt, salt, and pepper."
+    },
+    {
+      "position": 3,
+      "text": "Transfer chicken mixture to the stockpot and bring to a rolling boil. Cook, stirring frequently, for 30 minutes."
+    },
+    {
+      "position": 4,
+      "text": "While the soup is cooking, bring 1 1/2 cups water and rice to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer until rice is tender and water has been absorbed, 20 to 25 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Add rice to the soup and continue to simmer, adding more water to reach desired consistency, for 1 hour."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 105,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/aea9e79a-d2ad-569e-bad6-43eaf02a0f8b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "250 kcal",
+    "carbohydrateContent": "35 g",
+    "cholesterolContent": "38 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "1736 mg",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "123df1c8-5748-5666-bf69-2c887930ec89",
+      "name": "ounce) container chicken broth",
+      "normalized_name": "ounce container chicken broth",
+      "quantity": "1 (32",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6aec2629-3add-5c68-955d-e12ed476041a",
+      "name": "ounce) cans condensed tomato soup",
+      "normalized_name": "ounce cans condensed tomato soup",
+      "quantity": "2 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b674c92f-1823-5afe-b58c-6c8f700958d4",
+      "name": "ounce) cans water",
+      "normalized_name": "ounce cans water",
+      "quantity": "2 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "592cf4b9-7b3f-57c1-9376-9d1f0d70f011",
+      "name": "ounce) can diced tomatoes with juice",
+      "normalized_name": "ounce can diced tomatoes with juice",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "41bf0662-26f4-5a0a-a59d-8b1772852b02",
+      "name": "salt-free vegetable seasoning",
+      "normalized_name": "salt-free vegetable seasoning",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "95b82ab4-2492-5ebd-8306-8af49279f115",
+      "name": "ounce) boneless",
+      "normalized_name": "ounce boneless",
+      "quantity": "2 (8",
+      "unit": "pieces",
+      "preparation": "skinless chicken breasts, cubed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "16858f46-81ad-51a5-9d53-692ab5ba41a4",
+      "name": "ounce) can sliced mushrooms",
+      "normalized_name": "ounce can sliced mushrooms",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 8
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "290a7383-c4f5-5e89-a4ef-ac32f5e86d14",
+      "name": "garlic salt",
+      "normalized_name": "garlic salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": "or more as needed",
+      "position": 13
+    },
+    {
+      "ingredient_id": "1511177f-27a6-5bb3-a2b6-d539454fe18e",
+      "name": "uncooked long grain rice",
+      "normalized_name": "uncooked long grain rice",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "838adc3f-7dc2-5531-95d4-a7df106e7d30",
+      "slug": "chicken-soup",
+      "name": "Chicken Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8300735/hearty-chicken-cacciatore-soup-with-rice"
+  },
+  "public": true,
+  "updated_at": 1636132636,
+  "revision": 1
+}

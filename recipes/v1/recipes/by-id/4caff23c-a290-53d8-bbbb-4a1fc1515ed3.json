@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4caff23c-a290-53d8-bbbb-4a1fc1515ed3",
+  "slug": "perogies",
+  "name": "Perogies",
+  "recipe_type": "main",
+  "brief_description": "These perogies made with homemade dough rounds filled with potato, bacon, cheese, and sauerkraut are boiled for 5 minutes for a quick-and-easy dish.",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Make dough: Combine flour, cold water, beaten egg, and salt in a bowl; mix until a smooth dough forms. Cover the bowl and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Make potato filling: Place potatoes in a large pot. Add water to cover, bring to a boil, and cook until tender, 25 to 35 minutes. Drain and mash in the pot until smooth."
+    },
+    {
+      "position": 3,
+      "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels. Crumble and stir into mashed potatoes. Stir in cheese; season with salt and pepper. Set aside."
+    },
+    {
+      "position": 4,
+      "text": "Make sauerkraut filling: Place bacon in the skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain, crumble, and place in a medium bowl. Stir in sauerkraut, then sour cream. Mix well."
+    },
+    {
+      "position": 5,
+      "text": "Roll dough out on a floured surface to 1/8- to 1/4-inch thickness. Cut out 3-inch circles with a cookie cutter or an upside-down drinking glass. Place a spoonful of potato or sauerkraut filling in the center of each circle and fold over, pinching edges together to seal."
+    },
+    {
+      "position": 6,
+      "text": "Bring a large pot of lightly salted water to a boil; drop perogies in boiling water and cook until they float, 4 to 5 minutes."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 45,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4caff23c-a290-53d8-bbbb-4a1fc1515ed3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "376 kcal",
+    "carbohydrateContent": "40 g",
+    "cholesterolContent": "44 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "717 mg",
+    "sugarContent": "2 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b94296dc-9e1a-5dad-9dc2-727ad66f0055",
+      "name": "cold water",
+      "normalized_name": "cold water",
+      "quantity": "0.66666698455811",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5b0aca31-03d7-5d3e-9c43-2255e02c3238",
+      "name": "baking potatoes",
+      "normalized_name": "baking potatoes",
+      "quantity": "5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "14a9821b-6966-5d2b-a09e-837355f37cb5",
+      "name": "bacon",
+      "normalized_name": "bacon",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "14a9821b-6966-5d2b-a09e-837355f37cb5",
+      "name": "bacon",
+      "normalized_name": "bacon",
+      "quantity": "0.25",
+      "unit": "pound",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "3d114b1f-3a75-5312-9ae8-6bfd63307e9f",
+      "name": "ounce) jar sauerkraut - drained",
+      "normalized_name": "ounce jar sauerkraut - drained",
+      "quantity": "1 (32",
+      "unit": "pieces",
+      "preparation": "rinsed and minced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "46c02b25-ccda-5524-9b75-a5b0982db47d",
+      "slug": "dumpling",
+      "name": "Dumpling"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bf928f4c-2a6a-5c01-9ecf-243b9f58a15b",
+      "slug": "dumpling-recipes",
+      "name": "Dumpling Recipes",
+      "color": null
+    },
+    {
+      "id": "c83552d0-03fe-50ae-b38d-c1c2a1debac7",
+      "slug": "pork-pie-recipes",
+      "name": "Pork Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "c3090bab-64e8-5a05-97bb-464ca4980e92",
+      "slug": "wisconsin-recipes",
+      "name": "Wisconsin Recipes",
+      "color": null
+    },
+    {
+      "id": "cc33b187-976c-5cca-9b5a-4fe0bfebfeb6",
+      "slug": "freezer",
+      "name": "Freezer",
+      "color": null
+    },
+    {
+      "id": "8adc0f94-dacb-5f02-9865-0ab02c815abe",
+      "slug": "meat-pie-recipes",
+      "name": "Meat Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "ca08f9ed-0a49-5e17-babf-f2f09c200afa",
+      "slug": "pierogi-recipes",
+      "name": "Pierogi Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "fb441386-361f-566c-97ca-0e1a68d513c3",
+      "slug": "polish",
+      "name": "Polish",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23058/perogies"
+  },
+  "public": true,
+  "updated_at": 1776907816,
+  "revision": 1
+}

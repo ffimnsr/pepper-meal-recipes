@@ -1,0 +1,201 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8c1f473b-ca07-5bfd-862d-20e78bee2d80",
+  "slug": "gnocchi-with-pesto-and-shrimp",
+  "name": "Gnocchi with Pesto and Shrimp",
+  "recipe_type": "drink",
+  "brief_description": "Shrimp and asparagus are saut\u00e9ed in olive oil and garlic with gnocchi in pesto and a splash of lemon juice for a quick and easy recipe you'll enjoy.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of lightly salted water to a boil. Cook gnocchi in the boiling water until they float to the top, 2 to 4 minutes. Transfer to a bowl using a slotted spoon; set aside."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, heat 1 tablespoon olive oil in a large skillet over medium-high heat. Add asparagus and garlic; saut\u00e9 until asparagus is tender, about 5 minutes. Transfer to a plate."
+    },
+    {
+      "position": 3,
+      "text": "Heat remaining 1 tablespoon olive oil in the same skillet over medium-high heat. Add shrimp, 2 tablespoons pesto, and 1 tablespoon lemon juice; saut\u00e9 until shrimp are fully cooked and opaque, about 5 minutes. Add cooked gnocchi, asparagus, remaining pesto, and remaining 1 tablespoon lemon juice; stir to combine."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8c1f473b-ca07-5bfd-862d-20e78bee2d80/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "522 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "206 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "31 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "573 mg",
+    "sugarContent": "2 g",
+    "fatContent": "33 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "259a6648-1210-58cf-98a1-070d1a0abd45",
+      "name": "ounce) package gnocchi",
+      "normalized_name": "ounce package gnocchi",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "f59872af-22a9-5620-92bb-0c2f97578a95",
+      "name": "bunch fresh asparagus",
+      "normalized_name": "bunch fresh asparagus",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "trimmed and sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a961f5d-91f2-5805-8c3f-35f2909f2b54",
+      "name": "uncooked medium shrimp",
+      "normalized_name": "uncooked medium shrimp",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "peeled and deveined",
+      "position": 5
+    },
+    {
+      "ingredient_id": "bcb570de-4d06-57db-95cd-4ac1e9919756",
+      "name": "pesto",
+      "normalized_name": "pesto",
+      "quantity": "5",
+      "unit": "ounces",
+      "preparation": "divided",
+      "position": 6
+    },
+    {
+      "ingredient_id": "eab08681-affd-54d9-9398-cfa92db0ac26",
+      "name": "fresh lemon juice",
+      "normalized_name": "fresh lemon juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "4710e724-e184-5c95-a495-52fd897b6539",
+      "slug": "shrimp",
+      "name": "Shrimp"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    },
+    {
+      "id": "bf928f4c-2a6a-5c01-9ecf-243b9f58a15b",
+      "slug": "dumpling-recipes",
+      "name": "Dumpling Recipes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275856/gnocchi-with-pesto-and-shrimp"
+  },
+  "public": true,
+  "updated_at": 1747777917,
+  "revision": 1
+}

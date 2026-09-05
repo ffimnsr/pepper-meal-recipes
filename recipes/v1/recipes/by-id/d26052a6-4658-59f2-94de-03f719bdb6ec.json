@@ -1,0 +1,263 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d26052a6-4658-59f2-94de-03f719bdb6ec",
+  "slug": "hamburger-stroganoff",
+  "name": "Hamburger Stroganoff",
+  "recipe_type": "soup",
+  "brief_description": "This ground beef stroganoff recipe with onion, mushrooms, and creamy soup makes a quick and comforting weeknight dinner served over noodles.",
+  "cuisine": "Eastern European",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Cook ground beef, mushrooms, onion, and garlic in a large nonstick skillet over medium-high heat until beef is browned and crumbly, 6 to 8 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add flour; cook and stir until combined, about 2 minutes. Stir in broth, condensed soup, Worcestershire sauce, pepper, and salt; bring to a boil. Reduce the heat and simmer, stirring occasionally, until flavors blend, about 15 minutes."
+    },
+    {
+      "position": 4,
+      "text": "When you reduce the heat, bring a large pot of lightly salted water to a boil. Add noodles, return to a boil, and cook, uncovered and stirring occasionally, until tender yet firm to the bite, about 6 minutes. Drain and keep warm."
+    },
+    {
+      "position": 5,
+      "text": "Mix sour cream and horseradish together in a bowl. Stir into beef mixture and cook until hot, about 5 minutes. Serve over noodles."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d26052a6-4658-59f2-94de-03f719bdb6ec/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "737 kcal",
+    "carbohydrateContent": "78 g",
+    "cholesterolContent": "147 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "32 g",
+    "saturatedFatContent": "15 g",
+    "sodiumContent": "1274 mg",
+    "sugarContent": "6 g",
+    "fatContent": "34 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bf2b195d-69f1-583f-9862-3ffb75c6e59e",
+      "name": "ground beef chuck",
+      "normalized_name": "ground beef chuck",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ae66d8de-19a8-56e3-a272-57b532f64c29",
+      "name": "ounce) package sliced fresh mushrooms",
+      "normalized_name": "ounce package sliced fresh mushrooms",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "31a3b1dd-6265-562a-aa91-a8d80fbb12ab",
+      "name": "ounce) can beef broth",
+      "normalized_name": "ounce can beef broth",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "55a8a7ae-285d-5a20-9a49-57ae30636e3e",
+      "name": "ounce) package egg noodles",
+      "normalized_name": "ounce package egg noodles",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "867e4ac0-cd52-55dd-86e4-ad2a661c56af",
+      "name": "finely grated raw horseradish",
+      "normalized_name": "finely grated raw horseradish",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "1a9fa232-a82e-505d-a575-5e368a780bda",
+      "slug": "beef-stroganoff",
+      "name": "Beef Stroganoff"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cea3c22d-1197-5f32-9640-f0b3ae09d0c5",
+      "slug": "beef-stroganoff-recipes",
+      "name": "Beef Stroganoff Recipes",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "3d692f67-54c3-5135-8edb-98c25ad1ca4c",
+      "slug": "noodle-recipes",
+      "name": "Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "4e5801cf-11bd-503a-8c74-23fa9ac4757c",
+      "slug": "sour-cream-recipes",
+      "name": "Sour Cream Recipes",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262069/hamburger-stroganoff"
+  },
+  "public": true,
+  "updated_at": 1761667699,
+  "revision": 1
+}

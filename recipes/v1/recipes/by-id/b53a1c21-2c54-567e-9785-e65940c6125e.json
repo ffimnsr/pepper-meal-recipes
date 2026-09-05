@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b53a1c21-2c54-567e-9785-e65940c6125e",
+  "slug": "baked-french-fries-ii",
+  "name": "Baked French Fries II",
+  "recipe_type": "side",
+  "brief_description": "Potato strips are baked with Parmesan cheese and a little basil, resulting in fries that are a perfect accompaniment to almost any meal!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 400 degrees F (200 degrees C). Lightly grease a medium baking sheet."
+    },
+    {
+      "position": 2,
+      "text": "Arrange potato strips in a single layer on the prepared baking sheet, skin sides down. Spray lightly with cooking spray, and sprinkle with basil, Parmesan cheese, salt and pepper."
+    },
+    {
+      "position": 3,
+      "text": "Bake 25 minutes in the preheated oven, or until golden brown."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b53a1c21-2c54-567e-9785-e65940c6125e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "145 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "4 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "86 mg",
+    "sugarContent": "1 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4b2b3112-53d1-5b2b-a392-6dbd06a85d12",
+      "name": "russet potatoes",
+      "normalized_name": "russet potatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "sliced into 1/4 inch strips",
+      "position": 1
+    },
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "926af8a3-1f4f-5d54-b16f-43f37953b512",
+      "name": "dried basil",
+      "normalized_name": "dried basil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "daa92f2e-5e27-5412-8c1b-714212d09d18",
+      "slug": "fries",
+      "name": "Fries"
+    },
+    {
+      "id": "426b3ece-3cb3-5093-b52e-db11535d0816",
+      "slug": "french-fries",
+      "name": "French Fries"
+    },
+    {
+      "id": "abb11706-9589-5f2b-bdc0-fadd348154f7",
+      "slug": "baked-french-fries",
+      "name": "Baked French Fries"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6809851d-f994-59b4-bb21-0325acec5d25",
+      "slug": "kids",
+      "name": "Kids",
+      "color": null
+    },
+    {
+      "id": "e455473e-49bf-511c-8377-db59253a8adf",
+      "slug": "fries-recipes",
+      "name": "Fries Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "38b2cb0a-079a-56eb-93bf-29da23d3ee9c",
+      "slug": "kid-friendly",
+      "name": "Kid-Friendly",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "a954f7c7-64e6-5e0d-a6e9-db6ead009ad0",
+      "slug": "diabetic",
+      "name": "Diabetic",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/31519/baked-french-fries-ii"
+  },
+  "public": true,
+  "updated_at": 1732766269,
+  "revision": 1
+}

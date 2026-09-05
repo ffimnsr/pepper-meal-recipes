@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "58af89ce-c18e-5d05-85d4-cea81785fb30",
+  "slug": "yam-casserole",
+  "name": "Yam Casserole",
+  "recipe_type": "dessert",
+  "brief_description": "Yams are baked with butter, sugar, evaporated milk, eggs and spices, and topped with a mixture of butter, brown sugar and sugar frosted corn flake cereal.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "In a large bowl combine yams, melted butter, white sugar, evaporated milk, eggs, nutmeg, cinnamon and vanilla extract. Mix well and transfer to a 9x9 inch casserole dish."
+    },
+    {
+      "position": 3,
+      "text": "In a medium bowl cream butter with brown sugar. Stir in walnuts and frosted cereal. Spread on top of yam mixture."
+    },
+    {
+      "position": 4,
+      "text": "Bake in preheated oven for 35 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/58af89ce-c18e-5d05-85d4-cea81785fb30/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "383 kcal",
+    "carbohydrateContent": "50 g",
+    "cholesterolContent": "82 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "194 mg",
+    "sugarContent": "41 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "16683ca9-2b56-5050-9b0b-06e810a3a53f",
+      "name": "ounce) can yams",
+      "normalized_name": "ounce can yams",
+      "quantity": "1 (29",
+      "unit": "pieces",
+      "preparation": "drained and mashed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
+      "name": "melted butter",
+      "normalized_name": "melted butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "478758cf-b8df-56ff-a79a-885f223169bb",
+      "name": "evaporated milk",
+      "normalized_name": "evaporated milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 5
+    },
+    {
+      "ingredient_id": "2a90555d-024e-5ea2-b99e-e08a65929fd8",
+      "name": "nutmeg",
+      "normalized_name": "nutmeg",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "softened",
+      "position": 9
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "e8e75e6e-b180-5d39-a832-2134749a2e0d",
+      "name": "chopped walnuts",
+      "normalized_name": "chopped walnuts",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "157f70a7-b5a2-5a8d-9190-849023c3eb30",
+      "name": "sugar frosted corn flake cereal",
+      "normalized_name": "sugar frosted corn flake cereal",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "78c1d8e4-5038-5e5d-be85-122a9c698f92",
+      "slug": "casseroles",
+      "name": "Casseroles"
+    },
+    {
+      "id": "998bd47b-141b-5223-a0a4-7b3d9f591236",
+      "slug": "sweet-potato-casserole",
+      "name": "Sweet Potato Casserole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0ade7e40-32b3-52df-9ecb-297710f9db49",
+      "slug": "sweet-potato-casserole-recipes",
+      "name": "Sweet Potato Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "9247e915-94df-5936-8bb0-46841c369b86",
+      "slug": "casseroles",
+      "name": "Casseroles",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "11232652-01df-591c-8b67-348ec6bdfc3d",
+      "slug": "yams",
+      "name": "Yams",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "f275f5a1-e0b2-586d-9bac-3b36e90de2ba",
+      "slug": "sweet-potatoes",
+      "name": "Sweet Potatoes",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24766/yam-casserole"
+  },
+  "public": true,
+  "updated_at": 1659973206,
+  "revision": 1
+}

@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0c3881f6-1f26-5a44-ae49-be1802c1f52a",
+  "slug": "cheesy-keto-biscuits",
+  "name": "Cheesy Keto Biscuits",
+  "recipe_type": "breakfast",
+  "brief_description": "These large biscuits made from almond flour, Cheddar cheese, eggs, and half-and-half fit into a low-carb or keto diet.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment paper."
+    },
+    {
+      "position": 2,
+      "text": "Combine almond flour and baking powder in a large bowl. Mix in Cheddar cheese by hand. Create a small well in the middle of the bowl; add eggs and half-and-half to the center. Use a large fork, spoon, or your hands to blend in the flour mixture until a sticky batter forms."
+    },
+    {
+      "position": 3,
+      "text": "Drop 9 portions of batter onto the prepared baking sheet."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until golden, about 20 minutes."
+    }
+  ],
+  "servings": 9,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0c3881f6-1f26-5a44-ae49-be1802c1f52a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "329 kcal",
+    "carbohydrateContent": "7 g",
+    "cholesterolContent": "118 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "391 mg",
+    "sugarContent": "1 g",
+    "fatContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f9a99f9f-88e8-50ce-9d63-a797317af35f",
+      "name": "almond flour",
+      "normalized_name": "almond flour",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "d9f35ddb-44df-5f53-9a73-7d4bd65a5f58",
+      "slug": "biscuits",
+      "name": "Biscuits"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d41b5475-0db2-5ffd-8415-76dc620bee42",
+      "slug": "biscuits",
+      "name": "Biscuits",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "83a46deb-c595-5fc8-991d-01062f74c59d",
+      "slug": "breakfast-bread-recipes",
+      "name": "Breakfast Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "bff858a9-6663-52b6-afa3-39ec314fe3fa",
+      "slug": "keto-diet-recipes",
+      "name": "Keto Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "6e9bc079-ab22-5296-b01a-351ef64551ef",
+      "slug": "flour-recipes",
+      "name": "Flour Recipes",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "2d6b8400-f602-558f-b2c4-b29ed02afc3e",
+      "slug": "almond-meal-recipes",
+      "name": "Almond Meal Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/264211/cheesy-keto-biscuits"
+  },
+  "public": true,
+  "updated_at": 1786132441,
+  "revision": 1
+}

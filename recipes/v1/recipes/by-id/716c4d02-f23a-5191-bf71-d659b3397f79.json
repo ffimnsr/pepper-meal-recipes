@@ -1,0 +1,240 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "716c4d02-f23a-5191-bf71-d659b3397f79",
+  "slug": "curried-chicken-lettuce-wraps",
+  "name": "Curried Chicken Lettuce Wraps",
+  "recipe_type": "salad",
+  "brief_description": "Leftover chicken is transformed into a delicious curried chicken salad and served chilled in these simple lettuce wraps the whole family will enjoy.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a skillet over medium heat. Add chicken, lime juice, and salt; cook and stir until chicken is no longer pink, 7 to 10 minutes. Remove from the heat."
+    },
+    {
+      "position": 2,
+      "text": "Add apple, cranberries, almonds, and green onions to the chicken."
+    },
+    {
+      "position": 3,
+      "text": "Mix mayonnaise and curry powder together in a large bowl. Add to chicken mixture and stir to coat. Transfer to the refrigerator until flavors have blended together, at least 1 hour, or overnight for more flavor."
+    },
+    {
+      "position": 4,
+      "text": "Spoon chilled chicken salad into individual lettuce leaves. Wrap and eat with your fingers."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/716c4d02-f23a-5191-bf71-d659b3397f79/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "365 kcal",
+    "carbohydrateContent": "17 g",
+    "cholesterolContent": "44 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "171 mg",
+    "sugarContent": "12 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or to taste",
+      "position": 1
+    },
+    {
+      "ingredient_id": "773c10b3-cc7e-5572-bfa3-240fc738bc72",
+      "name": "cubed cooked chicken",
+      "normalized_name": "cubed cooked chicken",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "59ad6408-a9e8-5f6c-aa7a-e073cf4e0a9c",
+      "name": "lime juice",
+      "normalized_name": "lime juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8c27508d-5a9e-5d7d-8455-6026e2284554",
+      "name": "medium green apple",
+      "normalized_name": "medium green apple",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "3aac79cd-69ec-521d-bf79-2578b95c386c",
+      "name": "dried cranberries",
+      "normalized_name": "dried cranberries",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "400091d5-624f-5697-950e-4d8a985c78f1",
+      "name": "toasted slivered almonds",
+      "normalized_name": "toasted slivered almonds",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "744255b5-aa1a-5050-b238-41e0f13052f2",
+      "name": "thinly sliced green onions",
+      "normalized_name": "thinly sliced green onions",
+      "quantity": "2.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "ea55ebcd-d2da-5f89-b8e9-ed703e3ce784",
+      "name": "curry powder",
+      "normalized_name": "curry powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "735d27a5-9ca2-5df8-9889-eb511cd12adc",
+      "name": "leaves lettuce",
+      "normalized_name": "leaves lettuce",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": "or more to taste",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "cf1e635c-b2d7-52fc-8796-cfd0aa20b583",
+      "slug": "wraps-and-rolls",
+      "name": "Wraps and Rolls"
+    },
+    {
+      "id": "987a1b7c-dcc3-5b29-bb0b-213d12ebff35",
+      "slug": "lettuce-wraps",
+      "name": "Lettuce Wraps"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "c435539b-7fb9-5280-93dc-22b3b882cd67",
+      "slug": "lettuce",
+      "name": "Lettuce",
+      "color": null
+    },
+    {
+      "id": "34370fa7-4854-53d1-a33b-e439479ca940",
+      "slug": "pan-fried-chicken",
+      "name": "Pan-Fried Chicken",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/283430/curried-chicken-lettuce-wraps"
+  },
+  "public": true,
+  "updated_at": 1737131158,
+  "revision": 1
+}

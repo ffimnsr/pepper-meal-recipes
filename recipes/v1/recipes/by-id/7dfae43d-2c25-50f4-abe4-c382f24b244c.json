@@ -1,0 +1,184 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7dfae43d-2c25-50f4-abe4-c382f24b244c",
+  "slug": "southern-pulled-pork",
+  "name": "Southern Pulled Pork",
+  "recipe_type": null,
+  "brief_description": "This recipe starts out on the stove, and ends up in the slow cooker! Add your favorite BBQ sauce and eat plain or on a bun! Great for parties.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cut the pork roast into large chunks. Season generously with the Cajun seasoning. Melt butter in a large skillet over medium-high heat. Add pork, and brown on all sides. Remove from the skillet, and transfer to a slow cooker."
+    },
+    {
+      "position": 2,
+      "text": "Add the onion and garlic to the skillet, and cook for a few minutes until tender. Stir in the water scraping the bottom to include all of the browned pork bits from the bottom of the pan, then pour the whole mixture into the slow cooker with the pork. Stir in liquid smoke flavoring."
+    },
+    {
+      "position": 3,
+      "text": "Cover, and cook on High for 6 hours, or until meat is falling apart when pierced with a fork. Remove pieces of pork from the slow cooker, and shred. Return to the slow cooker to keep warm while serving."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 360,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7dfae43d-2c25-50f4-abe4-c382f24b244c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "178 kcal",
+    "carbohydrateContent": "3 g",
+    "cholesterolContent": "58 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "282 mg",
+    "sugarContent": "1 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "252c46c9-49c2-5ff6-84ed-9ec903aa53a0",
+      "name": "boneless pork roast",
+      "normalized_name": "boneless pork roast",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7aa7c564-4536-561b-aeb5-02a8c1fe5204",
+      "name": "cajun seasoning",
+      "normalized_name": "cajun seasoning",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "crushed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b240139a-3c93-5b57-8611-4fdcfe510345",
+      "name": "liquid smoke flavoring",
+      "normalized_name": "liquid smoke flavoring",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "60e02e7b-d196-56d0-a0e0-a9249bc49e57",
+      "slug": "pulled-pork",
+      "name": "Pulled Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "354736d5-336a-595d-a400-7d173505dd95",
+      "slug": "pulled-pork",
+      "name": "Pulled Pork",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "22b69ae3-bf6c-5161-837b-50f510df6b6b",
+      "slug": "slow-cooker",
+      "name": "Slow Cooker",
+      "color": null
+    },
+    {
+      "id": "243b0b54-aa9c-5b58-8b36-d4a730f1e17d",
+      "slug": "southern",
+      "name": "Southern",
+      "color": null
+    },
+    {
+      "id": "64dfe380-1712-5fe7-a366-2803751d7c09",
+      "slug": "cajun-spice",
+      "name": "Cajun Spice",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72194/southern-pulled-pork"
+  },
+  "public": true,
+  "updated_at": 1670479914,
+  "revision": 1
+}

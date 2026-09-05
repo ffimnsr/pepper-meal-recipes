@@ -1,0 +1,258 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e464fde6-f07a-50bf-a4c0-28fe5a6f3e78",
+  "slug": "bacon-cheeseburger-omelette",
+  "name": "Bacon Cheeseburger Omelette",
+  "recipe_type": "breakfast",
+  "brief_description": "All of the flavors you love in a bacon cheeseburger come together in this hearty breakfast omelette.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Transfer bacon to a paper towel-lined plate, reserving grease in the skillet. Crumble bacon once cool."
+    },
+    {
+      "position": 2,
+      "text": "Add onion to the skillet and cook over medium-high heat for 2 minutes. Add ground beef and cook, breaking into smaller pieces, until no longer pink, about 5 minutes. Drain any excess grease."
+    },
+    {
+      "position": 3,
+      "text": "Add Worcestershire sauce, mustard, and ketchup to the beef mixture. Bring to a simmer, mixing until everything is incorporated."
+    },
+    {
+      "position": 4,
+      "text": "Meanwhile, heat a separate skillet over medium heat. Whisk eggs and milk together and pour into the skillet, swirling to coat the bottom. Cook until eggs are just set, about 5 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Place bacon, beef mixture, tomatoes, pickles, and lettuce over one half of the omelette. Fold the other half over the filling. Top with Cheddar cheese. Cover skillet and cook until cheese is melted, about 1 minute. Garnish omelette with shoestring potatoes."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e464fde6-f07a-50bf-a4c0-28fe5a6f3e78/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "640 kcal",
+    "carbohydrateContent": "17 g",
+    "cholesterolContent": "479 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "45 g",
+    "saturatedFatContent": "16 g",
+    "sodiumContent": "1504 mg",
+    "sugarContent": "8 g",
+    "fatContent": "43 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "0.25",
+      "unit": "pound",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "774242a0-6199-5c93-947d-ef1dd659bc8b",
+      "name": "mustard",
+      "normalized_name": "mustard",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d5c1a3e3-5533-5e3b-a365-66e79ced3213",
+      "name": "chopped tomatoes",
+      "normalized_name": "chopped tomatoes",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "051ea9ad-d33e-55b1-88fa-90d03ca68bc8",
+      "name": "chopped pickles",
+      "normalized_name": "chopped pickles",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "02f897a8-d78c-5824-bfc8-fc2afed07326",
+      "name": "chopped lettuce",
+      "normalized_name": "chopped lettuce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "785e3978-2942-5b84-91d0-3d5e1c308b93",
+      "name": "shoestring potatoes",
+      "normalized_name": "shoestring potatoes",
+      "quantity": "0.125",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1e1783f0-14a2-5c36-a8c9-61927a25536b",
+      "slug": "omelet-recipes",
+      "name": "Omelet Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "034394aa-b2a8-5d8f-9932-b7e2b073439f",
+      "slug": "bacon",
+      "name": "Bacon",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267561/bacon-cheeseburger-omelette"
+  },
+  "public": true,
+  "updated_at": 1536368132,
+  "revision": 1
+}

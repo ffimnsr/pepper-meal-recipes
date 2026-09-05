@@ -1,0 +1,207 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "96b6a54e-db5d-50cf-875a-d17f3c1e45b5",
+  "slug": "tangy-cucumber-and-avocado-salad",
+  "name": "Cucumber and Avocado Salad",
+  "recipe_type": "salad",
+  "brief_description": "This creamy cucumber avocado salad with cilantro is easy to prep in minutes and simply dressed with lime juice for an incredibly fresh summer salad.",
+  "cuisine": "U.S. American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine cucumbers, avocados, and cilantro in a large bowl; stir in garlic, green onions, salt, and pepper. Pour lemon and lime juice over the top; toss well. For best flavor results, cover and refrigerate the salad until chilled before serving."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/96b6a54e-db5d-50cf-875a-d17f3c1e45b5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "186 kcal",
+    "carbohydrateContent": "16 g",
+    "fiberContent": "8 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "157 mg",
+    "sugarContent": "3 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1368ee2c-f02b-5d16-8dcf-ce7346089b9c",
+      "name": "medium cucumbers",
+      "normalized_name": "medium cucumbers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "9c17d1f7-3520-5c14-ac2e-1c633723cf11",
+      "name": "avocados",
+      "normalized_name": "avocados",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c06dd3e7-b440-56ff-a2d5-9de60f6d1a5e",
+      "name": "minced green onions",
+      "normalized_name": "minced green onions",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "4794b416-fd93-5c53-94bb-e546becf51d1",
+      "name": "black pepper to taste",
+      "normalized_name": "black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1a953445-bbf6-57a7-aa37-b2cfa9b893a8",
+      "name": "large lemon",
+      "normalized_name": "large lemon",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "ce42b902-40b1-5733-83a2-3f55dfe6e7fc",
+      "slug": "cucumber",
+      "name": "Cucumber",
+      "color": null
+    },
+    {
+      "id": "c4de14bd-4f3c-5c41-b153-7dcc8f39bb79",
+      "slug": "avocado-salad-recipes",
+      "name": "Avocado Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    },
+    {
+      "id": "617972f8-405b-5b31-a88e-e6cfa21dd0f4",
+      "slug": "picnic",
+      "name": "Picnic",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/85881/tangy-cucumber-and-avocado-salad"
+  },
+  "public": true,
+  "updated_at": 1747241049,
+  "revision": 1
+}

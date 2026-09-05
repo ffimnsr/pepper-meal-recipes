@@ -1,0 +1,171 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d966e283-ee9c-5488-8f6b-f26b917edccf",
+  "slug": "melon-smoothie",
+  "name": "Melon Smoothie",
+  "recipe_type": "breakfast",
+  "brief_description": "Cantaloupe and honeydew melon is blended with lime juice and sugar. This one is great when melons are in season.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a blender, combine cantaloupe, honeydew, lime juice and sugar. Blend until smooth. Pour into glasses and serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d966e283-ee9c-5488-8f6b-f26b917edccf/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "70 kcal",
+    "carbohydrateContent": "18 g",
+    "fiberContent": "1 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "20 mg",
+    "sugarContent": "16 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "eb36771b-f0b4-50d4-bcb6-dbf2229515fe",
+      "name": "cantaloupe - peeled",
+      "normalized_name": "cantaloupe - peeled",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "seeded and cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "8943d449-e03c-5c67-86b7-fc6f9c965861",
+      "name": "honeydew melon - peeled",
+      "normalized_name": "honeydew melon - peeled",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "seeded and cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "36433274-3189-5553-af02-883a9b1e7f34",
+      "slug": "melons",
+      "name": "Melons",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "5c1f7de1-3e10-5322-a8b5-4a3f0140b946",
+      "slug": "honeydew-melons",
+      "name": "Honeydew Melons",
+      "color": null
+    },
+    {
+      "id": "67cdc090-5370-543c-9a4d-ae30af538c9e",
+      "slug": "labor-day",
+      "name": "Labor Day",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32450/melon-smoothie"
+  },
+  "public": true,
+  "updated_at": 1782230992,
+  "revision": 1
+}

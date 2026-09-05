@@ -1,0 +1,221 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c65deaea-0ea5-5387-8e20-f86a6ece7fd3",
+  "slug": "authentic-tortellini-soup",
+  "name": "Tortellini Soup",
+  "recipe_type": "soup",
+  "brief_description": "This comforting tortellini soup packed with tender pasta, veggies, and Italian sausage in a savory broth makes a cozy meal on cold evenings.",
+  "cuisine": "Italian Inspired Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Pour 1 can broth into a small saucepan and add tortellini; bring to a boil. Cook tortellini until tender yet firm to the bite, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a large stockpot over medium heat; cook and stir sausage, onion, garlic, and Italian seasoning until sausage is browned and crumbly, 5 to 10 minutes. Add tortellini-broth mixture, remaining can of broth, tomato puree, and spinach to sausage mixture; cover stockpot and simmer until flavors blend, about 30 minutes."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c65deaea-0ea5-5387-8e20-f86a6ece7fd3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "327 kcal",
+    "carbohydrateContent": "38 g",
+    "cholesterolContent": "45 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "2200 mg",
+    "sugarContent": "7 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ea7bea39-0c11-5c99-a5bb-38fece074dd2",
+      "name": "fluid ounce) cans chicken broth",
+      "normalized_name": "fluid ounce cans chicken broth",
+      "quantity": "2 (49.5",
+      "unit": "pieces",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "5503e7f8-28cc-5379-8d4c-a5956d849408",
+      "name": "ounce) package cheese tortellini",
+      "normalized_name": "ounce package cheese tortellini",
+      "quantity": "1 (20",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b8ce73c0-c756-54ab-819d-74976384f684",
+      "name": "ounce) package mild italian sausage",
+      "normalized_name": "ounce package mild italian sausage",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "4fbc17fe-1b70-5c92-a946-64cb41d20225",
+      "name": "italian seasoning",
+      "normalized_name": "italian seasoning",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2a71fc92-a578-5ae9-916c-0db1560cd7f6",
+      "name": "ounce) can tomato puree",
+      "normalized_name": "ounce can tomato puree",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "80139d0e-d3ea-5dc9-8571-6cd60be4d578",
+      "name": "bunch fresh spinach",
+      "normalized_name": "bunch fresh spinach",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "95237eae-d985-5390-a1a3-cc4324d8aa85",
+      "slug": "noodle-soup",
+      "name": "Noodle Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "fd2ffc67-c552-52a5-9594-6ec896c3b953",
+      "slug": "tortellini-recipes",
+      "name": "Tortellini Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241063/authentic-tortellini-soup"
+  },
+  "public": true,
+  "updated_at": 1764541007,
+  "revision": 1
+}

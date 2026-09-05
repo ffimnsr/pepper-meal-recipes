@@ -1,0 +1,213 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f4526178-d661-5ecf-ad6c-1eba962559e3",
+  "slug": "skillet-corn-bread",
+  "name": "Skillet Cornbread",
+  "recipe_type": "side",
+  "brief_description": "This tasty skillet cornbread is simple to make with cornmeal, eggs, butter, milk, and a trusty cast iron skillet for a delicious side to any meal.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place a 9-inch cast iron skillet into the oven and preheat to 425 degrees F (220 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Mix milk and cornmeal together in small bowl. Let soak for 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Sift flour, baking powder, and salt together into a mixing bowl. Add cornmeal mixture, eggs, and butter; beat until a smooth batter forms, about 1 minute."
+    },
+    {
+      "position": 4,
+      "text": "Remove the hot skillet from the oven. Add vegetable oil to the skillet and swish to coat. Pour out any excess oil, then pour batter into the skillet."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean, 18 to 23 minutes. Cut into wedges to serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f4526178-d661-5ecf-ad6c-1eba962559e3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "225 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "65 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "459 mg",
+    "sugarContent": "2 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4531b0a6-2a34-5e23-acd0-cbcf6b44f511",
+      "name": "cornmeal",
+      "normalized_name": "cornmeal",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "207da207-7554-5b16-a44c-8e024e2d40d0",
+      "name": "kosher salt",
+      "normalized_name": "kosher salt",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 6
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 7
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "d018fabc-8136-53dd-944f-11b7f7a263e7",
+      "slug": "cornbread",
+      "name": "Cornbread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "dbfb10d8-d6ea-578f-b225-ea58cb45c549",
+      "slug": "cornbread-recipes",
+      "name": "Cornbread Recipes",
+      "color": null
+    },
+    {
+      "id": "1469a788-fbf9-5386-8e2c-4c453f138894",
+      "slug": "cornmeal",
+      "name": "Cornmeal",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "243b0b54-aa9c-5b58-8b36-d4a730f1e17d",
+      "slug": "southern",
+      "name": "Southern",
+      "color": null
+    },
+    {
+      "id": "1495c042-cb7a-5119-a28e-74db7b2e1a09",
+      "slug": "cast-iron-skillet",
+      "name": "Cast Iron Skillet",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "1e83fd8f-f8d5-5dd8-98fc-88de342429d2",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment",
+      "color": null
+    },
+    {
+      "id": "96d425a3-66d4-576e-8993-3c2c01729696",
+      "slug": "whole-grain-recipes",
+      "name": "Whole Grain Recipes",
+      "color": null
+    },
+    {
+      "id": "58f836b1-d1a3-5e0e-b2ff-a9a45fe2c4c4",
+      "slug": "u-s-recipes",
+      "name": "U.S. Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231158/skillet-corn-bread"
+  },
+  "public": true,
+  "updated_at": 1765294945,
+  "revision": 1
+}

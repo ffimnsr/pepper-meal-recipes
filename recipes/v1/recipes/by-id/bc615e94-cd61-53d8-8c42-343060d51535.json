@@ -1,0 +1,247 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "bc615e94-cd61-53d8-8c42-343060d51535",
+  "slug": "marys-meatloaf",
+  "name": "Mary's Meatloaf",
+  "recipe_type": "main",
+  "brief_description": "This easy meatloaf is flavored with garlic powder, mustard, ketchup and onion, then topped with a brown sugar, ketchup and mustard sauce.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "In a large bowl, thoroughly mix ground beef, onion, salt, pepper and garlic powder. Mix in bread, milk, egg, 2 tablespoons mustard and 1/4 cup ketchup."
+    },
+    {
+      "position": 3,
+      "text": "Press the meat mixture into a 9x5-inch loaf pan. In a small bowl, stir together remaining mustard, ketchup and brown sugar; pour on top of the meat loaf."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until an instant-read thermometer inserted into the center reads 165 degrees F (74 degrees C), about 2 hours."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 120,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/bc615e94-cd61-53d8-8c42-343060d51535/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/umZGsQpy-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "450 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "118 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "582 mg",
+    "sugarContent": "15 g",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b87b76bb-74cb-5321-9a51-f5f88b0b2389",
+      "name": "garlic powder to taste",
+      "normalized_name": "garlic powder to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0121a323-7fec-57c6-a721-27c8b9618c6f",
+      "name": "slices white bread",
+      "normalized_name": "slices white bread",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "cut into cubes",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b4ceb439-f835-5f3e-a8c2-a46eeb11a8f6",
+      "name": "yellow mustard",
+      "normalized_name": "yellow mustard",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 9
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 10
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "966ed388-bbc7-5931-a4a8-5e7f567d7cc1",
+      "slug": "meatloaf",
+      "name": "Meatloaf"
+    },
+    {
+      "id": "957a454f-4703-5224-9660-dea0c5404f2a",
+      "slug": "beef-meatloaf",
+      "name": "Beef Meatloaf"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "dc7ce65a-86ba-57ae-b0f1-df459edaf834",
+      "slug": "beef-meatloaf-recipes",
+      "name": "Beef Meatloaf Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9b843a05-3d30-5959-b53d-71258c6272ab",
+      "slug": "meatloaf-recipes",
+      "name": "Meatloaf Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2b72c894-b609-5713-85a5-4e54f2546268",
+      "slug": "allrecipes-magazine-recipes",
+      "name": "Allrecipes Magazine Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26619/marys-meatloaf"
+  },
+  "public": true,
+  "updated_at": 1776352749,
+  "revision": 1
+}

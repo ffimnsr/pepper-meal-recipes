@@ -1,0 +1,222 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6379c1ca-f915-5ce1-9d33-9487e64f2d98",
+  "slug": "no-mayonnaise-ranch-dressing",
+  "name": "No-Mayonnaise Ranch Dressing",
+  "recipe_type": "salad",
+  "brief_description": "If you do not like mayonnaise, this recipe is for you! It's so creamy, you'll never be able to tell that it's reduced fat! Couldn't be easier!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place sour cream and buttermilk into a mixing bowl. Season with parsley, chives, garlic powder, dill, onion powder, salt, and pepper. Whisk together until smooth. Cover and refrigerate at least 30 minutes before serving."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6379c1ca-f915-5ce1-9d33-9487e64f2d98/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "32 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "8 mg",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "43 mg",
+    "sugarContent": "1 g",
+    "fatContent": "3 g",
+    "servingSize": "1 1/2 cups",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0ed30030-3b58-5dc1-8cd8-83c15beca5cd",
+      "name": "low-fat sour cream",
+      "normalized_name": "low-fat sour cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "950239d2-8408-5a49-a8bd-7298ae896627",
+      "name": "buttermilk",
+      "normalized_name": "buttermilk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c7f94c24-41b4-5f73-9a71-06be56833d48",
+      "name": "dried parsley",
+      "normalized_name": "dried parsley",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "38d91571-6fc5-5a94-b473-f680ba2a1cac",
+      "name": "dried chives",
+      "normalized_name": "dried chives",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c695b7e1-c0a2-5395-852a-ca8d6057ab91",
+      "name": "dried dill weed",
+      "normalized_name": "dried dill weed",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "242ce3af-ff04-5b86-9050-05e40cdaf78e",
+      "name": "fresh-ground black pepper",
+      "normalized_name": "fresh-ground black pepper",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "b81ebb73-48d1-5e2f-8859-20aaee21473c",
+      "slug": "salad-dressing",
+      "name": "Salad Dressing"
+    },
+    {
+      "id": "231d5bb7-7d77-570f-8394-aa3dbdfe0d2d",
+      "slug": "ranch-dressing",
+      "name": "Ranch Dressing"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "44f29bdb-118a-5606-8e31-52dc8e75d4c2",
+      "slug": "ranch-dressing-recipes",
+      "name": "Ranch Dressing Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "4e5801cf-11bd-503a-8c74-23fa9ac4757c",
+      "slug": "sour-cream-recipes",
+      "name": "Sour Cream Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "ee0f3590-ad30-5c9d-b0a5-f9a1018a6177",
+      "slug": "salad-dressing-recipes",
+      "name": "Salad Dressing Recipes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "47284bc0-1a10-5168-9ee0-5300871f4453",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/140283/no-mayonnaise-ranch-dressing"
+  },
+  "public": true,
+  "updated_at": 1777390688,
+  "revision": 1
+}

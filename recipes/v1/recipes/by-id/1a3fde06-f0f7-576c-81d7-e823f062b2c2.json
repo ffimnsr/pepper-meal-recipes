@@ -1,0 +1,257 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1a3fde06-f0f7-576c-81d7-e823f062b2c2",
+  "slug": "indian-sweet-potato-and-lentil-soup",
+  "name": "Indian Sweet Potato and Lentil Soup",
+  "recipe_type": "soup",
+  "brief_description": "Lentils, sweet potatoes, onions, and spinach are simmered with aromatic Indian-inspired spices, creating a deliciously warm and hearty meal.",
+  "cuisine": "Indian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a large pot over medium heat. Cook and stir onion and garlic in hot oil until fragrant, 2 to 4 minutes. Cook and stir garam masala. turmeric, and red pepper flakes into onion mixture until coated, about 2 more minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir broth and lentils into onion mixture; bring to a boil, reduce heat to low, cover, and cook until lentils are softened but firm to the bite, about 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir in sweet potatoes; bring to a boil, reduce heat to low, cover, and simmer until sweet potatoes are tender and lentils are fully cooked, about 10 minutes. Add spinach; cook until wilted, 3 to 5 minutes. Season with salt."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1a3fde06-f0f7-576c-81d7-e823f062b2c2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "361 kcal",
+    "carbohydrateContent": "64 g",
+    "fiberContent": "21 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "554 mg",
+    "sugarContent": "11 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "6",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "758d9265-fed2-5c10-86e4-0603fa3c3ca1",
+      "name": "garam masala",
+      "normalized_name": "garam masala",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6fe26b3-81da-5f50-8065-5bc6819dddfa",
+      "name": "ground turmeric",
+      "normalized_name": "ground turmeric",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "2",
+      "unit": "pinches",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "eb8acf67-6003-5b96-a659-e7f3f7562f47",
+      "name": "lentils",
+      "normalized_name": "lentils",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "9f82fdf8-d464-5772-8a05-88a5d1e56864",
+      "name": "sweet potatoes",
+      "normalized_name": "sweet potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and cut into 1/2-inch cubes",
+      "position": 9
+    },
+    {
+      "ingredient_id": "032eaae4-bd3d-5fdb-897f-0aaa3adf4878",
+      "name": "chopped fresh spinach",
+      "normalized_name": "chopped fresh spinach",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "f7cde0b3-e6ba-5f29-b822-7fb5bcdc9fa1",
+      "slug": "sweet-potato-soup",
+      "name": "Sweet Potato Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eecd2c00-de61-530a-bc32-cb01ad53bd59",
+      "slug": "indian",
+      "name": "Indian",
+      "color": null
+    },
+    {
+      "id": "38b2cb0a-079a-56eb-93bf-29da23d3ee9c",
+      "slug": "kid-friendly",
+      "name": "Kid-Friendly",
+      "color": null
+    },
+    {
+      "id": "a4da5d34-2262-5fcd-aec0-e7974f08aae6",
+      "slug": "lentils",
+      "name": "Lentils",
+      "color": null
+    },
+    {
+      "id": "508b93c7-2692-52e2-92e8-8ba26eda8a95",
+      "slug": "sweet-potato",
+      "name": "Sweet Potato",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222657/indian-sweet-potato-and-lentil-soup"
+  },
+  "public": true,
+  "updated_at": 1737480769,
+  "revision": 1
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ab8326c7-eda6-5f76-8ac7-0800d9fc3398",
+  "slug": "spicy-mango-guacamole",
+  "name": "Spicy Mango Guacamole",
+  "recipe_type": "appetizer",
+  "brief_description": "Add a sweet and spicy kick to classic guacamole with the addition of fresh mango and chopped jalapeno peppers.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mash avocados, lime juice, and salt lightly together in a bowl, so some avocado chunks remain. Mix in mango, onion, cilantro, and jalapeno peppers."
+    },
+    {
+      "position": 2,
+      "text": "Refrigerate guacamole for about 1 hour. Drizzle hot sauce on top before serving."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ab8326c7-eda6-5f76-8ac7-0800d9fc3398/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "201 kcal",
+    "carbohydrateContent": "19 g",
+    "fiberContent": "8 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "172 mg",
+    "sugarContent": "8 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3a6613c8-447e-51a7-b1d6-12611718c80c",
+      "name": "ripe avocados",
+      "normalized_name": "ripe avocados",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "35ba60f6-f311-5c9f-b7d4-8e229c254ce5",
+      "name": "small lime",
+      "normalized_name": "small lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "4fe1c7a3-8717-5fe6-8ea5-d553e3ff0ab4",
+      "name": "ripe mango",
+      "normalized_name": "ripe mango",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "446cb334-9ce9-51e0-8a8b-dda707e68f6d",
+      "name": "finely chopped white onion",
+      "normalized_name": "finely chopped white onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "06e30bc6-9c07-544b-8016-edd6eba91c34",
+      "name": "fresh cilantro",
+      "normalized_name": "fresh cilantro",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "finely chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "4db9bfac-b397-5b97-9f27-bd286069b2da",
+      "name": "jalapeno peppers",
+      "normalized_name": "jalapeno peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded and chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "a7a3c147-3252-5d82-9ac5-1fa16c3dc453",
+      "name": "hot sauce",
+      "normalized_name": "hot sauce",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "5611510c-11ff-5c0b-aee0-6696f963fc70",
+      "slug": "guacamole",
+      "name": "Guacamole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "53c996bd-5d2f-5547-a7d8-0ab52d34378e",
+      "slug": "mangos",
+      "name": "Mangos",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "f8ef87d6-0290-59c2-8196-4971f34fe7e6",
+      "slug": "dips-and-spreads-recipes",
+      "name": "Dips and Spreads Recipes",
+      "color": null
+    },
+    {
+      "id": "e857a6cf-50b6-58e9-bc19-9f8a61c62d75",
+      "slug": "jalapeno",
+      "name": "Jalapeno",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275887/spicy-mango-guacamole"
+  },
+  "public": true,
+  "updated_at": 1568358274,
+  "revision": 1
+}

@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8d8ccb53-27ee-5c46-83b8-d35d9e3b0886",
+  "slug": "a-maize-ing-corn-chowder",
+  "name": "A-Maize-ing Corn Chowder",
+  "recipe_type": "soup",
+  "brief_description": "This easy soup recipe delivers a creamy corn chowder with canned corn, potatoes, and crumbled bacon for a comforting bowl of warm deliciousness.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Fry bacon in a Dutch oven until crisp; remove bacon, reserving 2 tablespoons drippings. Crumble bacon and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Saut\u00e9 onion in reserved drippings until tender; add potatoes and water. Cover and simmer until potatoes are tender, 15 to 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir in milk, corn, salt, and pepper to taste; continue to cook, stirring frequently, until heated through. Sprinkle with crumbled bacon to serve."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8d8ccb53-27ee-5c46-83b8-d35d9e3b0886/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "465 kcal",
+    "carbohydrateContent": "68 g",
+    "cholesterolContent": "31 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "1285 mg",
+    "sugarContent": "14 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1d52dea2-69f4-52a0-87cc-32465d7ee20e",
+      "name": "ounce) cans cream-style corn",
+      "normalized_name": "ounce cans cream-style corn",
+      "quantity": "2 (14.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "82666c9c-8ee7-5fd6-852d-addb8807f032",
+      "name": "ounce) can whole kernel corn",
+      "normalized_name": "ounce can whole kernel corn",
+      "quantity": "1 (15.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    },
+    {
+      "id": "bb9022e2-8ff4-5c69-8747-92f78a8cbce3",
+      "slug": "corn-chowder",
+      "name": "Corn Chowder"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b1da4043-161f-5b59-b102-87a72b0cd40a",
+      "slug": "corn-chowder-recipes",
+      "name": "Corn Chowder Recipes",
+      "color": null
+    },
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13120/a-maize-ing-corn-chowder"
+  },
+  "public": true,
+  "updated_at": 1782162394,
+  "revision": 1
+}

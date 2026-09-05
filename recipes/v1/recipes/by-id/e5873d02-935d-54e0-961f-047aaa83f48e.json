@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e5873d02-935d-54e0-961f-047aaa83f48e",
+  "slug": "nancys-boiled-gazpacho",
+  "name": "Nancy's Boiled Gazpacho",
+  "recipe_type": "soup",
+  "brief_description": "Nancy's boiled gazpacho recipe makes a cold soup that includes beef bouillon and tomato juice, stirred into a colorful combination of fresh veggies.",
+  "cuisine": "Spanish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Simmer tomato juice in a medium saucepan over medium-high heat; stir in bouillon cubes until dissolved, about 5 minutes. Off heat, add tomato, cucumber, onion, bell pepper, vinegar, oil, celery, Worcestershire sauce, and hot sauce. Cover soup; chill in the refrigerator before serving, 6 to 8 hours."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e5873d02-935d-54e0-961f-047aaa83f48e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "79 kcal",
+    "carbohydrateContent": "9 g",
+    "fiberContent": "1 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "633 mg",
+    "sugarContent": "6 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2a32e6fa-0693-58c1-a757-73ee50b40893",
+      "name": "tomato juice",
+      "normalized_name": "tomato juice",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "918f12bb-a396-56e2-8055-bdacce012d17",
+      "name": "beef bouillon cubes",
+      "normalized_name": "beef bouillon cubes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bfc75db0-f0a9-5220-8b94-6d93671874b3",
+      "name": "large tomato",
+      "normalized_name": "large tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "7640da8e-6c08-5938-9bd0-1cdf2e3f682f",
+      "name": "chopped cucumber",
+      "normalized_name": "chopped cucumber",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "36a74fec-d1b3-5fd5-a16b-85ed1240196f",
+      "name": "chopped green bell pepper",
+      "normalized_name": "chopped green bell pepper",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3984a17a-560e-5498-8e4b-ecdeaafe5951",
+      "name": "red wine vinegar",
+      "normalized_name": "red wine vinegar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "52271919-0bfa-54cc-8199-253954f474cb",
+      "name": "dash hot pepper sauce (such as tabasco\u00ae)",
+      "normalized_name": "dash hot pepper sauce",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "c35b4028-c374-5777-a813-14d61361df41",
+      "slug": "gazpacho",
+      "name": "Gazpacho"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ff7e1070-248f-5b5e-b89b-87aaaab12cc6",
+      "slug": "gazpacho-recipes",
+      "name": "Gazpacho Recipes",
+      "color": null
+    },
+    {
+      "id": "810e961d-68a9-508b-b05e-3207ef6601a7",
+      "slug": "cold-soup-recipes",
+      "name": "Cold Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "ce42b902-40b1-5733-83a2-3f55dfe6e7fc",
+      "slug": "cucumber",
+      "name": "Cucumber",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "648e9a72-96a1-5b58-9a0c-0980359f7b23",
+      "slug": "green-bell-peppers",
+      "name": "Green Bell Peppers",
+      "color": null
+    },
+    {
+      "id": "a521fc92-4d06-54e8-8b56-d71c7745923c",
+      "slug": "bell-peppers",
+      "name": "Bell Peppers",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/217016/nancys-boiled-gazpacho"
+  },
+  "public": true,
+  "updated_at": 1753199168,
+  "revision": 1
+}

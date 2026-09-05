@@ -1,0 +1,232 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a4a9c9d4-9119-5b7c-9e56-f97f68ff9b80",
+  "slug": "napa-cabbage-noodle-salad",
+  "name": "Napa Cabbage Noodle Salad",
+  "recipe_type": "salad",
+  "brief_description": "A delicious napa cabbage salad with lots of crunchy noodles and almonds tossed in a sweet and tangy vinegar-soy dressing.",
+  "cuisine": "World American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place the cabbage in a large bowl, cover, and place in the refrigerator to chill for 30 minutes. Heat the olive oil in a skillet over medium heat, and cook and stir the ramen noodles, sesame seeds, and almonds until lightly browned; set aside to cool."
+    },
+    {
+      "position": 2,
+      "text": "Prepare the dressing by mixing the canola oil, soy sauce, sugar, balsamic, and white vinegars in a blender until smooth."
+    },
+    {
+      "position": 3,
+      "text": "About 30 minutes before serving, toss the dressing and cabbage mixture together; chill. Just before serving, toss the noodle mixture with the cabbage mixture."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a4a9c9d4-9119-5b7c-9e56-f97f68ff9b80/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "666 kcal",
+    "carbohydrateContent": "32 g",
+    "fiberContent": "5 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "149 mg",
+    "sugarContent": "23 g",
+    "fatContent": "59 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2cf76962-60be-51f6-97d2-a072219b08d8",
+      "name": "large head napa cabbage",
+      "normalized_name": "large head napa cabbage",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "shredded",
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6b13523d-127f-5842-ab8d-9b9ad78dc149",
+      "name": "ounce) package ramen noodles",
+      "normalized_name": "ounce package ramen noodles",
+      "quantity": "1 (3",
+      "unit": "pieces",
+      "preparation": "crushed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "e1f678b6-d8cf-5c32-9ae8-0d389e675eb7",
+      "name": "sesame seeds",
+      "normalized_name": "sesame seeds",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f5696255-507e-5e03-9b86-645d46713c0e",
+      "name": "blanched slivered almonds",
+      "normalized_name": "blanched slivered almonds",
+      "quantity": "3",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "03174c98-4286-5a20-ae8a-229f93f11569",
+      "name": "canola oil",
+      "normalized_name": "canola oil",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "362e8788-4b07-5d90-b5e6-28134dd6bd01",
+      "name": "balsamic vinegar",
+      "normalized_name": "balsamic vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "54ab7daa-52f3-5fe6-8ea9-272aa4955243",
+      "name": "white wine vinegar",
+      "normalized_name": "white wine vinegar",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "e4abd355-b1a2-5407-a771-b60672356f88",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    },
+    {
+      "id": "4da1ebb5-4ca4-5c60-aebe-f2c19c525c22",
+      "slug": "cabbage",
+      "name": "Cabbage"
+    },
+    {
+      "id": "cc1c4015-f4e3-57b7-a2aa-9d027ecd7d84",
+      "slug": "napa-cabbage",
+      "name": "Napa Cabbage"
+    }
+  ],
+  "tags": [
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "d06237de-f2f8-5c3d-84e9-9b5833ff192c",
+      "slug": "napa-cabbage",
+      "name": "Napa Cabbage",
+      "color": null
+    },
+    {
+      "id": "4aa94727-af93-50d8-b901-2043dfebe1de",
+      "slug": "pasta-salad",
+      "name": "Pasta Salad",
+      "color": null
+    },
+    {
+      "id": "635c8bd7-c28b-54aa-bce9-be6bf55fc87c",
+      "slug": "ramen-noodle-recipes",
+      "name": "Ramen Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "3d692f67-54c3-5135-8edb-98c25ad1ca4c",
+      "slug": "noodle-recipes",
+      "name": "Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "0a530b7e-8534-50a8-a737-1e7edb94b919",
+      "slug": "sesame-seed-recipes",
+      "name": "Sesame Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14249/napa-cabbage-noodle-salad"
+  },
+  "public": true,
+  "updated_at": 1747746286,
+  "revision": 1
+}

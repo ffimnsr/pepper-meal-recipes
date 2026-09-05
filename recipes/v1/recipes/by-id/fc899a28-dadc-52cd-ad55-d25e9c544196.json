@@ -1,0 +1,181 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fc899a28-dadc-52cd-ad55-d25e9c544196",
+  "slug": "strawberry-fluff",
+  "name": "Strawberry Fluff",
+  "recipe_type": "salad",
+  "brief_description": "This is a favorite holiday treat for my family. It can be made with sugar free gelatin, fat free cottage cheese, and fat free cool whip for a lower calorie treat. This is an EASY and quick treat!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "In a mixing bowl, combine the gelatin mix, cottage cheese, whipped topping and pineapple. Mix together well, refrigerate until chilled and serve."
+    }
+  ],
+  "servings": 9,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fc899a28-dadc-52cd-ad55-d25e9c544196/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "236 kcal",
+    "carbohydrateContent": "33 g",
+    "cholesterolContent": "8 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "285 mg",
+    "sugarContent": "31 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8e3b7bff-5922-5ff5-ba04-20fbe1ef0d4d",
+      "name": "ounce) packages strawberry flavored jell-o\u00ae",
+      "normalized_name": "ounce packages strawberry flavored jell-o",
+      "quantity": "2 (3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a875f90d-533f-5f47-9d31-35c7300d8fb9",
+      "name": "ounce) package cottage cheese",
+      "normalized_name": "ounce package cottage cheese",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0ffee368-ec18-5742-ab1e-3690cc47095b",
+      "name": "ounce) container frozen whipped topping",
+      "normalized_name": "ounce container frozen whipped topping",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "9d740bf0-fd08-5914-8908-c79f11881eed",
+      "name": "ounce) can crushed pineapple",
+      "normalized_name": "ounce can crushed pineapple",
+      "quantity": "1 (20",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "4139e813-f2cf-5a22-8f95-77583074ac6a",
+      "slug": "specialty-dessert",
+      "name": "Specialty Dessert"
+    },
+    {
+      "id": "f847834b-4872-5b98-aac7-5e7325e478e7",
+      "slug": "dessert-salad",
+      "name": "Dessert Salad"
+    },
+    {
+      "id": "4bca0e11-51a5-57ac-9041-aa23f2c08469",
+      "slug": "jell-o-salad",
+      "name": "Jell-O\u00ae Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "de3c1fd0-b1a8-5791-80c3-3e8b86b0314b",
+      "slug": "cottage-cheese-recipes",
+      "name": "Cottage Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "f4182272-3374-5426-b64c-8cd8cd875fab",
+      "slug": "sugar-free",
+      "name": "Sugar-Free",
+      "color": null
+    },
+    {
+      "id": "581edb85-0355-5c4f-8514-2ccd690bdd7e",
+      "slug": "strawberry-dessert-recipes",
+      "name": "Strawberry Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16034/strawberry-fluff"
+  },
+  "public": true,
+  "updated_at": 1767543907,
+  "revision": 1
+}

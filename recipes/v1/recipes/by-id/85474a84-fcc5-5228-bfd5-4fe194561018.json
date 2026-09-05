@@ -1,0 +1,274 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "85474a84-fcc5-5228-bfd5-4fe194561018",
+  "slug": "mushroom-spinach-soup",
+  "name": "Mushroom Spinach Soup",
+  "recipe_type": "soup",
+  "brief_description": "This soup starts with a chicken stock, is made savory with dried herbs, garlic, leeks, and mushrooms, and then finished with a few shredded spinach leaves and grated parmesan. Most of the vegetables are strained out, so it is not really filling enough to",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Saute butter, leeks, onion, and garlic until clear. Add mushrooms (except the 8 reserved chopped mushrooms), savory, oregano, sherry, stock, tomato paste and bay leaf. Simmer for 30 minutes or so."
+    },
+    {
+      "position": 2,
+      "text": "Strain out the vegetables."
+    },
+    {
+      "position": 3,
+      "text": "Stir the reserved mushrooms and spinach leaves into the broth, and cook until spinach is wilted. Add salt and pepper to taste. Serve garnished with Parmesan cheese if desired."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/85474a84-fcc5-5228-bfd5-4fe194561018/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "90 kcal",
+    "carbohydrateContent": "12 g",
+    "cholesterolContent": "9 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "117 mg",
+    "sugarContent": "4 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "80c097d8-212d-5781-a71e-0b7efa0d6635",
+      "name": "leeks",
+      "normalized_name": "leeks",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "056b1ec3-fcb8-5352-868b-33c80fcaaf73",
+      "name": "chopped mushrooms",
+      "normalized_name": "chopped mushrooms",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "62f21f3f-46b7-5119-8b79-458cd2e65299",
+      "name": "dried savory",
+      "normalized_name": "dried savory",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "e1b1dc68-7b7b-59ca-8c26-3635ad2a1317",
+      "name": "sherry",
+      "normalized_name": "sherry",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "9",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "21960b21-948a-5139-b037-73997a5656a0",
+      "name": "tomato paste",
+      "normalized_name": "tomato paste",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "08dfb974-78e4-5696-87cb-0dcb467b0897",
+      "name": "leaves fresh spinach",
+      "normalized_name": "leaves fresh spinach",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "c89e7cb5-5219-5cc1-9c42-2443e938976b",
+      "slug": "spinach-soup",
+      "name": "Spinach Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "06c180fb-36d6-5fef-8a61-d938910d90df",
+      "slug": "spinach-soup-recipes",
+      "name": "Spinach Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "28f24011-6706-59fa-8654-c3d2657489d7",
+      "slug": "mushroom",
+      "name": "Mushroom",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13090/mushroom-spinach-soup"
+  },
+  "public": true,
+  "updated_at": 1739568399,
+  "revision": 1
+}

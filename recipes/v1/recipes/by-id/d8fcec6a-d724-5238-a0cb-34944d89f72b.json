@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d8fcec6a-d724-5238-a0cb-34944d89f72b",
+  "slug": "crab-boil",
+  "name": "Crab Boil",
+  "recipe_type": "soup",
+  "brief_description": "This classic crab boil with whole crab, fresh corn, sausage, onion, and red potatoes cooked in a seasoned broth makes a sensational seafood feast.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Bring a large pot of water to a boil."
+    },
+    {
+      "position": 2,
+      "text": "Add potatoes, sausages, onions, corn, and seafood seasoning. Boil until potatoes are cooked through, about 30 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Gently drop crabs into pot and boil until crabmeat is cooked through, at least 10 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Drain and serve. Enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d8fcec6a-d724-5238-a0cb-34944d89f72b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "416 kcal",
+    "carbohydrateContent": "46 g",
+    "cholesterolContent": "83 mg",
+    "fiberContent": "9 g",
+    "proteinContent": "34 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "4890 mg",
+    "sugarContent": "12 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a2e7afc9-3ad0-55dd-86b9-57e185084b6e",
+      "name": "red potatoes",
+      "normalized_name": "red potatoes",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3421e681-e735-513c-b99d-6b735f729dd2",
+      "name": "andouille sausages",
+      "normalized_name": "andouille sausages",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "quartered",
+      "position": 3
+    },
+    {
+      "ingredient_id": "39a23cf8-5121-5a2e-a255-50d15e265b75",
+      "name": "ears fresh corn",
+      "normalized_name": "ears fresh corn",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into halves",
+      "position": 4
+    },
+    {
+      "ingredient_id": "f36079e9-41f0-5560-8430-d46d3f24eb7e",
+      "name": "seafood seasoning (such as old bay\u00ae)",
+      "normalized_name": "seafood seasoning",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "36ed302c-91ad-5ace-bade-4645f9d143d0",
+      "name": "whole dungeness crabs",
+      "normalized_name": "whole dungeness crabs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "2336c377-3a0d-5315-937c-eb9b27723743",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes"
+    },
+    {
+      "id": "afb12c53-1370-57be-ad43-92c3f48c503b",
+      "slug": "crab",
+      "name": "Crab"
+    }
+  ],
+  "tags": [
+    {
+      "id": "10c08589-6d06-5624-979f-035d5f98affd",
+      "slug": "red-potatoes",
+      "name": "Red Potatoes",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "6f0cbf8f-71f0-5dbd-9d5e-ff0c45cca341",
+      "slug": "crab",
+      "name": "Crab",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235505/crab-boil"
+  },
+  "public": true,
+  "updated_at": 1763671979,
+  "revision": 1
+}

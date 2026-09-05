@@ -1,0 +1,219 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "889c0c6e-14ff-554f-adf3-1ed6c7a7457f",
+  "slug": "simple-chopped-liver",
+  "name": "Simple Chopped Liver",
+  "recipe_type": "appetizer",
+  "brief_description": "This Jewish chopped liver spread is a delicious savory blend of tender cooked liver, onion, and hard-boiled eggs perfect for Passover celebrations.",
+  "cuisine": "Jewish American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place eggs into a saucepan and cover with water. Bring to a boil, then remove the from heat and let eggs stand in hot water for 15 minutes. Remove eggs from hot water, cool under cold running water, and peel."
+    },
+    {
+      "position": 3,
+      "text": "Meanwhile, heat canola oil in a skillet over medium heat. Add onions and cook, stirring occasionally, until soft and translucent, about 5 minutes. Reduce heat to medium-low and continue cooking and stirring until onions are very tender and golden brown, 5 to 10 more minutes. Transfer to a plate."
+    },
+    {
+      "position": 4,
+      "text": "Cook chicken livers in the same skillet until no longer pink in the center and the juices run clear, 5 to 10 minutes. Place chicken livers onto the same plate as onions and allow to cool."
+    },
+    {
+      "position": 5,
+      "text": "Process chicken livers and onions in a food processor to the desired consistency."
+    },
+    {
+      "position": 6,
+      "text": "Transfer to a bowl, season with salt and sugar, and stir in chopped eggs."
+    },
+    {
+      "position": 7,
+      "text": "Chill before serving, about 2 hours. Enjoy!"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/889c0c6e-14ff-554f-adf3-1ed6c7a7457f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "121 kcal",
+    "carbohydrateContent": "3 g",
+    "cholesterolContent": "251 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "46 mg",
+    "sugarContent": "1 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "03174c98-4286-5a20-ae8a-229f93f11569",
+      "name": "canola oil",
+      "normalized_name": "canola oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "a57bbac7-6400-51a1-86c7-b53ae4cf4047",
+      "name": "chicken livers",
+      "normalized_name": "chicken livers",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "rinsed and trimmed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "39522941-2b62-5074-b866-84fde8ccecfe",
+      "slug": "pate",
+      "name": "Pate"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e1ab67c8-fc8d-5bb7-a37a-a61d751dddc7",
+      "slug": "pate-recipes",
+      "name": "Pate Recipes",
+      "color": null
+    },
+    {
+      "id": "f8ef87d6-0290-59c2-8196-4971f34fe7e6",
+      "slug": "dips-and-spreads-recipes",
+      "name": "Dips and Spreads Recipes",
+      "color": null
+    },
+    {
+      "id": "d302e175-eebe-5aa5-b201-8d914809ae52",
+      "slug": "jewish",
+      "name": "Jewish",
+      "color": null
+    },
+    {
+      "id": "a5d0d36f-890f-5a02-aa9d-294e4e4a584a",
+      "slug": "passover",
+      "name": "Passover",
+      "color": null
+    },
+    {
+      "id": "ebf99938-61a8-5ffe-b436-629f58509306",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "b179f124-9e41-5f0f-95b0-bc38497b7808",
+      "slug": "food-processor",
+      "name": "Food Processor",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/76193/simple-chopped-liver"
+  },
+  "public": true,
+  "updated_at": 1786465326,
+  "revision": 1
+}

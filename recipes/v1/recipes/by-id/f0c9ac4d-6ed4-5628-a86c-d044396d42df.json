@@ -1,0 +1,186 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f0c9ac4d-6ed4-5628-a86c-d044396d42df",
+  "slug": "pink-fluff",
+  "name": "Pink Fluff",
+  "recipe_type": "salad",
+  "brief_description": "This pink fluff recipe is a creamy mix of cottage cheese, whipped topping, pineapple, cherry pie filling, and raspberry gelatin, and topped with pecans.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine cottage cheese, pineapple, cherry pie filling, and whipped topping in a large bowl; pour gelatin over top and mix well. Divide fluff among serving bowls; chill for 8 hours to overnight."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f0c9ac4d-6ed4-5628-a86c-d044396d42df/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "338 kcal",
+    "carbohydrateContent": "49 g",
+    "cholesterolContent": "11 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "364 mg",
+    "sugarContent": "27 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a875f90d-533f-5f47-9d31-35c7300d8fb9",
+      "name": "ounce) package cottage cheese",
+      "normalized_name": "ounce package cottage cheese",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "9d740bf0-fd08-5914-8908-c79f11881eed",
+      "name": "ounce) can crushed pineapple",
+      "normalized_name": "ounce can crushed pineapple",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 2
+    },
+    {
+      "ingredient_id": "c0398626-695f-5612-9223-e715e5576614",
+      "name": "ounce) can cherry pie filling",
+      "normalized_name": "ounce can cherry pie filling",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0ffee368-ec18-5742-ab1e-3690cc47095b",
+      "name": "ounce) container frozen whipped topping",
+      "normalized_name": "ounce container frozen whipped topping",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c98c6eab-6c6f-5356-8a53-943c8c279727",
+      "name": "ounce) package raspberry flavored jell-o\u00ae mix",
+      "normalized_name": "ounce package raspberry flavored jell-o mix",
+      "quantity": "1 (3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "4139e813-f2cf-5a22-8f95-77583074ac6a",
+      "slug": "specialty-dessert",
+      "name": "Specialty Dessert"
+    },
+    {
+      "id": "f847834b-4872-5b98-aac7-5e7325e478e7",
+      "slug": "dessert-salad",
+      "name": "Dessert Salad"
+    },
+    {
+      "id": "4bca0e11-51a5-57ac-9041-aa23f2c08469",
+      "slug": "jell-o-salad",
+      "name": "Jell-O\u00ae Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c8ca8695-6f02-5df2-aa10-c45848cb52b7",
+      "slug": "fruit-salad-recipes",
+      "name": "Fruit Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "b0b3e2ff-eb7f-5c81-aa04-939e63ae2606",
+      "slug": "jell-o-salad",
+      "name": "Jell-O\u00ae Salad",
+      "color": null
+    },
+    {
+      "id": "de3c1fd0-b1a8-5791-80c3-3e8b86b0314b",
+      "slug": "cottage-cheese-recipes",
+      "name": "Cottage Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "476d77c7-a332-5fe4-a6a1-ebd36e74ebd8",
+      "slug": "jell-o-desserts",
+      "name": "Jell-O\u00ae Desserts",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "a0e4c03c-79e3-5259-86bf-c9998b753374",
+      "slug": "dessert-salad-recipes",
+      "name": "Dessert Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "f82ec452-3457-56a4-b824-34e68140d257",
+      "slug": "specialty-dessert-recipes",
+      "name": "Specialty Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24613/pink-fluff"
+  },
+  "public": true,
+  "updated_at": 1765858661,
+  "revision": 1
+}

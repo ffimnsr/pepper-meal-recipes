@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "81491617-0caa-53d6-97eb-9922afb8fdeb",
+  "slug": "the-real-reuben",
+  "name": "The Real Reuben",
+  "recipe_type": "main",
+  "brief_description": "Dark pumpernickel rye, heaped corned beef, drained sauerkraut and imported Swiss cheese make this sandwich something special.",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place bread on baking sheet or broiling pan. Layer corned beef, sauerkraut and cheese on top of bread slices."
+    },
+    {
+      "position": 2,
+      "text": "Broil on high heat for 3 to 4 minutes, until cheese has melted. Serve hot with Thousand Island dressing."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 3,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/81491617-0caa-53d6-97eb-9922afb8fdeb/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "874 kcal",
+    "carbohydrateContent": "53 g",
+    "cholesterolContent": "152 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "36 g",
+    "saturatedFatContent": "20 g",
+    "sodiumContent": "2716 mg",
+    "sugarContent": "17 g",
+    "fatContent": "59 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c0716d06-b338-5ed6-a3e6-66454086eeef",
+      "name": "slices dark rye bread",
+      "normalized_name": "slices dark rye bread",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e1437a58-88e2-565e-957b-fe7f2e27ced1",
+      "name": "thinly sliced corned beef",
+      "normalized_name": "thinly sliced corned beef",
+      "quantity": "0.25",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3e5d8891-729e-55a6-be7a-1d45ae0566ef",
+      "name": "sauerkraut",
+      "normalized_name": "sauerkraut",
+      "quantity": "3",
+      "unit": "ounces",
+      "preparation": "drained",
+      "position": 3
+    },
+    {
+      "ingredient_id": "aa55292e-a279-5cd4-a639-3243c7f5331d",
+      "name": "slices swiss cheese",
+      "normalized_name": "slices swiss cheese",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ba02302f-d3d8-5f65-8c56-3386c42008b9",
+      "name": "thousand island dressing",
+      "normalized_name": "thousand island dressing",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "1377e8b7-e214-5a16-8a8f-8f637f2a7e3f",
+      "slug": "brisket",
+      "name": "Brisket",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "5868016f-c4cc-5b4c-baeb-ca0425acfefc",
+      "slug": "corned-beef-recipes",
+      "name": "Corned Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23909/the-real-reuben"
+  },
+  "public": true,
+  "updated_at": 1657827891,
+  "revision": 1
+}

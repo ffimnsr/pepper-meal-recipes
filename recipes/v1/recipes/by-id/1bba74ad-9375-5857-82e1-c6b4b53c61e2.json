@@ -1,0 +1,233 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1bba74ad-9375-5857-82e1-c6b4b53c61e2",
+  "slug": "my-favorite-sloppy-joes",
+  "name": "My Favorite Sloppy Joes",
+  "recipe_type": "main",
+  "brief_description": "This quick Sloppy Joe meal is a perfect weeknight dinner, and one the kids will love. Who knew basic pantry ingredients would result in such a tasty meal?",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook and stir ground beef in a large skillet over medium heat until browned and crumbly, about 10 minutes; drain excess grease. Mix ketchup, dried onion, brown sugar, mustard, Worcestershire sauce, liquid smoke, and garlic into beef, stirring until brown sugar has dissolved."
+    },
+    {
+      "position": 2,
+      "text": "Stir in broth and bring to a boil. Reduce the heat to low and simmer until thick, about 30 minutes. Season with salt and black pepper. Serve on buns."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1bba74ad-9375-5857-82e1-c6b4b53c61e2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "398 kcal",
+    "carbohydrateContent": "45 g",
+    "cholesterolContent": "67 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "28 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "960 mg",
+    "sugarContent": "18 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "e9df2f63-180f-5880-9857-386af4684bfa",
+      "name": "dried minced onion",
+      "normalized_name": "dried minced onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "be58ca37-5136-5130-aa1b-3c4ebfadcb79",
+      "name": "spicy brown mustard",
+      "normalized_name": "spicy brown mustard",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or more to taste",
+      "position": 6
+    },
+    {
+      "ingredient_id": "b240139a-3c93-5b57-8611-4fdcfe510345",
+      "name": "liquid smoke flavoring",
+      "normalized_name": "liquid smoke flavoring",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "753f7ecc-cd9e-594d-9655-b61db191b85e",
+      "name": "buns",
+      "normalized_name": "buns",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "3580a496-e069-57a4-ae59-0b84d1f420ae",
+      "slug": "sloppy-joe",
+      "name": "Sloppy Joe"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0ba9c09a-8e03-5467-ae53-b763fdd0d172",
+      "slug": "sloppy-joe-recipes",
+      "name": "Sloppy Joe Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "4df3c995-92b0-5b26-81f3-a37a2a681eab",
+      "slug": "retro-recipes",
+      "name": "Retro Recipes",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    },
+    {
+      "id": "e14427e4-3d8b-5ae4-b855-38d58144a4c2",
+      "slug": "1980s",
+      "name": "1980s",
+      "color": null
+    },
+    {
+      "id": "2fc3cf88-3329-5d3c-9170-6d6569776e8a",
+      "slug": "liquid-smoke-recipes",
+      "name": "Liquid Smoke Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231175/my-favorite-sloppy-joes"
+  },
+  "public": true,
+  "updated_at": 1679603914,
+  "revision": 1
+}

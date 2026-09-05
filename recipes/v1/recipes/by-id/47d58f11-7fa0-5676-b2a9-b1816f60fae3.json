@@ -1,0 +1,244 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "47d58f11-7fa0-5676-b2a9-b1816f60fae3",
+  "slug": "morel-mushroom-bisque",
+  "name": "Creamy Morel Mushroom Soup",
+  "recipe_type": "soup",
+  "brief_description": "Morel mushroom soup made with fresh morel mushrooms cooked in butter with garlic, then simmered in cream for a rich and magnificent springtime soup.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt the butter in a large pot over medium heat. Stir in the garlic, onion, and morels; cook, stirring frequently, until the onions have softened and turned translucent, about 5 minutes. Stir in chicken soup base and flour; cook for 1 to 2 minutes. Pour in water and cream; bring to a simmer, and cook 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Puree half of the soup in small batches, filling the blender no more than halfway full each time. Return soup puree to pot. Cook on low 10 to 15 minutes. Season with thyme and salt and pepper before serving."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/47d58f11-7fa0-5676-b2a9-b1816f60fae3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "663 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "225 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "42 g",
+    "sodiumContent": "753 mg",
+    "sugarContent": "3 g",
+    "fatContent": "67 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "6e61cbf7-9c82-5b26-a214-c01d9f1ee1eb",
+      "name": "fresh morel mushrooms",
+      "normalized_name": "fresh morel mushrooms",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "df30a526-07be-5d3f-8f8c-6149ad65b796",
+      "name": "chicken soup base",
+      "normalized_name": "chicken soup base",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "c9acd598-99f5-5a6d-82d4-90bef43a235d",
+      "name": "ground dried thyme",
+      "normalized_name": "ground dried thyme",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "a223d120-a2a2-54de-8b0c-cc5e335554a3",
+      "slug": "cream-soup",
+      "name": "Cream Soup"
+    },
+    {
+      "id": "61620a59-fdce-5447-98ef-ea9b9bd29f2e",
+      "slug": "cream-of-mushroom-soup",
+      "name": "Cream of Mushroom Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d26b16f3-764b-5c4f-8e61-3fb8a7960987",
+      "slug": "cream-of-mushroom-soup-recipes",
+      "name": "Cream of Mushroom Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "73f491e1-2401-5c91-946a-c43f7fae5a62",
+      "slug": "morel-mushroom-recipes",
+      "name": "Morel Mushroom Recipes",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "28f24011-6706-59fa-8654-c3d2657489d7",
+      "slug": "mushroom",
+      "name": "Mushroom",
+      "color": null
+    },
+    {
+      "id": "170a28a4-5360-5e89-accb-7ecc55c5340b",
+      "slug": "spring",
+      "name": "Spring",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/168852/morel-mushroom-bisque"
+  },
+  "public": true,
+  "updated_at": 1778157640,
+  "revision": 1
+}

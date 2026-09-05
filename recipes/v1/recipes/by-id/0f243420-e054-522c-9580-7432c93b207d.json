@@ -1,0 +1,251 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0f243420-e054-522c-9580-7432c93b207d",
+  "slug": "turkey-sloppy-joes",
+  "name": "Turkey Sloppy Joes",
+  "recipe_type": "main",
+  "brief_description": "These turkey sloppy joes get a little zip from red pepper flakes.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a nonstick skillet over medium heat. Cook and stir turkey, onion, bell pepper, and tomato in the hot skillet until turkey is crumbly and no longer pink, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir ketchup, barbeque sauce, mustard, vinegar, celery seed, black pepper, and red pepper flakes into turkey in the skillet. Reduce heat to low and simmer, stirring occasionally, for 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Serve turkey mixture on toasted hamburger buns."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0f243420-e054-522c-9580-7432c93b207d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "393 kcal",
+    "carbohydrateContent": "36 g",
+    "cholesterolContent": "105 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "33 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "525 mg",
+    "sugarContent": "11 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2ab27880-5f02-56cd-a31a-aab351e1ec65",
+      "name": "ground turkey",
+      "normalized_name": "ground turkey",
+      "quantity": "2.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "36a74fec-d1b3-5fd5-a16b-85ed1240196f",
+      "name": "chopped green bell pepper",
+      "normalized_name": "chopped green bell pepper",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3a9119ef-650f-5e0f-91eb-2349298db57d",
+      "name": "chopped tomato",
+      "normalized_name": "chopped tomato",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "049fc059-677b-52a9-9235-2091a06cf3b6",
+      "name": "no-salt-added ketchup",
+      "normalized_name": "no-salt-added ketchup",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "9dd481b3-27c3-5a07-bf33-511804d982e8",
+      "name": "barbeque sauce",
+      "normalized_name": "barbeque sauce",
+      "quantity": "7",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "aab9e3a0-656b-56b3-ad5d-01701a78b04c",
+      "name": "vinegar",
+      "normalized_name": "vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "9e594f4e-8638-5e1e-8162-ddf04078caec",
+      "name": "celery seed",
+      "normalized_name": "celery seed",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 11
+    },
+    {
+      "ingredient_id": "eb096cf5-5c5b-50df-986c-b4772ae605d6",
+      "name": "hamburger bun",
+      "normalized_name": "hamburger bun",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "split and toasted",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "41d42358-bb7f-5122-bf1f-be7c83dadf69",
+      "slug": "turkey",
+      "name": "Turkey"
+    },
+    {
+      "id": "3d0f65bf-e337-54e5-b8a2-5dc0affeb69c",
+      "slug": "ground-turkey",
+      "name": "Ground Turkey"
+    }
+  ],
+  "tags": [
+    {
+      "id": "79e2c749-39d4-593a-a697-3cd6d97d00e6",
+      "slug": "ground-turkey-recipes",
+      "name": "Ground Turkey Recipes",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "38b2cb0a-079a-56eb-93bf-29da23d3ee9c",
+      "slug": "kid-friendly",
+      "name": "Kid-Friendly",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    },
+    {
+      "id": "988a2989-8071-5697-8ed2-3941bea4baa7",
+      "slug": "back-to-school",
+      "name": "Back to School",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230021/turkey-sloppy-joes"
+  },
+  "public": true,
+  "updated_at": 1776810828,
+  "revision": 1
+}

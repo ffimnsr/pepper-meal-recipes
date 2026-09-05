@@ -1,0 +1,200 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "37e53042-8df2-594d-bf01-a42b918eb74d",
+  "slug": "quick-and-easy-spanish-rice",
+  "name": "Quick and Easy Spanish Rice",
+  "recipe_type": "drink",
+  "brief_description": "This quick and easy Spanish rice uses instant rice, vegetable juice, and taco seasoning for a spicy side dish.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook and stir onion, garlic, and vegetable oil in a skillet over medium heat until onions are softened, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir rice into onion mixture and cook, stirring often, until rice becomes slightly opaque, 1 to 2 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir chicken broth, vegetable juice, and taco seasoning into rice mixture and bring to a boil. Cover and simmer over low heat until rice has absorbed most of the liquid, about 5 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/37e53042-8df2-594d-bf01-a42b918eb74d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "235 kcal",
+    "carbohydrateContent": "42 g",
+    "fiberContent": "1 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "169 mg",
+    "sugarContent": "2 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "922b876a-413c-528d-b9cd-75926c736c7a",
+      "name": "uncooked instant rice (such as minute\u00ae)",
+      "normalized_name": "uncooked instant rice",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "2.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "03220006-8bc6-5a1c-84b5-71341b6ab8da",
+      "name": "vegetable juice (such as v8\u00ae)",
+      "normalized_name": "vegetable juice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "7976e159-80e6-5c5c-8d59-0812cd5d865c",
+      "name": "taco seasoning",
+      "normalized_name": "taco seasoning",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "800b3c0b-bff9-5682-9bcd-21cc6d3e47ec",
+      "slug": "spanish-rice",
+      "name": "Spanish Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "62fa7371-cbc2-5fe7-8752-f2c2a79fa8f9",
+      "slug": "spanish-rice-recipes",
+      "name": "Spanish Rice Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "e455671a-97ea-547d-ae1d-92ff722a7803",
+      "slug": "taco-seasoning-recipes",
+      "name": "Taco Seasoning Recipes",
+      "color": null
+    },
+    {
+      "id": "187603c2-42c4-5076-a2c7-438cbce2329f",
+      "slug": "herbs-and-spices-recipes",
+      "name": "Herbs and Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "4998f96b-d9a2-5b2a-9fb9-7608a3f52e16",
+      "slug": "rice-side-dish-recipes",
+      "name": "Rice Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220650/quick-and-easy-spanish-rice"
+  },
+  "public": true,
+  "updated_at": 1779048112,
+  "revision": 1
+}

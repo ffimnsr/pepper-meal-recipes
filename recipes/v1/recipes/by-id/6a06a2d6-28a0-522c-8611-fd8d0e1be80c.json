@@ -1,0 +1,193 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6a06a2d6-28a0-522c-8611-fd8d0e1be80c",
+  "slug": "mint-juleps",
+  "name": "Mint Julep",
+  "recipe_type": "dessert",
+  "brief_description": "A mint julep is made with Kentucky bourbon, sweetened with simple syrup, and served chilled with fresh mint for a classic and refreshing cocktail.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Make the simple syrup ahead of when you plan to serve: Bring water, sugar, and chopped mint to a boil over high heat in a small saucepan."
+    },
+    {
+      "position": 3,
+      "text": "Cook, stirring occasionally, until sugar is completely dissolved, 1 to 2 minutes. Remove from the heat and let cool ."
+    },
+    {
+      "position": 4,
+      "text": "Pour syrup through a strainer to remove mint leaves."
+    },
+    {
+      "position": 5,
+      "text": "To make the mint juleps: Fill eight glasses with crushed ice; pour 4 ounces bourbon and 1/4 cup mint syrup into each cup."
+    },
+    {
+      "position": 6,
+      "text": "Top each drink with a mint sprig."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6a06a2d6-28a0-522c-8611-fd8d0e1be80c/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/0isWMXp5-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "473 kcal",
+    "carbohydrateContent": "50 g",
+    "proteinContent": "0 g",
+    "sodiumContent": "10 mg",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f5b128f2-6810-59ac-86d5-4f1d658f2d70",
+      "name": "roughly chopped fresh mint leaves",
+      "normalized_name": "roughly chopped fresh mint leaves",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2f4ef825-04ab-59c0-b158-2a6babd4e8df",
+      "name": "crushed ice",
+      "normalized_name": "crushed ice",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": "or as needed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c8a1acb5-46d2-55ab-82ba-e11bf41c1a7e",
+      "name": "fluid ounces kentucky bourbon",
+      "normalized_name": "fluid ounces kentucky bourbon",
+      "quantity": "32",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d649dffc-b6d3-5044-8d4e-f02bff1202b2",
+      "name": "fresh mint for garnish",
+      "normalized_name": "fresh mint for garnish",
+      "quantity": "8",
+      "unit": "sprigs",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "4fe9efe4-15fd-5f94-9961-25de12b74509",
+      "slug": "cocktail",
+      "name": "Cocktail"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "a9299477-6caf-5366-8afd-2fcbaa8357ac",
+      "slug": "bourbon-drinks",
+      "name": "Bourbon Drinks"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e5db9739-524a-5b58-9755-f95d1e811e27",
+      "slug": "bourbon-drinks-recipes",
+      "name": "Bourbon Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "66c12025-7de3-5a84-b879-b07ddb771905",
+      "slug": "mint-recipes",
+      "name": "Mint Recipes",
+      "color": null
+    },
+    {
+      "id": "f0decdd4-0259-5932-b65f-943543dd4242",
+      "slug": "cocktail-recipes",
+      "name": "Cocktail Recipes",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "a30c45b6-c22b-58aa-8912-140353d7bbef",
+      "slug": "whiskey-drinks-recipes",
+      "name": "Whiskey Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "0c0382f0-5eab-53c6-90d8-662245a076b6",
+      "slug": "memorial-day",
+      "name": "Memorial Day",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/49444/mint-juleps"
+  },
+  "public": true,
+  "updated_at": 1768953780,
+  "revision": 1
+}

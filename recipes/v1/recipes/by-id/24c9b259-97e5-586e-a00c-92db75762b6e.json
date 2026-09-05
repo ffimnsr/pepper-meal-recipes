@@ -1,0 +1,212 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "24c9b259-97e5-586e-a00c-92db75762b6e",
+  "slug": "veal-stew",
+  "name": "Veal Stew",
+  "recipe_type": "soup",
+  "brief_description": "This veal stew features onion, garlic, and tender cubed meat simmered in tomato sauce and white wine for a hearty dish great over buttered noodles.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a large pot over medium heat. Cook and stir onion and garlic in hot oil until tender."
+    },
+    {
+      "position": 2,
+      "text": "Add veal to onion and garlic in the pot. Cook and stir until veal is evenly browned."
+    },
+    {
+      "position": 3,
+      "text": "Stir in tomato sauce and white wine; bring to a boil. Season with salt and pepper. Reduce heat to low, cover, and simmer until veal is tender, about 1 hour 30 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 100,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/24c9b259-97e5-586e-a00c-92db75762b6e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "711 kcal",
+    "carbohydrateContent": "11 g",
+    "cholesterolContent": "259 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "70 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "859 mg",
+    "sugarContent": "6 g",
+    "fatContent": "40 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "c7842826-55c0-561f-afe9-22151d95a8c1",
+      "name": "veal",
+      "normalized_name": "veal",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "trimmed and cubed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "f7a620bf-624f-5839-bad4-c9e85269074e",
+      "name": "ounce) can tomato sauce",
+      "normalized_name": "ounce can tomato sauce",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b1e2180f-a93b-5637-a231-e6913198d0d8",
+      "name": "white wine",
+      "normalized_name": "white wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "71f3d2ee-2a90-597c-bd2c-de2251e907ba",
+      "slug": "one-pot-meal-recipes",
+      "name": "One-Pot Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "a3217056-1df7-5577-82d8-45855f913181",
+      "slug": "cooking-with-wine-recipes",
+      "name": "Cooking With Wine Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "56337018-718e-5e0b-a33f-5f59eb272718",
+      "slug": "paleo-diet-recipes",
+      "name": "Paleo Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "5a776c72-4235-579b-bbcf-3fe513295831",
+      "slug": "veal",
+      "name": "Veal",
+      "color": null
+    },
+    {
+      "id": "f7714f55-5b38-5632-8117-9cfb9663f935",
+      "slug": "stews",
+      "name": "Stews",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14609/veal-stew"
+  },
+  "public": true,
+  "updated_at": 1773064232,
+  "revision": 1
+}

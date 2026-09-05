@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "faa69871-caf6-5822-a9e8-3e21460ef4d8",
+  "slug": "fruit-of-the-forest-pie",
+  "name": "Fruit of the Forest Pie",
+  "recipe_type": "dessert",
+  "brief_description": "Packed with apples, strawberries, blackberries, raspberries, and rhubarb, this fruit of the forest pie is fantastic served a-la-mode!",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Stir apple, strawberries, blackberries, raspberries, and rhubarb together in a bowl. Pour lemon juice and sprinkle sugar over fruit mixture and toss to coat."
+    },
+    {
+      "position": 3,
+      "text": "Line a 9-inch pie pan with prepared pie pastry. Turn apple mixture into pie pan. Cover with remaining pie pastry and pinch and crimp edges to seal the crusts. Cut several air holes into the top of the pastry."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until crust is golden and fruit is tender and bubbling, 30 to 40 minutes."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/faa69871-caf6-5822-a9e8-3e21460ef4d8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "194 kcal",
+    "carbohydrateContent": "22 g",
+    "fiberContent": "3 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "169 mg",
+    "sugarContent": "5 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d50526d9-1e04-58e6-9359-2942f67f4dee",
+      "name": "apple - peeled",
+      "normalized_name": "apple - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored, and sliced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "5ff5f54c-2a65-5690-a15d-70a0807a7659",
+      "name": "strawberries",
+      "normalized_name": "strawberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "35e15a5e-3914-503d-a411-6b3b21f0a903",
+      "name": "blackberries",
+      "normalized_name": "blackberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "03abd400-ed47-5448-827c-25a321322a35",
+      "name": "fresh raspberries",
+      "normalized_name": "fresh raspberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "43e29e05-7904-5897-a46d-c373905719af",
+      "name": "sliced rhubarb",
+      "normalized_name": "sliced rhubarb",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or more to taste",
+      "position": 7
+    },
+    {
+      "ingredient_id": "27888523-2169-5c36-ac5a-4806ce1cc027",
+      "name": "ounce) package pastry for a 9 inch double crust pie",
+      "normalized_name": "ounce package pastry for a 9 inch double crust pie",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "551563fd-2c14-57e0-ac26-f83cd1b0282b",
+      "slug": "pies",
+      "name": "Pies"
+    },
+    {
+      "id": "4e802708-5386-5870-bbde-d0cf54ecc091",
+      "slug": "fruit-pies",
+      "name": "Fruit Pies"
+    },
+    {
+      "id": "3ade0972-d1c1-50b7-9a47-a6f2be9e3e29",
+      "slug": "rhubarb-pie",
+      "name": "Rhubarb Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "08b194ca-5240-5459-8ed1-535c592dd185",
+      "slug": "blackberry-pie-recipes",
+      "name": "Blackberry Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "b3abc364-d7f8-5652-be49-8f70c9f95f5d",
+      "slug": "raspberry-pie-recipes",
+      "name": "Raspberry Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "5dd9b831-f00f-5624-b250-989d61748753",
+      "slug": "rhubarb",
+      "name": "Rhubarb",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "1feb6745-4c3a-532c-8017-0b2e3fe6bf86",
+      "slug": "raspberries",
+      "name": "Raspberries",
+      "color": null
+    },
+    {
+      "id": "edf14c69-9631-58ab-a092-acc75043bf94",
+      "slug": "blackberries",
+      "name": "Blackberries",
+      "color": null
+    },
+    {
+      "id": "5c0ebce0-1473-5a23-b831-b4c05b543161",
+      "slug": "raspberry-dessert-recipes",
+      "name": "Raspberry Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "e9d933fc-ed03-594d-a7e8-83f0266c7917",
+      "slug": "pies",
+      "name": "Pies",
+      "color": null
+    },
+    {
+      "id": "898af736-967b-51ae-b777-45923e98461f",
+      "slug": "fruit-pies",
+      "name": "Fruit Pies",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234841/fruit-of-the-forest-pie"
+  },
+  "public": true,
+  "updated_at": 1661192835,
+  "revision": 1
+}

@@ -1,0 +1,227 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "df4e360e-ce7b-53e7-9b53-aebaea31a440",
+  "slug": "courts-creamy-and-quick-burritos",
+  "name": "Court's Creamy and Quick Burritos",
+  "recipe_type": "soup",
+  "brief_description": "Court's creamy and quick burritos is a simple recipe for six beef burritos topped with creamy Cheddar cheese, mushroom soup, and sour cream sauce.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Cook ground beef and onion in a skillet over medium heat until beef is completely browned, 7 to 10 minutes. Drain excess grease from the skillet. Stir 1 cup Cheddar cheese, refried beans, and taco seasoning into ground beef; set aside."
+    },
+    {
+      "position": 3,
+      "text": "Combine soup, sour cream, and salsa in a bowl; spread about \u00bd into the bottom of a 9x13-inch baking dish. Set aside."
+    },
+    {
+      "position": 4,
+      "text": "Spoon beef mixture down center of each tortilla; roll tortillas around filling. Arrange rolled tortillas in a single layer in the baking dish, seam-sides down. Pour remaining \u00bd soup mixture over tortillas. Top with remaining 1 \u00bd cups Cheddar cheese."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until cheese is bubbly and melted, 30 to 35 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/df4e360e-ce7b-53e7-9b53-aebaea31a440/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "745 kcal",
+    "carbohydrateContent": "52 g",
+    "cholesterolContent": "118 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "35 g",
+    "saturatedFatContent": "22 g",
+    "sodiumContent": "1724 mg",
+    "sugarContent": "5 g",
+    "fatContent": "44 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e75e9366-01c1-5159-ada4-75c7d3fcac8d",
+      "name": "yellow onion",
+      "normalized_name": "yellow onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbb001aa-57e2-5400-b607-791c84fccb9f",
+      "name": "shredded sharp cheddar cheese",
+      "normalized_name": "shredded sharp cheddar cheese",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "9e6d05db-379b-519f-8d6a-74c332bfe2ca",
+      "name": "ounce) can refried beans",
+      "normalized_name": "ounce can refried beans",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "78113d6a-7ca1-56b0-9e0d-4df03fab851a",
+      "name": "ounce) package taco seasoning",
+      "normalized_name": "ounce package taco seasoning",
+      "quantity": "1 (1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3de1e9ac-4c7f-5818-a480-473403e19215",
+      "name": "inch) flour tortillas",
+      "normalized_name": "inch flour tortillas",
+      "quantity": "6 (9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2d1e1921-3e9f-5c4b-b821-833e5c6e4130",
+      "name": "salsa",
+      "normalized_name": "salsa",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    }
+  ],
+  "tags": [
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/220772/courts-creamy-and-quick-burritos"
+  },
+  "public": true,
+  "updated_at": 1746469016,
+  "revision": 1
+}

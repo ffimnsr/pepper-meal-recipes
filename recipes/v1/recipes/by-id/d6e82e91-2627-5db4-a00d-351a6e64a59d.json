@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d6e82e91-2627-5db4-a00d-351a6e64a59d",
+  "slug": "potato-salad",
+  "name": "Potato Salad",
+  "recipe_type": "salad",
+  "brief_description": "This potato salad is easy to make with red potatoes, pickles, hard-boiled eggs, and a creamy dressing for a favorite side at any summer BBQ!",
+  "cuisine": "U.S. American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce heat to medium-low and simmer until tender, about 10 minutes. Drain. Return potatoes to the empty pot to dry and cool."
+    },
+    {
+      "position": 3,
+      "text": "Stir mayonnaise, pickles, hard-cooked eggs, red onion, celery, mustard, and cider vinegar together in a large bowl; season to taste with salt and pepper."
+    },
+    {
+      "position": 4,
+      "text": "Fold in cooled potatoes until well combined."
+    },
+    {
+      "position": 5,
+      "text": "For best results, store potato salad in the refrigerator until chilled or overnight before serving to allow the flavors to meld."
+    },
+    {
+      "position": 6,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 20,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d6e82e91-2627-5db4-a00d-351a6e64a59d/cover.jpg",
+  "video_url": "https://cdn.jwplayer.com/videos/hvEWZRnT-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "339 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "54 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "538 mg",
+    "sugarContent": "2 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a2e7afc9-3ad0-55dd-86b9-57e185084b6e",
+      "name": "red potatoes",
+      "normalized_name": "red potatoes",
+      "quantity": "5",
+      "unit": "pounds",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ec163f04-0a08-57b0-b31d-e6ee9d056137",
+      "name": "finely chopped pickles",
+      "normalized_name": "finely chopped pickles",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b168bcf5-4eea-5f7f-9d71-d1aede2baac7",
+      "name": "large hard-cooked eggs",
+      "normalized_name": "large hard-cooked eggs",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5a94de26-aba1-5df9-ac14-4544742c49bb",
+      "name": "chopped red onion",
+      "normalized_name": "chopped red onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0257ebea-ef7c-5732-8608-1f746830c65b",
+      "name": "prepared mustard",
+      "normalized_name": "prepared mustard",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3b710695-cc41-5a91-9313-1936147aba6c",
+      "name": "apple cider vinegar",
+      "normalized_name": "apple cider vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 9
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "4c0c4e1f-8e3d-5261-95dc-84d2048bdbf2",
+      "slug": "potato-salad",
+      "name": "Potato Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "36f0ba83-6cf7-5b3c-9c04-ccc142dd82bc",
+      "slug": "potato-salad-recipes",
+      "name": "Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "08fb80b7-e7b5-5e1a-a22f-17f2941dd920",
+      "slug": "creamy-potato-salad-recipes",
+      "name": "Creamy Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "e5ff2256-03b9-54e1-a546-83bf8824657e",
+      "slug": "red-potato-salad-recipes",
+      "name": "Red Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "cc141bd5-1abc-5463-acbb-253ce1010372",
+      "slug": "dairy-free-potato-salad-recipes",
+      "name": "Dairy-Free Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "10c08589-6d06-5624-979f-035d5f98affd",
+      "slug": "red-potatoes",
+      "name": "Red Potatoes",
+      "color": null
+    },
+    {
+      "id": "0c0382f0-5eab-53c6-90d8-662245a076b6",
+      "slug": "memorial-day",
+      "name": "Memorial Day",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232864/potato-salad"
+  },
+  "public": true,
+  "updated_at": 1783433965,
+  "revision": 1
+}

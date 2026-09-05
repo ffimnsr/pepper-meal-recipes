@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c44c5794-60f5-5049-967a-7769a3ebeea7",
+  "slug": "simple-salami-sandwich",
+  "name": "Simple Salami Sandwich",
+  "recipe_type": "main",
+  "brief_description": "Salami, lettuce, tomato, and a zesty olive mix combine in this delicious and easy salami sandwich that's perfect for a quick lunch.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place bottom bun on a plate and spread mustard over the bun. Top with salami, cheese, tomato, and lettuce leaf."
+    },
+    {
+      "position": 2,
+      "text": "Combine black olives, green olives, and salad dressing in a bowl. Place mixture on top of the lettuce. Top with remaining half of bun. Serve immediately."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c44c5794-60f5-5049-967a-7769a3ebeea7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "987 kcal",
+    "carbohydrateContent": "77 g",
+    "cholesterolContent": "139 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "45 g",
+    "saturatedFatContent": "24 g",
+    "sodiumContent": "3238 mg",
+    "fatContent": "55 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3f3ad012-e7a2-5c26-a0a3-a995c752e946",
+      "name": "hoagie bun",
+      "normalized_name": "hoagie bun",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "toasted and split",
+      "position": 1
+    },
+    {
+      "ingredient_id": "b4ceb439-f835-5f3e-a8c2-a46eeb11a8f6",
+      "name": "yellow mustard",
+      "normalized_name": "yellow mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3616d1e3-229c-53e8-a9ca-ecefcf1862ed",
+      "name": "salami",
+      "normalized_name": "salami",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "06af7c04-2826-5b83-a845-fd40306bae48",
+      "name": "slices colby-jack cheese",
+      "normalized_name": "slices colby-jack cheese",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "69ce0675-6d6b-591a-a726-f2099aec1904",
+      "name": "slices tomato",
+      "normalized_name": "slices tomato",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "16f00fbe-b121-53d3-a58c-1c27c083d6ef",
+      "name": "leaf red leaf lettuce",
+      "normalized_name": "leaf red leaf lettuce",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "371a23bf-0cb4-5cc5-972a-e71149ac7c43",
+      "name": "sliced ripe olives",
+      "normalized_name": "sliced ripe olives",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "drained",
+      "position": 7
+    },
+    {
+      "ingredient_id": "2e0ce1b6-22f3-599a-9554-96d41b7a8371",
+      "name": "sliced green olives with pimiento",
+      "normalized_name": "sliced green olives with pimiento",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "0f84c6dc-8df9-54e8-8a91-25d70082d4fd",
+      "name": "zesty italian-style salad dressing",
+      "normalized_name": "zesty italian-style salad dressing",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "ec9d976e-4296-5c34-88a4-518d14e86e0b",
+      "slug": "allrecipes",
+      "name": "Allrecipes",
+      "color": null
+    },
+    {
+      "id": "617972f8-405b-5b31-a88e-e6cfa21dd0f4",
+      "slug": "picnic",
+      "name": "Picnic",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8408202/simple-salami-sandwich"
+  },
+  "public": true,
+  "updated_at": 1656013575,
+  "revision": 1
+}

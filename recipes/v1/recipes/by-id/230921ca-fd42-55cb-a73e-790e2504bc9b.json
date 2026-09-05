@@ -1,0 +1,257 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "230921ca-fd42-55cb-a73e-790e2504bc9b",
+  "slug": "mexican-rice-and-beans",
+  "name": "Mexican Rice and Beans",
+  "recipe_type": "main",
+  "brief_description": "This Mexican beans and rice recipe is an easy vegetarian dish with poblanos, basmati rice, and pinto beans seasoned with paprika, oregano, and cumin.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a medium pot over medium-high heat. Cook and stir onion, poblano pepper, and garlic in hot oil for 2 to 3 minutes. Add rice and cook, stirring occasionally, until rice is completely coated in oil, about 2 minutes. Season with paprika, cumin, oregano, salt, and black pepper."
+    },
+    {
+      "position": 2,
+      "text": "Stir in tomato paste and cook for 1 to 2 minutes. Add vegetable broth and pinto beans. Bring to a boil; reduce heat to low. Cover and simmer until rice is tender, 15 to 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Remove the pot from the heat, keep covered, and let stand for at least 5 minutes. Fluff with a fork."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/230921ca-fd42-55cb-a73e-790e2504bc9b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "348 kcal",
+    "carbohydrateContent": "59 g",
+    "fiberContent": "7 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "624 mg",
+    "sugarContent": "4 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "141a42b0-0ae4-570c-ab44-af14cc749f4c",
+      "name": "small poblano pepper",
+      "normalized_name": "small poblano pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "27cd3758-31e7-58bb-b9b5-503bc11f038a",
+      "name": "basmati rice",
+      "normalized_name": "basmati rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "21960b21-948a-5139-b037-73997a5656a0",
+      "name": "tomato paste",
+      "normalized_name": "tomato paste",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "740dfce1-bea8-5560-9297-1113e81deee1",
+      "name": "ounce) can pinto beans",
+      "normalized_name": "ounce can pinto beans",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": "rinsed and drained",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "7d999eeb-fe51-5a18-bde8-5db39ac06ef8",
+      "slug": "beans-and-rice",
+      "name": "Beans and Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "ff993d3b-cfa3-515a-9ede-d22c2d32a776",
+      "slug": "beans-and-rice-recipes",
+      "name": "Beans and Rice Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "b06f0c5b-7919-511f-9eeb-ad9b9e1ed1a0",
+      "slug": "grains",
+      "name": "Grains",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "71f3d2ee-2a90-597c-bd2c-de2251e907ba",
+      "slug": "one-pot-meal-recipes",
+      "name": "One-Pot Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4bbf3490-84b7-5429-acd1-f3f32d9749b1",
+      "slug": "whole-grain",
+      "name": "Whole Grain",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279440/mexican-rice-and-beans"
+  },
+  "public": true,
+  "updated_at": 1765297143,
+  "revision": 1
+}

@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "49e28568-2fa6-5b6e-8470-78d4dd87cdea",
+  "slug": "egg-pesto-breakfast-wrap",
+  "name": "Egg Pesto Breakfast Wrap",
+  "recipe_type": "breakfast",
+  "brief_description": "Start your day with a cheesy pesto breakfast wrap filled with scrambled eggs, cherry tomatoes, marinated artichoke hearts, and a slice of turkey bacon.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk eggs and sour cream together in a bowl until well blended; stir in Cheddar cheese."
+    },
+    {
+      "position": 2,
+      "text": "Spray a skillet with cooking spray and heat over medium heat. Add onion and pesto; cook and stir until onion is translucent, about 6 minutes. Stir in tomatoes, then pour egg mixture over top. Cook and stir until eggs are set, 3 to 5 minutes. Remove eggs from the skillet."
+    },
+    {
+      "position": 3,
+      "text": "Add turkey bacon to the skillet; cook and stir until starting to crisp, about 6 minutes. Add artichoke hearts; saut\u00e9 until heated through, about 1 minute. Remove bacon and artichokes from the skillet."
+    },
+    {
+      "position": 4,
+      "text": "Spray the skillet again with cooking spray. Place tortilla into the skillet; cook until warm and flexible, 30 to 60 seconds per side. Remove from the heat and transfer to a plate."
+    },
+    {
+      "position": 5,
+      "text": "Spoon egg mixture, bacon, and artichokes into the center of the tortilla; season with salt and pepper. Fold the bottom 2 inches of the tortilla up to enclose the filling, and wrap tightly."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/49e28568-2fa6-5b6e-8470-78d4dd87cdea/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "533 kcal",
+    "carbohydrateContent": "45 g",
+    "cholesterolContent": "333 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "28 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "1016 mg",
+    "sugarContent": "3 g",
+    "fatContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "9eda9480-f770-538c-bc3a-6d1033753367",
+      "name": "reduced-fat sour cream",
+      "normalized_name": "reduced-fat sour cream",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "dfd79bc6-20d5-5d7e-a577-e7f4cd10e14a",
+      "name": "shredded reduced-fat cheddar cheese",
+      "normalized_name": "shredded reduced-fat cheddar cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "086d955b-35c2-52c3-a408-421896ede438",
+      "name": "finely chopped onion",
+      "normalized_name": "finely chopped onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0f5f14ea-22b0-5f08-a7d9-55a01d3fa9ec",
+      "name": "prepared pesto sauce",
+      "normalized_name": "prepared pesto sauce",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "92f8ed71-9c21-5d57-98f8-6aea7c4f64c5",
+      "name": "grape tomatoes",
+      "normalized_name": "grape tomatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "08702e1a-7a4b-532e-b079-8ca2b61758a5",
+      "name": "slice turkey bacon",
+      "normalized_name": "slice turkey bacon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 1/2-inch pieces",
+      "position": 8
+    },
+    {
+      "ingredient_id": "3cfb1921-e92d-5775-aa77-f7b72318e591",
+      "name": "marinated artichoke hearts",
+      "normalized_name": "marinated artichoke hearts",
+      "quantity": "0.5",
+      "unit": "ounce",
+      "preparation": "drained and thinly sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "d8c92bd6-5881-53db-b8b0-5c6a69c1eecc",
+      "name": "inch) flour tortilla",
+      "normalized_name": "inch flour tortilla",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "aecdcf7e-63fb-55ab-a00d-e9e32b0d98b3",
+      "slug": "breakfast-burrito",
+      "name": "Breakfast Burrito"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "556672de-e639-546e-a885-c83eaecb2a12",
+      "slug": "breakfast-burrito-recipes",
+      "name": "Breakfast Burrito Recipes",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "c28c4e15-a448-5959-868f-c8f71bfff24d",
+      "slug": "breakfast-on-the-go",
+      "name": "Breakfast On-The-Go",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "c2f09869-a010-58cf-bc86-5b930914ce17",
+      "slug": "budget-cooking-recipes",
+      "name": "Budget Cooking Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/182811/egg-pesto-breakfast-wrap"
+  },
+  "public": true,
+  "updated_at": 1732761477,
+  "revision": 1
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "619e2965-1bc0-5bd8-90b9-60904a5404c5",
+  "slug": "vegan-avocado-coconut-milk-ice-cream",
+  "name": "Avocado Ice Cream",
+  "recipe_type": "dessert",
+  "brief_description": "This avocado ice cream is made vegan with coconut milk and is super refreshing, thanks to the addition of lemon and lime. Serve with toasted coconut!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Blend avocados, lemon juice, lime juice, lemon zest, and lime zest together in a food processor until smooth; add coconut milk, agave nectar, and corn syrup and blend until smooth. Cover bowl of food processor and refrigerate for at least 1 hour."
+    },
+    {
+      "position": 2,
+      "text": "Pour avocado mixture into ice cream maker and process according to manufacturer's instructions."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/619e2965-1bc0-5bd8-90b9-60904a5404c5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "297 kcal",
+    "carbohydrateContent": "40 g",
+    "fiberContent": "7 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "15 mg",
+    "sugarContent": "27 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d142c98d-2674-5113-8a89-d484b8734111",
+      "name": "ripe avocados - halved",
+      "normalized_name": "ripe avocados - halved",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "pitted, and peeled",
+      "position": 1
+    },
+    {
+      "ingredient_id": "977d269f-89cf-52fb-8d10-b6c83e6ecb10",
+      "name": "lemons",
+      "normalized_name": "lemons",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "6c432256-96fd-513b-bf60-307b282d3398",
+      "name": "limes",
+      "normalized_name": "limes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "zested",
+      "position": 4
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "zested",
+      "position": 5
+    },
+    {
+      "ingredient_id": "6f89541a-7132-5101-97ad-362ef4481097",
+      "name": "ounce) can unsweetened coconut milk",
+      "normalized_name": "ounce can unsweetened coconut milk",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "62e765a1-bcf6-58da-8e26-f5a368358cb9",
+      "name": "agave nectar",
+      "normalized_name": "agave nectar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "or more to taste",
+      "position": 7
+    },
+    {
+      "ingredient_id": "8fd1875d-2904-5a0d-8ffc-3621b15bda18",
+      "name": "corn syrup",
+      "normalized_name": "corn syrup",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "ae6fe95d-4e1e-5382-93c0-f2d4fa12d15d",
+      "slug": "frozen-dessert",
+      "name": "Frozen Dessert"
+    },
+    {
+      "id": "b2e4ec0c-c3d2-5312-b4ea-c452d99ac762",
+      "slug": "ice-cream",
+      "name": "Ice Cream"
+    }
+  ],
+  "tags": [
+    {
+      "id": "29b3f1f5-cdfa-5a4d-a6c0-8e18731312ec",
+      "slug": "ice-cream",
+      "name": "Ice Cream",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "50f70bb9-e15c-5182-be0d-29b0444422c1",
+      "slug": "frozen-dessert-recipes",
+      "name": "Frozen Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "b752f992-5968-5ce7-a698-ce0ec3ad2834",
+      "slug": "dairy-free",
+      "name": "Dairy-Free",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    },
+    {
+      "id": "b27e7672-5670-576d-b52e-a2ba7aa1e26a",
+      "slug": "summer-desserts",
+      "name": "Summer Desserts",
+      "color": null
+    },
+    {
+      "id": "74cad312-fe37-5624-bbec-5ec3e0dd5a7e",
+      "slug": "coconuts",
+      "name": "Coconuts",
+      "color": null
+    },
+    {
+      "id": "4683ffd7-99c6-527b-acc5-ae50865bb212",
+      "slug": "coconut-milk-recipes",
+      "name": "Coconut Milk Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237222/vegan-avocado-coconut-milk-ice-cream"
+  },
+  "public": true,
+  "updated_at": 1733471393,
+  "revision": 1
+}

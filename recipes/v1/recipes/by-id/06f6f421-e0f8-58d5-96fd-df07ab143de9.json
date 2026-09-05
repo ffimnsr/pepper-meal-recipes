@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "06f6f421-e0f8-58d5-96fd-df07ab143de9",
+  "slug": "french-chocolate-mousse-with-orange",
+  "name": "French Chocolate Mousse with Orange",
+  "recipe_type": "dessert",
+  "brief_description": "A traditional chocolate mousse with a hint of orange flavor. This luxurious dairy-free and low-carb mousse is made simply with eggs and chocolate.",
+  "cuisine": "French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Grind orange zest using a mortar and pestle until it forms a smooth paste."
+    },
+    {
+      "position": 2,
+      "text": "Combine chocolate, coffee, and orange zest in the top of a double boiler over simmering water. Stir frequently, scraping down the sides with a rubber spatula to avoid scorching, until chocolate is melted, about 5 minutes. Stir until smooth and remove from heat. Allow to cool slightly"
+    },
+    {
+      "position": 3,
+      "text": "Beat egg whites and salt in a glass, metal, or ceramic bowl until stiff peaks form (see Editor's Note)."
+    },
+    {
+      "position": 4,
+      "text": "Add egg yolks to the slightly cooled chocolate mixture and stir until well combined. Pour over egg whites. Carefully fold together using a spatula until just combined."
+    },
+    {
+      "position": 5,
+      "text": "Pour mixture into 10 small dessert glasses or 1 large serving dish. Refrigerate at least 6 hours to overnight."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/06f6f421-e0f8-58d5-96fd-df07ab143de9/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/GLdE6g64-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "145 kcal",
+    "carbohydrateContent": "12 g",
+    "cholesterolContent": "99 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "54 mg",
+    "sugarContent": "10 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ca8bad9-6c91-51ce-8c7b-0252893c7565",
+      "name": "orange",
+      "normalized_name": "orange",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "zested",
+      "position": 1
+    },
+    {
+      "ingredient_id": "b569dba6-428a-5b06-a1af-d55818be2724",
+      "name": "dark chocolate (65 to 70% cocao)",
+      "normalized_name": "dark chocolate",
+      "quantity": "7",
+      "unit": "ounces",
+      "preparation": "chopped into small pieces",
+      "position": 2
+    },
+    {
+      "ingredient_id": "10017e08-054d-5b51-a680-96dae98fc92f",
+      "name": "strong brewed coffee",
+      "normalized_name": "strong brewed coffee",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or more to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "separated, room temperature",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "600f08a7-1feb-558d-bf42-782867acd551",
+      "slug": "mousse",
+      "name": "Mousse"
+    },
+    {
+      "id": "a0d2e292-29e1-5eff-b08a-37a351f76c16",
+      "slug": "chocolate-mousse",
+      "name": "Chocolate Mousse"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c1a998e2-7319-54f1-8ee0-72f1ae94b25f",
+      "slug": "chocolate-mousse-recipes",
+      "name": "Chocolate Mousse Recipes",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "41ab1f70-8ad5-50ba-85cc-97bd5a7836be",
+      "slug": "dark-chocolate",
+      "name": "Dark Chocolate",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "beb02ef2-6ddf-514d-87d5-35f39e8e12a3",
+      "slug": "orange-dessert-recipes",
+      "name": "Orange Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "90b94f66-8a10-5725-bb66-285ebfd8b5e7",
+      "slug": "mousse-recipes",
+      "name": "Mousse Recipes",
+      "color": null
+    },
+    {
+      "id": "08cc9044-5b95-5fd2-abea-7ffaa8f9aafc",
+      "slug": "oranges",
+      "name": "Oranges",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267907/french-chocolate-mousse-with-orange"
+  },
+  "public": true,
+  "updated_at": 1661193170,
+  "revision": 1
+}

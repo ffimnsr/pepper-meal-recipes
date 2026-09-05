@@ -1,0 +1,222 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b049988b-7599-5dca-8ea4-99a8b7fa7822",
+  "slug": "tempeh-fajitas",
+  "name": "Tempeh Fajitas",
+  "recipe_type": "drink",
+  "brief_description": "Tempeh is sauteed with soy sauce, lime juice and lots of veggies including green bell peppers and spinach. Chopped green chile peppers and cilantro add a fresh kick. Serve with tortillas, refried beans and rice.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a large skillet over medium heat. Saute tempeh with soy sauce and lime juice until tempeh browns. Stir in bell peppers, mushrooms, spinach, chile peppers, cilantro and dried onion."
+    },
+    {
+      "position": 2,
+      "text": "Increase heat to medium-high and cook until fluids have reduced, stirring occasionally."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b049988b-7599-5dca-8ea4-99a8b7fa7822/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "207 kcal",
+    "carbohydrateContent": "13 g",
+    "fiberContent": "3 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "606 mg",
+    "sugarContent": "3 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5f28e104-b327-5c10-b053-3b69585c2bed",
+      "name": "corn oil",
+      "normalized_name": "corn oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "dc513096-e950-51ba-a5f5-43fe9bbb85a6",
+      "name": "ounce) package tempeh",
+      "normalized_name": "ounce package tempeh",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "broken into bite-sized pieces",
+      "position": 2
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "59ad6408-a9e8-5f6c-aa7a-e073cf4e0a9c",
+      "name": "lime juice",
+      "normalized_name": "lime juice",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "36a74fec-d1b3-5fd5-a16b-85ed1240196f",
+      "name": "chopped green bell pepper",
+      "normalized_name": "chopped green bell pepper",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "16858f46-81ad-51a5-9d53-692ab5ba41a4",
+      "name": "ounce) can sliced mushrooms",
+      "normalized_name": "ounce can sliced mushrooms",
+      "quantity": "1 (4.5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 6
+    },
+    {
+      "ingredient_id": "13d86732-457b-5542-95f4-60f7dcb62bb5",
+      "name": "frozen chopped spinach",
+      "normalized_name": "frozen chopped spinach",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "thawed and drained",
+      "position": 7
+    },
+    {
+      "ingredient_id": "8b553655-1594-564f-bd75-e200285cffb0",
+      "name": "chopped green chile peppers",
+      "normalized_name": "chopped green chile peppers",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "e9df2f63-180f-5880-9857-386af4684bfa",
+      "name": "dried minced onion",
+      "normalized_name": "dried minced onion",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "38220ae3-3746-52e3-8e0c-9e4a5307cb7a",
+      "slug": "fajita",
+      "name": "Fajita"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25910/tempeh-fajitas"
+  },
+  "public": true,
+  "updated_at": 1642179579,
+  "revision": 1
+}

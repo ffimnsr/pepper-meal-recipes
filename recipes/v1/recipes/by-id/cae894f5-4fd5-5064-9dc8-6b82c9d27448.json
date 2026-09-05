@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cae894f5-4fd5-5064-9dc8-6b82c9d27448",
+  "slug": "oat-applesauce-muffins",
+  "name": "Oat Applesauce Muffins",
+  "recipe_type": "appetizer",
+  "brief_description": "These hearty muffins will fill you up with fiber and flavor instead of fat.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place oats in a small bowl, pour in buttermilk. Let sit for two hours at room temperature."
+    },
+    {
+      "position": 2,
+      "text": "Preheat oven to 375 degrees F (190 degrees C). Grease 12 muffin cups or line with paper muffin liners."
+    },
+    {
+      "position": 3,
+      "text": "In a large bowl, stir together whole wheat flour, baking powder, baking soda and brown sugar. Stir in oat/buttermilk mixture, applesauce and egg; mix well. Pour batter into prepared muffin cups."
+    },
+    {
+      "position": 4,
+      "text": "Bake in preheated oven for 30 minutes, until a toothpick inserted into center of muffin comes out clean."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cae894f5-4fd5-5064-9dc8-6b82c9d27448/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "101 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "16 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "113 mg",
+    "sugarContent": "8 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4f28533b-45b7-5cce-8ccb-8a0f71f11c06",
+      "name": "rolled oats",
+      "normalized_name": "rolled oats",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "950239d2-8408-5a49-a8bd-7298ae896627",
+      "name": "buttermilk",
+      "normalized_name": "buttermilk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b5404ae1-14cb-5d02-8b60-2836ddf2795c",
+      "name": "whole wheat flour",
+      "normalized_name": "whole wheat flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9066f2fe-bc68-5ac9-81ac-d1b85dce55e5",
+      "name": "applesauce",
+      "normalized_name": "applesauce",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "a1b21e95-4cdb-5996-95f4-c092b4eed1aa",
+      "slug": "muffin",
+      "name": "Muffin"
+    },
+    {
+      "id": "4f78a844-bea5-5e3b-976a-544c51e22a5d",
+      "slug": "whole-wheat-muffin",
+      "name": "Whole Wheat Muffin"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "200a9896-b165-55a6-82ce-4acf4ed39068",
+      "slug": "road-trip-snack-recipes",
+      "name": "Road Trip Snack Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "1d1a6231-2672-5763-9636-40bbd71eefab",
+      "slug": "low-glycemic-impact",
+      "name": "Low Glycemic Impact",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25209/oat-applesauce-muffins"
+  },
+  "public": true,
+  "updated_at": 1659622010,
+  "revision": 1
+}

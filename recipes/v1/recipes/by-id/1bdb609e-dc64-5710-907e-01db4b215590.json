@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1bdb609e-dc64-5710-907e-01db4b215590",
+  "slug": "tempeh-mock-tuna-salad",
+  "name": "Tempeh Mock Tuna Salad",
+  "recipe_type": "salad",
+  "brief_description": "This flavorful mock tuna salad is made with tempeh soy protein and soy mayonnaise, a real vegetarian treat. Serve it as a salad filling or on fresh greens.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the broth to a light boil over medium-high heat. Add the tempeh to the broth, and simmer for 25 minutes. Drain and let cool to room temperature for 15 minutes. Once cooled, grate tempeh into a large bowl."
+    },
+    {
+      "position": 2,
+      "text": "In a small bowl, whisk together the soy sauce, lemon juice, garlic, and seaweed flakes. Pour the seaweed mixture in with the grated tempeh and stir until well mixed. Mix in the red onion, celery, and dill pickles. Toss with the mayonnaise. This salad can be served immediately, but is best when chilled for several hours to allow the flavors to blend."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1bdb609e-dc64-5710-907e-01db4b215590/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "128 kcal",
+    "carbohydrateContent": "8 g",
+    "cholesterolContent": "3 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "677 mg",
+    "sugarContent": "2 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "dc513096-e950-51ba-a5f5-43fe9bbb85a6",
+      "name": "ounce) package tempeh",
+      "normalized_name": "ounce package tempeh",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "145731b5-152c-53b6-8bdf-7a8bce97f542",
+      "name": "seaweed flakes or granules",
+      "normalized_name": "seaweed flakes or granules",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6d15bb48-816f-598a-ad4d-a0ae0ef981dd",
+      "name": "minced red onion",
+      "normalized_name": "minced red onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "27e6270d-c204-5ca6-91ab-136bb98c4b3d",
+      "name": "chopped dill pickles",
+      "normalized_name": "chopped dill pickles",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c219551f-f6c5-53de-9ae8-b2ee6a050e15",
+      "name": "soy mayonnaise",
+      "normalized_name": "soy mayonnaise",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f3a06a5e-eb68-58cb-91b0-8787d6f2babc",
+      "slug": "tuna",
+      "name": "Tuna",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "a213982f-5b8e-5e56-9445-5c9940cfb475",
+      "slug": "protein",
+      "name": "Protein",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "964cdf7b-bba4-5981-baa8-ff9760c0a11a",
+      "slug": "tempeh",
+      "name": "Tempeh",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "8f243847-4be0-5181-a647-993d819544de",
+      "slug": "seafood-salad-recipes",
+      "name": "Seafood Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/141768/tempeh-mock-tuna-salad"
+  },
+  "public": true,
+  "updated_at": 1583808676,
+  "revision": 1
+}

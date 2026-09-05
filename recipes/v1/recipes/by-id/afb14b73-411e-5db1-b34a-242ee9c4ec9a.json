@@ -1,0 +1,214 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "afb14b73-411e-5db1-b34a-242ee9c4ec9a",
+  "slug": "easy-stroganoff",
+  "name": "Easy Stroganoff",
+  "recipe_type": "soup",
+  "brief_description": "Whip up a warm and hearty stroganoff with ground beef, Worcestershire sauce, garlic and mushrooms in a rich sauce of milk, sour cream and cream of mushroom soup. Serve over hot egg noodles for a satisfying meal.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large, heavy skillet, brown ground beef with Worcestershire sauce, seasoning salt, and garlic. Drain well, set aside."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, cook noodles in a large pot of boiling water until done. Drain."
+    },
+    {
+      "position": 3,
+      "text": "Return noodles to pot. Gently stir in ground beef, mushrooms, condensed soup and milk. Place the pan over low heat, and heat through. Stir in sour cream, and serve immediately."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/afb14b73-411e-5db1-b34a-242ee9c4ec9a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "695 kcal",
+    "carbohydrateContent": "67 g",
+    "cholesterolContent": "141 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "1106 mg",
+    "sugarContent": "7 g",
+    "fatContent": "34 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f4251402-82d7-53a6-b860-3cd0435c6d09",
+      "name": "ounce) package wide egg noodles",
+      "normalized_name": "ounce package wide egg noodles",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5cbf4376-30a9-5afa-8f56-d60e87b1c964",
+      "name": "seasoned salt",
+      "normalized_name": "seasoned salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "16858f46-81ad-51a5-9d53-692ab5ba41a4",
+      "name": "ounce) can sliced mushrooms",
+      "normalized_name": "ounce can sliced mushrooms",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "29e9d221-387b-51d5-bfe3-27f1a94f0538",
+      "name": "ounce) cans condensed cream of mushroom soup",
+      "normalized_name": "ounce cans condensed cream of mushroom soup",
+      "quantity": "2 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "fff8a9e5-92f6-5873-abcf-82507678d84b",
+      "name": "fluid ounces milk",
+      "normalized_name": "fluid ounces milk",
+      "quantity": "10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "44079fa6-9e49-52c2-8b4a-e01d5920c8a6",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles"
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "ac8de754-d8ea-5320-af85-732a6550c67d",
+      "slug": "ground-beef",
+      "name": "Ground Beef",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15919/easy-stroganoff"
+  },
+  "public": true,
+  "updated_at": 1771195260,
+  "revision": 1
+}

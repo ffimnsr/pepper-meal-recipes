@@ -3,137 +3,226 @@
   "schema_version": 1,
   "id": "542f87dd-3388-51f4-8076-9384be2e7616",
   "slug": "teriyaki-salmon",
-  "name": "Teriyaki Salmon Recipe",
-  "recipe_type": "main",
-  "brief_description": "Teriyaki Salmon is a healthy and easy salmon recipe that makes use of our quick and easy Teriyaki sauce recipe. This is simply delicious.",
-  "cuisine": "Japanese",
+  "name": "Teriyaki Salmon",
+  "recipe_type": "dessert",
+  "brief_description": "This terrific teriyaki salmon recipe features a homemade sweet and savory marinade that doubles as a basting sauce for tender, juicy salmon steaks.",
+  "cuisine": "American",
   "instructions": [
     {
       "position": 1,
-      "text": "Place the salmon fillet in a freezer bag and then pour-in 3/4 cup of teriyaki sauce. Seal the freezer bag and let the salmon marinate for 3 hours."
+      "text": "Mix sesame oil, lemon juice, soy sauce, brown sugar, sesame seeds, ground mustard, ginger, and garlic powder in a small saucepan over low heat. Bring to a simmer, stirring until sugar has dissolved. Set aside 1/2 cup of marinade for basting."
     },
     {
       "position": 2,
-      "text": "Meanwhile, prepare the teriyaki glaze by heating the remaining Teriyaki sauce in a sauce pan and adding-in the cornstarch diluted in water. Stir and cook until the texture becomes thicker. Turn off the heat and let cool. Set aside."
+      "text": "Pour remaining marinade into a resealable plastic bag. Add salmon steaks, coat with marinade, squeeze out excess air, and seal the bag. Marinate in the refrigerator for 1 to 2 hours."
     },
     {
       "position": 3,
-      "text": "Preheat oven to 360 degrees Fahrenheit."
+      "text": "Set an oven rack about 6 inches from the heat source and preheat the oven's broiler."
     },
     {
       "position": 4,
-      "text": "Arrange the marinated salmon in a greased baking pan. Brush the top with the teriyaki glaze."
-    },
-    {
-      "position": 5,
-      "text": "Bake the salmon for 15 to 17 minutes."
-    },
-    {
-      "position": 6,
-      "text": "Brush the remaining glaze on top. Arrange each salmon fillet over brown rice."
-    },
-    {
-      "position": 7,
-      "text": "Serve. Share and enjoy!"
+      "text": "Broil salmon steaks under the preheated broiler for 5 minutes, brushing salmon with reserved marinade. Turn and continue to broil until salmon is opaque and flakes easily, about 5 more minutes. Brush with marinade."
     }
   ],
-  "servings": 2,
+  "servings": 4,
   "cooking_time_minutes": 15,
   "preparation_time_minutes": 10,
-  "rest_time_minutes": 180,
-  "difficulty": "medium",
+  "rest_time_minutes": null,
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/542f87dd-3388-51f4-8076-9384be2e7616/cover.jpg",
-  "video_url": null,
+  "video_url": "https://content.jwplatform.com/videos/NTNPKIdb-K3AjnAEN.mp4",
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "2 g"
+    "calories": "900 kcal",
+    "carbohydrateContent": "8 g",
+    "cholesterolContent": "250 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "72 g",
+    "saturatedFatContent": "20 g",
+    "sodiumContent": "1031 mg",
+    "sugarContent": "6 g",
+    "fatContent": "63 g",
+    "unsaturatedFatContent": "0 g"
   },
-  "dietary_labels": [
-    "Pescatarian",
-    "Dairy-Free"
-  ],
-  "allergens": [
-    "Fish",
-    "Soy",
-    "Gluten"
-  ],
-  "equipment": [
-    "freezer bag",
-    "saucepan",
-    "baking pan",
-    "oven",
-    "pastry brush"
-  ],
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
   "ingredients": [
     {
-      "ingredient_id": "09b48090-4ab9-57be-98fb-e1762c62e647",
-      "name": "salmon fillet",
-      "normalized_name": "salmon fillet",
-      "quantity": "2",
-      "unit": "piece",
-      "preparation": "about 5 oz each",
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
       "position": 1
     },
     {
-      "ingredient_id": "b1e495b6-3728-54c9-bbcb-d14c5069e832",
-      "name": "teriyaki sauce",
-      "normalized_name": "teriyaki sauce",
-      "quantity": "1 1/4",
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "0.25",
       "unit": "cup",
       "preparation": null,
       "position": 2
     },
     {
-      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
-      "name": "salt",
-      "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "0.25",
+      "unit": "cup",
       "preparation": null,
       "position": 3
     },
     {
-      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
-      "name": "pepper",
-      "normalized_name": "pepper",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or more to taste",
       "position": 4
     },
     {
-      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
-      "name": "cornstarch",
-      "normalized_name": "cornstarch",
-      "quantity": "1/2",
-      "unit": "teaspoon",
-      "preparation": "dissolved in 1 tablespoon cold water",
+      "ingredient_id": "e1f678b6-d8cf-5c32-9ae8-0d389e675eb7",
+      "name": "sesame seeds",
+      "normalized_name": "sesame seeds",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
       "position": 5
+    },
+    {
+      "ingredient_id": "f40b8fdb-b986-5d88-b4e9-fbbc91906275",
+      "name": "ground mustard",
+      "normalized_name": "ground mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d2b31123-499f-5c84-9509-f2bb88d48a27",
+      "name": "ground ginger",
+      "normalized_name": "ground ginger",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "6a250380-9b67-54c6-b59c-d7ce1cd3e91e",
+      "name": "ounce) salmon steaks",
+      "normalized_name": "ounce salmon steaks",
+      "quantity": "4 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
     }
   ],
   "categories": [
     {
-      "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
-      "slug": "fish",
-      "name": "Fish"
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "2336c377-3a0d-5315-937c-eb9b27723743",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes"
+    },
+    {
+      "id": "0d511d9e-ae9e-5871-bc14-a6935299fc6d",
+      "slug": "salmon",
+      "name": "Salmon"
+    },
+    {
+      "id": "d81c1461-616f-5424-949c-8dfabe86c060",
+      "slug": "salmon-steak",
+      "name": "Salmon Steak"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "f446a3b6-0a22-5987-be7f-6e5a3e350ca3",
+      "slug": "salmon-steak-recipes",
+      "name": "Salmon Steak Recipes",
+      "color": null
+    },
+    {
+      "id": "47524e31-2c45-5536-8117-12421e363449",
+      "slug": "salmon",
+      "name": "Salmon",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "c939c4d1-3163-5a25-8926-2d8ea6c60182",
+      "slug": "broiled-salmon-recipes",
+      "name": "Broiled Salmon Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    },
+    {
+      "id": "47dbbc95-2797-57bb-8d05-99c3cb21d344",
+      "slug": "fish",
+      "name": "Fish",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    }
+  ],
   "related_recipe_ids": [],
-  "recipe_notes": [
-    "For best results, marinate the salmon for at least 3 hours or overnight.",
-    "Serve over steamed brown rice or white rice."
-  ],
-  "storage_notes": [
-    "Store cooked salmon in an airtight container in the refrigerator for up to 2 days.",
-    "Reheat gently in the oven or microwave to avoid drying out."
-  ],
+  "recipe_notes": [],
+  "storage_notes": [],
   "source": {
-    "name": "Panlasang Pinoy",
-    "url": "https://panlasangpinoy.com/teriyaki-salmon/"
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228285/teriyaki-salmon"
   },
   "public": true,
-  "updated_at": 1370606419,
+  "updated_at": 1769126044,
   "revision": 1
 }

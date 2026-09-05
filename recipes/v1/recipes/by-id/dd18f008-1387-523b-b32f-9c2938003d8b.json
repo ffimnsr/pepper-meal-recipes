@@ -1,0 +1,286 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "dd18f008-1387-523b-b32f-9c2938003d8b",
+  "slug": "chicken-soba-noodle-soup",
+  "name": "Chicken Soba Noodle Soup",
+  "recipe_type": "soup",
+  "brief_description": "With just a bit of prep work, you can enjoy this homemade chicken soup with soba noodles for either lunch or dinner.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a stockpot over medium heat. Add onion and garlic and saute for 2 minutes. Add carrots and celery and saute for 2 more minutes. Add chicken broth and bring to a boil. Stir in curry powder, salt, and both peppers. Reduce heat to a simmer."
+    },
+    {
+      "position": 2,
+      "text": "At the same time, melt butter in a skillet over medium-high heat. Add chicken and saute until golden brown and the juices run clear, 5 to 7 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add cooked chicken to the simmering broth and return to a boil. Add soba noodles and peas; cook, stirring occasionally, until noodles are tender yet firm to the bite, about 5 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/dd18f008-1387-523b-b32f-9c2938003d8b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "524 kcal",
+    "carbohydrateContent": "91 g",
+    "cholesterolContent": "40 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "30 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "2333 mg",
+    "sugarContent": "3 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ecde05ed-e241-5cb3-8c44-369b5850b9d6",
+      "name": "medium carrots",
+      "normalized_name": "medium carrots",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "7826501f-09e4-5263-ae6d-1e03bfc3f849",
+      "name": "fluid ounce) containers chicken broth",
+      "normalized_name": "fluid ounce containers chicken broth",
+      "quantity": "2 (32",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ea55ebcd-d2da-5f89-b8e9-ed703e3ce784",
+      "name": "curry powder",
+      "normalized_name": "curry powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or more to taste",
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "ea83d9fc-a7f0-569b-9a22-2809a2699fe9",
+      "name": "ground white pepper",
+      "normalized_name": "ground white pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "87152c27-b52b-5f8a-9619-c628f2c9953b",
+      "name": "ounce) skinless",
+      "normalized_name": "ounce skinless",
+      "quantity": "3 (5",
+      "unit": "pieces",
+      "preparation": "boneless chicken breasts, cubed",
+      "position": 12
+    },
+    {
+      "ingredient_id": "e61353be-0323-56af-b9b2-13db7748d0d7",
+      "name": "ounce) packages dried soba noodles",
+      "normalized_name": "ounce packages dried soba noodles",
+      "quantity": "4 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "ee169fda-3fca-5765-9af5-f262e26fe53c",
+      "name": "frozen peas",
+      "normalized_name": "frozen peas",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "838adc3f-7dc2-5531-95d4-a7df106e7d30",
+      "slug": "chicken-soup",
+      "name": "Chicken Soup"
+    },
+    {
+      "id": "adbe6874-d27f-51c4-a075-f9313f456db3",
+      "slug": "chicken-noodle-soup",
+      "name": "Chicken Noodle Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "d8ce8de0-5988-5b3e-939d-b47058698406",
+      "slug": "chicken-pasta",
+      "name": "Chicken Pasta",
+      "color": null
+    },
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/286148/chicken-soba-noodle-soup"
+  },
+  "public": true,
+  "updated_at": 1655225965,
+  "revision": 1
+}

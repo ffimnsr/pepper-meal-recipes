@@ -1,0 +1,253 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ca5407e8-9282-54bf-976e-13e06b5da7f1",
+  "slug": "venison-bacon-burgers",
+  "name": "Venison Bacon Burgers",
+  "recipe_type": "main",
+  "brief_description": "An easy venison burger recipe. Crisp, crumbly bacon is mixed into seasoned ground venison to make the best juicy burgers you've ever tasted.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Cook bacon in a skillet over medium heat until browned and crispy."
+    },
+    {
+      "position": 3,
+      "text": "Pour bacon and grease into a heatproof bowl and allow to cool."
+    },
+    {
+      "position": 4,
+      "text": "Heat oil in a skillet. Add shallots and garlic. Cook and stir until softened, about 3 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Mix with bacon."
+    },
+    {
+      "position": 6,
+      "text": "Mix venison with cooled bacon mixture. Season with Worcestershire sauce, parsley, salt, and pepper. Stir in egg until evenly combined. Refrigerate for 20 minutes."
+    },
+    {
+      "position": 7,
+      "text": "Preheat an outdoor grill for medium-high heat."
+    },
+    {
+      "position": 8,
+      "text": "Shape venison mixture into 6 patties."
+    },
+    {
+      "position": 9,
+      "text": "Grill to desired doneness. Serve on toasted hamburger buns with your favorite toppings."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ca5407e8-9282-54bf-976e-13e06b5da7f1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "481 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "164 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "39 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "574 mg",
+    "sugarContent": "1 g",
+    "fatContent": "24 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "195dd91b-7e16-5008-af4e-050104514749",
+      "name": "shallots",
+      "normalized_name": "shallots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "4f5095ff-c430-568c-9a85-488f892b9fe5",
+      "name": "ground venison",
+      "normalized_name": "ground venison",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten to mix",
+      "position": 9
+    },
+    {
+      "ingredient_id": "a3c2e67a-4249-5b86-a9e7-344b5beafc4a",
+      "name": "hamburger buns",
+      "normalized_name": "hamburger buns",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "f5829042-f0a1-5586-967c-eda0386916df",
+      "slug": "bbq-grilling-recipes",
+      "name": "BBQ & Grilling Recipes",
+      "color": null
+    },
+    {
+      "id": "0c0382f0-5eab-53c6-90d8-662245a076b6",
+      "slug": "memorial-day",
+      "name": "Memorial Day",
+      "color": null
+    },
+    {
+      "id": "034394aa-b2a8-5d8f-9932-b7e2b073439f",
+      "slug": "bacon",
+      "name": "Bacon",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "ed4f11c5-1007-5c46-9250-30f04c709de0",
+      "slug": "game-meats",
+      "name": "Game Meats",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/111933/venison-bacon-burgers"
+  },
+  "public": true,
+  "updated_at": 1779881439,
+  "revision": 1
+}

@@ -1,0 +1,279 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8a73d5a6-ed72-5f0a-8118-f270950ce191",
+  "slug": "german-lentil-soup",
+  "name": "German Lentil Soup",
+  "recipe_type": "soup",
+  "brief_description": "A quick lentil soup with ham, spiced with caraway, Worcestershire and nutmeg.",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place lentils in a 5- to 6-quart slow cooker. Add chicken stock, bay leaf, carrots, celery, onion, and ham. Season with Worcestershire sauce, garlic powder, nutmeg, hot pepper sauce, caraway seed, celery salt, parsley, and pepper."
+    },
+    {
+      "position": 2,
+      "text": "Cover, and cook on Low for 8 to 10 hours. Remove bay leaf before serving."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 480,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8a73d5a6-ed72-5f0a-8118-f270950ce191/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "221 kcal",
+    "carbohydrateContent": "34 g",
+    "cholesterolContent": "10 mg",
+    "fiberContent": "16 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "608 mg",
+    "sugarContent": "3 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "27dd788e-4541-5cd9-9b51-9f6effb70f46",
+      "name": "dried brown lentils",
+      "normalized_name": "dried brown lentils",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "rinsed and drained",
+      "position": 1
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "89363afe-8ce1-56cb-84bd-e34bc58da1f2",
+      "name": "chopped carrots",
+      "normalized_name": "chopped carrots",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "69646184-d5a7-5b5c-a092-cf1ea7d77a0f",
+      "name": "cooked",
+      "normalized_name": "cooked",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "cubed ham",
+      "position": 7
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "47f974e8-ef53-5c63-8a64-315a64d00276",
+      "name": "freshly grated nutmeg",
+      "normalized_name": "freshly grated nutmeg",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "0a8e715a-eb0c-51c0-9280-196f99aa8d02",
+      "name": "drops hot pepper sauce",
+      "normalized_name": "drops hot pepper sauce",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "6f9cdca8-64a7-5093-b0b4-8aabaed294aa",
+      "name": "caraway seed",
+      "normalized_name": "caraway seed",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "f637f15c-1634-5afd-aed7-8979a8ecfc31",
+      "name": "celery salt",
+      "normalized_name": "celery salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "62486dc7-9e27-5c22-9339-2e4ab00fb7d2",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas"
+    },
+    {
+      "id": "d346b69c-e1fe-5c0b-aded-4846a8803c2f",
+      "slug": "lentil-soup",
+      "name": "Lentil Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c3090bab-64e8-5a05-97bb-464ca4980e92",
+      "slug": "wisconsin-recipes",
+      "name": "Wisconsin Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "5f6b1b49-4a03-5a2d-be8a-1149e0a1d018",
+      "slug": "caraway-recipes",
+      "name": "Caraway Recipes",
+      "color": null
+    },
+    {
+      "id": "a4da5d34-2262-5fcd-aec0-e7974f08aae6",
+      "slug": "lentils",
+      "name": "Lentils",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13148/german-lentil-soup"
+  },
+  "public": true,
+  "updated_at": 1677190241,
+  "revision": 1
+}

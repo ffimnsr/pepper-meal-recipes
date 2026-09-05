@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8c998110-40c4-5786-8b19-56da8205317d",
+  "slug": "sous-vide-whole-turkey",
+  "name": "Sous Vide Whole Turkey",
+  "recipe_type": "main",
+  "brief_description": "This sous vide turkey turns out tender, evenly cooked, with crisp golden skin\u2014perfect for a modern take on your Thanksgiving centerpiece.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine chicken stock, salt, rosemary, thyme, savory, and sage in a bowl; stir until salt is dissolved."
+    },
+    {
+      "position": 2,
+      "text": "Place turkey in a brining bag and pour brine over it, making sure to fill the cavity. Seal the bag, squeezing out as much air as possible to prevent floating."
+    },
+    {
+      "position": 3,
+      "text": "Submerge the sealed turkey in a 5-gallon pot filled with water. Attach a sous vide cooker to the side of the pot. Wrap the pot with a dish towel for insulation and cover with plastic wrap to minimize evaporation."
+    },
+    {
+      "position": 4,
+      "text": "Set the sous vide cooker to 150 degrees F (65 degrees C) and cook for 18 to 24 hours. (Maintain water level as needed during cooking.)"
+    },
+    {
+      "position": 5,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 6,
+      "text": "Remove turkey from the brining bag and transfer to a large roasting pan. Discard brine."
+    },
+    {
+      "position": 7,
+      "text": "Bake in the preheated oven until nicely browned, about 30 minutes. An instant-read thermometer inserted into the thickest part of the thigh, near the bone, should read 165 degrees F (74 degrees C). Remove from the oven, cover with a doubled sheet of aluminum foil, and allow to rest in a warm area for 10 minutes before slicing."
+    }
+  ],
+  "servings": 20,
+  "cooking_time_minutes": 1110,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8c998110-40c4-5786-8b19-56da8205317d/cover.jpeg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "518 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "201 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "69 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "3991 mg",
+    "sugarContent": "0 g",
+    "fatContent": "24 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bc6caef7-59bb-569a-b90b-88679707adab",
+      "name": "quarts organic chicken stock",
+      "normalized_name": "quarts organic chicken stock",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "207da207-7554-5b16-a44c-8e024e2d40d0",
+      "name": "kosher salt",
+      "normalized_name": "kosher salt",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8276eea8-48d5-53bd-807f-402083fde791",
+      "name": "dried rosemary",
+      "normalized_name": "dried rosemary",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
+      "name": "dried thyme",
+      "normalized_name": "dried thyme",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "62f21f3f-46b7-5119-8b79-458cd2e65299",
+      "name": "dried savory",
+      "normalized_name": "dried savory",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "69a5d3cf-aa43-5217-949e-04c28b188b5b",
+      "name": "dried sage",
+      "normalized_name": "dried sage",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "c873a890-339d-5d51-9cdd-7e293c6509eb",
+      "name": "pound) turkey",
+      "normalized_name": "pound turkey",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "neck and giblets removed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "dff7327d-d9d2-5b50-8cbc-e187474f9b58",
+      "name": "large (25 pound capacity) brining bag",
+      "normalized_name": "large brining bag",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "b6080a36-e955-56e9-81db-718202beb92a",
+      "slug": "holidays-and-events",
+      "name": "Holidays and Events"
+    },
+    {
+      "id": "6e7aeb7a-78b9-5e8b-a9e4-1a4c7d845717",
+      "slug": "thanksgiving",
+      "name": "Thanksgiving"
+    },
+    {
+      "id": "41d42358-bb7f-5122-bf1f-be7c83dadf69",
+      "slug": "turkey",
+      "name": "Turkey"
+    },
+    {
+      "id": "b9709fb2-d4d4-5ade-ae1e-ccf630cdb137",
+      "slug": "roasted",
+      "name": "Roasted"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "16eff42a-bdad-58bd-8f0c-a6674afbe1dd",
+      "slug": "christmas-dinner-recipes",
+      "name": "Christmas Dinner Recipes",
+      "color": null
+    },
+    {
+      "id": "bea70f6b-83d1-547c-b292-dc14e80b6239",
+      "slug": "cooking-for-a-crowd-recipes",
+      "name": "Cooking for a Crowd Recipes",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "8b612177-67e7-5529-9fd2-147fb2b71580",
+      "slug": "whole-turkey-recipes",
+      "name": "Whole Turkey Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277603/sous-vide-whole-turkey"
+  },
+  "public": true,
+  "updated_at": 1762446553,
+  "revision": 1
+}

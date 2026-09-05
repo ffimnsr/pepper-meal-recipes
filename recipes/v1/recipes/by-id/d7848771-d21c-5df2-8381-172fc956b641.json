@@ -1,0 +1,274 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d7848771-d21c-5df2-8381-172fc956b641",
+  "slug": "fresh-fruit-cobbler",
+  "name": "Fresh Fruit Cobbler",
+  "recipe_type": "dessert",
+  "brief_description": "This fresh fruit cobbler recipe features fresh peaches, pears, plums, and cherries piled into a large casserole dish and covered with a sweet batter.",
+  "cuisine": "U.S. American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Grease a 2-quart baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Arrange peaches, apples, pears, blueberries, cherries, and plums in the prepared baking dish."
+    },
+    {
+      "position": 3,
+      "text": "Whisk sugar, milk, and egg together in a bowl until smooth. Sift flour, baking powder, and salt together into a separate bowl; stir into sugar mixture until combined. Stir in melted butter and vanilla extract until incorporated; pour batter over fruit to cover."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until bubbly and lightly browned on top, about 30 minutes. Serve warm."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d7848771-d21c-5df2-8381-172fc956b641/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "272 kcal",
+    "carbohydrateContent": "54 g",
+    "cholesterolContent": "42 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "320 mg",
+    "sugarContent": "35 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2c3c5dc2-aa3c-5def-9c5c-4d2152915463",
+      "name": "sliced fresh peaches",
+      "normalized_name": "sliced fresh peaches",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "277f57ae-b740-593b-a580-72e808440474",
+      "name": "peeled",
+      "normalized_name": "peeled",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": "cored and sliced apple",
+      "position": 2
+    },
+    {
+      "ingredient_id": "277f57ae-b740-593b-a580-72e808440474",
+      "name": "peeled",
+      "normalized_name": "peeled",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": "cored and sliced pear",
+      "position": 3
+    },
+    {
+      "ingredient_id": "e5260d61-017f-525a-9908-e2b5a97b2d54",
+      "name": "blueberries",
+      "normalized_name": "blueberries",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b7789afb-c398-58dc-9f7c-daa66a0639df",
+      "name": "pitted and sliced cherries",
+      "normalized_name": "pitted and sliced cherries",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "34681e06-57c8-5a91-9a52-ddf70765c89a",
+      "name": "pitted and sliced plums",
+      "normalized_name": "pitted and sliced plums",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "melted",
+      "position": 13
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7125d7fa-c15d-5725-8012-306c4b58775a",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts"
+    },
+    {
+      "id": "8ccec23a-0f41-550c-8e7c-00f808c8c0a6",
+      "slug": "peach-dessert",
+      "name": "Peach Dessert"
+    }
+  ],
+  "tags": [
+    {
+      "id": "912e86f7-1b69-542c-956f-aa2a451cbcec",
+      "slug": "peach-dessert-recipes",
+      "name": "Peach Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "cb11bc4e-e273-5b45-9a9a-99b3ab198d46",
+      "slug": "washington-recipes",
+      "name": "Washington Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "efdf4003-25b0-5a9c-8f16-7e9c7e4a2234",
+      "slug": "blueberries",
+      "name": "Blueberries",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "b27e7672-5670-576d-b52e-a2ba7aa1e26a",
+      "slug": "summer-desserts",
+      "name": "Summer Desserts",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "dfc92c66-a2e7-58ae-a03c-c5cd3c9c9bb3",
+      "slug": "pears",
+      "name": "Pears",
+      "color": null
+    },
+    {
+      "id": "85d69275-8e59-5747-87b3-7e60d68ef1e9",
+      "slug": "cherry-dessert-recipes",
+      "name": "Cherry Dessert Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12279/fresh-fruit-cobbler"
+  },
+  "public": true,
+  "updated_at": 1767713254,
+  "revision": 1
+}

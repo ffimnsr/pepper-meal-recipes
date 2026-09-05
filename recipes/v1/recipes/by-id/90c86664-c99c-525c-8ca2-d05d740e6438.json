@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "90c86664-c99c-525c-8ca2-d05d740e6438",
+  "slug": "chicken-noodle-casserole-i",
+  "name": "Chicken Noodle Casserole",
+  "recipe_type": "soup",
+  "brief_description": "This chicken noodle casserole combines juicy, poached chicken with mushroom soup and noodles for a creamy chicken bake topped with buttery crackers.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Fill a large pot with water and bring to a simmer over medium heat. Add chicken; poach in simmering water until no longer pink in center, about 12 minutes. Use a slotted spoon to remove chicken from pot and set aside. Leave water in the pot."
+    },
+    {
+      "position": 3,
+      "text": "Bring chicken cooking water to a boil. Stir in egg noodles and cook until tender with a slight bite, about 10 minutes. Drain."
+    },
+    {
+      "position": 4,
+      "text": "Transfer noodles to a large bowl. Cut chicken into bite-size pieces and mix with noodles."
+    },
+    {
+      "position": 5,
+      "text": "Mix together both condensed soups and sour cream in a separate bowl. Season with salt and pepper. Add soup mixture to chicken mixture and gently stir until combined. Transfer to a 2-quart baking dish."
+    },
+    {
+      "position": 6,
+      "text": "Melt butter in a small saucepan over low heat and remove from heat. Stir in crumbled crackers."
+    },
+    {
+      "position": 7,
+      "text": "Sprinkle mixture over top of casserole."
+    },
+    {
+      "position": 8,
+      "text": "Bake in the preheated oven until heated through and browned on top, about 30 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 55,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/90c86664-c99c-525c-8ca2-d05d740e6438/cover.jpg",
+  "video_url": "https://cdn.jwplayer.com/videos/Fq5eJesH-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "542 kcal",
+    "carbohydrateContent": "36 g",
+    "cholesterolContent": "133 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "18 g",
+    "sodiumContent": "895 mg",
+    "sugarContent": "2 g",
+    "fatContent": "34 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves",
+      "position": 1
+    },
+    {
+      "ingredient_id": "7f06c2ce-8aca-5415-93da-7ca715bb4e40",
+      "name": "egg noodles",
+      "normalized_name": "egg noodles",
+      "quantity": "6",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5213d893-3f57-5cf8-8e96-b1cae3a6dfde",
+      "name": "ounce) can condensed cream of chicken soup",
+      "normalized_name": "ounce can condensed cream of chicken soup",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "206397b1-f22e-5509-bd90-38ee7a8876fb",
+      "name": "crumbled buttery round crackers",
+      "normalized_name": "crumbled buttery round crackers",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "fddcd10d-32a3-5d59-ab5d-4373e920f350",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast"
+    },
+    {
+      "id": "084cf805-b5b0-5920-82d2-a65ee91d965f",
+      "slug": "chicken-pasta",
+      "name": "Chicken Pasta"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "d8ce8de0-5988-5b3e-939d-b47058698406",
+      "slug": "chicken-pasta",
+      "name": "Chicken Pasta",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11864/chicken-noodle-casserole-i"
+  },
+  "public": true,
+  "updated_at": 1774547868,
+  "revision": 1
+}

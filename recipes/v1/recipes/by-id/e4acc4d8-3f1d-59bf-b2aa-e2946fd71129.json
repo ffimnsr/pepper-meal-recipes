@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e4acc4d8-3f1d-59bf-b2aa-e2946fd71129",
+  "slug": "ultimate-breakfast-casserole",
+  "name": "Ultimate Breakfast Casserole",
+  "recipe_type": "breakfast",
+  "brief_description": "Ham and potato casserole in a creamy sauce. Drizzling butter on top is the key to a delicate golden crust.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x13-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Season beaten eggs with pepper; pour into baking dish. In a large bowl, combine soup, sour cream, hash browns, ham, onion and cheese. Mix thoroughly and pour over eggs."
+    },
+    {
+      "position": 3,
+      "text": "Bake uncovered for 30 minutes. Remove and drizzle butter over top of casserole. Return to oven and bake for an additional 15 minutes, until golden."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e4acc4d8-3f1d-59bf-b2aa-e2946fd71129/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "444 kcal",
+    "carbohydrateContent": "27 g",
+    "cholesterolContent": "143 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "923 mg",
+    "sugarContent": "1 g",
+    "fatContent": "37 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 1
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5213d893-3f57-5cf8-8e96-b1cae3a6dfde",
+      "name": "ounce) can condensed cream of chicken soup",
+      "normalized_name": "ounce can condensed cream of chicken soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "16",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fed6cfcd-7f64-5896-864c-7059f589ce26",
+      "name": "pound) package frozen hash brown potatoes",
+      "normalized_name": "pound package frozen hash brown potatoes",
+      "quantity": "1 (2",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "53c4ecc7-54c9-56e4-9496-38a51a8b5995",
+      "name": "cooked ham",
+      "normalized_name": "cooked ham",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "cubed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "7efb1826-f8ef-5c34-9d0d-1fd876fc8613",
+      "slug": "breakfast-casserole",
+      "name": "Breakfast Casserole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2a79b5de-9536-534a-9eb5-06cbc9101d65",
+      "slug": "breakfast-casserole-recipes",
+      "name": "Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "077df670-db17-5b8c-b6d8-8441d1bc5da6",
+      "slug": "potato-breakfast-casserole-recipes",
+      "name": "Potato Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "b47afa88-9f0d-5c19-bad8-7b84ed660e85",
+      "slug": "vegetable",
+      "name": "Vegetable",
+      "color": null
+    },
+    {
+      "id": "8d8fef2a-121c-5863-9b4b-5480445e924f",
+      "slug": "ham",
+      "name": "Ham",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "06ec51be-db30-5641-9f33-649268cc4c42",
+      "slug": "easter-ideas",
+      "name": "Easter Ideas",
+      "color": null
+    },
+    {
+      "id": "ae090ade-f9e2-572c-a4ea-3160a17ff5e5",
+      "slug": "ham-breakfast-casserole-recipes",
+      "name": "Ham Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21857/ultimate-breakfast-casserole"
+  },
+  "public": true,
+  "updated_at": 1780579895,
+  "revision": 1
+}

@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "935f52f7-26ba-51fe-bd0c-d3101e45e5ae",
+  "slug": "greek-salad-i",
+  "name": "Greek Salad",
+  "recipe_type": "salad",
+  "brief_description": "This Greek salad recipe with cucumber, tomatoes, feta cheese, and an easy and refreshing oregano and olive oil dressing makes a standout summer salad!",
+  "cuisine": "Greek",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine romaine, cucumber, tomatoes, olives, bell peppers, and red onion in a large bowl; sprinkle with feta cheese."
+    },
+    {
+      "position": 2,
+      "text": "Whisk olive oil, lemon juice, oregano, and black pepper together in a small bowl. Pour dressing over salad, toss well to combine, and serve."
+    },
+    {
+      "position": 3,
+      "text": "Pour dressing over salad, toss well to combine, and serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/935f52f7-26ba-51fe-bd0c-d3101e45e5ae/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/3t9pklsg-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "265 kcal",
+    "carbohydrateContent": "14 g",
+    "cholesterolContent": "22 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "538 mg",
+    "sugarContent": "6 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bd6c5e63-538d-57f4-ac76-63b144c97942",
+      "name": "head romaine lettuce- rinsed",
+      "normalized_name": "head romaine lettuce- rinsed",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "dried and chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ec1c2b5e-cca0-5d55-a629-5ae15ac48fb5",
+      "name": "cucumber",
+      "normalized_name": "cucumber",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "1bae2dfb-2c2b-5c17-bd41-7b4ddeb698de",
+      "name": "large tomatoes",
+      "normalized_name": "large tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "a031932e-c774-54f1-a86e-5858386cde73",
+      "name": "ounce) can pitted black olives",
+      "normalized_name": "ounce can pitted black olives",
+      "quantity": "1 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "thinly sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "cbedf4a1-173e-56ae-92c0-3595384b0e2c",
+      "name": "crumbled feta cheese",
+      "normalized_name": "crumbled feta cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "2ec470c2-b64f-5da8-9a90-36e93079e4ff",
+      "slug": "greek",
+      "name": "Greek"
+    },
+    {
+      "id": "a1624f8a-2096-5182-abc0-9183473b405b",
+      "slug": "salads",
+      "name": "Salads"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "6a1703c3-5ba8-5764-9319-7fad5e5d14de",
+      "slug": "mediterranean-diet-recipes",
+      "name": "Mediterranean Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "bbf47bb0-f808-535a-b0be-7f7961e623c2",
+      "slug": "greek",
+      "name": "Greek",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14373/greek-salad-i"
+  },
+  "public": true,
+  "updated_at": 1773420806,
+  "revision": 1
+}

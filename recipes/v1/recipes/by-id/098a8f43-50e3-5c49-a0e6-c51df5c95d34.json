@@ -1,0 +1,253 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "098a8f43-50e3-5c49-a0e6-c51df5c95d34",
+  "slug": "chef-johns-miso-soup",
+  "name": "Chef John's Miso Soup",
+  "recipe_type": "soup",
+  "brief_description": "This classic Japanese miso soup is made entirely from scratch including the dashi.",
+  "cuisine": "Japanese",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Pour cold water into a saucepan. Add kombu and soak for 30 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Set pan on the stove over medium heat, and wait until water just starts to simmer. Turn off heat, and remove kombu with a strainer. Squeeze out any liquid back into the pan, and discard kombu."
+    },
+    {
+      "position": 4,
+      "text": "Turn heat back on to med-high, and bring to a simmer. Stir bonito flakes into the simmering liquid, and turn off the heat. Let sit for 10 minutes, before staining and reserving the liquid, also known as the \"dashi.\""
+    },
+    {
+      "position": 5,
+      "text": "Pour dashi into a saucepan over medium heat. Add pre-soaked, shredded seaweed, soy sauce, and green onions. Bring to a simmer, and reduce heat to low. Place a small strainer over the pan, and add miso pastes. Submerge strainer halfway down into the hot dashi, and stir slowly until all the miso has dissolved and passed through into the soup."
+    },
+    {
+      "position": 6,
+      "text": "Stir in tofu, and continue cooking on low until tofu is heated through, about 2 minutes. Taste and season with more soy sauce if needed."
+    },
+    {
+      "position": 7,
+      "text": "Serve immediately with sliced green onions on top."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/098a8f43-50e3-5c49-a0e6-c51df5c95d34/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/mRcHRGjh-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "80 kcal",
+    "carbohydrateContent": "11 g",
+    "fiberContent": "1 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "927 mg",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b94296dc-9e1a-5dad-9dc2-727ad66f0055",
+      "name": "cold water",
+      "normalized_name": "cold water",
+      "quantity": "6",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "56d67e7f-3b81-54dc-80f2-230d85f4f12c",
+      "name": "dried kombu (dried kelp)",
+      "normalized_name": "dried kombu",
+      "quantity": "0.5",
+      "unit": "ounce",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b33d0a1a-40a3-5cdb-820e-9e1629b02d1f",
+      "name": "lightly packed dried bonito flakes",
+      "normalized_name": "lightly packed dried bonito flakes",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2aba43f8-4538-57fe-80f6-2b31be1a3b51",
+      "name": "silken tofu",
+      "normalized_name": "silken tofu",
+      "quantity": "7",
+      "unit": "ounces",
+      "preparation": "drained and cut into 1/2-inch cubes",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5d0db9d3-dc49-57dd-8cc8-d44d580e1f8d",
+      "name": "white miso",
+      "normalized_name": "white miso",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5eec9608-1a58-5455-9e88-28e97e670d95",
+      "name": "red miso",
+      "normalized_name": "red miso",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e5771650-64bc-5f1c-bdf8-c3e382f2c121",
+      "name": "dried wakame seaweed flakes",
+      "normalized_name": "dried wakame seaweed flakes",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cb2a6993-fe42-518b-8db2-c1683f620559",
+      "name": "shredded wakame or hijiki seaweed (soaked in water until soft)",
+      "normalized_name": "shredded wakame or hijiki seaweed",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "thinly sliced, plus more to garnish",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "4f18d61e-1945-57c4-b05d-6900eb4e2b54",
+      "slug": "japanese",
+      "name": "Japanese"
+    },
+    {
+      "id": "04f7fe33-4d60-5902-b7bc-8b7793820ec5",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews"
+    }
+  ],
+  "tags": [
+    {
+      "id": "22fa798f-0644-5eae-ae47-0634cca84281",
+      "slug": "soybeans",
+      "name": "Soybeans",
+      "color": null
+    },
+    {
+      "id": "a213982f-5b8e-5e56-9445-5c9940cfb475",
+      "slug": "protein",
+      "name": "Protein",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "e04fcf40-e5a4-50fd-8d3d-75173326a0ee",
+      "slug": "chef-john",
+      "name": "Chef John",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "d237561a-3430-5478-a01f-a2acdbc59c70",
+      "slug": "japanese",
+      "name": "Japanese",
+      "color": null
+    },
+    {
+      "id": "646d833a-042e-5089-8a59-3d916b212664",
+      "slug": "tofu",
+      "name": "Tofu",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8533278/chef-johns-miso-soup"
+  },
+  "public": true,
+  "updated_at": 1732671047,
+  "revision": 1
+}

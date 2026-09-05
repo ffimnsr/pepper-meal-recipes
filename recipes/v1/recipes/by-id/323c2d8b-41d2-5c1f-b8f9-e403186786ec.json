@@ -1,0 +1,261 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "323c2d8b-41d2-5c1f-b8f9-e403186786ec",
+  "slug": "minestrone-soup",
+  "name": "Minestrone Soup",
+  "recipe_type": "soup",
+  "brief_description": "This Minestrone soup recipe uses vegetable stock for the base and adds beans, orzo, corn, zucchini, cabbage, potatoes, and carrots for a hearty meal.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large soup pot, combine vegetable stock, undrained tomatoes, potato, onion, celery, carrot, cabbage, and Italian seasoning. Bring to a boil and reduce heat. Simmer for about 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir in beans, corn, zucchini, and pasta; simmer for 10 to 15 more minutes until the vegetables are tender. Season with salt and pepper."
+    }
+  ],
+  "servings": 9,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/323c2d8b-41d2-5c1f-b8f9-e403186786ec/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "399 kcal",
+    "carbohydrateContent": "81 g",
+    "fiberContent": "18 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "382 mg",
+    "sugarContent": "13 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b119f3b0-186f-57e4-8105-a3778fc5c48c",
+      "name": "vegetable stock",
+      "normalized_name": "vegetable stock",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2e0416e9-7e5f-5a6a-bb37-6c07b5c62035",
+      "name": "ounce) cans stewed tomatoes",
+      "normalized_name": "ounce cans stewed tomatoes",
+      "quantity": "2 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "11febb45-7611-5904-bba7-dacba9c851ea",
+      "name": "large potato",
+      "normalized_name": "large potato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cubed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "9768d195-f743-5ec9-ad42-38b0cf5d0b2e",
+      "name": "large head cabbage",
+      "normalized_name": "large head cabbage",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "4fbc17fe-1b70-5c92-a946-64cb41d20225",
+      "name": "italian seasoning",
+      "normalized_name": "italian seasoning",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "c593906b-e65c-55ab-a751-2c4830119045",
+      "name": "ounce) can kidney beans",
+      "normalized_name": "ounce can kidney beans",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "778b7909-b98c-5874-bc24-66ad6c0fae9a",
+      "name": "fresh corn kernels",
+      "normalized_name": "fresh corn kernels",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "cb0f1149-3ce6-5bac-99ca-19b29046ce84",
+      "name": "large zucchini",
+      "normalized_name": "large zucchini",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 11
+    },
+    {
+      "ingredient_id": "5664ee49-499a-5453-b735-4aad6756605d",
+      "name": "uncooked orzo pasta",
+      "normalized_name": "uncooked orzo pasta",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "735a9e8e-adcb-5012-8a67-19a8d5bdf5e2",
+      "slug": "minestrone",
+      "name": "Minestrone"
+    }
+  ],
+  "tags": [
+    {
+      "id": "781e9dda-ec68-58bd-8466-fa2cd5883626",
+      "slug": "minestrone",
+      "name": "Minestrone",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14118/minestrone-soup"
+  },
+  "public": true,
+  "updated_at": 1738195354,
+  "revision": 1
+}

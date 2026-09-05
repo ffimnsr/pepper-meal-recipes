@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b0b449b1-a802-52b1-8bb8-20a9bed06eda",
+  "slug": "bocconcini-salad",
+  "name": "Bocconcini Salad",
+  "recipe_type": "salad",
+  "brief_description": "Bite-size balls of fresh mozzarella, known as bocconcini, make up this great salad made with cherry tomatoes, bell pepper, arugula, and fresh basil. It's a version of the popular 'insalata caprese.'",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large salad bowl, combine the mozzarella, cherry tomatoes, bell pepper, celery, endive and arugula."
+    },
+    {
+      "position": 2,
+      "text": "Whisk together the lemon juice and olive oil; pour over the salad. Toss until all the ingredients are thoroughly coated with the dressing. Transfer salad to individual serving plates, if desired. Sprinkle the basil over the salad, season with salt and pepper, and serve immediately."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b0b449b1-a802-52b1-8bb8-20a9bed06eda/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "449 kcal",
+    "carbohydrateContent": "6 g",
+    "cholesterolContent": "90 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "16 g",
+    "sodiumContent": "875 mg",
+    "sugarContent": "2 g",
+    "fatContent": "36 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6be4a8bb-2ddb-5486-b2a2-24ec4f94f05b",
+      "name": "bocconcini (bite-size mozzarella balls)",
+      "normalized_name": "bocconcini",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b1fa9030-caca-5cdb-a806-8fcba68d3333",
+      "name": "cherry tomatoes",
+      "normalized_name": "cherry tomatoes",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "halved",
+      "position": 2
+    },
+    {
+      "ingredient_id": "36a74fec-d1b3-5fd5-a16b-85ed1240196f",
+      "name": "chopped green bell pepper",
+      "normalized_name": "chopped green bell pepper",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5a5b1dc4-29f0-5761-9c3c-78ad25585fa4",
+      "name": "belgian endive leaves",
+      "normalized_name": "belgian endive leaves",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5dcb010d-1e7a-5aa7-b840-829af446ff64",
+      "name": "coarsely chopped arugula",
+      "normalized_name": "coarsely chopped arugula",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "stems included",
+      "position": 6
+    },
+    {
+      "ingredient_id": "eab08681-affd-54d9-9398-cfa92db0ac26",
+      "name": "fresh lemon juice",
+      "normalized_name": "fresh lemon juice",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "84b8e582-e631-566b-9ba0-cbc0b8e649de",
+      "name": "extra virgin olive oil",
+      "normalized_name": "extra virgin olive oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "51d43a95-1651-5f52-8e68-567ddaabd3da",
+      "name": "chopped fresh basil leaves",
+      "normalized_name": "chopped fresh basil leaves",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "319df82f-9583-5f7a-97f8-b8762f8a8fc8",
+      "name": "salt and freshly ground black pepper",
+      "normalized_name": "salt and freshly ground black pepper",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "6ecd8044-66ee-526f-b480-c361e10a8bb8",
+      "slug": "endive-and-escarole",
+      "name": "Endive and Escarole",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16960/bocconcini-salad"
+  },
+  "public": true,
+  "updated_at": 1733878340,
+  "revision": 1
+}

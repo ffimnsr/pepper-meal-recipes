@@ -1,0 +1,222 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3a0b1d0a-3301-5e5a-bb72-559c7ce3a423",
+  "slug": "chicken-and-red-wine-sauce",
+  "name": "Chicken and Red Wine Sauce",
+  "recipe_type": "main",
+  "brief_description": "This chicken and red wine recipe has balanced flavor from brown sugar, garlic, and paprika. Enjoy this simple, comforting dish with a delicious sauce.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a large skillet over medium-high heat. Cook garlic in oil until tender."
+    },
+    {
+      "position": 2,
+      "text": "Place chicken in the skillet, and cook for about 10 minutes on each side, until no longer pink and juices run clear. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Drain oil from the skillet. Sprinkle chicken with paprika and brown sugar."
+    },
+    {
+      "position": 4,
+      "text": "Pour red wine around chicken. Cover and simmer, 15 to 20 minutes; lightly baste the chicken with wine sauce while cooking. Season with salt and pepper."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3a0b1d0a-3301-5e5a-bb72-559c7ce3a423/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "214 kcal",
+    "carbohydrateContent": "19 g",
+    "cholesterolContent": "59 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "248 mg",
+    "sugarContent": "18 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "3",
+      "unit": "pounds",
+      "preparation": "boneless chicken breast halves",
+      "position": 3
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "54a4ec0e-2006-572c-a5ee-ed8328a3dd64",
+      "name": "red wine",
+      "normalized_name": "red wine",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "fddcd10d-32a3-5d59-ab5d-4373e920f350",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast"
+    },
+    {
+      "id": "c9d587b3-e4d5-5c29-b0bf-bb937d77813f",
+      "slug": "skillet-chicken",
+      "name": "Skillet Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "b0b94d68-c3b9-5d25-b287-2a562c7a9510",
+      "slug": "paprika-recipes",
+      "name": "Paprika Recipes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "1d1a6231-2672-5763-9636-40bbd71eefab",
+      "slug": "low-glycemic-impact",
+      "name": "Low Glycemic Impact",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "a3217056-1df7-5577-82d8-45855f913181",
+      "slug": "cooking-with-wine-recipes",
+      "name": "Cooking With Wine Recipes",
+      "color": null
+    },
+    {
+      "id": "c52ec96c-f1b1-58a9-a4bb-2cf6503d8371",
+      "slug": "healthy-chicken",
+      "name": "Healthy Chicken",
+      "color": null
+    },
+    {
+      "id": "f75af922-a09b-506c-bd06-3e0496d85433",
+      "slug": "purim",
+      "name": "Purim",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19125/chicken-and-red-wine-sauce"
+  },
+  "public": true,
+  "updated_at": 1732119223,
+  "revision": 1
+}

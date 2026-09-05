@@ -1,0 +1,257 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f2cafea9-3213-5985-abe2-ce5b0888f857",
+  "slug": "mediterranean-chicken",
+  "name": "Mediterranean Chicken",
+  "recipe_type": "main",
+  "brief_description": "This Mediterranean chicken recipe features plenty of olives, onion, tomatoes, and herbs for a deliciously light dinner that won\u2019t disappoint.",
+  "cuisine": "European",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat white wine and oil in a large skillet over medium heat. Add chicken and cook until golden, about 4 to 6 minutes on each side. Remove chicken from skillet and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Add garlic to pan drippings; saut\u00e9 for 30 seconds. Add onion; cook and stir until onions are tender, about 3 minutes. Add tomatoes and bring to a boil. Reduce heat to low and add 1/2 cup white wine; simmer for 10 minutes. Add thyme and basil and simmer for 5 more minutes."
+    },
+    {
+      "position": 3,
+      "text": "Return chicken to skillet, cover, and cook over low heat until the chicken is cooked through and no longer pink inside. Add olives and parsley; cook for 1 minute. Season with salt and pepper and serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f2cafea9-3213-5985-abe2-ce5b0888f857/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "222 kcal",
+    "carbohydrateContent": "7 g",
+    "cholesterolContent": "68 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "268 mg",
+    "sugarContent": "3 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b1e2180f-a93b-5637-a231-e6913198d0d8",
+      "name": "white wine",
+      "normalized_name": "white wine",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "3d4da035-8d31-5739-9e0e-b190a7b09330",
+      "name": "diced onion",
+      "normalized_name": "diced onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "b1e2180f-a93b-5637-a231-e6913198d0d8",
+      "name": "white wine",
+      "normalized_name": "white wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "6015646e-6927-5ea2-8523-49b609b71c17",
+      "name": "chopped fresh thyme",
+      "normalized_name": "chopped fresh thyme",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "3137d3c8-bf47-5da8-adb2-cd7e446039cd",
+      "name": "chopped fresh basil",
+      "normalized_name": "chopped fresh basil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "a17b176a-ece0-51a6-898b-3adb0789e241",
+      "name": "kalamata olives",
+      "normalized_name": "kalamata olives",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "b3e887f5-5ab1-5beb-aecd-b4afd5ef2b65",
+      "slug": "italian",
+      "name": "Italian"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "a3217056-1df7-5577-82d8-45855f913181",
+      "slug": "cooking-with-wine-recipes",
+      "name": "Cooking With Wine Recipes",
+      "color": null
+    },
+    {
+      "id": "6a1703c3-5ba8-5764-9319-7fad5e5d14de",
+      "slug": "mediterranean-diet-recipes",
+      "name": "Mediterranean Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "f365f6c5-b719-5cbe-a2fd-3b9e257ea330",
+      "slug": "skillet-chicken",
+      "name": "Skillet Chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15486/mediterranean-chicken"
+  },
+  "public": true,
+  "updated_at": 1788034920,
+  "revision": 1
+}

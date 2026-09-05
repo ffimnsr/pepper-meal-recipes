@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f794bdfd-21b3-52f8-b42d-247bd2b21d1b",
+  "slug": "pork-carnitas-with-cilantro-tomatillo-sauce",
+  "name": "Pork Carnitas with Cilantro Tomatillo Sauce",
+  "recipe_type": "main",
+  "brief_description": "Slow cooking blends the flavors in this pork carnitas sauce.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cut pork into 1-inch cubes; season with salt and pepper."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a large skillet or Dutch oven. Add pork, onions, garlic powder, chili powder, and chipotle chile powder; saut\u00e9 until browned, 3 to 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add enough water to barely cover pork; bring to a boil. Cover, reduce heat, and simmer 30 minutes. Remove the lid and continue to simmer until liquid has evaporated, about 45 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Combine chopped tomatillos, tomatoes, and cilantro in a small bowl."
+    },
+    {
+      "position": 5,
+      "text": "Place an equal amount of pork on each tortilla. Top with tomatillo salsa."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 80,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f794bdfd-21b3-52f8-b42d-247bd2b21d1b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "262 kcal",
+    "carbohydrateContent": "16 g",
+    "cholesterolContent": "56 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "87 mg",
+    "sugarContent": "2 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8c974c46-c503-55cc-a155-3931d1e26281",
+      "name": "pork shoulder",
+      "normalized_name": "pork shoulder",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "61c8b8e8-57c4-5e84-a9bc-2252c116ae2d",
+      "name": "mazola\u00ae corn oil",
+      "normalized_name": "mazola corn oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a9528d99-1482-5a22-8e0a-18d3b0ed010c",
+      "name": "chopped onions",
+      "normalized_name": "chopped onions",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "e73c2867-b394-594d-9404-b0d97be13e5d",
+      "name": "spice islands\u00ae garlic powder",
+      "normalized_name": "spice islands garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7323adff-f5c3-5292-bb94-110bbfcedd9b",
+      "name": "spice islands\u00ae chili powder",
+      "normalized_name": "spice islands chili powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "e42ae8e7-90b3-53e7-a2a0-6e006974d38d",
+      "name": "spice islands\u00ae chipotle chile powder",
+      "normalized_name": "spice islands chipotle chile powder",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d7861c2c-37cd-55fe-bc9f-5177c2de406d",
+      "name": "tomatillos",
+      "normalized_name": "tomatillos",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "a48340a0-b5f7-544d-8895-af13348bb525",
+      "name": "finely chopped tomatoes",
+      "normalized_name": "finely chopped tomatoes",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d73889a8-e10b-54f0-b95c-fe565dafafd2",
+      "name": "coarsely chopped fresh cilantro",
+      "normalized_name": "coarsely chopped fresh cilantro",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "6785cf7f-5f2d-5e96-a1b1-f3d617e40a07",
+      "name": "corn tortillas",
+      "normalized_name": "corn tortillas",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "354736d5-336a-595d-a400-7d173505dd95",
+      "slug": "pulled-pork",
+      "name": "Pulled Pork",
+      "color": null
+    },
+    {
+      "id": "a3b43786-1971-57fd-b78f-c1e8ac2a8f46",
+      "slug": "trusted-brands-recipes-and-tips",
+      "name": "Trusted Brands: Recipes and Tips",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/153606/pork-carnitas-with-cilantro-tomatillo-sauce"
+  },
+  "public": true,
+  "updated_at": 1644974228,
+  "revision": 1
+}

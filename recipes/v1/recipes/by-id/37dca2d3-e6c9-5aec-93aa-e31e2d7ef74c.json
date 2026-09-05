@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "37dca2d3-e6c9-5aec-93aa-e31e2d7ef74c",
+  "slug": "maple-granola",
+  "name": "Maple Granola",
+  "recipe_type": "breakfast",
+  "brief_description": "Homemade maple granola with pecans and coconut oil is a hearty and crunchy cereal you can eat alone and sprinkle over yogurt or ice cream.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 300 degrees F (150 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Mix maple syrup and coconut oil together in a bowl; add oats, pecans, and almond flour and mix until evenly coated. Spread onto a baking sheet."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until lightly browned, about 40 minutes."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/37dca2d3-e6c9-5aec-93aa-e31e2d7ef74c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "345 kcal",
+    "carbohydrateContent": "36 g",
+    "fiberContent": "5 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "3 mg",
+    "sugarContent": "10 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f3c9a5c8-4880-5c44-af54-63d919c247d4",
+      "name": "maple syrup",
+      "normalized_name": "maple syrup",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e1f61fb9-e8f4-56b9-9735-b3643a2a22b2",
+      "name": "coconut oil",
+      "normalized_name": "coconut oil",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 2
+    },
+    {
+      "ingredient_id": "699b505f-5881-5616-bd0e-f951be544ca7",
+      "name": "old-fashioned oats",
+      "normalized_name": "old-fashioned oats",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": "or more to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "a0ceb4ab-348a-5657-881b-75a939d19580",
+      "name": "chopped pecans",
+      "normalized_name": "chopped pecans",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f9a99f9f-88e8-50ce-9d63-a797317af35f",
+      "name": "almond flour",
+      "normalized_name": "almond flour",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "9ec40b2a-b71d-5383-b106-ec69d067e34e",
+      "slug": "cereals",
+      "name": "Cereals"
+    },
+    {
+      "id": "bdbe4c5e-ef54-54f2-b396-99d3d157bc0a",
+      "slug": "granola",
+      "name": "Granola"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "6be524af-b4a9-51e1-8cee-8e6fdee6ae91",
+      "slug": "coconut-oil-recipes",
+      "name": "Coconut Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "fe7ed170-1df4-5541-837c-5575aceff5b6",
+      "slug": "cereals",
+      "name": "Cereals",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "6e9bc079-ab22-5296-b01a-351ef64551ef",
+      "slug": "flour-recipes",
+      "name": "Flour Recipes",
+      "color": null
+    },
+    {
+      "id": "4fe5fe2f-c3bd-5b9f-80cc-96bc9aaf2251",
+      "slug": "oat-recipes",
+      "name": "Oat Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "2d6b8400-f602-558f-b2c4-b29ed02afc3e",
+      "slug": "almond-meal-recipes",
+      "name": "Almond Meal Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245160/maple-granola"
+  },
+  "public": true,
+  "updated_at": 1642140995,
+  "revision": 1
+}

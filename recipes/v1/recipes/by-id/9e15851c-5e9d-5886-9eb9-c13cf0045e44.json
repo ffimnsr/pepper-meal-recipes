@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9e15851c-5e9d-5886-9eb9-c13cf0045e44",
+  "slug": "chicken-gumbo-soup",
+  "name": "Chicken Gumbo Soup",
+  "recipe_type": "soup",
+  "brief_description": "Chicken gumbo soup with okra is cooked with chicken breast, wild rice and spiral shaped pasta in this rich stew seasoned with hot pepper sauce.",
+  "cuisine": "Creole",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring water to a boil. Season with garlic powder and hot pepper sauce. Add in carrots and mushrooms. Cook for 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Add okra, wild rice, and chicken. Reduce the heat to low, and cook for 3 hours."
+    },
+    {
+      "position": 3,
+      "text": "Add pasta and cook for 10 minutes. Season with salt and pepper. Serve hot, garnished with green onions."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 200,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9e15851c-5e9d-5886-9eb9-c13cf0045e44/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "116 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "9 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "70 mg",
+    "sugarContent": "3 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "caa37eda-f1d6-5fef-90ee-16dac8151601",
+      "name": "hot pepper sauce",
+      "normalized_name": "hot pepper sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced thin",
+      "position": 4
+    },
+    {
+      "ingredient_id": "dbadff2b-40cb-5a7c-be14-28f1a1f4c7e4",
+      "name": "fresh mushrooms",
+      "normalized_name": "fresh mushrooms",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "56a556b7-c9eb-5519-a1d6-9fbb397f2b69",
+      "name": "ounce) package frozen okra",
+      "normalized_name": "ounce package frozen okra",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": "thawed and sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "3ec50257-6d22-52ff-9da1-0cdf51477ea5",
+      "name": "uncooked wild rice",
+      "normalized_name": "uncooked wild rice",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "boneless chicken breast half - cut into cubes",
+      "position": 8
+    },
+    {
+      "ingredient_id": "5b9f1de9-031d-56ca-b891-e412c578aa2f",
+      "name": "uncooked rotini pasta",
+      "normalized_name": "uncooked rotini pasta",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "e5e597b7-47c6-521b-8236-c975ee5d23bd",
+      "slug": "gumbo",
+      "name": "Gumbo"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "a954f7c7-64e6-5e0d-a6e9-db6ead009ad0",
+      "slug": "diabetic",
+      "name": "Diabetic",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12934/chicken-gumbo-soup"
+  },
+  "public": true,
+  "updated_at": 1734469676,
+  "revision": 1
+}

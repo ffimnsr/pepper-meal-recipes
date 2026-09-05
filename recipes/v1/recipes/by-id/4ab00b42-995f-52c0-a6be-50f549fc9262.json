@@ -1,0 +1,275 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4ab00b42-995f-52c0-a6be-50f549fc9262",
+  "slug": "corrigans-minestrone",
+  "name": "Corrigan's Minestrone",
+  "recipe_type": "soup",
+  "brief_description": "Hearty and filling vegetarian soup with potatoes, carrots, celery, onion, garlic, beans and pasta.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a large pot over medium heat. Stir potatoes, carrots, celery, onion and garlic into pot. Mix in tomato paste, beans, broth and water. Season with basil, oregano and salt. Cook and stir 30 minutes, or until vegetables are tender."
+    },
+    {
+      "position": 2,
+      "text": "Mix macaroni into pot. Continue cooking 10 minutes, or until macaroni is tender."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4ab00b42-995f-52c0-a6be-50f549fc9262/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "221 kcal",
+    "carbohydrateContent": "42 g",
+    "fiberContent": "7 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "874 mg",
+    "sugarContent": "5 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "3962bc64-6c09-5e18-a253-b9e163ca8320",
+      "name": "sweet onion",
+      "normalized_name": "sweet onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "5cc54c10-3b3f-5ab7-b4ab-194ca54bea2e",
+      "name": "ounce) can tomato paste",
+      "normalized_name": "ounce can tomato paste",
+      "quantity": "1 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "c593906b-e65c-55ab-a751-2c4830119045",
+      "name": "ounce) can kidney beans",
+      "normalized_name": "ounce can kidney beans",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained and rinsed",
+      "position": 8
+    },
+    {
+      "ingredient_id": "b7598e29-c333-55e3-9c03-3268e5709aff",
+      "name": "ounce) can vegetable broth",
+      "normalized_name": "ounce can vegetable broth",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
+      "name": "quarts water",
+      "normalized_name": "quarts water",
+      "quantity": "1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "3137d3c8-bf47-5da8-adb2-cd7e446039cd",
+      "name": "chopped fresh basil",
+      "normalized_name": "chopped fresh basil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "4f3e7b5f-150c-5374-a120-89e81ae074a1",
+      "name": "chopped fresh oregano",
+      "normalized_name": "chopped fresh oregano",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "9cd0a47c-2d1c-5d2e-b32e-ced7422c2647",
+      "name": "uncooked elbow macaroni",
+      "normalized_name": "uncooked elbow macaroni",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "735a9e8e-adcb-5012-8a67-19a8d5bdf5e2",
+      "slug": "minestrone",
+      "name": "Minestrone"
+    }
+  ],
+  "tags": [
+    {
+      "id": "781e9dda-ec68-58bd-8466-fa2cd5883626",
+      "slug": "minestrone",
+      "name": "Minestrone",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/100218/corrigans-minestrone"
+  },
+  "public": true,
+  "updated_at": 1657829350,
+  "revision": 1
+}

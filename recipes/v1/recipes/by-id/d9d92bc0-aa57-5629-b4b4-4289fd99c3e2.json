@@ -1,0 +1,239 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d9d92bc0-aa57-5629-b4b4-4289fd99c3e2",
+  "slug": "mimis-zucchini-pie",
+  "name": "Mimi's Zucchini Pie",
+  "recipe_type": "breakfast",
+  "brief_description": "Zucchini and summer squash are baked together in a quiche-like vegetable pie. Topped with slices of tomato and Parmesan cheese, this one's a winner!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9 inch deep dish pie plate."
+    },
+    {
+      "position": 2,
+      "text": "Whisk together eggs and oil in a bowl with salt and pepper. Stir in baking powder and baking mix until moistened. Gently fold in zucchini, summer squash, and onion. Pour into prepared pie plate, and arrange sliced tomato over top. Sprinkle with Parmesan cheese to taste."
+    },
+    {
+      "position": 3,
+      "text": "Bake in preheated oven until puffed and golden brown, about 35 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d9d92bc0-aa57-5629-b4b4-4289fd99c3e2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "182 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "95 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "400 mg",
+    "sugarContent": "2 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3c860dfa-b885-5c25-b02f-f7059182d0a4",
+      "name": "all-purpose baking mix",
+      "normalized_name": "all-purpose baking mix",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "76e9924d-a145-5f2e-b996-4ad5f02a23cf",
+      "name": "sliced zucchini",
+      "normalized_name": "sliced zucchini",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e60ee0ae-4545-5e54-8774-6f13a08e7d68",
+      "name": "sliced yellow squash",
+      "normalized_name": "sliced yellow squash",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "864ca439-18b9-539b-a535-6640221993e0",
+      "name": "large ripe tomato",
+      "normalized_name": "large ripe tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "a7ca9625-d163-578e-8535-bfba35a3532b",
+      "slug": "quiche",
+      "name": "Quiche"
+    },
+    {
+      "id": "be82db28-249c-56be-af57-fe55bbde4722",
+      "slug": "zucchini-quiche",
+      "name": "Zucchini Quiche"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c33ffe94-631f-55f3-9837-656e120b5cbb",
+      "slug": "zucchini-quiche-recipes",
+      "name": "Zucchini Quiche Recipes",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "db91492e-e32c-5710-93d7-22a553631e4d",
+      "slug": "quiche",
+      "name": "Quiche",
+      "color": null
+    },
+    {
+      "id": "4a7eef56-ff9d-5959-8bcb-c3c4a13e0829",
+      "slug": "zucchini",
+      "name": "Zucchini",
+      "color": null
+    },
+    {
+      "id": "489def73-dc81-5671-9631-5bffd5bd351b",
+      "slug": "squash",
+      "name": "Squash",
+      "color": null
+    },
+    {
+      "id": "2ce85535-3e6b-5322-a4d4-f8519480fbec",
+      "slug": "summer-squash",
+      "name": "Summer Squash",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "a9c65082-e3ec-5e52-b5f9-15b4071d7980",
+      "slug": "yellow-squash",
+      "name": "Yellow Squash",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/104928/mimis-zucchini-pie"
+  },
+  "public": true,
+  "updated_at": 1777926246,
+  "revision": 1
+}

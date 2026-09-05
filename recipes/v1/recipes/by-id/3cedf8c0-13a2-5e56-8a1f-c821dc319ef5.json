@@ -1,0 +1,189 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3cedf8c0-13a2-5e56-8a1f-c821dc319ef5",
+  "slug": "blt-deviled-eggs",
+  "name": "BLT Deviled Eggs",
+  "recipe_type": "appetizer",
+  "brief_description": "For these BLT deviled eggs, smoky bacon and fresh cherry tomatoes, with bright green dried parsley, bring the flavor of a BLT to regular deviled eggs.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place eggs in a saucepan; cover with water. Bring to a boil, remove from heat, and let eggs stand in hot water for 15 minutes. Remove eggs from hot water, cool under cold running water, and peel."
+    },
+    {
+      "position": 2,
+      "text": "Cook bacon in a large skillet over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain on paper towels; crumble bacon when cool enough to handle."
+    },
+    {
+      "position": 3,
+      "text": "Cut eggs in half lengthwise; place egg yolks in a bowl. Mash yolks with a fork; stir in crumbled bacon, mayonnaise, tomatoes, and parsley. Season with salt and black pepper."
+    },
+    {
+      "position": 4,
+      "text": "Arrange egg white halves on a serving platter; spoon yolk mixture into egg whites. Refrigerate, covered, until ready to serve."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3cedf8c0-13a2-5e56-8a1f-c821dc319ef5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "82 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "97 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "114 mg",
+    "sugarContent": "0 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b1fa9030-caca-5cdb-a806-8fcba68d3333",
+      "name": "cherry tomatoes",
+      "normalized_name": "cherry tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded and minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c7f94c24-41b4-5f73-9a71-06be56833d48",
+      "name": "dried parsley",
+      "normalized_name": "dried parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "78e6f3b3-d4d6-5248-a096-55612b876bea",
+      "slug": "deviled-eggs",
+      "name": "Deviled Eggs"
+    },
+    {
+      "id": "be6ade74-abcd-5124-a726-a3b7e0e00dd8",
+      "slug": "bacon-deviled-egg",
+      "name": "Bacon Deviled Egg"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3585f4eb-3f3b-5bc2-9c24-600cd35e86af",
+      "slug": "bacon-deviled-egg-recipes",
+      "name": "Bacon Deviled Egg Recipes",
+      "color": null
+    },
+    {
+      "id": "034394aa-b2a8-5d8f-9932-b7e2b073439f",
+      "slug": "bacon",
+      "name": "Bacon",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "06ec51be-db30-5641-9f33-649268cc4c42",
+      "slug": "easter-ideas",
+      "name": "Easter Ideas",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236523/blt-deviled-eggs"
+  },
+  "public": true,
+  "updated_at": 1734012515,
+  "revision": 1
+}

@@ -1,0 +1,184 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7b566f87-be24-5272-b21e-3061a23992c4",
+  "slug": "microwave-popcorn",
+  "name": "Microwave Popcorn",
+  "recipe_type": "appetizer",
+  "brief_description": "Microwave popcorn is easy to make using standard popping corn and a brown paper lunch bag \u2014 it's low-fat, delicious, and works perfectly every time.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Mix together unpopped popcorn and oil in a cup or small bowl."
+    },
+    {
+      "position": 3,
+      "text": "Pour the coated corn into a brown paper lunch sack, and sprinkle in the salt. Fold the top of the bag over twice to seal in the ingredients."
+    },
+    {
+      "position": 4,
+      "text": "Cook in the microwave at full power for 2 1/2 to 3 minutes, or until you hear pauses of about 2 seconds between pops. Carefully open the bag to avoid steam, and pour into a serving bowl."
+    },
+    {
+      "position": 5,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 3,
+  "preparation_time_minutes": 2,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7b566f87-be24-5272-b21e-3061a23992c4/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/2w1JcKl0-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "137 kcal",
+    "carbohydrateContent": "25 g",
+    "fiberContent": "5 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "389 mg",
+    "sugarContent": "0 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "74aa2f44-ccc5-5899-90a5-14226331aefe",
+      "name": "unpopped popcorn",
+      "normalized_name": "unpopped popcorn",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "38cb4343-f9c8-5de7-a945-252e99bce640",
+      "slug": "snacks",
+      "name": "Snacks"
+    },
+    {
+      "id": "ddbeb44d-ff2e-5d76-993f-03dc82c313df",
+      "slug": "popcorn",
+      "name": "Popcorn"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "12b53fc8-adea-562c-87e6-39e8b39a23da",
+      "slug": "popcorn-recipes",
+      "name": "Popcorn Recipes",
+      "color": null
+    },
+    {
+      "id": "7f078dac-1953-5a3b-87ce-4ca9aab56c07",
+      "slug": "snacks",
+      "name": "Snacks",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "acb4aea2-50e0-54f5-9f55-88ed42e18ac3",
+      "slug": "olympics",
+      "name": "Olympics",
+      "color": null
+    },
+    {
+      "id": "1e83fd8f-f8d5-5dd8-98fc-88de342429d2",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment",
+      "color": null
+    },
+    {
+      "id": "9005406e-37a6-5c33-a19b-eff22442ed34",
+      "slug": "baseball",
+      "name": "Baseball",
+      "color": null
+    },
+    {
+      "id": "32ca55aa-c740-52e0-95af-7aec91411ac9",
+      "slug": "high-fiber",
+      "name": "High-Fiber",
+      "color": null
+    },
+    {
+      "id": "cd7e72a0-d2b1-5465-815b-0da0d3762c24",
+      "slug": "corn",
+      "name": "Corn",
+      "color": null
+    },
+    {
+      "id": "a00e8f38-1976-5fcc-afc1-90bb835175c0",
+      "slug": "holiday-planning",
+      "name": "Holiday Planning",
+      "color": null
+    },
+    {
+      "id": "21b04e55-3d32-58a3-8be3-3e11669e8385",
+      "slug": "microwave",
+      "name": "Microwave",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/87305/microwave-popcorn"
+  },
+  "public": true,
+  "updated_at": 1769088121,
+  "revision": 1
+}

@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3a59b1f7-280e-5a54-90d2-7f3056dbd0b5",
+  "slug": "fresh-watermelon-gazpacho",
+  "name": "Fresh Watermelon Gazpacho",
+  "recipe_type": "soup",
+  "brief_description": "This fresh watermelon gazpacho recipe with cucumber, jalape\u00f1o, blueberries, and a touch of red wine vinegar is a tweak on the usual gazpacho recipe.",
+  "cuisine": "Spanish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place 6 cups watermelon, \u00bd cucumber, jalape\u00f1o, and vinegar in a blender; blend until smooth."
+    },
+    {
+      "position": 2,
+      "text": "Transfer gazpacho to a large bowl; stir in remaining 2 cups watermelon and remaining \u00bd cucumber. Refrigerate until chilled, at least 30 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Divide gazpacho among 4 bowls; top servings with blueberries."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3a59b1f7-280e-5a54-90d2-7f3056dbd0b5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "122 kcal",
+    "carbohydrateContent": "31 g",
+    "fiberContent": "3 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "4 mg",
+    "sugarContent": "23 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c70cb4bf-3a46-5528-a81b-04d8a1b86a7d",
+      "name": "diced seeded watermelon",
+      "normalized_name": "diced seeded watermelon",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "f1909e4b-6188-515f-92a5-f3e291b1815b",
+      "name": "cucumber - peeled",
+      "normalized_name": "cucumber - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded, and diced, divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "a4182eae-598b-5104-9ee4-e5ab15d9725f",
+      "name": "jalapeno pepper",
+      "normalized_name": "jalapeno pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "3984a17a-560e-5498-8e4b-ecdeaafe5951",
+      "name": "red wine vinegar",
+      "normalized_name": "red wine vinegar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "1b50230f-4efa-5379-a02c-16db54f05786",
+      "name": "fresh blueberries",
+      "normalized_name": "fresh blueberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "c35b4028-c374-5777-a813-14d61361df41",
+      "slug": "gazpacho",
+      "name": "Gazpacho"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ff7e1070-248f-5b5e-b89b-87aaaab12cc6",
+      "slug": "gazpacho-recipes",
+      "name": "Gazpacho Recipes",
+      "color": null
+    },
+    {
+      "id": "a4e6611a-eaf0-564b-a832-fc9eb0cd1b1a",
+      "slug": "lunches",
+      "name": "Lunches",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "a954f7c7-64e6-5e0d-a6e9-db6ead009ad0",
+      "slug": "diabetic",
+      "name": "Diabetic",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/242181/fresh-watermelon-gazpacho"
+  },
+  "public": true,
+  "updated_at": 1755547460,
+  "revision": 1
+}

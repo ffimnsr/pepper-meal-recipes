@@ -1,0 +1,208 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e8b4d247-515f-5de5-bb84-d86019f9463f",
+  "slug": "best-breakfast-quesadilla",
+  "name": "Best Breakfast Quesadilla",
+  "recipe_type": "breakfast",
+  "brief_description": "This breakfast quesadilla is stuffed with scrambled eggs, crispy bacon, and gooey melted cheese inside golden and crisp tortillas.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Crack eggs into a small bowl. Add crumbled bacon and whisk until well combined."
+    },
+    {
+      "position": 3,
+      "text": "Spray a large skillet with cooking spray; warm over medium-high heat. Pour egg mixture into the skillet; cook and stir until eggs are set, about 5 minutes. Remove from the heat."
+    },
+    {
+      "position": 4,
+      "text": "Lightly butter one side of each tortilla. Warm a separate, dry skillet over medium-low heat."
+    },
+    {
+      "position": 5,
+      "text": "Place one tortilla into the warm skillet with the buttered side facing down. Spoon 1/2 of the scrambled egg mixture over one half of the tortilla."
+    },
+    {
+      "position": 6,
+      "text": "Sprinkle 1/4 cup Colby-Jack cheese over the egg mixture and fold the tortilla over top. Cook, turning as needed, until tortilla is toasted and crispy and cheese is melted, 2 to 3 minutes. Repeat to make second quesadilla."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e8b4d247-515f-5de5-bb84-d86019f9463f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "476 kcal",
+    "carbohydrateContent": "29 g",
+    "cholesterolContent": "244 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "995 mg",
+    "fatContent": "29 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "cooked and crumbled",
+      "position": 2
+    },
+    {
+      "ingredient_id": "3de1e9ac-4c7f-5818-a480-473403e19215",
+      "name": "inch) flour tortillas",
+      "normalized_name": "inch flour tortillas",
+      "quantity": "2 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "softened, or to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8e94ff77-a233-5ff9-8fd1-6dc5528d7ead",
+      "name": "shredded colby-jack cheese",
+      "normalized_name": "shredded colby-jack cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "8ec235d9-2bc7-5e67-9a66-0ba6c545cdba",
+      "slug": "quesadilla",
+      "name": "Quesadilla"
+    }
+  ],
+  "tags": [
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "5af83e6d-2d61-52f9-ac50-236132bddbf1",
+      "slug": "quesadilla-recipes",
+      "name": "Quesadilla Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "932014c7-72f8-5911-83ed-0484f951c268",
+      "slug": "breakfast",
+      "name": "Breakfast",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8353109/best-breakfast-quesadilla"
+  },
+  "public": true,
+  "updated_at": 1732417870,
+  "revision": 1
+}

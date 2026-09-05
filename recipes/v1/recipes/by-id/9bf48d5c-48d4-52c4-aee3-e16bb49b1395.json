@@ -1,0 +1,200 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9bf48d5c-48d4-52c4-aee3-e16bb49b1395",
+  "slug": "stuffed-mushrooms-iii",
+  "name": "Stuffed Mushrooms III",
+  "recipe_type": "appetizer",
+  "brief_description": "Mushroom caps stuffed with a mixture of Italian cheeses and pesto.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Wash mushrooms, remove stems, hollow out and brush inside and out with olive oil."
+    },
+    {
+      "position": 3,
+      "text": "In a medium-size mixing bowl, combine cheese and pesto, reserving 1/4 cup Parmesan cheese for later. Stuff the cheese-pesto mixture into the mushroom caps. Arrange the caps on a cookie sheet. Sprinkle the mushrooms with the reserved Parmesan cheese."
+    },
+    {
+      "position": 4,
+      "text": "Bake for 25 to 30 minutes, or until the cheese is bubbling and brownish."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9bf48d5c-48d4-52c4-aee3-e16bb49b1395/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "261 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "38 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "540 mg",
+    "sugarContent": "1 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5b24212c-0d38-5fa7-a6ad-3668f78ddd6b",
+      "name": "large fresh mushrooms",
+      "normalized_name": "large fresh mushrooms",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c9f0114c-8eae-5516-b8e7-2f3ba67091e4",
+      "name": "ricotta cheese",
+      "normalized_name": "ricotta cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bcb570de-4d06-57db-95cd-4ac1e9919756",
+      "name": "pesto",
+      "normalized_name": "pesto",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "24e3743e-25a0-58f6-8029-8741b37c8156",
+      "slug": "vegetable",
+      "name": "Vegetable"
+    },
+    {
+      "id": "fcbe29a0-e1fa-58a6-a387-e12650b7c5df",
+      "slug": "mushrooms",
+      "name": "Mushrooms"
+    },
+    {
+      "id": "46172c05-a927-5f69-9981-5b00bff19c43",
+      "slug": "stuffed-mushroom",
+      "name": "Stuffed Mushroom"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4b293dbb-9baf-5a4e-b069-520882d482f2",
+      "slug": "stuffed-mushroom-recipes",
+      "name": "Stuffed Mushroom Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "99d8c901-c626-5363-9195-83d035f13932",
+      "slug": "low-carb",
+      "name": "Low-Carb",
+      "color": null
+    },
+    {
+      "id": "78473c97-855b-56e2-9592-0f1aaab60f59",
+      "slug": "mozzarella",
+      "name": "Mozzarella",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16909/stuffed-mushrooms-iii"
+  },
+  "public": true,
+  "updated_at": 1657834136,
+  "revision": 1
+}

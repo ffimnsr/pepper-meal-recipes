@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "99c3782e-46a2-5756-8c30-99fde180f2d4",
+  "slug": "rachels-cranberry-chicken-salad",
+  "name": "Rachel's Cranberry Chicken Salad",
+  "recipe_type": "salad",
+  "brief_description": "This cranberry chicken salad made with cooked chopped chicken, mayo, pecans, apple, and tart cranberries is creamy, crunchy, and full of flavor.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Stir chicken and mayonnaise together in a medium bowl until evenly coated. Stir in green onions, dried cranberries, apple, pecans, lime juice, dill weed, salt, and pepper."
+    },
+    {
+      "position": 2,
+      "text": "Serve immediately or refrigerate for several hours or overnight (the flavor just gets better)."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/99c3782e-46a2-5756-8c30-99fde180f2d4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "384 kcal",
+    "carbohydrateContent": "16 g",
+    "cholesterolContent": "46 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "187 mg",
+    "sugarContent": "11 g",
+    "fatContent": "30 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "23436eac-1adb-50c6-b5e9-0792a13bf0c9",
+      "name": "cooked chicken breast halves",
+      "normalized_name": "cooked chicken breast halves",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 2
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "a3d7bad4-3e3e-52a7-8ea6-8b459ee98536",
+      "name": "sweetened dried cranberries (such as ocean spray\u00ae craisins\u00ae)",
+      "normalized_name": "sweetened dried cranberries",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "126f45c3-3ce9-524b-b12f-d8ac08e74f67",
+      "name": "green apple",
+      "normalized_name": "green apple",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "shredded",
+      "position": 5
+    },
+    {
+      "ingredient_id": "a0ceb4ab-348a-5657-881b-75a939d19580",
+      "name": "chopped pecans",
+      "normalized_name": "chopped pecans",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "59ad6408-a9e8-5f6c-aa7a-e073cf4e0a9c",
+      "name": "lime juice",
+      "normalized_name": "lime juice",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "c695b7e1-c0a2-5395-852a-ca8d6057ab91",
+      "name": "dried dill weed",
+      "normalized_name": "dried dill weed",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "c7db2d2d-dc45-5966-a897-f09ff631d8c6",
+      "name": "salt and black pepper",
+      "normalized_name": "salt and black pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": "or to taste",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "42d47281-4996-5c3b-b16f-3ae540302bbd",
+      "slug": "chicken-salad",
+      "name": "Chicken Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0c4351c3-a3e2-5491-9427-591469b533f8",
+      "slug": "chicken-salad-recipes",
+      "name": "Chicken Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214230/rachels-cranberry-chicken-salad"
+  },
+  "public": true,
+  "updated_at": 1764167008,
+  "revision": 1
+}

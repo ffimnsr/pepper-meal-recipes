@@ -1,0 +1,232 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "78b870ec-f2b3-56f5-a981-c7d3106c849a",
+  "slug": "roasted-red-pepper-soup",
+  "name": "Roasted Red Pepper Soup",
+  "recipe_type": "soup",
+  "brief_description": "A puree of roasted red peppers is the base for this hearty pasta soup.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place roasted red peppers in a blender or food processor, and blend until smooth."
+    },
+    {
+      "position": 2,
+      "text": "In a large saucepan, mix roasted red peppers, chicken broth, and mushrooms. Season with basil, oregano, garlic powder, salt, and pepper. Bring the mixture to a boil. Stir in tortellini, and continue cooking 8 to 10 minutes, or until pasta is al dente."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/78b870ec-f2b3-56f5-a981-c7d3106c849a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "245 kcal",
+    "carbohydrateContent": "37 g",
+    "cholesterolContent": "28 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "795 mg",
+    "sugarContent": "5 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "73e8b784-18db-51fe-893d-218108c3c67a",
+      "name": "ounce) jars roasted red peppers",
+      "normalized_name": "ounce jars roasted red peppers",
+      "quantity": "2 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "989338b8-495c-5a39-bb8c-ecc8a7cce36b",
+      "name": "ounce) cans chicken broth",
+      "normalized_name": "ounce cans chicken broth",
+      "quantity": "2 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ae66d8de-19a8-56e3-a272-57b532f64c29",
+      "name": "ounce) package sliced fresh mushrooms",
+      "normalized_name": "ounce package sliced fresh mushrooms",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "926af8a3-1f4f-5d54-b16f-43f37953b512",
+      "name": "dried basil",
+      "normalized_name": "dried basil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "109bbe86-c9ac-51f7-9a6c-165a31a88f53",
+      "name": "ounce) packages fresh cheese tortellini",
+      "normalized_name": "ounce packages fresh cheese tortellini",
+      "quantity": "2 (9",
+      "unit": "pieces",
+      "preparation": "uncooked",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "95237eae-d985-5390-a1a3-cc4324d8aa85",
+      "slug": "noodle-soup",
+      "name": "Noodle Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e82bd1ea-d139-5679-8085-c904c250a18f",
+      "slug": "noodle-soup-recipes",
+      "name": "Noodle Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "fd2ffc67-c552-52a5-9594-6ec896c3b953",
+      "slug": "tortellini-recipes",
+      "name": "Tortellini Recipes",
+      "color": null
+    },
+    {
+      "id": "67a9e0e4-4e75-55b6-a69a-a87726f5aa9b",
+      "slug": "pasta-by-shape-recipes",
+      "name": "Pasta by Shape Recipes",
+      "color": null
+    },
+    {
+      "id": "a0f447de-7a39-5f29-af35-80c44e51c091",
+      "slug": "low-potassium",
+      "name": "Low-Potassium",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/37673/roasted-red-pepper-soup"
+  },
+  "public": true,
+  "updated_at": 1657833394,
+  "revision": 1
+}

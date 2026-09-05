@@ -1,0 +1,256 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "561c6425-60e9-5664-85bf-54231ec13dab",
+  "slug": "ginger-veggie-stir-fry",
+  "name": "Ginger Veggie Stir Fry",
+  "recipe_type": "main",
+  "brief_description": "This easy veggie stir fry with garlic and ginger calls for broccoli, snow peas, carrots, and green beans, but you can use any of your favorites.",
+  "cuisine": "Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place 2 tablespoons vegetable oil, 1 teaspoon ginger, garlic, and cornstarch in a large bowl; mix until cornstarch is dissolved."
+    },
+    {
+      "position": 3,
+      "text": "Add broccoli, carrots, snow peas, and green beans; toss lightly to coat."
+    },
+    {
+      "position": 4,
+      "text": "Heat remaining 2 tablespoons vegetable oil in a large skillet or wok over medium heat. Add vegetable mixture and cook for 2 minutes, stirring constantly to prevent burning."
+    },
+    {
+      "position": 5,
+      "text": "Stir in water and soy sauce; add onion, salt, and remaining 1 teaspoon ginger. Cook and stir until vegetables are tender but crisp."
+    },
+    {
+      "position": 6,
+      "text": "Serve hot and enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/561c6425-60e9-5664-85bf-54231ec13dab/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/BKCMlquA-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "119 kcal",
+    "carbohydrateContent": "8 g",
+    "fiberContent": "2 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "903 mg",
+    "sugarContent": "3 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "6eb7d7ec-5d05-5e6d-817d-bcd9c3407c8e",
+      "name": "chopped fresh ginger root",
+      "normalized_name": "chopped fresh ginger root",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1.5",
+      "unit": "cloves",
+      "preparation": "crushed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "49574071-b207-5eaf-be86-5701fdeeaf27",
+      "name": "small head broccoli",
+      "normalized_name": "small head broccoli",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into florets",
+      "position": 5
+    },
+    {
+      "ingredient_id": "41b18be8-e2c3-5a98-b42a-03f42600005f",
+      "name": "julienned carrots",
+      "normalized_name": "julienned carrots",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d778c04c-5fe2-5be8-a24b-4b8ac6b628a5",
+      "name": "snow peas",
+      "normalized_name": "snow peas",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "15857317-f8ca-5cad-a217-c6d7e1b6b721",
+      "name": "halved green beans",
+      "normalized_name": "halved green beans",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    },
+    {
+      "id": "4bbce3b5-1094-5afe-9c1a-51d908f535b1",
+      "slug": "vegetarian",
+      "name": "Vegetarian"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "d1f752e9-fa14-598e-8c5b-a8949539096f",
+      "slug": "stir-fry",
+      "name": "Stir-Fry"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "07ba43a2-beca-5b6f-80a3-cca209ede6c8",
+      "slug": "stir-fry",
+      "name": "Stir-Fry",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24712/ginger-veggie-stir-fry"
+  },
+  "public": true,
+  "updated_at": 1764700320,
+  "revision": 1
+}

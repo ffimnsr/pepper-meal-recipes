@@ -1,0 +1,181 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "134b0ebf-3c18-56d9-9b58-17b252b19a06",
+  "slug": "whole-wheat-beer-bread",
+  "name": "Whole Wheat Beer Bread",
+  "recipe_type": "soup",
+  "brief_description": "A hearty quick bread that's great with soup or chili and makes excellent toast. Flavor of bread will change, depending on type of beer used.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x5 inch loaf pan."
+    },
+    {
+      "position": 2,
+      "text": "In a large mixing bowl, combine all-purpose flour, whole wheat flour, baking powder, salt and brown sugar. Pour in beer, stir until a stiff batter is formed. It may be necessary to mix dough with your hands. Scrape dough into prepared loaf pan."
+    },
+    {
+      "position": 3,
+      "text": "Bake in preheated oven for 50 to 60 minutes, until a toothpick inserted into center of the loaf comes out clean."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/134b0ebf-3c18-56d9-9b58-17b252b19a06/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "144 kcal",
+    "carbohydrateContent": "30 g",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "430 mg",
+    "sugarContent": "6 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b5404ae1-14cb-5d02-8b60-2836ddf2795c",
+      "name": "whole wheat flour",
+      "normalized_name": "whole wheat flour",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "4.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "4318d726-c4c1-57d3-ad3e-5e83a3428d49",
+      "name": "packed brown sugar",
+      "normalized_name": "packed brown sugar",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a7365ada-4c72-5e0b-b7f5-53480c0114d7",
+      "name": "fluid ounce) can or bottle beer",
+      "normalized_name": "fluid ounce can or bottle beer",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "6e9bc079-ab22-5296-b01a-351ef64551ef",
+      "slug": "flour-recipes",
+      "name": "Flour Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "9a578210-cad0-5e96-b126-9f653a6a83f6",
+      "slug": "kosher",
+      "name": "Kosher",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "146ace16-9742-534c-949a-429f3f750c32",
+      "slug": "wheat-bread",
+      "name": "Wheat Bread",
+      "color": null
+    },
+    {
+      "id": "7fab6851-ad62-5467-9c7b-75bf9cad7805",
+      "slug": "parve",
+      "name": "Parve",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24932/whole-wheat-beer-bread"
+  },
+  "public": true,
+  "updated_at": 1642817400,
+  "revision": 1
+}

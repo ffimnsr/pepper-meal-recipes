@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fa82030b-5fc4-5d86-a812-0bdeaf6aa00c",
+  "slug": "applesauce-pork-chops",
+  "name": "Applesauce Pork Chops",
+  "recipe_type": "dessert",
+  "brief_description": "Pork chops and applesauce combine to make an incredibly flavorful dish of tender pork chops cooked with onion and apple in a sweet and savory sauce.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a large skillet over medium heat; cook and stir apple and onion in melted butter until tender, about 5 minutes. Transfer apple and onion mixture to a bowl."
+    },
+    {
+      "position": 3,
+      "text": "Place pork chops in the same skillet over medium heat; cook until pork chops are browned, about 5 minutes per side. Place pork chops in a 9x9-inch baking dish; season with salt and black pepper."
+    },
+    {
+      "position": 4,
+      "text": "Mix applesauce, brown sugar, mustard, and cinnamon into apple and onion mixture. Spoon over pork chops."
+    },
+    {
+      "position": 5,
+      "text": "Bake, covered, in the preheated oven until pork chops are no longer pink in the center, 30 to 45 minutes. An instant-read thermometer inserted into the center should read at least 145 degrees F (63 degrees C)."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fa82030b-5fc4-5d86-a812-0bdeaf6aa00c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "386 kcal",
+    "carbohydrateContent": "43 g",
+    "cholesterolContent": "81 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "625 mg",
+    "sugarContent": "35 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d50526d9-1e04-58e6-9359-2942f67f4dee",
+      "name": "apple - peeled",
+      "normalized_name": "apple - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored, and sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "7cc64d65-3945-5819-ac8e-cc3a93fd8aff",
+      "name": "inch thick) pork chops",
+      "normalized_name": "inch thick pork chops",
+      "quantity": "2 (1/2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9066f2fe-bc68-5ac9-81ac-d1b85dce55e5",
+      "name": "applesauce",
+      "normalized_name": "applesauce",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "f40b8fdb-b986-5d88-b4e9-fbbc91906275",
+      "name": "ground mustard",
+      "normalized_name": "ground mustard",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "beb987c2-ea81-5308-8973-df3a4405825f",
+      "slug": "pork-chop",
+      "name": "Pork Chop"
+    },
+    {
+      "id": "fd7eb4c7-9aa8-5cf3-8755-5af93ac5c9d2",
+      "slug": "baked",
+      "name": "Baked"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "71ea8904-c226-5b27-94d6-741bc26c2620",
+      "slug": "boneless",
+      "name": "Boneless",
+      "color": null
+    },
+    {
+      "id": "5320ba41-4f75-53b3-808a-7c2080fb3a7f",
+      "slug": "cook-once",
+      "name": "Cook Once",
+      "color": null
+    },
+    {
+      "id": "705381f7-76d5-5557-9b84-f5f63ae5c1ef",
+      "slug": "eat-twice-recipes",
+      "name": "Eat Twice Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229254/applesauce-pork-chops"
+  },
+  "public": true,
+  "updated_at": 1764076473,
+  "revision": 1
+}

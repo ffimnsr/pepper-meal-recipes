@@ -1,0 +1,237 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3b925c19-8bc0-5c89-ab5e-e867d52153dc",
+  "slug": "layered-oreo-mousse",
+  "name": "Layered Oreo Mousse",
+  "recipe_type": "dessert",
+  "brief_description": "Two kinds of chocolate create a rich mousse sandwiched between layers of whipped topping and spread over a cream cheese-Oreo crust.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Grind cookies into a fine powder using a food processor."
+    },
+    {
+      "position": 2,
+      "text": "Combine cookie powder and cream cheese in a large bowl. Mix by hand until dough comes together."
+    },
+    {
+      "position": 3,
+      "text": "Press dough into an ungreased 9x13-inch baking pan."
+    },
+    {
+      "position": 4,
+      "text": "Combine 1/4 cup water, semisweet chocolate, milk chocolate, and butter in a microwave-safe bowl. Microwave in 15-second intervals, stirring after each interval, until melted, 1 to 2 minutes. Set aside."
+    },
+    {
+      "position": 5,
+      "text": "Whisk 1/4 cup water, egg yolks, and sugar together in a small saucepan over low heat. Cook for 2 minutes. Remove from heat and mix in the melted chocolate. Fill a bowl with ice, set saucepan on top, and stir mixture until cool. Fold in 2 1/2 cups whipped topping."
+    },
+    {
+      "position": 6,
+      "text": "Spread chocolate mixture over the cookie crust. Spread remaining whipped topping over the mousse and refrigerate for at least 1 hour."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3b925c19-8bc0-5c89-ab5e-e867d52153dc/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "326 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "59 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "183 mg",
+    "sugarContent": "23 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "cd76e6e6-d090-510f-ada6-2fa0a126ca46",
+      "name": "ounce) package chocolate sandwich cookies (such as oreo\u00ae)",
+      "normalized_name": "ounce package chocolate sandwich cookies",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "cd6cdf2d-dbde-56e7-8f54-f3790f0cf0a1",
+      "name": "ounce) package cream cheese",
+      "normalized_name": "ounce package cream cheese",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "softened",
+      "position": 2
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ed19bab8-5a94-5a16-b44c-a1777ec3694b",
+      "name": "ounce) bar semisweet chocolate",
+      "normalized_name": "ounce bar semisweet chocolate",
+      "quantity": "1 (4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "d7f8241d-750e-5e89-98fb-1280a3111f61",
+      "name": "ounce) bar milk chocolate",
+      "normalized_name": "ounce bar milk chocolate",
+      "quantity": "1 (4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a30d2790-8959-5f92-90c9-d9b63bfe2517",
+      "name": "egg yolks",
+      "normalized_name": "egg yolks",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d03ce4af-5de8-5234-8a94-ca9729546eef",
+      "name": "whipped topping",
+      "normalized_name": "whipped topping",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "600f08a7-1feb-558d-bf42-782867acd551",
+      "slug": "mousse",
+      "name": "Mousse"
+    },
+    {
+      "id": "a0d2e292-29e1-5eff-b08a-37a351f76c16",
+      "slug": "chocolate-mousse",
+      "name": "Chocolate Mousse"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c1a998e2-7319-54f1-8ee0-72f1ae94b25f",
+      "slug": "chocolate-mousse-recipes",
+      "name": "Chocolate Mousse Recipes",
+      "color": null
+    },
+    {
+      "id": "6670563e-10c2-5e93-afc9-38ff18d95a3b",
+      "slug": "milk-chocolate",
+      "name": "Milk Chocolate",
+      "color": null
+    },
+    {
+      "id": "41ab1f70-8ad5-50ba-85cc-97bd5a7836be",
+      "slug": "dark-chocolate",
+      "name": "Dark Chocolate",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "90b94f66-8a10-5725-bb66-285ebfd8b5e7",
+      "slug": "mousse-recipes",
+      "name": "Mousse Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267809/layered-oreo-mousse"
+  },
+  "public": true,
+  "updated_at": 1665609238,
+  "revision": 1
+}

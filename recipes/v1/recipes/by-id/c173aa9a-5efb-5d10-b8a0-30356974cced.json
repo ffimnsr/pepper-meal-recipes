@@ -1,0 +1,193 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c173aa9a-5efb-5d10-b8a0-30356974cced",
+  "slug": "porridge",
+  "name": "Porridge",
+  "recipe_type": "breakfast",
+  "brief_description": "This creamy porridge made with rolled oats, bananas, and cinnamon makes a warm and satisfying breakfast to get your morning off to a good start!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Combine water and oats in a saucepan; season to taste with sugar and salt. Add bananas and cinnamon."
+    },
+    {
+      "position": 3,
+      "text": "Bring to a boil, then reduce heat to low, and simmer until the liquid has been absorbed, stirring frequently."
+    },
+    {
+      "position": 4,
+      "text": "Pour into bowls, and top each with a splash of cold milk."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c173aa9a-5efb-5d10-b8a0-30356974cced/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "157 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "2 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "600 mg",
+    "sugarContent": "12 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4f28533b-45b7-5cce-8ccb-8a0f71f11c06",
+      "name": "rolled oats",
+      "normalized_name": "rolled oats",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "1eebb4b2-e59f-5c62-9071-16e2f2babccb",
+      "name": "bananas",
+      "normalized_name": "bananas",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "2af6eb86-ad31-51b9-b362-c2d5cec82d3a",
+      "name": "cold milk",
+      "normalized_name": "cold milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "9ec40b2a-b71d-5383-b106-ec69d067e34e",
+      "slug": "cereals",
+      "name": "Cereals"
+    },
+    {
+      "id": "2bc6bdc3-0797-52d0-adef-3ce8a112c8b9",
+      "slug": "oatmeal",
+      "name": "Oatmeal"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6776c038-23ed-5fb6-929e-fbe166455d68",
+      "slug": "oatmeal-recipes",
+      "name": "Oatmeal Recipes",
+      "color": null
+    },
+    {
+      "id": "ab0cb336-2935-59d5-91ec-afc0f4e593a4",
+      "slug": "breakfast-bowl-recipes",
+      "name": "Breakfast Bowl Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "fe7ed170-1df4-5541-837c-5575aceff5b6",
+      "slug": "cereals",
+      "name": "Cereals",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/73155/porridge"
+  },
+  "public": true,
+  "updated_at": 1764598944,
+  "revision": 1
+}

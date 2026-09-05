@@ -1,0 +1,205 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fd996e29-aa54-5153-91d8-e83e2c85123d",
+  "slug": "chocolate-banana-peanut-butter-protein-shake",
+  "name": "Chocolate Banana Peanut Butter Protein Shake",
+  "recipe_type": "breakfast",
+  "brief_description": "This chocolate protein shake is creamy, filling, and quickly made in a blender with banana, protein powder, peanut butter, cocoa powder, and honey.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Blend ice cubes, milk, banana, protein powder, peanut butter, honey, and cocoa powder together in a blender until smooth."
+    },
+    {
+      "position": 3,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fd996e29-aa54-5153-91d8-e83e2c85123d/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/Um1gO6mj-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "561 kcal",
+    "carbohydrateContent": "67 g",
+    "cholesterolContent": "60 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "31 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "341 mg",
+    "sugarContent": "46 g",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
+      "name": "banana",
+      "normalized_name": "banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "30124a46-8fa1-55e1-b203-33463c5d9202",
+      "name": "scoop chocolate-flavored protein powder",
+      "normalized_name": "scoop chocolate-flavored protein powder",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6290592f-3815-50ca-91ed-8c33823c514e",
+      "name": "peanut butter",
+      "normalized_name": "peanut butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "06d14bb8-dcd1-5617-b682-3c3222146a21",
+      "name": "unsweetened cocoa powder",
+      "normalized_name": "unsweetened cocoa powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or more to taste",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "9474d257-abc3-5a1a-94dc-b1f447e79821",
+      "slug": "shakes-and-floats",
+      "name": "Shakes and Floats"
+    },
+    {
+      "id": "38cfe1e8-118e-5334-8afc-032454556b0b",
+      "slug": "chocolate",
+      "name": "Chocolate"
+    }
+  ],
+  "tags": [
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "f1bb5f6f-2324-5dbc-ae61-c9a6795d698f",
+      "slug": "cocoa-powder-recipes",
+      "name": "Cocoa Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "fbd23a77-be55-5618-979e-e3e7b701bd1a",
+      "slug": "banana",
+      "name": "Banana",
+      "color": null
+    },
+    {
+      "id": "f2a5d498-0488-57e1-8e78-49eece9afc27",
+      "slug": "bananas",
+      "name": "Bananas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/244959/chocolate-banana-peanut-butter-protein-shake"
+  },
+  "public": true,
+  "updated_at": 1761760681,
+  "revision": 1
+}

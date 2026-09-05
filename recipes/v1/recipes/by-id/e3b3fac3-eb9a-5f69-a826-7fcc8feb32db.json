@@ -1,0 +1,260 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e3b3fac3-eb9a-5f69-a826-7fcc8feb32db",
+  "slug": "sophies-shepherds-pie",
+  "name": "Sophie's Shepherd's Pie",
+  "recipe_type": "main",
+  "brief_description": "This English shepherd's pie, made with lamb mince, tomatoes, and gravy is super tasty and versatile \u2014 sure to become a favorite with the whole family!",
+  "cuisine": "British",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place the potatoes into a saucepan and fill with enough water to cover. Bring to a boil, then cook over medium heat until tender enough to pierce with a fork, about 10 minutes. Drain and mash with butter and milk to your desired texture."
+    },
+    {
+      "position": 3,
+      "text": "Meanwhile, crumble the ground lamb into a large skillet. Cook and stir until no longer pink. Season with Worcestershire sauce and beef bouillon. Add the mushrooms and onion; continue to cook and stir until tender. Transfer the contents of the skillet to a large casserole dish."
+    },
+    {
+      "position": 4,
+      "text": "Mix the baked beans, diced tomatoes, gravy mix and carrots in with the lamb. Dollop big blobs of mashed potatoes over the top and carefully spread evenly to cover the entire top. Rake over it with a fork to create a crispy texture on top when it browns."
+    },
+    {
+      "position": 5,
+      "text": "Bake for 10 minutes in the preheated oven, until the top is browned and crisp."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e3b3fac3-eb9a-5f69-a826-7fcc8feb32db/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1144 kcal",
+    "carbohydrateContent": "104 g",
+    "cholesterolContent": "175 mg",
+    "fiberContent": "16 g",
+    "proteinContent": "55 g",
+    "saturatedFatContent": "26 g",
+    "sodiumContent": "1215 mg",
+    "sugarContent": "19 g",
+    "fatContent": "58 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "fb7947a8-6609-5027-a6a3-25e6a97cea6d",
+      "name": "large baking potatoes",
+      "normalized_name": "large baking potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "33698917-9b00-5bcb-bd0f-286eb20e2b60",
+      "name": "ground lamb",
+      "normalized_name": "ground lamb",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "6f7b657c-903a-5df8-ae19-57bbf79fb3ce",
+      "name": "cube beef bouillon",
+      "normalized_name": "cube beef bouillon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "82bb5c7e-8256-55a9-ae43-90d1bfc962a3",
+      "name": "button mushrooms",
+      "normalized_name": "button mushrooms",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "1171562a-9ff3-5632-b576-81f91038e189",
+      "name": "ounce) can baked beans",
+      "normalized_name": "ounce can baked beans",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "33dc351d-6997-5da9-84de-41f9cbe043c1",
+      "name": "ounce) can canned diced tomatoes",
+      "normalized_name": "ounce can canned diced tomatoes",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "6d0be591-b0de-520e-9181-fbc6f9039db3",
+      "name": "brown gravy mix",
+      "normalized_name": "brown gravy mix",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "4b0ace46-3831-5f60-9450-ff6db128fc10",
+      "name": "ounce) can carrots",
+      "normalized_name": "ounce can carrots",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9afb73a2-c6dc-5a2e-ac71-57fc2c902428",
+      "slug": "savory-pie",
+      "name": "Savory Pie"
+    },
+    {
+      "id": "980542e9-26b4-5c98-b6c0-ab24b09fc1be",
+      "slug": "shepherd-s-pie",
+      "name": "Shepherd's Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c9f8795b-b106-5ff4-81ae-92f09e21e8c0",
+      "slug": "shepherd-s-pie-recipes",
+      "name": "Shepherd's Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "a991b0f9-a769-56e1-b4b7-7261bf264942",
+      "slug": "english",
+      "name": "English",
+      "color": null
+    },
+    {
+      "id": "bb20f75a-bcb2-5bee-baf8-4bfe603a2108",
+      "slug": "ground",
+      "name": "Ground",
+      "color": null
+    },
+    {
+      "id": "067e28fc-e546-505a-a281-11831c6be52a",
+      "slug": "uk-and-ireland",
+      "name": "UK and Ireland",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "71a878a7-a6b7-5b9e-8d5c-87ac1110805b",
+      "slug": "lamb",
+      "name": "Lamb",
+      "color": null
+    },
+    {
+      "id": "bdee1869-2a3c-5547-828c-766d1cec95ef",
+      "slug": "savory-pie-recipes",
+      "name": "Savory Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/158440/sophies-shepherds-pie"
+  },
+  "public": true,
+  "updated_at": 1692121104,
+  "revision": 1
+}

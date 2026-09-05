@@ -1,0 +1,234 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2327decd-f942-5c4d-a452-12effbdce2d2",
+  "slug": "butternut-soup",
+  "name": "Butternut Soup",
+  "recipe_type": "soup",
+  "brief_description": "This butternut squash soup is made in the microwave and seasoned with nutmeg, cloves, and cinnamon for a super easy satisfying winter soup.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine squash, onions, and butter in a large microwave-safe bowl. Cover and microwave on high for 4 minutes; peel squash."
+    },
+    {
+      "position": 2,
+      "text": "Stir in broth and cook on high until squash is tender, about 20 to 25 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Transfer squash mixture into a blender; cover and hold the lid down with a potholder and pulse a few times before leaving on to blend. Transfer pureed mixture back into the microwave-safe bowl."
+    },
+    {
+      "position": 4,
+      "text": "Add cream, salt, and pepper; microwave on high until heated through, about 3 to 4 minutes. Season with nutmeg, cloves and cinnamon to taste."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2327decd-f942-5c4d-a452-12effbdce2d2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "212 kcal",
+    "carbohydrateContent": "31 g",
+    "cholesterolContent": "32 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "339 mg",
+    "sugarContent": "9 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "47b5ad78-5563-5d62-bab2-6f31d88b230c",
+      "name": "butternut squash",
+      "normalized_name": "butternut squash",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "654bdda2-eadd-53c7-9e34-cbb36fbe09d9",
+      "name": "dash ground nutmeg",
+      "normalized_name": "dash ground nutmeg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "8f0cad2f-e055-519d-9bde-4431552ac774",
+      "name": "dash ground cloves",
+      "normalized_name": "dash ground cloves",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "0cef4cad-9b4e-501b-b60c-4ada5e0b642f",
+      "name": "dash ground cinnamon",
+      "normalized_name": "dash ground cinnamon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "bd0d1695-7b66-5071-9f9b-f09e048a9b23",
+      "slug": "squash-soup",
+      "name": "Squash Soup"
+    },
+    {
+      "id": "403da2f2-6d0d-59f4-8d05-dd2778831b17",
+      "slug": "butternut-squash-soup",
+      "name": "Butternut Squash Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5defd427-bf5c-575f-a2d7-c33dd6b0e4fa",
+      "slug": "butternut-squash-soup-recipes",
+      "name": "Butternut Squash Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "2ba3093b-13b7-506e-9f84-a215eaedbbc4",
+      "slug": "butternut-squash",
+      "name": "Butternut Squash",
+      "color": null
+    },
+    {
+      "id": "489def73-dc81-5671-9631-5bffd5bd351b",
+      "slug": "squash",
+      "name": "Squash",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21309/butternut-soup"
+  },
+  "public": true,
+  "updated_at": 1737560560,
+  "revision": 1
+}

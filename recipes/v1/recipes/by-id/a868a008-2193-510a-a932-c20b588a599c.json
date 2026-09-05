@@ -1,0 +1,198 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a868a008-2193-510a-a932-c20b588a599c",
+  "slug": "easy-chicken-alfredo",
+  "name": "Easy Chicken Alfredo",
+  "recipe_type": "main",
+  "brief_description": "Chicken Alfredo recipe with jar sauce, mixed vegetables, and linguine pasta; easy to make when you need quick and creamy comfort on busy weeknights.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Fill a large pot with lightly salted water and bring to a rolling boil. Cook fettuccine at a boil until tender yet firm to the bite, about 8 minutes. Drain well."
+    },
+    {
+      "position": 2,
+      "text": "While the pasta is cooking, place cubed cooked chicken, Alfredo sauce, frozen vegetables, mushrooms, and milk in a large saucepan over medium-low heat. Cook and stir until chicken is heated through and vegetables are tender."
+    },
+    {
+      "position": 3,
+      "text": "Serve warm Alfredo and chicken sauce over cooked noodles."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a868a008-2193-510a-a932-c20b588a599c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "901 kcal",
+    "carbohydrateContent": "100 g",
+    "cholesterolContent": "89 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "39 g",
+    "saturatedFatContent": "15 g",
+    "sodiumContent": "1315 mg",
+    "sugarContent": "9 g",
+    "fatContent": "41 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4ee15a1d-1ab5-5579-b88a-516270239d59",
+      "name": "uncooked fettuccine or linguine",
+      "normalized_name": "uncooked fettuccine or linguine",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbee805f-9535-58a2-b5af-faf356bd74d4",
+      "name": "boneless chicken breast halves",
+      "normalized_name": "boneless chicken breast halves",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cooked and cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "e8560719-4b3d-5940-89be-591cf1234189",
+      "name": "ounce) jar alfredo-style pasta sauce",
+      "normalized_name": "ounce jar alfredo-style pasta sauce",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "37d1c66f-044a-534d-89ac-bafa087dd487",
+      "name": "ounce) package frozen mixed vegetables",
+      "normalized_name": "ounce package frozen mixed vegetables",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "16858f46-81ad-51a5-9d53-692ab5ba41a4",
+      "name": "ounce) can sliced mushrooms",
+      "normalized_name": "ounce can sliced mushrooms",
+      "quantity": "1 (4.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "8188eed4-b891-5ca2-b130-93c8a82eac19",
+      "slug": "fettuccini-recipes",
+      "name": "Fettuccini Recipes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11970/easy-chicken-alfredo"
+  },
+  "public": true,
+  "updated_at": 1761669602,
+  "revision": 1
+}

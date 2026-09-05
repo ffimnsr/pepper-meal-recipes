@@ -1,0 +1,193 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "42b2b276-c091-5821-bc57-15ab4672d892",
+  "slug": "chef-johns-french-fries",
+  "name": "Chef John's French Fries",
+  "recipe_type": "side",
+  "brief_description": "Learn how to make French fries that are super crispy with Chef John's twice-fried method. Soft on the inside, and perfectly crunchy on the outside.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Soak potato strips in a large bowl of water for about 30 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Pat with paper towels until thoroughly dry."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a deep-fryer or large saucepan to 275 degrees F (135 degrees C). Gently add potatoes to the hot oil and fry for about 5 minutes, stirring and flipping the potatoes occasionally."
+    },
+    {
+      "position": 4,
+      "text": "Use a slotted spoon to transfer potatoes to a paper towel-lined plate. Let cool completely."
+    },
+    {
+      "position": 5,
+      "text": "Heat oil again, but this time to 350 degrees F (175 degrees C). Add potatoes and fry a second time until golden brown, 5 to 6 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Remove from the deep-fryer and blot with a paper towel. Sprinkle with salt to serve."
+    },
+    {
+      "position": 7,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/42b2b276-c091-5821-bc57-15ab4672d892/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/pse4VGox-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "386 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "0 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "21 mg",
+    "sugarContent": "2 g",
+    "fatContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "68c0c4cb-454b-5c1c-be21-7c3cf041175e",
+      "name": "large russet potato",
+      "normalized_name": "large russet potato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into evenly sized strips",
+      "position": 1
+    },
+    {
+      "ingredient_id": "dfb248a5-b421-5c14-a0ac-68d92b8d93dc",
+      "name": "vegetable oil for frying",
+      "normalized_name": "vegetable oil for frying",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "or as needed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "daa92f2e-5e27-5412-8c1b-714212d09d18",
+      "slug": "fries",
+      "name": "Fries"
+    },
+    {
+      "id": "426b3ece-3cb3-5093-b52e-db11535d0816",
+      "slug": "french-fries",
+      "name": "French Fries"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "b1ffa940-71c7-50a4-bbb2-06d8410cbff5",
+      "slug": "french-fries-recipes",
+      "name": "French Fries Recipes",
+      "color": null
+    },
+    {
+      "id": "e455473e-49bf-511c-8377-db59253a8adf",
+      "slug": "fries-recipes",
+      "name": "Fries Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "e04fcf40-e5a4-50fd-8d3d-75173326a0ee",
+      "slug": "chef-john",
+      "name": "Chef John",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/219634/chef-johns-french-fries"
+  },
+  "public": true,
+  "updated_at": 1773920519,
+  "revision": 1
+}

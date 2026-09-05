@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "90e79820-ddcf-524a-8e3b-38e0ece62f5c",
+  "slug": "grilled-pineapple",
+  "name": "Grilled Pineapple",
+  "recipe_type": "dessert",
+  "brief_description": "This grilled pineapple is easy to make by marinating pineapple rings in melted butter and honey, then grilling until caramelized and full of flavor.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place pineapple rings in a large resealable plastic bag. Add butter, honey, hot pepper sauce, and salt."
+    },
+    {
+      "position": 3,
+      "text": "Seal the bag and shake to coat evenly. Marinate for at least 30 minutes, or preferably overnight."
+    },
+    {
+      "position": 4,
+      "text": "Preheat an outdoor grill for high heat and lightly oil grate. Grill pineapple rings until heated through and grill marks appear, 2 to 3 minutes per side."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/90e79820-ddcf-524a-8e3b-38e0ece62f5c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "46 kcal",
+    "carbohydrateContent": "5 g",
+    "cholesterolContent": "8 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "0 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "23 mg",
+    "sugarContent": "4 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ff7f9a12-0677-5ded-b4f9-b4dbe2d266d9",
+      "name": "fresh pineapple - peeled",
+      "normalized_name": "fresh pineapple - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored and cut into 1 inch rings",
+      "position": 1
+    },
+    {
+      "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
+      "name": "melted butter",
+      "normalized_name": "melted butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "52271919-0bfa-54cc-8199-253954f474cb",
+      "name": "dash hot pepper sauce",
+      "normalized_name": "dash hot pepper sauce",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "7260e21f-4176-5c27-b84a-5295015f6c4d",
+      "slug": "bbq-grilling",
+      "name": "BBQ & Grilling"
+    },
+    {
+      "id": "fa5cc422-c72f-59da-885a-d8826a47c9f6",
+      "slug": "fruit",
+      "name": "Fruit"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a49ded86-61b2-5ca1-912d-6428bb7abc6f",
+      "slug": "pineapple-dessert-recipes",
+      "name": "Pineapple Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "f5829042-f0a1-5586-967c-eda0386916df",
+      "slug": "bbq-grilling-recipes",
+      "name": "BBQ & Grilling Recipes",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "0c0382f0-5eab-53c6-90d8-662245a076b6",
+      "slug": "memorial-day",
+      "name": "Memorial Day",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "b27e7672-5670-576d-b52e-a2ba7aa1e26a",
+      "slug": "summer-desserts",
+      "name": "Summer Desserts",
+      "color": null
+    },
+    {
+      "id": "2f34089e-b835-5ed1-813f-5559f567e8cf",
+      "slug": "4th-of-july-desserts",
+      "name": "4th of July Desserts",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/51294/grilled-pineapple"
+  },
+  "public": true,
+  "updated_at": 1780592721,
+  "revision": 1
+}

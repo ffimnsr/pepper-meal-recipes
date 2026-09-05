@@ -1,0 +1,305 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "851101fe-7c79-5410-9c80-d86866340c5d",
+  "slug": "vegetable-pasties",
+  "name": "Vegetable Pasties",
+  "recipe_type": "main",
+  "brief_description": "I combined 5 pasty recipes to create an easy vegetable pasty with the filling and flavor I desired.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large bowl, mix together all-purpose flour, whole wheat flour, and salt. Cut in shortening until mixture resembles coarse crumbs. Stir in water until mixture forms a ball. Divide dough into 8 pieces, and shape into balls. Cover, and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a large heavy skillet over medium heat. Saute onion and garlic until soft and translucent, about 5 minutes. Stir in carrot, turnip, potatoes and mushrooms. Add water, bouillon cube, tarragon, salt and pepper. Cook for 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Preheat oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 4,
+      "text": "Roll each pastry ball into a circle, 6 to 8 inches in diameter. Place about 1 cup of filling on one half of each circle. Fold pastry over filling, and pinch edges to seal. Place on baking sheet, and brush with egg."
+    },
+    {
+      "position": 5,
+      "text": "Bake in preheated oven for 45 minutes, or until golden brown."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/851101fe-7c79-5410-9c80-d86866340c5d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "581 kcal",
+    "carbohydrateContent": "67 g",
+    "cholesterolContent": "23 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "330 mg",
+    "sugarContent": "3 g",
+    "fatContent": "31 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b5404ae1-14cb-5d02-8b60-2836ddf2795c",
+      "name": "whole wheat flour",
+      "normalized_name": "whole wheat flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "19474987-99ea-5312-af22-52e1aa7953a4",
+      "name": "shortening",
+      "normalized_name": "shortening",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "4ccbd268-9062-5e25-b362-3b60be6c3429",
+      "name": "ice water",
+      "normalized_name": "ice water",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "thinly sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "1920973e-c5fc-5256-a9ac-6dde51d289fe",
+      "name": "turnip",
+      "normalized_name": "turnip",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and diced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and diced",
+      "position": 11
+    },
+    {
+      "ingredient_id": "b45ff63d-b165-529e-94f8-2cabca65f065",
+      "name": "mushrooms",
+      "normalized_name": "mushrooms",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "chopped",
+      "position": 12
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "ee959be1-edfd-5863-9683-c0389ee72c50",
+      "name": "cube vegetable bouillon",
+      "normalized_name": "cube vegetable bouillon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "cef70ac0-94cc-5178-b9ba-b405f830d9cf",
+      "name": "dried tarragon",
+      "normalized_name": "dried tarragon",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 17
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9afb73a2-c6dc-5a2e-ac71-57fc2c902428",
+      "slug": "savory-pie",
+      "name": "Savory Pie"
+    },
+    {
+      "id": "14668501-ab69-5cdd-9e23-ae233aa417cd",
+      "slug": "vegetarian-pie",
+      "name": "Vegetarian Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "9968d2f4-6b41-55c5-a1bd-fda1180396b5",
+      "slug": "vegetarian-pie",
+      "name": "Vegetarian Pie",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "bdee1869-2a3c-5547-828c-766d1cec95ef",
+      "slug": "savory-pie-recipes",
+      "name": "Savory Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "0d198415-2c69-5eb8-98ec-b014b84691a6",
+      "slug": "turnip",
+      "name": "Turnip",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/37259/vegetable-pasties"
+  },
+  "public": true,
+  "updated_at": 1732430252,
+  "revision": 1
+}

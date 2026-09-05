@@ -1,0 +1,222 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "456d23cc-9a3c-5046-ae15-e41b80619dd3",
+  "slug": "classic-rice-pilaf",
+  "name": "Classic Rice Pilaf",
+  "recipe_type": "side",
+  "brief_description": "Oven-baked rice pilaf is a tasty and foolproof alternative to plain rice. And you don't need a rice cooker \u2014 this comes out fluffy and tender every time.",
+  "cuisine": "Middle Eastern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter and oil in a large saucepan over medium heat. Add onion; cook and stir until lightly browned, 7 to 8 minutes. Remove from the heat."
+    },
+    {
+      "position": 3,
+      "text": "Place rice into a 9x13-inch casserole dish. Add onion and stir until rice is thoroughly coated. Place the dish on a baking sheet."
+    },
+    {
+      "position": 4,
+      "text": "Combine chicken stock, salt, cayenne pepper, and saffron in a saucepan. Bring to a boil, then reduce the heat to low and simmer for 5 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Pour stock mixture over rice in the baking dish and stir to combine. Spread mixture evenly along the bottom of the pan and cover tightly with heavy-duty aluminum foil."
+    },
+    {
+      "position": 6,
+      "text": "Bake in the preheated oven for 35 minutes. Remove from the oven and allow to rest, covered, for 10 minutes. Remove the foil and fluff rice with a fork."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/456d23cc-9a3c-5046-ae15-e41b80619dd3/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/PWb39HA8-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "312 kcal",
+    "carbohydrateContent": "52 g",
+    "cholesterolContent": "11 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "956 mg",
+    "sugarContent": "1 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "e64d6133-7523-5933-9b63-1413eeacab1a",
+      "name": "long-grain white rice",
+      "normalized_name": "long-grain white rice",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "47c10879-f6b3-56ce-b5af-359974be4f2a",
+      "name": "cayenne pepper",
+      "normalized_name": "cayenne pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "fa0531cd-f0c6-50a2-b38e-8be19528b1de",
+      "name": "saffron",
+      "normalized_name": "saffron",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "936ea180-ebfd-5e0c-8ba1-82bdf0fc1d27",
+      "slug": "pilaf",
+      "name": "Pilaf"
+    }
+  ],
+  "tags": [
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "2972e18e-d873-5d41-a42b-b0897daf2e41",
+      "slug": "pilaf",
+      "name": "Pilaf",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "e04fcf40-e5a4-50fd-8d3d-75173326a0ee",
+      "slug": "chef-john",
+      "name": "Chef John",
+      "color": null
+    },
+    {
+      "id": "a0f447de-7a39-5f29-af35-80c44e51c091",
+      "slug": "low-potassium",
+      "name": "Low-Potassium",
+      "color": null
+    },
+    {
+      "id": "4998f96b-d9a2-5b2a-9fb9-7608a3f52e16",
+      "slug": "rice-side-dish-recipes",
+      "name": "Rice Side Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/228044/classic-rice-pilaf"
+  },
+  "public": true,
+  "updated_at": 1770926849,
+  "revision": 1
+}

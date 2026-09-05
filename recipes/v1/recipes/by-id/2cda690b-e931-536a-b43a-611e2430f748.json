@@ -1,0 +1,206 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2cda690b-e931-536a-b43a-611e2430f748",
+  "slug": "basic-chicken-salad",
+  "name": "Best Chicken Salad",
+  "recipe_type": "salad",
+  "brief_description": "This classic chicken salad recipe is easy to make and perfect for using leftover shredded chicken; mayo, almonds, and celery add flavor and crunch.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place almonds in a skillet over medium-low heat. Cook until golden brown and toasted, shaking frequently and watching carefully, as they burn easily."
+    },
+    {
+      "position": 3,
+      "text": "Mix mayonnaise, lemon juice, and pepper together in a medium bowl until combined."
+    },
+    {
+      "position": 4,
+      "text": "Add chicken, toasted almonds, and celery; toss until just combined."
+    },
+    {
+      "position": 5,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2cda690b-e931-536a-b43a-611e2430f748/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/ZbBbTIed-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "779 kcal",
+    "carbohydrateContent": "8 g",
+    "cholesterolContent": "126 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "44 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "403 mg",
+    "sugarContent": "2 g",
+    "fatContent": "63 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f5696255-507e-5e03-9b86-645d46713c0e",
+      "name": "blanched slivered almonds",
+      "normalized_name": "blanched slivered almonds",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c5d1ca96-acff-5211-9ce5-2d47772a3c0c",
+      "name": "chopped",
+      "normalized_name": "chopped",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "cooked chicken meat",
+      "position": 5
+    },
+    {
+      "ingredient_id": "ac43bfa7-7896-5ff3-bde4-13aaa7c8b6f3",
+      "name": "stalk celery",
+      "normalized_name": "stalk celery",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "42d47281-4996-5c3b-b16f-3ae540302bbd",
+      "slug": "chicken-salad",
+      "name": "Chicken Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "0c4351c3-a3e2-5491-9427-591469b533f8",
+      "slug": "chicken-salad-recipes",
+      "name": "Chicken Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "6c01d8ce-f769-5a79-9361-fbecb19c877b",
+      "slug": "almond-recipes",
+      "name": "Almond Recipes",
+      "color": null
+    },
+    {
+      "id": "2b72c894-b609-5713-85a5-4e54f2546268",
+      "slug": "allrecipes-magazine-recipes",
+      "name": "Allrecipes Magazine Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8499/basic-chicken-salad"
+  },
+  "public": true,
+  "updated_at": 1769029581,
+  "revision": 1
+}

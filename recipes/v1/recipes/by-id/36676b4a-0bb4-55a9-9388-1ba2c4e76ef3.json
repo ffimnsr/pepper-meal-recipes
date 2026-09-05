@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "36676b4a-0bb4-55a9-9388-1ba2c4e76ef3",
+  "slug": "creamy-pesto-sauce",
+  "name": "Creamy Pesto Sauce",
+  "recipe_type": "side",
+  "brief_description": "This creamy pesto sauce is made with basil, Parmesan, garlic, olive oil, and a little bit of butter and cream cheese to give it a rich, creamy texture.",
+  "cuisine": "Italian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of water to a boil. Add the basil leaves and cook until tender and bright green, 2 to 5 minutes. Drain basil, reserving 2 tablespoons of the basil water."
+    },
+    {
+      "position": 2,
+      "text": "Blend basil, 2 tablespoons basil water, Parmesan cheese, cream cheese, olive oil, butter, and garlic in a blender until smooth and creamy."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/36676b4a-0bb4-55a9-9388-1ba2c4e76ef3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "115 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "16 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "148 mg",
+    "sugarContent": "0 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e1fd95c9-1db5-5c1f-9e62-8f08bc746feb",
+      "name": "bunch fresh basil leaves",
+      "normalized_name": "bunch fresh basil leaves",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "88484198-1339-5eeb-a28d-8ad010e76991",
+      "name": "parmesan cheese",
+      "normalized_name": "parmesan cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b79f8d0f-40ab-5fde-814c-f7d1069dd443",
+      "name": "cream cheese",
+      "normalized_name": "cream cheese",
+      "quantity": "2",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "fd1ffbc8-dc56-5f3b-b698-5b154bf83758",
+      "name": "large clove garlic",
+      "normalized_name": "large clove garlic",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "04342015-cac5-527c-b1f5-5d0f9910af90",
+      "slug": "sauces",
+      "name": "Sauces"
+    },
+    {
+      "id": "b10034d4-200e-527f-b96c-84f307d8e315",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2cff95a3-f637-55d7-ae8c-f790b34c478c",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "99f85645-dfa7-5c6a-abf1-3932ae6e6a7c",
+      "slug": "pesto",
+      "name": "Pesto",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235944/creamy-pesto-sauce"
+  },
+  "public": true,
+  "updated_at": 1642144719,
+  "revision": 1
+}

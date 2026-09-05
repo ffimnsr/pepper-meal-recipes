@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "201a6c52-6544-5b4e-93eb-5f6d84a9813f",
+  "slug": "classic-yorkshire-pudding",
+  "name": "Classic Yorkshire Pudding",
+  "recipe_type": "main",
+  "brief_description": "A Yorkshire pudding is softer than popover and doesn't rise as much. Baked in a baking dish with meat drippings, this pastry is traditionally served with roast beef.",
+  "cuisine": "English",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix flour, milk, eggs, and salt together in a large bowl with an electric mixer until smooth, about 5 minutes. Cover and refrigerate for 1 hour."
+    },
+    {
+      "position": 2,
+      "text": "Preheat the oven to 425 degrees F (220 degrees C). Coat a 9x13-inch baking dish with beef drippings. Place the pan in the preheating oven until drippings are hot and sizzling, about 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Remove batter from the refrigerator; beat briefly, then scoop into the prepared baking pan."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven for 20 minutes. Lower the oven temperature to 375 degrees F (190 degrees C). Without opening the oven, continue baking until pudding is puffed and golden brown, about 15 minutes more. Remove from oven, cut into 8 squares, and serve hot."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/201a6c52-6544-5b4e-93eb-5f6d84a9813f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "105 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "56 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "178 mg",
+    "sugarContent": "2 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "77dbab31-d057-5d61-a87f-ded964435ff7",
+      "name": "whole milk",
+      "normalized_name": "whole milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "71741c24-8b34-5309-997b-70da5fdaec48",
+      "name": "beef or bacon drippings",
+      "normalized_name": "beef or bacon drippings",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "f2f043e8-b0db-5ca3-bfe2-2cfb962e5219",
+      "slug": "popovers-and-yorkshire-pudding",
+      "name": "Popovers and Yorkshire Pudding"
+    }
+  ],
+  "tags": [
+    {
+      "id": "16c758ed-3bd5-531b-8189-ebec0b592eab",
+      "slug": "popovers-and-yorkshire-pudding-recipes",
+      "name": "Popovers and Yorkshire Pudding Recipes",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "6206ee95-2703-5f3e-8408-f3e55059c31b",
+      "slug": "holiday-bread-recipes",
+      "name": "Holiday Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "f6c4b0b6-c32b-5d36-b81a-2ff399253a58",
+      "slug": "thanksgiving",
+      "name": "Thanksgiving",
+      "color": null
+    },
+    {
+      "id": "067e28fc-e546-505a-a281-11831c6be52a",
+      "slug": "uk-and-ireland",
+      "name": "UK and Ireland",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21389/classic-yorkshire-pudding"
+  },
+  "public": true,
+  "updated_at": 1774963872,
+  "revision": 1
+}

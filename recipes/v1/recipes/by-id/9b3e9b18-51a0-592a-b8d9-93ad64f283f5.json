@@ -1,0 +1,180 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9b3e9b18-51a0-592a-b8d9-93ad64f283f5",
+  "slug": "shrimp-egg-salad",
+  "name": "Shrimp Egg Salad",
+  "recipe_type": "salad",
+  "brief_description": "Make this tasty shrimp and egg salad with pre-cooked shrimp and hard-boiled eggs. It\u2019s a delicious upgrade from your standard egg salad!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a medium bowl, mix together shrimp, eggs, mayonnaise, mustard, and dill. Spoon onto lettuce leaves to serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9b3e9b18-51a0-592a-b8d9-93ad64f283f5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "292 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "439 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "30 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "429 mg",
+    "sugarContent": "1 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a5bb42a4-dfe3-5167-9d88-9ecdfc94212e",
+      "name": "cooked shrimp - peeled",
+      "normalized_name": "cooked shrimp - peeled",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "deveined, and chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "4bb8add9-9f4c-5f40-8f8c-9a0283d97c0a",
+      "name": "hard-cooked eggs",
+      "normalized_name": "hard-cooked eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c43f0603-4761-5956-842c-cacc7ec997cf",
+      "name": "dijon mustard",
+      "normalized_name": "dijon mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "680d1c90-e69f-5b3e-aa4f-d976b25fe361",
+      "name": "chopped fresh dill",
+      "normalized_name": "chopped fresh dill",
+      "quantity": "1",
+      "unit": "sprig",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "674ffef3-4814-58f9-b9cf-5387937babcb",
+      "name": "leaves green leaf lettuce",
+      "normalized_name": "leaves green leaf lettuce",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c13160db-b17f-51f4-93c4-415066d40b34",
+      "slug": "mustard-recipes",
+      "name": "Mustard Recipes",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "c435539b-7fb9-5280-93dc-22b3b882cd67",
+      "slug": "lettuce",
+      "name": "Lettuce",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "8f243847-4be0-5181-a647-993d819544de",
+      "slug": "seafood-salad-recipes",
+      "name": "Seafood Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "df9608cf-b97f-5ae1-aed7-985fe5ee2355",
+      "slug": "egg-salad-recipes",
+      "name": "Egg Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/53303/shrimp-egg-salad"
+  },
+  "public": true,
+  "updated_at": 1786751851,
+  "revision": 1
+}

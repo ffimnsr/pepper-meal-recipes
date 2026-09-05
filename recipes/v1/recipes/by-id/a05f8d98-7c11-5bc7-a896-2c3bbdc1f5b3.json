@@ -1,0 +1,243 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a05f8d98-7c11-5bc7-a896-2c3bbdc1f5b3",
+  "slug": "leslies-ham-lentil-soup",
+  "name": "Leslie's Ham Lentil Soup",
+  "recipe_type": "soup",
+  "brief_description": "A ham bone left over from a previous meal gets a second chance when simmered with lentils and vegetables to make a hearty lentil ham bone soup in less than an hour.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring water and chicken bouillon granules to a boil in a stock pot; stir to dissolve bouillon. Place ham bone in boiling broth, reduce heat to medium-low, and stir in lentils. Simmer until lentils begin to soften, about 10 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir celery, carrots, green bell pepper, onion, marjoram, and bay leaf into broth and simmer until lentils and vegetables are tender, 10 to 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Turn off heat and remove ham bone from soup. Cut ham from bone and cube meat. Return meat to soup and discard bone."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a05f8d98-7c11-5bc7-a896-2c3bbdc1f5b3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "216 kcal",
+    "carbohydrateContent": "38 g",
+    "cholesterolContent": "0 mg",
+    "fiberContent": "14 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "539 mg",
+    "sugarContent": "6 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "28b6d869-be59-5e65-89bf-d479d36a5365",
+      "name": "chicken bouillon granules",
+      "normalized_name": "chicken bouillon granules",
+      "quantity": "2.6666667461395",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a50abf40-ebcf-5ab3-92d9-3d12af865f75",
+      "name": "ham bone with some meat",
+      "normalized_name": "ham bone with some meat",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "eb8acf67-6003-5b96-a659-e7f3f7562f47",
+      "name": "lentils",
+      "normalized_name": "lentils",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "89363afe-8ce1-56cb-84bd-e34bc58da1f2",
+      "name": "chopped carrots",
+      "normalized_name": "chopped carrots",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "81b7e63d-4dd5-593a-b159-45272d9a1999",
+      "name": "dried marjoram",
+      "normalized_name": "dried marjoram",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "553c480f-ebb4-589c-b4a1-28f76771f71c",
+      "name": "crushed bay leaf",
+      "normalized_name": "crushed bay leaf",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "0d9c18f8-34b7-56ac-8b23-c2da26756cb1",
+      "slug": "pork-soup",
+      "name": "Pork Soup"
+    },
+    {
+      "id": "adc36573-5ac9-5509-97f6-2217244261d8",
+      "slug": "ham-soup",
+      "name": "Ham Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c8686615-6b0e-5edb-8336-d3d213a5adfd",
+      "slug": "ham-soup",
+      "name": "Ham Soup",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "a4da5d34-2262-5fcd-aec0-e7974f08aae6",
+      "slug": "lentils",
+      "name": "Lentils",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231408/leslies-ham-lentil-soup"
+  },
+  "public": true,
+  "updated_at": 1642141266,
+  "revision": 1
+}

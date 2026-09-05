@@ -1,0 +1,234 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2628daa5-96dc-57e4-9058-c86434dc3a92",
+  "slug": "cathys-amazing-fish-chowder",
+  "name": "Cathy\u2019s Amazing Fish Chowder",
+  "recipe_type": "soup",
+  "brief_description": "This chowder can be made with any white fish, such as haddock or cod. It is comfort food that\u2019s easy to make, wonderful to eat, and delicious served with crackers and cornbread.",
+  "cuisine": "New England",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook bacon in a large stockpot over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain on a paper towel-lined plate; crumble and set aside. Drain bacon grease, reserving about 1 tablespoon in the pot."
+    },
+    {
+      "position": 2,
+      "text": "Add onion to reserved bacon grease; cook and stir over medium heat until tender, about 5 minutes. Add potatoes and fill the pot with just enough water to cover. Bring to a boil and cook until potatoes are almost tender, about 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add fish, evaporated milk, whole milk, and butter; bring to a boil. Reduce heat to low and simmer for 30 minutes. Season with salt and pepper."
+    },
+    {
+      "position": 4,
+      "text": "Ladle chowder into bowls and top with crumbled bacon."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2628daa5-96dc-57e4-9058-c86434dc3a92/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "379 kcal",
+    "carbohydrateContent": "31 g",
+    "cholesterolContent": "80 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "29 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "564 mg",
+    "sugarContent": "7 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "364de98b-7043-5176-8993-cc3583e16c91",
+      "name": "sliced bacon",
+      "normalized_name": "sliced bacon",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "067a4d45-1400-54c0-b57f-680eb212a03a",
+      "name": "medium potatoes",
+      "normalized_name": "medium potatoes",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "peeled and diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "or as needed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "8002c1bb-8913-5ee8-a8df-f5f30c984823",
+      "name": "cod fillets",
+      "normalized_name": "cod fillets",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "cut into 1 inch cubes",
+      "position": 5
+    },
+    {
+      "ingredient_id": "0af1600b-5fe2-523c-97bf-527552ecd9c4",
+      "name": "fluid ounce) can evaporated milk",
+      "normalized_name": "fluid ounce can evaporated milk",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "77dbab31-d057-5d61-a87f-ded964435ff7",
+      "name": "whole milk",
+      "normalized_name": "whole milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    }
+  ],
+  "tags": [
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "608f2ca3-2dbe-583f-94d7-b55937fe9721",
+      "slug": "maine-recipes",
+      "name": "Maine Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "9a251b70-1100-587a-b632-59ffffa28461",
+      "slug": "new-england",
+      "name": "New England",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "47dbbc95-2797-57bb-8d05-99c3cb21d344",
+      "slug": "fish",
+      "name": "Fish",
+      "color": null
+    },
+    {
+      "id": "4cf88cc9-363f-56b9-b78c-6c053e318a44",
+      "slug": "kansas-recipes",
+      "name": "Kansas Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/49266/cathys-amazing-fish-chowder"
+  },
+  "public": true,
+  "updated_at": 1787681451,
+  "revision": 1
+}

@@ -1,0 +1,285 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b7cde6c7-bf4f-5f7b-b4c9-fd6e245487ac",
+  "slug": "beef-and-lentil-soup",
+  "name": "Beef and Lentil Soup",
+  "recipe_type": "soup",
+  "brief_description": "This lentil soup with beef is the perfect midday meal with chunks of tender meat, hearty lentils, and a mix of vegetables to tie it all together.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a large pot over medium-high heat until it begins to smoke. Season beef with salt and pepper, then gently add to the pot until browned on all sides, about 8 minutes. Transfer beef to a plate and reserve remaining oil in the pot."
+    },
+    {
+      "position": 2,
+      "text": "Add onion, carrots, celery, garlic, cilantro, and oregano to the pot; cook and stir until onion has softened and turned translucent, about 8 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Pour in chicken broth and tomatoes, then return beef to the pot and bring to a boil over high heat. Reduce heat to medium-low, cover, and simmer until beef is beginning to turn tender, about 1 hour."
+    },
+    {
+      "position": 4,
+      "text": "Add lentils, then cover and simmer until lentils are tender, about 40 minutes. Season again with salt and pepper, then stir in parsley. Sprinkle with Parmesan cheese to serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 125,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b7cde6c7-bf4f-5f7b-b4c9-fd6e245487ac/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "343 kcal",
+    "carbohydrateContent": "38 g",
+    "cholesterolContent": "36 mg",
+    "fiberContent": "17 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "1351 mg",
+    "sugarContent": "7 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "89009c1c-76a6-5143-8d75-494309a66aa0",
+      "name": "beef chuck",
+      "normalized_name": "beef chuck",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into 1-inch cubes",
+      "position": 2
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "ba9bf63e-b1a7-522d-8eba-00fe629ee2c3",
+      "name": "large carrots",
+      "normalized_name": "large carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "c3e96c07-d8aa-56d6-bd14-9adc74d4c7a0",
+      "name": "large stalks celery",
+      "normalized_name": "large stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "6",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5403550d-b587-5279-b17b-4fedc13b1676",
+      "name": "dried cilantro",
+      "normalized_name": "dried cilantro",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "f1a5f25a-54b5-552a-8bd5-6711ea965837",
+      "name": "ounce) cartons chicken broth",
+      "normalized_name": "ounce cartons chicken broth",
+      "quantity": "2 (32",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "9df4d90c-3c3d-5af4-a2c3-2dbac876bf33",
+      "name": "ounce) can diced tomatoes",
+      "normalized_name": "ounce can diced tomatoes",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "cfafd089-8cd4-5168-a048-a5422de359ed",
+      "name": "dry lentils",
+      "normalized_name": "dry lentils",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "a4da5d34-2262-5fcd-aec0-e7974f08aae6",
+      "slug": "lentils",
+      "name": "Lentils",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "3bd75537-401e-5811-8fff-bbc20d702945",
+      "slug": "lentil-soup-recipes",
+      "name": "Lentil Soup Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/165843/beef-and-lentil-soup"
+  },
+  "public": true,
+  "updated_at": 1766759318,
+  "revision": 1
+}

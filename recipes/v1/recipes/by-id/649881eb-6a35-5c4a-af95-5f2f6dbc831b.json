@@ -1,0 +1,232 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "649881eb-6a35-5c4a-af95-5f2f6dbc831b",
+  "slug": "fresh-guacamole",
+  "name": "Fresh Guacamole",
+  "recipe_type": "appetizer",
+  "brief_description": "This guacamole recipe is fresh and zesty from avocado, Roma tomato, red onion, serrano chile, Worcestershire sauce, hot sauce, cilantro, and lime juice.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine avocado, tomato, onion, serrano, cilantro, Worcestershire sauce, salt, black pepper, garlic powder, and hot sauce in a bowl; pour lime juice over top. Serve immediately."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/649881eb-6a35-5c4a-af95-5f2f6dbc831b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "187 kcal",
+    "carbohydrateContent": "15 g",
+    "fiberContent": "8 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "555 mg",
+    "sugarContent": "3 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e930232d-709e-57a7-a259-fb07f35733a5",
+      "name": "avocado - peeled",
+      "normalized_name": "avocado - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "pitted, and diced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "f187020a-60b9-5bde-abef-bad968022582",
+      "name": "roma (plum) tomato",
+      "normalized_name": "roma tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "e4959b0f-f4c9-5e54-84ff-ffbd2f1e1919",
+      "name": "serrano chile pepper",
+      "normalized_name": "serrano chile pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "4d0e7090-43c7-54cc-b199-77ce5b215785",
+      "name": "cilantro leaves",
+      "normalized_name": "cilantro leaves",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "207da207-7554-5b16-a44c-8e024e2d40d0",
+      "name": "kosher salt",
+      "normalized_name": "kosher salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "37794234-312f-5404-961f-3a6b339b4b58",
+      "name": "drops hot sauce",
+      "normalized_name": "drops hot sauce",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "0e66765e-3fa2-52b8-bd89-520e4935a12f",
+      "name": "fresh lime juice",
+      "normalized_name": "fresh lime juice",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "5611510c-11ff-5c0b-aee0-6696f963fc70",
+      "slug": "guacamole",
+      "name": "Guacamole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    },
+    {
+      "id": "8b57bfd6-0f1a-5ac9-8adb-d8274c85f51c",
+      "slug": "world-cup",
+      "name": "World Cup",
+      "color": null
+    },
+    {
+      "id": "f8ef87d6-0290-59c2-8196-4971f34fe7e6",
+      "slug": "dips-and-spreads-recipes",
+      "name": "Dips and Spreads Recipes",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/155616/fresh-guacamole"
+  },
+  "public": true,
+  "updated_at": 1736282625,
+  "revision": 1
+}

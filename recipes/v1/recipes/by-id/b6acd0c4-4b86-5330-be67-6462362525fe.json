@@ -1,0 +1,189 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b6acd0c4-4b86-5330-be67-6462362525fe",
+  "slug": "grilled-cheese-sandwich",
+  "name": "Grilled Cheese Sandwich",
+  "recipe_type": "soup",
+  "brief_description": "Learn how to make a grilled cheese sandwich in a nonstick pan with buttered bread and sliced Cheddar; serve with tomato soup for a comforting classic.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Preheat a nonstick skillet over medium heat. Generously butter one side each bread slice."
+    },
+    {
+      "position": 3,
+      "text": "Place 1 slice bread, butter-side down, in the hot skillet; top with 1 slice cheese."
+    },
+    {
+      "position": 4,
+      "text": "Place 1 slice bread, butter-side up, on top cheese."
+    },
+    {
+      "position": 5,
+      "text": "Cook until lightly browned on one side; flip and continue cooking until cheese is melted."
+    },
+    {
+      "position": 6,
+      "text": "Repeat with remaining bread and cheese slices. Serve and enjoy!"
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b6acd0c4-4b86-5330-be67-6462362525fe/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/hPWxOfNE-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "400 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "76 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "17 g",
+    "sodiumContent": "639 mg",
+    "sugarContent": "2 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0121a323-7fec-57c6-a721-27c8b9618c6f",
+      "name": "slices white bread",
+      "normalized_name": "slices white bread",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "99d66eb7-1a67-5c74-9152-afaf2b6898a4",
+      "name": "slices cheddar cheese",
+      "normalized_name": "slices cheddar cheese",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "15016744-d003-585d-98e6-fba4ffc72339",
+      "slug": "grilled-cheese",
+      "name": "Grilled Cheese"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bf15a06f-2172-577e-8006-9d852170ec82",
+      "slug": "grilled-cheese",
+      "name": "Grilled Cheese",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "5320ba41-4f75-53b3-808a-7c2080fb3a7f",
+      "slug": "cook-once",
+      "name": "Cook Once",
+      "color": null
+    },
+    {
+      "id": "705381f7-76d5-5557-9b84-f5f63ae5c1ef",
+      "slug": "eat-twice-recipes",
+      "name": "Eat Twice Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23891/grilled-cheese-sandwich"
+  },
+  "public": true,
+  "updated_at": 1773254290,
+  "revision": 1
+}

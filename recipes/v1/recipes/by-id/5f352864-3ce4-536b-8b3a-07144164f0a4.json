@@ -1,0 +1,186 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5f352864-3ce4-536b-8b3a-07144164f0a4",
+  "slug": "pork-steaks",
+  "name": "Pork Steaks",
+  "recipe_type": "main",
+  "brief_description": "This pork steak recipe is easy to make in one skillet on the stovetop. Tender, flavorful pork butt steaks are cooked in soy sauce and green onion.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a skillet over medium heat; stir in soy sauce. Add green onions and garlic and cook until lightly browned, about 2 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Place pork steaks in the skillet. Cover and cook until browned, 8 to 10 minutes per side. Remove the lid and continue cooking until an instant-read thermometer inserted into the thickest part of the steak reads 145 degrees F (63 degrees C), about 10 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5f352864-3ce4-536b-8b3a-07144164f0a4/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/skf6XhOb-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "353 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "118 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "27 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "720 mg",
+    "sugarContent": "1 g",
+    "fatContent": "25 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d6672984-293d-5341-a773-3613abe74951",
+      "name": "bunch green onions",
+      "normalized_name": "bunch green onions",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "1187b603-d4ea-570a-b149-289e6f0ddd42",
+      "name": "pork butt steaks",
+      "normalized_name": "pork butt steaks",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "beb987c2-ea81-5308-8973-df3a4405825f",
+      "slug": "pork-chop",
+      "name": "Pork Chop"
+    },
+    {
+      "id": "19b19e38-5dfb-5a10-a07e-6f0861c112af",
+      "slug": "pan-fried",
+      "name": "Pan Fried"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "5444f0ef-9fad-5848-aa20-82b0d115537b",
+      "slug": "pan-fried",
+      "name": "Pan Fried",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "99d8c901-c626-5363-9195-83d035f13932",
+      "slug": "low-carb",
+      "name": "Low-Carb",
+      "color": null
+    },
+    {
+      "id": "c8921e39-181e-5ae0-a8f7-dfe001bf0ac0",
+      "slug": "pork-chop-recipes",
+      "name": "Pork Chop Recipes",
+      "color": null
+    },
+    {
+      "id": "ad78e292-12fe-52c6-a08a-dc77b65eed83",
+      "slug": "pork-shoulder-recipes",
+      "name": "Pork Shoulder Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "c2f09869-a010-58cf-bc86-5b930914ce17",
+      "slug": "budget-cooking-recipes",
+      "name": "Budget Cooking Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/70463/pork-steaks"
+  },
+  "public": true,
+  "updated_at": 1762541781,
+  "revision": 1
+}

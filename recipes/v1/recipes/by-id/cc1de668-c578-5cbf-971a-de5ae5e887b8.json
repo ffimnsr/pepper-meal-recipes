@@ -1,0 +1,234 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "cc1de668-c578-5cbf-971a-de5ae5e887b8",
+  "slug": "asparagus-and-mushroom-frittata",
+  "name": "Asparagus and Mushroom Frittata",
+  "recipe_type": "breakfast",
+  "brief_description": "This asparagus and mushroom frittata recipe uses fresh asparagus, fresh mushrooms, fresh thyme, mozzarella cheese, and freshly grated Parmesan cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 325 degrees F (165 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in an oven-safe skillet over medium heat. Stir in asparagus and olive oil; cook until tender, about 10 minutes. Stir in mushrooms; cook about 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Whisk eggs, water, and thyme together in a bowl; pour into the skillet. Reduce heat to low; cover and cook 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Transfer skillet to the preheated oven; bake until eggs are no longer runny, 10 to 15 minutes. Top frittata with mozzarella cheese and Parmesan cheese. Turn on the broiler and broil until cheeses melt and are lightly browned."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/cc1de668-c578-5cbf-971a-de5ae5e887b8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "199 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "199 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "183 mg",
+    "sugarContent": "2 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ad30adc8-038c-52ac-9a09-1199978601d1",
+      "name": "fresh asparagus",
+      "normalized_name": "fresh asparagus",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "trimmed and cut into 1 inch pieces",
+      "position": 2
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "dbadff2b-40cb-5a7c-be14-28f1a1f4c7e4",
+      "name": "fresh mushrooms",
+      "normalized_name": "fresh mushrooms",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6015646e-6927-5ea2-8523-49b609b71c17",
+      "name": "chopped fresh thyme",
+      "normalized_name": "chopped fresh thyme",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "0d9540ed-f036-58af-a069-b148b895ce06",
+      "name": "freshly grated parmesan cheese",
+      "normalized_name": "freshly grated parmesan cheese",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "2da64254-5d89-5e90-936d-80dd8fc2f10a",
+      "slug": "frittata",
+      "name": "Frittata"
+    }
+  ],
+  "tags": [
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "170a28a4-5360-5e89-accb-7ecc55c5340b",
+      "slug": "spring",
+      "name": "Spring",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/46353/asparagus-and-mushroom-frittata"
+  },
+  "public": true,
+  "updated_at": 1784657257,
+  "revision": 1
+}

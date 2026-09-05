@@ -1,0 +1,200 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4841f1df-4bb4-59b9-a47c-81fb977d0252",
+  "slug": "baked-yam-fries-with-dip",
+  "name": "Baked Yam Fries with Dip",
+  "recipe_type": "dessert",
+  "brief_description": "Oven-baked wedges of yam are served with a dip made with fat-free sour cream and seasoned with taco seasoning and paprika.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat an oven to 350 degrees F (175 degrees C). Spread the olive oil over a baking sheet."
+    },
+    {
+      "position": 2,
+      "text": "Arrange the yams on the prepared baking sheet in a single layer; season with the seasoned salt."
+    },
+    {
+      "position": 3,
+      "text": "Bake the yams in the preheated oven until soft, about 25 minutes."
+    },
+    {
+      "position": 4,
+      "text": "While the yams bake, stir the sour cream, mayonnaise, taco seasoning, and paprika together in a small bowl. Serve as a dip for the yams."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4841f1df-4bb4-59b9-a47c-81fb977d0252/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "529 kcal",
+    "carbohydrateContent": "114 g",
+    "cholesterolContent": "7 mg",
+    "fiberContent": "16 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "1335 mg",
+    "sugarContent": "6 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6cdb8b4d-3d16-59b1-9f11-7435f3defa89",
+      "name": "yams",
+      "normalized_name": "yams",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and cut into wedges",
+      "position": 2
+    },
+    {
+      "ingredient_id": "5cbf4376-30a9-5afa-8f56-d60e87b1c964",
+      "name": "seasoned salt",
+      "normalized_name": "seasoned salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "06a175f1-6e7c-5052-a06f-037abf1475ae",
+      "name": "fat-free sour cream",
+      "normalized_name": "fat-free sour cream",
+      "quantity": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7976e159-80e6-5c5c-8d59-0812cd5d865c",
+      "name": "taco seasoning",
+      "normalized_name": "taco seasoning",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    },
+    {
+      "id": "71b8f6c8-eab9-523a-8fe5-92dd906e72ca",
+      "slug": "sweet-potatoes",
+      "name": "Sweet Potatoes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "4e5801cf-11bd-503a-8c74-23fa9ac4757c",
+      "slug": "sour-cream-recipes",
+      "name": "Sour Cream Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216247/baked-yam-fries-with-dip"
+  },
+  "public": true,
+  "updated_at": 1669177551,
+  "revision": 1
+}

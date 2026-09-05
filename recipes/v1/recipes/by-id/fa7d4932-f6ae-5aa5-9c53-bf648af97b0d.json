@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fa7d4932-f6ae-5aa5-9c53-bf648af97b0d",
+  "slug": "roasted-duck",
+  "name": "Roasted Duck",
+  "recipe_type": "main",
+  "brief_description": "This roasted duck recipe is coated with a simple, flavorful spice rub and basted with butter as it roasts in the oven until tender, juicy, and golden.",
+  "cuisine": "U.S. American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Combine paprika, salt, and pepper in a small bowl; rub spice mixture onto skin of duck. Place duck in a roasting pan, breast side up. Roast in the preheated oven for 1 hour."
+    },
+    {
+      "position": 3,
+      "text": "Spoon 1/4 cup butter over duck; continue roasting for 45 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Spoon remaining 1/4 cup butter over duck; roast until golden brown, about 15 minutes more. An instant-read thermometer inserted into the thickest part of the thigh, near the bone, should read at least 165 degrees F (74 degrees C),"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 120,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fa7d4932-f6ae-5aa5-9c53-bf648af97b0d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "625 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "280 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "52 g",
+    "saturatedFatContent": "20 g",
+    "sodiumContent": "1538 mg",
+    "sugarContent": "0 g",
+    "fatContent": "45 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2294de1f-3730-5887-93bb-9edf85bc609d",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bd7418a6-cd46-5fa7-a6cf-edac5b5ebb84",
+      "name": "pound) whole duck",
+      "normalized_name": "pound whole duck",
+      "quantity": "1 (5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "melted, divided",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "00a863b2-f2a3-5ca5-98b7-cd4e2b68ec2b",
+      "slug": "entertaining",
+      "name": "Entertaining"
+    },
+    {
+      "id": "fdb1b88e-f8cc-5b75-9788-9db41002d5de",
+      "slug": "holiday-planning",
+      "name": "Holiday Planning"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f6c4b0b6-c32b-5d36-b81a-2ff399253a58",
+      "slug": "thanksgiving",
+      "name": "Thanksgiving",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "af3cd8f3-8bc9-579e-9202-eea13c1c2678",
+      "slug": "fall",
+      "name": "Fall",
+      "color": null
+    },
+    {
+      "id": "7def3cdd-8a55-5453-8df0-9424068ead2c",
+      "slug": "syrah-and-shiraz",
+      "name": "Syrah and Shiraz",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "ed4f11c5-1007-5c46-9250-30f04c709de0",
+      "slug": "game-meats",
+      "name": "Game Meats",
+      "color": null
+    },
+    {
+      "id": "d36c9a39-4d88-53d1-9bd5-42cb50188942",
+      "slug": "pinot-noir",
+      "name": "Pinot Noir",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/65147/roasted-duck"
+  },
+  "public": true,
+  "updated_at": 1767562570,
+  "revision": 1
+}

@@ -1,4 +1,6 @@
+import json
 import sys
+import tempfile
 from pathlib import Path
 from unittest import TestCase
 
@@ -7,7 +9,12 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRAPER_DIR = REPO_ROOT / "py-scripts" / "scraper"
 sys.path.insert(0, str(SCRAPER_DIR))
 
-from allrecipes import build_ingredients_with_default_units, default_unit_for_quantity  # noqa: E402
+from allrecipes import (  # noqa: E402
+    build_ingredients_with_default_units,
+    default_unit_for_quantity,
+    load_completed_urls,
+    save_completed_urls,
+)
 
 
 class AllrecipesUnitDefaultTests(TestCase):
@@ -46,6 +53,29 @@ class AllrecipesUnitDefaultTests(TestCase):
         self.assertEqual(ingredients[1]["name"], "onion")
         self.assertEqual(ingredients[1]["unit"], "piece")
         self.assertEqual(ingredients[2]["unit"], "pieces")
+
+
+class AllrecipesResumeStateTests(TestCase):
+    def test_completed_urls_round_trip(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            state_file = Path(temporary_directory) / ".allrecipes-scrape-state.json"
+            completed = {"https://www.allrecipes.com/recipe/1/one", "https://www.allrecipes.com/two-recipe-2"}
+
+            save_completed_urls(state_file, completed)
+            self.assertEqual(load_completed_urls(state_file), completed)
+
+            save_completed_urls(state_file, {"https://www.allrecipes.com/recipe/1/one"})
+            self.assertEqual(load_completed_urls(state_file), {"https://www.allrecipes.com/recipe/1/one"})
+
+    def test_load_missing_state_file_returns_empty(self) -> None:
+        self.assertEqual(load_completed_urls(Path("/nonexistent/state.json")), set())
+
+    def test_load_invalid_state_file_raises(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            state_file = Path(temporary_directory) / "state.json"
+            state_file.write_text("not json", encoding="utf-8")
+            with self.assertRaises(SystemExit):
+                load_completed_urls(state_file)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,213 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "eca1f44c-ad4c-5316-9a9e-7690c8574d58",
+  "slug": "air-fryer-nachos",
+  "name": "Air Fryer Nachos",
+  "recipe_type": "appetizer",
+  "brief_description": "Use your air fryer to prepare these quick and easy nachos, topped with pepper Jack cheese, black olives, tomatoes, and cilantro. They make a perfect party appetizer.",
+  "cuisine": "American Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the air fryer to 360 degrees F (180 degrees C) for about 3 minutes. Line air fryer basket with foil or a parchment liner, and spray with cooking spray."
+    },
+    {
+      "position": 2,
+      "text": "Spread out chips in the fryer basket in a single layer, slightly overlapping chips, so the cheese doesn't melt through. Lightly dust chips with taco seasoning to get a pop of taco flavor, and sprinkle with shredded cheese. Don't overcrowd the basket."
+    },
+    {
+      "position": 3,
+      "text": "Top cheese with olives and tomatoes and place basket in the air fryer."
+    },
+    {
+      "position": 4,
+      "text": "Air-fry until cheese is melted and chips are starting to slightly brown on the edges, 5 to 6 minutes. Watch closely to be sure the cheese doesn't burn. If necessary, add additional time until you reach your preferred crispness."
+    },
+    {
+      "position": 5,
+      "text": "Move nachos to a plate, garnish with chopped cilantro, and serve immediately."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/eca1f44c-ad4c-5316-9a9e-7690c8574d58/cover.jpeg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "516 kcal",
+    "carbohydrateContent": "29 g",
+    "cholesterolContent": "88 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "16 g",
+    "sodiumContent": "746 mg",
+    "fatContent": "35 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3332a50b-5cb0-5cf0-882c-bda59b3a251c",
+      "name": "thin corn tortilla chips",
+      "normalized_name": "thin corn tortilla chips",
+      "quantity": "2.5",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7976e159-80e6-5c5c-8d59-0812cd5d865c",
+      "name": "taco seasoning",
+      "normalized_name": "taco seasoning",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "92dad83f-5649-5451-b7b7-e43f2664e981",
+      "name": "shredded pepper jack cheese",
+      "normalized_name": "shredded pepper jack cheese",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "98e57fe8-6ef2-57c0-883b-b3064b358ea0",
+      "name": "sliced black olives",
+      "normalized_name": "sliced black olives",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "92f8ed71-9c21-5d57-98f8-6aea7c4f64c5",
+      "name": "grape tomatoes",
+      "normalized_name": "grape tomatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "halved",
+      "position": 6
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "f673a69e-2a69-53a3-8baa-b2314639be89",
+      "slug": "cheese",
+      "name": "Cheese"
+    },
+    {
+      "id": "cf540d83-c29c-5df1-a2d1-13dae174c4bf",
+      "slug": "nachos",
+      "name": "Nachos"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e5bc1818-b5da-5ae4-8d2d-23af55af1703",
+      "slug": "nachos-recipes",
+      "name": "Nachos Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "ebf99938-61a8-5ffe-b436-629f58509306",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "012dcd82-5673-57c0-863e-83558803f54a",
+      "slug": "monterey-jack",
+      "name": "Monterey Jack",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "1c3e5f60-ef6c-57b8-98b3-6a6c0209515b",
+      "slug": "air-fryer",
+      "name": "Air Fryer",
+      "color": null
+    },
+    {
+      "id": "2d9ecea4-9682-5b22-b9b0-a8b03d26a602",
+      "slug": "cheese",
+      "name": "Cheese",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8389356/air-fryer-nachos"
+  },
+  "public": true,
+  "updated_at": 1738109096,
+  "revision": 1
+}

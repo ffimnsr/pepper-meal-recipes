@@ -1,0 +1,201 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c5394bc5-ff24-5902-bda4-23043cfedc9a",
+  "slug": "instant-pot-gyros",
+  "name": "Instant Pot Gyros",
+  "recipe_type": "main",
+  "brief_description": "Pork gyro meat is made simple with the help of your Instant Pot. Serve in pita bread topped with hummus, sliced red onion, tomato, tzatziki sauce, and feta cheese.",
+  "cuisine": "Greek Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Turn on a multi-functional pressure cooker (such as Instant Pot) and select the Saute function. Place cubed pork in the pot and cook until starting to brown, about 5 minutes. Turn pot off."
+    },
+    {
+      "position": 2,
+      "text": "Add Greek seasoning, paprika, garlic, and chicken broth to the pot with the pork. Close and lock the lid. Select Manual and set timer for 35 minutes. Allow 10 minutes for pressure to build."
+    },
+    {
+      "position": 3,
+      "text": "Release pressure carefully using the quick-release method according to manufacturer's instructions, about 5 minutes. Unlock and remove the lid."
+    },
+    {
+      "position": 4,
+      "text": "Heat oil in a large skillet over medium-high heat. Transfer pork to the skillet using a slotted spoon and cook for 5 minutes or until most of the liquid has evaporated and pork has a nice crisp on it."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 55,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c5394bc5-ff24-5902-bda4-23043cfedc9a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "250 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "65 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "1654 mg",
+    "sugarContent": "0 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "51a1611a-25a1-5ed3-860b-539387a0cd9d",
+      "name": "pork butt",
+      "normalized_name": "pork butt",
+      "quantity": "4",
+      "unit": "pounds",
+      "preparation": "cut into 2-inch cubes",
+      "position": 1
+    },
+    {
+      "ingredient_id": "412ce6d4-6e0c-5bc4-a013-2f2fd9661079",
+      "name": "greek seasoning (such as cavender's\u00ae)",
+      "normalized_name": "greek seasoning",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "2ec470c2-b64f-5da8-9a90-36e93079e4ff",
+      "slug": "greek",
+      "name": "Greek"
+    }
+  ],
+  "tags": [
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "bff858a9-6663-52b6-afa3-39ec314fe3fa",
+      "slug": "keto-diet-recipes",
+      "name": "Keto Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "17f4c204-15f9-596a-8568-681c02f3617f",
+      "slug": "300-calorie-main-dish-recipes",
+      "name": "300 Calorie Main Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/269934/instant-pot-gyros"
+  },
+  "public": true,
+  "updated_at": 1677088208,
+  "revision": 1
+}

@@ -1,0 +1,305 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7b075013-a1cc-56c7-971a-7f236824620f",
+  "slug": "copycat-v8-juice",
+  "name": "Copycat V8 Juice",
+  "recipe_type": "drink",
+  "brief_description": "This V8 drink recipe is made with tomatoes, celery, onion, bell pepper, beet, carrot, and garlic juice flavored with Worcestershire and horseradish.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Process tomatoes, onion, 3 tablespoons plus 1/2 teaspoon celery, carrot, beet, green bell pepper, and garlic through a juicer."
+    },
+    {
+      "position": 3,
+      "text": "Stir together vegetable juices, water, lemon juice, 1 1/4 teaspoons sugar, horseradish, Worcestershire sauce, and black pepper in a large pot. Bring to a boil and cook until flavors blend, about 20 minutes. Meanwhile, sterilize the jar and lid in boiling water for at least 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Ladle juice into the jar. Stir 1 tablespoon sugar and salt into juice. Wipe the rim of the jar with a moist paper towel to remove any residue. Top with the lid and screw on the ring."
+    },
+    {
+      "position": 5,
+      "text": "Process juice in a pressure canner at 10 pounds of pressure for 35 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Remove the jar from the pressure canner and place onto a cloth-covered or wooden surface until cool. Press the center of the lid with a finger to ensure the lid does not move up or down. Remove the ring for storage and store in a cool, dark area."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 55,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7b075013-a1cc-56c7-971a-7f236824620f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "61 kcal",
+    "carbohydrateContent": "14 g",
+    "fiberContent": "3 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "757 mg",
+    "sugarContent": "10 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "0.33333334326744",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "0.375",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "712a07e5-840f-55e5-99e0-d7e275a0d7d0",
+      "name": "beet",
+      "normalized_name": "beet",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "0.125",
+      "unit": "pieces",
+      "preparation": "seeded and chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "0.33333334326744",
+      "unit": "clove",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2.3333332538605",
+      "unit": "cups",
+      "preparation": "or as needed",
+      "position": 8
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1.25",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "c02716dc-8b0e-57dd-896d-ad7fa0157952",
+      "name": "horseradish",
+      "normalized_name": "horseradish",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 12
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "87289b8b-a689-5774-b402-0d04156cc592",
+      "name": "quart) sterilized canning jar with lid and ring",
+      "normalized_name": "quart sterilized canning jar with lid and ring",
+      "quantity": "1 (1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1.25",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "c3047df1-bc56-599b-945b-e5f44418d34e",
+      "slug": "juice",
+      "name": "Juice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "4f980c04-a794-5599-bffd-73d467590cee",
+      "slug": "juice-recipes",
+      "name": "Juice Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "e627d895-286a-5c12-8054-05d96f4e9568",
+      "slug": "copycat",
+      "name": "Copycat",
+      "color": null
+    },
+    {
+      "id": "32ca55aa-c740-52e0-95af-7aec91411ac9",
+      "slug": "high-fiber",
+      "name": "High-Fiber",
+      "color": null
+    },
+    {
+      "id": "c4c500f2-eb6c-540f-ab49-ac5379407bba",
+      "slug": "instant-pot",
+      "name": "Instant Pot\u00a8",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/235433/copycat-v8-juice"
+  },
+  "public": true,
+  "updated_at": 1742320068,
+  "revision": 1
+}

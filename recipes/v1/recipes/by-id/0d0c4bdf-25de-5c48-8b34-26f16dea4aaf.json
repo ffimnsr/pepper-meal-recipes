@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0d0c4bdf-25de-5c48-8b34-26f16dea4aaf",
+  "slug": "chicken-cordon-bleu-ii",
+  "name": "Classic Chicken Cordon Bleu",
+  "recipe_type": "main",
+  "brief_description": "Chicken Cordon Bleu is a classic \u2014 this simple version features a creamy wine sauce over lightly breaded chicken breasts stuffed with ham and cheese.",
+  "cuisine": "French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix flour and paprika together in a shallow bowl."
+    },
+    {
+      "position": 2,
+      "text": "Pound chicken breasts to a thickness of 1/4 inch. Place one slice Swiss and one slice ham onto each breast, leaving the outer 1/2 inch uncovered. Roll chicken over filling, dip in flour mixture to coat on all sides, and secure with toothpicks."
+    },
+    {
+      "position": 3,
+      "text": "Melt butter in a large skillet over medium-high heat. Add chicken and cook, turning occasionally, until browned on all sides, 5 to 8 minutes. Add wine and bouillon. Reduce the heat to low, cover, and simmer until chicken is no longer pink in the center and the juices run clear, about 30 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    },
+    {
+      "position": 4,
+      "text": "Transfer chicken to a warm platter and remove the toothpicks. Whisk cream and cornstarch together in a small bowl; slowly pour into the skillet, whisking constantly to blend with remaining wine mixture. Cook, stirring often, until sauce thickens, 3 to 5 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Pour sauce over chicken and serve immediately."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0d0c4bdf-25de-5c48-8b34-26f16dea4aaf/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/VPyXBCln-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "584 kcal",
+    "carbohydrateContent": "8 g",
+    "cholesterolContent": "195 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "42 g",
+    "saturatedFatContent": "24 g",
+    "sodiumContent": "655 mg",
+    "sugarContent": "1 g",
+    "fatContent": "41 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves",
+      "position": 3
+    },
+    {
+      "ingredient_id": "aa55292e-a279-5cd4-a639-3243c7f5331d",
+      "name": "slices swiss cheese",
+      "normalized_name": "slices swiss cheese",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b9884871-2254-5b87-a7d0-8f7f9522263b",
+      "name": "slices ham",
+      "normalized_name": "slices ham",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "32c068b2-dc92-5c1c-85e9-b0c98004f775",
+      "name": "dry white wine",
+      "normalized_name": "dry white wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "28b6d869-be59-5e65-89bf-d479d36a5365",
+      "name": "chicken bouillon granules",
+      "normalized_name": "chicken bouillon granules",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b22bc2e2-07c9-54aa-a04f-a6f6cd0810e9",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "494b4994-9d7c-51d5-b50c-4e5ac4588907",
+      "slug": "french",
+      "name": "French"
+    }
+  ],
+  "tags": [
+    {
+      "id": "88eddc25-7c6f-53f9-88d5-a41644551da3",
+      "slug": "french",
+      "name": "French",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "a3217056-1df7-5577-82d8-45855f913181",
+      "slug": "cooking-with-wine-recipes",
+      "name": "Cooking With Wine Recipes",
+      "color": null
+    },
+    {
+      "id": "d67c7e91-9ba4-51d9-8c2c-aa8fd8b4dd5d",
+      "slug": "cheesy-chicken",
+      "name": "Cheesy Chicken",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "cf72088b-3f3d-57a4-8bed-404532d3b7ba",
+      "slug": "swiss",
+      "name": "Swiss",
+      "color": null
+    },
+    {
+      "id": "66ac7337-a308-572f-bc2f-586ce665940b",
+      "slug": "chicken-cordon-bleu-recipes",
+      "name": "Chicken Cordon Bleu Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8669/chicken-cordon-bleu-ii"
+  },
+  "public": true,
+  "updated_at": 1784047040,
+  "revision": 1
+}

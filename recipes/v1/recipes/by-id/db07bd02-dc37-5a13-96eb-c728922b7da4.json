@@ -1,0 +1,265 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "db07bd02-dc37-5a13-96eb-c728922b7da4",
+  "slug": "tempeh-ratatouille",
+  "name": "Tempeh Ratatouille",
+  "recipe_type": "soup",
+  "brief_description": "I've always loved ratatouille and I decided to make up my own hearty version. The veggies listed can be changed/ substituted according to what you have in your refrigerator and/or what's in season.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place the potatoes, carrot, and onion in a large saucepan, and add enough water to bring the water level to about 2 inches. Bring to a boil. Cover, reduce heat, and simmer for 5 minutes. Mix in eggplant, broccoli, green beans, and zucchini; simmer for 2 minutes. Mix in tempeh, vegetable broth, crushed tomatoes, and garbanzo beans. Season with rosemary and garlic. Cook for 8 to 10 minutes, or until veggies are tender."
+    },
+    {
+      "position": 2,
+      "text": "Ladle into bowls, and top with cheese."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/db07bd02-dc37-5a13-96eb-c728922b7da4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "433 kcal",
+    "carbohydrateContent": "48 g",
+    "cholesterolContent": "35 mg",
+    "fiberContent": "11 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "650 mg",
+    "sugarContent": "6 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "fd1507d8-e955-5219-b917-f5e1c5232f21",
+      "name": "new potatoes",
+      "normalized_name": "new potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "14174754-cbf3-57e4-9729-072aeabf1771",
+      "name": "small eggplant",
+      "normalized_name": "small eggplant",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "b53ae7bd-211f-5792-9026-70570949bd61",
+      "name": "chopped broccoli",
+      "normalized_name": "chopped broccoli",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "28b3e7fa-5037-5148-b4f4-27c9c52c1a9b",
+      "name": "zucchini",
+      "normalized_name": "zucchini",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "37f6715f-22fe-5436-9a2a-6447eacc18b3",
+      "name": "green beans",
+      "normalized_name": "green beans",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "dc513096-e950-51ba-a5f5-43fe9bbb85a6",
+      "name": "ounce) package tempeh",
+      "normalized_name": "ounce package tempeh",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "6bff6f84-ed38-5237-ae2d-5789030d5171",
+      "name": "ounce) can crushed tomatoes",
+      "normalized_name": "ounce can crushed tomatoes",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "b0d6e9eb-5e4c-5043-a7b0-239a64af30ea",
+      "name": "ounce) can garbanzo beans",
+      "normalized_name": "ounce can garbanzo beans",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 10
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 11
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "8276eea8-48d5-53bd-807f-402083fde791",
+      "name": "dried rosemary",
+      "normalized_name": "dried rosemary",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "d4093911-5c1f-56fd-9b8d-fd57e056df83",
+      "name": "shredded pepperjack cheese",
+      "normalized_name": "shredded pepperjack cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "360a7b29-6f75-5a75-a2d7-0c2872385f2f",
+      "slug": "eggplant",
+      "name": "Eggplant",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "a213982f-5b8e-5e56-9445-5c9940cfb475",
+      "slug": "protein",
+      "name": "Protein",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/42138/tempeh-ratatouille"
+  },
+  "public": true,
+  "updated_at": 1657829432,
+  "revision": 1
+}

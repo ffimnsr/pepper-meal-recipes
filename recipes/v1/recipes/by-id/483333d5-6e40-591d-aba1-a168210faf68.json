@@ -1,0 +1,208 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "483333d5-6e40-591d-aba1-a168210faf68",
+  "slug": "bacon-and-egg-tacos",
+  "name": "Bacon and Egg Tacos",
+  "recipe_type": "breakfast",
+  "brief_description": "This is a quick and easy recipe for bacon and egg breakfast tacos using flour tortillas. Serve with salsa on the side for a crowd-pleasing brunch!",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk eggs together in a bowl; stir in bacon."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a skillet over medium heat. Add egg mixture; cook and stir until eggs are completely set, 2 to 3 minutes. Stir in American cheese, salt, and pepper."
+    },
+    {
+      "position": 3,
+      "text": "Wrap tortillas in damp paper towels; microwave until warmed through, 30 seconds to 1 minute."
+    },
+    {
+      "position": 4,
+      "text": "Spoon 1/4 cup egg mixture into the center of each tortilla; fold sides to cover. Serve with salsa."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 3,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/483333d5-6e40-591d-aba1-a168210faf68/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "436 kcal",
+    "carbohydrateContent": "41 g",
+    "cholesterolContent": "218 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "1295 mg",
+    "sugarContent": "3 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "535128e5-425b-5c30-97fe-3d1fef129dc4",
+      "name": "crumbled cooked bacon",
+      "normalized_name": "crumbled cooked bacon",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "eee3c0f0-23ce-52c6-b2e5-07f186a601f2",
+      "name": "slices american cheese",
+      "normalized_name": "slices american cheese",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "efbcd020-9376-5af7-b159-fb8dc82fe858",
+      "name": "flour tortillas",
+      "normalized_name": "flour tortillas",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2d1e1921-3e9f-5c4b-b821-833e5c6e4130",
+      "name": "salsa",
+      "normalized_name": "salsa",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "aecdcf7e-63fb-55ab-a00d-e9e32b0d98b3",
+      "slug": "breakfast-burrito",
+      "name": "Breakfast Burrito"
+    }
+  ],
+  "tags": [
+    {
+      "id": "556672de-e639-546e-a885-c83eaecb2a12",
+      "slug": "breakfast-burrito-recipes",
+      "name": "Breakfast Burrito Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "034394aa-b2a8-5d8f-9932-b7e2b073439f",
+      "slug": "bacon",
+      "name": "Bacon",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "1e83fd8f-f8d5-5dd8-98fc-88de342429d2",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment",
+      "color": null
+    },
+    {
+      "id": "5bb74227-542e-50a7-bc0d-33d27615e3fb",
+      "slug": "taco-recipes",
+      "name": "Taco Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/245713/bacon-and-egg-tacos"
+  },
+  "public": true,
+  "updated_at": 1672189609,
+  "revision": 1
+}

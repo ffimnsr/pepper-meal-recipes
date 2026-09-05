@@ -1,0 +1,216 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ac16e1ea-8878-5154-a650-40ec1cfb25d3",
+  "slug": "indian-omelette",
+  "name": "Indian Omelette",
+  "recipe_type": "breakfast",
+  "brief_description": "Indian omelette (or masala omelette) is a popular Indian dish available in every Indian food stall around Malaysia. It's very easy and fast to make for breakfast or as a side dish.",
+  "cuisine": "Indian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Dice red and yellow onions into 3 different sizes."
+    },
+    {
+      "position": 2,
+      "text": "Combine eggs, onions, chili powder, turmeric, rock salt, and pepper in a large bowl; mix until well combined."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a large nonstick skillet over medium-high heat until shimmering. Pour in egg mixture, making sure it's evenly distributed in the skillet. Lower heat to medium, cover, and cook for 1 minute. Cut omelette into 8 pieces and continue to cook until egg starts to brown around the edges and appears to have set. Carefully flip with a spatula and cook for 2 more minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ac16e1ea-8878-5154-a650-40ec1cfb25d3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "340 kcal",
+    "carbohydrateContent": "11 g",
+    "cholesterolContent": "372 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "745 mg",
+    "sugarContent": "5 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "440bbb4c-e25e-5c4a-bcdc-470c1ba972cf",
+      "name": "medium red onions",
+      "normalized_name": "medium red onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "456ee8fa-812e-5f58-b6f6-1b115345d915",
+      "name": "large yellow onion",
+      "normalized_name": "large yellow onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6fe26b3-81da-5f50-8065-5bc6819dddfa",
+      "name": "ground turmeric",
+      "normalized_name": "ground turmeric",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ebee5ca2-430f-5d85-bee2-2a7dc2131625",
+      "name": "rock salt",
+      "normalized_name": "rock salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ea83d9fc-a7f0-569b-9a22-2809a2699fe9",
+      "name": "ground white pepper",
+      "normalized_name": "ground white pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1e1783f0-14a2-5c36-a8c9-61927a25536b",
+      "slug": "omelet-recipes",
+      "name": "Omelet Recipes",
+      "color": null
+    },
+    {
+      "id": "eecd2c00-de61-530a-bc32-cb01ad53bd59",
+      "slug": "indian",
+      "name": "Indian",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "2ed8d1b4-e1d8-55db-a0e5-fcf56d25a25d",
+      "slug": "turmeric-recipes",
+      "name": "Turmeric Recipes",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "301bad8a-6e1f-553c-a80c-5128b923b5b0",
+      "slug": "chili-powder-recipes",
+      "name": "Chili Powder Recipes",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/284380/indian-omelette"
+  },
+  "public": true,
+  "updated_at": 1601257972,
+  "revision": 1
+}

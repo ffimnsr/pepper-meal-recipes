@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4a1c8ba2-bd03-55e1-a711-a10a9ee0b232",
+  "slug": "serbian-salad",
+  "name": "Serbian Salad",
+  "recipe_type": "salad",
+  "brief_description": "This simple Serbian salad recipe with tomato wedges, cubed cucumbers, red onion, and banana peppers is usually dressed with just olive oil and salt.",
+  "cuisine": "European",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine tomatoes, cucumber, and red onion in a bowl. Drizzle with olive oil; stir. Season with salt. Sprinkle banana pepper slices on top; garnish with parsley."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4a1c8ba2-bd03-55e1-a711-a10a9ee0b232/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "139 kcal",
+    "carbohydrateContent": "3 g",
+    "fiberContent": "1 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "4 mg",
+    "sugarContent": "2 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "73b8d8d8-5e68-5fa6-9b5c-712bb6e1f231",
+      "name": "red tomatoes",
+      "normalized_name": "red tomatoes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "cut into wedges",
+      "position": 1
+    },
+    {
+      "ingredient_id": "a49413fd-862b-53f3-9a99-3dd5d122833b",
+      "name": "cubed cucumber",
+      "normalized_name": "cubed cucumber",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "128120d8-bfb6-55c2-9d45-dc7c94d1167a",
+      "name": "diced red onion",
+      "normalized_name": "diced red onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "9aa44676-d867-511d-bf77-4a0d2b57854a",
+      "name": "extra-virgin olive oil",
+      "normalized_name": "extra-virgin olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "103ba7e2-80d1-56fd-aebe-a2d346bd0d10",
+      "name": "banana pepper",
+      "normalized_name": "banana pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced into 1/4 inch rings",
+      "position": 6
+    },
+    {
+      "ingredient_id": "52da9d54-09d5-5de5-b6dc-453509b1f820",
+      "name": "parsley for garnish (optional)",
+      "normalized_name": "parsley for garnish",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b239d6d8-ba80-5981-81b2-0422e6282336",
+      "slug": "cucumber-salad-recipes",
+      "name": "Cucumber Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "ce42b902-40b1-5733-83a2-3f55dfe6e7fc",
+      "slug": "cucumber",
+      "name": "Cucumber",
+      "color": null
+    },
+    {
+      "id": "acc4b2bb-dac6-543e-8069-b9bc6c2e0486",
+      "slug": "tomato-salad-recipes",
+      "name": "Tomato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "3ac8ece0-b9bd-5cf9-a9b3-8ad549f8dc41",
+      "slug": "vegan",
+      "name": "Vegan",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/283751/serbian-salad"
+  },
+  "public": true,
+  "updated_at": 1747254052,
+  "revision": 1
+}

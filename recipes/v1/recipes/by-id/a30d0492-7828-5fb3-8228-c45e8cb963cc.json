@@ -1,0 +1,259 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a30d0492-7828-5fb3-8228-c45e8cb963cc",
+  "slug": "french-onion-soup-x",
+  "name": "French Onion Soup X",
+  "recipe_type": "soup",
+  "brief_description": "This quicker onion soup is made with vegetable broth, and flavored with thyme and brandy.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large non-stick saucepan, heat 1/4 cup vegetable broth. Stir in the onion and cook over medium heat until golden, 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir in the sugar and flour. Pour in the remaining 5 cups vegetable broth and the wine. Stir in the bay leaf, thyme and black pepper. Bring to a boil and let boil 8 minutes, stirring constantly; then reduce heat, partly cover, and simmer 30 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Preheat oven broiler."
+    },
+    {
+      "position": 4,
+      "text": "Remove from heat, remove bay leaf and stir in brandy. Rub garlic clove over toast. Ladle the soup into 4 ovenproof bowls and float a piece of toast on top of each bowl. Sprinkle with the Parmesan."
+    },
+    {
+      "position": 5,
+      "text": "Place bowls under broiler until cheese melts."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a30d0492-7828-5fb3-8228-c45e8cb963cc/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "221 kcal",
+    "carbohydrateContent": "36 g",
+    "fiberContent": "4 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "819 mg",
+    "sugarContent": "10 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "5.25",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "32c068b2-dc92-5c1c-85e9-b0c98004f775",
+      "name": "dry white wine",
+      "normalized_name": "dry white wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "591e6c25-bed6-5fe3-ab41-ecd18f19173c",
+      "name": "ground thyme",
+      "normalized_name": "ground thyme",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2511e36e-545d-5b30-97d7-e2df8acae4d4",
+      "name": "brandy",
+      "normalized_name": "brandy",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "0417ac73-a081-5f26-a1fd-04b425b0d197",
+      "name": "slices french bread",
+      "normalized_name": "slices french bread",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "toasted",
+      "position": 10
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "halved",
+      "position": 11
+    },
+    {
+      "ingredient_id": "c08a36fa-42f9-51ff-9243-e29f5307093e",
+      "name": "grated fat-free parmesan cheese",
+      "normalized_name": "grated fat-free parmesan cheese",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "661625a7-0b2f-5926-80cd-c4876dd1c728",
+      "slug": "onion-soup",
+      "name": "Onion Soup"
+    },
+    {
+      "id": "2c4766e7-12c2-5b90-83b4-a708f1711beb",
+      "slug": "french-onion-soup",
+      "name": "French Onion Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "3c7d371f-ea02-5870-8d45-73ecb88745dd",
+      "slug": "onion-soup-recipes",
+      "name": "Onion Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "2d125895-5569-549a-907e-4302ae47cb95",
+      "slug": "soup",
+      "name": "Soup",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25750/french-onion-soup-x"
+  },
+  "public": true,
+  "updated_at": 1592535986,
+  "revision": 1
+}

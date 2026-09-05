@@ -1,0 +1,239 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9dfcf941-609f-5945-8fad-c19c70a7fc83",
+  "slug": "quick-eggplant-parmesan",
+  "name": "Quick Eggplant Parmesan",
+  "recipe_type": "main",
+  "brief_description": "This quick eggplant recipe uses the microwave and stovetop to make a simple and tasty Italian meal with jarred spaghetti sauce in just 15 minutes.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Beat together egg and water in a small bowl. Place bread crumbs in a shallow dish."
+    },
+    {
+      "position": 2,
+      "text": "Dip eggplant slices in egg mixture, then press in bread crumbs to coat."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a large skillet over medium-high heat. Add eggplant slices to hot oil, then reduce heat to medium. Cook until golden brown and tender, 3 to 4 minutes per side. Sprinkle mozzarella cheese over eggplant during the last minute of cooking to melt."
+    },
+    {
+      "position": 4,
+      "text": "While eggplant is cooking, combine spaghetti sauce and red pepper flakes in a microwave-safe measuring cup. Cover with plastic wrap and cook on high until heated through, about 2 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Top fried eggplant slices with sauce and Parmesan cheese to serve."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9dfcf941-609f-5945-8fad-c19c70a7fc83/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "644 kcal",
+    "carbohydrateContent": "64 g",
+    "cholesterolContent": "167 mg",
+    "fiberContent": "13 g",
+    "proteinContent": "37 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "1866 mg",
+    "sugarContent": "14 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c93cd1d7-d224-54aa-a6fe-1ef686ae489b",
+      "name": "dried bread crumbs",
+      "normalized_name": "dried bread crumbs",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "seasoned",
+      "position": 3
+    },
+    {
+      "ingredient_id": "14174754-cbf3-57e4-9729-072aeabf1771",
+      "name": "small eggplant",
+      "normalized_name": "small eggplant",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 3/4 inch thick slices",
+      "position": 4
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "7f831d7b-244e-5d9f-a616-6d1ac5093cf0",
+      "name": "spaghetti sauce",
+      "normalized_name": "spaghetti sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "07650efc-8869-5114-9096-0912b3dbf48e",
+      "name": "crushed red pepper flakes",
+      "normalized_name": "crushed red pepper flakes",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "c35cde37-df54-5bbd-842c-175088231a5d",
+      "slug": "vegetable-main-dish",
+      "name": "Vegetable Main Dish"
+    },
+    {
+      "id": "d1abe44b-b60d-5744-acb4-89a56bfbe735",
+      "slug": "eggplant-parmesan",
+      "name": "Eggplant Parmesan"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "5320ba41-4f75-53b3-808a-7c2080fb3a7f",
+      "slug": "cook-once",
+      "name": "Cook Once",
+      "color": null
+    },
+    {
+      "id": "705381f7-76d5-5557-9b84-f5f63ae5c1ef",
+      "slug": "eat-twice-recipes",
+      "name": "Eat Twice Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13943/quick-eggplant-parmesan"
+  },
+  "public": true,
+  "updated_at": 1778543297,
+  "revision": 1
+}

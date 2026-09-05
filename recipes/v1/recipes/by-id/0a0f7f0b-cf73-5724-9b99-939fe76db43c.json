@@ -1,0 +1,208 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0a0f7f0b-cf73-5724-9b99-939fe76db43c",
+  "slug": "stroganoff",
+  "name": "Stroganoff",
+  "recipe_type": "soup",
+  "brief_description": "Wondering how to make beef stroganoff? Here's a simple, inexpensive version of this popular dinner entr\u00e9e. Saut\u00e9ed ground beef and onions are combined with cream of mushroom soup and sour cream, then served over egg noodles.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large skillet over medium heat, saut\u00e9 beef and onions for 10 minutes, or until meat is browned and onion is tender."
+    },
+    {
+      "position": 2,
+      "text": "Stir in flour, salt, and paprika. Add condensed soup, mix well, and cook, uncovered, for 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Reduce heat to low and add sour cream, stirring well and allowing to heat through. Cover and set this mixture aside."
+    },
+    {
+      "position": 4,
+      "text": "Cook egg noodles according to package directions. Drain. Serve beef mixture over noodles."
+    }
+  ],
+  "servings": 7,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0a0f7f0b-cf73-5724-9b99-939fe76db43c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "435 kcal",
+    "carbohydrateContent": "30 g",
+    "cholesterolContent": "70 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "511 mg",
+    "sugarContent": "2 g",
+    "fatContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "7f06c2ce-8aca-5415-93da-7ca715bb4e40",
+      "name": "egg noodles",
+      "normalized_name": "egg noodles",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "1a9fa232-a82e-505d-a575-5e368a780bda",
+      "slug": "beef-stroganoff",
+      "name": "Beef Stroganoff"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cea3c22d-1197-5f32-9640-f0b3ae09d0c5",
+      "slug": "beef-stroganoff-recipes",
+      "name": "Beef Stroganoff Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "ac8de754-d8ea-5320-af85-732a6550c67d",
+      "slug": "ground-beef",
+      "name": "Ground Beef",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16433/stroganoff"
+  },
+  "public": true,
+  "updated_at": 1673392076,
+  "revision": 1
+}

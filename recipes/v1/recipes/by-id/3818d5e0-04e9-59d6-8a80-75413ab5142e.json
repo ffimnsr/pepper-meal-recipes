@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3818d5e0-04e9-59d6-8a80-75413ab5142e",
+  "slug": "creamy-linguini-for-two",
+  "name": "Creamy Linguini for Two",
+  "recipe_type": "salad",
+  "brief_description": "A very quick and delicious pasta dish with a light, creamy blend of Parmesan cheese and ground nutmeg. Serve with a tossed green salad and some garlic bread.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of water to a boil. Add pasta and cook for about 7 to 8 minutes or until al dente; drain. Remove from pot, cover and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, in a small skillet cook bacon over medium heat until crispy. Break up into small pieces and set aside."
+    },
+    {
+      "position": 3,
+      "text": "In the pasta pot, melt butter over medium-low heat and add cream; heat thoroughly, but do not allow to boil. Combine cooked pasta with butter/cream mixture. Add Parmesan cheese and bacon; toss well. Allow sauce to thicken for a few minutes; add ground white pepper and nutmeg. Serve immediately."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3818d5e0-04e9-59d6-8a80-75413ab5142e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "992 kcal",
+    "carbohydrateContent": "86 g",
+    "cholesterolContent": "173 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "27 g",
+    "saturatedFatContent": "35 g",
+    "sodiumContent": "656 mg",
+    "sugarContent": "4 g",
+    "fatContent": "62 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3a580b4e-e8b7-5688-95b7-a8faab6dc6dc",
+      "name": "linguine pasta",
+      "normalized_name": "linguine pasta",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d1f37e81-434d-5de8-8cd2-76c3fb004d02",
+      "name": "thick slice bacon",
+      "normalized_name": "thick slice bacon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b87f875d-0a0b-5489-baeb-5e604a27358a",
+      "name": "heavy or whipping cream",
+      "normalized_name": "heavy or whipping cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ea83d9fc-a7f0-569b-9a22-2809a2699fe9",
+      "name": "ground white pepper",
+      "normalized_name": "ground white pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "b158906b-2b1e-5e43-88fd-1b6c4fbc3619",
+      "slug": "peppercorn-recipes",
+      "name": "Peppercorn Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19340/creamy-linguini-for-two"
+  },
+  "public": true,
+  "updated_at": 1787631077,
+  "revision": 1
+}

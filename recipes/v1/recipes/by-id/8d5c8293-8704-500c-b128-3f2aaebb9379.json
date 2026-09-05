@@ -1,0 +1,249 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8d5c8293-8704-500c-b128-3f2aaebb9379",
+  "slug": "easy-garlic-escargots",
+  "name": "Easy Garlic Escargots",
+  "recipe_type": "appetizer",
+  "brief_description": "This escargot recipe is made with canned escargots cooked in butter and garlic, stuffed into mushroom caps, then baked with wine sauce and cheese.",
+  "cuisine": "French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Lightly grease an 8x8-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Place escargots in a small bowl and cover with cold water. Let sit for 5 minutes to remove any canned flavor they may have. Drain escargots and pat dry with a paper towel."
+    },
+    {
+      "position": 3,
+      "text": "Melt butter with garlic in a large skillet over medium-high heat. Add escargots and mushroom caps; cook and stir until mushroom caps begin to soften, about 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Whisk together wine, cream, flour, tarragon, and pepper in a small bowl until well combined. Pour into the skillet and bring to a boil. Cook, stirring occasionally, until sauce thickens, about 10 minutes. Remove from the heat."
+    },
+    {
+      "position": 5,
+      "text": "Place mushroom caps into the prepared baking dish, with the tops facing down. Spoon an escargot into each mushroom cap. Pour sauce from the skillet over mushroom caps, then sprinkle grated Parmesan cheese over top."
+    },
+    {
+      "position": 6,
+      "text": "Bake in the preheated oven until cheese has turned golden brown, 10 to 15 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8d5c8293-8704-500c-b128-3f2aaebb9379/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "405 kcal",
+    "carbohydrateContent": "11 g",
+    "cholesterolContent": "142 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "27 g",
+    "saturatedFatContent": "16 g",
+    "sodiumContent": "382 mg",
+    "fatContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3dcc5992-b7e3-5922-b58d-dc588d87e349",
+      "name": "ounce) can escargots",
+      "normalized_name": "ounce can escargots",
+      "quantity": "1 (7",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "6",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "b45ff63d-b165-529e-94f8-2cabca65f065",
+      "name": "mushrooms",
+      "normalized_name": "mushrooms",
+      "quantity": "20",
+      "unit": "pieces",
+      "preparation": "stems removed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "b1e2180f-a93b-5637-a231-e6913198d0d8",
+      "name": "white wine",
+      "normalized_name": "white wine",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "91c1e636-e686-579c-902c-7cc2e3efdeda",
+      "name": "cream",
+      "normalized_name": "cream",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cef70ac0-94cc-5178-b9ba-b405f830d9cf",
+      "name": "dried tarragon",
+      "normalized_name": "dried tarragon",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": "or to taste",
+      "position": 9
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "24e3743e-25a0-58f6-8029-8741b37c8156",
+      "slug": "vegetable",
+      "name": "Vegetable"
+    },
+    {
+      "id": "fcbe29a0-e1fa-58a6-a387-e12650b7c5df",
+      "slug": "mushrooms",
+      "name": "Mushrooms"
+    },
+    {
+      "id": "46172c05-a927-5f69-9981-5b00bff19c43",
+      "slug": "stuffed-mushroom",
+      "name": "Stuffed Mushroom"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4b293dbb-9baf-5a4e-b069-520882d482f2",
+      "slug": "stuffed-mushroom-recipes",
+      "name": "Stuffed Mushroom Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "60f6fa5f-ac03-5eff-897b-8776dfb1ef02",
+      "slug": "garlic",
+      "name": "Garlic",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "625da4f7-4eee-5dc7-9b15-828856bf3fca",
+      "slug": "tapas",
+      "name": "Tapas",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/159391/easy-garlic-escargots"
+  },
+  "public": true,
+  "updated_at": 1766001071,
+  "revision": 1
+}

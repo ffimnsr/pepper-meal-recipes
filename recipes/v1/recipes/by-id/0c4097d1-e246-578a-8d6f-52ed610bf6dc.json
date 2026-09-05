@@ -1,0 +1,250 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0c4097d1-e246-578a-8d6f-52ed610bf6dc",
+  "slug": "cabbage-borsht",
+  "name": "Cabbage Borsht",
+  "recipe_type": "soup",
+  "brief_description": "This German soup with cabbage, potatoes, tomato, and dill may be made with either chicken or beef. Finished with dill, and great with a dollop of sour cream.",
+  "cuisine": "German",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place chicken in a large pot of water. Bring to a boil, reduce to a simmer, and cook approximately 30 minutes. Remove from water, cool, and shred into bite-size pieces. Discard skin and bones."
+    },
+    {
+      "position": 2,
+      "text": "In a large stock pot, heat 1 gallon of water with tomato soup and salt. Bring to a low boil. Place cabbage, potatoes, carrot, onion, chicken, and bay leaf in pot, and return to a simmer. Cook at a very low simmer until vegetables are tender, approximately 20 minutes. Add parsley and dill, taste and adjust seasoning with salt if needed, and serve."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 70,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0c4097d1-e246-578a-8d6f-52ed610bf6dc/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "308 kcal",
+    "carbohydrateContent": "31 g",
+    "cholesterolContent": "60 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "966 mg",
+    "sugarContent": "8 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8dc1d50e-c386-53a7-9532-5c566caea263",
+      "name": "bone-in chicken pieces",
+      "normalized_name": "bone-in chicken pieces",
+      "quantity": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5c8391c4-cfeb-5c9b-a100-dc223f43624a",
+      "name": "gallon water",
+      "normalized_name": "gallon water",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "cf184e42-c27d-577b-8c39-2d19adf6a9f4",
+      "name": "ounce) can condensed tomato soup",
+      "normalized_name": "ounce can condensed tomato soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9768d195-f743-5ec9-ad42-38b0cf5d0b2e",
+      "name": "large head cabbage",
+      "normalized_name": "large head cabbage",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored and shredded",
+      "position": 5
+    },
+    {
+      "ingredient_id": "bb5cd079-3add-5c44-ab11-b8b5d496d234",
+      "name": "large peeled and diced red potatoes",
+      "normalized_name": "large peeled and diced red potatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "c8426aad-8c25-516c-a538-f5a93f92c721",
+      "name": "large carrot",
+      "normalized_name": "large carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "894756ff-a1b1-5651-b3de-687c810264ac",
+      "name": "bay leaves",
+      "normalized_name": "bay leaves",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "ac234e7c-6940-5e02-a4b4-ba80e888f6f5",
+      "name": "bunch chopped fresh dill",
+      "normalized_name": "bunch chopped fresh dill",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "b3aef0f6-89f7-5c96-8faa-fe01e4c51f02",
+      "slug": "cabbage-soup",
+      "name": "Cabbage Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/62584/cabbage-borsht"
+  },
+  "public": true,
+  "updated_at": 1554348701,
+  "revision": 1
+}

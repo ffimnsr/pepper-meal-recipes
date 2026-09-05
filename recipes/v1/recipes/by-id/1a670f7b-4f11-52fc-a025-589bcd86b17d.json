@@ -1,0 +1,264 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1a670f7b-4f11-52fc-a025-589bcd86b17d",
+  "slug": "vegan-mexican-menudo",
+  "name": "Vegan Mexican Menudo",
+  "recipe_type": "soup",
+  "brief_description": "This vegan take on menudo, a Mexican soup with chile pepper base, cooks shiitake mushrooms in a broth infused with ancho chile-tomato sauce.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place tomatoes and ancho peppers in a pot, cover with water, and bring to a boil. Cook until tender, about 5 minutes. Let soak in the hot water for 5 minutes more."
+    },
+    {
+      "position": 2,
+      "text": "Transfer tomatoes, ancho peppers, and 1/2 cup water into a blender. Cover and hold lid down with a potholder; pulse a few times before leaving on to blend. Strain sauce through a sieve, discarding the solids."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a saucepan over medium heat. Crush garlic with cumin in a bowl and add to the hot pan. Cook and stir until fragrant, about 1 minute. Add mushrooms; cook and stir until soft, about 5 minutes. Pour tomato sauce over the mushrooms and season with salt. Let simmer until sauce is slightly thickened, about 5 minutes. Add vegetable broth. Bring to a boil. Reduce heat and let soup simmer until flavors meld, about 15 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Pour soup into individual bowls; garnish with onion and oregano. Serve with lime wedges and red pepper flakes on the side."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1a670f7b-4f11-52fc-a025-589bcd86b17d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "214 kcal",
+    "carbohydrateContent": "26 g",
+    "fiberContent": "7 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "560 mg",
+    "sugarContent": "9 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d07117a7-b2ef-5b2f-bc0a-0939302537dd",
+      "name": "roma tomatoes",
+      "normalized_name": "roma tomatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3f53a07-3d60-5b06-968c-028682f810c9",
+      "name": "ancho chile peppers",
+      "normalized_name": "ancho chile peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded and deveined",
+      "position": 2
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "aab46442-824c-55b5-9da3-bebf942d2020",
+      "name": "garlic cloves",
+      "normalized_name": "garlic cloves",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1e5650a3-3410-5a8c-b323-f9d46fae85bd",
+      "name": "shiitake mushrooms",
+      "normalized_name": "shiitake mushrooms",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e105926e-b04d-50af-bafd-938307777683",
+      "name": "quart vegetable broth",
+      "normalized_name": "quart vegetable broth",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "446cb334-9ce9-51e0-8a8b-dda707e68f6d",
+      "name": "finely chopped white onion",
+      "normalized_name": "finely chopped white onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut in wedges",
+      "position": 12
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "28f24011-6706-59fa-8654-c3d2657489d7",
+      "slug": "mushroom",
+      "name": "Mushroom",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "e2236ea9-2a8d-5801-a426-a1eeb0140367",
+      "slug": "shiitake-mushrooms",
+      "name": "Shiitake Mushrooms",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262316/vegan-mexican-menudo"
+  },
+  "public": true,
+  "updated_at": 1738175593,
+  "revision": 1
+}

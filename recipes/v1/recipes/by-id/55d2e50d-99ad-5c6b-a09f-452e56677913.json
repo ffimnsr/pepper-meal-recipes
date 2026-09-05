@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "55d2e50d-99ad-5c6b-a09f-452e56677913",
+  "slug": "simple-cantaloupe-smoothie",
+  "name": "Simple Cantaloupe Smoothie",
+  "recipe_type": "breakfast",
+  "brief_description": "This cantaloupe smoothie recipe uses vanilla yogurt blended with fresh cantaloupe and orange juice for a creamy and delicious way to start your day.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Process yogurt, orange juice, cantaloupe, and ice cubes in a blender until smooth, about 30 seconds."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/55d2e50d-99ad-5c6b-a09f-452e56677913/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "291 kcal",
+    "carbohydrateContent": "53 g",
+    "cholesterolContent": "12 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "178 mg",
+    "sugarContent": "50 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bcb1e0d2-6ea8-5e5f-9065-176c9647f165",
+      "name": "vanilla yogurt (such as dannon\u00ae light and fit\u00ae)",
+      "normalized_name": "vanilla yogurt",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5f2347f6-33f3-597d-834e-20653545df33",
+      "name": "orange juice",
+      "normalized_name": "orange juice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4dbfb833-087a-53c2-8670-1755d5c57613",
+      "name": "sliced cantaloupe",
+      "normalized_name": "sliced cantaloupe",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "crushed, or as needed",
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    },
+    {
+      "id": "14d0e8a4-3b42-56ff-a3f4-a6efd68db6ad",
+      "slug": "orange",
+      "name": "Orange"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "76abba44-5c5d-5a59-bc38-9bbc98e583e0",
+      "slug": "orange",
+      "name": "Orange",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "19c6368b-fe56-5687-a04d-ebce6b9089bd",
+      "slug": "cantaloupes",
+      "name": "Cantaloupes",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "36433274-3189-5553-af02-883a9b1e7f34",
+      "slug": "melons",
+      "name": "Melons",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/238339/simple-cantaloupe-smoothie"
+  },
+  "public": true,
+  "updated_at": 1780436245,
+  "revision": 1
+}

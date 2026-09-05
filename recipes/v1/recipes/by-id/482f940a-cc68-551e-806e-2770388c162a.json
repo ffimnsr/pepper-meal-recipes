@@ -1,0 +1,172 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "482f940a-cc68-551e-806e-2770388c162a",
+  "slug": "teriyaki-steak",
+  "name": "Teriyaki Steak",
+  "recipe_type": "main",
+  "brief_description": "Strips of skirt steak are marinated overnight with teriyaki sauce and garlic, then broiled or grilled for about 10 minutes in this 3-ingredient recipe.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cut skirt steak into individual strips."
+    },
+    {
+      "position": 2,
+      "text": "Combine teriyaki sauce and garlic in a bowl; transfer to a resealable plastic bag. Add steak strips, coat with marinade, squeeze out excess air, and seal the bag. Marinate in the refrigerator 8 hours to overnight."
+    },
+    {
+      "position": 3,
+      "text": "Set an oven rack about 6 inches from the heat source and preheat the oven's broiler (or preheat an outdoor grill and lightly oil the grate)."
+    },
+    {
+      "position": 4,
+      "text": "Remove steak strips from marinade and shake off excess. Discard remaining marinade."
+    },
+    {
+      "position": 5,
+      "text": "Place meat on a broiler pan (or directly on the grill). Cook to desired doneness, about 5 minutes per side."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/482f940a-cc68-551e-806e-2770388c162a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "325 kcal",
+    "carbohydrateContent": "23 g",
+    "cholesterolContent": "55 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "36 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "5576 mg",
+    "sugarContent": "20 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c8bd31ca-a597-5d81-859f-a610696ffaba",
+      "name": "beef skirt steak",
+      "normalized_name": "beef skirt steak",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b1e495b6-3728-54c9-bbcb-d14c5069e832",
+      "name": "teriyaki sauce",
+      "normalized_name": "teriyaki sauce",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "557a9d28-0ebf-5c7b-8dbb-bf1dc43515d0",
+      "slug": "steaks",
+      "name": "Steaks"
+    },
+    {
+      "id": "8c17ccc0-1093-5872-ad47-4253fe2a07ae",
+      "slug": "skirt-steak",
+      "name": "Skirt Steak"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a806755c-d409-5282-aff4-f08dd32c7072",
+      "slug": "skirt-steak-recipes",
+      "name": "Skirt Steak Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "f5829042-f0a1-5586-967c-eda0386916df",
+      "slug": "bbq-grilling-recipes",
+      "name": "BBQ & Grilling Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "52212d12-07fe-57f2-b27e-69bc1cef2064",
+      "slug": "flank-steak-recipes",
+      "name": "Flank Steak Recipes",
+      "color": null
+    },
+    {
+      "id": "35aeb1cf-5923-5fb0-bc73-ca84e21f755a",
+      "slug": "steaks",
+      "name": "Steaks",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16446/teriyaki-steak"
+  },
+  "public": true,
+  "updated_at": 1778639454,
+  "revision": 1
+}

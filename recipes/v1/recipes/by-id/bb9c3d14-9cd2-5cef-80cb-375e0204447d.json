@@ -1,0 +1,175 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "bb9c3d14-9cd2-5cef-80cb-375e0204447d",
+  "slug": "spinach-and-banana-power-smoothie",
+  "name": "Spinach and Banana Power Smoothie",
+  "recipe_type": "drink",
+  "brief_description": "This vegan banana spinach smoothie provides a dairy-free and protein-rich pick-me-up that tastes delicious. It's easy to blend and take anywhere.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Blend soy milk and spinach together in a blender until smooth."
+    },
+    {
+      "position": 3,
+      "text": "Add banana and pulse until thoroughly blended."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/bb9c3d14-9cd2-5cef-80cb-375e0204447d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "257 kcal",
+    "carbohydrateContent": "47 g",
+    "fiberContent": "6 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "143 mg",
+    "sugarContent": "26 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "af6234ff-db33-5582-9758-3e77d18e7e29",
+      "name": "plain soy milk",
+      "normalized_name": "plain soy milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "cd7cf1c5-26e5-547d-ad25-691fbab7daaa",
+      "name": "packed fresh spinach leaves",
+      "normalized_name": "packed fresh spinach leaves",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "233b251e-9a27-5ca0-a2d7-2f3fcac4d41e",
+      "name": "large banana",
+      "normalized_name": "large banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    },
+    {
+      "id": "eb1b25a4-2bc6-56c1-95a2-227b08edc990",
+      "slug": "veggie",
+      "name": "Veggie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "53b4c0bb-791f-5da3-959f-0b5fb573386d",
+      "slug": "veggie",
+      "name": "Veggie",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/241019/spinach-and-banana-power-smoothie"
+  },
+  "public": true,
+  "updated_at": 1761671697,
+  "revision": 1
+}

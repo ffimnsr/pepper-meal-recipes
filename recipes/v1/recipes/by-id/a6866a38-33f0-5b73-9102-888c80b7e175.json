@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a6866a38-33f0-5b73-9102-888c80b7e175",
+  "slug": "filet-mignon-and-balsamic-strawberries",
+  "name": "Filet Mignon and Balsamic Strawberries",
+  "recipe_type": "dessert",
+  "brief_description": "Tender seared beef filets are quickly oven-roasted, then topped with sweet and savory marinated balsamic strawberries for a romantic presentation.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix together the strawberries, brown sugar, and balsamic vinegar in a bowl, and allow to sit for 1 to 3 hours, stirring occasionally."
+    },
+    {
+      "position": 2,
+      "text": "Preheat an oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Heat olive oil in an oven-safe, heavy steel or cast-iron skillet over high heat. Sprinkle the filets with salt and pepper on both sides, gently place in the hot skillet, and sear each side until well-browned, 1 to 2 minutes per side. Slide the skillet into the preheated oven, and cook until they start to become firm and are reddish-pink and juicy in the center, about 10 minutes. An instant-read thermometer inserted into the center should read 130 degrees F (54 degrees C). Transfer the steaks to a platter, and tent with foil to rest."
+    },
+    {
+      "position": 4,
+      "text": "Pour steak juices from the skillet into a small saucepan. Strain the strawberries and discard the liquid. Add the strawberries to the steak juices, bring the sauce to a simmer over medium-low heat, and melt the butter into the sauce, tilting the pan several times to gently incorporate the butter into the sauce. Serve each fillet topped with about 1/2 cup of strawberries and a sprinkle of freshly ground black pepper."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a6866a38-33f0-5b73-9102-888c80b7e175/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "438 kcal",
+    "carbohydrateContent": "22 g",
+    "cholesterolContent": "94 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "127 mg",
+    "sugarContent": "20 g",
+    "fatContent": "27 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5ff5f54c-2a65-5690-a15d-70a0807a7659",
+      "name": "strawberries",
+      "normalized_name": "strawberries",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "sliced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "362e8788-4b07-5d90-b5e6-28134dd6bd01",
+      "name": "balsamic vinegar",
+      "normalized_name": "balsamic vinegar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f2f23f44-f1ce-5e36-93fe-27b0bb9347b9",
+      "name": "ounce) filet mignon (beef tenderloin)",
+      "normalized_name": "ounce filet mignon",
+      "quantity": "4 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5578a0e0-938f-58dd-b3a7-c651b0319b18",
+      "name": "chilled butter",
+      "normalized_name": "chilled butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "33f59aae-9c0f-597c-b519-8bfc4aae58b6",
+      "name": "freshly ground black pepper to taste",
+      "normalized_name": "freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    },
+    {
+      "id": "557a9d28-0ebf-5c7b-8dbb-bf1dc43515d0",
+      "slug": "steaks",
+      "name": "Steaks"
+    },
+    {
+      "id": "ae936782-fce3-5c76-8e4a-f9150bd48b49",
+      "slug": "filet-mignon",
+      "name": "Filet Mignon"
+    }
+  ],
+  "tags": [
+    {
+      "id": "db3164d2-4385-5247-9529-de6962cee957",
+      "slug": "filet-mignon-recipes",
+      "name": "Filet Mignon Recipes",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "b3f6b56a-43c6-5a82-9f7c-1ae7481aa809",
+      "slug": "beef-tenderloin-recipes",
+      "name": "Beef Tenderloin Recipes",
+      "color": null
+    },
+    {
+      "id": "1cfa2a4e-ee4e-58e0-8f61-2af2ed73ac95",
+      "slug": "short-loin",
+      "name": "Short Loin",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213507/filet-mignon-and-balsamic-strawberries"
+  },
+  "public": true,
+  "updated_at": 1732933236,
+  "revision": 1
+}

@@ -1,0 +1,189 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2598eeea-31a5-5fbe-b379-4efae91c11e4",
+  "slug": "easy-bruschetta",
+  "name": "Easy Bruschetta",
+  "recipe_type": "appetizer",
+  "brief_description": "Garlic-rubbed toasts serve as the base for this classic Italian appetizer -fresh tomatoes, basil and red onion are heaped atop.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Combine tomato, basil, and red onion in a small mixing bowl; stir well. Season with freshly ground black pepper. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Arrange bread on a baking sheet. Place in oven, and bake until well toasted, approximately 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Remove bread from oven, and transfer to a large serving platter. Let bread cool 3 to 5 minutes. Rub garlic into the top of each slice of toast; the toast should glisten with the garlic. Spoon the tomato mixture generously onto each slice, and serve."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2598eeea-31a5-5fbe-b379-4efae91c11e4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "90 kcal",
+    "carbohydrateContent": "18 g",
+    "fiberContent": "1 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "186 mg",
+    "sugarContent": "2 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "68d4633d-cc9b-598e-912f-5797af1cf556",
+      "name": "french baguette",
+      "normalized_name": "french baguette",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 1/2 inch thick circles",
+      "position": 1
+    },
+    {
+      "ingredient_id": "e9e14bcc-587c-5a27-a72c-a911b6093515",
+      "name": "plum tomatoes",
+      "normalized_name": "plum tomatoes",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "3137d3c8-bf47-5da8-adb2-cd7e446039cd",
+      "name": "chopped fresh basil",
+      "normalized_name": "chopped fresh basil",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "5736101f-cd61-52e5-a966-719875f8b09d",
+      "slug": "bruschetta",
+      "name": "Bruschetta"
+    }
+  ],
+  "tags": [
+    {
+      "id": "499954b2-300e-5073-b52f-bba1da045ae0",
+      "slug": "bruschetta-recipes",
+      "name": "Bruschetta Recipes",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/14838/easy-bruschetta"
+  },
+  "public": true,
+  "updated_at": 1772487240,
+  "revision": 1
+}

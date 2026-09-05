@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ce903e36-7aaa-5890-9069-7eb6e083e055",
+  "slug": "turkey-avocado-panini",
+  "name": "Turkey Avocado Panini",
+  "recipe_type": "main",
+  "brief_description": "A panini sandwich with avocado mayonnaise is layered with smoked turkey, roasted red peppers, and provolone cheese, and pressed until the sandwich is crisp and toasted and the filling is melted.",
+  "cuisine": "Italian Inspired American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mash avocado and mayonnaise together in a bowl until thoroughly combined."
+    },
+    {
+      "position": 2,
+      "text": "Preheat a panini sandwich press."
+    },
+    {
+      "position": 3,
+      "text": "Brush bottom of each roll with olive oil; place onto the panini press, oiled sides down. Place 1 slice cheese, 1/2 spinach leaves, 1/2 turkey, and 1/2 sliced peppers on each roll on panini press. Spread 1/2 avocado mixture on cut surface of each top roll; place 1 top roll on each sandwich. Brush top of each roll with olive oil."
+    },
+    {
+      "position": 4,
+      "text": "Close the panini press; cook until rolls toasted and crisp, with golden brown grill marks, and the cheese has melted, 5 to 8 minutes."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ce903e36-7aaa-5890-9069-7eb6e083e055/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "723 kcal",
+    "carbohydrateContent": "42 g",
+    "cholesterolContent": "62 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "1720 mg",
+    "sugarContent": "4 g",
+    "fatContent": "51 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "9ffce1c5-76cb-5956-a91e-1ab9f64d7ac1",
+      "name": "ripe avocado",
+      "normalized_name": "ripe avocado",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "18f0ee8a-0358-5d32-8381-f18da47402f8",
+      "name": "ciabatta rolls",
+      "normalized_name": "ciabatta rolls",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "divided",
+      "position": 4
+    },
+    {
+      "ingredient_id": "a0f27c63-4620-57cf-8274-bc6a5d7e4cd7",
+      "name": "slices provolone cheese",
+      "normalized_name": "slices provolone cheese",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5e78ca67-18f9-55a3-aa90-3cd1936ecd44",
+      "name": "whole fresh spinach leaves",
+      "normalized_name": "whole fresh spinach leaves",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 6
+    },
+    {
+      "ingredient_id": "60057a4d-58a7-5ce9-ab76-2554533e84fe",
+      "name": "thinly sliced mesquite smoked turkey breast",
+      "normalized_name": "thinly sliced mesquite smoked turkey breast",
+      "quantity": "0.25",
+      "unit": "pound",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f7b61f02-b068-5264-ba2d-9f1e37dc21ae",
+      "name": "roasted red peppers",
+      "normalized_name": "roasted red peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced into strips",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "b3e887f5-5ab1-5beb-aecd-b4afd5ef2b65",
+      "slug": "italian",
+      "name": "Italian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "2fcf79f5-1926-5a7f-a5ba-b1cf2070d998",
+      "slug": "turkey-breast",
+      "name": "Turkey Breast",
+      "color": null
+    },
+    {
+      "id": "5080f1d5-1b70-5879-9410-65a4bbbc66dd",
+      "slug": "panini-recipes",
+      "name": "Panini Recipes",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/201117/turkey-avocado-panini"
+  },
+  "public": true,
+  "updated_at": 1780495223,
+  "revision": 1
+}

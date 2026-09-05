@@ -1,0 +1,287 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4b3a73d5-6978-523b-b922-6bfb0f40cc21",
+  "slug": "tostadas-de-salpicon-shredded-beef",
+  "name": "Tostadas de Salpicon (Shredded Beef)",
+  "recipe_type": "soup",
+  "brief_description": "These tostadas de salpicon are made with shredded beef that is cooked in a savory broth with tomatoes, onion, lime juice, and serrano chiles.",
+  "cuisine": "Mexican Inspired Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine chuck roast, broth, tomatoes, onion, bay leaves, serrano chiles, lime juice, vinegar, oregano, salt, and pepper in a large pot pot over medium-high heat. Bring to a boil, reduce heat to low, and simmer until meat is tender, about 1 1/2 hours."
+    },
+    {
+      "position": 2,
+      "text": "Remove roast from pot and shred meat with 2 forks."
+    },
+    {
+      "position": 3,
+      "text": "To assemble tostadas, spread a layer of refried beans on tortillas, layer shredded beef, lettuce, tomatoes, cheese, sour cream and salsa."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 90,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4b3a73d5-6978-523b-b922-6bfb0f40cc21/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "353 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "60 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "649 mg",
+    "sugarContent": "8 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "43b5bda8-af30-5784-b2bc-8cf87dbde6cf",
+      "name": "beef chuck roast",
+      "normalized_name": "beef chuck roast",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "da280670-873b-5a9e-86c6-ecef8cbc5a70",
+      "name": "medium roma tomatoes",
+      "normalized_name": "medium roma tomatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "ee57764b-9fb3-54be-8f66-abcd362e332d",
+      "name": "large bay leaves",
+      "normalized_name": "large bay leaves",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "35928189-9259-5537-84b2-7fcc49a1503c",
+      "name": "serrano chile peppers",
+      "normalized_name": "serrano chile peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "44a03780-5853-592d-a6af-e8f3a552b0b2",
+      "name": "medium limes",
+      "normalized_name": "medium limes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "73edd81c-93fd-5899-8abc-52a065e6e4ff",
+      "name": "dried mexican oregano",
+      "normalized_name": "dried mexican oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "6f53f7b9-9596-5de1-8808-3814bd42a41c",
+      "name": "refried beans",
+      "normalized_name": "refried beans",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "warmed",
+      "position": 11
+    },
+    {
+      "ingredient_id": "0e20aa35-8c75-5edc-87c8-8f2e0707a041",
+      "name": "fried tortillas",
+      "normalized_name": "fried tortillas",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "e8df9fca-6fae-51c4-a94c-e9e685105bd0",
+      "name": "shredded lettuce",
+      "normalized_name": "shredded lettuce",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 13
+    },
+    {
+      "ingredient_id": "4d7a6e98-92db-548c-be40-93f5ca798f4f",
+      "name": "medium tomatoes",
+      "normalized_name": "medium tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 14
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 15
+    },
+    {
+      "ingredient_id": "2d1e1921-3e9f-5c4b-b821-833e5c6e4130",
+      "name": "salsa",
+      "normalized_name": "salsa",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "0ccc17d0-9d00-509e-9463-a9c03868dab8",
+      "slug": "tostada",
+      "name": "Tostada"
+    }
+  ],
+  "tags": [
+    {
+      "id": "9358a00d-1681-5505-a353-be8dd5015161",
+      "slug": "tostada-recipes",
+      "name": "Tostada Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "4e7d6528-567b-592e-b80d-f7115460c3d2",
+      "slug": "convenience-cooking",
+      "name": "Convenience Cooking",
+      "color": null
+    },
+    {
+      "id": "fc05f179-e542-5074-a8a9-92f67366ee4f",
+      "slug": "chuck",
+      "name": "Chuck",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/284666/tostadas-de-salpicon-shredded-beef"
+  },
+  "public": true,
+  "updated_at": 1740001987,
+  "revision": 1
+}

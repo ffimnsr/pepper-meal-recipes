@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fd28f5c7-d198-5398-a4a5-23dc3232b595",
+  "slug": "penne-primavera",
+  "name": "Penne Primavera",
+  "recipe_type": "main",
+  "brief_description": "Sauteed broccoli, carrots, and peas serve as the summertime toppings for penne pasta.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat the olive oil and garlic in a large skillet over medium heat. When garlic is tender, remove from skillet and set aside. Place the broccoli and carrot in the skillet, and cook 2 minutes, just until heated through."
+    },
+    {
+      "position": 2,
+      "text": "In a pot, bring the vegetable broth to a boil. Stir in the penne pasta and heated crushed garlic clove. Cook for 5 minutes, or until pasta is almost al dente. Remove and discard garlic clove."
+    },
+    {
+      "position": 3,
+      "text": "Transfer the partially cooked pasta and broth to the skillet. Mix in the peas. Cover skillet, and continue cooking 10 minutes over medium heat, or until pasta is al dente and vegetables are tender. Toss with the Parmesan cheese to serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fd28f5c7-d198-5398-a4a5-23dc3232b595/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "347 kcal",
+    "carbohydrateContent": "54 g",
+    "cholesterolContent": "9 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "427 mg",
+    "sugarContent": "5 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "crushed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "6a71d37f-a64a-5643-9fe3-f0c99d17c252",
+      "name": "broccoli florets",
+      "normalized_name": "broccoli florets",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6995b31c-9fef-5242-b62c-b88322813b19",
+      "name": "medium carrot",
+      "normalized_name": "medium carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "julienned",
+      "position": 4
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "722c8723-19ba-5179-9864-42b7ff5ba12d",
+      "name": "ounce) package penne pasta",
+      "normalized_name": "ounce package penne pasta",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ee169fda-3fca-5765-9af5-f262e26fe53c",
+      "name": "frozen peas",
+      "normalized_name": "frozen peas",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0d9540ed-f036-58af-a069-b148b895ce06",
+      "name": "freshly grated parmesan cheese",
+      "normalized_name": "freshly grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "955b798f-120b-538f-b2ce-9282290fdb6e",
+      "slug": "pasta-primavera",
+      "name": "Pasta Primavera"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "18e530cc-1eab-5ee9-bebd-117d96516b8c",
+      "slug": "1970s",
+      "name": "1970s",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72506/penne-primavera"
+  },
+  "public": true,
+  "updated_at": 1780943612,
+  "revision": 1
+}

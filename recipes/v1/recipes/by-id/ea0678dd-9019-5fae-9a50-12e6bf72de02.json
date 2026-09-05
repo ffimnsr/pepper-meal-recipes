@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ea0678dd-9019-5fae-9a50-12e6bf72de02",
+  "slug": "stovies",
+  "name": "Stovies",
+  "recipe_type": "main",
+  "brief_description": "A Scottish dish of potatoes cooked with onions and corned beef. It's a whole meal in itself; simple and easy to make!",
+  "cuisine": "Scottish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a saucepan, combine potatoes and milk. Bring to a boil, reduce heat, and simmer until potatoes are tender, about 30 minutes."
+    },
+    {
+      "position": 2,
+      "text": "While potatoes are simmering, melt butter in a skillet over medium high heat. Saute onions until soft and translucent."
+    },
+    {
+      "position": 3,
+      "text": "When potatoes are soft, mix in sauteed onions and corned beef. Cook an additional 10 minutes, or until heated through. Season with salt and pepper."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ea0678dd-9019-5fae-9a50-12e6bf72de02/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "707 kcal",
+    "carbohydrateContent": "103 g",
+    "cholesterolContent": "85 mg",
+    "fiberContent": "13 g",
+    "proteinContent": "36 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "925 mg",
+    "sugarContent": "9 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "fb7947a8-6609-5027-a6a3-25e6a97cea6d",
+      "name": "large baking potatoes",
+      "normalized_name": "large baking potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "roughly chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "092f9f95-c9ce-5faf-aaa6-366362507cd9",
+      "name": "ounce) can corned beef",
+      "normalized_name": "ounce can corned beef",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "cut into chunks",
+      "position": 5
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "15d08352-a4a8-517f-98a7-c34a0844c012",
+      "slug": "uk-and-ireland",
+      "name": "UK and Ireland"
+    },
+    {
+      "id": "7ec9bafe-4aae-5165-8436-470b98e6c40d",
+      "slug": "scottish",
+      "name": "Scottish"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "40044905-5641-52ce-8e18-26e3afdeb43f",
+      "slug": "occasions",
+      "name": "Occasions",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "5868016f-c4cc-5b4c-baeb-ca0425acfefc",
+      "slug": "corned-beef-recipes",
+      "name": "Corned Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "782169d0-9297-5402-a9c5-53cd937d571b",
+      "slug": "burn-s-night",
+      "name": "Burn's Night",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/35856/stovies"
+  },
+  "public": true,
+  "updated_at": 1732738498,
+  "revision": 1
+}

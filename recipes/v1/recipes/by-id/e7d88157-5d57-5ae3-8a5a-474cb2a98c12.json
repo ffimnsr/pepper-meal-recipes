@@ -1,0 +1,309 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e7d88157-5d57-5ae3-8a5a-474cb2a98c12",
+  "slug": "elegant-beef-stroganoff",
+  "name": "Elegant Beef Stroganoff",
+  "recipe_type": "main",
+  "brief_description": "This elegant beef stroganoff recipe is made with sirloin steak, mushrooms, red wine, Worcestershire sauce, cream cheese, sour cream, paprika, and noodles.",
+  "cuisine": "American Eastern European French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine steak and red wine in a bowl; marinate for 15 to 30 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Combine flour, salt, paprika, and black pepper in a resealable plastic bag. Remove steak from marinade and shake off excess. Reserve and set aside red wine marinade. Add steak to flour mixture; shake to coat."
+    },
+    {
+      "position": 3,
+      "text": "Melt butter in a large skillet over medium-high heat. Add steak, onion, and garlic; cook and stir until steak is browned and onion is softened and translucent, 10 to 15 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Stir mushrooms, beef broth, water, reserved red wine marinade, Worcestershire sauce, red pepper flakes, and mustard into steak mixture until combined; bring to a boil. Reduce heat, cover skillet, and simmer until steak is very tender, about 1 hour."
+    },
+    {
+      "position": 5,
+      "text": "Stir cream cheese and sour cream into steak mixture; cook and stir until warmed through, 2 to 3 minutes. Serve over cooked noodles."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 75,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e7d88157-5d57-5ae3-8a5a-474cb2a98c12/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "470 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "121 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "33 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "960 mg",
+    "sugarContent": "2 g",
+    "fatContent": "25 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "98752d28-c736-50b8-9abf-d7a59dad0243",
+      "name": "sirloin steak",
+      "normalized_name": "sirloin steak",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "pounded to 1/4-inch thickness and cut into 1 x 1 1/2-inch strips",
+      "position": 1
+    },
+    {
+      "ingredient_id": "54a4ec0e-2006-572c-a5ee-ed8328a3dd64",
+      "name": "red wine",
+      "normalized_name": "red wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "3277e489-a8dd-5163-8d35-60493f791fdc",
+      "name": "canned sliced mushrooms",
+      "normalized_name": "canned sliced mushrooms",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "31a3b1dd-6265-562a-aa91-a8d80fbb12ab",
+      "name": "ounce) can beef broth",
+      "normalized_name": "ounce can beef broth",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "b79f8d0f-40ab-5fde-814c-f7d1069dd443",
+      "name": "cream cheese",
+      "normalized_name": "cream cheese",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 17
+    },
+    {
+      "ingredient_id": "09b52e7d-cce8-5303-aa6a-2ccbe06fb232",
+      "name": "hot cooked noodles",
+      "normalized_name": "hot cooked noodles",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 18
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "44079fa6-9e49-52c2-8b4a-e01d5920c8a6",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles"
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3d692f67-54c3-5135-8edb-98c25ad1ca4c",
+      "slug": "noodle-recipes",
+      "name": "Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "cea3c22d-1197-5f32-9640-f0b3ae09d0c5",
+      "slug": "beef-stroganoff-recipes",
+      "name": "Beef Stroganoff Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/236433/elegant-beef-stroganoff"
+  },
+  "public": true,
+  "updated_at": 1787778460,
+  "revision": 1
+}

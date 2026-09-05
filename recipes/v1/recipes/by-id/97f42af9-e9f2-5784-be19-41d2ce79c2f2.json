@@ -1,0 +1,209 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "97f42af9-e9f2-5784-be19-41d2ce79c2f2",
+  "slug": "slow-cooker-green-beans-ham-and-potatoes",
+  "name": "Slow Cooker Green Beans, Ham and Potatoes",
+  "recipe_type": "main",
+  "brief_description": "This crockpot green beans and potatoes recipe is made with green beans simmered in a slow cooker with ham hocks, onion, new potatoes, and spices.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Halve green beans if they are large; place in a slow cooker with water to barely cover. Add ham hocks and onion. Cover and cook on High until simmering. Reduce heat to Low; cook until beans are crisp but not done, 2 to 3 hours."
+    },
+    {
+      "position": 3,
+      "text": "Remove ham hocks from the slow cooker. Add potatoes to the slow cooker; cook on Low for 45 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Meanwhile, remove ham meat from the bones, then chop or shred meat and return to the slow cooker. Season with bouillon, garlic powder, onion powder, seasoning salt, and pepper."
+    },
+    {
+      "position": 5,
+      "text": "Use a slotted spoon to transfer green beans, potatoes, and ham into a serving dish with a bit of broth."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 165,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/97f42af9-e9f2-5784-be19-41d2ce79c2f2/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/Ob13tTp1-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "200 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "29 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "133 mg",
+    "sugarContent": "3 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "70c17283-d4b5-58c6-8b90-70e5e400e607",
+      "name": "fresh green beans",
+      "normalized_name": "fresh green beans",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "rinsed and trimmed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "fef613c1-53a6-5bb3-9c58-2995cc964c53",
+      "name": "ham hocks",
+      "normalized_name": "ham hocks",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "fd1507d8-e955-5219-b917-f5e1c5232f21",
+      "name": "new potatoes",
+      "normalized_name": "new potatoes",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "quartered",
+      "position": 4
+    },
+    {
+      "ingredient_id": "28b6d869-be59-5e65-89bf-d479d36a5365",
+      "name": "chicken bouillon granules",
+      "normalized_name": "chicken bouillon granules",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "29d603df-d425-5227-8267-212d3e1b4c7b",
+      "name": "seasoning salt",
+      "normalized_name": "seasoning salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "fd5fb16c-97cc-5599-bbab-deb14b0c5f9e",
+      "slug": "ham",
+      "name": "Ham"
+    }
+  ],
+  "tags": [
+    {
+      "id": "8d8fef2a-121c-5863-9b4b-5480445e924f",
+      "slug": "ham",
+      "name": "Ham",
+      "color": null
+    },
+    {
+      "id": "cc33b187-976c-5cca-9b5a-4fe0bfebfeb6",
+      "slug": "freezer",
+      "name": "Freezer",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21417/slow-cooker-green-beans-ham-and-potatoes"
+  },
+  "public": true,
+  "updated_at": 1788198131,
+  "revision": 1
+}

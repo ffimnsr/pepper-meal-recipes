@@ -1,0 +1,293 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a5785a02-264f-5181-b08a-b548cb8c621a",
+  "slug": "spinach-mushroom-omelet",
+  "name": "Spinach Mushroom Omelet",
+  "recipe_type": "breakfast",
+  "brief_description": "This mushroom omelet is a hearty but healthy way to start your day, with mostly egg whites, fresh spinach, bell peppers, tomato, and two kinds of cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Whisk egg whites and egg together in a small bowl. Mix in Parmesan, Cheddar, salt, red pepper flakes, garlic powder, nutmeg, and pepper."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a large skillet over medium heat. Saut\u00e9 mushrooms, green onions, and bell pepper until tender, about 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Add spinach and cook until just wilted, 1 to 2 minutes. Stir in tomato, then pour in egg mixture. As egg mixture starts to set, lift the edges and let the uncooked portion flow underneath."
+    },
+    {
+      "position": 5,
+      "text": "Cook until egg mixture sets, 10 to 15 minutes. Cut into wedges and serve immediately."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a5785a02-264f-5181-b08a-b548cb8c621a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "114 kcal",
+    "carbohydrateContent": "6 g",
+    "cholesterolContent": "96 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "490 mg",
+    "sugarContent": "3 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5e605c05-fe11-562c-b55f-068de7c35cfe",
+      "name": "large egg whites",
+      "normalized_name": "large egg whites",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "dfd79bc6-20d5-5d7e-a577-e7f4cd10e14a",
+      "name": "shredded reduced-fat cheddar cheese",
+      "normalized_name": "shredded reduced-fat cheddar cheese",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "23f433e9-1310-5488-a961-7f5e2aed5ebe",
+      "name": "sliced fresh mushrooms",
+      "normalized_name": "sliced fresh mushrooms",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "46f9b45d-b45c-58a9-afe2-3e68d56fe71f",
+      "name": "diced green onions",
+      "normalized_name": "diced green onions",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "8bb9e5f8-0939-5ae4-b489-6ad43907e1b3",
+      "name": "finely chopped red bell pepper",
+      "normalized_name": "finely chopped red bell pepper",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "197abe2c-d77c-5c20-b2cc-001e9046c21d",
+      "name": "torn fresh spinach",
+      "normalized_name": "torn fresh spinach",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "b95e3cfc-0ab2-5091-a326-e3ae41c4b9d2",
+      "name": "diced fresh tomato",
+      "normalized_name": "diced fresh tomato",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1e1783f0-14a2-5c36-a8c9-61927a25536b",
+      "slug": "omelet-recipes",
+      "name": "Omelet Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "69f01e3c-e33f-5639-bc61-14fd42edefe3",
+      "slug": "cooking-for-two",
+      "name": "Cooking for Two",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "5320ba41-4f75-53b3-808a-7c2080fb3a7f",
+      "slug": "cook-once",
+      "name": "Cook Once",
+      "color": null
+    },
+    {
+      "id": "705381f7-76d5-5557-9b84-f5f63ae5c1ef",
+      "slug": "eat-twice-recipes",
+      "name": "Eat Twice Recipes",
+      "color": null
+    },
+    {
+      "id": "932014c7-72f8-5911-83ed-0484f951c268",
+      "slug": "breakfast",
+      "name": "Breakfast",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222618/spinach-mushroom-omelet"
+  },
+  "public": true,
+  "updated_at": 1780445584,
+  "revision": 1
+}

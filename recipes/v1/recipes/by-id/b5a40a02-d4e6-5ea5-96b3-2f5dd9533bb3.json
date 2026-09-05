@@ -1,0 +1,173 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b5a40a02-d4e6-5ea5-96b3-2f5dd9533bb3",
+  "slug": "cucumber-soup-with-tomatoes",
+  "name": "Cucumber Soup with Tomatoes",
+  "recipe_type": "soup",
+  "brief_description": "This five-ingredient recipe for cucumber soup with tomatoes is a quick and refreshing summertime lunch or dinner.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place 2 cucumbers in a blender; pour in chicken stock. Blend cucumber mixture until smooth and pureed; pour cucumber puree into a large bowl."
+    },
+    {
+      "position": 2,
+      "text": "Chop the remaining 2 cucumbers. Stir chopped cucumbers, tomato, lime juice, and cayenne pepper into pureed cucumber until well mixed. Refrigerate until chilled, at least 30 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b5a40a02-d4e6-5ea5-96b3-2f5dd9533bb3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "43 kcal",
+    "carbohydrateContent": "9 g",
+    "cholesterolContent": "2 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "442 mg",
+    "sugarContent": "2 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "48de00e0-4df0-5426-838a-a68922aa393d",
+      "name": "cucumbers - peeled",
+      "normalized_name": "cucumbers - peeled",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "quartered, and seeded",
+      "position": 1
+    },
+    {
+      "ingredient_id": "8281aa04-9844-579b-b0ca-48a71f810798",
+      "name": "ounce) can chicken broth",
+      "normalized_name": "ounce can chicken broth",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3a9119ef-650f-5e0f-91eb-2349298db57d",
+      "name": "chopped tomato",
+      "normalized_name": "chopped tomato",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0e66765e-3fa2-52b8-bd89-520e4935a12f",
+      "name": "fresh lime juice",
+      "normalized_name": "fresh lime juice",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "47c10879-f6b3-56ce-b5af-359974be4f2a",
+      "name": "cayenne pepper",
+      "normalized_name": "cayenne pepper",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "a4e6611a-eaf0-564b-a832-fc9eb0cd1b1a",
+      "slug": "lunches",
+      "name": "Lunches",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "ce42b902-40b1-5733-83a2-3f55dfe6e7fc",
+      "slug": "cucumber",
+      "name": "Cucumber",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233761/cucumber-soup-with-tomatoes"
+  },
+  "public": true,
+  "updated_at": 1642141494,
+  "revision": 1
+}

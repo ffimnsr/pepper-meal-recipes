@@ -1,0 +1,254 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d16d4393-b8a5-5b73-ae72-a5b4a3137857",
+  "slug": "baked-rice-ross-fil-forn",
+  "name": "Ross Fil-Forn (Maltese Baked Rice)",
+  "recipe_type": "main",
+  "brief_description": "Ross fil-forn is a classic Maltese baked rice dish baked with a beef and tomato sauce that's hearty, delicious, and full of Mediterranean flavors!",
+  "cuisine": "European American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a skillet over medium heat. Add ground beef, and cook, stirring to crumble, until evenly browned. Mix in the crushed tomatoes, chicken stock, and bay leaves. Simmer for 25 minutes over low heat."
+    },
+    {
+      "position": 3,
+      "text": "Meanwhile, place rice into a saucepan with enough water to cover by one inch. Bring to a boil, and cook for about 10 minutes (halfway), then drain off water."
+    },
+    {
+      "position": 4,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C). Remove bay leaves from sauce, and mix in the half-cooked rice. Stir in basil, mint, eggs, and mozzarella cheese; season with salt and pepper."
+    },
+    {
+      "position": 5,
+      "text": "Transfer to a greased baking dish. Sprinkle Parmesan cheese on top. Bake in the preheated oven until rice is tender and liquid has been absorbed, about 40 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d16d4393-b8a5-5b73-ae72-a5b4a3137857/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "730 kcal",
+    "carbohydrateContent": "83 g",
+    "cholesterolContent": "211 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "35 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "798 mg",
+    "sugarContent": "1 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "491fbcae-89d3-51d7-a812-1ad25f3c025a",
+      "name": "long grain white rice",
+      "normalized_name": "long grain white rice",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "100d606f-aff1-56d2-8529-e3fc8fa4aab5",
+      "name": "canned crushed tomatoes",
+      "normalized_name": "canned crushed tomatoes",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "894756ff-a1b1-5651-b3de-687c810264ac",
+      "name": "bay leaves",
+      "normalized_name": "bay leaves",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "133a8d1c-cf97-5603-b0e7-a44c1c7d655f",
+      "name": "salt and black pepper to taste",
+      "normalized_name": "salt and black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "51d43a95-1651-5f52-8e68-567ddaabd3da",
+      "name": "chopped fresh basil leaves",
+      "normalized_name": "chopped fresh basil leaves",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "6c429ceb-9561-5468-bd20-7551cdf1c4f5",
+      "name": "chopped fresh mint leaves",
+      "normalized_name": "chopped fresh mint leaves",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "0d9540ed-f036-58af-a069-b148b895ce06",
+      "name": "freshly grated parmesan cheese",
+      "normalized_name": "freshly grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "3386fde0-c04b-5802-ac56-e84c4bf4c201",
+      "slug": "casserole",
+      "name": "Casserole"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "ac8de754-d8ea-5320-af85-732a6550c67d",
+      "slug": "ground-beef",
+      "name": "Ground Beef",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "e9655dd9-445c-5573-b046-4802220dbfc8",
+      "slug": "basil-recipes",
+      "name": "Basil Recipes",
+      "color": null
+    },
+    {
+      "id": "78473c97-855b-56e2-9592-0f1aaab60f59",
+      "slug": "mozzarella",
+      "name": "Mozzarella",
+      "color": null
+    },
+    {
+      "id": "4e7d6528-567b-592e-b80d-f7115460c3d2",
+      "slug": "convenience-cooking",
+      "name": "Convenience Cooking",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/54576/baked-rice-ross-fil-forn"
+  },
+  "public": true,
+  "updated_at": 1779908534,
+  "revision": 1
+}

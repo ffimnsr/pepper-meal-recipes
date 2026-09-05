@@ -1,0 +1,228 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3e7c6488-f9f5-50d5-9406-bdaa06904240",
+  "slug": "mock-angel-food-cake",
+  "name": "Mock Angel Food Cake",
+  "recipe_type": "dessert",
+  "brief_description": "This delicious mock angel food cake recipe is a quick and simple way to make a sheet cake that will taste like you bought it straight from a bakery!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Sift cake flour, sugar, and salt three times then stir in boiling water. Let cool."
+    },
+    {
+      "position": 3,
+      "text": "Beat egg whites, cream of tartar, baking powder, vanilla, and almond flavorings until stiff peaks form. Fold into flour mixture and pour batter into one ungreased 12x18-inch baking pan."
+    },
+    {
+      "position": 4,
+      "text": "Bake at 350 degrees F (175 degrees C) for 35 minutes. Cool cake inverted in pan, laying a tea towel underneath cake to absorb steam. Frost as desired once cake is cooled."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3e7c6488-f9f5-50d5-9406-bdaa06904240/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "575 kcal",
+    "carbohydrateContent": "132 g",
+    "fiberContent": "1 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "850 mg",
+    "sugarContent": "81 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "246dd1c7-1948-51ea-a594-e87773aec86d",
+      "name": "cake flour",
+      "normalized_name": "cake flour",
+      "quantity": "4.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d72b2051-e25f-52e6-9254-2ff83a376f80",
+      "name": "boiling water",
+      "normalized_name": "boiling water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "982d14de-1236-59b5-b91e-bf6fb931fecc",
+      "name": "egg whites",
+      "normalized_name": "egg whites",
+      "quantity": "16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "83710ace-8d50-5ce2-8304-be9d0f9f6834",
+      "name": "cream of tartar",
+      "normalized_name": "cream of tartar",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "34fdd020-793d-59fa-875e-52bc4c4debef",
+      "name": "almond extract",
+      "normalized_name": "almond extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "8e6135f2-70c2-504e-b820-739c60d8d719",
+      "slug": "cakes",
+      "name": "Cakes"
+    },
+    {
+      "id": "c89b6798-1ce3-52bf-b53f-748bd5398d50",
+      "slug": "white-cake",
+      "name": "White Cake"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eb48b355-2628-56e5-b267-705c17dc90cf",
+      "slug": "white-cake-recipes",
+      "name": "White Cake Recipes",
+      "color": null
+    },
+    {
+      "id": "8c26c96e-298a-58fd-aa48-f474f6b8b2f3",
+      "slug": "sheet-cake-recipes",
+      "name": "Sheet Cake Recipes",
+      "color": null
+    },
+    {
+      "id": "41ee6a9e-3f13-5962-b0a9-ced1e68f3d54",
+      "slug": "birthday-parties",
+      "name": "Birthday Parties",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "2624b2ea-2212-589e-996c-65db8e6fc023",
+      "slug": "cakes",
+      "name": "Cakes",
+      "color": null
+    },
+    {
+      "id": "713cfa7d-4531-51a3-9cc6-946696b7de36",
+      "slug": "bake-sale-recipes",
+      "name": "Bake Sale Recipes",
+      "color": null
+    },
+    {
+      "id": "90494e08-8fd4-54a9-85c3-7a90dd15c914",
+      "slug": "fundraising-favorites-recipes",
+      "name": "Fundraising Favorites Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "6d7d0eb0-fe57-5977-bce4-f4c353ce90d3",
+      "slug": "on-the-go",
+      "name": "On The Go",
+      "color": null
+    },
+    {
+      "id": "d01704a4-a8c5-5f38-9a90-7dc34a930062",
+      "slug": "almond-extract-recipes",
+      "name": "Almond Extract Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/7868/mock-angel-food-cake"
+  },
+  "public": true,
+  "updated_at": 1657828672,
+  "revision": 1
+}

@@ -1,0 +1,208 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b0ab8480-04c2-53c9-b3b6-a25de3018aca",
+  "slug": "artichoke-spinach-dip",
+  "name": "Artichoke Spinach Dip",
+  "recipe_type": "appetizer",
+  "brief_description": "Spinach and artichokes swim in a dish of creamy, cheesy delights.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large saucepan over medium heat. Stir in the spinach and artichoke hearts. Cook until tender, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Mix cream cheese and sour cream into the spinach mixture. Stir in Parmesan cheese and garlic salt. Cook, stirring occasionally, until thickened, 10 to 15 minutes. Serve warm."
+    }
+  ],
+  "servings": 56,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b0ab8480-04c2-53c9-b3b6-a25de3018aca/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "80 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "19 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "90 mg",
+    "sugarContent": "0 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "db6e680e-7193-51eb-8f44-c625efa50eb0",
+      "name": "ounce) package frozen chopped spinach",
+      "normalized_name": "ounce package frozen chopped spinach",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": "partially thawed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "1f062075-48bc-5028-9fcd-2cb271713fc4",
+      "name": "ounce) can artichoke hearts",
+      "normalized_name": "ounce can artichoke hearts",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": "drained and chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ff07c3dd-abc3-51a9-bb49-d30c0737d0c1",
+      "name": "ounce) packages cream cheese",
+      "normalized_name": "ounce packages cream cheese",
+      "quantity": "2 (8",
+      "unit": "pieces",
+      "preparation": "softened",
+      "position": 4
+    },
+    {
+      "ingredient_id": "a9b7d5ec-becf-52a2-911d-10b143e8dabb",
+      "name": "ounce) containers sour cream",
+      "normalized_name": "ounce containers sour cream",
+      "quantity": "2 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "64102a2f-d399-54af-8327-f1d3e5505898",
+      "name": "garlic salt to taste",
+      "normalized_name": "garlic salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "e8ced86a-5a8b-526b-9c60-5d9206ec2146",
+      "slug": "spinach-dip",
+      "name": "Spinach Dip"
+    }
+  ],
+  "tags": [
+    {
+      "id": "23c29ac6-3f9e-5674-bed0-fa45e78ee4da",
+      "slug": "spinach-dip-recipes",
+      "name": "Spinach Dip Recipes",
+      "color": null
+    },
+    {
+      "id": "75287577-108f-561f-b0b4-89b85dd844c6",
+      "slug": "spinach-and-artichoke",
+      "name": "Spinach and Artichoke",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "40044905-5641-52ce-8e18-26e3afdeb43f",
+      "slug": "occasions",
+      "name": "Occasions",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "1ce55b6a-a606-5198-9680-c88c984ea673",
+      "slug": "artichoke-dip-recipes",
+      "name": "Artichoke Dip Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26699/artichoke-spinach-dip"
+  },
+  "public": true,
+  "updated_at": 1763687298,
+  "revision": 1
+}

@@ -1,0 +1,247 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d6154c95-e7d7-5320-ab31-1d1586ee0fc5",
+  "slug": "scallop-scampi",
+  "name": "Scallop Scampi",
+  "recipe_type": "soup",
+  "brief_description": "Tender bay scallops are cooked quickly in a tasty sauce of garlic, onion, white wine, chicken broth and Romano cheese. Toss fresh green parsley into the mix and pour over cooked linguine. Serve with a sprinkling of Romano cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large skillet, melt margarine over medium heat and saute garlic and onion until translucent. Add wine, salt, ground black pepper and 1/4 cup cheese."
+    },
+    {
+      "position": 2,
+      "text": "Add chicken broth and scallops; increase heat and boil rapidly for 7 to 8 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Meanwhile, bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain."
+    },
+    {
+      "position": 4,
+      "text": "Reduce heat for scallop mixture and add parsley; place sauce on top of linguine. Sprinkle with remaining cheese; serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d6154c95-e7d7-5320-ab31-1d1586ee0fc5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "361 kcal",
+    "carbohydrateContent": "44 g",
+    "cholesterolContent": "31 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "799 mg",
+    "sugarContent": "1 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "915d3931-7f1a-547d-9655-7c5ac8ed53bd",
+      "name": "margarine",
+      "normalized_name": "margarine",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "32c068b2-dc92-5c1c-85e9-b0c98004f775",
+      "name": "dry white wine",
+      "normalized_name": "dry white wine",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "70b321c7-2d4a-59f2-9470-3210a8845b8f",
+      "name": "grated romano cheese",
+      "normalized_name": "grated romano cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "8281aa04-9844-579b-b0ca-48a71f810798",
+      "name": "ounce) can chicken broth",
+      "normalized_name": "ounce can chicken broth",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2993281c-dd0d-50c9-8bcb-fca4c754e1c1",
+      "name": "bay scallops",
+      "normalized_name": "bay scallops",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "3a580b4e-e8b7-5688-95b7-a8faab6dc6dc",
+      "name": "linguine pasta",
+      "normalized_name": "linguine pasta",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "7fd16b6c-8df2-541d-b6c5-a69009bd4691",
+      "slug": "shellfish",
+      "name": "Shellfish"
+    },
+    {
+      "id": "6d2df38d-98e9-5558-94db-dd256097fa45",
+      "slug": "scallops",
+      "name": "Scallops"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f2ba905d-7de3-53b8-84f4-78e8d7f5d13c",
+      "slug": "scallops",
+      "name": "Scallops",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "1d1a6231-2672-5763-9636-40bbd71eefab",
+      "slug": "low-glycemic-impact",
+      "name": "Low Glycemic Impact",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "a3217056-1df7-5577-82d8-45855f913181",
+      "slug": "cooking-with-wine-recipes",
+      "name": "Cooking With Wine Recipes",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17125/scallop-scampi"
+  },
+  "public": true,
+  "updated_at": 1779819027,
+  "revision": 1
+}

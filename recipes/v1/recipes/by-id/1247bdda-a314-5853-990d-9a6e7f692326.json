@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1247bdda-a314-5853-990d-9a6e7f692326",
+  "slug": "baked-brunch-omelet",
+  "name": "Baked Brunch Omelet",
+  "recipe_type": "breakfast",
+  "brief_description": "A baked egg casserole with cheese, ham and green onions.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x13 inch baking pan."
+    },
+    {
+      "position": 2,
+      "text": "Place half of the bread cubes on bottom of baking pan. Sprinkle with half of the ham and then half of the cheese; repeat."
+    },
+    {
+      "position": 3,
+      "text": "In a large bowl, beat together eggs, milk, salt, hot sauce and green onions. Pour egg mixture into pan."
+    },
+    {
+      "position": 4,
+      "text": "Place pan on top of a baking sheet with a rim and place in oven. Pour water into baking sheet and bake for 60 minutes, or until eggs have set."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1247bdda-a314-5853-990d-9a6e7f692326/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/a9hyHNnt-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "375 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "193 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "692 mg",
+    "sugarContent": "3 g",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f5cf1253-5032-57a3-af72-8060666c3895",
+      "name": "pound) loaf white bread",
+      "normalized_name": "pound loaf white bread",
+      "quantity": "0.5 (1",
+      "unit": "pieces",
+      "preparation": "cut into cubes",
+      "position": 1
+    },
+    {
+      "ingredient_id": "65e874a3-0c6e-5d24-a019-ceb2f2f4c3cc",
+      "name": "cheddar cheese",
+      "normalized_name": "cheddar cheese",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "shredded",
+      "position": 2
+    },
+    {
+      "ingredient_id": "cbc6cd72-2cde-5471-bfa5-e093268ee933",
+      "name": "cubed cooked ham",
+      "normalized_name": "cubed cooked ham",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "52271919-0bfa-54cc-8199-253954f474cb",
+      "name": "dash hot pepper sauce",
+      "normalized_name": "dash hot pepper sauce",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "or to taste",
+      "position": 7
+    },
+    {
+      "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
+      "name": "chopped green onion",
+      "normalized_name": "chopped green onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1e1783f0-14a2-5c36-a8c9-61927a25536b",
+      "slug": "omelet-recipes",
+      "name": "Omelet Recipes",
+      "color": null
+    },
+    {
+      "id": "8d8fef2a-121c-5863-9b4b-5480445e924f",
+      "slug": "ham",
+      "name": "Ham",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "06ec51be-db30-5641-9f33-649268cc4c42",
+      "slug": "easter-ideas",
+      "name": "Easter Ideas",
+      "color": null
+    },
+    {
+      "id": "ae090ade-f9e2-572c-a4ea-3160a17ff5e5",
+      "slug": "ham-breakfast-casserole-recipes",
+      "name": "Ham Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "2a79b5de-9536-534a-9eb5-06cbc9101d65",
+      "slug": "breakfast-casserole-recipes",
+      "name": "Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "66a4eead-d428-515e-8f35-f986691149b4",
+      "slug": "leftovers",
+      "name": "Leftovers",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20703/baked-brunch-omelet"
+  },
+  "public": true,
+  "updated_at": 1657836449,
+  "revision": 1
+}

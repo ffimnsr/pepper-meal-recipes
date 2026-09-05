@@ -1,0 +1,208 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9da141e6-48e8-5415-9e1f-9d19d3f05fe6",
+  "slug": "cajun-ponchartrain-sauce",
+  "name": "Cajun Ponchartrain Sauce",
+  "recipe_type": "main",
+  "brief_description": "Serve this creamy Ponchartrain sauce, made with shrimp and mushrooms, over any grilled, blackened, or pan fried fish for a romantic meal for two.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a medium saucepan, saute mushrooms in 1 teaspoon butter until tender. Stir in shrimp, and cook until pink. Transfer to a bowl."
+    },
+    {
+      "position": 2,
+      "text": "In the same saucepan, melt the remaining butter. Slowly mix in cream. Stir in shrimp and mushroom mixture, and season to taste with garlic powder and black pepper. Simmer over very low heat until thick. Just before serving, stir in Madeira wine."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9da141e6-48e8-5415-9e1f-9d19d3f05fe6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "355 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "138 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "22 g",
+    "sodiumContent": "214 mg",
+    "sugarContent": "2 g",
+    "fatContent": "35 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "dbadff2b-40cb-5a7c-be14-28f1a1f4c7e4",
+      "name": "fresh mushrooms",
+      "normalized_name": "fresh mushrooms",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "749826db-97ea-5698-aa54-9f37bfe7f54e",
+      "name": "medium shrimp",
+      "normalized_name": "medium shrimp",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "peeled and deveined",
+      "position": 3
+    },
+    {
+      "ingredient_id": "83b4bb17-6e53-5e22-9711-a7c23bc21752",
+      "name": "whipping cream",
+      "normalized_name": "whipping cream",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b87b76bb-74cb-5321-9a51-f5f88b0b2389",
+      "name": "garlic powder to taste",
+      "normalized_name": "garlic powder to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4794b416-fd93-5c53-94bb-e546becf51d1",
+      "name": "black pepper to taste",
+      "normalized_name": "black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "4288eb79-7c16-5897-b3c5-096d667c7a08",
+      "name": "madeira wine",
+      "normalized_name": "madeira wine",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "04342015-cac5-527c-b1f5-5d0f9910af90",
+      "slug": "sauces",
+      "name": "Sauces"
+    },
+    {
+      "id": "b10034d4-200e-527f-b96c-84f307d8e315",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces"
+    },
+    {
+      "id": "a19beda8-dd0b-514d-8d87-c5b56272bbc8",
+      "slug": "creamy",
+      "name": "Creamy"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "a3217056-1df7-5577-82d8-45855f913181",
+      "slug": "cooking-with-wine-recipes",
+      "name": "Cooking With Wine Recipes",
+      "color": null
+    },
+    {
+      "id": "6eb5c42c-d95c-516f-a59f-ac29b7afdc01",
+      "slug": "mardi-gras",
+      "name": "Mardi Gras",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "2cff95a3-f637-55d7-ae8c-f790b34c478c",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces",
+      "color": null
+    },
+    {
+      "id": "243b0b54-aa9c-5b58-8b36-d4a730f1e17d",
+      "slug": "southern",
+      "name": "Southern",
+      "color": null
+    },
+    {
+      "id": "1de601c5-1ddb-51f4-8124-7f0578ddba49",
+      "slug": "school-favorites",
+      "name": "School Favorites",
+      "color": null
+    },
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/41755/cajun-ponchartrain-sauce"
+  },
+  "public": true,
+  "updated_at": 1776246632,
+  "revision": 1
+}

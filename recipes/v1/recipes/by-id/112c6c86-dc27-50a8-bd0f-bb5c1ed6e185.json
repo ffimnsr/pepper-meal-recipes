@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "112c6c86-dc27-50a8-bd0f-bb5c1ed6e185",
+  "slug": "easy-creamy-chicken-ramen",
+  "name": "Easy Creamy Chicken Ramen",
+  "recipe_type": "main",
+  "brief_description": "A handful of ingredients turns an ordinary package of ramen into a comforting bowl of goodness in minutes.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a heavy skillet over medium heat. Add minced garlic and cook, stirring, until fragrant, about 30 seconds. Add chicken broth, cream, and ramen noodles. Cook, stirring occasionally, until noodles soften, about 3 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Add soy sauce and chopped cooked chicken. Allow to get hot."
+    },
+    {
+      "position": 3,
+      "text": "Serve garnished with everything bagel seasoning if desired."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/112c6c86-dc27-50a8-bd0f-bb5c1ed6e185/cover.jpeg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "958 kcal",
+    "carbohydrateContent": "56 g",
+    "cholesterolContent": "223 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "42 g",
+    "sodiumContent": "1208 mg",
+    "fatContent": "73 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "83b4bb17-6e53-5e22-9711-a7c23bc21752",
+      "name": "whipping cream",
+      "normalized_name": "whipping cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6b13523d-127f-5842-ab8d-9b9ad78dc149",
+      "name": "ounce) package ramen noodles (without flavor packet)",
+      "normalized_name": "ounce package ramen noodles",
+      "quantity": "1 (3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0154fe6f-4eed-55b2-bc9c-d5b54ee80ddd",
+      "name": "reduced-sodium soy sauce",
+      "normalized_name": "reduced-sodium soy sauce",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a107e0a1-e1ff-5daf-9a15-ca9c5909f39a",
+      "name": "chopped cooked chicken",
+      "normalized_name": "chopped cooked chicken",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "56d589a0-7a05-5dd1-a90a-9f515d08c93a",
+      "name": "everything bagel seasoning (optional)",
+      "normalized_name": "everything bagel seasoning",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "44079fa6-9e49-52c2-8b4a-e01d5920c8a6",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles"
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle"
+    },
+    {
+      "id": "b57d029c-b503-5c0b-b425-b6088439f8dd",
+      "slug": "ramen-noodle",
+      "name": "Ramen Noodle"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "aaca699e-53a1-50d3-9d05-41d40ab3a030",
+      "slug": "quick-and-easy-main-dishes",
+      "name": "Quick and Easy Main Dishes",
+      "color": null
+    },
+    {
+      "id": "4e7d6528-567b-592e-b80d-f7115460c3d2",
+      "slug": "convenience-cooking",
+      "name": "Convenience Cooking",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "635c8bd7-c28b-54aa-bce9-be6bf55fc87c",
+      "slug": "ramen-noodle-recipes",
+      "name": "Ramen Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "fd93d10a-f0c0-5c44-b5ce-097e9d1829bd",
+      "slug": "cooking-for-one-recipes",
+      "name": "Cooking for One Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8505574/easy-creamy-chicken-ramen"
+  },
+  "public": true,
+  "updated_at": 1776247523,
+  "revision": 1
+}

@@ -1,0 +1,204 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d932526a-9345-55c8-aa04-db6664dcdafe",
+  "slug": "chicken-adobo-i",
+  "name": "Chicken Adobo I",
+  "recipe_type": "main",
+  "brief_description": "A whole chicken cut into pieces and simmered with a soy-vinegar sauce until infused with flavor.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large pot, combine the water, vinegar, soy sauce, peppercorns, garlic and salt. Mix together, add chicken pieces and simmer over low heat (uncovered) until chicken is cooked through and tender (25 to 35 minutes)."
+    },
+    {
+      "position": 2,
+      "text": "Remove chicken from pot and brown in oil in a large skillet over medium high heat."
+    },
+    {
+      "position": 3,
+      "text": "Return chicken, with oil/juices, back to pot with reserved sauce. Cover and simmer over medium heat until sauce reaches desired consistency."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d932526a-9345-55c8-aa04-db6664dcdafe/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "340 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "100 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "33 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "3600 mg",
+    "sugarContent": "0 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a482b994-5b79-5ece-b9e0-26e002146a29",
+      "name": "distilled white vinegar",
+      "normalized_name": "distilled white vinegar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "be082731-84a1-5d91-9f0b-948d8d808163",
+      "name": "whole peppercorns",
+      "normalized_name": "whole peppercorns",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "crushed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 6
+    },
+    {
+      "ingredient_id": "1e18b323-d725-544b-928b-867840edd607",
+      "name": "pound) whole chicken",
+      "normalized_name": "pound whole chicken",
+      "quantity": "1 (2 to 3",
+      "unit": "pieces",
+      "preparation": "cut into pieces",
+      "position": 7
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "f866000d-005d-5af3-a7c8-3f5b281b7d6f",
+      "slug": "filipino",
+      "name": "Filipino"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d69faa69-087d-5249-9504-08adc014b904",
+      "slug": "filipino",
+      "name": "Filipino",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "3ab323c7-4fea-54bc-856d-2321d61e87a8",
+      "slug": "whole-chicken-recipes",
+      "name": "Whole Chicken Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "99d8c901-c626-5363-9195-83d035f13932",
+      "slug": "low-carb",
+      "name": "Low-Carb",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/20779/chicken-adobo-i"
+  },
+  "public": true,
+  "updated_at": 1554348395,
+  "revision": 1
+}

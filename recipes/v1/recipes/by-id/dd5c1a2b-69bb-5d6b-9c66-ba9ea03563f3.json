@@ -1,0 +1,281 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "dd5c1a2b-69bb-5d6b-9c66-ba9ea03563f3",
+  "slug": "bubbas-jambalaya",
+  "name": "Bubba\u2019s Jambalaya",
+  "recipe_type": "soup",
+  "brief_description": "Easy Southern classic, with chicken, sausage, ham, and shrimp.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a large pot over medium-high heat. Add bacon, and cook until crisp. Remove bacon pieces with a slotted spoon, and set aside. Add celery, bell pepper, and onion to the bacon drippings, and cook until tender."
+    },
+    {
+      "position": 2,
+      "text": "Add the ham, chicken and sausage to the pot, and pour in the tomatoes, beef broth and chicken broth. Season with thyme and Cajun seasoning. Bring to a boil, and add the rice. Bring to a boil, then turn the heat to low, cover, and simmer for about 20 minutes, until the rice is tender."
+    },
+    {
+      "position": 3,
+      "text": "Stir in the shrimp and bacon just before serving, and heat through. If you use uncooked shrimp, let it cook for about 5 minutes before serving."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/dd5c1a2b-69bb-5d6b-9c66-ba9ea03563f3/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/OIPtOZ8w-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "349 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "72 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "1177 mg",
+    "sugarContent": "1 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "cut into 1 inch pieces",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "cbc6cd72-2cde-5471-bfa5-e093268ee933",
+      "name": "cubed cooked ham",
+      "normalized_name": "cubed cooked ham",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "773c10b3-cc7e-5572-bfa3-240fc738bc72",
+      "name": "cubed cooked chicken",
+      "normalized_name": "cubed cooked chicken",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "17492721-5e91-591c-b452-5e244326da9d",
+      "name": "cubed smoked sausage",
+      "normalized_name": "cubed smoked sausage",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "7877d9cb-208b-5871-b933-90540e34a749",
+      "name": "ounce) cans crushed tomatoes",
+      "normalized_name": "ounce cans crushed tomatoes",
+      "quantity": "2 (14.5",
+      "unit": "pieces",
+      "preparation": "with liquid",
+      "position": 8
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
+      "name": "dried thyme",
+      "normalized_name": "dried thyme",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "7aa7c564-4536-561b-aeb5-02a8c1fe5204",
+      "name": "cajun seasoning",
+      "normalized_name": "cajun seasoning",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "69eb52aa-d6ef-508d-828e-206be1969dfb",
+      "name": "uncooked white rice",
+      "normalized_name": "uncooked white rice",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "3c31852b-21bb-545a-bda6-343f7371e63a",
+      "name": "salad shrimp",
+      "normalized_name": "salad shrimp",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "de5b3e43-d67b-5708-bb13-57116c9df3e2",
+      "slug": "jambalaya",
+      "name": "Jambalaya"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "6eb5c42c-d95c-516f-a59f-ac29b7afdc01",
+      "slug": "mardi-gras",
+      "name": "Mardi Gras",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/77572/bubbas-jambalaya"
+  },
+  "public": true,
+  "updated_at": 1783539304,
+  "revision": 1
+}

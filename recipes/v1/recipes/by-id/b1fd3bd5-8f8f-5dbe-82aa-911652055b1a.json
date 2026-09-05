@@ -1,0 +1,176 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b1fd3bd5-8f8f-5dbe-82aa-911652055b1a",
+  "slug": "italian-stuffed-toast-toast-farcito",
+  "name": "Italian \"Stuffed\" Toast (Toast Farcito)",
+  "recipe_type": "appetizer",
+  "brief_description": "This Italian \"stuffed\" toast (toast farcito) recipe cooks prosciutto, Fontina cheese, and giardiniera (pickled Italian vegetables) between bread slices.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a panini press according to the manufacturer's instructions."
+    },
+    {
+      "position": 2,
+      "text": "Place 1 slice each prosciutto and Fontina cheese onto 1 bread slice each; add 2 tablespoons giardiniera on top each cheese layer. Top sandwiches with remaining bread slices."
+    },
+    {
+      "position": 3,
+      "text": "Cook panino in the press until cheese melted and bread toasted, 3 to 5 minutes. Repeat with remaining panino. Serve hot pickled peppers on the side."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b1fd3bd5-8f8f-5dbe-82aa-911652055b1a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "310 kcal",
+    "carbohydrateContent": "29 g",
+    "cholesterolContent": "46 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "888 mg",
+    "sugarContent": "5 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b709e416-04cc-5a74-bc28-48d33820e84d",
+      "name": "slices prosciutto",
+      "normalized_name": "slices prosciutto",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ef19d79-a6e2-5f7f-8108-e0894bdf892c",
+      "name": "slices fontina cheese",
+      "normalized_name": "slices fontina cheese",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6d6772cf-867d-5013-bd5a-377358d6a4d2",
+      "name": "slices thinly sliced sandwich bread",
+      "normalized_name": "slices thinly sliced sandwich bread",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "13b782a0-98a4-5e13-8306-1ed76259b409",
+      "name": "chopped giardiniera (pickled italian vegetables)",
+      "normalized_name": "chopped giardiniera",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3051f104-6413-5fb1-8155-f1ae2635d6ea",
+      "name": "hot pickled peppers",
+      "normalized_name": "hot pickled peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "b3e887f5-5ab1-5beb-aecd-b4afd5ef2b65",
+      "slug": "italian",
+      "name": "Italian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6719fc6d-4b9c-5bf5-8aef-d4ad0d51190e",
+      "slug": "5-ingredient-main-dishes",
+      "name": "5 Ingredient Main Dishes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "5080f1d5-1b70-5879-9410-65a4bbbc66dd",
+      "slug": "panini-recipes",
+      "name": "Panini Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257166/italian-stuffed-toast-toast-farcito"
+  },
+  "public": true,
+  "updated_at": 1740022901,
+  "revision": 1
+}

@@ -1,0 +1,210 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "dff2f8c6-9bd4-57f9-9ba3-c814f65fa010",
+  "slug": "manhattan-clam-chowder",
+  "name": "Manhattan Clam Chowder",
+  "recipe_type": "soup",
+  "brief_description": "This Manhattan clam chowder is a zesty soup with a tomato juice base, plus potatoes, bell pepper, and green onions. Ready in less than 45 minutes!",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Chop clams, reserving juice; set clams aside. Strain clam juice to remove bits of shell. Measure juice; add enough water to equal 1 1/2 cups liquid."
+    },
+    {
+      "position": 2,
+      "text": "Combine clam juice mixture, clam-tomato juice cocktail, potatoes, bell peppers, scallions, and black pepper in a large saucepan; heat to a boil. Reduce heat, cover, and simmer for about 15 minutes or until potatoes are just tender."
+    },
+    {
+      "position": 3,
+      "text": "Stir in undrained tomatoes and chopped clams and heat through."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/dff2f8c6-9bd4-57f9-9ba3-c814f65fa010/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "82 kcal",
+    "carbohydrateContent": "16 g",
+    "cholesterolContent": "5 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "sodiumContent": "203 mg",
+    "sugarContent": "3 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f47102b0-60e4-5355-bdce-5965d1356bf2",
+      "name": "pint shucked clams",
+      "normalized_name": "pint shucked clams",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "30555943-43d1-59c6-a45f-0f970a128c1c",
+      "name": "tomato and clam juice cocktail",
+      "normalized_name": "tomato and clam juice cocktail",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cleaned and chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "36a74fec-d1b3-5fd5-a16b-85ed1240196f",
+      "name": "chopped green bell pepper",
+      "normalized_name": "chopped green bell pepper",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "907b7443-17d3-5349-b4f1-941d5cb63ff7",
+      "name": "chopped green onions",
+      "normalized_name": "chopped green onions",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "7ea92e85-608a-5427-a002-9fe1ab050124",
+      "name": "ounce) can italian-style diced tomatoes",
+      "normalized_name": "ounce can italian-style diced tomatoes",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    },
+    {
+      "id": "8e8b45ad-d8f1-5366-874f-cf0e27e6ec64",
+      "slug": "clam-chowder",
+      "name": "Clam Chowder"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fc108041-1800-5e02-a3f6-69fc396c6112",
+      "slug": "clam-chowder-recipes",
+      "name": "Clam Chowder Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "a954f7c7-64e6-5e0d-a6e9-db6ead009ad0",
+      "slug": "diabetic",
+      "name": "Diabetic",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13175/manhattan-clam-chowder"
+  },
+  "public": true,
+  "updated_at": 1673456974,
+  "revision": 1
+}

@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e8218478-5594-51b6-b9a0-ad77730b0d00",
+  "slug": "sloppied-flank-steak-sandwiches",
+  "name": "Sloppied Flank Steak Sandwiches",
+  "recipe_type": "main",
+  "brief_description": "A tangy, tomato-based sloppy joe sauce with brown sugar and apple cider vinegar makes a good sauce for chopped steak, too. Make it in a slow cooker, and pile it on toasted buns.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Sprinkle the beef flank steak with steak seasoning on both sides. Heat olive oil in a skillet over medium heat until the oil shimmers, and place the flank steak into the hot oil. Quickly brown the steak on both sides, about 5 minutes per side. Set the beef aside."
+    },
+    {
+      "position": 2,
+      "text": "Stir brown sugar, onion, red bell pepper, apple cider vinegar, Worcestershire sauce, tomato sauce, and tomato paste together in a slow cooker until the brown sugar dissolves. Place the flank steak into the slow cooker, immersing it in the sauce. Set the cooker on on High and cook 4 hours, or set on Low and cook 8 hours."
+    },
+    {
+      "position": 3,
+      "text": "To serve, shred the meat with 2 forks, or remove the meat, chop, and return to the sauce. Toast buns, and serve the sloppied steak on the toasted buns."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 245,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e8218478-5594-51b6-b9a0-ad77730b0d00/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "346 kcal",
+    "carbohydrateContent": "39 g",
+    "cholesterolContent": "36 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "1236 mg",
+    "sugarContent": "14 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "de27a357-549f-5979-8349-7fb53ff89b5c",
+      "name": "beef flank steak",
+      "normalized_name": "beef flank steak",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f2e405cb-0733-515d-8d04-7cc7817e1ac8",
+      "name": "steak seasoning (such as montreal steak seasoning\u00ae)",
+      "normalized_name": "steak seasoning",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "3a589137-8212-5bb7-8631-e98dbbfa17fd",
+      "name": "small red bell pepper",
+      "normalized_name": "small red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "3b710695-cc41-5a91-9313-1936147aba6c",
+      "name": "apple cider vinegar",
+      "normalized_name": "apple cider vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "64e74ad0-28c4-5378-ae1e-4621784130e0",
+      "name": "tomato sauce",
+      "normalized_name": "tomato sauce",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "21960b21-948a-5139-b037-73997a5656a0",
+      "name": "tomato paste",
+      "normalized_name": "tomato paste",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "a3c2e67a-4249-5b86-a9e7-344b5beafc4a",
+      "name": "hamburger buns",
+      "normalized_name": "hamburger buns",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "split and toasted",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "3580a496-e069-57a4-ae59-0b84d1f420ae",
+      "slug": "sloppy-joe",
+      "name": "Sloppy Joe"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "22b69ae3-bf6c-5161-837b-50f510df6b6b",
+      "slug": "slow-cooker",
+      "name": "Slow Cooker",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214610/sloppied-flank-steak-sandwiches"
+  },
+  "public": true,
+  "updated_at": 1583384840,
+  "revision": 1
+}

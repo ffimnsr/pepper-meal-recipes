@@ -1,0 +1,236 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e80e38d9-a75d-5bdd-80a5-07420b93ccf6",
+  "slug": "strawberry-pavlova",
+  "name": "Strawberry Pavlova",
+  "recipe_type": "dessert",
+  "brief_description": "This strawberry pavlova is filled with whipped cream spiked with orange liqueur and topped with fresh strawberries for a gorgeous summer dessert.",
+  "cuisine": "Australian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 250 degrees F (120 degrees C). Line a baking sheet with parchment paper or aluminum foil."
+    },
+    {
+      "position": 2,
+      "text": "Beat egg whites, cream of tartar, and salt in a large bowl with an electric mixer until soft peaks form. Beat in sugar, 1 tablespoon at a time, until stiff, glossy peaks form. Mix in cornstarch, vinegar, and vanilla until blended."
+    },
+    {
+      "position": 3,
+      "text": "Spread egg white mixture on the prepared baking sheet into a 10-inch (25cm) circle with a raised edge and a slight indentation in the center."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until meringue is cream-colored and firm to the touch, about 1 hour 15 minutes. If meringue appears to be browning, reduce the oven temperature to 225 degrees F (105 degrees C). Remove meringue from the oven and let cool."
+    },
+    {
+      "position": 5,
+      "text": "When ready to serve, peel parchment paper off the bottom of meringue. Place meringue onto a serving plate."
+    },
+    {
+      "position": 6,
+      "text": "Whip cream in a medium bowl with an electric mixer until stiff peaks form. Gently stir in liqueur until incorporated. Spread whipped cream over meringue, leaving edge of meringue visible. Top with strawberries. Cut into wedges to serve."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 75,
+  "preparation_time_minutes": 40,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e80e38d9-a75d-5bdd-80a5-07420b93ccf6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "282 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "54 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "49 mg",
+    "sugarContent": "26 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "982d14de-1236-59b5-b91e-bf6fb931fecc",
+      "name": "egg whites",
+      "normalized_name": "egg whites",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "at room temperature",
+      "position": 1
+    },
+    {
+      "ingredient_id": "83710ace-8d50-5ce2-8304-be9d0f9f6834",
+      "name": "cream of tartar",
+      "normalized_name": "cream of tartar",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": null,
+      "unit": "pinch",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "188e0cea-6bd8-5e4a-b299-110121db099a",
+      "name": "vanilla",
+      "normalized_name": "vanilla",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "83b4bb17-6e53-5e22-9711-a7c23bc21752",
+      "name": "whipping cream",
+      "normalized_name": "whipping cream",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e4ea1709-6436-5ea1-85d9-951900a3d1f3",
+      "name": "orange liqueur",
+      "normalized_name": "orange liqueur",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5ff5f54c-2a65-5690-a15d-70a0807a7659",
+      "name": "strawberries",
+      "normalized_name": "strawberries",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    }
+  ],
+  "tags": [
+    {
+      "id": "581edb85-0355-5c4f-8514-2ccd690bdd7e",
+      "slug": "strawberry-dessert-recipes",
+      "name": "Strawberry Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "a3b43786-1971-57fd-b78f-c1e8ac2a8f46",
+      "slug": "trusted-brands-recipes-and-tips",
+      "name": "Trusted Brands: Recipes and Tips",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "f2c53ae8-b6b1-5d78-89cd-6c637201d69a",
+      "slug": "pavlova-recipes",
+      "name": "Pavlova Recipes",
+      "color": null
+    },
+    {
+      "id": "bb561413-f49c-5029-956b-c7037608823d",
+      "slug": "berries",
+      "name": "Berries",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229849/strawberry-pavlova"
+  },
+  "public": true,
+  "updated_at": 1680545641,
+  "revision": 1
+}

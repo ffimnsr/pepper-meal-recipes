@@ -1,0 +1,213 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c97454fe-2cde-59ab-9140-db02e59e82bb",
+  "slug": "garlic-bread-fantastique",
+  "name": "Garlic Bread Fantastique",
+  "recipe_type": "appetizer",
+  "brief_description": "This garlic bread recipe is a zippy change from the norm. A mixture of butter, mayonnaise, garlic, and herbs is spread on a baguette and toasted to perfection.",
+  "cuisine": "Italian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Set an oven rack about 6 inches from the heat source and preheat the oven's broiler."
+    },
+    {
+      "position": 2,
+      "text": "Mix butter, mayonnaise, garlic, oregano, salt, pepper, and sage in a bowl until well combined. Spread mixture evenly on baguette halves, then sprinkle Parmesan cheese over top."
+    },
+    {
+      "position": 3,
+      "text": "Place baguette under the preheated broiler until lightly toasted, about 5 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c97454fe-2cde-59ab-9140-db02e59e82bb/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "399 kcal",
+    "carbohydrateContent": "44 g",
+    "cholesterolContent": "44 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "847 mg",
+    "sugarContent": "2 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "softened",
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2294de1f-3730-5887-93bb-9edf85bc609d",
+      "name": "black pepper",
+      "normalized_name": "black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "78ee6e7b-a6cc-594c-b8fa-f2cc0abefe01",
+      "name": "sage",
+      "normalized_name": "sage",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "68d4633d-cc9b-598e-912f-5797af1cf556",
+      "name": "french baguette",
+      "normalized_name": "french baguette",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "halved lengthwise",
+      "position": 8
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "313ee2c5-cfdb-5f62-ae14-2a8582afc952",
+      "slug": "garlic-bread",
+      "name": "Garlic Bread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "55c1a667-4d7b-5985-8236-b9e04342918a",
+      "slug": "garlic-bread-recipes",
+      "name": "Garlic Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "60f6fa5f-ac03-5eff-897b-8776dfb1ef02",
+      "slug": "garlic",
+      "name": "Garlic",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "9a578210-cad0-5e96-b126-9f653a6a83f6",
+      "slug": "kosher",
+      "name": "Kosher",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "ba6bd742-8c7c-5fab-beee-026a3280f2c4",
+      "slug": "dairy",
+      "name": "Dairy",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/27055/garlic-bread-fantastique"
+  },
+  "public": true,
+  "updated_at": 1779991260,
+  "revision": 1
+}

@@ -1,0 +1,235 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a001d725-c0ce-52c7-be84-deb34420c9d1",
+  "slug": "instant-pot-potato-leek-soup",
+  "name": "Instant Pot Potato Leek Soup",
+  "recipe_type": "soup",
+  "brief_description": "This Instant Pot potato-leek soup recipe is an easy, basic, and tasty potato-leek soup. Top it with shredded cheese, chopped cooked bacon, and chives.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Turn on a multi-functional pressure cooker (such as Instant Pot) and select Saut\u00e9 function. Add butter and leeks; saut\u00e9 until leeks tender, 3 to 5 minutes. Season with table salt."
+    },
+    {
+      "position": 2,
+      "text": "Reserve \u00bc cup cubed potatoes; add remaining potatoes to the Pot with leeks. Place reserved potatoes in the steamer basket; place basket in the Pot. Pour in chicken broth."
+    },
+    {
+      "position": 3,
+      "text": "Close and lock the lid. Set the timer for 10 minutes. Allow 10 minutes for pressure to build."
+    },
+    {
+      "position": 4,
+      "text": "Release pressure carefully using the quick-release method according to manufacturer's instructions, about 5 minutes. Unlock and remove the lid."
+    },
+    {
+      "position": 5,
+      "text": "Remove the steamer basket; set steamed potatoes aside. Pour half-and-half into the Pot. Blend soup using an immersion blender."
+    },
+    {
+      "position": 6,
+      "text": "Stir steamed potatoes and seasoned salt into soup."
+    }
+  ],
+  "servings": 3,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a001d725-c0ce-52c7-be84-deb34420c9d1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "388 kcal",
+    "carbohydrateContent": "75 g",
+    "cholesterolContent": "18 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "2249 mg",
+    "sugarContent": "8 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "43517f58-b541-5259-994f-fb71b71debef",
+      "name": "chopped leeks",
+      "normalized_name": "chopped leeks",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "white part only",
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "8788d758-4fef-586d-9dba-9b618e993a63",
+      "name": "large russet potatoes",
+      "normalized_name": "large russet potatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "6e226d44-2210-505a-bf61-c33e5f377ecd",
+      "name": "fat free half-and-half",
+      "normalized_name": "fat free half-and-half",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "47a37aac-e92c-5804-ba1f-818d259c7e34",
+      "name": "seasoned salt blend (such as savory spice\u00ae capitol hill seasoning)",
+      "normalized_name": "seasoned salt blend",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "278514fe-983b-5bcb-a57c-c032a506c02e",
+      "slug": "potato-soup",
+      "name": "Potato Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5606a16e-e04d-5bc0-9a9b-14e21d2c303c",
+      "slug": "potato-soup-recipes",
+      "name": "Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "f596b513-15a2-520e-a4b9-6c4858c23ffa",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili",
+      "color": null
+    },
+    {
+      "id": "f5bd9c7d-6900-5a33-9c74-dd507abf4796",
+      "slug": "leeks",
+      "name": "Leeks",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/270203/instant-pot-potato-leek-soup"
+  },
+  "public": true,
+  "updated_at": 1767652954,
+  "revision": 1
+}

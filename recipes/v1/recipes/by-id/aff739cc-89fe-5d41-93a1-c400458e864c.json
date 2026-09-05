@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "aff739cc-89fe-5d41-93a1-c400458e864c",
+  "slug": "chicken-cacciatore-in-a-slow-cooker",
+  "name": "Chicken Cacciatore in a Slow Cooker",
+  "recipe_type": "main",
+  "brief_description": "This chicken cacciatore crockpot recipe is made with chicken breasts simmered in a slow cooker with spaghetti sauce, pepper, mushrooms, and onion.",
+  "cuisine": "Italian Inspired American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Place chicken in a slow cooker."
+    },
+    {
+      "position": 3,
+      "text": "Stir in spaghetti sauce, tomato paste, mushrooms, onion, bell pepper, garlic, oregano, basil, black pepper, and red pepper flakes."
+    },
+    {
+      "position": 4,
+      "text": "Cover and cook on Low until chicken is tender, 6 to 8 hours."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 360,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/aff739cc-89fe-5d41-93a1-c400458e864c/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "364 kcal",
+    "carbohydrateContent": "42 g",
+    "cholesterolContent": "69 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "31 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "1200 mg",
+    "sugarContent": "25 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0938f3de-408f-5e98-b18f-e277a6cfee4b",
+      "name": "ounce) jar spaghetti sauce (such as classico\u00ae cabernet marinara with herbs)",
+      "normalized_name": "ounce jar spaghetti sauce",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5cc54c10-3b3f-5ab7-b4ab-194ca54bea2e",
+      "name": "ounce) can tomato paste",
+      "normalized_name": "ounce can tomato paste",
+      "quantity": "1 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "23f433e9-1310-5488-a961-7f5e2aed5ebe",
+      "name": "sliced fresh mushrooms",
+      "normalized_name": "sliced fresh mushrooms",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "e75e9366-01c1-5159-ada4-75c7d3fcac8d",
+      "name": "yellow onion",
+      "normalized_name": "yellow onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "seeded and diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "926af8a3-1f4f-5d54-b16f-43f37953b512",
+      "name": "dried basil",
+      "normalized_name": "dried basil",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "bc529c10-8c96-56e5-8062-e52a53cf66a6",
+      "slug": "chicken-cacciatore",
+      "name": "Chicken Cacciatore"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "bd91d3b0-8795-592d-aaf7-478e2de72f4b",
+      "slug": "slow-cooker-chicken",
+      "name": "Slow Cooker Chicken",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "22b69ae3-bf6c-5161-837b-50f510df6b6b",
+      "slug": "slow-cooker",
+      "name": "Slow Cooker",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/246305/chicken-cacciatore-in-a-slow-cooker"
+  },
+  "public": true,
+  "updated_at": 1771257961,
+  "revision": 1
+}

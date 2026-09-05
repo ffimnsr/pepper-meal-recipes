@@ -1,0 +1,193 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "04327f68-0681-5755-bcc9-8a03988a75a2",
+  "slug": "sloppy-does",
+  "name": "Sloppy Does",
+  "recipe_type": "main",
+  "brief_description": "These Sloppy Does are a venison version of the famous Sloppy Joes, the ground beef and tomato sauce sandwich that we all remember from our childhoods.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a skillet over medium heat. Add venison and jalape\u00f1o; cook, stirring often, until browned and crumbly; about 10 minutes. Stir in ketchup, garlic, molasses, and mustard. Bring to a boil, then reduce the heat to low. Simmer for at least 10 minutes before serving."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/04327f68-0681-5755-bcc9-8a03988a75a2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "175 kcal",
+    "carbohydrateContent": "11 g",
+    "cholesterolContent": "86 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "394 mg",
+    "sugarContent": "9 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4f5095ff-c430-568c-9a85-488f892b9fe5",
+      "name": "ground venison",
+      "normalized_name": "ground venison",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a4182eae-598b-5104-9ee4-e5ab15d9725f",
+      "name": "jalapeno pepper",
+      "normalized_name": "jalapeno pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "8086f0ab-2231-5b83-b6dd-e9f34ff533d9",
+      "name": "molasses",
+      "normalized_name": "molasses",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "c9eedcc2-b98a-59b7-bf9c-c1fd84cfb756",
+      "slug": "game-meats",
+      "name": "Game Meats"
+    },
+    {
+      "id": "65aeca82-e851-59ee-b0d1-96de9bb45ae2",
+      "slug": "venison",
+      "name": "Venison"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1d404b1e-7f61-5f96-9c1b-2d3f00bb15af",
+      "slug": "venison",
+      "name": "Venison",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "ed4f11c5-1007-5c46-9250-30f04c709de0",
+      "slug": "game-meats",
+      "name": "Game Meats",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba9c09a-8e03-5467-ae53-b763fdd0d172",
+      "slug": "sloppy-joe-recipes",
+      "name": "Sloppy Joe Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "d8a88f90-c0c0-5567-ae83-22cb9872fd7f",
+      "slug": "low-calorie",
+      "name": "Low-Calorie",
+      "color": null
+    },
+    {
+      "id": "c2f09869-a010-58cf-bc86-5b930914ce17",
+      "slug": "budget-cooking-recipes",
+      "name": "Budget Cooking Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231084/sloppy-does"
+  },
+  "public": true,
+  "updated_at": 1707592192,
+  "revision": 1
+}

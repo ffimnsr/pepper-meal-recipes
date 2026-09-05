@@ -1,0 +1,272 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "72e470d1-e09d-5bc6-8fad-087961d97ad6",
+  "slug": "mediterranean-quinoa-salad",
+  "name": "Mediterranean Quinoa Salad",
+  "recipe_type": "salad",
+  "brief_description": "A Mediterranean quinoa salad packed with tender quinoa, feta, red onion, and olives, flavored with lemon and herbs for a light meal full of flavor.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Bring water, bouillon cubes, and garlic to a boil in a saucepan. Stir in quinoa; reduce heat to medium-low, cover, and simmer until quinoa is tender and water has been absorbed, 15 to 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Discard garlic clove and transfer quinoa into a large bowl."
+    },
+    {
+      "position": 4,
+      "text": "Add chicken, onion, bell pepper, olives, feta cheese, parsley, chives, and salt to quinoa; drizzle lemon juice, balsamic vinegar, and olive oil on top. Stir until evenly mixed."
+    },
+    {
+      "position": 5,
+      "text": "Serve warm or refrigerate and serve cold."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/72e470d1-e09d-5bc6-8fad-087961d97ad6/cover.jpg",
+  "video_url": "https://cdn.jwplayer.com/videos/jCp20S1T-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "278 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "45 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "713 mg",
+    "sugarContent": "3 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3ce4bb58-0809-5770-b087-cde27facb41c",
+      "name": "cubes chicken bouillon",
+      "normalized_name": "cubes chicken bouillon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "smashed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "bf6ae1fc-88e3-5fbf-bf9a-a21cd1ab257a",
+      "name": "uncooked quinoa",
+      "normalized_name": "uncooked quinoa",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2cfda80e-941d-5a70-b160-00651cfeeb22",
+      "name": "large cooked chicken breasts",
+      "normalized_name": "large cooked chicken breasts",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into bite size pieces",
+      "position": 5
+    },
+    {
+      "ingredient_id": "a061f0d2-dbc6-5ca4-a3bb-823970cc720a",
+      "name": "large red onion",
+      "normalized_name": "large red onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "61a5f356-2603-5e70-8736-b159edf05cb4",
+      "name": "large green bell pepper",
+      "normalized_name": "large green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "9b1b0368-3fce-5734-97fe-dc68ba0acc5e",
+      "name": "chopped kalamata olives",
+      "normalized_name": "chopped kalamata olives",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "cbedf4a1-173e-56ae-92c0-3595384b0e2c",
+      "name": "crumbled feta cheese",
+      "normalized_name": "crumbled feta cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "67001d73-6215-56de-a916-36f860ff1c05",
+      "name": "chopped fresh chives",
+      "normalized_name": "chopped fresh chives",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "eab08681-affd-54d9-9398-cfa92db0ac26",
+      "name": "fresh lemon juice",
+      "normalized_name": "fresh lemon juice",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "362e8788-4b07-5d90-b5e6-28134dd6bd01",
+      "name": "balsamic vinegar",
+      "normalized_name": "balsamic vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d4ef8f15-0a58-50dd-a7a7-70f0c094eb34",
+      "slug": "whole-grains",
+      "name": "Whole Grains",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "867ecb29-7f93-56b1-bd91-1a1d9974c87e",
+      "slug": "quinoa",
+      "name": "Quinoa",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "6a1703c3-5ba8-5764-9319-7fad5e5d14de",
+      "slug": "mediterranean-diet-recipes",
+      "name": "Mediterranean Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "d67c7e91-9ba4-51d9-8c2c-aa8fd8b4dd5d",
+      "slug": "cheesy-chicken",
+      "name": "Cheesy Chicken",
+      "color": null
+    },
+    {
+      "id": "6ce52073-665a-558e-9235-f303f0933afd",
+      "slug": "feta",
+      "name": "Feta",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/169583/mediterranean-quinoa-salad"
+  },
+  "public": true,
+  "updated_at": 1775385339,
+  "revision": 1
+}

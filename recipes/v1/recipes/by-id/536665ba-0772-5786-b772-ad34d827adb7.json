@@ -1,0 +1,233 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "536665ba-0772-5786-b772-ad34d827adb7",
+  "slug": "pipirrana-spanish-potato-salad",
+  "name": "Pipirrana (Spanish Potato Salad)",
+  "recipe_type": "salad",
+  "brief_description": "Potato salad made with fresh green and red bell peppers, tomato, green olives, and tuna, it's a nice change from mayo based potato salad.",
+  "cuisine": "Spanish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place egg in a saucepan, and cover with cold water. Bring water to a boil, and immediately remove from heat. Cover, and let eggs stand in hot water for 10 to 12 minutes. Remove from hot water, cool, and peel. Cut eggs into quarters, and set aside."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, bring a large pot of salted water to a boil. Add potatoes, and cook until tender but still firm, about 15 minutes. Drain, and transfer to a large bowl."
+    },
+    {
+      "position": 3,
+      "text": "Toss potatoes with eggs, bell peppers, onion, tomato, tuna, green olives, olive oil, and vinegar. Season to taste with salt. Refrigerate, and serve cold"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/536665ba-0772-5786-b772-ad34d827adb7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "377 kcal",
+    "carbohydrateContent": "42 g",
+    "cholesterolContent": "192 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "764 mg",
+    "sugarContent": "5 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "c191a46e-8e07-5caf-83c7-2ab3ac43d234",
+      "name": "large fresh tomato",
+      "normalized_name": "large fresh tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "c29853eb-92b8-5cd9-8800-3efe37eeebc4",
+      "name": "ounce) can tuna",
+      "normalized_name": "ounce can tuna",
+      "quantity": "1 (5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0c4e897e-2957-52a5-9922-b5a6549677b4",
+      "name": "green olives with pimento or anchovy",
+      "normalized_name": "green olives with pimento or anchovy",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "halved",
+      "position": 8
+    },
+    {
+      "ingredient_id": "84b8e582-e631-566b-9ba0-cbc0b8e649de",
+      "name": "extra virgin olive oil",
+      "normalized_name": "extra virgin olive oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "a482b994-5b79-5ece-b9e0-26e002146a29",
+      "name": "distilled white vinegar",
+      "normalized_name": "distilled white vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cc141bd5-1abc-5463-acbb-253ce1010372",
+      "slug": "dairy-free-potato-salad-recipes",
+      "name": "Dairy-Free Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "36f0ba83-6cf7-5b3c-9c04-ccc142dd82bc",
+      "slug": "potato-salad-recipes",
+      "name": "Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "09918637-74ca-57f0-a5a8-55971f1dd9d0",
+      "slug": "spanish",
+      "name": "Spanish",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "7640bb10-fa16-5a7e-8625-7837988ce8da",
+      "slug": "albarino-and-alvarinho",
+      "name": "Albarino and Alvarinho",
+      "color": null
+    },
+    {
+      "id": "8b57bfd6-0f1a-5ac9-8adb-d8274c85f51c",
+      "slug": "world-cup",
+      "name": "World Cup",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/56624/pipirrana-spanish-potato-salad"
+  },
+  "public": true,
+  "updated_at": 1657828140,
+  "revision": 1
+}

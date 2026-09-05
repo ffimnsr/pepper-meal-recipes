@@ -1,0 +1,300 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5bc61945-32c0-549a-a4a2-565fbfea6b49",
+  "slug": "bjarnes-norwegian-meatballs",
+  "name": "Bjarne's Norwegian Meatballs",
+  "recipe_type": "main",
+  "brief_description": "These Norwegian meatballs come from a perfected family recipe. They are made with ground beef, ginger, and nutmeg then topped with a rich cream sauce.",
+  "cuisine": "Norwegian Scandinavian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C). Grease a jelly roll pan."
+    },
+    {
+      "position": 2,
+      "text": "Combine bread crumbs, milk, eggs, onion, ginger, salt, nutmeg, garlic, and black pepper in a mixing bowl. Let stand until bread crumbs absorb milk, about 5 minutes. Stir until just mixed and add ground beef. Mix until well blended. Shape mixture into 1-inch meatballs and place on the prepared pan."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until browned, about 18 minutes. Set meatballs aside."
+    },
+    {
+      "position": 4,
+      "text": "Melt butter in a large skillet over medium-high heat. Saut\u00e9 onion until tender, about 3 minutes. Stir in flour and cook until lightly browned, about 2 minutes. Slowly add broth; cook and stir gravy until smooth and thickened, 5 to 10 minutes. Blend in cream, cayenne pepper, and black pepper."
+    },
+    {
+      "position": 5,
+      "text": "Gently stir cooked meatballs into gravy and heat through, but do not boil, about 5 minutes more."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 45,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5bc61945-32c0-549a-a4a2-565fbfea6b49/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "351 kcal",
+    "carbohydrateContent": "10 g",
+    "cholesterolContent": "132 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "1004 mg",
+    "sugarContent": "2 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2a3f2a9a-1096-56c1-8419-dc23bdb254f4",
+      "name": "plain bread crumbs",
+      "normalized_name": "plain bread crumbs",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "grated",
+      "position": 4
+    },
+    {
+      "ingredient_id": "1fe00ee7-26c9-54f0-a652-5b3f1fef706c",
+      "name": "grated fresh ginger",
+      "normalized_name": "grated fresh ginger",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "22c2e428-dd64-54aa-b622-0121d9067123",
+      "name": "85% lean ground beef",
+      "normalized_name": "85 lean ground beef",
+      "quantity": "3",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "02d4f872-6e6e-56ff-93d3-4ebab5500e0f",
+      "name": "minced onion",
+      "normalized_name": "minced onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "e5de3370-77a7-5db2-b178-1bd5d61cda2d",
+      "name": "dash cayenne pepper",
+      "normalized_name": "dash cayenne pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "63c72d07-4e21-5328-b39f-408941e1536f",
+      "name": "dash white pepper",
+      "normalized_name": "dash white pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 17
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "47bc891c-c49d-5281-a6f2-861e55da6c3a",
+      "slug": "meatball",
+      "name": "Meatball"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4da0731a-be0f-55c8-acd5-b1bbf0ce8444",
+      "slug": "meatball-recipes",
+      "name": "Meatball Recipes",
+      "color": null
+    },
+    {
+      "id": "3a4483da-4692-5dfc-b420-244e0aa933e4",
+      "slug": "scandinavian",
+      "name": "Scandinavian",
+      "color": null
+    },
+    {
+      "id": "def8125b-ab6c-510a-aa38-220af3d6a561",
+      "slug": "norwegian",
+      "name": "Norwegian",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "a0d28738-e8e1-5472-b5d0-058cdd5cf5d5",
+      "slug": "family-heirloom",
+      "name": "Family Heirloom",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/276224/bjarnes-norwegian-meatballs"
+  },
+  "public": true,
+  "updated_at": 1776333029,
+  "revision": 1
+}

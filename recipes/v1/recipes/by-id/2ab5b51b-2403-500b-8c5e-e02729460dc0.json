@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2ab5b51b-2403-500b-8c5e-e02729460dc0",
+  "slug": "chocolate-y-iced-mocha",
+  "name": "Chocolate-y Iced Mocha",
+  "recipe_type": "dessert",
+  "brief_description": "Use coffee, almond milk, cocoa mix, and chocolate syrup to make your own iced mocha at home.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat 1/4 cup coffee in microwave in a mug until warmed, about 30 seconds. Stir cocoa mix into the coffee until dissolved."
+    },
+    {
+      "position": 2,
+      "text": "Fill a large glass with ice cubes. Pour 1 cup cold coffee and almond milk over the ice cubes; stir the cocoa mixture and chocolate syrup into the coffee and almond milk."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 1,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2ab5b51b-2403-500b-8c5e-e02729460dc0/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "105 kcal",
+    "carbohydrateContent": "17 g",
+    "cholesterolContent": "3 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "255 mg",
+    "sugarContent": "10 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8c414891-266b-5b2b-9c23-5ba35b567d23",
+      "name": "cold coffee",
+      "normalized_name": "cold coffee",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 1
+    },
+    {
+      "ingredient_id": "2820d0e0-15e5-571c-b75f-5cad42bb2db7",
+      "name": "envelope low-calorie hot cocoa mix",
+      "normalized_name": "envelope low-calorie hot cocoa mix",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": "or as needed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "95c0e7f2-c3a5-5f06-a5a7-1ff92f0d7f0c",
+      "name": "unsweetened almond milk",
+      "normalized_name": "unsweetened almond milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8229426d-c5c5-502d-a927-3052b33cd6e9",
+      "name": "sugar-free chocolate syrup",
+      "normalized_name": "sugar-free chocolate syrup",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or more to taste",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "41a0458a-1f0c-5ca3-9fc0-20cb3c4d220a",
+      "slug": "coffee-drinks",
+      "name": "Coffee Drinks"
+    },
+    {
+      "id": "33ed38cd-80b7-5d36-987e-c1d2f9991935",
+      "slug": "mocha",
+      "name": "Mocha"
+    }
+  ],
+  "tags": [
+    {
+      "id": "46816b9a-e513-5635-96cd-dabd0dc73b24",
+      "slug": "mocha-recipes",
+      "name": "Mocha Recipes",
+      "color": null
+    },
+    {
+      "id": "f4182272-3374-5426-b64c-8cd8cd875fab",
+      "slug": "sugar-free",
+      "name": "Sugar-Free",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "cc55fa79-2271-58fa-a7c2-d9b0578d26b4",
+      "slug": "coffee-drinks-recipes",
+      "name": "Coffee Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233013/chocolate-y-iced-mocha"
+  },
+  "public": true,
+  "updated_at": 1734456399,
+  "revision": 1
+}

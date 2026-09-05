@@ -1,0 +1,280 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "760384ef-5c10-5304-8197-e6659e8b8caa",
+  "slug": "minestrone-vegetable-soup",
+  "name": "Minestrone Vegetable Soup",
+  "recipe_type": "soup",
+  "brief_description": "Plenty of spinach, zucchini, and tomatoes give this Italian-inspired soup its hearty texture and rich flavor.",
+  "cuisine": "Italian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a large soup pot over medium heat; cook and stir onion and garlic in the hot oil until onion is tender, 2 to 5 minutes. Stir chicken broth, tomato juice, diced tomatoes and their juice, spinach, zucchini, carrots, celery, cannellini beans, Italian seasoning, salt, and black pepper. Bring soup to a boil, reduce heat to low, and cover pot. Simmer soup for 45 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Bring soup back to a full boil and stir in rotini pasta. Reduce heat to low and simmer until pasta is tender, 10 to 15 more minutes."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 55,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/760384ef-5c10-5304-8197-e6659e8b8caa/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "174 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "2 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "1167 mg",
+    "sugarContent": "9 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "ceaef55e-4a56-5806-8ad0-95edcca62fcf",
+      "name": "ounce) carton chicken broth",
+      "normalized_name": "ounce carton chicken broth",
+      "quantity": "1 (32",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a32e6fa-0693-58c1-a757-73ee50b40893",
+      "name": "tomato juice",
+      "normalized_name": "tomato juice",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "9df4d90c-3c3d-5af4-a2c3-2dbac876bf33",
+      "name": "ounce) can diced tomatoes",
+      "normalized_name": "ounce can diced tomatoes",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": "undrained",
+      "position": 6
+    },
+    {
+      "ingredient_id": "032eaae4-bd3d-5fdb-897f-0aaa3adf4878",
+      "name": "chopped fresh spinach",
+      "normalized_name": "chopped fresh spinach",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "28b3e7fa-5037-5148-b4f4-27c9c52c1a9b",
+      "name": "zucchini",
+      "normalized_name": "zucchini",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 9
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 10
+    },
+    {
+      "ingredient_id": "86cac1a2-e9fb-5942-9fb0-8dba32c1744e",
+      "name": "ounce) can cannellini beans",
+      "normalized_name": "ounce can cannellini beans",
+      "quantity": "1 (15.5",
+      "unit": "pieces",
+      "preparation": "drained and rinsed",
+      "position": 11
+    },
+    {
+      "ingredient_id": "4fbc17fe-1b70-5c92-a946-64cb41d20225",
+      "name": "italian seasoning",
+      "normalized_name": "italian seasoning",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "b349e34d-6f5d-5c10-974a-f1405ff169ea",
+      "name": "rotini pasta",
+      "normalized_name": "rotini pasta",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "bd0d1695-7b66-5071-9f9b-f09e048a9b23",
+      "slug": "squash-soup",
+      "name": "Squash Soup"
+    },
+    {
+      "id": "88db963d-3777-57fa-ba38-41bc28d5d3eb",
+      "slug": "zucchini-soup",
+      "name": "Zucchini Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "781e9dda-ec68-58bd-8466-fa2cd5883626",
+      "slug": "minestrone",
+      "name": "Minestrone",
+      "color": null
+    },
+    {
+      "id": "b985ff58-e077-5b11-aac3-6f9e81f071c3",
+      "slug": "cannellini-beans",
+      "name": "Cannellini Beans",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232274/minestrone-vegetable-soup"
+  },
+  "public": true,
+  "updated_at": 1554273072,
+  "revision": 1
+}

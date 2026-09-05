@@ -1,0 +1,163 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0c972afd-8f4c-55a4-b963-6af5608b02f2",
+  "slug": "pumpkin-oatmeal",
+  "name": "Pumpkin Oatmeal",
+  "recipe_type": "breakfast",
+  "brief_description": "A great way to get a serving of whole grains and a yellow vegetable in the morning! (Even my three year old liked it!)",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix together oats and milk in a microwave-safe bowl. Cook on high for 1 to 2 minutes, stirring once. Add more milk or oats to achieve the desired consistency, and cook for another 30 seconds. Stir in pumpkin puree, pumpkin pie spice, and cinnamon sugar. Heat through, and serve."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 3,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0c972afd-8f4c-55a4-b963-6af5608b02f2/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/npuSTkqs-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "229 kcal",
+    "carbohydrateContent": "39 g",
+    "cholesterolContent": "7 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "43 mg",
+    "sugarContent": "7 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "039d77c7-f711-5ca6-aa1b-2ff3c3756a32",
+      "name": "quick-cooking rolled oats",
+      "normalized_name": "quick-cooking rolled oats",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "83077c0f-e81e-5024-ace1-a9417986738d",
+      "name": "canned pumpkin puree",
+      "normalized_name": "canned pumpkin puree",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "58cfa60b-1403-53ce-90fd-947389d6b939",
+      "name": "pumpkin pie spice",
+      "normalized_name": "pumpkin pie spice",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6d6274cf-4e31-5d14-8665-bccdd6e88b76",
+      "name": "cinnamon sugar",
+      "normalized_name": "cinnamon sugar",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "9ec40b2a-b71d-5383-b106-ec69d067e34e",
+      "slug": "cereals",
+      "name": "Cereals"
+    },
+    {
+      "id": "2bc6bdc3-0797-52d0-adef-3ce8a112c8b9",
+      "slug": "oatmeal",
+      "name": "Oatmeal"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "fe7ed170-1df4-5541-837c-5575aceff5b6",
+      "slug": "cereals",
+      "name": "Cereals",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "c2208ea6-ba8c-55a5-9cee-30b494aed04b",
+      "slug": "pumpkin",
+      "name": "Pumpkin",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55259/pumpkin-oatmeal"
+  },
+  "public": true,
+  "updated_at": 1670790476,
+  "revision": 1
+}

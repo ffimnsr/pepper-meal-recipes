@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a6334460-94d7-511a-b63f-e2cadbf244d3",
+  "slug": "pool-hall-coleslaw",
+  "name": "Pool Hall Coleslaw",
+  "recipe_type": "dessert",
+  "brief_description": "Pool room slaw is a sweet recipe for cooked coleslaw that is good on hamburgers, hot dogs, and vegetables.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large stock pot, combine vinegar, mustard, white sugar, and brown sugar. Season with turmeric, salt, black pepper, and red pepper flakes. Stir to dissolve sugar and bring to a boil."
+    },
+    {
+      "position": 2,
+      "text": "Add cabbage, carrots, peppers, and onions. Return to a boil, then reduce the heat to medium-low and simmer for 20 to 25 minutes, frequently stirring."
+    }
+  ],
+  "servings": 96,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a6334460-94d7-511a-b63f-e2cadbf244d3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "36 kcal",
+    "carbohydrateContent": "8 g",
+    "fiberContent": "1 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "137 mg",
+    "sugarContent": "7 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a482b994-5b79-5ece-b9e0-26e002146a29",
+      "name": "distilled white vinegar",
+      "normalized_name": "distilled white vinegar",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5d3ee644-e807-557b-92fc-edf2d0e6b7c1",
+      "name": "packed light brown sugar",
+      "normalized_name": "packed light brown sugar",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6fe26b3-81da-5f50-8065-5bc6819dddfa",
+      "name": "ground turmeric",
+      "normalized_name": "ground turmeric",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "4abbb631-0ee9-5952-9b0f-4aaae7016725",
+      "name": "shredded cabbage",
+      "normalized_name": "shredded cabbage",
+      "quantity": "16",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "shredded",
+      "position": 10
+    },
+    {
+      "ingredient_id": "8e399f67-a139-5c4b-a6f8-75ff8e7fa1ea",
+      "name": "green bell peppers",
+      "normalized_name": "green bell peppers",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "seeded and chopped",
+      "position": 11
+    },
+    {
+      "ingredient_id": "d1e495b6-21e7-5cfd-b73a-44a6104e0ab3",
+      "name": "large onions",
+      "normalized_name": "large onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "41a27eee-157d-50d3-835d-4eee50ab1e1e",
+      "slug": "relish",
+      "name": "Relish"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0280955a-4481-5100-b47d-40c738d58a23",
+      "slug": "relish-recipes",
+      "name": "Relish Recipes",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "a00e8f38-1976-5fcc-afc1-90bb835175c0",
+      "slug": "holiday-planning",
+      "name": "Holiday Planning",
+      "color": null
+    },
+    {
+      "id": "47284bc0-1a10-5168-9ee0-5300871f4453",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments",
+      "color": null
+    },
+    {
+      "id": "83ede234-40e7-59a3-9890-7aac032099fb",
+      "slug": "patriotic",
+      "name": "Patriotic",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/108972/pool-hall-coleslaw"
+  },
+  "public": true,
+  "updated_at": 1678994674,
+  "revision": 1
+}

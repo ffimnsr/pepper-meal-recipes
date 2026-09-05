@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e9e5eee4-b8e8-5751-9be4-9386e311500e",
+  "slug": "sweet-beet-smoothie",
+  "name": "Beet Smoothie",
+  "recipe_type": "dessert",
+  "brief_description": "This beet smoothie is a delicious blend of avocado, banana, fresh pineapple, apple, and beets for a naturally sweet, colorful, and refreshing drink.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Juice beets and green apples, including peels, in an electric juicer."
+    },
+    {
+      "position": 2,
+      "text": "Combine apple-beet juice, avocado, pineapple, banana, and ice in a high-speed blender; blend until smooth."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e9e5eee4-b8e8-5751-9be4-9386e311500e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "310 kcal",
+    "carbohydrateContent": "47 g",
+    "fiberContent": "13 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "76 mg",
+    "sugarContent": "27 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "19ba4ce4-acdb-5a84-9648-dae06532ff28",
+      "name": "medium beets",
+      "normalized_name": "medium beets",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "scrubbed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "126f45c3-3ce9-524b-b12f-d8ac08e74f67",
+      "name": "green apple",
+      "normalized_name": "green apple",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a8da5e1f-7b18-55b3-81fc-99e0bba480ca",
+      "name": "avocado",
+      "normalized_name": "avocado",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and pitted",
+      "position": 3
+    },
+    {
+      "ingredient_id": "35727f0a-0cda-5d21-bce8-8324beda4b98",
+      "name": "fresh pineapple chunks",
+      "normalized_name": "fresh pineapple chunks",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
+      "name": "banana",
+      "normalized_name": "banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled",
+      "position": 5
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    },
+    {
+      "id": "eb1b25a4-2bc6-56c1-95a2-227b08edc990",
+      "slug": "veggie",
+      "name": "Veggie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "53b4c0bb-791f-5da3-959f-0b5fb573386d",
+      "slug": "veggie",
+      "name": "Veggie",
+      "color": null
+    },
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "c28c4e15-a448-5959-868f-c8f71bfff24d",
+      "slug": "breakfast-on-the-go",
+      "name": "Breakfast On-The-Go",
+      "color": null
+    },
+    {
+      "id": "b0566d01-38e6-5699-8099-79eb4d1538a0",
+      "slug": "beets",
+      "name": "Beets",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/264158/sweet-beet-smoothie"
+  },
+  "public": true,
+  "updated_at": 1732605960,
+  "revision": 1
+}

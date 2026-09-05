@@ -1,0 +1,209 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b83b5e3d-0f5a-5423-a8a1-f10942377e31",
+  "slug": "a-20-minute-chicken-parmesan",
+  "name": "A 20-Minute Chicken Parmesan",
+  "recipe_type": null,
+  "brief_description": "Your family will enjoy a tasty dish of chicken Parmesan in just a few minutes, thanks to a simplified cooking technique and pre-made pasta sauce.",
+  "cuisine": "Italian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Press chicken breasts with the palm of your hand to flatten to an even thickness."
+    },
+    {
+      "position": 2,
+      "text": "Beat egg into a shallow bowl; place bread crumbs into a separate shallow bowl. Dip each chicken breast into beaten egg and press into bread crumbs to coat."
+    },
+    {
+      "position": 3,
+      "text": "Heat butter in a large skillet over medium heat and fry coated chicken breasts until golden brown, about 5 minutes per side."
+    },
+    {
+      "position": 4,
+      "text": "Pour pasta sauce over chicken, cover, and bring sauce to a boil. Reduce heat to low and simmer for 10 minutes. Sprinkle chicken with mozzarella cheese, Parmesan cheese, and parsley. Cover and simmer until cheeses melt, about 5 more minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b83b5e3d-0f5a-5423-a8a1-f10942377e31/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "383 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "135 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "33 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "929 mg",
+    "sugarContent": "11 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves",
+      "position": 1
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3fe7aa58-1c0a-5486-b1af-a9b88846ece0",
+      "name": "seasoned bread crumbs",
+      "normalized_name": "seasoned bread crumbs",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "aec1d879-6c97-59b0-b5fa-00cdf80d435f",
+      "name": "pasta sauce (such as barilla napoletana\u00ae)",
+      "normalized_name": "pasta sauce",
+      "quantity": "1.75",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "739c4232-d987-51a3-81c0-383829f6c03e",
+      "slug": "parmesan",
+      "name": "Parmesan"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "d67c7e91-9ba4-51d9-8c2c-aa8fd8b4dd5d",
+      "slug": "cheesy-chicken",
+      "name": "Cheesy Chicken",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/230664/a-20-minute-chicken-parmesan"
+  },
+  "public": true,
+  "updated_at": 1447917291,
+  "revision": 1
+}

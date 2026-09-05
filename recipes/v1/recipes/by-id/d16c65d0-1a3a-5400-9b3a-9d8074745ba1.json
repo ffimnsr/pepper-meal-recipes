@@ -1,0 +1,191 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d16c65d0-1a3a-5400-9b3a-9d8074745ba1",
+  "slug": "apple-and-honey-sorbet",
+  "name": "Apple and Honey Sorbet",
+  "recipe_type": "dessert",
+  "brief_description": "This is the sorbet I served on Rosh Hashana meal between first and main course. It is white flecked with bright green, tangy from the green apples, and sweet with honey. Fresh and fabulous. Shana Tova! I recommend eucalyptus blossom honey, easily found in Israel.",
+  "cuisine": "Israeli",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large, resealable plastic bag or plastic container with a lid, mix apples with the juice of 1/2 lemon. Freeze for several hours or overnight."
+    },
+    {
+      "position": 2,
+      "text": "In a small saucepan, bring water and sugar to a boil. Reduce heat, and simmer for 5 minutes. Remove from heat, and stir in honey. Cool completely."
+    },
+    {
+      "position": 3,
+      "text": "Place apple in a blender, and liquidize them with juice of 1 lemon and the cooled sugar syrup until as smooth as possible. The peel will add texture, and prevent the mixture from being completely smooth."
+    },
+    {
+      "position": 4,
+      "text": "Transfer the mixture to an ice cream machine and freeze according to directions. Leave the sorbet out to soften 10 minutes prior to serving."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 60,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d16c65d0-1a3a-5400-9b3a-9d8074745ba1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "188 kcal",
+    "carbohydrateContent": "51 g",
+    "fiberContent": "2 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "3 mg",
+    "sugarContent": "47 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "32063a29-d2ad-5caf-aefc-d98f3cc9f53f",
+      "name": "granny smith apples",
+      "normalized_name": "granny smith apples",
+      "quantity": "1.25",
+      "unit": "pounds",
+      "preparation": "cored and thinly sliced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "977d269f-89cf-52fb-8d10-b6c83e6ecb10",
+      "name": "lemons",
+      "normalized_name": "lemons",
+      "quantity": "1.5",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "2c2e2714-0c70-51ea-bde2-c4703b9f3abc",
+      "slug": "middle-eastern",
+      "name": "Middle Eastern"
+    },
+    {
+      "id": "d11dc2ab-333e-57e4-b178-febff8b27483",
+      "slug": "israeli",
+      "name": "Israeli"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "c21e1bc3-57fc-56a1-8cbf-1059d2d4e553",
+      "slug": "sorbet-recipes",
+      "name": "Sorbet Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "e9c7cb3f-2b04-5892-a9d2-9e4be2971320",
+      "slug": "middle-eastern",
+      "name": "Middle Eastern",
+      "color": null
+    },
+    {
+      "id": "50f70bb9-e15c-5182-be0d-29b0444422c1",
+      "slug": "frozen-dessert-recipes",
+      "name": "Frozen Dessert Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/76202/apple-and-honey-sorbet"
+  },
+  "public": true,
+  "updated_at": 1657833532,
+  "revision": 1
+}

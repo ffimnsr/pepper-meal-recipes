@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3c30cc8e-a8bb-50c4-aa5d-11265e328c29",
+  "slug": "pork-normandy",
+  "name": "Pork Normandy",
+  "recipe_type": "main",
+  "brief_description": "Mom's pork Normandy recipe is a family favorite. Juicy pork tenderloin topped with onions and apples is drenched in a delicious sauce made with hard cider.",
+  "cuisine": "French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in an oven-proof skillet over medium heat. Sear tenderloin in melted butter, then transfer to a plate."
+    },
+    {
+      "position": 3,
+      "text": "Add onions to the skillet; cook and stir for 2 to 3 minutes. Stir in apple and cook until golden brown. Stir in flour and cook for about 30 seconds."
+    },
+    {
+      "position": 4,
+      "text": "Whisk chicken stock and hard cider together in a bowl; pour into the skillet and bring to a boil while scraping the browned bits of food off the bottom of the pan. Return tenderloin to the skillet; season with salt and pepper."
+    },
+    {
+      "position": 5,
+      "text": "Cover the skillet, transfer to the preheated oven, and bake until is pork is slightly pink in the center, about 45 minutes. An instant-read thermometer inserted into the center should read at least 145 degrees F (63 degrees C)."
+    },
+    {
+      "position": 6,
+      "text": "Transfer tenderloin to a cutting board, and cut into 1 1/2-inch slices."
+    },
+    {
+      "position": 7,
+      "text": "Place onions, apples, and all liquid from the skillet into a blender or food processor; pulse until smooth. Return sauce to the pan, and reheat over medium-low. Stir in cream and heat until warm."
+    },
+    {
+      "position": 8,
+      "text": "Spoon sauce over sliced tenderloin to serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 65,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3c30cc8e-a8bb-50c4-aa5d-11265e328c29/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "204 kcal",
+    "carbohydrateContent": "9 g",
+    "cholesterolContent": "72 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "175 mg",
+    "sugarContent": "6 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "1406b9dc-e908-5eb2-a5e4-f99d6e71756a",
+      "name": "pork tenderloin",
+      "normalized_name": "pork tenderloin",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "thinly sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "00f21c09-d225-5fb9-8edb-b0fada95ab28",
+      "name": "large sweet apple - peeled",
+      "normalized_name": "large sweet apple - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored and thinly sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "5",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "324c360d-5d32-5197-b1c8-f464cfa12a7c",
+      "name": "fluid ounces hard apple cider",
+      "normalized_name": "fluid ounces hard apple cider",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "494b4994-9d7c-51d5-b50c-4e5ac4588907",
+      "slug": "french",
+      "name": "French"
+    }
+  ],
+  "tags": [
+    {
+      "id": "88eddc25-7c6f-53f9-88d5-a41644551da3",
+      "slug": "french",
+      "name": "French",
+      "color": null
+    },
+    {
+      "id": "d8a88f90-c0c0-5567-ae83-22cb9872fd7f",
+      "slug": "low-calorie",
+      "name": "Low-Calorie",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "3b40ed61-f398-5e7b-9de1-acd9a6bff925",
+      "slug": "roast-recipes",
+      "name": "Roast Recipes",
+      "color": null
+    },
+    {
+      "id": "ac435f7b-a226-5d6f-85dc-fc437dfa73f6",
+      "slug": "pork-roast-recipes",
+      "name": "Pork Roast Recipes",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "da64d917-5eba-580b-b256-9272d36dc291",
+      "slug": "pork-tenderloin-recipes",
+      "name": "Pork Tenderloin Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/88234/pork-normandy"
+  },
+  "public": true,
+  "updated_at": 1782092233,
+  "revision": 1
+}

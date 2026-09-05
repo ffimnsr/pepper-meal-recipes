@@ -1,0 +1,213 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "73c80899-1812-53bf-a984-0f9077aa1be2",
+  "slug": "louisiana-sweet-potato-pancakes",
+  "name": "Louisiana Sweet Potato Pancakes",
+  "recipe_type": "dessert",
+  "brief_description": "This sweet potato pancake recipe combines mashed sweet potatoes and nutmeg with regular pancake batter for a delicious twist on classic pancakes.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a medium saucepan of lightly salted water to a boil. Add sweet potatoes and cook until tender but still a bit firm, about 15 minutes. Drain, then immediately immerse in cold water to loosen skins. Drain again; remove and discard skins."
+    },
+    {
+      "position": 2,
+      "text": "Sift flour, baking powder, salt, and nutmeg together into a medium bowl."
+    },
+    {
+      "position": 3,
+      "text": "Chop sweet potatoes, transfer to another medium bowl, and mash. Mix in milk, melted butter, and egg. Gradually mix in flour mixture until well combined."
+    },
+    {
+      "position": 4,
+      "text": "Lightly grease a griddle and preheat over medium heat."
+    },
+    {
+      "position": 5,
+      "text": "Working in batches, drop heaping tablespoonfuls batter onto the hot griddle and cook until the surface begins to bubble, 3 to 4 minutes. Flip and cook on the other side until golden brown, 2 to 3 more minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/73c80899-1812-53bf-a984-0f9077aa1be2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "217 kcal",
+    "carbohydrateContent": "30 g",
+    "cholesterolContent": "65 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "534 mg",
+    "sugarContent": "5 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "9f82fdf8-d464-5772-8a05-88a5d1e56864",
+      "name": "sweet potatoes",
+      "normalized_name": "sweet potatoes",
+      "quantity": "0.75",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "3.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 7
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "8dc4a884-c5f6-5ca8-8a40-0edcca64e2aa",
+      "slug": "pancake",
+      "name": "Pancake"
+    }
+  ],
+  "tags": [
+    {
+      "id": "16c5608f-411f-50ae-b193-c9821fae5fd8",
+      "slug": "pancake-recipes",
+      "name": "Pancake Recipes",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "508b93c7-2692-52e2-92e8-8ba26eda8a95",
+      "slug": "sweet-potato",
+      "name": "Sweet Potato",
+      "color": null
+    },
+    {
+      "id": "932014c7-72f8-5911-83ed-0484f951c268",
+      "slug": "breakfast",
+      "name": "Breakfast",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "243b0b54-aa9c-5b58-8b36-d4a730f1e17d",
+      "slug": "southern",
+      "name": "Southern",
+      "color": null
+    },
+    {
+      "id": "f6c4b0b6-c32b-5d36-b81a-2ff399253a58",
+      "slug": "thanksgiving",
+      "name": "Thanksgiving",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/36168/louisiana-sweet-potato-pancakes"
+  },
+  "public": true,
+  "updated_at": 1773669016,
+  "revision": 1
+}

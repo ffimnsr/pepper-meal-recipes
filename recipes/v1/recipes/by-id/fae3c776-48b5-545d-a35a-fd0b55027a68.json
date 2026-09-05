@@ -1,0 +1,180 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fae3c776-48b5-545d-a35a-fd0b55027a68",
+  "slug": "margarita-on-the-rocks",
+  "name": "Margarita On The Rocks",
+  "recipe_type": "drink",
+  "brief_description": "A tasty margarita with an upscale flavor has a secret ingredient: lemon-lime soda.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Rim 2 margarita glasses with salt, if desired, and fill with ice. Pour tequila, sweetened lime juice, triple sec, and lemon-lime soda into a shaker filled with ice, hold your hand firmly over the top of the shaker so it doesn't pop off from the carbonated soda. Shake vigorously. Pour into prepared margarita glasses, and serve."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fae3c776-48b5-545d-a35a-fd0b55027a68/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "317 kcal",
+    "carbohydrateContent": "30 g",
+    "sodiumContent": "210 mg",
+    "sugarContent": "25 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "792657a9-e7f6-5771-9d0b-6fd7205b9bc8",
+      "name": "kosher salt for rimming glasses",
+      "normalized_name": "kosher salt for rimming glasses",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fdac9a9d-f042-57a0-990d-ea2cece3b643",
+      "name": "silver tequila",
+      "normalized_name": "silver tequila",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2ce8156c-14f2-5e9e-bb04-d576ed60b7d9",
+      "name": "sweetened lime juice (such as rose's\u00ae)",
+      "normalized_name": "sweetened lime juice",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "92a53e13-63d9-56d5-8d72-df0e99f6e0fd",
+      "name": "triple sec",
+      "normalized_name": "triple sec",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "85f855c3-25a7-527a-9cf2-ee101a233c0e",
+      "name": "lemon-lime soda",
+      "normalized_name": "lemon-lime soda",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "f0decdd4-0259-5932-b65f-943543dd4242",
+      "slug": "cocktail-recipes",
+      "name": "Cocktail Recipes",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "a6aa6fc5-788a-50ff-874a-81da194d5cc3",
+      "slug": "margarita-recipes",
+      "name": "Margarita Recipes",
+      "color": null
+    },
+    {
+      "id": "86254b05-da6b-5eb6-9ab7-df8181c8dd08",
+      "slug": "tequila-drinks-recipes",
+      "name": "Tequila Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214148/margarita-on-the-rocks"
+  },
+  "public": true,
+  "updated_at": 1774545091,
+  "revision": 1
+}

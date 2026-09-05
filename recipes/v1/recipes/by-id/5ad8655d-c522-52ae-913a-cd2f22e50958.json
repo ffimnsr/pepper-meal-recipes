@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5ad8655d-c522-52ae-913a-cd2f22e50958",
+  "slug": "eggnog-latte",
+  "name": "Eggnog Latte",
+  "recipe_type": "breakfast",
+  "brief_description": "This eggnog latte is easy to make with espresso, eggnog, milk, and a pinch of nutmeg for a creamy and delicious coffee drink over the holidays.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Pour milk and eggnog into a steaming pitcher and heat to between 145 degrees F to 165 degrees F (65 to 70 degrees C) using the steaming wand."
+    },
+    {
+      "position": 3,
+      "text": "Brew a shot of espresso; pour into a mug. Pour steamed milk and eggnog into the mug, using a spoon to hold back the foam."
+    },
+    {
+      "position": 4,
+      "text": "Spoon foam over the top. Sprinkle nutmeg on top of foam."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 1,
+  "preparation_time_minutes": 4,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5ad8655d-c522-52ae-913a-cd2f22e50958/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "275 kcal",
+    "carbohydrateContent": "27 g",
+    "cholesterolContent": "106 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "131 mg",
+    "sugarContent": "18 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e370cd75-207e-59f4-9603-0f946f30e380",
+      "name": "2% milk",
+      "normalized_name": "2 milk",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d3b04dee-8b6c-5b53-bd76-36be0536d9e9",
+      "name": "eggnog",
+      "normalized_name": "eggnog",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "49f0402c-0bd1-5ef8-a03c-da4a3e86ae26",
+      "name": "fluid ounce) jigger brewed espresso",
+      "normalized_name": "fluid ounce jigger brewed espresso",
+      "quantity": "1 (1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    }
+  ],
+  "tags": [
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "cc55fa79-2271-58fa-a7c2-d9b0578d26b4",
+      "slug": "coffee-drinks-recipes",
+      "name": "Coffee Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "fdaed86a-bbd7-5daf-83aa-ad4f8aa12cfd",
+      "slug": "new-year",
+      "name": "New Year",
+      "color": null
+    },
+    {
+      "id": "cbab581f-8f7e-551f-9782-dc6d0cce8d99",
+      "slug": "latte-recipes",
+      "name": "Latte Recipes",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "240b1c58-3a2c-5ba3-843f-a4a12161aacc",
+      "slug": "drinks-without-alcohol",
+      "name": "Drinks Without Alcohol",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/146962/eggnog-latte"
+  },
+  "public": true,
+  "updated_at": 1765206733,
+  "revision": 1
+}

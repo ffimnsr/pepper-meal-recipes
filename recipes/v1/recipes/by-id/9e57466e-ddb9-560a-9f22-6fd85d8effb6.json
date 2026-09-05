@@ -3,150 +3,177 @@
   "schema_version": 1,
   "id": "9e57466e-ddb9-560a-9f22-6fd85d8effb6",
   "slug": "easy-egg-salad",
-  "name": "Easy Egg Salad Recipe",
+  "name": "Easy Egg Salad",
   "recipe_type": "salad",
-  "brief_description": "Easy Egg Salad is a quick and simple egg salad recipe that you will surely like. It makes use of basic ingredients that are easy to find",
+  "brief_description": "Hard-cooked eggs and fat-free yogurt are seasoned with parsley, onion powder, paprika, and salt in this easy egg salad recipe.",
   "cuisine": null,
   "instructions": [
     {
       "position": 1,
-      "text": "Remove the shell from the eggs and chop the eggs into small pieces. Place the chopped eggs in a large bowl. Set aside."
-    },
-    {
-      "position": 2,
-      "text": "Meanwhile, combine mayonnaise, Dijon mustard, celery, green onion, dill relish, sugar, salt and pepper in another bowl. Stir to mix."
-    },
-    {
-      "position": 3,
-      "text": "Pour the mixture to the large bowl with the chopped boiled eggs. Toss until all the ingredients are well incorporated."
-    },
-    {
-      "position": 4,
-      "text": "Cover the bowl and refrigerate to chill for at least 1 hour."
-    },
-    {
-      "position": 5,
-      "text": "Serve as a salad or top over a slice of bread."
-    },
-    {
-      "position": 6,
-      "text": "Share and enjoy!"
+      "text": "Mix chopped eggs, yogurt, parsley, onion powder, paprika, and salt together in a bowl."
     }
   ],
-  "servings": 6,
-  "cooking_time_minutes": 1,
+  "servings": 8,
+  "cooking_time_minutes": null,
   "preparation_time_minutes": 10,
   "rest_time_minutes": null,
-  "difficulty": "medium",
+  "difficulty": "easy",
   "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9e57466e-ddb9-560a-9f22-6fd85d8effb6/cover.jpg",
   "video_url": null,
   "additional_media": [],
   "nutritional_information": {
     "@type": "NutritionInformation",
-    "servingSize": "6 g"
+    "calories": "83 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "212 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "141 mg",
+    "sugarContent": "1 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
   },
   "dietary_labels": [],
   "allergens": [],
   "equipment": [],
   "ingredients": [
     {
-      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
-      "name": "egg",
-      "normalized_name": "egg",
-      "quantity": "6",
+      "ingredient_id": "4bb8add9-9f4c-5f40-8f8c-9a0283d97c0a",
+      "name": "hard-cooked eggs",
+      "normalized_name": "hard-cooked eggs",
+      "quantity": "8",
       "unit": "pieces",
-      "preparation": "hard-boiled",
+      "preparation": "chopped",
       "position": 1
     },
     {
-      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
-      "name": "mayonnaise",
-      "normalized_name": "mayonnaise",
-      "quantity": "1/4",
+      "ingredient_id": "cb063985-7401-5447-8f22-ffaafb2479c0",
+      "name": "plain fat-free yogurt",
+      "normalized_name": "plain fat-free yogurt",
+      "quantity": "0.25",
       "unit": "cup",
       "preparation": null,
       "position": 2
     },
     {
-      "ingredient_id": "39941236-c351-5004-8091-b254457be6ee",
-      "name": "celery",
-      "normalized_name": "celery",
-      "quantity": "1/4",
-      "unit": "cup",
+      "ingredient_id": "187e7c77-dfc7-59fc-8aea-8d28ea6647eb",
+      "name": "parsley flakes",
+      "normalized_name": "parsley flakes",
+      "quantity": "1",
+      "unit": "tablespoon",
       "preparation": null,
       "position": 3
     },
     {
-      "ingredient_id": "c43f0603-4761-5956-842c-cacc7ec997cf",
-      "name": "dijon mustard",
-      "normalized_name": "dijon mustard",
-      "quantity": "1 1/2",
-      "unit": "tablespoons",
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "0.25",
+      "unit": "teaspoon",
       "preparation": null,
       "position": 4
     },
     {
-      "ingredient_id": "2bb7f8e7-f9f2-52d8-a55e-5a50a04b3eed",
-      "name": "green onion",
-      "normalized_name": "green onion",
-      "quantity": "3",
-      "unit": "tablespoons",
-      "preparation": null,
-      "position": 5
-    },
-    {
-      "ingredient_id": "ee4fe2fc-83b9-55b2-9487-6b31a89c8bbe",
-      "name": "dill",
-      "normalized_name": "dill",
-      "quantity": "2",
-      "unit": "teaspoons",
-      "preparation": null,
-      "position": 6
-    },
-    {
-      "ingredient_id": "bdb57237-b976-59dd-abd1-dfb1d9e58253",
-      "name": "granulated white sugar",
-      "normalized_name": "granulated white sugar",
-      "quantity": "1/2",
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "0.25",
       "unit": "teaspoon",
       "preparation": null,
-      "position": 7
+      "position": 5
     },
     {
       "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
       "name": "salt",
       "normalized_name": "salt",
-      "quantity": null,
-      "unit": null,
+      "quantity": "0.25",
+      "unit": "teaspoon",
       "preparation": null,
-      "position": 8
-    },
-    {
-      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
-      "name": "pepper",
-      "normalized_name": "pepper",
-      "quantity": null,
-      "unit": null,
-      "preparation": null,
-      "position": 9
+      "position": 6
     }
   ],
   "categories": [
     {
-      "id": "b0bfb4cb-2e19-5bf4-a6a6-ceee6b15275b",
-      "slug": "egg",
-      "name": "Egg"
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    },
+    {
+      "id": "83fc2e11-02d7-559d-87f0-bc031626509c",
+      "slug": "egg-salad",
+      "name": "Egg Salad"
     }
   ],
-  "tags": [],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "4f82ba91-8e28-5c5b-8bba-8dcdb96014aa",
+      "slug": "all-about-ingredients",
+      "name": "All About Ingredients",
+      "color": null
+    },
+    {
+      "id": "1691ea8f-b702-5006-890d-e13c651533b0",
+      "slug": "in-the-kitchen",
+      "name": "In the Kitchen",
+      "color": null
+    },
+    {
+      "id": "df9608cf-b97f-5ae1-aed7-985fe5ee2355",
+      "slug": "egg-salad-recipes",
+      "name": "Egg Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "22d732c6-fa1e-5878-b043-d71fc0690513",
+      "slug": "kitchen-tools-and-techniques",
+      "name": "Kitchen Tools and Techniques",
+      "color": null
+    }
+  ],
   "related_recipe_ids": [],
   "recipe_notes": [],
   "storage_notes": [],
   "source": {
-    "name": "Panlasang Pinoy",
-    "url": "https://panlasangpinoy.com/easy-egg-salad/"
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222514/easy-egg-salad"
   },
   "public": true,
-  "updated_at": 1383136632,
+  "updated_at": 1662562382,
   "revision": 1
 }

@@ -1,0 +1,187 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1cbd95d2-8ced-50c9-922c-b2ef2e047e8b",
+  "slug": "ice-cream-sandwich-cake",
+  "name": "Ice Cream Sandwich Cake",
+  "recipe_type": "dessert",
+  "brief_description": "This ice cream cake is made by layering ice cream sandwiches with hot fudge, caramel, and whipped topping for a decadent no-bake frozen dessert.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Arrange a layer of ice cream sandwiches in the bottom of a 9x13-inch dish; top with a layer of whipped topping, hot fudge topping, and caramel topping."
+    },
+    {
+      "position": 3,
+      "text": "Repeat layering with remaining ice cream sandwiches, whipped topping, hot fudge topping, and caramel topping, ending with a top layer of whipped topping. Sprinkle with pecans."
+    },
+    {
+      "position": 4,
+      "text": "Cover the dish with aluminum foil and freeze until set, about 30 minutes. Slice and serve with your favorite toppings!"
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1cbd95d2-8ced-50c9-922c-b2ef2e047e8b/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/9DUWSHMD-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "576 kcal",
+    "carbohydrateContent": "85 g",
+    "cholesterolContent": "40 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "16 g",
+    "sodiumContent": "260 mg",
+    "sugarContent": "48 g",
+    "fatContent": "25 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c051af0c-1cfc-5f5f-9132-d7dc1b14a6bc",
+      "name": "vanilla ice cream sandwiches",
+      "normalized_name": "vanilla ice cream sandwiches",
+      "quantity": "24",
+      "unit": "pieces",
+      "preparation": "unwrapped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "64078fe5-4738-5fd6-bb0d-a9d5026f45e6",
+      "name": "ounce) containers whipped topping (such as cool whip\u00ae)",
+      "normalized_name": "ounce containers whipped topping",
+      "quantity": "2 (8",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "57c12aa6-a392-597b-9041-d57b0241bc2f",
+      "name": "ounce) jar hot fudge ice cream topping",
+      "normalized_name": "ounce jar hot fudge ice cream topping",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "warmed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "094eb61f-47e4-5cb6-ac39-6a7fe9a8af77",
+      "name": "ounce) jar caramel ice cream topping",
+      "normalized_name": "ounce jar caramel ice cream topping",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a0ceb4ab-348a-5657-881b-75a939d19580",
+      "name": "chopped pecans",
+      "normalized_name": "chopped pecans",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "ae6fe95d-4e1e-5382-93c0-f2d4fa12d15d",
+      "slug": "frozen-dessert",
+      "name": "Frozen Dessert"
+    },
+    {
+      "id": "e642130c-04bf-5d65-bc70-2d4b2318f04a",
+      "slug": "ice-cream-cake",
+      "name": "Ice Cream Cake"
+    }
+  ],
+  "tags": [
+    {
+      "id": "50f70bb9-e15c-5182-be0d-29b0444422c1",
+      "slug": "frozen-dessert-recipes",
+      "name": "Frozen Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "41ee6a9e-3f13-5962-b0a9-ced1e68f3d54",
+      "slug": "birthday-parties",
+      "name": "Birthday Parties",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "0c0382f0-5eab-53c6-90d8-662245a076b6",
+      "slug": "memorial-day",
+      "name": "Memorial Day",
+      "color": null
+    },
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "2f34089e-b835-5ed1-813f-5559f567e8cf",
+      "slug": "4th-of-july-desserts",
+      "name": "4th of July Desserts",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232742/ice-cream-sandwich-cake"
+  },
+  "public": true,
+  "updated_at": 1761247342,
+  "revision": 1
+}

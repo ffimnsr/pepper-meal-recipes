@@ -1,0 +1,174 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "73cbc5df-2275-5946-b3a8-bbc4971ab45f",
+  "slug": "red-white-and-blueberry-fruit-salad",
+  "name": "Red, White, and Blueberry Fruit Salad",
+  "recipe_type": "salad",
+  "brief_description": "This strawberry and blueberry salad with bananas is tossed with sugar and lemon juice and has all the colors of the U.S. flag for a patriotic dessert.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine strawberries and blueberries in a large bowl. Sprinkle with sugar and lemon juice; toss lightly. Refrigerate until cold, at least 30 minutes."
+    },
+    {
+      "position": 2,
+      "text": "About 30 minutes before serving, cut bananas into 3/4-inch-thick slices; toss with berries until evenly distributed."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/73cbc5df-2275-5946-b3a8-bbc4971ab45f/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/DKpQLRzM-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "140 kcal",
+    "carbohydrateContent": "36 g",
+    "fiberContent": "3 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "2 mg",
+    "sugarContent": "26 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3bde7672-32cf-59b0-81af-8388c37136ed",
+      "name": "pint strawberries",
+      "normalized_name": "pint strawberries",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "hulled and quartered",
+      "position": 1
+    },
+    {
+      "ingredient_id": "1d0f6a4a-53d2-5de8-a054-d8864a6c0045",
+      "name": "pint blueberries",
+      "normalized_name": "pint blueberries",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "1eebb4b2-e59f-5c62-9071-16e2f2babccb",
+      "name": "bananas",
+      "normalized_name": "bananas",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6809851d-f994-59b4-bb21-0325acec5d25",
+      "slug": "kids",
+      "name": "Kids",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "38b2cb0a-079a-56eb-93bf-29da23d3ee9c",
+      "slug": "kid-friendly",
+      "name": "Kid-Friendly",
+      "color": null
+    },
+    {
+      "id": "0c0382f0-5eab-53c6-90d8-662245a076b6",
+      "slug": "memorial-day",
+      "name": "Memorial Day",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "efdf4003-25b0-5a9c-8f16-7e9c7e4a2234",
+      "slug": "blueberries",
+      "name": "Blueberries",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214674/red-white-and-blueberry-fruit-salad"
+  },
+  "public": true,
+  "updated_at": 1717199000,
+  "revision": 1
+}

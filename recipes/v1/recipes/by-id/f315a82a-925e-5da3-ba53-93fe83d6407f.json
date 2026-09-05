@@ -1,0 +1,172 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f315a82a-925e-5da3-ba53-93fe83d6407f",
+  "slug": "south-african-potato-salad",
+  "name": "South African Potato Salad",
+  "recipe_type": "salad",
+  "brief_description": "Delicious recipe of my mom's! The secret ingredient makes this potato salad different from all the rest!",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place eggs in a saucepan and cover with water. Bring to a boil and cook for 10 minutes. Remove eggs with a slotted spoon and set aside to cool. Add whole potatoes to the water and boil until a knife is easily inserted, but they are not too soft. Drain and cool."
+    },
+    {
+      "position": 2,
+      "text": "Peel and chop the eggs and place them in a large serving bowl. Stir in the green onions. When the potatoes have cooled, peel and chop then add them to the bowl. Pour in the sweetened condensed milk and stir in the mayonnaise. Sprinkle parley over the top. Chill until serving. This is best served chilled."
+    }
+  ],
+  "servings": 15,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f315a82a-925e-5da3-ba53-93fe83d6407f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "412 kcal",
+    "carbohydrateContent": "43 g",
+    "cholesterolContent": "141 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "218 mg",
+    "sugarContent": "17 g",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6d84e186-7c4a-51da-95ea-b5b6aa43f234",
+      "name": "medium white potatoes with skin",
+      "normalized_name": "medium white potatoes with skin",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d6672984-293d-5341-a773-3613abe74951",
+      "name": "bunch green onions",
+      "normalized_name": "bunch green onions",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "03008fe9-e050-5604-8bd8-5c38e2bea3ca",
+      "name": "ounce) can sweetened condensed milk",
+      "normalized_name": "ounce can sweetened condensed milk",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "for garnish",
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "36f0ba83-6cf7-5b3c-9c04-ccc142dd82bc",
+      "slug": "potato-salad-recipes",
+      "name": "Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "2da3665a-a303-53ed-bdd3-ef0cf24c6517",
+      "slug": "secret-ingredients",
+      "name": "Secret Ingredients",
+      "color": null
+    },
+    {
+      "id": "969854e0-7985-5540-b827-85bc9bddb0b6",
+      "slug": "white-potatoes",
+      "name": "White Potatoes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/102162/south-african-potato-salad"
+  },
+  "public": true,
+  "updated_at": 1657829114,
+  "revision": 1
+}

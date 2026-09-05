@@ -1,0 +1,186 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "05a760d4-6709-5915-a887-2eebe377e92d",
+  "slug": "bourbon-lemonade",
+  "name": "Bourbon Lemonade",
+  "recipe_type": "drink",
+  "brief_description": "Bourbon and brown sugar give a comforting, boozy twist to this summer-ready lemonade recipe that's easy to make ahead and serve at parties.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine hot water and brown sugar in a cocktail shaker. Stir until sugar is dissolved. Add lemon juice, bourbon, triple sec, and 1 cup of ice. Cover and shake until chilled, 15 to 20 seconds."
+    },
+    {
+      "position": 2,
+      "text": "Fill a highball glass with ice. Strain cocktail over ice and top with club soda. Stir to combine. Garnish with a lemon slice."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/05a760d4-6709-5915-a887-2eebe377e92d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "272 kcal",
+    "carbohydrateContent": "37 g",
+    "fiberContent": "0 g",
+    "proteinContent": "0 g",
+    "sodiumContent": "33 mg",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0497b2f2-fc7c-5cd1-8c09-fe5e3edc9fb4",
+      "name": "hot water",
+      "normalized_name": "hot water",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "68ae7b3b-3f5d-5677-93c7-aba867775ece",
+      "name": "fluid ounces freshly squeezed lemon juice",
+      "normalized_name": "fluid ounces freshly squeezed lemon juice",
+      "quantity": "1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ca9dbda6-e627-56e5-b84c-534650ca45d6",
+      "name": "fluid ounces bourbon whiskey",
+      "normalized_name": "fluid ounces bourbon whiskey",
+      "quantity": "1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "4153900e-0112-5a17-8bcc-dc99ec32aff7",
+      "name": "fluid ounce triple sec",
+      "normalized_name": "fluid ounce triple sec",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "f1102ddd-a1a6-5f8a-934f-666143834e15",
+      "name": "ice",
+      "normalized_name": "ice",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": "divided, or as needed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "da0abd32-d777-540b-8a58-3000308c58e1",
+      "name": "fluid ounces club soda",
+      "normalized_name": "fluid ounces club soda",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bbbe739f-2a4e-54d0-9f58-25513c7eebaf",
+      "name": "lemon slice",
+      "normalized_name": "lemon slice",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "3e4314d5-a851-5a19-bd71-897eb9f888de",
+      "slug": "lemonade",
+      "name": "Lemonade"
+    }
+  ],
+  "tags": [
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "baf2993a-351e-520b-9a29-cc3b5449a541",
+      "slug": "lemons",
+      "name": "Lemons",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "542e579b-2fdc-52e0-8b66-36e8fff15390",
+      "slug": "lemonade-recipes",
+      "name": "Lemonade Recipes",
+      "color": null
+    },
+    {
+      "id": "4f980c04-a794-5599-bffd-73d467590cee",
+      "slug": "juice-recipes",
+      "name": "Juice Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8407922/bourbon-lemonade"
+  },
+  "public": true,
+  "updated_at": 1655914990,
+  "revision": 1
+}

@@ -1,0 +1,253 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "feb35419-245c-577b-b407-ddcb06be7f07",
+  "slug": "curried-wild-rice-and-squash-soup",
+  "name": "Curried Wild Rice and Squash Soup",
+  "recipe_type": "soup",
+  "brief_description": "Yummy curried wild rice and squash soup.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a pot, bring the wild rice and water to a boil. Reduce heat to low, cover, and simmer 45 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Place the squash in a medium pot with enough water to cover, and bring to a boil. Cook 15 minutes, or until tender. Drain, return to the pot, and mash. Mix in the chicken broth and orange juice."
+    },
+    {
+      "position": 3,
+      "text": "Melt the butter in a skillet over medium heat, and saute the onion and garlic until tender. Season with the curry powder. Reduce heat to low, and continue cooking about 12 minutes, stirring occasionally."
+    },
+    {
+      "position": 4,
+      "text": "In a blender or food processor, blend the squash and broth with the onion and garlic mixture until smooth. Return to the medium pot, mix in the cooked wild rice, and cook until heated through. Season with salt and pepper to serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 75,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/feb35419-245c-577b-b407-ddcb06be7f07/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "309 kcal",
+    "carbohydrateContent": "61 g",
+    "cholesterolContent": "15 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "784 mg",
+    "sugarContent": "11 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3ec50257-6d22-52ff-9da1-0cdf51477ea5",
+      "name": "uncooked wild rice",
+      "normalized_name": "uncooked wild rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f496bab1-15e8-5140-86dc-e7973309681e",
+      "name": "butternut squash - peeled",
+      "normalized_name": "butternut squash - peeled",
+      "quantity": "2.5",
+      "unit": "pounds",
+      "preparation": "seeded, and cubed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5f2347f6-33f3-597d-834e-20653545df33",
+      "name": "orange juice",
+      "normalized_name": "orange juice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "finely chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "ea55ebcd-d2da-5f89-b8e9-ed703e3ce784",
+      "name": "curry powder",
+      "normalized_name": "curry powder",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1.25",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "bd0d1695-7b66-5071-9f9b-f09e048a9b23",
+      "slug": "squash-soup",
+      "name": "Squash Soup"
+    },
+    {
+      "id": "403da2f2-6d0d-59f4-8d05-dd2778831b17",
+      "slug": "butternut-squash-soup",
+      "name": "Butternut Squash Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5defd427-bf5c-575f-a2d7-c33dd6b0e4fa",
+      "slug": "butternut-squash-soup-recipes",
+      "name": "Butternut Squash Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d4ef8f15-0a58-50dd-a7a7-70f0c094eb34",
+      "slug": "whole-grains",
+      "name": "Whole Grains",
+      "color": null
+    },
+    {
+      "id": "8ca8d5c2-4970-503c-8e85-ee0b4721ce6f",
+      "slug": "wild-rice",
+      "name": "Wild Rice",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2ba3093b-13b7-506e-9f84-a215eaedbbc4",
+      "slug": "butternut-squash",
+      "name": "Butternut Squash",
+      "color": null
+    },
+    {
+      "id": "489def73-dc81-5671-9631-5bffd5bd351b",
+      "slug": "squash",
+      "name": "Squash",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/29776/curried-wild-rice-and-squash-soup"
+  },
+  "public": true,
+  "updated_at": 1657828817,
+  "revision": 1
+}

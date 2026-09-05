@@ -1,0 +1,235 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2d492e6a-8f2b-5c65-849f-3ac31cea3525",
+  "slug": "authentic-hungarian-goulash",
+  "name": "Authentic Hungarian Goulash",
+  "recipe_type": "soup",
+  "brief_description": "Flank steak, also known as London Broil, sauteed with onion and fragrant herbs, then simmered with potatoes.",
+  "cuisine": "Hungarian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large soup pot over medium high heat. Saute onions until soft, then add beef and brown. Stir in caraway seed, marjoram, garlic and paprika. Pour water over all, lower heat to low and simmer for 2 1/2 hours."
+    },
+    {
+      "position": 2,
+      "text": "Add potatoes and cook until tender, another 45 minutes to 1 hour. Season with salt and pepper to taste and serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 210,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2d492e6a-8f2b-5c65-849f-3ac31cea3525/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "339 kcal",
+    "carbohydrateContent": "29 g",
+    "cholesterolContent": "58 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "85 mg",
+    "sugarContent": "5 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d1e495b6-21e7-5cfd-b73a-44a6104e0ab3",
+      "name": "large onions",
+      "normalized_name": "large onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bcea839e-06b6-5da8-8bdd-72198104d335",
+      "name": "flank steak",
+      "normalized_name": "flank steak",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6f9cdca8-64a7-5093-b0b4-8aabaed294aa",
+      "name": "caraway seed",
+      "normalized_name": "caraway seed",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "81b7e63d-4dd5-593a-b159-45272d9a1999",
+      "name": "dried marjoram",
+      "normalized_name": "dried marjoram",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "69d1b056-2560-5b92-9f90-e747223dcaba",
+      "name": "large potatoes",
+      "normalized_name": "large potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 9
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "ffe557e2-ef6a-50c9-a01c-2201ed46a09b",
+      "slug": "goulash",
+      "name": "Goulash"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4ec7a9de-0aeb-5672-a472-d6645fe7a485",
+      "slug": "goulash-recipes",
+      "name": "Goulash Recipes",
+      "color": null
+    },
+    {
+      "id": "5f6b1b49-4a03-5a2d-be8a-1149e0a1d018",
+      "slug": "caraway-recipes",
+      "name": "Caraway Recipes",
+      "color": null
+    },
+    {
+      "id": "b0b94d68-c3b9-5d25-b287-2a562c7a9510",
+      "slug": "paprika-recipes",
+      "name": "Paprika Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25369/authentic-hungarian-goulash"
+  },
+  "public": true,
+  "updated_at": 1732344745,
+  "revision": 1
+}

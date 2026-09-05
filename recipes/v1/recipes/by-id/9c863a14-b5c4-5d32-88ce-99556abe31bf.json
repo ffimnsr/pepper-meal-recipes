@@ -1,0 +1,223 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9c863a14-b5c4-5d32-88ce-99556abe31bf",
+  "slug": "curry-pineapple-fried-rice",
+  "name": "Curry Pineapple Fried Rice",
+  "recipe_type": "main",
+  "brief_description": "This quick curry fried rice with chicken and pineapple was inspired by a dish at my favorite Thai restaurant.",
+  "cuisine": "World",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine water and rice in a saucepan over high heat; bring to a boil. Reduce heat to medium-low, cover, and simmer until rice is tender and all liquid has been absorbed, 20 to 25 minutes. Set rice aside."
+    },
+    {
+      "position": 2,
+      "text": "Whisk fish sauce, pineapple juice, and curry powder together in a small bowl."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a large skillet or wok over medium-high heat until shimmering. Cook and stir chicken and onion in hot oil until chicken is no longer pink and onions are translucent, about 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Stir in cooked rice, pineapple chunks, and curry mixture; cook and stir until rice is hot, 5 to 10 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9c863a14-b5c4-5d32-88ce-99556abe31bf/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "352 kcal",
+    "carbohydrateContent": "57 g",
+    "cholesterolContent": "38 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "409 mg",
+    "sugarContent": "15 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "69eb52aa-d6ef-508d-828e-206be1969dfb",
+      "name": "uncooked white rice",
+      "normalized_name": "uncooked white rice",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "1201440c-12d9-501f-b3b5-6d8e5bf8c207",
+      "name": "asian fish sauce",
+      "normalized_name": "asian fish sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bed32264-c563-5496-b8b7-ec82e63e81fa",
+      "name": "pineapple juice",
+      "normalized_name": "pineapple juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ea55ebcd-d2da-5f89-b8e9-ed703e3ce784",
+      "name": "curry powder",
+      "normalized_name": "curry powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "07d611ed-02a5-5943-97c6-e1c06d499daa",
+      "name": "boneless chicken meat",
+      "normalized_name": "boneless chicken meat",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cubed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "597a3004-01fb-5106-807d-2933b780f34e",
+      "name": "ounce) can pineapple chunks",
+      "normalized_name": "ounce can pineapple chunks",
+      "quantity": "1 (20",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "3abb4365-ccad-5837-b651-d178c73fe82c",
+      "slug": "fried-rice",
+      "name": "Fried Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214222/curry-pineapple-fried-rice"
+  },
+  "public": true,
+  "updated_at": 1663775126,
+  "revision": 1
+}

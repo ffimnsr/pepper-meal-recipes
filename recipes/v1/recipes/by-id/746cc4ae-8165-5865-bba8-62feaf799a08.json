@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "746cc4ae-8165-5865-bba8-62feaf799a08",
+  "slug": "state-fair-lemonade",
+  "name": "State Fair Lemonade",
+  "recipe_type": "drink",
+  "brief_description": "Homemade lemonade similar to what you get at the fair; Chef John reveals his secret recipe for making this refreshing summer drink.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Wash lemons and peel off all the zest using a vegetable peeler; set peeled lemons aside. Add lemon zest to a bowl and cover with sugar; toss to combine. Cover and let sit for a minimum of 2 hours, or up to overnight."
+    },
+    {
+      "position": 3,
+      "text": "Bring water to a boil in a pot over high heat; turn off heat and pour in lemon-sugar mixture. Stir and let sit until sugar is completely dissolved, about 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Pour through a mesh strainer back into the same bowl and discard the zest. Let cool to room temperature, 20 to 30 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Cut lemons in half and squeeze juice into the bowl. Pour lemonade into a serving pitcher; cover and chill thoroughly before serving over ice, at least 2 hours."
+    },
+    {
+      "position": 6,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/746cc4ae-8165-5865-bba8-62feaf799a08/cover.jpg",
+  "video_url": "https://cdn.jwplayer.com/videos/Vi3AUiry-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "183 kcal",
+    "carbohydrateContent": "53 g",
+    "fiberContent": "5 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "9 mg",
+    "sugarContent": "42 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "977d269f-89cf-52fb-8d10-b6c83e6ecb10",
+      "name": "lemons",
+      "normalized_name": "lemons",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b94296dc-9e1a-5dad-9dc2-727ad66f0055",
+      "name": "cold water",
+      "normalized_name": "cold water",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "3e4314d5-a851-5a19-bd71-897eb9f888de",
+      "slug": "lemonade",
+      "name": "Lemonade"
+    }
+  ],
+  "tags": [
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "542e579b-2fdc-52e0-8b66-36e8fff15390",
+      "slug": "lemonade-recipes",
+      "name": "Lemonade Recipes",
+      "color": null
+    },
+    {
+      "id": "4f980c04-a794-5599-bffd-73d467590cee",
+      "slug": "juice-recipes",
+      "name": "Juice Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "e04fcf40-e5a4-50fd-8d3d-75173326a0ee",
+      "slug": "chef-john",
+      "name": "Chef John",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/281089/state-fair-lemonade"
+  },
+  "public": true,
+  "updated_at": 1779986882,
+  "revision": 1
+}

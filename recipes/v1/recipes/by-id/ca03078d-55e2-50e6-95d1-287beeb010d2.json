@@ -1,0 +1,218 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ca03078d-55e2-50e6-95d1-287beeb010d2",
+  "slug": "gnocchi-with-tomato-sauce-and-mozzarella",
+  "name": "Gnocchi with Tomato Sauce and Mozzarella",
+  "recipe_type": "main",
+  "brief_description": "Known as 'gnocchi alla sorrentina', this is a classic Italian pasta dish that uses simple ingredients but tastes delicious. Use homemade or bought gnocchi.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a saucepan over medium heat; cook onion until soft and translucent, about 5 minutes. Add passata and salt; simmer over low heat while you prepare the gnocchi."
+    },
+    {
+      "position": 2,
+      "text": "Bring a large pot of lightly salted water to a boil. Cook gnocchi in the boiling water until they float to the top, 2 to 4 minutes. Drain."
+    },
+    {
+      "position": 3,
+      "text": "Set an oven rack about 6 inches from the heat source and preheat the oven's broiler."
+    },
+    {
+      "position": 4,
+      "text": "Pour 1 ladle of tomato sauce into the bottom of a baking dish. Add gnocchi, remaining tomato sauce, and Parmesan cheese; toss to combine. Arrange cubes of mozzarella cheese evenly on top."
+    },
+    {
+      "position": 5,
+      "text": "Place baking dish in the oven and broil until mozzarella cheese is melted and sauce has slightly reduced, 5 to 10 minutes. Remove from oven and garnish with basil leaves before serving."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ca03078d-55e2-50e6-95d1-287beeb010d2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "744 kcal",
+    "carbohydrateContent": "73 g",
+    "cholesterolContent": "88 mg",
+    "fiberContent": "10 g",
+    "proteinContent": "30 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "1101 mg",
+    "sugarContent": "2 g",
+    "fatContent": "40 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "9aa44676-d867-511d-bf77-4a0d2b57854a",
+      "name": "extra-virgin olive oil",
+      "normalized_name": "extra-virgin olive oil",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "c7eb7708-f149-5881-9c11-e9bd4ae735e5",
+      "name": "ounce) cans passata (crushed tomatoes)",
+      "normalized_name": "ounce cans passata",
+      "quantity": "1.5 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9d3827a3-7039-5c63-9e69-3a0798e66cf4",
+      "name": "ounce) package potato gnocchi",
+      "normalized_name": "ounce package potato gnocchi",
+      "quantity": "1 (18",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "c0a45287-e07c-550c-89cd-d44087d8c959",
+      "name": "ounce) ball fresh mozzarella",
+      "normalized_name": "ounce ball fresh mozzarella",
+      "quantity": "1 (4",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "82c6f85d-d67d-53e8-8bf9-eacb7978629d",
+      "name": "fresh basil leaves",
+      "normalized_name": "fresh basil leaves",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "44079fa6-9e49-52c2-8b4a-e01d5920c8a6",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles"
+    },
+    {
+      "id": "d2988218-5c48-5d5a-9b54-278e5c9dce3e",
+      "slug": "pasta-by-shape",
+      "name": "Pasta by Shape"
+    },
+    {
+      "id": "ffe516b3-5e3f-50ab-a9b8-208e7927132c",
+      "slug": "gnocchi",
+      "name": "Gnocchi"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bf928f4c-2a6a-5c01-9ecf-243b9f58a15b",
+      "slug": "dumpling-recipes",
+      "name": "Dumpling Recipes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/265089/gnocchi-with-tomato-sauce-and-mozzarella"
+  },
+  "public": true,
+  "updated_at": 1776133136,
+  "revision": 1
+}

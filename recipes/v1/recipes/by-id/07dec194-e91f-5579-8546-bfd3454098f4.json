@@ -1,0 +1,239 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "07dec194-e91f-5579-8546-bfd3454098f4",
+  "slug": "crab-chowder",
+  "name": "Crab Chowder",
+  "recipe_type": "soup",
+  "brief_description": "Dungeness crab is put to good use in this creamy crab chowder that is quick and delicious.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large pot over medium heat. Cook and stir onion, celery, thyme, salt, and pepper in hot butter until onion and celery start to soften, about 5 minutes. Stir potatoes, milk, broth, cream, and clam juice into onion mixture. Bring to a simmer; cook until potatoes are soft, about 10 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Pour broth mixture into a blender no more than half full. Cover and hold lid down; pulse a few times before leaving on to blend. Puree in batches until smooth. Return pureed soup to pot and stir in crabmeat. Cook until soup is hot and crab is heated through, about 5 minutes. Season with salt and pepper."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/07dec194-e91f-5579-8546-bfd3454098f4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "560 kcal",
+    "carbohydrateContent": "52 g",
+    "cholesterolContent": "160 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "36 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "818 mg",
+    "sugarContent": "7 g",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e75e9366-01c1-5159-ada4-75c7d3fcac8d",
+      "name": "yellow onion",
+      "normalized_name": "yellow onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "cut into 1/4-inch slices",
+      "position": 3
+    },
+    {
+      "ingredient_id": "82b4b7b9-bc8b-5920-afbf-a6df482049b0",
+      "name": "finely chopped fresh thyme",
+      "normalized_name": "finely chopped fresh thyme",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "7",
+      "unit": "pieces",
+      "preparation": "cut into 1/2-inch pieces",
+      "position": 6
+    },
+    {
+      "ingredient_id": "77dbab31-d057-5d61-a87f-ded964435ff7",
+      "name": "whole milk",
+      "normalized_name": "whole milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "eac016b5-c9f3-556d-b8ac-800ab6db824d",
+      "name": "ounce) can fish broth",
+      "normalized_name": "ounce can fish broth",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b22bc2e2-07c9-54aa-a04f-a6f6cd0810e9",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "512b9922-2e84-595d-a8bf-40051625345b",
+      "name": "ounce) bottle clam juice",
+      "normalized_name": "ounce bottle clam juice",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "289b6f44-1b85-5f5d-9d61-64561b91a058",
+      "name": "dungeness crab meat",
+      "normalized_name": "dungeness crab meat",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "chopped",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "a4131d4b-8905-5d67-a5a1-f0b71f3d1a32",
+      "slug": "chowders",
+      "name": "Chowders",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "6f0cbf8f-71f0-5dbd-9d5e-ff0c45cca341",
+      "slug": "crab",
+      "name": "Crab",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/234662/crab-chowder"
+  },
+  "public": true,
+  "updated_at": 1732722519,
+  "revision": 1
+}

@@ -1,0 +1,244 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ec206fbe-1a63-57b9-9315-0854675cc6f2",
+  "slug": "hummus-from-scratch",
+  "name": "Hummus from Scratch",
+  "recipe_type": "appetizer",
+  "brief_description": "Garbanzo beans and soybeans are cooked until tender in a pressure cooker, then mixed with tahini and other flavors. Stovetop cooking instructions are included as well.",
+  "cuisine": "Middle Eastern Inspired Greek American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Rinse the garbanzos and soybeans, and place them in a pressure cooker along with the bay leaf and onion. Add vegetable broth and enough water to cover the beans by 1 inch (or follow the manufacturer's instructions for the minimum amount of liquid required)."
+    },
+    {
+      "position": 2,
+      "text": "Seal the lid and bring the pressure up to high; reduce the heat to low and cook, maintaining high pressure, for 1 hour. Allow the pressure to drop naturally."
+    },
+    {
+      "position": 3,
+      "text": "Drain the beans, reserving the liquid. Place the beans in the bowl of a food processor. Add the garlic, lemon juice, soy sauce, black pepper, and tahini; process until smooth. (You may add some of the cooking liquid for a thinner consistency.) Scoop the mixture into a bowl, and mix in the parsley."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ec206fbe-1a63-57b9-9315-0854675cc6f2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "161 kcal",
+    "carbohydrateContent": "20 g",
+    "fiberContent": "6 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "302 mg",
+    "sugarContent": "4 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6a0ef4cd-cf15-509a-b61f-8d88a2840646",
+      "name": "dry garbanzo beans",
+      "normalized_name": "dry garbanzo beans",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "53e4ce77-6ebd-533a-8b47-38007a3ac072",
+      "name": "dried soybeans",
+      "normalized_name": "dried soybeans",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "quartered",
+      "position": 4
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "crushed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "4794b416-fd93-5c53-94bb-e546becf51d1",
+      "name": "black pepper to taste",
+      "normalized_name": "black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "5b143b3c-33df-539a-80d0-fbb5bd3c069b",
+      "name": "tahini",
+      "normalized_name": "tahini",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "fc9c8005-3c0b-59d4-ab34-549afecdd72e",
+      "slug": "hummus",
+      "name": "Hummus"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "fdaed86a-bbd7-5daf-83aa-ad4f8aa12cfd",
+      "slug": "new-year",
+      "name": "New Year",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "e9c7cb3f-2b04-5892-a9d2-9e4be2971320",
+      "slug": "middle-eastern",
+      "name": "Middle Eastern",
+      "color": null
+    },
+    {
+      "id": "cbb0de3c-3df0-54a1-8ef4-8f5d7ba3caf8",
+      "slug": "rosh-hashanah",
+      "name": "Rosh Hashanah",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/216621/hummus-from-scratch"
+  },
+  "public": true,
+  "updated_at": 1739564315,
+  "revision": 1
+}

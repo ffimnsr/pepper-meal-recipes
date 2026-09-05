@@ -1,0 +1,189 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "99411045-2148-5af6-a429-e315f226c34d",
+  "slug": "caribbean-health-drink",
+  "name": "Caribbean Health Drink",
+  "recipe_type": "drink",
+  "brief_description": "Freshly-blended carrot, banana, kiwi, apple, and pineapple make this delicious beverage.",
+  "cuisine": "Caribbean",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Blend the carrot, banana, kiwi, apple, pineapple, and ice cubes in a blender until smooth."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/99411045-2148-5af6-a429-e315f226c34d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "178 kcal",
+    "carbohydrateContent": "45 g",
+    "fiberContent": "7 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "47 mg",
+    "sugarContent": "29 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d162bf21-6a36-570a-a18e-4d1b3388b71a",
+      "name": "chopped carrot",
+      "normalized_name": "chopped carrot",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
+      "name": "banana",
+      "normalized_name": "banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d5b3cacf-9cae-5d25-980c-3618f606dd7c",
+      "name": "kiwi",
+      "normalized_name": "kiwi",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled",
+      "position": 3
+    },
+    {
+      "ingredient_id": "d50526d9-1e04-58e6-9359-2942f67f4dee",
+      "name": "apple - peeled",
+      "normalized_name": "apple - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored, and sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "40137ebe-a7c4-5f54-b38f-305724c0044a",
+      "name": "chopped pineapple",
+      "normalized_name": "chopped pineapple",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "84631e40-6558-5e7a-800b-d32ffe1ce2f1",
+      "slug": "caribbean",
+      "name": "Caribbean"
+    }
+  ],
+  "tags": [
+    {
+      "id": "53b4c0bb-791f-5da3-959f-0b5fb573386d",
+      "slug": "veggie",
+      "name": "Veggie",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "a5aa0bc2-4d79-5734-8d71-6d1d6d999e73",
+      "slug": "smoothie-recipes",
+      "name": "Smoothie Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/204423/caribbean-health-drink"
+  },
+  "public": true,
+  "updated_at": 1652307468,
+  "revision": 1
+}

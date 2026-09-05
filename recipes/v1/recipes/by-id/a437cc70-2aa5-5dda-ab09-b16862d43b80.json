@@ -1,0 +1,219 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a437cc70-2aa5-5dda-ab09-b16862d43b80",
+  "slug": "spinach-chicken-parmesan",
+  "name": "Spinach Chicken Parmesan",
+  "recipe_type": "main",
+  "brief_description": "Parmesan-coated chicken baked in a creamy spinach sauce.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "In a small bowl combine cheese and seasoning. Roll chicken pieces in cheese mixture to coat lightly. Set remaining cheese mixture aside. Arrange coated chicken pieces in an 8x8x2 inch baking dish."
+    },
+    {
+      "position": 3,
+      "text": "In a small saucepan, saute green onion in butter/margarine until tender. Stir in flour, then add milk all at once. Simmer, stirring, until bubbly. Stir in drained spinach and pimiento and mix together. Spoon spinach mixture over chicken and sprinkle with remaining cheese mixture. Bake uncovered for 30 to 35 minutes or until tender and chicken juices run clear."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a437cc70-2aa5-5dda-ab09-b16862d43b80/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "187 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "78 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "31 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "185 mg",
+    "sugarContent": "1 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4fbc17fe-1b70-5c92-a946-64cb41d20225",
+      "name": "italian seasoning",
+      "normalized_name": "italian seasoning",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "boneless chicken breasts",
+      "position": 3
+    },
+    {
+      "ingredient_id": "907b7443-17d3-5349-b4f1-941d5cb63ff7",
+      "name": "chopped green onions",
+      "normalized_name": "chopped green onions",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "068980a1-0ace-5c9b-b5cf-1f29246fd694",
+      "name": "skim milk",
+      "normalized_name": "skim milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "db6e680e-7193-51eb-8f44-c625efa50eb0",
+      "name": "ounce) package frozen chopped spinach",
+      "normalized_name": "ounce package frozen chopped spinach",
+      "quantity": "0.5 (10",
+      "unit": "pieces",
+      "preparation": "thawed and drained",
+      "position": 8
+    },
+    {
+      "ingredient_id": "0d8a1254-c7e9-5b62-9896-0bea9bcdabcb",
+      "name": "chopped pimento peppers",
+      "normalized_name": "chopped pimento peppers",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "739c4232-d987-51a3-81c0-383829f6c03e",
+      "slug": "parmesan",
+      "name": "Parmesan"
+    }
+  ],
+  "tags": [
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "d67c7e91-9ba4-51d9-8c2c-aa8fd8b4dd5d",
+      "slug": "cheesy-chicken",
+      "name": "Cheesy Chicken",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8823/spinach-chicken-parmesan"
+  },
+  "public": true,
+  "updated_at": 1786394209,
+  "revision": 1
+}

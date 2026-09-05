@@ -1,0 +1,276 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d628cb29-822c-5fe7-a2c8-fc2b45ce213d",
+  "slug": "tex-mex-potato-soup",
+  "name": "Tex Mex Potato Soup",
+  "recipe_type": "soup",
+  "brief_description": "A puree of potatoes boiled in chicken broth is added to a saute of mixed peppers, chilies, and ham in this spicy soup cooked with heavy cream and egg yolk. Serve with shredded cheddar cheese.",
+  "cuisine": "Tex Mex",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook potatoes in boiling water until tender, about 15 minutes. Drain and reserve."
+    },
+    {
+      "position": 2,
+      "text": "In a skillet, saute onion, green and red pepper in butter for 10 minutes, or until softened. Stir in the ham, green chilies, white pepper and cayenne. Cook for 1 minute longer. Reserve."
+    },
+    {
+      "position": 3,
+      "text": "In a blender, combine the potatoes and chicken broth and blend until smooth. Add to the sauteed vegetable mixture."
+    },
+    {
+      "position": 4,
+      "text": "Heat soup just to boiling. Beat the egg yolk with the heavy cream in a small bowl. Stir in 1/2 cup hot soup, stir yolk mixture back into sauce pan. Gently heat soup, but do not boil. Garnish with shredded cheddar cheese."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d628cb29-822c-5fe7-a2c8-fc2b45ce213d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "219 kcal",
+    "carbohydrateContent": "18 g",
+    "cholesterolContent": "69 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "379 mg",
+    "sugarContent": "3 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "915d3931-7f1a-547d-9655-7c5ac8ed53bd",
+      "name": "margarine",
+      "normalized_name": "margarine",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ee68b059-77c2-5bd2-ac8a-7af733407838",
+      "name": "chopped ham",
+      "normalized_name": "chopped ham",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "8b553655-1594-564f-bd75-e200285cffb0",
+      "name": "chopped green chile peppers",
+      "normalized_name": "chopped green chile peppers",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "ea83d9fc-a7f0-569b-9a22-2809a2699fe9",
+      "name": "ground white pepper",
+      "normalized_name": "ground white pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "47c10879-f6b3-56ce-b5af-359974be4f2a",
+      "name": "cayenne pepper",
+      "normalized_name": "cayenne pepper",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "8281aa04-9844-579b-b0ca-48a71f810798",
+      "name": "ounce) can chicken broth",
+      "normalized_name": "ounce can chicken broth",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "f57bd758-b955-5a0d-8781-8edfd21c2ac5",
+      "name": "egg yolk",
+      "normalized_name": "egg yolk",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 11
+    },
+    {
+      "ingredient_id": "b22bc2e2-07c9-54aa-a04f-a6f6cd0810e9",
+      "name": "heavy whipping cream",
+      "normalized_name": "heavy whipping cream",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "a223d120-a2a2-54de-8b0c-cc5e335554a3",
+      "slug": "cream-soup",
+      "name": "Cream Soup"
+    },
+    {
+      "id": "20e32d9d-9c43-5d94-91e7-d424849186a7",
+      "slug": "cream-of-potato-soup",
+      "name": "Cream of Potato Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c6bf3992-663f-5e3a-8ba5-f02997d350ab",
+      "slug": "cream-of-potato-soup-recipes",
+      "name": "Cream of Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69d9c1a1-e65a-5d1b-8125-29e2d6a07682",
+      "slug": "texas-recipes",
+      "name": "Texas Recipes",
+      "color": null
+    },
+    {
+      "id": "b158906b-2b1e-5e43-88fd-1b6c4fbc3619",
+      "slug": "peppercorn-recipes",
+      "name": "Peppercorn Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "a5b15e1a-ecdb-5fd8-9179-f304ae7d22bf",
+      "slug": "tex-mex",
+      "name": "Tex-Mex",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/12953/tex-mex-potato-soup"
+  },
+  "public": true,
+  "updated_at": 1657829017,
+  "revision": 1
+}

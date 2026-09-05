@@ -1,0 +1,322 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "3851ee38-0f99-56f4-be4d-1380debb9465",
+  "slug": "award-winning-chili",
+  "name": "Award-Winning Chili",
+  "recipe_type": "soup",
+  "brief_description": "This award-winning chili features a base of tomatoes, carrots, onions, bell pepper, wine, and steak sauce with seasoned ground beef, bacon, and beans.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Combine tomatoes, onion, celery, carrot, tomato paste, steak sauce, bell peppers, wine, and red pepper flakes in a large pot. Bring to a simmer over medium-low heat."
+    },
+    {
+      "position": 3,
+      "text": "While tomato mixture simmers, cook bacon in a large skillet over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels."
+    },
+    {
+      "position": 4,
+      "text": "Cook and stir beef in bacon drippings over medium-high heat until brown and crumbly; drain. Stir in chili seasoning."
+    },
+    {
+      "position": 5,
+      "text": "Stir seasoned beef, bacon, and cumin into tomato mixture. Continue to simmer until vegetables are tender and flavors are well blended. Stir in beans, cilantro, and parsley. Continue cooking until beans are heated through. Serve warm."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/3851ee38-0f99-56f4-be4d-1380debb9465/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "373 kcal",
+    "carbohydrateContent": "23 g",
+    "cholesterolContent": "64 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "1169 mg",
+    "sugarContent": "7 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "70ee6ca8-eda1-5214-ba6c-33f76d948ffb",
+      "name": "ounce) can stewed tomatoes",
+      "normalized_name": "ounce can stewed tomatoes",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5cc54c10-3b3f-5ab7-b4ab-194ca54bea2e",
+      "name": "ounce) can tomato paste",
+      "normalized_name": "ounce can tomato paste",
+      "quantity": "1 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "be22e401-c4b0-517a-8033-1770d04b3e37",
+      "name": "bottled steak sauce",
+      "normalized_name": "bottled steak sauce",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "36a74fec-d1b3-5fd5-a16b-85ed1240196f",
+      "name": "chopped green bell pepper",
+      "normalized_name": "chopped green bell pepper",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "819b4251-947d-58ee-98c1-767e6f9f8ebe",
+      "name": "chopped red bell pepper",
+      "normalized_name": "chopped red bell pepper",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "b1e2180f-a93b-5637-a231-e6913198d0d8",
+      "name": "white wine",
+      "normalized_name": "white wine",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "07650efc-8869-5114-9096-0912b3dbf48e",
+      "name": "crushed red pepper flakes",
+      "normalized_name": "crushed red pepper flakes",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "6c7616bc-a494-58a9-a94e-39bdc64b63a9",
+      "name": "ounce) package chili seasoning mix",
+      "normalized_name": "ounce package chili seasoning mix",
+      "quantity": "1 (1.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "c593906b-e65c-55ab-a751-2c4830119045",
+      "name": "ounce) can kidney beans",
+      "normalized_name": "ounce can kidney beans",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 15
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 17
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "2233d10f-275a-5e5c-a3df-d9ba7047b8ee",
+      "slug": "chili",
+      "name": "Chili"
+    },
+    {
+      "id": "495cb254-56d6-54fd-af82-ab1fa9406bc2",
+      "slug": "pork-chili",
+      "name": "Pork Chili"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "3a5da0b6-9dfb-5d3f-a47c-b6c3c42d4010",
+      "slug": "chili-recipes",
+      "name": "Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/26357/award-winning-chili"
+  },
+  "public": true,
+  "updated_at": 1775853310,
+  "revision": 1
+}

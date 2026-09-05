@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "bc0135b3-2c34-5fde-8aa9-b44ea26752b0",
+  "slug": "pikliz-recipe-8655382",
+  "name": "Pikliz",
+  "recipe_type": "salad",
+  "brief_description": "Pikliz is a Haitian pickled slaw with cabbage, bell peppers, carrots, and Scotch bonnet pepper that brightens up every dish.",
+  "cuisine": "Caribbean",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Stuff cabbage, carrot, bell peppers, onion, scallions, Scotch bonnet pepper, allspice, peppercorn, cloves, and bay leaf into a mason jar with a lid until it's filled to the brim."
+    },
+    {
+      "position": 2,
+      "text": "Add vinegar, and lime juice and press down on the ingredients. Seal the jar and shake once."
+    },
+    {
+      "position": 3,
+      "text": "Refrigerate for 2 days for flavors to meld."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/bc0135b3-2c34-5fde-8aa9-b44ea26752b0/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/c5yl72Bd-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "35 kcal",
+    "carbohydrateContent": "7 g",
+    "cholesterolContent": "0 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "16 mg",
+    "sugarContent": "2 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4abbb631-0ee9-5952-9b0f-4aaae7016725",
+      "name": "shredded cabbage",
+      "normalized_name": "shredded cabbage",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "shredded",
+      "position": 2
+    },
+    {
+      "ingredient_id": "8717e91b-a83e-5129-a159-7e103807ff8e",
+      "name": "red or yellow bell peppers",
+      "normalized_name": "red or yellow bell peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced thin.",
+      "position": 3
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "1/2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "2e29badd-0fe0-5541-8c39-bad1a1651fe8",
+      "name": "scallions",
+      "normalized_name": "scallions",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "sliced thin",
+      "position": 5
+    },
+    {
+      "ingredient_id": "0002d778-1ab3-531b-aea8-a9890277ec9d",
+      "name": "scotch bonnet peppers",
+      "normalized_name": "scotch bonnet peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeds removed and minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "88900b50-b087-5e5a-82e8-d6c189211231",
+      "name": "tbl whole allspice",
+      "normalized_name": "tbl whole allspice",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "6be11fb3-6d3a-553e-b997-fba12dd1529e",
+      "name": "peppercorns",
+      "normalized_name": "peppercorns",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "de865d8b-c210-5e7e-83cb-e19591a47f77",
+      "name": "2 cloves",
+      "normalized_name": "2 cloves",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "80f8cca6-1ee2-5d16-a2c1-aa5f5f52faa3",
+      "name": "white vinegar",
+      "normalized_name": "white vinegar",
+      "quantity": "1 1/2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "59ad6408-a9e8-5f6c-aa7a-e073cf4e0a9c",
+      "name": "lime juice",
+      "normalized_name": "lime juice",
+      "quantity": "2",
+      "unit": "tbsp",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    },
+    {
+      "id": "ec9d976e-4296-5c34-88a4-518d14e86e0b",
+      "slug": "allrecipes",
+      "name": "Allrecipes",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "170d80e1-57fa-54ec-b077-b2a428ffc742",
+      "slug": "coleslaw-recipes",
+      "name": "Coleslaw Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/pikliz-recipe-8655382"
+  },
+  "public": true,
+  "updated_at": 1718037059,
+  "revision": 1
+}

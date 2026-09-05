@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fff7217c-6168-50b3-8af6-b424fa2f9363",
+  "slug": "apple-smoothie-recipe-7568869",
+  "name": "Apple Smoothie",
+  "recipe_type": "dessert",
+  "brief_description": "This apple smoothie works well with any kind of apple\u2014sweet, tart, or anything in between. With warm pie spices, Greek yogurt, banana, and almond butter, it's a great way to begin your day or liven up the afternoon.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place banana, apple, yogurt, apple juice, oats, almond butter, maple syrup, cinnamon, nutmeg, and cloves into the cup of a high speed blender, and blend until smooth. If desired, add ice for a thicker smoothie, or add milk for a thinner consistency."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 0,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fff7217c-6168-50b3-8af6-b424fa2f9363/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "623 kcal",
+    "carbohydrateContent": "95 g",
+    "cholesterolContent": "22 mg",
+    "fiberContent": "11 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "69 mg",
+    "sugarContent": "62 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "81977c52-75c7-50c7-b16e-7c2bc872ddd2",
+      "name": "small banana",
+      "normalized_name": "small banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and frozen",
+      "position": 1
+    },
+    {
+      "ingredient_id": "26b394ee-a14a-5bdb-90dc-6eba6a243c71",
+      "name": "large fuji apple",
+      "normalized_name": "large fuji apple",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored and sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "8d7f4040-ecac-5027-9935-8a17baa76caa",
+      "name": "whole milk plain greek yogurt",
+      "normalized_name": "whole milk plain greek yogurt",
+      "quantity": "3/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "16a15664-5f3d-5f38-9c66-7f47343d2f38",
+      "name": "unsweetened apple juice",
+      "normalized_name": "unsweetened apple juice",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "4f28533b-45b7-5cce-8ccb-8a0f71f11c06",
+      "name": "rolled oats",
+      "normalized_name": "rolled oats",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "26a2c405-0b42-5418-bb69-f6771d4e1773",
+      "name": "almond butter",
+      "normalized_name": "almond butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f3c9a5c8-4880-5c44-af54-63d919c247d4",
+      "name": "maple syrup",
+      "normalized_name": "maple syrup",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "or to taste",
+      "position": 7
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": null,
+      "unit": "pinch",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": null,
+      "unit": "pinch",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "3a08fd59-870f-5cb5-97dc-304b1ce57e08",
+      "name": "ground cloves",
+      "normalized_name": "ground cloves",
+      "quantity": null,
+      "unit": "pinch",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "017f8645-ec08-59b4-a868-cdf69e504615",
+      "slug": "entree",
+      "name": "Entree"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "bf7a8a39-9600-5ef7-a033-6690a7aa3bfc",
+      "slug": "beverage",
+      "name": "Beverage"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "22747c61-affc-5af6-b765-c8adce017637",
+      "slug": "smoothie",
+      "name": "Smoothie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "2b72c894-b609-5713-85a5-4e54f2546268",
+      "slug": "allrecipes-magazine-recipes",
+      "name": "Allrecipes Magazine Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/apple-smoothie-recipe-7568869"
+  },
+  "public": true,
+  "updated_at": 1691013335,
+  "revision": 1
+}

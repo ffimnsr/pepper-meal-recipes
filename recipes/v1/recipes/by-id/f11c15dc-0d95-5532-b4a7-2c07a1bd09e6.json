@@ -1,0 +1,235 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f11c15dc-0d95-5532-b4a7-2c07a1bd09e6",
+  "slug": "shepherds-pie-v",
+  "name": "Shepherd's Pie V",
+  "recipe_type": "main",
+  "brief_description": "Ground beef and frozen vegetables are seasoned and topped with mashed potatoes. This is a handy, quick dinner casserole!",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of salted water to a boil. Add potatoes and cook until tender, about 15 minutes. Drain, cool and mash."
+    },
+    {
+      "position": 2,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 2 quart casserole dish."
+    },
+    {
+      "position": 3,
+      "text": "In a large heavy skillet, saute meat until browned on all sides, stirring occasionally. Drain excess fat and return meat to pan over medium heat. Pour in water and season with beef and chicken bouillon, rosemary, salt, pepper, steak seasoning and onion flakes. Stir in frozen vegetables. Cook, stirring occasionally, until most of the water has evaporated."
+    },
+    {
+      "position": 4,
+      "text": "Pour meat mixture into a 2 quart casserole dish. Cover top with mashed potatoes. Bake in preheated oven for 20 to 30 minutes, or until top begins to brown."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 60,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f11c15dc-0d95-5532-b4a7-2c07a1bd09e6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "189 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "24 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "417 mg",
+    "sugarContent": "1 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "7",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ac3eda1f-ba49-5a61-a2f8-86239bd98b37",
+      "name": "ground round",
+      "normalized_name": "ground round",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "895cde85-bb5d-5395-bf4a-89a9ae7b5cce",
+      "name": "cubes beef bouillon",
+      "normalized_name": "cubes beef bouillon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9e44c4d0-6db4-5e62-b94f-1d9cb6c7907b",
+      "name": "cube chicken bouillon",
+      "normalized_name": "cube chicken bouillon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "8276eea8-48d5-53bd-807f-402083fde791",
+      "name": "dried rosemary",
+      "normalized_name": "dried rosemary",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "f2e405cb-0733-515d-8d04-7cc7817e1ac8",
+      "name": "steak seasoning",
+      "normalized_name": "steak seasoning",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "a42c2ae1-2822-5978-9856-d88c7500bfe2",
+      "name": "dried minced onion flakes",
+      "normalized_name": "dried minced onion flakes",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "2e5c954e-c751-5a7d-b7c3-76ca09d8626e",
+      "name": "frozen mixed vegetables",
+      "normalized_name": "frozen mixed vegetables",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9afb73a2-c6dc-5a2e-ac71-57fc2c902428",
+      "slug": "savory-pie",
+      "name": "Savory Pie"
+    },
+    {
+      "id": "980542e9-26b4-5c98-b6c0-ab24b09fc1be",
+      "slug": "shepherd-s-pie",
+      "name": "Shepherd's Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "17f4c204-15f9-596a-8568-681c02f3617f",
+      "slug": "300-calorie-main-dish-recipes",
+      "name": "300 Calorie Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "bdee1869-2a3c-5547-828c-766d1cec95ef",
+      "slug": "savory-pie-recipes",
+      "name": "Savory Pie Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22348/shepherds-pie-v"
+  },
+  "public": true,
+  "updated_at": 1657828061,
+  "revision": 1
+}

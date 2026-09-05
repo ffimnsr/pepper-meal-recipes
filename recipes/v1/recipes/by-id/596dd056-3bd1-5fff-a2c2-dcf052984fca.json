@@ -1,0 +1,235 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "596dd056-3bd1-5fff-a2c2-dcf052984fca",
+  "slug": "caribbean-slaw",
+  "name": "Caribbean Slaw",
+  "recipe_type": "salad",
+  "brief_description": "This colorful coleslaw is sweetened with agave syrup and given a bit of heat with the use of a habanero hot sauce.",
+  "cuisine": "Caribbean",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Toss the cabbage, red bell pepper, red onion, carrots, mango, and cilantro together in a large bowl."
+    },
+    {
+      "position": 2,
+      "text": "Whisk the yogurt, mayonnaise, mustard, cider vinegar, agave nectar, salt, pepper, and hot sauce together in a small bowl; pour over the cabbage mixture and toss to coat. Allow the slaw to marinate in the refrigerator for at least 1 hour to allow the flavors to combine."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/596dd056-3bd1-5fff-a2c2-dcf052984fca/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "61 kcal",
+    "carbohydrateContent": "13 g",
+    "cholesterolContent": "0 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "95 mg",
+    "sugarContent": "9 g",
+    "fatContent": "1 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "8da7a19b-e632-5cbd-b215-1f1e7909e52e",
+      "name": "head green cabbage",
+      "normalized_name": "head green cabbage",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "shredded",
+      "position": 1
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "thinly sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and shredded",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c76c5583-de3b-5287-ad3e-7ccdca3822e0",
+      "name": "mango - peeled",
+      "normalized_name": "mango - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded, and diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "06e30bc6-9c07-544b-8016-edd6eba91c34",
+      "name": "fresh cilantro",
+      "normalized_name": "fresh cilantro",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0d00279e-d03c-51ff-9716-0f7f5e66082d",
+      "name": "nonfat plain yogurt",
+      "normalized_name": "nonfat plain yogurt",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "693da850-d7df-5a30-a878-b97eeb03cf39",
+      "name": "reduced-fat mayonnaise",
+      "normalized_name": "reduced-fat mayonnaise",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "3b710695-cc41-5a91-9313-1936147aba6c",
+      "name": "apple cider vinegar",
+      "normalized_name": "apple cider vinegar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "62e765a1-bcf6-58da-8e26-f5a368358cb9",
+      "name": "agave nectar",
+      "normalized_name": "agave nectar",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "133a8d1c-cf97-5603-b0e7-a44c1c7d655f",
+      "name": "salt and black pepper to taste",
+      "normalized_name": "salt and black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "b4ced14e-d3fe-5427-9863-75cde6dd914f",
+      "name": "dash habanero hot sauce",
+      "normalized_name": "dash habanero hot sauce",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "or more to taste",
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "0cb7f7e9-0f44-544e-9f57-3101ccea369c",
+      "slug": "red-bell-peppers",
+      "name": "Red Bell Peppers",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "a954f7c7-64e6-5e0d-a6e9-db6ead009ad0",
+      "slug": "diabetic",
+      "name": "Diabetic",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "3771cb5d-b684-55dd-9da3-25a68a58365b",
+      "slug": "cabbage-coleslaw-recipes",
+      "name": "Cabbage Coleslaw Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/214509/caribbean-slaw"
+  },
+  "public": true,
+  "updated_at": 1761776279,
+  "revision": 1
+}

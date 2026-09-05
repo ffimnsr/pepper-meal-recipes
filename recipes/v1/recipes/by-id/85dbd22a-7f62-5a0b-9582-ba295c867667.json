@@ -1,0 +1,228 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "85dbd22a-7f62-5a0b-9582-ba295c867667",
+  "slug": "basic-california-roll",
+  "name": "Basic California Roll",
+  "recipe_type": "main",
+  "brief_description": "This is a basic California roll recipe with crab, cucumber, avocado, nori, flying fish roe, sushi rice, and sesame seeds. This recipe makes four rolls.",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Stir chopped crab sticks and mayonnaise together in a small bowl; set aside."
+    },
+    {
+      "position": 2,
+      "text": "Slice ends off cucumber; cut into quarters lengthwise. Thinly slice each quarter lengthwise to make spears; set aside."
+    },
+    {
+      "position": 3,
+      "text": "Lay 1 sheet nori on bamboo sushi rolling mat. With wet fingers, firmly pat a thin, even layer of prepared rice over nori, leaving a 1/3-inch edge at the bottom. Sprinkle sesame seeds over rice; carefully flip over."
+    },
+    {
+      "position": 4,
+      "text": "Place 1 tablespoon crab mixture in a line about one-third from the top. Place 1 to 2 cucumber spears and 1 to 3 avocado slices."
+    },
+    {
+      "position": 5,
+      "text": "Roll nori sheet tightly into a cylinder around rice and filling, using the bamboo mat, starting at the top edge. Moisten uncovered edge with water; finish rolling once you reach the bottom. Repeat with the remaining nori, rice, sesame seeds, crab mixture, cucumber, and avocado."
+    },
+    {
+      "position": 6,
+      "text": "Slice each roll into 3/4-inch pieces. Garnish each piece with 1/8 teaspoon tobiko."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 45,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/85dbd22a-7f62-5a0b-9582-ba295c867667/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/8kTKOpuU-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "352 kcal",
+    "carbohydrateContent": "34 g",
+    "cholesterolContent": "28 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "300 mg",
+    "sugarContent": "3 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "96bbfc27-ebf8-513d-9afc-924be2d01671",
+      "name": "crab sticks",
+      "normalized_name": "crab sticks",
+      "quantity": "3.5",
+      "unit": "ounces",
+      "preparation": "finely chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ec1c2b5e-cca0-5d55-a629-5ae15ac48fb5",
+      "name": "cucumber",
+      "normalized_name": "cucumber",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "15ce914e-29ad-5a58-92d8-80adda102986",
+      "name": "sheets nori (dry seaweed)",
+      "normalized_name": "sheets nori",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "e7a8dba8-31f9-5b11-a3ec-531b4346005a",
+      "name": "cooked sushi rice",
+      "normalized_name": "cooked sushi rice",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "e1f678b6-d8cf-5c32-9ae8-0d389e675eb7",
+      "name": "sesame seeds",
+      "normalized_name": "sesame seeds",
+      "quantity": "2.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "a8da5e1f-7b18-55b3-81fc-99e0bba480ca",
+      "name": "avocado",
+      "normalized_name": "avocado",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "e66ae6e3-33f8-5087-b8d2-9a0576ed0e62",
+      "name": "tobiko (flying fish roe)",
+      "normalized_name": "tobiko",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "4f18d61e-1945-57c4-b05d-6900eb4e2b54",
+      "slug": "japanese",
+      "name": "Japanese"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "ce42b902-40b1-5733-83a2-3f55dfe6e7fc",
+      "slug": "cucumber",
+      "name": "Cucumber",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279559/basic-california-roll"
+  },
+  "public": true,
+  "updated_at": 1734486808,
+  "revision": 1
+}

@@ -1,0 +1,185 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e2cae6ae-6845-58d5-845d-b107087c33e9",
+  "slug": "scottish-shepherds-pie",
+  "name": "Scottish Shepherd's Pie",
+  "recipe_type": "main",
+  "brief_description": "Cubed ham is arranged in the bottom of a casserole dish, topped with creamed corn and briefly heated in the oven. Mashed potatoes are spooned on top, and then the pie is returned to the oven. Just before serving, it 's dotted with butter and slipped under the broiler to brown.",
+  "cuisine": "Scottish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place ham in a 2 quart casserole dish and top with corn. Heat in preheated oven 10 minutes. Remove and top with mashed potatoes. Heat in oven for 20 more minutes, then remove."
+    },
+    {
+      "position": 3,
+      "text": "Turn oven to \"broil\" setting. Dot potatoes with butter or margarine, then place pie under broiler just until golden brown on top, about 3 minutes. Serve immediately."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e2cae6ae-6845-58d5-845d-b107087c33e9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "371 kcal",
+    "carbohydrateContent": "54 g",
+    "cholesterolContent": "49 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "1100 mg",
+    "sugarContent": "5 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "53c4ecc7-54c9-56e4-9496-38a51a8b5995",
+      "name": "cooked ham",
+      "normalized_name": "cooked ham",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into one inch cubes",
+      "position": 1
+    },
+    {
+      "ingredient_id": "912fa404-5d5a-5dd8-9856-545cf6de8e66",
+      "name": "ounce) cans creamed corn",
+      "normalized_name": "ounce cans creamed corn",
+      "quantity": "2 (14.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "d1d8851e-b5be-519a-8385-fcd65fae545b",
+      "name": "potatoes - peeled",
+      "normalized_name": "potatoes - peeled",
+      "quantity": "7",
+      "unit": "pieces",
+      "preparation": "boiled and mashed",
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "15d08352-a4a8-517f-98a7-c34a0844c012",
+      "slug": "uk-and-ireland",
+      "name": "UK and Ireland"
+    },
+    {
+      "id": "7ec9bafe-4aae-5165-8436-470b98e6c40d",
+      "slug": "scottish",
+      "name": "Scottish"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b47afa88-9f0d-5c19-bad8-7b84ed660e85",
+      "slug": "vegetable",
+      "name": "Vegetable",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "40044905-5641-52ce-8e18-26e3afdeb43f",
+      "slug": "occasions",
+      "name": "Occasions",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/15958/scottish-shepherds-pie"
+  },
+  "public": true,
+  "updated_at": 1659969563,
+  "revision": 1
+}

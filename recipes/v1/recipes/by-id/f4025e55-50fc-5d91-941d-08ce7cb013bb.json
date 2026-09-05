@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f4025e55-50fc-5d91-941d-08ce7cb013bb",
+  "slug": "cast-iron-cornbread",
+  "name": "Cast Iron Cornbread",
+  "recipe_type": "main",
+  "brief_description": "Chef John's cast iron cornbread is easy to make with cornmeal, buttermilk, eggs, honey, and a pinch of cayenne, baked until golden with crisp edges.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a 9-inch cast iron skillet. Turn off the heat; set the skillet aside."
+    },
+    {
+      "position": 3,
+      "text": "Whisk buttermilk, cornmeal, eggs, honey, salt, and cayenne pepper together in a large bowl. Add flour and 1/2 of the butter from the pan; whisk again. Pour batter over remaining butter in the skillet."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 25 minutes. Let cool briefly before slicing."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f4025e55-50fc-5d91-941d-08ce7cb013bb/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/TCXJnpLy-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "281 kcal",
+    "carbohydrateContent": "34 g",
+    "cholesterolContent": "79 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "413 mg",
+    "sugarContent": "9 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "950239d2-8408-5a49-a8bd-7298ae896627",
+      "name": "buttermilk",
+      "normalized_name": "buttermilk",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "4531b0a6-2a34-5e23-acd0-cbcf6b44f511",
+      "name": "cornmeal",
+      "normalized_name": "cornmeal",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "c8d6af28-cbfc-56ff-9ba1-6b27b0df4ead",
+      "name": "fine salt",
+      "normalized_name": "fine salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "47c10879-f6b3-56ce-b5af-359974be4f2a",
+      "name": "cayenne pepper",
+      "normalized_name": "cayenne pepper",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "19627330-037a-5232-baf2-bba90d980e4c",
+      "name": "self-rising flour",
+      "normalized_name": "self-rising flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "d018fabc-8136-53dd-944f-11b7f7a263e7",
+      "slug": "cornbread",
+      "name": "Cornbread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "dbfb10d8-d6ea-578f-b225-ea58cb45c549",
+      "slug": "cornbread-recipes",
+      "name": "Cornbread Recipes",
+      "color": null
+    },
+    {
+      "id": "e04fcf40-e5a4-50fd-8d3d-75173326a0ee",
+      "slug": "chef-john",
+      "name": "Chef John",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "1469a788-fbf9-5386-8e2c-4c453f138894",
+      "slug": "cornmeal",
+      "name": "Cornmeal",
+      "color": null
+    },
+    {
+      "id": "f01feff9-0daa-53ad-90b4-1e3f426879d5",
+      "slug": "buttermilk-recipes",
+      "name": "Buttermilk Recipes",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "1495c042-cb7a-5119-a28e-74db7b2e1a09",
+      "slug": "cast-iron-skillet",
+      "name": "Cast Iron Skillet",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "1e83fd8f-f8d5-5dd8-98fc-88de342429d2",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/267829/cast-iron-cornbread"
+  },
+  "public": true,
+  "updated_at": 1776800521,
+  "revision": 1
+}

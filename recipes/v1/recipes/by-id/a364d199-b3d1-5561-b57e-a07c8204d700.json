@@ -1,0 +1,204 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a364d199-b3d1-5561-b57e-a07c8204d700",
+  "slug": "alfredo-sauce",
+  "name": "Alfredo Sauce",
+  "recipe_type": "side",
+  "brief_description": "This creamy Alfredo sauce recipe makes a rich and creamy sauce flavored with garlic and Parmesan cheese that's delicious tossed with warm pasta.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a medium saucepan over low heat; stir in cream and simmer for 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Whisk in cheese and garlic, whisking continuously until heated through. Stir in parsley."
+    },
+    {
+      "position": 4,
+      "text": "Serve immediately and enjoy!"
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a364d199-b3d1-5561-b57e-a07c8204d700/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/0VgyhZWv-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "465 kcal",
+    "carbohydrateContent": "8 g",
+    "cholesterolContent": "130 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "27 g",
+    "sodiumContent": "787 mg",
+    "sugarContent": "2 g",
+    "fatContent": "44 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0d9540ed-f036-58af-a069-b148b895ce06",
+      "name": "freshly grated parmesan cheese",
+      "normalized_name": "freshly grated parmesan cheese",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "crushed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "df0dbffa-e580-5a23-819f-ace03de714f7",
+      "slug": "sauce",
+      "name": "Sauce"
+    },
+    {
+      "id": "04342015-cac5-527c-b1f5-5d0f9910af90",
+      "slug": "sauces",
+      "name": "Sauces"
+    },
+    {
+      "id": "b10034d4-200e-527f-b96c-84f307d8e315",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces"
+    },
+    {
+      "id": "a19beda8-dd0b-514d-8d87-c5b56272bbc8",
+      "slug": "creamy",
+      "name": "Creamy"
+    },
+    {
+      "id": "77e6f6d8-402f-5bc6-ab04-c2211f470388",
+      "slug": "alfredo",
+      "name": "Alfredo"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "1287b5fa-141b-5132-a377-e65a4bca4c98",
+      "slug": "alfredo",
+      "name": "Alfredo",
+      "color": null
+    },
+    {
+      "id": "9b1d5e14-edc0-5e19-9249-8efcbd50f025",
+      "slug": "valentine-s-day",
+      "name": "Valentine's Day",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "2cff95a3-f637-55d7-ae8c-f790b34c478c",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "4e04f68a-c437-5e41-8d01-9bc5c07ab26f",
+      "slug": "creamy",
+      "name": "Creamy",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22831/alfredo-sauce"
+  },
+  "public": true,
+  "updated_at": 1773875637,
+  "revision": 1
+}

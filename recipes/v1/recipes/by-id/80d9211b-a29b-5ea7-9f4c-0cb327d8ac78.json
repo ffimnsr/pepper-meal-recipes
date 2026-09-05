@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "80d9211b-a29b-5ea7-9f4c-0cb327d8ac78",
+  "slug": "carrot-ceviche-vegan",
+  "name": "Carrot Ceviche (Vegan)",
+  "recipe_type": "appetizer",
+  "brief_description": "This Mexican recipe for ceviche de zanahoria, carrot ceviche, is vegan and tastes great served on tostadas, sprinkled with avocado.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix carrots, tomato, onion, serrano pepper, and cilantro together in a bowl."
+    },
+    {
+      "position": 2,
+      "text": "Combine ketchup, orange juice, lime juice, and hot sauce in a separate bowl. Pour over vegetables and season with salt. Let stand for 1 hour until flavors are well combined. Drain."
+    },
+    {
+      "position": 3,
+      "text": "Serve on tostadas and garnish with avocado."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/80d9211b-a29b-5ea7-9f4c-0cb327d8ac78/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "150 kcal",
+    "carbohydrateContent": "22 g",
+    "fiberContent": "5 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "307 mg",
+    "sugarContent": "8 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ba9bf63e-b1a7-522d-8eba-00fe629ee2c3",
+      "name": "large carrots",
+      "normalized_name": "large carrots",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "peeled and grated",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bfc75db0-f0a9-5220-8b94-6d93671874b3",
+      "name": "large tomato",
+      "normalized_name": "large tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "b21643dc-bcf3-5c23-8692-974627b1dc7f",
+      "name": "serrano pepper",
+      "normalized_name": "serrano pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "06e30bc6-9c07-544b-8016-edd6eba91c34",
+      "name": "fresh cilantro",
+      "normalized_name": "fresh cilantro",
+      "quantity": "15",
+      "unit": "sprigs",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1129303e-42ef-5a45-aa23-c76f7454f30c",
+      "name": "small oranges",
+      "normalized_name": "small oranges",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "35ba60f6-f311-5c9f-b7d4-8e229c254ce5",
+      "name": "small lime",
+      "normalized_name": "small lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "juiced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "227cc955-9574-54db-ab34-bc937f0f0b59",
+      "name": "mexican-style hot sauce (such as cholula\u00ae)",
+      "normalized_name": "mexican-style hot sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "da642203-1826-5e26-aa11-5fee38818afc",
+      "name": "tostada shells",
+      "normalized_name": "tostada shells",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "2f35d6b1-7888-5f9b-8ea7-7bc148edd620",
+      "name": "avocado - pitted",
+      "normalized_name": "avocado - pitted",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled, and cubed",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "505db87a-7d32-5d4f-9c36-05539d65f4e9",
+      "slug": "ceviche",
+      "name": "Ceviche"
+    }
+  ],
+  "tags": [
+    {
+      "id": "ab023647-c9d8-51b0-85ee-bd69271e4f94",
+      "slug": "ceviche-recipes",
+      "name": "Ceviche Recipes",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262600/carrot-ceviche-vegan"
+  },
+  "public": true,
+  "updated_at": 1740851491,
+  "revision": 1
+}

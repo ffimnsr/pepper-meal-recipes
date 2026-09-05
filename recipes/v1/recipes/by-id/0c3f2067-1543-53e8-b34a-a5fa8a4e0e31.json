@@ -1,0 +1,306 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "0c3f2067-1543-53e8-b34a-a5fa8a4e0e31",
+  "slug": "mexican-bean-and-squash-soup",
+  "name": "Mexican Bean and Squash Soup",
+  "recipe_type": "soup",
+  "brief_description": "This Mexican bean and squash soup recipe simmers chipotle peppers, carrots, celery, onions, basil, parsley, and corn to make a zesty vegetarian dish.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a deep pot over medium-high heat. Add squash; cook and stir until it begins to soften, 5 to 7 minutes. Add onion, carrot, and celery; cook and stir until onion is translucent, about 5 minutes. Stir in garlic, chipotles, basil, parsley, and cumin; cook 2 minutes more. Stir in chicken broth and tomatoes, reduce heat to medium, and simmer until vegetables are tender, about 30 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir in cannellini beans and corn kernels; cook until just heated through."
+    },
+    {
+      "position": 3,
+      "text": "Divide soup among bowls; squeeze lime juice over soup. Top servings with tortilla chips, sour cream, and Mexican cheese."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 40,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/0c3f2067-1543-53e8-b34a-a5fa8a4e0e31/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "464 kcal",
+    "carbohydrateContent": "44 g",
+    "cholesterolContent": "40 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "602 mg",
+    "sugarContent": "4 g",
+    "fatContent": "28 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f496bab1-15e8-5140-86dc-e7973309681e",
+      "name": "butternut squash - peeled",
+      "normalized_name": "butternut squash - peeled",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "seeded, and cut into 3/4-inch chunks",
+      "position": 2
+    },
+    {
+      "ingredient_id": "39879787-cb9c-5995-8ee9-100fb5f9d99c",
+      "name": "small yellow onion",
+      "normalized_name": "small yellow onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "64fd00a3-f2fa-5e78-a4ab-b0b5974a0059",
+      "name": "finely chopped carrot",
+      "normalized_name": "finely chopped carrot",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "51b787cc-9ab1-5567-9153-06876fcf84b4",
+      "name": "finely chopped celery",
+      "normalized_name": "finely chopped celery",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "c71783db-4d08-5b34-9d28-be4e55a03c05",
+      "name": "canned chipotle peppers in adobo sauce",
+      "normalized_name": "canned chipotle peppers in adobo sauce",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded and minced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "51d43a95-1651-5f52-8e68-567ddaabd3da",
+      "name": "chopped fresh basil leaves",
+      "normalized_name": "chopped fresh basil leaves",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "37de2f89-040e-52db-a1a6-6127a0bc912b",
+      "name": "cumin",
+      "normalized_name": "cumin",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "c3110a26-5991-5747-b57a-6af96eb7255f",
+      "name": "quarts chicken broth",
+      "normalized_name": "quarts chicken broth",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "9df4d90c-3c3d-5af4-a2c3-2dbac876bf33",
+      "name": "ounce) can diced tomatoes",
+      "normalized_name": "ounce can diced tomatoes",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "86cac1a2-e9fb-5942-9fb0-8dba32c1744e",
+      "name": "ounce) can cannellini beans",
+      "normalized_name": "ounce can cannellini beans",
+      "quantity": "1 (15.5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 13
+    },
+    {
+      "ingredient_id": "54b9506d-69c7-5ca6-ae11-f8bf643e9299",
+      "name": "corn kernels",
+      "normalized_name": "corn kernels",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "fresh, canned, or frozen",
+      "position": 14
+    },
+    {
+      "ingredient_id": "6c432256-96fd-513b-bf60-307b282d3398",
+      "name": "limes",
+      "normalized_name": "limes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into wedges",
+      "position": 15
+    },
+    {
+      "ingredient_id": "85700434-931c-5a6a-975d-3d1600de0123",
+      "name": "ounce) bag tortilla chips",
+      "normalized_name": "ounce bag tortilla chips",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": "for topping",
+      "position": 16
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "for topping",
+      "position": 17
+    },
+    {
+      "ingredient_id": "1a779cf0-95ea-5eda-8906-3a778bfa1751",
+      "name": "ounce) package shredded mexican blend cheese",
+      "normalized_name": "ounce package shredded mexican blend cheese",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "for topping",
+      "position": 18
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "bd0d1695-7b66-5071-9f9b-f09e048a9b23",
+      "slug": "squash-soup",
+      "name": "Squash Soup"
+    },
+    {
+      "id": "403da2f2-6d0d-59f4-8d05-dd2778831b17",
+      "slug": "butternut-squash-soup",
+      "name": "Butternut Squash Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5defd427-bf5c-575f-a2d7-c33dd6b0e4fa",
+      "slug": "butternut-squash-soup-recipes",
+      "name": "Butternut Squash Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "2ba3093b-13b7-506e-9f84-a215eaedbbc4",
+      "slug": "butternut-squash",
+      "name": "Butternut Squash",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "60f6fa5f-ac03-5eff-897b-8776dfb1ef02",
+      "slug": "garlic",
+      "name": "Garlic",
+      "color": null
+    },
+    {
+      "id": "489def73-dc81-5671-9631-5bffd5bd351b",
+      "slug": "squash",
+      "name": "Squash",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/150958/mexican-bean-and-squash-soup"
+  },
+  "public": true,
+  "updated_at": 1766437553,
+  "revision": 1
+}

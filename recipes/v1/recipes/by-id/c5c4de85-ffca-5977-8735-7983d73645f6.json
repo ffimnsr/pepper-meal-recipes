@@ -1,0 +1,186 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c5c4de85-ffca-5977-8735-7983d73645f6",
+  "slug": "garlic-ginger-tofu",
+  "name": "Garlic Ginger Tofu",
+  "recipe_type": "drink",
+  "brief_description": "This garlic ginger tofu recipe is simmered in its own juices and seasoned with garlic, ginger, and lime juice. It pairs well with rice and veggies.",
+  "cuisine": "Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat oil in a wok or skillet over medium heat. Stir in garlic and ginger, and cook for 1 minute. Add tofu to the pan with tamari and stir to coat. Cover, and continue cooking for 20 to 30 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Squeeze lime juice over tofu before serving."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c5c4de85-ffca-5977-8735-7983d73645f6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "216 kcal",
+    "carbohydrateContent": "6 g",
+    "fiberContent": "3 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "142 mg",
+    "sugarContent": "0 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "03174c98-4286-5a20-ae8a-229f93f11569",
+      "name": "canola oil",
+      "normalized_name": "canola oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "43c98d7b-cee3-51c0-b588-895591d1b1a1",
+      "name": "minced fresh ginger root",
+      "normalized_name": "minced fresh ginger root",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2d1ad7a9-eb54-5861-83c3-ea56e50c08f8",
+      "name": "tamari",
+      "normalized_name": "tamari",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "98df5881-0873-5f0a-b2a8-e3c95f19423d",
+      "name": "firm tofu",
+      "normalized_name": "firm tofu",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    },
+    {
+      "id": "4bbce3b5-1094-5afe-9c1a-51d908f535b1",
+      "slug": "vegetarian",
+      "name": "Vegetarian"
+    },
+    {
+      "id": "9b016ab7-33d3-5cfa-a2fe-b2884030fd9a",
+      "slug": "protein",
+      "name": "Protein"
+    },
+    {
+      "id": "9ec4a5fe-8d8c-5ba6-b668-763fad047f12",
+      "slug": "tofu",
+      "name": "Tofu"
+    }
+  ],
+  "tags": [
+    {
+      "id": "646d833a-042e-5089-8a59-3d916b212664",
+      "slug": "tofu",
+      "name": "Tofu",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "60f6fa5f-ac03-5eff-897b-8776dfb1ef02",
+      "slug": "garlic",
+      "name": "Garlic",
+      "color": null
+    },
+    {
+      "id": "a213982f-5b8e-5e56-9445-5c9940cfb475",
+      "slug": "protein",
+      "name": "Protein",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/73748/garlic-ginger-tofu"
+  },
+  "public": true,
+  "updated_at": 1642141154,
+  "revision": 1
+}

@@ -1,0 +1,216 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1b019d6e-1893-5e18-ab44-bafa4a11ae4b",
+  "slug": "kefta",
+  "name": "Kefta",
+  "recipe_type": "main",
+  "brief_description": "This is a twist on the traditional meatloaf! A lamb loaf is made with a generous amount of parsley and onion, and seasoned elegantly with lemon zest and allspice. Serve with pita bread or rice.",
+  "cuisine": "Middle Eastern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "In a large bowl, mix together the parsley, onions, lamb, allspice, lemon zest, salt and butter until well blended. Use your hands for best results. Place in a baking dish, or pat into a 2 inch tall round on a baking sheet with sides. Arrange tomato slices on top."
+    },
+    {
+      "position": 3,
+      "text": "Bake uncovered for 50 minutes in the preheated oven, until no longer pink and the internal temperature has reached at least 160 degrees F (72 degrees C). Serve with pita bread or rice."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1b019d6e-1893-5e18-ab44-bafa4a11ae4b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "192 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "58 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "542 mg",
+    "sugarContent": "2 g",
+    "fatContent": "14 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0262e614-a690-56a0-b77f-d2fc4697b64e",
+      "name": "bunch fresh parsley",
+      "normalized_name": "bunch fresh parsley",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "4ff4afe5-0de6-5510-87de-06c24b8758dc",
+      "name": "medium onions",
+      "normalized_name": "medium onions",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "33698917-9b00-5bcb-bd0f-286eb20e2b60",
+      "name": "ground lamb",
+      "normalized_name": "ground lamb",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d4e4490c-7688-5371-b51b-8e512749645a",
+      "name": "ground allspice",
+      "normalized_name": "ground allspice",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "28ad164a-c179-5dcf-adc3-fe57fe2bbce2",
+      "name": "grated lemon zest",
+      "normalized_name": "grated lemon zest",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "softened",
+      "position": 7
+    },
+    {
+      "ingredient_id": "b7b6a651-fe75-55ce-828a-5317a2e8aa4c",
+      "name": "medium tomato",
+      "normalized_name": "medium tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "2ec470c2-b64f-5da8-9a90-36e93079e4ff",
+      "slug": "greek",
+      "name": "Greek"
+    }
+  ],
+  "tags": [
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "fef0bdc5-5b61-5aee-a388-8fa2d1ab2df3",
+      "slug": "parsley-recipes",
+      "name": "Parsley Recipes",
+      "color": null
+    },
+    {
+      "id": "9b843a05-3d30-5959-b53d-71258c6272ab",
+      "slug": "meatloaf-recipes",
+      "name": "Meatloaf Recipes",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "71a878a7-a6b7-5b9e-8d5c-87ac1110805b",
+      "slug": "lamb",
+      "name": "Lamb",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "bb20f75a-bcb2-5bee-baf8-4bfe603a2108",
+      "slug": "ground",
+      "name": "Ground",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/58102/kefta"
+  },
+  "public": true,
+  "updated_at": 1657836502,
+  "revision": 1
+}

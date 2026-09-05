@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "8ea86519-6188-5d40-b341-2694506166a6",
+  "slug": "moms-mashed-potato-salad",
+  "name": "Mom's Mashed Potato Salad",
+  "recipe_type": "salad",
+  "brief_description": "Light and fluffy mashed potato salad made with hard-cooked eggs, sweet pickles, sweet onion, and creamy mayonnaise. It's sure to be a summer favorite.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place potatoes into a large pot and cover with salted water; bring to a boil. Reduce the heat to medium-low and simmer until tender, about 20 minutes. Drain."
+    },
+    {
+      "position": 2,
+      "text": "Transfer potatoes to a large bowl and mash with a potato masher. Stir in onion, eggs, celery, pickles, salt, and pepper."
+    },
+    {
+      "position": 3,
+      "text": "Mix mayonnaise, pickle juice, and mustard together in a separate bowl; pour over potatoes and mix until well combined. Cover and refrigerate for at least 1 hour before serving."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/8ea86519-6188-5d40-b341-2694506166a6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "309 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "90 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "222 mg",
+    "sugarContent": "2 g",
+    "fatContent": "24 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e68db3f4-679c-5e1c-ab92-7b3ca7108ce2",
+      "name": "medium yukon gold potatoes",
+      "normalized_name": "medium yukon gold potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "peeled and quartered",
+      "position": 1
+    },
+    {
+      "ingredient_id": "a5fcad88-cf3f-5753-b5b8-46f2fc562f9e",
+      "name": "small sweet onion",
+      "normalized_name": "small sweet onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "b168bcf5-4eea-5f7f-9d71-d1aede2baac7",
+      "name": "large hard-cooked eggs",
+      "normalized_name": "large hard-cooked eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "78e1afaf-f62e-57c5-8cbb-7a61169cf714",
+      "name": "diced celery",
+      "normalized_name": "diced celery",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3749987e-414d-503a-a879-436b88aad87b",
+      "name": "chopped sweet pickles",
+      "normalized_name": "chopped sweet pickles",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "fec02953-9a07-5114-9888-c9193e72053c",
+      "name": "sweet pickle juice",
+      "normalized_name": "sweet pickle juice",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "36f0ba83-6cf7-5b3c-9c04-ccc142dd82bc",
+      "slug": "potato-salad-recipes",
+      "name": "Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "08fb80b7-e7b5-5e1a-a22f-17f2941dd920",
+      "slug": "creamy-potato-salad-recipes",
+      "name": "Creamy Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "a0f447de-7a39-5f29-af35-80c44e51c091",
+      "slug": "low-potassium",
+      "name": "Low-Potassium",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/222869/moms-mashed-potato-salad"
+  },
+  "public": true,
+  "updated_at": 1767389058,
+  "revision": 1
+}

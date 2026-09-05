@@ -1,0 +1,284 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "67819d86-4c5a-58c7-8d9e-1a3e65130a88",
+  "slug": "ground-beef-and-vegetable-stew",
+  "name": "Ground Beef and Vegetable Stew",
+  "recipe_type": "soup",
+  "brief_description": "This rich and hearty ground beef and vegetable stew with potatoes, carrots, and green beans is perfect for a family dinner on a cold winter night.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a large skillet over medium-high heat. Cook and stir ground beef, onion, and garlic in the hot skillet until beef is browned and crumbly and onion is translucent, 5 to 7 minutes. Drain and discard grease."
+    },
+    {
+      "position": 2,
+      "text": "Stir in 4 cups water, tomato sauce, beef base, Worcestershire sauce, pepper, celery salt, and marjoram; bring to a simmer. Add carrots and continue to simmer until tender, about 35 minutes. Add potatoes and green beans, simmer until tender, about 15 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Mix flour and 2 tablespoons water together in a small bowl until no lumps remain; add more water if necessary. Stir mixture into stew; simmer until stew has thickened, 5 to 10 minutes."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 65,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/67819d86-4c5a-58c7-8d9e-1a3e65130a88/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "257 kcal",
+    "carbohydrateContent": "29 g",
+    "cholesterolContent": "35 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "1096 mg",
+    "sugarContent": "5 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "33eb353b-6f26-5e1a-9feb-d3ca6ef3f7de",
+      "name": "small onion",
+      "normalized_name": "small onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f7a620bf-624f-5839-bad4-c9e85269074e",
+      "name": "ounce) can tomato sauce",
+      "normalized_name": "ounce can tomato sauce",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1cef0bc0-690a-5132-8c55-c460171a38e4",
+      "name": "beef base",
+      "normalized_name": "beef base",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "f637f15c-1634-5afd-aed7-8979a8ecfc31",
+      "name": "celery salt",
+      "normalized_name": "celery salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "7563e3f9-73fd-5fc3-be4d-aff761d59938",
+      "name": "ground marjoram",
+      "normalized_name": "ground marjoram",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "ba9bf63e-b1a7-522d-8eba-00fe629ee2c3",
+      "name": "large carrots",
+      "normalized_name": "large carrots",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "cut into rounds",
+      "position": 11
+    },
+    {
+      "ingredient_id": "067a4d45-1400-54c0-b57f-680eb212a03a",
+      "name": "medium potatoes",
+      "normalized_name": "medium potatoes",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 12
+    },
+    {
+      "ingredient_id": "37f6715f-22fe-5436-9a2a-6447eacc18b3",
+      "name": "green beans",
+      "normalized_name": "green beans",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "trimmed and cut into 1-inch pieces",
+      "position": 13
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or more as needed",
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "8ebf528a-13f4-5c15-8f10-21db58aa8800",
+      "slug": "green-beans",
+      "name": "Green Beans",
+      "color": null
+    },
+    {
+      "id": "f7714f55-5b38-5632-8117-9cfb9663f935",
+      "slug": "stews",
+      "name": "Stews",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/278784/ground-beef-and-vegetable-stew"
+  },
+  "public": true,
+  "updated_at": 1764865854,
+  "revision": 1
+}

@@ -1,0 +1,210 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fe1f8010-ae91-52f9-9608-ec02571500d3",
+  "slug": "three-egg-omelet",
+  "name": "Three Egg Omelet",
+  "recipe_type": "breakfast",
+  "brief_description": "Ham, turkey, Cheddar cheese and vegetables are the filling for these big stuffed omelets that will satisfy appetites of all sizes!",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Spray or lightly grease a large skillet and heat over medium heat."
+    },
+    {
+      "position": 2,
+      "text": "Crack 3 eggs into a glass measuring cup and beat with a fork or whisk until scrambled. Pour eggs into heated skillet, swirling the pan to coat the bottom. Cover and let cook until eggs are firm, about 2 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Top with 1/4 each of the chopped ham, turkey, green onions, tomato, parsley, green bell pepper, and Cheddar cheese. Fold egg in half over fillings, and serve warm. Repeat with remaining ingredients for 4 omelets."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fe1f8010-ae91-52f9-9608-ec02571500d3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "539 kcal",
+    "carbohydrateContent": "4 g",
+    "cholesterolContent": "645 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "44 g",
+    "saturatedFatContent": "18 g",
+    "sodiumContent": "852 mg",
+    "sugarContent": "2 g",
+    "fatContent": "39 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "12",
+      "unit": "pieces",
+      "preparation": "lightly beaten",
+      "position": 1
+    },
+    {
+      "ingredient_id": "2c98c683-3cbb-5594-948f-8ba9646eea44",
+      "name": "slices cooked ham",
+      "normalized_name": "slices cooked ham",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "175b33c0-3a44-5816-a0bd-7deb40a98534",
+      "name": "slices cooked turkey meat",
+      "normalized_name": "slices cooked turkey meat",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato",
+      "normalized_name": "tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "e4eb2458-2712-5416-974b-03fde9319e6b",
+      "name": "fresh parsley",
+      "normalized_name": "fresh parsley",
+      "quantity": "1",
+      "unit": "sprig",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "8ce32994-f02d-5eb9-a0fc-1d077b7bdfb1",
+      "name": "medium green bell pepper",
+      "normalized_name": "medium green bell pepper",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "d9665c8e-feae-5357-999b-b8048431ad56",
+      "name": "ounce) package shredded cheddar cheese",
+      "normalized_name": "ounce package shredded cheddar cheese",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1e1783f0-14a2-5c36-a8c9-61927a25536b",
+      "slug": "omelet-recipes",
+      "name": "Omelet Recipes",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "932014c7-72f8-5911-83ed-0484f951c268",
+      "slug": "breakfast",
+      "name": "Breakfast",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/36445/three-egg-omelet"
+  },
+  "public": true,
+  "updated_at": 1659627516,
+  "revision": 1
+}

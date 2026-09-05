@@ -1,0 +1,224 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a44e72cb-fb73-5bfd-baf8-1155d29c1d8b",
+  "slug": "french-onion-soup-ix",
+  "name": "French Onion Soup IX",
+  "recipe_type": "soup",
+  "brief_description": "Thickly sliced onions are slowly cooked in butter, then combined with beef broth and Romano cheese before being ladled into bowls, and topped with toast and cheese.",
+  "cuisine": "French",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large pot over low heat, melt butter. Cook onions in butter until soft and golden brown, 15 to 30 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Pour in beef broth and consomme and simmer 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Preheat oven broiler."
+    },
+    {
+      "position": 4,
+      "text": "Whisk Romano into soup and season with salt and pepper. Pour soup into 8 ovenproof bowls. Top with toasted slices of bread and grated Gruyere."
+    },
+    {
+      "position": 5,
+      "text": "Place bowls under broiler until cheese melts."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a44e72cb-fb73-5bfd-baf8-1155d29c1d8b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "213 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "19 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "1094 mg",
+    "sugarContent": "6 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4a715032-b37f-59cd-8e75-f2404e3c1681",
+      "name": "yellow onions",
+      "normalized_name": "yellow onions",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "halved and sliced 1/2 inch thick",
+      "position": 2
+    },
+    {
+      "ingredient_id": "b973b13a-dd7e-558c-8997-9407ce2c441e",
+      "name": "ounce) cans beef broth",
+      "normalized_name": "ounce cans beef broth",
+      "quantity": "4 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "cc2ae6e0-7216-56bc-a2ac-3d428f085eb4",
+      "name": "ounce) can beef consomme",
+      "normalized_name": "ounce can beef consomme",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "70b321c7-2d4a-59f2-9470-3210a8845b8f",
+      "name": "grated romano cheese",
+      "normalized_name": "grated romano cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0417ac73-a081-5f26-a1fd-04b425b0d197",
+      "name": "slices french bread",
+      "normalized_name": "slices french bread",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "toasted",
+      "position": 7
+    },
+    {
+      "ingredient_id": "5dbc28b5-7226-5319-b15f-bba616230439",
+      "name": "shredded gruyere cheese",
+      "normalized_name": "shredded gruyere cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "661625a7-0b2f-5926-80cd-c4876dd1c728",
+      "slug": "onion-soup",
+      "name": "Onion Soup"
+    },
+    {
+      "id": "2c4766e7-12c2-5b90-83b4-a708f1711beb",
+      "slug": "french-onion-soup",
+      "name": "French Onion Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "3c7d371f-ea02-5870-8d45-73ecb88745dd",
+      "slug": "onion-soup-recipes",
+      "name": "Onion Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25748/french-onion-soup-ix"
+  },
+  "public": true,
+  "updated_at": 1740849279,
+  "revision": 1
+}

@@ -1,0 +1,311 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "b869ac8b-232d-5be8-b4fe-48dac1ab8275",
+  "slug": "instant-pot-hungarian-goulash",
+  "name": "Instant Pot Hungarian Goulash",
+  "recipe_type": "soup",
+  "brief_description": "Cook tender cubes of beef in your multicooker while you prepare spaetzle or noodles on the stovetop. Garnish with sour cream.",
+  "cuisine": "Hungarian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine sirloin, flour, paprika, 1/2 teaspoon cayenne, and 1/4 teaspoon white pepper in a bowl. Stir until the meat is completely covered."
+    },
+    {
+      "position": 2,
+      "text": "Heat 1 teaspoon olive oil and bacon fat in a Dutch oven over medium-high heat. Add the meat, shaking off any excess flour; saute until nicely browned on all sides, 5 to 7 minutes. Transfer to a multi-functional pressure cooker (such as Instant Pot). Mix water and beef base together thoroughly in a bowl and pour over the beef."
+    },
+    {
+      "position": 3,
+      "text": "Close and lock the lid. Select high pressure according to manufacturer's instructions; set timer for 20 minutes. Allow 10 to 15 minutes for pressure to build."
+    },
+    {
+      "position": 4,
+      "text": "Meanwhile, heat remaining olive oil in a pan over medium-high heat. Saute onion, bell pepper, and garlic in the hot oil until onion is translucent, 5 to 7 minutes. Add tomato paste and mix together. Reduce heat to low, cover, and set aside."
+    },
+    {
+      "position": 5,
+      "text": "Release Instant Pot pressure using the natural-release method according to manufacturer's instructions for 10 minutes. Release remaining pressure carefully using the quick-release method according to manufacturer's instructions, about 5 minutes. Unlock and remove the lid. Carefully remove the inner pot and use a slotted spoon to transfer the meat to the Dutch oven."
+    },
+    {
+      "position": 6,
+      "text": "Turn the heat up under the Dutch oven to medium and let cook, stirring constantly, about 5 minutes. Add the liquid from the Instant Pot carefully; mix to combine. Add pepper paste, dried shallot, remaining cayenne, and remaining white pepper. Taste for seasoning and cook over low heat until the mixture is thick, about 10 minutes. Garnish with sour cream and serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 50,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/b869ac8b-232d-5be8-b4fe-48dac1ab8275/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "191 kcal",
+    "carbohydrateContent": "12 g",
+    "cholesterolContent": "38 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "15 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "250 mg",
+    "sugarContent": "3 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5d235d5d-a144-5983-9116-4add2b9775ab",
+      "name": "beef sirloin",
+      "normalized_name": "beef sirloin",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "47c10879-f6b3-56ce-b5af-359974be4f2a",
+      "name": "cayenne pepper",
+      "normalized_name": "cayenne pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "divided",
+      "position": 4
+    },
+    {
+      "ingredient_id": "ea83d9fc-a7f0-569b-9a22-2809a2699fe9",
+      "name": "ground white pepper",
+      "normalized_name": "ground white pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "divided",
+      "position": 5
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "divided",
+      "position": 6
+    },
+    {
+      "ingredient_id": "80ca0cfb-71e4-5be4-902a-a8a29c0c6c45",
+      "name": "bacon fat",
+      "normalized_name": "bacon fat",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1cef0bc0-690a-5132-8c55-c460171a38e4",
+      "name": "beef base",
+      "normalized_name": "beef base",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 10
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 11
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 12
+    },
+    {
+      "ingredient_id": "21960b21-948a-5139-b037-73997a5656a0",
+      "name": "tomato paste",
+      "normalized_name": "tomato paste",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "f944b130-5cb4-56b8-a925-3caf1cd63ec7",
+      "name": "red pepper paste",
+      "normalized_name": "red pepper paste",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "ccb97279-94fb-51b5-8295-bfead231c824",
+      "name": "dried minced shallot",
+      "normalized_name": "dried minced shallot",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "ffe557e2-ef6a-50c9-a01c-2201ed46a09b",
+      "slug": "goulash",
+      "name": "Goulash"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4ec7a9de-0aeb-5672-a472-d6645fe7a485",
+      "slug": "goulash-recipes",
+      "name": "Goulash Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "f596b513-15a2-520e-a4b9-6c4858c23ffa",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "6a533c55-7f36-534f-b022-94893d346e8d",
+      "slug": "hungarian",
+      "name": "Hungarian",
+      "color": null
+    },
+    {
+      "id": "f7714f55-5b38-5632-8117-9cfb9663f935",
+      "slug": "stews",
+      "name": "Stews",
+      "color": null
+    },
+    {
+      "id": "c4c500f2-eb6c-540f-ab49-ac5379407bba",
+      "slug": "instant-pot",
+      "name": "Instant Pot\u00a8",
+      "color": null
+    },
+    {
+      "id": "ecd6904e-da4d-5865-961c-28770f1b3843",
+      "slug": "eastern-european",
+      "name": "Eastern European",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/278080/instant-pot-hungarian-goulash"
+  },
+  "public": true,
+  "updated_at": 1676483617,
+  "revision": 1
+}

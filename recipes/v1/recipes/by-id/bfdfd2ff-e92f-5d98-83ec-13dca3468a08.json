@@ -1,0 +1,237 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "bfdfd2ff-e92f-5d98-83ec-13dca3468a08",
+  "slug": "sangria-barcelona-style",
+  "name": "Sangria Barcelona Style",
+  "recipe_type": "drink",
+  "brief_description": "This is sangria as seen in Barcelona; it only takes 15 minutes to make!",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place the lemon, orange, and brown sugar in a large pitcher. Pour in vodka, Cointreau, gin, orange soda, lemon-lime soda, pineapple juice, and orange juice. Add ice cubes and pour in red wine; stir well until the sugar has dissolved."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/bfdfd2ff-e92f-5d98-83ec-13dca3468a08/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "248 kcal",
+    "carbohydrateContent": "28 g",
+    "fiberContent": "2 g",
+    "proteinContent": "1 g",
+    "sodiumContent": "12 mg",
+    "sugarContent": "19 g",
+    "fatContent": "0 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "65a23f9c-b552-5b5c-a530-08ecb442535a",
+      "name": "lemon",
+      "normalized_name": "lemon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ca8bad9-6c91-51ce-8c7b-0252893c7565",
+      "name": "orange",
+      "normalized_name": "orange",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "3eafbee8-3d36-5517-9153-f6714a9a1a10",
+      "name": "fluid ounce) jigger vodka",
+      "normalized_name": "fluid ounce jigger vodka",
+      "quantity": "1 (1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "53ed08eb-e6c6-57de-9c47-51cded2073f8",
+      "name": "fluid ounce) jigger cointreau or triple sec",
+      "normalized_name": "fluid ounce jigger cointreau or triple sec",
+      "quantity": "1 (1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "abd07de8-f93b-533e-afee-b6a263e255f8",
+      "name": "fluid ounce) jigger gin",
+      "normalized_name": "fluid ounce jigger gin",
+      "quantity": "1 (1.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3fb85497-22c8-5b66-a28a-cdd836d5437f",
+      "name": "orange soda",
+      "normalized_name": "orange soda",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "85f855c3-25a7-527a-9cf2-ee101a233c0e",
+      "name": "lemon-lime soda",
+      "normalized_name": "lemon-lime soda",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "bed32264-c563-5496-b8b7-ec82e63e81fa",
+      "name": "pineapple juice",
+      "normalized_name": "pineapple juice",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5f2347f6-33f3-597d-834e-20653545df33",
+      "name": "orange juice",
+      "normalized_name": "orange juice",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "3a45d3bb-afe9-5293-ad01-e4d9f35cb62c",
+      "name": "ice cubes",
+      "normalized_name": "ice cubes",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "cc5bb9f1-9c34-5065-9143-ddc3f5a84ff3",
+      "name": "milliliter) bottle dry red wine",
+      "normalized_name": "milliliter bottle dry red wine",
+      "quantity": "1 (750",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "91d8cf7f-5cb0-5ff0-9e37-4aaabb4f57fd",
+      "slug": "sangria",
+      "name": "Sangria"
+    }
+  ],
+  "tags": [
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "67ec76d8-546a-568d-8eb4-60bdc80a1307",
+      "slug": "sangria-recipes",
+      "name": "Sangria Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "3e15e093-b465-5738-bc6e-2753b83b9383",
+      "slug": "adult-punch-recipes",
+      "name": "Adult Punch Recipes",
+      "color": null
+    },
+    {
+      "id": "f0decdd4-0259-5932-b65f-943543dd4242",
+      "slug": "cocktail-recipes",
+      "name": "Cocktail Recipes",
+      "color": null
+    },
+    {
+      "id": "08cc9044-5b95-5fd2-abea-7ffaa8f9aafc",
+      "slug": "oranges",
+      "name": "Oranges",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "baf2993a-351e-520b-9a29-cc3b5449a541",
+      "slug": "lemons",
+      "name": "Lemons",
+      "color": null
+    },
+    {
+      "id": "395e84f7-0711-5f1e-87cc-5521299dfe16",
+      "slug": "citrus",
+      "name": "Citrus",
+      "color": null
+    },
+    {
+      "id": "74b8c516-3275-59d2-bea4-7bb2c884ae07",
+      "slug": "punch-recipes",
+      "name": "Punch Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/141402/sangria-barcelona-style"
+  },
+  "public": true,
+  "updated_at": 1657650870,
+  "revision": 1
+}

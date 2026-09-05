@@ -1,0 +1,213 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "442a456a-7587-5722-b906-c835f5bc63fd",
+  "slug": "hot-chicken-salad-i",
+  "name": "Easy Hot Chicken Salad",
+  "recipe_type": "salad",
+  "brief_description": "This tangy hot chicken salad is loaded with tender chicken, celery, and almonds, baked in a cheesy cream sauce topped with a cornflake crust.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients. Preheat the oven to 325 degrees F (165 degrees C). Lightly grease a 9x13-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Combine chicken, celery, almonds, mayonnaise, sour cream, American cheese, lemon juice, and onion in a bowl; transfer to the prepared baking dish. Top with crushed corn flakes."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven until heated through, 45 to 60 minutes."
+    }
+  ],
+  "servings": 7,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/442a456a-7587-5722-b906-c835f5bc63fd/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "636 kcal",
+    "carbohydrateContent": "16 g",
+    "cholesterolContent": "104 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "32 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "574 mg",
+    "sugarContent": "3 g",
+    "fatContent": "51 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "45055c8a-1e2f-5fe4-913f-c83a101828eb",
+      "name": "diced",
+      "normalized_name": "diced",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": "cooked chicken meat",
+      "position": 1
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "fdd91cfe-1384-5564-a436-0ac2ce0b810e",
+      "name": "almonds",
+      "normalized_name": "almonds",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "aca0053e-97da-5b6a-b3b1-f329bd63b71d",
+      "name": "shredded american cheese",
+      "normalized_name": "shredded american cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "007eb061-368c-5536-acf1-f45a2df0e144",
+      "name": "crushed cornflakes cereal",
+      "normalized_name": "crushed cornflakes cereal",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "42d47281-4996-5c3b-b16f-3ae540302bbd",
+      "slug": "chicken-salad",
+      "name": "Chicken Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0c4351c3-a3e2-5491-9427-591469b533f8",
+      "slug": "chicken-salad-recipes",
+      "name": "Chicken Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "25dda074-f3c3-5ce8-8f5d-927142acecf3",
+      "slug": "salad",
+      "name": "Salad",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "6d7d0eb0-fe57-5977-bce4-f4c353ce90d3",
+      "slug": "on-the-go",
+      "name": "On The Go",
+      "color": null
+    },
+    {
+      "id": "5c697943-f279-5792-a8bc-f326539b40d7",
+      "slug": "everyday-leftovers-recipes",
+      "name": "Everyday Leftovers Recipes",
+      "color": null
+    },
+    {
+      "id": "54bcc1c2-56db-58ad-864e-5e82d0bdba46",
+      "slug": "potluck",
+      "name": "Potluck",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8510/hot-chicken-salad-i"
+  },
+  "public": true,
+  "updated_at": 1788548226,
+  "revision": 1
+}

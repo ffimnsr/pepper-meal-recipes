@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "244ee600-4476-5512-b111-2f7d14b74ead",
+  "slug": "egg-bites",
+  "name": "Egg Bites",
+  "recipe_type": "breakfast",
+  "brief_description": "This egg bites recipe is made with eggs, spinach, ham, potatoes, onion, and bell pepper baked in muffin cups for the ultimate grab-and-go breakfast.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Spray a 12-cup muffin tin with nonstick cooking spray."
+    },
+    {
+      "position": 2,
+      "text": "Place a thin layer of potato slices in the bottom of each muffin cup. Add a little butter on top."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven for 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Mix together eggs, bell pepper, tomato, spinach, ham, and onion in a large bowl. Ladle egg mixture over warm potatoes. Top each muffin cup with a mozzarella cube."
+    },
+    {
+      "position": 5,
+      "text": "Continue baking until eggs are set, about 20 minutes."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/244ee600-4476-5512-b111-2f7d14b74ead/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/Q7PhWWbb-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "108 kcal",
+    "carbohydrateContent": "8 g",
+    "cholesterolContent": "123 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "111 mg",
+    "sugarContent": "1 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "732fb51c-8dda-5ce4-a926-e17a29475b11",
+      "name": "small tri-color baby potatoes",
+      "normalized_name": "small tri-color baby potatoes",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "b125797d-a80c-5287-b4ed-dcc0cc039629",
+      "name": "stick butter",
+      "normalized_name": "stick butter",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "e7ffb919-0831-5f0d-b479-a4621e473da9",
+      "name": "small eggs",
+      "normalized_name": "small eggs",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "98ec8ec1-3726-5aa9-9f32-cc706206bf8b",
+      "name": "small yellow bell pepper",
+      "normalized_name": "small yellow bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b13418cd-0b74-544c-b8bf-019a27ba5ff0",
+      "name": "small tomato",
+      "normalized_name": "small tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "04129b0e-7a5b-515b-a66d-9a0fe7f0324b",
+      "name": "fresh spinach",
+      "normalized_name": "fresh spinach",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "ee68b059-77c2-5bd2-ac8a-7af733407838",
+      "name": "chopped ham",
+      "normalized_name": "chopped ham",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2b1be795-b597-5fc9-95ac-b1ff4a6b69bb",
+      "name": "chopped white onion",
+      "normalized_name": "chopped white onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "6ca3faef-1bca-594a-b827-35f0486f754a",
+      "name": "slice mozzarella cheese",
+      "normalized_name": "slice mozzarella cheese",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 12 cubes",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "47a10d55-3b96-5a64-8d3c-0fec01f5d038",
+      "slug": "potatoes",
+      "name": "Potatoes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "ee35ebfc-8e0e-5cd2-9bf8-9c3adaf10fe2",
+      "slug": "mini-foods",
+      "name": "Mini Foods",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/266642/egg-bites"
+  },
+  "public": true,
+  "updated_at": 1760629819,
+  "revision": 1
+}

@@ -1,0 +1,295 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f8379d80-bb49-5b0f-b1da-39c372314e2e",
+  "slug": "veggie-pot-pie",
+  "name": "Veggie Pot Pie",
+  "recipe_type": "main",
+  "brief_description": "This pot pie is vegetarian. Potatoes, mushrooms, cauliflower, green beans, and carrots are cooked in a savory sauce, then baked a flaky pie crust.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients. Preheat the oven to 425 degrees F (220 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a large skillet or saucepan. Add mushrooms, onions, and garlic; cook for 3 to 5 minutes, stirring frequently. Stir in carrots, potatoes, and celery. Stir in cauliflower and green beans; add vegetable broth and bring to a boil. Reduce heat and simmer until vegetables are just tender, about 5 minutes. Season with salt and pepper."
+    },
+    {
+      "position": 3,
+      "text": "Mix water, cornstarch, and soy sauce in a small bowl until cornstarch is completely dissolved; stir into vegetables and cook until sauce thickens, about 3 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Roll out 1/2 of the dough to line an 11x7-inch baking dish. Pour vegetable filling into the pastry-lined dish. Roll out remaining dough; arrange over filling, then seal and flute the edges."
+    },
+    {
+      "position": 5,
+      "text": "Bake in preheated oven until pie is golden brown on top, about 30 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f8379d80-bb49-5b0f-b1da-39c372314e2e/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/RYr96BhB-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "469 kcal",
+    "carbohydrateContent": "54 g",
+    "fiberContent": "7 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "1198 mg",
+    "sugarContent": "7 g",
+    "fatContent": "25 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b45ff63d-b165-529e-94f8-2cabca65f065",
+      "name": "mushrooms",
+      "normalized_name": "mushrooms",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "ba9bf63e-b1a7-522d-8eba-00fe629ee2c3",
+      "name": "large carrots",
+      "normalized_name": "large carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced 1/4 inch wide",
+      "position": 7
+    },
+    {
+      "ingredient_id": "d16cb41e-bb26-5451-85e4-474248317690",
+      "name": "cauliflower florets",
+      "normalized_name": "cauliflower florets",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "70c17283-d4b5-58c6-8b90-70e5e400e607",
+      "name": "fresh green beans",
+      "normalized_name": "fresh green beans",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "trimmed and snapped into 1/2 inch pieces",
+      "position": 9
+    },
+    {
+      "ingredient_id": "bc2bbe62-97cb-5248-baaa-922e5ab897dc",
+      "name": "vegetable broth",
+      "normalized_name": "vegetable broth",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "207da207-7554-5b16-a44c-8e024e2d40d0",
+      "name": "kosher salt",
+      "normalized_name": "kosher salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "7a16b74d-db2a-5d17-bcf5-8f9f765eed0a",
+      "name": "ounce) package double-crust pie pastry",
+      "normalized_name": "ounce package double-crust pie pastry",
+      "quantity": "1 (14.1",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "9afb73a2-c6dc-5a2e-ac71-57fc2c902428",
+      "slug": "savory-pie",
+      "name": "Savory Pie"
+    },
+    {
+      "id": "14668501-ab69-5cdd-9e23-ae233aa417cd",
+      "slug": "vegetarian-pie",
+      "name": "Vegetarian Pie"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "9968d2f4-6b41-55c5-a1bd-fda1180396b5",
+      "slug": "vegetarian-pie",
+      "name": "Vegetarian Pie",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "595797f7-b95d-5e7b-b31e-28a868ee7be8",
+      "slug": "pot-pie-recipes",
+      "name": "Pot Pie Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16765/veggie-pot-pie"
+  },
+  "public": true,
+  "updated_at": 1769423240,
+  "revision": 1
+}

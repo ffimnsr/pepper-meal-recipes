@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "dd56fe62-246f-562f-ba1c-991d3376e16a",
+  "slug": "veggie-fajitas",
+  "name": "Veggie Fajitas",
+  "recipe_type": "side",
+  "brief_description": "My family loves these peppery veggie fajitas! Serve the fajitas with flour tortillas, cheddar cheese, lettuce, tomatoes, sour cream, and I even put steamed broccoli on the side (so each can add broccoli if wanted).",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large frying pan over a medium heat, saute olive oil and garlic. Let the garlic saute for 2 minutes, stir in the green and yellow bell peppers. Let the peppers saute for 2 minutes, stir in the onions. After two minutes add the mushrooms and green onions to the frying pan. Season the vegetables with lemon pepper to taste and stir well. Cover the frying pan and cook until all of the vegetables are tender."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/dd56fe62-246f-562f-ba1c-991d3376e16a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "51 kcal",
+    "carbohydrateContent": "8 g",
+    "fiberContent": "2 g",
+    "proteinContent": "2 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "5 mg",
+    "sugarContent": "3 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "8e399f67-a139-5c4b-a6f8-75ff8e7fa1ea",
+      "name": "green bell peppers",
+      "normalized_name": "green bell peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "3b02ce6e-6a1f-528e-9a6f-f7b97c1e2f3b",
+      "name": "yellow bell peppers",
+      "normalized_name": "yellow bell peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b45ff63d-b165-529e-94f8-2cabca65f065",
+      "name": "mushrooms",
+      "normalized_name": "mushrooms",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "sliced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "277b8221-4d42-5e77-a793-c3493ef783bb",
+      "name": "lemon pepper to taste",
+      "normalized_name": "lemon pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "826cbf25-cf39-58d3-a4ce-8ef4f9921cc6",
+      "slug": "latin-american",
+      "name": "Latin American"
+    },
+    {
+      "id": "c1d105df-684c-5b10-ab27-b79f5e0e6b77",
+      "slug": "mexican",
+      "name": "Mexican"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "38220ae3-3746-52e3-8e0c-9e4a5307cb7a",
+      "slug": "fajita",
+      "name": "Fajita"
+    }
+  ],
+  "tags": [
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "70d6fe7a-dc17-5b16-b0f7-559e80674bd0",
+      "slug": "100-calorie-main-dish-recipes",
+      "name": "100 Calorie Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "17f4c204-15f9-596a-8568-681c02f3617f",
+      "slug": "300-calorie-main-dish-recipes",
+      "name": "300 Calorie Main Dish Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16683/veggie-fajitas"
+  },
+  "public": true,
+  "updated_at": 1734638406,
+  "revision": 1
+}

@@ -1,0 +1,275 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f12647a1-d00d-56d9-ad8c-1534f2f3d8d4",
+  "slug": "cajun-chicken-and-sausage-gumbo",
+  "name": "Cajun Chicken and Sausage Gumbo",
+  "recipe_type": "soup",
+  "brief_description": "This chicken and sausage gumbo uses a roux as the thickening agent in this traditional Cajun-style gumbo that's rich and hearty with lively seasonings.",
+  "cuisine": "Cajun",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a stockpot over medium heat; whisk in flour until roux is smooth and has cooked to the color of chocolate milk, about 8 to 10 minutes. Be careful not to burn the roux. If you see black specks in the mixture, it's best to start over."
+    },
+    {
+      "position": 3,
+      "text": "Add sausage, celery, bell pepper, and onion into the roux; cook and stir 5 minutes. Add garlic; continue to cook and stir another 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Season with salt, pepper, and Creole seasoning; stir well to blend. Pour in chicken broth and add bay leaf. Bring to a boil over high heat; reduce heat to medium-low and simmer, uncovered, for 1 hour, stirring occasionally."
+    },
+    {
+      "position": 5,
+      "text": "Stir in the chicken and simmer 1 hour more. Skim off any foam that floats to the top during this time."
+    },
+    {
+      "position": 6,
+      "text": "Serve and enjoy!"
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 150,
+  "preparation_time_minutes": 45,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f12647a1-d00d-56d9-ad8c-1534f2f3d8d4/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/1tpijTbp-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "480 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "56 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "1183 mg",
+    "sugarContent": "2 g",
+    "fatContent": "40 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "e943a456-425b-5312-b0d6-a47024919729",
+      "name": "andouille or smoked sausage",
+      "normalized_name": "andouille or smoked sausage",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "sliced 1/4 inch thick",
+      "position": 3
+    },
+    {
+      "ingredient_id": "d333cc74-558b-560b-9bd4-db783166778b",
+      "name": "celery stalks",
+      "normalized_name": "celery stalks",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "61a5f356-2603-5e70-8736-b159edf05cb4",
+      "name": "large green bell pepper",
+      "normalized_name": "large green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "4",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "0ebcc72c-3732-5a90-b047-3aa4e22134d4",
+      "name": "creole seasoning",
+      "normalized_name": "creole seasoning",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": "or to taste",
+      "position": 9
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "6",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "d74e359a-64be-5c46-8846-388ba41cb8bb",
+      "name": "rotisserie chicken",
+      "normalized_name": "rotisserie chicken",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "boned and shredded",
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "e5e597b7-47c6-521b-8236-c975ee5d23bd",
+      "slug": "gumbo",
+      "name": "Gumbo"
+    }
+  ],
+  "tags": [
+    {
+      "id": "30c92a5a-605c-5de3-878c-31d07bec16b4",
+      "slug": "gumbo-recipes",
+      "name": "Gumbo Recipes",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "6eb5c42c-d95c-516f-a59f-ac29b7afdc01",
+      "slug": "mardi-gras",
+      "name": "Mardi Gras",
+      "color": null
+    },
+    {
+      "id": "3ab323c7-4fea-54bc-856d-2321d61e87a8",
+      "slug": "whole-chicken-recipes",
+      "name": "Whole Chicken Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/141114/cajun-chicken-and-sausage-gumbo"
+  },
+  "public": true,
+  "updated_at": 1765983265,
+  "revision": 1
+}

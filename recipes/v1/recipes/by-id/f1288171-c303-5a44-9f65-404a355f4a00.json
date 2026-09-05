@@ -1,0 +1,235 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f1288171-c303-5a44-9f65-404a355f4a00",
+  "slug": "lo-mein-noodles",
+  "name": "Lo Mein Noodles",
+  "recipe_type": "side",
+  "brief_description": "These lo mein noodles feature spaghetti and crisp vegetables flavored with soy sauce, teriyaki, honey, and ginger for a quick and easy weeknight dish.",
+  "cuisine": "Asian Inspired American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Bring a large pot of lightly salted water to a boil. Cook spaghetti in boiling water, stirring occasionally, until tender yet firm to the bite, about 12 minutes; drain, then rinse with cold water to cool."
+    },
+    {
+      "position": 3,
+      "text": "Meanwhile, whisk soy sauce, teriyaki sauce, honey, and ginger together in a small bowl; set aside."
+    },
+    {
+      "position": 4,
+      "text": "While the spaghetti cooks, heat oil in a large skillet or wok over high heat. Cook and stir celery, carrots, onion, and green onions until slightly tender, 5 to 7 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Add spaghetti and soy sauce mixture. Cook, stirring frequently, until heated through and evenly coated, about 2 to 3 minutes. Serve garnished with additional sliced green onions, if desired."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f1288171-c303-5a44-9f65-404a355f4a00/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/ANm2xa9A-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "344 kcal",
+    "carbohydrateContent": "60 g",
+    "fiberContent": "4 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "798 mg",
+    "sugarContent": "15 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1a31d4b9-f88d-5d19-8756-92ef7b540cd4",
+      "name": "ounce) package spaghetti",
+      "normalized_name": "ounce package spaghetti",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3f0dd95e-a9bb-55a3-b32b-df79c6233ca6",
+      "name": "low-sodium soy sauce",
+      "normalized_name": "low-sodium soy sauce",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b1e495b6-3728-54c9-bbcb-d14c5069e832",
+      "name": "teriyaki sauce",
+      "normalized_name": "teriyaki sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d2b31123-499f-5c84-9509-f2bb88d48a27",
+      "name": "ground ginger",
+      "normalized_name": "ground ginger",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "ba9bf63e-b1a7-522d-8eba-00fe629ee2c3",
+      "name": "large carrots",
+      "normalized_name": "large carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into large matchsticks",
+      "position": 8
+    },
+    {
+      "ingredient_id": "3962bc64-6c09-5e18-a253-b9e163ca8320",
+      "name": "sweet onion",
+      "normalized_name": "sweet onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "thinly sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "44079fa6-9e49-52c2-8b4a-e01d5920c8a6",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles"
+    },
+    {
+      "id": "594c9899-c70a-5998-b26d-4f2451b56f6b",
+      "slug": "noodle",
+      "name": "Noodle"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "3d692f67-54c3-5135-8edb-98c25ad1ca4c",
+      "slug": "noodle-recipes",
+      "name": "Noodle Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "07ba43a2-beca-5b6f-80a3-cca209ede6c8",
+      "slug": "stir-fry",
+      "name": "Stir-Fry",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/233446/lo-mein-noodles"
+  },
+  "public": true,
+  "updated_at": 1784581822,
+  "revision": 1
+}

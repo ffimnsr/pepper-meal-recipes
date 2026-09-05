@@ -1,0 +1,228 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5e3f5050-a137-55b2-bed1-ce86b578485a",
+  "slug": "indian-saag",
+  "name": "Indian Saag",
+  "recipe_type": "side",
+  "brief_description": "Indian saag is an easy-to-make thick, flavorful curry of cooked leafy green vegetables like mustard greens and spinach, frequently served with naan.",
+  "cuisine": "Indian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large skillet or wok over medium-high heat; cook and stir turmeric, cumin seed, chile pepper, and garlic until fragrant, about 2 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir in chopped mustard greens and spinach a little at a time, adding the tougher stems and thicker leaves first. Cook and stir until greens are thoroughly wilted."
+    },
+    {
+      "position": 3,
+      "text": "Stir in ground cumin, coriander, and salt. Cover, reduce heat, and simmer until greens are tender, about 10 minutes; add water as needed to keep greens moist."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5e3f5050-a137-55b2-bed1-ce86b578485a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "182 kcal",
+    "carbohydrateContent": "8 g",
+    "cholesterolContent": "41 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "565 mg",
+    "sugarContent": "1 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d6fe26b3-81da-5f50-8065-5bc6819dddfa",
+      "name": "ground turmeric",
+      "normalized_name": "ground turmeric",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "b8ce2964-a19c-5eb8-9a9a-6963f144a952",
+      "name": "cumin seed",
+      "normalized_name": "cumin seed",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "13ba965a-32e7-5986-ad64-4d164ec1be45",
+      "name": "green chile pepper",
+      "normalized_name": "green chile pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "3355f137-9072-5d1a-9cab-745703efc4a6",
+      "name": "chopped fresh mustard greens",
+      "normalized_name": "chopped fresh mustard greens",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "032eaae4-bd3d-5fdb-897f-0aaa3adf4878",
+      "name": "chopped fresh spinach",
+      "normalized_name": "chopped fresh spinach",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1c05fe49-eae3-5107-914d-8b01c5886c6f",
+      "name": "ground coriander",
+      "normalized_name": "ground coriander",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "db6fe628-3ba2-5720-9ef1-52fbe1f3d364",
+      "slug": "vegetables",
+      "name": "Vegetables"
+    },
+    {
+      "id": "31402e35-ea9c-5285-99be-824b7bdeb22e",
+      "slug": "greens",
+      "name": "Greens"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "eecd2c00-de61-530a-bc32-cb01ad53bd59",
+      "slug": "indian",
+      "name": "Indian",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "3c1bad1c-94a8-5971-8ceb-f26b4939f801",
+      "slug": "side-dish",
+      "name": "Side Dish",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    },
+    {
+      "id": "c2f09869-a010-58cf-bc86-5b930914ce17",
+      "slug": "budget-cooking-recipes",
+      "name": "Budget Cooking Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/64066/indian-saag"
+  },
+  "public": true,
+  "updated_at": 1771804796,
+  "revision": 1
+}

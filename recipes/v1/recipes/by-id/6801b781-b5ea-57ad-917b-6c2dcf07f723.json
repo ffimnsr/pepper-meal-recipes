@@ -1,0 +1,226 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6801b781-b5ea-57ad-917b-6c2dcf07f723",
+  "slug": "bistec-encebollao",
+  "name": "Bistec Encebollao",
+  "recipe_type": "soup",
+  "brief_description": "Bistec encebollao is a Puerto Rican beef and onions stew recipe of marinated steak in oil, oregano, and vinegar. Serve it with white rice and tostones.",
+  "cuisine": "Puerto Rican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine steak, onions, beef stock, olive oil, vinegar, garlic, Saz\u00f3n seasoning, salt, and oregano in a large resealable plastic bag; toss to coat steak with marinade. Squeeze out excess air and seal the bag. Marinate in the refrigerator at least 4 hours up to 2 days."
+    },
+    {
+      "position": 2,
+      "text": "Transfer steak and marinade to a large deep skillet; bring to a boil. Reduce heat to low; cover and simmer until steak is fork-tender, about 40 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6801b781-b5ea-57ad-917b-6c2dcf07f723/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "423 kcal",
+    "carbohydrateContent": "6 g",
+    "cholesterolContent": "81 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "587 mg",
+    "sugarContent": "3 g",
+    "fatContent": "32 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "abd6eb5f-ec2f-55ff-95c0-7ee6bd4db4e3",
+      "name": "beef sirloin steak",
+      "normalized_name": "beef sirloin steak",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "sliced thinly across the grain",
+      "position": 1
+    },
+    {
+      "ingredient_id": "bcbc71fa-621a-5a4b-9788-e8cf8727c72b",
+      "name": "large white onions",
+      "normalized_name": "large white onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced into rings",
+      "position": 2
+    },
+    {
+      "ingredient_id": "12af034a-1077-5493-a726-152364114621",
+      "name": "beef stock",
+      "normalized_name": "beef stock",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a482b994-5b79-5ece-b9e0-26e002146a29",
+      "name": "distilled white vinegar",
+      "normalized_name": "distilled white vinegar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ed065f0d-8b1b-5791-88a7-ad7fdfe93640",
+      "name": "ounce) packet sazon seasoning",
+      "normalized_name": "ounce packet sazon seasoning",
+      "quantity": "1 (.18",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "79302455-ef0a-58d0-abfd-009ab185cab9",
+      "slug": "caribbean",
+      "name": "Caribbean",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    },
+    {
+      "id": "21ec1594-8f9b-5cdb-8a4b-7bda2e36348a",
+      "slug": "puerto-rican",
+      "name": "Puerto Rican",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/152032/bistec-encebollao"
+  },
+  "public": true,
+  "updated_at": 1778095527,
+  "revision": 1
+}

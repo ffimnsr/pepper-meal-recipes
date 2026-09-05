@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d5c906b2-f43b-51f3-ba95-5ed9d1231ad7",
+  "slug": "slow-cooker-lentil-soup-with-bacon",
+  "name": "Slow Cooker Lentil Soup with Bacon",
+  "recipe_type": "soup",
+  "brief_description": "Perfect for lunch or dinner on a cold, wet day, this slow cooker lentil soup with bacon is simple to prepare and requires just a few ingredients.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Rinse lentils well under cold running water. Drain and transfer to a slow cooker. Pour in water until water level is twice as high as lentils. Add bay leaf and set slow cooker to High."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, heat onion and bacon in a skillet over medium heat. Cook until bacon is crispy, 5 to 10 minutes. Season with garlic powder and transfer bacon-onion mixture to the slow cooker."
+    },
+    {
+      "position": 3,
+      "text": "Cook on High until lentils are tender, about 5 hours."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 305,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d5c906b2-f43b-51f3-ba95-5ed9d1231ad7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "260 kcal",
+    "carbohydrateContent": "37 g",
+    "cholesterolContent": "10 mg",
+    "fiberContent": "18 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "224 mg",
+    "sugarContent": "2 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "3299cd77-48f1-52c5-93a4-b360503d89b9",
+      "name": "ounce) package dry lentils",
+      "normalized_name": "ounce package dry lentils",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "6",
+      "unit": "cups",
+      "preparation": "or as needed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "74e0d12c-4fd5-5ce1-92a3-e2d39e10f104",
+      "name": "ounce) package bacon",
+      "normalized_name": "ounce package bacon",
+      "quantity": "0.5 (16",
+      "unit": "pieces",
+      "preparation": "chopped, or more to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "62486dc7-9e27-5c22-9339-2e4ab00fb7d2",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas"
+    },
+    {
+      "id": "d346b69c-e1fe-5c0b-aded-4846a8803c2f",
+      "slug": "lentil-soup",
+      "name": "Lentil Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "034394aa-b2a8-5d8f-9932-b7e2b073439f",
+      "slug": "bacon",
+      "name": "Bacon",
+      "color": null
+    },
+    {
+      "id": "a4da5d34-2262-5fcd-aec0-e7974f08aae6",
+      "slug": "lentils",
+      "name": "Lentils",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "22b69ae3-bf6c-5161-837b-50f510df6b6b",
+      "slug": "slow-cooker",
+      "name": "Slow Cooker",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277941/slow-cooker-lentil-soup-with-bacon"
+  },
+  "public": true,
+  "updated_at": 1737137232,
+  "revision": 1
+}

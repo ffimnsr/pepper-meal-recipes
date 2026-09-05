@@ -1,0 +1,200 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "63f708eb-5fd0-5802-97fc-1b098cb73050",
+  "slug": "pepperoni-bread",
+  "name": "Pepperoni Bread",
+  "recipe_type": "main",
+  "brief_description": "Pizza-inspired pepperoni bread is easy to make with frozen bread dough, pepperoni, and cheese. It's like pizza toppings are rolled up in a crust!",
+  "cuisine": "Italian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place thawed dough into a bowl; cover and let rise in a warm place until doubled in volume, about 1 hour."
+    },
+    {
+      "position": 2,
+      "text": "Preheat the oven to 375 degrees F (190 degrees C). Line a baking sheet with parchment paper."
+    },
+    {
+      "position": 3,
+      "text": "Roll dough into a rectangle, then brush with beaten egg and arrange pepperoni over top. Sprinkle mozzarella, Parmesan, and Italian seasoning over pepperoni. Roll dough over fillings like a jelly roll and pinch the seam to seal. Place dough, seam-side down, onto the prepared baking sheet."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until golden brown, about 40 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Use a bread knife to cut loaf into slices of your desired size."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/63f708eb-5fd0-5802-97fc-1b098cb73050/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "233 kcal",
+    "carbohydrateContent": "23 g",
+    "cholesterolContent": "38 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "540 mg",
+    "sugarContent": "2 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e7ab5741-c673-5516-860d-f2a408286915",
+      "name": "pound) loaf frozen bread dough",
+      "normalized_name": "pound loaf frozen bread dough",
+      "quantity": "1 (1",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 2
+    },
+    {
+      "ingredient_id": "c7f90838-74fa-54a0-848b-5a22bbcba971",
+      "name": "sliced pepperoni",
+      "normalized_name": "sliced pepperoni",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "1fb8def3-666b-542c-9c76-db0220c0dfd1",
+      "name": "shredded mozzarella cheese",
+      "normalized_name": "shredded mozzarella cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4fbc17fe-1b70-5c92-a946-64cb41d20225",
+      "name": "italian seasoning",
+      "normalized_name": "italian seasoning",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "b3e887f5-5ab1-5beb-aecd-b4afd5ef2b65",
+      "slug": "italian",
+      "name": "Italian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "05662fa4-ba65-5bba-866e-4629892427a7",
+      "slug": "italian",
+      "name": "Italian",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "457e676b-62c1-529f-8219-d9e991df349a",
+      "slug": "bread-dough",
+      "name": "Bread Dough",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/18019/pepperoni-bread"
+  },
+  "public": true,
+  "updated_at": 1773669229,
+  "revision": 1
+}

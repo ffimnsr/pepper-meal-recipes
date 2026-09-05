@@ -1,0 +1,192 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9029a2eb-564b-5259-9d1e-d8c50fcd144d",
+  "slug": "stuffed-eggs",
+  "name": "Stuffed Eggs",
+  "recipe_type": "appetizer",
+  "brief_description": "Hard-boiled egg halves are stuffed with a creamy mixture of mayo, mustard, and grated Parmesan cheese for a guaranteed crowd pleaser.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place eggs in a large pot and cover with cool water. Bring to a boil and cook, stirring occasionally, for 10 minutes. Transfer eggs to a bowl of cold water using tongs. Peel."
+    },
+    {
+      "position": 2,
+      "text": "Cut eggs in half. Slice a small piece off bottoms so halves don't tip over. Place yolks in a mixing bowl. Add mayonnaise, mustard, Parmesan cheese, salt, and pepper. Mix until creamy, 1 or 2 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Spoon yolk mixture into egg white halves. Garnish with a dot of ketchup on top. Refrigerate about 20 minutes before serving."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9029a2eb-564b-5259-9d1e-d8c50fcd144d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "117 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "189 mg",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "161 mg",
+    "sugarContent": "1 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c43f0603-4761-5956-842c-cacc7ec997cf",
+      "name": "dijon mustard",
+      "normalized_name": "dijon mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "78e6f3b3-d4d6-5248-a096-55612b876bea",
+      "slug": "deviled-eggs",
+      "name": "Deviled Eggs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "187603c2-42c4-5076-a2c7-438cbce2329f",
+      "slug": "herbs-and-spices-recipes",
+      "name": "Herbs and Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "3a0e3a37-b1f9-5677-afb0-dbb9e99bc6e6",
+      "slug": "big-game-appetizer-recipes",
+      "name": "Big Game Appetizer Recipes",
+      "color": null
+    },
+    {
+      "id": "2d767613-77b0-5a4f-9859-9a5bca068f86",
+      "slug": "thanksgiving-appetizers",
+      "name": "Thanksgiving Appetizers",
+      "color": null
+    },
+    {
+      "id": "5c3e0064-55a2-5389-b3ec-7323a481bb2c",
+      "slug": "easter",
+      "name": "Easter",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "520f9f30-5e24-51cd-bb0f-a2b7215735f2",
+      "slug": "deviled-eggs",
+      "name": "Deviled Eggs",
+      "color": null
+    },
+    {
+      "id": "c13160db-b17f-51f4-93c4-415066d40b34",
+      "slug": "mustard-recipes",
+      "name": "Mustard Recipes",
+      "color": null
+    },
+    {
+      "id": "ebf99938-61a8-5ffe-b436-629f58509306",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257304/stuffed-eggs"
+  },
+  "public": true,
+  "updated_at": 1732740463,
+  "revision": 1
+}

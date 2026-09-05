@@ -1,0 +1,218 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d6cfaa2b-fdb2-55fe-8e5f-605a76d6d98b",
+  "slug": "sausage-mushroom-quiche",
+  "name": "Sausage Mushroom Quiche",
+  "recipe_type": "breakfast",
+  "brief_description": "This sausage and mushroom quiche recipe has a creamy parsley and Parmesan cheese filling. It's hearty, tasty, and perfect for brunch, lunch, or dinner.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Place pie crust in a 9-inch pie plate; set aside. Snip off mushroom stems; cut large mushrooms in half."
+    },
+    {
+      "position": 3,
+      "text": "Crumble sausage into a large skillet; add mushrooms. Cook on medium-high heat until sausage is browned and all liquid from mushrooms has evaporated. Drain and discard grease. Stir parsley into sausage mixture."
+    },
+    {
+      "position": 4,
+      "text": "Beat eggs in a large bowl; whisk in half-and-half, Parmesan cheese, and salt; stir in sausage mixture until well blended. Pour egg mixture into the prepared pie crust."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until crust is well browned and the filling is set, 25 to 30 minutes. Let stand briefly before serving."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d6cfaa2b-fdb2-55fe-8e5f-605a76d6d98b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "612 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "167 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "19 g",
+    "sodiumContent": "1101 mg",
+    "sugarContent": "2 g",
+    "fatContent": "50 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "e46b1a0a-4689-53b8-8014-6e9b3ebcc777",
+      "name": "inch) unbaked 9 inch pie crust",
+      "normalized_name": "inch unbaked 9 inch pie crust",
+      "quantity": "1 (9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ad536228-0893-5ade-a536-4fe61d28f215",
+      "name": "small fresh button mushrooms",
+      "normalized_name": "small fresh button mushrooms",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3e25fd3b-4bfd-52bf-a498-55f75c974a40",
+      "name": "ground pork breakfast sausage",
+      "normalized_name": "ground pork breakfast sausage",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
+      "name": "chopped fresh parsley",
+      "normalized_name": "chopped fresh parsley",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "204500af-10b9-5082-9ea1-bd87754be779",
+      "name": "half-and-half cream",
+      "normalized_name": "half-and-half cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "a7ca9625-d163-578e-8535-bfba35a3532b",
+      "slug": "quiche",
+      "name": "Quiche"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0614dc1f-f3ea-5922-afec-09efb2a4b1c1",
+      "slug": "mushroom-quiche-recipes",
+      "name": "Mushroom Quiche Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "db91492e-e32c-5710-93d7-22a553631e4d",
+      "slug": "quiche",
+      "name": "Quiche",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24572/sausage-mushroom-quiche"
+  },
+  "public": true,
+  "updated_at": 1738682313,
+  "revision": 1
+}

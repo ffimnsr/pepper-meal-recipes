@@ -1,0 +1,253 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fb4675d0-868b-5abe-9792-210c6199cee7",
+  "slug": "easy-slow-cooker-cheesy-potato-soup-with-ham",
+  "name": "Slow Cooker Cheesy Potato Soup with Ham",
+  "recipe_type": "soup",
+  "brief_description": "This cheesy potato soup with Cheddar, cream cheese, and ham is rich, creamy, and comforting. It's simple to prep, and the slow cooker does the rest!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine hash browns, ham, onion, celery, chicken broth, salt, pepper, and garlic powder in a slow cooker. Stir well to combine. Place the lid on the slow cooker."
+    },
+    {
+      "position": 2,
+      "text": "Cook on Low heat until celery is soft, 4 to 5 hours."
+    },
+    {
+      "position": 3,
+      "text": "Mix in cream cheese and Cheddar cheese. Stir until cheese is melted. Cover and cook on Low for an additional 30 minutes, stirring occasionally. Serve topped with chopped green onions as a garnish."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 270,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fb4675d0-868b-5abe-9792-210c6199cee7/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "518 kcal",
+    "carbohydrateContent": "28 g",
+    "cholesterolContent": "110 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "24 g",
+    "saturatedFatContent": "22 g",
+    "sodiumContent": "1846 mg",
+    "sugarContent": "2 g",
+    "fatContent": "42 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "23298b59-dd3a-5668-8b34-fa2ba5b6e7af",
+      "name": "ounce) package frozen hash brown potatoes",
+      "normalized_name": "ounce package frozen hash brown potatoes",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "7b2d4806-d351-56f8-90cc-0779f03d9294",
+      "name": "diced cooked ham",
+      "normalized_name": "diced cooked ham",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3d4da035-8d31-5739-9e0e-b190a7b09330",
+      "name": "diced onion",
+      "normalized_name": "diced onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "f89fe039-f5c6-5c2e-9281-a96ec9304ac4",
+      "name": "chicken broth",
+      "normalized_name": "chicken broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "cd6cdf2d-dbde-56e7-8f54-f3790f0cf0a1",
+      "name": "ounce) package cream cheese",
+      "normalized_name": "ounce package cream cheese",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "softened",
+      "position": 9
+    },
+    {
+      "ingredient_id": "d9665c8e-feae-5357-999b-b8048431ad56",
+      "name": "ounce) package shredded cheddar cheese",
+      "normalized_name": "ounce package shredded cheddar cheese",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "907b7443-17d3-5349-b4f1-941d5cb63ff7",
+      "name": "chopped green onions",
+      "normalized_name": "chopped green onions",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "278514fe-983b-5bcb-a57c-c032a506c02e",
+      "slug": "potato-soup",
+      "name": "Potato Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5606a16e-e04d-5bc0-9a9b-14e21d2c303c",
+      "slug": "potato-soup-recipes",
+      "name": "Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "c8686615-6b0e-5edb-8336-d3d213a5adfd",
+      "slug": "ham-soup",
+      "name": "Ham Soup",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "6c183765-363b-5171-8d6d-cebe5dce0b0b",
+      "slug": "potatoes",
+      "name": "Potatoes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273023/easy-slow-cooker-cheesy-potato-soup-with-ham"
+  },
+  "public": true,
+  "updated_at": 1776377702,
+  "revision": 1
+}

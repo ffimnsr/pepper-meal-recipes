@@ -1,0 +1,256 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9bb77cdd-6ee0-551a-b20d-fc57c6c603b2",
+  "slug": "ham-chowder",
+  "name": "Ham Chowder",
+  "recipe_type": "soup",
+  "brief_description": "Ham and bacon add a smoky taste, while cream gives this ham and potato chowder a rich texture. The recipe stars leeks, onions, garlic, rosemary, and carrots.",
+  "cuisine": "U.S.",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat stock in a large pot over medium heat; bring to a simmer. Stir in ham and 2 tablespoons rosemary."
+    },
+    {
+      "position": 2,
+      "text": "Cook bacon, stirring occasionally, in a large skillet over medium heat until crisp. Use a slotted spoon to transfer bacon to the pot. Discard 1/2 of the bacon grease; reserve remaining grease in the skillet."
+    },
+    {
+      "position": 3,
+      "text": "Return the skillet to medium heat. Stir in leeks, onions, green onions, and garlic; cook until tender, then add to the pot."
+    },
+    {
+      "position": 4,
+      "text": "Add potatoes, carrots, and remaining 2 tablespoons rosemary to the pot; simmer until vegetables are tender, about 20 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Remove the pot from heat; stir in cream until incorporated."
+    }
+  ],
+  "servings": 15,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 40,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9bb77cdd-6ee0-551a-b20d-fc57c6c603b2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "438 kcal",
+    "carbohydrateContent": "36 g",
+    "cholesterolContent": "76 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "1351 mg",
+    "sugarContent": "5 g",
+    "fatContent": "25 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6392649c-4c93-59dc-8d36-51c91800783f",
+      "name": "chicken or ham stock",
+      "normalized_name": "chicken or ham stock",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "73b33fdf-ae86-58f4-9fad-91b4aef8f49c",
+      "name": "cubed country ham",
+      "normalized_name": "cubed country ham",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "8276eea8-48d5-53bd-807f-402083fde791",
+      "name": "dried rosemary",
+      "normalized_name": "dried rosemary",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "14a9821b-6966-5d2b-a09e-837355f37cb5",
+      "name": "bacon",
+      "normalized_name": "bacon",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "diced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "80c097d8-212d-5781-a71e-0b7efa0d6635",
+      "name": "leeks",
+      "normalized_name": "leeks",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "d1e495b6-21e7-5cfd-b73a-44a6104e0ab3",
+      "name": "large onions",
+      "normalized_name": "large onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "69d1b056-2560-5b92-9f90-e747223dcaba",
+      "name": "large potatoes",
+      "normalized_name": "large potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 9
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cubed",
+      "position": 10
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "a223d120-a2a2-54de-8b0c-cc5e335554a3",
+      "slug": "cream-soup",
+      "name": "Cream Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "58f836b1-d1a3-5e0e-b2ff-a9a45fe2c4c4",
+      "slug": "u-s-recipes",
+      "name": "U.S. Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/83439/ham-chowder"
+  },
+  "public": true,
+  "updated_at": 1788455716,
+  "revision": 1
+}

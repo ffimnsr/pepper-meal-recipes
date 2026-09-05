@@ -1,0 +1,239 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "76ec9d59-5669-50c2-9135-47bdfd7711e5",
+  "slug": "blueberry-scones",
+  "name": "Blueberry Scones",
+  "recipe_type": "breakfast",
+  "brief_description": "This blueberry scone recipe makes rich, moist, fruity scones bursting with fresh juicy blueberries. They're perfect for breakfast or afternoon tea!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Preheat the oven to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Combine flour, brown sugar, baking powder, and salt in a bowl. Cut in cold butter with two knives or a pastry blender until the mixture resembles coarse crumbs. Add blueberries and toss to combine."
+    },
+    {
+      "position": 3,
+      "text": "Whisk cream and egg together in a separate bowl until well combined; slowly pour into dry ingredients and stir with a rubber spatula until a dough starts to form."
+    },
+    {
+      "position": 4,
+      "text": "Transfer mixture to a lightly floured surface and knead just until it comes together, 3 or 4 times; don't overwork the dough. Divide dough in half, then form each half into a 6-inch round."
+    },
+    {
+      "position": 5,
+      "text": "Transfer to an ungreased baking sheet and cut each round into 6 wedges."
+    },
+    {
+      "position": 6,
+      "text": "Bake in the preheated oven until light golden brown, about 20 minutes. Serve warm."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/76ec9d59-5669-50c2-9135-47bdfd7711e5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "160 kcal",
+    "carbohydrateContent": "23 g",
+    "cholesterolContent": "31 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "211 mg",
+    "sugarContent": "6 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4318d726-c4c1-57d3-ad3e-5e83a3428d49",
+      "name": "packed brown sugar",
+      "normalized_name": "packed brown sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "975b4ae8-f1f4-56fb-87b7-69b93edb84a1",
+      "name": "chilled unsalted butter",
+      "normalized_name": "chilled unsalted butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "cut into pieces",
+      "position": 5
+    },
+    {
+      "ingredient_id": "1b50230f-4efa-5379-a02c-16db54f05786",
+      "name": "fresh blueberries",
+      "normalized_name": "fresh blueberries",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "204500af-10b9-5082-9ea1-bd87754be779",
+      "name": "half-and-half cream",
+      "normalized_name": "half-and-half cream",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "f78bb26e-a814-591f-b42e-d15900da14bc",
+      "name": "large egg",
+      "normalized_name": "large egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "d25b6e37-e0f2-561c-89c6-ef1b266a9e39",
+      "slug": "scone",
+      "name": "Scone"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "eaea3a49-33f0-5929-826b-e987ca704a5d",
+      "slug": "scone-recipes",
+      "name": "Scone Recipes",
+      "color": null
+    },
+    {
+      "id": "efdf4003-25b0-5a9c-8f16-7e9c7e4a2234",
+      "slug": "blueberries",
+      "name": "Blueberries",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "a0f447de-7a39-5f29-af35-80c44e51c091",
+      "slug": "low-potassium",
+      "name": "Low-Potassium",
+      "color": null
+    },
+    {
+      "id": "bb561413-f49c-5029-956b-c7037608823d",
+      "slug": "berries",
+      "name": "Berries",
+      "color": null
+    },
+    {
+      "id": "fe15adb4-fe7d-5fbe-9366-9c0aed8e0a04",
+      "slug": "mother-s-day",
+      "name": "Mother's Day",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/6946/blueberry-scones"
+  },
+  "public": true,
+  "updated_at": 1764178932,
+  "revision": 1
+}

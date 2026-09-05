@@ -1,0 +1,209 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fc45bd73-ca0d-5ae0-9137-8f82abf19dcb",
+  "slug": "bacon-pancakes-recipe-11687812",
+  "name": "Bacon Pancakes",
+  "recipe_type": "dessert",
+  "brief_description": "These bacon pancakes are the sweet-salty combo that will start your day out right. It's a breakfast all in one, with plenty of bacon in every bite.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place bacon in a large cast iron or nonstick skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels."
+    },
+    {
+      "position": 2,
+      "text": "Whisk together baking mix, milk, oil, egg, and cinnamon in a bowl until smooth. Crumble 2 bacon slices into the batter, then mix the batter again."
+    },
+    {
+      "position": 3,
+      "text": "Heat a medium-sized non-stick skillet to medium low-heat. Cut 1 of the remaining bacon slices in half, then lay the halves in the pre-heated skillet. Pour just enough batter over 1 half slice to cover it. Repeat with the other half slice of bacon."
+    },
+    {
+      "position": 4,
+      "text": "Cook until pancakes have puffed up and bubbles have appeared. Flip and cook the other side until golden brown. Remove pancakes from the pan and repeat with remaining bacon and batter."
+    },
+    {
+      "position": 5,
+      "text": "Serve with maple syrup on top and any leftover bacon."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fc45bd73-ca0d-5ae0-9137-8f82abf19dcb/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1408 kcal",
+    "carbohydrateContent": "266 g",
+    "cholesterolContent": "131 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "1453 mg",
+    "sugarContent": "211 g",
+    "fatContent": "31 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f7cf90e4-8e48-5a6a-b5d1-29ce8384cb2c",
+      "name": "baking mix",
+      "normalized_name": "baking mix",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "such as bisquick",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "da3ef5f7-df41-5a60-a715-cea48028bf02",
+      "name": "vegetable or avocado oil",
+      "normalized_name": "vegetable or avocado oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "615a2392-aafb-5535-bfb1-e06cb1670ad2",
+      "name": "maple syrup for serving",
+      "normalized_name": "maple syrup for serving",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "017f8645-ec08-59b4-a868-cdf69e504615",
+      "slug": "entree",
+      "name": "Entree"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "8dc4a884-c5f6-5ca8-8a40-0edcca64e2aa",
+      "slug": "pancake",
+      "name": "Pancake"
+    }
+  ],
+  "tags": [
+    {
+      "id": "16c5608f-411f-50ae-b193-c9821fae5fd8",
+      "slug": "pancake-recipes",
+      "name": "Pancake Recipes",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "034394aa-b2a8-5d8f-9932-b7e2b073439f",
+      "slug": "bacon",
+      "name": "Bacon",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/bacon-pancakes-recipe-11687812"
+  },
+  "public": true,
+  "updated_at": 1740708000,
+  "revision": 1
+}

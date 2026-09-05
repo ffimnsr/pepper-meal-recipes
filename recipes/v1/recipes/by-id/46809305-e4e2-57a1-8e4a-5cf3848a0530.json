@@ -1,0 +1,177 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "46809305-e4e2-57a1-8e4a-5cf3848a0530",
+  "slug": "famous-restaurant-alfredo-sauce",
+  "name": "Famous Restaurant Alfredo Sauce",
+  "recipe_type": "main",
+  "brief_description": "This is a much sought after recipe from a popular chain restaurant --my nephew worked there as a cook and gave it to me.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place pasta in a large pot of lightly salted boiling water. Cook until tender, about 8 minutes. Drain."
+    },
+    {
+      "position": 2,
+      "text": "Combine the butter, cream cheese, and half and half in a saucepan. Season with garlic salt and lemon pepper. Bring to a low boil over medium-low heat. Cook, stirring, until thickened slightly. Serve over 12 ounces of pasta."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/46809305-e4e2-57a1-8e4a-5cf3848a0530/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "821 kcal",
+    "carbohydrateContent": "86 g",
+    "cholesterolContent": "126 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "28 g",
+    "sodiumContent": "399 mg",
+    "sugarContent": "4 g",
+    "fatContent": "46 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b79f8d0f-40ab-5fde-814c-f7d1069dd443",
+      "name": "cream cheese",
+      "normalized_name": "cream cheese",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "290a7383-c4f5-5e89-a4ef-ac32f5e86d14",
+      "name": "garlic salt",
+      "normalized_name": "garlic salt",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": "or to taste",
+      "position": 4
+    },
+    {
+      "ingredient_id": "277b8221-4d42-5e77-a793-c3493ef783bb",
+      "name": "lemon pepper to taste",
+      "normalized_name": "lemon pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "890e0d2c-5cde-5f39-9002-75373d64115b",
+      "name": "ounce) package dry fettuccine pasta",
+      "normalized_name": "ounce package dry fettuccine pasta",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1fdadf86-fecf-5160-86af-ec1484649537",
+      "slug": "pasta",
+      "name": "Pasta"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "8188eed4-b891-5ca2-b130-93c8a82eac19",
+      "slug": "fettuccini-recipes",
+      "name": "Fettuccini Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "67a9e0e4-4e75-55b6-a69a-a87726f5aa9b",
+      "slug": "pasta-by-shape-recipes",
+      "name": "Pasta by Shape Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/54633/famous-restaurant-alfredo-sauce"
+  },
+  "public": true,
+  "updated_at": 1731828561,
+  "revision": 1
+}

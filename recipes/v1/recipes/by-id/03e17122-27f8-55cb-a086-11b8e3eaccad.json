@@ -1,0 +1,199 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "03e17122-27f8-55cb-a086-11b8e3eaccad",
+  "slug": "breakfast-quesadillas",
+  "name": "Breakfast Quesadillas",
+  "recipe_type": "breakfast",
+  "brief_description": "These sausage and egg breakfast quesadillas are budget-friendly and easy to make for the whole family whether you're eating at home or snacking on the go!",
+  "cuisine": "American Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a large skillet over medium-high heat. Cook and stir sausage in the hot skillet until browned and crumbly, 5 to 7 minutes. Drain and discard grease. Let sausage cool."
+    },
+    {
+      "position": 2,
+      "text": "Spray a large skillet with cooking spray; warm over medium-high heat. Beat eggs with milk in a bowl. Pour into the skillet; cook and stir until eggs are set, about 5 minutes. Set aside to cool."
+    },
+    {
+      "position": 3,
+      "text": "Spread butter over 1 side of each tortilla. Heat a skillet over medium heat. Place a tortilla, buttered-side down, in the skillet. Top with a layer each of the sausage, eggs, then cheese. Top with another tortilla, buttered-side up. Cook until golden brown on both sides, 2 to 3 minutes per side. Transfer to a plate. Repeat with remaining tortillas and filling."
+    },
+    {
+      "position": 4,
+      "text": "Slice quesadillas into quarters. Serve."
+    }
+  ],
+  "servings": 24,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/03e17122-27f8-55cb-a086-11b8e3eaccad/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "345 kcal",
+    "carbohydrateContent": "37 g",
+    "cholesterolContent": "67 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "716 mg",
+    "sugarContent": "2 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "168b6484-e26a-5d2a-9c40-ddd68676bb63",
+      "name": "bulk pork breakfast sausage (such as jimmy dean\u00ae)",
+      "normalized_name": "bulk pork breakfast sausage",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese (such as kraft\u00ae)",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "efbcd020-9376-5af7-b159-fb8dc82fe858",
+      "name": "flour tortillas",
+      "normalized_name": "flour tortillas",
+      "quantity": "24",
+      "unit": "pieces",
+      "preparation": "at room temperature",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "9e47cf4e-6a45-5036-b001-ab987b9aff72",
+      "slug": "pork",
+      "name": "Pork"
+    },
+    {
+      "id": "a8e55915-5f7b-5584-88c4-e5767a47c87f",
+      "slug": "sausage",
+      "name": "Sausage"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "5af83e6d-2d61-52f9-ac50-236132bddbf1",
+      "slug": "quesadilla-recipes",
+      "name": "Quesadilla Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/273357/breakfast-quesadillas"
+  },
+  "public": true,
+  "updated_at": 1738777719,
+  "revision": 1
+}

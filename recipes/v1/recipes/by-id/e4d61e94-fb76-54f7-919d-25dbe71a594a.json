@@ -1,0 +1,245 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e4d61e94-fb76-54f7-919d-25dbe71a594a",
+  "slug": "chocolate-covered-caramel-corn",
+  "name": "Chocolate-Covered Caramel Corn Recipe",
+  "recipe_type": "dessert",
+  "brief_description": "In this chocolate-covered caramel corn recipe, buttery popcorn is tossed with peanuts, glazed with caramel, and baked until crunchy. A drizzle of chocolate makes this a big-batch snack that will please a crowd.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place 1 bag popcorn in the microwave; cook on high until popping begins to slow down, about 2 1/2 minutes. Repeat with remaining bags. Open bags carefully; divide popcorn between 2 shallow baking dishes. Mix in peanuts."
+    },
+    {
+      "position": 2,
+      "text": "Preheat oven to 250 degrees F (120 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Combine brown sugar, margarine, corn syrup, and salt in a saucepan over medium heat. Bring to a boil, stirring to blend. Simmer, stirring constantly, for 5 minutes. Remove from heat; mix in vanilla extract and baking soda until mixture is light and foamy."
+    },
+    {
+      "position": 4,
+      "text": "Pour brown sugar mixture over popcorn-peanut mixture; stir to coat."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven, stirring every 25 minutes, until a cooled piece of popcorn is crunchy, about 1 hour."
+    },
+    {
+      "position": 6,
+      "text": "Line a flat work surface with waxed paper. Pour popcorn onto the waxed paper. Break up any large clusters."
+    },
+    {
+      "position": 7,
+      "text": "Melt chocolate almond bark in a microwave-safe glass or ceramic bowl in 15-second intervals, stirring each time until smooth, 1 to 3 minutes. Pour into a resealable plastic bag; snip off 1 corner. Drizzle melted chocolate over popcorn. Let popcorn cool completely."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 80,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e4d61e94-fb76-54f7-919d-25dbe71a594a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "544 kcal",
+    "carbohydrateContent": "55 g",
+    "fiberContent": "5 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "659 mg",
+    "sugarContent": "22 g",
+    "fatContent": "37 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1be4bde8-fd52-52f4-afaf-228dd934296f",
+      "name": "ounce) packages butter-flavored microwave popcorn",
+      "normalized_name": "ounce packages butter-flavored microwave popcorn",
+      "quantity": "4 (3.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0d9ed14a-9249-5fdf-ba2a-c3b42e037b5b",
+      "name": "dry-roasted peanuts",
+      "normalized_name": "dry-roasted peanuts",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "915d3931-7f1a-547d-9655-7c5ac8ed53bd",
+      "name": "margarine",
+      "normalized_name": "margarine",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "7a7fe6f2-3aeb-5623-9b66-a7f2ae0580df",
+      "name": "light corn syrup",
+      "normalized_name": "light corn syrup",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "2d5cf3ae-b55d-5d91-a5a0-6b72b5d86eac",
+      "name": "ounce) bag chocolate almond bark",
+      "normalized_name": "ounce bag chocolate almond bark",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": "broken into pieces",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7891449c-491f-5889-b6e5-4aa5b1bbd0b6",
+      "slug": "candy",
+      "name": "Candy"
+    },
+    {
+      "id": "94444452-2f53-5f65-b282-1b7a98428914",
+      "slug": "popcorn-candy",
+      "name": "Popcorn Candy"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1ec1b220-3014-5073-b90a-86a363a6cb1f",
+      "slug": "popcorn-candy-recipes",
+      "name": "Popcorn Candy Recipes",
+      "color": null
+    },
+    {
+      "id": "bea70f6b-83d1-547c-b292-dc14e80b6239",
+      "slug": "cooking-for-a-crowd-recipes",
+      "name": "Cooking for a Crowd Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "b966de5b-5e35-587e-a41f-d63676ef20a9",
+      "slug": "chocolate-popcorn-recipes",
+      "name": "Chocolate Popcorn Recipes",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "7010d70c-9bb8-59d5-8f78-f098db7e5a29",
+      "slug": "caramel",
+      "name": "Caramel",
+      "color": null
+    },
+    {
+      "id": "030dd95a-28a4-50b2-ad9f-6a044412b7a4",
+      "slug": "peanut-dessert-recipes",
+      "name": "Peanut Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "7a885960-8acc-549f-9170-8939c42a169f",
+      "slug": "candy-recipes",
+      "name": "Candy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/259225/chocolate-covered-caramel-corn"
+  },
+  "public": true,
+  "updated_at": 1734478514,
+  "revision": 1
+}

@@ -1,0 +1,244 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "42348058-3163-5a95-809e-af2ae7cdd6c2",
+  "slug": "grilled-bacon-pizza-recipe-8391436",
+  "name": "Grilled Bacon Pizza",
+  "recipe_type": "main",
+  "brief_description": "This grilled bacon pizza is loaded with layers of flavor and double the bacon. Get ready, this may just become your favorite!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat a gas grill with all burners on High for 10 to 15 minutes. Shape pizza dough and brush with olive oil."
+    },
+    {
+      "position": 2,
+      "text": "Reduce the flame on half of the grill burners to Low, to create areas of direct and indirect heat."
+    },
+    {
+      "position": 3,
+      "text": "Carefully place dough, olive oil side facing down, onto the grill over direct heat. Close the cover. Let dough grill until the bottom is just barely cooked and shows char marks, 1 to 3 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Flip dough over and cook 2 to 3 more minutes. Remove dough to a baking sheet."
+    },
+    {
+      "position": 5,
+      "text": "Spread bacon jam over pizza dough; sprinkle mozzarella cheese over dough. Place small dollops of ricotta cheese onto pizza. Scatter cooked bacon pieces over the pizza."
+    },
+    {
+      "position": 6,
+      "text": "Return pizza to grill and cook until cheese has melted, 3 to 4 more minutes."
+    },
+    {
+      "position": 7,
+      "text": "Scatter small pieces of arugula onto pizza. Add pesto; drizzle with balsamic glaze. Scatter ricotta salata crumbles over pizza. Cut into wedges and serve."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/42348058-3163-5a95-809e-af2ae7cdd6c2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "245 kcal",
+    "carbohydrateContent": "30 g",
+    "cholesterolContent": "14 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "398 mg",
+    "sugarContent": "4 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "483a7c54-b62c-557e-8059-e6065e088e89",
+      "name": "prepared pizza dough",
+      "normalized_name": "prepared pizza dough",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "611e4fc0-000c-5082-92fe-2a5f79241f95",
+      "name": "bacon jam",
+      "normalized_name": "bacon jam",
+      "quantity": "1/3",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "86a7cdcc-0c6a-5bcd-ad7b-ca684b40bbad",
+      "name": "shredded mozzarella",
+      "normalized_name": "shredded mozzarella",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c9f0114c-8eae-5516-b8e7-2f3ba67091e4",
+      "name": "ricotta cheese",
+      "normalized_name": "ricotta cheese",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c3be5acc-17cd-5edb-ac3d-068ff24e44e7",
+      "name": "cooked chopped bacon",
+      "normalized_name": "cooked chopped bacon",
+      "quantity": "1/3",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "9e31e30e-2d29-55f6-be0a-1552db529f3f",
+      "name": "arugula",
+      "normalized_name": "arugula",
+      "quantity": "1/4",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bcb570de-4d06-57db-95cd-4ac1e9919756",
+      "name": "pesto",
+      "normalized_name": "pesto",
+      "quantity": "2",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1af7e9e2-6b37-5cf0-b618-4a9a86d6e24e",
+      "name": "balsamic glaze",
+      "normalized_name": "balsamic glaze",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "e04aad78-2772-537d-86b9-d3d446e5b9c3",
+      "name": "crumbled ricotta salata",
+      "normalized_name": "crumbled ricotta salata",
+      "quantity": "2",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "017f8645-ec08-59b4-a868-cdf69e504615",
+      "slug": "entree",
+      "name": "Entree"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "149a4eab-232a-5656-97ca-966809a8a3c5",
+      "slug": "pizza",
+      "name": "Pizza"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c88e879c-5c3e-531a-97fc-d72022e4e131",
+      "slug": "pizza-recipes",
+      "name": "Pizza Recipes",
+      "color": null
+    },
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "034394aa-b2a8-5d8f-9932-b7e2b073439f",
+      "slug": "bacon",
+      "name": "Bacon",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/grilled-bacon-pizza-recipe-8391436"
+  },
+  "public": true,
+  "updated_at": 1699388665,
+  "revision": 1
+}

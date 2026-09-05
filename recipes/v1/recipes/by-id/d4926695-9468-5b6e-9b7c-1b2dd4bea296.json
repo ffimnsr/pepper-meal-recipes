@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d4926695-9468-5b6e-9b7c-1b2dd4bea296",
+  "slug": "the-best-garlic-bread",
+  "name": "The Best Garlic Bread",
+  "recipe_type": "appetizer",
+  "brief_description": "This is the best garlic bread ever. It\u2019s spread with mayonnaise, Parmesan cheese, and garlic powder, then broiled until golden brown and bubbly.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven\u2019s broiler."
+    },
+    {
+      "position": 2,
+      "text": "Mix together mayonnaise, Parmesan cheese, and garlic powder in a medium bowl until thick and well combined."
+    },
+    {
+      "position": 3,
+      "text": "Slice loaf in half lengthwise and spread the cut-side of each piece with mayonnaise mixture. Place halves on a medium baking sheet."
+    },
+    {
+      "position": 4,
+      "text": "Cook under the preheated broiler until mayonnaise mixture is bubbling and golden brown, 2 to 5 minutes; check frequently to avoid burning."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 2,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d4926695-9468-5b6e-9b7c-1b2dd4bea296/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "139 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "5 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "298 mg",
+    "sugarContent": "1 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "1c9f9a89-8dd6-54c2-985b-8e90ca9b7fe9",
+      "name": "pound) loaf italian bread",
+      "normalized_name": "pound loaf italian bread",
+      "quantity": "1 (1",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "313ee2c5-cfdb-5f62-ae14-2a8582afc952",
+      "slug": "garlic-bread",
+      "name": "Garlic Bread"
+    }
+  ],
+  "tags": [
+    {
+      "id": "55c1a667-4d7b-5985-8236-b9e04342918a",
+      "slug": "garlic-bread-recipes",
+      "name": "Garlic Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "60f6fa5f-ac03-5eff-897b-8776dfb1ef02",
+      "slug": "garlic",
+      "name": "Garlic",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "2d9ecea4-9682-5b22-b9b0-a8b03d26a602",
+      "slug": "cheese",
+      "name": "Cheese",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/22614/the-best-garlic-bread"
+  },
+  "public": true,
+  "updated_at": 1786997797,
+  "revision": 1
+}

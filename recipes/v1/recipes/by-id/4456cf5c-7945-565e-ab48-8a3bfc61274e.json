@@ -1,0 +1,168 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4456cf5c-7945-565e-ab48-8a3bfc61274e",
+  "slug": "eggnog-milkshake",
+  "name": "Eggnog Milkshake",
+  "recipe_type": "dessert",
+  "brief_description": "A seasonal milkshake made with eggnog and butter pecan ice cream. Top with whipped cream and dust with cinnamon to be extra festive.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine eggnog, ice cream, and milk in a blender. Blend on high until incorporated. Pour into a glass, garnish with whipped cream, and dust with cinnamon if desired."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4456cf5c-7945-565e-ab48-8a3bfc61274e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1196 kcal",
+    "carbohydrateContent": "82 g",
+    "cholesterolContent": "426 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "42 g",
+    "sodiumContent": "621 mg",
+    "fatContent": "86 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d3b04dee-8b6c-5b53-bd76-36be0536d9e9",
+      "name": "eggnog",
+      "normalized_name": "eggnog",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4951487e-a575-5bc3-ad98-6ed2a8f31c96",
+      "name": "butter pecan ice cream",
+      "normalized_name": "butter pecan ice cream",
+      "quantity": "1.75",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c6ac94c1-9281-5897-871b-3643d695f889",
+      "name": "1% milk",
+      "normalized_name": "1 milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2a528dcf-77df-5fae-9fec-ffe9c6906241",
+      "name": "whipped cream as topping (optional)",
+      "normalized_name": "whipped cream as topping",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ded045a7-68d2-50b1-bae2-f30c4ec60f1f",
+      "name": "cinnamon",
+      "normalized_name": "cinnamon",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "9474d257-abc3-5a1a-94dc-b1f447e79821",
+      "slug": "shakes-and-floats",
+      "name": "Shakes and Floats"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "c5ccfc50-ad3d-5061-ae48-e01d18c4ee36",
+      "slug": "rum-drinks-recipes",
+      "name": "Rum Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "824adb05-72ef-5e2d-bfb4-c37dc6a6795e",
+      "slug": "drinks",
+      "name": "Drinks",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "fa443c6f-136c-54a3-a3d8-5ff5b939cf47",
+      "slug": "shakes-and-floats-recipes",
+      "name": "Shakes and Floats Recipes",
+      "color": null
+    },
+    {
+      "id": "9d3c6604-d801-56ea-a0ab-d94d449e01d9",
+      "slug": "eggnog-recipes",
+      "name": "Eggnog Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8495590/eggnog-milkshake"
+  },
+  "public": true,
+  "updated_at": 1740602148,
+  "revision": 1
+}

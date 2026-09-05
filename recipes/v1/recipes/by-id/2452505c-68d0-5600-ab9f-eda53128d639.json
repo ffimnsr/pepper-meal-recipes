@@ -1,0 +1,197 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2452505c-68d0-5600-ab9f-eda53128d639",
+  "slug": "one-pot-tuna-casserole",
+  "name": "One Pot Tuna Casserole",
+  "recipe_type": "main",
+  "brief_description": "This is so easy and fast, like tuna casserole without baking it! Top with French-fried onions, if desired.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Bring a large pot of lightly salted water to a boil. Cook pasta in boiling water until al dente, adding peas for the final 3 minutes of cooking; drain."
+    },
+    {
+      "position": 2,
+      "text": "Melt the butter in the same pot over medium heat. Add the mushroom soup, tuna, milk, and Cheddar cheese. Stir until cheese is melted, and the mixture is smooth. Stir in the pasta and peas until evenly coated."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2452505c-68d0-5600-ab9f-eda53128d639/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "395 kcal",
+    "carbohydrateContent": "43 g",
+    "cholesterolContent": "79 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "452 mg",
+    "sugarContent": "4 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "55a8a7ae-285d-5a20-9a49-57ae30636e3e",
+      "name": "ounce) package egg noodles",
+      "normalized_name": "ounce package egg noodles",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "40ed40a8-a3f8-5389-a758-04d5c0f01dc2",
+      "name": "ounce) package frozen green peas",
+      "normalized_name": "ounce package frozen green peas",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": "thawed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c29853eb-92b8-5cd9-8800-3efe37eeebc4",
+      "name": "ounce) can tuna",
+      "normalized_name": "ounce can tuna",
+      "quantity": "1 (5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 5
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
+      "slug": "fish",
+      "name": "Fish"
+    },
+    {
+      "id": "8e4084f8-9941-57c1-a7a9-2d2a8f0a27ba",
+      "slug": "tuna",
+      "name": "Tuna"
+    }
+  ],
+  "tags": [
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "71f3d2ee-2a90-597c-bd2c-de2251e907ba",
+      "slug": "one-pot-meal-recipes",
+      "name": "One-Pot Meal Recipes",
+      "color": null
+    },
+    {
+      "id": "6ecf6395-77d0-5328-9c7e-93c116da97f2",
+      "slug": "frozen-food",
+      "name": "Frozen Food",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "f3a06a5e-eb68-58cb-91b0-8787d6f2babc",
+      "slug": "tuna",
+      "name": "Tuna",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/24512/one-pot-tuna-casserole"
+  },
+  "public": true,
+  "updated_at": 1696708790,
+  "revision": 1
+}

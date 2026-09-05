@@ -1,0 +1,230 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ead0ea83-071e-5dd8-a595-f5e3e01b9467",
+  "slug": "tuna-mushroom-casserole",
+  "name": "Tuna Mushroom Casserole",
+  "recipe_type": "main",
+  "brief_description": "Baked tuna casserole with bow tie pasta and mushrooms.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Grease a 1-quart casserole dish."
+    },
+    {
+      "position": 2,
+      "text": "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain."
+    },
+    {
+      "position": 3,
+      "text": "In a mixing bowl, combine mushroom soup, milk, salt, and pepper. Mix thoroughly. Then add tuna, mushrooms, and pasta. Mix thoroughly. Pour mixture into the greased casserole dish."
+    },
+    {
+      "position": 4,
+      "text": "In another mixing bowl, combine bread crumbs, butter, and thyme. Mix well. Sprinkle over the top of the tuna mixture."
+    },
+    {
+      "position": 5,
+      "text": "Bake uncovered in a preheated oven until bubbling and golden brown, about 40 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 53,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ead0ea83-071e-5dd8-a595-f5e3e01b9467/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "298 kcal",
+    "carbohydrateContent": "31 g",
+    "cholesterolContent": "32 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "932 mg",
+    "sugarContent": "6 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f0dcdc31-ad87-552a-8b1f-80afddea7706",
+      "name": "bow tie pasta",
+      "normalized_name": "bow tie pasta",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "70682391-1629-52a7-8459-e1670cc2343d",
+      "name": "ounce) cans tuna",
+      "normalized_name": "ounce cans tuna",
+      "quantity": "2 (5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 2
+    },
+    {
+      "ingredient_id": "151ea599-a938-5ff0-bc84-3dfaec5482be",
+      "name": "ounce) can mushrooms",
+      "normalized_name": "ounce can mushrooms",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 3
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1.3333333730698",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "fcb75e45-d120-54be-b6d5-8f74f4acc3b7",
+      "name": "dry bread crumbs",
+      "normalized_name": "dry bread crumbs",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "fe60e6c6-703e-5015-a9fe-57577395e6b5",
+      "name": "melted butter",
+      "normalized_name": "melted butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "fbfbd6d5-976a-5d3c-964c-093ca045f531",
+      "name": "dried thyme",
+      "normalized_name": "dried thyme",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": "crushed",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "3cb72ea0-ced0-5ecc-9625-dfe54a0c8d8f",
+      "slug": "seafood",
+      "name": "Seafood"
+    },
+    {
+      "id": "b1d37662-f4d7-5925-840f-4510904c0c91",
+      "slug": "fish",
+      "name": "Fish"
+    },
+    {
+      "id": "8e4084f8-9941-57c1-a7a9-2d2a8f0a27ba",
+      "slug": "tuna",
+      "name": "Tuna"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f3a06a5e-eb68-58cb-91b0-8787d6f2babc",
+      "slug": "tuna",
+      "name": "Tuna",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "2548842f-7786-5075-bdd5-b35283a60ebd",
+      "slug": "pasta",
+      "name": "Pasta",
+      "color": null
+    },
+    {
+      "id": "2584270e-6840-59ca-bfae-3c1b487bddf9",
+      "slug": "bow-ties",
+      "name": "Bow Ties",
+      "color": null
+    },
+    {
+      "id": "17f4c204-15f9-596a-8568-681c02f3617f",
+      "slug": "300-calorie-main-dish-recipes",
+      "name": "300 Calorie Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21507/tuna-mushroom-casserole"
+  },
+  "public": true,
+  "updated_at": 1721042394,
+  "revision": 1
+}

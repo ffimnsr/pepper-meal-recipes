@@ -1,0 +1,199 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d64b0e7d-b2c1-5dab-a4bf-51103746d7d3",
+  "slug": "migas-breakfast-tacos",
+  "name": "Migas Breakfast Tacos",
+  "recipe_type": "breakfast",
+  "brief_description": "In these migas breakfast tacos eggs are cooked with Hatch chiles and onions and served on a tortilla topped with fried corn tortilla strips.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Crack eggs into a bowl and whisk in milk, salt, and pepper. Set aside."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter in a skillet over medium heat. Add Hatch chiles and onions. Saute until onions are soft and translucent, 4 to 5 minutes. Add eggs and cook and stir until eggs are set, 3 to 4 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Divide eggs between 6 tortillas and top with fried corn tortilla strips."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d64b0e7d-b2c1-5dab-a4bf-51103746d7d3/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "456 kcal",
+    "carbohydrateContent": "55 g",
+    "cholesterolContent": "388 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "235 mg",
+    "sugarContent": "6 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ef2ffb39-8e25-5d0c-a903-ac73b251f9d1",
+      "name": "ounce) can hatch chile peppers",
+      "normalized_name": "ounce can hatch chile peppers",
+      "quantity": "1 (4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "8304bf0c-22ee-5e58-8b42-7fbe25e37c44",
+      "name": "inch) corn tortillas",
+      "normalized_name": "inch corn tortillas",
+      "quantity": "6 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "17b3f620-2467-5b37-9763-7a6b941e88bb",
+      "name": "inch) tortillas",
+      "normalized_name": "inch tortillas",
+      "quantity": "2 (6",
+      "unit": "pieces",
+      "preparation": "ready-to-bake or -fry, corn",
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "2924bbc2-a057-5f6d-b705-2d731fa28619",
+      "slug": "taco",
+      "name": "Taco"
+    }
+  ],
+  "tags": [
+    {
+      "id": "3754a79a-ebff-5999-9d6f-d69ba9d0e628",
+      "slug": "hatch-chiles",
+      "name": "Hatch Chiles",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "900e9b41-2adb-58d1-a00c-6fdeb09681f6",
+      "slug": "bread",
+      "name": "Bread",
+      "color": null
+    },
+    {
+      "id": "f90cd66d-813b-5274-baa3-0f3468d174f2",
+      "slug": "vegetable-main-dish-recipes",
+      "name": "Vegetable Main Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "25942ea2-fffa-5023-879f-0c23bec7e331",
+      "slug": "tacos",
+      "name": "Tacos",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/285831/migas-breakfast-tacos"
+  },
+  "public": true,
+  "updated_at": 1738770909,
+  "revision": 1
+}

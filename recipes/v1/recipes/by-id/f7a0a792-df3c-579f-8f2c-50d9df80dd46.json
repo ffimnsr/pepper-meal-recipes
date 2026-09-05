@@ -1,0 +1,189 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f7a0a792-df3c-579f-8f2c-50d9df80dd46",
+  "slug": "easy-toffee",
+  "name": "Easy Toffee",
+  "recipe_type": "dessert",
+  "brief_description": "Saltines are topped with a sweet brown sugar syrup, baked, then smothered in chocolate in this easy toffee.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 325 degrees F (165 degrees C). Grease a baking sheet. Line baking sheet with saltine crackers, edges touching."
+    },
+    {
+      "position": 2,
+      "text": "In a medium saucepan, combine butter and brown sugar and cook until mixture reaches 235 degrees F (112 degrees C) or a small amount of mixture dropped into cold water forms a small ball that flattens when placed on a flat surface. Pour mixture over crackers and spread evenly."
+    },
+    {
+      "position": 3,
+      "text": "Bake in preheated oven 15 minutes. Sprinkle chocolate chips over hot toffee. When chips turn glossy, spread evenly with spatula. Sprinkle with almonds. Freeze 20 minutes before serving."
+    }
+  ],
+  "servings": 25,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f7a0a792-df3c-579f-8f2c-50d9df80dd46/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "236 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "20 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "176 mg",
+    "sugarContent": "16 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "d6b0657e-e2f9-54d3-ad46-bd6122c84506",
+      "name": "ounce) package saltine crackers",
+      "normalized_name": "ounce package saltine crackers",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "83950f36-8f51-52c6-a4f4-63fba80765d4",
+      "name": "light brown sugar",
+      "normalized_name": "light brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "723a7b93-73a9-5dc8-a65e-69d8d730d22b",
+      "name": "ounce) package semisweet chocolate chips",
+      "normalized_name": "ounce package semisweet chocolate chips",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "948e2a98-0dfe-5377-8100-bde72b87cf75",
+      "name": "slivered almonds",
+      "normalized_name": "slivered almonds",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7891449c-491f-5889-b6e5-4aa5b1bbd0b6",
+      "slug": "candy",
+      "name": "Candy"
+    },
+    {
+      "id": "e3fd3cde-c331-5cec-aa1c-a1978efc814e",
+      "slug": "toffee",
+      "name": "Toffee"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0c43aa35-2e8f-50ca-a632-68fed491f212",
+      "slug": "toffee-recipes",
+      "name": "Toffee Recipes",
+      "color": null
+    },
+    {
+      "id": "713cfa7d-4531-51a3-9cc6-946696b7de36",
+      "slug": "bake-sale-recipes",
+      "name": "Bake Sale Recipes",
+      "color": null
+    },
+    {
+      "id": "41ab1f70-8ad5-50ba-85cc-97bd5a7836be",
+      "slug": "dark-chocolate",
+      "name": "Dark Chocolate",
+      "color": null
+    },
+    {
+      "id": "57ad2ba9-3a38-505c-bf63-45711fe65b88",
+      "slug": "chocolate",
+      "name": "Chocolate",
+      "color": null
+    },
+    {
+      "id": "90494e08-8fd4-54a9-85c3-7a90dd15c914",
+      "slug": "fundraising-favorites-recipes",
+      "name": "Fundraising Favorites Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "7a885960-8acc-549f-9170-8939c42a169f",
+      "slug": "candy-recipes",
+      "name": "Candy Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "1212dbf7-0c93-58f2-914d-d560342920b7",
+      "slug": "chocolate-dessert-recipes",
+      "name": "Chocolate Dessert Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/19045/easy-toffee"
+  },
+  "public": true,
+  "updated_at": 1657836476,
+  "revision": 1
+}

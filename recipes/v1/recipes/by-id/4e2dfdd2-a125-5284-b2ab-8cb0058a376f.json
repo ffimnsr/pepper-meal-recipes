@@ -1,0 +1,279 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4e2dfdd2-a125-5284-b2ab-8cb0058a376f",
+  "slug": "ham-bone-and-green-split-pea-soup",
+  "name": "Ham Bone and Green Split Pea Soup",
+  "recipe_type": "soup",
+  "brief_description": "This split pea soup with ham bone is quick to prepare. The addition of onion, celery, carrots, and garlic create a hearty combination of flavors.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Melt butter and oil in a stockpot or Dutch oven over medium-low heat. Add celery, carrot, onion, and salt; cook and stir until tender, about 5 minutes. Stir in peas and garlic."
+    },
+    {
+      "position": 3,
+      "text": "Nestle ham bone into the pot; add stock and diced ham. Add enough water so that liquid is about 1 1/2 inches from the top of the pot; bring to a boil."
+    },
+    {
+      "position": 4,
+      "text": "Reduce heat to low and cover. Simmer, stirring every 30 minutes and scraping the bottom of the pot, until peas are mostly disintegrated, about 2 1/2 hours. Turn ham bone and skim the surface for fat once every hour."
+    },
+    {
+      "position": 5,
+      "text": "Remove ham bone from the pot and place on a cutting board until cool enough to handle. Remove any meat from the bones and cut into bite-sized pieces; stir into soup until warmed through and season with salt and pepper."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 155,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4e2dfdd2-a125-5284-b2ab-8cb0058a376f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "208 kcal",
+    "carbohydrateContent": "24 g",
+    "cholesterolContent": "27 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "18 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "573 mg",
+    "sugarContent": "6 g",
+    "fatContent": "5 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "c8426aad-8c25-516c-a538-f5a93f92c721",
+      "name": "large carrot",
+      "normalized_name": "large carrot",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "shredded",
+      "position": 4
+    },
+    {
+      "ingredient_id": "4fd5be30-292b-5ddd-84eb-acfe87eb005d",
+      "name": "white onion",
+      "normalized_name": "white onion",
+      "quantity": "0.33333334326744",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "423b5897-1fea-590e-8bfc-1e66961d8441",
+      "name": "split peas",
+      "normalized_name": "split peas",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": "rinsed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "thinly sliced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "5db76c0e-453e-526c-8d43-3f4c24bb2ac9",
+      "name": "ham bone",
+      "normalized_name": "ham bone",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "13b896d0-06fd-5bf7-9e4b-cf23870823e3",
+      "name": "chicken stock",
+      "normalized_name": "chicken stock",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "or as needed",
+      "position": 11
+    },
+    {
+      "ingredient_id": "75e5d3bb-c63b-5498-9d37-80aacbe5d3ad",
+      "name": "diced ham",
+      "normalized_name": "diced ham",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "061815cc-d359-57b4-9f13-848613fb6cce",
+      "name": "ground black pepper to taste",
+      "normalized_name": "ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "0d9c18f8-34b7-56ac-8b23-c2da26756cb1",
+      "slug": "pork-soup",
+      "name": "Pork Soup"
+    },
+    {
+      "id": "adc36573-5ac9-5509-97f6-2217244261d8",
+      "slug": "ham-soup",
+      "name": "Ham Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c8686615-6b0e-5edb-8336-d3d213a5adfd",
+      "slug": "ham-soup",
+      "name": "Ham Soup",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "630df682-a5ea-5d74-97e6-3b57367b0fe8",
+      "slug": "split-pea-soup-recipes",
+      "name": "Split Pea Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "f32ae3df-33a9-5630-82ea-821de470a796",
+      "slug": "pork-soup-recipes",
+      "name": "Pork Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262028/ham-bone-and-green-split-pea-soup"
+  },
+  "public": true,
+  "updated_at": 1761328088,
+  "revision": 1
+}

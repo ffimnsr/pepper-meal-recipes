@@ -1,0 +1,302 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "076f8b05-a1b9-50de-abc8-d251718129ea",
+  "slug": "pumpkin-waffles-with-apple-cider-syrup",
+  "name": "Pumpkin Waffles",
+  "recipe_type": "breakfast",
+  "brief_description": "Fluffy pumpkin waffles, spiced with cinnamon and ginger and drizzled with homemade apple cider syrup, are perfect for a cozy holiday breakfast treat.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat a waffle iron according to manufacturer's instructions."
+    },
+    {
+      "position": 2,
+      "text": "Combine flour, brown sugar, baking powder, cinnamon, allspice, ginger, and salt in a mixing bowl. Stir milk, pumpkin, and egg yolks together in a separate bowl. Whip egg whites in a clean dry bowl until soft peaks form."
+    },
+    {
+      "position": 3,
+      "text": "Stir flour mixture and 1/4 cup melted butter into pumpkin mixture just until combined. Fold 1/3 of the egg whites into the batter with a spatula until incorporated. Gently fold in remaining egg whites. Cook waffles in preheated waffle iron according to manufacturer's instructions."
+    },
+    {
+      "position": 4,
+      "text": "To make the syrup: Stir sugar, cornstarch, and cinnamon together in a saucepan. Stir in apple cider and lemon juice. Cook over medium heat until mixture comes to a boil; continue boiling until thickened, about 2 minutes. Remove from heat and stir in 2 tablespoons of butter until melted. Serve waffles warm with apple cider syrup."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/076f8b05-a1b9-50de-abc8-d251718129ea/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "530 kcal",
+    "carbohydrateContent": "82 g",
+    "cholesterolContent": "161 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "13 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "703 mg",
+    "sugarContent": "36 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "4318d726-c4c1-57d3-ad3e-5e83a3428d49",
+      "name": "packed brown sugar",
+      "normalized_name": "packed brown sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "2c01b926-610a-5149-9b15-e41677ad896e",
+      "name": "baking powder",
+      "normalized_name": "baking powder",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d4e4490c-7688-5371-b51b-8e512749645a",
+      "name": "ground allspice",
+      "normalized_name": "ground allspice",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d2b31123-499f-5c84-9509-f2bb88d48a27",
+      "name": "ground ginger",
+      "normalized_name": "ground ginger",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "5d462c5b-fcf0-516f-b489-3432dbbf030a",
+      "name": "canned pumpkin",
+      "normalized_name": "canned pumpkin",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "separated",
+      "position": 10
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 11
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "ed7b2916-ea4b-59bd-9ff7-d5fd60e2ef9e",
+      "name": "apple cider",
+      "normalized_name": "apple cider",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "3b4be0b4-123d-5c00-a8b1-11770492e168",
+      "name": "lemon juice",
+      "normalized_name": "lemon juice",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 16
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 17
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "ca4bb0f3-992b-59a0-b015-d50d8f7c717e",
+      "slug": "waffle",
+      "name": "Waffle"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "4e7d6528-567b-592e-b80d-f7115460c3d2",
+      "slug": "convenience-cooking",
+      "name": "Convenience Cooking",
+      "color": null
+    },
+    {
+      "id": "a00e8f38-1976-5fcc-afc1-90bb835175c0",
+      "slug": "holiday-planning",
+      "name": "Holiday Planning",
+      "color": null
+    },
+    {
+      "id": "489def73-dc81-5671-9631-5bffd5bd351b",
+      "slug": "squash",
+      "name": "Squash",
+      "color": null
+    },
+    {
+      "id": "c2208ea6-ba8c-55a5-9cee-30b494aed04b",
+      "slug": "pumpkin",
+      "name": "Pumpkin",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "07f80242-086e-5b31-bed2-8e0846847860",
+      "slug": "halloween-ideas",
+      "name": "Halloween Ideas",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "696b2d5f-58b8-5639-8120-109ad79afe9f",
+      "slug": "halloween",
+      "name": "Halloween",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/65691/pumpkin-waffles-with-apple-cider-syrup"
+  },
+  "public": true,
+  "updated_at": 1777464006,
+  "revision": 1
+}

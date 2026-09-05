@@ -1,0 +1,275 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1fa955d4-65cf-5605-b5f2-e55b276703f5",
+  "slug": "mexican-chicken-corn-chowder",
+  "name": "Mexican Chicken Corn Chowder",
+  "recipe_type": "soup",
+  "brief_description": "This creamy chicken and corn chowder, made spicy with ground cumin, green chilies, and hot pepper sauce, will warm you right through. Shredded Monterey jack cheese and half and half make this soup rich and delicious.",
+  "cuisine": "Latin American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a Dutch oven, brown chicken, onion, and garlic in butter until chicken is no longer pink."
+    },
+    {
+      "position": 2,
+      "text": "Dissolve the bouillon in hot water; Pour into Dutch oven, and season with cumin. Bring to a boil. Reduce heat to low, cover, and simmer for 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir in cream, cheese, corn, chilies, and hot pepper sauce. Cook, stirring frequently, until the cheese is melted. Stir in chopped tomato. Garnish with cilantro."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 35,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1fa955d4-65cf-5605-b5f2-e55b276703f5/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "368 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "109 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "30 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "868 mg",
+    "sugarContent": "3 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "0a4f2d3d-d7ee-58f8-ae1a-699f381aa1a8",
+      "name": "boneless skinless chicken breasts",
+      "normalized_name": "boneless skinless chicken breasts",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "cut into bite-size pieces",
+      "position": 1
+    },
+    {
+      "ingredient_id": "84b3e4e5-f16f-5720-813f-8fae26445446",
+      "name": "chopped onion",
+      "normalized_name": "chopped onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "3ce4bb58-0809-5770-b087-cde27facb41c",
+      "name": "cubes chicken bouillon",
+      "normalized_name": "cubes chicken bouillon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0497b2f2-fc7c-5cd1-8c09-fe5e3edc9fb4",
+      "name": "hot water",
+      "normalized_name": "hot water",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "204500af-10b9-5082-9ea1-bd87754be779",
+      "name": "half-and-half cream",
+      "normalized_name": "half-and-half cream",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "46e61c24-33a7-5f57-aabf-570573269078",
+      "name": "shredded monterey jack cheese",
+      "normalized_name": "shredded monterey jack cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "0c43a049-68cb-59f5-bfea-2e8a56b2ca91",
+      "name": "ounce) can cream-style corn",
+      "normalized_name": "ounce can cream-style corn",
+      "quantity": "1 (14.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "c5117eb5-71f9-57cb-ba44-e8f35c561079",
+      "name": "ounce) can diced green chiles",
+      "normalized_name": "ounce can diced green chiles",
+      "quantity": "1 (4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "52271919-0bfa-54cc-8199-253954f474cb",
+      "name": "dash hot pepper sauce",
+      "normalized_name": "dash hot pepper sauce",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "2f161459-90f8-5fb6-9bd8-e96a7f824fe0",
+      "name": "tomato",
+      "normalized_name": "tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 13
+    },
+    {
+      "ingredient_id": "5d9debdf-6181-55a4-96aa-ba6e433ebb98",
+      "name": "bunch fresh cilantro sprigs",
+      "normalized_name": "bunch fresh cilantro sprigs",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "for garnish",
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    },
+    {
+      "id": "bb9022e2-8ff4-5c69-8747-92f78a8cbce3",
+      "slug": "corn-chowder",
+      "name": "Corn Chowder"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b1da4043-161f-5b59-b102-87a72b0cd40a",
+      "slug": "corn-chowder-recipes",
+      "name": "Corn Chowder Recipes",
+      "color": null
+    },
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "ece98e8e-259e-5a61-8246-537cfaba3374",
+      "slug": "cream-of-chicken-soup-recipes",
+      "name": "Cream of Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "b799209b-17db-588d-99e4-2aee0ab7f3b6",
+      "slug": "tomatoes",
+      "name": "Tomatoes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/13019/mexican-chicken-corn-chowder"
+  },
+  "public": true,
+  "updated_at": 1777903239,
+  "revision": 1
+}

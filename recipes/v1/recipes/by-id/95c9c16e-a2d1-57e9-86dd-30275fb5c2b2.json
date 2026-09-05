@@ -1,0 +1,216 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "95c9c16e-a2d1-57e9-86dd-30275fb5c2b2",
+  "slug": "raspberry-mousse",
+  "name": "Raspberry Mousse",
+  "recipe_type": "dessert",
+  "brief_description": "This light and creamy raspberry mousse made with fresh, juicy raspberries is fun to serve in parfait glasses, but it's also a nice tart or cake filling.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Set a few raspberries aside for garnish. Combine remaining raspberries and confectioners' sugar in a bowl, mix, and set aside for 30 minutes. Pass raspberries through a sieve to strain out seeds. Discard seeds."
+    },
+    {
+      "position": 2,
+      "text": "Pour orange juice into a small saucepan and sprinkle gelatin on top. Set aside for 1 minute. Heat over low temperature without boiling until gelatin is fully dissolved, about 3 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Remove from the stove, allow to cool slightly, then mix with raspberry pur\u00e9e."
+    },
+    {
+      "position": 4,
+      "text": "Beat cream in a chilled glass or metal bowl using an electric mixer until frothy. Add vanilla sugar gradually, continuing to beat until soft peaks form. Fold whipped cream into raspberry pur\u00e9e. Stir in lemon juice and sweeten with more confectioners' sugar if desired. Cover and refrigerate for 2 hours. Garnish with the reserved raspberries."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/95c9c16e-a2d1-57e9-86dd-30275fb5c2b2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "512 kcal",
+    "carbohydrateContent": "39 g",
+    "cholesterolContent": "143 mg",
+    "fiberContent": "9 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "24 g",
+    "sodiumContent": "43 mg",
+    "sugarContent": "21 g",
+    "fatContent": "39 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "03abd400-ed47-5448-827c-25a321322a35",
+      "name": "fresh raspberries",
+      "normalized_name": "fresh raspberries",
+      "quantity": "18",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "23466612-d4e8-5f39-b905-a7f8e3b75dbf",
+      "name": "confectioners' sugar",
+      "normalized_name": "confectioners sugar",
+      "quantity": "7",
+      "unit": "tablespoons",
+      "preparation": "or more as needed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "5f2347f6-33f3-597d-834e-20653545df33",
+      "name": "orange juice",
+      "normalized_name": "orange juice",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c3b1f908-b96d-55fb-97fa-c4752e388ee5",
+      "name": "ounce) package unflavored gelatin",
+      "normalized_name": "ounce package unflavored gelatin",
+      "quantity": "1 (.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "1.75",
+      "unit": "cups",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d2b09561-e595-523b-bda1-2d78d886c38a",
+      "name": "vanilla sugar",
+      "normalized_name": "vanilla sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "8a4ead63-c7cc-5f10-b2b4-a46ee9c2a153",
+      "name": "dash lemon juice",
+      "normalized_name": "dash lemon juice",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "7125d7fa-c15d-5725-8012-306c4b58775a",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts"
+    },
+    {
+      "id": "1382f47e-38af-5e83-8ade-db22121e3299",
+      "slug": "raspberry-dessert",
+      "name": "Raspberry Dessert"
+    }
+  ],
+  "tags": [
+    {
+      "id": "5c0ebce0-1473-5a23-b831-b4c05b543161",
+      "slug": "raspberry-dessert-recipes",
+      "name": "Raspberry Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "dd4f7be4-2947-532a-9f8f-a4eb2cd626e8",
+      "slug": "fillings",
+      "name": "Fillings",
+      "color": null
+    },
+    {
+      "id": "eb4ed6e0-fdcf-50e2-8dac-7bb04502807e",
+      "slug": "cream-fillings",
+      "name": "Cream Fillings",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "1feb6745-4c3a-532c-8017-0b2e3fe6bf86",
+      "slug": "raspberries",
+      "name": "Raspberries",
+      "color": null
+    },
+    {
+      "id": "beb02ef2-6ddf-514d-87d5-35f39e8e12a3",
+      "slug": "orange-dessert-recipes",
+      "name": "Orange Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "b27e7672-5670-576d-b52e-a2ba7aa1e26a",
+      "slug": "summer-desserts",
+      "name": "Summer Desserts",
+      "color": null
+    },
+    {
+      "id": "90b94f66-8a10-5725-bb66-285ebfd8b5e7",
+      "slug": "mousse-recipes",
+      "name": "Mousse Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/265421/raspberry-mousse"
+  },
+  "public": true,
+  "updated_at": 1680124720,
+  "revision": 1
+}

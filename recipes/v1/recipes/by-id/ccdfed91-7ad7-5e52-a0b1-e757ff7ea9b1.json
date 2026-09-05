@@ -1,0 +1,286 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ccdfed91-7ad7-5e52-a0b1-e757ff7ea9b1",
+  "slug": "thai-fried-rice",
+  "name": "Thai Fried Rice",
+  "recipe_type": "main",
+  "brief_description": "This Thai fried rice is called \"American fried rice\" in Thailand because it features ketchup and bacon. It is very popular in Thailand and easy to make.",
+  "cuisine": "Thai",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat a large skillet or wok over medium heat and cook bacon until browned and crisp, about 5 minutes. Drain, reserving bacon grease in a bowl. Spoon 2 tablespoons grease back into the skillet."
+    },
+    {
+      "position": 2,
+      "text": "Increase heat to medium-high and cook garlic until fragrant, about 30 seconds. Add onion and cook, stirring often, until softened, 2 to 3 minutes. Stir in tomato and pineapple and stir-fry until warmed through, about 2 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Increase heat to high and add 1 tablespoon bacon grease. Add rice and stir-fry, breaking up with a spatula so it gets coated well with bacon grease. Cook for about 3 minutes. Season with ketchup, soy sauce, sugar, and white pepper."
+    },
+    {
+      "position": 4,
+      "text": "Move rice mixture to one side of the skillet or wok and pour beaten eggs onto the empty side. Stir-fry until eggs are almost set, 2 to 3 minutes. Mix eggs with rice mixture. Fold in bacon bits. Serve with cucumber, green onions, cilantro, lemon wedges, and chile peppers."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ccdfed91-7ad7-5e52-a0b1-e757ff7ea9b1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "456 kcal",
+    "carbohydrateContent": "76 g",
+    "cholesterolContent": "138 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "694 mg",
+    "sugarContent": "12 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "sliced crosswise into 1/2-inch pieces",
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "bfc75db0-f0a9-5220-8b94-6d93671874b3",
+      "name": "large tomato",
+      "normalized_name": "large tomato",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cubed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "6f1e7739-dd81-558c-b76b-9044b8ad21d4",
+      "name": "chopped fresh pineapple",
+      "normalized_name": "chopped fresh pineapple",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a60dc8ac-a03e-56f8-b700-1a26efad02cc",
+      "name": "cooked jasmine rice",
+      "normalized_name": "cooked jasmine rice",
+      "quantity": "5",
+      "unit": "cups",
+      "preparation": "cooled",
+      "position": 6
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "092c58e1-2d7b-5b6b-846c-fba6f16a29fb",
+      "name": "light soy sauce",
+      "normalized_name": "light soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "23dd0af7-6f63-5ba8-885b-d9a4b02fbef5",
+      "name": "freshly ground white pepper",
+      "normalized_name": "freshly ground white pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 11
+    },
+    {
+      "ingredient_id": "ec1c2b5e-cca0-5d55-a629-5ae15ac48fb5",
+      "name": "cucumber",
+      "normalized_name": "cucumber",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 12
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 13
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into wedges",
+      "position": 15
+    },
+    {
+      "ingredient_id": "47436318-3cad-527a-a4e6-34f48d2434c0",
+      "name": "green thai chile peppers",
+      "normalized_name": "green thai chile peppers",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "22a78597-cd9e-5600-bf93-35c536090442",
+      "slug": "rice",
+      "name": "Rice"
+    },
+    {
+      "id": "3abb4365-ccad-5837-b651-d178c73fe82c",
+      "slug": "fried-rice",
+      "name": "Fried Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "3cd0ed40-cd6f-5ebf-859b-2b992531c459",
+      "slug": "pineapples",
+      "name": "Pineapples",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/263804/thai-fried-rice"
+  },
+  "public": true,
+  "updated_at": 1592540865,
+  "revision": 1
+}

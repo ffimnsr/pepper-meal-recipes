@@ -1,0 +1,222 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4d90184d-8bd7-5326-b951-55c030be9f6b",
+  "slug": "mustard-fried-chicken",
+  "name": "Mustard Fried Chicken",
+  "recipe_type": "appetizer",
+  "brief_description": "This mustard fried chicken is made with wings seasoned with pantry spices, coated in mustard, then fried until crisp for a tasty appetizer or meal.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Season chicken wings on both sides with garlic powder, onion powder, pepper, seasoned salt, and MSG."
+    },
+    {
+      "position": 2,
+      "text": "Use a basting brush to coat each wing with a thin layer of mustard. Pour flour into a plastic bag, add chicken, and shake to coat."
+    },
+    {
+      "position": 3,
+      "text": "Heat oil in a deep fryer or heavy skillet to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 4,
+      "text": "Cook chicken in hot oil until no longer pink and the juices run clear, about 6 minutes per side. An instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C). Drain on a paper towel-lined plate. Allow to cool for 5 minutes before serving."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4d90184d-8bd7-5326-b951-55c030be9f6b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "400 kcal",
+    "carbohydrateContent": "32 g",
+    "cholesterolContent": "48 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "516 mg",
+    "sugarContent": "1 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a8fe20ad-2007-531e-beda-c71ae9f09ef7",
+      "name": "chicken wings",
+      "normalized_name": "chicken wings",
+      "quantity": "5",
+      "unit": "pounds",
+      "preparation": "separated at joints, tips discarded",
+      "position": 1
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5cbf4376-30a9-5afa-8f56-d60e87b1c964",
+      "name": "seasoned salt",
+      "normalized_name": "seasoned salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "f1f81e40-0077-5da7-9f3f-8340ddd5b5ce",
+      "name": "monosodium glutamate (msg",
+      "normalized_name": "monosodium glutamate msg",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": "or accent flavor enhancer)",
+      "position": 6
+    },
+    {
+      "ingredient_id": "be0b9ce5-3ccf-515d-b743-388d191ac8a3",
+      "name": "prepared yellow mustard",
+      "normalized_name": "prepared yellow mustard",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "1ecc48f3-9537-539a-baa5-550b0d27d66b",
+      "name": "quart oil for frying",
+      "normalized_name": "quart oil for frying",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "or as needed",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "8a7abcc7-7672-5b94-aa68-27ab406cf6ea",
+      "slug": "fried-chicken",
+      "name": "Fried Chicken"
+    }
+  ],
+  "tags": [
+    {
+      "id": "801577cd-8814-5b3d-93cb-9b9c2a6bb22b",
+      "slug": "fried-chicken-recipes",
+      "name": "Fried Chicken Recipes",
+      "color": null
+    },
+    {
+      "id": "c13160db-b17f-51f4-93c4-415066d40b34",
+      "slug": "mustard-recipes",
+      "name": "Mustard Recipes",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "3099c497-a59d-50cc-9d9c-0358e9a1ffbd",
+      "slug": "chardonnay",
+      "name": "Chardonnay",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "51a38117-e6ad-526f-8ac2-9a6cfcf0aa3a",
+      "slug": "deep-fried",
+      "name": "Deep Fried",
+      "color": null
+    },
+    {
+      "id": "f2e18ec2-088e-596e-8722-b15249d403ab",
+      "slug": "pairings",
+      "name": "Pairings",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/87473/mustard-fried-chicken"
+  },
+  "public": true,
+  "updated_at": 1776810636,
+  "revision": 1
+}

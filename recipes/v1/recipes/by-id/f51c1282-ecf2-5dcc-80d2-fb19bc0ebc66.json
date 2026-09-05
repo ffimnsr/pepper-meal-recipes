@@ -1,0 +1,203 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "f51c1282-ecf2-5dcc-80d2-fb19bc0ebc66",
+  "slug": "chef-johns-tandoori-chicken",
+  "name": "Chef John's Tandoori Chicken",
+  "recipe_type": "main",
+  "brief_description": "In this simple recipe, chicken is marinated in yogurt and tandoori masala, then grilled over hot coals to produce the complex flavors of Tandoori chicken.",
+  "cuisine": "Indian Inspired Indian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Whisk lime juice, yogurt, tandoori powder, salt, and pepper in a bowl. Pour mixture into a resealable plastic bag. Add chicken, coat with the marinade, squeeze out excess air, and seal the bag. Marinate in refrigerator for at least 2 hours."
+    },
+    {
+      "position": 2,
+      "text": "Preheat an outdoor grill for medium-high heat, and lightly oil the grate."
+    },
+    {
+      "position": 3,
+      "text": "Remove chicken from the bag and transfer to a plate or baking sheet lined with paper towels. Pat chicken pieces dry with more paper towels."
+    },
+    {
+      "position": 4,
+      "text": "Grill chicken on the preheated grill with the lid open for 2 minutes. Close lid and continue to grill chicken for 6 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Turn chicken, close lid and grill until well-browned and meat is no longer pink in the center, about 6 minutes. An instant-read thermometer inserted into the thickest part of the thigh should read 180 degrees F (82 degrees C)."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/f51c1282-ecf2-5dcc-80d2-fb19bc0ebc66/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/SoiqpJHC-7uK69qX5.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "215 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "94 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "93 mg",
+    "sugarContent": "0 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 1
+    },
+    {
+      "ingredient_id": "db76615d-4814-5688-8d5f-70dd1c04090a",
+      "name": "plain yogurt",
+      "normalized_name": "plain yogurt",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3b3fc79b-90ec-583f-8a1d-e39c305ed2e9",
+      "name": "tandoori masala powder",
+      "normalized_name": "tandoori masala powder",
+      "quantity": "1.5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0b27047e-da7a-55c7-ba71-159c2ff26005",
+      "name": "boneless",
+      "normalized_name": "boneless",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": "skinless chicken thighs",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "e497f6d9-26fc-5ee8-be38-aff4dcba9d79",
+      "slug": "indian",
+      "name": "Indian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "eecd2c00-de61-530a-bc32-cb01ad53bd59",
+      "slug": "indian",
+      "name": "Indian",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "f5829042-f0a1-5586-967c-eda0386916df",
+      "slug": "bbq-grilling-recipes",
+      "name": "BBQ & Grilling Recipes",
+      "color": null
+    },
+    {
+      "id": "6dad4087-a7f9-5c35-ac41-349f07684bd8",
+      "slug": "chicken-thigh-recipes",
+      "name": "Chicken Thigh Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "6e981c65-06bb-586b-8c00-7f2bd598669e",
+      "slug": "curries",
+      "name": "Curries",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "c0aa27e9-6212-5206-8d5c-8c4d1544ecd7",
+      "slug": "curry",
+      "name": "Curry",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221092/chef-johns-tandoori-chicken"
+  },
+  "public": true,
+  "updated_at": 1777431296,
+  "revision": 1
+}

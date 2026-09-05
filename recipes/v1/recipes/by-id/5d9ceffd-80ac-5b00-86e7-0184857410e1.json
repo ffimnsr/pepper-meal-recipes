@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5d9ceffd-80ac-5b00-86e7-0184857410e1",
+  "slug": "basic-basil-pesto",
+  "name": "Basic Basil Pesto",
+  "recipe_type": "main",
+  "brief_description": "This easy basil pesto recipe is made with five basic ingredients for a robust nutty condiment delicious on sandwiches, pizza, pasta, or bruschetta.",
+  "cuisine": "Italian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook pine nuts in a dry skillet in a single layer over medium-low heat, stirring constantly, until fragrant and golden brown, 3 to 5 minutes. Immediately transfer to a plate to stop the cooking process; cool, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Combine pine nuts, basil, and garlic in the bowl of a food processor; pulse until blended. Pour in olive oil slowly, with the processor running on low speed, until mixture is smooth. Add Parmesan cheese; pulse until just combined."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5d9ceffd-80ac-5b00-86e7-0184857410e1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "218 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "6 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "103 mg",
+    "sugarContent": "0 g",
+    "fatContent": "22 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f73f2f14-ec52-57e6-bf74-6423f7506093",
+      "name": "pine nuts",
+      "normalized_name": "pine nuts",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "82c6f85d-d67d-53e8-8bf9-eacb7978629d",
+      "name": "fresh basil leaves",
+      "normalized_name": "fresh basil leaves",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "stems removed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0dc570ab-2a1f-56e8-82a0-52057e1a698e",
+      "name": "minced garlic",
+      "normalized_name": "minced garlic",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "9aa44676-d867-511d-bf77-4a0d2b57854a",
+      "name": "extra-virgin olive oil",
+      "normalized_name": "extra-virgin olive oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fb5c250c-f4f7-544e-8305-af63b52e3ca8",
+      "name": "grated parmesan cheese",
+      "normalized_name": "grated parmesan cheese",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "04342015-cac5-527c-b1f5-5d0f9910af90",
+      "slug": "sauces",
+      "name": "Sauces"
+    },
+    {
+      "id": "b10034d4-200e-527f-b96c-84f307d8e315",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces"
+    },
+    {
+      "id": "4bbce3b5-1094-5afe-9c1a-51d908f535b1",
+      "slug": "vegetarian",
+      "name": "Vegetarian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "17fc77c0-f069-5113-ae4b-d5f7e5304a55",
+      "slug": "parmesan",
+      "name": "Parmesan",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "4bedd15c-8a75-56d1-aacb-81845a34be29",
+      "slug": "5-ingredients",
+      "name": "5 Ingredients",
+      "color": null
+    },
+    {
+      "id": "2cff95a3-f637-55d7-ae8c-f790b34c478c",
+      "slug": "pasta-sauces",
+      "name": "Pasta Sauces",
+      "color": null
+    },
+    {
+      "id": "1c0f0909-4a9e-5fac-beca-768e37b7c623",
+      "slug": "diy",
+      "name": "DIY",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275635/basic-basil-pesto"
+  },
+  "public": true,
+  "updated_at": 1755733021,
+  "revision": 1
+}

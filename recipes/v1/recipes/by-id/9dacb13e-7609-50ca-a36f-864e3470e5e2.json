@@ -1,0 +1,241 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9dacb13e-7609-50ca-a36f-864e3470e5e2",
+  "slug": "mom-sykes-hungarian-goulash",
+  "name": "Mom Sykes' Hungarian Goulash",
+  "recipe_type": "soup",
+  "brief_description": "The lemon flavor gives you a pleasant surprise in this tender goulash served over egg noodles.",
+  "cuisine": "Hungarian Eastern European",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large pot over medium heat. Add the stew meat, caraway seeds, onion and paprika. Cook and stir until the meat is browned, and the onions are translucent. Add the garlic and lemon zest, and cook for about a minute, then stir in the tomato paste and beef consomme, adding water if necessary to cover the meat. Cover, and simmer over medium-low heat for 1 1/2 hours."
+    },
+    {
+      "position": 2,
+      "text": "Just before the meat is done cooking, bring a large pot of salted water to a boil. Add egg noodles, and cook until tender, about 8 minutes. Drain and serve the goulash spooned over the egg noodles."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 90,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9dacb13e-7609-50ca-a36f-864e3470e5e2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "1132 kcal",
+    "carbohydrateContent": "71 g",
+    "cholesterolContent": "282 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "73 g",
+    "saturatedFatContent": "26 g",
+    "sodiumContent": "801 mg",
+    "sugarContent": "12 g",
+    "fatContent": "61 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "54a397e2-cf11-5ed4-af33-83fedd97e913",
+      "name": "cubed beef stew meat",
+      "normalized_name": "cubed beef stew meat",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6e2a1868-a46a-52af-822f-20f03432b7be",
+      "name": "caraway seeds",
+      "normalized_name": "caraway seeds",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "5a6428ec-6c56-5923-8830-7a87f1ce2606",
+      "name": "paprika",
+      "normalized_name": "paprika",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "fb9c0f88-3356-5b13-a1f9-18ccb59208ed",
+      "name": "lemon zest",
+      "normalized_name": "lemon zest",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5cc54c10-3b3f-5ab7-b4ab-194ca54bea2e",
+      "name": "ounce) can tomato paste",
+      "normalized_name": "ounce can tomato paste",
+      "quantity": "1 (6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "cc2ae6e0-7216-56bc-a2ac-3d428f085eb4",
+      "name": "ounce) can beef consomme",
+      "normalized_name": "ounce can beef consomme",
+      "quantity": "1 (10.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c438db02-6b51-53b2-92fd-d3bc7afbd7b8",
+      "name": "ounce) package broad egg noodles",
+      "normalized_name": "ounce package broad egg noodles",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": "cooked, rinsed, drained (kosher for passover)",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "ffe557e2-ef6a-50c9-a01c-2201ed46a09b",
+      "slug": "goulash",
+      "name": "Goulash"
+    }
+  ],
+  "tags": [
+    {
+      "id": "4ec7a9de-0aeb-5672-a472-d6645fe7a485",
+      "slug": "goulash-recipes",
+      "name": "Goulash Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "5f6b1b49-4a03-5a2d-be8a-1149e0a1d018",
+      "slug": "caraway-recipes",
+      "name": "Caraway Recipes",
+      "color": null
+    },
+    {
+      "id": "fbfebf9d-042e-51c8-aa00-e5c8a3661034",
+      "slug": "pasta-and-noodles",
+      "name": "Pasta and Noodles",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "82f1a148-9b00-59d9-8a39-707f13280beb",
+      "slug": "spices-recipes",
+      "name": "Spices Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "3d692f67-54c3-5135-8edb-98c25ad1ca4c",
+      "slug": "noodle-recipes",
+      "name": "Noodle Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/55243/mom-sykes-hungarian-goulash"
+  },
+  "public": true,
+  "updated_at": 1780541086,
+  "revision": 1
+}

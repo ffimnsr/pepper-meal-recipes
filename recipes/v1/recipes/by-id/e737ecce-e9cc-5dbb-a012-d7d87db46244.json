@@ -1,0 +1,223 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e737ecce-e9cc-5dbb-a012-d7d87db46244",
+  "slug": "tofu-salad",
+  "name": "Tofu Salad",
+  "recipe_type": "salad",
+  "brief_description": "Delicious tofu salad featuring firm tofu marinated in a ginger, soy, and sesame mixture, tossed with blanched snow peas, cabbage, carrots, and peanuts.",
+  "cuisine": "Asian Inspired Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Make the tofu: Whisk chili sauce, soy sauce, sesame oil, garlic, and ginger together in a large bowl. Add tofu and toss to coat. Cover and marinate for 1 hour in the refrigerator."
+    },
+    {
+      "position": 2,
+      "text": "When the tofu is almost finished marinating, bring a pot of water to a boil. Add snow peas and blanch for 1 to 2 minutes. Transfer with a slotted spoon to a bowl of cold water. Drain and blot dry."
+    },
+    {
+      "position": 3,
+      "text": "Make the salad: Combine snow peas, cabbage, carrots, and peanuts in a bowl. Add tofu and marinade and toss gently to combine."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e737ecce-e9cc-5dbb-a012-d7d87db46244/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "145 kcal",
+    "carbohydrateContent": "10 g",
+    "fiberContent": "3 g",
+    "proteinContent": "8 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "295 mg",
+    "sugarContent": "5 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2243f604-8e83-5dae-b0cc-c4b27c51844f",
+      "name": "sweet chili sauce",
+      "normalized_name": "sweet chili sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "f365a1a4-8c18-572c-83d5-b15489e42e02",
+      "name": "dark soy sauce",
+      "normalized_name": "dark soy sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "crushed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "27236838-83ff-5fe0-ab6b-0136b2ac8120",
+      "name": "grated fresh ginger root",
+      "normalized_name": "grated fresh ginger root",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "f93703de-6f40-5308-a99d-b866450c640f",
+      "name": "extra-firm tofu",
+      "normalized_name": "extra-firm tofu",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": "drained and diced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "d778c04c-5fe2-5be8-a24b-4b8ac6b628a5",
+      "name": "snow peas",
+      "normalized_name": "snow peas",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "trimmed",
+      "position": 7
+    },
+    {
+      "ingredient_id": "291c5fa4-02ee-5857-888d-ba4d6c1d4a81",
+      "name": "finely shredded red cabbage",
+      "normalized_name": "finely shredded red cabbage",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "adb82588-a98b-5b15-8140-368072c91302",
+      "name": "small carrots",
+      "normalized_name": "small carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "grated",
+      "position": 9
+    },
+    {
+      "ingredient_id": "208cf2cb-a2e9-535d-905d-173d0ff9e97a",
+      "name": "chopped peanuts",
+      "normalized_name": "chopped peanuts",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a4e6611a-eaf0-564b-a832-fc9eb0cd1b1a",
+      "slug": "lunches",
+      "name": "Lunches",
+      "color": null
+    },
+    {
+      "id": "906fb6d6-f1b3-58de-88b4-bdfa84aba074",
+      "slug": "snow-peas",
+      "name": "Snow Peas",
+      "color": null
+    },
+    {
+      "id": "129449da-b9e2-520f-bbe5-f1b5328c5adf",
+      "slug": "sesame-oil-recipes",
+      "name": "Sesame Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "e5af9bdc-d42f-52cd-a82d-3ba6c9174932",
+      "slug": "salads",
+      "name": "Salads",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "646d833a-042e-5089-8a59-3d916b212664",
+      "slug": "tofu",
+      "name": "Tofu",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/83576/tofu-salad"
+  },
+  "public": true,
+  "updated_at": 1772578597,
+  "revision": 1
+}

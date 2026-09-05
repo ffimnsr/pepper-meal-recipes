@@ -1,0 +1,301 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9dea6092-88d8-57a2-82f6-3095035b0a1d",
+  "slug": "paneer-butter-masala",
+  "name": "Paneer Butter Masala",
+  "recipe_type": "main",
+  "brief_description": "Paneer butter masala is a rich and creamy vegetarian Indian curry made with cubes of paneer in tomato sauce with butter, onions, cashews, and spices.",
+  "cuisine": "Indian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Heat oil in a large skillet over medium heat; fry paneer in batches until golden, about 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Transfer fried paneer to a paper towel-lined plate to drain, retaining vegetable oil in skillet."
+    },
+    {
+      "position": 4,
+      "text": "Melt butter in the same skillet over medium heat; cook and stir onion until golden brown, about 10 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Add ginger paste and garlic paste. Continue to cook until fragrant, about 1 minute more."
+    },
+    {
+      "position": 6,
+      "text": "Stir cashews, ground red chiles, cumin, coriander, and garam masala into the onion mixture. Cook and stir for 1 minute."
+    },
+    {
+      "position": 7,
+      "text": "Stir tomato sauce, half-and-half, milk, sugar, and salt into spice mixture; simmer until thickened, about 5 minutes."
+    },
+    {
+      "position": 8,
+      "text": "Reduce heat to low. Add fried paneer and simmer until heated through, about 5 minutes more."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9dea6092-88d8-57a2-82f6-3095035b0a1d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "469 kcal",
+    "carbohydrateContent": "15 g",
+    "cholesterolContent": "37 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "11 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "947 mg",
+    "sugarContent": "7 g",
+    "fatContent": "41 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "d891b34c-f65c-510e-a55b-2ab572314fd3",
+      "name": "paneer",
+      "normalized_name": "paneer",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "cut into 1/2-inch cubes",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "finely chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c51d161e-b2f2-598e-bcb8-904654ce24b8",
+      "name": "ginger paste",
+      "normalized_name": "ginger paste",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3dca7781-1971-52c4-986d-4155995ce158",
+      "name": "garlic paste",
+      "normalized_name": "garlic paste",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "de0bfdfe-c32b-5e64-a91c-4e294648bdde",
+      "name": "ground cashews",
+      "normalized_name": "ground cashews",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "9eda9508-87ef-59cf-807d-708555e2c62e",
+      "name": "ground red chiles",
+      "normalized_name": "ground red chiles",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "f6186514-7a28-5fa4-99dc-6aee9ecad034",
+      "name": "ground cumin",
+      "normalized_name": "ground cumin",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "1c05fe49-eae3-5107-914d-8b01c5886c6f",
+      "name": "ground coriander",
+      "normalized_name": "ground coriander",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "758d9265-fed2-5c10-86e4-0603fa3c3ca1",
+      "name": "garam masala",
+      "normalized_name": "garam masala",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "f7a620bf-624f-5839-bad4-c9e85269074e",
+      "name": "ounce) can tomato sauce",
+      "normalized_name": "ounce can tomato sauce",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 15
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 16
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "e497f6d9-26fc-5ee8-be38-aff4dcba9d79",
+      "slug": "indian",
+      "name": "Indian"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "320ffc13-6028-5752-a568-4a0abddcca1c",
+      "slug": "curry",
+      "name": "Curry"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c0aa27e9-6212-5206-8d5c-8c4d1544ecd7",
+      "slug": "curry",
+      "name": "Curry",
+      "color": null
+    },
+    {
+      "id": "91bd15af-6ecd-5705-9fed-1ba6f9921dbf",
+      "slug": "vegetarian",
+      "name": "Vegetarian",
+      "color": null
+    },
+    {
+      "id": "6e981c65-06bb-586b-8c00-7f2bd598669e",
+      "slug": "curries",
+      "name": "Curries",
+      "color": null
+    },
+    {
+      "id": "a3b43786-1971-57fd-b78f-c1e8ac2a8f46",
+      "slug": "trusted-brands-recipes-and-tips",
+      "name": "Trusted Brands: Recipes and Tips",
+      "color": null
+    },
+    {
+      "id": "eecd2c00-de61-530a-bc32-cb01ad53bd59",
+      "slug": "indian",
+      "name": "Indian",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/232203/paneer-butter-masala"
+  },
+  "public": true,
+  "updated_at": 1782407393,
+  "revision": 1
+}

@@ -65,6 +65,8 @@ BREADCRUMB_SELECTOR = (
     'nav[aria-label="Breadcrumb"] a, '
     'nav[aria-label="breadcrumb"] a'
 )
+DEFAULT_STATE_FILE = REPO_ROOT / ".allrecipes-scrape-state.json"
+STATE_SCHEMA_VERSION = 1
 
 
 def parse_args() -> argparse.Namespace:
@@ -76,6 +78,21 @@ def parse_args() -> argparse.Namespace:
         action="append",
         default=[],
         help="Optional text file with one recipe URL per line. Supports comments starting with #.",
+    )
+    parser.add_argument(
+        "--state-file",
+        type=Path,
+        default=DEFAULT_STATE_FILE,
+        help=(
+            "JSON state file recording successfully scraped URLs so interrupted "
+            "batch runs can resume. Only used when --urls-file is given. "
+            f"Defaults to {DEFAULT_STATE_FILE}."
+        ),
+    )
+    parser.add_argument(
+        "--no-resume",
+        action="store_true",
+        help="Ignore recorded completed URLs and re-scrape everything (state is still updated).",
     )
     parser.add_argument(
         "--output-dir",
@@ -197,6 +214,35 @@ def build_tag_payloads(recipe_ld: dict[str, Any], soup: BeautifulSoup, slug: str
             continue
         filtered.append(value)
     return build_taxonomy_payloads(filtered, TAG_NAMESPACE)
+
+
+def load_completed_urls(state_file: Path) -> set[str]:
+    """Load the set of successfully scraped URLs from the resume state file."""
+    if not state_file.exists():
+        return set()
+    try:
+        payload = json.loads(state_file.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"invalid scrape state file {state_file}: {exc}") from exc
+    completed = payload.get("completed", [])
+    if not isinstance(completed, list) or not all(isinstance(item, str) for item in completed):
+        raise SystemExit(f"invalid scrape state file: {state_file}")
+    return set(completed)
+
+
+def save_completed_urls(state_file: Path, completed: set[str]) -> None:
+    """Atomically persist the set of successfully scraped URLs."""
+    state_file.parent.mkdir(parents=True, exist_ok=True)
+    temporary_path = state_file.with_name(f"{state_file.name}.tmp")
+    temporary_path.write_text(
+        json.dumps(
+            {"schema_version": STATE_SCHEMA_VERSION, "completed": sorted(completed)},
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    temporary_path.replace(state_file)
 
 
 def default_unit_for_quantity(quantity: str | None) -> str:
@@ -353,39 +399,50 @@ def main() -> int:
     for path in args.urls_file:
         urls.extend(load_urls_from_file(path))
     urls = dedupe_preserve_order(urls)
-    total_urls = len(urls)
+
+    writing_files = bool(args.output_dir or args.write_catalog or args.catalog_recipes_dir or args.assets_dir)
+    if writing_files:
+        catalog_recipes_dir = args.catalog_recipes_dir or DEFAULT_CATALOG_RECIPES_DIR
+        assets_dir = args.assets_dir or DEFAULT_CATALOG_ASSETS_DIR
+
+    # Resume support: with --urls-file, successfully scraped URLs are
+    # recorded in a JSON state file so an interrupted batch run skips
+    # them when the same command is re-invoked.
+    completed: set[str] = set()
+    using_state = bool(args.urls_file) and writing_files
+    if using_state and not args.no_resume:
+        completed = load_completed_urls(args.state_file)
+    pending_urls = [url for url in urls if url not in completed] if using_state else urls
+    if using_state and completed:
+        print_progress(
+            f"Resuming: {len(completed)} URL(s) already completed will be skipped; "
+            f"{len(pending_urls)} remain."
+        )
+    if not pending_urls:
+        print_progress("All URLs are already completed.")
+        return 0
+    total_urls = len(pending_urls)
 
     recipes: list[dict[str, Any]] = []
     failed_urls: list[tuple[str, str]] = []
-    for index, url in enumerate(urls, start=1):
+    completed_count = 0
+    for index, url in enumerate(pending_urls, start=1):
         print_progress(f"[{index}/{total_urls}] Scraping {url}")
         try:
-            recipes.append(scrape_recipe(url))
+            recipe = scrape_recipe(url)
         except Exception as exc:
             error_message = str(exc) or exc.__class__.__name__
             failed_urls.append((url, error_message))
             print_progress(f"[{index}/{total_urls}] Skipping {url}: {error_message}")
+            continue
+        completed_count += 1
 
-    if not recipes:
-        print_progress("No recipes were scraped successfully.")
-        if failed_urls:
-            print_progress("Failed URLs:")
-            for failed_url, error_message in failed_urls:
-                print_progress(f"- {failed_url} :: {error_message}")
-        return 1
-
-    total_recipes = len(recipes)
-
-    if args.output_dir:
-        for index, recipe in enumerate(recipes, start=1):
-            print_progress(f"[{index}/{total_recipes}] Writing output file for {recipe['slug']}")
+        # Write each recipe (and download its asset) immediately after
+        # scraping so a long batch run leaves files on disk incrementally
+        # and does not hold every payload in memory.
+        if args.output_dir:
             write_output(args.output_dir, recipe)
-
-    if args.write_catalog or args.catalog_recipes_dir:
-        catalog_recipes_dir = args.catalog_recipes_dir or DEFAULT_CATALOG_RECIPES_DIR
-        assets_dir = args.assets_dir or DEFAULT_CATALOG_ASSETS_DIR
-        for index, recipe in enumerate(recipes, start=1):
-            print_progress(f"[{index}/{total_recipes}] Downloading assets and writing catalog file for {recipe['slug']}")
+        if args.write_catalog or args.catalog_recipes_dir:
             asset_path = download_recipe_image(assets_dir, recipe)
             if asset_path is not None:
                 recipe["image_url"] = build_public_asset_url(
@@ -395,10 +452,8 @@ def main() -> int:
                     args.public_repo_branch,
                 )
             write_catalog_output(catalog_recipes_dir, recipe)
-    elif args.assets_dir:
-        for index, recipe in enumerate(recipes, start=1):
-            print_progress(f"[{index}/{total_recipes}] Downloading assets for {recipe['slug']}")
-            asset_path = download_recipe_image(args.assets_dir, recipe)
+        elif args.assets_dir:
+            asset_path = download_recipe_image(assets_dir, recipe)
             if asset_path is not None:
                 recipe["image_url"] = build_public_asset_url(
                     asset_path,
@@ -407,13 +462,28 @@ def main() -> int:
                     args.public_repo_branch,
                 )
 
-    print_progress(
-        f"Completed {total_recipes}/{total_urls} recipe(s) successfully. Writing JSON output."
-    )
+        if using_state:
+            completed.add(url)
+            save_completed_urls(args.state_file, completed)
+        if not writing_files:
+            recipes.append(recipe)
+
+    if completed_count == 0:
+        print_progress("No recipes were scraped successfully.")
+        if failed_urls:
+            print_progress("Failed URLs:")
+            for failed_url, error_message in failed_urls:
+                print_progress(f"- {failed_url} :: {error_message}")
+        return 1
+
+    print_progress(f"Completed {completed_count}/{total_urls} recipe(s) successfully.")
     if failed_urls:
         print_progress(f"Skipped {len(failed_urls)} URL(s) due to errors:")
         for failed_url, error_message in failed_urls:
             print_progress(f"- {failed_url} :: {error_message}")
+
+    if writing_files:
+        return 0
 
     payload: Any = recipes[0] if len(recipes) == 1 else recipes
     json.dump(payload, sys.stdout, indent=2, ensure_ascii=True)

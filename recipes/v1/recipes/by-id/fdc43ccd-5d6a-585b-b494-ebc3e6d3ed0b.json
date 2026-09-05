@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fdc43ccd-5d6a-585b-b494-ebc3e6d3ed0b",
+  "slug": "worlds-best-guacamole",
+  "name": "World's Best Guacamole",
+  "recipe_type": "appetizer",
+  "brief_description": "Pomegranate seeds replace tomatoes in this guacamole recipe.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine the onion with the juice of 2 limes in a small bowl; allow the onion to soak in the lime juice for 2 hours. Strain through a fine-mesh sieve and discard the lime juice. Set the onions aside."
+    },
+    {
+      "position": 2,
+      "text": "Grind the serrano chile peppers, the juice of 2 limes, and salt together in a food processor until smooth; add the avocado and continue processing until creamy and smooth. Transfer the mixture into a small serving bowl; fold the soaked onions, chopped cilantro, and about half the pomegranate seeds into the avocado mixture. Top with the remaining pomegranate seeds and garnish with the cilantro sprig to serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fdc43ccd-5d6a-585b-b494-ebc3e6d3ed0b/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "232 kcal",
+    "carbohydrateContent": "17 g",
+    "fiberContent": "11 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "12 mg",
+    "sugarContent": "2 g",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "02d4f872-6e6e-56ff-93d3-4ebab5500e0f",
+      "name": "minced onion",
+      "normalized_name": "minced onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "6c432256-96fd-513b-bf60-307b282d3398",
+      "name": "limes",
+      "normalized_name": "limes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "35928189-9259-5537-84b2-7fcc49a1503c",
+      "name": "serrano chile peppers",
+      "normalized_name": "serrano chile peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "or to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "6c432256-96fd-513b-bf60-307b282d3398",
+      "name": "limes",
+      "normalized_name": "limes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "juiced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3a6613c8-447e-51a7-b1d6-12611718c80c",
+      "name": "ripe avocados",
+      "normalized_name": "ripe avocados",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "peeled and pitted",
+      "position": 6
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b786a4e4-c423-5b0a-aa9c-5492d1d14c84",
+      "name": "pomegranate seeds",
+      "normalized_name": "pomegranate seeds",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 8
+    },
+    {
+      "ingredient_id": "61545a59-b044-51d2-9d54-2afe31c1a44d",
+      "name": "cilantro for garnish",
+      "normalized_name": "cilantro for garnish",
+      "quantity": "1",
+      "unit": "sprig",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "c87a4bcd-dcba-55e0-9c67-000df582dd77",
+      "slug": "snack",
+      "name": "Snack"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "3196af66-8ab4-551a-8c24-b9ff64cc5bb7",
+      "slug": "dips-and-spreads",
+      "name": "Dips and Spreads"
+    },
+    {
+      "id": "5611510c-11ff-5c0b-aee0-6696f963fc70",
+      "slug": "guacamole",
+      "name": "Guacamole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "36a846b9-3517-5db5-8b81-4bcf80e729bc",
+      "slug": "pomegranates",
+      "name": "Pomegranates",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "c38e8b1a-7b10-5255-98b5-087ecbd1a145",
+      "slug": "avocados",
+      "name": "Avocados",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "b179f124-9e41-5f0f-95b0-bc38497b7808",
+      "slug": "food-processor",
+      "name": "Food Processor",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "56337018-718e-5e0b-a33f-5f59eb272718",
+      "slug": "paleo-diet-recipes",
+      "name": "Paleo Diet Recipes",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/213698/worlds-best-guacamole"
+  },
+  "public": true,
+  "updated_at": 1744395785,
+  "revision": 1
+}

@@ -1,0 +1,276 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c59a88e3-a569-5d12-824c-b33798c24206",
+  "slug": "korean-sushi",
+  "name": "Korean Sushi",
+  "recipe_type": "appetizer",
+  "brief_description": "This is a Korean-inspired version of sushi that uses minced beef and canned tuna instead of raw fish. It's mouthwateringly delicious, but may take some practice.",
+  "cuisine": "Korean",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a medium saucepan bring 2 cups water and cider vinegar to a boil. Add rice and stir. Reduce heat, cover and simmer for 20 minutes, until rice grains are sticky and soft."
+    },
+    {
+      "position": 2,
+      "text": "In a medium saucepan, place chard in enough water to cover. Bring to a boil, and cook until tender. Cut into thin strips."
+    },
+    {
+      "position": 3,
+      "text": "Whisk the eggs with soy sauce and 3 tablespoons water. Pour into a medium skillet over medium heat. Cook until thickened. Remove from heat and cut into strips."
+    },
+    {
+      "position": 4,
+      "text": "Heat the vegetable oil in a medium saucepan over medium high heat. Slowly cook and stir the onion until tender. Mix in the beef and 1 tablespoon soy sauce, and cook until evenly brown. Drain and set aside."
+    },
+    {
+      "position": 5,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Place the nori sheets on a medium baking sheet, and heat in the preheated oven 1 to 2 minutes, until slightly crisp."
+    },
+    {
+      "position": 6,
+      "text": "Place the nori sheets, one at a time , on a bamboo rolling mat. Line the nori sheets evenly with approximately 3/4 inch (2 cm) depth of rice, taking care not to let the rice cover the edges of the nori. Beginning at one end of the nori sheet, top the rice with a stick of carrot, a line of tuna, chard, egg, a cucumber slice, and a line of beef. Repeat until the food reaches approximately the middle of the nori sheet. Roll the sheets carefully and tightly. Seal with a grain or two of the sticky rice. Slice each roll into approximately 4 pieces and serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c59a88e3-a569-5d12-824c-b33798c24206/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "492 kcal",
+    "carbohydrateContent": "58 g",
+    "cholesterolContent": "109 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "409 mg",
+    "sugarContent": "3 g",
+    "fatContent": "18 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b43a70e7-1edb-5feb-aa30-384c1a05fc4c",
+      "name": "uncooked short-grain white rice",
+      "normalized_name": "uncooked short-grain white rice",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "7886893a-b4fe-5736-aa40-1be0b019597b",
+      "name": "cider vinegar",
+      "normalized_name": "cider vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5c27aca9-d3d5-5993-b476-a934eaecdc73",
+      "name": "leaves chard",
+      "normalized_name": "leaves chard",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "well beaten",
+      "position": 5
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "divided",
+      "position": 6
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c47f5166-1b97-5907-9a19-b77d02995f27",
+      "name": "beef tenderloin",
+      "normalized_name": "beef tenderloin",
+      "quantity": "0.75",
+      "unit": "pound",
+      "preparation": "minced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "c29853eb-92b8-5cd9-8800-3efe37eeebc4",
+      "name": "ounce) can tuna",
+      "normalized_name": "ounce can tuna",
+      "quantity": "1 (5",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 11
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "julienned",
+      "position": 12
+    },
+    {
+      "ingredient_id": "ec1c2b5e-cca0-5d55-a629-5ae15ac48fb5",
+      "name": "cucumber",
+      "normalized_name": "cucumber",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "julienned",
+      "position": 13
+    },
+    {
+      "ingredient_id": "15ce914e-29ad-5a58-92d8-80adda102986",
+      "name": "sheets nori (dry seaweed)",
+      "normalized_name": "sheets nori",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "cf1e635c-b2d7-52fc-8796-cfd0aa20b583",
+      "slug": "wraps-and-rolls",
+      "name": "Wraps and Rolls"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3f6b56a-43c6-5a82-9f7c-1ae7481aa809",
+      "slug": "beef-tenderloin-recipes",
+      "name": "Beef Tenderloin Recipes",
+      "color": null
+    },
+    {
+      "id": "1cfa2a4e-ee4e-58e0-8f61-2af2ed73ac95",
+      "slug": "short-loin",
+      "name": "Short Loin",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/23954/korean-sushi"
+  },
+  "public": true,
+  "updated_at": 1562711048,
+  "revision": 1
+}

@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a81bc63e-016c-553f-9a09-98e8f55b2d61",
+  "slug": "split-pea-soup-with-ham",
+  "name": "Split Pea Soup with Ham",
+  "recipe_type": "soup",
+  "brief_description": "Split pea soup with ham is a thick and creamy meal to serve on cold winter days. Serve with a chunk of crusty bread.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place split peas into a large container and cover with 6 cups cool water; soak 8 hours to overnight. Drain and rinse."
+    },
+    {
+      "position": 2,
+      "text": "Mix chicken broth and 2 cups water together in a large pot over high heat; add ham, red onion, split peas, brown sugar, garlic, black pepper, and salt. Bring broth mixture to a boil, reduce heat, and simmer until peas are softened, about 2 hours."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 120,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a81bc63e-016c-553f-9a09-98e8f55b2d61/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "189 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "12 mg",
+    "fiberContent": "10 g",
+    "proteinContent": "14 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "292 mg",
+    "sugarContent": "5 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a65b8daa-40c8-5016-9481-917b2d476c0d",
+      "name": "dried split peas",
+      "normalized_name": "dried split peas",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 2
+    },
+    {
+      "ingredient_id": "d048b8fd-9fab-5cc1-b458-54ddd45ae648",
+      "name": "low-sodium chicken broth",
+      "normalized_name": "low-sodium chicken broth",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "53c4ecc7-54c9-56e4-9496-38a51a8b5995",
+      "name": "cooked ham",
+      "normalized_name": "cooked ham",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "cut into 1-inch cubes",
+      "position": 4
+    },
+    {
+      "ingredient_id": "12587455-7414-5fe8-9cf1-e9415eb2b4d4",
+      "name": "red onion",
+      "normalized_name": "red onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "0d9c18f8-34b7-56ac-8b23-c2da26756cb1",
+      "slug": "pork-soup",
+      "name": "Pork Soup"
+    },
+    {
+      "id": "adc36573-5ac9-5509-97f6-2217244261d8",
+      "slug": "ham-soup",
+      "name": "Ham Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c8686615-6b0e-5edb-8336-d3d213a5adfd",
+      "slug": "ham-soup",
+      "name": "Ham Soup",
+      "color": null
+    },
+    {
+      "id": "a4e6611a-eaf0-564b-a832-fc9eb0cd1b1a",
+      "slug": "lunches",
+      "name": "Lunches",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "630df682-a5ea-5d74-97e6-3b57367b0fe8",
+      "slug": "split-pea-soup-recipes",
+      "name": "Split Pea Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "6d321cde-f5c8-549a-bbf0-f74cd0a3120b",
+      "slug": "brown-sugar",
+      "name": "Brown Sugar",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/237268/split-pea-soup-with-ham"
+  },
+  "public": true,
+  "updated_at": 1738686416,
+  "revision": 1
+}

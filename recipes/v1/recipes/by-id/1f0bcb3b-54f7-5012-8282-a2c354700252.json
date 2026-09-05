@@ -1,0 +1,227 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1f0bcb3b-54f7-5012-8282-a2c354700252",
+  "slug": "hearty-egg-rolls",
+  "name": "Hearty Egg Rolls",
+  "recipe_type": "appetizer",
+  "brief_description": "Potatoes, beef and cabbage are rolled up into egg roll wrappers, then fried golden and crisp.",
+  "cuisine": "World American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place potatoes in a medium saucepan with enough water to cover. Bring to a boil. Cook until tender, about 15 minutes. Remove from heat and drain."
+    },
+    {
+      "position": 2,
+      "text": "Place ground beef in a large saucepan over medium high heat. Cook until evenly brown; drain."
+    },
+    {
+      "position": 3,
+      "text": "Place potatoes, eggs, cabbage, soy sauce, salt and pepper into the saucepan with the ground beef. Over medium heat, cook and stir until eggs are cooked and cabbage is tender, about 10 minutes. Transfer the mixture to a medium bowl."
+    },
+    {
+      "position": 4,
+      "text": "Heat oil in a large, heavy saucepan to 375 degrees F (190 degrees C)."
+    },
+    {
+      "position": 5,
+      "text": "Place approximately 1 tablespoon of the ground beef and potato mixture in the center of each egg roll wrapper. Roll wrappers around the mixture and fold edges inward to seal."
+    },
+    {
+      "position": 6,
+      "text": "Fry egg rolls in the hot oil until golden brown. Drain on paper towels."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1f0bcb3b-54f7-5012-8282-a2c354700252/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "526 kcal",
+    "carbohydrateContent": "44 g",
+    "cholesterolContent": "120 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "27 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "372 mg",
+    "sugarContent": "1 g",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "10ff2a0c-03da-5be8-9d89-f1d626db42d9",
+      "name": "chopped cabbage",
+      "normalized_name": "chopped cabbage",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "4af50312-92db-5b1f-8341-bfeb74d137d3",
+      "name": "soy sauce to taste",
+      "normalized_name": "soy sauce to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "1ecc48f3-9537-539a-baa5-550b0d27d66b",
+      "name": "quart oil for frying",
+      "normalized_name": "quart oil for frying",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "476dc35e-623d-5ed2-9d54-f7841ec287b9",
+      "name": "ounce) package egg roll wrappers",
+      "normalized_name": "ounce package egg roll wrappers",
+      "quantity": "1 (14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "cf1e635c-b2d7-52fc-8796-cfd0aa20b583",
+      "slug": "wraps-and-rolls",
+      "name": "Wraps and Rolls"
+    },
+    {
+      "id": "b018d3b1-2d42-51f2-9c76-131a8759e1d6",
+      "slug": "egg-roll",
+      "name": "Egg Roll"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e1c1a213-4d13-5d64-8e57-fd54a049255d",
+      "slug": "egg-roll-recipes",
+      "name": "Egg Roll Recipes",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "3a0e3a37-b1f9-5677-afb0-dbb9e99bc6e6",
+      "slug": "big-game-appetizer-recipes",
+      "name": "Big Game Appetizer Recipes",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "9005406e-37a6-5c33-a19b-eff22442ed34",
+      "slug": "baseball",
+      "name": "Baseball",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25485/hearty-egg-rolls"
+  },
+  "public": true,
+  "updated_at": 1744001704,
+  "revision": 1
+}

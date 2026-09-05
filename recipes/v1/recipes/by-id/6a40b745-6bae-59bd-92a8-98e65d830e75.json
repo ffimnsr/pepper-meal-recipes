@@ -1,0 +1,196 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6a40b745-6bae-59bd-92a8-98e65d830e75",
+  "slug": "mrs-paysons-spam-and-grits-brunch-casserole",
+  "name": "Mrs. Payson's SPAM\u00ae and Grits Brunch Casserole",
+  "recipe_type": "breakfast",
+  "brief_description": "Grits, cheese, and luncheon meat combine into a breakfast casserole that can be put together the night before.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat an oven to 350 degrees F (175 degrees C). Grease a 9x13 inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Bring the water to a boil in a large saucepan over high heat. Slowly pour the grits into the water while stirring constantly. Reduce heat to medium-low, and simmer until the grits are tender and thick, 3 to 4 minutes. Stir the grits constantly as they cook. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Heat a skillet over medium-high heat, and sprinkle in the grated luncheon meat. Cook, turning occasionally, until the luncheon meat has browned. Pour off any excess grease, and stir half of the luncheon meat into the grits along with the tomatoes, sour cream, and half of the Cheddar cheese. Pour the grits into the prepared baking dish, and sprinkle with the remaining luncheon meat and Cheddar cheese."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until the casserole is hot and the cheese has melted and is bubbly, about 30 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6a40b745-6bae-59bd-92a8-98e65d830e75/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "668 kcal",
+    "carbohydrateContent": "27 g",
+    "cholesterolContent": "135 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "30 g",
+    "saturatedFatContent": "26 g",
+    "sodiumContent": "1366 mg",
+    "sugarContent": "2 g",
+    "fatContent": "48 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b1439bed-4613-5ccf-9420-1ae3823725e0",
+      "name": "quick-cooking grits",
+      "normalized_name": "quick-cooking grits",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ee70c61a-8922-51ba-88ef-914789661743",
+      "name": "ounce) can fully cooked luncheon meat (such as spam\u00ae)",
+      "normalized_name": "ounce can fully cooked luncheon meat",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "grated",
+      "position": 3
+    },
+    {
+      "ingredient_id": "9df4d90c-3c3d-5af4-a2c3-2dbac876bf33",
+      "name": "ounce) can diced tomatoes",
+      "normalized_name": "ounce can diced tomatoes",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "71672b94-2d63-5e89-ac59-78d4c9c70b68",
+      "name": "ounce) container sour cream",
+      "normalized_name": "ounce container sour cream",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d9665c8e-feae-5357-999b-b8048431ad56",
+      "name": "ounce) package shredded cheddar cheese",
+      "normalized_name": "ounce package shredded cheddar cheese",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "8f2d1759-6b94-5f01-b137-4c7adb22db12",
+      "slug": "grain-side-dish",
+      "name": "Grain Side Dish"
+    },
+    {
+      "id": "2ebf87ae-6eb2-5c88-9c15-009a5783a3c0",
+      "slug": "grits",
+      "name": "Grits"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e67e7af9-c8fe-5206-8ea2-0105bad5b7f8",
+      "slug": "grits",
+      "name": "Grits",
+      "color": null
+    },
+    {
+      "id": "9247e915-94df-5936-8bb0-46841c369b86",
+      "slug": "casseroles",
+      "name": "Casseroles",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "2a79b5de-9536-534a-9eb5-06cbc9101d65",
+      "slug": "breakfast-casserole-recipes",
+      "name": "Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "3654150b-4a1b-5dca-bb27-24b9ae14de11",
+      "slug": "polenta-recipes",
+      "name": "Polenta Recipes",
+      "color": null
+    },
+    {
+      "id": "34260111-dacb-53d4-9795-7c3933ef5810",
+      "slug": "make-ahead",
+      "name": "Make-Ahead",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/107233/mrs-paysons-spam-and-grits-brunch-casserole"
+  },
+  "public": true,
+  "updated_at": 1586415009,
+  "revision": 1
+}

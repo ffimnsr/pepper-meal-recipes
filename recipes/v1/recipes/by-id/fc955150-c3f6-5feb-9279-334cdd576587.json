@@ -1,0 +1,207 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "fc955150-c3f6-5feb-9279-334cdd576587",
+  "slug": "callys-omelet",
+  "name": "Cally's Omelet",
+  "recipe_type": "breakfast",
+  "brief_description": "Steak and veggies are sauteed together in this delicious morning favorite made with egg substitute.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a medium saucepan over medium heat. Stir in green bell pepper, red bell pepper, onion and portobello mushrooms. Cook until tender, about 5 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Stir beef into the vegetable mixture, and cook until evenly brown, 5 to 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Stir egg beaters into the mixture, and cook 10 minutes, or until firm."
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/fc955150-c3f6-5feb-9279-334cdd576587/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "511 kcal",
+    "carbohydrateContent": "26 g",
+    "cholesterolContent": "105 mg",
+    "fiberContent": "8 g",
+    "proteinContent": "40 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "284 mg",
+    "sugarContent": "11 g",
+    "fatContent": "30 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "32ab58e9-dbc4-5598-923b-26964cb30e17",
+      "name": "red bell pepper",
+      "normalized_name": "red bell pepper",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "6e4a4199-49cd-5484-9e98-bd83aa264b4d",
+      "name": "bermuda onion",
+      "normalized_name": "bermuda onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "e092979f-e8c0-593b-88ef-d171442d6669",
+      "name": "baby portobello mushrooms",
+      "normalized_name": "baby portobello mushrooms",
+      "quantity": "7",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "3b6b3aa8-542c-59bb-81d7-482ce468b592",
+      "name": "beef tip",
+      "normalized_name": "beef tip",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "dea3269c-bc4e-55b0-8db5-aefa42a5c32f",
+      "name": "egg substitute",
+      "normalized_name": "egg substitute",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "136537bb-456f-5718-a767-4cbbcaaaa060",
+      "slug": "omelet",
+      "name": "Omelet"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "1e1783f0-14a2-5c36-a8c9-61927a25536b",
+      "slug": "omelet-recipes",
+      "name": "Omelet Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "401b9a1f-85f8-5e67-bffa-b5559199ad38",
+      "slug": "portobello-mushroom-recipes",
+      "name": "Portobello Mushroom Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/32007/callys-omelet"
+  },
+  "public": true,
+  "updated_at": 1657836021,
+  "revision": 1
+}

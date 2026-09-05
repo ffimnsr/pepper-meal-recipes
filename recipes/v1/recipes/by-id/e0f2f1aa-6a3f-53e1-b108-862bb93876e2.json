@@ -1,0 +1,212 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e0f2f1aa-6a3f-53e1-b108-862bb93876e2",
+  "slug": "sous-vide-eye-of-round",
+  "name": "Sous Vide Eye of Round",
+  "recipe_type": "main",
+  "brief_description": "The long, slow cooking process of sous vide turns this eye of round roast into a juicy, fork-tender main dish.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix together salt, garlic granules, onion powder, and pepper in a small bowl."
+    },
+    {
+      "position": 2,
+      "text": "Trim and discard any fat from roast. Rub the roast with enough Worcestershire sauce to coat. Rub seasoning mixture over the entire surface of the roast."
+    },
+    {
+      "position": 3,
+      "text": "Place seasoned roast into a vacuum bag and seal using a vacuum sealer. Immerse the bag in a heat-proof container of water with a sous vide cooker. Set temperature to 134 degrees F (57 degrees C); cook for 18 hours. Wrap the top of the pot with plastic wrap; this will help retain water."
+    },
+    {
+      "position": 4,
+      "text": "When the time is up, remove roast from the bag and pat completely dry with paper towels."
+    },
+    {
+      "position": 5,
+      "text": "Heat 2 tablespoons avocado oil in a large skillet over high heat until it shimmers. Add roast and sear until evenly browned, 2 to 3 minutes per side, adding more avocado oil if necessary."
+    },
+    {
+      "position": 6,
+      "text": "Move the roast to a serving dish and serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 1090,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e0f2f1aa-6a3f-53e1-b108-862bb93876e2/cover.jpeg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "527 kcal",
+    "carbohydrateContent": "1 g",
+    "cholesterolContent": "138 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "45 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "450 mg",
+    "fatContent": "37 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5132d0cb-ca5d-5b63-87f7-2b4167d70791",
+      "name": "garlic granules",
+      "normalized_name": "garlic granules",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "46c40da8-f2b7-5ede-8b0a-549a3a7a5149",
+      "name": "onion powder",
+      "normalized_name": "onion powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "33f59aae-9c0f-597c-b519-8bfc4aae58b6",
+      "name": "freshly ground black pepper to taste",
+      "normalized_name": "freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "19dd534a-c4b3-5af8-868a-d19108a4a324",
+      "name": "pound) beef eye of round roast",
+      "normalized_name": "pound beef eye of round roast",
+      "quantity": "1 (3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "98a7d2d0-0a00-5dbc-8a3a-a6d6fd5443b6",
+      "name": "worcestershire sauce",
+      "normalized_name": "worcestershire sauce",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": "or more as needed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "ff9df169-3bbb-5024-91ca-4ac127da19e5",
+      "name": "avocado oil",
+      "normalized_name": "avocado oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or more as needed",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "e3aa2a39-aa2f-5a6e-9efb-e15e9d4b90ad",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking"
+    },
+    {
+      "id": "a7a4366d-056e-57de-a024-f47ec46ea66e",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment"
+    },
+    {
+      "id": "4d795cab-80b9-521e-99bc-6e2a2d295fe3",
+      "slug": "sous-vide",
+      "name": "Sous Vide"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e09cd98a-c038-53f2-b08a-00f6534987bc",
+      "slug": "recipes",
+      "name": "Recipes",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "3330acd2-c289-519c-a392-3f20e83fb2c2",
+      "slug": "sous-vide-recipes",
+      "name": "Sous Vide Recipes",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "3b40ed61-f398-5e7b-9de1-acd9a6bff925",
+      "slug": "roast-recipes",
+      "name": "Roast Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "1e83fd8f-f8d5-5dd8-98fc-88de342429d2",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8368416/sous-vide-eye-of-round"
+  },
+  "public": true,
+  "updated_at": 1771101229,
+  "revision": 1
+}

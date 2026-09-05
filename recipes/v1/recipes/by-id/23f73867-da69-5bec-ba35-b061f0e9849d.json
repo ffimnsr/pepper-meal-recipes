@@ -1,0 +1,261 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "23f73867-da69-5bec-ba35-b061f0e9849d",
+  "slug": "beef-and-cabbage-stew",
+  "name": "Beef and Cabbage Stew",
+  "recipe_type": "soup",
+  "brief_description": "This flavorful cabbage stew with beef, onions, and potatoes simmered in a tomato-based broth is well worth the time. Perfect for a hearty meal on a cold day.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook and stir stew meat in a large saucepan or Dutch oven over medium heat until browned on all sides, 10 to 15 minutes. Drain any excess grease."
+    },
+    {
+      "position": 2,
+      "text": "Stir beef bouillon into beef broth in a bowl until dissolved; pour over stew meat. Add onion, black pepper, and bay leaf; cover and simmer until stew meat is very tender, at least 2 hours."
+    },
+    {
+      "position": 3,
+      "text": "Add cabbage, potatoes, celery, and carrot; cover and simmer until potatoes are tender, 30 to 45 more minutes."
+    },
+    {
+      "position": 4,
+      "text": "Stir tomato sauce and salt into the stew; simmer, uncovered, until tomato sauce is fully incorporated and flavors have blended, 15 to 20 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 175,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/23f73867-da69-5bec-ba35-b061f0e9849d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "318 kcal",
+    "carbohydrateContent": "22 g",
+    "cholesterolContent": "63 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "6 g",
+    "sodiumContent": "690 mg",
+    "sugarContent": "6 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22f8117e-e242-5f36-aa8b-df14c7b99d54",
+      "name": "beef stew meat",
+      "normalized_name": "beef stew meat",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "cut into 1-inch pieces",
+      "position": 1
+    },
+    {
+      "ingredient_id": "6f7b657c-903a-5df8-ae19-57bbf79fb3ce",
+      "name": "cube beef bouillon",
+      "normalized_name": "cube beef bouillon",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a2d2512e-d6aa-5548-b179-eb27cdd5985d",
+      "name": "beef broth",
+      "normalized_name": "beef broth",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "1a9a635d-e021-532f-a980-018372de8454",
+      "name": "bay leaf",
+      "normalized_name": "bay leaf",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "4abbb631-0ee9-5952-9b0f-4aaae7016725",
+      "name": "shredded cabbage",
+      "normalized_name": "shredded cabbage",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 8
+    },
+    {
+      "ingredient_id": "db2c5c0a-2bcf-59c2-8b70-5e5420a1af61",
+      "name": "celery ribs",
+      "normalized_name": "celery ribs",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "sliced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "f7a620bf-624f-5839-bad4-c9e85269074e",
+      "name": "ounce) can tomato sauce",
+      "normalized_name": "ounce can tomato sauce",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "23e4dd3f-3657-5e66-ac78-27cff245b1e5",
+      "slug": "whole30",
+      "name": "Whole30",
+      "color": null
+    },
+    {
+      "id": "f7714f55-5b38-5632-8117-9cfb9663f935",
+      "slug": "stews",
+      "name": "Stews",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229255/beef-and-cabbage-stew"
+  },
+  "public": true,
+  "updated_at": 1781039082,
+  "revision": 1
+}

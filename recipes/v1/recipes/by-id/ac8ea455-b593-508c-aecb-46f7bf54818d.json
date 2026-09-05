@@ -1,0 +1,233 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ac8ea455-b593-508c-aecb-46f7bf54818d",
+  "slug": "krusczyki",
+  "name": "Krusczyki",
+  "recipe_type": "dessert",
+  "brief_description": "This is my grandmother's recipe. I hope that you enjoy it!",
+  "cuisine": "Polish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a large bowl mix together all ingredients. Stir into a ball, then turn dough out onto a floured surface . Knead dough for 1/2 hour. If you have a mixer with a dough hook attachment, mix for about 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Let dough rest for 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "On a floured surface, roll out dough to 1/4 to 1/8 inch thickness. Cut into strips that are 3 inches long and 1 inch wide. In the center of each strip, cut a 1 inch slit, lengthwise. Pull one end of the strip through the slit to form a bow."
+    },
+    {
+      "position": 4,
+      "text": "In a frying pan or an electric skillet, melt shortening and heat to about 350 degrees F (175 degrees C). in a frying pan this would be on medium high heat."
+    },
+    {
+      "position": 5,
+      "text": "Place cookies in hot oil. Cook on both sides until lightly browned then remove to a paper towel."
+    },
+    {
+      "position": 6,
+      "text": "Dust finished cookies with confectioners sugar."
+    }
+  ],
+  "servings": 18,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": null,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ac8ea455-b593-508c-aecb-46f7bf54818d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "504 kcal",
+    "carbohydrateContent": "46 g",
+    "cholesterolContent": "184 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "186 mg",
+    "sugarContent": "3 g",
+    "fatContent": "32 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "a30d2790-8959-5f92-90c9-d9b63bfe2517",
+      "name": "egg yolks",
+      "normalized_name": "egg yolks",
+      "quantity": "14",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "64ae90e7-4614-5971-a375-939f187e7ce6",
+      "name": "pint sour cream",
+      "normalized_name": "pint sour cream",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "8",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "19474987-99ea-5312-af22-52e1aa7953a4",
+      "name": "shortening",
+      "normalized_name": "shortening",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "876108f9-948e-54d9-9740-7c1014b461b0",
+      "name": "confectioners' sugar for decoration",
+      "normalized_name": "confectioners sugar for decoration",
+      "quantity": "0.33333298563957",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "76083b0a-f6ef-5c30-825b-e39e074509da",
+      "slug": "european",
+      "name": "European"
+    },
+    {
+      "id": "c1a57199-329b-531c-9147-19f2f31199bb",
+      "slug": "eastern-european",
+      "name": "Eastern European"
+    },
+    {
+      "id": "cfe1018d-d8c7-52bb-bf83-be36e9d8b12f",
+      "slug": "polish",
+      "name": "Polish"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fb441386-361f-566c-97ca-0e1a68d513c3",
+      "slug": "polish",
+      "name": "Polish",
+      "color": null
+    },
+    {
+      "id": "73ce2c87-dc80-548e-aa58-5950a84ff959",
+      "slug": "poland",
+      "name": "Poland",
+      "color": null
+    },
+    {
+      "id": "7a195d0c-25a3-5ed0-b2a0-1d29111c17c9",
+      "slug": "international-cookie-recipes",
+      "name": "International Cookie Recipes",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "7805c9a5-d8d3-5e71-a996-93da83326aca",
+      "slug": "thumbprint-cookie-recipes",
+      "name": "Thumbprint Cookie Recipes",
+      "color": null
+    },
+    {
+      "id": "a5498448-4eed-5644-b17d-c8a3be003218",
+      "slug": "vanilla-extract-recipes",
+      "name": "Vanilla Extract Recipes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "17745eec-ab41-510f-a9d4-28fa12732d14",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/11484/krusczyki"
+  },
+  "public": true,
+  "updated_at": 1528463106,
+  "revision": 1
+}

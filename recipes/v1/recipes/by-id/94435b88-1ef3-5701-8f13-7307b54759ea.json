@@ -1,0 +1,218 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "94435b88-1ef3-5701-8f13-7307b54759ea",
+  "slug": "family-latkes",
+  "name": "Family Latkes",
+  "recipe_type": "side",
+  "brief_description": "This family recipe for crisp, deep-fried potato latkes are the perfect side dish for any Jewish holiday--or any day of the week.",
+  "cuisine": "Jewish",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place potatoes in salted water and let sit for about 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Grate potatoes on a medium or fine setting. Press out liquid; this should produce about 4 cups grated potato."
+    },
+    {
+      "position": 3,
+      "text": "Place grated potato in a bowl and stir in flour, onion, salt, and pepper. Fold in eggs."
+    },
+    {
+      "position": 4,
+      "text": "Preheat the oven to 250 degrees F (120 degrees C). Line baking sheets with parchment paper."
+    },
+    {
+      "position": 5,
+      "text": "Heat enough oil in a deep pan to reach 1/4 inch up the sides. Heat over medium-high heat until a drop of batter sizzles. Lower heat to medium."
+    },
+    {
+      "position": 6,
+      "text": "Working in batches, drop batter into the hot oil in desired size and flatten into pancakes; brown on both sides, 5 to 7 minutes per side. Transfer to the prepared pans and keep warm in the preheated oven while you fry remaining batter."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/94435b88-1ef3-5701-8f13-7307b54759ea/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "114 kcal",
+    "carbohydrateContent": "17 g",
+    "cholesterolContent": "62 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "320 mg",
+    "sugarContent": "1 g",
+    "fatContent": "4 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "067a4d45-1400-54c0-b57f-680eb212a03a",
+      "name": "medium potatoes",
+      "normalized_name": "medium potatoes",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "peeled",
+      "position": 1
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "a5755664-0f97-5e15-8781-54c8239d5614",
+      "name": "grated onion",
+      "normalized_name": "grated onion",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 6
+    },
+    {
+      "ingredient_id": "01458627-d7bc-5047-a63f-484c4cf26646",
+      "name": "oil for frying",
+      "normalized_name": "oil for frying",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "or as needed",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "b6080a36-e955-56e9-81db-718202beb92a",
+      "slug": "holidays-and-events",
+      "name": "Holidays and Events"
+    },
+    {
+      "id": "c751a61c-62ee-5664-88ee-29a5d165b9c8",
+      "slug": "hanukkah",
+      "name": "Hanukkah"
+    },
+    {
+      "id": "284d263d-2789-52c9-95b9-d0c2b55e3d3d",
+      "slug": "latkes",
+      "name": "Latkes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "9bb1e663-6705-52d6-b7c4-c07ba088795a",
+      "slug": "latkes",
+      "name": "Latkes",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "390c3371-580b-5a2a-b6d6-8d86e8686407",
+      "slug": "hanukkah",
+      "name": "Hanukkah",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "d302e175-eebe-5aa5-b201-8d914809ae52",
+      "slug": "jewish",
+      "name": "Jewish",
+      "color": null
+    },
+    {
+      "id": "06e3ab05-c11e-5748-a84c-a5d4406896be",
+      "slug": "potato",
+      "name": "Potato",
+      "color": null
+    },
+    {
+      "id": "397d37a2-1662-5fa5-ac72-17db543bdd4f",
+      "slug": "onion",
+      "name": "Onion",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/282521/family-latkes"
+  },
+  "public": true,
+  "updated_at": 1606195522,
+  "revision": 1
+}

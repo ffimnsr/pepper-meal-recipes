@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5b645e9a-7f3d-5ac8-a684-04b3aa41ea29",
+  "slug": "frijoles-i",
+  "name": "Frijoles I",
+  "recipe_type": "side",
+  "brief_description": "A friend passed this recipe to me. It is a little more work, but worth it for authentic refried bean taste.",
+  "cuisine": "World",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Soak pinto beans overnight in 1 quart of water."
+    },
+    {
+      "position": 2,
+      "text": "Place beans into a large saucepan, and add water to cover. Add onions, garlic, salt and pepper. Bring to a boil, then simmer over medium-low heat until beans are tender, about 1 to 2 hours. Add additional water to the pan as needed to prevent burning."
+    },
+    {
+      "position": 3,
+      "text": "Mash the beans with a potato masher, and mix in the butter. Continue cooking, stirring occasionally, until the mixture is thickened and the butter is absorbed. Adjust seasonings to taste."
+    },
+    {
+      "position": 4,
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Spread the bean mixture into a 9x13 inch baking dish, and sprinkle shredded cheese over the top. Bake for 15 minutes, or until cheese is melted."
+    }
+  ],
+  "servings": 15,
+  "cooking_time_minutes": 240,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5b645e9a-7f3d-5ac8-a684-04b3aa41ea29/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "224 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "32 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "427 mg",
+    "sugarContent": "1 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "667b9643-333c-576e-bcd5-ec4105620383",
+      "name": "dry pinto beans",
+      "normalized_name": "dry pinto beans",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "695f05ca-32c3-5c48-86bd-ed07af125e3f",
+      "name": "onions",
+      "normalized_name": "onions",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "62486dc7-9e27-5c22-9339-2e4ab00fb7d2",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "a74a2bf4-27db-54ce-9ed6-1b42759efd3f",
+      "slug": "gluten-free",
+      "name": "Gluten Free",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "22cf0e84-9987-5432-84e0-d5f8892c73d9",
+      "slug": "pinto-beans",
+      "name": "Pinto Beans",
+      "color": null
+    },
+    {
+      "id": "397d37a2-1662-5fa5-ac72-17db543bdd4f",
+      "slug": "onion",
+      "name": "Onion",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/38169/frijoles-i"
+  },
+  "public": true,
+  "updated_at": 1657836946,
+  "revision": 1
+}

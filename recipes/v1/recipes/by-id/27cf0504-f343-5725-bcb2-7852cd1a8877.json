@@ -1,0 +1,208 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "27cf0504-f343-5725-bcb2-7852cd1a8877",
+  "slug": "egg-roll-bowl",
+  "name": "Egg Roll Bowl",
+  "recipe_type": "breakfast",
+  "brief_description": "This breakfast egg roll bowl features all the basic egg roll ingredients (pork, cabbage, soy sauce, and sesame oil) with no deep-fried wrappers.",
+  "cuisine": "Asian",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Cook and stir sausage in a large skillet over medium heat until browned and crumbly, about 10 minutes. Drain excess grease."
+    },
+    {
+      "position": 3,
+      "text": "Stir coleslaw mix, soy sauce, sesame oil, ginger, and garlic into the skillet. Cook until coleslaw softens, about 8 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Stir in lemon zest and cilantro; cook until the flavors combine, about 2 minutes."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/27cf0504-f343-5725-bcb2-7852cd1a8877/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "682 kcal",
+    "carbohydrateContent": "18 g",
+    "cholesterolContent": "107 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "2051 mg",
+    "sugarContent": "12 g",
+    "fatContent": "58 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "11362667-862e-5cc5-b7e9-416a58e7169d",
+      "name": "bulk pork sausage",
+      "normalized_name": "bulk pork sausage",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c40428b9-ab1c-5f8a-9070-926e62984c45",
+      "name": "ounce) package coleslaw mix",
+      "normalized_name": "ounce package coleslaw mix",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "dfc6ebc0-11f1-56c5-a394-472fb8ff7a49",
+      "name": "toasted sesame oil",
+      "normalized_name": "toasted sesame oil",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c8a58215-0bcb-57b9-a482-d3d070393943",
+      "name": "grated ginger",
+      "normalized_name": "grated ginger",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "fb9c0f88-3356-5b13-a1f9-18ccb59208ed",
+      "name": "lemon zest",
+      "normalized_name": "lemon zest",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "4c960d89-b6fa-545a-a562-24b990110d51",
+      "slug": "brunch",
+      "name": "Brunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "1a46de36-457d-5a0e-bdf0-9f84aa43542e",
+      "slug": "bowls",
+      "name": "Bowls"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "db60f0e3-bef0-5843-8dd2-fdcf901fbe37",
+      "slug": "bowls",
+      "name": "Bowls",
+      "color": null
+    },
+    {
+      "id": "e1c1a213-4d13-5d64-8e57-fd54a049255d",
+      "slug": "egg-roll-recipes",
+      "name": "Egg Roll Recipes",
+      "color": null
+    },
+    {
+      "id": "ab0cb336-2935-59d5-91ec-afc0f4e593a4",
+      "slug": "breakfast-bowl-recipes",
+      "name": "Breakfast Bowl Recipes",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257429/egg-roll-bowl"
+  },
+  "public": true,
+  "updated_at": 1762454458,
+  "revision": 1
+}

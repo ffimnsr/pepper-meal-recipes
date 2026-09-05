@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "bded6fe2-6eb4-5ab6-ae4f-02389ead2ae9",
+  "slug": "cindys-awesome-clam-chowder",
+  "name": "Cindy's Awesome Clam Chowder",
+  "recipe_type": "soup",
+  "brief_description": "Try this quick and easy clam chowder recipe filled with clams, potatoes, and bacon. It's wonderful with sourdough bread or served in a bread bowl.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook bacon in a large pot over medium-high heat, stirring occasionally, until crisped and browned, about 10 minutes. Transfer bacon with a slotted spoon to a paper towel-lined plate. Leave drippings in the pot."
+    },
+    {
+      "position": 2,
+      "text": "Place potatoes and carrots into the pot and season with salt and pepper; cook in bacon drippings, stirring frequently, for 5 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Pour clam juice into the pot, add enough water to just cover potatoes, and bring to a boil. Reduce the heat to medium-low, cover, and simmer until potatoes are just tender, 10 to 15 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Add leek soup mix and gently stir until no lumps remain. Stir in clams, half-and-half, and reserved bacon. Cook and stir until chowder returns to a simmer and thickens, about 10 minutes more."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/bded6fe2-6eb4-5ab6-ae4f-02389ead2ae9/cover.jpg",
+  "video_url": "https://content.jwplatform.com/videos/HwCmNeCL-ma1DlVvV.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "681 kcal",
+    "carbohydrateContent": "54 g",
+    "cholesterolContent": "128 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "31 g",
+    "saturatedFatContent": "18 g",
+    "sodiumContent": "1338 mg",
+    "sugarContent": "3 g",
+    "fatContent": "39 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "14a9821b-6966-5d2b-a09e-837355f37cb5",
+      "name": "bacon",
+      "normalized_name": "bacon",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "cut into 1/2 inch pieces",
+      "position": 1
+    },
+    {
+      "ingredient_id": "8b7b3a6e-287c-55c7-8125-dff1f52dade9",
+      "name": "medium unpeeled potatoes",
+      "normalized_name": "medium unpeeled potatoes",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "ecde05ed-e241-5cb3-8c44-369b5850b9d6",
+      "name": "medium carrots",
+      "normalized_name": "medium carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "35cb454e-096c-5dc6-b303-da51950c6fc7",
+      "name": "ounce) cans chopped clams",
+      "normalized_name": "ounce cans chopped clams",
+      "quantity": "2 (6.5",
+      "unit": "pieces",
+      "preparation": "drained with juice reserved",
+      "position": 5
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "or as needed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "b48f74da-2d75-577d-bdb3-aa7b465997bb",
+      "name": "ounce) packages dry leek soup mix",
+      "normalized_name": "ounce packages dry leek soup mix",
+      "quantity": "2 (1.8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "b6d75f2b-9d7a-539d-b268-14b45e448ca5",
+      "name": "quart half-and-half",
+      "normalized_name": "quart half-and-half",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "599c08f1-1b66-53c3-b440-c812bb4a8d01",
+      "slug": "chowders",
+      "name": "Chowders"
+    },
+    {
+      "id": "8e8b45ad-d8f1-5366-874f-cf0e27e6ec64",
+      "slug": "clam-chowder",
+      "name": "Clam Chowder"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fc108041-1800-5e02-a3f6-69fc396c6112",
+      "slug": "clam-chowder-recipes",
+      "name": "Clam Chowder Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d96158-47ca-5157-b783-f6e67e23a2cd",
+      "slug": "clams",
+      "name": "Clams",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/53887/cindys-awesome-clam-chowder"
+  },
+  "public": true,
+  "updated_at": 1732600043,
+  "revision": 1
+}

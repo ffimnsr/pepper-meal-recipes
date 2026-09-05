@@ -1,0 +1,211 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "738e641f-ac33-5f86-9744-a37a7baee655",
+  "slug": "yorkshire-pudding",
+  "name": "Yorkshire Pudding",
+  "recipe_type": "side",
+  "brief_description": "This classic Yorkshire pudding made with flour, milk, and eggs bakes up light, crispy, and golden brown\u2014a perfect side with roast beef and gravy.",
+  "cuisine": "English",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "To make the batter: Whisk flour and salt together in a large bowl; make a well in the center. Gradually whisk in milk until smooth. Beat in eggs, then whisk in water until light and frothy. Cover and let stand at room temperature for 1 hour, or refrigerate overnight."
+    },
+    {
+      "position": 2,
+      "text": "Cover and let stand at room temperature for 1 hour, or refrigerate overnight. Preheat the oven to 400 degrees F (205 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Place 1 teaspoon beef drippings into each cup of a 12-cup muffin tin. Set the pan in the oven until the fat is very hot and sizzling, about 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Carefully remove the muffin tin from the oven. Whisk the batter briefly, then pour it evenly into the hot cups, filling each about two-thirds full."
+    },
+    {
+      "position": 5,
+      "text": "Bake until puffed and deep golden brown, 20 to 25 minutes. Do not open the oven door during baking. Serve immediately."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/738e641f-ac33-5f86-9744-a37a7baee655/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "157 kcal",
+    "carbohydrateContent": "19 g",
+    "cholesterolContent": "89 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "12 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "261 mg",
+    "sugarContent": "1 g",
+    "fatContent": "3 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": "room temperature",
+      "position": 3
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "room temperature",
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "c22c70d8-7e67-50bb-83d7-e5c113a64e3b",
+      "name": "beef drippings",
+      "normalized_name": "beef drippings",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "2d9b3bd8-e954-5f6d-a685-8b18a0337d64",
+      "slug": "bread",
+      "name": "Bread"
+    },
+    {
+      "id": "0a1b1c1d-0ee6-5c98-864b-4714678a19fc",
+      "slug": "quick-bread",
+      "name": "Quick Bread"
+    },
+    {
+      "id": "f2f043e8-b0db-5ca3-bfe2-2cfb962e5219",
+      "slug": "popovers-and-yorkshire-pudding",
+      "name": "Popovers and Yorkshire Pudding"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "16c758ed-3bd5-531b-8189-ebec0b592eab",
+      "slug": "popovers-and-yorkshire-pudding-recipes",
+      "name": "Popovers and Yorkshire Pudding Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "dacb33cb-ab86-5959-b42c-133c04de7ccf",
+      "slug": "christmas-bread",
+      "name": "Christmas Bread",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    },
+    {
+      "id": "c52c9397-422c-53d9-9524-2a65864b5dbc",
+      "slug": "european",
+      "name": "European",
+      "color": null
+    },
+    {
+      "id": "592dd48f-7adf-5397-9efe-71270741183a",
+      "slug": "quick-bread-recipes",
+      "name": "Quick Bread Recipes",
+      "color": null
+    },
+    {
+      "id": "6206ee95-2703-5f3e-8408-f3e55059c31b",
+      "slug": "holiday-bread-recipes",
+      "name": "Holiday Bread Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9239/yorkshire-pudding"
+  },
+  "public": true,
+  "updated_at": 1764018362,
+  "revision": 1
+}

@@ -1,0 +1,270 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "67ab7de7-8942-5fd2-aa29-40b0f41ee219",
+  "slug": "country-sausage-gravy",
+  "name": "Country Sausage Gravy",
+  "recipe_type": "breakfast",
+  "brief_description": "Thick and creamy pork sausage gravy with fresh sage, thyme and red pepper flakes for a little kick.",
+  "cuisine": "Southern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "In a skillet on medium heat cook pork, onion, green pepper, red pepper flakes, and garlic until pork is crumbly. Drain off excess fat, but leave a small amount."
+    },
+    {
+      "position": 2,
+      "text": "Combine butter, salt, and pepper with the meat mixture and stir until butter melts. Slowly sift flour over the top. Mix gently and allow mixture to cook for 5 minutes. It will burn, so do not let it sit unguarded. Don't forget to scrape the bottom of the pan. Add the sage and thyme."
+    },
+    {
+      "position": 3,
+      "text": "Slowly stir in milk, about a half a cup at a time, and incorporate it well. When the mixture thickens, add more milk. Do not let it boil vigorously, or it will burn. Add chicken bullion and let cook for five minutes. Again, if it thickens too much, add more milk. Adjust taste with more salt and pepper if needed."
+    },
+    {
+      "position": 4,
+      "text": "Just before serving, add the parsley, and about a 1/4 cup more milk; the gravy will thicken quickly as it cools."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/67ab7de7-8942-5fd2-aa29-40b0f41ee219/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "700 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "118 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "20 g",
+    "saturatedFatContent": "25 g",
+    "sodiumContent": "1389 mg",
+    "sugarContent": "8 g",
+    "fatContent": "60 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4fa67872-3880-55aa-80cc-1e4666084c6d",
+      "name": "pork sausage",
+      "normalized_name": "pork sausage",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "94bdcc3a-5d7d-51b3-871c-a7a42ad5ae1e",
+      "name": "green bell pepper",
+      "normalized_name": "green bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "finely chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "07650efc-8869-5114-9096-0912b3dbf48e",
+      "name": "crushed red pepper flakes",
+      "normalized_name": "crushed red pepper flakes",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "a81d9d9c-3348-54c6-9391-c85220b1a2fe",
+      "name": "minced fresh sage",
+      "normalized_name": "minced fresh sage",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "bd6cd5d3-2947-5ae8-90e9-e3a4d8ae9b4b",
+      "name": "minced fresh thyme",
+      "normalized_name": "minced fresh thyme",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 11
+    },
+    {
+      "ingredient_id": "3ce4bb58-0809-5770-b087-cde27facb41c",
+      "name": "cubes chicken bouillon",
+      "normalized_name": "cubes chicken bouillon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "61c5ccdd-bbb0-53d0-bf2e-23f669bfc9ea",
+      "name": "minced fresh parsley",
+      "normalized_name": "minced fresh parsley",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "cd2d0efe-8100-5bd7-8461-98bdfa7de770",
+      "slug": "sauces-and-condiments",
+      "name": "Sauces and Condiments"
+    },
+    {
+      "id": "18b28cb8-4cd8-5232-b635-1f1ecee9d5ee",
+      "slug": "gravy",
+      "name": "Gravy"
+    },
+    {
+      "id": "80420a63-67ea-5c8a-a180-2c09f2ba0db0",
+      "slug": "pork-gravy",
+      "name": "Pork Gravy"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "7d1ec577-0d6b-5234-91c9-02d17f6ff77d",
+      "slug": "sauces",
+      "name": "Sauces",
+      "color": null
+    },
+    {
+      "id": "b563874f-11e6-5d61-a701-2bd3f87e15b1",
+      "slug": "gravy-recipes",
+      "name": "Gravy Recipes",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "243b0b54-aa9c-5b58-8b36-d4a730f1e17d",
+      "slug": "southern",
+      "name": "Southern",
+      "color": null
+    },
+    {
+      "id": "1495c042-cb7a-5119-a28e-74db7b2e1a09",
+      "slug": "cast-iron-skillet",
+      "name": "Cast Iron Skillet",
+      "color": null
+    },
+    {
+      "id": "1e83fd8f-f8d5-5dd8-98fc-88de342429d2",
+      "slug": "cooking-by-equipment",
+      "name": "Cooking by Equipment",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/21513/country-sausage-gravy"
+  },
+  "public": true,
+  "updated_at": 1734648175,
+  "revision": 1
+}

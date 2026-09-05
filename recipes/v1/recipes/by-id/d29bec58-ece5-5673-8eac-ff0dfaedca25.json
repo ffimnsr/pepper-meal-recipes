@@ -1,0 +1,246 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d29bec58-ece5-5673-8eac-ff0dfaedca25",
+  "slug": "asian-potato-salad",
+  "name": "Asian Potato Salad",
+  "recipe_type": "salad",
+  "brief_description": "This Asian potato salad with bacon, bok choy, cilantro, and a soy-sesame based dressing is a nice change from basic, boring potato salad.",
+  "cuisine": "Asian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook bacon in a large skillet over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain on paper towels and crumble when cool enough to handle."
+    },
+    {
+      "position": 2,
+      "text": "While the bacon is cooking, bring a large pot of salted water to a boil. Add potatoes and cook until tender but still firm, about 15 minutes. Drain and let cool for 15 minutes. Chop into bite-sized chunks."
+    },
+    {
+      "position": 3,
+      "text": "Mix mayonnaise, soy sauce, sugar, sesame oil, mustard powder, and salt together in a bowl until well combined."
+    },
+    {
+      "position": 4,
+      "text": "Combine potatoes, bacon, bok choy, bell pepper, green onion, and cilantro in a large bowl. Pour dressing over top and mix until well combined. Refrigerate until flavors have blended, at least 1 hour."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d29bec58-ece5-5673-8eac-ff0dfaedca25/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "281 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "13 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "320 mg",
+    "sugarContent": "1 g",
+    "fatContent": "21 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "181f7101-d061-5aeb-9651-fcc21823d4c8",
+      "name": "slices bacon",
+      "normalized_name": "slices bacon",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "758244b5-3233-5133-aa63-7600b2bc3af9",
+      "name": "medium red new potatoes",
+      "normalized_name": "medium red new potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "1.3333333730698",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "ea00f25b-f666-5393-94fb-f46d1466a4de",
+      "name": "sesame oil",
+      "normalized_name": "sesame oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "708cd2f0-3c64-5025-9b99-804908833bbc",
+      "name": "dry hot mustard",
+      "normalized_name": "dry hot mustard",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.125",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "e4da7d29-cb6f-5543-8985-de5e2f973e32",
+      "name": "chopped bok choy",
+      "normalized_name": "chopped bok choy",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "01cf02d4-cfca-5185-8121-459f3d4b7415",
+      "name": "medium red bell pepper",
+      "normalized_name": "medium red bell pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and diced",
+      "position": 10
+    },
+    {
+      "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
+      "name": "chopped green onion",
+      "normalized_name": "chopped green onion",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "cc141bd5-1abc-5463-acbb-253ce1010372",
+      "slug": "dairy-free-potato-salad-recipes",
+      "name": "Dairy-Free Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "10c08589-6d06-5624-979f-035d5f98affd",
+      "slug": "red-potatoes",
+      "name": "Red Potatoes",
+      "color": null
+    },
+    {
+      "id": "129449da-b9e2-520f-bbe5-f1b5328c5adf",
+      "slug": "sesame-oil-recipes",
+      "name": "Sesame Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "36f0ba83-6cf7-5b3c-9c04-ccc142dd82bc",
+      "slug": "potato-salad-recipes",
+      "name": "Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "b5390cb2-bdd1-596a-9bda-1f5659dabbbe",
+      "slug": "vegetable-salad-recipes",
+      "name": "Vegetable Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "a3afcd21-6836-569c-90f5-bf9d28e29e52",
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "color": null
+    },
+    {
+      "id": "08fb80b7-e7b5-5e1a-a22f-17f2941dd920",
+      "slug": "creamy-potato-salad-recipes",
+      "name": "Creamy Potato Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/84408/asian-potato-salad"
+  },
+  "public": true,
+  "updated_at": 1670250253,
+  "revision": 1
+}

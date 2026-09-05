@@ -1,0 +1,200 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d31adb6f-adce-53ff-aacc-2285960252c4",
+  "slug": "turkey-breakfast-sausage",
+  "name": "Turkey Breakfast Sausage",
+  "recipe_type": "breakfast",
+  "brief_description": "This turkey breakfast sausage is made from scratch with ground turkey, brown sugar, sage, thyme, marjoram, and red pepper flakes for a breakfast side.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Mix together turkey, brown sugar, salt, black pepper, sage, thyme, marjoram, and red pepper flakes in a bowl until well combined. Shape turkey mixture into patties."
+    },
+    {
+      "position": 2,
+      "text": "Working in batches, fry patties in a large skillet over medium-high heat until golden brown and no longer pink in the center, 6 to 8 minutes. An instant-read thermometer inserted into the center should read at least 165 degrees F (74 degrees C)."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d31adb6f-adce-53ff-aacc-2285960252c4/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "176 kcal",
+    "carbohydrateContent": "2 g",
+    "cholesterolContent": "84 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "23 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "545 mg",
+    "sugarContent": "2 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "2ab27880-5f02-56cd-a31a-aab351e1ec65",
+      "name": "ground turkey",
+      "normalized_name": "ground turkey",
+      "quantity": "2",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "207da207-7554-5b16-a44c-8e024e2d40d0",
+      "name": "kosher salt",
+      "normalized_name": "kosher salt",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "6c162f37-186c-5862-a005-33a4e342f180",
+      "name": "ground sage",
+      "normalized_name": "ground sage",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "591e6c25-bed6-5fe3-ab41-ecd18f19173c",
+      "name": "ground thyme",
+      "normalized_name": "ground thyme",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "81b7e63d-4dd5-593a-b159-45272d9a1999",
+      "name": "dried marjoram",
+      "normalized_name": "dried marjoram",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "a454910f-9d7a-5839-93b3-26fcfcacabcd",
+      "slug": "meat-and-seafood",
+      "name": "Meat and Seafood"
+    },
+    {
+      "id": "a8e55915-5f7b-5584-88c4-e5767a47c87f",
+      "slug": "sausage",
+      "name": "Sausage"
+    }
+  ],
+  "tags": [
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "b10fe649-df27-5bea-82f3-ae81815a8a15",
+      "slug": "turkey",
+      "name": "Turkey",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "1c0f0909-4a9e-5fac-beca-768e37b7c623",
+      "slug": "diy",
+      "name": "DIY",
+      "color": null
+    },
+    {
+      "id": "894021ad-77a5-5c1c-beff-84bca48e813d",
+      "slug": "homemade",
+      "name": "Homemade",
+      "color": null
+    },
+    {
+      "id": "6597f7ea-1b1e-5703-835c-dc0383f20cc0",
+      "slug": "meat-and-seafood",
+      "name": "Meat and Seafood",
+      "color": null
+    },
+    {
+      "id": "79e2c749-39d4-593a-a697-3cd6d97d00e6",
+      "slug": "ground-turkey-recipes",
+      "name": "Ground Turkey Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229989/turkey-breakfast-sausage"
+  },
+  "public": true,
+  "updated_at": 1764788846,
+  "revision": 1
+}

@@ -1,0 +1,220 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "15fca364-550f-586d-8b57-a8855872117a",
+  "slug": "nacho-pizza",
+  "name": "Nacho Pizza",
+  "recipe_type": "appetizer",
+  "brief_description": "This nacho pizza is exactly what it sounds like - all the toppings you'd get on a plate of nachos on a thin pizza crust! Add your own favorites to customize the recipe.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 450 degrees F (230 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Cook beef in a large skillet under no longer pink, about 5 minutes. Drain. Stir in seasoning mix until evenly combined."
+    },
+    {
+      "position": 3,
+      "text": "Place pizza crust on a work surface. Spread queso dip evenly over the crust. Top with Cheddar cheese, cooked beef mixture, jalapeno, and green onions. Spoon salsa onto the pizza in random spots, making sure it's not mixed in with the other toppings. Sprinkle crushed tortilla chips on top."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven directly on the middle oven rack until cheese is hot and melted, about 8 minutes. Serve with sour cream."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/15fca364-550f-586d-8b57-a8855872117a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "747 kcal",
+    "carbohydrateContent": "62 g",
+    "cholesterolContent": "121 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "43 g",
+    "saturatedFatContent": "17 g",
+    "sodiumContent": "1751 mg",
+    "sugarContent": "5 g",
+    "fatContent": "36 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "76c7d107-3ca4-5b78-bcd7-963cfb950cb5",
+      "name": "ounce) package taco seasoning mix",
+      "normalized_name": "ounce package taco seasoning mix",
+      "quantity": "1 (1.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "afdadeef-1679-50e9-94b0-2b83ce14d15c",
+      "name": "inch) parbaked thin pizza crust",
+      "normalized_name": "inch parbaked thin pizza crust",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "73471ec0-2327-5605-a197-390cfe5e269d",
+      "name": "queso dip",
+      "normalized_name": "queso dip",
+      "quantity": "5",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "e017e22e-db4b-5af2-871d-737d6fe407c3",
+      "name": "shredded aged cheddar cheese",
+      "normalized_name": "shredded aged cheddar cheese",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a4182eae-598b-5104-9ee4-e5ab15d9725f",
+      "name": "jalapeno pepper",
+      "normalized_name": "jalapeno pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "diced",
+      "position": 7
+    },
+    {
+      "ingredient_id": "2d1e1921-3e9f-5c4b-b821-833e5c6e4130",
+      "name": "salsa",
+      "normalized_name": "salsa",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "d1b51816-16ad-51f6-a09c-1fa263a7c102",
+      "name": "crushed tortilla chips",
+      "normalized_name": "crushed tortilla chips",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "f673a69e-2a69-53a3-8baa-b2314639be89",
+      "slug": "cheese",
+      "name": "Cheese"
+    },
+    {
+      "id": "cf540d83-c29c-5df1-a2d1-13dae174c4bf",
+      "slug": "nachos",
+      "name": "Nachos"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    },
+    {
+      "id": "c88e879c-5c3e-531a-97fc-d72022e4e131",
+      "slug": "pizza-recipes",
+      "name": "Pizza Recipes",
+      "color": null
+    },
+    {
+      "id": "106ae9fe-29d5-5a11-9ad4-a04f54d1ad7d",
+      "slug": "tea-cakes-and-biscuits-recipes",
+      "name": "Tea Cakes and Biscuits Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/263423/nacho-pizza"
+  },
+  "public": true,
+  "updated_at": 1642141463,
+  "revision": 1
+}

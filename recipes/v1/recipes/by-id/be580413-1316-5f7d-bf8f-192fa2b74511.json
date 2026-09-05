@@ -1,0 +1,240 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "be580413-1316-5f7d-bf8f-192fa2b74511",
+  "slug": "grandmas-chicken-soup",
+  "name": "Grandma's Chicken Soup",
+  "recipe_type": "soup",
+  "brief_description": "Grandma's chicken soup is the ultimate comfort food and the only remedy for whatever ails you! Packed with root vegetables, this soup cures everything!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Clean chicken, remove and discard some, but not all, fat. Place in a large saucepan with carrots, celery, tomatoes, and onion."
+    },
+    {
+      "position": 2,
+      "text": "Tie dill sprigs into a bunch with kitchen twine. Add to the saucepan, and season with salt and pepper. Add water until chicken is covered by 2 inches."
+    },
+    {
+      "position": 3,
+      "text": "Cook over medium-low heat until chicken is cooked through, about 3 hours. Remove chicken to a plate and allow to cool, 15 to 20 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Remove meat from bones, cut into bite-size pieces, and return to the saucepan. Discard bones. Cook over medium-low heat until heated through, about 30 minutes longer. Remove dill before serving."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 210,
+  "preparation_time_minutes": 35,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/be580413-1316-5f7d-bf8f-192fa2b74511/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "630 kcal",
+    "carbohydrateContent": "11 g",
+    "cholesterolContent": "101 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "15 g",
+    "sodiumContent": "908 mg",
+    "sugarContent": "5 g",
+    "fatContent": "53 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "1e18b323-d725-544b-928b-867840edd607",
+      "name": "pound) whole chicken",
+      "normalized_name": "pound whole chicken",
+      "quantity": "1 (5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "peeled and sliced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "39941236-c351-5004-8091-b254457be6ee",
+      "name": "celery",
+      "normalized_name": "celery",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded and chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "98936d26-d6de-5584-a47d-6c4c1b31d18e",
+      "name": "bunch fresh dill",
+      "normalized_name": "bunch fresh dill",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "207da207-7554-5b16-a44c-8e024e2d40d0",
+      "name": "kosher salt",
+      "normalized_name": "kosher salt",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "47cd1ee7-a2f0-5d6a-8c60-5c9eb5f2ceff",
+      "name": "warm water as needed",
+      "normalized_name": "warm water as needed",
+      "quantity": "10",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "838adc3f-7dc2-5531-95d4-a7df106e7d30",
+      "slug": "chicken-soup",
+      "name": "Chicken Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "bdb4cfda-1428-5801-84c4-5887550cdc3a",
+      "slug": "chicken-soup-recipes",
+      "name": "Chicken Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "da2afec2-0500-5744-af54-39ccca7a28a0",
+      "slug": "lunch",
+      "name": "Lunch",
+      "color": null
+    },
+    {
+      "id": "a2809c05-439c-5d16-8b7a-6452abdc4e0f",
+      "slug": "onions",
+      "name": "Onions",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "3ab323c7-4fea-54bc-856d-2321d61e87a8",
+      "slug": "whole-chicken-recipes",
+      "name": "Whole Chicken Recipes",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "f204ad59-07f2-573c-992f-dbc6e82b8552",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/276320/grandmas-chicken-soup"
+  },
+  "public": true,
+  "updated_at": 1757926550,
+  "revision": 1
+}

@@ -1,0 +1,289 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "2f31fa0c-b58f-584d-b1bf-c459320a47bd",
+  "slug": "fruitcake",
+  "name": "Fruitcake",
+  "recipe_type": "dessert",
+  "brief_description": "This moist, rich fruitcake with nuts, dried fruit, and the perfect blend of warm spices makes a classic holiday cake that keeps beautifully.",
+  "cuisine": "British",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 275 degrees F (135 degrees C). Grease and flour a 9-inch tube pan."
+    },
+    {
+      "position": 2,
+      "text": "Whisk flour, baking soda, cinnamon, nutmeg, allspice, and cloves together in a large bowl."
+    },
+    {
+      "position": 3,
+      "text": "Beat sugar, eggs, lemon zest, vanilla, brandy, and melted butter together in a separate bowl until well blended."
+    },
+    {
+      "position": 4,
+      "text": "Stir butter mixture into flour mixture until combined, then fold in dried fruit, raisins, and nuts."
+    },
+    {
+      "position": 5,
+      "text": "Transfer cake batter into prepared pan."
+    },
+    {
+      "position": 6,
+      "text": "Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 1 hour 45 minutes to 2 hours."
+    },
+    {
+      "position": 7,
+      "text": "Cool in the pan for 15 minutes, then transfer to a wire rack to cool completely."
+    }
+  ],
+  "servings": 16,
+  "cooking_time_minutes": 105,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/2f31fa0c-b58f-584d-b1bf-c459320a47bd/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "500 kcal",
+    "carbohydrateContent": "59 g",
+    "cholesterolContent": "92 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "437 mg",
+    "sugarContent": "33 g",
+    "fatContent": "26 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "5a9cd2b5-fa45-5270-98c9-55a29531cc03",
+      "name": "baking soda",
+      "normalized_name": "baking soda",
+      "quantity": "1",
+      "unit": "tablespoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "d4e4490c-7688-5371-b51b-8e512749645a",
+      "name": "ground allspice",
+      "normalized_name": "ground allspice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "3a08fd59-870f-5cb5-97dc-304b1ce57e08",
+      "name": "ground cloves",
+      "normalized_name": "ground cloves",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "4318d726-c4c1-57d3-ad3e-5e83a3428d49",
+      "name": "packed brown sugar",
+      "normalized_name": "packed brown sugar",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": "melted",
+      "position": 8
+    },
+    {
+      "ingredient_id": "2511e36e-545d-5b30-97d7-e2df8acae4d4",
+      "name": "brandy",
+      "normalized_name": "brandy",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "fb9c0f88-3356-5b13-a1f9-18ccb59208ed",
+      "name": "lemon zest",
+      "normalized_name": "lemon zest",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "919ee8c0-02db-5f41-908d-ed4aefee84c2",
+      "name": "vanilla extract",
+      "normalized_name": "vanilla extract",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "4000e03b-8d6f-533d-be42-2ce716e1a297",
+      "name": "dried mixed fruit",
+      "normalized_name": "dried mixed fruit",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "a0f17d09-d637-50b5-b4ff-d4c19e25ec2e",
+      "name": "raisins",
+      "normalized_name": "raisins",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "0fb4b292-0585-5394-a61c-c40969652463",
+      "name": "chopped nuts",
+      "normalized_name": "chopped nuts",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "81708a5d-e773-5988-ba66-5162bf91ff8c",
+      "slug": "cake",
+      "name": "Cake"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "8e6135f2-70c2-504e-b820-739c60d8d719",
+      "slug": "cakes",
+      "name": "Cakes"
+    },
+    {
+      "id": "ebb7f1bd-7b87-5c01-9821-eb6a70d639eb",
+      "slug": "fruitcake",
+      "name": "Fruitcake"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "1d3071fb-3b3d-56b9-a1e3-0e4530e4a84d",
+      "slug": "fruitcake-recipes",
+      "name": "Fruitcake Recipes",
+      "color": null
+    },
+    {
+      "id": "34bf7800-d2b3-5b63-b9aa-c05fe290751a",
+      "slug": "christmas",
+      "name": "Christmas",
+      "color": null
+    },
+    {
+      "id": "2624b2ea-2212-589e-996c-65db8e6fc023",
+      "slug": "cakes",
+      "name": "Cakes",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "4057571b-d882-58ae-b897-25d0087f14d8",
+      "slug": "holiday-cake-recipes",
+      "name": "Holiday Cake Recipes",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    },
+    {
+      "id": "27ee5e3b-73aa-5761-a466-7cb02e34ef1a",
+      "slug": "brandy",
+      "name": "Brandy",
+      "color": null
+    },
+    {
+      "id": "6b4703a8-373b-5c6c-af13-364d5c2bb1e5",
+      "slug": "allspice-recipes",
+      "name": "Allspice Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/9273/fruitcake"
+  },
+  "public": true,
+  "updated_at": 1767737600,
+  "revision": 1
+}

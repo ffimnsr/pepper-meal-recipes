@@ -1,0 +1,175 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a31540cc-6aac-5060-a917-726011ab9ac8",
+  "slug": "elvis-sandwich",
+  "name": "Elvis Sandwich",
+  "recipe_type": null,
+  "brief_description": "This sandwich may sound unappealing, but it's actually very tasty, especially on cold winter days! Legend has it that this was a favorite of The King.",
+  "cuisine": "U.S. American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Spread the peanut butter on one side of one slice of bread. Top with sliced banana, then slices of cooked bacon. Cover with the other slice of bread. Spread butter on the outside of the sandwich."
+    },
+    {
+      "position": 2,
+      "text": "Heat a skillet over medium heat. Fry the sandwich on each side until golden brown and peanut butter is melted, about 4 minutes total."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a31540cc-6aac-5060-a917-726011ab9ac8/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "579 kcal",
+    "carbohydrateContent": "62 g",
+    "cholesterolContent": "16 mg",
+    "fiberContent": "7 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "609 mg",
+    "sugarContent": "21 g",
+    "fatContent": "33 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "6290592f-3815-50ca-91ed-8c33823c514e",
+      "name": "peanut butter",
+      "normalized_name": "peanut butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0121a323-7fec-57c6-a721-27c8b9618c6f",
+      "name": "slices white bread",
+      "normalized_name": "slices white bread",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c446542-b2a3-52f7-8849-2dc2bd3950ec",
+      "name": "banana",
+      "normalized_name": "banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and sliced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "32bbaa42-faf2-52ec-94d6-4bca7ab4db3d",
+      "name": "slices cooked bacon",
+      "normalized_name": "slices cooked bacon",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    }
+  ],
+  "tags": [
+    {
+      "id": "d032c94c-674c-50a3-b766-4f0faae30f7a",
+      "slug": "sandwich-recipes",
+      "name": "Sandwich Recipes",
+      "color": null
+    },
+    {
+      "id": "d6d50787-a8f4-51f2-a94a-2d78cce6477b",
+      "slug": "pork",
+      "name": "Pork",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "075a12dd-79f9-59ae-bcae-a618726d0d31",
+      "slug": "carnivals-and-fairs",
+      "name": "Carnivals and Fairs",
+      "color": null
+    },
+    {
+      "id": "6c4aae87-ec66-553b-acff-575fc3e69a90",
+      "slug": "bacon-sandwich-recipes",
+      "name": "Bacon Sandwich Recipes",
+      "color": null
+    },
+    {
+      "id": "e3406d3f-aee1-592b-9345-3522c8c5257c",
+      "slug": "elvis",
+      "name": "Elvis",
+      "color": null
+    },
+    {
+      "id": "a00e8f38-1976-5fcc-afc1-90bb835175c0",
+      "slug": "holiday-planning",
+      "name": "Holiday Planning",
+      "color": null
+    },
+    {
+      "id": "58f836b1-d1a3-5e0e-b2ff-a9a45fe2c4c4",
+      "slug": "u-s-recipes",
+      "name": "U.S. Recipes",
+      "color": null
+    },
+    {
+      "id": "e1bc8638-843f-5ab3-bcec-0edffd0ddef6",
+      "slug": "u-s-recipes-by-state",
+      "name": "U.S. Recipes by State",
+      "color": null
+    },
+    {
+      "id": "0ba2af1c-0d9a-59bf-9a68-1207154fd23e",
+      "slug": "peanut-butter-recipes",
+      "name": "Peanut Butter Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/138045/elvis-sandwich"
+  },
+  "public": true,
+  "updated_at": 1777047535,
+  "revision": 1
+}

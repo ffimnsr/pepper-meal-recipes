@@ -1,0 +1,233 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d9dd1e53-3304-5894-9f16-7b8fb1657267",
+  "slug": "koulas-best-ever-chicken-gyros",
+  "name": "Best Ever Chicken Gyros",
+  "recipe_type": "main",
+  "brief_description": "Easy chicken gyros made under the broiler with a tangy marinade\u2014this quick, flavorful recipe is perfect for weeknight dinners and served in warm pita with yogurt.",
+  "cuisine": "Middle Eastern",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Arrange chicken strips side by side in a broiling pan. Stir ketchup, olive oil, white wine vinegar, oregano, mustard powder, and curry powder together in a small bowl. Pour over chicken; let marinate while preheating the broiler."
+    },
+    {
+      "position": 2,
+      "text": "Broil uncovered with the meat about 6 inches from the heat source until chicken is cooked through and reaches 165 degrees F (74 degrees C), about 15 minutes. Avoid overcooking, as the chicken can become stringy and dry."
+    },
+    {
+      "position": 3,
+      "text": "Place hot chicken into pita pockets and spoon some of the juices from the pan over it. Top with salad greens and plain yogurt."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d9dd1e53-3304-5894-9f16-7b8fb1657267/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "381 kcal",
+    "carbohydrateContent": "41 g",
+    "cholesterolContent": "54 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "28 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "500 mg",
+    "sugarContent": "7 g",
+    "fatContent": "11 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves - cut into 1/2 inch strips",
+      "position": 1
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "54ab7daa-52f3-5fe6-8ea9-272aa4955243",
+      "name": "white wine vinegar",
+      "normalized_name": "white wine vinegar",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "02ea9229-cbc3-5244-96be-3939952d67d4",
+      "name": "mustard powder",
+      "normalized_name": "mustard powder",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "ea55ebcd-d2da-5f89-b8e9-ed703e3ce784",
+      "name": "curry powder",
+      "normalized_name": "curry powder",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": "or to taste",
+      "position": 7
+    },
+    {
+      "ingredient_id": "ac2f4b2b-f3e6-5b3c-aa48-5a0a48f32a10",
+      "name": "pita breads",
+      "normalized_name": "pita breads",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "cut in half",
+      "position": 8
+    },
+    {
+      "ingredient_id": "155d4a64-9e4b-543d-87da-47605aa34127",
+      "name": "mixed salad greens",
+      "normalized_name": "mixed salad greens",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "db76615d-4814-5688-8d5f-70dd1c04090a",
+      "name": "plain yogurt",
+      "normalized_name": "plain yogurt",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "da4ce934-2aad-5dde-8a03-197c36b3da3d",
+      "slug": "sandwich",
+      "name": "Sandwich"
+    },
+    {
+      "id": "cbb179ef-e514-5664-b678-b80650f11d01",
+      "slug": "gyro",
+      "name": "Gyro"
+    }
+  ],
+  "tags": [
+    {
+      "id": "577e818f-81f4-5f1a-90cb-b41cf9cc12b6",
+      "slug": "gyro-recipes",
+      "name": "Gyro Recipes",
+      "color": null
+    },
+    {
+      "id": "c52ec96c-f1b1-58a9-a4bb-2cf6503d8371",
+      "slug": "healthy-chicken",
+      "name": "Healthy Chicken",
+      "color": null
+    },
+    {
+      "id": "a4e6611a-eaf0-564b-a832-fc9eb0cd1b1a",
+      "slug": "lunches",
+      "name": "Lunches",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "1d1a6231-2672-5763-9636-40bbd71eefab",
+      "slug": "low-glycemic-impact",
+      "name": "Low Glycemic Impact",
+      "color": null
+    },
+    {
+      "id": "2f1b81f7-3faa-5d27-8979-bdfb370bb9de",
+      "slug": "super-foods",
+      "name": "Super Foods",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/60314/koulas-best-ever-chicken-gyros"
+  },
+  "public": true,
+  "updated_at": 1773944067,
+  "revision": 1
+}

@@ -1,0 +1,286 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "ecc671cb-1bf9-5210-9c0d-85898018493f",
+  "slug": "chirashi-bowl",
+  "name": "Chirashi Bowl",
+  "recipe_type": "main",
+  "brief_description": "Instead of spending time making sushi rolls, you can take the chirashi route and serve all the rice, seafood, and garnishes in one big bowl!",
+  "cuisine": "Asian Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine rice, water, and salt in a pot. Bring to a low boil. Reduce heat to very low, cover, and cook for 15 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Meanwhile, mix rice vinegar and sugar together until sugar is dissolved."
+    },
+    {
+      "position": 3,
+      "text": "Heat a skillet over medium heat. Pour in eggs and cook until set, about 5 minutes. Let cool briefly before dicing. Cook carrot in the same skillet over low heat until softened slightly, about 5 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Remove rice from heat and let stand for at least 5 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Transfer rice to a large bowl. Add vinegar-sugar mixture while using a fan or hair dryer to blow air over the rice. Mix, without crushing the rice grains, until all of the vinegar is absorbed and rice is sticky and shiny, 3 to 5 minutes."
+    },
+    {
+      "position": 6,
+      "text": "Arrange tuna, salmon, and shrimp over rice. Garnish with egg, carrot, cucumber, avocado, mushrooms, green onions, and pickled ginger."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/ecc671cb-1bf9-5210-9c0d-85898018493f/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "425 kcal",
+    "carbohydrateContent": "54 g",
+    "cholesterolContent": "209 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "31 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "534 mg",
+    "sugarContent": "9 g",
+    "fatContent": "9 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "3",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0cbf1870-9f45-5c0d-a205-e47fd03e1658",
+      "name": "sushi rice",
+      "normalized_name": "sushi rice",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b6082c42-4b72-50e0-87c8-bb10d64bdbb1",
+      "name": "rice vinegar",
+      "normalized_name": "rice vinegar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "39ba7c68-04ed-5bfd-9dca-c45ffe284f0c",
+      "name": "large eggs",
+      "normalized_name": "large eggs",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "beaten",
+      "position": 6
+    },
+    {
+      "ingredient_id": "0c5df5e1-1a5f-5992-b9c9-d8669366636d",
+      "name": "carrot",
+      "normalized_name": "carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 1/4-inch pieces",
+      "position": 7
+    },
+    {
+      "ingredient_id": "270d8cdf-88e5-5644-b559-b130573ea836",
+      "name": "sushi-grade ahi tuna",
+      "normalized_name": "sushi-grade ahi tuna",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "sliced",
+      "position": 8
+    },
+    {
+      "ingredient_id": "4665dccb-f1ac-5ad2-9375-7dda9af90fe4",
+      "name": "sushi-grade salmon",
+      "normalized_name": "sushi-grade salmon",
+      "quantity": "0.5",
+      "unit": "pound",
+      "preparation": "sliced",
+      "position": 9
+    },
+    {
+      "ingredient_id": "9ee1414a-518f-5a6e-931e-49c07a09e77f",
+      "name": "cooked shrimp",
+      "normalized_name": "cooked shrimp",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "561396cb-0117-554f-a8e1-5b033ed9061b",
+      "name": "medium cucumber",
+      "normalized_name": "medium cucumber",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cut into 1/4-inch pieces",
+      "position": 11
+    },
+    {
+      "ingredient_id": "a8da5e1f-7b18-55b3-81fc-99e0bba480ca",
+      "name": "avocado",
+      "normalized_name": "avocado",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 12
+    },
+    {
+      "ingredient_id": "3ed51bea-4fc6-5151-b12c-514d192af0d7",
+      "name": "diced mushrooms",
+      "normalized_name": "diced mushrooms",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "d6672984-293d-5341-a773-3613abe74951",
+      "name": "bunch green onions",
+      "normalized_name": "bunch green onions",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "diced",
+      "position": 14
+    },
+    {
+      "ingredient_id": "5c364c20-8599-5212-8077-0d244bcd8055",
+      "name": "diced pickled ginger",
+      "normalized_name": "diced pickled ginger",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "24d7f763-3ad1-5927-8708-c9c41199a17c",
+      "slug": "rice-bowl",
+      "name": "Rice Bowl",
+      "color": null
+    },
+    {
+      "id": "47524e31-2c45-5536-8117-12421e363449",
+      "slug": "salmon",
+      "name": "Salmon",
+      "color": null
+    },
+    {
+      "id": "68816337-92bb-5b32-b7b5-d47b4d3c179c",
+      "slug": "rice",
+      "name": "Rice",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "8a4a2232-747a-5c6c-a028-08d30ae6fbfa",
+      "slug": "shellfish",
+      "name": "Shellfish",
+      "color": null
+    },
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    },
+    {
+      "id": "f3a06a5e-eb68-58cb-91b0-8787d6f2babc",
+      "slug": "tuna",
+      "name": "Tuna",
+      "color": null
+    },
+    {
+      "id": "47dbbc95-2797-57bb-8d05-99c3cb21d344",
+      "slug": "fish",
+      "name": "Fish",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/271060/chirashi-bowl"
+  },
+  "public": true,
+  "updated_at": 1592541323,
+  "revision": 1
+}

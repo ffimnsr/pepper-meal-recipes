@@ -1,0 +1,376 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "5e427454-339a-5dec-96a3-3c146fb670bd",
+  "slug": "puerto-rican-sancocho",
+  "name": "Puerto Rican Sancocho",
+  "recipe_type": "soup",
+  "brief_description": "This sancocho recipe is a Puerto Rican beef stew loaded with many delicious vegetables and makes for a warm and comforting meal for cold days.",
+  "cuisine": "Puerto Rican Caribbean",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in a large pot over medium-low heat. Add onion, garlic, cilantro, white pepper, oregano, and salt. Cook and stir until onion is browned and very tender, about 20 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Add stew meat; cook and stir until meat is browned on all sides, 5 to 7 minutes."
+    },
+    {
+      "position": 4,
+      "text": "Pour enough water over meat mixture to fill the pot 3/4 full. Add tomato sauce and beef bouillon."
+    },
+    {
+      "position": 5,
+      "text": "Stir in the remaining ingredients, one at a time, cooking slightly after each addition in the following order: green beans, carrots, celery, chayote squash, white beans, cabbage, green banana, yellow plantain, llautias, potatoes, pumpkin, corn, and green bell pepper."
+    },
+    {
+      "position": 6,
+      "text": "Cook until all the vegetables are tender and stew has formed a rich broth, 2 to 3 hours. Add more water or salt if needed."
+    }
+  ],
+  "servings": 12,
+  "cooking_time_minutes": 150,
+  "preparation_time_minutes": 40,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/5e427454-339a-5dec-96a3-3c146fb670bd/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "424 kcal",
+    "carbohydrateContent": "74 g",
+    "cholesterolContent": "30 mg",
+    "fiberContent": "10 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "276 mg",
+    "sugarContent": "8 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "b89ddcd8-dbdd-5656-a98c-83557835a5ae",
+      "name": "large onion",
+      "normalized_name": "large onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "5",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "06e30bc6-9c07-544b-8016-edd6eba91c34",
+      "name": "fresh cilantro",
+      "normalized_name": "fresh cilantro",
+      "quantity": "3",
+      "unit": "sprigs",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "ea83d9fc-a7f0-569b-9a22-2809a2699fe9",
+      "name": "ground white pepper",
+      "normalized_name": "ground white pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "70bf763b-252f-524c-a26f-bcb46692d454",
+      "name": "dried oregano",
+      "normalized_name": "dried oregano",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "22f8117e-e242-5f36-aa8b-df14c7b99d54",
+      "name": "beef stew meat",
+      "normalized_name": "beef stew meat",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "cut into small pieces",
+      "position": 8
+    },
+    {
+      "ingredient_id": "1c06d73c-b209-5abe-b4c1-cbd2b68c30ac",
+      "name": "quarts water",
+      "normalized_name": "quarts water",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "or as needed",
+      "position": 9
+    },
+    {
+      "ingredient_id": "f7a620bf-624f-5839-bad4-c9e85269074e",
+      "name": "ounce) can tomato sauce",
+      "normalized_name": "ounce can tomato sauce",
+      "quantity": "0.5 (6.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "895cde85-bb5d-5395-bf4a-89a9ae7b5cce",
+      "name": "cubes beef bouillon",
+      "normalized_name": "cubes beef bouillon",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "dbb88efc-dadc-5aaf-83ad-f3e40650f4a1",
+      "name": "chopped fresh green beans",
+      "normalized_name": "chopped fresh green beans",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "cut into 1 1/2-inch pieces",
+      "position": 12
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "peeled and sliced",
+      "position": 13
+    },
+    {
+      "ingredient_id": "ea6dc703-7138-5d94-a1f2-31f598736ea0",
+      "name": "chopped celery",
+      "normalized_name": "chopped celery",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "952d95cb-a47e-5845-aa95-acd8a18ec733",
+      "name": "large chayote squash - peeled",
+      "normalized_name": "large chayote squash - peeled",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "cored, and sliced lengthwise",
+      "position": 15
+    },
+    {
+      "ingredient_id": "5a40a2cb-b62e-5203-b93d-dec6b7fd8f04",
+      "name": "ounce) can small white beans",
+      "normalized_name": "ounce can small white beans",
+      "quantity": "1 (15.5",
+      "unit": "pieces",
+      "preparation": "rinsed and drained",
+      "position": 16
+    },
+    {
+      "ingredient_id": "fe3d65f2-a01d-5cd3-a6a3-c444d2742eb4",
+      "name": "head cabbage",
+      "normalized_name": "head cabbage",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 17
+    },
+    {
+      "ingredient_id": "d9f73082-fc4f-5df7-a021-b01fe8df208c",
+      "name": "green banana",
+      "normalized_name": "green banana",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and sliced into 3/4-inch pieces",
+      "position": 18
+    },
+    {
+      "ingredient_id": "c9d8f3ee-a52e-59db-aee9-170e1bfb94c1",
+      "name": "yellow plantain",
+      "normalized_name": "yellow plantain",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and cut into 1-inch pieces",
+      "position": 19
+    },
+    {
+      "ingredient_id": "c4e6f558-7623-5733-b10f-62ebeca823c4",
+      "name": "large llautias (yautias)",
+      "normalized_name": "large llautias",
+      "quantity": "5",
+      "unit": "pieces",
+      "preparation": "peeled and quartered",
+      "position": 20
+    },
+    {
+      "ingredient_id": "1c4d46d3-f90a-50c4-9777-fddc9f692a31",
+      "name": "potatoes",
+      "normalized_name": "potatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "peeled and quartered",
+      "position": 21
+    },
+    {
+      "ingredient_id": "2940256f-f962-5bf1-9bb6-611858fc4e3e",
+      "name": "chopped peeled pumpkin",
+      "normalized_name": "chopped peeled pumpkin",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 22
+    },
+    {
+      "ingredient_id": "39a23cf8-5121-5a2e-a255-50d15e265b75",
+      "name": "ears fresh corn",
+      "normalized_name": "ears fresh corn",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "sliced into 6 pieces each",
+      "position": 23
+    },
+    {
+      "ingredient_id": "36a74fec-d1b3-5fd5-a16b-85ed1240196f",
+      "name": "chopped green bell pepper",
+      "normalized_name": "chopped green bell pepper",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 24
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "8766ceb8-0c8f-5e6e-adb1-5376281e7ce9",
+      "slug": "stews",
+      "name": "Stews"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "79302455-ef0a-58d0-abfd-009ab185cab9",
+      "slug": "caribbean",
+      "name": "Caribbean",
+      "color": null
+    },
+    {
+      "id": "a79512e6-4a21-5c30-94b6-b639c7898339",
+      "slug": "latin-american",
+      "name": "Latin American",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/257186/puerto-rican-sancocho"
+  },
+  "public": true,
+  "updated_at": 1772478253,
+  "revision": 1
+}

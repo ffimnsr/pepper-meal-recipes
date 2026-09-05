@@ -1,0 +1,198 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4a1bac0c-3ffb-52ed-ad26-0120a950c16a",
+  "slug": "reuben-casserole",
+  "name": "Reuben Casserole",
+  "recipe_type": "salad",
+  "brief_description": "This tasty Reuben casserole is made with layers of sauerkraut, corned beef, Swiss cheese, rye bread crumbs, and creamy Russian-style salad dressing.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C). Spray a 9x13-inch casserole dish with cooking spray. Spray one sheet of aluminum foil with cooking spray."
+    },
+    {
+      "position": 2,
+      "text": "Spread bread cubes in the bottom of the prepared casserole dish. Layer bread cubes with sauerkraut and beef strips, then pour dressing over top. Cover with the aluminum foil, sprayed-side down."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven for 20 minutes. Remove and discard foil; sprinkle Swiss cheese over casserole. Continue baking until cheese is melted and bubbly, about 10 more minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4a1bac0c-3ffb-52ed-ad26-0120a950c16a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "525 kcal",
+    "carbohydrateContent": "18 g",
+    "cholesterolContent": "115 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "26 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "1659 mg",
+    "sugarContent": "4 g",
+    "fatContent": "39 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b93ae09f-e244-5d3d-8b26-af0d41b23581",
+      "name": "slices rye bread",
+      "normalized_name": "slices rye bread",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "c0d979e9-c803-588a-ae53-898cbc16bf08",
+      "name": "ounce) can sauerkraut",
+      "normalized_name": "ounce can sauerkraut",
+      "quantity": "1 (16",
+      "unit": "pieces",
+      "preparation": "drained and rinsed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "076438a8-350a-50f3-a222-317bf11daf58",
+      "name": "deli sliced corned beef",
+      "normalized_name": "deli sliced corned beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into strips",
+      "position": 3
+    },
+    {
+      "ingredient_id": "b6083feb-eaa4-50d0-ace3-49d6b613b02b",
+      "name": "russian-style salad dressing",
+      "normalized_name": "russian-style salad dressing",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "e3f54bad-2d2b-58c2-9381-0d0ac86db3fd",
+      "name": "cooking spray",
+      "normalized_name": "cooking spray",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "140f7dad-5d9d-58b3-ba9e-ea045566ab33",
+      "name": "shredded swiss cheese",
+      "normalized_name": "shredded swiss cheese",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "3386fde0-c04b-5802-ac56-e84c4bf4c201",
+      "slug": "casserole",
+      "name": "Casserole"
+    },
+    {
+      "id": "56e9318e-fe81-594d-a998-fe21e19918f1",
+      "slug": "beef",
+      "name": "Beef"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "58a9b207-f21e-5b29-83a7-202b3f010948",
+      "slug": "quick-and-easy",
+      "name": "Quick and Easy",
+      "color": null
+    },
+    {
+      "id": "9cf68866-86d9-5e5c-b2bb-8aee57b14df0",
+      "slug": "comfort-food-recipes",
+      "name": "Comfort Food Recipes",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "5868016f-c4cc-5b4c-baeb-ca0425acfefc",
+      "slug": "corned-beef-recipes",
+      "name": "Corned Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "cf72088b-3f3d-57a4-8bed-404532d3b7ba",
+      "slug": "swiss",
+      "name": "Swiss",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "a28e8313-ea90-569f-a815-1db8cb228062",
+      "slug": "dairy-recipes",
+      "name": "Dairy Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/25407/reuben-casserole"
+  },
+  "public": true,
+  "updated_at": 1762292351,
+  "revision": 1
+}

@@ -1,0 +1,217 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "bd494a08-3590-58a9-a41d-9bf1706a8afb",
+  "slug": "shamrock-shakes",
+  "name": "Shamrock Shake",
+  "recipe_type": "dessert",
+  "brief_description": "This copycat Shamrock Shake recipe is a creamy blend of ice cream, milk, mint extract, and green coloring for a favorite St. Patrick's Day treat.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Blend ice cream, milk, mint extract, and food coloring together in a blender until smooth."
+    },
+    {
+      "position": 3,
+      "text": "Drizzle chocolate syrup around the inside of 2 tall glasses; pour shake into the glasses. Top with whipped cream and green sugar."
+    },
+    {
+      "position": 4,
+      "text": "Enjoy!"
+    }
+  ],
+  "servings": 2,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/bd494a08-3590-58a9-a41d-9bf1706a8afb/cover.jpg",
+  "video_url": "https://cdn.jwplayer.com/videos/UgTCI0Si-K3AjnAEN.mp4",
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "412 kcal",
+    "carbohydrateContent": "53 g",
+    "cholesterolContent": "70 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "10 g",
+    "saturatedFatContent": "12 g",
+    "sodiumContent": "183 mg",
+    "sugarContent": "45 g",
+    "fatContent": "19 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "da7fe5a2-f7d9-5c7c-a875-0d230911a5f5",
+      "name": "vanilla ice cream",
+      "normalized_name": "vanilla ice cream",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "1.25",
+      "unit": "cups",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "85844605-a544-5bec-bb65-eeb39b8668c9",
+      "name": "mint extract",
+      "normalized_name": "mint extract",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": "or more to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "317cef30-dfb3-531a-9716-b9a7b0b21fef",
+      "name": "drops green food coloring",
+      "normalized_name": "drops green food coloring",
+      "quantity": "9",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "b3eb1443-856a-5103-80bf-344964a71da8",
+      "name": "chocolate syrup",
+      "normalized_name": "chocolate syrup",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 5
+    },
+    {
+      "ingredient_id": "4dadb8b0-0892-51ea-9a62-8af03da8ce57",
+      "name": "whipped cream",
+      "normalized_name": "whipped cream",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": "or to taste",
+      "position": 6
+    },
+    {
+      "ingredient_id": "d01fbfa9-5cfe-5516-811b-af69dd124301",
+      "name": "green decorator sugar",
+      "normalized_name": "green decorator sugar",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": "715aee19-0731-5b98-885c-ed07e7e66e9d",
+      "slug": "drink",
+      "name": "Drink"
+    },
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "796a0b91-6fc7-556a-919a-a1c3a4f93df3",
+      "slug": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "9474d257-abc3-5a1a-94dc-b1f447e79821",
+      "slug": "shakes-and-floats",
+      "name": "Shakes and Floats"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "fa443c6f-136c-54a3-a3d8-5ff5b939cf47",
+      "slug": "shakes-and-floats-recipes",
+      "name": "Shakes and Floats Recipes",
+      "color": null
+    },
+    {
+      "id": "30e999e5-c45f-55fc-b09c-c5b007f75edc",
+      "slug": "everyday-cooking",
+      "name": "Everyday Cooking",
+      "color": null
+    },
+    {
+      "id": "e627d895-286a-5c12-8054-05d96f4e9568",
+      "slug": "copycat",
+      "name": "Copycat",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "f171b0fe-0f8f-5c24-85e1-aae0aeed9b75",
+      "slug": "peppermint-extract-and-oil-recipes",
+      "name": "Peppermint Extract and Oil Recipes",
+      "color": null
+    },
+    {
+      "id": "37c47145-6a57-5f00-aedc-b57a6031ee8e",
+      "slug": "extracts-and-flavoring-recipes",
+      "name": "Extracts and Flavoring Recipes",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "33c65ebf-4a9f-50fd-8f6d-d6eb59c2dfdf",
+      "slug": "drinks-recipes",
+      "name": "Drinks Recipes",
+      "color": null
+    },
+    {
+      "id": "1de280ba-9d0f-5ba9-a021-59664abb7e91",
+      "slug": "holidays-and-events-recipes",
+      "name": "Holidays and Events Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/231602/shamrock-shakes"
+  },
+  "public": true,
+  "updated_at": 1769094518,
+  "revision": 1
+}

@@ -1,0 +1,244 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "7b1364d5-463b-5d88-83fd-d6368c1be230",
+  "slug": "byrdhouse-spinach-soup",
+  "name": "Byrdhouse Spinach Soup",
+  "recipe_type": "soup",
+  "brief_description": "This rich and creamy spinach and mushroom soup is elegantly garnished with chilled shrimp.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large saucepan over medium heat. Whisk in flour, and cook until the mixture turns a darker yellow color, about 5 minutes. Stir in the mushrooms, and cook for 2 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Whisk in the sherry, chicken broth, and milk, then add the spinach, green onion, nutmeg, salt, and pepper. Bring to a boil over high heat, whisking constantly, then reduce heat to medium low, and simmer until the spinach is tender, 15 to 20 minutes. Garnish with shrimp to serve."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/7b1364d5-463b-5d88-83fd-d6368c1be230/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "267 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "108 mg",
+    "fiberContent": "3 g",
+    "proteinContent": "19 g",
+    "saturatedFatContent": "7 g",
+    "sodiumContent": "708 mg",
+    "sugarContent": "9 g",
+    "fatContent": "12 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a41022c4-6f22-5e6c-9a47-2bf8db00a3e3",
+      "name": "flour",
+      "normalized_name": "flour",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "3ca1307b-6676-5ab0-8f84-f5228f506d9f",
+      "name": "ounce) package sliced mushrooms",
+      "normalized_name": "ounce package sliced mushrooms",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "11e75bef-7f31-5db2-b924-44892d3e7524",
+      "name": "dry sherry",
+      "normalized_name": "dry sherry",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "8281aa04-9844-579b-b0ca-48a71f810798",
+      "name": "ounce) can chicken broth",
+      "normalized_name": "ounce can chicken broth",
+      "quantity": "1 (14.5",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "4511f43e-7f01-5345-88f0-3b08aeea2af5",
+      "name": "quart milk",
+      "normalized_name": "quart milk",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "cb682aa0-a0e0-52da-8049-97321b893f8e",
+      "name": "bunches fresh spinach",
+      "normalized_name": "bunches fresh spinach",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cleaned and chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "4314cb75-dceb-54f5-b0f7-5131f3f61ce4",
+      "name": "green onions",
+      "normalized_name": "green onions",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "330d325a-3a1a-5936-bdee-c7ad89defad8",
+      "name": "cooked small shrimp",
+      "normalized_name": "cooked small shrimp",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "c89e7cb5-5219-5cc1-9c42-2443e938976b",
+      "slug": "spinach-soup",
+      "name": "Spinach Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "06c180fb-36d6-5fef-8a61-d938910d90df",
+      "slug": "spinach-soup-recipes",
+      "name": "Spinach Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "124479ba-4575-5dd2-a6cc-316ea46ff1d9",
+      "slug": "cream-soup-recipes",
+      "name": "Cream Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "d26b16f3-764b-5c4f-8e61-3fb8a7960987",
+      "slug": "cream-of-mushroom-soup-recipes",
+      "name": "Cream of Mushroom Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/159352/byrdhouse-spinach-soup"
+  },
+  "public": true,
+  "updated_at": 1746220898,
+  "revision": 1
+}

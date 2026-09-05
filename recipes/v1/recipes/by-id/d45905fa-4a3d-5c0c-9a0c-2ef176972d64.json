@@ -1,0 +1,215 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d45905fa-4a3d-5c0c-9a0c-2ef176972d64",
+  "slug": "kabobs",
+  "name": "Kabobs",
+  "recipe_type": "main",
+  "brief_description": "Grilled kabobs made with cubes of steak, chicken, bell peppers, onions, and mushrooms in a honey teriyaki sauce are easy to make and delicious to eat!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Mix teriyaki sauce, honey, garlic powder, and ginger in a large resealable plastic bag. Place chicken, beef, red bell peppers, onion wedges, and mushrooms in the bag; coat with marinade, squeeze out excess air, and seal the bag. Refrigerate for 4 hours to overnight."
+    },
+    {
+      "position": 3,
+      "text": "Preheat the grill to medium-high heat. Lightly oil the grill grate. Thread meat and vegetables onto skewers, leaving a small space between each item. Discard any remaining marinade."
+    },
+    {
+      "position": 4,
+      "text": "Grill skewers, turning as needed, until meat is cooked through and vegetables are tender, about 10 minutes."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d45905fa-4a3d-5c0c-9a0c-2ef176972d64/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "304 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "74 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "623 mg",
+    "sugarContent": "19 g",
+    "fatContent": "13 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "b1e495b6-3728-54c9-bbcb-d14c5069e832",
+      "name": "teriyaki sauce",
+      "normalized_name": "teriyaki sauce",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "464e6e5e-9a3d-5405-bc0e-7b243a5b32a5",
+      "name": "honey",
+      "normalized_name": "honey",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "847b75c5-e701-5660-93d3-ef035865951a",
+      "name": "garlic powder",
+      "normalized_name": "garlic powder",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d2b31123-499f-5c84-9509-f2bb88d48a27",
+      "name": "ground ginger",
+      "normalized_name": "ground ginger",
+      "quantity": "0.5",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "boneless chicken breast halves - cut into cubes",
+      "position": 5
+    },
+    {
+      "ingredient_id": "5d235d5d-a144-5983-9116-4add2b9775ab",
+      "name": "beef sirloin",
+      "normalized_name": "beef sirloin",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "cut into 1 inch cubes",
+      "position": 6
+    },
+    {
+      "ingredient_id": "bfe45be0-5427-524e-9c71-5cdd927cacc3",
+      "name": "red bell peppers",
+      "normalized_name": "red bell peppers",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into 2 inch pieces",
+      "position": 7
+    },
+    {
+      "ingredient_id": "c0f6ea15-d00e-5d90-b55e-fc423ea7d08a",
+      "name": "large sweet onion",
+      "normalized_name": "large sweet onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and cut into wedges",
+      "position": 8
+    },
+    {
+      "ingredient_id": "8c4aaefa-9544-5c00-8975-e4f16eda4884",
+      "name": "whole fresh mushrooms",
+      "normalized_name": "whole fresh mushrooms",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "062f9992-eea2-5905-a67d-97273457cecd",
+      "name": "skewers",
+      "normalized_name": "skewers",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "7260e21f-4176-5c27-b84a-5295015f6c4d",
+      "slug": "bbq-grilling",
+      "name": "BBQ & Grilling"
+    },
+    {
+      "id": "88f95a48-8ac6-5dd8-b655-9e73bc177770",
+      "slug": "skewers-and-kabobs",
+      "name": "Skewers and Kabobs"
+    }
+  ],
+  "tags": [
+    {
+      "id": "48069ae4-871a-565f-8069-6dc6ae82ef82",
+      "slug": "skewers-and-kabobs",
+      "name": "Skewers and Kabobs",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "f5829042-f0a1-5586-967c-eda0386916df",
+      "slug": "bbq-grilling-recipes",
+      "name": "BBQ & Grilling Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "b3911c33-25a8-5155-aa82-5c0944d24700",
+      "slug": "beef",
+      "name": "Beef",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "99c65703-f001-58ba-8448-c43ad5ec556c",
+      "slug": "summer",
+      "name": "Summer",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/17904/kabobs"
+  },
+  "public": true,
+  "updated_at": 1769090590,
+  "revision": 1
+}

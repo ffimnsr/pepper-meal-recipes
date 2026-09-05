@@ -1,0 +1,176 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9d8483a4-5d60-52a2-be38-f960142db197",
+  "slug": "five-minute-ice-cream",
+  "name": "Five Minute Fruit Ice Cream",
+  "recipe_type": "dessert",
+  "brief_description": "This quick fruit ice cream made with frozen berries, sugar, and heavy cream comes together in a food processor or blender in just 5 minutes.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Combine frozen strawberries and sugar in a food processor or blender. Process until strawberries are roughly chopped."
+    },
+    {
+      "position": 3,
+      "text": "With the processor on, slowly pour in heavy cream until incorporated. Store in the freezer for up to 1 week."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 5,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9d8483a4-5d60-52a2-be38-f960142db197/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "258 kcal",
+    "carbohydrateContent": "33 g",
+    "cholesterolContent": "54 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "1 g",
+    "saturatedFatContent": "9 g",
+    "sodiumContent": "17 mg",
+    "sugarContent": "28 g",
+    "fatContent": "15 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "11c0e415-9a78-5e11-8131-fc1c9bccfb18",
+      "name": "ounce) package frozen sliced strawberries",
+      "normalized_name": "ounce package frozen sliced strawberries",
+      "quantity": "1 (10",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "8a69d21e-0fd7-5cec-8e9d-a8288478ab8f",
+      "name": "sugar",
+      "normalized_name": "sugar",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "0.66666668653488",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "ae6fe95d-4e1e-5382-93c0-f2d4fa12d15d",
+      "slug": "frozen-dessert",
+      "name": "Frozen Dessert"
+    },
+    {
+      "id": "b2e4ec0c-c3d2-5312-b4ea-c452d99ac762",
+      "slug": "ice-cream",
+      "name": "Ice Cream"
+    },
+    {
+      "id": "ccf9c597-d00e-5c52-bc51-c6bd08acf9c9",
+      "slug": "strawberry-ice-cream",
+      "name": "Strawberry Ice Cream"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "9a90adcc-539c-5056-93a4-c6e14183e539",
+      "slug": "strawberry-ice-cream-recipes",
+      "name": "Strawberry Ice Cream Recipes",
+      "color": null
+    },
+    {
+      "id": "581edb85-0355-5c4f-8514-2ccd690bdd7e",
+      "slug": "strawberry-dessert-recipes",
+      "name": "Strawberry Dessert Recipes",
+      "color": null
+    },
+    {
+      "id": "1d3947a2-8851-5961-9198-4fa5767266eb",
+      "slug": "egg-free",
+      "name": "Egg-Free",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "40044905-5641-52ce-8e18-26e3afdeb43f",
+      "slug": "occasions",
+      "name": "Occasions",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "29b3f1f5-cdfa-5a4d-a6c0-8e18731312ec",
+      "slug": "ice-cream",
+      "name": "Ice Cream",
+      "color": null
+    },
+    {
+      "id": "50f70bb9-e15c-5182-be0d-29b0444422c1",
+      "slug": "frozen-dessert-recipes",
+      "name": "Frozen Dessert Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/50050/five-minute-ice-cream"
+  },
+  "public": true,
+  "updated_at": 1771846142,
+  "revision": 1
+}

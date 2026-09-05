@@ -1,0 +1,266 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "9f132d51-3543-537a-b784-66e5b7086cae",
+  "slug": "roasted-acorn-squash-soup",
+  "name": "Roasted Acorn Squash Soup",
+  "recipe_type": "soup",
+  "brief_description": "This roasted acorn squash soup makes a creamy soup that's fortified with onions, carrots, butter, half-and-half, and warm spices that scream fall.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 400 degrees F (200 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Arrange squash, cut-side down, in a baking dish; add enough water to cover bottom of the dish."
+    },
+    {
+      "position": 3,
+      "text": "Bake squash in the preheated oven until easily pierced with a fork, about 45 minutes. Remove from the oven; cool until easily handled. Scoop flesh into a bowl and set aside."
+    },
+    {
+      "position": 4,
+      "text": "Melt butter in a large pot over medium-high heat. Add onion, carrot, and garlic; stir until onions soften, 5 to 7 minutes. Add stock and squash; simmer for 20 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Transfer mixture to a blender in batches and pur\u00e9e until smooth. Return to pot."
+    },
+    {
+      "position": 6,
+      "text": "Stir in half-and-half, nutmeg, and cinnamon; season with salt and pepper. Thin the soup with water, if desired."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 60,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "hard",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/9f132d51-3543-537a-b784-66e5b7086cae/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "155 kcal",
+    "carbohydrateContent": "21 g",
+    "cholesterolContent": "21 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "4 g",
+    "saturatedFatContent": "5 g",
+    "sodiumContent": "125 mg",
+    "sugarContent": "2 g",
+    "fatContent": "8 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "4f4601c2-0b1f-538b-821e-e0def938a267",
+      "name": "acorn squash",
+      "normalized_name": "acorn squash",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "halved and seeded",
+      "position": 1
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": "as needed",
+      "position": 2
+    },
+    {
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "c0f6ea15-d00e-5d90-b55e-fc423ea7d08a",
+      "name": "large sweet onion",
+      "normalized_name": "large sweet onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "c8426aad-8c25-516c-a538-f5a93f92c721",
+      "name": "large carrot",
+      "normalized_name": "large carrot",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "peeled and chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "1",
+      "unit": "clove",
+      "preparation": "minced",
+      "position": 6
+    },
+    {
+      "ingredient_id": "8c46b116-7a6d-56a1-8ddc-cc131dd8f8e1",
+      "name": "low-sodium chicken stock",
+      "normalized_name": "low-sodium chicken stock",
+      "quantity": "3.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "3ac27592-062c-5a73-8e75-f1f76d1934c9",
+      "name": "half-and-half",
+      "normalized_name": "half-and-half",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "32472516-f3fa-578c-9f61-079f11bed8a5",
+      "name": "ground nutmeg",
+      "normalized_name": "ground nutmeg",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
+      "name": "salt and ground black pepper to taste",
+      "normalized_name": "salt and ground black pepper to taste",
+      "quantity": "1",
+      "unit": "pinch",
+      "preparation": null,
+      "position": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "cf75d67d-9960-52d8-a218-403669b73451",
+      "slug": "vegetable-soup",
+      "name": "Vegetable Soup"
+    },
+    {
+      "id": "bd0d1695-7b66-5071-9f9b-f09e048a9b23",
+      "slug": "squash-soup",
+      "name": "Squash Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "fb6d79a9-8ca3-5550-af6f-d20e321ec9ab",
+      "slug": "squash-soup-recipes",
+      "name": "Squash Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "489def73-dc81-5671-9631-5bffd5bd351b",
+      "slug": "squash",
+      "name": "Squash",
+      "color": null
+    },
+    {
+      "id": "db259719-63cc-576f-860a-171f563e5e94",
+      "slug": "blender",
+      "name": "Blender",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "f8bf119a-5fe4-5c2c-a463-c4d541983cdf",
+      "slug": "winter-squash",
+      "name": "Winter Squash",
+      "color": null
+    },
+    {
+      "id": "80979f3d-ed31-5f22-b042-110bd14b2668",
+      "slug": "acorn-squash",
+      "name": "Acorn Squash",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229087/roasted-acorn-squash-soup"
+  },
+  "public": true,
+  "updated_at": 1766169896,
+  "revision": 1
+}

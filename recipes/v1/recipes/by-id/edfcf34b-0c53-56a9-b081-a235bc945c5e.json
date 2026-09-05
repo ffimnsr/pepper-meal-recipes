@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "edfcf34b-0c53-56a9-b081-a235bc945c5e",
+  "slug": "matzo-brei",
+  "name": "Matzo Brei",
+  "recipe_type": "dessert",
+  "brief_description": "Matzo brei is a Jewish breakfast dish of crispy matzo with cooked eggs served savory or sweet for a super simple but delicious Passover meal.",
+  "cuisine": "Jewish American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients."
+    },
+    {
+      "position": 2,
+      "text": "Break matzo into pieces in a bowl; cover with hot water and soak until matzo just begins to soften, about 30 to 60 seconds. Drain and squeeze out water; set matzo aside."
+    },
+    {
+      "position": 3,
+      "text": "Beat egg, salt, and pepper together in a small bowl until fluffy; mix in matzo."
+    },
+    {
+      "position": 4,
+      "text": "Heat butter or oil in a skillet over medium heat; pour matzo-egg mixture into skillet. Cook until egg is cooked on one side, about 1 minute; flip and cook on other side, about 1 minute more."
+    }
+  ],
+  "servings": 1,
+  "cooking_time_minutes": 5,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/edfcf34b-0c53-56a9-b081-a235bc945c5e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "222 kcal",
+    "carbohydrateContent": "24 g",
+    "cholesterolContent": "186 mg",
+    "proteinContent": "9 g",
+    "saturatedFatContent": "2 g",
+    "sodiumContent": "70 mg",
+    "sugarContent": "1 g",
+    "fatContent": "10 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bff3517c-dbab-58a2-8c91-2a30dd85e189",
+      "name": "matzo cracker",
+      "normalized_name": "matzo cracker",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "b6080a36-e955-56e9-81db-718202beb92a",
+      "slug": "holidays-and-events",
+      "name": "Holidays and Events"
+    },
+    {
+      "id": "d77e64b3-282a-5ccc-87e6-0e68acada949",
+      "slug": "passover",
+      "name": "Passover"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a5d0d36f-890f-5a02-aa9d-294e4e4a584a",
+      "slug": "passover",
+      "name": "Passover",
+      "color": null
+    },
+    {
+      "id": "d302e175-eebe-5aa5-b201-8d914809ae52",
+      "slug": "jewish",
+      "name": "Jewish",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "0e245ab8-9cdb-5cd0-a099-19543f459f5f",
+      "slug": "scrambled",
+      "name": "Scrambled",
+      "color": null
+    },
+    {
+      "id": "9a578210-cad0-5e96-b126-9f653a6a83f6",
+      "slug": "kosher",
+      "name": "Kosher",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "85103e82-5669-5bf0-ba0c-9c5a6b2cd862",
+      "slug": "everyday-meals",
+      "name": "Everyday Meals",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/16045/matzo-brei"
+  },
+  "public": true,
+  "updated_at": 1778522506,
+  "revision": 1
+}

@@ -1,0 +1,221 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a39163f0-2fc2-5874-b2c3-30e87eefb922",
+  "slug": "breakfast-sausage-casserole",
+  "name": "Breakfast Casserole",
+  "recipe_type": "soup",
+  "brief_description": "This overnight breakfast casserole with cream of mushroom soup, breakfast sausage, eggs, and Cheddar cheese is a hearty way to start your day.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Grease a 9x13-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Cook sausage in a large skillet over medium-high heat until evenly browned, crumbly, and no longer pink in the center, 7 to 9 minutes. Drain and discard any excess grease."
+    },
+    {
+      "position": 3,
+      "text": "While the sausage is cooking, whisk eggs in a mixing bowl until smooth. Whisk in 2 cups milk, mustard powder, and salt until evenly blended."
+    },
+    {
+      "position": 4,
+      "text": "Spread bread cubes into the prepared dish; sprinkle sausage over top, then Cheddar cheese. Pour egg mixture over the entire dish. Cover and refrigerate, 8 hours to overnight."
+    },
+    {
+      "position": 5,
+      "text": "When ready to bake, preheat the oven to 300 degrees F (150 degrees C)."
+    },
+    {
+      "position": 6,
+      "text": "Remove casserole from the refrigerator and uncover. Whisk condensed soup and remaining 1/2 cup milk together in a bowl; pour mixture over casserole."
+    },
+    {
+      "position": 7,
+      "text": "Bake in the preheated oven until firm and golden brown, about 1 1/2 hours."
+    }
+  ],
+  "servings": 10,
+  "cooking_time_minutes": 100,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a39163f0-2fc2-5874-b2c3-30e87eefb922/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "451 kcal",
+    "carbohydrateContent": "16 g",
+    "cholesterolContent": "190 mg",
+    "fiberContent": "1 g",
+    "proteinContent": "25 g",
+    "saturatedFatContent": "15 g",
+    "sodiumContent": "1202 mg",
+    "sugarContent": "5 g",
+    "fatContent": "32 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "59646d0f-fc7f-5298-9202-6f0835c82a1c",
+      "name": "breakfast sausage",
+      "normalized_name": "breakfast sausage",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "aad62fae-fcef-5703-8323-fa7e66058fe0",
+      "name": "dry mustard powder",
+      "normalized_name": "dry mustard powder",
+      "quantity": "0.75",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d50c95dd-3422-587f-b155-cbfc6d2f9793",
+      "name": "slices bread",
+      "normalized_name": "slices bread",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 6
+    },
+    {
+      "ingredient_id": "af2c580c-de71-56c6-9512-28518d90916c",
+      "name": "shredded cheddar cheese",
+      "normalized_name": "shredded cheddar cheese",
+      "quantity": "4",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cf5ed3d1-c459-55cc-bbce-c2018dc7687d",
+      "name": "ounce) can condensed cream of mushroom soup",
+      "normalized_name": "ounce can condensed cream of mushroom soup",
+      "quantity": "1 (10.75",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "7efb1826-f8ef-5c34-9d0d-1fd876fc8613",
+      "slug": "breakfast-casserole",
+      "name": "Breakfast Casserole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1aa69b43-f21c-5206-9a70-4772b93cbf6f",
+      "slug": "christmas-breakfast",
+      "name": "Christmas Breakfast",
+      "color": null
+    },
+    {
+      "id": "39e8edd4-ff85-5d94-aa4a-7d0506ff85a0",
+      "slug": "easter-brunch",
+      "name": "Easter Brunch",
+      "color": null
+    },
+    {
+      "id": "2a79b5de-9536-534a-9eb5-06cbc9101d65",
+      "slug": "breakfast-casserole-recipes",
+      "name": "Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "fe545155-0a81-57e9-863b-3aea5c67c3ab",
+      "slug": "sausage",
+      "name": "Sausage",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "fd530a9b-dab2-56e0-be6a-0fc756feeba9",
+      "slug": "casserole-recipes",
+      "name": "Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "cbe33568-0aab-51b7-872b-a2feaab2af47",
+      "slug": "sausage-breakfast-casserole-recipes",
+      "name": "Sausage Breakfast Casserole Recipes",
+      "color": null
+    },
+    {
+      "id": "6597f7ea-1b1e-5703-835c-dc0383f20cc0",
+      "slug": "meat-and-seafood",
+      "name": "Meat and Seafood",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/172671/breakfast-sausage-casserole"
+  },
+  "public": true,
+  "updated_at": 1785162845,
+  "revision": 1
+}

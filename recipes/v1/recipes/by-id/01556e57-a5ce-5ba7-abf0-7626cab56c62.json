@@ -1,0 +1,202 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "01556e57-a5ce-5ba7-abf0-7626cab56c62",
+  "slug": "stevens-baked-nachos",
+  "name": "Steven's Baked Nachos",
+  "recipe_type": "appetizer",
+  "brief_description": "Steven's oven-baked nachos recipe has layers of tortilla chips, grated Jack cheese, shredded chicken, refried beans, and sour cream, baked to perfection.",
+  "cuisine": "Mexican Inspired Tex-Mex",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a 9x9-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Place chicken on a microwave-safe plate; cover with a paper towel. Cook on high power until cooked through and no longer pink, about 10 minutes."
+    },
+    {
+      "position": 3,
+      "text": "Cool, then shred using a knife; set aside."
+    },
+    {
+      "position": 4,
+      "text": "Cook and stir refried beans in a saucepan over medium until thoroughly heated."
+    },
+    {
+      "position": 5,
+      "text": "Layer \u00bd the chips, \u00bd cup cheese, and green onions on bottom of the prepared baking dish. Spoon beans over top."
+    },
+    {
+      "position": 6,
+      "text": "Layer \u00bd cup cheese and sour cream over beans. Arrange shredded chicken over top, then top with remaining \u00bd chips and \u00bd cup cheese."
+    },
+    {
+      "position": 7,
+      "text": "Bake in the preheated oven until cheese melts throughout, 15 to 18 minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/01556e57-a5ce-5ba7-abf0-7626cab56c62/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "431 kcal",
+    "carbohydrateContent": "37 g",
+    "cholesterolContent": "56 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "21 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "602 mg",
+    "sugarContent": "2 g",
+    "fatContent": "23 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "87152c27-b52b-5f8a-9619-c628f2c9953b",
+      "name": "ounce) skinless",
+      "normalized_name": "ounce skinless",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast half",
+      "position": 1
+    },
+    {
+      "ingredient_id": "9e6d05db-379b-519f-8d6a-74c332bfe2ca",
+      "name": "ounce) can refried beans",
+      "normalized_name": "ounce can refried beans",
+      "quantity": "1 (14.25",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "ec6ab20e-f54c-5ba5-9ab2-f2f5f222ec8d",
+      "name": "corn tortilla chips",
+      "normalized_name": "corn tortilla chips",
+      "quantity": "8",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "006c61af-ed01-580b-8971-80d074083ca4",
+      "name": "grated pepper jack cheese",
+      "normalized_name": "grated pepper jack cheese",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "907b7443-17d3-5349-b4f1-941d5cb63ff7",
+      "name": "chopped green onions",
+      "normalized_name": "chopped green onions",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
+      "name": "sour cream",
+      "normalized_name": "sour cream",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "f673a69e-2a69-53a3-8baa-b2314639be89",
+      "slug": "cheese",
+      "name": "Cheese"
+    },
+    {
+      "id": "cf540d83-c29c-5df1-a2d1-13dae174c4bf",
+      "slug": "nachos",
+      "name": "Nachos"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "d67c7e91-9ba4-51d9-8c2c-aa8fd8b4dd5d",
+      "slug": "cheesy-chicken",
+      "name": "Cheesy Chicken",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "acb4aea2-50e0-54f5-9f55-88ed42e18ac3",
+      "slug": "olympics",
+      "name": "Olympics",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/143048/stevens-baked-nachos"
+  },
+  "public": true,
+  "updated_at": 1777673185,
+  "revision": 1
+}

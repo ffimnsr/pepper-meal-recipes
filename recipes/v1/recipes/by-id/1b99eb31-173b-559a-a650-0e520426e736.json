@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1b99eb31-173b-559a-a650-0e520426e736",
+  "slug": "homemade-strawberry-crumble",
+  "name": "Homemade Strawberry Crumble",
+  "recipe_type": "dessert",
+  "brief_description": "This strawberry crumble recipe has a layer of sweet strawberries topped with oats and walnuts for a crunchy addition to a classic summer dessert.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather the ingredients. Preheat the oven to 350 degrees F (175 degrees C). Grease an 11x7-inch baking dish."
+    },
+    {
+      "position": 2,
+      "text": "Stir flour, oats, walnuts, ginger, and 3/4 cup brown sugar together in a bowl. Add butter; using your hands, stir mixture until moistened and coarse crumbs form."
+    },
+    {
+      "position": 3,
+      "text": "Stir cornstarch, vinegar, and remaining 1/4 cup brown sugar together in a large bowl until combined, then stir in the strawberries. Transfer to the prepared baking dish and top with crumble mixture."
+    },
+    {
+      "position": 4,
+      "text": "Bake in the preheated oven until the strawberries are tender, mixture is rapidly bubbling around all edges, and top is golden, 45 to 50 minutes."
+    },
+    {
+      "position": 5,
+      "text": "Remove from oven and let sit at room temperature, about 10 minutes. Serve warm with vanilla ice cream. Recipe developed by Liv Dansky"
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 45,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1b99eb31-173b-559a-a650-0e520426e736/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "423 kcal",
+    "carbohydrateContent": "59 g",
+    "cholesterolContent": "31 mg",
+    "fiberContent": "5 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "8 g",
+    "sodiumContent": "93 mg",
+    "fatContent": "20 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
+      "name": "all-purpose flour",
+      "normalized_name": "all-purpose flour",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "fed1df4e-1754-525a-aeb5-c6e706154c46",
+      "name": "old-fashioned rolled oats",
+      "normalized_name": "old-fashioned rolled oats",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "e8e75e6e-b180-5d39-a832-2134749a2e0d",
+      "name": "chopped walnuts",
+      "normalized_name": "chopped walnuts",
+      "quantity": "0.75",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "d2b31123-499f-5c84-9509-f2bb88d48a27",
+      "name": "ground ginger",
+      "normalized_name": "ground ginger",
+      "quantity": "1.5",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5d3ee644-e807-557b-92fc-edf2d0e6b7c1",
+      "name": "packed light brown sugar",
+      "normalized_name": "packed light brown sugar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "divided",
+      "position": 5
+    },
+    {
+      "ingredient_id": "ffaeafed-5d45-547a-87d1-29176b89b6f7",
+      "name": "salted butter",
+      "normalized_name": "salted butter",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": "melted",
+      "position": 6
+    },
+    {
+      "ingredient_id": "da428c7a-4c41-5d56-821c-037b68ae6c10",
+      "name": "cornstarch",
+      "normalized_name": "cornstarch",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d35ec19f-203e-5c0e-b8a0-81b703a306ad",
+      "name": "white balsamic vinegar",
+      "normalized_name": "white balsamic vinegar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "dc82dab6-a16a-5d4d-94d8-67a213f55057",
+      "name": "fresh strawberries",
+      "normalized_name": "fresh strawberries",
+      "quantity": "2.5",
+      "unit": "pounds",
+      "preparation": "hulled and quartered",
+      "position": 9
+    },
+    {
+      "ingredient_id": "da7fe5a2-f7d9-5c7c-a875-0d230911a5f5",
+      "name": "vanilla ice cream",
+      "normalized_name": "vanilla ice cream",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": "for serving",
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "39bf14f6-9424-54fe-b13a-16e33371198f",
+      "slug": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "6aec5b4e-5dad-5a47-b4a6-2ce607cc6a3b",
+      "slug": "crisps-and-crumble",
+      "name": "Crisps and Crumble"
+    }
+  ],
+  "tags": [
+    {
+      "id": "c023f237-ae4d-5d19-9dd0-3dba6929b77e",
+      "slug": "publisher-tested",
+      "name": "publisher-tested",
+      "color": null
+    },
+    {
+      "id": "d973058a-9399-5a14-8984-d2e05a1e29f9",
+      "slug": "ingredients",
+      "name": "Ingredients",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "b27e7672-5670-576d-b52e-a2ba7aa1e26a",
+      "slug": "summer-desserts",
+      "name": "Summer Desserts",
+      "color": null
+    },
+    {
+      "id": "ff9f6e55-9805-5f03-8f74-1db2d6de7c92",
+      "slug": "desserts",
+      "name": "Desserts",
+      "color": null
+    },
+    {
+      "id": "c6f90ac9-f4db-5013-8421-b6bc16d4e922",
+      "slug": "crisps-and-crumble-recipes",
+      "name": "Crisps and Crumble Recipes",
+      "color": null
+    },
+    {
+      "id": "7ff1c9ba-0da2-5888-a251-1b56d3c30f6f",
+      "slug": "fruit-desserts",
+      "name": "Fruit Desserts",
+      "color": null
+    },
+    {
+      "id": "bb561413-f49c-5029-956b-c7037608823d",
+      "slug": "berries",
+      "name": "Berries",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "0af6d141-516a-5229-ae68-60689bc38c37",
+      "slug": "strawberries",
+      "name": "Strawberries",
+      "color": null
+    },
+    {
+      "id": "581edb85-0355-5c4f-8514-2ccd690bdd7e",
+      "slug": "strawberry-dessert-recipes",
+      "name": "Strawberry Dessert Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/8465324/homemade-strawberry-crumble"
+  },
+  "public": true,
+  "updated_at": 1732329833,
+  "revision": 1
+}

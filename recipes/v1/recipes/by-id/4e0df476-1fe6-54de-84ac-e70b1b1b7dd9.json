@@ -1,0 +1,194 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4e0df476-1fe6-54de-84ac-e70b1b1b7dd9",
+  "slug": "chicken-nachos",
+  "name": "Chicken Nachos",
+  "recipe_type": "appetizer",
+  "brief_description": "This simple chicken nachos recipe is made with layers of tortilla chips, green chiles, and cheese. Serve them with guacamole, sour cream, and salsa.",
+  "cuisine": "Mexican Inspired",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine chicken, vegetable oil, and cayenne pepper in a bowl; let stand at least 15 minutes, or longer if desired."
+    },
+    {
+      "position": 2,
+      "text": "Preheat the oven to 325 degrees F (165 degrees C)."
+    },
+    {
+      "position": 3,
+      "text": "Heat a skillet over medium-high heat. Add chicken mixture; cook until no longer pink. Remove from heat; set aside."
+    },
+    {
+      "position": 4,
+      "text": "Meanwhile, spread a thin layer of tortilla chips in a 9x13-inch baking dish; top with 1/4 chicken, 1/4 chiles, and 1/4 cheese. Repeat layers three more times ending with cheese."
+    },
+    {
+      "position": 5,
+      "text": "Bake in the preheated oven until cheese melts and nachos heated through, 15 to 20 minutes. Serve with your favorite nacho toppings."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 20,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4e0df476-1fe6-54de-84ac-e70b1b1b7dd9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "511 kcal",
+    "carbohydrateContent": "40 g",
+    "cholesterolContent": "59 mg",
+    "fiberContent": "4 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "11 g",
+    "sodiumContent": "886 mg",
+    "sugarContent": "2 g",
+    "fatContent": "30 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "f87f0fe9-92ef-50be-b35e-44749cd45363",
+      "name": "skinless",
+      "normalized_name": "skinless",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "boneless chicken breast halves - chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "47c10879-f6b3-56ce-b5af-359974be4f2a",
+      "name": "cayenne pepper",
+      "normalized_name": "cayenne pepper",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 3
+    },
+    {
+      "ingredient_id": "9e095423-b130-5bc6-97f2-51c0a6b5c689",
+      "name": "ounce) package corn tortilla chips",
+      "normalized_name": "ounce package corn tortilla chips",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": "or as needed",
+      "position": 4
+    },
+    {
+      "ingredient_id": "28db54bf-60f6-5683-840c-eff8202d40e3",
+      "name": "ounce) can diced green chilies",
+      "normalized_name": "ounce can diced green chilies",
+      "quantity": "1 (7",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 5
+    },
+    {
+      "ingredient_id": "448ff889-066e-5711-9ebc-d3492262962f",
+      "name": "ounce) package shredded mexican-style cheese blend",
+      "normalized_name": "ounce package shredded mexican-style cheese blend",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "f673a69e-2a69-53a3-8baa-b2314639be89",
+      "slug": "cheese",
+      "name": "Cheese"
+    },
+    {
+      "id": "cf540d83-c29c-5df1-a2d1-13dae174c4bf",
+      "slug": "nachos",
+      "name": "Nachos"
+    }
+  ],
+  "tags": [
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "3071dd45-f315-5030-8f02-9bb1f20f9a11",
+      "slug": "chicken-breast",
+      "name": "Chicken Breast",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "b03a5d50-c24f-582d-8d98-d07cd48c4fa6",
+      "slug": "appetizers",
+      "name": "Appetizers",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "acb4aea2-50e0-54f5-9f55-88ed42e18ac3",
+      "slug": "olympics",
+      "name": "Olympics",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/74433/chicken-nachos"
+  },
+  "public": true,
+  "updated_at": 1784571060,
+  "revision": 1
+}

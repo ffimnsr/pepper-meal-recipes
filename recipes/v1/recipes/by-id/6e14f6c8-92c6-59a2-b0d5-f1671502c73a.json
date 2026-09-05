@@ -1,0 +1,188 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6e14f6c8-92c6-59a2-b0d5-f1671502c73a",
+  "slug": "slow-cooker-filipino-chicken-adobo",
+  "name": "Slow Cooker Filipino Chicken Adobo",
+  "recipe_type": "main",
+  "brief_description": "This flavorful chicken adobo is a Filipino favorite, made quickly and easily by using simple ingredients and a slow cooker.",
+  "cuisine": "Filipino",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Place chicken thighs, peppercorns, garlic, bay leaves, soy sauce, and vinegar into the bottom of a slow cooker in that order, making sure peppercorns and bay leaves are submerged into the liquid."
+    },
+    {
+      "position": 2,
+      "text": "Cover and cook on High until chicken thighs are no longer pink in the centers, about 5 hours. An instant-read thermometer inserted near the bone of a thigh should read 165 degrees F (74 degrees C)."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 300,
+  "preparation_time_minutes": 10,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6e14f6c8-92c6-59a2-b0d5-f1671502c73a/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "581 kcal",
+    "carbohydrateContent": "3 g",
+    "cholesterolContent": "212 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "59 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "1095 mg",
+    "sugarContent": "0 g",
+    "fatContent": "35 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "01756d99-d33d-5d65-a2e4-226dfe93a932",
+      "name": "skin-on",
+      "normalized_name": "skin-on",
+      "quantity": "6",
+      "unit": "pounds",
+      "preparation": "bone-in chicken thighs",
+      "position": 1
+    },
+    {
+      "ingredient_id": "07ce1bf1-9bfd-538b-b2cf-aac7d56a88a8",
+      "name": "whole black peppercorns",
+      "normalized_name": "whole black peppercorns",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "12",
+      "unit": "cloves",
+      "preparation": "smashed and peeled",
+      "position": 3
+    },
+    {
+      "ingredient_id": "894756ff-a1b1-5651-b3de-687c810264ac",
+      "name": "bay leaves",
+      "normalized_name": "bay leaves",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a482b994-5b79-5ece-b9e0-26e002146a29",
+      "name": "distilled white vinegar",
+      "normalized_name": "distilled white vinegar",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "5eb76aa3-4648-5c14-8a74-b99b733b5ef3",
+      "slug": "global-cuisines",
+      "name": "Global Cuisines"
+    },
+    {
+      "id": "313a1d4c-68f2-5dcd-af92-62121a851e0f",
+      "slug": "asian",
+      "name": "Asian"
+    },
+    {
+      "id": "f866000d-005d-5af3-a7c8-3f5b281b7d6f",
+      "slug": "filipino",
+      "name": "Filipino"
+    }
+  ],
+  "tags": [
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "6dad4087-a7f9-5c35-ac41-349f07684bd8",
+      "slug": "chicken-thigh-recipes",
+      "name": "Chicken Thigh Recipes",
+      "color": null
+    },
+    {
+      "id": "0012cbf2-cd6c-5009-9015-e9535236c363",
+      "slug": "asian",
+      "name": "Asian",
+      "color": null
+    },
+    {
+      "id": "aa824558-e234-558d-b34e-c3ef1f19546f",
+      "slug": "bay-leaf-recipes",
+      "name": "Bay Leaf Recipes",
+      "color": null
+    },
+    {
+      "id": "60f6fa5f-ac03-5eff-897b-8776dfb1ef02",
+      "slug": "garlic",
+      "name": "Garlic",
+      "color": null
+    },
+    {
+      "id": "22b69ae3-bf6c-5161-837b-50f510df6b6b",
+      "slug": "slow-cooker",
+      "name": "Slow Cooker",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    },
+    {
+      "id": "37841ea5-92ef-5893-8836-f5cefae85b68",
+      "slug": "family-friendly-recipes",
+      "name": "Family-Friendly Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/277270/slow-cooker-filipino-chicken-adobo"
+  },
+  "public": true,
+  "updated_at": 1642141287,
+  "revision": 1
+}

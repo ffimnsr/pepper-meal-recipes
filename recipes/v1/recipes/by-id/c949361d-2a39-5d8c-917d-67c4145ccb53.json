@@ -1,0 +1,242 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "c949361d-2a39-5d8c-917d-67c4145ccb53",
+  "slug": "arroz-rojo-mexican-red-rice",
+  "name": "Arroz Rojo (Mexican Red Rice)",
+  "recipe_type": "side",
+  "brief_description": "This Mexican red rice with garlic and jalape\u00f1o is a deliciously savory tomato-flavored rice that makes an authentic side dish for Mexican meals.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Grate tomatoes into a bowl using a box grater; discard tomato skins."
+    },
+    {
+      "position": 2,
+      "text": "Heat vegetable oil in a heavy skillet over medium-high heat. Add onion; cook and stir until tender, about 5 minutes. Stir in garlic and cook until fragrant, about 1 minute."
+    },
+    {
+      "position": 3,
+      "text": "Stir in rice and cook, stirring often, until rice is lightly toasted, about 3 more minutes. Stir in grated tomato, chicken broth, and tomato sauce; bring mixture to a boil."
+    },
+    {
+      "position": 4,
+      "text": "Stir in jalape\u00f1o pepper, cilantro, and salt; reduce heat to low. Cover the skillet and simmer until liquid has been absorbed, about 15 minutes. Do not lift the cover while rice is cooking."
+    },
+    {
+      "position": 5,
+      "text": "Turn off the heat; let rice stand, covered, for 8 minutes. Fluff with a fork before transferring rice to a serving dish."
+    }
+  ],
+  "servings": 5,
+  "cooking_time_minutes": 25,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/c949361d-2a39-5d8c-917d-67c4145ccb53/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "213 kcal",
+    "carbohydrateContent": "35 g",
+    "cholesterolContent": "1 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "5 g",
+    "saturatedFatContent": "1 g",
+    "sodiumContent": "109 mg",
+    "sugarContent": "3 g",
+    "fatContent": "6 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "087a6d4a-004f-52ad-9cce-64e10247fef2",
+      "name": "roma (plum tomatoes)",
+      "normalized_name": "roma",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cored",
+      "position": 1
+    },
+    {
+      "ingredient_id": "418f54d7-d02e-598c-b9b9-7351e59b1808",
+      "name": "vegetable oil",
+      "normalized_name": "vegetable oil",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "02d4f872-6e6e-56ff-93d3-4ebab5500e0f",
+      "name": "minced onion",
+      "normalized_name": "minced onion",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "2b75e540-afb6-5825-9fe5-838e84327b73",
+      "name": "uncooked long-grain white rice",
+      "normalized_name": "uncooked long-grain white rice",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "d048b8fd-9fab-5cc1-b458-54ddd45ae648",
+      "name": "low-sodium chicken broth",
+      "normalized_name": "low-sodium chicken broth",
+      "quantity": "1.75",
+      "unit": "cups",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "69c0516f-d06f-5025-aace-85b7f24cee5f",
+      "name": "canned tomato sauce",
+      "normalized_name": "canned tomato sauce",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a4182eae-598b-5104-9ee4-e5ab15d9725f",
+      "name": "jalapeno pepper",
+      "normalized_name": "jalapeno pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 8
+    },
+    {
+      "ingredient_id": "06e30bc6-9c07-544b-8016-edd6eba91c34",
+      "name": "fresh cilantro",
+      "normalized_name": "fresh cilantro",
+      "quantity": "2",
+      "unit": "sprigs",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "ae39fd1f-477e-55a1-b5a5-6d36b9285012",
+      "slug": "rice-side-dish",
+      "name": "Rice Side Dish"
+    },
+    {
+      "id": "800b3c0b-bff9-5682-9bcd-21cc6d3e47ec",
+      "slug": "spanish-rice",
+      "name": "Spanish Rice"
+    }
+  ],
+  "tags": [
+    {
+      "id": "62fa7371-cbc2-5fe7-8752-f2c2a79fa8f9",
+      "slug": "spanish-rice-recipes",
+      "name": "Spanish Rice Recipes",
+      "color": null
+    },
+    {
+      "id": "228d4fb3-a8aa-5695-a627-e937285a0ebc",
+      "slug": "side-dishes",
+      "name": "Side Dishes",
+      "color": null
+    },
+    {
+      "id": "f21488aa-f268-5ce9-a5b7-31295c19ec3d",
+      "slug": "heart-healthy-recipes",
+      "name": "Heart Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "91787faa-a0a3-592a-bfd7-3fc7763607e8",
+      "slug": "chile-peppers",
+      "name": "Chile Peppers",
+      "color": null
+    },
+    {
+      "id": "c7bc6891-5003-528e-a3eb-95e7397beea2",
+      "slug": "low-sodium",
+      "name": "Low-Sodium",
+      "color": null
+    },
+    {
+      "id": "80d287aa-a955-5065-9421-c98ea9ca613b",
+      "slug": "low-cholesterol",
+      "name": "Low-Cholesterol",
+      "color": null
+    },
+    {
+      "id": "25138021-131a-54f2-80ed-a449c7d3f14f",
+      "slug": "grain-side-dish-recipes",
+      "name": "Grain Side Dish Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/221433/arroz-rojo-mexican-red-rice"
+  },
+  "public": true,
+  "updated_at": 1786553549,
+  "revision": 1
+}

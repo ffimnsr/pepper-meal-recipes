@@ -1,0 +1,162 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "1e6f6932-b7b7-54a3-af94-c997f7b6f116",
+  "slug": "watermelon-salad",
+  "name": "Watermelon Fruit Salad",
+  "recipe_type": "salad",
+  "brief_description": "Personal-sized watermelons make it easy to serve fruit salad inside individual watermelon-rind bowls!",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cut each watermelon in half lengthwise. Hollow out the insides using a melon baller, reserving rind for later use. Drain pineapple, and discard juice. Cut apples in half, remove cores, and cut into bite size pieces. Peel banana, and slice in to bite size pieces. Rinse grapes under cold running water, and pat dry."
+    },
+    {
+      "position": 2,
+      "text": "In a bowl, toss together the watermelon balls, pineapple, apple, banana chunks, and grapes. Divide fruit salad among the 4 reserved watermelon \"bowls,\" and serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "easy",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/1e6f6932-b7b7-54a3-af94-c997f7b6f116/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "451 kcal",
+    "carbohydrateContent": "115 g",
+    "fiberContent": "8 g",
+    "proteinContent": "6 g",
+    "saturatedFatContent": "0 g",
+    "sodiumContent": "12 mg",
+    "sugarContent": "93 g",
+    "fatContent": "2 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bdda5eaa-8f58-5b66-9a81-d20fe1ed565a",
+      "name": "small watermelons",
+      "normalized_name": "small watermelons",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "57891182-ac11-5523-a843-7d9d6a4ce102",
+      "name": "ounce) can canned diced pineapple in juice",
+      "normalized_name": "ounce can canned diced pineapple in juice",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drain juice and reserve",
+      "position": 2
+    },
+    {
+      "ingredient_id": "6e8b6aa8-7788-5aba-b748-726a8c46e66a",
+      "name": "seedless grapes",
+      "normalized_name": "seedless grapes",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "460c6f98-a8e4-59a5-b9e8-e52b36d1249f",
+      "name": "apples - peeled",
+      "normalized_name": "apples - peeled",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cored and chopped",
+      "position": 4
+    },
+    {
+      "ingredient_id": "1eebb4b2-e59f-5c62-9071-16e2f2babccb",
+      "name": "bananas",
+      "normalized_name": "bananas",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "cut into bite-size pieces",
+      "position": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": "f478616f-a55d-517b-9b00-0fdd6d81e364",
+      "slug": "dessert",
+      "name": "Dessert"
+    },
+    {
+      "id": "3b709f00-f1ec-560c-bd38-9a064431d6e2",
+      "slug": "salad",
+      "name": "Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "0d3864c1-8a45-5579-a632-a9ad3872c4d9",
+      "slug": "low-fat",
+      "name": "Low-Fat",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "db6b8e98-425a-5c75-a603-2e8f55fbec9c",
+      "slug": "healthy-recipes",
+      "name": "Healthy Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "c8ca8695-6f02-5df2-aa10-c45848cb52b7",
+      "slug": "fruit-salad-recipes",
+      "name": "Fruit Salad Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/72636/watermelon-salad"
+  },
+  "public": true,
+  "updated_at": 1684491398,
+  "revision": 1
+}

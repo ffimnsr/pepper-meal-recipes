@@ -1,0 +1,225 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "e9c30f54-fb7a-58c9-9c91-46abeaf6dfd6",
+  "slug": "moms-candied-yams-with-caramel",
+  "name": "Mom's Candied Yams with Caramel",
+  "recipe_type": "dessert",
+  "brief_description": "Traditional candied yams have an added layer of caramel sauce in the middle. Serve on Thanksgiving for a crowd-pleasing sweet side dish.",
+  "cuisine": null,
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Mix sweet potatoes, pineapple, butter, brown sugar, salt, egg, and cinnamon together in a bowl. Pour half the sweet potato mixture into a 9x9-inch casserole dish. Pour caramel sauce over sweet potatoes; top with 1 cup marshmallows. Spread the remaining sweet potato mixture over marshmallow layer."
+    },
+    {
+      "position": 3,
+      "text": "Bake in the preheated oven for 30 minutes. Add the remaining 1 cup marshmallows and bake until marshmallows are golden brown, about 10 more minutes."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/e9c30f54-fb7a-58c9-9c91-46abeaf6dfd6/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "273 kcal",
+    "carbohydrateContent": "51 g",
+    "cholesterolContent": "47 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "274 mg",
+    "sugarContent": "23 g",
+    "fatContent": "7 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "94831f24-89d5-5929-b81c-e106d9b26d01",
+      "name": "ounce) can sweet potatoes",
+      "normalized_name": "ounce can sweet potatoes",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "drained and mashed",
+      "position": 1
+    },
+    {
+      "ingredient_id": "9d740bf0-fd08-5914-8908-c79f11881eed",
+      "name": "ounce) can crushed pineapple",
+      "normalized_name": "ounce can crushed pineapple",
+      "quantity": "1 (8",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 2
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "2a653059-15a2-52b5-9869-58312dbfe148",
+      "name": "brown sugar",
+      "normalized_name": "brown sugar",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
+      "name": "egg",
+      "normalized_name": "egg",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "beaten",
+      "position": 6
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "8d59d262-b203-58a8-a6ec-2cd2c2d89739",
+      "name": "caramel topping",
+      "normalized_name": "caramel topping",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "da606717-2104-5527-a8a9-1a1c34b1388a",
+      "name": "marshmallows",
+      "normalized_name": "marshmallows",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "divided",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "643bc082-d237-5d3d-8873-bdf1bbdfbbb4",
+      "slug": "side-dish",
+      "name": "Side Dish"
+    },
+    {
+      "id": "78c1d8e4-5038-5e5d-be85-122a9c698f92",
+      "slug": "casseroles",
+      "name": "Casseroles"
+    },
+    {
+      "id": "998bd47b-141b-5223-a0a4-7b3d9f591236",
+      "slug": "sweet-potato-casserole",
+      "name": "Sweet Potato Casserole"
+    }
+  ],
+  "tags": [
+    {
+      "id": "a71e550c-3ee1-5dfe-b3bf-f7df44118975",
+      "slug": "fruit",
+      "name": "Fruit",
+      "color": null
+    },
+    {
+      "id": "9247e915-94df-5936-8bb0-46841c369b86",
+      "slug": "casseroles",
+      "name": "Casseroles",
+      "color": null
+    },
+    {
+      "id": "f275f5a1-e0b2-586d-9bac-3b36e90de2ba",
+      "slug": "sweet-potatoes",
+      "name": "Sweet Potatoes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "7778e77e-cc4a-5582-b07f-1e54cd1bcc30",
+      "slug": "vegetables",
+      "name": "Vegetables",
+      "color": null
+    },
+    {
+      "id": "b92a5edc-2f69-57c9-a59c-208610d7140c",
+      "slug": "canned-vegetable-recipes",
+      "name": "Canned Vegetable Recipes",
+      "color": null
+    },
+    {
+      "id": "2cbb4e2e-81e1-56b2-b60d-e470f8595c8c",
+      "slug": "entertaining",
+      "name": "Entertaining",
+      "color": null
+    },
+    {
+      "id": "11232652-01df-591c-8b67-348ec6bdfc3d",
+      "slug": "yams",
+      "name": "Yams",
+      "color": null
+    },
+    {
+      "id": "26d199b5-1845-5f8a-9b0b-afd02432b95e",
+      "slug": "fruits-and-vegetables",
+      "name": "Fruits and Vegetables",
+      "color": null
+    },
+    {
+      "id": "f6c4b0b6-c32b-5d36-b81a-2ff399253a58",
+      "slug": "thanksgiving",
+      "name": "Thanksgiving",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/229906/moms-candied-yams-with-caramel"
+  },
+  "public": true,
+  "updated_at": 1642141676,
+  "revision": 1
+}

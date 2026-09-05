@@ -1,0 +1,214 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4a160d18-a81c-5e4e-8a17-d6bc5d02eaf9",
+  "slug": "my-special-shrimp-scampi-florentine",
+  "name": "My Special Shrimp Scampi Florentine",
+  "recipe_type": "main",
+  "brief_description": "My special shrimp scampi Florentine recipe has the fresh flavors of tomatoes, fresh spinach, and pesto. Serve it over rice with hot Italian bread.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine butter and olive oil in a large skillet over medium heat. Stir in tomatoes, pesto, and garlic; simmer until tomatoes start to soften, about 2 minutes. Season with pepper flakes and black pepper."
+    },
+    {
+      "position": 2,
+      "text": "Stir shrimp into sauce; cook just until they turn pink, 3 to 5 minutes. Add spinach; stir until wilted, about 1 minute."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4a160d18-a81c-5e4e-8a17-d6bc5d02eaf9/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "446 kcal",
+    "carbohydrateContent": "6 g",
+    "cholesterolContent": "216 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "22 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "384 mg",
+    "sugarContent": "3 g",
+    "fatContent": "38 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "48514a17-962d-5db7-93b6-ff181bf9981c",
+      "name": "large plum tomatoes",
+      "normalized_name": "large plum tomatoes",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "seeded and diced",
+      "position": 3
+    },
+    {
+      "ingredient_id": "b9509f01-27c5-57b2-a1ab-8d4dee1e9fcd",
+      "name": "prepared basil pesto (such as classico \u2122)",
+      "normalized_name": "prepared basil pesto",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "3",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 5
+    },
+    {
+      "ingredient_id": "8f4cc06f-a189-5342-95fd-15f317a973db",
+      "name": "red pepper flakes",
+      "normalized_name": "red pepper flakes",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": "or to taste",
+      "position": 6
+    },
+    {
+      "ingredient_id": "4794b416-fd93-5c53-94bb-e546becf51d1",
+      "name": "black pepper to taste",
+      "normalized_name": "black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "c0c81ee9-da2d-5907-928f-a667f7be2c64",
+      "name": "large shrimp",
+      "normalized_name": "large shrimp",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": "peeled and deveined",
+      "position": 8
+    },
+    {
+      "ingredient_id": "04129b0e-7a5b-515b-a66d-9a0fe7f0324b",
+      "name": "fresh spinach",
+      "normalized_name": "fresh spinach",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": "rinsed and stemmed",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "2336c377-3a0d-5315-937c-eb9b27723743",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes"
+    },
+    {
+      "id": "4710e724-e184-5c95-a495-52fd897b6539",
+      "slug": "shrimp",
+      "name": "Shrimp"
+    },
+    {
+      "id": "b95382a8-8efd-5956-bfa1-e4fbc4829a29",
+      "slug": "shrimp-scampi",
+      "name": "Shrimp Scampi"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "add27065-f760-5b0f-9c27-afe8938a5517",
+      "slug": "spinach",
+      "name": "Spinach",
+      "color": null
+    },
+    {
+      "id": "2b223ada-ae83-5137-aaab-baeb45ff3fa2",
+      "slug": "greens",
+      "name": "Greens",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "2e917368-abff-5523-8e3d-8110ca84fb90",
+      "slug": "shrimp",
+      "name": "Shrimp",
+      "color": null
+    },
+    {
+      "id": "d332a9ec-b8ef-5aec-97af-161979c48aa7",
+      "slug": "30-minute-meal-recipes",
+      "name": "30-Minute Meal Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/156232/my-special-shrimp-scampi-florentine"
+  },
+  "public": true,
+  "updated_at": 1787149113,
+  "revision": 1
+}

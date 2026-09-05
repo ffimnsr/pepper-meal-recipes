@@ -1,0 +1,265 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "a17eafb4-48da-54a7-9dc4-36daf706a09d",
+  "slug": "vegan-mushroom-ceviche",
+  "name": "Vegan Mushroom Ceviche",
+  "recipe_type": "appetizer",
+  "brief_description": "This vegan mushroom ceviche is made with white mushrooms, carrots, tomatoes, and onion. It can be served as a dip or as a tostada topping.",
+  "cuisine": "Mexican",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Heat olive oil in a large skillet over medium heat. Add garlic and cook for 10 seconds. Stir in mushrooms and season with salt; cook until soft, about 8 minutes. Remove from heat."
+    },
+    {
+      "position": 2,
+      "text": "Place mushrooms in a large bowl and add tomatoes, carrots, onion, cilantro, serrano pepper, and jalapeno pepper."
+    },
+    {
+      "position": 3,
+      "text": "Combine lime juice, tomato juice, ketchup, and pickle juice in a second bowl. Pour over mushroom mixture and let stand for 20 minutes. Serve garnished with avocado slices."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 10,
+  "preparation_time_minutes": 25,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/a17eafb4-48da-54a7-9dc4-36daf706a09d/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "253 kcal",
+    "carbohydrateContent": "24 g",
+    "fiberContent": "8 g",
+    "proteinContent": "7 g",
+    "saturatedFatContent": "3 g",
+    "sodiumContent": "390 mg",
+    "sugarContent": "12 g",
+    "fatContent": "17 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "241c9d5c-e44d-5169-a35a-661688f67191",
+      "name": "ounce) packages fresh white mushrooms",
+      "normalized_name": "ounce packages fresh white mushrooms",
+      "quantity": "3 (8",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "d6237017-e3bd-5dd7-9672-8675eceaeb08",
+      "name": "salt to taste",
+      "normalized_name": "salt to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "c3fd3383-b49a-5826-b314-7fea505abedd",
+      "name": "tomatoes",
+      "normalized_name": "tomatoes",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "70b62500-8218-5df2-965a-67427ed9843f",
+      "name": "carrots",
+      "normalized_name": "carrots",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "grated",
+      "position": 6
+    },
+    {
+      "ingredient_id": "4fd5be30-292b-5ddd-84eb-acfe87eb005d",
+      "name": "white onion",
+      "normalized_name": "white onion",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "chopped",
+      "position": 7
+    },
+    {
+      "ingredient_id": "2e381041-8e0b-54b3-9324-5ba0b0ebf844",
+      "name": "chopped fresh cilantro",
+      "normalized_name": "chopped fresh cilantro",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "4d911876-7db1-5cc6-96e5-a6bf154bd4c2",
+      "name": "fresh serrano pepper",
+      "normalized_name": "fresh serrano pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and chopped",
+      "position": 9
+    },
+    {
+      "ingredient_id": "27b206e7-c719-5189-98bc-c3b2d040a6ad",
+      "name": "pickled jalapeno pepper",
+      "normalized_name": "pickled jalapeno pepper",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "seeded and chopped",
+      "position": 10
+    },
+    {
+      "ingredient_id": "59ad6408-a9e8-5f6c-aa7a-e073cf4e0a9c",
+      "name": "lime juice",
+      "normalized_name": "lime juice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "2a32e6fa-0693-58c1-a757-73ee50b40893",
+      "name": "tomato juice",
+      "normalized_name": "tomato juice",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "7cae1f44-2572-59d6-8828-d458b67afb19",
+      "name": "ketchup",
+      "normalized_name": "ketchup",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "944b0b11-f363-5f84-bb0f-b923ae3ae59e",
+      "name": "pickled jalapeno pepper juice",
+      "normalized_name": "pickled jalapeno pepper juice",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "2ebaa5f7-9804-59a8-831a-e09a155c527f",
+      "name": "avocados - peeled",
+      "normalized_name": "avocados - peeled",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "pitted, and sliced",
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "124784f4-745c-5809-a8e8-8b8d001edb7b",
+      "slug": "appetizer",
+      "name": "Appetizer"
+    },
+    {
+      "id": "be97dede-a3a2-59fa-a776-b5371dbc2222",
+      "slug": "appetizers-and-snacks",
+      "name": "Appetizers and Snacks"
+    },
+    {
+      "id": "24e3743e-25a0-58f6-8029-8741b37c8156",
+      "slug": "vegetable",
+      "name": "Vegetable"
+    },
+    {
+      "id": "fcbe29a0-e1fa-58a6-a387-e12650b7c5df",
+      "slug": "mushrooms",
+      "name": "Mushrooms"
+    }
+  ],
+  "tags": [
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "14f8b185-3b14-5647-8706-acca91b13af0",
+      "slug": "main-dishes",
+      "name": "Main Dishes",
+      "color": null
+    },
+    {
+      "id": "ab023647-c9d8-51b0-85ee-bd69271e4f94",
+      "slug": "ceviche-recipes",
+      "name": "Ceviche Recipes",
+      "color": null
+    },
+    {
+      "id": "164d4127-2765-5952-8f24-ca336b15d5d6",
+      "slug": "more-meal-ideas",
+      "name": "More Meal Ideas",
+      "color": null
+    },
+    {
+      "id": "cbad0048-c53e-5625-ac57-d5b397529a9c",
+      "slug": "mexican",
+      "name": "Mexican",
+      "color": null
+    },
+    {
+      "id": "a3693970-a6d4-5c51-83db-d8b107aba95a",
+      "slug": "carrots",
+      "name": "Carrots",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/262595/vegan-mushroom-ceviche"
+  },
+  "public": true,
+  "updated_at": 1739742295,
+  "revision": 1
+}

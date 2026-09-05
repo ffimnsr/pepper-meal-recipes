@@ -1,0 +1,284 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "4d622d51-3f5d-5229-8743-6e7db62c2f3e",
+  "slug": "jens-hearty-three-meat-chili",
+  "name": "Jen's Hearty Three Meat Chili",
+  "recipe_type": "soup",
+  "brief_description": "Italian sausage, ground beef, and stew beef, simmered with sweet spices, peppers, and dark beer for a chili like you've never had before.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Cook and stir sausage in a large skillet over medium heat until browned. Drain; place sausage in a pot large enough to hold all ingredients. In same skillet, cook and stir onion with ground beef over medium heat until beef is browned and onions are tender; drain and add to the large pot."
+    },
+    {
+      "position": 2,
+      "text": "In same skillet, cook and stir stew beef over medium heat until browned. Without draining, pour stew beef into the large pot."
+    },
+    {
+      "position": 3,
+      "text": "Pour tomatoes, beer, and water into the pot with meats. Stir in chili powder, red pepper, white pepper, sugar, and cinnamon. Season to taste with salt and black pepper. Simmer until stew beef is very tender, at least 2 hours, stirring occasionally and adding more water as needed. If you prefer a thicker chili, thicken as needed with tomato paste. If using kidney beans, add them 10 minutes before serving, just in time to heat through."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 120,
+  "preparation_time_minutes": 20,
+  "rest_time_minutes": null,
+  "difficulty": "expert",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/4d622d51-3f5d-5229-8743-6e7db62c2f3e/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "620 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "141 mg",
+    "fiberContent": "6 g",
+    "proteinContent": "44 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "805 mg",
+    "sugarContent": "10 g",
+    "fatContent": "36 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "c5cb1deb-0b6f-5677-8c55-9da63a791a5a",
+      "name": "hot or sweet italian sausage",
+      "normalized_name": "hot or sweet italian sausage",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "a94905e0-5822-5888-b9bc-7e2918a1965c",
+      "name": "ground beef",
+      "normalized_name": "ground beef",
+      "quantity": "1",
+      "unit": "pound",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "bdc7d4dd-9b44-54dd-831a-275087090393",
+      "name": "onion",
+      "normalized_name": "onion",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "22f8117e-e242-5f36-aa8b-df14c7b99d54",
+      "name": "beef stew meat",
+      "normalized_name": "beef stew meat",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": "cut into 1/2 inch pieces",
+      "position": 4
+    },
+    {
+      "ingredient_id": "9df4d90c-3c3d-5af4-a2c3-2dbac876bf33",
+      "name": "ounce) can diced tomatoes",
+      "normalized_name": "ounce can diced tomatoes",
+      "quantity": "1 (28",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "679d932f-4d30-51d8-b028-18a469d7d166",
+      "name": "fluid ounce) bottle dark beer",
+      "normalized_name": "fluid ounce bottle dark beer",
+      "quantity": "1 (12",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "eba5840a-c2be-51d2-9107-bff7fe6ff3e3",
+      "name": "chili powder",
+      "normalized_name": "chili powder",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 8
+    },
+    {
+      "ingredient_id": "5f1bc5c4-6e19-51cb-bef7-0e1f507f5a89",
+      "name": "red pepper",
+      "normalized_name": "red pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "15a31944-f1a5-5171-a651-8e8f61d29b47",
+      "name": "white pepper",
+      "normalized_name": "white pepper",
+      "quantity": "0.25",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "fd1f5f7a-51aa-571d-8496-fa035af63968",
+      "name": "white sugar",
+      "normalized_name": "white sugar",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 11
+    },
+    {
+      "ingredient_id": "18713103-dd8d-5028-982b-d2daec98553d",
+      "name": "ground cinnamon",
+      "normalized_name": "ground cinnamon",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 12
+    },
+    {
+      "ingredient_id": "133a8d1c-cf97-5603-b0e7-a44c1c7d655f",
+      "name": "salt and black pepper to taste",
+      "normalized_name": "salt and black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 13
+    },
+    {
+      "ingredient_id": "21960b21-948a-5139-b037-73997a5656a0",
+      "name": "tomato paste",
+      "normalized_name": "tomato paste",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 14
+    },
+    {
+      "ingredient_id": "c593906b-e65c-55ab-a751-2c4830119045",
+      "name": "ounce) can kidney beans",
+      "normalized_name": "ounce can kidney beans",
+      "quantity": "1 (15",
+      "unit": "pieces",
+      "preparation": "rinsed and drained",
+      "position": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "2233d10f-275a-5e5c-a3df-d9ba7047b8ee",
+      "slug": "chili",
+      "name": "Chili"
+    },
+    {
+      "id": "ace4b76f-029f-57da-82ed-2565fde01633",
+      "slug": "beef-chili",
+      "name": "Beef Chili"
+    }
+  ],
+  "tags": [
+    {
+      "id": "7b1227fd-46ae-5c64-8f29-f7cbdbf0c645",
+      "slug": "tailgating",
+      "name": "Tailgating",
+      "color": null
+    },
+    {
+      "id": "6c9fcd2e-b89d-5dc8-945e-a43b62af8746",
+      "slug": "events-and-gatherings-recipes",
+      "name": "Events and Gatherings Recipes",
+      "color": null
+    },
+    {
+      "id": "a0700614-162e-55cc-b84b-5881f6c2801a",
+      "slug": "all-about-beans-and-legumes",
+      "name": "All About Beans and Legumes",
+      "color": null
+    },
+    {
+      "id": "3a5da0b6-9dfb-5d3f-a47c-b6c3c42d4010",
+      "slug": "chili-recipes",
+      "name": "Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "c3d5add7-a233-5a3c-b4e9-1aedba7f6d79",
+      "slug": "beans-and-peas",
+      "name": "Beans and Peas",
+      "color": null
+    },
+    {
+      "id": "6b430856-eb14-5bc4-aa62-ca9648ad0bf6",
+      "slug": "seasonal",
+      "name": "Seasonal",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    },
+    {
+      "id": "04442a79-d418-57e8-9eed-8314b34aa864",
+      "slug": "winter",
+      "name": "Winter",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/154905/jens-hearty-three-meat-chili"
+  },
+  "public": true,
+  "updated_at": 1738173983,
+  "revision": 1
+}

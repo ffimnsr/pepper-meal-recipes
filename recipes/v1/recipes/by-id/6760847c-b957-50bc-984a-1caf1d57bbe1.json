@@ -1,0 +1,248 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "6760847c-b957-50bc-984a-1caf1d57bbe1",
+  "slug": "fruity-chicken-salad-with-tarragon",
+  "name": "Fruity Chicken Salad with Tarragon",
+  "recipe_type": "salad",
+  "brief_description": "This chicken salad is sweet and juicy from fruit, crunchy from pecans, and has a savory herb element from fresh tarragon. It's perfect served over greens or on a croissant.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Combine chicken, apple, grapes, pecans, red onion, and celery in a medium bowl."
+    },
+    {
+      "position": 2,
+      "text": "Whisk mayonnaise, yogurt, tarragon, Dijon mustard, and lime zest and juice together in a small bowl. Stir dressing into the chicken mixture. Season with salt and pepper."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": null,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/6760847c-b957-50bc-984a-1caf1d57bbe1/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "323 kcal",
+    "carbohydrateContent": "12 g",
+    "cholesterolContent": "56 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "16 g",
+    "saturatedFatContent": "4 g",
+    "sodiumContent": "207 mg",
+    "sugarContent": "7 g",
+    "fatContent": "24 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "51e29151-67d2-5458-abc5-0c40e8391c34",
+      "name": "grilled skinless",
+      "normalized_name": "grilled skinless",
+      "quantity": "1.5",
+      "unit": "cups",
+      "preparation": "boneless chicken thighs, chopped",
+      "position": 1
+    },
+    {
+      "ingredient_id": "f7990fd0-87bf-5d5e-b95c-4c84f5c66bf9",
+      "name": "red apple - peeled",
+      "normalized_name": "red apple - peeled",
+      "quantity": "0.5",
+      "unit": "pieces",
+      "preparation": "cored, and diced",
+      "position": 2
+    },
+    {
+      "ingredient_id": "3e7a4ac0-851f-5909-92e0-6283fbd3037d",
+      "name": "halved green grapes",
+      "normalized_name": "halved green grapes",
+      "quantity": "0.5",
+      "unit": "cup",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "7fb135b8-a75c-50e2-adba-7e26902abd77",
+      "name": "toasted chopped pecans",
+      "normalized_name": "toasted chopped pecans",
+      "quantity": "0.33333334326744",
+      "unit": "cup",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "128120d8-bfb6-55c2-9d45-dc7c94d1167a",
+      "name": "diced red onion",
+      "normalized_name": "diced red onion",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 5
+    },
+    {
+      "ingredient_id": "78e1afaf-f62e-57c5-8cbb-7a61169cf714",
+      "name": "diced celery",
+      "normalized_name": "diced celery",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "6ea5f8d5-8561-5016-bb89-5cd67e359896",
+      "name": "mayonnaise",
+      "normalized_name": "mayonnaise",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "d5ff7c4d-81cf-553f-9672-515ce7b0b94d",
+      "name": "low-fat plain greek yogurt",
+      "normalized_name": "low-fat plain greek yogurt",
+      "quantity": "0.25",
+      "unit": "cup",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "15e186dd-4bc9-5a1c-8bbf-b8fd5ea203de",
+      "name": "chopped fresh tarragon",
+      "normalized_name": "chopped fresh tarragon",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 9
+    },
+    {
+      "ingredient_id": "c43f0603-4761-5956-842c-cacc7ec997cf",
+      "name": "dijon mustard",
+      "normalized_name": "dijon mustard",
+      "quantity": "1",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 10
+    },
+    {
+      "ingredient_id": "1ec1deeb-7dfe-5cf4-a12e-8caf941a240f",
+      "name": "lime",
+      "normalized_name": "lime",
+      "quantity": "1",
+      "unit": "piece",
+      "preparation": "zested and juiced",
+      "position": 11
+    },
+    {
+      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
+      "name": "salt and freshly ground black pepper to taste",
+      "normalized_name": "salt and freshly ground black pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": "025fa1be-5678-5266-9ffe-5305ac93ee95",
+      "slug": "lunch",
+      "name": "Lunch"
+    },
+    {
+      "id": "99f7d0b5-6f8e-5a27-a360-b11607dfc755",
+      "slug": "meat-and-poultry",
+      "name": "Meat and Poultry"
+    },
+    {
+      "id": "d41bd97b-e6bf-546f-be20-79b8486ec800",
+      "slug": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "42d47281-4996-5c3b-b16f-3ae540302bbd",
+      "slug": "chicken-salad",
+      "name": "Chicken Salad"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0c4351c3-a3e2-5491-9427-591469b533f8",
+      "slug": "chicken-salad-recipes",
+      "name": "Chicken Salad Recipes",
+      "color": null
+    },
+    {
+      "id": "51a5d4f2-739b-5fd6-b692-7729696c3281",
+      "slug": "special-collections",
+      "name": "Special Collections",
+      "color": null
+    },
+    {
+      "id": "1fe24e03-0a66-56d6-bb8a-57403d1f04d3",
+      "slug": "nuts-and-seed-recipes",
+      "name": "Nuts and Seed Recipes",
+      "color": null
+    },
+    {
+      "id": "5bea5617-b147-55da-8228-3bda9f90ab6a",
+      "slug": "fruits",
+      "name": "Fruits",
+      "color": null
+    },
+    {
+      "id": "f99b2743-533f-58c9-a274-2f2c99b26095",
+      "slug": "herb-recipes",
+      "name": "Herb Recipes",
+      "color": null
+    },
+    {
+      "id": "364fe907-bfae-5fc5-9559-30612e2350d7",
+      "slug": "tarragon-recipes",
+      "name": "Tarragon Recipes",
+      "color": null
+    },
+    {
+      "id": "6dad4087-a7f9-5c35-ac41-349f07684bd8",
+      "slug": "chicken-thigh-recipes",
+      "name": "Chicken Thigh Recipes",
+      "color": null
+    },
+    {
+      "id": "b3fb8fd0-1202-598c-a7b3-73bf75400f99",
+      "slug": "apples",
+      "name": "Apples",
+      "color": null
+    },
+    {
+      "id": "0a5ad486-79b1-503a-a386-725097cd76e7",
+      "slug": "allrecipes-allstar-recipes",
+      "name": "Allrecipes Allstar Recipes",
+      "color": null
+    },
+    {
+      "id": "eda43a7d-cd1e-531a-868f-b6a5d61f13f4",
+      "slug": "chicken",
+      "name": "Chicken",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/275571/fruity-chicken-salad-with-tarragon"
+  },
+  "public": true,
+  "updated_at": 1732775436,
+  "revision": 1
+}

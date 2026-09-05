@@ -1,0 +1,223 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "86b48e94-15cf-5cff-9e26-1aebb6e59f71",
+  "slug": "smoked-salmon-frittata",
+  "name": "Smoked Salmon Frittata",
+  "recipe_type": "breakfast",
+  "brief_description": "This delicious salmon frittata recipe is made with smoked salmon and cream cheese. Add fresh herbs or avocado slices for a beautiful presentation.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+    },
+    {
+      "position": 2,
+      "text": "Heat olive oil in an 8-inch, oven-safe skillet over medium heat. Add onion and season with a little salt and pepper. Cook, stirring until translucent, about 5 minutes. Add salmon and olives; cook and stir briefly to release the flavors."
+    },
+    {
+      "position": 3,
+      "text": "In a medium bowl, whisk together eggs, milk, and cream. Pour over salmon and onion, and stir gently. Scatter cubes of cream cheese over the top. Cook over medium heat without stirring, until the edges appear firm."
+    },
+    {
+      "position": 4,
+      "text": "Place the skillet in the preheated oven, and bake for 20 minutes, or until nicely browned and puffed. Flip onto a serving plate, and cut into wedges to serve."
+    }
+  ],
+  "servings": 4,
+  "cooking_time_minutes": 30,
+  "preparation_time_minutes": 30,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/86b48e94-15cf-5cff-9e26-1aebb6e59f71/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "401 kcal",
+    "carbohydrateContent": "3 g",
+    "cholesterolContent": "327 mg",
+    "fiberContent": "0 g",
+    "proteinContent": "17 g",
+    "saturatedFatContent": "13 g",
+    "sodiumContent": "543 mg",
+    "sugarContent": "1 g",
+    "fatContent": "36 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
+      "name": "olive oil",
+      "normalized_name": "olive oil",
+      "quantity": "4",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "95e1bb18-c04d-531c-8a7d-83304e469af0",
+      "name": "medium onion",
+      "normalized_name": "medium onion",
+      "quantity": "0.25",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "b265c863-e339-5be7-8416-fba979a7e788",
+      "name": "pepper smoked salmon",
+      "normalized_name": "pepper smoked salmon",
+      "quantity": "4",
+      "unit": "ounces",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "91bbaa5f-c179-5b2e-a173-7954a1e54d76",
+      "name": "black olives",
+      "normalized_name": "black olives",
+      "quantity": "8",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 5
+    },
+    {
+      "ingredient_id": "c554044a-80d0-571c-99e4-806049a28d5f",
+      "name": "eggs",
+      "normalized_name": "eggs",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "0c7dce79-bb52-51bd-80b3-d398ccad9956",
+      "name": "milk",
+      "normalized_name": "milk",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 8
+    },
+    {
+      "ingredient_id": "cd6cdf2d-dbde-56e7-8f54-f3790f0cf0a1",
+      "name": "ounce) package cream cheese",
+      "normalized_name": "ounce package cream cheese",
+      "quantity": "0.5 (8",
+      "unit": "pieces",
+      "preparation": "cubed",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "fecb0841-9305-5efc-a3fd-1d5589908024",
+      "slug": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "9c557406-bd91-52ec-9736-9b7ae254ff85",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch"
+    },
+    {
+      "id": "4797c63e-df4e-51d8-857b-ef9a8f1da0ec",
+      "slug": "eggs",
+      "name": "Eggs"
+    },
+    {
+      "id": "2da64254-5d89-5e90-936d-80dd8fc2f10a",
+      "slug": "frittata",
+      "name": "Frittata"
+    }
+  ],
+  "tags": [
+    {
+      "id": "47524e31-2c45-5536-8117-12421e363449",
+      "slug": "salmon",
+      "name": "Salmon",
+      "color": null
+    },
+    {
+      "id": "f7a20535-5275-5032-b0e5-0e2846cb32f6",
+      "slug": "baked-salmon-recipes",
+      "name": "Baked Salmon Recipes",
+      "color": null
+    },
+    {
+      "id": "8f247604-9148-57d5-bda1-63d9bd36390c",
+      "slug": "gourmet-recipes",
+      "name": "Gourmet Recipes",
+      "color": null
+    },
+    {
+      "id": "0594791a-31dd-5e87-9b28-32dc7c74979b",
+      "slug": "seafood-main-dishes",
+      "name": "Seafood Main Dishes",
+      "color": null
+    },
+    {
+      "id": "01ce0f66-96ac-59ec-ac39-b64ad2fdeb65",
+      "slug": "seafood",
+      "name": "Seafood",
+      "color": null
+    },
+    {
+      "id": "306310c3-f128-5544-ad12-a0f07966de08",
+      "slug": "cheese-recipes",
+      "name": "Cheese Recipes",
+      "color": null
+    },
+    {
+      "id": "24545147-ff66-5d1a-beac-253ccf1ef98b",
+      "slug": "eggs",
+      "name": "Eggs",
+      "color": null
+    },
+    {
+      "id": "c9b6d34c-c82e-55bd-8914-9dc9282309d8",
+      "slug": "smoked",
+      "name": "Smoked",
+      "color": null
+    },
+    {
+      "id": "410ab366-d997-5332-8734-d7ba1e9d9898",
+      "slug": "breakfast-and-brunch",
+      "name": "Breakfast and Brunch",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/71928/smoked-salmon-frittata"
+  },
+  "public": true,
+  "updated_at": 1786121059,
+  "revision": 1
+}

@@ -1,0 +1,223 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "abdb8018-7270-5891-a65a-63af2d3db920",
+  "slug": "grilled-mushroom-swiss-burgers",
+  "name": "Mushroom Swiss Burger",
+  "recipe_type": "main",
+  "brief_description": "A satisfying mushroom Swiss burger, made with a juicy homemade beef patty, topped with savory sliced mushrooms and gooey melted Swiss cheese.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Gather all ingredients. Preheat an outdoor grill for medium heat and lightly oil the grate."
+    },
+    {
+      "position": 2,
+      "text": "Divide ground beef into 6 equal-sized patties; season with meat tenderizer, salt, and pepper. Set aside."
+    },
+    {
+      "position": 3,
+      "text": "Melt butter in a skillet over medium heat. Add mushrooms and soy sauce; cook and stir until browned. Set aside and keep warm."
+    },
+    {
+      "position": 4,
+      "text": "Grill patties on the preheated grill for about 2-4 minutes per side. Increase or decrease the cook time according to your desired doneness. For a well done burger, an instant-read thermometer inserted into the center should read 160 degrees F (70 degrees C)."
+    },
+    {
+      "position": 5,
+      "text": "Spoon mushroom mixture evenly on top of patties on the grill; top each one with a slice of Swiss cheese. Cover the grill until cheese melts, about 1 minute."
+    },
+    {
+      "position": 6,
+      "text": "Remove patties from the grill and serve on hamburger buns."
+    }
+  ],
+  "servings": 6,
+  "cooking_time_minutes": 15,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/abdb8018-7270-5891-a65a-63af2d3db920/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "520 kcal",
+    "carbohydrateContent": "25 g",
+    "cholesterolContent": "106 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "30 g",
+    "saturatedFatContent": "14 g",
+    "sodiumContent": "868 mg",
+    "sugarContent": "1 g",
+    "fatContent": "32 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "778d5ad9-1311-5126-b702-4f151342a091",
+      "name": "lean ground beef",
+      "normalized_name": "lean ground beef",
+      "quantity": "1.5",
+      "unit": "pounds",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "3a8025c1-4a16-5e7e-8e35-b09c8131fcab",
+      "name": "seasoned meat tenderizer",
+      "normalized_name": "seasoned meat tenderizer",
+      "quantity": "0.5",
+      "unit": "teaspoon",
+      "preparation": null,
+      "position": 2
+    },
+    {
+      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
+      "name": "salt and pepper to taste",
+      "normalized_name": "salt and pepper to taste",
+      "quantity": null,
+      "unit": "pieces",
+      "preparation": null,
+      "position": 3
+    },
+    {
+      "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
+      "name": "butter",
+      "normalized_name": "butter",
+      "quantity": "2",
+      "unit": "teaspoons",
+      "preparation": null,
+      "position": 4
+    },
+    {
+      "ingredient_id": "2bf69969-5b09-50c5-b99f-3ee61523cf53",
+      "name": "ounce) cans sliced mushrooms",
+      "normalized_name": "ounce cans sliced mushrooms",
+      "quantity": "2 (4",
+      "unit": "pieces",
+      "preparation": "drained",
+      "position": 5
+    },
+    {
+      "ingredient_id": "ee4f732f-6b0b-5e40-b786-558be7cd3ac8",
+      "name": "soy sauce",
+      "normalized_name": "soy sauce",
+      "quantity": "2",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "aa55292e-a279-5cd4-a639-3243c7f5331d",
+      "name": "slices swiss cheese",
+      "normalized_name": "slices swiss cheese",
+      "quantity": "4",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "a3c2e67a-4249-5b86-a9e7-344b5beafc4a",
+      "name": "hamburger buns",
+      "normalized_name": "hamburger buns",
+      "quantity": "6",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8b0dba29-8913-5fd3-966c-dce7a0d9cf59",
+      "slug": "main-dishes",
+      "name": "Main Dishes"
+    },
+    {
+      "id": "2c49fb38-55ee-510b-a413-68b066288446",
+      "slug": "burger",
+      "name": "Burger"
+    }
+  ],
+  "tags": [
+    {
+      "id": "98a7415a-985a-5cbf-9186-c90c60f42cf7",
+      "slug": "burger-recipes",
+      "name": "Burger Recipes",
+      "color": null
+    },
+    {
+      "id": "7692a559-c806-5e64-b32b-1c8ef3fcb458",
+      "slug": "hamburgers",
+      "name": "Hamburgers",
+      "color": null
+    },
+    {
+      "id": "3c1e39d4-ef6a-5dc8-87e4-cbc308f65304",
+      "slug": "cheeseburger-recipes",
+      "name": "Cheeseburger Recipes",
+      "color": null
+    },
+    {
+      "id": "2ba5284f-8a9d-5a84-9329-037836f65f57",
+      "slug": "4th-of-july",
+      "name": "4th of July",
+      "color": null
+    },
+    {
+      "id": "2fdaa6b0-35ed-5dbf-a615-3a99d1a5e4ef",
+      "slug": "mushrooms",
+      "name": "Mushrooms",
+      "color": null
+    },
+    {
+      "id": "0c0382f0-5eab-53c6-90d8-662245a076b6",
+      "slug": "memorial-day",
+      "name": "Memorial Day",
+      "color": null
+    },
+    {
+      "id": "08fe6f78-ce7e-5e84-a5da-8b9f0414f24b",
+      "slug": "father-s-day",
+      "name": "Father's Day",
+      "color": null
+    },
+    {
+      "id": "69172789-ab24-5e3c-80fd-5e67112c85a3",
+      "slug": "canned-food",
+      "name": "Canned Food",
+      "color": null
+    },
+    {
+      "id": "4862ebea-a876-5ebb-af5f-d2db60240020",
+      "slug": "dinner",
+      "name": "Dinner",
+      "color": null
+    },
+    {
+      "id": "ad2e4bb4-e9f2-5158-b5d6-6ccc80a1e259",
+      "slug": "ground-beef-recipes",
+      "name": "Ground Beef Recipes",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/36058/grilled-mushroom-swiss-burgers"
+  },
+  "public": true,
+  "updated_at": 1784041334,
+  "revision": 1
+}

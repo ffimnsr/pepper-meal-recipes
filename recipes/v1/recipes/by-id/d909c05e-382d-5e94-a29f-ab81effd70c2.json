@@ -1,0 +1,231 @@
+{
+  "$schema": "../../schemas/recipe.schema.json",
+  "schema_version": 1,
+  "id": "d909c05e-382d-5e94-a29f-ab81effd70c2",
+  "slug": "leek-and-potato-soup",
+  "name": "Leek and Potato Soup",
+  "recipe_type": "soup",
+  "brief_description": "Creamy and comforting for a cold winter day, this leek and potato soup is ready to serve in under an hour.",
+  "cuisine": "American",
+  "instructions": [
+    {
+      "position": 1,
+      "text": "Melt butter in a large pot over medium heat. Add leeks and cook and stir until softened, about 5 minutes. Stir in celery; cook and stir until softened, about 5 minutes more. Add garlic; cook and stir until fragrant, about 1 minute. Stir in potatoes, vegetable broth, and water; bring to a boil. Reduce heat to medium-low and simmer until potatoes are tender and easily pierced with a fork, about 25 minutes."
+    },
+    {
+      "position": 2,
+      "text": "Blend using an immersion blender or in a regular blender in batches. Stir in heavy cream until heated through. Season to taste with salt."
+    }
+  ],
+  "servings": 8,
+  "cooking_time_minutes": 40,
+  "preparation_time_minutes": 15,
+  "rest_time_minutes": null,
+  "difficulty": "medium",
+  "image_url": "https://github.com/ffimnsr/pepper-meal-recipes/raw/master/recipes/v1/assets/by-id/d909c05e-382d-5e94-a29f-ab81effd70c2/cover.jpg",
+  "video_url": null,
+  "additional_media": [],
+  "nutritional_information": {
+    "@type": "NutritionInformation",
+    "calories": "224 kcal",
+    "carbohydrateContent": "20 g",
+    "cholesterolContent": "52 mg",
+    "fiberContent": "2 g",
+    "proteinContent": "3 g",
+    "saturatedFatContent": "10 g",
+    "sodiumContent": "1332 mg",
+    "sugarContent": "3 g",
+    "fatContent": "16 g",
+    "unsaturatedFatContent": "0 g"
+  },
+  "dietary_labels": [],
+  "allergens": [],
+  "equipment": [],
+  "ingredients": [
+    {
+      "ingredient_id": "ffaeafed-5d45-547a-87d1-29176b89b6f7",
+      "name": "salted butter",
+      "normalized_name": "salted butter",
+      "quantity": "3",
+      "unit": "tablespoons",
+      "preparation": null,
+      "position": 1
+    },
+    {
+      "ingredient_id": "ffa48b3e-a87f-5ce0-a04a-869ba08cab17",
+      "name": "large leeks (white and pale green parts only)",
+      "normalized_name": "large leeks",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 2
+    },
+    {
+      "ingredient_id": "90f68068-5760-5bdb-9327-4e2c523cab59",
+      "name": "stalks celery",
+      "normalized_name": "stalks celery",
+      "quantity": "2",
+      "unit": "pieces",
+      "preparation": "chopped",
+      "position": 3
+    },
+    {
+      "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
+      "name": "garlic",
+      "normalized_name": "garlic",
+      "quantity": "2",
+      "unit": "cloves",
+      "preparation": "minced",
+      "position": 4
+    },
+    {
+      "ingredient_id": "e68db3f4-679c-5e1c-ab92-7b3ca7108ce2",
+      "name": "medium yukon gold potatoes",
+      "normalized_name": "medium yukon gold potatoes",
+      "quantity": "3",
+      "unit": "pieces",
+      "preparation": "peeled and cubed",
+      "position": 5
+    },
+    {
+      "ingredient_id": "8f4b0077-b8ce-5a38-92ba-9d8b7e5500ea",
+      "name": "ounce) carton no-salt-added vegetable broth",
+      "normalized_name": "ounce carton no-salt-added vegetable broth",
+      "quantity": "1 (32",
+      "unit": "pieces",
+      "preparation": null,
+      "position": 6
+    },
+    {
+      "ingredient_id": "b3093b3f-d99c-52fd-9035-976c0a2c55ea",
+      "name": "water",
+      "normalized_name": "water",
+      "quantity": "2",
+      "unit": "cups",
+      "preparation": null,
+      "position": 7
+    },
+    {
+      "ingredient_id": "cffb5e15-5a8c-563b-b1a2-bf3a76c123c8",
+      "name": "heavy cream",
+      "normalized_name": "heavy cream",
+      "quantity": "1",
+      "unit": "cup",
+      "preparation": "or to taste",
+      "position": 8
+    },
+    {
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
+      "quantity": "4",
+      "unit": "teaspoons",
+      "preparation": "or to taste",
+      "position": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": "d5c62f68-5499-559d-bca9-20a6e57a3973",
+      "slug": "dinner",
+      "name": "Dinner"
+    },
+    {
+      "id": "8e227c2c-cd35-5834-b78a-d234dea86076",
+      "slug": "soups",
+      "name": "Soups"
+    },
+    {
+      "id": "3c1d08c7-bf61-5aa2-a3f3-cb0f6d7004cb",
+      "slug": "stews-and-chili",
+      "name": "Stews and Chili"
+    },
+    {
+      "id": "514e9b52-366e-5d63-87bd-7d6be8a662ab",
+      "slug": "soup",
+      "name": "Soup"
+    },
+    {
+      "id": "a223d120-a2a2-54de-8b0c-cc5e335554a3",
+      "slug": "cream-soup",
+      "name": "Cream Soup"
+    },
+    {
+      "id": "b508ee54-3a95-5ed1-9ca4-4fba119efc92",
+      "slug": "potato-leek-soup",
+      "name": "Potato Leek Soup"
+    }
+  ],
+  "tags": [
+    {
+      "id": "e00a4ea0-c60a-505a-8352-14c3796c4f39",
+      "slug": "potato-leek-soup-recipes",
+      "name": "Potato Leek Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "5606a16e-e04d-5bc0-9a9b-14e21d2c303c",
+      "slug": "potato-soup-recipes",
+      "name": "Potato Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "2fa361d7-d699-5388-8520-3a99b923f0dd",
+      "slug": "soup-recipes",
+      "name": "Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "0ba2dbac-5402-57cb-a7ce-dacd0cdbb76f",
+      "slug": "vegetable-soup-recipes",
+      "name": "Vegetable Soup Recipes",
+      "color": null
+    },
+    {
+      "id": "408d348c-9e55-5edd-8e69-54592af52d06",
+      "slug": "soups-and-stews",
+      "name": "Soups and Stews",
+      "color": null
+    },
+    {
+      "id": "f5bd9c7d-6900-5a33-9c74-dd507abf4796",
+      "slug": "leeks",
+      "name": "Leeks",
+      "color": null
+    },
+    {
+      "id": "4e641e8f-d2e5-55ac-b777-eaab04777d62",
+      "slug": "how-to",
+      "name": "How To",
+      "color": null
+    },
+    {
+      "id": "20c7e837-fd88-55d3-8c9f-a85cb9a45af9",
+      "slug": "soups",
+      "name": "Soups",
+      "color": null
+    },
+    {
+      "id": "0df1448e-91ac-58ee-9c70-d0df149137b4",
+      "slug": "stews-and-chili-recipes",
+      "name": "Stews and Chili Recipes",
+      "color": null
+    },
+    {
+      "id": "2d125895-5569-549a-907e-4302ae47cb95",
+      "slug": "soup",
+      "name": "Soup",
+      "color": null
+    }
+  ],
+  "related_recipe_ids": [],
+  "recipe_notes": [],
+  "storage_notes": [],
+  "source": {
+    "name": "Allrecipes",
+    "url": "https://www.allrecipes.com/recipe/279687/leek-and-potato-soup"
+  },
+  "public": true,
+  "updated_at": 1777540807,
+  "revision": 1
+}
