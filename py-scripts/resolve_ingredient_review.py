@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Interactively resolve ingredients.review.json entries by editing the underlying recipe rows."""
+"""Interactively resolve .ingredient-review.json entries by editing the underlying recipe rows."""
 
 from __future__ import annotations
 
@@ -29,6 +29,7 @@ GENERATE_CATALOG_SPEC.loader.exec_module(generate_catalog)
 INGREDIENT_NAMESPACE = generate_catalog.INGREDIENT_NAMESPACE
 INDEXES_DIR = generate_catalog.INDEXES_DIR
 RECIPES_DIR = generate_catalog.RECIPES_DIR
+INGREDIENT_REVIEW_FILE = generate_catalog.INGREDIENT_REVIEW_FILE
 AMBIGUOUS_CONNECTOR_RE = generate_catalog.AMBIGUOUS_CONNECTOR_RE
 EXCLUDED_INGREDIENT_PATTERNS = generate_catalog.EXCLUDED_INGREDIENT_PATTERNS
 SAFE_COMPOUND_SPLITS = generate_catalog.SAFE_COMPOUND_SPLITS
@@ -38,6 +39,7 @@ normalize_name = generate_catalog.normalize_name
 stable_uuid = generate_catalog.stable_uuid
 
 CHECKPOINT_FILE_NAME = ".ingredient-review-state.json"
+IGNORE_FILE_NAME = ".ingredient-ignored.json"
 
 Input = Callable[[str], str]
 Output = Callable[[str], None]
@@ -48,6 +50,7 @@ class ResolveStats:
     recipe_files_updated: int = 0
     ingredient_rows_updated: int = 0
     entries_resolved: int = 0
+    ingredients_ignored: int = 0
 
 
 @dataclass
@@ -68,7 +71,7 @@ def load_json(path: Path) -> dict:
 
 
 def load_ingredient_review() -> list[dict]:
-    review_path = INDEXES_DIR / "ingredients.review.json"
+    review_path = INGREDIENT_REVIEW_FILE
     if not review_path.exists():
         raise SystemExit(f"missing ingredient review index: {review_path}")
 
@@ -93,6 +96,48 @@ def load_ingredient_index() -> list[dict]:
 
 def checkpoint_path() -> Path:
     return REPO_ROOT / CHECKPOINT_FILE_NAME
+
+
+def ignored_ingredients_path() -> Path:
+    return REPO_ROOT / IGNORE_FILE_NAME
+
+
+def load_ignored_ingredients() -> list[dict]:
+    path = ignored_ingredients_path()
+    if not path.exists():
+        return []
+    payload = load_json(path)
+    ignored = payload.get("ignored", [])
+    if not isinstance(ignored, list):
+        raise SystemExit(f"invalid ingredient ignore list: {path}")
+    return ignored
+
+
+def save_ignored_ingredient(ingredient_id: str, normalized_name: str) -> None:
+    ignored = [
+        item
+        for item in load_ignored_ingredients()
+        if item.get("ingredient_id") != ingredient_id
+    ]
+    ignored.append({"ingredient_id": ingredient_id, "normalized_name": normalized_name})
+    ignored.sort(key=lambda item: (item.get("ingredient_id") or "", item.get("normalized_name") or ""))
+    dump_json(
+        ignored_ingredients_path(),
+        {"schema_version": 1, "ignored": ignored},
+    )
+
+
+def ignored_ingredient_identity(entry: dict, row: dict | None) -> tuple[str, str] | None:
+    """Return (ingredient_id, normalized_name) for the entry's canonical name."""
+    name = entry.get("cleaned_name") or ((row or {}).get("name") if row else None)
+    if isinstance(name, str):
+        cleaned_name = clean_text(name)
+    else:
+        cleaned_name = ""
+    normalized_name = normalize_name(cleaned_name)
+    if not normalized_name:
+        return None
+    return stable_uuid(INGREDIENT_NAMESPACE, normalized_name), normalized_name
 
 
 def load_review_checkpoint() -> set[tuple[str, int | None, str]]:
@@ -512,7 +557,8 @@ def resolve_entry(
     while True:
         display_entry(entry, row, number, total, output=output)
         answer = input_fn(
-            "Enter a new name to rename/merge, [s]plit, [e]xclude, [o]ther fields, [k]eep, [p]revious, [q]uit: "
+            "Enter a new name to rename/merge, [s]plit, [e]xclude, [o]ther fields, "
+            "[k]eep, [i]gnore name, [p]revious, [q]uit: "
         ).strip()
         command = answer.lower()
         if not answer or command in {"k", "keep"}:
@@ -522,6 +568,26 @@ def resolve_entry(
             raise SystemExit(0)
         if command in {"p", "previous"}:
             raise PreviousEntryRequested
+        if command in {"i", "ignore"}:
+            identity = ignored_ingredient_identity(entry, row)
+            if identity is None:
+                output("No ingredient name is available for this entry; choose [k]eep or [q]uit.")
+                continue
+            ingredient_id, normalized_name = identity
+            if any(item.get("ingredient_id") == ingredient_id for item in load_ignored_ingredients()):
+                output("This ingredient name is already ignored.")
+                return False, stats
+            if ask_yes_no(
+                "Ignore this ingredient name everywhere (index it; stop flagging it for review)?",
+                default=False,
+                input_fn=input_fn,
+                output=output,
+            ):
+                save_ignored_ingredient(ingredient_id, normalized_name)
+                stats.ingredients_ignored += 1
+                stats.entries_resolved += 1
+                return True, stats
+            continue
         if row is None or row_index is None:
             output("No matching row is available for this entry; choose [k]eep or [q]uit.")
             continue
@@ -665,6 +731,7 @@ def run_resolve(*, input_fn: Input = input, output: Output = print) -> ResolveSt
             total.recipe_files_updated -= previous_review.stats.recipe_files_updated
             total.ingredient_rows_updated -= previous_review.stats.ingredient_rows_updated
             total.entries_resolved -= previous_review.stats.entries_resolved
+            total.ingredients_ignored -= previous_review.stats.ingredients_ignored
             index = previous_review.index
             output("Returning to the previous entry.")
             previous_review = None
@@ -673,6 +740,7 @@ def run_resolve(*, input_fn: Input = input, output: Output = print) -> ResolveSt
         total.recipe_files_updated += stats.recipe_files_updated
         total.ingredient_rows_updated += stats.ingredient_rows_updated
         total.entries_resolved += stats.entries_resolved
+        total.ingredients_ignored += stats.ingredients_ignored
         if key is not None:
             if changed and key not in resolved_keys:
                 resolved_keys.add(key)
@@ -698,7 +766,8 @@ def main() -> None:
 
     print(
         f"updated {stats.recipe_files_updated} recipe files, {stats.ingredient_rows_updated} ingredient rows, "
-        f"and resolved {stats.entries_resolved} review entries"
+        f"resolved {stats.entries_resolved} review entries, "
+        f"and ignored {stats.ingredients_ignored} ingredient name(s)"
     )
     print("Run python3 py-scripts/generate_catalog.py to rebuild the ingredient index and review queue.")
 

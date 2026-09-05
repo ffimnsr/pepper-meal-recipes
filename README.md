@@ -19,7 +19,6 @@ recipes/
       categories.index.json
       tags.index.json
       ingredients.index.json
-      ingredients.review.json
     manifests/
       0000000001.json
     recipes/
@@ -66,13 +65,13 @@ python3 py-scripts/merge_ingredients.py
 
 The script lists every ingredient from `ingredients.index.json` together with its UUID. Type numbers (e.g. `1,3,5-7`) to toggle the listed items, type text to filter the list by name, or use `l`, `r`, `c`, `d`, and `q` to re-list, reset the filter, clear the selection, continue, or quit. Once at least two ingredients are selected, the script asks which selected name — or a newly typed name — should become the merged identity, previews the target name, normalized name, UUID, and affected rows, and then rewrites `ingredient_id`, `name`, and `normalized_name` on every reference in `recipes/v1/recipes/by-id/*.json`. Run `python3 py-scripts/generate_catalog.py` afterwards so the ingredient index is rebuilt with the merged identity.
 
-To work through the flagged ingredient lines in `indexes/ingredients.review.json` — lines the generator could not index cleanly, such as `mirin or cooking wine`, or names with ambiguous parentheticals — run:
+To work through the flagged ingredient lines in the root-level `.ingredient-review.json` — lines the generator could not index cleanly, such as `mirin or cooking wine`, multi-ingredient `and` compounds like `salt and pepper`, or names with ambiguous parentheticals — run:
 
 ```bash
 python3 py-scripts/resolve_ingredient_review.py
 ```
 
-The script walks each review entry with its recipe, position, original text, and current row, and shows what the entry means for `ingredients.index.json`. Enter a new ingredient name to rename the row (Tab completes indexed names, and the script reports whether the name merges into an existing indexed ingredient or creates a new one), or use `s` to split the row into several ingredients (e.g. `mirin|cooking wine`), `e` to remove a non-ingredient row from the recipe, `o` to edit quantity, unit, or preparation, `k` to keep the row, `p` to return to the previous entry, and `q` to quit. Rows are edited in `recipes/v1/recipes/by-id/*.json`; entries can only leave the review queue after `python3 py-scripts/generate_catalog.py` regenerates it from the corrected rows. Progress is saved in the root-level `.ingredient-review-state.json` and cleared when the review is completed, so an interrupted or quit run can be resumed with the same command.
+The script walks each review entry with its recipe, position, original text, and current row, and shows what the entry means for `ingredients.index.json`. Enter a new ingredient name to rename the row (Tab completes indexed names, and the script reports whether the name merges into an existing indexed ingredient or creates a new one), or use `s` to split the row into several ingredients (e.g. `mirin|cooking wine`), `e` to remove a non-ingredient row from the recipe, `o` to edit quantity, unit, or preparation, `i` to ignore the ingredient name everywhere (index it as-is and stop flagging it for review; the verdict is persisted by UUID in the root-level `.ingredient-ignored.json`, which `generate_catalog.py` reads so the name is indexed normally without a review entry — remove the entry from that file to un-ignore), `k` to keep the row, `p` to return to the previous entry, and `q` to quit. Rows are edited in `recipes/v1/recipes/by-id/*.json`; entries can only leave the review queue after `python3 py-scripts/generate_catalog.py` regenerates it from the corrected rows. Progress is saved in the root-level `.ingredient-review-state.json` and cleared when the review is completed, so an interrupted or quit run can be resumed with the same command.
 
 The generator will:
 
@@ -80,7 +79,7 @@ The generator will:
 2. Rebuild recipe, category, tag, and ingredient indexes from recipe payloads.
 3. Rebuild the current manifest `upserts` from the recipe files.
 4. Refresh `release.json` timestamps and SHA-256 hashes.
-5. Emit `indexes/ingredients.review.json` for excluded, split, or ambiguous ingredient lines that need human review.
+5. Emit the root-level `.ingredient-review.json` queue for excluded, split, or ambiguous ingredient lines that need human review.
 
 The generator validates recipe payloads and generated artifacts against the JSON Schemas before writing catalog metadata.
 

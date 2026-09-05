@@ -30,7 +30,14 @@ INDEXES_DIR = CATALOG_ROOT / "indexes"
 MANIFESTS_DIR = CATALOG_ROOT / "manifests"
 RELEASE_FILE = CATALOG_ROOT / "release.json"
 SCHEMAS_DIR = CATALOG_ROOT / "schemas"
-INGREDIENT_REVIEW_FILE = INDEXES_DIR / "ingredients.review.json"
+# Internal review queue for repo tooling (resolve_ingredient_review.py).
+# It is not published in release.json, so it lives at the repo root next
+# to the other internal state files rather than under recipes/v1/indexes.
+INGREDIENT_REVIEW_FILE = REPO_ROOT / ".ingredient-review.json"
+# Persistent, user-curated list of ingredient UUIDs whose names are
+# accepted as-is: they are indexed normally but never emitted to the
+# review queue. Maintained by resolve_ingredient_review.py ([i]gnore).
+IGNORED_INGREDIENTS_FILE = REPO_ROOT / ".ingredient-ignored.json"
 
 CATALOG_NAMESPACE = uuid.UUID("8d7c8f42-d53a-4d2d-9d67-935eeea8d7c4")
 RECIPE_NAMESPACE = uuid.uuid5(CATALOG_NAMESPACE, "recipe")
@@ -197,7 +204,7 @@ EXCLUDED_INGREDIENT_PATTERNS = (
     re.compile(r"^water for boiling\b", re.IGNORECASE),
     re.compile(r"^additional water for boiling\b", re.IGNORECASE),
 )
-AMBIGUOUS_CONNECTOR_RE = re.compile(r"\b(or|and/or)\b", re.IGNORECASE)
+AMBIGUOUS_CONNECTOR_RE = re.compile(r"\b(and|or)\b", re.IGNORECASE)
 FOR_BOILING_RE = re.compile(r"\bfor boiling\b.*$", re.IGNORECASE)
 TO_TASTE_RE = re.compile(r"\bto taste\b.*$", re.IGNORECASE)
 CUT_PREPARATION_RE = re.compile(
@@ -213,7 +220,6 @@ SOLUTION_PREPARATION_RE = re.compile(
     re.IGNORECASE,
 )
 PAREN_CONTENT_RE = re.compile(r"\(([^()]*)\)")
-INGREDIENT_REVIEW_SCHEMA = "ingredients-review.schema.json"
 VALIDATE_SCHEMAS = True
 
 
@@ -447,6 +453,29 @@ def is_excluded_ingredient_name(value: str) -> bool:
     return any(pattern.search(text) for pattern in EXCLUDED_INGREDIENT_PATTERNS)
 
 
+def load_ignored_ingredient_ids() -> set[str]:
+    """Load the persisted ignore list from the root-level state file."""
+    if not IGNORED_INGREDIENTS_FILE.exists():
+        return set()
+    try:
+        payload = json.loads(IGNORED_INGREDIENTS_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return set()
+    entries = payload.get("ignored", []) if isinstance(payload, dict) else payload
+    if not isinstance(entries, list):
+        return set()
+    ignored_ids: set[str] = set()
+    for item in entries:
+        if isinstance(item, str):
+            ignored_ids.add(item)
+        elif isinstance(item, dict) and isinstance(item.get("ingredient_id"), str):
+            ignored_ids.add(item["ingredient_id"])
+    return ignored_ids
+
+
+IGNORED_INGREDIENT_IDS = load_ignored_ingredient_ids()
+
+
 def build_review_entry(
     recipe: dict,
     ingredient: dict,
@@ -500,6 +529,22 @@ def canonicalize_ingredient_entry(recipe: dict, ingredient: dict) -> CanonicalIn
         preparation_parts.append(trailing_match.group(0))
 
     preparation = clean_preparation_text(" ".join(preparation_parts))
+    normalized_name = normalize_name(canonical_name)
+    if stable_uuid(INGREDIENT_NAMESPACE, normalized_name) in IGNORED_INGREDIENT_IDS:
+        # The user explicitly accepted this name: index it as-is and
+        # suppress every review issue for it, including connector,
+        # parenthetical, and safe-compound-split verdicts.
+        canonical = {
+            "ingredient_id": stable_uuid(INGREDIENT_NAMESPACE, normalized_name),
+            "name": canonical_name,
+            "normalized_name": normalized_name,
+            "quantity": ingredient.get("quantity"),
+            "unit": ingredient.get("unit"),
+            "preparation": preparation,
+            "position": ingredient["position"],
+        }
+        return CanonicalIngredientResult([canonical], [])
+
     if is_excluded_ingredient_name(base_name) or is_excluded_ingredient_name(canonical_name):
         review = build_review_entry(
             recipe,
@@ -1118,7 +1163,6 @@ def build_ingredient_review_index(canonical_recipes: list[CanonicalRecipe], gene
     for recipe in canonical_recipes:
         entries.extend(recipe.review_entries)
     review_index = {
-        "$schema": f"../schemas/{INGREDIENT_REVIEW_SCHEMA}",
         "schema_version": SCHEMA_VERSION,
         "generated_at": generated_at,
         "repo_sequence": repo_sequence,
@@ -1132,7 +1176,6 @@ def build_ingredient_review_index(canonical_recipes: list[CanonicalRecipe], gene
             ),
         ),
     }
-    validate_payload(review_index, INGREDIENT_REVIEW_SCHEMA, "recipes/v1/indexes/ingredients.review.json")
     return review_index
 
 

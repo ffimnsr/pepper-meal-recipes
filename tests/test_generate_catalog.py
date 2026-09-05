@@ -126,6 +126,148 @@ class GenerateCatalogIngredientTests(TestCase):
                 self.assertEqual(result.ingredients[0]["name"], name)
                 self.assertIsNone(result.ingredients[0]["preparation"])
 
+    def test_flags_and_connector_names_for_review(self) -> None:
+        recipe = {
+            "id": "11111111-1111-5111-8111-111111111111",
+            "slug": "test-recipe",
+            "name": "Test Recipe",
+        }
+        names = ["ketchup and mustard", "garlic and onion", "butter and/or margarine"]
+
+        for name in names:
+            with self.subTest(name=name):
+                ingredient = {
+                    "name": name,
+                    "quantity": "1",
+                    "unit": "cup",
+                    "preparation": None,
+                    "position": 1,
+                }
+
+                result = generate_catalog.canonicalize_ingredient_entry(recipe, ingredient)
+
+                self.assertEqual(result.ingredients, [])
+                self.assertEqual(len(result.review_entries), 1)
+                review = result.review_entries[0]
+                self.assertIn("ambiguous_connector", review["issue_types"])
+                self.assertEqual(review["cleaned_name"], name)
+
+    def test_flags_or_connector_names_for_review(self) -> None:
+        recipe = {
+            "id": "11111111-1111-5111-8111-111111111111",
+            "slug": "test-recipe",
+            "name": "Test Recipe",
+        }
+        ingredient = {
+            "name": "grape seed or coconut oil",
+            "quantity": "2",
+            "unit": "tablespoons",
+            "preparation": None,
+            "position": 1,
+        }
+
+        result = generate_catalog.canonicalize_ingredient_entry(recipe, ingredient)
+
+        self.assertEqual(result.ingredients, [])
+        self.assertEqual(len(result.review_entries), 1)
+        self.assertIn("ambiguous_connector", result.review_entries[0]["issue_types"])
+
+    def test_safe_compound_split_takes_precedence_over_and_flag(self) -> None:
+        recipe = {
+            "id": "11111111-1111-5111-8111-111111111111",
+            "slug": "test-recipe",
+            "name": "Test Recipe",
+        }
+        ingredient = {
+            "name": "salt and pepper",
+            "quantity": "1",
+            "unit": "teaspoon",
+            "preparation": None,
+            "position": 1,
+        }
+
+        result = generate_catalog.canonicalize_ingredient_entry(recipe, ingredient)
+
+        self.assertEqual([item["name"] for item in result.ingredients], ["salt", "pepper"])
+        self.assertEqual(len(result.review_entries), 1)
+        self.assertIn("compound_split", result.review_entries[0]["issue_types"])
+        self.assertNotIn("ambiguous_connector", result.review_entries[0]["issue_types"])
+
+    def test_does_not_flag_and_inside_a_word(self) -> None:
+        recipe = {
+            "id": "11111111-1111-5111-8111-111111111111",
+            "slug": "test-recipe",
+            "name": "Test Recipe",
+        }
+        ingredient = {
+            "name": "dijon mustard",
+            "quantity": "1",
+            "unit": "tablespoon",
+            "preparation": None,
+            "position": 1,
+        }
+
+        result = generate_catalog.canonicalize_ingredient_entry(recipe, ingredient)
+
+        self.assertEqual(len(result.ingredients), 1)
+        self.assertEqual(result.ingredients[0]["name"], "dijon mustard")
+        self.assertEqual(result.review_entries, [])
+
+    def test_ignored_ingredient_is_indexed_without_review(self) -> None:
+        recipe = {
+            "id": "11111111-1111-5111-8111-111111111111",
+            "slug": "test-recipe",
+            "name": "Test Recipe",
+        }
+        ingredient = {
+            "name": "ketchup and mustard",
+            "quantity": "1",
+            "unit": "cup",
+            "preparation": None,
+            "position": 1,
+        }
+        ignored_id = generate_catalog.stable_uuid(
+            generate_catalog.INGREDIENT_NAMESPACE, "ketchup and mustard"
+        )
+        original_ignored = generate_catalog.IGNORED_INGREDIENT_IDS
+        try:
+            generate_catalog.IGNORED_INGREDIENT_IDS = {ignored_id}
+            result = generate_catalog.canonicalize_ingredient_entry(recipe, ingredient)
+        finally:
+            generate_catalog.IGNORED_INGREDIENT_IDS = original_ignored
+
+        self.assertEqual(len(result.ingredients), 1)
+        self.assertEqual(result.ingredients[0]["name"], "ketchup and mustard")
+        self.assertEqual(result.ingredients[0]["ingredient_id"], ignored_id)
+        self.assertEqual(result.review_entries, [])
+
+    def test_ignored_ingredient_takes_precedence_over_safe_compound_split(self) -> None:
+        recipe = {
+            "id": "11111111-1111-5111-8111-111111111111",
+            "slug": "test-recipe",
+            "name": "Test Recipe",
+        }
+        ingredient = {
+            "name": "salt and pepper",
+            "quantity": "1",
+            "unit": "teaspoon",
+            "preparation": None,
+            "position": 1,
+        }
+        ignored_id = generate_catalog.stable_uuid(
+            generate_catalog.INGREDIENT_NAMESPACE, "salt and pepper"
+        )
+        original_ignored = generate_catalog.IGNORED_INGREDIENT_IDS
+        try:
+            generate_catalog.IGNORED_INGREDIENT_IDS = {ignored_id}
+            result = generate_catalog.canonicalize_ingredient_entry(recipe, ingredient)
+        finally:
+            generate_catalog.IGNORED_INGREDIENT_IDS = original_ignored
+
+        self.assertEqual(len(result.ingredients), 1)
+        self.assertEqual(result.ingredients[0]["name"], "salt and pepper")
+        self.assertEqual(result.review_entries, [])
+
 
 if __name__ == "__main__":
     from unittest import main

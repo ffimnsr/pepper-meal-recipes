@@ -249,6 +249,62 @@ class ResolveIngredientReviewTests(TestCase):
         finally:
             resolve.REPO_ROOT = original_root
 
+    def test_save_ignored_ingredient_round_trip(self) -> None:
+        original_root = resolve.REPO_ROOT
+        try:
+            with tempfile.TemporaryDirectory() as temporary_directory:
+                resolve.REPO_ROOT = Path(temporary_directory)
+                ingredient_id = generate_catalog.stable_uuid(
+                    generate_catalog.INGREDIENT_NAMESPACE, "mirin or cooking wine"
+                )
+                resolve.save_ignored_ingredient(ingredient_id, "mirin or cooking wine")
+                resolve.save_ignored_ingredient(ingredient_id, "mirin or cooking wine")
+                ignored = resolve.load_ignored_ingredients()
+                self.assertEqual(len(ignored), 1)
+                self.assertEqual(ignored[0]["ingredient_id"], ingredient_id)
+        finally:
+            resolve.REPO_ROOT = original_root
+
+    def test_run_resolve_ignores_entry_and_writes_ignore_file(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            indexes_dir = root / "indexes"
+            indexes_dir.mkdir()
+            recipes_dir = root / "recipes"
+            recipes_dir.mkdir()
+            write_json(root / resolve.INGREDIENT_REVIEW_FILE.name, {"entries": [dict(REVIEW_ENTRY)]})
+            write_json(indexes_dir / "ingredients.index.json", {"ingredients": []})
+            recipe_path = recipes_dir / "recipe-a.json"
+            write_json(recipe_path, recipe_payload())
+            original_contents = recipe_path.read_text(encoding="utf-8")
+
+            answers = iter(["i", "y"])
+
+            def answer(prompt: str) -> str:
+                return next(answers)
+
+            original_root = resolve.REPO_ROOT
+            try:
+                resolve.REPO_ROOT = root
+                with mock.patch.object(resolve, "INDEXES_DIR", indexes_dir), mock.patch.object(
+                    resolve, "RECIPES_DIR", recipes_dir
+                ), mock.patch.object(
+                    resolve, "INGREDIENT_REVIEW_FILE", root / resolve.INGREDIENT_REVIEW_FILE.name
+                ):
+                    stats = resolve.run_resolve(input_fn=answer, output=lambda _message: None)
+            finally:
+                resolve.REPO_ROOT = original_root
+
+            self.assertEqual(stats.ingredients_ignored, 1)
+            self.assertEqual(stats.entries_resolved, 1)
+            self.assertEqual(stats.recipe_files_updated, 0)
+            self.assertEqual(recipe_path.read_text(encoding="utf-8"), original_contents)
+            payload = json.loads((root / resolve.IGNORE_FILE_NAME).read_text(encoding="utf-8"))
+            expected_id = generate_catalog.stable_uuid(
+                generate_catalog.INGREDIENT_NAMESPACE, "mirin or cooking wine"
+            )
+            self.assertEqual(payload["ignored"][0]["ingredient_id"], expected_id)
+
     def test_run_resolve_end_to_end(self) -> None:
         with tempfile.TemporaryDirectory() as temporary_directory:
             root = Path(temporary_directory)
@@ -256,7 +312,7 @@ class ResolveIngredientReviewTests(TestCase):
             indexes_dir.mkdir()
             recipes_dir = root / "recipes"
             recipes_dir.mkdir()
-            write_json(indexes_dir / "ingredients.review.json", {"entries": [dict(REVIEW_ENTRY)]})
+            write_json(root / resolve.INGREDIENT_REVIEW_FILE.name, {"entries": [dict(REVIEW_ENTRY)]})
             write_json(indexes_dir / "ingredients.index.json", {"ingredients": []})
             recipe_path = recipes_dir / "recipe-a.json"
             write_json(recipe_path, recipe_payload())
@@ -268,6 +324,8 @@ class ResolveIngredientReviewTests(TestCase):
 
             with mock.patch.object(resolve, "INDEXES_DIR", indexes_dir), mock.patch.object(
                 resolve, "RECIPES_DIR", recipes_dir
+            ), mock.patch.object(
+                resolve, "INGREDIENT_REVIEW_FILE", root / resolve.INGREDIENT_REVIEW_FILE.name
             ):
                 stats = resolve.run_resolve(input_fn=answer, output=lambda _message: None)
 
@@ -300,7 +358,7 @@ class ResolveIngredientReviewTests(TestCase):
             second_entry["unit"] = "cup"
             second_entry["cleaned_name"] = "gin or sherry"
             write_json(
-                indexes_dir / "ingredients.review.json",
+                root / resolve.INGREDIENT_REVIEW_FILE.name,
                 {"entries": [first_entry, second_entry]},
             )
             write_json(indexes_dir / "ingredients.index.json", {"ingredients": []})
@@ -333,7 +391,9 @@ class ResolveIngredientReviewTests(TestCase):
 
             with mock.patch.object(resolve, "INDEXES_DIR", indexes_dir), mock.patch.object(
                 resolve, "RECIPES_DIR", recipes_dir
-            ), mock.patch.object(resolve, "REPO_ROOT", root), self.assertRaises(SystemExit):
+            ), mock.patch.object(resolve, "REPO_ROOT", root), mock.patch.object(
+                resolve, "INGREDIENT_REVIEW_FILE", root / resolve.INGREDIENT_REVIEW_FILE.name
+            ), self.assertRaises(SystemExit):
                 resolve.run_resolve(input_fn=answer, output=lambda _message: None)
 
             checkpoint_path = root / resolve.CHECKPOINT_FILE_NAME
@@ -358,7 +418,7 @@ class ResolveIngredientReviewTests(TestCase):
                 recipes_dir = root / "recipes"
                 recipes_dir.mkdir()
                 resolve.REPO_ROOT = root
-                write_json(indexes_dir / "ingredients.review.json", {"entries": [dict(REVIEW_ENTRY)]})
+                write_json(root / resolve.INGREDIENT_REVIEW_FILE.name, {"entries": [dict(REVIEW_ENTRY)]})
                 write_json(indexes_dir / "ingredients.index.json", {"ingredients": []})
                 recipe_path = recipes_dir / "recipe-a.json"
                 original = recipe_payload()
@@ -368,6 +428,8 @@ class ResolveIngredientReviewTests(TestCase):
                 messages: list[str] = []
                 with mock.patch.object(resolve, "INDEXES_DIR", indexes_dir), mock.patch.object(
                     resolve, "RECIPES_DIR", recipes_dir
+                ), mock.patch.object(
+                    resolve, "INGREDIENT_REVIEW_FILE", root / resolve.INGREDIENT_REVIEW_FILE.name
                 ):
                     stats = resolve.run_resolve(input_fn=lambda _prompt: "k", output=messages.append)
 
@@ -384,13 +446,15 @@ class ResolveIngredientReviewTests(TestCase):
             indexes_dir.mkdir()
             recipes_dir = root / "recipes"
             recipes_dir.mkdir()
-            write_json(indexes_dir / "ingredients.review.json", {"entries": [dict(REVIEW_ENTRY)]})
+            write_json(root / resolve.INGREDIENT_REVIEW_FILE.name, {"entries": [dict(REVIEW_ENTRY)]})
             write_json(indexes_dir / "ingredients.index.json", {"ingredients": []})
 
             messages: list[str] = []
             with mock.patch.object(resolve, "INDEXES_DIR", indexes_dir), mock.patch.object(
                 resolve, "RECIPES_DIR", recipes_dir
-            ), mock.patch.object(resolve, "REPO_ROOT", root):
+            ), mock.patch.object(resolve, "REPO_ROOT", root), mock.patch.object(
+                resolve, "INGREDIENT_REVIEW_FILE", root / resolve.INGREDIENT_REVIEW_FILE.name
+            ):
                 stats = resolve.run_resolve(input_fn=lambda _prompt: "k", output=messages.append)
 
             self.assertEqual(stats.recipe_files_updated, 0)
