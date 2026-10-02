@@ -68,22 +68,31 @@
       "position": 1
     },
     {
-      "ingredient_id": "850ebe3f-cbfd-5add-8c01-8e26e7d48942",
-      "name": "salt and pepper to taste",
-      "normalized_name": "salt and pepper to taste",
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
       "quantity": null,
-      "unit": "pieces",
+      "unit": null,
       "preparation": null,
       "position": 2
     },
     {
-      "ingredient_id": "2309095d-83f9-5243-a388-689f05016818",
-      "name": "ounce) beef tenderloin filets",
-      "normalized_name": "ounce beef tenderloin filets",
-      "quantity": "6 (6",
-      "unit": "pieces",
+      "ingredient_id": "9b30f71f-012f-516c-a1f8-61ed378d6311",
+      "name": "pepper",
+      "normalized_name": "pepper",
+      "quantity": null,
+      "unit": null,
       "preparation": null,
       "position": 3
+    },
+    {
+      "ingredient_id": "c604d6c5-78dc-56a5-954a-ae4205d5c69d",
+      "name": "beef tenderloin filets",
+      "normalized_name": "beef tenderloin filets",
+      "quantity": "36",
+      "unit": "ounce",
+      "preparation": null,
+      "position": 4
     },
     {
       "ingredient_id": "8739c328-213a-5dd4-b624-dd490d2d8543",
@@ -92,7 +101,7 @@
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
-      "position": 4
+      "position": 5
     },
     {
       "ingredient_id": "54a4ec0e-2006-572c-a5ee-ed8328a3dd64",
@@ -101,7 +110,7 @@
       "quantity": "0.25",
       "unit": "cup",
       "preparation": null,
-      "position": 5
+      "position": 6
     },
     {
       "ingredient_id": "0b1a9c15-aa81-5797-9871-fdbb9f0efddb",
@@ -110,25 +119,25 @@
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
-      "position": 6
-    },
-    {
-      "ingredient_id": "fcc496af-310c-58f3-b06a-4c5ac2c84764",
-      "name": "ounce) jar foie gras pate",
-      "normalized_name": "ounce jar foie gras pate",
-      "quantity": "1 (3",
-      "unit": "pieces",
-      "preparation": null,
       "position": 7
     },
     {
-      "ingredient_id": "4ecf7255-bbfc-508a-9242-d82f51374756",
-      "name": "ounce) package frozen puff pastry",
-      "normalized_name": "ounce package frozen puff pastry",
-      "quantity": "1 (17.25",
-      "unit": "pieces",
-      "preparation": "thawed",
+      "ingredient_id": "6188c209-4eb4-5b56-a28d-4f4d159371a8",
+      "name": "foie gras pate",
+      "normalized_name": "foie gras pate",
+      "quantity": "3",
+      "unit": "ounce",
+      "preparation": null,
       "position": 8
+    },
+    {
+      "ingredient_id": "ce8ac225-7bc0-59b8-811c-de67d77f9fbe",
+      "name": "frozen puff pastry",
+      "normalized_name": "frozen puff pastry",
+      "quantity": "17.25",
+      "unit": "ounce",
+      "preparation": "thawed",
+      "position": 9
     },
     {
       "ingredient_id": "a2e0a342-573c-5860-b5b5-c67616650cc7",
@@ -137,7 +146,7 @@
       "quantity": "1",
       "unit": "piece",
       "preparation": "beaten",
-      "position": 9
+      "position": 10
     },
     {
       "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
@@ -146,7 +155,7 @@
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 10
+      "position": 11
     },
     {
       "ingredient_id": "7ecff7d5-73ac-52f8-b020-2182bde86cbe",
@@ -155,7 +164,7 @@
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 11
+      "position": 12
     },
     {
       "ingredient_id": "1ea2e220-d0ea-56fc-81a2-2c3ab120136c",
@@ -164,7 +173,7 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 12
+      "position": 13
     },
     {
       "ingredient_id": "0b1a9c15-aa81-5797-9871-fdbb9f0efddb",
@@ -173,7 +182,7 @@
       "quantity": "1",
       "unit": "cup",
       "preparation": null,
-      "position": 13
+      "position": 14
     },
     {
       "ingredient_id": "54a4ec0e-2006-572c-a5ee-ed8328a3dd64",
@@ -182,7 +191,7 @@
       "quantity": "0.5",
       "unit": "cup",
       "preparation": null,
-      "position": 14
+      "position": 15
     },
     {
       "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
@@ -191,7 +200,7 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 15
+      "position": 16
     },
     {
       "ingredient_id": "653dcca2-5452-559d-a19b-8192691aa143",
@@ -200,7 +209,7 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 16
+      "position": 17
     }
   ],
   "categories": [
@@ -294,6 +303,6 @@
     "url": "https://www.allrecipes.com/recipe/79437/mini-beef-wellingtons-with-red-wine-sauce"
   },
   "public": true,
-  "updated_at": 1787763104,
+  "updated_at": 1790949858,
   "revision": 1
 }

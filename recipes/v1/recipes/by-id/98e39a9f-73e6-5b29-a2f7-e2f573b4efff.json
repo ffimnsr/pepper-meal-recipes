@@ -71,11 +71,11 @@
   "equipment": [],
   "ingredients": [
     {
-      "ingredient_id": "e06bf34d-ab16-54ca-bc0a-18a8d5aedde3",
-      "name": "pound) pork tenderloin",
-      "normalized_name": "pound pork tenderloin",
-      "quantity": "1 (1 1/4",
-      "unit": "pieces",
+      "ingredient_id": "1406b9dc-e908-5eb2-a5e4-f99d6e71756a",
+      "name": "pork tenderloin",
+      "normalized_name": "pork tenderloin",
+      "quantity": "1.25",
+      "unit": "pound",
       "preparation": null,
       "position": 1
     },
@@ -89,9 +89,9 @@
       "position": 2
     },
     {
-      "ingredient_id": "c50275d3-3b29-5473-b8bc-02063eb1c948",
-      "name": "chopped pork trimmings (optional)",
-      "normalized_name": "chopped pork trimmings",
+      "ingredient_id": "ffc62103-3541-5c93-a622-845ce8fa07b0",
+      "name": "chopped pork trimmings optional",
+      "normalized_name": "chopped pork trimmings optional",
       "quantity": null,
       "unit": "pieces",
       "preparation": null,
@@ -125,13 +125,22 @@
       "position": 6
     },
     {
-      "ingredient_id": "311fa34e-8f91-5fd6-91e5-3c4bfdf59232",
-      "name": "salt and freshly ground black pepper to taste",
-      "normalized_name": "salt and freshly ground black pepper to taste",
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
       "quantity": null,
-      "unit": "pieces",
+      "unit": null,
       "preparation": null,
       "position": 7
+    },
+    {
+      "ingredient_id": "8086f317-4d14-56a2-9493-f18fb643a042",
+      "name": "freshly ground black pepper",
+      "normalized_name": "freshly ground black pepper",
+      "quantity": null,
+      "unit": null,
+      "preparation": null,
+      "position": 8
     },
     {
       "ingredient_id": "ebe185a4-c979-5e9b-a083-fe7ed0a1eec2",
@@ -140,7 +149,7 @@
       "quantity": "2",
       "unit": "teaspoons",
       "preparation": null,
-      "position": 8
+      "position": 9
     },
     {
       "ingredient_id": "14f8fb32-52a3-51f2-88b9-253db2f22dd7",
@@ -149,15 +158,6 @@
       "quantity": "12",
       "unit": "pieces",
       "preparation": "or as needed",
-      "position": 9
-    },
-    {
-      "ingredient_id": "cb4de6a0-afa7-5012-80bb-7b250fb2ebb7",
-      "name": "large",
-      "normalized_name": "large",
-      "quantity": "4",
-      "unit": "pieces",
-      "preparation": "thin slices prosciutto",
       "position": 10
     },
     {
@@ -265,6 +265,6 @@
     "url": "https://www.allrecipes.com/recipe/261610/pork-saltimbocca"
   },
   "public": true,
-  "updated_at": 1783105095,
+  "updated_at": 1790949859,
   "revision": 1
 }

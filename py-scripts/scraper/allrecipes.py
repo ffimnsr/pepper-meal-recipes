@@ -18,6 +18,11 @@ import sys
 from pathlib import Path
 from typing import Any
 
+# ingredient_repair lives one directory up (py-scripts/).
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from ingredient_repair import preprocess_allrecipes_text  # noqa: E402
+
 from bs4 import BeautifulSoup
 
 from panlasang_pinoy import (
@@ -268,6 +273,10 @@ def default_unit_for_quantity(quantity: str | None) -> str:
 
 
 def build_ingredients_with_default_units(items: list[str]) -> list[dict[str, Any]]:
+    # Allrecipes packaging notation ("2 (.25 ounce) packages", "1 (15 ounce)
+    # can", "™/®" brand marks, size/temperature parentheticals) confuses the
+    # generic splitter; normalize it before the shared parser runs.
+    items = [preprocess_allrecipes_text(item) for item in items]
     payloads = build_ingredient_payloads(items)
     for row in payloads:
         if row["unit"] is None:

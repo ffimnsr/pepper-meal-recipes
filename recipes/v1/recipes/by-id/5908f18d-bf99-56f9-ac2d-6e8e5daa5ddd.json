@@ -67,22 +67,31 @@
   "equipment": [],
   "ingredients": [
     {
-      "ingredient_id": "57d151f6-b8c8-51da-a529-c8a4961ab506",
-      "name": "salt and ground black pepper to taste",
-      "normalized_name": "salt and ground black pepper to taste",
+      "ingredient_id": "5158b18a-f73d-5768-a133-6b6c21cf5e98",
+      "name": "salt",
+      "normalized_name": "salt",
       "quantity": null,
-      "unit": "pieces",
+      "unit": null,
       "preparation": null,
       "position": 1
     },
     {
-      "ingredient_id": "283274d0-a3e9-562b-886b-f84b3707a9f6",
-      "name": "ounce) boneless rib-eye steaks",
-      "normalized_name": "ounce boneless rib-eye steaks",
-      "quantity": "2 (8",
-      "unit": "pieces",
+      "ingredient_id": "d0b0d010-2b6a-5564-a06b-f575d0ec5f3f",
+      "name": "ground black pepper",
+      "normalized_name": "ground black pepper",
+      "quantity": null,
+      "unit": null,
       "preparation": null,
       "position": 2
+    },
+    {
+      "ingredient_id": "4eccd769-a171-5eb4-8a95-1f6560b0c0e6",
+      "name": "boneless rib-eye steak",
+      "normalized_name": "boneless rib-eye steak",
+      "quantity": "16",
+      "unit": "ounce",
+      "preparation": null,
+      "position": 3
     },
     {
       "ingredient_id": "03174c98-4286-5a20-ae8a-229f93f11569",
@@ -91,7 +100,7 @@
       "quantity": "1",
       "unit": "tablespoon",
       "preparation": null,
-      "position": 3
+      "position": 4
     },
     {
       "ingredient_id": "22aa8d64-7c60-5cb7-9f07-c15fd4c28dbc",
@@ -100,25 +109,25 @@
       "quantity": "3",
       "unit": "tablespoons",
       "preparation": "divided",
-      "position": 4
-    },
-    {
-      "ingredient_id": "201e3b84-d929-58ef-9607-551cd4b6c3dd",
-      "name": "ounce) package white mushrooms",
-      "normalized_name": "ounce package white mushrooms",
-      "quantity": "1 (16",
-      "unit": "pieces",
-      "preparation": "thinly sliced",
       "position": 5
     },
     {
-      "ingredient_id": "3a8ba8ad-ca5c-59d4-859f-6fddb6fe5269",
-      "name": "ounce) package cremini mushrooms",
-      "normalized_name": "ounce package cremini mushrooms",
-      "quantity": "1 (16",
-      "unit": "pieces",
+      "ingredient_id": "a389c240-64a4-574d-aed8-d38c70e149ee",
+      "name": "white mushroom",
+      "normalized_name": "white mushroom",
+      "quantity": "16",
+      "unit": "ounce",
       "preparation": "thinly sliced",
       "position": 6
+    },
+    {
+      "ingredient_id": "99219446-52aa-5b10-bad1-e9c503bc7188",
+      "name": "cremini mushroom",
+      "normalized_name": "cremini mushroom",
+      "quantity": "16",
+      "unit": "ounce",
+      "preparation": "thinly sliced",
+      "position": 7
     },
     {
       "ingredient_id": "195dd91b-7e16-5008-af4e-050104514749",
@@ -127,7 +136,7 @@
       "quantity": "3",
       "unit": "pieces",
       "preparation": "diced",
-      "position": 7
+      "position": 8
     },
     {
       "ingredient_id": "0730a53d-031c-5767-ae83-cfc26b8dc9c6",
@@ -136,7 +145,7 @@
       "quantity": "3",
       "unit": "cloves",
       "preparation": "minced",
-      "position": 8
+      "position": 9
     },
     {
       "ingredient_id": "8d81d57c-0ce8-53da-ad55-62db413112f6",
@@ -145,7 +154,7 @@
       "quantity": "1.5",
       "unit": "cups",
       "preparation": null,
-      "position": 9
+      "position": 10
     },
     {
       "ingredient_id": "32c068b2-dc92-5c1c-85e9-b0c98004f775",
@@ -154,7 +163,7 @@
       "quantity": "0.5",
       "unit": "cup",
       "preparation": null,
-      "position": 10
+      "position": 11
     },
     {
       "ingredient_id": "d048b8fd-9fab-5cc1-b458-54ddd45ae648",
@@ -163,7 +172,7 @@
       "quantity": "6",
       "unit": "cups",
       "preparation": "divided",
-      "position": 11
+      "position": 12
     },
     {
       "ingredient_id": "bbfbf60f-39b8-5e5a-9815-eba35d54e9b9",
@@ -172,7 +181,7 @@
       "quantity": "0.25",
       "unit": "cup",
       "preparation": null,
-      "position": 12
+      "position": 13
     },
     {
       "ingredient_id": "1ad24cd8-e83e-5888-9118-00f9117326df",
@@ -181,7 +190,7 @@
       "quantity": "2",
       "unit": "tablespoons",
       "preparation": null,
-      "position": 13
+      "position": 14
     },
     {
       "ingredient_id": "d0ffc36d-c753-56eb-86e6-07655adacd1f",
@@ -190,7 +199,7 @@
       "quantity": null,
       "unit": "pieces",
       "preparation": null,
-      "position": 14
+      "position": 15
     },
     {
       "ingredient_id": "33f59aae-9c0f-597c-b519-8bfc4aae58b6",
@@ -199,7 +208,7 @@
       "quantity": null,
       "unit": "pieces",
       "preparation": null,
-      "position": 15
+      "position": 16
     }
   ],
   "categories": [
@@ -277,6 +286,6 @@
     "url": "https://www.allrecipes.com/recipe/260586/rib-eye-steak-and-mushroom-risotto"
   },
   "public": true,
-  "updated_at": 1760964543,
+  "updated_at": 1790949857,
   "revision": 1
 }

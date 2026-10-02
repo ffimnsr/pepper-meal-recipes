@@ -194,6 +194,70 @@ SAFE_COMPOUND_SPLITS = {
     "salt and ground black pepper": ["salt", "ground black pepper"],
     "salt and pepper": ["salt", "pepper"],
 }
+
+# The remaining Allrecipes "salt + pepper" variants observed in the review
+# queue. Each splits at the first " and ", with trailing qualifier phrases
+# ("as needed", "for seasoning") stripped from the parts because
+# ``canonicalize_ingredient_entry`` checks SAFE_COMPOUND_SPLITS against the
+# qualified name, before TO_TASTE_RE cleanup happened.
+SALT_PEPPER_VARIANTS = (
+    "coarse salt and ground black pepper",
+    "coarse sea salt and coarsely ground black pepper",
+    "flaked sea salt and freshly ground black pepper",
+    "freshly cracked salt and black pepper",
+    "freshly cracked salt and ground black pepper",
+    "garlic salt and pepper",
+    "kosher salt and black pepper",
+    "kosher salt and cracked black pepper",
+    "kosher salt and fresh ground pepper",
+    "kosher salt and freshly ground black pepper",
+    "kosher salt and freshly ground pepper",
+    "kosher salt and freshly-cracked black pepper",
+    "kosher salt and ground black pepper",
+    "kosher salt and pepper",
+    "maldon salt and fresh cracked black pepper",
+    "maldon salt and freshly cracked black pepper",
+    "salt and black pepper",
+    "salt and cayenne pepper",
+    "salt and coarsely ground black pepper",
+    "salt and cracked black pepper",
+    "salt and fresh cracked black pepper",
+    "salt and fresh ground pepper",
+    "salt and freshly cracked black pepper as needed",
+    "salt and freshly ground black pepper",
+    "salt and freshly ground pepper",
+    "salt and freshly grated black pepper",
+    "salt and freshly-ground black pepper",
+    "salt and ground pepper",
+    "salt and ground white pepper",
+    "salt and freshly ground white pepper",
+    "salt and pepper for seasoning",
+    "salt and pepper to season",
+    "salt and several grinds of pepper",
+    "salt and white pepper",
+    "sea salt and black pepper",
+    "sea salt and coarsely ground pepper",
+    "sea salt and cracked black pepper",
+    "sea salt and freshly cracked black pepper",
+    "sea salt and freshly ground black pepper",
+    "sea salt and freshly-ground black pepper",
+    "sea salt and ground black pepper",
+)
+
+
+def _split_compound_parts(name: str) -> list[str] | None:
+    parts = re.split(r"\s+and\s+", name, maxsplit=1)
+    if len(parts) != 2:
+        return None
+    return [
+        re.sub(r"\s+(?:as needed|for seasoning|to season)\b.*$", "", part).strip()
+        for part in parts
+    ]
+
+
+SAFE_COMPOUND_SPLITS.update(
+    {name: parts for name in SALT_PEPPER_VARIANTS if (parts := _split_compound_parts(name))}
+)
 PACKAGING_PREFIXES = {
     "can": "canned",
 }
@@ -204,7 +268,9 @@ EXCLUDED_INGREDIENT_PATTERNS = (
     re.compile(r"^water for boiling\b", re.IGNORECASE),
     re.compile(r"^additional water for boiling\b", re.IGNORECASE),
 )
-AMBIGUOUS_CONNECTOR_RE = re.compile(r"\b(and|or)\b", re.IGNORECASE)
+# Connector words that actually join two ingredients — "half-and-half" is a
+# single product and must NOT be flagged (hyphen-flanked words are skipped).
+AMBIGUOUS_CONNECTOR_RE = re.compile(r"(?<![\w-])(and|or)(?![\w-])", re.IGNORECASE)
 FOR_BOILING_RE = re.compile(r"\bfor boiling\b.*$", re.IGNORECASE)
 TO_TASTE_RE = re.compile(r"\bto taste\b.*$", re.IGNORECASE)
 CUT_PREPARATION_RE = re.compile(
@@ -335,6 +401,7 @@ def singularize_token(token: str) -> str:
         "eggs": "egg",
         "leaves": "leaf",
         "loaves": "loaf",
+        "peaches": "peach",
         "potatoes": "potato",
         "tomatoes": "tomato",
     }
@@ -344,9 +411,13 @@ def singularize_token(token: str) -> str:
         return token
     if token.endswith("ies") and len(token) > 4:
         return f"{token[:-3]}y"
+    if token.endswith("ches") and len(token) > 4:
+        return token[:-2]
     if token.endswith("oes") and len(token) > 4:
         return token[:-2]
     if token.endswith("ses") and len(token) > 4:
+        return token[:-2]
+    if token.endswith("xes") and len(token) > 4:
         return token[:-2]
     if token.endswith("s") and not token.endswith("ds"):
         return token[:-1]

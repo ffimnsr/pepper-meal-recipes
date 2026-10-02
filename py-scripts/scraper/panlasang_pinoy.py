@@ -636,6 +636,14 @@ def split_ingredient_text(text: str) -> tuple[str | None, str | None, str, str |
     unit = None
     if tokens and tokens[0].lower().rstrip(".") in KNOWN_UNITS:
         unit = tokens.pop(0).rstrip(".")
+    elif (
+        len(tokens) > 1
+        and tokens[0].lower() == "fluid"
+        and tokens[1].lower().rstrip(".") in {"ounce", "ounces", "oz"}
+    ):
+        tokens.pop(0)
+        unit = tokens.pop(0).rstrip(".")
+        unit = "ounce" if unit in {"oz", "oz."} else unit
 
     if tokens and tokens[0].lower() == "of":
         tokens.pop(0)

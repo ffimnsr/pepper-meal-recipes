@@ -1,0 +1,4161 @@
+{
+  "schema_version": 1,
+  "ignored": [
+    {
+      "ingredient_id": "002d1c32-0e99-552f-b3b3-bf19a42c6fbe",
+      "normalized_name": "seasoned italian breadcrumbs or combination of breadcrumbs and panko"
+    },
+    {
+      "ingredient_id": "00539bf9-3e71-5ca1-8d9d-c49d35f962ab",
+      "normalized_name": "ground chuck or 80 lean ground beef"
+    },
+    {
+      "ingredient_id": "012b3598-8122-5cdf-ab66-f8dee3b23b69",
+      "normalized_name": "shredded raw spinach or whole baby spinach leaf"
+    },
+    {
+      "ingredient_id": "0131f86a-fb6c-57e9-8ac0-f0f9f2d1c4ed",
+      "normalized_name": "melted margarine or butter"
+    },
+    {
+      "ingredient_id": "014fdac8-66c2-5946-8e37-4b3490ab175c",
+      "normalized_name": "brown or white mushroom"
+    },
+    {
+      "ingredient_id": "016c2d14-535f-57bc-b0ba-e98614272353",
+      "normalized_name": "round or oval sourdough loaf or crusty italian bread"
+    },
+    {
+      "ingredient_id": "017a31cd-8fdb-58ec-b7b3-08cab0edde91",
+      "normalized_name": "beer or water"
+    },
+    {
+      "ingredient_id": "01aa8a2b-332a-535a-bec4-12c413feda0b",
+      "normalized_name": "mini pretzel sticks or mini twist"
+    },
+    {
+      "ingredient_id": "01e1bb24-7a35-5f94-acdc-d1b160f83f0b",
+      "normalized_name": "classico tomato and basil pasta sauce"
+    },
+    {
+      "ingredient_id": "020da788-2375-5eda-9b21-1e5c58667360",
+      "normalized_name": "black and/or white sesame seeds"
+    },
+    {
+      "ingredient_id": "02513ef8-4505-5540-b122-7cc509ceaa84",
+      "normalized_name": "spaghetti or linguine"
+    },
+    {
+      "ingredient_id": "02b0d94e-aacf-5c6f-bfc4-8dc5c8338daf",
+      "normalized_name": "refrigerated macaroni and cheese"
+    },
+    {
+      "ingredient_id": "02cae880-8e85-5200-a6e1-28d8f21a470f",
+      "normalized_name": "jonathan or other sweet cooking apple"
+    },
+    {
+      "ingredient_id": "0353d97d-f4ef-546c-876e-1b9a348ac345",
+      "normalized_name": "heavy cream or creme fraiche"
+    },
+    {
+      "ingredient_id": "03b1d15c-0b7e-5c6a-a130-e5d99b1e02d4",
+      "normalized_name": "marinara or spaghetti sauce with meat"
+    },
+    {
+      "ingredient_id": "03b50587-b544-5c93-bcdd-5d8f0438cf28",
+      "normalized_name": "ml bottle bourbon or rye whiskey"
+    },
+    {
+      "ingredient_id": "03d9e6ed-3c38-5dbf-8bfc-fe882291dcba",
+      "normalized_name": "frozen passionfruit pulp with or without seeds"
+    },
+    {
+      "ingredient_id": "046d7e8e-e422-55b5-bbd8-16a38b0e16f6",
+      "normalized_name": "chicken breast tenderloins or strip"
+    },
+    {
+      "ingredient_id": "049c1263-1258-52da-86b0-091674d02c0b",
+      "normalized_name": "jarred german wiener or vienna sausage"
+    },
+    {
+      "ingredient_id": "04dfe04b-1c2a-598b-8293-2c8d32f354be",
+      "normalized_name": "drop green or red food coloring"
+    },
+    {
+      "ingredient_id": "0515bc3a-d2f8-5d5e-ae9a-d97af393f605",
+      "normalized_name": "marinara or other prepared tomato sauce"
+    },
+    {
+      "ingredient_id": "0522eda0-14f2-5791-8803-e353ac198523",
+      "normalized_name": "colby jack or pepperjack cheese"
+    },
+    {
+      "ingredient_id": "0571cdbf-78d3-52b8-b6a2-b9fe46b4618c",
+      "normalized_name": "whole wheat or regular flour tortilla"
+    },
+    {
+      "ingredient_id": "0580e1e2-b702-54ef-aa17-f6b8fc68022f",
+      "normalized_name": "bagel chips or crostini for serving"
+    },
+    {
+      "ingredient_id": "059007e7-ac2d-5bab-9386-febb5db255d0",
+      "normalized_name": "light beer or sparkling water 1 1/2 cup"
+    },
+    {
+      "ingredient_id": "05934c5e-a0ee-5d01-aece-d09ba4188091",
+      "normalized_name": "grated monterey jack cheese or mozzarella"
+    },
+    {
+      "ingredient_id": "05b3ddd6-e476-5f5b-b0b8-45e0bfefed55",
+      "normalized_name": "plum or roma tomato"
+    },
+    {
+      "ingredient_id": "05bb49a5-b0fb-5f39-81f1-d193abb7c027",
+      "normalized_name": "sour cream or creme fraiche"
+    },
+    {
+      "ingredient_id": "05f9d111-6146-58bf-89b9-de4018bcf366",
+      "normalized_name": "packed fresh mint leaves and stem"
+    },
+    {
+      "ingredient_id": "0715ae5d-71ac-5001-b2a9-6f5d873f119c",
+      "normalized_name": "mexi-corn or whole kernel corn"
+    },
+    {
+      "ingredient_id": "072864f1-3726-533f-b1a4-383a446e4380",
+      "normalized_name": "tube or can tomato paste"
+    },
+    {
+      "ingredient_id": "07482815-2063-5f87-9e69-07a743283ee7",
+      "normalized_name": "basmati rice or other long grain white rice"
+    },
+    {
+      "ingredient_id": "07c7a5fa-9c54-5a89-bbc8-f2d65b7d2532",
+      "normalized_name": "gemelli or other short pasta"
+    },
+    {
+      "ingredient_id": "0801b9cb-3239-5ebd-8180-938015c53af4",
+      "normalized_name": "pear juice or white wine"
+    },
+    {
+      "ingredient_id": "0818cbc2-04cb-59b0-af06-739b683458ea",
+      "normalized_name": "shredded tex-mex or cheddar cheese"
+    },
+    {
+      "ingredient_id": "082f6cb8-0cae-5a16-8a01-60dea885c273",
+      "normalized_name": "slices rustic italian or sourdough bread"
+    },
+    {
+      "ingredient_id": "08475955-0eed-597a-9c68-0e35d6c12d1b",
+      "normalized_name": "red and/or green sprinkle"
+    },
+    {
+      "ingredient_id": "08dca092-720a-5c3f-8fc4-c3d2a2c7a9fd",
+      "normalized_name": "new mexico or regular chili powder"
+    },
+    {
+      "ingredient_id": "0982dc95-2890-54be-9622-2e3d8cee209a",
+      "normalized_name": "red or yellow onion"
+    },
+    {
+      "ingredient_id": "0a44e36b-c9ee-5973-8c95-d9c8243d463d",
+      "normalized_name": "button or mini-bella mushroom"
+    },
+    {
+      "ingredient_id": "0ab26584-cd8b-5bd6-9779-98f6e9a5eba0",
+      "normalized_name": "slices cheddar or colby cheese"
+    },
+    {
+      "ingredient_id": "0ad1bfe5-34de-5036-a46b-c01bced56332",
+      "normalized_name": "agave or simple syrup"
+    },
+    {
+      "ingredient_id": "0af46120-cd19-5e13-af8a-9ef06576acca",
+      "normalized_name": "pistachio cream or pistachio butter"
+    },
+    {
+      "ingredient_id": "0b05b6dd-6e68-5830-a2d2-299fdd23bcf7",
+      "normalized_name": "boneless skinless chicken breast or thigh"
+    },
+    {
+      "ingredient_id": "0bdba48d-fce8-5fd6-a625-c81b622bf5cc",
+      "normalized_name": "watercress and/or arugula"
+    },
+    {
+      "ingredient_id": "0bf66724-c5ca-502e-bb0e-b72078e68e78",
+      "normalized_name": "vegetable stock or chicken stock"
+    },
+    {
+      "ingredient_id": "0c42e7d9-852a-5883-ad6e-f78d0e090935",
+      "normalized_name": "red and green candied cherry"
+    },
+    {
+      "ingredient_id": "0c4e897e-2957-52a5-9922-b5a6549677b4",
+      "normalized_name": "green olives with pimento or anchovy"
+    },
+    {
+      "ingredient_id": "0c9a99ed-ad41-58b5-9182-a115a706c0dc",
+      "normalized_name": "plus 2 tablespoons self-rising flour or all-purpose flour plus 1 1/2 teaspoons baking powder"
+    },
+    {
+      "ingredient_id": "0cdcd4bf-e2be-565e-9feb-7eb81f506128",
+      "normalized_name": "vegan margarine or butter"
+    },
+    {
+      "ingredient_id": "0d482101-024d-5552-b507-0aea81559168",
+      "normalized_name": "hungarian sweet and spicy paprika"
+    },
+    {
+      "ingredient_id": "0d7af30a-423b-5be1-882a-2129e6f81ce8",
+      "normalized_name": "cream of chicken soup or cream of chicken with herb"
+    },
+    {
+      "ingredient_id": "0d8b7200-38fd-5a37-ba36-3547bd0eeff8",
+      "normalized_name": "purchased or homemade pico de gallo"
+    },
+    {
+      "ingredient_id": "0dd025a5-ab45-52eb-a39b-da6aa4f78fad",
+      "normalized_name": "honey or brown sugar"
+    },
+    {
+      "ingredient_id": "0e0ecbf6-98d4-5ad2-b9ba-b7fab251970e",
+      "normalized_name": "vanilla paste or extract"
+    },
+    {
+      "ingredient_id": "0e340c44-0c0e-541b-8a50-62b84417a2f6",
+      "normalized_name": "motts original or natural applesauce"
+    },
+    {
+      "ingredient_id": "0e620e93-787e-5b87-9d48-10ea7c3cd034",
+      "normalized_name": "graham cracker crumbs or powdered sugar"
+    },
+    {
+      "ingredient_id": "0f1caf51-1f23-57d4-8f40-e15e83915a7e",
+      "normalized_name": "chili crisp paste or chili garlic sauce depending on spice level desired"
+    },
+    {
+      "ingredient_id": "0f88e03e-71fa-54f3-9ec6-f161ae6adb9d",
+      "normalized_name": "pkg crescent dough sheets or roll"
+    },
+    {
+      "ingredient_id": "0fbd03e3-e3c0-5467-82f5-1494583c5f37",
+      "normalized_name": "liter burgundy or other red wine"
+    },
+    {
+      "ingredient_id": "0fe144a4-b90a-51bd-bbb5-100adede2c0c",
+      "normalized_name": "korean soon tofu or soft tofu"
+    },
+    {
+      "ingredient_id": "0fe19989-5e48-542a-86be-a6ac5f9fef9d",
+      "normalized_name": "teriyaki baste and glaze"
+    },
+    {
+      "ingredient_id": "0feef236-e287-5048-8710-fd932d4d3c4c",
+      "normalized_name": "spinach or kale"
+    },
+    {
+      "ingredient_id": "106f9584-f475-5865-a771-aae4da1c8d1f",
+      "normalized_name": "parmesan and romano cheese"
+    },
+    {
+      "ingredient_id": "1078f265-acfb-5883-aeb0-fdbcd14fcdf4",
+      "normalized_name": "sweet or dill pickle relish"
+    },
+    {
+      "ingredient_id": "111ed6cd-697a-5bad-bec2-1eee8ee2d285",
+      "normalized_name": "packet sazon goya with coriander and annatto"
+    },
+    {
+      "ingredient_id": "114e8608-a1fe-57ae-a938-b80734375a94",
+      "normalized_name": "yukon gold or russet potato"
+    },
+    {
+      "ingredient_id": "116bb743-0ba7-59e8-93b4-515705d85b29",
+      "normalized_name": "half-and-half or light cream"
+    },
+    {
+      "ingredient_id": "117ab479-e261-5df6-856f-0be782e18ad3",
+      "normalized_name": "thai chili or birds eye chili pepper"
+    },
+    {
+      "ingredient_id": "11f75bca-326f-5d71-8b8b-d6fc140cf5aa",
+      "normalized_name": "tiny red or yellow baby potato"
+    },
+    {
+      "ingredient_id": "1213278f-be14-5159-aa64-0b9e157aee82",
+      "normalized_name": "granny smith or other tart apple"
+    },
+    {
+      "ingredient_id": "12188d82-069a-5ad0-a27e-9a53d9dd2e36",
+      "normalized_name": "instant mashed potato flakes or buds"
+    },
+    {
+      "ingredient_id": "1262a5b7-58ff-568a-be40-b4743b64f58c",
+      "normalized_name": "milk chocolate and/or white chocolate chip"
+    },
+    {
+      "ingredient_id": "126d87ed-1bed-54a4-8e9e-2e320dfd8129",
+      "normalized_name": "avocado oil or other vegetable oil"
+    },
+    {
+      "ingredient_id": "127ff3da-c600-5644-9d04-cb9794014eb2",
+      "normalized_name": "chocolate or vanilla flavor candy coating almond bark"
+    },
+    {
+      "ingredient_id": "1285a5f6-9051-5b61-9110-0ae7b98fbc5d",
+      "normalized_name": "leftover stuffing or prepared stuffing mix"
+    },
+    {
+      "ingredient_id": "12bdfe49-18fc-51c9-a71a-b7a472db5483",
+      "normalized_name": "dried marjoram or oregano"
+    },
+    {
+      "ingredient_id": "12d1cad6-3736-57a7-abc1-975b3f037d3a",
+      "normalized_name": "pulled pork or other cooked"
+    },
+    {
+      "ingredient_id": "12f2efd4-64f3-59f2-a580-3de49dbdcd1b",
+      "normalized_name": "gochujang korean hot and sweet pepper paste"
+    },
+    {
+      "ingredient_id": "12f7ea68-9274-5474-8fe9-dbf98303ff6b",
+      "normalized_name": "chicken stock or broth"
+    },
+    {
+      "ingredient_id": "13131503-4868-5ca5-887a-3e6ba7c047ca",
+      "normalized_name": "chopped fresh thyme or 1/2 teaspoon dried thyme"
+    },
+    {
+      "ingredient_id": "131c8571-a94d-5178-965b-4f92d3849efc",
+      "normalized_name": "mexican or spanish-style rice mix"
+    },
+    {
+      "ingredient_id": "134dbe65-261a-5774-8442-47f7b8ff4b97",
+      "normalized_name": "tomatoes and green chile"
+    },
+    {
+      "ingredient_id": "13582910-8e4b-5b2f-8c46-4b9c829310c0",
+      "normalized_name": "pkg garlic and herb chicken sausage"
+    },
+    {
+      "ingredient_id": "1375e3fe-f7a6-5e67-a0ef-b517988b0811",
+      "normalized_name": "plain or vanilla non-fat yogurt"
+    },
+    {
+      "ingredient_id": "139d809c-92ff-5a2d-9ff9-d574e5f7e57d",
+      "normalized_name": "creamy or chunky peanut butter"
+    },
+    {
+      "ingredient_id": "13aa7980-8556-59c4-b51f-f03fc14216b2",
+      "normalized_name": "tricolor or red quinoa"
+    },
+    {
+      "ingredient_id": "13b61e1c-94e2-56bb-aa0b-8ceea19bb5f6",
+      "normalized_name": "spring mix or your favorite green"
+    },
+    {
+      "ingredient_id": "13b9f68e-a3d2-5ee2-a46b-db0e23b0f315",
+      "normalized_name": "garlic and herb seasoning blend"
+    },
+    {
+      "ingredient_id": "13d9cd58-cc82-5db4-b178-f6d65f8074d2",
+      "normalized_name": "canola or other vegetable oil"
+    },
+    {
+      "ingredient_id": "1427871c-f4fb-5e0d-b4cc-10c953f30c4a",
+      "normalized_name": "original or vanilla unsweetened almond breeze almondmilk"
+    },
+    {
+      "ingredient_id": "147f221c-3c9d-562a-a5de-c3bffcbba69f",
+      "normalized_name": "sour cream or greek yogurt"
+    },
+    {
+      "ingredient_id": "14862660-51d1-58ef-a92a-37ebce5b5bd4",
+      "normalized_name": "thick and chunky mild salsa"
+    },
+    {
+      "ingredient_id": "1489b97e-507e-55a2-b824-15b20e8a1d58",
+      "normalized_name": "olive oil or use 1/4 cup lard for the traditional version"
+    },
+    {
+      "ingredient_id": "1509f7d2-2963-5256-81ba-0afb505b9825",
+      "normalized_name": "packed fresh cilantro leaves and tender stem"
+    },
+    {
+      "ingredient_id": "1517428b-eb93-5220-aa3c-de79e511af93",
+      "normalized_name": "browning and seasoning sauce"
+    },
+    {
+      "ingredient_id": "15701050-06da-5cb5-a759-9055db819426",
+      "normalized_name": "red or rice wine vinegar"
+    },
+    {
+      "ingredient_id": "1573a963-7951-50a3-8b38-77fb757c2bf5",
+      "normalized_name": "margarita or kosher salt for the rim"
+    },
+    {
+      "ingredient_id": "159e1461-dfb2-5243-be25-1bb75b0fef01",
+      "normalized_name": "dark or semi-sweet chocolate chip"
+    },
+    {
+      "ingredient_id": "15db9474-25fc-5d88-bf48-04085746465b",
+      "normalized_name": "frozen mixed vegetables or frozen peas and carrot"
+    },
+    {
+      "ingredient_id": "15ea12ae-14f9-524a-b81b-f4713b51273f",
+      "normalized_name": "box white or yellow cake mix"
+    },
+    {
+      "ingredient_id": "15ebce70-1a6d-58e9-bbbf-3753487bcbae",
+      "normalized_name": "kitty litter box and liner"
+    },
+    {
+      "ingredient_id": "15f9c0bc-cff7-5682-bdaf-e584bdecf9c2",
+      "normalized_name": "shredded coleslaw mix with red and green cabbage and carrot"
+    },
+    {
+      "ingredient_id": "161eee82-53d3-568e-a8b8-52caffb0025a",
+      "normalized_name": "thyme or 1 tablespoon dried thyme"
+    },
+    {
+      "ingredient_id": "16c0e585-0346-5479-94a6-4dc82928d770",
+      "normalized_name": "buns and desired toppings for serving"
+    },
+    {
+      "ingredient_id": "16ff08c5-013d-583d-bf7e-12b20e9c3ba3",
+      "normalized_name": "quesadilla cheese or pepper jack cheese"
+    },
+    {
+      "ingredient_id": "1727b735-12f6-5f31-9729-3ffc68b927a4",
+      "normalized_name": "hellmanns or foods real mayonnaise"
+    },
+    {
+      "ingredient_id": "17cd5c9d-295d-53bc-9250-a818ac6cbe4d",
+      "normalized_name": "chopped fresh parsley or cilantro"
+    },
+    {
+      "ingredient_id": "17fd0861-3c08-591a-98bb-58d54fdae5b3",
+      "normalized_name": "jarred caramel sauce or dulce de leche"
+    },
+    {
+      "ingredient_id": "1821f4e0-5ae8-5577-aa42-88378610d7a1",
+      "normalized_name": "minced garlic or garlic paste"
+    },
+    {
+      "ingredient_id": "18798b10-d426-562b-8dfa-6fe82ac8f66c",
+      "normalized_name": "red cherry tomatoes or red grape tomato"
+    },
+    {
+      "ingredient_id": "18821474-0bbe-50cd-a882-c29c575bbc53",
+      "normalized_name": "knorr crab and corn soup"
+    },
+    {
+      "ingredient_id": "18a50c61-eb85-53fd-8533-3f7ed3c29864",
+      "normalized_name": "cinnamon stick or orange peel for garnish"
+    },
+    {
+      "ingredient_id": "18c7d7b2-c279-56d6-b2c6-d66535ce2a14",
+      "normalized_name": "cilantro leaves and thinner stem"
+    },
+    {
+      "ingredient_id": "19706c8a-21f4-51bf-8536-120ee1a31488",
+      "normalized_name": "shredded colby jack or cheddar cheese"
+    },
+    {
+      "ingredient_id": "19be1ab7-b5c2-5411-9f03-bbe4bb58fd26",
+      "normalized_name": "tomatoes with green pepper and onion"
+    },
+    {
+      "ingredient_id": "1a435633-d350-59bf-97cb-7d99dd619b48",
+      "normalized_name": "low-moisture part-skim mozzarella cheese or fontina cheese"
+    },
+    {
+      "ingredient_id": "1ac9c519-3e5b-5f8c-930c-503f96a08fae",
+      "normalized_name": "freeze-dried strawberries or raspberry"
+    },
+    {
+      "ingredient_id": "1af9d400-ea74-52fd-bbc1-fcdb9c21b599",
+      "normalized_name": "loaf firm-textured french or italian bread"
+    },
+    {
+      "ingredient_id": "1b3cce9f-4289-5766-ad3b-3db54334f7aa",
+      "normalized_name": "land o lakes butter with olive oil and sea salt"
+    },
+    {
+      "ingredient_id": "1b772527-e93e-5237-a912-f884726914a9",
+      "normalized_name": "canola or peanut oil"
+    },
+    {
+      "ingredient_id": "1b992db9-3dd4-587d-9390-dbca5fece214",
+      "normalized_name": "finely crushed chocolate or regular graham crackers about 9 sheet"
+    },
+    {
+      "ingredient_id": "1bbfdd2b-c87d-51b3-9d94-073db9770a05",
+      "normalized_name": "fluid ounces freshly squeezed or bottled grapefruit juice"
+    },
+    {
+      "ingredient_id": "1bd8f701-7105-5bda-bcdf-50aa44e61179",
+      "normalized_name": "skirt steak or flap steak"
+    },
+    {
+      "ingredient_id": "1bea8092-e428-5173-ab90-e62ffa1cd1e0",
+      "normalized_name": "chopped fresh dill or other herb"
+    },
+    {
+      "ingredient_id": "1bec2d04-ab33-51a1-8063-ee215776e9a2",
+      "normalized_name": "jam or jelly of choice"
+    },
+    {
+      "ingredient_id": "1c12f7c7-1cda-5c52-9897-4e05a28625c3",
+      "normalized_name": "vegetable or chicken stock"
+    },
+    {
+      "ingredient_id": "1c19c05d-3345-5a69-b786-b2560be65342",
+      "normalized_name": "fuji or granny smith apple"
+    },
+    {
+      "ingredient_id": "1c624a1d-38da-5d5b-ad44-18d6bfa7394f",
+      "normalized_name": "breakstones or knudsen sour cream"
+    },
+    {
+      "ingredient_id": "1caeafde-b730-5fac-bb4e-ca8c2e34b756",
+      "normalized_name": "handful hickory or apple wood chips for smoking"
+    },
+    {
+      "ingredient_id": "1ce60830-0ccd-5dad-82dd-53d3aa29a4de",
+      "normalized_name": "sleeve of ritz crackers or 30 buttery rounds"
+    },
+    {
+      "ingredient_id": "1d137fa8-8ad6-5e32-8262-9ae3defdb9f8",
+      "normalized_name": "crumbled feta or cotija cheese 4 ounce"
+    },
+    {
+      "ingredient_id": "1d1ebd10-c68f-5c30-85f5-b89b0eff8d29",
+      "normalized_name": "chilled tomato and clam juice cocktail such as clamato"
+    },
+    {
+      "ingredient_id": "1d73d23b-5fc1-5b77-a3bf-00802270ddf1",
+      "normalized_name": "milk or half and half"
+    },
+    {
+      "ingredient_id": "1d77d64a-0b33-5678-9005-a368ccf39aff",
+      "normalized_name": "creole or spicy brown mustard"
+    },
+    {
+      "ingredient_id": "1db2162c-4eff-5e7f-a866-60797f7ee80d",
+      "normalized_name": "aleppo pepper flakes or other red pepper flake"
+    },
+    {
+      "ingredient_id": "1dfa217f-7704-5772-9f7b-fbc341e7795b",
+      "normalized_name": "turkey or chicken broth"
+    },
+    {
+      "ingredient_id": "1e043145-f3c5-5adb-8d92-f2d11f46491b",
+      "normalized_name": "basil and garlic-flavored olive oil for brushing"
+    },
+    {
+      "ingredient_id": "1e10c33e-e50b-5ebd-b29f-4f1f712bf0f2",
+      "normalized_name": "carnaroli or arborio rice"
+    },
+    {
+      "ingredient_id": "1e70d3b0-a3a0-52ec-9c32-5c42a2a335a3",
+      "normalized_name": "red and green candy-coated chocolate pieces such as mms"
+    },
+    {
+      "ingredient_id": "1e90a45d-4e85-5e4f-bbf0-4a634d3cb5bd",
+      "normalized_name": "young yellow squash and zucchini"
+    },
+    {
+      "ingredient_id": "1efa120e-4ab1-51b7-942e-0150d448bd34",
+      "normalized_name": "sirloin or london broil"
+    },
+    {
+      "ingredient_id": "1f36d6b9-c697-525e-9522-4ba8c3ad8752",
+      "normalized_name": "mushroom stems and piece"
+    },
+    {
+      "ingredient_id": "1fad45b8-9b5c-5a0d-9d2c-2c472fac8e0c",
+      "normalized_name": "peanut or canola oil"
+    },
+    {
+      "ingredient_id": "1fe75392-e33d-5fdf-bbe2-46df34fdba45",
+      "normalized_name": "almond extract or vanilla extract"
+    },
+    {
+      "ingredient_id": "2013fd84-6220-5463-9e82-4f3e211283c5",
+      "normalized_name": "marinara sauce or meat sauce"
+    },
+    {
+      "ingredient_id": "20509a44-60f9-5bcf-a673-f14a455ee1dc",
+      "normalized_name": "leftover cooked stuffing or dressing"
+    },
+    {
+      "ingredient_id": "20f4797d-a7e6-5f80-a9c1-03ef14deb288",
+      "normalized_name": "curd or whipped cottage cheese"
+    },
+    {
+      "ingredient_id": "212494cf-52ac-5c07-9b32-29fa9910363f",
+      "normalized_name": "tamarind juice or lemon juice"
+    },
+    {
+      "ingredient_id": "21388d62-facb-5585-bfa0-422ce5018094",
+      "normalized_name": "cook and serve butterscotch pudding mix"
+    },
+    {
+      "ingredient_id": "216cf81d-92a1-5bde-8123-24f90a1e7d10",
+      "normalized_name": "mesquite or hickory wood chip"
+    },
+    {
+      "ingredient_id": "217053a9-ef9c-5084-9e5d-a5c419924c6a",
+      "normalized_name": "seasoned breadcrumbs regular or panko or a combination of both"
+    },
+    {
+      "ingredient_id": "21797fc8-ef56-5fa5-9dfa-5a6c67ad993c",
+      "normalized_name": "canola oil or other neutral oil"
+    },
+    {
+      "ingredient_id": "21a474fb-6a18-5e4b-ac7a-bbc4b7965c1a",
+      "normalized_name": "bag frozen artichokes or 2 cans drained"
+    },
+    {
+      "ingredient_id": "2253f971-6cf1-5624-9cee-502e517322f8",
+      "normalized_name": "yellow or purple onion"
+    },
+    {
+      "ingredient_id": "229d56ce-b5c2-5251-9105-0d46e1b42060",
+      "normalized_name": "baby arugula or coarsely"
+    },
+    {
+      "ingredient_id": "236db816-4a56-58b9-9b6d-6e3947246e7c",
+      "normalized_name": "jigger cointreau or triple sec"
+    },
+    {
+      "ingredient_id": "2393dfca-81c5-5dab-9e0e-1968778e1ee2",
+      "normalized_name": "sugar and sucralose blend for baking such as natur bakers blend"
+    },
+    {
+      "ingredient_id": "239e3bc6-09b7-5c25-9a38-c570114f4439",
+      "normalized_name": "prune juice or water"
+    },
+    {
+      "ingredient_id": "248cc065-f5de-50bc-a5a2-b840438a3101",
+      "normalized_name": "canola or vegetable oil"
+    },
+    {
+      "ingredient_id": "249314d9-ea82-5f71-913e-c32c738dbf2b",
+      "normalized_name": "peas and carrot"
+    },
+    {
+      "ingredient_id": "24a76bc4-5567-541d-b30c-8bae4cd1f68e",
+      "normalized_name": "garlic and herb seasoning blend such as mrs dash"
+    },
+    {
+      "ingredient_id": "24cbbbb4-e792-5f3f-997c-a7efa96af6c0",
+      "normalized_name": "raisins or dried currant"
+    },
+    {
+      "ingredient_id": "2544fba7-c8c5-51a6-85f3-23df4e22687e",
+      "normalized_name": "dill pickles or dill relish"
+    },
+    {
+      "ingredient_id": "2591a25e-9032-5ac3-a558-4d25a1b6009f",
+      "normalized_name": "ground lamb or 85 lean ground beef"
+    },
+    {
+      "ingredient_id": "259e90a9-d8ba-5888-9644-1090a022ad18",
+      "normalized_name": "sangrita mexican-style bloody mary mix with orange and lime"
+    },
+    {
+      "ingredient_id": "260a88e0-a13b-5daf-97c9-fc0e19226dda",
+      "normalized_name": "radishes or other vegetable"
+    },
+    {
+      "ingredient_id": "2624361c-5c28-5a7f-963b-dfbd9430a92e",
+      "normalized_name": "mexican crema or sour cream"
+    },
+    {
+      "ingredient_id": "263d266e-2010-526c-a53f-d1d4a93d5e7d",
+      "normalized_name": "cooked jasmine rice or udon noodle"
+    },
+    {
+      "ingredient_id": "26b0356d-d2a8-530e-8150-f4b1fcafe7dc",
+      "normalized_name": "coffee room temperature or cold"
+    },
+    {
+      "ingredient_id": "26e104e2-fd4d-587a-b2b1-a41451e81c26",
+      "normalized_name": "campbells condensed cream of chicken soup regular or 98 fat free"
+    },
+    {
+      "ingredient_id": "2777d9be-7d33-5d63-bc6a-cfd2ab0aacde",
+      "normalized_name": "classic oil and vinegar salad dressing"
+    },
+    {
+      "ingredient_id": "27a3e052-3e28-55e9-9a0a-69b01e7deb4a",
+      "normalized_name": "refrigerated or fresh cheese tortellini"
+    },
+    {
+      "ingredient_id": "27a68a3f-90e2-528c-b580-5816d579d760",
+      "normalized_name": "stout such as guinness or porter"
+    },
+    {
+      "ingredient_id": "27ef9730-d94b-52ca-b165-0f48eb27e317",
+      "normalized_name": "ground sirloin or ground round"
+    },
+    {
+      "ingredient_id": "2820d5d0-4ea3-5277-8a55-fc3116a1e0f3",
+      "normalized_name": "chili powder and/or cumin"
+    },
+    {
+      "ingredient_id": "282148a0-6593-570b-877d-36cd2b3d24de",
+      "normalized_name": "slices whole wheat bread or 8 bread roll"
+    },
+    {
+      "ingredient_id": "283dc507-d7a2-5185-b93d-649862b3afbe",
+      "normalized_name": "shredded cheddar cheese or any cheese you like"
+    },
+    {
+      "ingredient_id": "287b03cf-29d3-5123-bcb3-0eaf1331ecbc",
+      "normalized_name": "beef bone broth or high quality"
+    },
+    {
+      "ingredient_id": "28a4196f-05ea-566a-9a5b-603553caddcf",
+      "normalized_name": "licor 43 or kahla"
+    },
+    {
+      "ingredient_id": "28abeac6-bc5c-5a4f-8e2f-87fcd62bfccc",
+      "normalized_name": "dried campanelle or bowtie pasta 4 cup"
+    },
+    {
+      "ingredient_id": "28ad2d92-3d5c-5419-84ed-bc3c082cad20",
+      "normalized_name": "szechuan peppercorns or other kick such as peppercorns and/or chile"
+    },
+    {
+      "ingredient_id": "291b2be7-fc88-52d4-9456-c954f02d2b94",
+      "normalized_name": "lean ground venison or beef"
+    },
+    {
+      "ingredient_id": "2a665789-c47b-5ee3-a691-c61fdaad417f",
+      "normalized_name": "vanilla ice cream or sweetened whipped cream"
+    },
+    {
+      "ingredient_id": "2ac96d40-8dd9-556a-88d6-0afa6aa842b3",
+      "normalized_name": "apple pie spice or ground cinnamon"
+    },
+    {
+      "ingredient_id": "2b2008f2-3a9c-50e7-ae35-0b541ba52935",
+      "normalized_name": "red velvet food coloring such as lorann professional kitchen red velvet bakery emulsion or as desired"
+    },
+    {
+      "ingredient_id": "2b250524-8b94-5155-bd28-7895e07e96cc",
+      "normalized_name": "cauliflower and/or broccoli floret"
+    },
+    {
+      "ingredient_id": "2b2d667b-c0f7-563e-9a4b-d89173b7a439",
+      "normalized_name": "rounded tablespoon fresh grated or finely"
+    },
+    {
+      "ingredient_id": "2b3ad31e-3083-5212-bc23-0b3905286f6c",
+      "normalized_name": "packets instant maple and brown sugar oatmeal"
+    },
+    {
+      "ingredient_id": "2b48adea-d9c4-51d1-badd-b879690242bc",
+      "normalized_name": "prepared mashed sweet potatoes with cinnamon and brown sugar or about 2 cups of leftover mashed sweet potato casserole"
+    },
+    {
+      "ingredient_id": "2b6088ea-6f96-5b05-816e-9ad6bb754f2d",
+      "normalized_name": "peanut or vegetable oil"
+    },
+    {
+      "ingredient_id": "2b8f2632-a69d-5ea5-84e7-e570e490aecb",
+      "normalized_name": "habanero or serrano chile"
+    },
+    {
+      "ingredient_id": "2bd03779-fefc-58ba-a1d3-87aa188dda07",
+      "normalized_name": "beef or bacon dripping"
+    },
+    {
+      "ingredient_id": "2bebafac-c709-5cd2-9a0c-54dcdd485736",
+      "normalized_name": "lard or other cooking fat"
+    },
+    {
+      "ingredient_id": "2c1f2ebc-6e0a-57b8-bbcf-cbe810e4e43e",
+      "normalized_name": "great northern beans or cannellini bean"
+    },
+    {
+      "ingredient_id": "2c9cf071-34a4-538a-a8d9-d6e3c10b30b0",
+      "normalized_name": "loaf challah or brioche"
+    },
+    {
+      "ingredient_id": "2cb35960-0599-5560-a855-8de1995f9bfd",
+      "normalized_name": "milk or half-and-half"
+    },
+    {
+      "ingredient_id": "2d0eb310-2fd4-518a-beac-cbc7a9ed0f7d",
+      "normalized_name": "cake flour or all purpose"
+    },
+    {
+      "ingredient_id": "2d18f00d-c953-592a-a651-f235c3651ff3",
+      "normalized_name": "roasted red pepper and garlic seasoning blend"
+    },
+    {
+      "ingredient_id": "2d8a23ae-32fa-54e5-ac40-7295204c93cf",
+      "normalized_name": "buttermilk or sour cream"
+    },
+    {
+      "ingredient_id": "2d948ab9-be5b-5fd0-8957-854bf0b93e07",
+      "normalized_name": "cointreau or other orange liqueur"
+    },
+    {
+      "ingredient_id": "2de04f82-5cfd-54be-9c2a-5d32b71e3c6c",
+      "normalized_name": "sriracha hot sauce or chili crunch"
+    },
+    {
+      "ingredient_id": "2debe2a2-ced3-56e0-b66c-c324523b4bd4",
+      "normalized_name": "ground guajillo or ancho chili"
+    },
+    {
+      "ingredient_id": "2e4ae222-d015-53e1-9bc9-24da5d89ae1e",
+      "normalized_name": "chopped fresh oregano and/or basil"
+    },
+    {
+      "ingredient_id": "2ec0894f-cb43-5925-bbb6-97331cbb68f1",
+      "normalized_name": "whole or cracked black peppercorn"
+    },
+    {
+      "ingredient_id": "2ec2b807-3b18-5598-a7d8-7e2a54a143aa",
+      "normalized_name": "rack st louis style ribs or baby back rib"
+    },
+    {
+      "ingredient_id": "2ef27bce-80a5-5c34-aad5-8fb7176ce968",
+      "normalized_name": "yellow or white goya discos empanada disc"
+    },
+    {
+      "ingredient_id": "2f489ba5-9b58-5361-84fb-963e252173a3",
+      "normalized_name": "honeydew melon balls or cube"
+    },
+    {
+      "ingredient_id": "2f967b73-f143-563b-931e-1cc71b8d7ec3",
+      "normalized_name": "semisweet chocolate chunks or chocolate chip"
+    },
+    {
+      "ingredient_id": "30555943-43d1-59c6-a45f-0f970a128c1c",
+      "normalized_name": "tomato and clam juice cocktail"
+    },
+    {
+      "ingredient_id": "30677218-7a90-5d18-8422-ad6b837e81b1",
+      "normalized_name": "grape jelly or jam"
+    },
+    {
+      "ingredient_id": "30d53df8-724e-5e79-a8db-c3bf952940c9",
+      "normalized_name": "slices cuban bread or crusty french bread"
+    },
+    {
+      "ingredient_id": "30edf85f-2724-5829-bd8b-4ceba59d39cb",
+      "normalized_name": "shredded cabbage or coleslaw mix"
+    },
+    {
+      "ingredient_id": "31d2e334-e712-5af4-9e9a-ad6d44831c17",
+      "normalized_name": "corn tortilla chips or toasted bread"
+    },
+    {
+      "ingredient_id": "31fe53f9-5cfc-5409-a92a-c17b67de3a43",
+      "normalized_name": "ground sirloin or lean ground beef"
+    },
+    {
+      "ingredient_id": "3255cdbf-3c2a-5916-92a6-37693c49b2ad",
+      "normalized_name": "flank steak or round steak"
+    },
+    {
+      "ingredient_id": "3288ab49-63e5-5e44-8841-6d1cfe746ead",
+      "normalized_name": "vegetable broth or chicken broth"
+    },
+    {
+      "ingredient_id": "32ae4694-a6a5-5845-bd40-bdcb808473bb",
+      "normalized_name": "demerara sugar or finely"
+    },
+    {
+      "ingredient_id": "3307fcd6-8c8b-5dbe-a71f-fadc0dcce32e",
+      "normalized_name": "halibut or cod fillet"
+    },
+    {
+      "ingredient_id": "331cb65f-0a64-57d0-b403-e501453e36de",
+      "normalized_name": "white wine or sherry"
+    },
+    {
+      "ingredient_id": "3331b83c-4a41-50d8-b458-b9b538e40c96",
+      "normalized_name": "cantanzaro herbs such as savory spice shop or italian seasoning"
+    },
+    {
+      "ingredient_id": "33832d67-768d-546f-8363-fdff30d94f91",
+      "normalized_name": "parsley and or basil for garnish"
+    },
+    {
+      "ingredient_id": "33b56dae-312b-5889-9cbf-05b50e59d49c",
+      "normalized_name": "mazola pure no-stick canola or butter flavored cooking spray"
+    },
+    {
+      "ingredient_id": "33be01b8-3c15-5189-88ac-da8895ddd6ea",
+      "normalized_name": "regular powdered fruit pectin or 6 tablespoons classic powdered fruit pectin such as ball"
+    },
+    {
+      "ingredient_id": "342e0bee-6800-5864-9c56-669e21196269",
+      "normalized_name": "plain or panko breadcrumb"
+    },
+    {
+      "ingredient_id": "344668f9-e1f1-536b-82a5-b2b0722f72c5",
+      "normalized_name": "grape seed oil or other cooking oil"
+    },
+    {
+      "ingredient_id": "347d6abe-39c0-5a5c-82c8-650524dbd439",
+      "normalized_name": "cantaloupe balls or cube"
+    },
+    {
+      "ingredient_id": "35184096-8b62-56c8-ad76-4fc68262521f",
+      "normalized_name": "vanilla extract or 1 teaspoon vanilla bean paste"
+    },
+    {
+      "ingredient_id": "3573e811-7d96-525f-8114-a67552141a73",
+      "normalized_name": "ponzu sauce or sub with soy sauce lemonjuice"
+    },
+    {
+      "ingredient_id": "357eafc7-1700-5750-8b3d-52865233d4d8",
+      "normalized_name": "loaf italian or french bread"
+    },
+    {
+      "ingredient_id": "35b6ed9e-d96e-57b9-92a0-0a8f76f7018b",
+      "normalized_name": "evaporated milk or whole milk"
+    },
+    {
+      "ingredient_id": "35eae97a-00de-5f8f-97a9-a9ff49bfdda3",
+      "normalized_name": "ozs chicken or veggie broth"
+    },
+    {
+      "ingredient_id": "360f9f37-bac6-52e2-b7ed-3fe2742e8591",
+      "normalized_name": "tamari or soy sauce"
+    },
+    {
+      "ingredient_id": "3671072b-4cb3-5425-ad05-74d434b2d829",
+      "normalized_name": "mini dark chocolate chips or finely"
+    },
+    {
+      "ingredient_id": "367bb0f0-6a5c-528d-8340-742bf0ff8b13",
+      "normalized_name": "ranch dressing or blue cheese dressing"
+    },
+    {
+      "ingredient_id": "36820037-ea41-5edc-8f13-5d32d7ad1844",
+      "normalized_name": "demerara or turbinado sugar"
+    },
+    {
+      "ingredient_id": "36abb295-0c22-53b2-95d2-4b87ef52e775",
+      "normalized_name": "vanilla or white cake mix"
+    },
+    {
+      "ingredient_id": "36d0d22f-bbb1-5bce-ad42-86ce31701d9c",
+      "normalized_name": "frozen potato and cheese filled pierogy"
+    },
+    {
+      "ingredient_id": "370527f3-afa7-5295-a9d5-b1f73ee8d108",
+      "normalized_name": "plain skyr icelandic yogurt or yogurt"
+    },
+    {
+      "ingredient_id": "372650c4-6bd9-5f35-8c78-e78c275cba91",
+      "normalized_name": "plain yogurt or sour cream"
+    },
+    {
+      "ingredient_id": "3726f663-fe7d-579d-bcb2-7632b0bcb74c",
+      "normalized_name": "unsweetened cocoa powder or dutch-process cocoa powder"
+    },
+    {
+      "ingredient_id": "379afb0d-6a04-5db7-80f0-41801e49758f",
+      "normalized_name": "kerrygold garlic and herb butter"
+    },
+    {
+      "ingredient_id": "37a62189-bb7f-561c-b3e6-716855381f48",
+      "normalized_name": "mild cheddar or fontina cheese"
+    },
+    {
+      "ingredient_id": "38349515-8dee-5fc7-8ea6-c51237f13f25",
+      "normalized_name": "slices ham or prosciutto"
+    },
+    {
+      "ingredient_id": "38861e2a-e6f7-522a-aa30-dcdbd8718fb0",
+      "normalized_name": "triple sec or other orange liqueur"
+    },
+    {
+      "ingredient_id": "38a90760-cde7-5677-a7d6-ea6c7ac504a8",
+      "normalized_name": "macaroni and cheese"
+    },
+    {
+      "ingredient_id": "38d99eee-618b-5a67-a6e0-d384b7762ae4",
+      "normalized_name": "raisins or sweetened dried cranberry"
+    },
+    {
+      "ingredient_id": "393f3890-0142-5466-a616-94879de0641d",
+      "normalized_name": "garlic and herb pasta sauce such as hunt"
+    },
+    {
+      "ingredient_id": "39d7778f-9da3-55e4-90ba-08aa1301f404",
+      "normalized_name": "dried oregano or italian seasoning"
+    },
+    {
+      "ingredient_id": "3b17d016-367d-5ab7-8db1-c5f31a0d84ed",
+      "normalized_name": "torn french or italian bread cube"
+    },
+    {
+      "ingredient_id": "3b383cf1-cfc2-5cbd-af83-3e0236a67709",
+      "normalized_name": "chicken or lamb stock"
+    },
+    {
+      "ingredient_id": "3b576ad1-cb99-50b7-8ea9-eef061590812",
+      "normalized_name": "plain greek yogurt or plain yogurt"
+    },
+    {
+      "ingredient_id": "3b666de8-c1b7-563f-acb8-fec268f8971f",
+      "normalized_name": "water or chicken broth"
+    },
+    {
+      "ingredient_id": "3b8e60b2-b786-5813-9e97-31c909f23095",
+      "normalized_name": "slider buns or 6 hamburger bun"
+    },
+    {
+      "ingredient_id": "3ba531cf-f62b-55dc-9d3d-44b17742a250",
+      "normalized_name": "frozen passion fruit pulp with or without seeds"
+    },
+    {
+      "ingredient_id": "3c0cabd1-197d-5901-a803-69df98b8e7fb",
+      "normalized_name": "lime juice about 2 or 3 lime"
+    },
+    {
+      "ingredient_id": "3cad9fe1-2501-52cf-927f-4b9fb1908a2b",
+      "normalized_name": "shredded colby or monterey jack cheese"
+    },
+    {
+      "ingredient_id": "3cb2c195-f709-5a90-b51a-c14d552ffe1b",
+      "normalized_name": "knorr cream of chicken and corn"
+    },
+    {
+      "ingredient_id": "3cd70abd-76c0-58ca-abce-47159a4c3be6",
+      "normalized_name": "campbells condensed cream of mushroom soup or campbells condensed 98 fat free cream of mushroom soup"
+    },
+    {
+      "ingredient_id": "3d04ea64-ec12-5094-be62-1627805cb479",
+      "normalized_name": "shredded mozzarella or mexican-blend cheese"
+    },
+    {
+      "ingredient_id": "3d984293-93a5-5c2b-bd98-39012b380a6c",
+      "normalized_name": "frozen whole-kernel corn with red and green bell pepper"
+    },
+    {
+      "ingredient_id": "3da7e4a8-cb07-574f-8a2b-a78ae1e3e8fb",
+      "normalized_name": "dry red wine such as cabernet sauvignon or merlot"
+    },
+    {
+      "ingredient_id": "3e003ddc-f937-5170-86a3-ec79582f5181",
+      "normalized_name": "refrigerated or frozen potato gnocchi"
+    },
+    {
+      "ingredient_id": "3e81730f-45b4-580e-9ad1-23bac7b6c939",
+      "normalized_name": "sherry vinegar or any wine vinegar"
+    },
+    {
+      "ingredient_id": "3ec38d63-3edc-5d3f-8623-9de108415d19",
+      "normalized_name": "red and green chili pepper"
+    },
+    {
+      "ingredient_id": "3f0face9-7174-58f6-8b63-2136488811fc",
+      "normalized_name": "black or pinto bean"
+    },
+    {
+      "ingredient_id": "3f5ccff7-98d7-5ee0-af99-8a49f06473b7",
+      "normalized_name": "frozen mixed vegetables such as peas and carrot"
+    },
+    {
+      "ingredient_id": "3fb520b4-2cc0-5314-bb17-b0e0a1f82331",
+      "normalized_name": "port wine or burgundy"
+    },
+    {
+      "ingredient_id": "3fdf58e5-5ba0-5139-a4b3-022a901d5c8b",
+      "normalized_name": "ball realfruit low or no-sugar needed pectin"
+    },
+    {
+      "ingredient_id": "3ff1447f-6bf6-5a24-9939-4a70579b09df",
+      "normalized_name": "dried marjoram or thyme"
+    },
+    {
+      "ingredient_id": "40323a9f-0531-5c78-8e2a-6cd9e8d724cb",
+      "normalized_name": "scallions or blue cheese"
+    },
+    {
+      "ingredient_id": "404d4f45-4688-5775-9565-04f1b63dac31",
+      "normalized_name": "sanding or sparkling sugar"
+    },
+    {
+      "ingredient_id": "40677b52-0483-53f2-a548-d7976e23acc1",
+      "normalized_name": "lemon and elderflower vodka"
+    },
+    {
+      "ingredient_id": "407920e8-00fe-5b7a-8ef0-c943a1b2cb27",
+      "normalized_name": "sourdough or french bread"
+    },
+    {
+      "ingredient_id": "40bba778-54b8-578c-bee1-9cc7144e390b",
+      "normalized_name": "whipped topping cool whip or i use great value brand"
+    },
+    {
+      "ingredient_id": "410f1810-3d36-5493-8ba6-710376491a80",
+      "normalized_name": "freshly grated parmesan or pecorino"
+    },
+    {
+      "ingredient_id": "41e377cb-06eb-5c2c-931c-a3b788b96c05",
+      "normalized_name": "shredded potatoes or frozen hash brown"
+    },
+    {
+      "ingredient_id": "423e3c8f-c2f9-5d9e-ab18-294081c0ef3d",
+      "normalized_name": "shrimp stock or water"
+    },
+    {
+      "ingredient_id": "426e06d8-8c20-5ab7-94b5-e362a3fdb5e4",
+      "normalized_name": "half-and-half or whole milk"
+    },
+    {
+      "ingredient_id": "42d778cf-bde4-5a07-8b3c-598c511c302f",
+      "normalized_name": "lean ground beef and pork mix"
+    },
+    {
+      "ingredient_id": "42ee7ed1-eca9-5085-97f0-765f6e7e0d1d",
+      "normalized_name": "vanilla bean paste or 1/2 tsp vanilla extract maple syrup"
+    },
+    {
+      "ingredient_id": "43102a21-fea1-5d41-801f-8bb9dbcfa53a",
+      "normalized_name": "kewpie mayo or regular mayo"
+    },
+    {
+      "ingredient_id": "43362b65-c6c3-5255-83ae-ebfe4092e67d",
+      "normalized_name": "celery stick and/or other garnishe"
+    },
+    {
+      "ingredient_id": "435f08e0-23e8-5ba0-9f3c-b4ef907d922f",
+      "normalized_name": "loosely packed fresh flat-leaf parsley leaves and tender stem"
+    },
+    {
+      "ingredient_id": "43a32970-6624-5d24-8e53-9e7d6ef36968",
+      "normalized_name": "cantanzaro herbs or italian seasoning"
+    },
+    {
+      "ingredient_id": "43b28c08-c832-58b2-94e3-594ae04a34a2",
+      "normalized_name": "melted ghee or clarified butter"
+    },
+    {
+      "ingredient_id": "43f44b60-52bd-5d86-b859-03b2d7354145",
+      "normalized_name": "milk or 1 high protein milk"
+    },
+    {
+      "ingredient_id": "44007c50-7762-58f5-bacf-fda832f951ea",
+      "normalized_name": "ground beef or a mixture of pork"
+    },
+    {
+      "ingredient_id": "4409d846-d134-56ad-824a-49345041d972",
+      "normalized_name": "pkg wide or medium egg noodle"
+    },
+    {
+      "ingredient_id": "4419e5e1-6a34-5789-82b3-9c69fbce022f",
+      "normalized_name": "baby bella or domestic white mushroom"
+    },
+    {
+      "ingredient_id": "442404ef-f9c2-5128-9da2-b6a2763b64c5",
+      "normalized_name": "cold chicken or turkey broth"
+    },
+    {
+      "ingredient_id": "4426f3f2-849f-5246-9dff-8110293448bf",
+      "normalized_name": "chicken flavor rice and pasta blend"
+    },
+    {
+      "ingredient_id": "4426fd11-d922-59d0-93e1-63a73c7cc499",
+      "normalized_name": "sweet and hot pepper"
+    },
+    {
+      "ingredient_id": "44309b83-fcc6-5038-87d3-a0d88c2f1721",
+      "normalized_name": "oil and eggs"
+    },
+    {
+      "ingredient_id": "443e2b03-c1fa-5025-9be8-abc8b12a4ec0",
+      "normalized_name": "oil and vinegar dressing"
+    },
+    {
+      "ingredient_id": "44749e10-ba09-5ebf-8c48-a2d78495b6ea",
+      "normalized_name": "hibiscus tea bag or 3 tablespoons dried hibiscus flower"
+    },
+    {
+      "ingredient_id": "448cb5d1-7bb6-5b73-a714-899f142ad479",
+      "normalized_name": "honey or hot honey"
+    },
+    {
+      "ingredient_id": "44bd196c-ee29-5527-9173-8a8f8d7ac52d",
+      "normalized_name": "stir fry sauce or asian salad dressing"
+    },
+    {
+      "ingredient_id": "44c9766a-9891-5130-ba99-a1710d1ff6e3",
+      "normalized_name": "black or yellow mustard seeds"
+    },
+    {
+      "ingredient_id": "44ec1160-db4a-517c-b5f9-041028a54bf2",
+      "normalized_name": "white confectioners coating or premium white chocolate chip"
+    },
+    {
+      "ingredient_id": "45215b92-5dad-5e56-889a-b03e5c316d56",
+      "normalized_name": "fettuccine or other pasta"
+    },
+    {
+      "ingredient_id": "457027eb-f08e-5f2c-9eaf-17c29c29c67f",
+      "normalized_name": "butter or oil"
+    },
+    {
+      "ingredient_id": "45a30a75-eca2-5332-985b-475b8f85ec69",
+      "normalized_name": "pineapple and orange juice blend"
+    },
+    {
+      "ingredient_id": "45e57d24-82f3-5e10-b0e8-26e12e61724f",
+      "normalized_name": "grapeseed oil or olive oil"
+    },
+    {
+      "ingredient_id": "46c0708d-5f90-5daa-aaf1-3a92dca4d1b7",
+      "normalized_name": "evaporated milk or half-and-half"
+    },
+    {
+      "ingredient_id": "47c4b0f1-38d3-508c-b733-b0e1b179b9ba",
+      "normalized_name": "swanson beef stock or swanson unsalted beef stock"
+    },
+    {
+      "ingredient_id": "4802d49d-c3cf-55f7-a74a-5114f169d2e1",
+      "normalized_name": "grated romano or parmesan cheese"
+    },
+    {
+      "ingredient_id": "48770e91-6346-5f00-9a84-8d7319bc57f0",
+      "normalized_name": "potato starch or cornstarch"
+    },
+    {
+      "ingredient_id": "48f99d0c-4239-51fe-912d-ed69944119eb",
+      "normalized_name": "hearts of romaine and/or little gem lettuce"
+    },
+    {
+      "ingredient_id": "4906e28b-9412-5d34-8494-a83c850ae1e6",
+      "normalized_name": "reduced-sodium soy sauce or tamari"
+    },
+    {
+      "ingredient_id": "49851e84-9adf-57fa-84c4-44122ec43594",
+      "normalized_name": "espresso or strong coffee"
+    },
+    {
+      "ingredient_id": "49a1bcc3-856c-5b3a-94aa-bf8a4e0a36a8",
+      "normalized_name": "liquid shrimp and crab boil seasoning"
+    },
+    {
+      "ingredient_id": "49a8fb3f-bdd9-54e0-a2f9-e4d73e2b350d",
+      "normalized_name": "salt pepper or your favorite seasoning"
+    },
+    {
+      "ingredient_id": "49eb046e-2ba9-5bef-9df7-64c5249775a1",
+      "normalized_name": "turkey or beef meat stick"
+    },
+    {
+      "ingredient_id": "4a5fd46a-8a79-57b9-8e49-de39a7f6a59b",
+      "normalized_name": "strawberry jam or any flavoer jam"
+    },
+    {
+      "ingredient_id": "4ab92809-ef30-5c14-9add-645de147040d",
+      "normalized_name": "minced fresh basil or italian parsley"
+    },
+    {
+      "ingredient_id": "4b241cbd-92ba-5b2e-8eab-9103f3c4b0f4",
+      "normalized_name": "cherrystone or littleneck clam"
+    },
+    {
+      "ingredient_id": "4b4a23d1-6e6d-5285-874f-8c188bf0bea1",
+      "normalized_name": "pastina or other tiny pasta"
+    },
+    {
+      "ingredient_id": "4ba63914-ad10-5f89-b185-7ef9fba5cf69",
+      "normalized_name": "applejack or apple brandy"
+    },
+    {
+      "ingredient_id": "4bac17aa-59bb-5657-a927-61a3b3b47e6f",
+      "normalized_name": "red berry sauce or seedless raspberry/strawberry jam"
+    },
+    {
+      "ingredient_id": "4be1a3c6-6a20-5714-8489-4a5cfa57d443",
+      "normalized_name": "red or orange bell pepper"
+    },
+    {
+      "ingredient_id": "4c0c77f0-e85f-5fff-9792-cb2e12fb7938",
+      "normalized_name": "olive oil or butter"
+    },
+    {
+      "ingredient_id": "4c58ac03-0d76-5b68-b023-e2e3fdc1d6a6",
+      "normalized_name": "black and white sesame seeds"
+    },
+    {
+      "ingredient_id": "4cc085ed-4bb0-58e6-a34c-bc97ff6dc403",
+      "normalized_name": "cheese and garlic crouton"
+    },
+    {
+      "ingredient_id": "4cf62dd6-23bd-54a5-9427-3ff307618f92",
+      "normalized_name": "shredded cheddar and monterey cheese blend"
+    },
+    {
+      "ingredient_id": "4d0138f6-0252-5c63-a6e5-f3832e782dc8",
+      "normalized_name": "sweetened honey corn and oat cereal"
+    },
+    {
+      "ingredient_id": "4d25e074-f94f-5222-a036-2dee795bfa58",
+      "normalized_name": "yukon gold or red potato"
+    },
+    {
+      "ingredient_id": "4d793669-e4fd-5c09-9e14-8ad7344311dc",
+      "normalized_name": "crumbled queso fresco or feta cheese"
+    },
+    {
+      "ingredient_id": "4d7f94a8-8c8e-58a5-ae11-b9b98ec07827",
+      "normalized_name": "ranch or blue cheese dressing for dipping"
+    },
+    {
+      "ingredient_id": "4da7d513-d2f8-52ef-9754-4467e0d9a354",
+      "normalized_name": "shredded cheddar or pepper jack cheese"
+    },
+    {
+      "ingredient_id": "4db04393-fca4-5e95-92b8-1fcb144e187d",
+      "normalized_name": "kashmiri chili powder or paprika and pinch of cayenne pepper"
+    },
+    {
+      "ingredient_id": "4dd1fed7-8952-5324-a790-0b0d31e25766",
+      "normalized_name": "skinless boneless chicken thighs or breast"
+    },
+    {
+      "ingredient_id": "4df8a782-5efd-5635-8322-e99e12c81233",
+      "normalized_name": "chopped fresh tarragon and/or parsley"
+    },
+    {
+      "ingredient_id": "4e38cffb-4f27-5a50-b7ee-761984e4512c",
+      "normalized_name": "seafood or chicken broth"
+    },
+    {
+      "ingredient_id": "4ec231f8-d977-5ddf-846d-d07eb69b0269",
+      "normalized_name": "seafood stock or fish stock"
+    },
+    {
+      "ingredient_id": "4ee15a1d-1ab5-5579-b88a-516270239d59",
+      "normalized_name": "uncooked fettuccine or linguine"
+    },
+    {
+      "ingredient_id": "4f01d416-c8f0-5312-b541-9d25bf42ab3c",
+      "normalized_name": "macaroni and cheese mix"
+    },
+    {
+      "ingredient_id": "4f10a86d-9ec5-51d6-9162-296ac8e3a42f",
+      "normalized_name": "green or red bell pepper"
+    },
+    {
+      "ingredient_id": "4f89c37b-700e-5ead-9911-de9d5d9e71ef",
+      "normalized_name": "half and half or milk"
+    },
+    {
+      "ingredient_id": "4fad8ee6-6b7f-5abd-8c7e-2e93c76f1ccb",
+      "normalized_name": "thyme or basil"
+    },
+    {
+      "ingredient_id": "4fb61e9e-4cfb-5df0-a07c-d42e326518ef",
+      "normalized_name": "halved cherry or grape tomato"
+    },
+    {
+      "ingredient_id": "4ff2a31e-2d08-5dd2-8a7e-62bdd4cf5e43",
+      "normalized_name": "maple syrup or sweetener of your choice"
+    },
+    {
+      "ingredient_id": "50050fa8-6648-56ca-9731-8fff57d22b88",
+      "normalized_name": "percent or 99 percent lean ground beef"
+    },
+    {
+      "ingredient_id": "5022b12f-a4ab-571e-9a43-314ebf5a63a3",
+      "normalized_name": "onion or shallot"
+    },
+    {
+      "ingredient_id": "50414cf3-6372-54f6-99fd-9fd739472883",
+      "normalized_name": "layer size box yellow or white cake mix"
+    },
+    {
+      "ingredient_id": "50551343-9b8a-5e6a-b68c-d1d9602672b0",
+      "normalized_name": "pasteurized liquid egg whites or 6 to 7 egg white"
+    },
+    {
+      "ingredient_id": "506a2b1d-86ac-5ab3-8154-d233278ff0ae",
+      "normalized_name": "queso chanco or swiss cheese or havarti"
+    },
+    {
+      "ingredient_id": "50b12595-9694-5db5-8c18-bc15291f8322",
+      "normalized_name": "garlic and herb cheese spread such as boursin"
+    },
+    {
+      "ingredient_id": "50c5ac58-4dee-5134-a888-069eb08989f8",
+      "normalized_name": "crackers or pita chips for serving"
+    },
+    {
+      "ingredient_id": "50f616d4-cd98-5db7-a52d-2102fd808636",
+      "normalized_name": "chicken broth or water"
+    },
+    {
+      "ingredient_id": "51672ad1-d964-5e2e-aa63-7b2bd3c6646b",
+      "normalized_name": "sirloin or sirloin tip"
+    },
+    {
+      "ingredient_id": "51992dbf-bf17-5b40-90fb-09c3ca808b0f",
+      "normalized_name": "in-thick bone-in lamb rib chops or 1 in-thick lamb loin chop"
+    },
+    {
+      "ingredient_id": "52db878c-b9a2-5a92-8727-260f6f93608a",
+      "normalized_name": "red wine vinegar or ros vinegar"
+    },
+    {
+      "ingredient_id": "530fc867-b79c-5822-b997-44ce4207df91",
+      "normalized_name": "fresno or serrano chile pepper"
+    },
+    {
+      "ingredient_id": "53c8a4a8-53eb-5712-9e39-e050c6973df7",
+      "normalized_name": "50 less sodium beef broth or low-sodium chicken broth"
+    },
+    {
+      "ingredient_id": "542b7d15-f0bc-59a8-8c4b-14558d2e937a",
+      "normalized_name": "frozen vegetable blend no garlic or onion"
+    },
+    {
+      "ingredient_id": "543863ba-53c5-5d2c-be7b-8ab8c945281b",
+      "normalized_name": "mini chocolate chips and sprinkle"
+    },
+    {
+      "ingredient_id": "54ed9b5c-5200-50e1-aeed-381dd025750f",
+      "normalized_name": "quarts frying oil i use canola or grapseed"
+    },
+    {
+      "ingredient_id": "551dc8fb-4ecb-519b-a478-2e2aa9562c67",
+      "normalized_name": "honey or sweetener of choice"
+    },
+    {
+      "ingredient_id": "5556bb4d-59d7-5aa0-87fa-3cc7db924dde",
+      "normalized_name": "frozen southwestern-style corn and pepper"
+    },
+    {
+      "ingredient_id": "55ac4eb5-9b5e-5acc-9eac-e9f1d9a50226",
+      "normalized_name": "chilled vegetable shortening or unsalted butter"
+    },
+    {
+      "ingredient_id": "560fef93-2c38-59be-9dc9-bd53074a31e6",
+      "normalized_name": "rainier or other yellow-flesh cherry"
+    },
+    {
+      "ingredient_id": "5675052b-2b6d-56ee-ab1a-e94160fc2231",
+      "normalized_name": "alouette garlic and herb spreadable cheese"
+    },
+    {
+      "ingredient_id": "56b45767-6037-5bb6-bf11-c4be1325482c",
+      "normalized_name": "red or green food coloring"
+    },
+    {
+      "ingredient_id": "56b80f2b-ce76-551c-80d5-e33c13df2acd",
+      "normalized_name": "sour cream and onion or plain potato chip"
+    },
+    {
+      "ingredient_id": "56e398c4-3a01-56bd-9457-c88dcbcc0d5e",
+      "normalized_name": "crackers or bread to serve"
+    },
+    {
+      "ingredient_id": "56e8c48f-e6f4-57d2-9916-51920ae7fbc3",
+      "normalized_name": "chopped green and/or red pepper"
+    },
+    {
+      "ingredient_id": "57608847-ffd5-5e40-b4ab-202b0a24b454",
+      "normalized_name": "tomatoes with lime juice and cilantro such as rotel"
+    },
+    {
+      "ingredient_id": "5763b64f-568f-53d3-a53c-a8aeabfbbc15",
+      "normalized_name": "vegetable broth or stock"
+    },
+    {
+      "ingredient_id": "5788c72f-f838-54e2-8641-343273803aa4",
+      "normalized_name": "soft or melted butter"
+    },
+    {
+      "ingredient_id": "58135868-ab80-58de-9401-328bb56757b2",
+      "normalized_name": "butter or olive oil"
+    },
+    {
+      "ingredient_id": "581c9ff5-71ab-5f6a-a994-cf24a715651c",
+      "normalized_name": "cilantro leaves and tender stem"
+    },
+    {
+      "ingredient_id": "5836ee63-5c58-5a1c-b0b5-6ce23453b630",
+      "normalized_name": "slices provolone cheese or mozzarella cheese"
+    },
+    {
+      "ingredient_id": "58569996-de94-53cd-95d6-e17b65e3b701",
+      "normalized_name": "uncooked long grain and wild rice mix"
+    },
+    {
+      "ingredient_id": "586cadfe-cd99-59fa-ac7b-c1a2a69ce36c",
+      "normalized_name": "coffee beans or espresso powder for garnish"
+    },
+    {
+      "ingredient_id": "58b150e3-3c6d-5eca-98c3-4f54d2700712",
+      "normalized_name": "bag mexican or southwestern"
+    },
+    {
+      "ingredient_id": "58f26ad1-c127-5fa1-8e86-e7972760c7c9",
+      "normalized_name": "chex corn or rice cereal"
+    },
+    {
+      "ingredient_id": "5948c26b-7676-51d7-ac65-ba7869562b98",
+      "normalized_name": "classico tomato and basil sauce"
+    },
+    {
+      "ingredient_id": "599600ce-41f3-5138-aee4-323e751dbddb",
+      "normalized_name": "sopressata or other hard salami"
+    },
+    {
+      "ingredient_id": "59f8db31-713d-522c-a653-9957687ee248",
+      "normalized_name": "sage or 1/2 teaspoon dried sage"
+    },
+    {
+      "ingredient_id": "5abd7b99-cd8c-5a9f-aded-940497994ee3",
+      "normalized_name": "tomatoes with basil garlic and olive oil"
+    },
+    {
+      "ingredient_id": "5afc4945-e068-5617-ba59-0ea390ec45f4",
+      "normalized_name": "dried fettuccine or linguine pasta"
+    },
+    {
+      "ingredient_id": "5b1ce7aa-8956-5f77-82ae-2a29b0552f13",
+      "normalized_name": "milk or buttermilk"
+    },
+    {
+      "ingredient_id": "5be91faf-e1c4-5dbc-8ff7-7d8bcef7666a",
+      "normalized_name": "extra lemon slices or pickle slices for garnish"
+    },
+    {
+      "ingredient_id": "5c159d57-0eeb-53d8-ae0f-0a2f1eab7ae0",
+      "normalized_name": "tomatoes and green chiles"
+    },
+    {
+      "ingredient_id": "5c2733e1-864d-510d-adb8-2babcfd00dbd",
+      "normalized_name": "sriracha or other hot sauce"
+    },
+    {
+      "ingredient_id": "5c543887-0944-5a02-a597-d080d912cc5f",
+      "normalized_name": "milk or water"
+    },
+    {
+      "ingredient_id": "5cdad4d1-048e-56a6-8c8c-3ab6117feca6",
+      "normalized_name": "sweet and spicy seafood seasoning such as mccormick"
+    },
+    {
+      "ingredient_id": "5ce6a487-2dbf-564c-b7f5-656b4157ea4b",
+      "normalized_name": "tomatoes with basil and garlic"
+    },
+    {
+      "ingredient_id": "5d2e92ea-f8e7-580f-8ff1-2673da1cfa62",
+      "normalized_name": "chinese black vinegar or balsamic"
+    },
+    {
+      "ingredient_id": "5d2ff2bc-013a-5c14-ac38-e9c56db108e8",
+      "normalized_name": "roughly-shredded lettuce such as romaine or iceberg"
+    },
+    {
+      "ingredient_id": "5d49ec1d-e37c-5b89-a79e-1c25d53af558",
+      "normalized_name": "garlic and herb cheese spread"
+    },
+    {
+      "ingredient_id": "5dd40e6d-c6b0-5e54-8c4a-bf5d853c0655",
+      "normalized_name": "curly or tube-shaped pasta"
+    },
+    {
+      "ingredient_id": "5df56905-4b75-54bb-bebe-e963d04bcd44",
+      "normalized_name": "canadian bacon or ham"
+    },
+    {
+      "ingredient_id": "5e26843a-ef36-5e38-bfb4-5e23d470a8e5",
+      "normalized_name": "strawberries and cream liqueur such as bailey"
+    },
+    {
+      "ingredient_id": "5e541973-4ec3-558a-83c8-035a6e136a16",
+      "normalized_name": "sesame seeds white and/or black"
+    },
+    {
+      "ingredient_id": "5e61351d-c350-547b-ac8d-c0d006f19ea9",
+      "normalized_name": "bottled oil and vinegar salad dressing such as newmans own"
+    },
+    {
+      "ingredient_id": "5e614ac8-16a2-5fd4-b2bf-0d790631b9f5",
+      "normalized_name": "boiled eggs soft or hard"
+    },
+    {
+      "ingredient_id": "5eb1921e-7cbe-551e-88ca-66bbab16fdc0",
+      "normalized_name": "chocolate instant pudding and pie fillingmix"
+    },
+    {
+      "ingredient_id": "5edc0bb9-c65d-54e4-a41c-d4cdb2b77f26",
+      "normalized_name": "grated gruyere or swiss cheese"
+    },
+    {
+      "ingredient_id": "5f087d17-3da9-5bc7-aadb-bddcb29925af",
+      "normalized_name": "rum dark or light"
+    },
+    {
+      "ingredient_id": "5f301473-89dc-5b53-bedf-270eb3293fbb",
+      "normalized_name": "reduced-fat and reduced-sodium condensed cream of mushroom soup"
+    },
+    {
+      "ingredient_id": "5f6c3a35-1ca3-5810-8a5f-f325ea7d7455",
+      "normalized_name": "ginger paste or grated fresh ginger"
+    },
+    {
+      "ingredient_id": "5f6f8f7c-cc2d-56b3-8c7a-bffc24c1373e",
+      "normalized_name": "honey or agave nectar plus more for drizzling"
+    },
+    {
+      "ingredient_id": "5f7799c4-e82a-5eb9-94a6-08d69a8d39cf",
+      "normalized_name": "avocado or canola oil"
+    },
+    {
+      "ingredient_id": "5fae36fb-d672-5046-a19a-7a8df328cb88",
+      "normalized_name": "herbes de provence or dried thyme"
+    },
+    {
+      "ingredient_id": "5fc79b0a-a03c-5ca0-86ce-c972720d98b9",
+      "normalized_name": "chopped walnuts or pecan"
+    },
+    {
+      "ingredient_id": "605e854c-060f-5a78-8032-cb4e999e70cb",
+      "normalized_name": "chocolate sauce or chocolate hazelnut spread for serving"
+    },
+    {
+      "ingredient_id": "606241a6-d721-57f4-82f3-c8bb540e6b3a",
+      "normalized_name": "reduced-sodium tamari or low-sodium soy sauce"
+    },
+    {
+      "ingredient_id": "60653177-cf07-5c25-bc54-b016f8aca84f",
+      "normalized_name": "chopped green onions or leek"
+    },
+    {
+      "ingredient_id": "60b7b203-c23d-5893-9311-9a82dfdbff04",
+      "normalized_name": "basil and a drizzle of olive oil for garnish"
+    },
+    {
+      "ingredient_id": "60cb9e85-3cf8-57f0-9149-ef32cff01fe6",
+      "normalized_name": "garlic or 1 tsp garlic powder"
+    },
+    {
+      "ingredient_id": "60dff6be-0e40-5b82-86d2-8d8980464fea",
+      "normalized_name": "sweet roll such as pan dulce or portuguese po doce"
+    },
+    {
+      "ingredient_id": "60e319a2-77fe-5382-8d3a-812582fe03c3",
+      "normalized_name": "pork or desired-flavor frozen dumpling"
+    },
+    {
+      "ingredient_id": "60f2ee6f-0b7b-5572-85b1-86b1e49e02b8",
+      "normalized_name": "fluid ounce triple sec or other orange liqueur"
+    },
+    {
+      "ingredient_id": "6121fd7e-8d53-5a85-9bf7-53aeb51ad528",
+      "normalized_name": "potatoes obrien with onions and pepper"
+    },
+    {
+      "ingredient_id": "61e0c736-6742-5b71-ac8c-3f2b1828aff7",
+      "normalized_name": "hickory chips or chunk"
+    },
+    {
+      "ingredient_id": "622f5f71-41e2-5a41-a6da-c817f58907af",
+      "normalized_name": "shortening or lard"
+    },
+    {
+      "ingredient_id": "62753163-9c92-5141-bcc3-902d4b8cd912",
+      "normalized_name": "frozen fully cooked beef and pork meatball"
+    },
+    {
+      "ingredient_id": "6278cc64-d533-5bcc-8400-679153eff488",
+      "normalized_name": "fluid ounces triple sec or orange liqueur"
+    },
+    {
+      "ingredient_id": "62caf3a6-f4a6-594f-8b37-4ba16b9f0737",
+      "normalized_name": "cooking or oil spray"
+    },
+    {
+      "ingredient_id": "634b74db-70a7-5fc4-9621-964945270447",
+      "normalized_name": "agave syrup or simple syrup"
+    },
+    {
+      "ingredient_id": "6392649c-4c93-59dc-8d36-51c91800783f",
+      "normalized_name": "chicken or ham stock"
+    },
+    {
+      "ingredient_id": "6395baf8-fbc8-5401-b8bb-e23481844fcf",
+      "normalized_name": "coarse sea salt or kosher salt"
+    },
+    {
+      "ingredient_id": "63b5f933-64a1-5cb5-a4ed-d85b41bb522b",
+      "normalized_name": "brown sugar and cinnamon spreadable cream cheese"
+    },
+    {
+      "ingredient_id": "644bcdef-e896-5808-aa52-f16e90cf7fa3",
+      "normalized_name": "grated parmesan cheese and romano cheese blend"
+    },
+    {
+      "ingredient_id": "6478b55f-856a-59a7-80c6-91f456122208",
+      "normalized_name": "pasta shells or elbow macaroni"
+    },
+    {
+      "ingredient_id": "64d0c6ac-e8cb-50b7-ba08-d1e20eadd7c5",
+      "normalized_name": "bread flour or all-purpose flour"
+    },
+    {
+      "ingredient_id": "65131bf2-bd8a-53a1-b350-ae0235bb0f58",
+      "normalized_name": "cherry pie filling or other filling of your choice"
+    },
+    {
+      "ingredient_id": "65376adc-d3a1-5ca1-81d5-1b99480644db",
+      "normalized_name": "full fat cottage cheese small or large curd"
+    },
+    {
+      "ingredient_id": "65813d6d-eed9-5c7d-a8b7-16a6b660f95c",
+      "normalized_name": "champagne vinegar or white wine vinegar"
+    },
+    {
+      "ingredient_id": "65a777cb-9dde-507d-bc4b-3f37a264b3f8",
+      "normalized_name": "olive or avocado oil"
+    },
+    {
+      "ingredient_id": "661078f2-a03b-5dde-9eb7-1693d4cf3ac5",
+      "normalized_name": "garlic and herb cream cheese"
+    },
+    {
+      "ingredient_id": "6619109d-cf2b-5fc2-b7e8-861caf78343d",
+      "normalized_name": "cheddar and/or white cheddar cheese curds"
+    },
+    {
+      "ingredient_id": "668fec19-8924-52bc-b049-da456be1bc93",
+      "normalized_name": "pkg white cheddar macaroni and cheese"
+    },
+    {
+      "ingredient_id": "66dc9752-2335-5cde-bae7-ce754e3eac11",
+      "normalized_name": "fluid ounces triple sec or other orange liqueur"
+    },
+    {
+      "ingredient_id": "67c89bd6-a8ed-5ee5-ab38-4ba05a7f460b",
+      "normalized_name": "dill or sweet pickle relish"
+    },
+    {
+      "ingredient_id": "67ecbd05-da8b-5954-b813-3d99ddc77356",
+      "normalized_name": "chicken breasts or tender"
+    },
+    {
+      "ingredient_id": "6821b74a-9b41-523d-b5ab-93d55b275994",
+      "normalized_name": "castor sugar or superfine sugar"
+    },
+    {
+      "ingredient_id": "6860afd5-1928-5d76-8df4-282d39f1aa7b",
+      "normalized_name": "mayonnaise or salad dressing"
+    },
+    {
+      "ingredient_id": "687a41ea-92f1-5082-a607-93567ed0a10e",
+      "normalized_name": "vanilla or plain greek yogurt"
+    },
+    {
+      "ingredient_id": "68a4403a-6dc3-52e1-bf9b-dda3e8bea7fd",
+      "normalized_name": "orange or green bell pepper"
+    },
+    {
+      "ingredient_id": "68ec7c70-04d7-5b83-a134-dee2687a93b4",
+      "normalized_name": "crisp taco shells or 6 inch flour tortilla"
+    },
+    {
+      "ingredient_id": "69433615-3ece-518d-b386-4b489d5216cb",
+      "normalized_name": "jug shake and pour pancake mix"
+    },
+    {
+      "ingredient_id": "69c8afb8-123b-5cd7-ac0e-bbdee72bc2d8",
+      "normalized_name": "shredded colby and monterey jack cheese 4 oz"
+    },
+    {
+      "ingredient_id": "69cef279-4bf4-58ed-91b6-f26b1d11c152",
+      "normalized_name": "sweet ginger and garlic seasoning"
+    },
+    {
+      "ingredient_id": "69eb80e5-07e7-58d6-9d24-9ae681a92d66",
+      "normalized_name": "dairy or unsweetened plant milk of your choice"
+    },
+    {
+      "ingredient_id": "6a1e43c7-d7af-5fd2-a4be-af4b2132308f",
+      "normalized_name": "frozen dumplings or potsticker"
+    },
+    {
+      "ingredient_id": "6ad73562-6cac-5613-a1e3-ea665ed3c429",
+      "normalized_name": "vegan meatless grounds such as smart ground or yve"
+    },
+    {
+      "ingredient_id": "6b388f51-fb69-5c58-9852-c035870e21ec",
+      "normalized_name": "original ro-tel tomatoes and green chili"
+    },
+    {
+      "ingredient_id": "6b6fbec8-af33-536b-8cb6-3d59d976b42f",
+      "normalized_name": "cooked white or brown rice"
+    },
+    {
+      "ingredient_id": "6bbb2bba-96ab-573e-bf38-3a757bb9c1bb",
+      "normalized_name": "basmati rice or other white long grain rice"
+    },
+    {
+      "ingredient_id": "6bcaafe1-aba4-5165-9575-d548e52376b8",
+      "normalized_name": "white wine vinegar or apple cider vinegar"
+    },
+    {
+      "ingredient_id": "6bf57812-d7fb-564c-bfa0-0f795779dfcd",
+      "normalized_name": "refrigerated spinach and mozzarella ravioli"
+    },
+    {
+      "ingredient_id": "6c41fd94-9adc-5fb9-a67a-71c22c3a1b3d",
+      "normalized_name": "plus 2/3 cup mixed berry jam or preserve"
+    },
+    {
+      "ingredient_id": "6ca72efa-3514-5e46-9fa7-680329135da9",
+      "normalized_name": "arugula and spinach salad mix"
+    },
+    {
+      "ingredient_id": "6cea7fbe-88f0-57e0-9d72-6e476e341250",
+      "normalized_name": "thick slices stale french bread or brioche"
+    },
+    {
+      "ingredient_id": "6d59535d-eb5c-5a3b-b13d-48a14397a975",
+      "normalized_name": "apple cider or white vinegar"
+    },
+    {
+      "ingredient_id": "6d5b14bd-7e67-568a-948a-1e5d8120bf84",
+      "normalized_name": "shredded white and/or yellow sharp cheddar cheese"
+    },
+    {
+      "ingredient_id": "6d87dda7-7f3c-5490-8794-a8de975f6956",
+      "normalized_name": "fuji apples or other firm cooking apple"
+    },
+    {
+      "ingredient_id": "6da1ef51-8b26-50c9-af58-f1177903cb33",
+      "normalized_name": "chicken wings flats and drummettes included"
+    },
+    {
+      "ingredient_id": "6dbef4de-d61a-5318-9c76-b40b8da2fbaf",
+      "normalized_name": "smoked or andouille sausage"
+    },
+    {
+      "ingredient_id": "6dcad3db-7fde-5288-8aeb-e93a0c46c2d8",
+      "normalized_name": "bacon grease or canola oil"
+    },
+    {
+      "ingredient_id": "6e0d6f69-73c7-57b0-8849-38ae12091b65",
+      "normalized_name": "thick slices french or italian bread"
+    },
+    {
+      "ingredient_id": "6e4db1d3-83bd-52ac-9c5e-e1593dc8fb74",
+      "normalized_name": "balsamic vinaigrette or italian dressing"
+    },
+    {
+      "ingredient_id": "6e634698-c1c0-5ca8-904e-3a777cf6e823",
+      "normalized_name": "chicken wings or drumette"
+    },
+    {
+      "ingredient_id": "6e6a19d5-8202-55fe-9dcc-8949780a20e0",
+      "normalized_name": "ditalini or other small pasta"
+    },
+    {
+      "ingredient_id": "6e707583-489f-5794-ac45-cdbd096786c3",
+      "normalized_name": "sugar-free cook and serve vanilla pudding mix"
+    },
+    {
+      "ingredient_id": "6eaf5cd1-fe14-5614-a288-d350aafefcd2",
+      "normalized_name": "assorted red and yellow sweet pepper"
+    },
+    {
+      "ingredient_id": "6f94874f-b122-5a25-b2bd-3973e8bca376",
+      "normalized_name": "x18 inch piece of parchment paper or waxed paper"
+    },
+    {
+      "ingredient_id": "6fabe6fa-0b8b-5bd2-acee-5027bceaa483",
+      "normalized_name": "salt or desired seasoning"
+    },
+    {
+      "ingredient_id": "70541049-092a-5906-9f16-556cf59b29ea",
+      "normalized_name": "cinnamon and/or nutmeg"
+    },
+    {
+      "ingredient_id": "708f2603-84d1-5808-b065-2dbdb765448d",
+      "normalized_name": "tomatoes with garlic and oregano"
+    },
+    {
+      "ingredient_id": "709b4e12-b3ff-5c2a-b66b-d2ed72707a48",
+      "normalized_name": "unsalted chicken stock or broth"
+    },
+    {
+      "ingredient_id": "71331e66-ac5e-517b-ac71-b1a35ccb0b3f",
+      "normalized_name": "gin or vodka"
+    },
+    {
+      "ingredient_id": "715b2dc6-d40a-50fd-b9ee-a8e89235bed0",
+      "normalized_name": "skirt or flank steak"
+    },
+    {
+      "ingredient_id": "71ce180b-6cb3-5f1d-b7b0-fb13a016993b",
+      "normalized_name": "grated parmesan or romano cheese"
+    },
+    {
+      "ingredient_id": "721102ad-fff9-5d4f-86bb-3e3a2d03e390",
+      "normalized_name": "flank or skirt steak"
+    },
+    {
+      "ingredient_id": "7231988a-1cfb-590e-9ce8-7b6166d0bdcd",
+      "normalized_name": "bias-sliced sugar snap peas or snow pea"
+    },
+    {
+      "ingredient_id": "723a58d4-8889-598b-a4fe-ee99a3027286",
+      "normalized_name": "firm fresh peaches or up to 6 if small"
+    },
+    {
+      "ingredient_id": "7267dd22-6a0f-519d-baac-d65d77e52641",
+      "normalized_name": "garlic and herb spreadable cheese"
+    },
+    {
+      "ingredient_id": "72955286-7a81-5642-8073-91de7509131f",
+      "normalized_name": "grapeseed oil or another neutral oil"
+    },
+    {
+      "ingredient_id": "7379b370-5a31-5a26-a2a0-aeca626c9bad",
+      "normalized_name": "sprinkles and/or more sanding sugar"
+    },
+    {
+      "ingredient_id": "73aa2357-4886-538c-8d47-41d9ffdb2451",
+      "normalized_name": "vodka sauce or creamy rosa pasta sauce"
+    },
+    {
+      "ingredient_id": "7453692a-f2f3-5962-bcf6-78818b939532",
+      "normalized_name": "shallot and chive cheese spread"
+    },
+    {
+      "ingredient_id": "745847d0-1d44-55a9-8ae5-ad1c99bfe859",
+      "normalized_name": "fresno or jalapeo pepper"
+    },
+    {
+      "ingredient_id": "7474fa43-208c-5eb6-9496-d4ec8814ec77",
+      "normalized_name": "chopped fresh oregano or 1 teaspoon dried oregano"
+    },
+    {
+      "ingredient_id": "74abbda1-30fc-5d08-b2e6-e25595004315",
+      "normalized_name": "white wine vinegar or red wine vinegar"
+    },
+    {
+      "ingredient_id": "74dd22a4-7f42-55b0-9366-253de2687a0f",
+      "normalized_name": "corn oil or vegetable oil"
+    },
+    {
+      "ingredient_id": "751ad8ba-ac38-56fd-bb91-4de4fae2c893",
+      "normalized_name": "eggs or 2 cups egg white"
+    },
+    {
+      "ingredient_id": "75427ffd-7fc7-55b1-aa15-e6fa4c4bd6a7",
+      "normalized_name": "sliced strawberries or raspberry"
+    },
+    {
+      "ingredient_id": "759466e8-6821-52a9-9c08-b2f7a259c724",
+      "normalized_name": "croutons homemade or garlic brand store bought"
+    },
+    {
+      "ingredient_id": "75b57dc0-bd8e-5768-90a0-86961e1e7d50",
+      "normalized_name": "dry farfalle or rotini pasta"
+    },
+    {
+      "ingredient_id": "75bb1412-8f16-561b-bf52-ee2b5a3b7a43",
+      "normalized_name": "grape or strawberry jelly"
+    },
+    {
+      "ingredient_id": "7664a5f7-4104-56bc-b5b8-11b04a9d02f6",
+      "normalized_name": "chives or green onion slivers to top"
+    },
+    {
+      "ingredient_id": "766a0508-02e6-5364-aa78-67c3a7fb335b",
+      "normalized_name": "mixed red and yellow bell pepper"
+    },
+    {
+      "ingredient_id": "7689e826-bd1d-53a2-aaae-cd8d63796a67",
+      "normalized_name": "extra large flour tortilla 12 inches or larger"
+    },
+    {
+      "ingredient_id": "7694827e-cdd5-5ca3-a710-7f84d8a6622b",
+      "normalized_name": "yellow onion or 2 small yellow onion"
+    },
+    {
+      "ingredient_id": "76982407-bb9b-5f9f-9736-79b865ba4aad",
+      "normalized_name": "chicken or vegetable broth"
+    },
+    {
+      "ingredient_id": "7701b31b-928c-52d9-a30c-e715a8d543ff",
+      "normalized_name": "uncooked wide egg noodles or fettuccine"
+    },
+    {
+      "ingredient_id": "7713911e-d781-5f93-b432-5df1f187d9e8",
+      "normalized_name": "udon noodles or substitute cooked linguine"
+    },
+    {
+      "ingredient_id": "779dd590-1810-5887-9dca-19ae7b559faf",
+      "normalized_name": "mushroom pieces and stem"
+    },
+    {
+      "ingredient_id": "781e17f6-68ac-5d5c-9344-20bb09851ded",
+      "normalized_name": "fluid ounce agave nectar or simple syrup"
+    },
+    {
+      "ingredient_id": "78216d7a-c609-51fb-b03d-3ea490ca6b5c",
+      "normalized_name": "becel buttery taste or original margarine"
+    },
+    {
+      "ingredient_id": "786f9b06-69f7-5a5c-ac0a-c1ed77b5b956",
+      "normalized_name": "kosher salt or 1/2 teaspoon of fine table salt"
+    },
+    {
+      "ingredient_id": "78985d43-e067-5c22-8aa3-a79600a5df2e",
+      "normalized_name": "ground beef or your choice of meat ham"
+    },
+    {
+      "ingredient_id": "78bd3832-31ea-595b-ade0-507925c2f309",
+      "normalized_name": "lemon zest or other citrus zest"
+    },
+    {
+      "ingredient_id": "79729dc1-55b4-5124-a039-5b1bb53c1de9",
+      "normalized_name": "low-sodium vegetable broth or other broth"
+    },
+    {
+      "ingredient_id": "7972d00f-5c49-5a84-b915-ecd1d8e4d234",
+      "normalized_name": "whole bran cereal or wheat germ"
+    },
+    {
+      "ingredient_id": "797b3eb5-a49a-54af-bc8b-599f50469f3a",
+      "normalized_name": "chicken broth or stock"
+    },
+    {
+      "ingredient_id": "798f5675-44e6-5bfc-9fc7-091bb5423f9c",
+      "normalized_name": "radish or arugula leaf"
+    },
+    {
+      "ingredient_id": "79af261f-fc13-5584-9040-5a4e8af85aaa",
+      "normalized_name": "shredded italian cheese blend or cheddar cheese"
+    },
+    {
+      "ingredient_id": "79d0c773-e0dc-5020-bca5-d4a821f313fe",
+      "normalized_name": "red and blue food coloring"
+    },
+    {
+      "ingredient_id": "79e742b9-c80a-510e-99f0-a6b562404070",
+      "normalized_name": "chopped fresh chives and/or grated parmesan cheese"
+    },
+    {
+      "ingredient_id": "7a298efc-0619-518a-a466-fafa775842bd",
+      "normalized_name": "soy sauce or coconut amino"
+    },
+    {
+      "ingredient_id": "7a373b0f-8775-5a5d-8ccc-f7a433aa0dc9",
+      "normalized_name": "frozen cauliflower with broccoli and red pepper"
+    },
+    {
+      "ingredient_id": "7a84cecc-0dc7-5bb4-813f-43421fa7ac53",
+      "normalized_name": "vanilla yogurt such as dannon light and fit"
+    },
+    {
+      "ingredient_id": "7ab61795-8628-579a-8d7b-ad5375e5804f",
+      "normalized_name": "whole milk or buttermilk"
+    },
+    {
+      "ingredient_id": "7adeabc5-1500-5985-a4a2-eb1f6bdcd855",
+      "normalized_name": "herbes de provence or italian seasoning"
+    },
+    {
+      "ingredient_id": "7b1b6962-a493-57ae-816a-cc420e98c09a",
+      "normalized_name": "longhorn or cheddar cheese"
+    },
+    {
+      "ingredient_id": "7b326bc5-143f-55dc-8c98-ba4ec2bd4eef",
+      "normalized_name": "finely grated parmesan cheese or pecorino"
+    },
+    {
+      "ingredient_id": "7b455245-0a9b-5097-8c6f-00771bef6a39",
+      "normalized_name": "stick or 112 g unsalted butter"
+    },
+    {
+      "ingredient_id": "7b6711ee-9cc3-55a7-b674-976271ba5656",
+      "normalized_name": "pints cherry or grape tomato"
+    },
+    {
+      "ingredient_id": "7b847aff-da94-5348-9aa8-a1c6e384301b",
+      "normalized_name": "bulgur or other whole grain"
+    },
+    {
+      "ingredient_id": "7b8898de-f467-5558-b708-779167f9bdd1",
+      "normalized_name": "ginger ale or sprite"
+    },
+    {
+      "ingredient_id": "7dfabc65-6612-53f1-a873-6e6050a48d82",
+      "normalized_name": "crispy fried onions or shallot"
+    },
+    {
+      "ingredient_id": "7e2ff024-4b02-5d74-8f37-a80cb01ee7cd",
+      "normalized_name": "japanese cucumber or 1/2 english cucumber"
+    },
+    {
+      "ingredient_id": "7e6e0fad-ec9b-5c5b-81b2-ac55e6b7791e",
+      "normalized_name": "ab ghooreh or lemon juice plus 4 teaspoon zest"
+    },
+    {
+      "ingredient_id": "7e88c7f1-3dc2-5926-aa6e-58728b910f21",
+      "normalized_name": "slice of lemon or lime for garnish"
+    },
+    {
+      "ingredient_id": "7e9a9b77-bed1-5276-be5f-5b101085f31c",
+      "normalized_name": "shredded lettuce and any other desired topping"
+    },
+    {
+      "ingredient_id": "7f33ed90-bd52-58db-937b-7bec23cd8519",
+      "normalized_name": "freshly grated parmesan or mozzarella cheese"
+    },
+    {
+      "ingredient_id": "7f3b7345-9b4c-5f4c-978b-35b1db79e658",
+      "normalized_name": "cooked white short-grain rice such as arborio or sushi rice"
+    },
+    {
+      "ingredient_id": "7f4720d0-1309-5a38-8f89-04c1238fee9c",
+      "normalized_name": "quarts chicken stock or broth"
+    },
+    {
+      "ingredient_id": "7f9803e9-7fd2-58b8-b272-3fb1650d5bc3",
+      "normalized_name": "slices sourdough or artisan bread"
+    },
+    {
+      "ingredient_id": "7fa5a383-a95c-5fd9-a3b5-809ce2275019",
+      "normalized_name": "red and green food coloring"
+    },
+    {
+      "ingredient_id": "7fbad7c0-457b-518a-babc-2ab04e0d87a4",
+      "normalized_name": "lard or peanut oil"
+    },
+    {
+      "ingredient_id": "7fe5fc87-753f-5531-87d5-128358ef5b3e",
+      "normalized_name": "cream of chicken and mushroom"
+    },
+    {
+      "ingredient_id": "800f6582-69ce-5811-87e6-8cb5d40e83ab",
+      "normalized_name": "dill pickle or dill pickle relish"
+    },
+    {
+      "ingredient_id": "80343853-e18e-5fb1-971a-d8b36de6370e",
+      "normalized_name": "strongly brewed coffee or espresso"
+    },
+    {
+      "ingredient_id": "803e99f3-91a0-517a-a55a-49b2f2e82e46",
+      "normalized_name": "slices american cheese or your choice"
+    },
+    {
+      "ingredient_id": "80810a27-4a20-5679-b76c-9c1f30b6493e",
+      "normalized_name": "boneless skinless chicken breast or tender"
+    },
+    {
+      "ingredient_id": "817871b0-eba1-5f03-afbf-b282afc94e30",
+      "normalized_name": "hot cooked white or brown rice"
+    },
+    {
+      "ingredient_id": "81a08a1b-0152-5ec8-a9e7-88fe32781c9f",
+      "normalized_name": "bucatini or linguine pasta"
+    },
+    {
+      "ingredient_id": "81e54d10-d709-57c1-bafb-6fbf0f274608",
+      "normalized_name": "frozen yellow and white whole kernel corn"
+    },
+    {
+      "ingredient_id": "82013f43-a382-53eb-8e91-bb18017719e6",
+      "normalized_name": "chopped walnuts or hazelnut"
+    },
+    {
+      "ingredient_id": "8240a49d-5857-5a55-8011-9afecb0169b6",
+      "normalized_name": "grated swiss or gruyere cheese"
+    },
+    {
+      "ingredient_id": "826deeff-281a-5927-aa22-49505f1d7bbd",
+      "normalized_name": "frozen raspberries and blueberry"
+    },
+    {
+      "ingredient_id": "8279e4e5-af0f-5f98-80b1-8a477d2951ec",
+      "normalized_name": "onion soup and dip mix"
+    },
+    {
+      "ingredient_id": "828bfeca-51a1-5f7e-9645-742c8a9f11b7",
+      "normalized_name": "golden onion soup and dip mix"
+    },
+    {
+      "ingredient_id": "83163eb0-8aa9-55d9-aaa4-a1cb568de088",
+      "normalized_name": "butter or margarine"
+    },
+    {
+      "ingredient_id": "834070fc-09a1-52db-964f-6c098ead1672",
+      "normalized_name": "navy beans or cannellini bean"
+    },
+    {
+      "ingredient_id": "837b1320-a6e9-546e-927a-9274c6ae606d",
+      "normalized_name": "dill or 1 teaspoon dried"
+    },
+    {
+      "ingredient_id": "838a6ae1-1cf0-5c66-a367-507358edd186",
+      "normalized_name": "tomato and clam juice cocktail such as clamato"
+    },
+    {
+      "ingredient_id": "83b50039-ba6f-57f6-a3b9-c38250dca7a3",
+      "normalized_name": "full fat or low fat cottage cheese"
+    },
+    {
+      "ingredient_id": "83e73bb8-1ad3-5872-885a-1da5e147f7a6",
+      "normalized_name": "trader joes garlic dip or garlic aioli"
+    },
+    {
+      "ingredient_id": "83fc71d7-50a4-5451-9ed1-8eb130ef9b69",
+      "normalized_name": "frozen carrots and green pea"
+    },
+    {
+      "ingredient_id": "8407adb8-5055-5578-9a2a-db412d7d90d1",
+      "normalized_name": "teriyaki sauce such as trader joes soyaki or kikkoman takumi teriyaki sauce"
+    },
+    {
+      "ingredient_id": "8480d3e5-889e-5ffe-9adb-e87b1f50cb0b",
+      "normalized_name": "finely ground unsalted pistachios or pistachio flour"
+    },
+    {
+      "ingredient_id": "84abcee4-4439-5627-8c60-f222a9f003f1",
+      "normalized_name": "olive oil or melted butter"
+    },
+    {
+      "ingredient_id": "8501e409-3cf7-59b3-ac6e-7d905d16d222",
+      "normalized_name": "uncooked arborio or long-grain rice"
+    },
+    {
+      "ingredient_id": "8536ea69-cb7b-5538-b7f7-ed22cfaf2010",
+      "normalized_name": "slices american cheese or cheddar cheese"
+    },
+    {
+      "ingredient_id": "864c1304-559b-5075-adc5-4e88c2ca471b",
+      "normalized_name": "crumbled feta or grated cotija cheese"
+    },
+    {
+      "ingredient_id": "865c5c34-b25c-5baf-93d0-d42d010e35f0",
+      "normalized_name": "plain yogurt or milk"
+    },
+    {
+      "ingredient_id": "8691ce75-bc41-5515-841e-3c97fa0133ff",
+      "normalized_name": "chocolate instant pudding and pie filling such as jello"
+    },
+    {
+      "ingredient_id": "86d7cef8-2ab1-5421-a8b6-607eb241dbdd",
+      "normalized_name": "white vinegar or cider vinegar"
+    },
+    {
+      "ingredient_id": "86edac73-afca-55cc-bde5-2a1f002a81f4",
+      "normalized_name": "red baby or bite-sized potato"
+    },
+    {
+      "ingredient_id": "87488a17-5e6a-5c29-b3ae-26da3655c120",
+      "normalized_name": "prepared sausage and oyster dressing"
+    },
+    {
+      "ingredient_id": "87cfc6bc-f3b8-51da-8bdc-02542209b643",
+      "normalized_name": "uncooked sushi rice or short grain white rice"
+    },
+    {
+      "ingredient_id": "8813aa62-6a01-5eea-b4cb-2a6851d999d8",
+      "normalized_name": "assorted crackers or tortilla chip"
+    },
+    {
+      "ingredient_id": "884bf35b-022b-59cb-93fc-8b952f7beb83",
+      "normalized_name": "piqun pepper powder or another dried pepper powder"
+    },
+    {
+      "ingredient_id": "885287f4-c98f-5993-a428-9c58a049ac14",
+      "normalized_name": "homemade or store-bought spaghetti"
+    },
+    {
+      "ingredient_id": "8864212c-8ad8-52dd-88ba-e0038aae8ca3",
+      "normalized_name": "olive oil or cooking spray for greasing baking sheet"
+    },
+    {
+      "ingredient_id": "8866188d-cab3-5f31-afd8-9f5fbb1ddb9a",
+      "normalized_name": "german or deli-style mustard"
+    },
+    {
+      "ingredient_id": "88db7d5e-b22d-5bcf-be3b-2e51d3da3cc5",
+      "normalized_name": "leaves romaine or leaf lettuce"
+    },
+    {
+      "ingredient_id": "88dcac54-fc90-5835-ae64-b03a37df7bc5",
+      "normalized_name": "aji nori furikake seasoned seaweed and sesame rice topping"
+    },
+    {
+      "ingredient_id": "89ac3012-357e-515d-8ac8-7e8ccd3a8771",
+      "normalized_name": "chives or green onion"
+    },
+    {
+      "ingredient_id": "89ea067b-f097-51b2-99ea-644d368d7dd6",
+      "normalized_name": "butter or cooking spray"
+    },
+    {
+      "ingredient_id": "8a4faf29-f735-5a72-8a26-e06f16d72dbc",
+      "normalized_name": "minced fresh thyme or rosemary"
+    },
+    {
+      "ingredient_id": "8ab6b9c5-d311-54ac-a5f9-4f887c3adf13",
+      "normalized_name": "poke leaves and tender stems peel stems if large"
+    },
+    {
+      "ingredient_id": "8ab6c80b-46f4-5014-8c50-2a046ba99fc8",
+      "normalized_name": "japanese or other small eggplant"
+    },
+    {
+      "ingredient_id": "8bbc6187-0c98-5931-ad5c-09eb7ed7c056",
+      "normalized_name": "bread and butter pickle"
+    },
+    {
+      "ingredient_id": "8c5437aa-391f-585b-9152-b6727f3afe6a",
+      "normalized_name": "shredded provolone or mozzarella cheese"
+    },
+    {
+      "ingredient_id": "8cc072f6-95fe-57cc-a10b-1d2562c93a0c",
+      "normalized_name": "apples or 1 large apple"
+    },
+    {
+      "ingredient_id": "8cc6f616-64c7-56e0-88b0-82cabf8e4ed0",
+      "normalized_name": "dry onion and mushroom soup mix"
+    },
+    {
+      "ingredient_id": "8d4b14ed-377c-516a-a1ab-b00b162a4f41",
+      "normalized_name": "frozen cheese and potato pierogies such as mrs ts 4 cheese medley"
+    },
+    {
+      "ingredient_id": "8d55b8a1-c40b-5302-82e9-c35734c11f1e",
+      "normalized_name": "chopped fresh parsley or chive"
+    },
+    {
+      "ingredient_id": "8d8bc9c8-ffc9-5170-8ce6-1b7e52207535",
+      "normalized_name": "pint grape or cherry tomato"
+    },
+    {
+      "ingredient_id": "8db96a46-db12-54a9-b838-4495f1827661",
+      "normalized_name": "parsley or basil"
+    },
+    {
+      "ingredient_id": "8e21b23a-b388-5a19-968f-0ab85f0019ac",
+      "normalized_name": "grapeseed oil or canola oil"
+    },
+    {
+      "ingredient_id": "8e4902f7-0b9b-5969-bb7f-6d1d90e2f266",
+      "normalized_name": "chicken bouillon cube or 2 teaspoons chicken bouillon paste"
+    },
+    {
+      "ingredient_id": "8e6c43b1-41bf-5ad2-97e2-d199fff625a3",
+      "normalized_name": "peanut oil or canola oil"
+    },
+    {
+      "ingredient_id": "8ec6d05c-8200-5561-ae74-3a23602f7f94",
+      "normalized_name": "ricotta or parmesan for topping"
+    },
+    {
+      "ingredient_id": "8ed2cbdd-3638-5c8f-84a9-868cf568b4ad",
+      "normalized_name": "zucchini or yellow squash"
+    },
+    {
+      "ingredient_id": "8ed42bdd-7258-5a5e-a820-ba07d6aec364",
+      "normalized_name": "chopped peanut butter cups and coated peanut butter candies such as reeses pieces for topping"
+    },
+    {
+      "ingredient_id": "8ed68622-c70f-5d8c-8dbc-fab418576c19",
+      "normalized_name": "dark or golden raisin"
+    },
+    {
+      "ingredient_id": "8f0cb159-ca92-5677-bf57-726fce320b2c",
+      "normalized_name": "loaf french or italian bread"
+    },
+    {
+      "ingredient_id": "8f2052a5-0bc1-5cc4-85af-510675984bb6",
+      "normalized_name": "bag trader joes peanut and crispy noodle salad kit"
+    },
+    {
+      "ingredient_id": "8f31ce62-ed9b-52db-994a-9b1cb7b355ac",
+      "normalized_name": "lamb or mutton breast chop"
+    },
+    {
+      "ingredient_id": "8f3bdde3-988f-584e-b6cc-9ad57bfd2a63",
+      "normalized_name": "disks of homemade pie dough or 1 package pie dough"
+    },
+    {
+      "ingredient_id": "8f480c4b-1719-5658-bcad-02d1dedefcda",
+      "normalized_name": "salt pink or maldon"
+    },
+    {
+      "ingredient_id": "8f5549e7-0988-55d6-a2f1-838c239f6541",
+      "normalized_name": "shredded monterey jack and/or cheddar cheese"
+    },
+    {
+      "ingredient_id": "9038f353-cbdb-51ff-a2da-b44ff531fd88",
+      "normalized_name": "chocolate curls or chocolate sprinkle"
+    },
+    {
+      "ingredient_id": "909002cc-5a06-5e81-8813-b60f836f5510",
+      "normalized_name": "chitterlings or frozen chitterling"
+    },
+    {
+      "ingredient_id": "90b6a583-f3bd-5a39-a2ba-9b8b2024eb6f",
+      "normalized_name": "strawberry topping or nutella for dipping"
+    },
+    {
+      "ingredient_id": "90f1e170-3d59-5e57-85ff-556bbd0283ae",
+      "normalized_name": "chopped kale or baby spinach"
+    },
+    {
+      "ingredient_id": "9256af77-20c8-5a9a-874d-2847f9d25fea",
+      "normalized_name": "capers and/or lemon wedge"
+    },
+    {
+      "ingredient_id": "9263776a-f233-5780-996f-ba8e0690ae01",
+      "normalized_name": "swanson certified organic vegetable broth or swanson vegetable broth"
+    },
+    {
+      "ingredient_id": "9299491b-f97d-5666-b4ff-6680583ec5cb",
+      "normalized_name": "slices fresh jalapeno and/or fresno chili ring"
+    },
+    {
+      "ingredient_id": "92b8d036-ea21-507c-a2fe-f258fb339806",
+      "normalized_name": "homemade chicken broth or low-sodium canned broth"
+    },
+    {
+      "ingredient_id": "92c6c596-5125-5509-b342-f4b7ee9b2d89",
+      "normalized_name": "bacon grease or shortening"
+    },
+    {
+      "ingredient_id": "9326262c-1b14-5d88-8c82-2fa33d19baeb",
+      "normalized_name": "lump or backfin crabmeat"
+    },
+    {
+      "ingredient_id": "93310c0b-c127-511a-a434-83b074c0524d",
+      "normalized_name": "apple pie fruit filling or topping such as lucky leaf"
+    },
+    {
+      "ingredient_id": "937e99e7-cad0-5576-afeb-9b76c58d6a51",
+      "normalized_name": "flat leaf parsley or fresh cilantro"
+    },
+    {
+      "ingredient_id": "93a6bbc9-5fcc-5b4c-b245-98021cbb6cda",
+      "normalized_name": "grated parmesan and romano cheese blend"
+    },
+    {
+      "ingredient_id": "93df17ce-dd70-56a7-bc9e-62d9ffb5e12b",
+      "normalized_name": "sliced chives or green onion"
+    },
+    {
+      "ingredient_id": "93e9a9fc-e28c-55b2-b994-020f443f7805",
+      "normalized_name": "mixed mozzarella and sharp white cheddar cheese"
+    },
+    {
+      "ingredient_id": "9431e629-96ba-5b20-8a09-242d3ddb68b7",
+      "normalized_name": "pumpkin or buttercup squash"
+    },
+    {
+      "ingredient_id": "94a5c21f-171c-57b4-8ce6-80aa9641bcd8",
+      "normalized_name": "white american cheese slices or provolone"
+    },
+    {
+      "ingredient_id": "94b72b2d-d5a3-584b-9a74-04c5079a331e",
+      "normalized_name": "no-salt or low-sodium chicken broth"
+    },
+    {
+      "ingredient_id": "95185118-e408-5217-b531-f14c20a1d6fc",
+      "normalized_name": "tomato sauce or puree"
+    },
+    {
+      "ingredient_id": "955fd337-f524-5da9-98b3-d5865e6ed454",
+      "normalized_name": "fettuccine or spaghetti"
+    },
+    {
+      "ingredient_id": "95a1307a-615f-565d-bee4-b9803afb8828",
+      "normalized_name": "minced fresh parsley or dill"
+    },
+    {
+      "ingredient_id": "9632fbbc-f945-5f07-b86a-50fed2c86ebf",
+      "normalized_name": "shredded cooked chicken or turkey"
+    },
+    {
+      "ingredient_id": "96513543-9b79-5b4e-8e35-408a3064acfc",
+      "normalized_name": "whole wheat or white flour"
+    },
+    {
+      "ingredient_id": "97108811-577a-5ab0-a7ad-7a91570a204c",
+      "normalized_name": "white or wheat hamburger bun"
+    },
+    {
+      "ingredient_id": "971c0106-6d6d-54ed-b923-09c4216cf0f2",
+      "normalized_name": "chopped chives or green onion"
+    },
+    {
+      "ingredient_id": "976904e1-73b7-5aac-81fc-26fc38167e5a",
+      "normalized_name": "percent lean ground beef and/or ground pork"
+    },
+    {
+      "ingredient_id": "97b18286-5d7c-5e25-bc8d-9f7bdf3ee237",
+      "normalized_name": "pecan oil or olive oil"
+    },
+    {
+      "ingredient_id": "97c3fa66-8d1b-5381-a1a9-4789e15fb249",
+      "normalized_name": "honey or maple syrup"
+    },
+    {
+      "ingredient_id": "981b3385-c93a-57b6-8300-ab572cef6697",
+      "normalized_name": "box macaroni and cheese mix"
+    },
+    {
+      "ingredient_id": "981d8f81-afab-5f5e-af9a-4fd2360824ed",
+      "normalized_name": "braeburn or granny smith apple"
+    },
+    {
+      "ingredient_id": "9824066d-ac0c-5098-8ef1-f4be06d7a172",
+      "normalized_name": "gluten-free baking flour such as premium gold flax and ancient grains all-purpose flour"
+    },
+    {
+      "ingredient_id": "982e540e-786e-57fa-8e6e-dfaae998632a",
+      "normalized_name": "shake and pour buttermilk pancake mix"
+    },
+    {
+      "ingredient_id": "982f5b60-490c-5cc1-8dd1-8cb76617888b",
+      "normalized_name": "chopped dill pickles or sweet pickle"
+    },
+    {
+      "ingredient_id": "9849e908-4af2-59fc-a806-c90a7b6d3202",
+      "normalized_name": "butternut squash seeds or other hard squash seeds"
+    },
+    {
+      "ingredient_id": "98534cfb-a49d-51aa-8b70-d606b04621a6",
+      "normalized_name": "romano or green bean"
+    },
+    {
+      "ingredient_id": "989eca65-35fe-5d4e-bf00-2083c4f74766",
+      "normalized_name": "boneless beef sirloin steak or beef top round steak"
+    },
+    {
+      "ingredient_id": "98e1f125-dcd5-558c-ac2d-efe46e38ec10",
+      "normalized_name": "grated parmigiano reggiano or pecorino cheese"
+    },
+    {
+      "ingredient_id": "9920f168-a1dd-55e7-96fa-adfa3afe70a9",
+      "normalized_name": "shredded pepper jack or monterey jack cheese"
+    },
+    {
+      "ingredient_id": "9965e5fe-e0d7-5845-901e-43232cc90f6b",
+      "normalized_name": "nacho cheese or ranch flavor tortilla chip"
+    },
+    {
+      "ingredient_id": "99a21ba1-76ed-531d-9f84-ae72ea4dcf2b",
+      "normalized_name": "button or cremini mushroom"
+    },
+    {
+      "ingredient_id": "99b28446-4e48-532c-af51-26e52070c691",
+      "normalized_name": "giblets and neck from turkey"
+    },
+    {
+      "ingredient_id": "99b3f19c-d7f2-59e8-aa01-36c8b8292747",
+      "normalized_name": "evercrisp breader and batter boost"
+    },
+    {
+      "ingredient_id": "9aa34fdc-0a00-5c39-9ef1-36d580cae9dc",
+      "normalized_name": "herb and garlic cream cheese"
+    },
+    {
+      "ingredient_id": "9b9ada8d-ae82-5f7d-be22-a281798e62cd",
+      "normalized_name": "herb and garlic-flavored cream cheese"
+    },
+    {
+      "ingredient_id": "9be55b7a-ec30-55cc-9bb5-3a0b8fe45588",
+      "normalized_name": "creme fraiche or heavy cream"
+    },
+    {
+      "ingredient_id": "9c56f76d-f229-5aff-a99c-ddc63be7b6d4",
+      "normalized_name": "plain whole milk greek yogurt or yogurt of choice"
+    },
+    {
+      "ingredient_id": "9c946f88-ff5c-522f-a7e0-fb7e5124b855",
+      "normalized_name": "crisp ladyfingers about 39 larger or 57 smaller ladyfinger"
+    },
+    {
+      "ingredient_id": "9cb03a55-ec88-5224-8688-00e295c95766",
+      "normalized_name": "dry breadcrumbs or cornmeal"
+    },
+    {
+      "ingredient_id": "9cd74ba6-dcc8-5d8c-b501-7d20f0aa1b27",
+      "normalized_name": "light italian salad dressing store bought or homemade"
+    },
+    {
+      "ingredient_id": "9d31a92b-96e8-5cdf-a04f-74a3cd127458",
+      "normalized_name": "shaoxing wine or rice vinegar"
+    },
+    {
+      "ingredient_id": "9d3dc1f2-2d50-5afc-8dce-48177af93eae",
+      "normalized_name": "whole almonds or pecan"
+    },
+    {
+      "ingredient_id": "9d8a33bb-eb16-539f-ae1c-6145d5814622",
+      "normalized_name": "low-sodium chicken broth or stock"
+    },
+    {
+      "ingredient_id": "9da664c0-3b9f-5909-8dcf-2efb2e2c9aaa",
+      "normalized_name": "flour or corn tortillas traditional kewa cuisine would favor corn tortilla"
+    },
+    {
+      "ingredient_id": "9e59462a-209f-5b8c-bc15-9f37ece043c2",
+      "normalized_name": "bite-size pieces asparagus and/or frozen pea"
+    },
+    {
+      "ingredient_id": "9e718cf7-217d-5709-b7c2-2299bbe7d3d5",
+      "normalized_name": "thyme or 1 teaspoon dried thyme"
+    },
+    {
+      "ingredient_id": "9ed6e978-f4f7-5786-972a-adc17d234dcb",
+      "normalized_name": "cooked ditalini or tiny shell pasta"
+    },
+    {
+      "ingredient_id": "9edb752c-467a-525d-b032-e38936af467f",
+      "normalized_name": "vidalia or sweet onion"
+    },
+    {
+      "ingredient_id": "9f2a60ba-a1c4-571e-9e39-f5da9f4bf45c",
+      "normalized_name": "tomatoes and green chilies such as ro-tel"
+    },
+    {
+      "ingredient_id": "9f516e9c-f37b-5fb1-a0ba-a19c4cf9e39c",
+      "normalized_name": "olive oil or avocado oil"
+    },
+    {
+      "ingredient_id": "9f563fee-0e7f-52ea-8559-0cdab49f950f",
+      "normalized_name": "crumbled cotija or feta cheese"
+    },
+    {
+      "ingredient_id": "9f7ad75b-8d80-5eed-91b9-6df682ca10d0",
+      "normalized_name": "chopped fresh oregano or basil"
+    },
+    {
+      "ingredient_id": "9f8a6de7-7020-534c-9eb0-43edfacce868",
+      "normalized_name": "maple syrup or honey"
+    },
+    {
+      "ingredient_id": "9f950b20-1f9c-5b32-b2fb-2d83d0377623",
+      "normalized_name": "margarine or butter"
+    },
+    {
+      "ingredient_id": "a0824a35-8aa4-5263-82e3-67cc32a09375",
+      "normalized_name": "tomatoes with green peppers and onion"
+    },
+    {
+      "ingredient_id": "a12a6ec0-166a-56cc-b6df-20e2246c165c",
+      "normalized_name": "sugar or adjust"
+    },
+    {
+      "ingredient_id": "a15d98e0-f491-5dcc-a317-a39490bd1607",
+      "normalized_name": "campbells condensed cream of celery soup or campbells condensed 98 fat free cream of celery soup"
+    },
+    {
+      "ingredient_id": "a18b22c0-59c3-53a7-9c21-c9ca2f8e5ed7",
+      "normalized_name": "thai chili sauce or hot sauce"
+    },
+    {
+      "ingredient_id": "a23d1d46-666f-5134-96d5-dc082735a85d",
+      "normalized_name": "apple pie spice or cinnamon"
+    },
+    {
+      "ingredient_id": "a247b0d3-b856-5c61-853e-a4b7c124e2fd",
+      "normalized_name": "hot sauce or salsa"
+    },
+    {
+      "ingredient_id": "a2649cfb-5df3-5cb1-a279-15856bae9a0c",
+      "normalized_name": "paprika and fresh parsley if desired"
+    },
+    {
+      "ingredient_id": "a2df308d-f6a3-5960-bcfe-19ce3e1beed2",
+      "normalized_name": "sazon with coriander and annatto"
+    },
+    {
+      "ingredient_id": "a31ab6a0-685c-5275-9865-6331cae21298",
+      "normalized_name": "roasted red peppers or piquant peppers such as peppadew"
+    },
+    {
+      "ingredient_id": "a330bbc2-88c6-5525-801f-2232d5b5f0d3",
+      "normalized_name": "slices good-quality seedy whole-grain bread or white sandwich bread"
+    },
+    {
+      "ingredient_id": "a33fee0c-0de0-55a8-bb21-778197232710",
+      "normalized_name": "sweet and sour sauce"
+    },
+    {
+      "ingredient_id": "a379d187-11a3-5d90-b73b-4dba2b8b5f17",
+      "normalized_name": "tiny new yellow potatoes or fingerling potato"
+    },
+    {
+      "ingredient_id": "a3e11ba2-5a81-52a5-a43f-713db6cdbba1",
+      "normalized_name": "flat-leaf parsley leaves and thinner stem"
+    },
+    {
+      "ingredient_id": "a3f65549-81d5-5092-b7b0-8cc18156ba65",
+      "normalized_name": "lemon juice or cider vinegar"
+    },
+    {
+      "ingredient_id": "a49dd397-37c3-56de-852e-54eab3e13cc8",
+      "normalized_name": "white kidney or cannellini bean"
+    },
+    {
+      "ingredient_id": "a4b3cf5b-1996-5336-b21a-1b3b16cea070",
+      "normalized_name": "yellow or white polenta"
+    },
+    {
+      "ingredient_id": "a4fd0ce3-7fca-5f3f-bc0c-2679650dc677",
+      "normalized_name": "white or red wine"
+    },
+    {
+      "ingredient_id": "a559ee5f-5311-582c-b429-9f7f9c064b69",
+      "normalized_name": "pancetta or lightly smoked bacon"
+    },
+    {
+      "ingredient_id": "a575fd4e-c989-5535-bf6e-546209e0445c",
+      "normalized_name": "slices pepperjack or chipotle cheese"
+    },
+    {
+      "ingredient_id": "a5a17b0d-9899-5f9f-9ee6-5d98754eaaf4",
+      "normalized_name": "garlic powder or 1 teaspoon garlic paste"
+    },
+    {
+      "ingredient_id": "a5bcffe3-fc83-5769-86c4-aa7a2501fd3b",
+      "normalized_name": "clarified butter or ghee"
+    },
+    {
+      "ingredient_id": "a6365b85-17eb-5168-90d0-54bf91388bda",
+      "normalized_name": "leaves bibb or butterhead lettuce"
+    },
+    {
+      "ingredient_id": "a6439ac9-49ad-5c21-bcc9-b18cfcdc6510",
+      "normalized_name": "yellow squash or zucchini"
+    },
+    {
+      "ingredient_id": "a66c7b2e-988a-5be1-9cf1-b6fbcfcce356",
+      "normalized_name": "boneless skin-on turkey breast half about 2 and 1/2 lbs"
+    },
+    {
+      "ingredient_id": "a67b940c-dc8b-56b8-80d6-46f66f4837c2",
+      "normalized_name": "dry whole-grain or challah bread cubes see editors tip"
+    },
+    {
+      "ingredient_id": "a68027d6-72ea-508d-985f-fbee85b7af9a",
+      "normalized_name": "turkey breast half with bones and skin"
+    },
+    {
+      "ingredient_id": "a6b04bb5-a6aa-5247-b0ca-5cf89efd4f25",
+      "normalized_name": "roast-ready prime rib roast ribs cut off and tied to roast"
+    },
+    {
+      "ingredient_id": "a6ff05d8-3ca1-55bd-bd64-bc848edb3443",
+      "normalized_name": "basil and cracked black pepper chicken sausage"
+    },
+    {
+      "ingredient_id": "a738fea3-ba7f-540a-9e10-3b302db2a9a8",
+      "normalized_name": "wine vinegar or apple cider vinegar"
+    },
+    {
+      "ingredient_id": "a75d4356-ffda-590c-8476-3ee0f7439e54",
+      "normalized_name": "campbells condensed cream of mushroom soup regular or 98 fat free"
+    },
+    {
+      "ingredient_id": "a766f865-75a8-5794-8c23-c59b8625a864",
+      "normalized_name": "chopped celery and/or green olives and crumbled cotija cheese"
+    },
+    {
+      "ingredient_id": "a853ad19-66bf-56b8-84cf-b7afc735a806",
+      "normalized_name": "trader joes canned salmon or fresh salmon"
+    },
+    {
+      "ingredient_id": "a8b55cbd-e38c-5917-a7de-c1444ac92e33",
+      "normalized_name": "canned white or yellow hominy"
+    },
+    {
+      "ingredient_id": "a9139bb1-9625-5356-bf61-9fc65b74693f",
+      "normalized_name": "crushed tomatoes or 3 1/2 cups tomato sauce or puree"
+    },
+    {
+      "ingredient_id": "a93dc88c-488d-5190-b397-0d4439f86012",
+      "normalized_name": "wooden or metal skewer"
+    },
+    {
+      "ingredient_id": "a9620de1-5f4e-5f6c-8156-68edd7649701",
+      "normalized_name": "baby cherry or grape tomato"
+    },
+    {
+      "ingredient_id": "a96d5561-c721-5d00-a8d7-c3ed93e2c50f",
+      "normalized_name": "hazelnut extract or vanilla extract"
+    },
+    {
+      "ingredient_id": "a98ecfeb-768f-5150-bf81-577813da131d",
+      "normalized_name": "chicken broth or vegetable broth"
+    },
+    {
+      "ingredient_id": "a99a2e08-23dd-503d-bc04-35cafe87b8c4",
+      "normalized_name": "flour 00 and semolina blend"
+    },
+    {
+      "ingredient_id": "a9a6e0fe-44e6-5d94-9366-471c22d16c30",
+      "normalized_name": "quart chicken broth or stock"
+    },
+    {
+      "ingredient_id": "a9fc88a2-91b9-5a96-ac01-332b2402bc5d",
+      "normalized_name": "shortening or bacon fat"
+    },
+    {
+      "ingredient_id": "aa01a025-9dc4-521e-b259-29f3a4ea439b",
+      "normalized_name": "vegetable oil or butter"
+    },
+    {
+      "ingredient_id": "aa27fe6b-47a3-5c13-ac6c-4008d91810f7",
+      "normalized_name": "kimchi spicy or regular"
+    },
+    {
+      "ingredient_id": "aa75cc4a-00c0-5d43-8f2c-00eec9afabcd",
+      "normalized_name": "the greek gods traditional plain yogurt or sour cream"
+    },
+    {
+      "ingredient_id": "aa8c82a0-fb49-568c-bbfe-8d9575224c06",
+      "normalized_name": "1 teaspoon vanilla bean paste or extract"
+    },
+    {
+      "ingredient_id": "aa9994d8-64ad-5c4b-a30a-b5949fe8ceda",
+      "normalized_name": "ground black and red pepper blend such as mccormick hot shot"
+    },
+    {
+      "ingredient_id": "aaa46fe6-08be-5f97-8924-4230b3dbce8f",
+      "normalized_name": "frozen bell pepper and onion blend"
+    },
+    {
+      "ingredient_id": "aac45759-ce9f-5cbe-b969-bacd2ed183a2",
+      "normalized_name": "coconut oil or shortening"
+    },
+    {
+      "ingredient_id": "aad48d8e-fef9-5fec-a213-05679fc9ba7b",
+      "normalized_name": "drizzle cream or milk"
+    },
+    {
+      "ingredient_id": "ab1b1520-5186-5204-ad91-c51506a8eb4f",
+      "normalized_name": "cilantro leaves and stem"
+    },
+    {
+      "ingredient_id": "ab23dfbb-e122-513d-9daa-0a5993e4a37a",
+      "normalized_name": "cilantro and/or toasted sesame seeds"
+    },
+    {
+      "ingredient_id": "ab50db4b-c8b9-5c3a-9428-b1c66f96632e",
+      "normalized_name": "peaches or nectarine"
+    },
+    {
+      "ingredient_id": "ac48234d-e6bb-5fff-be25-1e7de2bd752c",
+      "normalized_name": "avocado oil or clarified butter"
+    },
+    {
+      "ingredient_id": "ac5e4a83-ada1-5594-8bc3-6533ab7fcc33",
+      "normalized_name": "vanilla bean paste or extract"
+    },
+    {
+      "ingredient_id": "ac7b5897-e1d4-5ac3-a1f7-15898808122a",
+      "normalized_name": "dry sherry or low sodium vegetable broth"
+    },
+    {
+      "ingredient_id": "acac8897-3bc6-5b25-b6be-4f1927cd6994",
+      "normalized_name": "oil or butter for the skillet"
+    },
+    {
+      "ingredient_id": "acbd0111-4495-5950-b51f-9681b17e9a04",
+      "normalized_name": "red leaf or bibb lettuce"
+    },
+    {
+      "ingredient_id": "ad3729d3-4446-5606-a1e9-c0fada837464",
+      "normalized_name": "cold water or milk"
+    },
+    {
+      "ingredient_id": "ad991d97-351f-504f-8745-3b3aba33e151",
+      "normalized_name": "rice or white vinegar"
+    },
+    {
+      "ingredient_id": "ada3ffda-0269-52d0-91cf-207ab30401b8",
+      "normalized_name": "chopped green cabbage or kale"
+    },
+    {
+      "ingredient_id": "ae547536-9c6b-5ef5-a4d2-12df3b8a4a70",
+      "normalized_name": "mascarpone or 4 ounces cream cheese"
+    },
+    {
+      "ingredient_id": "ae880ed7-6a0f-5ef0-ad35-e5742a142170",
+      "normalized_name": "fusilli or rotini pasta"
+    },
+    {
+      "ingredient_id": "af009596-bbde-52d5-9579-bb9cb83e6ced",
+      "normalized_name": "instant cookies and creme or vanilla pudding mix"
+    },
+    {
+      "ingredient_id": "af2999ee-7c11-5e54-8b5c-395958541c34",
+      "normalized_name": "macaroni and cheese mix such as kraft macaroni cheese dinner"
+    },
+    {
+      "ingredient_id": "af6329b8-19de-5e4d-b42f-3496155bca46",
+      "normalized_name": "colby and monterrey jack mixed cheese cube"
+    },
+    {
+      "ingredient_id": "af92b581-11cd-5238-bd6b-1f11d8cff8ab",
+      "normalized_name": "macaroni and cheese dinner mix such as kraft"
+    },
+    {
+      "ingredient_id": "b008e868-2e62-502e-94c9-60d7e543c46f",
+      "normalized_name": "pkg semi-soft cheese with garlic and fine herbs boursin"
+    },
+    {
+      "ingredient_id": "b0c44a16-1ec0-56fa-990c-39aa4b06a12e",
+      "normalized_name": "tri colored quinoa or rice about 1 1/2 cups cooked"
+    },
+    {
+      "ingredient_id": "b0db90a2-fc69-5791-8b92-0dbb690426ea",
+      "normalized_name": "black or kalamata olive"
+    },
+    {
+      "ingredient_id": "b1288460-3b82-5ba6-afeb-017f0ee16967",
+      "normalized_name": "homemade or low-sodium chicken broth"
+    },
+    {
+      "ingredient_id": "b1582d86-e1e1-5b66-9b1d-8c7872d0c2a1",
+      "normalized_name": "white vinegar or lemon juice"
+    },
+    {
+      "ingredient_id": "b1cbb3d8-af80-567e-b3f0-e358939802b4",
+      "normalized_name": "sucralose and brown sugar blend such as splenda brown sugar blend"
+    },
+    {
+      "ingredient_id": "b1d42eef-0717-5bbe-897c-11bcd0a78a89",
+      "normalized_name": "freshly grated ginger or ginger paste"
+    },
+    {
+      "ingredient_id": "b214d9a8-8636-5983-a1fa-88d43dea2b02",
+      "normalized_name": "pan drippings from roasted chicken or 1/4 cup butter"
+    },
+    {
+      "ingredient_id": "b24f68ca-01b2-55b4-820f-d4a802cd3fc5",
+      "normalized_name": "shredded red and/or green cabbage"
+    },
+    {
+      "ingredient_id": "b265f212-a3e7-5619-8795-973f1bec109f",
+      "normalized_name": "blueberry or berry sparkling water"
+    },
+    {
+      "ingredient_id": "b2665e9e-a762-5949-ad25-662d9a529819",
+      "normalized_name": "sweet and spicy barbecue sauce"
+    },
+    {
+      "ingredient_id": "b277ba72-5262-5e82-9bea-a04a7eaac9d2",
+      "normalized_name": "homemade or store bought basil pesto"
+    },
+    {
+      "ingredient_id": "b28a9b28-e6d3-53dc-9518-ff98b67ae9d3",
+      "normalized_name": "chinese mustard or dijon mustard"
+    },
+    {
+      "ingredient_id": "b2e4d0f7-7a31-5cd3-9f6d-b6a2e7b70e41",
+      "normalized_name": "colby and sharp cheddar cheese"
+    },
+    {
+      "ingredient_id": "b32286a4-a67f-5d02-bfb1-27a44c093098",
+      "normalized_name": "heavy cream or half and half"
+    },
+    {
+      "ingredient_id": "b34f472d-961a-5d85-ae31-e49e8ea62839",
+      "normalized_name": "sazon seasoning with coriander and achiote such as goya"
+    },
+    {
+      "ingredient_id": "b353dce9-30ae-522f-a613-50e59d23de95",
+      "normalized_name": "whole milk or half-and-half"
+    },
+    {
+      "ingredient_id": "b37f2a78-8027-5f6a-a5aa-12194a9de4a5",
+      "normalized_name": "slices roast turkey or ham"
+    },
+    {
+      "ingredient_id": "b3808d0e-d387-582a-83d9-fc22c6d43dfc",
+      "normalized_name": "corn or flour tortilla"
+    },
+    {
+      "ingredient_id": "b3c94e8d-4d4b-5fb1-b7d7-4735c0c24f9a",
+      "normalized_name": "spaghetti or fusilli"
+    },
+    {
+      "ingredient_id": "b3d55e2d-da2a-5147-ad35-c9e3208913ce",
+      "normalized_name": "chive and onion cream cheese"
+    },
+    {
+      "ingredient_id": "b3eb4661-bc42-5a80-852b-8f862a6b2a48",
+      "normalized_name": "karo light or dark corn syrup"
+    },
+    {
+      "ingredient_id": "b40e85a4-7e0b-57d4-b66d-54112664a8e3",
+      "normalized_name": "capers and/or cocktail onion"
+    },
+    {
+      "ingredient_id": "b46a7612-40fc-5de0-9c83-77428ae40cf1",
+      "normalized_name": "cooked ground turkey or chicken"
+    },
+    {
+      "ingredient_id": "b47a0db1-7edf-5514-8d66-570cbffd7559",
+      "normalized_name": "salad or pickling cucumber"
+    },
+    {
+      "ingredient_id": "b493cd47-9a03-5912-8d23-67729417e4c4",
+      "normalized_name": "busiate or other curly shaped pasta"
+    },
+    {
+      "ingredient_id": "b5574414-fb1f-5036-9cfa-49e6871900c2",
+      "normalized_name": "sambal oelek or sriracha"
+    },
+    {
+      "ingredient_id": "b56a8f77-b48c-52a3-9623-123dd4caf385",
+      "normalized_name": "boneless chicken breasts or thigh"
+    },
+    {
+      "ingredient_id": "b57496a3-23ee-5447-820b-2093541e509c",
+      "normalized_name": "polenta or yellow cornmeal"
+    },
+    {
+      "ingredient_id": "b5a3f1b3-c91d-5e26-afce-a971e53e701b",
+      "normalized_name": "whipping cream or 8 ounce frozen whipped dessert topping"
+    },
+    {
+      "ingredient_id": "b5dddde4-7629-5065-a3b9-d1576188da33",
+      "normalized_name": "pear or lemon curd"
+    },
+    {
+      "ingredient_id": "b6f7ea44-6add-548e-9a56-68c21576ca0c",
+      "normalized_name": "chinese black vinegar or rice vinegar"
+    },
+    {
+      "ingredient_id": "b75de88c-25c8-50d2-b23f-a2ff3e8df735",
+      "normalized_name": "filtered or spring water"
+    },
+    {
+      "ingredient_id": "b781444b-5f2d-5aac-b576-10751bd1ee6d",
+      "normalized_name": "cognac or brandy"
+    },
+    {
+      "ingredient_id": "b7958ecd-b588-5709-9f03-03153e69e6b7",
+      "normalized_name": "sherry vinegar or wine vinegar"
+    },
+    {
+      "ingredient_id": "b7b6c99a-1b67-5cd2-8b30-bb703f7e0757",
+      "normalized_name": "breakstones reduced fat or knudsen light sour cream"
+    },
+    {
+      "ingredient_id": "b805e3e5-af4b-5b7e-8747-6b5d0340fff1",
+      "normalized_name": "vanilla bean paste or vanilla extract"
+    },
+    {
+      "ingredient_id": "b87f875d-0a0b-5489-baeb-5e604a27358a",
+      "normalized_name": "heavy or whipping cream"
+    },
+    {
+      "ingredient_id": "b8dc023c-602c-598c-b2bc-0ec4f17b4ab0",
+      "normalized_name": "oil and egg"
+    },
+    {
+      "ingredient_id": "b9e68ba9-45a2-531f-bbcd-4a22f4001724",
+      "normalized_name": "broth or bouillon"
+    },
+    {
+      "ingredient_id": "b9f0fd82-3ae4-5948-9df4-3500a8a7076e",
+      "normalized_name": "green cardamom pods or 1 teaspoon ground cardamom"
+    },
+    {
+      "ingredient_id": "ba75a3a7-a697-52c8-9a11-2e791b4dac4e",
+      "normalized_name": "beef stock or broth"
+    },
+    {
+      "ingredient_id": "ba8d669b-ab54-5309-8975-62e926c9d84c",
+      "normalized_name": "lime or lemon juice"
+    },
+    {
+      "ingredient_id": "ba91cced-2bdf-5638-b15b-72d3e2595404",
+      "normalized_name": "box white or vanilla cake mix"
+    },
+    {
+      "ingredient_id": "ba9bb14d-00ac-503b-bd84-69655b387552",
+      "normalized_name": "pitted black olives and/or"
+    },
+    {
+      "ingredient_id": "baa03ae6-d2a2-588f-960a-9da9a54d8504",
+      "normalized_name": "breadcrumbs or 3/4 cup panko breadcrumb"
+    },
+    {
+      "ingredient_id": "baccd5d7-d74d-56cd-99d8-38fb38e684a2",
+      "normalized_name": "roasted red pepper and garlic tomato sauce"
+    },
+    {
+      "ingredient_id": "bad39301-b576-5c2f-ae81-7a41f1c00a6c",
+      "normalized_name": "kelloggs rice krispies cereal or kelloggs cocoa krispies cereal"
+    },
+    {
+      "ingredient_id": "bafa72f2-fedf-5564-85b8-d6319e8779bb",
+      "normalized_name": "prepared macaroni and cheese"
+    },
+    {
+      "ingredient_id": "bafc4326-f1ff-5468-a75d-36211ca66c82",
+      "normalized_name": "light or dark brown sugar"
+    },
+    {
+      "ingredient_id": "bb33710a-053a-5f02-970d-4b319be75030",
+      "normalized_name": "shredded cheddar and monterey jack cheese"
+    },
+    {
+      "ingredient_id": "bb3bf20f-98f6-516d-80bf-085b3441c0c5",
+      "normalized_name": "canned frosting or decorating gel"
+    },
+    {
+      "ingredient_id": "bb7c7a48-e1b8-5805-83be-34b1b0afe7eb",
+      "normalized_name": "apricot jam or apple jelly"
+    },
+    {
+      "ingredient_id": "bbed4f28-c377-5788-a6bf-cc2d273ebcb1",
+      "normalized_name": "frozen hash brown potatoes with peppers and onion such as ore-ida potatoes obrien"
+    },
+    {
+      "ingredient_id": "bce0ef8c-76ed-53c4-a4c6-428fc282b3dc",
+      "normalized_name": "shredded lettuce and crushed potato chips for serving"
+    },
+    {
+      "ingredient_id": "bd4ee3e6-9a6f-5936-81fa-375d0ceb6cec",
+      "normalized_name": "grated monterey jack or mozzarella cheese"
+    },
+    {
+      "ingredient_id": "be0046d7-5f8c-516a-9e56-b33876e529d7",
+      "normalized_name": "crushed crackers or bread crumb"
+    },
+    {
+      "ingredient_id": "be5fdafe-39fa-5c16-872a-60cf2cc4804e",
+      "normalized_name": "can of cherry pie or blackberry pie filling"
+    },
+    {
+      "ingredient_id": "be8c49c2-a24d-5628-86f9-1bb26a23fc31",
+      "normalized_name": "red or green pepper"
+    },
+    {
+      "ingredient_id": "be978706-d454-5299-b885-501252d946d6",
+      "normalized_name": "ginger ale or lemon-lime flavored carbonated beverage"
+    },
+    {
+      "ingredient_id": "bebe6b55-7247-5227-bb61-cea43a8a310c",
+      "normalized_name": "shao hsing rice wine or dry sherry see note"
+    },
+    {
+      "ingredient_id": "bed3e1e7-e9d3-5a52-9735-613ab86323e2",
+      "normalized_name": "coconut aminos or lite soy sauce"
+    },
+    {
+      "ingredient_id": "bfd336bc-94d5-5a7a-89d1-f0a34d0150de",
+      "normalized_name": "teriyaki marinade and sauce"
+    },
+    {
+      "ingredient_id": "c070a8e1-eb17-5000-ac13-5d25bc6b8f7b",
+      "normalized_name": "sriracha sauce or bottled chipotle hot sauce"
+    },
+    {
+      "ingredient_id": "c095380e-c8b0-55c9-a8b2-290215fd4b21",
+      "normalized_name": "whole butter or bibb lettuce leaf"
+    },
+    {
+      "ingredient_id": "c0d93f8f-eea4-5ef9-88d1-3be3d6f53d21",
+      "normalized_name": "almond breeze original almondmilk or almond breeze vanilla almondmilk"
+    },
+    {
+      "ingredient_id": "c18c1417-3503-5975-b2a5-5b5035abae66",
+      "normalized_name": "green onions or chives garnish"
+    },
+    {
+      "ingredient_id": "c1d81a1c-c0f7-58e0-a8ef-41583ad0874b",
+      "normalized_name": "tomato puree or sauce"
+    },
+    {
+      "ingredient_id": "c200764d-1645-5914-b9f6-2e0f3aff99dd",
+      "normalized_name": "kosher salt or 1 1/2 teaspoons fine salt"
+    },
+    {
+      "ingredient_id": "c29a4451-beb6-5986-8995-e8c5b293f3a9",
+      "normalized_name": "slices stale french or italian bread"
+    },
+    {
+      "ingredient_id": "c29c8e44-7eb0-5e54-9244-640a45b586d2",
+      "normalized_name": "cayenne or white pepper"
+    },
+    {
+      "ingredient_id": "c29e25e7-ba33-564c-a64b-049ff1c0b8a0",
+      "normalized_name": "basket cherry or grape tomato"
+    },
+    {
+      "ingredient_id": "c2a66cb9-e49e-523b-bd36-8ccc42bd2caf",
+      "normalized_name": "amber or dark beer"
+    },
+    {
+      "ingredient_id": "c2c9212f-ed6d-5523-8f1c-7583299248a1",
+      "normalized_name": "chopped fresh cilantro or parsley"
+    },
+    {
+      "ingredient_id": "c33989d1-d014-59cc-929e-330365733983",
+      "normalized_name": "shredded queso quesadilla or mexican-style cheese blend"
+    },
+    {
+      "ingredient_id": "c36b300d-bc4b-5d3d-a184-f4fd7d5f710d",
+      "normalized_name": "grape seed oil or olive oil"
+    },
+    {
+      "ingredient_id": "c4607e94-e740-57a6-ad1d-2c8debce2dcc",
+      "normalized_name": "your favorite bloody mary mix or make your own"
+    },
+    {
+      "ingredient_id": "c492d44e-16fe-5b0d-a05c-b36999c703eb",
+      "normalized_name": "ground pork breakfast sausage or link sausage with casings removed"
+    },
+    {
+      "ingredient_id": "c4adba2e-f276-5b77-ab37-5698dddb6aa7",
+      "normalized_name": "leftover green bean casserole or thawed frozen mixed vegetable"
+    },
+    {
+      "ingredient_id": "c516f417-7f0f-5ce5-9258-523c1752cd00",
+      "normalized_name": "ranch dressing and seasoning mix"
+    },
+    {
+      "ingredient_id": "c5896b0d-f31d-597c-a12e-75f53ddd326c",
+      "normalized_name": "multicolored mini bell peppers or 1 large bell pepper"
+    },
+    {
+      "ingredient_id": "c5a6dfa8-24cf-59e7-94d2-2f5d1c74fd69",
+      "normalized_name": "herb and garlic feta"
+    },
+    {
+      "ingredient_id": "c674149d-b037-59f4-9de6-c656c3c6508f",
+      "normalized_name": "fine sea salt or kosher salt"
+    },
+    {
+      "ingredient_id": "c6752125-c2c2-5456-aa3d-cc4c29a536d1",
+      "normalized_name": "coarse hawaiian sea salt or other large-crystal sea salt"
+    },
+    {
+      "ingredient_id": "c67c3a67-b123-5fe5-a0bd-9918bc9f98cc",
+      "normalized_name": "key lime zest or lime zest"
+    },
+    {
+      "ingredient_id": "c6b2efd6-ba6d-55d6-859f-80474522a48d",
+      "normalized_name": "red or white wine vinegar"
+    },
+    {
+      "ingredient_id": "c6e3df99-8784-5c5b-bb10-6b8dca568936",
+      "normalized_name": "lavash or pita bread"
+    },
+    {
+      "ingredient_id": "c7ef8a18-dd8e-5b37-9b39-98f4a85e0494",
+      "normalized_name": "crosse blackwell mincemeat filling topping or crosse blackwell rum brandy mincemeat filling topping"
+    },
+    {
+      "ingredient_id": "c839040b-cd94-57b8-8c5e-d81c2c73a28b",
+      "normalized_name": "grated pecorino romano or parmesan cheese"
+    },
+    {
+      "ingredient_id": "c8496a7f-bb12-5054-990b-3c3760e86838",
+      "normalized_name": "shredded lettuce or cabbage"
+    },
+    {
+      "ingredient_id": "c86983f5-f902-5efd-97a0-e4820a738aeb",
+      "normalized_name": "pisco or other brandy"
+    },
+    {
+      "ingredient_id": "c89a438b-ae5d-5817-aa41-c4c7dc024ea5",
+      "normalized_name": "frozen pre-cooked pork or turkey sausage patty"
+    },
+    {
+      "ingredient_id": "c8fb403b-406f-5632-8c20-9d4a343775d7",
+      "normalized_name": "boneless round or chuck steak"
+    },
+    {
+      "ingredient_id": "c907baf7-f0c2-5ff5-9958-be19a81d4ca6",
+      "normalized_name": "first-cut brisket or flat-cut"
+    },
+    {
+      "ingredient_id": "c923a8d5-667b-5c17-9af7-a672157fe47e",
+      "normalized_name": "coarse sugar turbinado or sugar in the raw"
+    },
+    {
+      "ingredient_id": "c93eaec7-d692-5dd7-8109-90a31b65fe68",
+      "normalized_name": "green and red sprinkle"
+    },
+    {
+      "ingredient_id": "c97d21c4-93a9-5324-a924-69f33341c6c5",
+      "normalized_name": "round or rump steak"
+    },
+    {
+      "ingredient_id": "c97fe00e-2c35-5eb9-b337-512c48536f7e",
+      "normalized_name": "firmly packed baby spinach or spring mix"
+    },
+    {
+      "ingredient_id": "c9841c68-f723-546a-93cf-b2fd7104eedc",
+      "normalized_name": "chicken bone broth such as kettle and fire"
+    },
+    {
+      "ingredient_id": "c9cfd621-9e23-5585-9509-71b05c00e830",
+      "normalized_name": "sunflower nuts and/or roasted pumpkin seeds"
+    },
+    {
+      "ingredient_id": "c9ed5f22-1b56-59c8-aa09-0b8be27b518c",
+      "normalized_name": "half and half"
+    },
+    {
+      "ingredient_id": "ca3e1040-07e0-54f5-9173-444046558a29",
+      "normalized_name": "water or chicken stock"
+    },
+    {
+      "ingredient_id": "ca811dda-a60f-54e0-a265-073b0240aa50",
+      "normalized_name": "turkey neck and giblet"
+    },
+    {
+      "ingredient_id": "cab231ba-0bfd-5f23-9677-f469ab64b08f",
+      "normalized_name": "hot and/or sweet pepper"
+    },
+    {
+      "ingredient_id": "cb0879da-3e36-519c-b3db-38365295a63e",
+      "normalized_name": "grapefruit slice or lime slice"
+    },
+    {
+      "ingredient_id": "cb115ec6-6293-5c41-894e-c4d24a4c5eac",
+      "normalized_name": "pumpkin pie spice or cinnamon"
+    },
+    {
+      "ingredient_id": "cb2a6993-fe42-518b-8db2-c1683f620559",
+      "normalized_name": "shredded wakame or hijiki seaweed"
+    },
+    {
+      "ingredient_id": "cc0eac1a-abd3-5e80-959d-46513f8300a0",
+      "normalized_name": "chinese rice wine or sake or dry sherry"
+    },
+    {
+      "ingredient_id": "cc38487d-5fe3-5f0e-a58c-764019a1a9fe",
+      "normalized_name": "chopped fresh basil leaves or parsley"
+    },
+    {
+      "ingredient_id": "cc3e26ce-43ed-5e69-a3dc-3c2976cc6fdf",
+      "normalized_name": "salt-free garlic and herb seasoning blend such as mrs dash"
+    },
+    {
+      "ingredient_id": "cc4efd08-98d1-5b63-8053-6f17ff04eb1e",
+      "normalized_name": "vegetable or chicken broth"
+    },
+    {
+      "ingredient_id": "ccc43d1c-2ef9-5926-8fec-51dfd860d9ad",
+      "normalized_name": "lemon juice or other citrus juice"
+    },
+    {
+      "ingredient_id": "cd4cd221-6499-5a28-8ce0-bc5c2d39031b",
+      "normalized_name": "chorizo or bulk spicy pork sausage"
+    },
+    {
+      "ingredient_id": "cdbfa128-29de-5a5a-a923-0d10d2624d95",
+      "normalized_name": "fresh- squeezed lemon juice about 8 lemons or 1 12 ounce can lemonade concentrate"
+    },
+    {
+      "ingredient_id": "ce34912d-c052-55a5-885d-58021720f377",
+      "normalized_name": "melted butter or margarine"
+    },
+    {
+      "ingredient_id": "ce40d623-7645-529a-a43a-6c7e4e9afe36",
+      "normalized_name": "tomatoes with garlic and onion"
+    },
+    {
+      "ingredient_id": "cedcd55d-2059-58c9-aa09-9b559621c04e",
+      "normalized_name": "green and while candy sprinkle"
+    },
+    {
+      "ingredient_id": "cf501a51-8a77-5aad-bdda-471cb2634216",
+      "normalized_name": "bagoong isda with tomato and onion"
+    },
+    {
+      "ingredient_id": "cfc6f4eb-b64d-50a9-b6c3-46e98848e04b",
+      "normalized_name": "ox bat and ball"
+    },
+    {
+      "ingredient_id": "cfcf8b97-fac8-5073-a0fb-0c7fdeccf853",
+      "normalized_name": "chive and onion flavored cream cheese"
+    },
+    {
+      "ingredient_id": "d0253582-5877-59f4-9e45-b05b09ffb7ec",
+      "normalized_name": "fontina or fontal cheese"
+    },
+    {
+      "ingredient_id": "d0269336-5a3a-50f0-ad26-80996471a833",
+      "normalized_name": "crackers or bread"
+    },
+    {
+      "ingredient_id": "d0a211a9-b8b9-5203-b7d3-278e6eecfe08",
+      "normalized_name": "frozen mixed peas and carrot"
+    },
+    {
+      "ingredient_id": "d0ffcbb8-10a2-5d43-bfbf-df38dc26dcf9",
+      "normalized_name": "beef round or top sirloin"
+    },
+    {
+      "ingredient_id": "d15f16ca-8f9d-5e49-afe2-b50ab471bf77",
+      "normalized_name": "canola or avocado oil"
+    },
+    {
+      "ingredient_id": "d18ec8e7-5d29-590b-ad33-f3b78f7c5358",
+      "normalized_name": "crushed tomato or tomato sauce"
+    },
+    {
+      "ingredient_id": "d1b99722-0c84-512a-ae1e-d2c74d3ed1d8",
+      "normalized_name": "egg or egg-free noodle"
+    },
+    {
+      "ingredient_id": "d2042454-88f3-51b0-b7a8-cdc2e6479d55",
+      "normalized_name": "vanilla bean or 2 teaspoons vanilla extract"
+    },
+    {
+      "ingredient_id": "d2470580-d0e0-5dbf-992a-44ba4c0f649b",
+      "normalized_name": "key lime juice or lime juice"
+    },
+    {
+      "ingredient_id": "d24985a5-843f-50fa-ab2a-c850a87f2f6e",
+      "normalized_name": "chopped fresh basil and/or oregano"
+    },
+    {
+      "ingredient_id": "d2c1dfc4-e5c0-5141-950e-54e1c0eb78d9",
+      "normalized_name": "jalapeo or serrano pepper"
+    },
+    {
+      "ingredient_id": "d30d439b-edc2-59ec-8a8a-005628a0862b",
+      "normalized_name": "sherry wine or brandy"
+    },
+    {
+      "ingredient_id": "d3257094-8e26-5002-b4c4-2418d1f9bb83",
+      "normalized_name": "milk or soy milk"
+    },
+    {
+      "ingredient_id": "d355d9b1-f4a3-5d70-9e27-3628b6e8184b",
+      "normalized_name": "lime wedges and parsley or cilantro sprigs for garnish"
+    },
+    {
+      "ingredient_id": "d380945d-9379-5e29-b965-63365b69b5c7",
+      "normalized_name": "white wine or chicken stock"
+    },
+    {
+      "ingredient_id": "d3ad86e2-3e34-5463-9650-41ac4ee3efa1",
+      "normalized_name": "white corn syrup or honey"
+    },
+    {
+      "ingredient_id": "d3b1c40d-fade-5669-ac13-fdac7ec21a0c",
+      "normalized_name": "butter or herb butter"
+    },
+    {
+      "ingredient_id": "d3c9821c-185d-5183-9f4b-b21957f72ba9",
+      "normalized_name": "quaker oats quick or old fashioned"
+    },
+    {
+      "ingredient_id": "d3f1abc3-84f4-5ba9-bffc-245cd6d7f4aa",
+      "normalized_name": "seafood or chicken stock"
+    },
+    {
+      "ingredient_id": "d457112d-782e-599b-a776-beb7367caae5",
+      "normalized_name": "water or vegetable broth"
+    },
+    {
+      "ingredient_id": "d46a7646-70d8-5145-b84c-ff00ee730782",
+      "normalized_name": "less-sodium tamari or soy sauce"
+    },
+    {
+      "ingredient_id": "d48728a9-c163-5099-8dad-439775e8d3ba",
+      "normalized_name": "chicken or beef broth"
+    },
+    {
+      "ingredient_id": "d49d5447-095d-5290-95e8-018ad8627928",
+      "normalized_name": "slices french or italian-style bread"
+    },
+    {
+      "ingredient_id": "d4b19c15-e6cc-59e7-93e3-798b414c8960",
+      "normalized_name": "grape seed or coconut oil"
+    },
+    {
+      "ingredient_id": "d4dab2ab-47a7-561a-9093-4a5c1a756a0e",
+      "normalized_name": "pisco or brandy"
+    },
+    {
+      "ingredient_id": "d4fa5d18-295c-586d-8cb3-ac7191e7f9b0",
+      "normalized_name": "white lily enriched bleached self-rising flour or white lily enriched unbleached self-rising flour"
+    },
+    {
+      "ingredient_id": "d50b0288-6744-5b25-9c66-892cea9a1c67",
+      "normalized_name": "tzatziki or other topping"
+    },
+    {
+      "ingredient_id": "d56debd7-005b-5355-8765-7d5ec250245c",
+      "normalized_name": "ground beef or chuck"
+    },
+    {
+      "ingredient_id": "d5899c76-ff6b-5022-a8aa-048357791a51",
+      "normalized_name": "marinara sauce or pizza sauce"
+    },
+    {
+      "ingredient_id": "d5c2880b-a074-5daf-aac5-4580ba643927",
+      "normalized_name": "cherry tomatoes or 1/2 cup tomatoes and 1/2 cup cucumber"
+    },
+    {
+      "ingredient_id": "d5c46483-d2d1-5e2a-bd37-eb3d1330fdb4",
+      "normalized_name": "salami or sopressata log"
+    },
+    {
+      "ingredient_id": "d5dec474-b4fe-54a6-ac5f-8f7326390af7",
+      "normalized_name": "bibb or boston lettuce"
+    },
+    {
+      "ingredient_id": "d60d75b3-acb0-57bf-b90d-795320732ae1",
+      "normalized_name": "fresno chilies or other green pepper"
+    },
+    {
+      "ingredient_id": "d70c7569-dade-5d5c-a5a1-564d7c6ac416",
+      "normalized_name": "all-purpose flour or bread flour"
+    },
+    {
+      "ingredient_id": "d7241860-5ab3-5c94-b4e2-5cd74b0d20a6",
+      "normalized_name": "pork chops bone in or boneless"
+    },
+    {
+      "ingredient_id": "d72acf71-2c67-5159-ade6-f5c90bc743b8",
+      "normalized_name": "knorr real chinese soup crab and corn"
+    },
+    {
+      "ingredient_id": "d73c33a3-4b74-57c2-8fee-1c88641a0bdc",
+      "normalized_name": "hickory and brown sugar bbq sauce"
+    },
+    {
+      "ingredient_id": "d756045d-bd0d-53ed-861c-711788ead1b4",
+      "normalized_name": "fresh strawberries or blueberries for serving"
+    },
+    {
+      "ingredient_id": "d7a8cc6f-9876-5a41-bdfb-ffe568818901",
+      "normalized_name": "dumpling or wonton wrapper"
+    },
+    {
+      "ingredient_id": "d84a8b8d-2ae6-5eac-91d8-2fac74eef667",
+      "normalized_name": "ultra-thin pizza crusts or extra grande flour tortilla"
+    },
+    {
+      "ingredient_id": "d88a34db-7167-53e9-a737-0af4c7fd1ab7",
+      "normalized_name": "poblano pepper or green bell pepper"
+    },
+    {
+      "ingredient_id": "d8e3f96e-d0f5-5956-b793-edbe581cad08",
+      "normalized_name": "goya pasilla chiles or goya ancho chile"
+    },
+    {
+      "ingredient_id": "d9064edb-b44a-5f1f-9da5-41feac8598ac",
+      "normalized_name": "mashed fresh pumpkin from boiled or roasted pumpkin"
+    },
+    {
+      "ingredient_id": "d990089c-41ce-5904-9285-4fa4fa103491",
+      "normalized_name": "torn or thinly"
+    },
+    {
+      "ingredient_id": "da3ef5f7-df41-5a60-a715-cea48028bf02",
+      "normalized_name": "vegetable or avocado oil"
+    },
+    {
+      "ingredient_id": "da930634-0318-5df0-b396-9587e7c319f7",
+      "normalized_name": "dry white wine or chicken broth"
+    },
+    {
+      "ingredient_id": "dad2c4f7-d867-5a9f-a1e4-5029cc16fb97",
+      "normalized_name": "neutral cooking oil such as canola or vegetable"
+    },
+    {
+      "ingredient_id": "db24c0f8-5677-5777-919b-00e60695fd92",
+      "normalized_name": "cilantro chutney or desired-flavor chutney"
+    },
+    {
+      "ingredient_id": "db483acd-5c21-59d3-9181-635affce89ab",
+      "normalized_name": "dried pappardelle or tagliatelle pasta"
+    },
+    {
+      "ingredient_id": "db8055c3-d861-55be-b50e-808121f238a6",
+      "normalized_name": "vegetable stock or water"
+    },
+    {
+      "ingredient_id": "dba252d8-255f-5f90-9ad5-5452e552d26a",
+      "normalized_name": "loaf french or italian-style bread"
+    },
+    {
+      "ingredient_id": "dbc8cde6-2331-5322-8fce-c57ac986b4d7",
+      "normalized_name": "pita or naan"
+    },
+    {
+      "ingredient_id": "dc210b6b-674e-57c7-b9c2-b9c7a33981f7",
+      "normalized_name": "boursin shallot and chive spreadable cheese"
+    },
+    {
+      "ingredient_id": "dc2c0c71-6620-5487-9585-4cd12fe71ee5",
+      "normalized_name": "vidalia or other sweet onion"
+    },
+    {
+      "ingredient_id": "dc4bb0f2-4365-530a-8789-66bf23f9bcba",
+      "normalized_name": "cream or milk"
+    },
+    {
+      "ingredient_id": "dc953117-8c82-504f-bcdf-3a3626eadaba",
+      "normalized_name": "soft unsalted butter for greasing the pan and parchment"
+    },
+    {
+      "ingredient_id": "dca862f3-d11b-5701-8abe-f5e7b101ba5c",
+      "normalized_name": "kosher salt or 1 teaspoon per pound of meat"
+    },
+    {
+      "ingredient_id": "dcf8b4c6-200b-5f41-8ceb-49af56c6c62c",
+      "normalized_name": "acini pasta or tiny pasta star"
+    },
+    {
+      "ingredient_id": "dcfb60ce-dc49-5972-abf8-8b55a0d0a471",
+      "normalized_name": "orange twists or flamed orange twists recipe"
+    },
+    {
+      "ingredient_id": "dd5115cb-01d4-5a2f-bed1-0dd7d3d3518c",
+      "normalized_name": "avocado or olive oil"
+    },
+    {
+      "ingredient_id": "dd5cca28-be1f-550b-b96c-37923f070884",
+      "normalized_name": "shredded mild or medium white cheddar cheese"
+    },
+    {
+      "ingredient_id": "dd74f085-810a-5724-b682-bab4c551ef17",
+      "normalized_name": "argo or kingsfords corn starch"
+    },
+    {
+      "ingredient_id": "dd8f3716-2642-5d9c-bfeb-d65f75236abb",
+      "normalized_name": "andiuolle or smoked sausage"
+    },
+    {
+      "ingredient_id": "ddb3eb72-0334-5c5d-840d-1ae6c655f11f",
+      "normalized_name": "hoppin john or seasoned black eyed pea"
+    },
+    {
+      "ingredient_id": "de71fde7-cafd-59ac-8717-408a6d5c76b9",
+      "normalized_name": "green enchilada sauce or tomatillo salsa"
+    },
+    {
+      "ingredient_id": "deae67d7-6ed6-5927-9781-a9871ef91d6c",
+      "normalized_name": "coconut oil or vegetable oil"
+    },
+    {
+      "ingredient_id": "ded0e14d-0588-522c-bb88-b70230a2152a",
+      "normalized_name": "torn kale or spinach"
+    },
+    {
+      "ingredient_id": "df8f0f76-52f0-5872-bed4-c155f4e33589",
+      "normalized_name": "vanilla extract or paste"
+    },
+    {
+      "ingredient_id": "df924ce3-4441-53bc-bd6a-4b250c2573a3",
+      "normalized_name": "fuji and/or gala apple"
+    },
+    {
+      "ingredient_id": "dfea7c67-8520-54a6-a8f1-35c9c1aae3ed",
+      "normalized_name": "coriander or parsley leaf"
+    },
+    {
+      "ingredient_id": "e01fe41f-0b86-5c34-9861-46b014ad40cf",
+      "normalized_name": "olive oil or canola oil"
+    },
+    {
+      "ingredient_id": "e03970f6-8128-5502-b2af-27633eac00c9",
+      "normalized_name": "blueberries or frozen blueberry"
+    },
+    {
+      "ingredient_id": "e0495a1b-8eec-5c53-934f-1cc2a2700ed0",
+      "normalized_name": "dried fusilli or penne pasta"
+    },
+    {
+      "ingredient_id": "e0af8eff-3823-5242-8fbc-efcc5b39df4e",
+      "normalized_name": "molasses or black treacle"
+    },
+    {
+      "ingredient_id": "e0c76872-caa5-53d6-8d51-230370b85d0b",
+      "normalized_name": "rice or corn cereal"
+    },
+    {
+      "ingredient_id": "e0d891a3-a98f-5ef0-8ad7-8fa0bf4e1694",
+      "normalized_name": "fat-free half and half or milk"
+    },
+    {
+      "ingredient_id": "e1009735-bc17-5a2d-b806-ac09c692aa58",
+      "normalized_name": "white wine vinegar or champagne vinegar"
+    },
+    {
+      "ingredient_id": "e159a322-52bc-58e9-b5eb-e6aa54cf5980",
+      "normalized_name": "bags green tea or 2 tablespoon loose green tea"
+    },
+    {
+      "ingredient_id": "e17f5d2d-bf73-58cf-a4ec-d8dc2d4ebd54",
+      "normalized_name": "grated key lime or lime zest"
+    },
+    {
+      "ingredient_id": "e18e0a16-fd6b-504d-b21b-ca368e4a7664",
+      "normalized_name": "handful of mixed swiss and gruyre cheese"
+    },
+    {
+      "ingredient_id": "e1d48ea5-2758-5b68-bcae-044a8bf786fe",
+      "normalized_name": "hot peppers and/or sweet pepper"
+    },
+    {
+      "ingredient_id": "e30bd2bc-43ce-5012-a617-154e722bdfa7",
+      "normalized_name": "red or orange bell peppers - stemmed"
+    },
+    {
+      "ingredient_id": "e3da455e-366d-52d6-adc7-540e6cd97fac",
+      "normalized_name": "water or pork stock"
+    },
+    {
+      "ingredient_id": "e458251d-ad09-5beb-959f-90e29084f814",
+      "normalized_name": "honey or agave syrup"
+    },
+    {
+      "ingredient_id": "e45a8047-1a48-58c7-8ea0-e009a2e8205d",
+      "normalized_name": "pineapple or apple juice"
+    },
+    {
+      "ingredient_id": "e463fcce-3704-522c-8aa3-565ca8599dfc",
+      "normalized_name": "sour cream or yogurt"
+    },
+    {
+      "ingredient_id": "e4b43eb5-d01f-5f80-a55e-f5280ef8237c",
+      "normalized_name": "slider buns or hawaiian roll"
+    },
+    {
+      "ingredient_id": "e4c64aaa-dd63-517e-ae56-9529744ade01",
+      "normalized_name": "shredded coconut sweetened or unsweetened"
+    },
+    {
+      "ingredient_id": "e5d16909-52f0-58ba-a9c4-00b65d4460e4",
+      "normalized_name": "beef broth or water"
+    },
+    {
+      "ingredient_id": "e5db9016-db7c-5c88-ae61-e104b4f0c98c",
+      "normalized_name": "seaweed flakes or granule"
+    },
+    {
+      "ingredient_id": "e5dfd445-3081-57a0-ae45-d679fc8c2543",
+      "normalized_name": "pork and bean"
+    },
+    {
+      "ingredient_id": "e6294c30-7064-5c9c-bb7e-3e9d6549c2ae",
+      "normalized_name": "naan and/or microwavable rice"
+    },
+    {
+      "ingredient_id": "e62ed3ee-f106-57c8-b3c4-b0a1b55dcb9c",
+      "normalized_name": "pkg vanilla instant pudding and pie mix such as jell-o"
+    },
+    {
+      "ingredient_id": "e6401a2d-2650-5700-9301-e692c4d858d8",
+      "normalized_name": "sweet and sour mix"
+    },
+    {
+      "ingredient_id": "e650e6f2-b9f9-50db-b38e-347bf820b21a",
+      "normalized_name": "refrigerated crescent rolls such as pillsbury grands big and flaky"
+    },
+    {
+      "ingredient_id": "e6bab324-66cc-55de-8956-bab7bb2be066",
+      "normalized_name": "low-sodium chicken broth or vegetable broth"
+    },
+    {
+      "ingredient_id": "e6d2e994-7b38-590d-844f-3b8fb42ffebc",
+      "normalized_name": "citron vodka or vodka"
+    },
+    {
+      "ingredient_id": "e6da88fc-ed12-54ae-b993-05d998ec35f6",
+      "normalized_name": "crumbled blue cheese or feta"
+    },
+    {
+      "ingredient_id": "e7053d82-cbe2-5446-be2d-6a986138c034",
+      "normalized_name": "garlic powder or 1 fresh garlic clove"
+    },
+    {
+      "ingredient_id": "e7216491-7c40-5739-8750-338bb1184abb",
+      "normalized_name": "minced dill pickle or relish"
+    },
+    {
+      "ingredient_id": "e76e39c1-5d81-5508-b664-0f69e33af070",
+      "normalized_name": "smokey bacon and white cheddar sausage"
+    },
+    {
+      "ingredient_id": "e7da3c0b-6b37-5fb7-93df-fc0636fbbf60",
+      "normalized_name": "chocolate instant pudding and pie filling"
+    },
+    {
+      "ingredient_id": "e80326e5-cff0-5bfd-8a6c-29f7efb39e33",
+      "normalized_name": "eggs or equivalent egg substitute"
+    },
+    {
+      "ingredient_id": "e84de50c-1c0c-52a9-aad2-df669342b917",
+      "normalized_name": "shredded pecorino romano or parmesan cheese 2 ounce"
+    },
+    {
+      "ingredient_id": "e864295c-70bf-5bb1-917f-24f9bc75d4b8",
+      "normalized_name": "cookies and cream instant pudding mix such as jell-o oreo"
+    },
+    {
+      "ingredient_id": "e869cef4-656a-5320-a750-72be6a8ecf15",
+      "normalized_name": "microwavable couscous or quinoa"
+    },
+    {
+      "ingredient_id": "e909a6d3-1f5b-5208-99e4-bddca3aa9bd9",
+      "normalized_name": "dijon or yellow mustard"
+    },
+    {
+      "ingredient_id": "e9412088-ea31-5545-aef5-9ac09f0c5f3a",
+      "normalized_name": "powdered sugar or cocoa powder"
+    },
+    {
+      "ingredient_id": "e943a456-425b-5312-b0d6-a47024919729",
+      "normalized_name": "andouille or smoked sausage"
+    },
+    {
+      "ingredient_id": "e98a548f-8d1b-5f5a-8dae-1c4658dc5057",
+      "normalized_name": "corn tortillas or taco sized flour tortilla"
+    },
+    {
+      "ingredient_id": "e9d7c811-ae9a-5d1b-bddb-9d944db8c624",
+      "normalized_name": "brown or grainy mustard"
+    },
+    {
+      "ingredient_id": "ea2882f7-d82d-5e4d-837b-6dea649a6fb3",
+      "normalized_name": "grated parmigiano reggiano cheese or 3 tablespoons nutritional yeast for vegan version"
+    },
+    {
+      "ingredient_id": "ea6b7250-b0ff-5202-89e0-f3a3ccbc6f46",
+      "normalized_name": "mixed berries and fruit"
+    },
+    {
+      "ingredient_id": "ea8d1935-0f12-58ee-b6f4-424fcd308ce1",
+      "normalized_name": "dry red wine merlot or cabernet sauvignon"
+    },
+    {
+      "ingredient_id": "ea92a5d2-9ea6-5d05-9b37-bbe2a1d74f39",
+      "normalized_name": "canned or fresh corn"
+    },
+    {
+      "ingredient_id": "eaa2b1dd-7d10-5e89-af49-e3fb502a8574",
+      "normalized_name": "2 milk or almond milk"
+    },
+    {
+      "ingredient_id": "ead60fde-8034-5b71-b753-a5cb7a966246",
+      "normalized_name": "mint or other herb"
+    },
+    {
+      "ingredient_id": "eaf5e74d-4866-5a7b-b44e-845940a48afb",
+      "normalized_name": "chopped fresh basil or flat-leaf parsley"
+    },
+    {
+      "ingredient_id": "eafbddc2-321f-5218-86bb-c2d5e6a171f3",
+      "normalized_name": "spinach leaves or several fresh basil leaf"
+    },
+    {
+      "ingredient_id": "eafff97c-9775-5368-8ba8-3a33b2701f2d",
+      "normalized_name": "sea salt or kosher salt rounded 1 1/2 teaspoon"
+    },
+    {
+      "ingredient_id": "eb4fc613-4059-5dab-8dc3-5f039d2d1268",
+      "normalized_name": "vanilla ice cream and/or pineapple sherbert"
+    },
+    {
+      "ingredient_id": "eb536b9c-a582-53b4-8891-34b9926557fe",
+      "normalized_name": "poblano or other green chili pepper"
+    },
+    {
+      "ingredient_id": "ebcb6e94-f720-5c04-bb00-4ec1cf4e1ffe",
+      "normalized_name": "chicken or regular taco seasoning mix"
+    },
+    {
+      "ingredient_id": "ec80d700-ab31-57f7-a185-f1cf7ee3686d",
+      "normalized_name": "store-bought lemon curd such as bonne maman or mackay"
+    },
+    {
+      "ingredient_id": "ecd9f4bf-dc45-5086-97f6-2ad50841f0fa",
+      "normalized_name": "linguine or fettuccine pasta"
+    },
+    {
+      "ingredient_id": "ece7f050-6b51-5e26-8197-100280219f8e",
+      "normalized_name": "chopped cilantro or other garnish"
+    },
+    {
+      "ingredient_id": "ed154552-ad2d-5f38-abe0-8374a960031a",
+      "normalized_name": "bananas ripe or very ripe work"
+    },
+    {
+      "ingredient_id": "ed1f5b09-f214-5f86-9f80-73072acf7198",
+      "normalized_name": "unsweetened almond milk or milk of your choice"
+    },
+    {
+      "ingredient_id": "eda94b7a-4a84-5eae-bcac-3824645a8b61",
+      "normalized_name": "pkg refrigerated pizza dough or use a 7 oz purchased rectangle flatbread and skip ahead to step 2"
+    },
+    {
+      "ingredient_id": "edbc048f-f8a8-5d00-be53-98044b289a8c",
+      "normalized_name": "grated monterey jack or cheddar cheese"
+    },
+    {
+      "ingredient_id": "ee3dfc67-0060-5634-8ebe-74167985351b",
+      "normalized_name": "agave syrup or honey"
+    },
+    {
+      "ingredient_id": "ee4c633f-a25b-5ba3-b6b1-0b5753f91a1b",
+      "normalized_name": "gochujang or harissa paste"
+    },
+    {
+      "ingredient_id": "ee839b91-aa29-50f8-9be4-18e25bb49d52",
+      "normalized_name": "yukon gold potatoes or other waxy potato"
+    },
+    {
+      "ingredient_id": "ef52e2f1-13aa-5bb6-9253-012549fc5fc8",
+      "normalized_name": "tasso or ham steak"
+    },
+    {
+      "ingredient_id": "ef82031b-0cea-5d0c-b7a5-f065b8ddd327",
+      "normalized_name": "walnut halves and piece"
+    },
+    {
+      "ingredient_id": "ef9c01f9-8187-59d1-8d05-50fa4c170fea",
+      "normalized_name": "pork loin or pork butt/shoulder"
+    },
+    {
+      "ingredient_id": "efa7fb88-5682-5b96-ae1e-9a299651c8f3",
+      "normalized_name": "better than bouillon ham or chicken flavor"
+    },
+    {
+      "ingredient_id": "f0a9418d-83dd-5007-9256-fe51a70c125b",
+      "normalized_name": "teriyaki marinade and sauce such as soy vey brand"
+    },
+    {
+      "ingredient_id": "f120bfa9-5036-5c8f-9c6c-dd2539492e9f",
+      "normalized_name": "boursin garlic and herb gournay cheese"
+    },
+    {
+      "ingredient_id": "f12bff5f-7737-5b78-993b-3dab1d72b2ea",
+      "normalized_name": "wheat and barley nugget cereal such as grape-nut"
+    },
+    {
+      "ingredient_id": "f1463deb-4def-57ea-8e1f-c44cd9a2c07a",
+      "normalized_name": "ranch or jalapeno ranch dressing"
+    },
+    {
+      "ingredient_id": "f158200a-ab80-5824-ab48-43abb8ad99e4",
+      "normalized_name": "campbells condensed cream of mushroom soup regular or 25 lower sodium"
+    },
+    {
+      "ingredient_id": "f1b64866-02e9-5779-9c0d-0febb8179f65",
+      "normalized_name": "bread boule or loaf"
+    },
+    {
+      "ingredient_id": "f1dca639-c02b-5a44-b0ac-cb93323b3902",
+      "normalized_name": "cooked jasmine or sticky rice"
+    },
+    {
+      "ingredient_id": "f2d62a27-79a2-5734-a3fe-5a74105e3bfe",
+      "normalized_name": "vanilla extract or 1/2 teaspoon vanilla bean paste"
+    },
+    {
+      "ingredient_id": "f342a919-02a9-5a8c-8434-e09198033290",
+      "normalized_name": "chopped green onions and/or cilantro"
+    },
+    {
+      "ingredient_id": "f35ea0cb-f5b5-5b03-9fda-61067c9e82d5",
+      "normalized_name": "yellow or dijon mustard"
+    },
+    {
+      "ingredient_id": "f3d48bd9-a2c1-544e-a621-c702543b0b16",
+      "normalized_name": "graham crackers about 13 crackers or 1 1/2 cups graham cracker crumb"
+    },
+    {
+      "ingredient_id": "f4256740-3025-5230-9217-b4eadc64f276",
+      "normalized_name": "chili-lime seasoning or chili powder"
+    },
+    {
+      "ingredient_id": "f493f5c9-c219-5414-b8f4-e55c87cc7415",
+      "normalized_name": "shredded cheddar and swiss cheese mixture"
+    },
+    {
+      "ingredient_id": "f4a876e7-7cde-5e13-832e-e5e5f75d4f31",
+      "normalized_name": "pecan halves or piece"
+    },
+    {
+      "ingredient_id": "f5566f50-c34b-5743-a1ae-c65ec90b6e5c",
+      "normalized_name": "skim or 1 milk"
+    },
+    {
+      "ingredient_id": "f56f1ee9-cb03-53b4-9051-731e7a0a17a5",
+      "normalized_name": "chopped fresh basil or 1 teaspoon dried basil"
+    },
+    {
+      "ingredient_id": "f5a10bf0-c480-5e3b-a338-57451c3eae7e",
+      "normalized_name": "boston bibb or butter lettuce leaf"
+    },
+    {
+      "ingredient_id": "f5a1e707-d042-5915-8526-10523c19e02f",
+      "normalized_name": "neutral oil such as vegetable or canola"
+    },
+    {
+      "ingredient_id": "f68acfc3-b47c-5254-8195-3077a683b292",
+      "normalized_name": "salt or sugar for rimming glass"
+    },
+    {
+      "ingredient_id": "f7c472bd-9b8d-5831-bc80-5c1b7f824853",
+      "normalized_name": "creme fraiche or sour cream"
+    },
+    {
+      "ingredient_id": "f82c7413-c9aa-500e-a371-37619a591cbe",
+      "normalized_name": "hot cooked basmati rice and/or naan"
+    },
+    {
+      "ingredient_id": "f85f56f6-af43-5a05-9299-5aca08a716ed",
+      "normalized_name": "unsweetened almond milk or milk of choice"
+    },
+    {
+      "ingredient_id": "f8a622fe-106c-5ac2-a1e0-1e9ebab68044",
+      "normalized_name": "chinese barbequed or roasted pork"
+    },
+    {
+      "ingredient_id": "f8c4f35e-9ce1-5d49-9393-ae419c9925a0",
+      "normalized_name": "hot sauce or cayenne pepper"
+    },
+    {
+      "ingredient_id": "f9856621-b930-5c1c-a2a6-de6dcd2baf2d",
+      "normalized_name": "vegetable broth or water"
+    },
+    {
+      "ingredient_id": "f9a703e0-a6a6-5a6d-99e3-e99f163062f2",
+      "normalized_name": "leftover chicken or other cooked protein"
+    },
+    {
+      "ingredient_id": "f9f0534e-0fa7-5a06-aba7-df36fbdd90e2",
+      "normalized_name": "seasoned or regular breadcrumb"
+    },
+    {
+      "ingredient_id": "f9f790ac-cbd5-52ff-b46c-2ada0d80643c",
+      "normalized_name": "ground turkey or ground beef"
+    },
+    {
+      "ingredient_id": "fa1f4941-aac7-5d1a-8a24-bf03a9f1a263",
+      "normalized_name": "shredded swiss or provolone cheese"
+    },
+    {
+      "ingredient_id": "fa8d327c-aa6c-5417-804e-a2beab03dc30",
+      "normalized_name": "tabasco or another strong hot sauce"
+    },
+    {
+      "ingredient_id": "faae70b9-bef0-5ca6-991d-6a01ae569f09",
+      "normalized_name": "sweetened whipped cream or vanilla ice cream"
+    },
+    {
+      "ingredient_id": "fab28d69-f14a-56dd-9f25-0626097c4732",
+      "normalized_name": "sesame or poppy seeds"
+    },
+    {
+      "ingredient_id": "fad7c86d-7c6b-535c-9bb3-95fd22c9438c",
+      "normalized_name": "marsala wine or rum"
+    },
+    {
+      "ingredient_id": "fada3441-b3aa-58f6-ac7f-a483957e5ffd",
+      "normalized_name": "shredded sharp cheddar or mexican blend cheese"
+    },
+    {
+      "ingredient_id": "fb402d27-3b3a-5008-ac51-cad8aed325d7",
+      "normalized_name": "sardines in olive oil or in olive oil with lemon"
+    },
+    {
+      "ingredient_id": "fb488e77-e494-5e22-b356-59fc11eb7aac",
+      "normalized_name": "ranch or creamy italian salad dressing for dipping"
+    },
+    {
+      "ingredient_id": "fb5b0a89-cdbc-5eaf-ba45-48f205face6a",
+      "normalized_name": "jam or fruit preserve"
+    },
+    {
+      "ingredient_id": "fbfe3d98-89b7-5b3a-b474-7bc556c2c7f6",
+      "normalized_name": "kosher salt or 1/2 teaspoon iodized salt"
+    },
+    {
+      "ingredient_id": "fc09b7eb-1eec-5140-8dd0-460e92713e44",
+      "normalized_name": "oregano dried leaves or ground"
+    },
+    {
+      "ingredient_id": "fc0fe824-c83d-518b-a18c-c1275fbfec9f",
+      "normalized_name": "fruit pectin such as sure-jell pectin light for less or no sugar"
+    },
+    {
+      "ingredient_id": "fc68ac31-0456-515e-867f-5511521a50fd",
+      "normalized_name": "sweet peppers and onion"
+    },
+    {
+      "ingredient_id": "fc938309-6a30-5f30-a2e1-3fa894662cf5",
+      "normalized_name": "slices cheddar or colby jack"
+    },
+    {
+      "ingredient_id": "fca96948-8bb7-54d6-bce5-7ee390c6df52",
+      "normalized_name": "matchstick or grated carrot"
+    },
+    {
+      "ingredient_id": "fd458250-0f54-5fe4-bfb9-aa96cf21ea37",
+      "normalized_name": "ancho chili powder or regular chili powder"
+    },
+    {
+      "ingredient_id": "fd4b71b5-6a16-5e0f-8f5d-4c09057eca7c",
+      "normalized_name": "citrus wheel or twist"
+    },
+    {
+      "ingredient_id": "fd513ece-bff8-513b-9b7f-55c18c538be3",
+      "normalized_name": "sturdy cookie pop or lollipop stick"
+    },
+    {
+      "ingredient_id": "fd7dcb4c-10aa-554f-94bf-770d4b673b2d",
+      "normalized_name": "flour or corn tortilla"
+    },
+    {
+      "ingredient_id": "fda92d64-9d85-5565-b83f-1b5a8b8e9046",
+      "normalized_name": "mirin or white wine"
+    },
+    {
+      "ingredient_id": "fdb9e89d-441a-5505-a39e-b86e69184713",
+      "normalized_name": "chopped fresh parsley or fresh thyme"
+    },
+    {
+      "ingredient_id": "fe808d35-f355-5d29-a0c9-1bb2cf1017cf",
+      "normalized_name": "cremini mushrooms or baby bella"
+    },
+    {
+      "ingredient_id": "feec605e-ac64-5d03-8b9c-833d50e41350",
+      "normalized_name": "dried cherries or raisin"
+    },
+    {
+      "ingredient_id": "ff2754fa-9a58-5bd4-a0f9-ed7806c6f4ea",
+      "normalized_name": "swanson chicken broth or swanson certified organic chicken broth or swanson natural goodness chicken broth"
+    }
+  ]
+}

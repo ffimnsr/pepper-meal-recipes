@@ -15,6 +15,15 @@ SPEC.loader.exec_module(generate_catalog)
 
 
 class GenerateCatalogIngredientTests(TestCase):
+    def setUp(self) -> None:
+        # Canonicalization consults the repo's persisted ignore list; tests
+        # must not depend on the current review state.
+        self._original_ignored = generate_catalog.IGNORED_INGREDIENT_IDS
+        generate_catalog.IGNORED_INGREDIENT_IDS = set()
+
+    def tearDown(self) -> None:
+        generate_catalog.IGNORED_INGREDIENT_IDS = self._original_ignored
+
     def test_preserves_existing_structured_fields(self) -> None:
         ingredient = {
             "ingredient_id": "unused",

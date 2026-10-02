@@ -459,3 +459,102 @@ class ResolveIngredientReviewTests(TestCase):
 
             self.assertEqual(stats.recipe_files_updated, 0)
             self.assertTrue(any("recipe file not found" in message for message in messages))
+
+    # ── batch mode ────────────────────────────────────────────────────────────
+
+    def _batch_run(
+        self, root: Path, decisions: dict, *, dry_run: bool = False
+    ) -> tuple[resolve.ResolveStats, list[str]]:
+        indexes_dir = root / "indexes"
+        indexes_dir.mkdir()
+        recipes_dir = root / "recipes"
+        recipes_dir.mkdir()
+        write_json(root / resolve.INGREDIENT_REVIEW_FILE.name, {"entries": [dict(REVIEW_ENTRY)]})
+        write_json(indexes_dir / "ingredients.index.json", {"ingredients": []})
+        write_json(root / "decisions.json", decisions)
+        write_json(recipes_dir / "recipe-a.json", recipe_payload())
+
+        messages: list[str] = []
+        with mock.patch.object(resolve, "INDEXES_DIR", indexes_dir), mock.patch.object(
+            resolve, "RECIPES_DIR", recipes_dir
+        ), mock.patch.object(resolve, "REPO_ROOT", root), mock.patch.object(
+            resolve, "INGREDIENT_REVIEW_FILE", root / resolve.INGREDIENT_REVIEW_FILE.name
+        ):
+            by_entry, by_name, _pre_ignore = resolve.load_batch_decisions(root / "decisions.json")
+            stats = resolve.run_resolve(
+                batch_decisions=(by_entry, by_name, []),
+                dry_run=dry_run,
+                output=messages.append,
+            )
+        return stats, messages
+
+    def test_batch_split_by_name(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            stats, _ = self._batch_run(
+                root,
+                {
+                    "by_name": {
+                        "mirin or cooking wine": {"action": "split", "names": ["mirin", "cooking wine"]}
+                    }
+                },
+            )
+            self.assertEqual(stats.ingredient_rows_updated, 1)
+            recipe = json.loads((root / "recipes" / "recipe-a.json").read_text(encoding="utf-8"))
+            names = [row["name"] for row in recipe["ingredients"]]
+            self.assertIn("mirin", names)
+            self.assertIn("cooking wine", names)
+            self.assertNotIn("Mirin or cooking wine", names)
+            # A completed run clears the resume checkpoint (it only persists
+            # when a run is interrupted).
+            self.assertFalse((root / resolve.CHECKPOINT_FILE_NAME).exists())
+
+    def test_batch_rename_by_entry(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            stats, _ = self._batch_run(
+                root,
+                {"by_entry": [{"recipe_id": "recipe-a", "position": 3, "action": "rename", "name": "cooking wine"}]},
+            )
+            self.assertEqual(stats.ingredient_rows_updated, 1)
+            recipe = json.loads((root / "recipes" / "recipe-a.json").read_text(encoding="utf-8"))
+            row = recipe["ingredients"][2]
+            self.assertEqual(row["name"], "cooking wine")
+            self.assertEqual(row["normalized_name"], "cooking wine")
+
+    def test_batch_keep_leaves_queue_untouched(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            stats, _ = self._batch_run(root, {"by_name": {"mirin or cooking wine": {"action": "keep"}}})
+            self.assertEqual(stats.entries_resolved, 0)
+            recipe = json.loads((root / "recipes" / "recipe-a.json").read_text(encoding="utf-8"))
+            self.assertEqual(recipe["ingredients"][2]["name"], "Mirin or cooking wine")
+            self.assertFalse((root / resolve.CHECKPOINT_FILE_NAME).exists())
+
+    def test_batch_ignore_persists_ignore_list(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            stats, _ = self._batch_run(root, {"by_name": {"mirin or cooking wine": {"action": "ignore"}}})
+            self.assertEqual(stats.ingredients_ignored, 1)
+            payload = json.loads((root / resolve.IGNORE_FILE_NAME).read_text(encoding="utf-8"))
+            self.assertEqual(
+                [item["normalized_name"] for item in payload["ignored"]], ["mirin or cooking wine"]
+            )
+            recipe = json.loads((root / "recipes" / "recipe-a.json").read_text(encoding="utf-8"))
+            self.assertEqual(recipe["ingredients"][2]["name"], "Mirin or cooking wine")
+
+    def test_batch_dry_run_writes_nothing(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            decisions = {
+                "by_name": {
+                    "mirin or cooking wine": {"action": "split", "names": ["mirin", "cooking wine"]}
+                }
+            }
+            stats, _ = self._batch_run(root, decisions, dry_run=True)
+            self.assertEqual(stats.ingredient_rows_updated, 1)
+            # The recipe file, checkpoint, and ignore list are untouched.
+            recipe = json.loads((root / "recipes" / "recipe-a.json").read_text(encoding="utf-8"))
+            self.assertEqual(recipe["ingredients"][2]["name"], "Mirin or cooking wine")
+            self.assertFalse((root / resolve.CHECKPOINT_FILE_NAME).exists())
+            self.assertFalse((root / resolve.IGNORE_FILE_NAME).exists())

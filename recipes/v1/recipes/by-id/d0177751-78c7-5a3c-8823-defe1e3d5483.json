@@ -72,11 +72,11 @@
       "position": 1
     },
     {
-      "ingredient_id": "fc66ed74-9bb2-50e8-8b36-036273ee0dc6",
-      "name": "oz.) can crushed pineapple in syrup",
-      "normalized_name": "oz can crushed pineapple in syrup",
-      "quantity": "1 (20",
-      "unit": "pieces",
+      "ingredient_id": "ce53441e-fcf9-5a55-8185-877d69fa72c9",
+      "name": "crushed pineapple in syrup",
+      "normalized_name": "crushed pineapple in syrup",
+      "quantity": "1 20",
+      "unit": "oz",
       "preparation": null,
       "position": 2
     },
@@ -99,9 +99,9 @@
       "position": 4
     },
     {
-      "ingredient_id": "448bfd31-a6cb-5c63-a81a-2245d928d9cf",
-      "name": "oz.) unsalted butter",
-      "normalized_name": "oz unsalted butter",
+      "ingredient_id": "e7c6e2c5-4ab1-5982-a161-bfd0ad97c9ff",
+      "name": "unsalted butter",
+      "normalized_name": "unsalted butter",
       "quantity": "6",
       "unit": "tbsp",
       "preparation": null,
@@ -126,11 +126,11 @@
       "position": 7
     },
     {
-      "ingredient_id": "4acc1a3e-14ec-5cae-99e1-b6c581ef0909",
-      "name": "oz.) box yellow cake mix (such as pillsbury)",
-      "normalized_name": "oz box yellow cake mix",
-      "quantity": "1 (15.25",
-      "unit": "pieces",
+      "ingredient_id": "8e7c9e4d-b943-5c91-8745-830926a8b404",
+      "name": "yellow cake mix such as pillsbury",
+      "normalized_name": "yellow cake mix such as pillsbury",
+      "quantity": "1 15.25",
+      "unit": "oz",
       "preparation": null,
       "position": 8
     },
@@ -144,12 +144,12 @@
       "position": 9
     },
     {
-      "ingredient_id": "8f2d2e03-abaf-5b19-b1dd-12adee6fa8f3",
-      "name": "oil and eggs called for one cake mix box",
-      "normalized_name": "oil and eggs called for one cake mix box",
+      "ingredient_id": "44309b83-fcc6-5038-87d3-a0d88c2f1721",
+      "name": "oil and eggs",
+      "normalized_name": "oil and eggs",
       "quantity": null,
       "unit": "pieces",
-      "preparation": null,
+      "preparation": "as called for on the cake mix box",
       "position": 10
     },
     {
@@ -162,13 +162,22 @@
       "position": 11
     },
     {
-      "ingredient_id": "fbd1394a-5287-5ad8-8d47-5211410ca7be",
-      "name": "maraschino cherries and chopped toasted pecans (optional)",
-      "normalized_name": "maraschino cherries and chopped toasted pecans",
+      "ingredient_id": "18346ded-b0e3-586d-aa22-0528f5361f50",
+      "name": "maraschino cherries",
+      "normalized_name": "maraschino cherries",
       "quantity": null,
-      "unit": "pieces",
-      "preparation": null,
+      "unit": null,
+      "preparation": "optional",
       "position": 12
+    },
+    {
+      "ingredient_id": "d4008460-7a56-5287-b80b-fba75663021a",
+      "name": "chopped toasted pecans",
+      "normalized_name": "chopped toasted pecans",
+      "quantity": null,
+      "unit": null,
+      "preparation": "optional",
+      "position": 13
     }
   ],
   "categories": [
@@ -274,6 +283,6 @@
     "url": "https://www.allrecipes.com/crushed-pineapple-upside-down-cake-recipe-8711613"
   },
   "public": true,
-  "updated_at": 1727535600,
+  "updated_at": 1790949860,
   "revision": 1
 }

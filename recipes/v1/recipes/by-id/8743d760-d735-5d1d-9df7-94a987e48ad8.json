@@ -59,11 +59,11 @@
   "equipment": [],
   "ingredients": [
     {
-      "ingredient_id": "9ec6dcc4-6a9f-5b3c-a7b7-b4c4f558adbb",
-      "name": "ounce) jar salsa verde",
-      "normalized_name": "ounce jar salsa verde",
-      "quantity": "1 (16",
-      "unit": "pieces",
+      "ingredient_id": "0c9c3398-83ba-5644-8515-b14f25017197",
+      "name": "salsa verde",
+      "normalized_name": "salsa verde",
+      "quantity": "16",
+      "unit": "ounce",
       "preparation": null,
       "position": 1
     },
@@ -77,10 +77,10 @@
       "position": 2
     },
     {
-      "ingredient_id": "8304bf0c-22ee-5e58-8b42-7fbe25e37c44",
-      "name": "inch) corn tortillas",
-      "normalized_name": "inch corn tortillas",
-      "quantity": "8 (6",
+      "ingredient_id": "404d8301-cf8f-53f8-94c3-2392980a9b7d",
+      "name": "corn tortilla",
+      "normalized_name": "corn tortilla",
+      "quantity": "8",
       "unit": "pieces",
       "preparation": null,
       "position": 3
@@ -104,13 +104,22 @@
       "position": 5
     },
     {
-      "ingredient_id": "6bf31172-5b2b-5b16-9be7-437484e424d2",
-      "name": "crumbled oaxaca or shredded monterrey jack cheese",
-      "normalized_name": "crumbled oaxaca or shredded monterrey jack cheese",
-      "quantity": "1",
-      "unit": "cup",
+      "ingredient_id": "6dde6a02-c095-501e-8442-f43b36c97638",
+      "name": "crumbled oaxaca",
+      "normalized_name": "crumbled oaxaca",
+      "quantity": null,
+      "unit": null,
       "preparation": "divided",
       "position": 6
+    },
+    {
+      "ingredient_id": "188bf98c-5e05-5e22-a7c3-d021a3e42189",
+      "name": "shredded monterrey jack cheese",
+      "normalized_name": "shredded monterrey jack cheese",
+      "quantity": null,
+      "unit": null,
+      "preparation": "divided",
+      "position": 7
     },
     {
       "ingredient_id": "2a756a13-d9a1-5257-b678-486a4ab2ac3d",
@@ -119,16 +128,25 @@
       "quantity": "1/2",
       "unit": "cup",
       "preparation": "or to taste",
-      "position": 7
+      "position": 8
     },
     {
-      "ingredient_id": "25e429ba-6482-59e5-ba17-6adf85bf29b7",
-      "name": "fresh cilantro sprigs and lime wedges for optional garnish",
-      "normalized_name": "fresh cilantro sprigs and lime wedges for optional garnish",
+      "ingredient_id": "812f5416-a4b3-589a-a349-44ab5a5ab682",
+      "name": "cilantro sprigs",
+      "normalized_name": "cilantro sprigs",
       "quantity": null,
-      "unit": "pieces",
-      "preparation": null,
-      "position": 8
+      "unit": null,
+      "preparation": "for garnish",
+      "position": 9
+    },
+    {
+      "ingredient_id": "6f62eca3-a808-5055-b3cd-c3cd0b569c16",
+      "name": "lime wedges",
+      "normalized_name": "lime wedges",
+      "quantity": null,
+      "unit": null,
+      "preparation": "for garnish",
+      "position": 10
     }
   ],
   "categories": [
@@ -221,6 +239,6 @@
     "url": "https://www.allrecipes.com/rotisserie-chicken-enchiladas-recipe-11714107"
   },
   "public": true,
-  "updated_at": 1767792927,
+  "updated_at": 1790949858,
   "revision": 1
 }

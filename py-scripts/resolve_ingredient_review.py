@@ -1,6 +1,33 @@
 #!/usr/bin/env python3
 
-"""Interactively resolve .ingredient-review.json entries by editing the underlying recipe rows."""
+"""Resolve .ingredient-review.json entries into the underlying recipe rows.
+
+Modes:
+    python3 py-scripts/resolve_ingredient_review.py              interactive
+    python3 py-scripts/resolve_ingredient_review.py --auto        apply split/excluded entries without prompting
+    python3 py-scripts/resolve_ingredient_review.py --batch decisions.json [--dry-run]
+
+--batch applies a decisions file non-interactively. Example file::
+
+    {
+      "by_name": {
+        "frozen peas and carrot": {"action": "split", "names": ["frozen peas", "frozen carrot"]},
+        "butter or margarine":    {"action": "ignore"},
+        "chicken broth or stock": {"action": "rename", "name": "broth"}
+      },
+      "by_entry": [
+        {"recipe_id": "...", "position": 2, "action": "rename", "name": "pears"}
+      ]
+    }
+
+``by_name`` keys are normalized ingredient names and match every queue
+entry with that cleaned name; ``by_entry`` items override per row.
+Actions: split (with "names"), rename (with "name" and optional
+"preparation"), ignore, exclude, keep (leave untouched, stays in the
+queue). ``pre_ignore`` lists names to persist to the ignore list even
+when they have no queue entries (for renames that will be flagged again
+next generation).
+"""
 
 from __future__ import annotations
 
@@ -8,9 +35,11 @@ import importlib.util
 import json
 import re
 import sys
+import argparse
 from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Any
 
 try:
     import readline
@@ -644,6 +673,168 @@ def resolve_entry(
         # invalid name: stay in the menu
 
 
+def split_row_into(recipe: dict, row_index: int, parts: list[str]) -> bool:
+    """Replace one ingredient row with several rows (quantity/unit dropped,
+    preparation kept); returns whether the recipe changed."""
+    rows = recipe.get("ingredients", [])
+    preparation = rows[row_index].get("preparation")
+    new_rows = [
+        {
+            "ingredient_id": stable_uuid(INGREDIENT_NAMESPACE, normalize_name(part)),
+            "name": part,
+            "normalized_name": normalize_name(part),
+            "quantity": None,
+            "unit": None,
+            "preparation": preparation,
+        }
+        for part in parts
+    ]
+    rows[row_index : row_index + 1] = new_rows
+    renumber_ingredient_positions(recipe)
+    return True
+
+
+def auto_apply_entry(
+    recipe: dict,
+    row_index: int | None,
+    row: dict | None,
+    entry: dict,
+) -> bool:
+    """Apply a review entry whose resolution is already decided by the
+    catalog generator, without prompting:
+
+    * ``compound_split`` rows are replaced by their recorded replacements;
+    * ``excluded_non_ingredient`` rows are removed.
+
+    Returns whether the recipe changed.
+    """
+    issue_types = entry.get("issue_types", [])
+    if row_index is None or row is None:
+        return False
+
+    if "compound_split" in issue_types:
+        replacements = entry.get("replacements")
+        if not isinstance(replacements, list) or not replacements:
+            return False
+        parts = [part.strip() for part in replacements if isinstance(part, str) and normalize_name(part)]
+        if len(parts) < 2:
+            return False
+        return split_row_into(recipe, row_index, parts)
+
+    if "excluded_non_ingredient" in issue_types:
+        recipe.get("ingredients", []).pop(row_index)
+        renumber_ingredient_positions(recipe)
+        return True
+
+    return False
+
+
+BatchDecision = dict[str, Any]
+
+
+def load_batch_decisions(
+    path: Path,
+) -> tuple[dict[tuple[str, int], BatchDecision], dict[str, BatchDecision], list[str]]:
+    """Load and validate a batch decisions file; returns (by_entry, by_name, pre_ignore)."""
+    payload = load_json(path)
+    if not isinstance(payload, dict):
+        raise SystemExit(f"invalid batch decisions file: {path}")
+
+    by_entry: dict[tuple[str, int], BatchDecision] = {}
+    for item in payload.get("by_entry", []) or []:
+        if not isinstance(item, dict):
+            continue
+        recipe_id = item.get("recipe_id")
+        position = item.get("position")
+        if isinstance(recipe_id, str) and isinstance(position, int):
+            by_entry[(recipe_id, position)] = item
+
+    by_name: dict[str, BatchDecision] = {}
+    for key, decision in (payload.get("by_name", {}) or {}).items():
+        if not isinstance(key, str) or not isinstance(decision, dict):
+            continue
+        normalized = normalize_name(key)
+        if normalized:
+            by_name[normalized] = decision
+
+    pre_ignore = [
+        normalize_name(name)
+        for name in (payload.get("pre_ignore", []) or [])
+        if isinstance(name, str) and normalize_name(name)
+    ]
+    return by_entry, by_name, pre_ignore
+
+
+def batch_decision_for(
+    entry: dict,
+    by_entry: dict[tuple[str, int], BatchDecision],
+    by_name: dict[str, BatchDecision],
+) -> BatchDecision | None:
+    """Per-row decisions win over per-name decisions."""
+    direct = by_entry.get((entry.get("recipe_id"), entry.get("position")))
+    if direct is not None:
+        return direct
+    cleaned = entry.get("cleaned_name")
+    if isinstance(cleaned, str) and cleaned:
+        normalized = normalize_name(cleaned)
+        if normalized in by_name:
+            return by_name[normalized]
+    return None
+
+
+def apply_batch_decision(
+    recipe: dict,
+    row_index: int | None,
+    row: dict | None,
+    decision: BatchDecision,
+) -> tuple[bool, str]:
+    """Apply one batch decision; returns (changed, note).
+
+    ``ignore`` and ``keep`` do not edit the row; ``ignore`` is handled by
+    the caller (it persists into the ignore list).
+    """
+    action = str(decision.get("action", "") or "")
+    if action == "split":
+        if row_index is None or row is None:
+            return False, "row not found"
+        parts = [
+            str(part).strip()
+            for part in decision.get("names", [])
+            if isinstance(part, str) and normalize_name(part)
+        ]
+        if len(parts) < 2:
+            return False, "split needs at least 2 valid names"
+        split_row_into(recipe, row_index, parts)
+        preparation = decision.get("preparation")
+        if preparation is not None:
+            for row_part in recipe.get("ingredients", [])[row_index : row_index + len(parts)]:
+                row_part["preparation"] = str(preparation).strip() or None
+        return True, "split"
+    if action == "rename":
+        if row is None:
+            return False, "row not found"
+        name = decision.get("name")
+        if not isinstance(name, str) or not normalize_name(name):
+            return False, "rename needs a valid name"
+        if update_ingredient_name(row, name):
+            preparation = decision.get("preparation")
+            if preparation is not None:
+                row["preparation"] = str(preparation).strip() or None
+            return True, "rename"
+        return False, "unchanged"
+    if action == "exclude":
+        if row_index is None:
+            return False, "row not found"
+        recipe.get("ingredients", []).pop(row_index)
+        renumber_ingredient_positions(recipe)
+        return True, "exclude"
+    if action == "ignore":
+        return False, "ignore"
+    if action == "keep":
+        return False, "keep"
+    return False, f"unknown action {action!r}"
+
+
 def order_review_entries(entries: list[dict]) -> list[dict]:
     """Walk each recipe's entries in descending position so earlier edits do not shift later rows."""
     grouped: dict[str, list[dict]] = {}
@@ -663,7 +854,14 @@ def order_review_entries(entries: list[dict]) -> list[dict]:
     return ordered
 
 
-def run_resolve(*, input_fn: Input = input, output: Output = print) -> ResolveStats:
+def run_resolve(
+    *,
+    auto: bool = False,
+    batch_decisions: tuple[dict[tuple[str, int], BatchDecision], dict[str, BatchDecision], list[str]] | None = None,
+    dry_run: bool = False,
+    input_fn: Input = input,
+    output: Output = print,
+) -> ResolveStats:
     entries = load_ingredient_review()
     index_entries = load_ingredient_index()
     index_by_id = {}
@@ -705,6 +903,72 @@ def run_resolve(*, input_fn: Input = input, output: Output = print) -> ResolveSt
 
         recipe = load_json(recipe_path)
         row_index, row = find_ingredient_row(recipe, entry)
+
+        if batch_decisions is not None:
+            decision = batch_decision_for(entry, batch_decisions[0], batch_decisions[1])
+            if decision is not None:
+                action = str(decision.get("action", "") or "")
+                if action == "ignore":
+                    identity = ignored_ingredient_identity(entry, row)
+                    if identity is None:
+                        output(f"\n[{number}/{len(ordered)}] {recipe_name}: cannot ignore (no name); skipping.")
+                        index += 1
+                        continue
+                    ingredient_id, normalized_name = identity
+                    save_ignored_ingredient(ingredient_id, normalized_name)
+                    total.ingredients_ignored += 1
+                    total.entries_resolved += 1
+                    if key is not None and not dry_run:
+                        resolved_keys.add(key)
+                        save_review_checkpoint(resolved_keys)
+                    index += 1
+                    continue
+                if action == "keep":
+                    index += 1
+                    continue
+                changed, note = apply_batch_decision(recipe, row_index, row, decision)
+                if changed:
+                    if not dry_run:
+                        dump_json(recipe_path, recipe)
+                    total.recipe_files_updated += 1
+                    total.ingredient_rows_updated += 1
+                    total.entries_resolved += 1
+                    if key is not None and not dry_run:
+                        resolved_keys.add(key)
+                        save_review_checkpoint(resolved_keys)
+                else:
+                    output(f"\n[{number}/{len(ordered)}] {recipe_name}: batch action skipped ({note}).")
+                index += 1
+                continue
+            # No batch decision: let --auto apply generator-decided entries
+            # (compound splits / exclusions); the rest stays in the queue.
+            if auto and auto_apply_entry(recipe, row_index, row, entry):
+                if not dry_run:
+                    dump_json(recipe_path, recipe)
+                total.recipe_files_updated += 1
+                total.ingredient_rows_updated += 1
+                total.entries_resolved += 1
+                if key is not None and not dry_run:
+                    resolved_keys.add(key)
+                    save_review_checkpoint(resolved_keys)
+            index += 1
+            continue
+
+        if auto:
+            if auto_apply_entry(recipe, row_index, row, entry):
+                if not dry_run:
+                    dump_json(recipe_path, recipe)
+                total.recipe_files_updated += 1
+                total.ingredient_rows_updated += 1
+                total.entries_resolved += 1
+                if key is not None and not dry_run:
+                    resolved_keys.add(key)
+                    save_review_checkpoint(resolved_keys)
+                index += 1
+                continue
+            index += 1
+            continue
+
         recipe_contents = {recipe_path: recipe_path.read_text(encoding="utf-8")}
         try:
             changed, stats = resolve_entry(
@@ -758,12 +1022,54 @@ def run_resolve(*, input_fn: Input = input, output: Output = print) -> ResolveSt
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--auto",
+        action="store_true",
+        help="apply compound split and excluded entries without prompting; "
+        "other entries are skipped and remain in the queue",
+    )
+    parser.add_argument(
+        "--batch",
+        type=Path,
+        help="apply a batch decisions JSON file non-interactively",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="report what would change without writing files or the checkpoint",
+    )
+    args = parser.parse_args()
+
+    batch_decisions = None
+    pre_ignore: list[str] = []
+    if args.batch:
+        by_entry, by_name, pre_ignore = load_batch_decisions(args.batch)
+        batch_decisions = (by_entry, by_name, pre_ignore)
+    if args.batch is None and args.dry_run:
+        parser.error("--dry-run requires --batch")
+
     try:
-        stats = run_resolve()
+        stats = run_resolve(
+            auto=args.auto,
+            batch_decisions=batch_decisions,
+            dry_run=args.dry_run,
+        )
+        if pre_ignore and not args.dry_run:
+            for normalized in pre_ignore:
+                save_ignored_ingredient(stable_uuid(INGREDIENT_NAMESPACE, normalized), normalized)
+            print(f"pre-ignored {len(pre_ignore)} name(s) with no queue entries")
     except KeyboardInterrupt:
         print(f"\nReview interrupted. Resume later; progress is saved in {checkpoint_path()}.")
         return
 
+    if args.dry_run:
+        print(
+            f"DRY RUN — would update {stats.recipe_files_updated} recipe files, "
+            f"{stats.ingredient_rows_updated} ingredient rows, resolve "
+            f"{stats.entries_resolved} entries, ignore {stats.ingredients_ignored} name(s)"
+        )
+        return
     print(
         f"updated {stats.recipe_files_updated} recipe files, {stats.ingredient_rows_updated} ingredient rows, "
         f"resolved {stats.entries_resolved} review entries, "
