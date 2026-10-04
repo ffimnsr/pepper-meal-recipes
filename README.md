@@ -9,6 +9,8 @@ The catalog is published as versioned JSON metadata and per-recipe payloads so m
 ```text
 py-scripts/
   generate_catalog.py
+  build_ingredient_decisions.py
+  dryrun_generate_catalog.py
   merge_ingredients.py
   resolve_ingredient_review.py
 recipes/
@@ -72,6 +74,33 @@ python3 py-scripts/resolve_ingredient_review.py
 ```
 
 The script walks each review entry with its recipe, position, original text, and current row, and shows what the entry means for `ingredients.index.json`. Enter a new ingredient name to rename the row (Tab completes indexed names, and the script reports whether the name merges into an existing indexed ingredient or creates a new one), or use `s` to split the row into several ingredients (e.g. `mirin|cooking wine`), `e` to remove a non-ingredient row from the recipe, `o` to edit quantity, unit, or preparation, `i` to ignore the ingredient name everywhere (index it as-is and stop flagging it for review; the verdict is persisted by UUID in the root-level `.ingredient-ignored.json`, which `generate_catalog.py` reads so the name is indexed normally without a review entry — remove the entry from that file to un-ignore), `k` to keep the row, `p` to return to the previous entry, and `q` to quit. Rows are edited in `recipes/v1/recipes/by-id/*.json`; entries can only leave the review queue after `python3 py-scripts/generate_catalog.py` regenerates it from the corrected rows. Progress is saved in the root-level `.ingredient-review-state.json` and cleared when the review is completed, so an interrupted or quit run can be resumed with the same command.
+
+### Batch-resolving the review queue
+
+For large queues, resolve entries non-interactively from a generated decisions file:
+
+```bash
+# 1. rebuild the index and the review queue from the current recipe rows (slow)
+python3 py-scripts/generate_catalog.py
+# 2. build the batch decision file (curated rules plus per-row renames derived from the queue)
+python3 py-scripts/build_ingredient_decisions.py
+# 3. preview what the batch would change without writing anything
+python3 py-scripts/resolve_ingredient_review.py --batch ingredient-decisions.json --dry-run
+# 4. apply the batch (--auto also applies safe compound splits and excluded entries)
+python3 py-scripts/resolve_ingredient_review.py --auto --batch ingredient-decisions.json
+# 5. rebuild the index and queue; only still-unresolved entries remain
+python3 py-scripts/generate_catalog.py
+```
+
+Repeat steps 2–5 until the queue is empty. Resolution progress is tracked in `.ingredient-review-state.json`, and `.ingredient-review.json` is only ever rewritten by `generate_catalog.py`, so step 5 is what removes resolved entries from view.
+
+`build_ingredient_decisions.py` combines its curated rule tables (e.g. `BY_NAME`, `ROUND_3_RULES`, `LONG_TAIL_RULES`) with renames it derives from the current queue, and writes `ingredient-decisions.json` with:
+
+- `by_name`: rules keyed by normalized ingredient name, applied to every matching queue entry.
+- `by_entry`: `recipe_id` + `position` overrides that take precedence over `by_name`.
+- `pre_ignore`: names persisted to `.ingredient-ignored.json` even when no queue entry currently matches.
+
+Each rule action is one of `split` (with `names`), `rename` (with `name` and optional `preparation`), `ignore` (index the name as-is and stop flagging it), `exclude` (remove the row as a non-ingredient), or `keep` (leave the row untouched; the entry stays in the queue). `--batch` applies only what the file covers; adding `--auto` applies safe compound splits and excluded entries without prompting as well. Use `--dry-run` (requires `--batch`) to print what would change without writing files or the checkpoint. Add new decisions to `build_ingredient_decisions.py` rather than editing `ingredient-decisions.json` directly, since the latter is regenerated on every run. To preview the rebuilt index and queue without running the slow generator, use `python3 py-scripts/dryrun_generate_catalog.py`.
 
 The generator will:
 

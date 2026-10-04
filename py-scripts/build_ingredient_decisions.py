@@ -829,6 +829,40 @@ FINAL_ROUND_RULES: dict[str, dict] = {
     "whipping cream or 8 ounce frozen whipped dessert topping": {"action": "ignore"},
     "2 milk or almond milk": {"action": "ignore"},
     "oil and egg": {"action": "ignore"},
+    # names regenerated after the embedded-measurement pass stripped the
+    # amounts from previously-ignored forms
+    "mixed berry jam or preserve": {"action": "ignore"},
+    "crushed tomatoes or tomato sauce or puree": {"action": "ignore"},
+    "stick or unsalted butter": {"action": "rename", "name": "unsalted butter"},
+    "kosher salt or per pound of meat": {
+        "action": "rename",
+        "name": "kosher salt",
+        "preparation": "1 teaspoon per pound of meat",
+    },
+    "olive oil or use lard for the traditional version": {"action": "ignore"},
+    "fresh- squeezed lemon juice about 8 lemons or 1 can lemonade concentrate": {"action": "ignore"},
+    "fresh- squeezed lemon juice about 8 lemons or lemonade concentrate": {"action": "ignore"},
+    "graham crackers about 13 crackers or graham cracker crumb": {"action": "ignore"},
+    "pkg refrigerated pizza dough or use a purchased rectangle flatbread and skip ahead to step 2": {"action": "ignore"},
+    "vanilla bean paste or vanilla extract maple syrup": {"action": "ignore"},
+    "prepared mashed sweet potatoes with cinnamon and brown sugar or leftover mashed sweet potato casserole": {"action": "ignore"},
+    "pan drippings from roasted chicken or butter": {"action": "ignore"},
+    "tri colored quinoa or rice cooked": {"action": "ignore"},
+    "regular powdered fruit pectin or classic powdered fruit pectin such as ball": {"action": "ignore"},
+    "hibiscus tea bag or dried hibiscus flower": {"action": "ignore"},
+    "shredded colby and monterey jack cheese": {"action": "ignore"},
+    "self-rising flour or all-purpose flour plus 1 baking powder": {"action": "ignore"},
+    "chopped fresh basil or dried basil": {"action": "ignore"},
+    "chopped fresh oregano or dried oregano": {"action": "ignore"},
+    "chopped fresh thyme or dried thyme": {"action": "ignore"},
+    "dill or dried": {"action": "ignore"},
+    "thyme or dried thyme": {"action": "ignore"},
+    "sage or dried sage": {"action": "ignore"},
+    "garlic or garlic powder": {"action": "ignore"},
+    "garlic powder or garlic paste": {"action": "ignore"},
+    "mascarpone or cream cheese": {"action": "ignore"},
+    "stick or unsalted butter": {"action": "rename", "name": "unsalted butter"},
+    "bag frozen artichokes or drained": {"action": "rename", "name": "frozen artichokes", "preparation": "drained"},
 }
 
 # Ro*Tel-style diced tomatoes and green chiles: the canonicalizer folds the
@@ -882,6 +916,23 @@ CHEESE_CHOICE_RE = re.compile(r"(?=.*\bcheese\b)(?=.*\bor\b)", re.IGNORECASE)
 # 'all-purpose flour or bread flour' — letters, spaces, &, ', - only.
 SIMPLE_CHOICE_RE = re.compile(r"^[a-z &'\-]+ or [a-z &'\-]+$", re.IGNORECASE)
 PREP_JUNK_WORDS = {"cut", "chopped", "minced", "sliced", "diced", "crumbled", "shredded"}
+# Leading descriptor runs that may precede a choice name.
+CHOICE_LEAD_WORDS = PREP_JUNK_WORDS | {
+    "finely", "thinly", "roughly", "coarsely", "freshly", "well", "toasted", "roasted",
+    "canned", "frozen", "dried", "peeled", "seeded", "pitted", "cored", "drained", "rinsed",
+    "cubed", "halved", "quartered", "trimmed", "cleaned", "large", "medium", "small",
+}
+CHOICE_TRAILING_NOTE_RE = re.compile(
+    r"\s+(?:for (?:garnish|serving|topping|dipping|drizzling)|to serve|see tip)$", re.IGNORECASE
+)
+
+
+def choice_body(cleaned: str) -> str:
+    """'finely chopped red or white onion' -> 'red or white onion'."""
+    tokens = cleaned.split()
+    while tokens and tokens[0].lower() in CHOICE_LEAD_WORDS:
+        tokens.pop(0)
+    return CHOICE_TRAILING_NOTE_RE.sub("", " ".join(tokens)).strip()
 # "chili powder and/or cumin" — substitution pairs.
 AND_OR_RE = re.compile(r"\band/or\b", re.IGNORECASE)
 
@@ -918,18 +969,16 @@ def choice_ignores() -> dict[str, dict]:
         normalized = gc.normalize_name(cleaned)
         if not normalized:
             continue
-        if OIL_CHOICE_RE.match(cleaned):
+        if OIL_CHOICE_RE.match(cleaned) or OIL_CHOICE_RE.match(choice_body(cleaned)):
             rules.setdefault(normalized, {"action": "ignore"})
         elif CHEESE_CHOICE_RE.search(cleaned) and not re.search(r"\b(or|and)\s*$", cleaned):
             rules.setdefault(normalized, {"action": "ignore"})
         elif AND_OR_RE.search(cleaned):
             rules.setdefault(normalized, {"action": "ignore"})
-        elif (
-            SIMPLE_CHOICE_RE.match(cleaned)
-            and not any(word in cleaned for word in PREP_JUNK_WORDS)
-            and not re.search(r"\bor\s+(?:to taste|as needed|more)\b", cleaned)
-        ):
-            rules.setdefault(normalized, {"action": "ignore"})
+        else:
+            body = choice_body(cleaned)
+            if SIMPLE_CHOICE_RE.match(body) and not re.search(r"\bor\s+(?:to taste|as needed|more)\b", body):
+                rules.setdefault(normalized, {"action": "ignore"})
     return rules
 
 # Preparation words that may lead a food name (aligned with the
@@ -1085,6 +1134,122 @@ def build_jar_renames() -> list[dict]:
     return seen
 
 
+def build_alias_renames() -> list[dict]:
+    """Rows whose only issue is an alias parenthetical ("chopped chicken
+    (from 1 rotisserie chicken)") are renamed to the canonical cleaned name
+    so the parenthetical stops regenerating the entry."""
+    entries = load_json(gc.INGREDIENT_REVIEW_FILE)["entries"]
+    decisions: list[dict] = []
+    for entry in entries:
+        if "alias_parenthetical" not in entry.get("issue_types", []):
+            continue
+        cleaned = entry.get("cleaned_name")
+        if isinstance(cleaned, str) and cleaned and gc.normalize_name(cleaned):
+            decisions.append(
+                {
+                    "recipe_id": entry.get("recipe_id"),
+                    "position": entry.get("position"),
+                    "action": "rename",
+                    "name": cleaned,
+                }
+            )
+    return decisions
+
+
+# Third round: leftovers after the class-rule pass (products with "and",
+# real pairs to split, and prep notes jammed after the food).
+ROUND_3_RULES: dict[str, dict] = {
+    "semi-soft cheese with garlic and fine herbs boursin": {"action": "ignore"},
+    "mixed swiss and gruyre cheese": {"action": "ignore"},
+    "vanilla instant pudding and pie mix such as jell-o": {"action": "ignore"},
+    "finely shredded cheddar and monterey jack cheese blend": {"action": "ignore"},
+    "white cheddar macaroni and cheese": {"action": "ignore"},
+    "garlic and herb chicken sausage": {"action": "ignore"},
+    "canned diced tomatoes and green chile": {"action": "ignore"},
+    "refrigerated pizza dough or use a purchased rectangle flatbread and skip ahead to step 2": {
+        "action": "ignore",
+    },
+    "dried minced onion such as mccormick coarse grind blend white and green onion": {"action": "ignore"},
+    "thinly sliced onion and tomatoes for serving": {
+        "action": "split",
+        "names": ["thinly sliced onion", "tomatoes"],
+        "preparation": "for serving",
+    },
+    "thinly sliced red onion and sliced banana peppers for topping": {
+        "action": "split",
+        "names": ["thinly sliced red onion", "sliced banana peppers"],
+        "preparation": "for topping",
+    },
+    "finely chopped red onion and fresh cilantro": {
+        "action": "split",
+        "names": ["finely chopped red onion", "fresh cilantro"],
+    },
+    "thinly sliced scallions and toasted sesame seeds": {
+        "action": "split",
+        "names": ["sliced scallions", "toasted sesame seeds"],
+    },
+    "carrot cut in half and sliced thin": {
+        "action": "rename",
+        "name": "carrot",
+        "preparation": "cut in half and sliced thin",
+    },
+    "carrots cut in half and into thin stick": {
+        "action": "rename",
+        "name": "carrot",
+        "preparation": "cut in half and into thin sticks",
+    },
+    "canned sliced pineapple rings drain and reserve juice": {
+        "action": "rename",
+        "name": "canned sliced pineapple rings",
+        "preparation": "drain and reserve juice",
+    },
+    "finely chopped green onion white and light green part": {
+        "action": "rename",
+        "name": "green onion",
+        "preparation": "finely chopped, white and light green parts",
+    },
+    "finely chopped green onion white and light green parts only": {
+        "action": "rename",
+        "name": "green onion",
+        "preparation": "finely chopped, white and light green parts only",
+    },
+    "finely chopped green onions white and light green parts only": {
+        "action": "rename",
+        "name": "green onion",
+        "preparation": "finely chopped, white and light green parts only",
+    },
+    "finely sliced green onions white and light green parts only": {
+        "action": "rename",
+        "name": "green onion",
+        "preparation": "finely sliced, white and light green parts only",
+    },
+    "thinly sliced green onions white and light green parts only": {
+        "action": "rename",
+        "name": "green onion",
+        "preparation": "thinly sliced, white and light green parts only",
+    },
+    "pitted and sliced peaches": {"action": "rename", "name": "peach", "preparation": "pitted and sliced"},
+    "cored and chopped red tomatoes": {"action": "rename", "name": "tomato", "preparation": "cored and chopped"},
+    "large frozen peeled and deveined shrimp": {
+        "action": "rename",
+        "name": "shrimp",
+        "preparation": "large, frozen, peeled and deveined",
+    },
+    "shredded lettuce and crushed potato chip": {
+        "action": "split",
+        "names": ["shredded lettuce", "crushed potato chips"],
+    },
+    "lime wedges and parsley or cilantro sprig": {
+        "action": "split",
+        "names": ["lime wedges", "parsley"],
+        "preparation": "or cilantro sprigs, for garnish",
+    },
+    "buns and desired topping": {"action": "ignore"},
+    "chopped peanut butter cups and coated peanut butter candies such as reeses piece": {"action": "ignore"},
+    "basil and a drizzle of olive oil": {"action": "ignore"},
+}
+
+
 def main() -> None:
     by_name = dict(sorted(BY_NAME.items()))
     for source, target in ROTEL_RENAMES.items():
@@ -1097,10 +1262,13 @@ def main() -> None:
         by_name.setdefault(gc.normalize_name(source), rule)
     for source, rule in FINAL_ROUND_RULES.items():
         by_name.setdefault(gc.normalize_name(source), rule)
+    for source, rule in ROUND_3_RULES.items():
+        by_name.setdefault(gc.normalize_name(source), rule)
     payload = {
         "schema_version": 1,
         "by_name": by_name,
         "by_entry": build_by_entry()
+        + build_alias_renames()
         + [
             {"recipe_id": recipe_id, "position": position, **decision}
             for (recipe_id, position), decision in sorted(BY_ENTRY_OVERRIDES.items())

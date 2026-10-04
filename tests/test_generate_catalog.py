@@ -91,6 +91,44 @@ class GenerateCatalogIngredientTests(TestCase):
                 self.assertEqual(result.ingredients[0]["normalized_name"], expected_name)
                 self.assertEqual(result.ingredients[0]["preparation"], expected_preparation)
 
+    def test_late_peel_after_descriptor_stripping(self) -> None:
+        recipe = {
+            "id": "11111111-1111-5111-8111-111111111111",
+            "slug": "test-recipe",
+            "name": "Test Recipe",
+        }
+        cases = [
+            ("fresh minced parsley", "parsley", "minced"),
+            ("fresh chopped basil", "basil", "chopped"),
+            ("large chopped onion", "onion", "chopped"),
+            ("medium thinly sliced onion", "onion", "thinly sliced"),
+            ("bunch finely chopped fresh parsley", "parsley", "finely chopped"),
+            ("bunch chopped fresh cilantro", "cilantro", "chopped"),
+            ("small finely chopped green bell pepper", "green bell pepper", "finely chopped"),
+            ("raw cleaned whole pumpkin seeds", "whole pumpkin seeds", "cleaned"),
+            ("dash crushed red pepper", "red pepper", "crushed"),
+            ("thinly shaved parmesan cheese", "parmesan cheese", "thinly shaved"),
+            ("thinly bias-sliced green onions", "green onion", "thinly bias-sliced"),
+            ("finely pre-shredded italian cheese blend", "italian cheese blend", "finely pre-shredded"),
+            (". thinly sliced pepperoni", "pepperoni", "thinly sliced"),
+        ]
+
+        for source_name, expected_name, expected_preparation in cases:
+            with self.subTest(source_name=source_name):
+                ingredient = {
+                    "name": source_name,
+                    "quantity": None,
+                    "unit": None,
+                    "preparation": None,
+                    "position": 1,
+                }
+
+                result = generate_catalog.canonicalize_ingredient_entry(recipe, ingredient)
+
+                self.assertEqual(len(result.ingredients), 1)
+                self.assertEqual(result.ingredients[0]["name"], expected_name)
+                self.assertEqual(result.ingredients[0]["preparation"], expected_preparation)
+
     def test_moves_solution_clause_to_preparation(self) -> None:
         recipe = {
             "id": "11111111-1111-5111-8111-111111111111",
@@ -276,6 +314,118 @@ class GenerateCatalogIngredientTests(TestCase):
         self.assertEqual(len(result.ingredients), 1)
         self.assertEqual(result.ingredients[0]["name"], "salt and pepper")
         self.assertEqual(result.review_entries, [])
+
+    def test_ignored_name_is_not_late_peeled(self) -> None:
+        recipe = {
+            "id": "11111111-1111-5111-8111-111111111111",
+            "slug": "test-recipe",
+            "name": "Test Recipe",
+        }
+        ingredient = {
+            "name": "fresh minced parsley",
+            "quantity": "2",
+            "unit": "tablespoons",
+            "preparation": None,
+            "position": 1,
+        }
+        ignored_id = generate_catalog.stable_uuid(
+            generate_catalog.INGREDIENT_NAMESPACE, "minced parsley"
+        )
+        original_ignored = generate_catalog.IGNORED_INGREDIENT_IDS
+        try:
+            generate_catalog.IGNORED_INGREDIENT_IDS = {ignored_id}
+            result = generate_catalog.canonicalize_ingredient_entry(recipe, ingredient)
+        finally:
+            generate_catalog.IGNORED_INGREDIENT_IDS = original_ignored
+
+        self.assertEqual(len(result.ingredients), 1)
+        self.assertEqual(result.ingredients[0]["name"], "minced parsley")
+        self.assertEqual(result.ingredients[0]["ingredient_id"], ignored_id)
+        self.assertEqual(result.review_entries, [])
+
+
+class GenerateCatalogCanonicalNameTests(TestCase):
+    @staticmethod
+    def canonical_name(source: str) -> str:
+        """The name canonicalize_ingredient_entry would store."""
+        base, _ = generate_catalog.split_embedded_preparation(source)
+        return generate_catalog.normalize_core_ingredient_name(base)
+
+    def test_singularize_keeps_uncountables_and_fixes_shes_halves(self) -> None:
+        cases = [
+            ("molasses", "molasses"),
+            ("radishes", "radish"),
+            ("dishes", "dish"),
+            ("halves", "half"),
+            ("peaches", "peach"),
+            ("tomatoes", "tomato"),
+        ]
+        for source, expected in cases:
+            with self.subTest(source=source):
+                self.assertEqual(generate_catalog.singularize_token(source), expected)
+
+    def test_canonical_name_moves_leading_preparation(self) -> None:
+        cases = [
+            ("finely chopped parsley", "parsley"),
+            ("thinly sliced onion", "onion"),
+            ("minced garlic", "garlic"),
+            ("grated parmesan cheese", "parmesan cheese"),
+            ("shredded cheddar cheese", "cheddar cheese"),
+            ("diced tomatoes", "tomato"),
+            ("freshly ground black pepper", "black pepper"),
+            ("finely chopped onion", "onion"),
+        ]
+        for source, expected in cases:
+            with self.subTest(source=source):
+                self.assertEqual(self.canonical_name(source), expected)
+
+    def test_moved_preparation_lands_in_preparation_field(self) -> None:
+        base_name, parts = generate_catalog.split_embedded_preparation("finely chopped fresh parsley")
+        self.assertEqual(base_name, "fresh parsley")
+        self.assertEqual(parts, ["finely chopped"])
+        base_name, parts = generate_catalog.split_embedded_preparation("freshly ground black pepper")
+        self.assertEqual(base_name, "black pepper")
+        self.assertEqual(parts, ["freshly ground"])
+
+    def test_bare_ground_stays_a_product_name(self) -> None:
+        for source in ["ground beef", "ground cinnamon", "ground turkey", "ground black pepper"]:
+            with self.subTest(source=source):
+                self.assertEqual(generate_catalog.normalize_core_ingredient_name(source), source)
+
+    def test_canonical_name_keeps_attributive_preparation(self) -> None:
+        cases = [
+            ("canned sliced mushrooms", "canned sliced mushroom"),
+            ("frozen chopped spinach", "frozen chopped spinach"),
+            ("pkg chopped romaine hearts", "pkg chopped romaine heart"),
+            ("fully trimmed pork tenderloins", "fully trimmed pork tenderloin"),
+        ]
+        for source, expected in cases:
+            with self.subTest(source=source):
+                self.assertEqual(generate_catalog.normalize_core_ingredient_name(source), expected)
+
+    def test_canonical_name_still_strips_trailing_preparation(self) -> None:
+        cases = [
+            ("chicken breast halves cubed", "chicken breast half"),
+            ("tomatoes diced", "tomato"),
+        ]
+        for source, expected in cases:
+            with self.subTest(source=source):
+                self.assertEqual(generate_catalog.normalize_core_ingredient_name(source), expected)
+
+    def test_canonical_name_strips_leading_of_and_trailing_optional(self) -> None:
+        cases = [
+            ("small bunch of cilantro", "cilantro"),
+            ("dash of garlic powder optional", "garlic powder"),
+            ("of soy sauce", "soy sauce"),
+        ]
+        for source, expected in cases:
+            with self.subTest(source=source):
+                self.assertEqual(generate_catalog.normalize_core_ingredient_name(source), expected)
+
+    def test_excluded_non_food_patterns(self) -> None:
+        for name in ["non food", "non food item", "non-food item", "Non Food Items"]:
+            with self.subTest(name=name):
+                self.assertTrue(generate_catalog.is_excluded_ingredient_name(name))
 
 
 if __name__ == "__main__":

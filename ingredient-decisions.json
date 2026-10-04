@@ -2213,6 +2213,228 @@
     },
     "oil and egg": {
       "action": "ignore"
+    },
+    "mixed berry jam or preserve": {
+      "action": "ignore"
+    },
+    "crushed tomatoes or tomato sauce or puree": {
+      "action": "ignore"
+    },
+    "stick or unsalted butter": {
+      "action": "rename",
+      "name": "unsalted butter"
+    },
+    "kosher salt or per pound of meat": {
+      "action": "rename",
+      "name": "kosher salt",
+      "preparation": "1 teaspoon per pound of meat"
+    },
+    "olive oil or use lard for the traditional version": {
+      "action": "ignore"
+    },
+    "fresh- squeezed lemon juice about 8 lemons or 1 can lemonade concentrate": {
+      "action": "ignore"
+    },
+    "fresh- squeezed lemon juice about 8 lemons or lemonade concentrate": {
+      "action": "ignore"
+    },
+    "graham crackers about 13 crackers or graham cracker crumb": {
+      "action": "ignore"
+    },
+    "pkg refrigerated pizza dough or use a purchased rectangle flatbread and skip ahead to step 2": {
+      "action": "ignore"
+    },
+    "vanilla bean paste or vanilla extract maple syrup": {
+      "action": "ignore"
+    },
+    "prepared mashed sweet potatoes with cinnamon and brown sugar or leftover mashed sweet potato casserole": {
+      "action": "ignore"
+    },
+    "pan drippings from roasted chicken or butter": {
+      "action": "ignore"
+    },
+    "tri colored quinoa or rice cooked": {
+      "action": "ignore"
+    },
+    "regular powdered fruit pectin or classic powdered fruit pectin such as ball": {
+      "action": "ignore"
+    },
+    "hibiscus tea bag or dried hibiscus flower": {
+      "action": "ignore"
+    },
+    "shredded colby and monterey jack cheese": {
+      "action": "ignore"
+    },
+    "self-rising flour or all-purpose flour plus 1 baking powder": {
+      "action": "ignore"
+    },
+    "chopped fresh basil or dried basil": {
+      "action": "ignore"
+    },
+    "chopped fresh oregano or dried oregano": {
+      "action": "ignore"
+    },
+    "chopped fresh thyme or dried thyme": {
+      "action": "ignore"
+    },
+    "dill or dried": {
+      "action": "ignore"
+    },
+    "thyme or dried thyme": {
+      "action": "ignore"
+    },
+    "sage or dried sage": {
+      "action": "ignore"
+    },
+    "garlic or garlic powder": {
+      "action": "ignore"
+    },
+    "garlic powder or garlic paste": {
+      "action": "ignore"
+    },
+    "mascarpone or cream cheese": {
+      "action": "ignore"
+    },
+    "bag frozen artichokes or drained": {
+      "action": "rename",
+      "name": "frozen artichokes",
+      "preparation": "drained"
+    },
+    "semi-soft cheese with garlic and fine herbs boursin": {
+      "action": "ignore"
+    },
+    "mixed swiss and gruyre cheese": {
+      "action": "ignore"
+    },
+    "vanilla instant pudding and pie mix such as jell-o": {
+      "action": "ignore"
+    },
+    "finely shredded cheddar and monterey jack cheese blend": {
+      "action": "ignore"
+    },
+    "white cheddar macaroni and cheese": {
+      "action": "ignore"
+    },
+    "garlic and herb chicken sausage": {
+      "action": "ignore"
+    },
+    "canned diced tomatoes and green chile": {
+      "action": "ignore"
+    },
+    "refrigerated pizza dough or use a purchased rectangle flatbread and skip ahead to step 2": {
+      "action": "ignore"
+    },
+    "dried minced onion such as mccormick coarse grind blend white and green onion": {
+      "action": "ignore"
+    },
+    "thinly sliced onion and tomatoes for serving": {
+      "action": "split",
+      "names": [
+        "thinly sliced onion",
+        "tomatoes"
+      ],
+      "preparation": "for serving"
+    },
+    "thinly sliced red onion and sliced banana peppers for topping": {
+      "action": "split",
+      "names": [
+        "thinly sliced red onion",
+        "sliced banana peppers"
+      ],
+      "preparation": "for topping"
+    },
+    "finely chopped red onion and fresh cilantro": {
+      "action": "split",
+      "names": [
+        "finely chopped red onion",
+        "fresh cilantro"
+      ]
+    },
+    "thinly sliced scallions and toasted sesame seeds": {
+      "action": "split",
+      "names": [
+        "sliced scallions",
+        "toasted sesame seeds"
+      ]
+    },
+    "carrot cut in half and sliced thin": {
+      "action": "rename",
+      "name": "carrot",
+      "preparation": "cut in half and sliced thin"
+    },
+    "carrots cut in half and into thin stick": {
+      "action": "rename",
+      "name": "carrot",
+      "preparation": "cut in half and into thin sticks"
+    },
+    "canned sliced pineapple rings drain and reserve juice": {
+      "action": "rename",
+      "name": "canned sliced pineapple rings",
+      "preparation": "drain and reserve juice"
+    },
+    "finely chopped green onion white and light green part": {
+      "action": "rename",
+      "name": "green onion",
+      "preparation": "finely chopped, white and light green parts"
+    },
+    "finely chopped green onion white and light green parts only": {
+      "action": "rename",
+      "name": "green onion",
+      "preparation": "finely chopped, white and light green parts only"
+    },
+    "finely chopped green onions white and light green parts only": {
+      "action": "rename",
+      "name": "green onion",
+      "preparation": "finely chopped, white and light green parts only"
+    },
+    "finely sliced green onions white and light green parts only": {
+      "action": "rename",
+      "name": "green onion",
+      "preparation": "finely sliced, white and light green parts only"
+    },
+    "thinly sliced green onions white and light green parts only": {
+      "action": "rename",
+      "name": "green onion",
+      "preparation": "thinly sliced, white and light green parts only"
+    },
+    "pitted and sliced peaches": {
+      "action": "rename",
+      "name": "peach",
+      "preparation": "pitted and sliced"
+    },
+    "cored and chopped red tomatoes": {
+      "action": "rename",
+      "name": "tomato",
+      "preparation": "cored and chopped"
+    },
+    "large frozen peeled and deveined shrimp": {
+      "action": "rename",
+      "name": "shrimp",
+      "preparation": "large, frozen, peeled and deveined"
+    },
+    "shredded lettuce and crushed potato chip": {
+      "action": "split",
+      "names": [
+        "shredded lettuce",
+        "crushed potato chips"
+      ]
+    },
+    "lime wedges and parsley or cilantro sprig": {
+      "action": "split",
+      "names": [
+        "lime wedges",
+        "parsley"
+      ],
+      "preparation": "or cilantro sprigs, for garnish"
+    },
+    "buns and desired topping": {
+      "action": "ignore"
+    },
+    "chopped peanut butter cups and coated peanut butter candies such as reeses piece": {
+      "action": "ignore"
+    },
+    "basil and a drizzle of olive oil": {
+      "action": "ignore"
     }
   },
   "by_entry": [

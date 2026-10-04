@@ -6,12 +6,15 @@ import argparse
 import hashlib
 import html
 import json
+import os
 import re
 import uuid
 from collections import Counter
+from concurrent.futures import ProcessPoolExecutor
 from copy import deepcopy
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from functools import partial
 from pathlib import Path
 
 try:
@@ -265,6 +268,7 @@ EXCLUDED_INGREDIENT_PATTERNS = (
     re.compile(r"^aluminum foil$", re.IGNORECASE),
     re.compile(r"^a double boiler$", re.IGNORECASE),
     re.compile(r"^bamboo skewers(?: .*)?$", re.IGNORECASE),
+    re.compile(r"^non[- ]food(?: items?)?$", re.IGNORECASE),
     re.compile(r"^water for boiling\b", re.IGNORECASE),
     re.compile(r"^additional water for boiling\b", re.IGNORECASE),
 )
@@ -273,12 +277,36 @@ EXCLUDED_INGREDIENT_PATTERNS = (
 AMBIGUOUS_CONNECTOR_RE = re.compile(r"(?<![\w-])(and|or)(?![\w-])", re.IGNORECASE)
 FOR_BOILING_RE = re.compile(r"\bfor boiling\b.*$", re.IGNORECASE)
 TO_TASTE_RE = re.compile(r"\bto taste\b.*$", re.IGNORECASE)
-CUT_PREPARATION_RE = re.compile(
-    r"\s+(cut into|cut in|cut to|chopped|cleaned|cubed|diced|gutted|julienned|knotted|minced|peeled|pitted|quartered|scaled|seeded|shelled|shredded|sliced|trimmed|wedged)\b.*$",
+# Same vocabulary, split into prefix / keyword / remainder so the canonicalizer
+# can tell a trailing preparation run ("tomatoes diced") from an attributive
+# one ("finely chopped parsley", "canned sliced mushrooms").
+CUT_PREPARATION_SPLIT_RE = re.compile(
+    r"^(?P<prefix>.*?)\s+"
+    r"(?P<keyword>cut into|cut in|cut to|chopped|cleaned|cubed|diced|gutted|julienned|knotted|"
+    r"minced|peeled|pitted|quartered|scaled|seeded|shelled|shredded|sliced|trimmed|wedged)\b"
+    r"(?P<after>.*)$",
     re.IGNORECASE,
 )
 LEADING_PREPARATION_RE = re.compile(
     r"^(?P<preparation>diced|fried|grilled|hard[- ]boiled|sliced)\s+(?P<name>.+)$",
+    re.IGNORECASE,
+)
+# Processing verbs whose leading run belongs in the preparation field, with
+# optional intensity modifiers ("finely chopped onion" -> onion + finely
+# chopped). Bare "ground" is deliberately absent ("ground beef", "ground
+# cinnamon" are products); it only moves when a modifier leads it.
+PREP_MODIFIER = r"(?:(?:finely|thinly|roughly|coarsely|freshly|well)[-\s]+)?"
+PREP_ACTION = (
+    r"chopped|diced|sliced|minced|grated|shredded|crushed|crumbled|julienned|cubed|"
+    r"quartered|halved|peeled|seeded|cored|pitted|deveined|cleaned|trimmed|fried|grilled|"
+    r"shaved|pre-shredded|bias[-\s]?sliced"
+)
+LEADING_PREP_RUN_RE = re.compile(
+    rf"^(?P<preparation>{PREP_MODIFIER}(?:{PREP_ACTION}))\s+(?P<name>\S.*)$",
+    re.IGNORECASE,
+)
+GROUND_RUN_RE = re.compile(
+    r"^(?P<preparation>(?:finely|freshly|coarsely)\s+ground(?:ed)?)\s+(?P<name>\S.*)$",
     re.IGNORECASE,
 )
 SOLUTION_PREPARATION_RE = re.compile(
@@ -399,8 +427,10 @@ def singularize_token(token: str) -> str:
         "berries": "berry",
         "chilies": "chili",
         "eggs": "egg",
+        "halves": "half",
         "leaves": "leaf",
         "loaves": "loaf",
+        "molasses": "molasses",
         "peaches": "peach",
         "potatoes": "potato",
         "tomatoes": "tomato",
@@ -411,13 +441,7 @@ def singularize_token(token: str) -> str:
         return token
     if token.endswith("ies") and len(token) > 4:
         return f"{token[:-3]}y"
-    if token.endswith("ches") and len(token) > 4:
-        return token[:-2]
-    if token.endswith("oes") and len(token) > 4:
-        return token[:-2]
-    if token.endswith("ses") and len(token) > 4:
-        return token[:-2]
-    if token.endswith("xes") and len(token) > 4:
+    if token.endswith(("ches", "shes", "xes", "oes", "ses")) and len(token) > 4:
         return token[:-2]
     if token.endswith("s") and not token.endswith("ds"):
         return token[:-1]
@@ -466,8 +490,19 @@ def normalize_core_ingredient_name(value: str) -> str:
     normalized = FOR_BOILING_RE.sub("", normalized).strip()
     normalized = TO_TASTE_RE.sub("", normalized).strip()
     normalized = strip_leading_descriptors(normalized)
-    normalized = CUT_PREPARATION_RE.sub("", normalized).strip()
+    cut_match = CUT_PREPARATION_SPLIT_RE.match(normalized)
+    if cut_match:
+        # Only drop the trailing preparation run when the name keeps meaning:
+        # "chicken breast halves cubed" -> "chicken breast halves", but
+        # "finely chopped parsley" / "pkg chopped romaine hearts" must not
+        # collapse to "finely" / "pkg" (the food follows the prep word).
+        prefix = cut_match.group("prefix").strip()
+        after = cut_match.group("after").strip()
+        if len(prefix.split()) >= 2 or not after:
+            normalized = prefix
     normalized = strip_non_identity_words(normalized)
+    normalized = re.sub(r"^of\s+", "", normalized).strip()
+    normalized = re.sub(r"\s+optional$", "", normalized).strip()
     normalized = re.sub(r"\bof\b$", "", normalized).strip()
     normalized = re.sub(r"\s+", " ", normalized).strip(" -/")
     normalized = singularize_phrase(normalized)
@@ -500,6 +535,18 @@ def clean_preparation_text(value: str | None) -> str | None:
 def split_embedded_preparation(value: str) -> tuple[str, list[str]]:
     name = clean_text(value)
     preparation_parts: list[str] = []
+
+    # Peel every leading preparation run ("finely chopped fresh parsley" ->
+    # parsley + [finely chopped, fresh]... the trailing state words stay).
+    while True:
+        leading_match = LEADING_PREP_RUN_RE.match(name) or GROUND_RUN_RE.match(name)
+        if not leading_match:
+            break
+        preparation = normalize_name(leading_match.group("preparation"))
+        if preparation == "hard boiled":
+            preparation = "hard-boiled"
+        preparation_parts.append(preparation)
+        name = clean_text(leading_match.group("name"))
 
     leading_match = LEADING_PREPARATION_RE.match(name)
     if leading_match:
@@ -595,9 +642,34 @@ def canonicalize_ingredient_entry(recipe: dict, ingredient: dict) -> CanonicalIn
             issue_types.append("alias_parenthetical")
 
     canonical_name = normalize_core_ingredient_name(base_name)
-    trailing_match = CUT_PREPARATION_RE.search(base_name)
-    if trailing_match:
-        preparation_parts.append(trailing_match.group(0))
+    # A trailing preparation run ("chicken breast halves cubed") was dropped
+    # from the name above: recover it as preparation. Attributive runs
+    # ("fresh minced parsley", "medium thinly sliced onion") keep the food
+    # after the verb and are handled by the peel below.
+    cut_match = CUT_PREPARATION_SPLIT_RE.match(base_name)
+    if cut_match:
+        prefix = cut_match.group("prefix").strip()
+        after = cut_match.group("after").strip()
+        if (
+            canonical_name
+            and (len(prefix.split()) >= 2 or not after)
+            and normalize_core_ingredient_name(prefix) == canonical_name
+        ):
+            preparation_parts.append(clean_text(f"{cut_match.group('keyword')}{cut_match.group('after')}"))
+    # Descriptor stripping above can expose a preparation run that the
+    # first peel could not see ("fresh minced parsley" -> "minced
+    # parsley"): move it to the preparation field too, re-normalizing each
+    # time so the food keeps its canonical form ("bunch finely chopped
+    # fresh parsley" -> parsley). Names the user explicitly accepted are
+    # left untouched.
+    normalized_name = normalize_name(canonical_name)
+    if stable_uuid(INGREDIENT_NAMESPACE, normalized_name) not in IGNORED_INGREDIENT_IDS:
+        for _ in range(3):
+            peeled_name, late_preparation_parts = split_embedded_preparation(canonical_name)
+            if not late_preparation_parts:
+                break
+            canonical_name = normalize_core_ingredient_name(peeled_name)
+            preparation_parts.extend(late_preparation_parts)
 
     preparation = clean_preparation_text(" ".join(preparation_parts))
     normalized_name = normalize_name(canonical_name)
@@ -950,7 +1022,17 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Skip JSON Schema validation when local validation dependencies are unavailable.",
     )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=0,
+        help="Number of worker processes for recipe canonicalization and validation (0 = auto).",
+    )
     return parser.parse_args()
+
+
+_SCHEMA_CACHE = {}
+_VALIDATOR_CACHE = {}
 
 
 def load_schema(schema_name: str) -> dict:
@@ -958,9 +1040,14 @@ def load_schema(schema_name: str) -> dict:
         return {}
     if Draft202012Validator is None:
         raise SystemExit("missing dependency: install with 'python3 -m pip install -r requirements-dev.txt'")
-    schema = load_json(SCHEMAS_DIR / schema_name)
-    Draft202012Validator.check_schema(schema)
-    return schema
+    # Cached: the previous implementation re-read and revalidated the schema
+    # file against the metaschema on every call, which dominated runtime when
+    # validating thousands of recipe payloads.
+    if schema_name not in _SCHEMA_CACHE:
+        schema = load_json(SCHEMAS_DIR / schema_name)
+        Draft202012Validator.check_schema(schema)
+        _SCHEMA_CACHE[schema_name] = schema
+    return _SCHEMA_CACHE[schema_name]
 
 
 def format_validation_error(error) -> str:
@@ -973,7 +1060,10 @@ def format_validation_error(error) -> str:
 def validate_payload(payload: dict, schema_name: str, source_name: str) -> None:
     if not VALIDATE_SCHEMAS:
         return
-    validator = Draft202012Validator(load_schema(schema_name))
+    validator = _VALIDATOR_CACHE.get(schema_name)
+    if validator is None:
+        validator = Draft202012Validator(load_schema(schema_name))
+        _VALIDATOR_CACHE[schema_name] = validator
     errors = sorted(validator.iter_errors(payload), key=lambda item: list(item.absolute_path))
     if not errors:
         return
@@ -1014,23 +1104,40 @@ def sort_recipe_files() -> list[Path]:
     return sorted(RECIPES_DIR.glob("*.json"))
 
 
-def collect_canonical_recipes() -> list[CanonicalRecipe]:
-    canonical_recipes: list[CanonicalRecipe] = []
+def canonicalize_recipe_file(recipe_path: Path, validate: bool) -> tuple[Path, dict, list[dict]]:
+    """Load, canonicalize, and validate a single recipe payload.
 
-    for recipe_path in sort_recipe_files():
-        canonical, review_entries = canonicalize_recipe(load_json(recipe_path))
-        canonical_path = RECIPES_DIR / f"{canonical['id']}.json"
-        validate_payload(canonical, "recipe.schema.json", str(recipe_path.relative_to(REPO_ROOT)))
-        canonical_recipes.append(
-            CanonicalRecipe(
-                source_path=recipe_path,
-                output_path=canonical_path,
-                payload=canonical,
-                review_entries=review_entries,
-            )
+    Runs in worker processes when the recipe set is split across cores, so the
+    module-level VALIDATE_SCHEMAS flag must be set per process.
+    """
+    global VALIDATE_SCHEMAS
+    VALIDATE_SCHEMAS = validate
+    canonical, review_entries = canonicalize_recipe(load_json(recipe_path))
+    validate_payload(canonical, "recipe.schema.json", str(recipe_path.relative_to(REPO_ROOT)))
+    return recipe_path, canonical, review_entries
+
+
+def collect_canonical_recipes(workers: int = 0) -> list[CanonicalRecipe]:
+    recipe_paths = sort_recipe_files()
+    if workers <= 0:
+        workers = min(os.cpu_count() or 1, max(len(recipe_paths), 1))
+    process = partial(canonicalize_recipe_file, validate=VALIDATE_SCHEMAS)
+    if workers > 1 and len(recipe_paths) > 1:
+        chunksize = max(1, len(recipe_paths) // (workers * 8))
+        with ProcessPoolExecutor(max_workers=workers) as executor:
+            results = executor.map(process, recipe_paths, chunksize=chunksize)
+    else:
+        results = map(process, recipe_paths)
+
+    return [
+        CanonicalRecipe(
+            source_path=recipe_path,
+            output_path=RECIPES_DIR / f"{canonical['id']}.json",
+            payload=canonical,
+            review_entries=review_entries,
         )
-
-    return canonical_recipes
+        for recipe_path, canonical, review_entries in results
+    ]
 
 
 def build_indexes(
@@ -1329,7 +1436,7 @@ def main() -> None:
     INDEXES_DIR.mkdir(parents=True, exist_ok=True)
     MANIFESTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    canonical_recipes = collect_canonical_recipes()
+    canonical_recipes = collect_canonical_recipes(args.workers)
     if not canonical_recipes:
         raise SystemExit("no recipe payloads found under recipes/v1/recipes/by-id")
 
