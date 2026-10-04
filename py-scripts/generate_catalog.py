@@ -277,13 +277,16 @@ EXCLUDED_INGREDIENT_PATTERNS = (
 AMBIGUOUS_CONNECTOR_RE = re.compile(r"(?<![\w-])(and|or)(?![\w-])", re.IGNORECASE)
 FOR_BOILING_RE = re.compile(r"\bfor boiling\b.*$", re.IGNORECASE)
 TO_TASTE_RE = re.compile(r"\bto taste\b.*$", re.IGNORECASE)
+# Trailing thaw state that belongs in the preparation field ("shrimp thawed if",
+# "spinach - thawed"): stripped late so it does not survive as name text residues.
+THAWED_TRAILING_RE = re.compile(r"\s+(?:-\s+)?thawed(?:\s+if frozen)?$", re.IGNORECASE)
 # Same vocabulary, split into prefix / keyword / remainder so the canonicalizer
 # can tell a trailing preparation run ("tomatoes diced") from an attributive
 # one ("finely chopped parsley", "canned sliced mushrooms").
 CUT_PREPARATION_SPLIT_RE = re.compile(
     r"^(?P<prefix>.*?)\s+"
     r"(?P<keyword>cut into|cut in|cut to|chopped|cleaned|cubed|diced|gutted|julienned|knotted|"
-    r"minced|peeled|pitted|quartered|scaled|seeded|shelled|shredded|sliced|trimmed|wedged)\b"
+    r"minced|peeled|pitted|quartered|scaled|seeded|shelled|shredded|sliced|thawed|trimmed|wedged)\b"
     r"(?P<after>.*)$",
     re.IGNORECASE,
 )
@@ -298,7 +301,7 @@ LEADING_PREPARATION_RE = re.compile(
 PREP_MODIFIER = r"(?:(?:finely|thinly|roughly|coarsely|freshly|well)[-\s]+)?"
 PREP_ACTION = (
     r"chopped|diced|sliced|minced|grated|shredded|crushed|crumbled|julienned|cubed|"
-    r"quartered|halved|peeled|seeded|cored|pitted|deveined|cleaned|trimmed|fried|grilled|"
+    r"quartered|halved|mashed|peeled|seeded|cored|pitted|deveined|cleaned|trimmed|fried|grilled|"
     r"shaved|pre-shredded|bias[-\s]?sliced"
 )
 LEADING_PREP_RUN_RE = re.compile(
@@ -388,7 +391,11 @@ def clean_text(value: object) -> str:
 def normalize_name(value: str) -> str:
     value = clean_text(value).lower()
     value = re.sub(r"\([^)]*\)", "", value)
-    value = re.sub(r"[^a-z0-9\s/-]", "", value)
+    value = re.sub(r"[^a-z0-9\s/%-]", "", value)
+    # Percent signs only carry meaning directly after a digit ("1% milk",
+    # "100% juice"); stray ones are junk.
+    value = re.sub(r"(?<!\d)%", "", value)
+    value = re.sub(r"\s+%", "%", value)
     value = re.sub(r"\s+", " ", value)
     return value.strip(" -/")
 
@@ -489,6 +496,7 @@ def normalize_core_ingredient_name(value: str) -> str:
             break
     normalized = FOR_BOILING_RE.sub("", normalized).strip()
     normalized = TO_TASTE_RE.sub("", normalized).strip()
+    normalized = THAWED_TRAILING_RE.sub("", normalized).strip()
     normalized = strip_leading_descriptors(normalized)
     cut_match = CUT_PREPARATION_SPLIT_RE.match(normalized)
     if cut_match:
@@ -498,7 +506,12 @@ def normalize_core_ingredient_name(value: str) -> str:
         # collapse to "finely" / "pkg" (the food follows the prep word).
         prefix = cut_match.group("prefix").strip()
         after = cut_match.group("after").strip()
-        if len(prefix.split()) >= 2 or not after:
+        # A connector ending the prefix means the run is an alternative food
+        # ("roasted red pepper or diced pimiento"), not preparation: keep it.
+        if (
+            len(prefix.split()) >= 2
+            or not after
+        ) and not re.search(r"\b(?:and|or)\b\s*$", prefix, re.IGNORECASE):
             normalized = prefix
     normalized = strip_non_identity_words(normalized)
     normalized = re.sub(r"^of\s+", "", normalized).strip()
@@ -656,6 +669,14 @@ def canonicalize_ingredient_entry(recipe: dict, ingredient: dict) -> CanonicalIn
             and normalize_core_ingredient_name(prefix) == canonical_name
         ):
             preparation_parts.append(clean_text(f"{cut_match.group('keyword')}{cut_match.group('after')}"))
+    else:
+        thawed_match = THAWED_TRAILING_RE.search(base_name)
+        if (
+            thawed_match
+            and canonical_name
+            and normalize_core_ingredient_name(base_name[: thawed_match.start()]) == canonical_name
+        ):
+            preparation_parts.append(clean_text(thawed_match.group(0)))
     # Descriptor stripping above can expose a preparation run that the
     # first peel could not see ("fresh minced parsley" -> "minced
     # parsley"): move it to the preparation field too, re-normalizing each
