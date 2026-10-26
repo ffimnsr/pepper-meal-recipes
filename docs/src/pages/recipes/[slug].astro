@@ -1,6 +1,10 @@
 ---
 
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import recipesIndex from '../../../../recipes/v1/indexes/recipes.index.json';
+
 const base = import.meta.env.BASE_URL;
 
 type RecipeIngredient = {
@@ -45,24 +49,16 @@ type RecipeDetail = {
 };
 
 export function getStaticPaths() {
-	const recipeModules = import.meta.glob<{ default: RecipeDetail }>(
-		'../../../../recipes/v1/recipes/by-id/*.json',
-		{
-			eager: true,
-		},
-	);
-
-	const recipesBySlug = new Map(
-		Object.values(recipeModules).map((module) => [module.default.slug, module.default] as const),
-	);
+	const recipesDir = fileURLToPath(new URL('../../../../recipes/v1/recipes/by-id', import.meta.url));
 
 	return recipesIndex.recipes
 		.map((recipe) => {
-			const detail = recipesBySlug.get(recipe.slug);
-
-			if (!detail) {
+			const filePath = path.join(recipesDir, `${recipe.id}.json`);
+			if (!fs.existsSync(filePath)) {
 				return null;
 			}
+
+			const detail: RecipeDetail = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
 			return {
 				params: { slug: recipe.slug },
