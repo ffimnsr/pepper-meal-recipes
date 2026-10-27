@@ -212,6 +212,11 @@ const base = import.meta.env.BASE_URL;
 						);
 					})}
 				</div>
+
+				<div class="pagination-container" id="pagination-container">
+					<button class="load-more-btn" id="load-more-btn" type="button">Load more recipes</button>
+					<div id="scroll-sentinel" class="scroll-sentinel"></div>
+				</div>
 			</section>
 		</main>
 
@@ -224,45 +229,88 @@ const base = import.meta.env.BASE_URL;
 		</footer>
 
 		<script is:inline>
+			const BATCH_SIZE = 24;
 			const searchInput = document.querySelector('#search');
 			const categoryFilter = document.querySelector('#category-filter');
 			const tagFilter = document.querySelector('#tag-filter');
 			const difficultyFilter = document.querySelector('#difficulty-filter');
 			const resetButton = document.querySelector('#reset-filters');
 			const resultSummary = document.querySelector('#result-summary');
+			const loadMoreBtn = document.querySelector('#load-more-btn');
+			const scrollSentinel = document.querySelector('#scroll-sentinel');
 			const cards = Array.from(document.querySelectorAll('.recipe-card'));
 			const normalize = (value) => String(value ?? '').trim().toLowerCase();
 
-			const refresh = () => {
+			let visibleLimit = BATCH_SIZE;
+			let matchingCards = [];
+
+			const render = () => {
+				const totalMatching = matchingCards.length;
+				const renderedCount = Math.min(visibleLimit, totalMatching);
+
+				for (let i = 0; i < cards.length; i++) {
+					cards[i].hidden = true;
+				}
+
+				for (let i = 0; i < renderedCount; i++) {
+					matchingCards[i].hidden = false;
+				}
+
+				if (totalMatching === 0) {
+					resultSummary.textContent = 'No recipes found matching your criteria.';
+				} else if (renderedCount < totalMatching) {
+					resultSummary.textContent = `Showing ${renderedCount} of ${totalMatching} matching recipes (${cards.length} total).`;
+				} else if (totalMatching === cards.length) {
+					resultSummary.textContent = `Showing all ${totalMatching} recipes.`;
+				} else {
+					resultSummary.textContent = `Showing all ${totalMatching} matching recipes.`;
+				}
+
+				if (renderedCount < totalMatching) {
+					loadMoreBtn.hidden = false;
+					scrollSentinel.style.display = 'block';
+				} else {
+					loadMoreBtn.hidden = true;
+					scrollSentinel.style.display = 'none';
+				}
+			};
+
+			const filterRecipes = () => {
 				const query = normalize(searchInput.value);
 				const selectedCategory = normalize(categoryFilter.value);
 				const selectedTag = normalize(tagFilter.value);
 				const selectedDifficulty = normalize(difficultyFilter.value);
-				let visible = 0;
 
-				for (const card of cards) {
+				matchingCards = cards.filter((card) => {
 					const searchTerms = card.dataset.search ?? '';
 					const categories = (card.dataset.categories ?? '').split(',').filter(Boolean);
 					const tags = (card.dataset.tags ?? '').split(',').filter(Boolean);
 					const difficulty = card.dataset.difficulty ?? '';
+
 					const matchesQuery = !query || searchTerms.includes(query);
 					const matchesCategory = !selectedCategory || categories.includes(selectedCategory);
 					const matchesTag = !selectedTag || tags.includes(selectedTag);
 					const matchesDifficulty = !selectedDifficulty || difficulty === selectedDifficulty;
-					const isVisible = matchesQuery && matchesCategory && matchesTag && matchesDifficulty;
 
-					card.hidden = !isVisible;
-					if (isVisible) {
-						visible += 1;
-					}
-				}
+					return matchesQuery && matchesCategory && matchesTag && matchesDifficulty;
+				});
 
-				resultSummary.textContent = `Showing ${visible} of ${cards.length} recipes.`;
+				visibleLimit = BATCH_SIZE;
+				render();
 			};
 
+			const loadMore = () => {
+				if (visibleLimit < matchingCards.length) {
+					visibleLimit += BATCH_SIZE;
+					render();
+				}
+			};
+
+			loadMoreBtn.addEventListener('click', loadMore);
+
 			for (const control of [searchInput, categoryFilter, tagFilter, difficultyFilter]) {
-				control.addEventListener('input', refresh);
-				control.addEventListener('change', refresh);
+				control.addEventListener('input', filterRecipes);
+				control.addEventListener('change', filterRecipes);
 			}
 
 			for (const chip of document.querySelectorAll('[data-category], [data-tag]')) {
@@ -273,7 +321,7 @@ const base = import.meta.env.BASE_URL;
 					if (chip.dataset.tag) {
 						tagFilter.value = chip.dataset.tag;
 					}
-					refresh();
+					filterRecipes();
 				});
 			}
 
@@ -282,10 +330,24 @@ const base = import.meta.env.BASE_URL;
 				categoryFilter.value = '';
 				tagFilter.value = '';
 				difficultyFilter.value = '';
-				refresh();
+				filterRecipes();
 			});
 
-			refresh();
+			if ('IntersectionObserver' in window) {
+				const observer = new IntersectionObserver(
+					(entries) => {
+						for (const entry of entries) {
+							if (entry.isIntersecting) {
+								loadMore();
+							}
+						}
+					},
+					{ rootMargin: '300px 0px' }
+				);
+				observer.observe(scrollSentinel);
+			}
+
+			filterRecipes();
 		</script>
 
 		<style>
@@ -680,6 +742,42 @@ const base = import.meta.env.BASE_URL;
 
 			.recipe-card[hidden] {
 				display: none;
+			}
+
+			.pagination-container {
+				margin-top: 2rem;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 1rem;
+			}
+
+			.load-more-btn {
+				border-radius: 999px;
+				padding: 0.85rem 1.75rem;
+				border: 1px solid rgba(102, 64, 32, 0.2);
+				font: inherit;
+				font-weight: 700;
+				cursor: pointer;
+				background: #f4e6d8;
+				color: #2d160c;
+				transition: background 140ms ease, transform 140ms ease;
+			}
+
+			.load-more-btn:hover,
+			.load-more-btn:focus-visible {
+				background: #e9d5c3;
+				transform: translateY(-1px);
+				outline: none;
+			}
+
+			.load-more-btn[hidden] {
+				display: none;
+			}
+
+			.scroll-sentinel {
+				height: 10px;
+				width: 100%;
 			}
 
 			@media (max-width: 980px) {
