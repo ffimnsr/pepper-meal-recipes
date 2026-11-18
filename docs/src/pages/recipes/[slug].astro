@@ -42,7 +42,6 @@ type RecipeDetail = {
 	recipe_notes: string[];
 	storage_notes: string[];
 	equipment?: string[];
-	source?: { name: string; url: string };
 	updated_at?: number;
 	revision?: number;
 	public?: boolean;
@@ -416,22 +415,13 @@ const timerFor = (text: string): string | null => {
 			</section>
 		) : null}
 
-		{categories.length || tags.length || recipe.source ? (
+		{categories.length || tags.length ? (
 			<section class="meta-panel panel" aria-labelledby="tags-heading">
 				<div class="panel-head">
 					<div>
 						<h2 id="tags-heading">Categories &amp; tags</h2>
 						<p class="panel-sub">How this recipe is filed in the catalog</p>
 					</div>
-					{recipe.source ? (
-						<a class="source-link" href={recipe.source.url} target="_blank" rel="noopener noreferrer">
-							Source: {recipe.source.name}
-							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-								<path d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" stroke-linecap="round" stroke-linejoin="round"
-								></path>
-							</svg>
-						</a>
-					) : null}
 				</div>
 
 				{categories.length ? (
@@ -1192,26 +1182,6 @@ const timerFor = (text: string): string | null => {
 
 		.meta-panel {
 			padding: 1.5rem;
-		}
-
-		.source-link {
-			display: inline-flex;
-			align-items: center;
-			gap: 0.4rem;
-			font-size: 0.8125rem;
-			font-weight: 600;
-			color: var(--brand-700);
-			text-decoration: none;
-		}
-
-		.source-link svg {
-			width: 0.9rem;
-			height: 0.9rem;
-		}
-
-		.source-link:hover {
-			text-decoration: underline;
-			text-underline-offset: 3px;
 		}
 
 		.tag-block {
