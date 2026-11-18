@@ -1,0 +1,331 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+
+interface Props {
+	heading: string;
+	description: string;
+	updated: string;
+	sections: Array<{ heading: string; paragraphs: string[] }>;
+	related?: { label: string; href: string };
+}
+
+const { heading, description, updated, sections, related } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const slugify = (value: string) =>
+	value
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-|-$/g, '');
+
+const items = sections.map((section) => ({ ...section, id: slugify(section.heading) }));
+---
+
+<SiteLayout title={`${heading} · Pepper Kitchen`} description={description} active="none">
+	<main class="legal-page" id="main">
+		<header class="legal-hero">
+			<div class="legal-hero-copy">
+				<span class="pill">Legal &amp; policies</span>
+				<h1>{heading}</h1>
+				<p class="legal-updated">
+					<span class="legal-updated-dot" aria-hidden="true"></span>
+					Last updated {updated}
+				</p>
+			</div>
+
+			<a class="legal-back" href={base}>
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+					<path d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" stroke-linecap="round" stroke-linejoin="round"></path>
+				</svg>
+				Back to recipes
+			</a>
+		</header>
+
+		<div class="legal-layout">
+			<aside class="legal-toc panel">
+				<nav aria-labelledby="toc-heading">
+					<h2 id="toc-heading">On this page</h2>
+					<ol class="toc-list">
+						{items.map((item, index) => (
+							<li>
+								<a class="toc-link" href={`#${item.id}`}>
+									<span class="toc-index" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+									{item.heading}
+								</a>
+							</li>
+						))}
+					</ol>
+				</nav>
+
+				{related ? (
+					<a class="toc-related" href={related.href}>
+						<span>{related.label}</span>
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+							<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg>
+					</a>
+				) : null}
+			</aside>
+
+			<article class="legal-body panel">
+				{items.map((section) => (
+					<section id={section.id}>
+						<h2>{section.heading}</h2>
+						{section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+					</section>
+				))}
+			</article>
+		</div>
+	</main>
+
+	<style>
+		.legal-page {
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+			width: 100%;
+			max-width: var(--page-width);
+			margin: 0 auto;
+			padding: 2rem var(--gutter) 1rem;
+		}
+
+		.legal-hero {
+			display: flex;
+			align-items: flex-end;
+			justify-content: space-between;
+			gap: 1.5rem;
+			flex-wrap: wrap;
+			padding: clamp(1.5rem, 4vw, 2.5rem);
+			border: 1px solid var(--warm-200);
+			border-radius: var(--radius-lg);
+			background: linear-gradient(135deg, #fff 0%, #fff 55%, rgba(254, 216, 185, 0.35) 100%);
+			box-shadow: var(--shadow-xs);
+		}
+
+		.legal-hero-copy {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 0.75rem;
+		}
+
+		.legal-hero h1 {
+			font-size: clamp(2.1rem, 4vw, 3rem);
+			font-weight: 800;
+			letter-spacing: -0.02em;
+		}
+
+		.legal-updated {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0.35rem 0.75rem;
+			border-radius: 999px;
+			background: var(--warm-100);
+			color: var(--warm-600);
+			font-size: 0.75rem;
+			font-weight: 600;
+		}
+
+		.legal-updated-dot {
+			width: 0.4rem;
+			height: 0.4rem;
+			border-radius: 999px;
+			background: var(--brand-500);
+		}
+
+		.legal-back {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			min-height: 2.75rem;
+			padding: 0.5rem 1rem;
+			border: 1px solid var(--warm-200);
+			border-radius: var(--radius-sm);
+			background: #fff;
+			color: var(--warm-800);
+			font-size: 0.875rem;
+			font-weight: 600;
+			text-decoration: none;
+			box-shadow: var(--shadow-xs);
+			transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+		}
+
+		.legal-back svg {
+			width: 1rem;
+			height: 1rem;
+		}
+
+		.legal-back:hover {
+			background: var(--warm-50);
+			border-color: var(--brand-300);
+			color: var(--brand-700);
+		}
+
+		.legal-layout {
+			display: grid;
+			grid-template-columns: minmax(0, 17rem) minmax(0, 1fr);
+			gap: 1.5rem;
+			align-items: start;
+		}
+
+		.legal-toc {
+			position: sticky;
+			top: calc(var(--header-height) + 1rem);
+			padding: 1.25rem;
+		}
+
+		.legal-toc h2 {
+			margin-bottom: 0.75rem;
+			padding-bottom: 0.75rem;
+			border-bottom: 1px solid var(--warm-100);
+			font-family: var(--font-sans);
+			font-size: 0.6875rem;
+			font-weight: 700;
+			letter-spacing: 0.14em;
+			text-transform: uppercase;
+			color: var(--warm-600);
+		}
+
+		.toc-list {
+			display: flex;
+			flex-direction: column;
+			gap: 0.15rem;
+		}
+
+		.toc-link {
+			display: flex;
+			align-items: baseline;
+			gap: 0.6rem;
+			min-height: 2.5rem;
+			padding: 0.45rem 0.5rem;
+			border-radius: var(--radius-sm);
+			color: var(--warm-600);
+			font-size: 0.8125rem;
+			font-weight: 500;
+			line-height: 1.4;
+			text-decoration: none;
+			transition: background-color 160ms ease, color 160ms ease;
+		}
+
+		.toc-link:hover {
+			background: var(--brand-50);
+			color: var(--brand-700);
+		}
+
+		.toc-index {
+			font-family: var(--font-serif);
+			font-size: 0.75rem;
+			font-weight: 700;
+			color: var(--brand-500);
+		}
+
+		.toc-related {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 0.5rem;
+			margin-top: 1rem;
+			padding: 0.75rem 0.85rem;
+			border-radius: var(--radius-sm);
+			background: var(--warm-900);
+			color: #fff;
+			font-size: 0.8125rem;
+			font-weight: 600;
+			text-decoration: none;
+			transition: background-color 160ms ease;
+		}
+
+		.toc-related svg {
+			width: 1rem;
+			height: 1rem;
+			color: var(--brand-300);
+			flex-shrink: 0;
+			transition: transform 160ms ease;
+		}
+
+		.toc-related:hover {
+			background: var(--brand-700);
+		}
+
+		.toc-related:hover svg {
+			transform: translateX(3px);
+		}
+
+		.legal-body {
+			padding: clamp(1.5rem, 3vw, 2.5rem);
+		}
+
+		.legal-body section {
+			scroll-margin-top: calc(var(--header-height) + 1.5rem);
+		}
+
+		.legal-body section + section {
+			margin-top: 1.75rem;
+			padding-top: 1.75rem;
+			border-top: 1px solid var(--warm-100);
+		}
+
+		.legal-body h2 {
+			font-size: 1.3rem;
+			margin-bottom: 0.6rem;
+		}
+
+		.legal-body p {
+			font-size: 0.9875rem;
+			line-height: 1.75;
+			color: var(--warm-600);
+		}
+
+		.legal-body p + p {
+			margin-top: 0.75rem;
+		}
+
+		@media (max-width: 900px) {
+			.legal-layout {
+				grid-template-columns: 1fr;
+			}
+
+			.legal-toc {
+				position: static;
+			}
+
+			.toc-list {
+				flex-direction: row;
+				flex-wrap: wrap;
+				gap: 0.4rem;
+			}
+
+			.toc-link {
+				min-height: auto;
+				padding: 0.4rem 0.65rem;
+				border: 1px solid var(--warm-200);
+				border-radius: 0.5rem;
+				background: var(--warm-50);
+				font-size: 0.75rem;
+			}
+
+			.toc-index {
+				display: none;
+			}
+
+			.toc-related {
+				margin-top: 0.85rem;
+			}
+		}
+
+		@media (max-width: 640px) {
+			.legal-page {
+				padding-top: 1.25rem;
+			}
+
+			.legal-hero {
+				align-items: flex-start;
+			}
+
+			.legal-body h2 {
+				font-size: 1.15rem;
+			}
+		}
+	</style>
+</SiteLayout>

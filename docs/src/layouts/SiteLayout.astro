@@ -4,7 +4,7 @@ import '../styles/site.css';
 interface Props {
 	title: string;
 	description: string;
-	active?: 'explore' | 'categories' | 'browse';
+	active?: 'explore' | 'categories' | 'browse' | 'none';
 }
 
 const { title, description, active = 'explore' } = Astro.props;
@@ -24,11 +24,15 @@ const navItems = [
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
-		<link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
-		<link rel="icon" href={`${base}favicon.ico`} />
+		<meta name="theme-color" content="#e05d26" />
+		<link rel="icon" href={`${base}favicon.ico`} sizes="any" />
+		<link rel="icon" type="image/png" sizes="32x32" href={`${base}favicon-32.png`} />
+		<link rel="icon" type="image/png" sizes="16x16" href={`${base}favicon-16.png`} />
+		<link rel="apple-touch-icon" sizes="180x180" href={`${base}apple-touch-icon.png`} />
+		<link rel="manifest" href={`${base}site.webmanifest`} />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body data-page={active}>
 		<a class="skip-link" href="#main">Skip to content</a>
 
 		<header class="site-header">
@@ -49,11 +53,7 @@ const navItems = [
 
 				<nav class="site-nav" aria-label="Global navigation">
 					{navItems.map((item) => (
-						<a
-							class:list={['nav-link', item.id === active && 'is-active']}
-							href={item.href}
-							aria-current={item.id === active ? 'page' : undefined}
-						>
+						<a class="nav-link" data-nav={item.id} href={item.href}>
 							{item.label}
 						</a>
 					))}
@@ -100,5 +100,53 @@ const navItems = [
 				</div>
 			</div>
 		</footer>
+
+		<script is:inline>
+			(() => {
+				const links = Array.from(document.querySelectorAll('.site-nav .nav-link[data-nav]'));
+				if (!links.length) return;
+
+				const pagePath = window.location.pathname.replace(/\/index\.html$/, '/');
+				const isCatalog = pagePath === '/' || pagePath === '';
+				const defaultNav = document.body.dataset.page ?? '';
+
+				// Hash wins over the path, so /index.html and / behave the same.
+				const apply = (hash) => {
+					let matched = false;
+
+					for (const link of links) {
+						const linkHash = new URL(link.href, window.location.href).hash;
+						const isActive = hash ? linkHash === hash : linkHash === '' && isCatalog;
+
+						if (isActive) matched = true;
+						if (isActive) {
+							link.setAttribute('aria-current', 'page');
+						} else {
+							link.removeAttribute('aria-current');
+						}
+					}
+
+					if (matched) return;
+
+					for (const link of links) {
+						if (link.dataset.nav === defaultNav) {
+							link.setAttribute('aria-current', 'page');
+						}
+					}
+				};
+
+				const sync = () => apply(window.location.hash);
+
+				for (const link of links) {
+					link.addEventListener('click', () => {
+						apply(new URL(link.href, window.location.href).hash);
+					});
+				}
+
+				sync();
+				window.addEventListener('hashchange', sync);
+				window.addEventListener('pageshow', sync);
+			})();
+		</script>
 	</body>
 </html>

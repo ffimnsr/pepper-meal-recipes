@@ -288,9 +288,23 @@ ol {
 	box-shadow: 0 0 0 4px rgba(224, 93, 38, 0.15);
 }
 
+/* Native select arrows sit flush against the border in Chrome/Safari and
+   ignore padding-right, so we draw our own chevron with room to breathe. */
 select.field {
-	padding-right: 2rem;
+	padding-right: 2.75rem;
 	cursor: pointer;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%236b625b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: right 1rem center;
+	background-size: 1rem 1rem;
+	text-overflow: ellipsis;
+}
+
+select.field::-ms-expand {
+	display: none;
 }
 
 .panel {
@@ -443,7 +457,17 @@ select.field {
 	color: var(--warm-900);
 }
 
-.nav-link.is-active {
+/*
+ * Active state is driven by CSS so it is correct on first paint, even before
+ * the page scripts run: :target reflects the URL fragment immediately, and the
+ * page-level `data-page` value covers hash-less loads. The script in
+ * SiteLayout only adds aria-current for assistive technology.
+ */
+.nav-link[aria-current='page'],
+body[data-page='explore']:not(:has(#highlights:target)):not(:has(#browse:target))
+	.nav-link[data-nav='explore'],
+body:has(#highlights:target) .nav-link[data-nav='categories'],
+body:has(#browse:target) .nav-link[data-nav='browse'] {
 	background: var(--warm-100);
 	border-color: var(--warm-200);
 	color: var(--warm-900);
