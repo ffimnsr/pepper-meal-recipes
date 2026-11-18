@@ -5,6 +5,7 @@ import categoriesIndex from '../../../recipes/v1/indexes/categories.index.json';
 import tagsIndex from '../../../recipes/v1/indexes/tags.index.json';
 import ingredientsIndex from '../../../recipes/v1/indexes/ingredients.index.json';
 import { CARD_BATCH_SIZE } from '../lib/catalog';
+import { formatLabel } from '../lib/labels';
 
 const base = import.meta.env.BASE_URL;
 
@@ -20,6 +21,16 @@ const tags = [...tagsIndex.tags]
 	.filter((tag) => tag.recipe_count > 1)
 	.sort((a, b) => b.recipe_count - a.recipe_count)
 	.slice(0, 10);
+
+// Catalog names are not case-consistent, so both filter lists display a
+// normalized label and sort by what the reader actually sees.
+const categoryOptions = categoriesIndex.categories
+	.map((category) => ({ slug: category.slug, label: formatLabel(category.name) }))
+	.sort((a, b) => a.label.localeCompare(b.label));
+
+const tagOptions = tagsIndex.tags
+	.map((tag) => ({ slug: tag.slug, label: formatLabel(tag.name) }))
+	.sort((a, b) => a.label.localeCompare(b.label));
 
 const sortedTimes = recipes
 	.map((recipe) => recipe.total_time_minutes ?? 0)
@@ -154,7 +165,7 @@ const difficultyLabel = (value: string | null | undefined) => (value ? titleCase
 								data-category={category.slug}
 								aria-pressed="false"
 							>
-								<span>{category.name}</span>
+							<span>{category.name}</span>
 								<span class="chip-count">{category.recipe_count.toLocaleString()}</span>
 							</button>
 						))}
@@ -166,7 +177,7 @@ const difficultyLabel = (value: string | null | undefined) => (value ? titleCase
 					<div class="tag-row">
 						{tags.map((tag) => (
 							<button class="tag-chip" type="button" data-tag={tag.slug} aria-pressed="false">
-								#{titleCase(tag.name)} <span>({tag.recipe_count.toLocaleString()})</span>
+								#{formatLabel(tag.name)} <span>({tag.recipe_count.toLocaleString()})</span>
 							</button>
 						))}
 					</div>
@@ -201,19 +212,17 @@ const difficultyLabel = (value: string | null | undefined) => (value ? titleCase
 					<label class="sr-only" for="category-filter">Filter by category</label>
 					<select class="field" id="category-filter">
 						<option value="">All categories</option>
-						{categoriesIndex.categories
-							.slice()
-							.sort((a, b) => a.name.localeCompare(b.name))
-							.map((category) => <option value={category.slug}>{category.name}</option>)}
+						{categoryOptions.map((category) => (
+							<option value={category.slug}>{category.label}</option>
+						))}
 					</select>
 
 					<label class="sr-only" for="tag-filter">Filter by tag</label>
 					<select class="field" id="tag-filter">
 						<option value="">All tags</option>
-						{tagsIndex.tags
-							.slice()
-							.sort((a, b) => a.name.localeCompare(b.name))
-							.map((tag) => <option value={tag.slug}>{tag.name}</option>)}
+						{tagOptions.map((tag) => (
+							<option value={tag.slug}>{tag.label}</option>
+						))}
 					</select>
 
 					<label class="sr-only" for="difficulty-filter">Filter by difficulty</label>

@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import { formatLabel } from '../../lib/labels';
 import recipesIndex from '../../../../recipes/v1/indexes/recipes.index.json';
 
 const base = import.meta.env.BASE_URL;
@@ -323,7 +324,7 @@ const timerFor = (text: string): string | null => {
 
 				{categories.length ? (
 					<div class="panel-tags">
-						{categories.map((category) => <span class="tag-pill tag-pill-brand">{category.name}</span>)}
+						{categories.map((category) => <span class="tag-pill tag-pill-brand">{formatLabel(category.name)}</span>)}
 						<span class="tag-pill">{recipe.public ? 'Public recipe' : 'Private recipe'}</span>
 					</div>
 				) : null}
@@ -428,7 +429,7 @@ const timerFor = (text: string): string | null => {
 					<div class="tag-block">
 						<span class="tag-block-label">Categories</span>
 						<div class="tag-cloud">
-							{categories.map((category) => <span class="tag-pill tag-pill-brand">{category.name}</span>)}
+							{categories.map((category) => <span class="tag-pill tag-pill-brand">{formatLabel(category.name)}</span>)}
 						</div>
 					</div>
 				) : null}
@@ -437,7 +438,7 @@ const timerFor = (text: string): string | null => {
 					<div class="tag-block">
 						<span class="tag-block-label">Tags</span>
 						<div class="tag-cloud">
-							{tags.map((tag) => <span class="tag-pill">{tag.name}</span>)}
+							{tags.map((tag) => <span class="tag-pill">{formatLabel(tag.name)}</span>)}
 						</div>
 					</div>
 				) : null}
