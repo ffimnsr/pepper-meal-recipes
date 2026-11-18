@@ -16,12 +16,18 @@ Inside of your Astro project, you'll see the following folders and files:
 │   │   └── LegalPage.astro    shared legal/policy page layout
 │   ├── layouts/
 │   │   └── SiteLayout.astro   shared header, footer, and page head
+│   ├── lib/
+│   │   ├── catalog.ts         builds the compact catalog payload from the repo indexes
+│   │   └── catalog-types.ts   payload types shared with the browser
 │   ├── scripts/
-│   │   └── bookmarks.ts       saved recipes in localStorage
+│   │   ├── bookmarks.ts       saved recipes in localStorage
+│   │   └── catalog.ts         client-side search, filters, and card rendering
 │   ├── styles/
 │   │   └── site.css           design tokens and shared components
 │   └── pages/
 │       ├── index.astro        recipe catalog
+│       ├── catalog.json.ts    static JSON index used by the catalog page
+│       ├── sitemap.xml.ts     sitemap for the catalog and every recipe page
 │       ├── privacy-policy.astro
 │       ├── terms-and-conditions.astro
 │       └── recipes/[slug].astro
@@ -51,5 +57,7 @@ Commands are run from the `docs` directory with [Bun](https://bun.sh) (the versi
 
 - The browser is data-driven from the repo indexes, so new catalog revisions can be surfaced without manual page edits.
 - `recipes/v1/release.json` remains the source of truth for catalog versioning and sync metadata.
-- If you add more browser routes later, keep the root page focused on discovery and filtering.
-- Card covers are deferred until a card is revealed (`data-src`), and saved recipes are stored in `localStorage` under `pmp-saved-recipes`.
+- The catalog grid only server-renders the first 24 cards. Everything else comes from `catalog.json` (built at deploy time by `src/pages/catalog.json.ts`), which the page fetches on first search, filter, or idle time.
+- That payload is columnar and interned: category/tag/ingredient names live in dictionaries, and recipe UUIDs are not shipped at all — cover paths are rebuilt from the slug with UUIDv5, matching `py-scripts/generate_catalog.py`.
+- Because the grid no longer links every recipe in HTML, `sitemap.xml` lists all recipe pages for crawlers; it is referenced from `public/robots.txt`.
+- Saved recipes are stored in `localStorage` under `pmp-saved-recipes`; bookmark buttons are bound through event delegation so client-rendered cards work too.

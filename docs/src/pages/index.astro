@@ -4,6 +4,7 @@ import recipesIndex from '../../../recipes/v1/indexes/recipes.index.json';
 import categoriesIndex from '../../../recipes/v1/indexes/categories.index.json';
 import tagsIndex from '../../../recipes/v1/indexes/tags.index.json';
 import ingredientsIndex from '../../../recipes/v1/indexes/ingredients.index.json';
+import { CARD_BATCH_SIZE } from '../lib/catalog';
 
 const base = import.meta.env.BASE_URL;
 
@@ -252,35 +253,16 @@ const difficultyLabel = (value: string | null | undefined) => (value ? titleCase
 
 		<!-- Recipe grid -->
 		<section class="recipe-grid" id="recipe-grid" aria-label="Recipes">
-			{recipes.map((recipe, index) => {
+			{recipes.slice(0, CARD_BATCH_SIZE).map((recipe) => {
 				const categoryLabel = recipe.category_slugs.map((slug) => categoryNames.get(slug) ?? slug)[0] ?? recipe.recipe_type ?? 'Recipe';
-				const searchTerms = [
-					recipe.ingredient_names.join(' '),
-					recipe.category_slugs.join(' '),
-					recipe.tag_slugs.join(' '),
-					recipe.difficulty ?? '',
-					recipe.recipe_type ?? '',
-				]
-					.join(' ')
-					.replace(/-/g, ' ')
-					.toLowerCase();
 				const timeLabel = recipe.total_time_minutes ? `${recipe.total_time_minutes} min` : 'Time n/a';
-				const initialImage = index < 30;
 
 				return (
-					<article
-						class="recipe-card"
-						data-search={searchTerms}
-						data-categories={recipe.category_slugs.join(',')}
-						data-tags={recipe.tag_slugs.join(',')}
-						data-difficulty={recipe.difficulty ?? ''}
-						data-time={recipe.total_time_minutes ?? ''}
-					>
+					<article class="recipe-card">
 						<div class="card-media">
 							{recipe.image_url ? (
 								<img
-									src={initialImage ? recipe.image_url : undefined}
-									data-src={recipe.image_url}
+									src={recipe.image_url}
 									alt=""
 									loading="lazy"
 									decoding="async"
@@ -304,6 +286,7 @@ const difficultyLabel = (value: string | null | undefined) => (value ? titleCase
 								class="bookmark-btn"
 								type="button"
 								data-bookmark={recipe.slug}
+								data-name={recipe.name}
 								aria-pressed="false"
 								aria-label={`Save ${recipe.name}`}
 							>
@@ -348,169 +331,8 @@ const difficultyLabel = (value: string | null | undefined) => (value ? titleCase
 		</div>
 	</main>
 
-	<script is:inline>
-		const BATCH_SIZE = 24;
-
-		const searchInput = document.querySelector('#search');
-		const searchShortcut = document.querySelector('#search-shortcut');
-		const categoryFilter = document.querySelector('#category-filter');
-		const tagFilter = document.querySelector('#tag-filter');
-		const difficultyFilter = document.querySelector('#difficulty-filter');
-		const timeFilter = document.querySelector('#time-filter');
-		const resetButton = document.querySelector('#reset-filters');
-		const resultSummary = document.querySelector('#result-summary');
-		const loadMoreBtn = document.querySelector('#load-more-btn');
-		const loadMoreLabel = document.querySelector('#load-more-label');
-		const loadMoreHint = document.querySelector('#load-more-hint');
-		const cards = Array.from(document.querySelectorAll('.recipe-card'));
-		const normalize = (value) => String(value ?? '').trim().toLowerCase();
-
-		for (const card of cards) {
-			card.dataset.fullSearch = normalize(
-				[
-					card.dataset.search,
-					card.querySelector('.card-title')?.textContent,
-					card.querySelector('.card-description')?.textContent,
-				].join(' '),
-			);
-		}
-
-		let visibleLimit = BATCH_SIZE;
-		let matchingCards = [];
-
-		/* ------------------------------- rendering ----------------------------- */
-		const render = () => {
-			const totalMatching = matchingCards.length;
-			const renderedCount = Math.min(visibleLimit, totalMatching);
-
-			for (const card of cards) {
-				card.hidden = true;
-			}
-
-			for (let i = 0; i < renderedCount; i++) {
-				const card = matchingCards[i];
-				card.hidden = false;
-
-				const image = card.querySelector('img[data-src]');
-				if (image && !image.hasAttribute('src')) {
-					image.src = image.dataset.src;
-				}
-			}
-
-			if (totalMatching === 0) {
-				resultSummary.textContent = 'No recipes found matching your criteria.';
-			} else if (renderedCount < totalMatching) {
-				resultSummary.textContent = `Showing ${renderedCount.toLocaleString()} of ${totalMatching.toLocaleString()} matching recipes`;
-			} else if (totalMatching === cards.length) {
-				resultSummary.textContent = `Showing all ${totalMatching.toLocaleString()} recipes`;
-			} else {
-				resultSummary.textContent = `Showing all ${totalMatching.toLocaleString()} matching recipes`;
-			}
-
-			loadMoreLabel.textContent = `Load ${Math.min(BATCH_SIZE, totalMatching - renderedCount).toLocaleString()} more recipes`;
-			loadMoreHint.textContent =
-				totalMatching === 0
-					? 'No recipes to show'
-					: `Viewing ${renderedCount.toLocaleString()} of ${totalMatching.toLocaleString()} recipes`;
-
-			const hasMore = renderedCount < totalMatching;
-			loadMoreBtn.hidden = !hasMore;
-		};
-
-		const matchesTime = (minutes, filter) => {
-			if (!filter) return true;
-			if (filter === 'slow') return minutes >= 120;
-			const limit = Number(filter);
-			return Number.isFinite(limit) ? minutes > 0 && minutes <= limit : true;
-		};
-
-		const filterRecipes = () => {
-			const query = normalize(searchInput.value);
-			const selectedCategory = normalize(categoryFilter.value);
-			const selectedTag = normalize(tagFilter.value);
-			const selectedDifficulty = normalize(difficultyFilter.value);
-			const selectedTime = normalize(timeFilter.value);
-
-			matchingCards = cards.filter((card) => {
-				const searchTerms = card.dataset.fullSearch ?? '';
-				const categories = (card.dataset.categories ?? '').split(',').filter(Boolean);
-				const tags = (card.dataset.tags ?? '').split(',').filter(Boolean);
-				const difficulty = card.dataset.difficulty ?? '';
-				const minutes = Number(card.dataset.time ?? 0);
-
-				return (
-					(!query || searchTerms.includes(query)) &&
-					(!selectedCategory || categories.includes(selectedCategory)) &&
-					(!selectedTag || tags.includes(selectedTag)) &&
-					(!selectedDifficulty || difficulty === selectedDifficulty) &&
-					matchesTime(minutes, selectedTime)
-				);
-			});
-
-			for (const chip of document.querySelectorAll('[data-category]')) {
-				const isActive = Boolean(selectedCategory) && chip.dataset.category === selectedCategory;
-				chip.classList.toggle('is-active', isActive);
-				chip.setAttribute('aria-pressed', String(isActive));
-			}
-
-			for (const chip of document.querySelectorAll('[data-tag]')) {
-				const isActive = Boolean(selectedTag) && chip.dataset.tag === selectedTag;
-				chip.classList.toggle('is-active', isActive);
-				chip.setAttribute('aria-pressed', String(isActive));
-			}
-
-			visibleLimit = BATCH_SIZE;
-			render();
-		};
-
-		const loadMore = () => {
-			if (visibleLimit < matchingCards.length) {
-				visibleLimit += BATCH_SIZE;
-				render();
-			}
-		};
-
-		loadMoreBtn.addEventListener('click', loadMore);
-
-		for (const control of [searchInput, categoryFilter, tagFilter, difficultyFilter, timeFilter]) {
-			control.addEventListener('input', filterRecipes);
-			control.addEventListener('change', filterRecipes);
-		}
-
-		for (const chip of document.querySelectorAll('[data-category], [data-tag]')) {
-			chip.addEventListener('click', () => {
-				const select = chip.dataset.category ? categoryFilter : tagFilter;
-				const value = chip.dataset.category ?? chip.dataset.tag;
-
-				select.value = select.value === value ? '' : value;
-				filterRecipes();
-			});
-		}
-
-		resetButton.addEventListener('click', () => {
-			searchInput.value = '';
-			categoryFilter.value = '';
-			tagFilter.value = '';
-			difficultyFilter.value = '';
-			timeFilter.value = '';
-			filterRecipes();
-		});
-
-		const focusSearch = () => {
-			searchInput.focus();
-			searchInput.select();
-		};
-
-		searchShortcut.addEventListener('click', focusSearch);
-
-		document.addEventListener('keydown', (event) => {
-			if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
-				event.preventDefault();
-				focusSearch();
-			}
-		});
-
-		filterRecipes();
+	<script>
+		import '../scripts/catalog';
 	</script>
 
 	<script>

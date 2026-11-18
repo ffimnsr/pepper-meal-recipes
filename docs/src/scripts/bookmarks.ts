@@ -19,7 +19,7 @@ const persist = () => {
 	}
 };
 
-const buttons = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-bookmark]'));
+const buttons = () => Array.from(document.querySelectorAll<HTMLButtonElement>('[data-bookmark]'));
 
 const nameFor = (button: HTMLButtonElement): string =>
 	button.dataset.name ??
@@ -56,9 +56,23 @@ const toggle = (button: HTMLButtonElement) => {
 	persist();
 };
 
-for (const button of buttons) {
+for (const button of buttons()) {
 	paint(button);
-	button.addEventListener('click', () => toggle(button));
 }
+
+// Cards are re-rendered by the catalog script, so bind once at the document
+// level and repaint whenever a new batch lands.
+document.addEventListener('click', (event) => {
+	const target = event.target;
+	const button = target instanceof Element ? target.closest<HTMLButtonElement>('[data-bookmark]') : null;
+
+	if (button) toggle(button);
+});
+
+document.addEventListener('pmp:cards-rendered', () => {
+	for (const button of buttons()) {
+		paint(button);
+	}
+});
 
 export {};
