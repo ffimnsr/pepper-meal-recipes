@@ -12,8 +12,15 @@ Inside of your Astro project, you'll see the following folders and files:
 /
 ├── public/
 ├── src/
+│   ├── layouts/
+│   │   └── SiteLayout.astro   shared header, footer, and page head
+│   ├── scripts/
+│   │   └── bookmarks.ts       saved recipes in localStorage
+│   ├── styles/
+│   │   └── site.css           design tokens and shared components
 │   └── pages/
-│       └── index.astro
+│       ├── index.astro        recipe catalog
+│       └── recipes/[slug].astro
 └── package.json
 ```
 
@@ -41,3 +48,4 @@ All commands are run from the root of the project, from a terminal:
 - The browser is data-driven from the repo indexes, so new catalog revisions can be surfaced without manual page edits.
 - `recipes/v1/release.json` remains the source of truth for catalog versioning and sync metadata.
 - If you add more browser routes later, keep the root page focused on discovery and filtering.
+- Card covers are deferred until a card is revealed (`data-src`), and saved recipes are stored in `localStorage` under `pmp-saved-recipes`.

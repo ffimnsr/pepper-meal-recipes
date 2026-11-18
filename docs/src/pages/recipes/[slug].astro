@@ -1,8 +1,8 @@
 ---
-
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import SiteLayout from '../../layouts/SiteLayout.astro';
 import recipesIndex from '../../../../recipes/v1/indexes/recipes.index.json';
 
 const base = import.meta.env.BASE_URL;
@@ -69,407 +69,1375 @@ export function getStaticPaths() {
 }
 
 const { recipe } = Astro.props as { recipe: RecipeDetail };
-const totalTime = recipe.total_time_minutes ?? recipe.cooking_time_minutes ?? recipe.preparation_time_minutes ?? 0;
-const ingredientCount = recipe.ingredients.length;
-const stepCount = recipe.instructions.length;
-const formattedUpdatedAt = recipe.updated_at ? new Date(recipe.updated_at * 1000).toLocaleDateString() : 'Unknown';
-const relatedRecipes = recipesIndex.recipes.filter((entry) => recipe.related_recipe_ids.includes(entry.id)).slice(0, 6);
-const galleryImage = recipe.image_url ?? null;
-const formattedDifficulty = recipe.difficulty ? recipe.difficulty.charAt(0).toUpperCase() + recipe.difficulty.slice(1) : 'Unspecified';
 
+const totalTime = recipe.total_time_minutes ?? recipe.cooking_time_minutes ?? recipe.preparation_time_minutes ?? 0;
+const cookTime = recipe.cooking_time_minutes ?? null;
+const prepTime = recipe.preparation_time_minutes ?? null;
+const ingredientCount = recipe.ingredients.length;
+const steps = recipe.instructions.slice().sort((a, b) => a.position - b.position);
+const stepCount = steps.length;
+const servings = recipe.servings ?? 4;
+const galleryImage = recipe.image_url ?? null;
+const categories = recipe.categories ?? [];
+const tags = recipe.tags ?? [];
+const primaryCategory = categories[0]?.name ?? (recipe.recipe_type ? recipe.recipe_type : 'Recipe');
+const formattedDifficulty = recipe.difficulty
+	? recipe.difficulty.charAt(0).toUpperCase() + recipe.difficulty.slice(1)
+	: 'Unspecified';
+const formattedUpdatedAt = recipe.updated_at
+	? new Date(recipe.updated_at * 1000).toLocaleDateString('en-US', {
+			month: 'short',
+			day: 'numeric',
+			year: 'numeric',
+		})
+	: null;
+
+const relatedRecipes = recipesIndex.recipes.filter((entry) => recipe.related_recipe_ids.includes(entry.id)).slice(0, 6);
+
+const hasNotes = recipe.recipe_notes?.length || recipe.storage_notes?.length || recipe.equipment?.length;
+
+const parseQuantity = (value: string | null | undefined): number | null => {
+	if (!value) return null;
+	const cleaned = value.trim().replace(',', '.');
+	const mixed = cleaned.match(/^(\d+)\s+(\d+)\s*\/\s*(\d+)$/);
+	if (mixed) {
+		const whole = Number(mixed[1]);
+		const numerator = Number(mixed[2]);
+		const denominator = Number(mixed[3]);
+		return denominator ? whole + numerator / denominator : null;
+	}
+	const fraction = cleaned.match(/^(\d+)\s*\/\s*(\d+)$/);
+	if (fraction) {
+		const numerator = Number(fraction[1]);
+		const denominator = Number(fraction[2]);
+		return denominator ? numerator / denominator : null;
+	}
+	const numeric = Number(cleaned);
+	return Number.isFinite(numeric) ? numeric : null;
+};
+
+const fractionTable: Array<[number, string]> = [
+	[0, ''],
+	[0.125, '1/8'],
+	[0.25, '1/4'],
+	[1 / 3, '1/3'],
+	[0.375, '3/8'],
+	[0.5, '1/2'],
+	[0.625, '5/8'],
+	[2 / 3, '2/3'],
+	[0.75, '3/4'],
+	[0.875, '7/8'],
+];
+
+const formatAmount = (value: number): string => {
+	if (!Number.isFinite(value) || value <= 0) return '';
+	const whole = Math.floor(value);
+	const rest = value - whole;
+	let bestFraction = fractionTable[0];
+	for (const entry of fractionTable) {
+		if (Math.abs(rest - entry[0]) < Math.abs(rest - bestFraction[0])) {
+			bestFraction = entry;
+		}
+	}
+	const roundsUp = Math.abs(rest - 1) < 0.03;
+	const wholePart = roundsUp ? whole + 1 : whole;
+	const fractionPart = roundsUp || Math.abs(rest - bestFraction[0]) > 0.03 ? '' : bestFraction[1];
+	const fallback = String(Math.round(value * 100) / 100);
+
+	if (wholePart && fractionPart) return `${wholePart} ${fractionPart}`;
+	if (fractionPart) return fractionPart;
+	return wholePart ? String(wholePart) : fallback;
+};
+
+const timerFor = (text: string): string | null => {
+	const match = text.match(/\b\d+(?:\s*(?:to|-|–)\s*\d+)?\s*(?:minutes?|mins?|hours?|hrs?)\b/i);
+	return match ? match[0].replace(/\s+/g, ' ').trim() : null;
+};
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content={recipe.brief_description ?? recipe.name} />
-		<title>{recipe.name} · PMP Recipes</title>
-	</head>
-	<body>
-		<main class="page-shell">
-			<div class="breadcrumb">
-				<a href={base}>← Back to browse</a>
+<SiteLayout title={`${recipe.name} · Pepper Kitchen`} description={recipe.brief_description ?? recipe.name}>
+	<aside class="action-bar" aria-label="Recipe actions">
+		<div class="action-bar-inner">
+			<a class="back-link" href={`${base}#browse`}>
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+					<path d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" stroke-linecap="round" stroke-linejoin="round"></path>
+				</svg>
+				<span class="back-label">Back to recipes</span>
+			</a>
+
+			<div class="action-context">
+				<span class="action-category">{primaryCategory}</span>
+				<span class="action-title">{recipe.name}</span>
 			</div>
 
-			<section class="focus-hero">
-				<div class="focus-copy">
-					<p class="eyebrow">Focused recipe</p>
-					<h1>{recipe.name}</h1>
-					<p class="summary">{recipe.brief_description ?? 'No description available.'}</p>
+			<div class="action-buttons">
+				<button
+					class="action-btn"
+					id="save-btn"
+					type="button"
+					data-bookmark={recipe.slug}
+					data-name={recipe.name}
+					data-label="Save"
+					data-saved-label="Saved"
+					aria-pressed="false"
+				>
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+						<path
+							d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z"
+							stroke-linecap="round"
+							stroke-linejoin="round"></path>
+					</svg>
+					<span data-bookmark-label>Save</span>
+				</button>
 
-					<div class="meta-grid">
-						<div>
-							<span>Difficulty</span>
-							<strong>{formattedDifficulty}</strong>
+				<button class="action-btn" id="print-btn" type="button">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+						<path
+							d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z"
+							stroke-linecap="round"
+							stroke-linejoin="round"></path>
+					</svg>
+					<span class="action-btn-label">Print</span>
+				</button>
+
+				<a class="action-cta" href="#instructions-section">
+					<svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+						<path
+							clip-rule="evenodd"
+							fill-rule="evenodd"
+							d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"></path>
+					</svg>
+					<span>Start cooking</span>
+				</a>
+			</div>
+		</div>
+	</aside>
+
+	<main class="recipe-page" id="main">
+		<header class="hero-card">
+			<div class="hero-grid">
+				<div class="hero-copy">
+					<div class="hero-meta-row">
+						<span class="pill">Focused recipe</span>
+						<span class="hero-meta">
+							{recipe.cuisine ?? 'Cuisine n/a'}{formattedUpdatedAt ? ` • Updated ${formattedUpdatedAt}` : ''}
+						</span>
+					</div>
+
+					<h1>{recipe.name}</h1>
+					<p class="hero-lede">{recipe.brief_description ?? 'No description available.'}</p>
+
+					<div class="telemetry">
+						<div class="telemetry-card">
+							<span class="telemetry-label">Difficulty</span>
+							<span class="telemetry-value">{formattedDifficulty}</span>
 						</div>
-						<div>
-							<span>Time</span>
-							<strong>{totalTime} min</strong>
+						<div class="telemetry-card">
+							<span class="telemetry-label">Cook time</span>
+							<span class="telemetry-value">{cookTime ? `${cookTime} min` : totalTime ? `${totalTime} min` : '—'}</span>
 						</div>
-						<div>
-							<span>Servings</span>
-							<strong>{recipe.servings ?? '—'}</strong>
+						<div class="telemetry-card">
+							<span class="telemetry-label">Ingredients</span>
+							<span class="telemetry-value">{ingredientCount} items</span>
 						</div>
-						<div>
-							<span>Ingredients</span>
-							<strong>{ingredientCount}</strong>
-						</div>
-						<div>
-							<span>Steps</span>
-							<strong>{stepCount}</strong>
+						<div class="telemetry-card">
+							<span class="telemetry-label">Prep steps</span>
+							<span class="telemetry-value">{stepCount} steps</span>
 						</div>
 					</div>
 				</div>
 
-				<div class="focus-art">
+				<div class="hero-art">
 					{galleryImage ? (
-						<img src={galleryImage} alt={recipe.name} loading="eager" />
+						<img src={galleryImage} alt={recipe.name} loading="eager" decoding="async" />
 					) : (
-						<div class="image-fallback">
-							<p>No image available</p>
+						<div class="hero-art-fallback">
+							<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+								<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+							</svg>
+							<span>No image available</span>
 						</div>
 					)}
-					<div class="art-foot">
-						<span>{recipe.cuisine ?? 'Cuisine not specified'}</span>
-						<span>Updated {formattedUpdatedAt}</span>
+				</div>
+			</div>
+		</header>
+
+		<div class="content-grid">
+			<!-- Ingredients -->
+			<section class="ingredients-panel panel" id="servings-panel" data-base-servings={servings} aria-labelledby="ingredients-heading">
+				<div class="panel-head">
+					<div>
+						<h2 id="ingredients-heading">Ingredients</h2>
+						<p class="panel-sub">Click any row to check it off</p>
+					</div>
+
+					<div class="stepper">
+						<span class="stepper-label">Serves</span>
+						<button class="stepper-btn" id="servings-decrement" type="button" aria-label="Decrease servings">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
+								<path d="M19.5 12h-15" stroke-linecap="round" stroke-linejoin="round"></path>
+							</svg>
+						</button>
+						<span class="stepper-value" id="servings-count">{servings}</span>
+						<button class="stepper-btn" id="servings-increment" type="button" aria-label="Increase servings">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
+								<path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path>
+							</svg>
+						</button>
 					</div>
 				</div>
-		</section>
 
-		<section class="content-grid">
-			<section class="panel">
-				<div class="panel-heading">
-					<h2>Ingredients</h2>
-					<p>Measured from the catalog payload.</p>
-				</div>
 				<ul class="ingredient-list">
-					{recipe.ingredients.map((ingredient) => (
-						<li>
-							<strong>
-								{ingredient.quantity ? `${ingredient.quantity} ` : ''}
-								{ingredient.unit ? `${ingredient.unit} ` : ''}
-								{ingredient.name}
-							</strong>
-							{ingredient.preparation ? <span>{ingredient.preparation}</span> : null}
-						</li>
-					))}
+					{recipe.ingredients.map((ingredient) => {
+						const baseAmount = parseQuantity(ingredient.quantity);
+						const displayQuantity = baseAmount === null ? (ingredient.quantity ?? '') : formatAmount(baseAmount);
+
+						return (
+							<li class="ingredient-item">
+								<label class="ingredient-label">
+									<input class="ingredient-checkbox" type="checkbox" />
+									<span class="ingredient-text">
+										<span class="ingredient-main">
+											{displayQuantity ? (
+												<strong
+													class="ingredient-amount"
+													data-amount
+													data-base={baseAmount === null ? undefined : String(baseAmount)}
+												>
+													{displayQuantity}
+												</strong>
+											) : null}
+											{ingredient.unit && displayQuantity ? (
+												<strong class="ingredient-unit">{ingredient.unit}</strong>
+											) : null}
+											<span class="ingredient-name">{ingredient.name}</span>
+										</span>
+										{ingredient.preparation ? (
+											<span class="ingredient-prep">{ingredient.preparation}</span>
+										) : null}
+									</span>
+								</label>
+							</li>
+						);
+					})}
 				</ul>
+
+				{categories.length ? (
+					<div class="panel-tags">
+						{categories.map((category) => <span class="tag-pill tag-pill-brand">{category.name}</span>)}
+						<span class="tag-pill">{recipe.public ? 'Public recipe' : 'Private recipe'}</span>
+					</div>
+				) : null}
 			</section>
 
-			<section class="panel">
-				<div class="panel-heading">
-					<h2>Instructions</h2>
-					<p>{stepCount} cooking steps</p>
+			<!-- Instructions -->
+			<section class="instructions" id="instructions-section" aria-labelledby="instructions-heading">
+				<div class="instructions-head panel">
+					<div>
+						<h2 id="instructions-heading">Instructions</h2>
+						<p class="panel-sub">{stepCount} sequential steps to the finished dish</p>
+					</div>
+					<span class="pill pill-step">Step-by-step</span>
 				</div>
-				<ol class="steps">
-					{recipe.instructions
-						.slice()
-						.sort((a, b) => a.position - b.position)
-						.map((step) => <li>{step.text}</li>)}
-				</ol>
-			</section>
 
-			<section class="panel compact">
-				<div class="panel-heading">
-					<h2>Catalog details</h2>
-					<p>Useful for browsing and sync.</p>
+				{steps.map((step) => {
+					const timer = timerFor(step.text);
+
+					return (
+						<article class="step-card panel">
+							<div class="step-body">
+								<span class="step-number" aria-hidden="true">{step.position}</span>
+								<div class="step-content">
+									<div class="step-heading">
+										<span class="step-eyebrow">Step {step.position}</span>
+										{timer ? (
+											<span class="step-timer">
+												<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+													<path d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+												{timer}
+											</span>
+										) : null}
+									</div>
+									<p class="step-text">{step.text}</p>
+								</div>
+							</div>
+						</article>
+					);
+				})}
+
+				<a class="finish-cta" href={base}>
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+						<path d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" stroke-linecap="round" stroke-linejoin="round"
+						></path>
+					</svg>
+					<span>Recipe finished! Back to all recipes</span>
+				</a>
+			</section>
+		</div>
+
+		{hasNotes ? (
+			<section class="notes-grid" aria-labelledby="notes-heading">
+				<div class="section-head">
+					<div>
+						<span class="eyebrow">Good to know</span>
+						<h2 id="notes-heading">Kitchen notes</h2>
+					</div>
 				</div>
-				<div class="detail-pills">
-					<span>{recipe.categories.map((category) => category.name).join(', ') || 'No categories'}</span>
-					<span>{recipe.tags.map((tag) => tag.name).join(', ') || 'No tags'}</span>
-					<span>{recipe.public ? 'Public recipe' : 'Private recipe'}</span>
+
+				<div class="notes-columns">
+					{recipe.recipe_notes?.length ? (
+						<article class="info-panel panel">
+							<h3>Recipe notes</h3>
+							<ul class="note-list">
+								{recipe.recipe_notes.map((note) => <li>{note}</li>)}
+							</ul>
+						</article>
+					) : null}
+
+					{recipe.storage_notes?.length ? (
+						<article class="info-panel panel">
+							<h3>Storage notes</h3>
+							<ul class="note-list">
+								{recipe.storage_notes.map((note) => <li>{note}</li>)}
+							</ul>
+						</article>
+					) : null}
+
+					{recipe.equipment?.length ? (
+						<article class="info-panel panel">
+							<h3>Equipment</h3>
+							<ul class="note-list">
+								{recipe.equipment.map((item) => <li>{item}</li>)}
+							</ul>
+						</article>
+					) : null}
+				</div>
+			</section>
+		) : null}
+
+		{categories.length || tags.length || recipe.source ? (
+			<section class="meta-panel panel" aria-labelledby="tags-heading">
+				<div class="panel-head">
+					<div>
+						<h2 id="tags-heading">Categories &amp; tags</h2>
+						<p class="panel-sub">How this recipe is filed in the catalog</p>
+					</div>
+					{recipe.source ? (
+						<a class="source-link" href={recipe.source.url} target="_blank" rel="noopener noreferrer">
+							Source: {recipe.source.name}
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+								<path d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" stroke-linecap="round" stroke-linejoin="round"
+								></path>
+							</svg>
+						</a>
+					) : null}
+				</div>
+
+				{categories.length ? (
+					<div class="tag-block">
+						<span class="tag-block-label">Categories</span>
+						<div class="tag-cloud">
+							{categories.map((category) => <span class="tag-pill tag-pill-brand">{category.name}</span>)}
+						</div>
+					</div>
+				) : null}
+
+				{tags.length ? (
+					<div class="tag-block">
+						<span class="tag-block-label">Tags</span>
+						<div class="tag-cloud">
+							{tags.map((tag) => <span class="tag-pill">{tag.name}</span>)}
+						</div>
+					</div>
+				) : null}
+
+				<div class="meta-foot">
 					<span>Revision {recipe.revision ?? '—'}</span>
+					{prepTime ? <span>{prepTime} min prep</span> : null}
+					{totalTime ? <span>{totalTime} min total</span> : null}
 				</div>
-
-				{recipe.recipe_notes.length ? (
-					<>
-						<h3>Recipe notes</h3>
-						<ul class="note-list">
-							{recipe.recipe_notes.map((note) => <li>{note}</li>)}
-						</ul>
-					</>
-				) : null}
-
-				{recipe.storage_notes.length ? (
-					<>
-						<h3>Storage notes</h3>
-						<ul class="note-list">
-							{recipe.storage_notes.map((note) => <li>{note}</li>)}
-						</ul>
-					</>
-				) : null}
 			</section>
-		</section>
+		) : null}
 
 		{relatedRecipes.length ? (
-			<section class="related-section">
-				<div class="panel-heading">
-					<h2>Related recipes</h2>
-					<p>Recipes linked from this item.</p>
+			<section class="related-section" aria-labelledby="related-heading">
+				<div class="section-head">
+					<div>
+						<span class="eyebrow">Keep cooking</span>
+						<h2 id="related-heading">Related recipes</h2>
+					</div>
 				</div>
+
 				<div class="related-grid">
 					{relatedRecipes.map((item) => (
-						<a class="related-card" href={`/recipes/${item.slug}/`}>
-							<h3>{item.name}</h3>
-							<p>{item.brief_description ?? 'Open recipe details'}</p>
+						<a class="related-card" href={`${base}recipes/${item.slug}/`}>
+							<div class="related-media">
+								{item.image_url ? (
+									<img src={item.image_url} alt="" loading="lazy" decoding="async" />
+								) : (
+									<span class="related-fallback" aria-hidden="true">
+										<svg viewBox="0 0 24 24" fill="currentColor">
+											<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+										</svg>
+									</span>
+								)}
+							</div>
+							<div class="related-body">
+								<h3>{item.name}</h3>
+								<p>{item.brief_description ?? 'Open recipe details'}</p>
+								<span class="related-meta">
+									{item.total_time_minutes ? `${item.total_time_minutes} min` : 'Time n/a'}
+									{item.difficulty ? ` • ${item.difficulty}` : ''}
+								</span>
+							</div>
 						</a>
 					))}
 				</div>
 			</section>
 		) : null}
-		</main>
+	</main>
 
-		<style>
-			:root {
-				color-scheme: light;
-				font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-				background: linear-gradient(180deg, #fffaf4 0%, #fff 100%);
-				color: #221813;
+	<script is:inline>
+		const formatAmount = (value) => {
+			if (!Number.isFinite(value) || value <= 0) return '';
+			const table = [0, 0.125, 0.25, 1 / 3, 0.375, 0.5, 0.625, 2 / 3, 0.75, 0.875];
+			const labels = ['', '1/8', '1/4', '1/3', '3/8', '1/2', '5/8', '2/3', '3/4', '7/8'];
+			const whole = Math.floor(value);
+			const rest = value - whole;
+			let bestIndex = 0;
+			for (let i = 0; i < table.length; i++) {
+				if (Math.abs(rest - table[i]) < Math.abs(rest - table[bestIndex])) {
+					bestIndex = i;
+				}
 			}
+			const roundsUp = Math.abs(rest - 1) < 0.03;
+			const wholePart = roundsUp ? whole + 1 : whole;
+			const fractionPart = roundsUp || Math.abs(rest - table[bestIndex]) > 0.03 ? '' : labels[bestIndex];
+			const fallback = String(Math.round(value * 100) / 100);
 
-			body {
-				margin: 0;
+			if (wholePart && fractionPart) return `${wholePart} ${fractionPart}`;
+			if (fractionPart) return fractionPart;
+			return wholePart ? String(wholePart) : fallback;
+		};
+
+		const panel = document.querySelector('#servings-panel');
+		const baseServings = Number(panel?.dataset.baseServings ?? 4) || 4;
+		const amountElements = Array.from(document.querySelectorAll('[data-amount]'));
+		const servingsCount = document.querySelector('#servings-count');
+		const decrement = document.querySelector('#servings-decrement');
+		const increment = document.querySelector('#servings-increment');
+
+		let currentServings = baseServings;
+
+		const updateServings = (next) => {
+			const clamped = Math.min(48, Math.max(1, next));
+			if (clamped === currentServings) return;
+			currentServings = clamped;
+			servingsCount.textContent = String(currentServings);
+			const ratio = currentServings / baseServings;
+
+			for (const element of amountElements) {
+				const base = Number(element.dataset.base);
+				if (!Number.isFinite(base)) continue;
+				element.textContent = formatAmount(base * ratio);
 			}
+		};
 
-			.page-shell {
-				max-width: 1180px;
-				margin: 0 auto;
-				padding: 2rem 1.25rem 4rem;
-			}
+		decrement?.addEventListener('click', () => updateServings(currentServings - 1));
+		increment?.addEventListener('click', () => updateServings(currentServings + 1));
 
-			.breadcrumb a {
-				color: #7f4b24;
-				font-weight: 700;
-				text-decoration: none;
-			}
+		document.querySelector('#print-btn')?.addEventListener('click', () => window.print());
+	</script>
 
-			.focus-hero,
-			.panel,
-			.related-card {
-				background: rgba(255, 255, 255, 0.9);
-				border: 1px solid rgba(102, 64, 32, 0.12);
-				box-shadow: 0 18px 50px rgba(58, 28, 12, 0.08);
-				border-radius: 1.75rem;
-			}
+	<script>
+		import '../../scripts/bookmarks';
+	</script>
 
-			.focus-hero {
-				display: grid;
-				grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
-				gap: 1.25rem;
-				padding: 1.25rem;
-				margin-top: 1rem;
-			}
+	<style is:global>
+		/* ----------------------------- action bar ---------------------------- */
 
-			.focus-copy,
-			.focus-art,
-			.panel {
-				padding: 1.25rem;
-			}
+		.action-bar {
+			position: sticky;
+			top: var(--header-height);
+			z-index: 30;
+			background: rgba(255, 255, 255, 0.96);
+			backdrop-filter: blur(12px);
+			border-bottom: 1px solid rgba(237, 231, 222, 0.9);
+			box-shadow: var(--shadow-xs);
+		}
 
-			h1,
-			h2,
-			h3,
-			p,
-			ul,
-			ol {
-				margin-top: 0;
-			}
+		.action-bar-inner {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+			width: 100%;
+			max-width: var(--page-width);
+			margin: 0 auto;
+			padding: 0.75rem var(--gutter);
+		}
 
-			.eyebrow {
-				margin: 0 0 0.75rem;
-				text-transform: uppercase;
-				letter-spacing: 0.18em;
-				font-size: 0.78rem;
-				color: #a4551d;
-				font-weight: 700;
-			}
+		.back-link {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			min-height: 2.75rem;
+			padding: 0.5rem 0.9rem;
+			border-radius: var(--radius-sm);
+			background: var(--warm-100);
+			color: var(--warm-800);
+			font-size: 0.875rem;
+			font-weight: 500;
+			text-decoration: none;
+			transition: background-color 160ms ease;
+		}
 
-			h1 {
-				font-size: clamp(2.5rem, 6vw, 4.75rem);
-				line-height: 0.96;
-				margin-bottom: 0.9rem;
-			}
+		.back-link svg {
+			width: 1rem;
+			height: 1rem;
+		}
 
-			.summary {
-				font-size: 1.06rem;
-				line-height: 1.7;
-				color: #5d4638;
-				max-width: 62ch;
-			}
+		.back-link:hover {
+			background: var(--warm-200);
+		}
 
-			.meta-grid {
-				display: grid;
-				grid-template-columns: repeat(3, minmax(0, 1fr));
-				gap: 0.75rem;
-				margin-top: 1.5rem;
-			}
+		.action-context {
+			display: flex;
+			flex-direction: column;
+			min-width: 0;
+			text-align: center;
+		}
 
-			.meta-grid div,
-			.detail-pills span {
-				background: #fff7f0;
-				border-radius: 1rem;
-				padding: 0.85rem 1rem;
-			}
+		.action-category {
+			font-size: 0.6875rem;
+			font-weight: 600;
+			letter-spacing: 0.12em;
+			text-transform: uppercase;
+			color: var(--brand-600);
+		}
 
-			.meta-grid span,
-			.panel-heading p,
-			.source,
-			.note-list,
-			.steps,
-			.ingredient-list {
-				color: #6d5547;
-			}
+		.action-title {
+			font-family: var(--font-serif);
+			font-size: 1rem;
+			font-weight: 700;
+			color: var(--warm-900);
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
 
-			.meta-grid span {
-				display: block;
-				font-size: 0.8rem;
-				text-transform: uppercase;
-				letter-spacing: 0.1em;
-				font-weight: 800;
-				margin-bottom: 0.35rem;
-			}
+		.action-buttons {
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+			flex-shrink: 0;
+		}
 
-			.focus-art {
-				display: grid;
-				gap: 0.75rem;
-			}
+		.action-btn,
+		.action-cta {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			min-height: 2.75rem;
+			padding: 0.5rem 1rem;
+			border-radius: var(--radius-sm);
+			font-size: 0.875rem;
+			font-weight: 600;
+			text-decoration: none;
+			cursor: pointer;
+			transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+		}
 
-			.focus-art img,
-			.image-fallback {
-				width: 100%;
-				aspect-ratio: 4 / 3;
-				object-fit: cover;
-				border-radius: 1.4rem;
-				background: #f4e6d8;
-			}
+		.action-btn {
+			border: 1px solid var(--warm-200);
+			background: #fff;
+			color: var(--warm-800);
+			box-shadow: var(--shadow-xs);
+		}
 
-			.focus-art img {
-				display: block;
-			}
+		.action-btn:hover {
+			background: var(--warm-50);
+			border-color: var(--brand-300);
+		}
 
-			.image-fallback {
-				display: grid;
-				place-items: center;
-				font-weight: 700;
-				color: #865335;
-			}
+		.action-btn.is-saved {
+			background: var(--brand-50);
+			border-color: var(--brand-300);
+			color: var(--brand-700);
+		}
 
-			.art-foot {
-				display: flex;
-				justify-content: space-between;
-				gap: 1rem;
-				flex-wrap: wrap;
-				font-size: 0.92rem;
-				color: #6d5547;
-			}
+		.action-btn.is-saved svg {
+			fill: currentColor;
+		}
 
+		.action-btn svg,
+		.action-cta svg {
+			width: 1.05rem;
+			height: 1.05rem;
+		}
+
+		.action-cta {
+			border: 1px solid var(--brand-500);
+			background: var(--brand-500);
+			color: #fff;
+			box-shadow: 0 10px 20px -12px rgba(224, 93, 38, 0.8);
+		}
+
+		.action-cta:hover {
+			background: var(--brand-600);
+			border-color: var(--brand-600);
+		}
+
+		/* ------------------------------- page -------------------------------- */
+
+		.recipe-page {
+			width: 100%;
+			max-width: var(--page-width);
+			margin: 0 auto;
+			padding: 2rem var(--gutter) 1rem;
+			display: flex;
+			flex-direction: column;
+			gap: 2.5rem;
+		}
+
+		.hero-card {
+			padding: clamp(1.25rem, 3vw, 2.5rem);
+			background: #fff;
+			border: 1px solid var(--warm-200);
+			border-radius: var(--radius-lg);
+			box-shadow: var(--shadow-sm);
+		}
+
+		.hero-grid {
+			display: grid;
+			grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+			gap: clamp(1.5rem, 4vw, 3rem);
+			align-items: center;
+		}
+
+		.hero-copy {
+			display: flex;
+			flex-direction: column;
+			gap: 1.1rem;
+		}
+
+		.hero-meta-row {
+			display: flex;
+			align-items: center;
+			gap: 0.75rem;
+			flex-wrap: wrap;
+		}
+
+		.hero-meta {
+			font-size: 0.75rem;
+			font-weight: 500;
+			color: var(--ink-faint);
+		}
+
+		.hero-copy h1 {
+			font-size: clamp(1.9rem, 3.4vw, 2.9rem);
+			font-weight: 800;
+			line-height: 1.08;
+		}
+
+		.hero-lede {
+			font-size: 1.0625rem;
+			line-height: 1.65;
+			color: var(--warm-600);
+			max-width: 62ch;
+		}
+
+		.telemetry {
+			display: grid;
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+			gap: 0.6rem;
+			margin-top: 0.35rem;
+		}
+
+		.telemetry-card {
+			padding: 0.9rem 0.75rem;
+			border: 1px solid var(--warm-200);
+			border-radius: var(--radius-md);
+			background: var(--warm-50);
+			text-align: center;
+			transition: border-color 160ms ease, background-color 160ms ease;
+		}
+
+		.telemetry-card:hover {
+			border-color: var(--brand-200);
+			background: var(--brand-50);
+		}
+
+		.telemetry-label {
+			display: block;
+			font-size: 0.625rem;
+			font-weight: 600;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			color: var(--ink-faint);
+		}
+
+		.telemetry-value {
+			display: block;
+			margin-top: 0.3rem;
+			font-family: var(--font-serif);
+			font-size: 1.125rem;
+			font-weight: 700;
+			color: var(--warm-900);
+		}
+
+		.hero-art {
+			position: relative;
+			aspect-ratio: 4 / 3;
+			border-radius: var(--radius-md);
+			overflow: hidden;
+			border: 4px solid var(--warm-100);
+			box-shadow: var(--shadow-lg);
+			background: var(--warm-100);
+		}
+
+		.hero-art img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 500ms ease;
+		}
+
+		.hero-art:hover img {
+			transform: scale(1.04);
+		}
+
+		.hero-art-fallback {
+			display: grid;
+			place-items: center;
+			gap: 0.5rem;
+			height: 100%;
+			background: linear-gradient(135deg, var(--warm-100), var(--brand-100));
+			color: var(--brand-600);
+			font-size: 0.8125rem;
+			font-weight: 600;
+			text-align: center;
+			padding: 1rem;
+		}
+
+		.hero-art-fallback svg {
+			width: 3rem;
+			height: 3rem;
+			opacity: 0.5;
+		}
+
+		/* ----------------------------- content grid --------------------------- */
+
+		.content-grid {
+			display: grid;
+			grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+			gap: 1.5rem;
+			align-items: start;
+		}
+
+		.ingredients-panel {
+			position: sticky;
+			top: calc(var(--header-height) + 4.75rem);
+			max-height: calc(100vh - var(--header-height) - 6rem);
+			overflow-y: auto;
+			padding: 1.5rem;
+		}
+
+		.panel-head {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+			flex-wrap: wrap;
+			padding-bottom: 1.1rem;
+			border-bottom: 1px solid var(--warm-100);
+		}
+
+		.panel-head h2,
+		.instructions-head h2 {
+			font-size: 1.5rem;
+		}
+
+		.panel-sub {
+			margin-top: 0.2rem;
+			font-size: 0.75rem;
+			color: var(--ink-faint);
+		}
+
+		.stepper {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.4rem;
+			padding: 0.3rem;
+			border: 1px solid var(--warm-200);
+			border-radius: var(--radius-md);
+			background: var(--warm-100);
+		}
+
+		.stepper-label {
+			padding: 0 0.35rem;
+			font-size: 0.625rem;
+			font-weight: 700;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--warm-600);
+		}
+
+		.stepper-btn {
+			display: grid;
+			place-items: center;
+			width: 2.25rem;
+			height: 2.25rem;
+			border: 1px solid rgba(237, 231, 222, 0.8);
+			border-radius: var(--radius-sm);
+			background: #fff;
+			color: var(--warm-800);
+			cursor: pointer;
+			box-shadow: var(--shadow-xs);
+			transition: background-color 160ms ease, color 160ms ease, transform 120ms ease;
+		}
+
+		.stepper-btn svg {
+			width: 0.9rem;
+			height: 0.9rem;
+		}
+
+		.stepper-btn:hover {
+			background: var(--brand-50);
+			color: var(--brand-600);
+		}
+
+		.stepper-btn:active {
+			transform: scale(0.92);
+		}
+
+		.stepper-value {
+			min-width: 1.75rem;
+			text-align: center;
+			font-family: var(--font-serif);
+			font-size: 1rem;
+			font-weight: 700;
+			color: var(--warm-900);
+		}
+
+		.ingredient-list {
+			margin-top: 0.5rem;
+		}
+
+		.ingredient-item {
+			border-bottom: 1px solid var(--warm-100);
+			border-radius: var(--radius-sm);
+			transition: background-color 160ms ease;
+		}
+
+		.ingredient-item:hover {
+			background: rgba(254, 237, 220, 0.4);
+		}
+
+		.ingredient-label {
+			display: flex;
+			align-items: flex-start;
+			gap: 0.85rem;
+			padding: 0.75rem 0.5rem;
+			cursor: pointer;
+			user-select: none;
+		}
+
+		.ingredient-checkbox {
+			flex-shrink: 0;
+			width: 1.15rem;
+			height: 1.15rem;
+			margin-top: 0.15rem;
+			accent-color: var(--brand-500);
+			cursor: pointer;
+		}
+
+		.ingredient-text {
+			font-size: 0.9375rem;
+			line-height: 1.45;
+			color: var(--warm-900);
+			transition: color 160ms ease;
+		}
+
+		.ingredient-amount,
+		.ingredient-unit {
+			font-weight: 700;
+		}
+
+		.ingredient-amount {
+			margin-right: 0.3rem;
+		}
+
+		.ingredient-unit {
+			margin-right: 0.3rem;
+		}
+
+		.ingredient-checkbox:checked ~ .ingredient-text {
+			text-decoration: line-through;
+			color: var(--warm-300);
+		}
+
+		.ingredient-prep {
+			display: block;
+			margin-top: 0.1rem;
+			font-size: 0.75rem;
+			color: var(--ink-faint);
+		}
+
+		.panel-tags {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.4rem;
+			margin-top: 1.25rem;
+			padding-top: 1.1rem;
+			border-top: 1px solid var(--warm-100);
+		}
+
+		.tag-pill {
+			padding: 0.25rem 0.6rem;
+			border-radius: 0.5rem;
+			background: var(--warm-100);
+			color: var(--warm-700);
+			font-size: 0.75rem;
+			font-weight: 500;
+		}
+
+		.tag-pill-brand {
+			background: var(--brand-100);
+			color: var(--brand-700);
+			font-weight: 600;
+		}
+
+		/* ---------------------------- instructions --------------------------- */
+
+		.instructions {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+			scroll-margin-top: calc(var(--header-height) + 5rem);
+		}
+
+		.instructions-head {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+			padding: 1.5rem;
+		}
+
+		.pill-step {
+			background: #d1fae5;
+			color: #065f46;
+			letter-spacing: 0.04em;
+		}
+
+		.step-card {
+			padding: 1.5rem;
+			transition: box-shadow 180ms ease;
+		}
+
+		.step-card:hover {
+			box-shadow: var(--shadow-md);
+		}
+
+		.step-body {
+			display: flex;
+			align-items: flex-start;
+			gap: 1rem;
+		}
+
+		.step-number {
+			display: grid;
+			place-items: center;
+			flex-shrink: 0;
+			width: 2.5rem;
+			height: 2.5rem;
+			border-radius: var(--radius-md);
+			background: var(--brand-500);
+			color: #fff;
+			font-family: var(--font-serif);
+			font-size: 1.125rem;
+			font-weight: 700;
+			box-shadow: var(--shadow-sm);
+		}
+
+		.step-content {
+			flex: 1;
+			min-width: 0;
+		}
+
+		.step-heading {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 0.75rem;
+			flex-wrap: wrap;
+			margin-bottom: 0.35rem;
+		}
+
+		.step-eyebrow {
+			font-size: 0.6875rem;
+			font-weight: 700;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			color: var(--ink-faint);
+		}
+
+		.step-timer {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.35rem;
+			padding: 0.2rem 0.65rem;
+			border-radius: 999px;
+			background: #fef3c7;
+			color: #92400e;
+			font-size: 0.75rem;
+			font-weight: 600;
+		}
+
+		.step-timer svg {
+			width: 0.9rem;
+			height: 0.9rem;
+		}
+
+		.step-text {
+			font-size: 1rem;
+			line-height: 1.7;
+			color: rgba(45, 40, 37, 0.9);
+		}
+
+		.finish-cta {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.75rem;
+			min-height: 3.75rem;
+			padding: 1rem 1.5rem;
+			border-radius: var(--radius-md);
+			background: var(--warm-900);
+			color: #fff;
+			font-size: 1.0625rem;
+			font-weight: 600;
+			text-decoration: none;
+			box-shadow: var(--shadow-lg);
+			transition: background-color 160ms ease, transform 120ms ease;
+		}
+
+		.finish-cta svg {
+			width: 1.5rem;
+			height: 1.5rem;
+			color: var(--brand-500);
+			flex-shrink: 0;
+		}
+
+		.finish-cta:hover {
+			background: #000;
+		}
+
+		.finish-cta:active {
+			transform: scale(0.995);
+		}
+
+		/* ------------------------------ sections ----------------------------- */
+
+		.section-head {
+			margin-bottom: 1rem;
+		}
+
+		.section-head h2 {
+			margin-top: 0.25rem;
+			font-size: 1.5rem;
+		}
+
+		.notes-columns {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+			gap: 1rem;
+		}
+
+		.info-panel {
+			padding: 1.5rem;
+		}
+
+		.info-panel h3 {
+			font-size: 1.125rem;
+			margin-bottom: 0.75rem;
+		}
+
+		.note-list {
+			display: flex;
+			flex-direction: column;
+			gap: 0.6rem;
+			font-size: 0.9375rem;
+			line-height: 1.65;
+			color: var(--warm-600);
+		}
+
+		.note-list li {
+			position: relative;
+			padding-left: 1rem;
+		}
+
+		.note-list li::before {
+			content: '';
+			position: absolute;
+			top: 0.6em;
+			left: 0;
+			width: 0.35rem;
+			height: 0.35rem;
+			border-radius: 999px;
+			background: var(--brand-300);
+		}
+
+		.meta-panel {
+			padding: 1.5rem;
+		}
+
+		.source-link {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.4rem;
+			font-size: 0.8125rem;
+			font-weight: 600;
+			color: var(--brand-700);
+			text-decoration: none;
+		}
+
+		.source-link svg {
+			width: 0.9rem;
+			height: 0.9rem;
+		}
+
+		.source-link:hover {
+			text-decoration: underline;
+			text-underline-offset: 3px;
+		}
+
+		.tag-block {
+			display: grid;
+			gap: 0.5rem;
+			margin-top: 1.1rem;
+		}
+
+		.tag-block-label {
+			font-size: 0.6875rem;
+			font-weight: 700;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			color: var(--ink-faint);
+		}
+
+		.tag-cloud {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.4rem;
+		}
+
+		.meta-foot {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1rem;
+			margin-top: 1.5rem;
+			padding-top: 1.1rem;
+			border-top: 1px solid var(--warm-100);
+			font-size: 0.75rem;
+			color: var(--ink-faint);
+		}
+
+		/* ------------------------------ related ------------------------------ */
+
+		.related-grid {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 1rem;
+		}
+
+		.related-card {
+			display: flex;
+			flex-direction: column;
+			overflow: hidden;
+			background: #fff;
+			border: 1px solid var(--warm-200);
+			border-radius: var(--radius-lg);
+			box-shadow: var(--shadow-xs);
+			text-decoration: none;
+			color: inherit;
+			transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+		}
+
+		.related-card:hover,
+		.related-card:focus-visible {
+			transform: translateY(-3px);
+			box-shadow: var(--shadow-md);
+			border-color: rgba(224, 93, 38, 0.28);
+			outline: none;
+		}
+
+		.related-media {
+			aspect-ratio: 16 / 9;
+			background: var(--warm-100);
+			overflow: hidden;
+		}
+
+		.related-media img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 320ms ease;
+		}
+
+		.related-card:hover .related-media img {
+			transform: scale(1.05);
+		}
+
+		.related-fallback {
+			display: grid;
+			place-items: center;
+			height: 100%;
+			color: var(--brand-300);
+			background: linear-gradient(135deg, var(--warm-100), var(--brand-100));
+		}
+
+		.related-fallback svg {
+			width: 2rem;
+			height: 2rem;
+		}
+
+		.related-body {
+			padding: 1rem 1.1rem 1.25rem;
+		}
+
+		.related-body h3 {
+			font-size: 1.0625rem;
+			line-height: 1.35;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		.related-body p {
+			margin-top: 0.4rem;
+			font-size: 0.8125rem;
+			line-height: 1.55;
+			color: var(--warm-600);
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		.related-meta {
+			display: block;
+			margin-top: 0.6rem;
+			font-size: 0.6875rem;
+			font-weight: 600;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+			color: var(--brand-700);
+		}
+
+		/* ----------------------------- responsive ---------------------------- */
+
+		@media (max-width: 1000px) {
+			.hero-grid,
 			.content-grid {
-				display: grid;
-				grid-template-columns: 1.05fr 1.2fr 0.85fr;
-				gap: 1rem;
-				margin-top: 1rem;
+				grid-template-columns: 1fr;
 			}
 
-			.panel-heading {
-				margin-bottom: 1rem;
+			.hero-art {
+				order: -1;
+				max-width: 32rem;
 			}
 
-			.panel-heading h2 {
-				margin-bottom: 0.25rem;
+			.ingredients-panel {
+				position: static;
+				max-height: none;
+				overflow: visible;
 			}
 
-			.ingredient-list,
-			.steps,
-			.note-list {
-				padding-left: 1.2rem;
+			.telemetry {
+				grid-template-columns: repeat(4, minmax(0, 1fr));
 			}
+		}
 
-			.ingredient-list li,
-			.steps li,
-			.note-list li {
-				margin-bottom: 0.85rem;
-				line-height: 1.6;
-			}
-
-			.ingredient-list strong {
-				display: block;
-				color: #241811;
-			}
-
-			.detail-pills {
-				display: grid;
-				gap: 0.6rem;
-				margin-bottom: 1rem;
-			}
-
-			.detail-pills span,
-			.ingredient-list li,
-			.steps li,
-			.note-list li,
-			.source,
-			.panel-heading p {
-				color: #5f4a3d;
-			}
-
-			.compact h3 {
-				margin: 1rem 0 0.5rem;
-			}
-
-			.detail-pills span {
-				font-weight: 700;
-			}
-
-			.related-section {
-				margin-top: 1rem;
+		@media (max-width: 860px) {
+			.action-context {
+				display: none;
 			}
 
 			.related-grid {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-				gap: 0.85rem;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
+		}
+
+		@media (max-width: 640px) {
+			.recipe-page {
+				padding-top: 1.25rem;
+				gap: 2rem;
 			}
 
-			.related-card {
-				padding: 1rem;
-				text-decoration: none;
-				color: inherit;
-				transition: transform 140ms ease, box-shadow 140ms ease;
+			.telemetry {
+				grid-template-columns: repeat(2, minmax(0, 1fr));
 			}
 
-			.related-card:hover,
-			.related-card:focus-visible {
-				transform: translateY(-2px);
-				box-shadow: 0 22px 56px rgba(58, 28, 12, 0.12);
-				outline: none;
+			.action-btn-label {
+				display: none;
 			}
 
-			@media (max-width: 980px) {
-				.focus-hero,
-				.content-grid {
-					grid-template-columns: 1fr;
-				}
-
-				.meta-grid {
-					grid-template-columns: repeat(2, minmax(0, 1fr));
-				}
+			.action-btn {
+				padding: 0.5rem 0.75rem;
 			}
 
-			@media (max-width: 720px) {
-				.page-shell {
-					padding-inline: 0.85rem;
-				}
-
-				.meta-grid {
-					grid-template-columns: 1fr;
-				}
-
-				h1 {
-					font-size: clamp(2.2rem, 11vw, 3.4rem);
-				}
+			.back-label {
+				display: none;
 			}
-		</style>
-	</body>
-</html>
+
+			.related-grid {
+				grid-template-columns: 1fr;
+			}
+
+			.step-card,
+			.instructions-head,
+			.ingredients-panel,
+			.info-panel,
+			.meta-panel {
+				padding: 1.25rem;
+			}
+
+			.step-body {
+				gap: 0.75rem;
+			}
+		}
+
+		@media print {
+			.action-bar,
+			.finish-cta,
+			.related-section,
+			.site-footer {
+				display: none !important;
+			}
+
+			.recipe-page {
+				padding: 0;
+			}
+
+			.hero-card,
+			.step-card,
+			.instructions-head,
+			.ingredients-panel,
+			.info-panel,
+			.meta-panel {
+				box-shadow: none;
+				break-inside: avoid;
+			}
+
+			.ingredients-panel {
+				position: static;
+				max-height: none;
+				overflow: visible;
+			}
+		}
+	</style>
+</SiteLayout>

@@ -1,822 +1,1284 @@
 ---
-
+import SiteLayout from '../layouts/SiteLayout.astro';
 import recipesIndex from '../../../recipes/v1/indexes/recipes.index.json';
 import categoriesIndex from '../../../recipes/v1/indexes/categories.index.json';
 import tagsIndex from '../../../recipes/v1/indexes/tags.index.json';
 import ingredientsIndex from '../../../recipes/v1/indexes/ingredients.index.json';
 
+const base = import.meta.env.BASE_URL;
+
 const recipes = [...recipesIndex.recipes].sort((a, b) => a.name.localeCompare(b.name));
+const categoryNames = new Map(categoriesIndex.categories.map((category) => [category.slug, category.name]));
+
 const categories = [...categoriesIndex.categories]
 	.filter((category) => category.recipe_count > 1)
 	.sort((a, b) => b.recipe_count - a.recipe_count)
-	.slice(0, 10);
+	.slice(0, 8);
+
 const tags = [...tagsIndex.tags]
 	.filter((tag) => tag.recipe_count > 1)
 	.sort((a, b) => b.recipe_count - a.recipe_count)
 	.slice(0, 10);
 
+const sortedTimes = recipes
+	.map((recipe) => recipe.total_time_minutes ?? 0)
+	.filter((minutes) => minutes > 0)
+	.sort((a, b) => a - b);
+
+const medianMinutes = sortedTimes.length ? sortedTimes[Math.floor(sortedTimes.length / 2)] : 0;
+const quickMeals = sortedTimes.filter((minutes) => minutes <= 30).length;
+
 const stats = [
-	{ label: 'recipes', value: recipes.length },
-	{ label: 'categories', value: categoriesIndex.categories.length },
-	{ label: 'tags', value: tagsIndex.tags.length },
-	{ label: 'ingredients', value: ingredientsIndex.ingredients.length },
+	{ label: 'Tested recipes', value: recipes.length.toLocaleString() },
+	{ label: 'Categories', value: categoriesIndex.categories.length.toLocaleString() },
+	{ label: 'Cuisine tags', value: tagsIndex.tags.length.toLocaleString() },
+	{ label: 'Ingredients', value: ingredientsIndex.ingredients.length.toLocaleString() },
 ];
 
-const avgMinutes = Math.round(
-	recipes.reduce((total, recipe) => total + (recipe.total_time_minutes ?? 0), 0) / recipes.length,
-);
+const updatedLabel = (() => {
+	const generated = new Date(recipesIndex.generated_at);
+	return Number.isNaN(generated.getTime())
+		? 'Indexed catalog'
+		: generated.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+})();
 
-const topRecipes = recipes.slice(0, 6);
-const toTitleCase = (value: string) =>
+const titleCase = (value: string) =>
 	value
 		.split(/([\s_-]+)/)
 		.map((part) => (/[\s_-]+/.test(part) ? part : part.charAt(0).toUpperCase() + part.slice(1).toLowerCase()))
 		.join('');
-const base = import.meta.env.BASE_URL;
 
+const difficultyLabel = (value: string | null | undefined) => (value ? titleCase(value) : '');
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
-		<link rel="icon" href={`${base}favicon.ico`} />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="generator" content={Astro.generator} />
-		<meta
-			name="description"
-			content="Recipe browser prototype for the pepper-meal-recipes catalog, built from the repo indexes."
-		/>
-		<title>PMP Recipes</title>
-	</head>
-	<body>
-		<main class="shell">
-			<section class="hero">
-				<div class="hero-copy">
-					<p class="eyebrow">PMP Recipes</p>
-					<h1>Find a recipe by time, category, or ingredients.</h1>
-					<p class="lede">
-						Search the recipe collection, jump into popular categories and tags, or open a dish
-						straight from the browse grid when you already know what you want to cook.
-					</p>
-					<div class="hero-actions">
-						<a href="#browse">Search recipes</a>
-						<a class="secondary" href="#highlights">Browse by category</a>
-					</div>
+<SiteLayout
+	title="Pepper Kitchen · Recipe & Meal Hub"
+	description="Browse the Pepper Meal Planner recipe index by time, category, or ingredients."
+>
+	<main class="catalog" id="main">
+		<svg class="icon-sprite" aria-hidden="true" focusable="false">
+			<symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<circle cx="12" cy="12" r="10"></circle>
+				<polyline points="12 6 12 12 16 14"></polyline>
+			</symbol>
+			<symbol id="i-bookmark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<path
+					d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
+					stroke-linecap="round"
+					stroke-linejoin="round"></path>
+			</symbol>
+			<symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path>
+			</symbol>
+		</svg>
+
+		<!-- Hero + collection snapshot -->
+		<section class="hero" aria-labelledby="hero-title">
+			<div class="hero-main">
+				<span class="pill hero-pill">
+					<span class="hero-pulse" aria-hidden="true"></span>
+					Recipe index &amp; discovery
+				</span>
+				<h1 id="hero-title">
+					Find a recipe by <span class="mark">time</span>, <span class="mark">category</span>, or
+					<span class="mark">ingredients</span>.
+				</h1>
+				<p class="hero-lede">
+					Search {recipes.length.toLocaleString()} kitchen-tested recipes, jump into popular categories and
+					dietary tags, or open a dish straight from the browse grid when you already know what to cook.
+				</p>
+				<div class="hero-actions">
+					<a class="btn btn-primary btn-lg" href="#browse">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+							<path
+								d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+								stroke-linecap="round"
+								stroke-linejoin="round"></path>
+						</svg>
+						Start browsing
+					</a>
+					<a class="btn btn-outline btn-lg" href="#highlights">Explore category tags</a>
 				</div>
-				<div class="hero-panel">
-					<div class="panel-title">Quick browse shortcuts</div>
-					<div class="stats">
-						{stats.map((stat) => (
-							<div class="stat-card">
-								<span>{stat.value.toLocaleString()}</span>
-								<small>{stat.label}</small>
-							</div>
-						))}
-						<div class="stat-card accent">
-							<span>{avgMinutes}</span>
-							<small>average time</small>
+			</div>
+
+			<aside class="snapshot panel" aria-labelledby="snapshot-title">
+				<div class="snapshot-head">
+					<h2 id="snapshot-title">Collection snapshot</h2>
+					<span class="pill pill-live">{updatedLabel}</span>
+				</div>
+				<div class="stat-grid">
+					{stats.map((stat) => (
+						<div class="stat-card">
+							<span class="stat-value">{stat.value}</span>
+							<span class="stat-label">{stat.label}</span>
 						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="highlights" class="section">
-				<div class="section-heading">
-					<div>
-						<p class="eyebrow">Highlights</p>
-						<h2>Top collections and quick picks</h2>
-					</div>
-				</div>
-
-				<div class="grid collections">
-					<div class="collection-card">
-						<h3>Top categories</h3>
-						<div class="chip-row">
-							{categories.map((category) => (
-								<button class="chip" type="button" data-category={category.slug}>
-									{category.name}
-									<span>{category.recipe_count}</span>
-								</button>
-							))}
-						</div>
-					</div>
-
-					<div class="collection-card">
-						<h3>Popular Tags</h3>
-						<div class="chip-row">
-							{tags.map((tag) => (
-								<button class="chip tag-chip" type="button" data-tag={tag.slug}>
-									{toTitleCase(tag.name)}
-									<span>{tag.recipe_count}</span>
-								</button>
-							))}
-						</div>
-					</div>
-				</div>
-
-				<div class="grid featured-recipes">
-					{topRecipes.map((recipe) => (
-						<a class="mini-card recipe-link" href={`${base}recipes/${recipe.slug}/`} aria-label={`Open ${recipe.name}`}>
-							<p class="mini-label">Featured</p>
-							<h3>{recipe.name}</h3>
-							<p>{recipe.brief_description}</p>
-							<div class="mini-meta">
-								<span>{recipe.total_time_minutes ?? '—'} min</span>
-								<span>{recipe.difficulty ?? 'unspecified'}</span>
-							</div>
-						</a>
 					))}
 				</div>
-			</section>
-
-			<section id="browse" class="section browse">
-				<div class="section-heading">
-					<div>
-						<p class="eyebrow">Browse</p>
-						<h2>Filter recipes from the generated index</h2>
+				<div class="median-card">
+					<div class="median-copy">
+						<span class="median-icon" aria-hidden="true">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<circle cx="12" cy="12" r="10"></circle>
+								<polyline points="12 6 12 12 16 14"></polyline>
+							</svg>
+						</span>
+						<div>
+							<span class="median-value">{medianMinutes} mins</span>
+							<span class="median-label">Median prep &amp; cook</span>
+						</div>
 					</div>
-					<p id="result-summary">Showing all recipes.</p>
+					<span class="median-badge">{quickMeals.toLocaleString()} under 30 min</span>
 				</div>
+			</aside>
+		</section>
 
-				<div class="filters">
-					<label>
-						<span>Search</span>
-						<input id="search" type="search" placeholder="Search by name, ingredient, or tag" />
-					</label>
-					<label>
-						<span>Category</span>
-						<select id="category-filter">
-							<option value="">All categories</option>
-							{categoriesIndex.categories
-								.sort((a, b) => a.name.localeCompare(b.name))
-								.map((category) => <option value={category.slug}>{category.name}</option>)}
-						</select>
-					</label>
-					<label>
-						<span>Tag</span>
-						<select id="tag-filter">
-							<option value="">All tags</option>
-							{tagsIndex.tags
-								.sort((a, b) => a.name.localeCompare(b.name))
-								.map((tag) => <option value={tag.slug}>{tag.name}</option>)}
-						</select>
-					</label>
-					<label>
-						<span>Difficulty</span>
-						<select id="difficulty-filter">
-							<option value="">Any difficulty</option>
-							<option value="easy">Easy</option>
-							<option value="medium">Medium</option>
-							<option value="hard">Hard</option>
-						</select>
-					</label>
-					<button class="reset" id="reset-filters" type="button">Reset filters</button>
+		<!-- Quick picks -->
+		<section class="panel quick-picks" id="highlights" aria-labelledby="collections-heading">
+			<div class="section-head">
+				<div>
+					<span class="eyebrow">Quick jump</span>
+					<h2 id="collections-heading">Top categories &amp; dietary tags</h2>
 				</div>
+				<p class="section-hint">Click any pill to instantly apply the filter</p>
+			</div>
 
-				<div class="recipe-grid" id="recipe-grid">
-					{recipes.map((recipe) => {
-						const categoriesLabel = recipe.category_slugs.join(', ');
-						const tagsLabel = recipe.tag_slugs.join(', ');
-						const searchTerms = [
-							recipe.name,
-							recipe.slug,
-							recipe.brief_description,
-							recipe.ingredient_names.join(' '),
-							categoriesLabel,
-							tagsLabel,
-							recipe.difficulty ?? '',
-						].join(' ').toLowerCase();
-
-						return (
-							<a
-								class="recipe-card"
-								href={`${base}recipes/${recipe.slug}/`}
-								aria-label={`Open ${recipe.name}`}
-								data-search={searchTerms}
-								data-categories={recipe.category_slugs.join(',')}
-								data-tags={recipe.tag_slugs.join(',')}
-								data-difficulty={recipe.difficulty ?? ''}
+			<div class="quick-body">
+				<div>
+					<span class="group-label">Popular meal types</span>
+					<div class="chip-row">
+						{categories.map((category, index) => (
+							<button
+								class:list={['chip', index === 0 && 'chip-featured']}
+								type="button"
+								data-category={category.slug}
+								aria-pressed="false"
 							>
-								<div class="recipe-card-top">
-									<div>
-										<p class="mini-label">{recipe.recipe_type ?? 'recipe'}</p>
-										<h3>{recipe.name}</h3>
-									</div>
-									<span class="time-pill">{recipe.total_time_minutes ?? '—'} min</span>
+								<span>{category.name}</span>
+								<span class="chip-count">{category.recipe_count.toLocaleString()}</span>
+							</button>
+						))}
+					</div>
+				</div>
+
+				<div class="tag-group">
+					<span class="group-label">Trending themes &amp; kitchen favorites</span>
+					<div class="tag-row">
+						{tags.map((tag) => (
+							<button class="tag-chip" type="button" data-tag={tag.slug} aria-pressed="false">
+								#{titleCase(tag.name)} <span>({tag.recipe_count.toLocaleString()})</span>
+							</button>
+						))}
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Sticky search + filters -->
+		<section class="toolbar" id="browse" aria-label="Search and filter recipes">
+			<div class="toolbar-inner">
+				<div class="search-wrap">
+					<span class="search-icon" aria-hidden="true">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+							<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round"
+							></path>
+						</svg>
+					</span>
+					<label class="sr-only" for="search">Search recipes</label>
+					<input
+						class="field search-field"
+						id="search"
+						type="search"
+						autocomplete="off"
+						placeholder="Search by recipe name, cuisine, ingredient, or keyword…"
+					/>
+					<button class="search-shortcut" id="search-shortcut" type="button" aria-label="Focus search">
+						⌘K
+					</button>
+				</div>
+
+				<div class="filter-row">
+					<label class="sr-only" for="category-filter">Filter by category</label>
+					<select class="field" id="category-filter">
+						<option value="">All categories</option>
+						{categoriesIndex.categories
+							.slice()
+							.sort((a, b) => a.name.localeCompare(b.name))
+							.map((category) => <option value={category.slug}>{category.name}</option>)}
+					</select>
+
+					<label class="sr-only" for="tag-filter">Filter by tag</label>
+					<select class="field" id="tag-filter">
+						<option value="">All tags</option>
+						{tagsIndex.tags
+							.slice()
+							.sort((a, b) => a.name.localeCompare(b.name))
+							.map((tag) => <option value={tag.slug}>{tag.name}</option>)}
+					</select>
+
+					<label class="sr-only" for="difficulty-filter">Filter by difficulty</label>
+					<select class="field" id="difficulty-filter">
+						<option value="">Any difficulty</option>
+						<option value="easy">Easy</option>
+						<option value="medium">Medium</option>
+						<option value="hard">Hard</option>
+					</select>
+
+					<label class="sr-only" for="time-filter">Filter by cook time</label>
+					<select class="field" id="time-filter">
+						<option value="">Any time</option>
+						<option value="15">Under 15 min</option>
+						<option value="30">Under 30 min</option>
+						<option value="60">Under 1 hour</option>
+						<option value="slow">Slow cook (2h+)</option>
+					</select>
+
+					<button class="btn btn-outline reset-btn" id="reset-filters" type="button">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+							<path
+								d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+								stroke-linecap="round"
+								stroke-linejoin="round"></path>
+						</svg>
+						Reset
+					</button>
+				</div>
+
+				<div class="result-bar">
+					<span class="result-summary" id="result-summary">Showing all recipes.</span>
+					<span class="result-sort">Sorted by: <strong>Recipe name</strong></span>
+				</div>
+			</div>
+		</section>
+
+		<!-- Recipe grid -->
+		<section class="recipe-grid" id="recipe-grid" aria-label="Recipes">
+			{recipes.map((recipe, index) => {
+				const categoryLabel = recipe.category_slugs.map((slug) => categoryNames.get(slug) ?? slug)[0] ?? recipe.recipe_type ?? 'Recipe';
+				const searchTerms = [
+					recipe.ingredient_names.join(' '),
+					recipe.category_slugs.join(' '),
+					recipe.tag_slugs.join(' '),
+					recipe.difficulty ?? '',
+					recipe.recipe_type ?? '',
+				]
+					.join(' ')
+					.replace(/-/g, ' ')
+					.toLowerCase();
+				const timeLabel = recipe.total_time_minutes ? `${recipe.total_time_minutes} min` : 'Time n/a';
+				const initialImage = index < 30;
+
+				return (
+					<article
+						class="recipe-card"
+						data-search={searchTerms}
+						data-categories={recipe.category_slugs.join(',')}
+						data-tags={recipe.tag_slugs.join(',')}
+						data-difficulty={recipe.difficulty ?? ''}
+						data-time={recipe.total_time_minutes ?? ''}
+					>
+						<div class="card-media">
+							{recipe.image_url ? (
+								<img
+									src={initialImage ? recipe.image_url : undefined}
+									data-src={recipe.image_url}
+									alt=""
+									loading="lazy"
+									decoding="async"
+								/>
+							) : (
+								<div class="card-media-fallback" aria-hidden="true">
+									<svg viewBox="0 0 24 24" fill="currentColor">
+										<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+									</svg>
 								</div>
+							)}
+							<div class="card-badges">
+								<span class="badge badge-type">{categoryLabel}</span>
+								{recipe.difficulty ? (
+									<span class:list={['badge', 'badge-difficulty', `is-${recipe.difficulty}`]}>
+										{difficultyLabel(recipe.difficulty)}
+									</span>
+								) : null}
+							</div>
+							<button
+								class="bookmark-btn"
+								type="button"
+								data-bookmark={recipe.slug}
+								aria-pressed="false"
+								aria-label={`Save ${recipe.name}`}
+							>
+								<svg class="icon" aria-hidden="true"><use href="#i-bookmark"></use></svg>
+							</button>
+						</div>
 
-								<p class="recipe-description">{recipe.brief_description}</p>
-							</a>
-						);
-					})}
-				</div>
+						<div class="card-body">
+							<div class="card-meta">
+								<span class="time-chip">
+									<svg class="icon" aria-hidden="true"><use href="#i-clock"></use></svg>
+									{timeLabel}
+								</span>
+								<span class="meta-dot" aria-hidden="true">•</span>
+								<span>{recipe.ingredient_names.length} ingredients</span>
+							</div>
+							<h3 class="card-title">{recipe.name}</h3>
+							<p class="card-description">{recipe.brief_description}</p>
+						</div>
 
-				<div class="pagination-container" id="pagination-container">
-					<button class="load-more-btn" id="load-more-btn" type="button">Load more recipes</button>
-					<div id="scroll-sentinel" class="scroll-sentinel"></div>
-				</div>
-			</section>
-		</main>
+						<div class="card-foot">
+							<span class="card-servings">
+								{recipe.servings ? `Serves ${recipe.servings}` : titleCase(recipe.recipe_type ?? 'Recipe')}
+							</span>
+							<span class="card-cta">
+								View recipe
+								<svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg>
+							</span>
+						</div>
 
-		<footer class="site-footer">
-			<p>&copy; 2026 Pepper Meal Planner</p>
-			<nav aria-label="Legal links">
-				<a href={`${base}privacy-policy/`}>Privacy Policy</a>
-				<a href={`${base}terms-and-conditions/`}>Terms and Conditions</a>
-			</nav>
-		</footer>
+						<a class="card-hit" href={`${base}recipes/${recipe.slug}/`} aria-label={`Open ${recipe.name}`}></a>
+					</article>
+				);
+			})}
+		</section>
 
-		<script is:inline>
-			const BATCH_SIZE = 24;
-			const searchInput = document.querySelector('#search');
-			const categoryFilter = document.querySelector('#category-filter');
-			const tagFilter = document.querySelector('#tag-filter');
-			const difficultyFilter = document.querySelector('#difficulty-filter');
-			const resetButton = document.querySelector('#reset-filters');
-			const resultSummary = document.querySelector('#result-summary');
-			const loadMoreBtn = document.querySelector('#load-more-btn');
-			const scrollSentinel = document.querySelector('#scroll-sentinel');
-			const cards = Array.from(document.querySelectorAll('.recipe-card'));
-			const normalize = (value) => String(value ?? '').trim().toLowerCase();
+		<div class="load-more">
+			<button class="btn btn-outline btn-lg load-more-btn" id="load-more-btn" type="button">
+				<span id="load-more-label">Load 24 more recipes</span>
+			</button>
+			<span class="load-more-hint" id="load-more-hint">Viewing 24 of {recipes.length.toLocaleString()} recipes</span>
+		</div>
+	</main>
 
-			let visibleLimit = BATCH_SIZE;
-			let matchingCards = [];
+	<script is:inline>
+		const BATCH_SIZE = 24;
 
-			const render = () => {
-				const totalMatching = matchingCards.length;
-				const renderedCount = Math.min(visibleLimit, totalMatching);
+		const searchInput = document.querySelector('#search');
+		const searchShortcut = document.querySelector('#search-shortcut');
+		const categoryFilter = document.querySelector('#category-filter');
+		const tagFilter = document.querySelector('#tag-filter');
+		const difficultyFilter = document.querySelector('#difficulty-filter');
+		const timeFilter = document.querySelector('#time-filter');
+		const resetButton = document.querySelector('#reset-filters');
+		const resultSummary = document.querySelector('#result-summary');
+		const loadMoreBtn = document.querySelector('#load-more-btn');
+		const loadMoreLabel = document.querySelector('#load-more-label');
+		const loadMoreHint = document.querySelector('#load-more-hint');
+		const cards = Array.from(document.querySelectorAll('.recipe-card'));
+		const normalize = (value) => String(value ?? '').trim().toLowerCase();
 
-				for (let i = 0; i < cards.length; i++) {
-					cards[i].hidden = true;
-				}
+		for (const card of cards) {
+			card.dataset.fullSearch = normalize(
+				[
+					card.dataset.search,
+					card.querySelector('.card-title')?.textContent,
+					card.querySelector('.card-description')?.textContent,
+				].join(' '),
+			);
+		}
 
-				for (let i = 0; i < renderedCount; i++) {
-					matchingCards[i].hidden = false;
-				}
+		let visibleLimit = BATCH_SIZE;
+		let matchingCards = [];
 
-				if (totalMatching === 0) {
-					resultSummary.textContent = 'No recipes found matching your criteria.';
-				} else if (renderedCount < totalMatching) {
-					resultSummary.textContent = `Showing ${renderedCount} of ${totalMatching} matching recipes (${cards.length} total).`;
-				} else if (totalMatching === cards.length) {
-					resultSummary.textContent = `Showing all ${totalMatching} recipes.`;
-				} else {
-					resultSummary.textContent = `Showing all ${totalMatching} matching recipes.`;
-				}
+		/* ------------------------------- rendering ----------------------------- */
+		const render = () => {
+			const totalMatching = matchingCards.length;
+			const renderedCount = Math.min(visibleLimit, totalMatching);
 
-				if (renderedCount < totalMatching) {
-					loadMoreBtn.hidden = false;
-					scrollSentinel.style.display = 'block';
-				} else {
-					loadMoreBtn.hidden = true;
-					scrollSentinel.style.display = 'none';
-				}
-			};
-
-			const filterRecipes = () => {
-				const query = normalize(searchInput.value);
-				const selectedCategory = normalize(categoryFilter.value);
-				const selectedTag = normalize(tagFilter.value);
-				const selectedDifficulty = normalize(difficultyFilter.value);
-
-				matchingCards = cards.filter((card) => {
-					const searchTerms = card.dataset.search ?? '';
-					const categories = (card.dataset.categories ?? '').split(',').filter(Boolean);
-					const tags = (card.dataset.tags ?? '').split(',').filter(Boolean);
-					const difficulty = card.dataset.difficulty ?? '';
-
-					const matchesQuery = !query || searchTerms.includes(query);
-					const matchesCategory = !selectedCategory || categories.includes(selectedCategory);
-					const matchesTag = !selectedTag || tags.includes(selectedTag);
-					const matchesDifficulty = !selectedDifficulty || difficulty === selectedDifficulty;
-
-					return matchesQuery && matchesCategory && matchesTag && matchesDifficulty;
-				});
-
-				visibleLimit = BATCH_SIZE;
-				render();
-			};
-
-			const loadMore = () => {
-				if (visibleLimit < matchingCards.length) {
-					visibleLimit += BATCH_SIZE;
-					render();
-				}
-			};
-
-			loadMoreBtn.addEventListener('click', loadMore);
-
-			for (const control of [searchInput, categoryFilter, tagFilter, difficultyFilter]) {
-				control.addEventListener('input', filterRecipes);
-				control.addEventListener('change', filterRecipes);
+			for (const card of cards) {
+				card.hidden = true;
 			}
 
-			for (const chip of document.querySelectorAll('[data-category], [data-tag]')) {
-				chip.addEventListener('click', () => {
-					if (chip.dataset.category) {
-						categoryFilter.value = chip.dataset.category;
-					}
-					if (chip.dataset.tag) {
-						tagFilter.value = chip.dataset.tag;
-					}
-					filterRecipes();
-				});
+			for (let i = 0; i < renderedCount; i++) {
+				const card = matchingCards[i];
+				card.hidden = false;
+
+				const image = card.querySelector('img[data-src]');
+				if (image && !image.hasAttribute('src')) {
+					image.src = image.dataset.src;
+				}
 			}
 
-			resetButton.addEventListener('click', () => {
-				searchInput.value = '';
-				categoryFilter.value = '';
-				tagFilter.value = '';
-				difficultyFilter.value = '';
-				filterRecipes();
+			if (totalMatching === 0) {
+				resultSummary.textContent = 'No recipes found matching your criteria.';
+			} else if (renderedCount < totalMatching) {
+				resultSummary.textContent = `Showing ${renderedCount.toLocaleString()} of ${totalMatching.toLocaleString()} matching recipes`;
+			} else if (totalMatching === cards.length) {
+				resultSummary.textContent = `Showing all ${totalMatching.toLocaleString()} recipes`;
+			} else {
+				resultSummary.textContent = `Showing all ${totalMatching.toLocaleString()} matching recipes`;
+			}
+
+			loadMoreLabel.textContent = `Load ${Math.min(BATCH_SIZE, totalMatching - renderedCount).toLocaleString()} more recipes`;
+			loadMoreHint.textContent =
+				totalMatching === 0
+					? 'No recipes to show'
+					: `Viewing ${renderedCount.toLocaleString()} of ${totalMatching.toLocaleString()} recipes`;
+
+			const hasMore = renderedCount < totalMatching;
+			loadMoreBtn.hidden = !hasMore;
+		};
+
+		const matchesTime = (minutes, filter) => {
+			if (!filter) return true;
+			if (filter === 'slow') return minutes >= 120;
+			const limit = Number(filter);
+			return Number.isFinite(limit) ? minutes > 0 && minutes <= limit : true;
+		};
+
+		const filterRecipes = () => {
+			const query = normalize(searchInput.value);
+			const selectedCategory = normalize(categoryFilter.value);
+			const selectedTag = normalize(tagFilter.value);
+			const selectedDifficulty = normalize(difficultyFilter.value);
+			const selectedTime = normalize(timeFilter.value);
+
+			matchingCards = cards.filter((card) => {
+				const searchTerms = card.dataset.fullSearch ?? '';
+				const categories = (card.dataset.categories ?? '').split(',').filter(Boolean);
+				const tags = (card.dataset.tags ?? '').split(',').filter(Boolean);
+				const difficulty = card.dataset.difficulty ?? '';
+				const minutes = Number(card.dataset.time ?? 0);
+
+				return (
+					(!query || searchTerms.includes(query)) &&
+					(!selectedCategory || categories.includes(selectedCategory)) &&
+					(!selectedTag || tags.includes(selectedTag)) &&
+					(!selectedDifficulty || difficulty === selectedDifficulty) &&
+					matchesTime(minutes, selectedTime)
+				);
 			});
 
-			if ('IntersectionObserver' in window) {
-				const observer = new IntersectionObserver(
-					(entries) => {
-						for (const entry of entries) {
-							if (entry.isIntersecting) {
-								loadMore();
-							}
-						}
-					},
-					{ rootMargin: '300px 0px' }
-				);
-				observer.observe(scrollSentinel);
+			for (const chip of document.querySelectorAll('[data-category]')) {
+				const isActive = Boolean(selectedCategory) && chip.dataset.category === selectedCategory;
+				chip.classList.toggle('is-active', isActive);
+				chip.setAttribute('aria-pressed', String(isActive));
 			}
 
+			for (const chip of document.querySelectorAll('[data-tag]')) {
+				const isActive = Boolean(selectedTag) && chip.dataset.tag === selectedTag;
+				chip.classList.toggle('is-active', isActive);
+				chip.setAttribute('aria-pressed', String(isActive));
+			}
+
+			visibleLimit = BATCH_SIZE;
+			render();
+		};
+
+		const loadMore = () => {
+			if (visibleLimit < matchingCards.length) {
+				visibleLimit += BATCH_SIZE;
+				render();
+			}
+		};
+
+		loadMoreBtn.addEventListener('click', loadMore);
+
+		for (const control of [searchInput, categoryFilter, tagFilter, difficultyFilter, timeFilter]) {
+			control.addEventListener('input', filterRecipes);
+			control.addEventListener('change', filterRecipes);
+		}
+
+		for (const chip of document.querySelectorAll('[data-category], [data-tag]')) {
+			chip.addEventListener('click', () => {
+				const select = chip.dataset.category ? categoryFilter : tagFilter;
+				const value = chip.dataset.category ?? chip.dataset.tag;
+
+				select.value = select.value === value ? '' : value;
+				filterRecipes();
+			});
+		}
+
+		resetButton.addEventListener('click', () => {
+			searchInput.value = '';
+			categoryFilter.value = '';
+			tagFilter.value = '';
+			difficultyFilter.value = '';
+			timeFilter.value = '';
 			filterRecipes();
-		</script>
+		});
 
-		<style>
-			:root {
-				color-scheme: light;
-				font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-				background:
-					radial-gradient(circle at top, rgba(222, 162, 102, 0.18), transparent 32%),
-					linear-gradient(180deg, #fffaf4 0%, #fff 36%, #fff 100%);
-				color: #221813;
+		const focusSearch = () => {
+			searchInput.focus();
+			searchInput.select();
+		};
+
+		searchShortcut.addEventListener('click', focusSearch);
+
+		document.addEventListener('keydown', (event) => {
+			if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') {
+				event.preventDefault();
+				focusSearch();
 			}
+		});
 
-			body {
-				margin: 0;
-				min-height: 100vh;
-			}
+		filterRecipes();
+	</script>
 
-			.shell {
-				max-width: 1320px;
-				margin: 0 auto;
-				padding: 3rem 1.25rem 4rem;
-			}
+	<script>
+		import '../scripts/bookmarks';
+	</script>
 
-			.site-footer {
-				max-width: 1320px;
-				margin: 3rem auto 0;
-				padding: 1.25rem 1.25rem 2rem;
-				display: flex;
-				justify-content: space-between;
-				gap: 1rem;
-				align-items: center;
-				flex-wrap: wrap;
-				border-top: 1px solid rgba(102, 64, 32, 0.12);
-				color: #6b5446;
-			}
+	<style is:global>
+		.catalog {
+			width: 100%;
+			max-width: var(--page-width);
+			margin: 0 auto;
+			padding: 2rem var(--gutter) 1rem;
+			display: flex;
+			flex-direction: column;
+			gap: 2.5rem;
+		}
 
-			.site-footer p {
-				margin: 0;
-				font-weight: 700;
-			}
+		.icon-sprite {
+			position: absolute;
+			width: 0;
+			height: 0;
+			overflow: hidden;
+		}
 
-			.site-footer nav {
-				display: flex;
-				gap: 1rem;
-				flex-wrap: wrap;
-			}
+		.icon {
+			width: 1rem;
+			height: 1rem;
+			flex-shrink: 0;
+		}
 
-			.site-footer a {
-				color: inherit;
-				text-decoration: none;
-				font-weight: 650;
-			}
+		/* ------------------------------- hero -------------------------------- */
 
-			.site-footer a:hover,
-			.site-footer a:focus-visible {
-				text-decoration: underline;
-				outline: none;
-			}
+		.hero {
+			display: grid;
+			grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+			gap: 1.5rem;
+			align-items: stretch;
+		}
 
+		.hero-main {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			gap: 2rem;
+			padding: clamp(1.5rem, 4vw, 2.5rem);
+			border: 1px solid var(--warm-200);
+			border-radius: var(--radius-lg);
+			background: linear-gradient(135deg, #fff 0%, #fff 55%, rgba(254, 216, 185, 0.35) 100%);
+			box-shadow: var(--shadow-xs);
+		}
+
+		.hero-pill {
+			letter-spacing: 0.07em;
+			font-size: 0.6875rem;
+			align-self: flex-start;
+		}
+
+		.hero-pulse {
+			width: 0.5rem;
+			height: 0.5rem;
+			border-radius: 999px;
+			background: var(--brand-500);
+			box-shadow: 0 0 0 3px rgba(224, 93, 38, 0.18);
+		}
+
+		.hero h1 {
+			margin-top: 1rem;
+			font-size: clamp(2rem, 3.6vw, 3.1rem);
+			font-weight: 800;
+			max-width: 22ch;
+			line-height: 1.08;
+		}
+
+		.hero h1 .mark {
+			color: var(--brand-600);
+			text-decoration: underline;
+			text-decoration-color: var(--brand-300);
+			text-decoration-thickness: 4px;
+			text-underline-offset: 5px;
+		}
+
+		.hero-lede {
+			margin-top: 1rem;
+			max-width: 60ch;
+			font-size: 1.0625rem;
+			line-height: 1.65;
+			color: var(--warm-600);
+		}
+
+		.hero-actions {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.85rem;
+			margin-top: 0.5rem;
+		}
+
+		/* ------------------------------ snapshot ----------------------------- */
+
+		.snapshot {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			gap: 1.25rem;
+			padding: 1.5rem;
+		}
+
+		.snapshot-head {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 0.75rem;
+			padding-bottom: 1rem;
+			border-bottom: 1px solid var(--warm-100);
+		}
+
+		.snapshot-head h2 {
+			font-family: var(--font-sans);
+			font-size: 0.6875rem;
+			font-weight: 700;
+			letter-spacing: 0.14em;
+			text-transform: uppercase;
+			color: var(--warm-600);
+		}
+
+		.stat-grid {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 0.75rem;
+		}
+
+		.stat-card {
+			padding: 0.9rem;
+			border: 1px solid var(--warm-200);
+			border-radius: var(--radius-md);
+			background: rgba(251, 250, 248, 0.75);
+			transition: border-color 160ms ease;
+		}
+
+		.stat-card:hover {
+			border-color: var(--brand-300);
+		}
+
+		.stat-value {
+			display: block;
+			font-family: var(--font-serif);
+			font-size: 1.75rem;
+			font-weight: 800;
+			line-height: 1.05;
+			letter-spacing: -0.02em;
+			color: var(--warm-900);
+		}
+
+		.stat-label {
+			display: block;
+			margin-top: 0.3rem;
+			font-size: 0.6875rem;
+			font-weight: 600;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			color: var(--warm-600);
+		}
+
+		.median-card {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 0.75rem;
+			padding: 0.85rem 1rem;
+			border-radius: var(--radius-md);
+			background: linear-gradient(100deg, var(--warm-900), #3a332e);
+			color: #fff;
+			box-shadow: var(--shadow-md);
+		}
+
+		.median-copy {
+			display: flex;
+			align-items: center;
+			gap: 0.7rem;
+			min-width: 0;
+		}
+
+		.median-icon {
+			display: grid;
+			place-items: center;
+			width: 2.5rem;
+			height: 2.5rem;
+			border-radius: var(--radius-sm);
+			background: rgba(224, 93, 38, 0.22);
+			color: var(--brand-300);
+			flex-shrink: 0;
+		}
+
+		.median-icon svg {
+			width: 1.25rem;
+			height: 1.25rem;
+		}
+
+		.median-value {
+			display: block;
+			font-family: var(--font-serif);
+			font-size: 1.15rem;
+			font-weight: 700;
+			line-height: 1.1;
+		}
+
+		.median-label {
+			display: block;
+			font-size: 0.6rem;
+			letter-spacing: 0.06em;
+			text-transform: uppercase;
+			white-space: nowrap;
+			color: rgba(255, 255, 255, 0.7);
+		}
+
+		.median-badge {
+			padding: 0.4rem 0.6rem;
+			border-radius: 0.5rem;
+			background: rgba(255, 255, 255, 0.12);
+			font-size: 0.6875rem;
+			font-weight: 500;
+			white-space: nowrap;
+			text-align: center;
+		}
+
+		/* ----------------------------- quick picks --------------------------- */
+
+		.quick-picks {
+			padding: clamp(1.25rem, 3vw, 2rem);
+			scroll-margin-top: calc(var(--header-height) + 0.5rem);
+		}
+
+		.section-head {
+			display: flex;
+			align-items: flex-end;
+			justify-content: space-between;
+			gap: 1rem;
+			flex-wrap: wrap;
+			padding-bottom: 1.25rem;
+			border-bottom: 1px solid var(--warm-100);
+		}
+
+		.section-head h2 {
+			margin-top: 0.3rem;
+			font-size: 1.5rem;
+		}
+
+		.section-hint {
+			font-size: 0.75rem;
+			color: var(--ink-faint);
+		}
+
+		.quick-body {
+			display: flex;
+			flex-direction: column;
+			gap: 1.25rem;
+			margin-top: 1.25rem;
+		}
+
+		.group-label {
+			display: block;
+			margin-bottom: 0.7rem;
+			font-size: 0.6875rem;
+			font-weight: 700;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			color: var(--ink-faint);
+		}
+
+		.chip-row {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.6rem;
+		}
+
+		.chip-featured {
+			background: var(--brand-50);
+			border-color: var(--brand-200);
+			color: var(--brand-700);
+			font-weight: 600;
+		}
+
+		.chip-featured .chip-count {
+			background: rgba(254, 216, 185, 0.75);
+			color: var(--brand-900);
+		}
+
+		.chip-featured:hover,
+		.chip-featured.is-active {
+			background: var(--brand-500);
+			border-color: var(--brand-500);
+			color: #fff;
+		}
+
+		.chip-featured:hover .chip-count,
+		.chip-featured.is-active .chip-count {
+			background: rgba(255, 255, 255, 0.22);
+			color: #fff;
+		}
+
+		.tag-group {
+			padding-top: 1.1rem;
+			border-top: 1px solid var(--warm-100);
+		}
+
+		.tag-row {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+		}
+
+		.tag-chip {
+			padding: 0.4rem 0.7rem;
+			border: 1px solid transparent;
+			border-radius: 0.5rem;
+			background: #f4efe8;
+			color: var(--warm-700);
+			font-size: 0.75rem;
+			font-weight: 500;
+			cursor: pointer;
+			transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+		}
+
+		.tag-chip span {
+			color: var(--warm-600);
+		}
+
+		.tag-chip:hover {
+			background: var(--warm-200);
+		}
+
+		.tag-chip.is-active {
+			background: var(--brand-100);
+			border-color: var(--brand-300);
+			color: var(--brand-900);
+		}
+
+		/* ------------------------------- toolbar ----------------------------- */
+
+		.toolbar {
+			position: sticky;
+			top: var(--header-height);
+			z-index: 30;
+			scroll-margin-top: var(--header-height);
+			margin-inline: calc(var(--gutter) * -1);
+			padding: 0.85rem var(--gutter);
+			background: rgba(251, 250, 248, 0.94);
+			backdrop-filter: blur(12px);
+			border-bottom: 1px solid rgba(237, 231, 222, 0.9);
+			box-shadow: 0 10px 18px -20px rgba(29, 25, 23, 0.4);
+		}
+
+		.toolbar-inner {
+			display: flex;
+			flex-direction: column;
+			gap: 0.7rem;
+			max-width: calc(var(--page-width) - var(--gutter) * 2);
+			margin: 0 auto;
+		}
+
+		.search-wrap {
+			position: relative;
+			display: flex;
+			align-items: center;
+		}
+
+		.search-icon {
+			position: absolute;
+			left: 1rem;
+			display: grid;
+			place-items: center;
+			color: var(--ink-faint);
+			pointer-events: none;
+		}
+
+		.search-icon svg {
+			width: 1.25rem;
+			height: 1.25rem;
+		}
+
+		.search-field {
+			height: 3.25rem;
+			padding-left: 2.85rem;
+			padding-right: 5rem;
+			border-radius: var(--radius-md);
+			font-size: 0.9375rem;
+		}
+
+		.search-shortcut {
+			position: absolute;
+			right: 0.6rem;
+			height: 2.25rem;
+			padding: 0 0.7rem;
+			border: 0;
+			border-radius: var(--radius-sm);
+			background: var(--warm-100);
+			color: var(--warm-600);
+			font-size: 0.75rem;
+			font-weight: 600;
+			cursor: pointer;
+			transition: background-color 160ms ease;
+		}
+
+		.search-shortcut:hover {
+			background: var(--warm-200);
+		}
+
+		.filter-row {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr));
+			gap: 0.6rem;
+		}
+
+		.reset-btn {
+			height: 3rem;
+			background: #fff;
+			font-size: 0.875rem;
+		}
+
+		.result-bar {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 0.75rem;
+			flex-wrap: wrap;
+			padding: 0.15rem 0.25rem 0;
+			font-size: 0.75rem;
+			color: var(--ink-muted);
+		}
+
+		.result-summary {
+			font-weight: 600;
+			color: var(--warm-800);
+		}
+
+		.result-sort strong {
+			font-weight: 600;
+			color: var(--warm-700);
+		}
+
+		/* ----------------------------- recipe grid --------------------------- */
+
+		.recipe-grid {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 1.5rem;
+			margin-top: -0.75rem;
+		}
+
+		.recipe-card {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			background: #fff;
+			border: 1px solid var(--warm-200);
+			border-radius: var(--radius-lg);
+			overflow: hidden;
+			box-shadow: var(--shadow-xs);
+			transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 220ms ease,
+				border-color 220ms ease;
+		}
+
+		.recipe-card:hover,
+		.recipe-card:focus-within {
+			transform: translateY(-4px);
+			box-shadow: var(--shadow-md);
+			border-color: rgba(224, 93, 38, 0.28);
+		}
+
+		.card-media {
+			position: relative;
+			aspect-ratio: 16 / 10;
+			background: var(--warm-100);
+			overflow: hidden;
+		}
+
+		.card-media img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 320ms ease;
+		}
+
+		.card-media img:not([src]) {
+			visibility: hidden;
+		}
+
+		.recipe-card:hover .card-media img {
+			transform: scale(1.05);
+		}
+
+		.card-media-fallback {
+			display: grid;
+			place-items: center;
+			height: 100%;
+			background: linear-gradient(135deg, var(--warm-100), var(--brand-100));
+			color: var(--brand-300);
+		}
+
+		.card-media-fallback svg {
+			width: 3rem;
+			height: 3rem;
+		}
+
+		.card-badges {
+			position: absolute;
+			top: 0.75rem;
+			left: 0.75rem;
+			display: flex;
+			gap: 0.4rem;
+			flex-wrap: wrap;
+			max-width: calc(100% - 4rem);
+		}
+
+		.badge {
+			padding: 0.28rem 0.6rem;
+			border-radius: 0.5rem;
+			font-size: 0.6875rem;
+			font-weight: 700;
+			letter-spacing: 0.06em;
+			text-transform: uppercase;
+			background: rgba(255, 255, 255, 0.95);
+			color: var(--warm-800);
+			box-shadow: var(--shadow-xs);
+			backdrop-filter: blur(6px);
+		}
+
+		.badge-difficulty {
+			background: var(--warm-700);
+			color: #fff;
+		}
+
+		.badge-difficulty.is-easy {
+			background: #047857;
+		}
+
+		.badge-difficulty.is-hard {
+			background: #b45309;
+		}
+
+		.badge-difficulty.is-expert {
+			background: #9a3412;
+		}
+
+		.bookmark-btn {
+			position: absolute;
+			top: 0.75rem;
+			right: 0.75rem;
+			z-index: 3;
+			display: grid;
+			place-items: center;
+			width: 2.5rem;
+			height: 2.5rem;
+			border: 0;
+			border-radius: 999px;
+			background: rgba(255, 255, 255, 0.92);
+			color: var(--warm-600);
+			box-shadow: var(--shadow-sm);
+			cursor: pointer;
+			transition: color 160ms ease, background-color 160ms ease, transform 160ms ease;
+		}
+
+		.bookmark-btn svg {
+			width: 1.15rem;
+			height: 1.15rem;
+		}
+
+		.bookmark-btn:hover {
+			color: var(--brand-600);
+			background: #fff;
+			transform: scale(1.04);
+		}
+
+		.bookmark-btn.is-saved {
+			color: var(--brand-600);
+		}
+
+		.bookmark-btn.is-saved svg {
+			fill: currentColor;
+		}
+
+		.card-body {
+			padding: 1.15rem 1.25rem 1rem;
+		}
+
+		.card-meta {
+			display: flex;
+			align-items: center;
+			gap: 0.45rem;
+			flex-wrap: wrap;
+			margin-bottom: 0.55rem;
+			font-size: 0.75rem;
+			font-weight: 500;
+			color: var(--ink-muted);
+		}
+
+		.time-chip {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.3rem;
+			padding: 0.15rem 0.45rem;
+			border-radius: 0.4rem;
+			background: var(--brand-50);
+			color: var(--brand-700);
+			font-size: 0.6875rem;
+			font-weight: 700;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+		}
+
+		.time-chip svg {
+			width: 0.85rem;
+			height: 0.85rem;
+		}
+
+		.meta-dot {
+			color: var(--warm-300);
+		}
+
+		.card-title {
+			font-size: 1.1875rem;
+			line-height: 1.3;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		.card-description {
+			margin-top: 0.45rem;
+			font-size: 0.875rem;
+			line-height: 1.6;
+			color: var(--warm-600);
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		.card-foot {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 0.75rem;
+			margin-top: auto;
+			padding: 0.75rem 1.25rem 1.1rem;
+			border-top: 1px solid var(--warm-100);
+			font-size: 0.75rem;
+			color: var(--ink-muted);
+		}
+
+		.card-servings {
+			font-weight: 500;
+		}
+
+		.card-cta {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.25rem;
+			font-weight: 600;
+			color: var(--warm-900);
+			transition: color 160ms ease;
+		}
+
+		.card-cta svg {
+			width: 1rem;
+			height: 1rem;
+			transition: transform 160ms ease;
+		}
+
+		.recipe-card:hover .card-cta {
+			color: var(--brand-600);
+		}
+
+		.recipe-card:hover .card-cta svg {
+			transform: translateX(3px);
+		}
+
+		.card-hit {
+			position: absolute;
+			inset: 0;
+			z-index: 2;
+			border-radius: var(--radius-lg);
+			text-decoration: none;
+		}
+
+		.card-hit:focus-visible {
+			outline: 3px solid var(--brand-500);
+			outline-offset: -3px;
+			border-radius: var(--radius-lg);
+		}
+
+		.bookmark-btn:focus-visible {
+			outline-offset: 3px;
+		}
+
+		.recipe-card[hidden] {
+			display: none;
+		}
+
+		/* ------------------------------ load more ---------------------------- */
+
+		.load-more {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.75rem;
+			padding: 1rem 0 2.5rem;
+		}
+
+		.load-more-btn {
+			min-width: 17rem;
+			background: #fff;
+			border: 2px solid var(--warm-300);
+			font-weight: 700;
+		}
+
+		.load-more-btn:hover {
+			background: var(--warm-900);
+			border-color: var(--warm-900);
+			color: #fff;
+		}
+
+		.load-more-hint {
+			font-size: 0.75rem;
+			font-weight: 500;
+			color: var(--ink-faint);
+		}
+
+		/* ------------------------------ responsive --------------------------- */
+
+		@media (max-width: 1100px) {
 			.hero {
-				display: grid;
-				grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
-				gap: 1.5rem;
-				align-items: stretch;
-			}
-
-			.hero-copy,
-			.hero-panel,
-			.collection-card,
-			.mini-card,
-			.recipe-card {
-				background: rgba(255, 255, 255, 0.84);
-				backdrop-filter: blur(10px);
-				border: 1px solid rgba(102, 64, 32, 0.12);
-				box-shadow: 0 18px 50px rgba(58, 28, 12, 0.08);
-			}
-
-			.hero-copy {
-				border-radius: 2rem;
-				padding: 3rem;
-			}
-
-			.hero-panel {
-				border-radius: 2rem;
-				padding: 1.5rem;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-			}
-
-			.eyebrow {
-				margin: 0 0 0.75rem;
-				text-transform: uppercase;
-				letter-spacing: 0.18em;
-				font-size: 0.78rem;
-				color: #a4551d;
-				font-weight: 700;
-			}
-
-			h1,
-			h2,
-			h3,
-			p {
-				margin-top: 0;
-			}
-
-			h1 {
-				font-size: clamp(2.8rem, 6vw, 5rem);
-				line-height: 0.94;
-				max-width: 12ch;
-				margin-bottom: 1rem;
-			}
-
-			.lede {
-				font-size: 1.08rem;
-				line-height: 1.7;
-				max-width: 66ch;
-				color: #5d4638;
-			}
-
-			.hero-actions {
-				display: flex;
-				gap: 0.75rem;
-				flex-wrap: wrap;
-				margin-top: 1.5rem;
-			}
-
-			.hero-actions a,
-			.reset {
-				border-radius: 999px;
-				padding: 0.85rem 1.15rem;
-				border: 0;
-				font: inherit;
-				font-weight: 700;
-				text-decoration: none;
-				background: #2d160c;
-				color: #fff;
-			}
-
-			.hero-actions .secondary {
-				background: #f3e3d4;
-				color: #3a2012;
-			}
-
-			.panel-title {
-				font-size: 0.88rem;
-				font-weight: 700;
-				text-transform: uppercase;
-				letter-spacing: 0.12em;
-				color: #8a5d43;
-				margin-bottom: 1rem;
-			}
-
-			.stats {
-				display: grid;
-				grid-template-columns: repeat(2, minmax(0, 1fr));
-				gap: 0.75rem;
-			}
-
-			.stat-card {
-				padding: 1rem;
-				border-radius: 1.25rem;
-				background: #fff7f0;
-			}
-
-			.stat-card span {
-				display: block;
-				font-size: 2rem;
-				font-weight: 800;
-			}
-
-			.stat-card small {
-				text-transform: uppercase;
-				letter-spacing: 0.08em;
-				color: #7b5a49;
-				font-weight: 700;
-			}
-
-			.stat-card.accent {
-				background: linear-gradient(135deg, #2d160c, #70411f);
-				color: #fff;
-			}
-
-			.section {
-				margin-top: 3rem;
-			}
-
-			.section-heading {
-				display: flex;
-				justify-content: space-between;
-				gap: 1rem;
-				align-items: end;
-				margin-bottom: 1.25rem;
-			}
-
-			.section-heading p:last-child {
-				max-width: 52ch;
-				color: #6b5446;
-				margin-bottom: 0;
-			}
-
-			.panel-help {
-				margin: 1rem 0 0;
-				color: #6b5446;
-				line-height: 1.6;
-			}
-
-			.grid {
-				display: grid;
-				gap: 1rem;
-			}
-
-			.collections {
-				grid-template-columns: repeat(2, minmax(0, 1fr));
-			}
-
-			.collection-card,
-			.mini-card,
-			.recipe-card {
-				border-radius: 1.5rem;
-				padding: 1.25rem;
-			}
-
-			.mini-card {
-				display: grid;
-				gap: 0.8rem;
-				align-content: start;
-				text-decoration: none;
-				color: inherit;
-				transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
-			}
-
-			.mini-card:hover,
-			.mini-card:focus-visible {
-				transform: translateY(-2px);
-				box-shadow: 0 22px 56px rgba(58, 28, 12, 0.12);
-				border-color: rgba(164, 85, 29, 0.35);
-				outline: none;
-			}
-
-			.mini-card h3,
-			.mini-card p,
-			.mini-card .mini-meta {
-				color: inherit;
-			}
-
-			.mini-card h3 {
-				margin-bottom: 0.2rem;
-				text-decoration: none;
-			}
-
-			.chip-row {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 0.6rem;
-			}
-
-			.chip {
-				border: 1px solid rgba(45, 22, 12, 0.12);
-				background: #fff8f2;
-				border-radius: 999px;
-				padding: 0.7rem 0.9rem;
-				font: inherit;
-				font-weight: 650;
-				cursor: pointer;
-				display: inline-flex;
-				align-items: center;
-				gap: 0.45rem;
-			}
-
-			.chip span {
-				font-size: 0.82rem;
-				color: #8b6652;
-			}
-
-			.tag-chip {
-				background: #fff1fa;
-			}
-
-			.featured-recipes {
-				grid-template-columns: repeat(3, minmax(0, 1fr));
-				margin-top: 1rem;
-			}
-
-			.mini-label,
-			.time-pill {
-				font-size: 0.78rem;
-				text-transform: uppercase;
-				letter-spacing: 0.12em;
-				font-weight: 800;
-				color: #9d5b2c;
-			}
-
-			.mini-meta,
-			.meta-row {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 0.5rem;
-				color: #6d5547;
-				font-size: 0.95rem;
-			}
-
-			.filters {
-				display: grid;
-				grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr)) auto;
-				gap: 0.75rem;
-				align-items: end;
-				margin-bottom: 1rem;
-			}
-
-			.filters label {
-				display: grid;
-				gap: 0.35rem;
-				font-weight: 700;
-				color: #5e483c;
-			}
-
-			.filters input,
-			.filters select {
-				width: 100%;
-				border-radius: 0.95rem;
-				border: 1px solid rgba(102, 64, 32, 0.18);
-				padding: 0.9rem 1rem;
-				font: inherit;
-				background: #fff;
-				color: #241811;
+				grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
 			}
 
 			.recipe-grid {
-				column-width: 20rem;
-				column-gap: 1rem;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
+		}
+
+		@media (max-width: 860px) {
+			.hero {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		@media (max-width: 640px) {
+			.catalog {
+				padding-top: 1.25rem;
+				gap: 2rem;
 			}
 
-			.recipe-card {
-				display: block;
-				gap: 0.8rem;
-				margin: 0 0 1rem;
-				break-inside: avoid;
-				-webkit-column-break-inside: avoid;
-				page-break-inside: avoid;
-				overflow: hidden;
-				text-decoration: none;
-				color: inherit;
-				transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+			.recipe-grid {
+				grid-template-columns: 1fr;
 			}
 
-			.recipe-card:hover,
-			.recipe-card:focus-visible,
-			.recipe-link:hover,
-			.recipe-link:focus-visible {
-				transform: translateY(-2px);
-				box-shadow: 0 22px 56px rgba(58, 28, 12, 0.12);
-				border-color: rgba(164, 85, 29, 0.35);
-				outline: none;
+			.hero h1 {
+				font-size: clamp(1.85rem, 8vw, 2.4rem);
 			}
 
-			.recipe-card h3,
-			.mini-card h3 {
-				margin-top: 0;
-				margin-bottom: 0.25rem;
+			.result-bar {
+				font-size: 0.6875rem;
 			}
 
-			.recipe-description,
-			.meta-block p,
-			.mini-card p:last-child {
-				color: #604d42;
-				line-height: 1.65;
+			.badge {
+				font-size: 0.625rem;
 			}
-
-			.recipe-card-top {
-				display: flex;
-				justify-content: space-between;
-				gap: 1rem;
-				align-items: start;
-			}
-
-			.time-pill {
-				background: #f4e6d8;
-				padding: 0.45rem 0.7rem;
-				border-radius: 999px;
-				white-space: nowrap;
-			}
-
-			.meta-block strong {
-				display: block;
-				font-size: 0.88rem;
-				text-transform: uppercase;
-				letter-spacing: 0.1em;
-				color: #8c6857;
-				margin-bottom: 0.15rem;
-			}
-
-			.recipe-card[hidden] {
-				display: none;
-			}
-
-			.pagination-container {
-				margin-top: 2rem;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				gap: 1rem;
-			}
-
-			.load-more-btn {
-				border-radius: 999px;
-				padding: 0.85rem 1.75rem;
-				border: 1px solid rgba(102, 64, 32, 0.2);
-				font: inherit;
-				font-weight: 700;
-				cursor: pointer;
-				background: #f4e6d8;
-				color: #2d160c;
-				transition: background 140ms ease, transform 140ms ease;
-			}
-
-			.load-more-btn:hover,
-			.load-more-btn:focus-visible {
-				background: #e9d5c3;
-				transform: translateY(-1px);
-				outline: none;
-			}
-
-			.load-more-btn[hidden] {
-				display: none;
-			}
-
-			.scroll-sentinel {
-				height: 10px;
-				width: 100%;
-			}
-
-			@media (max-width: 980px) {
-				.hero,
-				.collections,
-				.featured-recipes,
-				.filters {
-					grid-template-columns: 1fr;
-				}
-
-				.section-heading {
-					align-items: start;
-					flex-direction: column;
-				}
-			}
-
-			@media (max-width: 720px) {
-				.shell {
-					padding-inline: 0.85rem;
-					padding-top: 1rem;
-				}
-
-				.recipe-grid {
-					columns: 1;
-				}
-
-				.site-footer {
-					padding-inline: 0.85rem;
-				}
-
-				.hero-copy,
-				.hero-panel {
-					padding: 1.25rem;
-				}
-
-				h1 {
-					font-size: clamp(2.3rem, 12vw, 3.6rem);
-				}
-			}
-		</style>
-	</body>
-</html>
+		}
+	</style>
+</SiteLayout>
