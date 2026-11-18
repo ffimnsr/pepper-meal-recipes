@@ -148,5 +148,27 @@ const navItems = [
 				window.addEventListener('pageshow', sync);
 			})();
 		</script>
+
+		<script is:inline>
+			// Keep --header-height in sync with the real header box so sticky rows
+			// (action bar, filters, sidebar) never slide underneath it.
+			(() => {
+				const header = document.querySelector('.site-header');
+				if (!header) return;
+
+				const root = document.documentElement;
+				const sync = () => {
+					const height = header.getBoundingClientRect().height;
+					if (height > 0) root.style.setProperty('--header-height', `${height}px`);
+				};
+
+				sync();
+				if ('ResizeObserver' in window) {
+					new ResizeObserver(sync).observe(header);
+				} else {
+					window.addEventListener('resize', sync);
+				}
+			})();
+		</script>
 	</body>
 </html>
